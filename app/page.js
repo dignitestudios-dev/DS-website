@@ -58,7 +58,6 @@ export default function Home() {
       }}
     >
       <div className="overflow-x-hidden w-full h-auto flex flex-col justify-start items-center gap-4">
-        <Cursor />
         <Navbar />
         <Hero />
 

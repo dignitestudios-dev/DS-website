@@ -23,7 +23,8 @@ const ServicesSection = () => {
               count={key}
               title={s.title}
               desc={s.description}
-              icon={s.icon}
+              light_icon={s.icon_white}
+              dark_icon={s.icon_dark}
             />
           );
         })}

@@ -1,12 +1,17 @@
 'use client'
 
 import { GlobalContext } from "@/context/GlobalContext";
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 
 
-const ServiceCard = ({ title, desc, icon, count }) => {
-  const [hover, setHover] = useState(false);
+const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
   const { theme, mouseCursor, disableMouseCursor } = useContext(GlobalContext);
+  const [hoverImage, setHoverImage] = useState(dark_icon);
+
+  useEffect(() => {
+    setHoverImage(theme == "light" ? dark_icon : light_icon)
+  }, [theme])
+
 
   return (
     <div
@@ -23,14 +28,14 @@ const ServiceCard = ({ title, desc, icon, count }) => {
         mouseCursor("Checking", e);
       }}
       onMouseOver={(e) => {
-        setHover(true);
+        setHoverImage(light_icon);
       }}
       onMouseOut={() => {
-        setHover(false);
+        setHoverImage(theme == "light" ? dark_icon : light_icon);
         disableMouseCursor();
       }}
     >
-      <img src={icon} alt="UIUX" className="text-white" />
+      <img src={hoverImage} alt="UIUX" className="text-white" />
       {/* {hover && <span>fjef</span>} */}
       <h1
         className={`font-bold text-[26px] ${theme == "dark"

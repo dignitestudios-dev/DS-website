@@ -4,7 +4,7 @@ const Cursor = () => {
   return (
     <div
       id="cursor"
-      className="hidden fixed  justify-center items-center w-24 z-[2000] h-8 rounded-full text-white bg-orange-500"
+      className="hidden fixed  justify-center items-center w-24 z-[2000] h-7 rounded-full text-white bg-[#F15C20]"
     >
       cursor
     </div>
