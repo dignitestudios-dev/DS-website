@@ -2,7 +2,7 @@
 import Navbar from '@/components/global/Navbar'
 import { GlobalContext } from '@/context/GlobalContext'
 import Image from 'next/image'
-import { useContext, useEffect } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import CaseStudiesSection from '@/components/Home/CaseStudiesSection'
 import Faq from '@/components/Home/Faq'
 import FindOurOfficesSection from '@/components/Home/FindOurOfficesSection'
@@ -18,6 +18,7 @@ import Testimonials from '@/components/Home/Testimonials'
 import WhyChooseUsSection from '@/components/Home/WhyChooseUsSection'
 import Cursor from '@/components/global/Cursor'
 import FixedSocials from '@/components/global/FixedSocials'
+import Sidebar from '@/components/global/Sidebar'
 
 export default function Home() {
   const { palette } = useContext(GlobalContext)
@@ -49,6 +50,9 @@ export default function Home() {
       });
     }
   });
+
+  // Sidebar states and ref:
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   return (
     <div
       className="w-full transition-all duration-700"
@@ -57,8 +61,9 @@ export default function Home() {
         color: palette?.color,
       }}
     >
+      <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
       <div className="overflow-x-hidden w-full h-auto flex flex-col justify-start items-center gap-4">
-        <Navbar />
+        <Navbar setIsOpen={setIsSidebarOpen} />
         <Hero />
 
         <div className="scroller relative w-full h-96" data-speed="fast">

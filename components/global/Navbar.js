@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { GlobalContext } from "@/context/GlobalContext";
 
 
-const Navbar = () => {
+const Navbar = ({ setIsOpen }) => {
   const { theme, setTheme } = useContext(GlobalContext);
   return (
     <div
@@ -31,7 +31,7 @@ const Navbar = () => {
           </span>
         </button>
 
-        <button>
+        <button onClick={() => setIsOpen(true)}>
           <img src={theme == "light" ? "hamburger.png" : "menu-dark.png"} />
         </button>
       </div>

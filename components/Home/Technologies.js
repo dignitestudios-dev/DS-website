@@ -12,24 +12,12 @@ const Technologies = () => {
       gray: "/flutter-gray.png",
     },
     {
-      color: "/ai-color.png",
-      gray: "/ai-gray.png",
-    },
-    {
       color: "/swift-color.png",
       gray: "/swift-gray.png",
     },
     {
-      color: "/figma-color.png",
-      gray: "/figma-gray.png",
-    },
-    {
       color: "/vue-color.png",
       gray: "/vue-gray.png",
-    },
-    {
-      color: "/ps-color.png",
-      gray: "/ps-gray.png",
     },
     {
       color: "/react-color.png",
@@ -39,6 +27,19 @@ const Technologies = () => {
       color: "/tailwind-color.png",
       gray: "/tailwind-gray.png",
     },
+    {
+      color: "/figma-color.png",
+      gray: "/figma-gray.png",
+    },
+    {
+      color: "/ai-color.png",
+      gray: "/ai-gray.png",
+    },
+    {
+      color: "/ps-color.png",
+      gray: "/ps-gray.png",
+    },
+
   ];
   return (
     <div
