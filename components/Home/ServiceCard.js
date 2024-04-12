@@ -24,15 +24,12 @@ const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
               ? "lg:border-b"
               : count == 4 && "lg:border-r lg:border-l"
         }`}
-      onMouseMove={(e) => {
-        mouseCursor("Checking", e);
-      }}
+
       onMouseOver={(e) => {
         setHoverImage(light_icon);
       }}
       onMouseOut={() => {
         setHoverImage(theme == "light" ? dark_icon : light_icon);
-        disableMouseCursor();
       }}
     >
       <img src={hoverImage} alt="UIUX" className="text-white" />

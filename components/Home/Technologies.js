@@ -10,34 +10,49 @@ const Technologies = () => {
     {
       color: "/flutter-color.png",
       gray: "/flutter-gray.png",
+      name: "Flutter"
     },
     {
       color: "/swift-color.png",
       gray: "/swift-gray.png",
+      name: "Swift"
+
     },
     {
       color: "/vue-color.png",
       gray: "/vue-gray.png",
+      name: "Vue"
+
     },
     {
       color: "/react-color.png",
       gray: "/react-gray.png",
+      name: "React"
+
     },
     {
       color: "/tailwind-color.png",
       gray: "/tailwind-gray.png",
+      name: "Tailwind"
+
     },
     {
       color: "/figma-color.png",
       gray: "/figma-gray.png",
+      name: "Figma"
+
     },
     {
       color: "/ai-color.png",
       gray: "/ai-gray.png",
+      name: "Adobe Illustrator"
+
     },
     {
       color: "/ps-color.png",
       gray: "/ps-gray.png",
+      name: "Photoshop"
+
     },
 
   ];

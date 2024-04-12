@@ -16,8 +16,8 @@ export const GlobalContextProvider = ({ children }) => {
       const mouseY = e.clientY;
       const mouseX = e.clientX;
 
-      cursor.style.transform = `translate3d(${mouseX + 20}px, ${
-        mouseY + 10
+      cursor.style.transform = `translate3d(${mouseX + 25}px, ${
+        mouseY + 20
       }px, 0)`;
     };
 

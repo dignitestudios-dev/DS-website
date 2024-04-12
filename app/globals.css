@@ -36,6 +36,11 @@ body {
   cursor: url("../public/cursor.png"), auto;
 }
 
+
+a, button, input{
+  cursor: url("../public/cursor.png"), auto !important;
+}
+
 /***** Slide Left *****/
 .slide-left {
   animation: 10s slide-left infinite forwards linear;

@@ -41,14 +41,14 @@ const Footer = () => {
 
       <div className="w-full h-auto grid grid-cols-2 lg:grid-cols-3  gap-2">
         <div className=" uppercase text-md lg:text-lg font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
-          <Link href="/">Home</Link>
-          <Link href="/">Services</Link>
-          <Link href="/">Case Study</Link>
+          <Link href="/" className="hover:text-orange-500">Home</Link>
+          <Link href="/" className="hover:text-orange-500">Services</Link>
+          <Link href="/" className="hover:text-orange-500">Case Study</Link>
         </div>
         <div className=" uppercase text-md lg:text-lg font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
-          <Link href="/">Testimonials</Link>
-          <Link href="/">Terms & Conditions</Link>
-          <Link href="/">Privacy Policy</Link>
+          <Link href="/" className="hover:text-orange-500">Testimonials</Link>
+          <Link href="/" className="hover:text-orange-500">Terms & Conditions</Link>
+          <Link href="/" className="hover:text-orange-500">Privacy Policy</Link>
         </div>
         <div className=" h-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-3 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
           <span>Subscribe</span>
