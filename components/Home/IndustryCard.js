@@ -8,10 +8,10 @@ const IndustryCard = ({ industry }) => {
   return (
     <div
       style={{ background: industry?.bgColor }}
-      className={`group flex flex-col justify-center items-start gap-3  rounded-xl p-5`}
+      className={`group flex flex-col justify-center items-start gap-4  rounded-2xl py-6 px-8`}
     >
       <img src={industry?.image} alt="" className="" />
-      <h5 className="text-xl font-semibold" style={{ color: palette?.color }}>
+      <h5 className="text-xl font-bold" style={{ color: palette?.color }}>
         {industry?.title}
       </h5>
       <p

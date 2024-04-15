@@ -63,7 +63,7 @@ export const GlobalContextProvider = ({ children }) => {
         dark_contrast_background: "#fdfdfd",
         light_contrast_background: "#e7e7e7",
         color: "#000",
-        dark_contrast_color: "#B4B4B4",
+        dark_contrast_color: "#5C5C5C",
         light_contrast_color: "#8f8f8f",
       });
     }

@@ -16,7 +16,7 @@ const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
   return (
     <div
       className={`group flex flex-col ${theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-        } justify-center items-start gap-3 py-3 px-3 lg:p-6 hover:bg-[#F15C20]  transition-all duration-150 ${count == 0
+        } justify-center items-start gap-4 py-3 px-3 lg:p-8 hover:bg-[#F15C20]  transition-all duration-150 ${count == 0
           ? "lg:border-b "
           : count == 1
             ? "lg:border-b lg:border-r lg:border-l "
@@ -43,7 +43,7 @@ const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
         {title}
       </h1>
       <p
-        className={`text-xs  leading-[18.83px] ${theme == "dark"
+        className={`text-sm  leading-[18.83px] ${theme == "dark"
           ? "text-gray-400 group-hover:text-gray-200"
           : "text-black group-hover:text-gray-200"
           }`}

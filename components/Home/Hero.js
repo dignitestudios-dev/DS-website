@@ -26,7 +26,7 @@ const Hero = () => {
       </h1>
       <span
         style={{
-          color: palette?.light_contrast_color,
+          color: palette?.dark_contrast_color,
         }}
         className=" text-center my-2 lg:my-6 text-[16px] lg:text-[19px] font-normal"
       >
@@ -35,6 +35,7 @@ const Hero = () => {
       </span>
       <div className="w-auto flex gap-4 justify-center items-center">
         <button
+          name="schedule-a-meeting"
           style={{
             background: palette?.brandOrange,
             color: "white",
@@ -44,6 +45,7 @@ const Hero = () => {
           Schedule a meeting
         </button>
         <button
+          name="call-us"
           style={{
             border: `2px solid ${palette?.brandOrange}`,
             color: palette?.brandOrange,

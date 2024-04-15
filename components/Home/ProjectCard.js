@@ -16,7 +16,7 @@ const ProjectCard = ({ title, description, image, projectLink }) => {
       className="group  h-auto lg:h-[450px] p-3 lg:p-0 flex flex-col items-start gap-2 lg:mb-12 relative">
       <img
         src={image}
-        alt=""
+        alt={title}
         className="w-full  rounded-3xl h-[220px] lg:h-[360px]  hover:brightness-80 transition-all duration-700"
       />
 

@@ -23,7 +23,7 @@ const CaseStudiesSection = () => {
           >
             case studies
           </h1>
-          <button className="w-[120px] lg:w-[206px] h-12 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90 bg-[#F15C20] shadow-xl text-white text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center gap-4">
+          <button name="view-all-case-studies" className="w-[120px] lg:w-[206px] h-12 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90 bg-[#F15C20] shadow-xl text-white text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center gap-4">
             All Cases <img src={"/arrow-up.png"} alt="arrow" className="w-3" />
           </button>
         </div>
@@ -33,7 +33,7 @@ const CaseStudiesSection = () => {
         style={{
           borderTop: `2px solid ${palette?.light_contrast_background}`,
         }}
-        className={`w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-4 md:gap-x-14 mt-4 lg:mt-12 ${styles.paddingHorizontal}`}
+        className={`w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-4 md:gap-x-20 mt-4 lg:mt-12 ${styles.paddingHorizontal}`}
       >
         {casestudies.map((c, index) => {
           return (

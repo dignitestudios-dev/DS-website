@@ -29,6 +29,8 @@ const Footer = () => {
       </span>
 
       <button
+        name="call-now-btn"
+
         style={{
           background: `${palette?.brandRed}`,
           color: "white",

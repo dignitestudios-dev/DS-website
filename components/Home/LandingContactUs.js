@@ -19,7 +19,7 @@ const LandingContactUs = () => {
             className="w-full h-full rounded-3xl lg:rounded-none"
           />
         </div>
-        <div className="w-full h-full flex px-8 py-10 flex-col justify-start items-start gap-5">
+        <div className="w-full h-full flex px-8 py-10 flex-col justify-start items-start gap-8">
           <h1
             className="text-[32px] font-bold"
             style={{ color: palette?.color }}
@@ -95,6 +95,7 @@ const LandingContactUs = () => {
             </div>
 
             <button
+              name="submit-contact-us-form"
               className="w-[134px] h-[64px] rounded-full flex items-center font-semibold justify-center"
               style={{ background: palette?.brandOrange, color: "white" }}
             >

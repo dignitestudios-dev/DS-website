@@ -5,6 +5,7 @@
 
 /*  */
 
+
 /* / width /  */
 ::-webkit-scrollbar {
   width: 6px;
@@ -66,7 +67,7 @@ a, button, input{
 .flip-vertical-left:hover {
   -webkit-animation: flip-vertical-left 0.4s
     cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
-  animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+  animation: flip-vertical-left 1s cubic-bezier(0.455, 0.03, 0.515, 0.955)
     forwards;
 }
 
@@ -77,8 +78,8 @@ a, button, input{
   }
 
   100% {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
   }
   
 
@@ -94,8 +95,8 @@ a, button, input{
   }
 
   100% {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
   }
 }
 
@@ -143,3 +144,16 @@ a, button, input{
     transform: translate(calc(-50% - 0.5rem));
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

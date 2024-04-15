@@ -41,6 +41,7 @@ const Faq = () => {
             aria-controls="accordion-collapse-body-1"
           >
             <button
+              name="faq-question"
               className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 1 ? "text-[#F15C20]" : "text-[#7D7D7D]"
                 } gap-3`}
             >
@@ -90,6 +91,7 @@ const Faq = () => {
             aria-controls="accordion-collapse-body-1"
           >
             <button
+              name="faq-question"
               className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 2 ? "text-[#F15C20]" : "text-[#7D7D7D]"
                 } gap-3`}
             >
@@ -139,6 +141,7 @@ const Faq = () => {
             aria-controls="accordion-collapse-body-1"
           >
             <button
+              name="faq-question"
               className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 3 ? "text-[#F15C20]" : "text-[#7D7D7D]"
                 } gap-3`}
             >
@@ -188,6 +191,7 @@ const Faq = () => {
             aria-controls="accordion-collapse-body-1"
           >
             <button
+              name="faq-question"
               className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 4 ? "text-[#F15C20]" : "text-[#7D7D7D]"
                 } gap-3`}
             >

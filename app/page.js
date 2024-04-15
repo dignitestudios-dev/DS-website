@@ -19,37 +19,47 @@ import WhyChooseUsSection from '@/components/Home/WhyChooseUsSection'
 import Cursor from '@/components/global/Cursor'
 import FixedSocials from '@/components/global/FixedSocials'
 import Sidebar from '@/components/global/Sidebar'
+import ParallaxText from '@/components/Home/ParallaxText'
+import { IoArrowUpSharp } from "react-icons/io5";
 
 export default function Home() {
   const { palette } = useContext(GlobalContext)
-  useEffect(() => {
-    const scrollers = document.querySelectorAll(".scroller");
+  // useEffect(() => {
+  //   const scrollers = document.querySelectorAll(".scroller");
 
-    // If a user hasn't opted in for recuded motion, then we add the animation
-    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      addAnimation();
-    }
+  //   // If a user hasn't opted in for recuded motion, then we add the animation
+  //   if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  //     addAnimation();
+  //   }
 
-    function addAnimation() {
-      scrollers.forEach((scroller) => {
-        // add data-animated="true" to every `.scroller` on the page
-        scroller.setAttribute("data-animated", true);
+  //   function addAnimation() {
+  //     scrollers.forEach((scroller) => {
+  //       // add data-animated="true" to every `.scroller` on the page
+  //       scroller.setAttribute("data-animated", true);
 
-        // Make an array from the elements within `.scroller-inner`
-        const scrollerInner = scroller.querySelector(".scroller__inner");
-        const scrollerContent = Array.from(scrollerInner.children);
+  //       // Make an array from the elements within `.scroller-inner`
+  //       const scrollerInner = scroller.querySelector(".scroller__inner");
+  //       const scrollerContent = Array.from(scrollerInner.children);
 
-        // For each item in the array, clone it
-        // add aria-hidden to it
-        // add it into the `.scroller-inner`
-        scrollerContent.forEach((item) => {
-          const duplicatedItem = item.cloneNode(true);
-          duplicatedItem.setAttribute("aria-hidden", true);
-          scrollerInner.appendChild(duplicatedItem);
-        });
-      });
-    }
-  });
+  //       // For each item in the array, clone it
+  //       // add aria-hidden to it
+  //       // add it into the `.scroller-inner`
+  //       scrollerContent.forEach((item) => {
+  //         const duplicatedItem = item.cloneNode(true);
+  //         duplicatedItem.setAttribute("aria-hidden", true);
+  //         item.length > 12 && item.remove()
+  //         scrollerInner.appendChild(duplicatedItem);
+  //       });
+  //     });
+  //   }
+  // });
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Optional: smooth scroll behavior
+    });
+  }
 
   // Sidebar states and ref:
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
@@ -66,9 +76,10 @@ export default function Home() {
         <Navbar setIsOpen={setIsSidebarOpen} />
         <Hero />
 
-        <div className="scroller relative w-full h-96" data-speed="fast">
+        <div className="scroller relative w-full h-96" data-speed="fast" data-animated="true">
           <Slider />
         </div>
+
         <Technologies />
         <CaseStudiesSection />
         <ServicesSection />
@@ -81,6 +92,12 @@ export default function Home() {
         <FindOurOfficesSection />
         <Footer />
         <FixedSocials />
+        <button name='scroll-to-top' onClick={scrollToTop} className='shadow-lg text-2xl flex justify-center items-center w-14 h-14 rounded-full  text-white fixed bottom-4 right-4' style={{
+          background: palette?.brandOrange,
+          color: "white"
+        }}>
+          <IoArrowUpSharp />
+        </button>
       </div>
     </div>
   )

@@ -28,7 +28,7 @@ const Testimonials = () => {
         }}
       />
       <div
-        className={`w-full slide-left grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-4 lg:pt-6 gap-10`}
+        className={`w-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-4 lg:pt-6 gap-10`}
       >
         {reviews.map((review, index) => {
           return <TestimonialCard review={review} key={index} />;
