@@ -56,10 +56,10 @@ export default function HomePage() {
     }
 
     return (
-        <>
+        <div className='w-full overflow-x-hidden'>
             <Hero />
 
-            <div className="scroller relative w-full h-96" data-speed="fast" data-animated="true">
+            <div className="scroller relative w-full h-96 " data-speed="fast" data-animated="true">
                 <Slider />
             </div>
 
@@ -80,7 +80,7 @@ export default function HomePage() {
             }}>
                 <IoArrowUpSharp />
             </button>
-        </>
+        </div>
 
     )
 }
