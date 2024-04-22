@@ -1,9 +1,37 @@
-'use client'
+"use client";
 
 import { offices } from "@/constants/findouroffices";
 import { GlobalContext } from "@/context/GlobalContext";
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import FindOurOfficeCard from "./FindOurOfficeCard";
+import FindOurOfficesSwiper from "./FindOurOfficesSwiper";
+
+
+export const sliderSettings = {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  centeredSlides: true,
+  autoplay: {
+    delay: 1500,
+  },
+  loop: true,
+  breakpoints: {
+    480: {
+      slidesPerView: 1,
+    },
+    600: {
+      slidesPerView: 1,
+    },
+
+    750: {
+      slidesPerView: 3,
+    },
+
+    1100: {
+      slidesPerView: 4,
+    },
+  },
+};
 
 const FindOurOfficesSection = () => {
   const { palette } = useContext(GlobalContext);
@@ -19,11 +47,15 @@ const FindOurOfficesSection = () => {
       </h1>
 
       <div
-        className={`w-full lg:w-[70%] h-auto my-5   flex justify-center items-start `}
+        className={`w-full lg:w-[70%] h-auto my-5 flex justify-center items-start `}
       >
-        {offices.map((office, index) => (
-          <FindOurOfficeCard office={office} key={index} />
-        ))}
+        <FindOurOfficesSwiper />
+
+        <div className="w-full h-auto hidden lg:flex justify-center items-start">
+          {offices.map((office, index) => (
+            <FindOurOfficeCard office={office} key={index} />
+          ))}
+        </div>
       </div>
     </div>
   );

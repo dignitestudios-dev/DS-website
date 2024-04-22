@@ -64,6 +64,11 @@ import Office6 from "./office-2.png";
 import Office7 from "./office-3.png";
 import Office8 from "./office-4.png";
 
+import Pakistan from "./pakistan.png";
+import Dubai from "./dubai.png";
+import Wyoming from "./wyoming.png";
+import Florida from "./florida.png";
+
 export {
   React,
   Logo,
@@ -125,5 +130,9 @@ export {
   Office5,
   Office6,
   Office7,
-  Office8
+  Office8,
+  Pakistan,
+  Dubai,
+  Florida,
+  Wyoming,
 };

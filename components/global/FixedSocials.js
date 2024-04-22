@@ -12,7 +12,7 @@ const FixedSocials = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div
-      className={`fixed top-[35%] right-2 lg:right-4 w-14 lg:w-16 h-auto p-4 flex flex-col gap-3 justify-start items-center rounded-full  ${theme == "light" ? "bg-[#E7E7E7]/[0.4]" : "bg-[#393939]/[0.6]"
+      className={`fixed top-[35%] right-2 lg:right-4 w-14 lg:w-16 h-auto p-4 z-[1000000] flex flex-col gap-3 justify-start items-center rounded-full  ${theme == "light" ? "bg-[#E7E7E7]/[0.4]" : "bg-[#393939]/[0.6]"
         }        `}
     >
       <Link
