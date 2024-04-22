@@ -4,9 +4,10 @@ import React, { useContext, useState, useRef } from "react";
 import { GlobalContext } from "../../context/GlobalContext";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import ProcessContainer from "./ProcessContainer";
+import Link from "next/link";
 
 const Process = () => {
-  const { palette } = useContext(GlobalContext);
+  const { palette, theme } = useContext(GlobalContext);
   const [openedTab, setOpenedTab] = useState(1);
 
   return (
@@ -38,7 +39,7 @@ const Process = () => {
             <span
               className={`w-9 h-9  rounded-full flex justify-center items-center   ${openedTab == 1
                 ? "bg-[#F15C20]/[0.08] -rotate-0"
-                : "bg-[#E7E7E7] -rotate-90"
+                : theme == "light" ? "bg-[#E7E7E7] -rotate-90" : "bg-[#1c1c1c] -rotate-90"
                 }`}
             >
               <MdKeyboardArrowDown className="text-2xl" />
@@ -57,7 +58,7 @@ const Process = () => {
             <span
               className={`w-9 h-9  rounded-full flex justify-center items-center   ${openedTab == 2
                 ? "bg-[#F15C20]/[0.08] -rotate-0"
-                : "bg-[#E7E7E7] -rotate-90"
+                : theme == "light" ? "bg-[#E7E7E7] -rotate-90" : "bg-[#1c1c1c] -rotate-90"
                 }`}
             >
               <MdKeyboardArrowDown className="text-2xl" />
@@ -76,7 +77,7 @@ const Process = () => {
             <span
               className={`w-9 h-9  rounded-full flex justify-center items-center   ${openedTab == 3
                 ? "bg-[#F15C20]/[0.08] -rotate-0"
-                : "bg-[#E7E7E7] -rotate-90"
+                : theme == "light" ? "bg-[#E7E7E7] -rotate-90" : "bg-[#1c1c1c] -rotate-90"
                 }`}
             >
               <MdKeyboardArrowDown className="text-2xl" />
@@ -86,7 +87,8 @@ const Process = () => {
         </div>
 
         <ProcessContainer />
-        <button
+        <Link
+          href="/contact-us"
           name="start-your-project"
           style={{
             background: palette?.brandOrange,
@@ -95,7 +97,7 @@ const Process = () => {
           className="w-[150px] lg:w-[206px] h-14 lg:h-20 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-lg font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
         >
           Start Your Project
-        </button>
+        </Link>
       </div>
     </div>
   );

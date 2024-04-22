@@ -1,8 +1,10 @@
 'use client'
 
-import React, { useRef } from "react";
+import { GlobalContext } from "@/context/GlobalContext";
+import React, { useContext, useRef } from "react";
 
 const ProcessContainer = () => {
+  const { palette } = useContext(GlobalContext)
   return (
     <div className="w-full my-6 px-2 lg:px-10 h-auto flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
       <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
@@ -13,10 +15,10 @@ const ProcessContainer = () => {
           <h2 className="text-[48px] font-bold capitalize leading-[4.2rem]">
             think tank
           </h2>
-          <h3 className="text-[#8f8f8f]  capitalize text-[36px] leading-[3.8rem] font-medium">
+          <h3 style={{ color: palette?.dark_contrast_color }} className="  capitalize text-[36px] leading-[3.8rem] font-medium">
             planning & research
           </h3>
-          <p className="text-[14px] font-normal  text-[#8f8f8f]">
+          <p className="text-[14px] font-normal  " style={{ color: palette?.light_contrast_color }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
             Maecenas vel facilisis metus, consequat congue nibh. Nulla
@@ -31,10 +33,10 @@ const ProcessContainer = () => {
           <h2 className="text-[48px] font-bold capitalize leading-[4.2rem]">
             think tank
           </h2>
-          <h3 className="text-[#8f8f8f]  capitalize text-[36px] leading-[3.8rem] font-medium">
+          <h3 style={{ color: palette?.dark_contrast_color }} className="  capitalize text-[36px] leading-[3.8rem] font-medium">
             planning & research
           </h3>
-          <p className="text-[14px] font-normal  text-[#8f8f8f]">
+          <p className="text-[14px] font-normal  " style={{ color: palette?.light_contrast_color }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
             Maecenas vel facilisis metus, consequat congue nibh. Nulla
@@ -49,10 +51,10 @@ const ProcessContainer = () => {
           <h2 className="text-[48px] font-bold capitalize leading-[4.2rem]">
             think tank
           </h2>
-          <h3 className="text-[#8f8f8f]  capitalize text-[36px] leading-[3.8rem] font-medium">
+          <h3 style={{ color: palette?.dark_contrast_color }} className="  capitalize text-[36px] leading-[3.8rem] font-medium">
             planning & research
           </h3>
-          <p className="text-[14px] font-normal  text-[#8f8f8f]">
+          <p className="text-[14px] font-normal  " style={{ color: palette?.light_contrast_color }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
             Maecenas vel facilisis metus, consequat congue nibh. Nulla
@@ -104,10 +106,10 @@ const ProcessContainer = () => {
           <h2 className="text-[48px] font-bold capitalize leading-[4.2rem]">
             think tank
           </h2>
-          <h3 className="text-[#8f8f8f]  capitalize text-[36px] leading-[3.8rem] font-medium">
+          <h3 style={{ color: palette?.dark_contrast_color }} className="  capitalize text-[36px] leading-[3.8rem] font-medium">
             planning & research
           </h3>
-          <p className="text-[14px] font-normal  text-[#8f8f8f]">
+          <p className="text-[14px] font-normal  " style={{ color: palette?.light_contrast_color }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
             Maecenas vel facilisis metus, consequat congue nibh. Nulla
@@ -122,10 +124,10 @@ const ProcessContainer = () => {
           <h2 className="text-[48px] font-bold capitalize leading-[4.2rem]">
             think tank
           </h2>
-          <h3 className="text-[#8f8f8f]  capitalize text-[36px] leading-[3.8rem] font-medium">
+          <h3 style={{ color: palette?.dark_contrast_color }} className="  capitalize text-[36px] leading-[3.8rem] font-medium">
             planning & research
           </h3>
-          <p className="text-[14px] font-normal  text-[#8f8f8f]">
+          <p className="text-[14px] font-normal  " style={{ color: palette?.light_contrast_color }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
             Maecenas vel facilisis metus, consequat congue nibh. Nulla
@@ -140,10 +142,10 @@ const ProcessContainer = () => {
           <h2 className="text-[48px] font-bold capitalize leading-[4.2rem]">
             think tank
           </h2>
-          <h3 className="text-[#8f8f8f]  capitalize text-[36px] leading-[3.8rem] font-medium">
+          <h3 style={{ color: palette?.dark_contrast_color }} className="  capitalize text-[36px] leading-[3.8rem] font-medium">
             planning & research
           </h3>
-          <p className="text-[14px] font-normal  text-[#8f8f8f]">
+          <p className="text-[14px] font-normal  " style={{ color: palette?.light_contrast_color }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
             Maecenas vel facilisis metus, consequat congue nibh. Nulla
