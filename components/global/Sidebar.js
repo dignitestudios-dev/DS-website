@@ -14,7 +14,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
     return (
         <div onClick={(e) => toggleModal(e)} className={`w-screen h-screen z-[10000]  transition-all duration-300 fixed top-0 left-0 flex items-start justify-end  ${isOpen ? "translate-x-0" : "translate-x-full"
             }`}>
-            <div ref={sidebarRef} className='w-1/2 h-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col justify-start items-start py-6 px-10  ' style={{ background: palette?.background }}>
+            <div ref={sidebarRef} className='w-[70%] h-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col justify-start items-start py-6 px-10  ' style={{ background: palette?.background }}>
                 <Link href="/">
                     <img src={theme == "light" ? "/logo.png" : "logo-dark.png"} />
                 </Link>

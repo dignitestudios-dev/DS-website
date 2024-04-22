@@ -1,10 +1,45 @@
-'use client'
+"use client";
 
 import React, { useContext } from "react";
 import { styles } from "../../styles/styles";
 import { GlobalContext } from "@/context/GlobalContext";
 import { reviews } from "@/constants/reviews";
 import TestimonialCard from "./TestimonialCard";
+
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+export const sliderSettings = {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 3000,
+  },
+  loop: true,
+  breakpoints: {
+    480: {
+      slidesPerView: 1,
+    },
+    600: {
+      slidesPerView: 1,
+    },
+
+    750: {
+      slidesPerView: 2,
+    },
+
+    900:{
+      slidesPerView: 2,
+    },
+    1100: {
+      slidesPerView: 3,
+    },
+  },
+};
 
 const Testimonials = () => {
   const { palette } = useContext(GlobalContext);
@@ -27,15 +62,29 @@ const Testimonials = () => {
           background: `${palette?.light_contrast_background}`,
         }}
       />
+
       <div
-        className={`w-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-4 lg:pt-6 gap-10`}
+        className={`w-full pt-4 lg:pt-6 gap-10`}
       >
-        {reviews.map((review, index) => {
+        <Swiper
+          {...sliderSettings}
+          modules={[Autoplay]}
+          className=""
+        >
+          {reviews.map((review, index) => {
+            return (
+              <SwiperSlide key={index} className="">
+                <TestimonialCard review={review} key={index} />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+        {/* {reviews.map((review, index) => {
           return <TestimonialCard review={review} key={index} />;
-        })}
+        })} */}
       </div>
     </div>
   );
 };
 
-export default Testimonials;
+export default Testimonials
