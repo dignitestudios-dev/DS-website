@@ -32,7 +32,7 @@ const Navbar = ({ setIsOpen }) => {
         </button>
 
         <button onClick={() => setIsOpen(true)} className="h-4 lg:h-auto">
-          <img src={theme == "light" ? "hamburger.png" : "menu-dark.png"} className="h-full"/>
+          <img src={theme == "light" ? "hamburger.png" : "menu-dark.png"} className="h-full" />
         </button>
       </div>
     </div>

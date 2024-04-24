@@ -15,7 +15,7 @@ const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
 
   return (
     <div
-      className={`group flex flex-col ${theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
+      className={`group flex flex-col ${theme == "dark" ? "border-[#434343]" : "border-gray-200"
         } justify-center items-start gap-4 py-3 px-3 lg:p-8 hover:bg-[#F15C20]  transition-all duration-150 ${count == 0
           ? "lg:border-b "
           : count == 1

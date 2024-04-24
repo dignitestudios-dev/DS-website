@@ -3,6 +3,7 @@ import { GlobalContext } from '@/context/GlobalContext';
 import Link from 'next/link';
 import React, { useContext } from 'react'
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
 const ServicesHero = () => {
   const { palette } = useContext(GlobalContext);
@@ -16,7 +17,7 @@ const ServicesHero = () => {
           }}
           className="lg:block hidden text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase"
         >
-          award winning mobile <br /> app development <br /> agency
+          award winning mobile <br /> app development <BsArrowRight style={{ color: palette?.brandOrange }} className='inline-flex ' />  <br /> agency
         </h1>
         <h1
           style={{
@@ -57,7 +58,7 @@ const ServicesHero = () => {
             </span>
             <span style={{
               color: palette?.dark_contrast_color,
-            }} className='text-[16px] lg:text-[17px] font-normal'>Applications developed and designed</span>
+            }} className='text-[16px] lg:text-[17px] text-start font-normal'>Applications developed and designed</span>
 
           </div>
           <div className='w-full h-56 flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
@@ -68,7 +69,7 @@ const ServicesHero = () => {
             </span>
             <span style={{
               color: palette?.dark_contrast_color,
-            }} className='text-[16px] lg:text-[17px] font-normal'>Developers & Engineers under one roof</span>
+            }} className='text-[16px] lg:text-[17px] text-start font-normal'>Developers & Engineers under one roof</span>
 
           </div>
           <div className='w-full h-56 flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
@@ -79,7 +80,7 @@ const ServicesHero = () => {
             </span>
             <span style={{
               color: palette?.dark_contrast_color,
-            }} className='text-[16px] lg:text-[17px] font-normal'>Years in software development business</span>
+            }} className='text-[16px] lg:text-[17px] text-start font-normal'>Years in software development business</span>
 
           </div>
         </div>

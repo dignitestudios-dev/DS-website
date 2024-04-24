@@ -9,7 +9,7 @@ const TermsPage = () => {
             background: palette?.background,
             color: palette?.color
         }}>
-            <h1 className='text-[45px] font-extrabold lg:text-[64px]  lg:font-bold uppercase'>Terms & Conditions</h1>
+            <h1 className='text-[45px] font-extrabold lg:text-[55px]  lg:font-bold uppercase'>Terms & Conditions</h1>
             <div>
                 <h3 className='text-xl font-bold'><span >General Terms</span></h3>
                 <p><span >By accessing and placing an order with Carter Boating, you confirm that you are in agreement with and bound by the terms of service contained in the Terms &amp; Conditions outlined below. These terms apply to the entire mobile application and any email or other type of communication between you and Carter Boating.</span></p>

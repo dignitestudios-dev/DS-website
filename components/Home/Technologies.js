@@ -61,7 +61,7 @@ const Technologies = () => {
       style={{
         color: palette.color,
       }}
-      className="w-full h-auto my-5 flex flex-col gap-3 justify-start items-center"
+      className="w-full h-auto mt-5 mb-12 flex flex-col gap-y-4 gap-3 justify-start items-center"
     >
       <h1 className="text-3xl font-bold">Technologies we’re using</h1>
       <div className="w-full h-auto flex flex-wrap justify-center gap-4 items-center ">

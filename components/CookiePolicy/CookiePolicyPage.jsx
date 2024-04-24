@@ -12,7 +12,7 @@ const CookiePolicyPage = () => {
         color: palette?.color,
       }}
     >
-      <h1 className="text-[45px] font-extrabold lg:text-[64px]  lg:font-bold uppercase">
+      <h1 className="text-[45px] font-extrabold lg:text-[55px]  lg:font-bold uppercase">
         Cookie Policy
       </h1>
       <div>
