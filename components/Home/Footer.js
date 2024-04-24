@@ -10,19 +10,19 @@ const Footer = () => {
   const { palette } = useContext(GlobalContext);
   return (
     <div
-      className={`w-full h-auto flex flex-col gap-3 lg:gap-10 py-6 justify-start items-start px-4 md:px-12 lg:px-28`}
+      className={`w-full h-auto transition-all duration-300 flex flex-col gap-3 lg:gap-10 py-6 justify-start items-start px-4 md:px-12 lg:px-28`}
       style={{
         background: palette?.dark_contrast_background,
       }}
     >
       <h1
-        className="text-5xl font-extrabold lg:text-[96px] lg:font-bold capitalize"
+        className="text-5xl font-extrabold lg:text-[65px] lg:font-bold capitalize"
         style={{ color: palette?.color }}
       >
         have an idea?
       </h1>
       <span
-        className="text-3xl lg:text-[60px] font-light"
+        className="text-3xl lg:text-[45px] font-light"
         style={{ color: palette?.color }}
       >
         +1 877 714 1770
@@ -35,7 +35,7 @@ const Footer = () => {
           background: `${palette?.brandRed}`,
           color: "white",
         }}
-        className="w-[150px] lg:w-[206px] h-14 lg:h-20 rounded-full  transition-all duration-100 hover:scale-105 text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-pulse"
+        className="w-[110px] lg:w-[168px] h-14 lg:h-16 rounded-full  transition-all duration-100 hover:scale-105 text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-pulse"
       >
         <BsFillTelephoneFill />
         <span>Call Now</span>

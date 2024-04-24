@@ -1,5 +1,6 @@
 "use client"
 import { GlobalContext } from "@/context/GlobalContext";
+import Link from "next/link";
 import React, { useContext } from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
@@ -34,7 +35,7 @@ const Hero = () => {
         immersive <br /> digital experiences, or developing strategic marketing
       </span>
       <div className="w-auto flex gap-4 justify-center items-center">
-        <button
+        <Link href={"/contact-us"}
           name="schedule-a-meeting"
           style={{
             background: palette?.brandOrange,
@@ -43,8 +44,9 @@ const Hero = () => {
           className="w-[150px] lg:w-[206px] h-14 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
         >
           Schedule a meeting
-        </button>
-        <button
+        </Link>
+        <Link
+        href={"tel:+18777141770"}
           name="call-us"
           style={{
             border: `2px solid ${palette?.brandOrange}`,
@@ -54,7 +56,7 @@ const Hero = () => {
         >
           <BsFillTelephoneFill />
           <span>+1 877 714 1770</span>
-        </button>
+        </Link>
       </div>
     </div>
   );
