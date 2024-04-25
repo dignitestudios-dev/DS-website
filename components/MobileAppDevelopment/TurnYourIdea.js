@@ -39,7 +39,7 @@ const TurnYourIdea = () => {
         </Link>
       </div>
       <div className="col-span-5 lg:col-span-2 flex  justify-center">
-        <img src="./turn-your-idea.png" alt="turn your idea image" className="h-[278.09px] md:h-auto"/>
+        <img src="/turn-your-idea.png" alt="turn your idea image" className="h-[278.09px] md:h-auto"/>
       </div>
     </div>
   );
