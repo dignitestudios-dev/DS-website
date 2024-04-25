@@ -13,7 +13,7 @@ const Navbar = ({ setIsOpen }) => {
       className={`px-4 md:px-12 lg:px-28 h-20  flex items-center justify-between w-full`}
     >
       <Link href="/" className="h-12 lg:h-16">
-        <img src={theme == "light" ? "/logo.png" : "logo-dark.png"} className="h-full" />
+        <img src={theme == "light" ? "/logo.png" : "/logo-dark.png"} className="h-full" />
       </Link>
       <div className="w-auto flex gap-3 justify-start items-center">
         <button
@@ -32,7 +32,7 @@ const Navbar = ({ setIsOpen }) => {
         </button>
 
         <button onClick={() => setIsOpen(true)} className="h-4 lg:h-auto">
-          <img src={theme == "light" ? "hamburger.png" : "menu-dark.png"} className="h-full" />
+          <img src={theme == "light" ? "/hamburger.png" : "/menu-dark.png"} className="h-full" />
         </button>
       </div>
     </div>
