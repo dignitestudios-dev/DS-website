@@ -89,7 +89,7 @@ const Hero = () => {
           }}
 
 
-          data-period="3000"
+          data-period="1000"
           data-type='[ "Digital Cosmos", "Techno Galaxy", "Digital World", "App Universe" ]'
           className={`typewrite text-[50px]  font-extrabold text-center lg:text-left lg:text-[74px] lg:font-bold leading-tight `}
         >
