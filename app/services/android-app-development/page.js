@@ -1,4 +1,4 @@
-import AndroidAppPage from '@/components/AndroidAppDevelopment/AndroidAppPage'
+import AndroidAppPage from '@/components/services/AndroidAppDevelopment/AndroidAppPage'
 import GlobalLayout from '@/layout/GlobalLayout'
 import React from 'react'
 

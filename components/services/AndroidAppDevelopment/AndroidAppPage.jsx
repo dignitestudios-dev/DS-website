@@ -1,10 +1,10 @@
 import React from "react";
 import ServicesHero from "./AndroidAppHero";
-import CaseStudiesSection from "../Home/CaseStudiesSection";
-import ServicesSection from "../Home/ServicesSection";
-import Technologies from "../Home/Technologies";
-import LandingContactUs from "../Home/LandingContactUs";
-import Testimonials from "../Home/Testimonials";
+import CaseStudiesSection from "../../Home/CaseStudiesSection";
+import ServicesSection from "../../Home/ServicesSection";
+import Technologies from "../../Home/Technologies";
+import LandingContactUs from "../../Home/LandingContactUs";
+import Testimonials from "../../Home/Testimonials";
 import AndroidAwardsRecognition from "./AndroidAwardsRecognition";
 import AndroidTurnYourIdea from "./AndroidTurnYourIdea";
 

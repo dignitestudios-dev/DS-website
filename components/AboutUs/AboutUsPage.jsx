@@ -4,7 +4,7 @@ import FindOurOfficesSection from "../Home/FindOurOfficesSection";
 import AboutUsHero from "./AboutUsHero";
 import AboutUsSlider from "./AboutUsSlider";
 import AboutUsFaq from "./AboutUsFaq";
-import AwardsRecognition from "../MobileAppDevelopment/MobileAwardsRecognition";
+import AwardsRecognition from "../services/MobileAppDevelopment/MobileAwardsRecognition";
 
 const AboutUsPage = () => {
   return (

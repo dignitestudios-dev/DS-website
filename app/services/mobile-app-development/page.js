@@ -1,4 +1,4 @@
-import MobileAppPage from '@/components/MobileAppDevelopment/MobileAppPage'
+import MobileAppPage from '@/components/services/MobileAppDevelopment/MobileAppPage'
 import GlobalLayout from '@/layout/GlobalLayout'
 import React from 'react'
 

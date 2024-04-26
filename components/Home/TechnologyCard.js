@@ -1,7 +1,8 @@
 'use client'
 
 import React, { useContext, useState } from "react";
-import { GlobalContext } from "../../context/GlobalContext";
+import { GlobalContext } from "@/context/GlobalContext";
+
 
 const TechnologyCard = ({ technology }) => {
   const { palette, mouseCursor, disableMouseCursor } = useContext(GlobalContext);

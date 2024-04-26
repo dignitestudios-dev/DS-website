@@ -16,7 +16,6 @@ const Technologies = () => {
       color: "/swift-color.png",
       gray: "/swift-gray.png",
       name: "Swift"
-
     },
     {
       color: "/vue-color.png",

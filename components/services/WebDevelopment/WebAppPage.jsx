@@ -1,10 +1,10 @@
 import React from "react";
 import ServicesHero from "./WebAppHero";
-import CaseStudiesSection from "../Home/CaseStudiesSection";
-import ServicesSection from "../Home/ServicesSection";
-import Technologies from "../Home/Technologies";
-import LandingContactUs from "../Home/LandingContactUs";
-import Testimonials from "../Home/Testimonials";
+import CaseStudiesSection from "../../Home/CaseStudiesSection";
+import ServicesSection from "../../Home/ServicesSection";
+import Technologies from "../../Home/Technologies";
+import LandingContactUs from "../../Home/LandingContactUs";
+import Testimonials from "../../Home/Testimonials";
 import AwardsRecognition from "./WebAwardsRecognition";
 import TurnYourIdea from "./WebTurnYourIdea";
 

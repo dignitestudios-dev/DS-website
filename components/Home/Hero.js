@@ -87,8 +87,10 @@ const Hero = () => {
           style={{
             color: palette?.brandOrange
           }}
+
+
           data-period="3000"
-          data-type='[ "Digital Cosmos", "Automated Industry", "Information Technology", "Artificial Intelligence" ]'
+          data-type='[ "Digital Cosmos", "Techno Galaxy", "Digital World", "App Universe" ]'
           className={`typewrite text-[50px]  font-extrabold text-center lg:text-left lg:text-[74px] lg:font-bold leading-tight `}
         >
           <span className={`wrap `}></span>

@@ -1,4 +1,4 @@
-import WebAppPage from '@/components/WebDevelopment/WebAppPage'
+import WebAppPage from '@/components/services/WebDevelopment/WebAppPage'
 import GlobalLayout from '@/layout/GlobalLayout'
 import React from 'react'
 

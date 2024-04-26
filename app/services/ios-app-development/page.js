@@ -1,4 +1,4 @@
-import IosAppPage from '@/components/IosAppDevelopment/IosAppPage'
+import IosAppPage from '@/components/services/IosAppDevelopment/IosAppPage'
 import GlobalLayout from '@/layout/GlobalLayout'
 import React from 'react'
 

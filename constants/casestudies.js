@@ -2,31 +2,31 @@
 
 export const casestudies = [
   {
-    title: "Shoes Mobile App",
+    title: "MaidSimpl",
     description:
       "Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketing",
     image: "/case-study1.png",
-    projectLink: "/",
+    projectLink: "/case-studies/maidsimpl",
   },
   {
-    title: "Social Networking App",
+    title: "NowYouKnowNashville",
     description:
       "Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketing",
     image: "/case-study2.png",
-    projectLink: "/",
+    projectLink: "/case-studies/nykn",
   },
   {
-    title: "Connecting Student Mobile App",
+    title: "My Medical Journal",
     description:
       "Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketing",
     image: "/case-study3.png",
-    projectLink: "/",
+    projectLink: "/case-studies/mymedicaljournal",
   },
   {
-    title: "Tracking Mobile App",
+    title: "Perfect Boat",
     description:
       "Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketingF",
     image: "/case-study4.png",
-    projectLink: "/",
+    projectLink: "/case-studies/perfect-boat",
   },
 ];
