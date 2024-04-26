@@ -48,7 +48,7 @@ const Footer = () => {
           </button>
         </div>
         <div className="w-full lg:w[50%] flex justify-end">
-          <div className=" h-auto w-full  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
+          <div className=" h-auto w-full lg:w-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
             <span
               className="text-[42px] font-bold"
               style={{ color: palette?.color }}
