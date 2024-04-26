@@ -29,29 +29,27 @@ const AboutUsSlider = () => {
 
   return (
     <div
-      className="scroller1  w-screen h-auto "
+      className="scroller1  w-screen h-auto overflow-x-hidden "
       data-speed="fast"
       data-animated="true"
     >
-      <div className="scroller__inner1 w-full  flex justify-start items-center   ">
-        <div className="w-auto flex gap-3 justify-start items-center">
-          <img src="/our-journey.png" className="h-32" />
-        </div>
-        <div className="w-auto flex gap-3 justify-start items-center">
-          <img src="/our-journey.png" className="h-32" />
-        </div>
-        <div className="w-auto flex gap-3 justify-start items-center">
-          <img src="/our-journey.png" className="h-32" />
-        </div>
-        <div className="w-auto flex gap-3 justify-start items-center">
-          <img src="/our-journey.png" className="h-32" />
-        </div>
-        <div className="w-auto flex gap-3 justify-start items-center">
-          <img src="/our-journey.png" className="h-32" />
-        </div>
-        <div className="w-auto flex gap-3 justify-start items-center">
-          <img src="/our-journey.png" className="h-32" />
-        </div>
+      <div className="scroller__inner1 w-full  flex justify-start gap-6 items-center   ">
+        <img src="/our-journey.png" />
+
+        <img src="/our-journey.png" />
+
+        <img src="/our-journey.png" />
+
+        <img src="/our-journey.png" />
+
+        <img src="/our-journey.png" />
+
+        <img src="/our-journey.png" />
+
+        <img src="/our-journey.png" />
+        <img src="/our-journey.png" />
+        <img src="/our-journey.png" />
+        <img src="/our-journey.png" />
       </div>
     </div>
   );

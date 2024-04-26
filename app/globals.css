@@ -111,7 +111,7 @@ a, button, input{
 }
 
 .scroller__inner {
-  padding-block: 1rem;
+  padding-block: 0rem;
 }
 
 

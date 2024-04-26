@@ -1,14 +1,14 @@
 import React from "react";
-import ServicesHero from "./ServicesHero";
+import ServicesHero from "./WebServicesHero";
 import CaseStudiesSection from "../Home/CaseStudiesSection";
 import ServicesSection from "../Home/ServicesSection";
 import Technologies from "../Home/Technologies";
 import LandingContactUs from "../Home/LandingContactUs";
 import Testimonials from "../Home/Testimonials";
-import AwardsRecognition from "./AwardsRecognition";
-import TurnYourIdea from "./TurnYourIdea";
+import AwardsRecognition from "./WebAwardsRecognition";
+import TurnYourIdea from "./WebTurnYourIdea";
 
-const ServicesPage = () => {
+const WebServicesPage = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <ServicesHero />
@@ -18,11 +18,11 @@ const ServicesPage = () => {
       <Technologies />
       <CaseStudiesSection />
       <LandingContactUs />
-        <Testimonials />
+      <Testimonials />
       {/* <div className="">
       </div> */}
     </div>
   );
 };
 
-export default ServicesPage;
+export default WebServicesPage;

@@ -6,7 +6,7 @@ import React, { useContext } from "react";
 const AboutUsHero = () => {
   const { palette } = useContext(GlobalContext);
   return (
-    <div className="w-full grid grid-cols-1 gap-y-8 justify-start items-start lg:py-20 ">
+    <div className="w-full grid grid-cols-1 gap-y-8 justify-start items-start lg:pt-20 ">
       <div className=" flex flex-col px-4 md:px-12 lg:px-28 justify-start text-center lg:text-start items-center lg:items-start gap-2">
         <h1
           style={{

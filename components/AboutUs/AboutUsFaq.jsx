@@ -15,12 +15,6 @@ const AboutUsFaq = () => {
       id="about-us-journey"
       className="relative w-full h-auto px-4 md:px-12 lg:px-28  py-6  md:py-14  lg:py-8 flex flex-col justify-start items-start gap-12 "
     >
-      <span
-        className="text-3xl font-extrabold lg:text-[55px] lg:font-bold uppercase"
-        style={{ color: palette?.color }}
-      >
-        Our Journey
-      </span>
       <div className="w-full h-auto   flex flex-col gap-3 justify-start items-start">
         <div
           id="accordion-collapse"

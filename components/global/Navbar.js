@@ -7,7 +7,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 
 
 const Navbar = ({ setIsOpen }) => {
-  const { theme, setTheme } = useContext(GlobalContext);
+  const { palette, theme, setTheme } = useContext(GlobalContext);
   return (
     <div
       className={`px-4 md:px-12 lg:px-28 h-20  flex items-center justify-between w-full`}
@@ -15,6 +15,38 @@ const Navbar = ({ setIsOpen }) => {
       <Link href="/" className="h-12 lg:h-16">
         <img src={theme == "light" ? "/logo.png" : "/logo-dark.png"} className="h-full" />
       </Link>
+      <div
+        style={{ color: palette?.color }}
+        className={`w-auto mx-auto
+         hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8 `}
+      >
+        <button
+          className={`text-[14px] h-8 font-medium 
+            } bg-transparent  border-b-2 border-orange-600 outline-none`}
+        >
+          Home
+        </button>
+        <button
+          className={`text-[14px] h-8 font-medium  bg-transparent  outline-none`}
+        >
+          Services
+        </button>
+        <button
+          className={`text-[14px] h-8 font-medium  bg-transparent  outline-none`}
+        >
+          Case Studies
+        </button>
+        <button
+          className={`text-[14px] h-8 font-medium  bg-transparent  outline-none`}
+        >
+          Our Process
+        </button>
+        <button
+          className={`text-[14px] h-8 font-medium  bg-transparent  outline-none`}
+        >
+          FAQ's
+        </button>
+      </div>
       <div className="w-auto flex gap-3 justify-start items-center">
         <button
           onClick={() => setTheme(theme == "dark" ? "light" : "dark")}
@@ -31,9 +63,9 @@ const Navbar = ({ setIsOpen }) => {
           </span>
         </button>
 
-        <button onClick={() => setIsOpen(true)} className="h-4 lg:h-auto">
+        {/* <button onClick={() => setIsOpen(true)} className="h-4 lg:h-auto">
           <img src={theme == "light" ? "/hamburger.png" : "/menu-dark.png"} className="h-full" />
-        </button>
+        </button> */}
       </div>
     </div>
   );
