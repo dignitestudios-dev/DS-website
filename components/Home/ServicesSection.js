@@ -13,7 +13,7 @@ const ServicesSection = () => {
       <h1
         className={`${palette.color} uppercase font-extrabold text-center lg:text-start text-4xl lg:text-6xl lg:font-bold mb-2 lg:mb-6`}
       >
-        WHY CHOOSE US?
+        Our Services
       </h1>
       <div className="lg:py-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 ">
         {services.map((s, key) => {
