@@ -13,18 +13,18 @@ import { Autoplay, EffectFade } from 'swiper/modules';
 const ServicesHero = () => {
   const { palette } = useContext(GlobalContext);
   const images = ['/fareshare-mockup.png', '/carter-boating-mockup.png']
-  const [index, setIndex] = useState(0)
+
 
 
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-6 gap-y-8 gap-x-5 lg:gap-y-0 justify-start items-start lg:py-20 px-4 md:px-12 lg:px-28">
-      <div className='col-span-3 flex flex-col justify-start text-center lg:text-start items-center lg:items-start gap-2'>
+    <div className="w-full grid grid-cols-1 lg:grid-cols-7 gap-y-8 gap-x-5 lg:gap-y-0 justify-start items-start lg:py-20 px-4 md:px-12 lg:px-28">
+      <div className='col-span-4 flex flex-col justify-start text-center lg:text-start items-center lg:items-start gap-2'>
 
         <h1
           style={{
             color: palette?.color,
           }}
-          className="lg:block hidden text-3xl font-extrabold lg:text-5xl lg:font-bold uppercase"
+          className="lg:block hidden text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase"
         >
           award winning web <br /> app development <BsArrowRight style={{ color: palette?.brandOrange }} className='inline-flex ' />  <br /> agency
         </h1>
@@ -32,7 +32,7 @@ const ServicesHero = () => {
           style={{
             color: palette?.color,
           }}
-          className="lg:hidden block text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase"
+          className="lg:hidden block text-3xl font-extrabold lg:text-5xl lg:font-bold uppercase"
         >
           award winning mobile <br /> app development agency
         </h1>

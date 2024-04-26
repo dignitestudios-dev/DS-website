@@ -4,11 +4,18 @@ import Link from 'next/link';
 import React, { useContext } from 'react'
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-const ServicesHero = () => {
+// Import Swiper styles
+import 'swiper/css/effect-fade';
+import { Autoplay, EffectFade } from 'swiper/modules';
+
+const MobileAppHero = () => {
   const { palette } = useContext(GlobalContext);
+  const images = ['/mobile-hero-mockup-3.png', '/mobile-hero-mockup-4.png']
+
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-5 gap-y-8 lg:gap-y-0 justify-start items-start lg:py-20 px-4 md:px-12 lg:px-28">
+    <div className="w-full grid grid-cols-1 lg:grid-cols-6 gap-y-8  lg:gap-y-0 justify-start items-start lg:py-20 px-4 md:px-12 lg:px-28">
       <div className='col-span-3 flex flex-col justify-start text-center lg:text-start items-center lg:items-start gap-2'>
 
         <h1
@@ -17,21 +24,22 @@ const ServicesHero = () => {
           }}
           className="lg:block hidden text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase"
         >
-          award winning mobile <br /> app development <BsArrowRight style={{ color: palette?.brandOrange }} className='inline-flex ' />  <br /> agency
+          Top Rated Android <br /> App Development
+          <BsArrowRight style={{ color: palette?.brandOrange }} className='inline-flex ' />  <br /> Company
         </h1>
         <h1
           style={{
             color: palette?.color,
           }}
-          className="lg:hidden block text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase"
+          className="lg:hidden block text-3xl font-extrabold lg:text-5xl lg:font-bold uppercase"
         >
-          award winning mobile <br /> app development agency
+          Top Rated Android <br /> app development Company
         </h1>
         <span
           style={{
             color: palette?.dark_contrast_color,
           }}
-          className=" my-2 lg:my-6 text-[16px] lg:text-[18px] font-normal"
+          className=" my-2 lg:my-6 text-[15px] lg:text-[16px] font-normal"
         >
           Whether it's crafting a visually stunning brand identity, designing
           immersive <br /> digital experiences, or developing strategic marketing
@@ -85,12 +93,28 @@ const ServicesHero = () => {
           </div>
         </div>
       </div>
-      <div className='col-span-2 lg:py-10'>
-        <img src='/services-hero.png' className='lg:scale-150' />
+      <div className='col-span-3 lg:ml-32 flex justify-center items-start '>
+        <Swiper
+          spaceBetween={0}
+          slidesPerView={1}
+          effect={'fade'}
+          autoplay={{
+            duration: 2000
+          }}
+          modules={[EffectFade, Autoplay]}
+          className="bg-transparent "
+        >
+          <SwiperSlide className='bg-transparent '>
+            <img src={images[0]} className='mix-blend-multiply' />
+          </SwiperSlide>
+          <SwiperSlide className='bg-transparent '>
+            <img src={images[1]} className='mix-blend-multiply ' />
+          </SwiperSlide>
+        </Swiper>
       </div>
 
     </div>
   );
 }
 
-export default ServicesHero
+export default MobileAppHero

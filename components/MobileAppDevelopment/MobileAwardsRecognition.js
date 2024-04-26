@@ -10,9 +10,9 @@ const AwardsRecognition = () => {
         style={{
           color: palette?.color,
         }}
-        className="text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase"
+        className="text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase group"
       >
-        awards & recognition
+        <span className="group-hover:text-[#F15C20] transition-all duration-300">awards & recognition</span>
       </h1>
       <p
         className="lg:w-[70%] my-2 text-[16px] lg:text-[18px] font-normal"

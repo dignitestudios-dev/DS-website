@@ -26,18 +26,18 @@ const Process = () => {
             our process
           </h1>
         </div>
-        <div className="w-full h-auto my-6 grid grid-cols-3 grid-rows-1">
+        <div className="w-full h-auto mt-6 lg:my-6 grid grid-cols-3 grid-rows-1">
           <button
             type="button"
             name="open-tab"
             onClick={() => setOpenedTab(1)}
-            className={`w-full font-medium text-lg gap-3 transition-all duration-300 h-16  border-b-2  ${openedTab == 1
+            className={`w-full font-medium text-md lg:text-lg gap-3 transition-all duration-300 h-16  border-b-2  ${openedTab == 1
               ? "border-[#F15C20] text-[#f15c20]"
               : "border-[#B4B4B4]/[0.5] text-[#b4b4b4]"
               } focus:border-[#F15C20] capitalize flex items-center justify-start px-3`}
           >
             <span
-              className={`w-9 h-9  rounded-full flex justify-center items-center   ${openedTab == 1
+              className={`w-7 h-7 lg:w-9 lg:h-9  rounded-full flex justify-center items-center   ${openedTab == 1
                 ? "bg-[#F15C20]/[0.08] -rotate-0"
                 : theme == "light" ? "bg-[#E7E7E7] -rotate-90" : "bg-[#1c1c1c] -rotate-90"
                 }`}
@@ -50,13 +50,13 @@ const Process = () => {
             type="button"
             name="open-tab"
             onClick={() => setOpenedTab(2)}
-            className={`w-full font-medium text-lg gap-3 transition-all duration-300 h-16  border-b-2  ${openedTab == 2
+            className={`w-full font-medium text-md lg:text-lg gap-3 transition-all duration-300 h-16  border-b-2  ${openedTab == 2
               ? "border-[#F15C20] text-[#f15c20]"
               : "border-[#B4B4B4]/[0.5] text-[#b4b4b4]"
               } focus:border-[#F15C20] capitalize flex items-center justify-start px-3`}
           >
             <span
-              className={`w-9 h-9  rounded-full flex justify-center items-center   ${openedTab == 2
+              className={`w-7 h-7 lg:w-9 lg:h-9  rounded-full flex justify-center items-center   ${openedTab == 2
                 ? "bg-[#F15C20]/[0.08] -rotate-0"
                 : theme == "light" ? "bg-[#E7E7E7] -rotate-90" : "bg-[#1c1c1c] -rotate-90"
                 }`}
@@ -69,13 +69,13 @@ const Process = () => {
             type="button"
             name="open-tab"
             onClick={() => setOpenedTab(3)}
-            className={`w-full font-medium text-lg gap-3 transition-all duration-300 h-16  border-b-2  ${openedTab == 3
+            className={`w-full font-medium text-md lg:text-lg gap-3 transition-all duration-300 h-16  border-b-2  ${openedTab == 3
               ? "border-[#F15C20] text-[#f15c20]"
               : "border-[#B4B4B4]/[0.5] text-[#b4b4b4]"
               } focus:border-[#F15C20] capitalize flex items-center justify-start px-3`}
           >
             <span
-              className={`w-9 h-9  rounded-full flex justify-center items-center   ${openedTab == 3
+              className={`w-7 h-7 lg:w-9 lg:h-9  rounded-full flex justify-center items-center   ${openedTab == 3
                 ? "bg-[#F15C20]/[0.08] -rotate-0"
                 : theme == "light" ? "bg-[#E7E7E7] -rotate-90" : "bg-[#1c1c1c] -rotate-90"
                 }`}

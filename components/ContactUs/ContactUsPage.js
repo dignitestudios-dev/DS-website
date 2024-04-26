@@ -23,7 +23,7 @@ const ContactUsPage = () => {
                     <h1
                         className="text-[39px] font-extrabold lg:text-[45px] leading-tight lg:font-bold"
                         style={{ color: palette?.color }}
-                    >Let’s discuss your <br /> project
+                    >Let’s discuss your <br /> <span style={{ color: palette?.brandOrange }}> project</span>
                     </h1>
                     <div className="w-full h-auto flex flex-col justify-start items-start gap-6">
                         <div className="w-full flex flex-col gap-1 justify-start items-start">

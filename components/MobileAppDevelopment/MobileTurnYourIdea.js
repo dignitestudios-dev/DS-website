@@ -2,9 +2,17 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css/effect-fade';
+import { Autoplay, EffectFade } from 'swiper/modules';
 
 const TurnYourIdea = () => {
   const { palette } = useContext(GlobalContext);
+  const images = ['/mobile-turn-idea-1.png', '/mobile-turn-idea-2.png']
+
   return (
     <div className="w-full grid grid-cols-1 lg:grid-cols-5 justify-start items-start gap-y-8 py-4 lg:py-12 px-4 md:px-12 lg:px-28">
       <div className="col-span-5 lg:col-span-3 flex flex-col justify-start items-start gap-y-4">
@@ -12,9 +20,9 @@ const TurnYourIdea = () => {
           style={{
             color: palette?.color,
           }}
-          className="text-3xl font-extrabold lg:text-6xl lg:font-bold mx-0 uppercase"
+          className="text-3xl font-extrabold lg:text-6xl lg:font-bold mx-0 uppercase group"
         >
-          turn your idea <br/> into digital <br/> transformation
+          turn your idea <br /> into digital <br /> <span className="group-hover:text-[#F15C20] transition-all duration-300">transformation</span>
         </h1>
         <p
           style={{
@@ -38,8 +46,24 @@ const TurnYourIdea = () => {
           Get Started
         </Link>
       </div>
-      <div className="col-span-5 lg:col-span-2 flex  justify-center">
-        <img src="/turn-your-idea.png" alt="turn your idea image" className="h-[278.09px] md:h-auto"/>
+      <div className="col-span-5 lg:col-span-2 flex items-start justify-center">
+        <Swiper
+          spaceBetween={0}
+          slidesPerView={1}
+          effect={'fade'}
+          autoplay={{
+            duration: 2000
+          }}
+          modules={[EffectFade, Autoplay]}
+          className="bg-transparent "
+        >
+          <SwiperSlide className='bg-transparent '>
+            <img src={images[0]} className='' />
+          </SwiperSlide>
+          <SwiperSlide className='bg-transparent '>
+            <img src={images[1]} className='' />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );

@@ -4,13 +4,15 @@ import { BsFillBrightnessHighFill } from "react-icons/bs";
 import { IoMoon } from "react-icons/io5";
 import Link from 'next/link'
 import { GlobalContext } from "@/context/GlobalContext";
+import { IoIosArrowDown } from "react-icons/io";
 
 
 const Navbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
+
   return (
     <div
-      className={`px-4 md:px-12 lg:px-28 h-20  flex items-center justify-between w-full`}
+      className={`relative px-4 md:px-12 lg:px-28 h-20  flex items-center justify-between w-full`}
     >
       <Link href="/" className="h-12 lg:h-16">
         <img src={theme == "light" ? "/logo.png" : "/logo-dark.png"} className="h-full" />
@@ -22,14 +24,21 @@ const Navbar = ({ setIsOpen }) => {
       >
         <button
           className={`text-[14px] h-8 font-medium 
-            } bg-transparent  border-b-2 border-orange-600 outline-none`}
+            } bg-transparent  outline-none`}
         >
           Home
         </button>
         <button
-          className={`text-[14px] h-8 font-medium  bg-transparent  outline-none`}
+          className={`group text-[14px] relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
         >
-          Services
+          <span>Services</span>
+          <IoIosArrowDown className="text-md" />
+          <div className={`w-64 h-auto p-6  rounded-2xl text-md scale-0 transition-all duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${theme == "dark" ? "shadow-[0_3px_10px_rgb(255,255,255,0.2)]" : "shadow-[0_3px_10px_rgb(0,0,0,0.2)]"} -right-24`} style={{ background: palette?.background }}>
+            <Link href="/services/mobile-app-development" className="hover:underline underline-offset-4 " style={{ color: palette?.color }}>Mobile App Development</Link>
+            <Link href="/services/ios-app-development" className="hover:underline underline-offset-4 " style={{ color: palette?.color }}>IOS App Development</Link>
+            <Link href="/services/android-app-development" className="hover:underline underline-offset-4 " style={{ color: palette?.color }}>Android App Development</Link>
+            <Link href="/services/web-app-development" className="hover:underline underline-offset-4 " style={{ color: palette?.color }}>Web App Development</Link>
+          </div>
         </button>
         <button
           className={`text-[14px] h-8 font-medium  bg-transparent  outline-none`}
@@ -63,9 +72,9 @@ const Navbar = ({ setIsOpen }) => {
           </span>
         </button>
 
-        {/* <button onClick={() => setIsOpen(true)} className="h-4 lg:h-auto">
+        <button onClick={() => setIsOpen(true)} className="flex lg:hidden h-4 lg:h-auto">
           <img src={theme == "light" ? "/hamburger.png" : "/menu-dark.png"} className="h-full" />
-        </button> */}
+        </button>
       </div>
     </div>
   );
