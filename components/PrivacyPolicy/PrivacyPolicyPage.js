@@ -5,7 +5,7 @@ import React, { useContext } from 'react'
 const PrivacyPolicyPage = () => {
   const { palette } = useContext(GlobalContext)
   return (
-    <div className='w-full h-auto flex flex-col gap-4 justify-start items-start px-4 md:px-12 lg:px-28' style={{
+    <div className='w-full h-auto flex flex-col gap-4 justify-start items-start px-4 md:px-12 lg:px-64 lg:pb-10' style={{
       background: palette?.background,
       color: palette?.color
     }}>

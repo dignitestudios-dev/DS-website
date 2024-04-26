@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /*  */
-
 
 /* / width /  */
 ::-webkit-scrollbar {
@@ -37,8 +35,9 @@ body {
   cursor: url("../public/cursor.png"), auto;
 }
 
-
-a, button, input{
+a,
+button,
+input {
   cursor: url("../public/cursor.png"), auto !important;
 }
 
@@ -81,11 +80,8 @@ a, button, input{
     -webkit-transform: rotateY(-360deg);
     transform: rotateY(-360deg);
   }
-  
-
-  
 }
-.focus:focus{
+.focus:focus {
   border-bottom: 2px solid black !important;
 }
 @keyframes flip-vertical-left {
@@ -113,9 +109,6 @@ a, button, input{
 .scroller__inner {
   padding-block: 1rem;
 }
-
-
-
 
 .scroller[data-animated="true"] .scroller__inner {
   width: auto;
@@ -145,7 +138,6 @@ a, button, input{
   }
 }
 
-
 .scroller1 {
   width: 100%;
 }
@@ -153,9 +145,6 @@ a, button, input{
 .scroller__inner1 {
   padding-block: 1rem;
 }
-
-
-
 
 .scroller1[data-animated="true"] .scroller__inner1 {
   width: auto;
@@ -185,39 +174,57 @@ a, button, input{
   }
 }
 
-
-
 /* HTML:  */
 .loader {
   width: 50px;
   aspect-ratio: 1;
   display: grid;
   border-radius: 50%;
-  background: conic-gradient(#25b09b 25%,#f03355 0 50%,#514b82 0 75%,#ffa516 0);
+  background: conic-gradient(
+    #25b09b 25%,
+    #f03355 0 50%,
+    #514b82 0 75%,
+    #ffa516 0
+  );
   animation: l22 2s infinite linear;
 }
 .loader::before,
 .loader::after {
-   content: "";
-   grid-area: 1/1;
-   margin: 15%;
-   border-radius: 50%;
-   background: inherit;
-   animation: inherit;
+  content: "";
+  grid-area: 1/1;
+  margin: 15%;
+  border-radius: 50%;
+  background: inherit;
+  animation: inherit;
 }
 .loader::after {
-   margin: 25%;
-   animation-duration: 3s;
+  margin: 25%;
+  animation-duration: 3s;
 }
 @keyframes l22 {
-  100% {transform: rotate(1turn)}
+  100% {
+    transform: rotate(1turn);
+  }
 }
 
+.about-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/about-us-hero.png");
+}
 
+/* animate-bg */
+.animate-bg {
+  animation: changeBg 3s ease-out infinite;
+}
 
-
-
-
-.about-bg{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/about-us-hero.png");
+@keyframes changeBg {
+  0% {
+    background-color: #ef3c36;
+  }
+  /* 50%{
+    background-color: #973131;
+  } */
+  100% {
+    background-color: #393939;
+  }
 }
