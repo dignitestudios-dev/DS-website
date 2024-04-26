@@ -12,9 +12,9 @@ const TurnYourIdea = () => {
           style={{
             color: palette?.color,
           }}
-          className="text-3xl font-extrabold lg:text-6xl lg:font-bold mx-0 uppercase"
+          className="text-3xl font-extrabold lg:text-6xl lg:font-bold mx-0 uppercase group"
         >
-          turn your idea <br/> into digital <br/> transformation
+          turn your idea <br/> into digital <br/> <span className="group-hover:text-[#F15C20] transition-all duration-300">transformation</span>
         </h1>
         <p
           style={{

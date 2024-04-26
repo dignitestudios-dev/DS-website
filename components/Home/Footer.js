@@ -15,15 +15,17 @@ const Footer = () => {
         background: palette?.dark_contrast_background,
       }}
     >
-      <h1
-        className="text-5xl font-extrabold lg:text-[65px] lg:font-bold capitalize"
-        style={{ color: palette?.color }}
-      >
-        have an idea?
-      </h1>
-      <h1 className="text-5xl text-[#F15C20] font-extrabold lg:text-[65px] lg:font-bold capitalize">
-        Let’s talk!
-      </h1>
+      <div className="flex flex-col gap-2">
+        <h1
+          className="text-5xl font-extrabold lg:text-[65px] lg:font-bold capitalize"
+          style={{ color: palette?.color }}
+        >
+          have an idea?
+        </h1>
+        <h1 className="text-5xl text-[#F15C20] font-extrabold lg:text-[65px] lg:font-bold capitalize">
+          Let’s talk!
+        </h1>
+      </div>
       <div className="w-full flex flex-col lg:flex-row justify-between items-end">
         <div className="w-full lg:w[50%] flex flex-col gap-3 lg:gap-10">
           <span
@@ -46,8 +48,13 @@ const Footer = () => {
           </button>
         </div>
         <div className="w-full lg:w[50%] flex justify-end">
-          <div className=" h-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
-            <span className="text-[42px] font-bold" style={{color: palette?.color}}>Subscribe</span>
+          <div className=" h-auto w-full  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
+            <span
+              className="text-[42px] font-bold"
+              style={{ color: palette?.color }}
+            >
+              Subscribe
+            </span>
             <div className="w-full lg:w-96 relative">
               <input
                 type="text"
@@ -66,11 +73,17 @@ const Footer = () => {
 
       <div className="w-full h-auto grid grid-cols-2 lg:grid-cols-5 gap-2">
         <div className="col-span-5 lg:col-span-2 flex flex-col gap-2">
-          {
-            theme == "dark" ? <img src="/trust-pilot-white.svg" className="w-[236px]" /> :<img src="/trustpilot-logo.png" className="w-[236px]" />
-          }
-          
-          <img src="/footer-stars.png" className="w-[236px]" />
+          {theme == "dark" ? (
+            <Link href={"https://www.trustpilot.com/review/dignitestudios.com"}>
+              <img src="/trust-pilot-white.svg" className="w-[200px] lg:w-[236px]" />
+            </Link>
+          ) : (
+            <Link href={"https://www.trustpilot.com/review/dignitestudios.com"}>
+              <img src="/trustpilot-logo.png" className="w-[200px] lg:w-[236px]" />
+            </Link>
+          )}
+
+          <img src="/footer-stars.png" className="w-[200px] lg:w-[236px]" />
         </div>
         <div className="col-span-2 lg:col-span-1 uppercase text-md lg:text-lg font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
           <Link href="/" className="hover:text-orange-500">
