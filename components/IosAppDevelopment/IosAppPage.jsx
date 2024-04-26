@@ -1,20 +1,20 @@
 import React from "react";
-import ServicesHero from "./MobileAppHero";
+import ServicesHero from "./IosAppHero";
 import CaseStudiesSection from "../Home/CaseStudiesSection";
 import ServicesSection from "../Home/ServicesSection";
 import Technologies from "../Home/Technologies";
 import LandingContactUs from "../Home/LandingContactUs";
 import Testimonials from "../Home/Testimonials";
-import MobileAwardsRecognition from "./MobileAwardsRecognition";
-import MobileTurnYourIdea from "./MobileTurnYourIdea";
+import AwardsRecognition from "./IosAwardsRecognition";
+import TurnYourIdea from "./IosTurnYourIdea";
 
-const MobileAppPage = () => {
+const IosAppPage = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <ServicesHero />
-      <MobileAwardsRecognition />
+      <AwardsRecognition />
       <ServicesSection />
-      <MobileTurnYourIdea />
+      <TurnYourIdea />
       <Technologies />
       <CaseStudiesSection />
       <LandingContactUs />
@@ -25,4 +25,4 @@ const MobileAppPage = () => {
   );
 };
 
-export default MobileAppPage;
+export default IosAppPage;

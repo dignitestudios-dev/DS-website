@@ -2,7 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 
-const MobileAwardsRecognition = () => {
+const IosAwardsRecognition = () => {
   const { palette } = useContext(GlobalContext);
   return (
     <div className="px-4 md:px-12 lg:px-28 flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 lg:my-16">
@@ -48,4 +48,4 @@ const MobileAwardsRecognition = () => {
   );
 };
 
-export default MobileAwardsRecognition;
+export default IosAwardsRecognition;

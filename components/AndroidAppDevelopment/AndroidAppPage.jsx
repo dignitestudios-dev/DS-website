@@ -1,20 +1,20 @@
 import React from "react";
-import ServicesHero from "./MobileAppHero";
+import ServicesHero from "./AndroidAppHero";
 import CaseStudiesSection from "../Home/CaseStudiesSection";
 import ServicesSection from "../Home/ServicesSection";
 import Technologies from "../Home/Technologies";
 import LandingContactUs from "../Home/LandingContactUs";
 import Testimonials from "../Home/Testimonials";
-import MobileAwardsRecognition from "./MobileAwardsRecognition";
-import MobileTurnYourIdea from "./MobileTurnYourIdea";
+import AndroidAwardsRecognition from "./AndroidAwardsRecognition";
+import AndroidTurnYourIdea from "./AndroidTurnYourIdea";
 
-const MobileAppPage = () => {
+const AndroidAppPage = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <ServicesHero />
-      <MobileAwardsRecognition />
+      <AndroidAwardsRecognition />
       <ServicesSection />
-      <MobileTurnYourIdea />
+      <AndroidTurnYourIdea />
       <Technologies />
       <CaseStudiesSection />
       <LandingContactUs />
@@ -25,4 +25,4 @@ const MobileAppPage = () => {
   );
 };
 
-export default MobileAppPage;
+export default AndroidAppPage;

@@ -18,9 +18,7 @@ import TailwindColor from "./tailwind-color.png";
 import TailwindGray from "./tailwind-gray.png";
 import VueColor from "./vue-color.png";
 import VueGray from "./vue-gray.png";
-import Design1 from "./design-1.png";
-import Design2 from "./design-2.png";
-import Design3 from "./design-3.png";
+
 import UIUX from "./uiux.png";
 import AppDevelopment from "./app-development.png";
 import Branding from "./branding.svg";
@@ -92,9 +90,6 @@ export {
   TailwindGray,
   VueColor,
   VueGray,
-  Design1,
-  Design2,
-  Design3,
   UIUX,
   AppDevelopment,
   Branding,

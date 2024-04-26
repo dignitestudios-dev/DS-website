@@ -7,36 +7,36 @@ const Slider = () => {
     <div className="scroller__inner w-screen my-8 flex items-center gap-4 justify-start h-[250px] lg:h-[354px] ">
       <img
         alt="our-work-images"
-        src={"/design-1.png"}
+        src={"/case-study1.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
       />
       <img
         alt="our-work-images"
-        src={"/design-2.png"}
+        src={"/case-study2.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
       />
       <img
         alt="our-work-images"
-        src={"/design-3.png"}
-        className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
-      />
-      <img
-        aria-hidden="true"
-
-        alt="our-work-images"
-        src={"/design-1.png"}
+        src={"/case-study3.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
       />
       <img
         aria-hidden="true"
 
         alt="our-work-images"
-        src={"/design-2.png"}
+        src={"/case-study4.png"}
+        className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
+      />
+      <img
+        aria-hidden="true"
+
+        alt="our-work-images"
+        src={"/case-study2.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
       />
       <img
         alt="our-work-images"
-        src={"/design-3.png"}
+        src={"/case-study3.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
         aria-hidden="true"
       />
@@ -44,42 +44,42 @@ const Slider = () => {
         aria-hidden="true"
 
         alt="our-work-images"
-        src={"/design-1.png"}
+        src={"/case-study4.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
       />
       <img
         aria-hidden="true"
 
         alt="our-work-images"
-        src={"/design-2.png"}
+        src={"/case-study2.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
       />
       <img
         aria-hidden="true"
 
         alt="our-work-images"
-        src={"/design-3.png"}
+        src={"/case-study3.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
       />
       <img
         aria-hidden="true"
 
         alt="our-work-images"
-        src={"/design-1.png"}
+        src={"/case-study4.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
       />
       <img
         aria-hidden="true"
 
         alt="our-work-images"
-        src={"/design-2.png"}
+        src={"/case-study2.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
       />
       <img
         aria-hidden="true"
 
         alt="our-work-images"
-        src={"/design-3.png"}
+        src={"/case-study3.png"}
         className="w-[450px] lg:w-[510px] h-[250px] lg:h-[320px]"
       />
     </div>

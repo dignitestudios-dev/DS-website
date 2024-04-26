@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/effect-fade';
 import { Autoplay, EffectFade } from 'swiper/modules';
 
-const MobileTurnYourIdea = () => {
+const AndroidTurnYourIdea = () => {
   const { palette } = useContext(GlobalContext);
   const images = ['/mobile-turn-idea-1.png', '/mobile-turn-idea-2.png']
 
@@ -69,4 +69,4 @@ const MobileTurnYourIdea = () => {
   );
 };
 
-export default MobileTurnYourIdea;
+export default AndroidTurnYourIdea;
