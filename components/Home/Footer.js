@@ -17,10 +17,10 @@ const Footer = () => {
     >
       <div className="flex flex-col gap-2">
         <h1
-          className="text-5xl font-extrabold lg:text-[65px] lg:font-bold capitalize"
+          className="text-5xl font-extrabold lg:text-[65px] lg:font-bold "
           style={{ color: palette?.color }}
         >
-          have an idea?
+          Have an idea?
         </h1>
         <h1 className="text-5xl text-[#F15C20] font-extrabold lg:text-[65px] lg:font-bold capitalize">
           Let’s talk!
