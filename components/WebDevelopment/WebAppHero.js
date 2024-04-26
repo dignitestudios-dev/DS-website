@@ -1,12 +1,21 @@
 "use client"
 import { GlobalContext } from '@/context/GlobalContext';
 import Link from 'next/link';
-import React, { useContext } from 'react'
-import { BsFillTelephoneFill } from "react-icons/bs";
+import React, { useContext, useEffect, useState } from 'react'
 import { BsArrowRight } from "react-icons/bs";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css/effect-fade';
+import { Autoplay, EffectFade } from 'swiper/modules';
 
 const ServicesHero = () => {
   const { palette } = useContext(GlobalContext);
+  const images = ['/fareshare-mockup.png', '/carter-boating-mockup.png']
+  const [index, setIndex] = useState(0)
+
+
   return (
     <div className="w-full grid grid-cols-1 lg:grid-cols-6 gap-y-8 gap-x-5 lg:gap-y-0 justify-start items-start lg:py-20 px-4 md:px-12 lg:px-28">
       <div className='col-span-3 flex flex-col justify-start text-center lg:text-start items-center lg:items-start gap-2'>
@@ -17,7 +26,7 @@ const ServicesHero = () => {
           }}
           className="lg:block hidden text-3xl font-extrabold lg:text-5xl lg:font-bold uppercase"
         >
-          award winning mobile <br /> app development <BsArrowRight style={{ color: palette?.brandOrange }} className='inline-flex ' />  <br /> agency
+          award winning web <br /> app development <BsArrowRight style={{ color: palette?.brandOrange }} className='inline-flex ' />  <br /> agency
         </h1>
         <h1
           style={{
@@ -86,7 +95,23 @@ const ServicesHero = () => {
         </div>
       </div>
       <div className='col-span-3 flex justify-center items-start '>
-        <img src='/fareshare-mockup.png' className='lg:scale-[1.15]' />
+        <Swiper
+          spaceBetween={0}
+          slidesPerView={1}
+          effect={'fade'}
+          autoplay={{
+            duration: 2000
+          }}
+          modules={[EffectFade, Autoplay]}
+          className="bg-transparent lg:scale-[1.15]"
+        >
+          <SwiperSlide className='bg-transparent '>
+            <img src={images[0]} className='' />
+          </SwiperSlide>
+          <SwiperSlide className='bg-transparent '>
+            <img src={images[1]} className='' />
+          </SwiperSlide>
+        </Swiper>
       </div>
 
     </div>

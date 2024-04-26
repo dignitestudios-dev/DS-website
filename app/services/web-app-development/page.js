@@ -1,10 +1,10 @@
-import WebServicesPage from '@/components/WebDevelopment/WebServicesPage'
+import WebAppPage from '@/components/WebDevelopment/WebAppPage'
 import GlobalLayout from '@/layout/GlobalLayout'
 import React from 'react'
 
 const page = () => {
     return (
-        <GlobalLayout page={<WebServicesPage />} />
+        <GlobalLayout page={<WebAppPage />} />
     )
 }
 
