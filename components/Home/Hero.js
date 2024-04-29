@@ -65,7 +65,7 @@ const Hero = () => {
       css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
       document.body.appendChild(css);
     };
-  });
+  }, []);
   return (
     <div className="w-full  flex flex-col pt-10  gap-4 justify-start items-center">
       <span
@@ -87,8 +87,6 @@ const Hero = () => {
           style={{
             color: palette?.brandOrange
           }}
-
-
           data-period="1000"
           data-type='[ "Digital Cosmos", "Techno Galaxy", "Digital World", "App Universe" ]'
           className={`typewrite text-[50px]  font-extrabold text-center lg:text-left lg:text-[74px] lg:font-bold leading-tight `}

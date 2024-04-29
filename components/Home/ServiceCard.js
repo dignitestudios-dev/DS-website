@@ -9,44 +9,34 @@ const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
   const [hoverImage, setHoverImage] = useState(dark_icon);
 
   useEffect(() => {
-    setHoverImage(theme == "light" ? dark_icon : light_icon)
+    setHoverImage(theme == "dark" || count == 0 || count == 2 || count == 4 ? light_icon : dark_icon)
   }, [theme])
 
 
   return (
     <div
       className={`group flex flex-col ${theme == "dark" ? "border-[#434343]" : "border-gray-200"
-        } justify-center items-start gap-4 py-3 px-3 lg:p-8 hover:bg-[#F15C20]  transition-all duration-150 ${count == 0
-          ? "lg:border-b "
+        } justify-center items-start gap-4 py-3 px-3 lg:p-8   transition-all duration-150 ${count == 0
+          ? "lg:border-b bg-orange-600 text-white"
           : count == 1
             ? "lg:border-b lg:border-r lg:border-l "
             : count == 2
-              ? "lg:border-b"
-              : count == 4 && "lg:border-r lg:border-l"
+              ? "lg:border-b bg-orange-600 text-white"
+              : count == 4 && "bg-orange-600 ext-white lg:border-r lg:border-l"
         }`}
 
-      onMouseOver={(e) => {
-        setHoverImage(light_icon);
-      }}
-      onMouseOut={() => {
-        setHoverImage(theme == "light" ? dark_icon : light_icon);
-      }}
+
+
     >
-      <img src={hoverImage} alt="UIUX" className="text-white" />
+      <img src={count == 1 ? dark_icon : count == 3 ? dark_icon : count == 5 ? dark_icon : light_icon} alt="UIUX" className="text-white" />
       {/* {hover && <span>fjef</span>} */}
       <h1
-        className={`font-bold text-[26px] ${theme == "dark"
-          ? "text-white group-hover:text-white"
-          : "text-black group-hover:text-white"
-          }`}
+        className={`font-bold text-[26px] ${count == 0 ? "text-white" : count == 2 ? "text-white" : count == 4 && "text-white"} `}
       >
         {title}
       </h1>
       <p
-        className={`text-sm  leading-[18.83px] ${theme == "dark"
-          ? "text-gray-400 group-hover:text-gray-200"
-          : "text-black group-hover:text-gray-200"
-          }`}
+        className={`text-sm  leading-[18.83px] ${count == 0 ? "text-white" : count == 2 ? "text-white" : count == 4 && "text-white"}`}
       >
         {desc}
       </p>
