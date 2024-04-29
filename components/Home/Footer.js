@@ -49,7 +49,7 @@ const Footer = () => {
           <button
             name="call-now-btn"
             style={{
-              background: `${palette?.brandRed}`,
+              background: `${palette?.brandOrange}`,
               color: "white",
             }}
             className="w-[140px] lg:w-[168px] h-14 lg:h-16 rounded-full transition-all duration-100 hover:scale-105 text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-bounce"
