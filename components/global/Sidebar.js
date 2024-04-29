@@ -77,7 +77,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                         <div className='w-full flex  justify-between items-center'>
 
                             <span>Services</span>
-                            <IoIosArrowDown className="text-md" />
+                            <IoIosArrowDown className="text-md group-hover:rotate-180" />
                         </div>
                         <div className={`w-full h-auto px-2  rounded-2xl text-md hidden transition-all duration-150 group-hover:flex  flex-col gap-2 justify-start items-start  `} style={{ color: palette?.color }} >
                             <Link href="/services/mobile-app-development" className={`hover:text-orange-600 `} >Mobile App Development</Link>
