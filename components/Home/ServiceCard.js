@@ -28,6 +28,7 @@ const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
 
 
     >
+
       <img src={count == 1 ? dark_icon : count == 3 ? dark_icon : count == 5 ? dark_icon : light_icon} alt="UIUX" className="text-white" />
       {/* {hover && <span>fjef</span>} */}
       <h1

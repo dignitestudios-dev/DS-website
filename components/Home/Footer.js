@@ -83,7 +83,7 @@ const Footer = () => {
       </div>
 
       <div className="w-full h-auto grid grid-cols-2 lg:grid-cols-5 gap-2">
-        <div className="col-span-5 lg:col-span-2 flex flex-col gap-2">
+        <Link href={"https://www.trustpilot.com/review/dignitestudios.com"} className="col-span-5 lg:col-span-2 flex flex-col gap-2">
           {theme == "dark" ? (
             <Link href={"https://www.trustpilot.com/review/dignitestudios.com"}>
               <img src="/trust-pilot-white.svg" className="w-[200px] lg:w-[236px]" />
@@ -95,7 +95,7 @@ const Footer = () => {
           )}
 
           <img src="/footer-stars.png" className="w-[200px] lg:w-[236px]" />
-        </div>
+        </Link>
         <div className="col-span-2 lg:col-span-1 uppercase text-md lg:text-md font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
           <Link href="/" className="hover:text-orange-500">
             Home
