@@ -72,14 +72,14 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                         Home
                     </button>
                     <button
-                        className={`w-full group text-[14px] hover:text-orange-600 relative gap-2 h-auto font-medium flex flex-col    bg-transparent  outline-none`}
+                        className={`w-full group text-[14px] hover:text-orange-600 relative gap-4 h-auto font-medium flex flex-col    bg-transparent  outline-none`}
                     >
                         <div className='w-full flex  justify-between items-center'>
 
                             <span>Services</span>
                             <IoIosArrowDown className="text-md group-hover:rotate-180" />
                         </div>
-                        <div className={`w-full h-auto px-2  rounded-2xl text-md hidden transition-all duration-150 group-hover:flex  flex-col gap-2 justify-start items-start  `} style={{ color: palette?.color }} >
+                        <div className={`w-full h-auto px-2  rounded-2xl text-md hidden transition-all duration-150 group-hover:flex  flex-col gap-4 justify-start items-start  `} style={{ color: palette?.color }} >
                             <Link href="/services/mobile-app-development" className={`hover:text-orange-600 `} >Mobile App Development</Link>
                             <Link href="/services/ios-app-development" className={`hover:text-orange-600 `} >IOS App Development</Link>
                             <Link href="/services/android-app-development" className={`hover:text-orange-600 `} >Android App Development</Link>
