@@ -43,7 +43,9 @@ h1::selection, h2::selection,h3::selection,h4::selection,h5::selection,h6::selec
 
 button:hover, a:hover, input:hover{
   cursor: url("../public/cursor-pointer.png"), auto !important;
-  
+}
+.orange:hover{
+  cursor: url("../public/cursor-pointer-2.png"), auto !important;
 }
 
 /***** Slide Left *****/

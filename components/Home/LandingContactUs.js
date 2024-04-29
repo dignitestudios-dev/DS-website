@@ -96,7 +96,7 @@ const LandingContactUs = () => {
 
             <button
               name="submit-contact-us-form"
-              className="w-[134px] h-[64px] rounded-full flex items-center font-semibold justify-center"
+              className="orange w-[134px] h-[64px] rounded-full flex items-center font-semibold justify-center"
               style={{ background: palette?.brandOrange, color: "white" }}
             >
               Submit

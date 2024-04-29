@@ -23,10 +23,10 @@ export const casestudies = [
     projectLink: "/case-studies/mymedicaljournal",
   },
   {
-    title: "Perfect Boat",
+    title: "Carter Boating",
     description:
       "Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketingF",
-    image: "/case-study4.png",
-    projectLink: "/case-studies/perfect-boat",
+    image: "/perfect-boat-3.png",
+    projectLink: "/case-studies/carter-boating",
   },
 ];

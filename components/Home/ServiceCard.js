@@ -28,8 +28,10 @@ const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
 
 
     >
+      {
+        theme == "light" ? <img src={count == 1 ? dark_icon : count == 3 ? dark_icon : count == 5 ? dark_icon : light_icon} alt="UIUX" className="text-white" /> : <img src={count == 1 ? light_icon : count == 3 ? light_icon : count == 5 ? light_icon : light_icon} alt="UIUX" className="text-white" />
+      }
 
-      <img src={count == 1 ? dark_icon : count == 3 ? dark_icon : count == 5 ? dark_icon : light_icon} alt="UIUX" className="text-white" />
       {/* {hover && <span>fjef</span>} */}
       <h1
         className={`font-bold text-[26px] ${count == 0 ? "text-white" : count == 2 ? "text-white" : count == 4 && "text-white"} `}

@@ -52,7 +52,7 @@ const Footer = () => {
               background: `${palette?.brandOrange}`,
               color: "white",
             }}
-            className="w-[140px] lg:w-[168px] h-14 lg:h-16 rounded-full transition-all duration-100 hover:scale-105 text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-bounce"
+            className="orange w-[140px] lg:w-[168px] h-14 lg:h-16 rounded-full transition-all duration-100 hover:scale-105 text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-bounce"
           >
             <BsFillTelephoneFill />
             <span>Call Now</span>
@@ -119,14 +119,14 @@ const Footer = () => {
           </Link>
         </div>
         <div className="col-span-5 lg:col-span-1 uppercase text-md lg:text-md font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 justify-start items-start">
-          <Link href="/" className="hover:text-orange-500">
+          <Link href="/services/android-app-development" className="hover:text-orange-500">
             Android App Development
           </Link>
-          <Link href="/terms-and-conditions" className="hover:text-orange-500">
+          <Link href="/services/ios-app-development" className="hover:text-orange-500">
             IOS App Development
 
           </Link>
-          <Link href="/privacy-policy" className="hover:text-orange-500">
+          <Link href="/services/web-app-development" className="hover:text-orange-500">
             Web App Development
 
           </Link>
@@ -135,14 +135,14 @@ const Footer = () => {
 
       <div className="w-full flex items-center justify-between">
         <span
-          className="text-base"
+          className="text-xs lg:text-base"
           style={{ color: palette?.light_contrast_color }}
         >
-          © 2022 dignite studios
+          © 2024 dignite studios
         </span>
         <Link
           href="mailto:info@dignitestudios.com"
-          className="text-base font-normal"
+          className="text-xs lg:text-base font-normal"
           style={{ color: palette?.light_contrast_color }}
         >
           info@dignitestudios.com

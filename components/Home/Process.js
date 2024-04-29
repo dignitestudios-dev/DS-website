@@ -95,7 +95,7 @@ const Process = () => {
             background: palette?.brandOrange,
             color: "white",
           }}
-          className="w-[150px] lg:w-[206px] h-14 lg:h-20 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-lg font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
+          className="orange w-[150px] lg:w-[206px] h-14 lg:h-20 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-lg font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
         >
           Start Your Project
         </Link>

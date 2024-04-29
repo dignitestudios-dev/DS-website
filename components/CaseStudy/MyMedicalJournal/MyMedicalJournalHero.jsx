@@ -6,7 +6,7 @@ import LeftAllignedScreen from "../LeftAllignedScreen";
 import RightAllignedScreen from "../RightAllignedScreen";
 
 const MyMedicalJournalHero = () => {
-  const { palette } = useContext(GlobalContext);
+  const { palette, theme } = useContext(GlobalContext);
   return (
     <div
       className="w-full h-auto flex flex-col gap-4 justify-start items-start py-8 lg:py-16"
@@ -17,11 +17,16 @@ const MyMedicalJournalHero = () => {
     >
       <div className="px-4 md:px-12 lg:px-64 lg:pb-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
-          <img
-            src="/my-medical-logo.svg"
-            alt=""
-            className="w-[160px] h-[71px]"
-          />
+          {theme == "dark" ? (
+            <img src="/mmj-logo-2.png" alt="" className="w-[160px] h-[71px]" />
+          ) : (
+            <img
+              src="/my-medical-logo.svg"
+              alt=""
+              className="w-[160px] h-[71px]"
+            />
+          )}
+
           <h1 className="text-[45px] font-extrabold lg:text-[60px] lg:font-medium uppercase">
             my medical journal
           </h1>
@@ -45,7 +50,7 @@ const MyMedicalJournalHero = () => {
           </p>
         </div>
       </div>
-      <img src="/my-medical-1.png" alt="" className="w-full lg:h-screen" />
+      <img src="/my-medical-1.png" alt="" className={`w-full lg:h-screen`} />
       <div className="px-4 md:px-12 lg:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">The Challenge</h2>
@@ -91,7 +96,7 @@ const MyMedicalJournalHero = () => {
         <MyMedicalJournalTechnologies />
       </div>
       <img src="/my-medical-3.png" alt="" className="w-full lg:h-screen" />
-      <div className="w-full px-4 md:px-12 lg:px-64 lg:py-10 flex flex-col gap-4 justify-start items-start">
+      <div className="w-full px-4 md:px-12 lg:px-64 lg:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
           description={

@@ -60,7 +60,6 @@ const Hero = () => {
           }}
           className={`typing-demo text-[2rem] lg:text-6xl font-bold text-center lg:text-left  leading-normal `}
         >
-
         </span>
       </h1>
       <span
@@ -79,7 +78,7 @@ const Hero = () => {
             background: palette?.brandOrange,
             color: "white",
           }}
-          className="hover:cursor-[url('/cursor-pointer.png')] w-[150px] lg:w-[206px] h-14 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
+          className="orange w-[150px] lg:w-[206px] h-14 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
         >
           Schedule a meeting
         </Link>

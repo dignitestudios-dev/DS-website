@@ -12,6 +12,7 @@ const Navbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   const navigate = useRouter()
   const handleClick = (id) => {
+
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });

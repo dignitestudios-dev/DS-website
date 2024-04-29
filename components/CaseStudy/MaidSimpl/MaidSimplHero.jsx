@@ -91,7 +91,7 @@ const MaidSimplHero = () => {
         <MaidSimplTechnologies />
       </div>
       <img src="/maid-simple-3.png" alt="" className="w-full h-lg:screen" />
-      <div className="w-full px-4 md:px-12 lg:px-64 lg:py-10 flex flex-col gap-4 justify-start items-start">
+      <div className="w-full px-4 md:px-12 lg:px-64 lg:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
           description={
