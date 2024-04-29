@@ -2,7 +2,7 @@ import { GlobalContext } from '@/context/GlobalContext'
 import React, { useContext, useRef } from 'react'
 import Link from "next/link"
 import { IoIosArrowDown } from "react-icons/io";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { BsFillBrightnessHighFill } from "react-icons/bs";
 import { IoMoon } from "react-icons/io5";
 
@@ -14,13 +14,25 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         }
     }
     const { palette, theme, setTheme } = useContext(GlobalContext)
+    const pathname = usePathname()
     const navigate = useRouter()
     const handleClick = (id) => {
+        if (pathname != "/") {
+            navigate.push("/")
+            setTimeout(() => {
+
+                const element = document.getElementById(id);
+                if (element) {
+                    element.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+            }, 500)
+        }
         const element = document.getElementById(id);
         if (element) {
             element.scrollIntoView({ behavior: "smooth", block: "start" });
         }
-    };
+
+    }
     const navigateTo = (link) => {
         navigate.push(link)
     }

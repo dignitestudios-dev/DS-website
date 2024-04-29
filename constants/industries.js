@@ -3,16 +3,16 @@
 export const industries = [
   {
     image: "/telemedicine.png",
-    title: "Telemedicine",
+    title: "Lifestyle",
     description:
-      "Healthcare is broken. Address the issue by crafting a superior virtual solution with our mobile app development company, whether it's a telehealth app or a web platform.",
+      "Lifestyle is broken. Address the issue by crafting a superior virtual solution with our mobile app development company, whether it's a telehealth app or a web platform.",
     bgColor: "#CEF3FF33",
   },
   {
     image: "/fintech.png",
-    title: "Fintech",
+    title: "Ride Sharing",
     description:
-      "Fintech projects have stringent requirements. With our innovative approach and mobile app development expertise, we can elevate your fintech endeavors.",
+      "Ride sharing projects have stringent requirements. With our innovative approach and mobile app development expertise, we can elevate your fintech endeavors.",
     bgColor: "#B6FFE933",
   },
   {

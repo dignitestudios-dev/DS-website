@@ -5,17 +5,29 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import Link from "next/link";
 import { GoArrowRight } from "react-icons/go";
 import { GlobalContext } from "@/context/GlobalContext";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const Footer = () => {
   const { palette, theme } = useContext(GlobalContext);
   const navigate = useRouter()
+  const pathname = usePathname()
   const handleClick = (id) => {
+    if (pathname != "/") {
+      navigate.push("/")
+      setTimeout(() => {
+
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }, 500)
+    }
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-  };
+
+  }
   const navigateTo = (link) => {
     navigate.push(link)
   }

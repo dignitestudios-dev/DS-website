@@ -5,22 +5,34 @@ import { IoMoon } from "react-icons/io5";
 import Link from 'next/link'
 import { GlobalContext } from "@/context/GlobalContext";
 import { IoIosArrowDown } from "react-icons/io";
-import { useRouter } from "next/navigation";
+import { useParams, usePathname, useRouter } from "next/navigation";
 
 
 const Navbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   const navigate = useRouter()
+  const pathname = usePathname()
   const handleClick = (id) => {
+    if (pathname != "/") {
+      navigate.push("/")
+      setTimeout(() => {
 
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }, 500)
+    }
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-  };
+
+  }
   const navigateTo = (link) => {
     navigate.push(link)
   }
+
   return (
     <div
       className={`relative px-4 md:px-12 lg:px-28 h-20  flex items-center justify-between w-full`}
