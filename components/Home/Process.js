@@ -12,6 +12,7 @@ const Process = () => {
 
   return (
     <div
+      id="process"
       className={` w-full py-10`}
       style={{ background: palette?.dark_contrast_background }}
     >

@@ -32,7 +32,7 @@ export const sliderSettings = {
       slidesPerView: 2,
     },
 
-    900:{
+    900: {
       slidesPerView: 2,
     },
     1100: {
@@ -44,7 +44,7 @@ export const sliderSettings = {
 const Testimonials = () => {
   const { palette } = useContext(GlobalContext);
   return (
-    <div className={`w-full py-5 px-4 md:px-12 lg:px-28`}>
+    <div id="testimonials" className={`w-full py-5 px-4 md:px-12 lg:px-28`}>
       <div className={``}>
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
           Testimonials

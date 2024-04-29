@@ -5,9 +5,20 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import Link from "next/link";
 import { GoArrowRight } from "react-icons/go";
 import { GlobalContext } from "@/context/GlobalContext";
+import { useRouter } from "next/navigation";
 
 const Footer = () => {
   const { palette, theme } = useContext(GlobalContext);
+  const navigate = useRouter()
+  const handleClick = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+  const navigateTo = (link) => {
+    navigate.push(link)
+  }
   return (
     <div
       className={`w-full h-auto transition-all duration-300 flex flex-col gap-3 lg:gap-10 py-6 lg:py-12 justify-start items-start px-4 md:px-12 lg:px-28`}
@@ -85,21 +96,21 @@ const Footer = () => {
 
           <img src="/footer-stars.png" className="w-[200px] lg:w-[236px]" />
         </div>
-        <div className="col-span-2 lg:col-span-1 uppercase text-md lg:text-lg font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
+        <div className="col-span-2 lg:col-span-1 uppercase text-md lg:text-md font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
           <Link href="/" className="hover:text-orange-500">
             Home
           </Link>
-          <Link href="/services" className="hover:text-orange-500">
-            Services
-          </Link>
-          <Link href="/case-studies" className="hover:text-orange-500">
+          <button onClick={() => handleClick("process")} className=" uppercase hover:text-orange-500">
+            Our Process
+          </button>
+          <button onClick={() => handleClick("case-studies")} className="uppercase hover:text-orange-500">
             Case Study
-          </Link>
+          </button>
         </div>
-        <div className="col-span-3 lg:col-span-1 uppercase text-md lg:text-lg font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
-          <Link href="/" className="hover:text-orange-500">
+        <div className="col-span-3 lg:col-span-1 uppercase text-md lg:text-md font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
+          <button onClick={() => handleClick("testimonials")} className="uppercase hover:text-orange-500">
             Testimonials
-          </Link>
+          </button>
           <Link href="/terms-and-conditions" className="hover:text-orange-500">
             Terms & Conditions
           </Link>
@@ -107,15 +118,17 @@ const Footer = () => {
             Privacy Policy
           </Link>
         </div>
-        <div className="col-span-5 lg:col-span-1 uppercase text-md lg:text-lg font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 justify-start items-start">
+        <div className="col-span-5 lg:col-span-1 uppercase text-md lg:text-md font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 justify-start items-start">
           <Link href="/" className="hover:text-orange-500">
-            Testimonials
+            Android App Development
           </Link>
           <Link href="/terms-and-conditions" className="hover:text-orange-500">
-            Terms & Conditions
+            IOS App Development
+
           </Link>
           <Link href="/privacy-policy" className="hover:text-orange-500">
-            Privacy Policy
+            Web App Development
+
           </Link>
         </div>
       </div>
