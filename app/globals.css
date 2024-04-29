@@ -233,7 +233,7 @@ button:hover, a:hover, input:hover{
 
 .typing-demo {
   width: 22ch;
-  animation: typing 1s steps(22), blink .5s step-end infinite alternate;
+  animation: typing 500ms steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 5px solid;
