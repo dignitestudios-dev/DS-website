@@ -23,7 +23,7 @@ const PerfectBoatHero = () => {
             className="w-[160px] h-[71px]"
           />
           <h1 className="text-[45px] font-extrabold lg:text-[60px] lg:font-medium uppercase">
-            Perfect Boat
+            Carter Boating
           </h1>
         </div>
         <div className="flex flex-col gap-y-5">
@@ -66,7 +66,7 @@ const PerfectBoatHero = () => {
           </p>
         </div>
       </div>
-      <img src="/nykn-2.png" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-2.png" alt="" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 lg:px-64 lg:py-10  flex w-full flex-col justify-start items-start gap-4">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">
@@ -90,7 +90,7 @@ const PerfectBoatHero = () => {
         </div>
         <PerfectBoatTechnologies />
       </div>
-      <img src="/nykn-3.png" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-3.png" alt="" className="w-full lg:h-screen" />
       <div className="w-full px-4 md:px-12 lg:px-64 lg:py-10 flex flex-col gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
@@ -121,7 +121,7 @@ const PerfectBoatHero = () => {
           mockup={"/perfect-mockup-4.png"}
         />
       </div>
-      <img src="/nykn-4.png" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-4.png" alt="" className="w-full lg:h-screen" />
     </div>
   );
 };

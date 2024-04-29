@@ -169,6 +169,108 @@ const AboutUsFaq = () => {
             </div>
           </div>
         </div>
+        <div
+          id="accordion-collapse"
+          data-accordion="collapse"
+          className="w-full"
+          style={{
+            borderBottom:
+              openAccordion == 4
+                ? `1px solid ${palette?.brandOrange}`
+                : `1px solid #8f8f8f24`,
+          }}
+        >
+          <button
+            type="button"
+            onClick={() => handleAccordionClick(4)}
+            className="flex items-center justify-between w-full py-3 font-medium rtl:text-right  outline-none hover:opacity-95  gap-3"
+            data-accordion-target="#accordion-collapse-body-1"
+            aria-expanded={openAccordion === 4 ? "true" : "false"}
+            aria-controls="accordion-collapse-body-1"
+          >
+            <div
+              className={`w-auto flex justify-start items-center text-lg text-left gap-1 text-inherit`}
+            >
+              <span className="font-bold">2023</span>
+              <span
+                className="font-bold"
+                style={{ color: palette?.brandOrange }}
+              >
+                /
+              </span>
+            </div>
+            <MdKeyboardArrowDown
+              className={`text-lg ${
+                openAccordion === 4 && "rotate-180 text-orange-600"
+              }`}
+            />
+          </button>
+          <div
+            id="accordion-1"
+            className={`transition-all duration-200 ${
+              openAccordion === 4 ? "" : "hidden"
+            }`}
+            aria-labelledby="accordion-collapse-heading-1"
+          >
+            <div className=" rounded-md  ">
+              <p className="mb-2 " style={{ color: palette?.color }}>
+                Our team of skilled professionals is dedicated to delivering
+                top-notch home services with professionalism and integrity.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          id="accordion-collapse"
+          data-accordion="collapse"
+          className="w-full"
+          style={{
+            borderBottom:
+              openAccordion == 5
+                ? `1px solid ${palette?.brandOrange}`
+                : `1px solid #8f8f8f24`,
+          }}
+        >
+          <button
+            type="button"
+            onClick={() => handleAccordionClick(5)}
+            className="flex items-center justify-between w-full py-3 font-medium rtl:text-right  outline-none hover:opacity-95  gap-3"
+            data-accordion-target="#accordion-collapse-body-1"
+            aria-expanded={openAccordion === 5 ? "true" : "false"}
+            aria-controls="accordion-collapse-body-1"
+          >
+            <div
+              className={`w-auto flex justify-start items-center text-lg text-left gap-1 text-inherit`}
+            >
+              <span className="font-bold">2024</span>
+              <span
+                className="font-bold"
+                style={{ color: palette?.brandOrange }}
+              >
+                /
+              </span>
+            </div>
+            <MdKeyboardArrowDown
+              className={`text-lg ${
+                openAccordion === 5 && "rotate-180 text-orange-600"
+              }`}
+            />
+          </button>
+          <div
+            id="accordion-1"
+            className={`transition-all duration-200 ${
+              openAccordion === 5 ? "" : "hidden"
+            }`}
+            aria-labelledby="accordion-collapse-heading-1"
+          >
+            <div className=" rounded-md  ">
+              <p className="mb-2 " style={{ color: palette?.color }}>
+                Our team of skilled professionals is dedicated to delivering
+                top-notch home services with professionalism and integrity.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -22,7 +22,7 @@ const Footer = () => {
         >
           Have an idea?
         </h1>
-        <h1 className="text-5xl text-[#F15C20] font-extrabold lg:text-[65px] lg:font-bold capitalize">
+        <h1 className="text-5xl text-[#F15C20] font-extrabold lg:text-[65px] lg:font-bold ">
           Let’s talk!
         </h1>
       </div>
@@ -41,7 +41,7 @@ const Footer = () => {
               background: `${palette?.brandRed}`,
               color: "white",
             }}
-            className="w-[140px] lg:w-[168px] h-14 lg:h-16 rounded-full transition-all duration-100 hover:scale-105 text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-bg"
+            className="w-[140px] lg:w-[168px] h-14 lg:h-16 rounded-full transition-all duration-100 hover:scale-105 text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-bounce"
           >
             <BsFillTelephoneFill />
             <span>Call Now</span>

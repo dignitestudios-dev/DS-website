@@ -12,6 +12,7 @@ const CaseStudiesSection = () => {
   const { palette } = useContext(GlobalContext);
   return (
     <div
+      id="case-studies"
       className={` w-full py-10`}
       style={{ background: palette?.dark_contrast_background }}
     >

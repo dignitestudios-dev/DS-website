@@ -10,7 +10,7 @@ import 'swiper/css/effect-fade';
 import { Autoplay, EffectFade } from 'swiper/modules';
 const TurnYourIdea = () => {
   const { palette } = useContext(GlobalContext);
-  const images = ['/fareshare-mockup.png', '/carter-boating-mockup.png']
+  const images = ['/mmj-mockup.png', '/fitness-mockup.png']
 
   return (
     <div className="w-full grid grid-cols-1 lg:grid-cols-5 justify-start items-start gap-y-8 py-4 lg:py-12 px-4 md:px-12 lg:px-28">
@@ -50,8 +50,9 @@ const TurnYourIdea = () => {
           spaceBetween={0}
           slidesPerView={1}
           effect={'fade'}
+          loop={true}
           autoplay={{
-            duration: 2000
+            duration: 1000
           }}
           modules={[EffectFade, Autoplay]}
           className="bg-transparent lg:scale-[1.15]"
@@ -64,7 +65,7 @@ const TurnYourIdea = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-    </div>
+    </div >
   );
 };
 

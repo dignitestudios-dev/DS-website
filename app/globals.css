@@ -40,10 +40,10 @@ h1::selection, h2::selection,h3::selection,h4::selection,h5::selection,h6::selec
 
 }
 
-a,
-button,
-input {
-  cursor: url("../public/cursor.png"), auto !important;
+
+button:hover, a:hover, input:hover{
+  cursor: url("../public/cursor-pointer.png"), auto !important;
+  
 }
 
 /***** Slide Left *****/
@@ -183,33 +183,31 @@ input {
 .loader {
   width: 50px;
   aspect-ratio: 1;
-  display: grid;
-  border-radius: 50%;
-  background: conic-gradient(
-    #25b09b 25%,
-    #f03355 0 50%,
-    #514b82 0 75%,
-    #ffa516 0
-  );
-  animation: l22 2s infinite linear;
+  display:grid;
+  -webkit-mask: conic-gradient(from 15deg,#0000,#000);
+  animation: l26 1s infinite steps(12);
 }
-.loader::before,
-.loader::after {
+.loader,
+.loader:before,
+.loader:after{
+  background:
+    radial-gradient(closest-side at 50% 12.5%,
+     #f15c20 96%,#0000) 50% 0/20% 80% repeat-y,
+    radial-gradient(closest-side at 12.5% 50%,
+     #f15c20 96%,#0000) 0 50%/80% 20% repeat-x;
+}
+.loader:before,
+.loader:after {
   content: "";
   grid-area: 1/1;
-  margin: 15%;
-  border-radius: 50%;
-  background: inherit;
-  animation: inherit;
+  transform: rotate(30deg);
 }
-.loader::after {
-  margin: 25%;
-  animation-duration: 3s;
+.loader:after {
+  transform: rotate(60deg);
 }
-@keyframes l22 {
-  100% {
-    transform: rotate(1turn);
-  }
+
+@keyframes l26 {
+  100% {transform:rotate(1turn)}
 }
 
 .about-bg {
@@ -219,17 +217,36 @@ input {
 
 /* animate-bg */
 .animate-bg {
-  animation: changeBg 3s ease-out infinite;
+  animation: changeBg 0.5s ease-out infinite;
 }
 
 @keyframes changeBg {
   0% {
-    background-color: #ef3c36;
+    background-color: #f15c20;
   }
-  /* 50%{
-    background-color: #973131;
-  } */
+  
   100% {
     background-color: #393939;
+  }
+}
+
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 1s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
   }
 }

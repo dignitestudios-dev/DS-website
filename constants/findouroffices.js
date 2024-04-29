@@ -3,14 +3,14 @@ export const offices = [
   {
     name: "Florida, US",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptatem.",
+      "3505 lake lynda drive Dr #200, orlando fL 32817, united states",
     full_image: "/office-1.png",
     image: "/find-our-offices-1.png"
   },
   {
     name: "Wyoming, US",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptatem.",
+      "312 W 2nd street, casper, wy 82601, united states",
     full_image: "/office-2.png",
     image: "/find-our-offices-2.png"
 
@@ -18,7 +18,7 @@ export const offices = [
   {
     name: "Dubai, UAE",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptatem.",
+      "level 21, al habtoor business tower, king salman biz abdul aziz al saud st, dubai marina, dubai, UAE",
     full_image: "/office-3.png",
     image: "/find-our-offices-3.png"
 
@@ -26,7 +26,7 @@ export const offices = [
   {
     name: "Pakistan",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptatem.",
+      "Suite 104, emarah suites, shahrah-e-faisal, block a, karachi, sindh 75400, pakistan",
     full_image: "/office-4.png",
     image: "/find-our-offices-4.png"
   },

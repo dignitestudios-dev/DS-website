@@ -99,8 +99,10 @@ const ServicesHero = () => {
           spaceBetween={0}
           slidesPerView={1}
           effect={'fade'}
+          loop={true}
+
           autoplay={{
-            duration: 2000
+            duration: 1000
           }}
           modules={[EffectFade, Autoplay]}
           className="bg-transparent lg:scale-[1.15]"

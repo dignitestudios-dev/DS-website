@@ -99,8 +99,10 @@ const IosAppHero = () => {
           slidesPerView={1}
           effect={'fade'}
           autoplay={{
-            duration: 2000
+            duration: 1000
           }}
+          loop={true}
+
           modules={[EffectFade, Autoplay]}
           className="bg-transparent "
         >

@@ -7,64 +7,34 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
   useEffect(() => {
-    var TxtType = function (el, toRotate, period) {
-      this.toRotate = toRotate;
-      this.el = el;
-      this.loopNum = 0;
-      this.period = parseInt(period, 10) || 2000;
-      this.txt = "";
-      this.tick();
-      this.isDeleting = false;
-    };
-
-    TxtType.prototype.tick = function () {
-      var i = this.loopNum % this.toRotate.length;
-      var fullTxt = this.toRotate[i];
-
-      if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
+    const dynamicText = document.getElementById("typewriter-effect");
+    const words = ["Digital Cosmos", "Techno Galaxy", "Digital World", "App Universe"];
+    // Variables to track the position and deletion status of the word
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typeEffect = () => {
+      const currentWord = words[wordIndex];
+      const currentChar = currentWord.substring(0, charIndex);
+      dynamicText.textContent = currentChar;
+      dynamicText.classList.add("stop-blinking");
+      if (!isDeleting && charIndex < currentWord.length) {
+        // If condition is true, type the next character
+        charIndex++;
+        setTimeout(typeEffect, 200);
+      } else if (isDeleting && charIndex > 0) {
+        // If condition is true, remove the previous character
+        charIndex--;
+        setTimeout(typeEffect, 200);
       } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        // If word is deleted then switch to the next word
+        setTimeout(typeEffect, 200);
+        isDeleting = !isDeleting;
+        dynamicText.classList.remove("stop-blinking");
+        wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
       }
-
-      this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
-
-      var that = this;
-      var delta = 200 - Math.random() * 100;
-
-      if (this.isDeleting) {
-        delta /= 2;
-      }
-
-      if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-      } else if (this.isDeleting && this.txt === "") {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-      }
-
-      setTimeout(function () {
-        that.tick();
-      }, delta);
-    };
-
-    window.onload = function () {
-      var elements = document.getElementsByClassName("typewrite");
-      for (var i = 0; i < elements.length; i++) {
-        var toRotate = elements[i].getAttribute("data-type");
-        var period = elements[i].getAttribute("data-period");
-        if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
-      }
-      // INJECT CSS
-      var css = document.createElement("style");
-      css.type = "text/css";
-      css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-      document.body.appendChild(css);
-    };
+    }
+    typeEffect();
   }, []);
   return (
     <div className="w-full  flex flex-col pt-10  gap-4 justify-start items-center">
@@ -80,25 +50,24 @@ const Hero = () => {
         style={{
           color: palette?.color,
         }}
-        className="text-3xl font-extrabold lg:text-7xl lg:font-bold text-center capitalize"
+        className="text-[2rem] lg:text-6xl font-semibold text-center capitalize"
       >
         Elevate your brand in the <br />
         <span
+          id="typewriter-effect"
           style={{
             color: palette?.brandOrange
           }}
-          data-period="1000"
-          data-type='[ "Digital Cosmos", "Techno Galaxy", "Digital World", "App Universe" ]'
-          className={`typewrite text-[50px]  font-extrabold text-center lg:text-left lg:text-[74px] lg:font-bold leading-tight `}
+          className={`typing-demo text-[2rem] lg:text-6xl font-bold text-center lg:text-left  leading-normal `}
         >
-          <span className={`wrap `}></span>
+
         </span>
       </h1>
       <span
         style={{
           color: palette?.dark_contrast_color,
         }}
-        className=" text-center my-2 lg:my-6 text-[16px] lg:text-[19px] font-normal"
+        className=" text-center my-2 lg:my-6 text-[14px] lg:text-[19px] font-normal"
       >
         Whether it's crafting a visually stunning brand identity, designing
         immersive <br /> digital experiences, or developing strategic marketing
@@ -110,7 +79,7 @@ const Hero = () => {
             background: palette?.brandOrange,
             color: "white",
           }}
-          className="w-[150px] lg:w-[206px] h-14 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
+          className="hover:cursor-[url('/cursor-pointer.png')] w-[150px] lg:w-[206px] h-14 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
         >
           Schedule a meeting
         </Link>

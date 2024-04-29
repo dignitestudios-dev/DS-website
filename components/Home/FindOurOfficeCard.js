@@ -17,7 +17,7 @@ const FindOurOfficeCard = ({ office }) => {
       />
       <span className="scale-0 transition-all duration-300 group-hover:scale-100 flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-40 rounded-xl bg-white">
         <h1 className="text-xl font-medium text-black">{office?.name}</h1>
-        <p className="text-md font-normal text-[#5c5c5c]">
+        <p className="text-md font-normal capitalize text-[#5c5c5c]">
           {office?.description}
         </p>
       </span>
