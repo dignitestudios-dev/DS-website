@@ -55,10 +55,9 @@ const NyknTechnologies = () => {
       </div>
       <Link
         href="https://www.maidsimpl.com/"
-        style={{
-          border: `1px solid ${palette?.color}`,
-        }}
-        className={`mt-2 w-[203px] h-[78px] rounded-full px-3 flex items-center justify-center gap-3 ${
+        className={`mt-2 w-[203px] h-[78px] border-[1px] ${
+          theme == "dark" ? "border-white" : "border-black"
+        } rounded-full px-3 flex items-center justify-center gap-3 ${
           theme == "dark"
             ? "hover:bg-orange-600 hover:border-orange-600 hover:text-white"
             : "hover:bg-orange-600 hover:border-orange-600 hover:text-white"
