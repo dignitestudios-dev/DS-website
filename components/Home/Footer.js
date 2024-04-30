@@ -58,7 +58,8 @@ const Footer = () => {
             +1 877 714 1770
           </span>
 
-          <button
+          <Link
+            href="tel:+18777141770"
             name="call-now-btn"
             style={{
               background: `${palette?.brandOrange}`,
@@ -68,7 +69,7 @@ const Footer = () => {
           >
             <BsFillTelephoneFill />
             <span>Call Now</span>
-          </button>
+          </Link>
         </div>
         <div className="w-full lg:w[50%] flex justify-end">
           <div className=" h-auto w-full lg:w-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">

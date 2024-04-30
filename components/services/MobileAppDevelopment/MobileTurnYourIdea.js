@@ -57,13 +57,13 @@ const MobileTurnYourIdea = () => {
           loop={true}
 
           modules={[EffectFade, Autoplay]}
-          className="bg-transparent "
+          className="bg-transparent w-full h-full "
         >
-          <SwiperSlide className='bg-transparent '>
-            <img src={images[0]} className='' />
+          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full '>
+            <img src={images[0]} className='w-full h-full' />
           </SwiperSlide>
-          <SwiperSlide className='bg-transparent '>
-            <img src={images[1]} className='' />
+          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full '>
+            <img src={images[1]} className='w-full h-full' />
           </SwiperSlide>
         </Swiper>
       </div>

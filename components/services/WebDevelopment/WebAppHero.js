@@ -99,19 +99,19 @@ const ServicesHero = () => {
           spaceBetween={0}
           slidesPerView={1}
           effect={'fade'}
-          loop={true}
-
           autoplay={{
             duration: 1000
           }}
+          loop={true}
+
           modules={[EffectFade, Autoplay]}
-          className="bg-transparent lg:scale-[1.15]"
+          className="bg-transparent w-full h-full "
         >
-          <SwiperSlide className='bg-transparent '>
-            <img src={images[0]} className='' />
+          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full '>
+            <img src={images[0]} className='w-full h-full' />
           </SwiperSlide>
-          <SwiperSlide className='bg-transparent '>
-            <img src={images[1]} className='' />
+          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full '>
+            <img src={images[1]} className='w-full h-full' />
           </SwiperSlide>
         </Swiper>
       </div>

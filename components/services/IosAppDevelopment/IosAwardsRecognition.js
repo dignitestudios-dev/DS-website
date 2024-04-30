@@ -20,9 +20,7 @@ const IosAwardsRecognition = () => {
           color: palette?.dark_contrast_color,
         }}
       >
-        We leverage the latest technologies and craft industry-leading solutions
-        for startups and enterprises. We help companies level up their game with
-        top-notch mobile apps.
+        We create standout apps with top-notch quality and innovation. Delivering excellence in iOS app development.
       </p>
       <div className="w-full grid grid-cols-6 md:grid-cols-6 lg:grid-cols-6 gap-y-4">
         <div className="flex justify-center items-center ">

@@ -26,7 +26,7 @@ export const casestudies = [
     title: "Carter Boating",
     description:
       "Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketingF",
-    image: "/perfect-boat-3.png",
+    image: "/case-study4.png",
     projectLink: "/case-studies/carter-boating",
   },
 ];
