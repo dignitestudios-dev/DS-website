@@ -10,7 +10,7 @@ const AwardsRecognition = () => {
         style={{
           color: palette?.color,
         }}
-        className="text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase group"
+        className="text-3xl font-extrabold lg:text-4xl xl:text-6xl lg:font-bold uppercase group"
       >
         <span className="group-hover:text-[#F15C20] transition-all duration-300">awards & recognition</span>
       </h1>
@@ -20,9 +20,7 @@ const AwardsRecognition = () => {
           color: palette?.dark_contrast_color,
         }}
       >
-        We leverage the latest technologies and craft industry-leading solutions
-        for startups and enterprises. We help companies level up their game with
-        top-notch mobile apps.
+        Our commitment to excellence is proudly displayed through our numerous awards. As the best Progressive Web Apps development company, we have been recognized for our innovative solutions and client satisfaction.
       </p>
       <div className="w-full grid grid-cols-6 md:grid-cols-6 lg:grid-cols-6 gap-y-4">
         <div className="flex justify-center items-center ">

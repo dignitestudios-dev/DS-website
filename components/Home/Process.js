@@ -87,7 +87,7 @@ const Process = () => {
           </button>
         </div>
 
-        <ProcessContainer />
+        <ProcessContainer openedTab={openedTab} />
         <Link
           href="/contact-us"
           name="start-your-project"

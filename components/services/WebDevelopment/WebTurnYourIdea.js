@@ -19,19 +19,17 @@ const TurnYourIdea = () => {
           style={{
             color: palette?.color,
           }}
-          className="text-3xl font-extrabold lg:text-6xl lg:font-bold mx-0 uppercase group"
+          className="text-3xl font-extrabold lg:text-4xl xl:text-6xl lg:font-bold mx-0 uppercase group"
         >
-          turn your idea <br /> into digital <br /> <span className="group-hover:text-[#F15C20] transition-all duration-300">transformation</span>
+          TURN YOUR CONCEPT  <br /> into functional <br /> <span className="group-hover:text-[#F15C20] transition-all duration-300">web Application</span>
         </h1>
         <p
           style={{
             color: palette?.dark_contrast_color,
           }}
-          className="text-[16px] lg:text-[18px] font-normal lg:ml-1 lg:w-[78%]"
+          className="text-[16px] lg:my-4 lg:text-[18px] font-normal lg:ml-1 lg:w-[78%]"
         >
-          We leverage the latest technologies and craft industry-leading
-          solutions for startups and enterprises. We help companies level up
-          their game with top-notch mobile apps.
+          Dignite Studios ensures that your innovative concepts transform into successful web applications.
         </p>
         <Link
           href={"/contact-us"}
@@ -56,13 +54,13 @@ const TurnYourIdea = () => {
           loop={true}
 
           modules={[EffectFade, Autoplay]}
-          className="bg-transparent w-full h-full "
+          className="bg-transparent w-full h-full flex justify-center"
         >
-          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full '>
-            <img src={images[0]} className='w-full h-full' />
+          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full  flex justify-center'>
+            <img src={images[0]} className='w-full h-full md:scale-75 lg:scale-100 lg:w-full lg:h-full' />
           </SwiperSlide>
-          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full '>
-            <img src={images[1]} className='w-full h-full' />
+          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full  flex justify-center'>
+            <img src={images[1]} className='w-full h-full md:scale-75 lg:scale-100 lg:w-full lg:h-full' />
           </SwiperSlide>
         </Swiper>
       </div>

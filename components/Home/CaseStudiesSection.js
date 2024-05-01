@@ -20,7 +20,7 @@ const CaseStudiesSection = () => {
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>recent</p>
         <div className={`w-full px-0 flex justify-between items-center`}>
           <h1
-            className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-6xl`}
+            className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-6xl`}
           >
             case studies
           </h1>

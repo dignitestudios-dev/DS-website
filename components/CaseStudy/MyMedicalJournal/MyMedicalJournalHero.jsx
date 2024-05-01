@@ -15,7 +15,7 @@ const MyMedicalJournalHero = () => {
         color: palette?.color,
       }}
     >
-      <div className="px-4 md:px-12 lg:px-64 lg:pb-10 flex flex-col gap-y-8">
+      <div className="px-4 md:px-12 xl:px-64 lg:pb-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           {theme == "dark" ? (
             <img src="/mmj-logo-2.png" alt="" className="w-[160px] h-[71px]" />
@@ -51,7 +51,7 @@ const MyMedicalJournalHero = () => {
         </div>
       </div>
       <img src="/my-medical-1.png" alt="" className={`w-full lg:h-screen`} />
-      <div className="px-4 md:px-12 lg:px-64 lg:py-10 flex flex-col gap-y-8">
+      <div className="px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">The Challenge</h2>
           <p className="text-[18px] font-light">
@@ -72,7 +72,7 @@ const MyMedicalJournalHero = () => {
         </div>
       </div>
       <img src="/my-medical-2.png" alt="" className="w-full lg:h-screen" />
-      <div className="px-4 md:px-12 lg:px-64 lg:py-10  flex w-full flex-col justify-start items-start gap-4">
+      <div className="px-4 md:px-12 xl:px-64 lg:py-10  flex w-full flex-col justify-start items-start gap-4">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">
             Seamless Services at <br /> Your Fingertips
@@ -96,7 +96,7 @@ const MyMedicalJournalHero = () => {
         <MyMedicalJournalTechnologies />
       </div>
       <img src="/my-medical-3.png" alt="" className="w-full lg:h-screen" />
-      <div className="w-full px-4 md:px-12 lg:px-64 lg:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
+      <div className="w-full px-4 md:px-12 xl:px-64  md:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
           description={

@@ -7,16 +7,16 @@ const LandingContactUs = () => {
   const { palette, theme } = useContext(GlobalContext);
   return (
     <div
-      className={`w-full lg:w-[70%] my-5 px-4 md:px-12 lg:px-28 flex justify-center items-start  h-auto`}
+      className={`w-full xl:w-[100%] my-5 px-4 md:px-12 lg:px-28 flex justify-center items-start  h-auto`}
     >
       <div
-        className={`w-full h-auto grid grid-cols-1 lg:grid-cols-2 rounded-3xl ${theme == "light" ? "bg-[#E7E7E7]/[0.24]" : "bg-[#2D2D2D]"
+        className={`w-full md:h-[38rem] xl:h-[35rem] grid grid-cols-1 md:grid-cols-2 rounded-3xl ${theme == "light" ? "bg-[#E7E7E7]/[0.24]" : "bg-[#2D2D2D]"
           }`}
       >
         <div className="w-full h-full">
           <img
             src={"/cto.png"}
-            className="w-full h-full rounded-3xl lg:rounded-none"
+            className="w-full md:h-[38rem] xl:h-[35rem] object-cover rounded-3xl "
           />
         </div>
         <div className="w-full h-full flex px-8 py-10 flex-col justify-start items-start gap-8">

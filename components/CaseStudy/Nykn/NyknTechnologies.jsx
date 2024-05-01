@@ -54,7 +54,7 @@ const NyknTechnologies = () => {
         })}
       </div>
       <Link
-        href="https://www.maidsimpl.com/"
+        href="https://www.nykn.com/"
         className={`mt-2 w-[203px] h-[78px] border-[1px] ${
           theme == "dark" ? "border-white" : "border-black"
         } rounded-full px-3 flex items-center justify-center gap-3 ${

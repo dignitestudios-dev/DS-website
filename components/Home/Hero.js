@@ -68,8 +68,7 @@ const Hero = () => {
         }}
         className=" text-center my-2 lg:my-6 text-[14px] lg:text-[19px] font-normal"
       >
-        Whether it's crafting a visually stunning brand identity, designing
-        immersive <br /> digital experiences, or developing strategic marketing
+        “Creating seamless app experiences. Transforming your ideas <br /> into exceptional mobile app solutions.”
       </span>
       <div className="w-auto flex gap-4 justify-center items-center">
         <Link href={"/contact-us"}

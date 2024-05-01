@@ -24,9 +24,10 @@ const ServicesHero = () => {
           style={{
             color: palette?.color,
           }}
-          className="lg:block hidden text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase"
+          className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-6xl lg:font-bold uppercase"
         >
-          award winning web <br /> app development <BsArrowRight style={{ color: palette?.brandOrange }} className='inline-flex ' />  <br /> agency
+          Top Rated <span style={{ color: palette?.brandOrange }}>Web</span> <br /> App Development
+          <BsArrowRight style={{ color: palette?.brandOrange }} className='inline-flex ' />  <br /> Company
         </h1>
         <h1
           style={{
@@ -34,7 +35,7 @@ const ServicesHero = () => {
           }}
           className="lg:hidden block text-3xl font-extrabold lg:text-5xl lg:font-bold uppercase"
         >
-          award winning mobile <br /> app development agency
+          Top Rated <span style={{ color: palette?.brandOrange }}>Web</span> <br /> app development Company
         </h1>
         <span
           style={{
@@ -42,8 +43,7 @@ const ServicesHero = () => {
           }}
           className=" my-2 lg:my-6 text-[15px] lg:text-[16px] font-normal"
         >
-          Whether it's crafting a visually stunning brand identity, designing
-          immersive <br /> digital experiences, or developing strategic marketing
+          We create web applications that bridge the gap between websites and native apps, offering the best of both worlds.
         </span>
         <div className="w-auto flex gap-4 justify-start items-center">
           <Link href={"/contact-us"}
@@ -58,34 +58,34 @@ const ServicesHero = () => {
           </Link>
 
         </div>
-        <div className='w-full mt-10 grid grid-cols-3 gap-8'>
-          <div className='w-full h-56 flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
+        <div className='w-full mt-10 grid lg:hidden xl:grid grid-cols-3 gap-8'>
+          <div className='w-full h-56 md:h-auto lg:h-56  flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
             <span style={{
               color: palette?.color,
             }} className='text-4xl font-extrabold'>
-              1300+
+              150+
             </span>
             <span style={{
               color: palette?.dark_contrast_color,
             }} className='text-[16px] lg:text-[17px] text-start font-normal'>Applications developed and designed</span>
 
           </div>
-          <div className='w-full h-56 flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
+          <div className='w-full h-56 md:h-auto lg:h-56  flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
             <span style={{
               color: palette?.color,
             }} className='text-4xl font-extrabold'>
-              300+
+              170+
             </span>
             <span style={{
               color: palette?.dark_contrast_color,
             }} className='text-[16px] lg:text-[17px] text-start font-normal'>Developers & Engineers under one roof</span>
 
           </div>
-          <div className='w-full h-56 flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
+          <div className='w-full h-56 md:h-auto lg:h-56  flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
             <span style={{
               color: palette?.color,
             }} className='text-4xl font-extrabold'>
-              15+
+              04+
             </span>
             <span style={{
               color: palette?.dark_contrast_color,
@@ -105,13 +105,13 @@ const ServicesHero = () => {
           loop={true}
 
           modules={[EffectFade, Autoplay]}
-          className="bg-transparent w-full h-full "
+          className="bg-transparent w-full h-full flex justify-center"
         >
-          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full '>
-            <img src={images[0]} className='w-full h-full' />
+          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full  flex justify-center'>
+            <img src={images[0]} className='w-full h-full md:scale-75 lg:scale-100 lg:w-full lg:h-full' />
           </SwiperSlide>
-          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full '>
-            <img src={images[1]} className='w-full h-full' />
+          <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full  flex justify-center'>
+            <img src={images[1]} className='w-full h-full md:scale-75 lg:scale-100 lg:w-full lg:h-full' />
           </SwiperSlide>
         </Swiper>
       </div>

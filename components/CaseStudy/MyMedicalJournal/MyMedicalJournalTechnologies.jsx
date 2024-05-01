@@ -54,7 +54,7 @@ const MyMedicalJournalTechnologies = () => {
         })}
       </div>
       <Link
-        href="https://www.maidsimpl.com/"
+        href="https://mymedicaljournal.app/"
         className={`mt-2 w-[203px] h-[78px] border-[1px] ${
           theme == "dark" ? "border-white" : "border-black"
         } rounded-full px-3 flex items-center justify-center gap-3 ${

@@ -10,17 +10,17 @@ const IosAwardsRecognition = () => {
         style={{
           color: palette?.color,
         }}
-        className="text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase group"
+        className="text-3xl font-extrabold lg:text-4xl xl:text-6xl lg:font-bold uppercase group"
       >
         <span className="group-hover:text-[#F15C20] transition-all duration-300">awards & recognition</span>
       </h1>
       <p
-        className="lg:w-[70%] my-2 text-[16px] lg:text-[18px] font-normal"
+        className="lg:w-[80%] my-2 text-[16px] lg:text-[18px] font-normal"
         style={{
           color: palette?.dark_contrast_color,
         }}
       >
-        We create standout apps with top-notch quality and innovation. Delivering excellence in iOS app development.
+        Our commitment to excellence is proudly displayed through our numerous awards. As the best iOS apps development company, we have been recognized for our innovative solutions and client satisfaction.
       </p>
       <div className="w-full grid grid-cols-6 md:grid-cols-6 lg:grid-cols-6 gap-y-4">
         <div className="flex justify-center items-center ">

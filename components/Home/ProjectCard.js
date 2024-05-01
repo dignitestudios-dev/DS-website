@@ -13,7 +13,7 @@ const ProjectCard = ({ title, description, image, projectLink }) => {
         mouseCursor("View Project", e);
       }}
       onMouseOut={() => { disableMouseCursor(); }}
-      className="group  h-auto lg:h-[450px] p-3 lg:p-0 flex flex-col items-start gap-2 lg:mb-12 relative">
+      className="group  h-auto lg:h-[400px] xl:h-[450px] p-3 lg:p-0 flex flex-col items-start gap-2 lg:mb-12 relative">
       <img
         src={image}
         alt={title}
