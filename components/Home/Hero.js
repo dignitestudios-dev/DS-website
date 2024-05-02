@@ -68,7 +68,7 @@ const Hero = () => {
         }}
         className=" text-center my-2 lg:my-6 text-[14px] lg:text-[19px] font-normal"
       >
-        “Creating seamless app experiences. Transforming your ideas <br /> into exceptional mobile app solutions.”
+        Creating seamless app experiences. Transforming your ideas <br /> into exceptional mobile app solutions.
       </span>
       <div className="w-auto flex gap-4 justify-center items-center">
         <Link href={"/contact-us"}

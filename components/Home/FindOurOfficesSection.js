@@ -49,7 +49,7 @@ const FindOurOfficesSection = () => {
       <div
         className={`w-full lg:w-[70%] h-auto my-5 flex justify-center items-start `}
       >
-        <FindOurOfficesSwiper />
+        <FindOurOfficesSwiper offices={offices} />
 
         <div className="w-full h-auto hidden lg:flex justify-center items-start">
           {offices.map((office, index) => (

@@ -18,7 +18,7 @@ const WhyChooseUsSection = () => {
       >
         why choose us
       </h1>
-      <div className="py-2 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 gap-6">
+      <div className="py-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 gap-6">
         {chooseus.map((c, index) => {
           return (
             <WhyChooseUsCard

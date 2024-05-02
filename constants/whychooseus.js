@@ -5,7 +5,7 @@ export const chooseus = [
     icon: "/quick-response.png",
     title: "Quick Response",
     description:
-      "We understand that time is of the essence. Our team is committed to delivering swift results without compromising on quality. We respond quickly to your inquiries and work efficiently to keep your project on track",
+      "We understand that time is of the essence. Our team is committed to delivering swift results without compromising on quality. We respond quickly to your inquiries and work efficiently to keep your project on track.",
   },
   {
     icon: "/fast-delivery.png",
