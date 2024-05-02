@@ -106,14 +106,14 @@ const NyknHero = () => {
           mockup={"/nykn-mockup-2.png"}
         />
         <LeftAllignedScreen
-          title={"Manage Your Tasks"}
+          title={"Homepage"}
           description={
             "The homepage welcomes users with a vibrant and dynamic interface, inviting them to embark on an immersive journey through the heart of Music City. Designed with both tourists and locals in mind, it features intuitive navigation options for users to explore the app's extensive range of offerings. From iconic landmarks to hidden gems, the homepage serves as a portal to uncovering the rich tapestry of experiences Nashville has to offer."
           }
           mockup={"/nykn-mockup-3.png"}
         />
         <RightAllignedScreen
-          title={"Blogs"}
+          title={"Explore Categories"}
           description={
             "With 11 distinct categories meticulously curated to encompass the city's diverse attractions, users can navigate through a plethora of options tailored to their preferences. From renowned landmarks and cultural hotspots waiting to be uncovered, each category gives a look into a unique facet of Nashville's charm. Whether users are eager to delve into the city's musical legacy, savor its culinary delights, or embark on outdoor adventures, this feature ensures a seamless journey of discovery, enriching both tourists and locals alike with unforgettable experiences."
           }

@@ -29,40 +29,43 @@ const PerfectBoatHero = () => {
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">About The App</h2>
           <p className="text-[18px] font-light">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
-            libero a arcu faucibus auctor. Cras elementum risus nec elementum
-            tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est
-            dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan
-            sem a vehicula.
+            This platform offers a solution for boat owners to list their
+            vessels for rent. Users can input crucial details such as
+            availability, pricing, and specifications, ensuring comprehensive
+            information for potential renters. With a user-friendly interface,
+            boat owners can manage their listings efficiently, while renters can
+            browse and select boats tailored to their needs, fostering a
+            convenient and hassle-free rental experience.
             <br />
             <br />
-            Fusce lacinia nec orci sit amet interdum. Donec magna augue,
-            ultricies non facilisis nec, tincidunt eget sem. Nunc pretium
-            aliquet sem posuere posuere. Ut imperdiet bibendum turpis. Duis quis
-            egestas leo, non cursus tellus. Ut tincidunt vitae metus eget
-            rhoncus. Proin tempor diam a lectus mollis pharetra. Vivamus
-            eleifend nisl id nisi interdum porttitor.
+            Secure in-app payments streamline the rental process, providing
+            peace of mind for both boat owners and renters. Through encrypted
+            transactions, users can confidently finalize bookings without
+            concerns about payment security. This integration positions it as a
+            trusted marketplace for boat rentals, where users can engage in
+            transactions with ease and confidence.
           </p>
         </div>
       </div>
       <img src="/perfect-boat-1.png" alt="" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
-          <h2 className="text-[36px] font-medium">The Challenge</h2>
+          <h2 className="text-[36px] font-medium">The Challenges</h2>
           <p className="text-[18px] font-light">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
-            libero a arcu faucibus auctor. Cras elementum risus nec elementum
-            tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est
-            dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan
-            sem a vehicula.
+            A significant challenge faced during the development of this
+            platform was ensuring a user-friendly interface that catered to both
+            boat owners and renters. Balancing comprehensive listing features
+            with simplicity posed a design hurdle, requiring careful
+            consideration to simplify the listing process without sacrificing
+            essential details.
             <br />
             <br />
-            Fusce lacinia nec orci sit amet interdum. Donec magna augue,
-            ultricies non facilisis nec, tincidunt eget sem. Nunc pretium
-            aliquet sem posuere posuere. Ut imperdiet bibendum turpis. Duis quis
-            egestas leo, non cursus tellus. Ut tincidunt vitae metus eget
-            rhoncus. Proin tempor diam a lectus mollis pharetra. Vivamus
-            eleifend nisl id nisi interdum porttitor.
+            Another notable challenge revolved around implementing a secure
+            payment system within the app. Guaranteeing the safety of financial
+            transactions was paramount to building trust among users. Overcoming
+            this challenge involved the addition of encryption protocols and
+            adhering to industry-standard security practices to safeguard
+            sensitive payment information.
           </p>
         </div>
       </div>
@@ -73,19 +76,18 @@ const PerfectBoatHero = () => {
             Seamless Services at <br /> Your Fingertips
           </h2>
           <p className="text-[18px] font-light">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
-            libero a arcu faucibus auctor. Cras elementum risus nec elementum
-            tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est
-            dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan
-            sem a vehicula.
+            With our platform, users can list their boat for rent by specifying
+            availability, pricing, and essential details, all within a
+            user-friendly interface designed for simplicity. Whether you're a
+            boat owner or a renter, managing and accessing listings is made
+            easy, ensuring a hassle-free experience for all users.
             <br />
             <br />
-            Fusce lacinia nec orci sit amet interdum. Donec magna augue,
-            ultricies non facilisis nec, tincidunt eget sem. Nunc pretium
-            aliquet sem posuere posuere. Ut imperdiet bibendum turpis. Duis quis
-            egestas leo, non cursus tellus. Ut tincidunt vitae metus eget
-            rhoncus. Proin tempor diam a lectus mollis pharetra. Vivamus
-            eleifend nisl id nisi interdum porttitor.
+            Navigate through a world of boating adventures with ease as you
+            explore available rentals and securely book your next excursion via
+            our in-app payment system. With just a few taps, users can browse
+            through a wide selection of boats, select the perfect vessel for
+            their needs, and complete transactions securely.
           </p>
         </div>
         <PerfectBoatTechnologies />
@@ -95,30 +97,30 @@ const PerfectBoatHero = () => {
         <LeftAllignedScreen
           title={"Splash Screen"}
           description={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut libero a arcu faucibus auctor. Cras elementum risus nec elementum tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan sem a vehicula."
+            "It creates an inviting entry point for users, showcasing the essence of boat rentals available with ease. With captivating visuals and concise messaging, the splash screen instantly communicates the platform's functionality and benefits, setting the tone for a user-friendly experience. This introductory screen primes users for effortless navigation and encourages exploration of the platform's offerings."
           }
           mockup={"/perfect-mockup-1.png"}
         />
         <RightAllignedScreen
           title={"Login"}
           description={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut libero a arcu faucibus auctor. Cras elementum risus nec elementum tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan sem a vehicula."
+            "The login feature ensures secure and personalized access for users, enabling them to manage their boat listings and rental activities. Through an authentication process, they can quickly access their accounts, saving time and enhancing usability. Alongwith security measures in place, including password encryption and multi-factor authentication options, users can trust that their information remains protected."
           }
           mockup={"/prefect-mockup-2.png"}
         />
         <LeftAllignedScreen
-          title={"Manage Your Tasks"}
+          title={"Home Screen"}
           description={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut libero a arcu faucibus auctor. Cras elementum risus nec elementum tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan sem a vehicula."
-          }
-          mockup={"/prefect-mockup-3.png"}
-        />
-        <RightAllignedScreen
-          title={"Blogs"}
-          description={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut libero a arcu faucibus auctor. Cras elementum risus nec elementum tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan sem a vehicula."
+            "At the heart of our platform lies the home screen, serving as the entrance to a world of effortless boat rentals. Having a user-centric design, it provides easy access to essential functionalities, allowing users to seamlessly go through listings, manage their boat rentals, and explore available options. Via strategic placement of features and clear visual cues, the home screen offers such an experience which gives users the ability to efficiently list their boats for rent or find the perfect vessel for their next adventure."
           }
           mockup={"/perfect-mockup-4.png"}
+        />
+        <RightAllignedScreen
+          title={"Order Details"}
+          description={
+            "Order details offer users comprehensive insight into their rental transactions, ensuring clarity and transparency throughout the process. It also gives users access to detailed summaries of their bookings, including rental duration, cost breakdowns, and boat specifications. With easy access to vital information, users can confidently track their bookings and address any queries or concerns."
+          }
+          mockup={"/prefect-mockup-3.png"}
         />
       </div>
       <img src="/perfect-boat-4.png" alt="" className="w-full lg:h-screen" />

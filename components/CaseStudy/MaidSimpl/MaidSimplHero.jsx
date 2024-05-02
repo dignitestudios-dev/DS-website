@@ -112,19 +112,20 @@ const MaidSimplHero = () => {
           }
           mockup={"/maidsimpl-mockup-2.png"}
         />
+
         <LeftAllignedScreen
-          title={"Choose your service"}
-          description={
-            "The application offers users unparalleled flexibility and customization when selecting house cleaning services tailored to their unique needs. Customers can easily browse a comprehensive array of cleaning options, ranging from standard maintenance tasks to specialized treatments. It allows them to select specific services, duration, and frequency according to their preferences."
-          }
-          mockup={"/maidsimpl-mockup-3.png"}
-        />
-        <RightAllignedScreen
           title={"Home Page"}
           description={
             "Designed with user convenience in mind, the homepage features a streamlined search bar prominently positioned, allowing users to swiftly locate and select their desired cleaning services based on their specific requirements. Additionally, a visually engaging display showcases curated cleaning packages and promotions, enticing users to explore further.It provides access to a myriad of house cleaning services."
           }
           mockup={"/maidsimpl-mockup-4.png"}
+        />
+        <RightAllignedScreen
+          title={"Choose your service"}
+          description={
+            "The application offers users unparalleled flexibility and customization when selecting house cleaning services tailored to their unique needs. Customers can easily browse a comprehensive array of cleaning options, ranging from standard maintenance tasks to specialized treatments. It allows them to select specific services, duration, and frequency according to their preferences."
+          }
+          mockup={"/maidsimpl-mockup-3.png"}
         />
       </div>
       <img src="/maid-simple-4.png" alt="" className="w-full h-lg:screen" />
