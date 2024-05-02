@@ -40,24 +40,11 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         <div onClick={(e) => toggleModal(e)} className={`w-screen h-screen z-[10000]  transition-all duration-200 fixed top-0 left-0 flex  items-start justify-end  ${isOpen ? "translate-x-0 lg:translate-x-full" : "translate-x-full"
             }`}>
             <div ref={sidebarRef} className='w-[70%] md:w-1/2 lg:w-1/3  h-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col justify-start items-start py-6 px-10  ' style={{ background: palette?.background }}>
-                <div className="w-full flex gap-3 justify-between items-center">
+                <div className="w-full flex gap-3 justify-start items-center">
                     <Link href="/">
                         <img src={theme == "light" ? "/logo.png" : "/logo-dark.png"} className='h-10' />
                     </Link>
-                    <button
-                        onClick={() => setTheme(theme == "dark" ? "light" : "dark")}
-                        className={`${theme == "light" ? "bg-[#00ACFF]/[0.18]" : "bg-[#A9A1D7]/[0.18]"
-                            } rounded-full transition-all duration-300 w-[50px] lg:w-[70px] h-[30px] lg:h-[37.5px] p-[4px] flex justify-start items-center`}
-                    >
-                        <span
-                            className={`h-6 w-6 lg:h-8 lg:w-8 text-xl text-white transition-all duration-300 rounded-full flex items-center justify-center ${theme == "light"
-                                ? "translate-x-0 bg-[#00ACFF]"
-                                : "translate-x-[calc(100%-28%)] lg:translate-x-[calc(100%-3%)] bg-[#342A6D]"
-                                } `}
-                        >
-                            {theme == "light" ? <BsFillBrightnessHighFill className="text-lg" /> : <IoMoon />}
-                        </span>
-                    </button>
+
 
 
 

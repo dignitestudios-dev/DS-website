@@ -8,8 +8,8 @@ export const GlobalContextProvider = ({ children }) => {
 
   const mouseCursor = (text, e) => {
     const cursor = document.querySelector("#cursor");
-    cursor.classList.add("flex");
-    cursor.classList.remove("hidden");
+    cursor.classList.add("lg:flex");
+    // cursor.classList.remove("hidden");
     cursor.innerHTML = text;
 
     const moveCursor = (e) => {
@@ -26,8 +26,7 @@ export const GlobalContextProvider = ({ children }) => {
 
   const disableMouseCursor = () => {
     const cursor = document.querySelector("#cursor");
-    cursor.classList.add("hidden");
-    cursor.classList.remove("flex");
+    cursor.classList.remove("lg:flex");
   };
 
   // Theme Toggle:

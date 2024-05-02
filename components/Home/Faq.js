@@ -46,7 +46,7 @@ const Faq = () => {
                 } gap-3`}
             >
               <div
-                className={`w-auto flex justify-start items-center text-lg lg:text-xl text-left gap-2 `}
+                className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium">
                   WHO OWNS THE LEGAL RIGHTS TO THE TECHNOLOGY DEVELOPED BY A DIGNITE
@@ -96,7 +96,7 @@ const Faq = () => {
                 } gap-3`}
             >
               <div
-                className={`w-auto flex justify-start items-center text-lg lg:text-xl text-left gap-2 `}
+                className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium">
                   HOW DO YOU ENSURE DATA SECURITY OF MOBILE APPS AND WEBSITES?
@@ -145,7 +145,7 @@ const Faq = () => {
                 } gap-3`}
             >
               <div
-                className={`w-auto flex justify-start items-center text-lg lg:text-xl text-left gap-2 `}
+                className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium">
                   HOW FREQUENTLY DO YOU SHARE AN UPDATE ON THE PROCESS?
@@ -196,7 +196,7 @@ const Faq = () => {
                 } gap-3`}
             >
               <div
-                className={`w-auto flex justify-start items-center text-lg lg:text-xl text-left gap-2 `}
+                className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium">
                   WHO WILL BE WORKING ON MY PROJECT?
@@ -247,7 +247,7 @@ const Faq = () => {
                 } gap-3`}
             >
               <div
-                className={`w-auto flex justify-start items-center text-lg lg:text-xl text-left gap-2 `}
+                className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium">
                   HOW WILL I BE MAKING THE PAYMENTS?
