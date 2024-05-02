@@ -11,7 +11,7 @@ export const sliderSettings = {
   spaceBetween: 50,
   centeredSlides: true,
   autoplay: {
-    delay: 1000,
+    delay: 1500,
   },
   loop: true,
   breakpoints: {
@@ -38,7 +38,7 @@ export const sliderSettings = {
 const FindOurOfficesSwiper = ({ offices }) => {
   return (
     <div className="w-full flex lg:hidden">
-      <Swiper {...sliderSettings} className="w-full">
+      <Swiper {...sliderSettings} modules={[Autoplay]} className="w-full">
         <SwiperSlide className="w-full relative z-10">
           <img src="/dubai.png" alt="" className="w-full h-80 rounded-xl" />
           <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
