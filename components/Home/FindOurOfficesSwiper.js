@@ -11,7 +11,7 @@ export const sliderSettings = {
   spaceBetween: 50,
   centeredSlides: true,
   autoplay: {
-    delay: 3000,
+    delay: 1000,
   },
   loop: true,
   breakpoints: {
@@ -38,8 +38,8 @@ export const sliderSettings = {
 const FindOurOfficesSwiper = ({ offices }) => {
   return (
     <div className="w-full flex lg:hidden">
-      <Swiper className="w-full">
-        <SwiperSlide className="w-full relative">
+      <Swiper {...sliderSettings} className="w-full">
+        <SwiperSlide className="w-full relative z-10">
           <img src="/dubai.png" alt="" className="w-full h-80 rounded-xl" />
           <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
             <h1 className="text-md font-medium text-black">{offices[2]?.name}</h1>
@@ -48,7 +48,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
             </p>
           </span>
         </SwiperSlide>
-        <SwiperSlide className="w-full relative">
+        <SwiperSlide className="w-full relative z-10">
           <img src="/florida.png" alt="" className="w-full h-80 rounded-xl" />
           <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
             <h1 className="text-md font-medium text-black">{offices[0]?.name}</h1>
@@ -57,7 +57,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
             </p>
           </span>
         </SwiperSlide>
-        <SwiperSlide className="w-full relative">
+        <SwiperSlide className="w-full relative z-10">
           <img src="/pakistan.png" alt="" className="w-full h-80 rounded-xl" />
           <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
             <h1 className="text-md font-medium text-black">{offices[3]?.name}</h1>
@@ -66,7 +66,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
             </p>
           </span>
         </SwiperSlide>
-        <SwiperSlide className="w-full relative">
+        <SwiperSlide className="w-full relative z-10">
           <img src="/wyoming.png" alt="" className="w-full h-80 rounded-xl" />
           <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
             <h1 className="text-md font-medium text-black">{offices[1]?.name}</h1>

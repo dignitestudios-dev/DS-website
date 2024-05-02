@@ -47,7 +47,7 @@ const FindOurOfficesSection = () => {
       </h1>
 
       <div
-        className={`w-full lg:w-[70%] h-auto my-5 flex justify-center items-start `}
+        className={`w-full lg:w-[90%] xl:w-[70%] h-auto my-5 flex justify-center items-start `}
       >
         <FindOurOfficesSwiper offices={offices} />
 
