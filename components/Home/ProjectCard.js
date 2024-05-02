@@ -17,7 +17,7 @@ const ProjectCard = ({ title, description, image, projectLink }) => {
       <img
         src={image}
         alt={title}
-        className="w-full  rounded-3xl h-[220px] lg:h-[360px]  hover:brightness-80 transition-all duration-700"
+        className="w-full  rounded-3xl h-[220px] lg:h-[380px]  hover:brightness-80 transition-all duration-700"
       />
 
       <div className="flex flex-col justify-start my-1 items-start px-2">
