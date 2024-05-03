@@ -8,76 +8,60 @@ const AgileProcess = () => {
     <>
       <div className="w-full my-6 px-2 lg:px-10 h-auto hidden lg:flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               01.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              Agile tank
+              Branding
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              Branding for the app involves rapid iterations and feedback loops
+              to refine the visual identity, messaging, and tone. Teams
+              collaborate closely with stakeholders to ensure the brand reflects
+              the app's values and resonates with the target audience.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               03.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              MVP
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              Focus is on delivering core functionality to meet user needs.
+              Features are prioritized based on value and feasibility, allowing
+              for rapid iteration and feedback collection. This iterative
+              approach ensures early validation of the product concept while
+              minimizing development time and resources.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto flex flex-col gap-3 justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Testing
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[30px] lg:text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              User stories are rigorously evaluated to ensure functionality
+              aligns with requirements. Continuous feedback loops are
+              established to swiftly address any issues or bugs encountered,
+              fostering iterative improvement. Automated testing tools may be
+              utilized to enhance efficiency and maintain product quality.
             </p>
           </div>
         </div>
@@ -144,152 +128,118 @@ const AgileProcess = () => {
           </span>
         </div>
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               02.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Sprint Planning
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              The development team selects items from the product backlog to
+              work on during the upcoming sprint. Tasks are broken down,
+              estimated, and assigned to team members based on their capacity
+              and expertise.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               04.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Iteration
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              Completing a set of user stories within a fixed time frame,
+              typically two to four weeks is emphasized. Daily stand-up meetings
+              are held to track progress, discuss any impediments, and adjust
+              the plan accordingly. At the end of the iteration, a review is
+              conducted to gather feedback from stakeholders and plan the next
+              iteration.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto flex flex-col gap-3 justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               06.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Deployment
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              The tested features are deployed to production environments.
+              Continuous integration and deployment pipelines enhance the
+              process, ensuring reliable delivery of updates to end-users.
             </p>
           </div>
         </div>
       </div>
       <div className="w-full my-6 px-2 lg:px-10 h-auto lg:hidden flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               01.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              Agile tank
+              Branding
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              Branding for the app involves rapid iterations and feedback loops
+              to refine the visual identity, messaging, and tone. Teams
+              collaborate closely with stakeholders to ensure the brand reflects
+              the app's values and resonates with the target audience.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               02.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Sprint Planning
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              The development team selects items from the product backlog to
+              work on during the upcoming sprint. Tasks are broken down,
+              estimated, and assigned to team members based on their capacity
+              and expertise.
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               03.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              MVP
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[30px] lg:text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              Focus is on delivering core functionality to meet user needs.
+              Features are prioritized based on value and feasibility, allowing
+              for rapid iteration and feedback collection. This iterative
+              approach ensures early validation of the product concept while
+              minimizing development time and resources.
             </p>
           </div>
         </div>
@@ -356,76 +306,60 @@ const AgileProcess = () => {
           </span>
         </div>
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               04.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Iteration
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              Completing a set of user stories within a fixed time frame,
+              typically two to four weeks is emphasized. Daily stand-up meetings
+              are held to track progress, discuss any impediments, and adjust
+              the plan accordingly. At the end of the iteration, a review is
+              conducted to gather feedback from stakeholders and plan the next
+              iteration.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Testing
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              User stories are rigorously evaluated to ensure functionality
+              aligns with requirements. Continuous feedback loops are
+              established to swiftly address any issues or bugs encountered,
+              fostering iterative improvement. Automated testing tools may be
+              utilized to enhance efficiency and maintain product quality.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto flex flex-col gap-3 justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               06.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Deployment
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              The tested features are deployed to production environments.
+              Continuous integration and deployment pipelines enhance the
+              process, ensuring reliable delivery of updates to end-users.
             </p>
           </div>
         </div>

@@ -8,76 +8,59 @@ const WaterfallProcess = () => {
     <>
       <div className="w-full my-6 px-2 lg:px-10 h-auto hidden lg:flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               01.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              Waterfall tank
+              Brainstorming
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              Extensive upfront analysis and documentations are conducted to
+              define project requirements comprehensively. Sequential stages
+              involve detailed planning, feasibility studies, and stakeholder
+              consultations to establish a concrete project roadmap.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               03.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Aesthetics
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              Meticulous attention is given to crafting the user interface based
+              on predefined requirements. Design elements are carefully chosen
+              and implemented to ensure consistency and usability across the
+              application. The delivery of a refined design before advancing to
+              subsequent stages of development is prioritized.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3 flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Back End
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[30px] lg:text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              During beta development, the focus shifts to implementing features
+              based on user feedback gathered during alpha testing.
+              Simultaneously, rigorous testing is conducted to identify and
+              rectify any remaining bugs or glitches.
             </p>
           </div>
         </div>
@@ -144,143 +127,111 @@ const WaterfallProcess = () => {
           </span>
         </div>
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               02.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Structure
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              The emphasis lies on establishing a solid architectural groundwork
+              and designing the user experience based on initial requirements.
+              Detailed wireframes and prototypes are created to outline the
+              app's layout and functionality, with minimal room for iterative
+              adjustments.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               04.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Front End
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              The core features of the application are developed according to
+              the initial requirements. Testing is conducted to identify any
+              major issues or bugs, aiming for a functional but not fully
+              polished product. Stakeholder feedback is solicited to validate
+              the alpha version before proceeding to beta development.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3 flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               06.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Jackpot
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              The finalized application is prepared for release to end-users or
+              clients. Deployment activities include packaging the software,
+              preparing documentation, and coordinating rollout schedules. It
+              occurs after thorough testing and approval.
             </p>
           </div>
         </div>
       </div>
       <div className="w-full my-6 px-2 lg:px-10 h-auto lg:hidden flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               01.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              Agile tank
+              Brainstorming
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              Extensive upfront analysis and documentations are conducted to
+              define project requirements comprehensively. Sequential stages
+              involve detailed planning, feasibility studies, and stakeholder
+              consultations to establish a concrete project roadmap.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               02.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Structure
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              The emphasis lies on establishing a solid architectural groundwork
+              and designing the user experience based on initial requirements.
+              Detailed wireframes and prototypes are created to outline the
+              app's layout and functionality, with minimal room for iterative
+              adjustments.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3 border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               03.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               think tank
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[30px] lg:text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
@@ -356,76 +307,59 @@ const WaterfallProcess = () => {
           </span>
         </div>
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               04.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Front End
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              The core features of the application are developed according to
+              the initial requirements. Testing is conducted to identify any
+              major issues or bugs, aiming for a functional but not fully
+              polished product. Stakeholder feedback is solicited to validate
+              the alpha version before proceeding to beta development.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto gap-3  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Back End
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              During beta development, the focus shifts to implementing features
+              based on user feedback gathered during alpha testing.
+              Simultaneously, rigorous testing is conducted to identify and
+              rectify any remaining bugs or glitches.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto gap-3 flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               06.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              think tank
+              Jackpot
             </h2>
-            <h3
-              style={{ color: palette?.dark_contrast_color }}
-              className="  capitalize text-[36px] leading-tight lg:leading-[3.8rem] font-medium"
-            >
-              planning & research
-            </h3>
+
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eros lacus, hendrerit ac dolor nec, condimentum mattis eros.
-              Maecenas vel facilisis metus, consequat congue nibh. Nulla
-              scelerisque ex facilisis rhoncus imperdiet. Maecenas nec fringilla
-              neque, nec ullamcorper sem. Nulla in condimentum magna.
+              The finalized application is prepared for release to end-users or
+              clients. Deployment activities include packaging the software,
+              preparing documentation, and coordinating rollout schedules. It
+              occurs after thorough testing and approval.
             </p>
           </div>
         </div>

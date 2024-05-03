@@ -50,7 +50,7 @@ const Hero = () => {
         style={{
           color: palette?.color,
         }}
-        className="text-[2rem] lg:text-6xl font-semibold text-center capitalize"
+        className="text-[1.8rem] lg:text-6xl font-semibold text-center capitalize"
       >
         Elevate your brand in the <br />
         <span
@@ -68,7 +68,7 @@ const Hero = () => {
         }}
         className=" text-center my-2 lg:my-6 text-[14px] lg:text-[19px] font-normal"
       >
-        Creating seamless app experiences. Transforming your ideas <br /> into exceptional mobile app solutions.
+        Creating seamless app experiences. Transforming your ideas <br className="hidden lg:block" /> into exceptional mobile app solutions.
       </span>
       <div className="w-auto flex gap-4 justify-center items-center">
         <Link href={"/contact-us"}

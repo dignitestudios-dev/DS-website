@@ -4,28 +4,28 @@ export const casestudies = [
   {
     title: "MaidSimpl",
     description:
-      "Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketing",
+      "Users experience unparalleled convenience with MaidSimpl. From booking to monitoring, streamline your house cleaning tasks with precision and ease.",
     image: "/case-study1.png",
     projectLink: "/case-studies/maidsimpl",
   },
   {
-    title: "NowYouKnowNashville",
+    title: "Now You Know Nashville",
     description:
-      "Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketing",
+      "Embark on a journey like never before with our immersive travel guide to Nashville. From iconic landmarks to hidden gems, explore the heart of the city with just a click.",
     image: "/case-study2.png",
     projectLink: "/case-studies/nykn",
   },
   {
     title: "My Medical Journal",
     description:
-      "Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketing",
+      "Unlock a new era of health management with this innovative anatomy visualization tool. Effortlessly navigate, interact, and track symptoms for optimal well-being.",
     image: "/case-study3.png",
     projectLink: "/case-studies/mymedicaljournal",
   },
   {
     title: "Carter Boating",
     description:
-      "Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketingF",
+      "List, rent, and sail with confidence. Our user-friendly platform ensures seamless transactions and secure payments, making boat rental hassle-free.",
     image: "/case-study4.png",
     projectLink: "/case-studies/carter-boating",
   },

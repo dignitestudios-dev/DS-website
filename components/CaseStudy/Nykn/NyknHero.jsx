@@ -113,9 +113,9 @@ const NyknHero = () => {
           mockup={"/nykn-mockup-4.png"}
         />
         <RightAllignedScreen
-          title={"Explore Categories"}
+          title={"Nearby Events"}
           description={
-            "With 11 distinct categories meticulously curated to encompass the city's diverse attractions, users can navigate through a plethora of options tailored to their preferences. From renowned landmarks and cultural hotspots waiting to be uncovered, each category gives a look into a unique facet of Nashville's charm. Whether users are eager to delve into the city's musical legacy, savor its culinary delights, or embark on outdoor adventures, this feature ensures a seamless journey of discovery, enriching both tourists and locals alike with unforgettable experiences."
+            "Users dive into Nashville's dynamic scene with 'Nearby Events', a feature that allows users to explore real-time concerts, festivals, and art exhibits near them. Personalized recommendations and detailed descriptions keep users informed, ensuring that they never miss out. To put it together, it is the perfect tool for effortless discovery."
           }
           mockup={"/nykn-mockup-3.png"}
         />

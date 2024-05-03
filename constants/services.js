@@ -19,8 +19,9 @@ export const services = [
     title: "IOS App Development",
     description:
       "Our team of skilled developers specializes in creating custom apps for iOS devices. Whether you’re a startup, an established business, or an individual with a brilliant app idea, we’ve got you covered.",
-    icon_dark: "/scopeblack.png",
-    icon_white: "/scopewhite.png",
+    icon_dark: "/androidblack.png",
+    icon_white: "/androidwhite.png",
+
   },
   {
     title: "Web Development",
@@ -33,8 +34,8 @@ export const services = [
     title: "App Prototyping",
     description:
       "Get a preliminary version of your mobile or web application. It allows you to visualize and test your app’s functionality, user interface, and user experience before investing in full development.",
-    icon_dark: "/androidblack.png",
-    icon_white: "/androidwhite.png",
+    icon_dark: "/scopeblack.png",
+    icon_white: "/scopewhite.png",
   },
   {
     title: "Consultation",
