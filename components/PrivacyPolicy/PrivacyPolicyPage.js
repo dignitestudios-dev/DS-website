@@ -1,5 +1,6 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import Link from "next/link";
 import React, { useContext } from "react";
 
 const PrivacyPolicyPage = () => {
@@ -498,18 +499,6 @@ const PrivacyPolicyPage = () => {
         </p>
 
         <h3 className="text-xl font-bold mt-5">
-          <span>Kids' Privacy</span>
-        </h3>
-        <p className="text-md font-medium mt-3">
-          We collect information from kids under the age of 13 just to better
-          our services. If You are a parent or guardian and You are aware that
-          Your child has provided Us with Personal Data without your permission,
-          please contact Us. If We become aware that We have collected Personal
-          Data from anyone under the age of 13 without verification of parental
-          consent, We take steps to remove that information from Our servers.
-        </p>
-
-        <h3 className="text-xl font-bold mt-5">
           <span>Changes To Our Privacy Policy</span>
         </h3>
         <p className="text-md font-medium mt-3">
@@ -578,9 +567,22 @@ const PrivacyPolicyPage = () => {
           Don't hesitate to contact us if you have any questions.
         </p>
         <ul className="ml-4 list-disc flex flex-col gap-y-2">
-          <li>Via Email: info@dignitestudios.com</li>
-          <li>Via Phone Number: 877-714-1770</li>
-          <li>Via this Link: https://dignitestudios.com/</li>
+          <li>
+            Via Email:{" "}
+            <Link href={"mailto:info@dignitestudios.com"} target="_blank">
+              info@dignitestudios.com
+            </Link>
+          </li>
+          <li>
+            Via Phone Number:{" "}
+            <Link href={"tel:877-714-1770"} target="_blank">877-714-1770</Link>
+          </li>
+          <li>
+            Via this Link:{" "}
+            <Link href={"https://dignitestudios.com/"} target="_blank">
+              https://dignitestudios.com/
+            </Link>
+          </li>
           <li>
             Via this Address: 3505 Lake Lynda Drive Suite 200, Orlando, FL 32817
           </li>
