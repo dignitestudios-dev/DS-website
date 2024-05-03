@@ -40,7 +40,7 @@ export const services = [
   {
     title: "Consultation",
     description:
-      " Imagine pouring your heart, soul, and resources into building a mobile app, only to discover there's minimal interest or the market is already saturated. That's a harsh reality for many app developers. But what if there was a way to mitigate risk and increase your chances of success?",
+      " Imagine pouring your heart into building a mobile app, only to discover there's minimal interest or the market is already saturated. That's a harsh reality for many app developers. But what if there was a way to increase your chances of success?",
     icon_dark: "/announcementblack.png",
     icon_white: "/announcementwhite.png",
   },
