@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/23199765.js"></script>
       </head>
       <body className={inter.className}>
         <GlobalContextProvider>
@@ -23,6 +22,7 @@ export default function RootLayout({ children }) {
           {children}
 
         </GlobalContextProvider>
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/23199765.js"></script>
       </body>
     </html>
   )
