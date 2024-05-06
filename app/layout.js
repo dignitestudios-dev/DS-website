@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTVKC35B"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
         <GlobalContextProvider>
 
           {children}
