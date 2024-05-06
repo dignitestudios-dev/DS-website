@@ -12,7 +12,7 @@ const ContactUsPage = () => {
             <h1 className='text-[45px] font-extrabold lg:text-[64px]  lg:font-bold uppercase'>Contact Us</h1>
             <p className='text-[18px] font-light '>
 
-                if there is anything you would like to talk about, please feel free to contact us. Even if you just want to say hello, we look forward to hearing from you.
+                If there is anything you would like to talk about, please feel free to contact us. Even if you just want to say hello, we look forward to hearing from you.
             </p>
 
 
