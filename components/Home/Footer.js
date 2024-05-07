@@ -38,6 +38,7 @@ const Footer = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    const form = document.getElementById("subscribe")
     const formData = new FormData(event.target);
     if (formData.get("email") == "") {
       setError("Email cannot be left empty.")
@@ -58,6 +59,7 @@ const Footer = () => {
         .then((response) => {
           if (response) {
             setSuccess("Thankyou for subscribing.")
+            form.reset()
           }
         })
         .catch((error) => {
@@ -107,7 +109,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="w-full lg:w[50%] flex justify-end">
-          <form onSubmit={handleSubmit} className=" h-auto w-full lg:w-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
+          <form id="subscribe" onSubmit={handleSubmit} className=" h-auto w-full lg:w-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
             <span
               className="text-[42px] font-bold"
               style={{ color: palette?.color }}
