@@ -41,6 +41,8 @@ export const GlobalContextProvider = ({ children }) => {
     dark_contrast_color: "#B4B4B4",
     light_contrast_color: "#8f8f8f",
   });
+  const [error, setError] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   useEffect(() => {
     if (theme == "dark") {
@@ -77,6 +79,10 @@ export const GlobalContextProvider = ({ children }) => {
         theme,
         mouseCursor,
         disableMouseCursor,
+        error,
+        setError,
+        success,
+        setSuccess,
       }}
     >
       {children}

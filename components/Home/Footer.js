@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import Link from "next/link";
 import { GoArrowRight } from "react-icons/go";
@@ -8,7 +8,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import { usePathname, useRouter } from "next/navigation";
 
 const Footer = () => {
-  const { palette, theme } = useContext(GlobalContext);
+  const { palette, theme, setError, setSuccess } = useContext(GlobalContext);
   const navigate = useRouter()
   const pathname = usePathname()
   const handleClick = (id) => {
@@ -31,6 +31,41 @@ const Footer = () => {
   const navigateTo = (link) => {
     navigate.push(link)
   }
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    if (formData.get("email") == "") {
+      setError("Email cannot be left empty.")
+    } else if (!validateEmail(formData.get("email"))) {
+      setError("Email must be a valid email.")
+    } else {
+
+
+      const data = new URLSearchParams();
+
+      //Using entry ids from Google forms config
+      data.append("entry.87343768", formData.get("email")); // Email field
+
+      fetch(
+        process.env.NEXT_APP_SUBSCRIBE_URL,
+        { method: "POST", body: data, mode: "no-cors" }
+      )
+        .then((response) => {
+          if (response) {
+            setSuccess("Thankyou for subscribing.")
+          }
+        })
+        .catch((error) => {
+          setError("Something went wrong.")
+        });
+    }
+
+  };
   return (
     <div
       className={`w-full h-auto transition-all duration-300 flex flex-col gap-3 lg:gap-10 py-6 lg:py-12 justify-start items-start px-4 md:px-12 lg:px-28`}
@@ -72,7 +107,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="w-full lg:w[50%] flex justify-end">
-          <div className=" h-auto w-full lg:w-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
+          <form onSubmit={handleSubmit} className=" h-auto w-full lg:w-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
             <span
               className="text-[42px] font-bold"
               style={{ color: palette?.color }}
@@ -81,17 +116,21 @@ const Footer = () => {
             </span>
             <div className="w-full lg:w-96 relative">
               <input
-                type="text"
+                type="email"
+                id="email" name="email"
                 className="w-full  outline-none h-12 bg-transparent px-2"
                 placeholder="E-mail"
                 style={{ borderBottom: `2px solid ${palette?.brandOrange}` }}
               />
-              <GoArrowRight
-                className="absolute top-2 right-2  text-2xl"
-                style={{ color: palette?.brandOrange }}
-              />
+              <button type="submit">
+
+                <GoArrowRight
+                  className="absolute top-2 right-2  text-2xl"
+                  style={{ color: palette?.brandOrange }}
+                />
+              </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
 
