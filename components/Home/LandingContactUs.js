@@ -119,6 +119,7 @@ const LandingContactUs = () => {
               <input
                 type="text"
                 id="phone" name="phone"
+                maxLength="10"
                 className="w-full  outline-none focus h-9 bg-transparent "
                 placeholder="e.g 0491 570 156"
                 style={{
