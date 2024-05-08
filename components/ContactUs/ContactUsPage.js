@@ -71,7 +71,7 @@ const ContactUsPage = () => {
                         style={{ color: palette?.color }}
                     >Let’s discuss your <br /> <span style={{ color: palette?.brandOrange }}> project</span>
                     </h1>
-                    <form onSubmit={handleSubmit} className="w-full h-auto flex flex-col justify-start items-start gap-6">
+                    <form id='contact-lead-form' onSubmit={handleSubmit} className="w-full h-auto flex flex-col justify-start items-start gap-6">
                         <div className="w-full flex flex-col gap-1 justify-start items-start">
                             <span
                                 className="text-sm font-medium"
