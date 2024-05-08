@@ -51,11 +51,11 @@ const ContactUsPage = () => {
         }
     };
     return (
-        <div className='w-full h-auto flex flex-col gap-4 justify-start items-start px-4 md:px-12 lg:px-28' style={{
+        <div className='w-full h-auto flex flex-col gap-4 justify-start items-start px-4 md:px-12 lg:px-28 xl:px-48' style={{
             background: palette?.background,
             color: palette?.color
         }}>
-            <h1 className='text-[45px] font-extrabold lg:text-[64px]  lg:font-bold uppercase'>Contact Us</h1>
+            <h1 className='text-[45px] font-extrabold lg:text-5xl xl:text-5xl lg:font-bold uppercase'>Contact Us</h1>
             <p className='text-[18px] font-light '>
 
                 If there is anything you would like to talk about, please feel free to contact us. Even if you just want to say hello, we look forward to hearing from you.
@@ -67,7 +67,7 @@ const ContactUsPage = () => {
             >
                 <div className="w-full h-full flex flex-col lg:col-span-1 justify-start items-start gap-8">
                     <h1
-                        className="text-[39px] font-extrabold lg:text-[45px] leading-tight lg:font-bold"
+                        className="text-[39px] xl:text-[34px] font-extrabold lg:text-[45px] leading-tight lg:font-bold"
                         style={{ color: palette?.color }}
                     >Let’s discuss your <br /> <span style={{ color: palette?.brandOrange }}> project</span>
                     </h1>

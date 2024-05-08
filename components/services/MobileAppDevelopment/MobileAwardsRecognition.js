@@ -5,12 +5,12 @@ import React, { useContext } from "react";
 const MobileAwardsRecognition = () => {
   const { palette } = useContext(GlobalContext);
   return (
-    <div className="px-4 md:px-12 lg:px-28 flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 lg:my-16">
+    <div className="px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48 flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 lg:my-16">
       <h1
         style={{
           color: palette?.color,
         }}
-        className="text-3xl font-extrabold lg:text-4xl xl:text-6xl lg:font-bold uppercase group"
+        className="text-3xl font-extrabold lg:text-4xl xl:text-5xl lg:font-bold uppercase group"
       >
         <span className="group-hover:text-[#F15C20] transition-all duration-300">awards & recognition</span>
       </h1>

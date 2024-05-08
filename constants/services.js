@@ -2,7 +2,7 @@
 
 export const services = [
   {
-    title: "UI/UX Design",
+    title: "UX/UI Design",
     description:
       "We create intuitive, engaging, and visually stunning mobile app experiences that keep users coming back for more. A clear and logical structure for your app ensures smooth navigation and a seamless user journey.",
     icon_dark: "/uiuxblack.png",

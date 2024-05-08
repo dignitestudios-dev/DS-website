@@ -8,10 +8,10 @@ const IndustriesSection = () => {
   const { palette } = useContext(GlobalContext);
   return (
     <div
-      className={`w-full flex flex-col gap-y-4 my-5 px-4 md:px-12 lg:px-28`}
+      className={`w-full flex flex-col gap-y-4 my-5 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48 `}
     >
       <h1
-        className={`${palette.color} uppercase font-extrabold lg:text-start text-4xl lg:text-6xl lg:font-bold mb-2 lg:mb-6`}
+        className={`${palette.color} uppercase font-extrabold lg:text-start text-4xl lg:text-5xl lg:font-bold mb-2 lg:mb-6`}
       >
         industries
       </h1>

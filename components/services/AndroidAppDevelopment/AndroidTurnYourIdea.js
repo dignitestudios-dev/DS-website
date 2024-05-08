@@ -14,15 +14,15 @@ const AndroidTurnYourIdea = () => {
   const images = ['/mobile-turn-idea-1.png', '/mobile-turn-idea-2.png']
 
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-5 justify-start items-start gap-y-8 py-4 lg:py-12 px-4 md:px-12 lg:px-28">
+    <div className="w-full grid grid-cols-1 lg:grid-cols-5 justify-start items-start gap-y-8 py-4 lg:py-12 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48 ">
       <div className="col-span-5 lg:col-span-3 flex flex-col justify-start items-start gap-y-4">
         <h1
           style={{
             color: palette?.color,
           }}
-          className="text-3xl font-extrabold lg:text-4xl xl:text-6xl lg:font-bold mx-0 uppercase group"
+          className="text-3xl font-extrabold lg:text-4xl xl:text-5xl lg:font-bold mx-0 uppercase group"
         >
-          TURN YOUR CONCEPT  <br /> into functional <br /> <span className="group-hover:text-[#F15C20] transition-all duration-300">android Application</span>
+          TURN YOUR CONCEPT  <br /> into functional <br /> <span className="text-[#F15C20] transition-all duration-300">android Application</span>
         </h1>
         <p
           style={{

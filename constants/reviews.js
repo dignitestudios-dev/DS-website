@@ -7,21 +7,21 @@ export const reviews = [
       "Dignite Studios were quick to respond to my inquiry regarding development of my app. Shane the Senior Business Consultant was amazing. He explained things in a language I could understand. They are super friendly and professional.",
     image: "/testimonial-3.png",
     author: "Shantwan Humphrey",
-    designation: "CEO, @fareshare",
+    designation: "CEO, @Fareshare",
   },
   {
     review:
       "Shane is an absolute pleasure to work with. Communication is on point. Him and his team always exceed my expectations!",
     image: "/testimonial-1.png",
     author: "Joshua Abely",
-    designation: "CEO, @maidsimpl",
+    designation: "CEO, @Maidsimpl",
   },
   {
     review:
       "The experience has been straight forward and seem less. I thank everyone for there knowledge and expertise on get this project done. I will be forever great full for the work that has been put in and I thank everyone for everything and all of the hard work!!",
     image: "/testimonial-2.png",
     author: "Laurent Carter",
-    designation: "CEO, @carterboating",
+    designation: "CEO, @Carterboating",
   },
   {
     review:
@@ -35,7 +35,7 @@ export const reviews = [
       "I had a wonderful experience working with Liam and Maya. They were thought provoking and professional. They thought through my project in a depth no other company has. Their outstanding collaborative efforts were refreshing. I appreciate all the hard work they brought.",
     image: "/testimonial-1.png",
     author: "Mathew",
-    designation: "CEO, @rentalproperties",
+    designation: "CEO, @Rentalproperties",
   },
   {
     review:

@@ -35,7 +35,7 @@ const Navbar = ({ setIsOpen }) => {
 
   return (
     <div
-      className={`relative px-4 md:px-12 lg:px-28 h-20  flex items-center justify-between w-full`}
+      className={`relative px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  h-20  flex items-center justify-between w-full`}
     >
       <Link href="/" className="h-12 lg:h-16">
         <img src={theme == "light" ? "/logo.png" : "/logo-dark.png"} className="h-12 lg:h-16" />

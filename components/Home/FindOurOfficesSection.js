@@ -41,7 +41,7 @@ const FindOurOfficesSection = () => {
       className={`px-4 md:px-12 lg:px-28 w-full flex flex-col items-center gap-y-4 my-5`}
     >
       <h1
-        className={`${palette.color} uppercase font-extrabold text-center lg:text-start text-4xl lg:text-6xl lg:font-bold mb-2 lg:mb-6`}
+        className={`${palette.color} uppercase font-extrabold text-center lg:text-start text-4xl lg:text-5xl lg:font-bold mb-2 lg:mb-6`}
       >
         find our offices
       </h1>

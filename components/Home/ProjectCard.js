@@ -13,11 +13,11 @@ const ProjectCard = ({ title, description, image, projectLink }) => {
         mouseCursor("View Project", e);
       }}
       onMouseOut={() => { disableMouseCursor(); }}
-      className="group  h-auto lg:h-[400px] xl:h-[450px] p-3 lg:p-0 flex flex-col items-start gap-2 lg:mb-12 relative">
+      className="group  h-auto  p-3 lg:p-0 flex flex-col items-start gap-2 lg:mb-12 relative">
       <img
         src={image}
         alt={title}
-        className="w-full  rounded-3xl h-[220px] lg:h-[380px]  hover:brightness-80 transition-all duration-700"
+        className="w-full  rounded-3xl h-[220px] lg:h-[360px]  hover:brightness-80 transition-all duration-700"
       />
 
       <div className="flex flex-col justify-start my-1 items-start px-2">

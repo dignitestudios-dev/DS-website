@@ -70,14 +70,14 @@ const Footer = () => {
   };
   return (
     <div
-      className={`w-full h-auto transition-all duration-300 flex flex-col gap-3 lg:gap-10 py-6 lg:py-12 justify-start items-start px-4 md:px-12 lg:px-28`}
+      className={`w-full h-auto transition-all duration-300 flex flex-col gap-3 lg:gap-10 py-6 lg:py-12 justify-start items-start px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48 `}
       style={{
         background: palette?.dark_contrast_background,
       }}
     >
       <div className="flex flex-col gap-2">
         <h1
-          className="text-5xl font-extrabold lg:text-[65px] lg:font-bold "
+          className="text-5xl font-extrabold lg:text-6xl lg:font-bold "
           style={{ color: palette?.color }}
         >
           Have an idea?
@@ -102,7 +102,7 @@ const Footer = () => {
               background: `${palette?.brandOrange}`,
               color: "white",
             }}
-            className="orange w-[140px] lg:w-[168px] h-14 lg:h-16 rounded-full transition-all duration-100 hover:scale-105 text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-bounce"
+            className="orange w-[140px] lg:w-[168px] h-14 lg:h-16 mt-2 lg:mt-0 rounded-full transition-all duration-100 hover:scale-105 text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-bounce"
           >
             <BsFillTelephoneFill />
             <span>Call Now</span>
@@ -150,7 +150,7 @@ const Footer = () => {
 
           <img src="/footer-stars.png" className="w-[200px] lg:w-[236px]" />
         </Link>
-        <div className="col-span-2 lg:col-span-1 uppercase text-md lg:text-md font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
+        <div className="col-span-2 lg:col-span-1 uppercase text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
           <Link href="/" className="hover:text-orange-500">
             Home
           </Link>
@@ -161,7 +161,7 @@ const Footer = () => {
             Case Study
           </button>
         </div>
-        <div className="col-span-3 lg:col-span-1 uppercase text-md lg:text-md font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
+        <div className="col-span-3 lg:col-span-1 uppercase text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
           <button onClick={() => handleClick("testimonials")} className="uppercase hover:text-orange-500">
             Testimonials
           </button>
@@ -172,7 +172,7 @@ const Footer = () => {
             Privacy Policy
           </Link>
         </div>
-        <div className="col-span-5 lg:col-span-1 uppercase text-md lg:text-md font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 justify-start items-start">
+        <div className="col-span-5 lg:col-span-1 uppercase text-md lg:text-sm font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 justify-start items-start">
           <Link href="/services/android-app-development" className="hover:text-orange-500">
             Android App Development
           </Link>
@@ -189,7 +189,7 @@ const Footer = () => {
 
       <div className="w-full flex items-center justify-between">
         <span
-          className="text-xs lg:text-base"
+          className="text-xs lg:text-base uppercase"
           style={{ color: palette?.light_contrast_color }}
         >
           © 2024 dignite studios

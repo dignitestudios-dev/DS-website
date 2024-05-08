@@ -9,7 +9,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 const WhyChooseUsSection = () => {
   const { palette } = useContext(GlobalContext);
   return (
-    <div className={`my-5 px-4 md:px-12 lg:px-28 text-center`}>
+    <div className={`my-14 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  text-center`}>
       <h1
         style={{
           color: palette?.color,
@@ -18,7 +18,7 @@ const WhyChooseUsSection = () => {
       >
         why choose us
       </h1>
-      <div className="py-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 gap-6">
+      <div className="py-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 gap-0">
         {chooseus.map((c, index) => {
           return (
             <WhyChooseUsCard

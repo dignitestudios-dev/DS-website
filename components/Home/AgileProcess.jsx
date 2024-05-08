@@ -31,7 +31,7 @@ const AgileProcess = () => {
               03.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              MVP
+              Prototyping
             </h2>
 
             <p
@@ -228,7 +228,7 @@ const AgileProcess = () => {
               03.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
-              MVP
+              Prototyping
             </h2>
 
             <p

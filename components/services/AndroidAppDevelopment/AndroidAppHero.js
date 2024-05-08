@@ -15,14 +15,14 @@ const AndroidAppHero = () => {
   const images = ['/mobile-hero-mockup-3.png', '/mobile-hero-mockup-4.png']
 
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-6 gap-y-8  lg:gap-y-0 justify-start items-start lg:py-20 px-4 md:px-12 lg:px-28">
+    <div className="w-full grid grid-cols-1 lg:grid-cols-6 gap-y-8  lg:gap-y-0 justify-start items-start lg:pt-20 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48 ">
       <div className='col-span-3 flex flex-col justify-start text-center lg:text-start items-center lg:items-start gap-2'>
 
         <h1
           style={{
             color: palette?.color,
           }}
-          className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-6xl xl:font-bold uppercase"
+          className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-5xl xl:font-bold uppercase"
         >
           Top Rated <span style={{ color: palette?.brandOrange }}>Android</span>  <br /> App Development
           <BsArrowRight style={{ color: palette?.brandOrange }} className='inline-flex ' />  <br /> Company
@@ -61,7 +61,7 @@ const AndroidAppHero = () => {
           <div className='w-full h-56 md:h-auto lg:h-56  flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
             <span style={{
               color: palette?.color,
-            }} className='text-4xl font-extrabold'>
+            }} className='text-4xl lg:text-3xl font-extrabold'>
               150+
             </span>
             <span style={{
@@ -72,7 +72,7 @@ const AndroidAppHero = () => {
           <div className='w-full h-56 md:h-auto lg:h-56  flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
             <span style={{
               color: palette?.color,
-            }} className='text-4xl font-extrabold'>
+            }} className='text-4xl lg:text-3xl font-extrabold'>
               170+
             </span>
             <span style={{
@@ -83,7 +83,7 @@ const AndroidAppHero = () => {
           <div className='w-full h-56 md:h-auto lg:h-56  flex flex-col justify-start items-start gap-2 py-6 border-t border-[#8F8F8F]/[0.24]'>
             <span style={{
               color: palette?.color,
-            }} className='text-4xl font-extrabold'>
+            }} className='text-4xl lg:text-3xl font-extrabold'>
               04+
             </span>
             <span style={{

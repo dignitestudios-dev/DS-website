@@ -7,12 +7,12 @@ const AboutUsHero = () => {
   const { palette } = useContext(GlobalContext);
   return (
     <div className="w-full grid grid-cols-1 gap-y-8 justify-start items-start lg:pt-20 ">
-      <div className=" flex flex-col px-4 md:px-12 lg:px-28 justify-start text-center lg:text-start items-center lg:items-start gap-2">
+      <div className=" flex flex-col px-4 md:px-12 lg:px-28 xl:px-48 justify-start text-center lg:text-start items-center lg:items-start gap-2">
         <h1
           style={{
             color: palette?.color,
           }}
-          className=" text-3xl font-extrabold lg:text-6xl lg:font-bold uppercase"
+          className=" text-3xl font-extrabold lg:text-5xl lg:font-bold uppercase"
         >
           about us
         </h1>
