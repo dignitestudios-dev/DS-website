@@ -17,9 +17,9 @@ const TechnologyCard = ({ technology }) => {
       style={{
         background: palette?.dark_contrast_background,
       }}
-      className="w-[88px] h-[88px] flip-vertical-left  rounded-[20px] transition-all duration-300 flex items-center justify-center "
+      className="h-[50px] w-[50px] md:w-[88px] md:h-[88px] flip-vertical-left  rounded-lg md:rounded-[20px] transition-all duration-300 flex items-center justify-center "
     >
-      <img src={image} />
+      <img src={image} className="h-[60%] md:h-auto" />
     </div>
   );
 };

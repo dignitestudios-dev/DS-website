@@ -37,9 +37,9 @@ const Hero = () => {
     typeEffect();
   }, []);
   return (
-    <div className="w-full  flex flex-col pt-10  gap-4 justify-start items-center">
+    <div className="w-full  flex flex-col pt-2 md:pt-10  gap-4 justify-start items-center">
       <span
-        className="capitalize text-[18px] font-medium "
+        className="capitalize text-center text-[18px] font-medium "
         style={{
           color: palette?.light_contrast_color,
         }}

@@ -34,7 +34,7 @@ const CaseStudiesSection = () => {
         style={{
           borderTop: `2px solid ${palette?.light_contrast_background}`,
         }}
-        className={`w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-4 md:gap-x-20 mt-4 lg:mt-12 `}
+        className={`w-full grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2  md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-0 md:gap-x-20 mt-4 lg:mt-12 `}
       >
         {casestudies.map((c, index) => {
           return (
