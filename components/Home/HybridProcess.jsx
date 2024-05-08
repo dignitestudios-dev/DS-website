@@ -15,6 +15,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Analysis
             </h2>
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Brainstorming
+            </h3>
 
             <p
               className="text-[14px] font-normal  "
@@ -34,7 +37,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               UI Designing
             </h2>
-
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Aesthetics
+            </h3>
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
@@ -52,7 +57,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Evaluation
             </h2>
-
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Testing
+            </h3>
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
@@ -134,7 +141,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Wireframes
             </h2>
-
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Structure
+            </h3>
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
@@ -151,7 +160,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Coding
             </h2>
-
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Development
+            </h3>
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
@@ -171,7 +182,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Deployment
             </h2>
-
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Jackpot
+            </h3>
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
@@ -194,6 +207,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Analysis
             </h2>
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Brainstorming
+            </h3>
 
             <p
               className="text-[14px] font-normal  "
@@ -213,7 +229,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Wireframes
             </h2>
-
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Structure
+            </h3>
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
@@ -230,7 +248,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               UI Designing
             </h2>
-
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Aesthetics
+            </h3>
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
@@ -313,7 +333,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Coding
             </h2>
-
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Development
+            </h3>
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
@@ -333,7 +355,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Evaluation
             </h2>
-
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Testing
+            </h3>
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
@@ -351,7 +375,9 @@ const HybridProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Deployment
             </h2>
-
+            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Jackpot
+            </h3>
             <p
               className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
