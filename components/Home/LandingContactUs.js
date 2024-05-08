@@ -18,8 +18,6 @@ const LandingContactUs = () => {
       setError("Name cannot be left empty.")
     } else if (formData.get("email") == "") {
       setError("Email cannot be left empty.")
-    } else if (!validateEmail(formData.get("email"))) {
-      setError("Email must be a valid email.")
     }
     else if (formData.get("phone") == "") {
       setError("Phone number cannot be left empty.")
