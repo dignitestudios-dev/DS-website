@@ -9,7 +9,7 @@ const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
   const [hoverImage, setHoverImage] = useState(dark_icon);
 
   useEffect(() => {
-    setHoverImage(theme == "dark" || count == 0 || count == 2 || count == 4 ? light_icon : dark_icon)
+    setHoverImage(theme == "dark" ? light_icon : dark_icon)
   }, [theme])
 
   useEffect(() => {
