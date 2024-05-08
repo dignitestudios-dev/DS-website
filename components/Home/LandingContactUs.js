@@ -38,7 +38,7 @@ const LandingContactUs = () => {
       data.append("entry.1280467825", formData.get("message")); // message field
 
       fetch(
-        process.env.NEXT_APP_CONTACT_US_URL,
+        `https://docs.google.com/forms/d/e/${process.env.NEXT_PUBLIC_SUBSCRIBE_URL}/formResponse`,
         { method: "POST", body: data, mode: "no-cors" }
       )
         .then((response) => {

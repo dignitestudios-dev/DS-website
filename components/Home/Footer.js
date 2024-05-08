@@ -53,7 +53,7 @@ const Footer = () => {
       data.append("entry.87343768", formData.get("email")); // Email field
 
       fetch(
-        process.env.NEXT_APP_SUBSCRIBE_URL,
+        `https://docs.google.com/forms/d/e/${process.env.NEXT_PUBLIC_SUBSCRIBE_URL}/formResponse`,
         { method: "POST", body: data, mode: "no-cors" }
       )
         .then((response) => {
