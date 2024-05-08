@@ -10,7 +10,7 @@ const IndustryCard = ({ industry }) => {
       style={{ background: industry?.bgColor }}
       className={`group flex flex-col justify-center items-start gap-4  rounded-2xl py-6 px-8`}
     >
-      <img src={industry?.image} alt="" className="" />
+      <img src={industry?.image} alt="" className="" width="32px" height="32px" />
       <h5 className="text-xl font-bold" style={{ color: palette?.color }}>
         {industry?.title}
       </h5>

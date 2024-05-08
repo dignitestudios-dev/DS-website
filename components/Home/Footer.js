@@ -77,19 +77,19 @@ const Footer = () => {
     >
       <div className="flex flex-col gap-2">
         <h1
-          className="text-5xl font-extrabold lg:text-6xl lg:font-bold "
+          className="text-3xl md:text-5xl font-extrabold lg:text-6xl lg:font-bold "
           style={{ color: palette?.color }}
         >
           Have an idea?
         </h1>
-        <h1 className="text-5xl text-[#F15C20] font-extrabold lg:text-[65px] lg:font-bold ">
+        <h1 className="text-3xl md:text-5xl text-[#F15C20] font-extrabold lg:text-[65px] lg:font-bold ">
           Let’s talk!
         </h1>
       </div>
       <div className="w-full flex flex-col lg:flex-row justify-between items-end">
         <div className="w-full lg:w[50%] flex flex-col gap-3 lg:gap-10">
           <span
-            className="text-3xl lg:text-[45px] font-light"
+            className="text-xl md:text-3xl lg:text-[45px] font-light"
             style={{ color: palette?.color }}
           >
             +1 877 714 1770
@@ -102,7 +102,7 @@ const Footer = () => {
               background: `${palette?.brandOrange}`,
               color: "white",
             }}
-            className="orange w-[140px] lg:w-[168px] h-14 lg:h-16 mt-2 lg:mt-0 rounded-full transition-all duration-100 hover:scale-105 text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-bounce"
+            className="orange w-[100px] md:w-[140px] lg:w-[168px] h-12 md:h-14 lg:h-16 mt-2 lg:mt-0 rounded-full transition-all duration-100 hover:scale-105 text-sm md:text-md lg:text-lg font-medium  flex items-center justify-center gap-2 animate-bounce"
           >
             <BsFillTelephoneFill />
             <span>Call Now</span>
@@ -111,7 +111,7 @@ const Footer = () => {
         <div className="w-full lg:w[50%] flex justify-end">
           <form id="subscribe" onSubmit={handleSubmit} className=" h-auto w-full lg:w-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
             <span
-              className="text-[42px] font-bold"
+              className="text-3xl md:text-[42px] font-bold"
               style={{ color: palette?.color }}
             >
               Subscribe
@@ -140,17 +140,17 @@ const Footer = () => {
         <Link href={"https://www.trustpilot.com/review/dignitestudios.com"} className="col-span-5 lg:col-span-2 flex flex-col gap-2">
           {theme == "dark" ? (
             <Link href={"https://www.trustpilot.com/review/dignitestudios.com"}>
-              <img src="/trust-pilot-white.svg" className="w-[200px] lg:w-[236px]" />
+              <img src="/trust-pilot-white.svg" className="w-[140px] md:w-[200px] lg:w-[236px]" />
             </Link>
           ) : (
             <Link href={"https://www.trustpilot.com/review/dignitestudios.com"}>
-              <img src="/trustpilot-logo.png" className="w-[200px] lg:w-[236px]" />
+              <img src="/trustpilot-logo.png" className="w-[140px] md:w-[200px] lg:w-[236px]" />
             </Link>
           )}
 
-          <img src="/footer-stars.png" className="w-[200px] lg:w-[236px]" />
+          <img src="/footer-stars.png" className="w-[140px] md:w-[200px] lg:w-[236px]" />
         </Link>
-        <div className="col-span-2 lg:col-span-1 uppercase text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
+        <div className="col-span-2 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
           <Link href="/" className="hover:text-orange-500">
             Home
           </Link>
@@ -161,7 +161,7 @@ const Footer = () => {
             Case Study
           </button>
         </div>
-        <div className="col-span-3 lg:col-span-1 uppercase text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
+        <div className="col-span-3 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
           <button onClick={() => handleClick("testimonials")} className="uppercase hover:text-orange-500">
             Testimonials
           </button>
@@ -172,7 +172,7 @@ const Footer = () => {
             Privacy Policy
           </Link>
         </div>
-        <div className="col-span-5 lg:col-span-1 uppercase text-md lg:text-sm font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 justify-start items-start">
+        <div className="col-span-5 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 justify-start items-start">
           <Link href="/services/android-app-development" className="hover:text-orange-500">
             Android App Development
           </Link>

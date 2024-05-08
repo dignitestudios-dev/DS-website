@@ -63,7 +63,7 @@ const LandingContactUs = () => {
         <div className="w-full h-full">
           <img
             src={"/cto.png"}
-            className="w-full md:h-[38rem] xl:h-[35rem] object-cover rounded-3xl "
+            className="w-full h-[17rem] md:h-[38rem] xl:h-[35rem] object-cover rounded-3xl "
           />
         </div>
         <div className="w-full h-full flex px-8 py-10 flex-col justify-start items-start gap-8">
