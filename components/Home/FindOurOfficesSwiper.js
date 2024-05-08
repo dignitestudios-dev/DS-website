@@ -1,4 +1,4 @@
-import { Dubai, Florida, Pakistan, Wyoming } from "@/public/export";
+
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
