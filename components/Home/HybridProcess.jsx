@@ -242,6 +242,7 @@ const HybridProcess = () => {
             </p>
           </div>
         </div>
+
         <div className="hidden lg:grid w-auto h-[80rem]   grid-rows-5 grid-cols-1 justify-center items-start">
           <span className=" h-full  flex flex-col justify-start items-center">
             <span
