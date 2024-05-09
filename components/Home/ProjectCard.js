@@ -38,7 +38,7 @@ const ProjectCard = ({ title, description, image, mobile_image, projectLink }) =
         <div className="w-full flex justify-between items-center pr-1">
           <h3 className="text-xl lg:text-2xl font-bold">{title}</h3>
           <button type='button' className="" name="navigator">
-            <img src={"/case-study-arrow.webp"} alt="" className="w-2 md:w-4 lg:w-5 " />
+            <Image width={8} height={8} src={"/case-study-arrow.webp"} alt="" className="w-2 md:w-4 lg:w-5 " />
           </button>
         </div>
         <p

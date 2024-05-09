@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { GlobalContext } from "@/context/GlobalContext";
 import { IoIosArrowDown } from "react-icons/io";
 import { useParams, usePathname, useRouter } from "next/navigation";
+import Image from "next/image";
 
 
 const Navbar = ({ setIsOpen }) => {
@@ -38,7 +39,7 @@ const Navbar = ({ setIsOpen }) => {
       className={`relative px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  h-20  flex items-center justify-between w-full`}
     >
       <Link aria-label="logo" href="/" className="h-12 lg:h-16">
-        <img alt="logo" src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"} className="h-12 lg:h-16" />
+        <Image alt="logo" width={120} height={64} src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"} className="h-12 lg:h-16" />
       </Link>
       <div
         style={{ color: palette?.color }}
