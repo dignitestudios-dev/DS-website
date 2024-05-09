@@ -19,6 +19,7 @@ const ProjectCard = ({ title, description, image, mobile_image, projectLink }) =
         width={564}
         height={360}
         layout="responsive"
+        priority
         src={image}
         alt={title}
         className="w-full hidden md:block rounded-xl md:rounded-3xl  md:h-[220px] lg:h-[340px]  hover:brightness-80 transition-all duration-700"
@@ -28,6 +29,7 @@ const ProjectCard = ({ title, description, image, mobile_image, projectLink }) =
         width={564}
         height={360}
         layout="responsive"
+        priority
         src={mobile_image}
         alt={title}
         className="w-full block md:hidden rounded-xl md:rounded-3xl  md:h-[220px] lg:h-[340px]  hover:brightness-80 transition-all duration-700"
