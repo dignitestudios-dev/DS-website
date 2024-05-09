@@ -19,7 +19,7 @@ const TechnologyCard = ({ technology }) => {
       }}
       className="h-[50px] w-[50px] md:w-[88px] md:h-[88px] flip-vertical-left  rounded-lg md:rounded-[20px] transition-all duration-300 flex items-center justify-center "
     >
-      <img src={image} className="h-[60%] md:h-auto" />
+      <img src={image} alt="technology" className="h-[60%] md:h-auto" />
     </div>
   );
 };

@@ -119,7 +119,7 @@ const Footer = () => {
             <div className="w-full lg:w-96 relative">
               <input
                 type="email"
-                id="email" name="email"
+                id="email2" name="email"
                 className="w-full  outline-none h-12 bg-transparent px-2"
                 placeholder="E-mail"
                 style={{ borderBottom: `2px solid ${palette?.brandOrange}` }}
@@ -137,18 +137,18 @@ const Footer = () => {
       </div>
 
       <div className="w-full h-auto grid grid-cols-2 lg:grid-cols-5 gap-2">
-        <Link href={"https://www.trustpilot.com/review/dignitestudios.com"} className="col-span-5 lg:col-span-2 flex flex-col gap-2">
+        <Link aria-label="button" href={"https://www.trustpilot.com/review/dignitestudios.com"} className="col-span-5 lg:col-span-2 flex flex-col gap-2">
           {theme == "dark" ? (
-            <Link href={"https://www.trustpilot.com/review/dignitestudios.com"}>
-              <img src="/trust-pilot-white.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+            <Link aria-label="button" href={"https://www.trustpilot.com/review/dignitestudios.com"}>
+              <img alt="trust-pilot" src="/trust-pilot-white.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
             </Link>
           ) : (
-            <Link href={"https://www.trustpilot.com/review/dignitestudios.com"}>
-              <img src="/trustpilot-logo.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+            <Link aria-label="button" href={"https://www.trustpilot.com/review/dignitestudios.com"}>
+              <img alt="trust-pilot" src="/trustpilot-logo.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
             </Link>
           )}
 
-          <img src="/footer-stars.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+          <img alt="trust-pilot" src="/footer-stars.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
         </Link>
         <div className="col-span-2 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
           <Link href="/" className="hover:text-orange-500">

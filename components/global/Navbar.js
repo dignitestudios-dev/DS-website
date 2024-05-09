@@ -37,8 +37,8 @@ const Navbar = ({ setIsOpen }) => {
     <div
       className={`relative px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  h-20  flex items-center justify-between w-full`}
     >
-      <Link href="/" className="h-12 lg:h-16">
-        <img src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"} className="h-12 lg:h-16" />
+      <Link aria-label="logo" href="/" className="h-12 lg:h-16">
+        <img alt="logo" src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"} className="h-12 lg:h-16" />
       </Link>
       <div
         style={{ color: palette?.color }}
@@ -46,6 +46,7 @@ const Navbar = ({ setIsOpen }) => {
          hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8 `}
       >
         <button
+          aria-label="button"
           onClick={() => navigateTo("/")}
           className={`text-[14px] h-8 font-medium hover:text-orange-600
             } bg-transparent  outline-none`}
@@ -84,7 +85,8 @@ const Navbar = ({ setIsOpen }) => {
         </button>
       </div>
       <div className="w-auto flex gap-3 justify-start items-center">
-        <button
+        <button aria-label="button"
+          name="theme-toggle" type='button'
           onClick={() => setTheme(theme == "dark" ? "light" : "dark")}
           className={`${theme == "light" ? "bg-[#00ACFF]/[0.18]" : "bg-[#A9A1D7]/[0.18]"
             } rounded-full transition-all duration-300 w-[50px] lg:w-[70px] h-[30px] lg:h-[37.5px] p-[4px] flex justify-start items-center`}
@@ -99,7 +101,7 @@ const Navbar = ({ setIsOpen }) => {
           </span>
         </button>
 
-        <button onClick={() => setIsOpen(true)} className="flex lg:hidden h-4 lg:h-auto">
+        <button aria-label="button" type='button' name="menu-toggle" onClick={() => setIsOpen(true)} className="flex lg:hidden h-4 lg:h-auto">
           <img src={theme == "light" ? "/hamburger.webp" : "/menu-dark.webp"} className="h-full" />
         </button>
       </div>

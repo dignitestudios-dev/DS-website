@@ -74,7 +74,7 @@ export default function HomePage() {
             <LandingContactUs />
             <FindOurOfficesSection />
 
-            <button name='scroll-to-top' onClick={scrollToTop} className='z-[10000] shadow-lg text-2xl flex justify-center items-center w-14 h-14 rounded-full  text-white fixed bottom-4 left-4' style={{
+            <button type='button' name='scroll-to-top' onClick={scrollToTop} className='z-[10000] shadow-lg text-2xl flex justify-center items-center w-14 h-14 rounded-full  text-white fixed bottom-4 left-4' style={{
                 background: palette?.brandOrange,
                 color: "white"
             }}>

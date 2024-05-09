@@ -15,27 +15,27 @@ const FixedSocials = () => {
       className={`fixed top-[35%] right-2 lg:right-4 w-14 lg:w-16 h-auto p-4 z-[1000000] hidden lg:flex flex-col gap-3 justify-start items-center rounded-full  ${theme == "light" ? "bg-[#E7E7E7]/[0.4]" : "bg-[#393939]/[0.6]"
         }        `}
     >
-      <Link
+      <Link aria-label="button"
         target="_blank"
         href="https://www.facebook.com/dignitestudios"
         className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition-all duration-150 hover:opacity-80"
       >
         <FaFacebookF className="text-md text-white" />
       </Link>
-      <Link
+      <Link aria-label="button"
         href="tel:+18777141770"
         className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition-all duration-150 hover:opacity-80"
       >
         <BsFillTelephoneFill className="text-md text-white" />
       </Link>
-      <Link
+      <Link aria-label="button"
         target="_blank"
         href="https://www.linkedin.com/company/dignitestudios/"
         className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition-all duration-150 hover:opacity-80"
       >
         <ImLinkedin2 className="text-md text-white" />
       </Link>
-      <Link
+      <Link aria-label="button"
         target="_blank"
         href="https://www.instagram.com/dignitestudios?igsh=MWc3NDBkazFuaTlkbQ=="
         className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition-all duration-150 hover:opacity-80"

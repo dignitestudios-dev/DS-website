@@ -25,7 +25,7 @@ const ProjectCard = ({ title, description, image, projectLink }) => {
 
         <div className="w-full flex justify-between items-center pr-1">
           <h3 className="text-xl lg:text-2xl font-bold">{title}</h3>
-          <button className="">
+          <button type='button' className="" name="navigator">
             <img src={"/case-study-arrow.webp"} alt="" className="w-2 md:w-4 lg:w-5 " />
           </button>
         </div>
