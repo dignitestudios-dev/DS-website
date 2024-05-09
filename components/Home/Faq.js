@@ -37,8 +37,7 @@ const Faq = () => {
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
             data-accordion-target="#accordion-collapse-body-1"
-            aria-expanded={openAccordion === 1 ? "true" : "false"}
-            aria-controls="accordion-collapse-body-1"
+
           >
             <button
               name="faq-question"
@@ -64,7 +63,7 @@ const Faq = () => {
               id="accordion-1"
               className={`transition-all duration-200 ${openAccordion === 1 ? "" : "hidden"
                 }`}
-              aria-labelledby="accordion-collapse-heading-1"
+
             >
               <div className="py-1 rounded-md mt-1 ">
                 <p
@@ -87,8 +86,7 @@ const Faq = () => {
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
             data-accordion-target="#accordion-collapse-body-1"
-            aria-expanded={openAccordion === 2 ? "true" : "false"}
-            aria-controls="accordion-collapse-body-1"
+
           >
             <button
               name="faq-question"
@@ -113,7 +111,7 @@ const Faq = () => {
               id="accordion-1"
               className={`transition-all duration-200 ${openAccordion === 2 ? "" : "hidden"
                 }`}
-              aria-labelledby="accordion-collapse-heading-1"
+
             >
               <div className="py-1 rounded-md mt-1 ">
                 <p
@@ -136,8 +134,7 @@ const Faq = () => {
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
             data-accordion-target="#accordion-collapse-body-1"
-            aria-expanded={openAccordion === 3 ? "true" : "false"}
-            aria-controls="accordion-collapse-body-1"
+
           >
             <button
               name="faq-question"
@@ -162,7 +159,7 @@ const Faq = () => {
               id="accordion-1"
               className={`transition-all duration-200 ${openAccordion === 3 ? "" : "hidden"
                 }`}
-              aria-labelledby="accordion-collapse-heading-1"
+
             >
               <div className="py-1 rounded-md mt-1 ">
                 <p
@@ -187,8 +184,7 @@ const Faq = () => {
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
             data-accordion-target="#accordion-collapse-body-1"
-            aria-expanded={openAccordion === 4 ? "true" : "false"}
-            aria-controls="accordion-collapse-body-1"
+
           >
             <button
               name="faq-question"
@@ -213,7 +209,7 @@ const Faq = () => {
               id="accordion-1"
               className={`transition-all duration-200 ${openAccordion === 4 ? "" : "hidden"
                 }`}
-              aria-labelledby="accordion-collapse-heading-1"
+
             >
               <div className="py-1 rounded-md mt-1 ">
                 <p
@@ -238,8 +234,7 @@ const Faq = () => {
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
             data-accordion-target="#accordion-collapse-body-1"
-            aria-expanded={openAccordion === 5 ? "true" : "false"}
-            aria-controls="accordion-collapse-body-1"
+
           >
             <button
               name="faq-question"
@@ -264,7 +259,7 @@ const Faq = () => {
               id="accordion-1"
               className={`transition-all duration-200 ${openAccordion === 5 ? "" : "hidden"
                 }`}
-              aria-labelledby="accordion-collapse-heading-1"
+
             >
               <div className="py-1 rounded-md mt-1 ">
                 <p
