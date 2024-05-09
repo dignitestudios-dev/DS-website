@@ -60,6 +60,8 @@ const LandingContactUs = () => {
       >
         <div className="w-full h-full">
           <img
+            loading="lazy"
+            alt="cto"
             src={"/cto.webp"}
             className="w-full h-[17rem] md:h-[38rem] xl:h-[35rem] object-cover rounded-3xl "
           />
