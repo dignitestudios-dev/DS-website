@@ -1,6 +1,7 @@
 'use client'
 
 import { GlobalContext } from "@/context/GlobalContext";
+import Image from "next/image";
 import React, { useContext } from "react";
 
 const TestimonialCard = ({ review }) => {
@@ -21,7 +22,7 @@ const TestimonialCard = ({ review }) => {
         {review?.review.length > 340 ? review?.review?.slice(0, 340) + "..." : review?.review}
       </p>
       <div className="w-auto h-[20%] absolute bottom-0 left-0 flex gap-2 justify-start items-center">
-        <img loading="lazy" src={review?.image} alt="" className="rounded-full w-14 h-14" width="56px" height="56px" />
+        <Image loading="lazy" src={review?.image} alt="client_image" className="rounded-full w-14 h-14" width={56} height={56} />
         <div className="flex flex-col justify-start items-start">
           <p className="text-base font-semibold">{review?.author}</p>
           <p

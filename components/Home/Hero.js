@@ -9,31 +9,37 @@ const Hero = () => {
   useEffect(() => {
     const dynamicText = document.getElementById("typewriter-effect");
     const words = ["Digital Cosmos", "Techno Galaxy", "Digital World", "App Universe"];
-    // Variables to track the position and deletion status of the word
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
+
     const typeEffect = () => {
       const currentWord = words[wordIndex];
       const currentChar = currentWord.substring(0, charIndex);
       dynamicText.textContent = currentChar;
       dynamicText.classList.add("stop-blinking");
+
       if (!isDeleting && charIndex < currentWord.length) {
-        // If condition is true, type the next character
         charIndex++;
-        setTimeout(typeEffect, 300);
+        setTimeout(typeEffect, 150);
       } else if (isDeleting && charIndex > 0) {
-        // If condition is true, remove the previous character
         charIndex--;
-        setTimeout(typeEffect, 300);
+        setTimeout(typeEffect, 150);
       } else {
-        // If word is deleted then switch to the next word
-        setTimeout(typeEffect, 300);
-        isDeleting = !isDeleting;
-        dynamicText.classList.remove("stop-blinking");
-        wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
+        // Check if word is fully typed and wait for 1 second before starting to delete
+        if (!isDeleting) {
+          setTimeout(() => {
+            isDeleting = true;
+            setTimeout(typeEffect, 150);
+          }, 2000);
+        } else {
+          isDeleting = false;
+          wordIndex = (wordIndex + 1) % words.length;
+          setTimeout(typeEffect, 150);
+          dynamicText.classList.remove("stop-blinking");
+        }
       }
-    }
+    };
     typeEffect();
   }, []);
   return (

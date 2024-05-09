@@ -2,6 +2,7 @@
 
 import React, { useContext, useState } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
+import Image from "next/image";
 
 
 const TechnologyCard = ({ technology }) => {
@@ -17,9 +18,9 @@ const TechnologyCard = ({ technology }) => {
       style={{
         background: palette?.dark_contrast_background,
       }}
-      className="h-[50px] w-[50px] md:w-[88px] md:h-[88px] flip-vertical-left  rounded-lg md:rounded-[20px] transition-all duration-300 flex items-center justify-center "
+      className="w-[88px] h-[88px] flip-vertical-left  rounded-[20px] transition-all duration-300 flex items-center justify-center "
     >
-      <img src={image} alt="technology" className="h-[60%] md:h-auto" />
+      <Image width={50} height={50} src={image} alt="technology" className="h-[60%] md:h-auto" />
     </div>
   );
 };
