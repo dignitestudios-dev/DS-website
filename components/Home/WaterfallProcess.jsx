@@ -15,7 +15,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Brainstorming
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Think Tank
             </h3>
             <p
@@ -35,7 +35,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Aesthetics
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Ui Design
             </h3>
             <p
@@ -56,7 +56,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Back End
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Beta
             </h3>
             <p
@@ -140,7 +140,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Structure
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Wireframes
             </h3>
             <p
@@ -161,7 +161,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Front End
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Alpha
             </h3>
             <p
@@ -182,7 +182,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Jackpot
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Deployment
             </h3>
             <p
@@ -206,7 +206,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Brainstorming
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Think Tank
             </h3>
             <p
@@ -226,7 +226,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Structure
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Wireframes
             </h3>
             <p
@@ -247,7 +247,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Aesthetics
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Ui Design
             </h3>
             <p
@@ -332,7 +332,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Front End
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Alpha
             </h3>
             <p
@@ -353,7 +353,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Back End
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Beta
             </h3>
             <p
@@ -373,7 +373,7 @@ const WaterfallProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
               Jackpot
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Deployment
             </h3>
             <p

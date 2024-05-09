@@ -21,14 +21,14 @@ const Hero = () => {
       if (!isDeleting && charIndex < currentWord.length) {
         // If condition is true, type the next character
         charIndex++;
-        setTimeout(typeEffect, 150);
+        setTimeout(typeEffect, 300);
       } else if (isDeleting && charIndex > 0) {
         // If condition is true, remove the previous character
         charIndex--;
-        setTimeout(typeEffect, 150);
+        setTimeout(typeEffect, 300);
       } else {
         // If word is deleted then switch to the next word
-        setTimeout(typeEffect, 150);
+        setTimeout(typeEffect, 300);
         isDeleting = !isDeleting;
         dynamicText.classList.remove("stop-blinking");
         wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;

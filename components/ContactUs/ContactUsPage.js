@@ -118,7 +118,7 @@ const ContactUsPage = () => {
                                 id="phone" name="phone"
                                 maxLength="10"
                                 className="w-full  outline-none focus h-9 bg-transparent "
-                                placeholder="e.g 0491 570 156"
+                                placeholder="e.g +1 491 570 156"
                                 style={{
                                     borderBottom: `2px solid ${theme == "light" ? "#D1D1D1" : palette?.dark_contrast_background}`,
 

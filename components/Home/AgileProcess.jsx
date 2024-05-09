@@ -15,7 +15,7 @@ const AgileProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Branding
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               vision
             </h3>
 
@@ -36,7 +36,7 @@ const AgileProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Prototyping
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               MVP
             </h3>
 
@@ -58,7 +58,7 @@ const AgileProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Testing
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Evaluation
             </h3>
 
@@ -144,7 +144,7 @@ const AgileProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Sprint Planning
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Project Breakdown
             </h3>
 
@@ -165,7 +165,7 @@ const AgileProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Iteration
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Sprint Execution
             </h3>
 
@@ -188,7 +188,7 @@ const AgileProcess = () => {
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Deployment
             </h2>
-            <h3 className="  capitalize text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               jackpot
             </h3>
 
@@ -204,20 +204,20 @@ const AgileProcess = () => {
         </div>
       </div>
       <div className="w-full my-6 px-2 lg:px-10 h-auto lg:hidden flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
-        <div className=" w-full lg:w-[49%] h-auto grid gap-3">
-          <div className="group  w-full h-[15rem] md:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-1 md:gap-3 flex-col justify-start items-start  py-2 md:py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[40px] md:text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+        <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               01.
             </h1>
-            <h2 className="text-xl md:text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Branding
             </h2>
-            <h3 className="  capitalize text-lg md:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               vision
             </h3>
 
             <p
-              className="text-xs md:text-[14px] font-normal  "
+              className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
               Branding for the app involves rapid iterations and feedback loops
@@ -226,19 +226,19 @@ const AgileProcess = () => {
               the app's values and resonates with the target audience.
             </p>
           </div>
-          <div className="group  w-full h-[15rem] md:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-1 flex-col justify-start items-start  py-2 md:py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[40px] md:text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               02.
             </h1>
-            <h2 className="text-xl md:text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Sprint Planning
             </h2>
-            <h3 className=" text-lg capitalize md:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Project Breakdown
             </h3>
 
             <p
-              className="text-xs md:text-[14px] font-normal  "
+              className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
               The development team selects items from the product backlog to
@@ -247,19 +247,19 @@ const AgileProcess = () => {
               and expertise.
             </p>
           </div>
-          <div className="group  w-full h-[17rem] md:h-auto border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-1 flex-col justify-start items-start  py-2 md:py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[40px] md:text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               03.
             </h1>
-            <h2 className="text-xl md:text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Prototyping
             </h2>
-            <h3 className="text-lg  capitalize md:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               MVP
             </h3>
 
             <p
-              className="text-xs md:text-[14px] font-normal  "
+              className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
               Focus is on delivering core functionality to meet user needs.
@@ -332,20 +332,20 @@ const AgileProcess = () => {
             </span>
           </span>
         </div>
-        <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid  gap-3">
-          <div className="group  w-full h-[17rem] md:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-1 flex-col justify-start items-start  py-2 md:py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[40px] md:text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+        <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               04.
             </h1>
-            <h2 className="text-xl md:text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Iteration
             </h2>
-            <h3 className=" text-lg  capitalize md:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Sprint Execution
             </h3>
 
             <p
-              className="text-xs md:text-[14px] font-normal  "
+              className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
               Completing a set of user stories within a fixed time frame,
@@ -356,19 +356,19 @@ const AgileProcess = () => {
               iteration.
             </p>
           </div>
-          <div className="group  w-full h-[17rem] md:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-1 flex-col justify-start items-start  py-2 md:py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[40px] md:text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex gap-3 flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </h1>
-            <h2 className="text-xl md:text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Testing
             </h2>
-            <h3 className=" text-lg  capitalize md:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Evaluation
             </h3>
 
             <p
-              className="text-xs md:text-[14px] font-normal  "
+              className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
               User stories are rigorously evaluated to ensure functionality
@@ -378,19 +378,19 @@ const AgileProcess = () => {
               utilized to enhance efficiency and maintain product quality.
             </p>
           </div>
-          <div className="group  w-full h-[15rem] md:h-auto flex flex-col gap-1 justify-start items-start  py-2 md:py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[40px] md:text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto flex flex-col gap-3 justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
               06.
             </h1>
-            <h2 className="text-xl md:text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight ">
               Deployment
             </h2>
-            <h3 className=" text-lg capitalize md:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               jackpot
             </h3>
 
             <p
-              className="text-xs md:text-[14px] font-normal  "
+              className="text-[14px] font-normal  "
               style={{ color: palette?.light_contrast_color }}
             >
               The tested features are deployed to production environments.

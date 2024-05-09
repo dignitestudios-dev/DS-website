@@ -140,15 +140,15 @@ const Footer = () => {
         <Link href={"https://www.trustpilot.com/review/dignitestudios.com"} className="col-span-5 lg:col-span-2 flex flex-col gap-2">
           {theme == "dark" ? (
             <Link href={"https://www.trustpilot.com/review/dignitestudios.com"}>
-              <img src="/trust-pilot-white.svg" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+              <img src="/trust-pilot-white.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
             </Link>
           ) : (
             <Link href={"https://www.trustpilot.com/review/dignitestudios.com"}>
-              <img src="/trustpilot-logo.png" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+              <img src="/trustpilot-logo.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
             </Link>
           )}
 
-          <img src="/footer-stars.png" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+          <img src="/footer-stars.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
         </Link>
         <div className="col-span-2 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
           <Link href="/" className="hover:text-orange-500">

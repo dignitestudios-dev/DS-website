@@ -38,7 +38,7 @@ const Navbar = ({ setIsOpen }) => {
       className={`relative px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  h-20  flex items-center justify-between w-full`}
     >
       <Link href="/" className="h-12 lg:h-16">
-        <img src={theme == "light" ? "/logo.png" : "/logo-dark.png"} className="h-12 lg:h-16" />
+        <img src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"} className="h-12 lg:h-16" />
       </Link>
       <div
         style={{ color: palette?.color }}
@@ -100,7 +100,7 @@ const Navbar = ({ setIsOpen }) => {
         </button>
 
         <button onClick={() => setIsOpen(true)} className="flex lg:hidden h-4 lg:h-auto">
-          <img src={theme == "light" ? "/hamburger.png" : "/menu-dark.png"} className="h-full" />
+          <img src={theme == "light" ? "/hamburger.webp" : "/menu-dark.webp"} className="h-full" />
         </button>
       </div>
     </div>

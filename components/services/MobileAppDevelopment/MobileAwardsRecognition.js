@@ -25,22 +25,22 @@ const MobileAwardsRecognition = () => {
       </p>
       <div className="w-full grid grid-cols-6 md:grid-cols-6 lg:grid-cols-6 gap-y-4">
         <div className="flex justify-center items-center ">
-          <img src="/award-1.png" className="" />
+          <img src="/award-1.webp" className="" />
         </div>
         <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-          <img src="/award-2.png" className="" />
+          <img src="/award-2.webp" className="" />
         </div >
         <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-          <img src="/award-3.png" className="" />
+          <img src="/award-3.webp" className="" />
         </div>
         <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-          <img src="/award-4.png" className="" />
+          <img src="/award-4.webp" className="" />
         </div>
         <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-          <img src="/award-5.png" className="" />
+          <img src="/award-5.webp" className="" />
         </div>
         <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-          <img src="/award-6.png" className="" />
+          <img src="/award-6.webp" className="" />
         </div>
       </div>
     </div>

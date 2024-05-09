@@ -60,7 +60,7 @@ const LandingContactUs = () => {
       >
         <div className="w-full h-full">
           <img
-            src={"/cto.png"}
+            src={"/cto.webp"}
             className="w-full h-[17rem] md:h-[38rem] xl:h-[35rem] object-cover rounded-3xl "
           />
         </div>
@@ -119,7 +119,7 @@ const LandingContactUs = () => {
                 id="phone" name="phone"
                 maxLength="10"
                 className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="e.g 0491 570 156"
+                placeholder="e.g +1 491 570 156"
                 style={{
                   borderBottom: `2px solid ${palette?.dark_contrast_color}`,
                 }}

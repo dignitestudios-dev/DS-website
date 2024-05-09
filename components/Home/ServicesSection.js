@@ -15,7 +15,7 @@ const ServicesSection = () => {
       >
         Our Services
       </h1>
-      <div className="lg:py-2 grid grid-cols-2 gap-2 lg:gap-0 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 ">
+      <div className="lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 ">
         {services.map((s, key) => {
           return (
             <ServiceCard

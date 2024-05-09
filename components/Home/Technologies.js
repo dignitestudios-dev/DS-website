@@ -8,48 +8,48 @@ const Technologies = () => {
   const { palette } = useContext(GlobalContext);
   const technologies = [
     {
-      color: "/flutter-color.png",
-      gray: "/flutter-gray.png",
+      color: "/flutter-color.webp",
+      gray: "/flutter-gray.webp",
       name: "Flutter"
     },
     {
-      color: "/swift-color.png",
-      gray: "/swift-gray.png",
+      color: "/swift-color.webp",
+      gray: "/swift-gray.webp",
       name: "Swift"
     },
     {
-      color: "/vue-color.png",
-      gray: "/vue-gray.png",
+      color: "/vue-color.webp",
+      gray: "/vue-gray.webp",
       name: "Vue"
 
     },
     {
-      color: "/react-color.png",
-      gray: "/react-gray.png",
+      color: "/react-color.webp",
+      gray: "/react-gray.webp",
       name: "React"
 
     },
     {
-      color: "/tailwind-color.png",
-      gray: "/tailwind-gray.png",
+      color: "/tailwind-color.webp",
+      gray: "/tailwind-gray.webp",
       name: "Tailwind"
 
     },
     {
-      color: "/figma-color.png",
-      gray: "/figma-gray.png",
+      color: "/figma-color.webp",
+      gray: "/figma-gray.webp",
       name: "Figma"
 
     },
     {
-      color: "/ai-color.png",
-      gray: "/ai-gray.png",
+      color: "/ai-color.webp",
+      gray: "/ai-gray.webp",
       name: "Adobe Illustrator"
 
     },
     {
-      color: "/ps-color.png",
-      gray: "/ps-gray.png",
+      color: "/ps-color.webp",
+      gray: "/ps-gray.webp",
       name: "Photoshop"
 
     },
