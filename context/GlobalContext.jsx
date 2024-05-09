@@ -43,6 +43,7 @@ export const GlobalContextProvider = ({ children }) => {
   });
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [subscribeError, setSubscribeError] = useState(false);
 
   useEffect(() => {
     if (theme == "dark") {
@@ -83,6 +84,8 @@ export const GlobalContextProvider = ({ children }) => {
         setError,
         success,
         setSuccess,
+        subscribeError,
+        setSubscribeError,
       }}
     >
       {children}

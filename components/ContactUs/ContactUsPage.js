@@ -1,25 +1,47 @@
 "use client"
 import { GlobalContext } from '@/context/GlobalContext'
 import { useRouter } from 'next/navigation'
-import React, { useContext } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
+import Alert from '../global/Alert'
+import ContactUsAlert from '../global/ContactUsAlert'
 
 const ContactUsPage = () => {
-    const { palette, theme, setError } = useContext(GlobalContext)
+    const { palette, theme, setError, error } = useContext(GlobalContext)
     const navigate = useRouter()
     const validateEmail = (email) => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);
     };
+
+
+    const [email, setEmail] = useState("");
+    const [phone, setPhone] = useState("")
+    const formatPhoneNumber = (phoneNumber) => {
+        const formattedNumber = phoneNumber.replace(
+            /^(\d{3})(\d{3})(\d{4})$/,
+            "($1) $2-$3"
+        );
+        return formattedNumber;
+    };
+
+    useEffect(() => {
+        setPhone(formatPhoneNumber(phone));
+    }, [phone]);
     const handleSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
         if (formData.get("name") == "") {
             setError("Name cannot be left empty.")
-        } else if (formData.get("email") == "") {
+        } else if (email == "") {
             setError("Email cannot be left empty.")
+        } else if (!validateEmail(email)) {
+            setError("Email must be a valid email.")
         }
-        else if (formData.get("phone") == "") {
+        else if (phone == "") {
             setError("Phone number cannot be left empty.")
+        }
+        else if (phone.length < 10) {
+            setError("Phone number must contain 10 numeric characters.")
         }
         else if (formData.get("message") == "") {
             setError("Message cannot be left empty.")
@@ -30,8 +52,8 @@ const ContactUsPage = () => {
 
             //Using entry ids from Google forms config
             data.append("entry.1883330900", formData.get("name")); // Name field
-            data.append("entry.39421230", formData.get("email")); // Email field
-            data.append("entry.769267793", formData.get("phone")); // Phone field
+            data.append("entry.39421230", email); // Email field
+            data.append("entry.769267793", formatPhoneNumber(phone)); // Phone field
             data.append("entry.1280467825", formData.get("message")); // message field
 
             fetch(
@@ -45,6 +67,7 @@ const ContactUsPage = () => {
                 })
                 .catch((error) => {
                     setError("Something went wrong.")
+
                 });
         }
     };
@@ -63,7 +86,7 @@ const ContactUsPage = () => {
             <div
                 className={`w-full h-auto my-12 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-3xl `}
             >
-                <div className="w-full h-full flex flex-col lg:col-span-1 justify-start items-start gap-8">
+                <div className="w-full h-full flex flex-col lg:col-span-1 justify-start items-start gap-8 relative">
                     <h1
                         className="text-[39px] xl:text-[34px] font-extrabold lg:text-[45px] leading-tight lg:font-bold"
                         style={{ color: palette?.color }}
@@ -96,8 +119,10 @@ const ContactUsPage = () => {
                                 Email
                             </span>
                             <input
-                                type="email"
+                                type="text"
                                 id="email" name="email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
                                 className="w-full  outline-none focus h-9 bg-transparent "
                                 placeholder="e.g John@gmail.com"
                                 style={{
@@ -117,6 +142,8 @@ const ContactUsPage = () => {
                                 type="text"
                                 id="phone" name="phone"
                                 maxLength="10"
+                                value={phone}
+                                onChange={(e) => setPhone(e.target.value)}
                                 className="w-full  outline-none focus h-9 bg-transparent "
                                 placeholder="e.g +1 491 570 156"
                                 style={{
@@ -152,6 +179,7 @@ const ContactUsPage = () => {
                         >
                             Submit
                         </button>
+                        {error && <ContactUsAlert />}
                     </form>
 
                 </div>

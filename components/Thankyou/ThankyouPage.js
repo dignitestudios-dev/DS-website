@@ -11,7 +11,7 @@ const ThankyouPage = () => {
             color: palette?.color
         }}>
             <span className='w-[80px] h-[80px] rounded-full flex justify-center items-center bg-[#FEEFE9]'>
-                <img src='/check.png' className='w-9' />
+                <img src='/check.webp' className='w-9' />
             </span>
             <h1 className='text-[45px] font-extrabold lg:text-[64px]  lg:font-bold text-center  uppercase'>Thank You</h1>
             <p className='text-[18px] font-light text-center'>We have received your form. We will contact you on your email soon.</p>

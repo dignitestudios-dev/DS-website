@@ -10,7 +10,7 @@ const Alert = () => {
     }, [error])
     return (
 
-        <div className={`fixed top-0 left-0 ${error ? "translate-y-0" : "-translate-y-20"} transition-all duration-500 w-screen h-16 bg-gray-50 border-b-4 border-orange-600 text-orange-600 text-sm font-medium z-[5000] uppercase flex gap-3 justify-start items-center px-6`}>
+        <div className={`animate-pulse lg:absolute bottom-3 right-3 ${error ? "flex" : "hidden"} transition-all duration-500 w-full lg:w-auto h-16 rounded-3xl bg-orange-600  text-white text-sm font-medium z-[5000] uppercase  gap-3 justify-start items-center px-6`}>
             <svg class="flex-shrink-0 w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
             </svg>

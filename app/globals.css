@@ -33,6 +33,7 @@ body {
   overflow-x: hidden !important;
   /* cursor: url("./assets/cursor.png"), auto; */
   cursor: url("../public/cursor.png"), auto;
+  font-display: swap;
 }
 h1::selection, h2::selection,h3::selection,h4::selection,h5::selection,h6::selection,span::selection,div::selection, a::selection, p::selection{
   background-color: #f15c20;

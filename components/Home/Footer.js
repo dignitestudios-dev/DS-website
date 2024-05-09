@@ -7,9 +7,12 @@ import { GoArrowRight } from "react-icons/go";
 import { GlobalContext } from "@/context/GlobalContext";
 import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
+import Alert from "../global/Alert";
+import Success from "../global/Success";
+import SubscribeAlert from "../global/SubscribeAlert";
 
 const Footer = () => {
-  const { palette, theme, setError, setSuccess } = useContext(GlobalContext);
+  const { palette, theme, setSubscribeError, setSuccess, success, subscribeError } = useContext(GlobalContext);
   const navigate = useRouter()
   const pathname = usePathname()
   const handleClick = (id) => {
@@ -42,9 +45,9 @@ const Footer = () => {
     const form = document.getElementById("subscribe")
     const formData = new FormData(event.target);
     if (formData.get("email") == "") {
-      setError("Email cannot be left empty.")
+      setSubscribeError("Email cannot be left empty.")
     } else if (!validateEmail(formData.get("email"))) {
-      setError("Email must be a valid email.")
+      setSubscribeError("Email must be a valid email.")
     } else {
 
 
@@ -64,7 +67,7 @@ const Footer = () => {
           }
         })
         .catch((error) => {
-          setError("Something went wrong.")
+          setSubscribeError("Something went wrong.")
         });
     }
 
@@ -119,12 +122,16 @@ const Footer = () => {
             </span>
             <div className="w-full lg:w-96 relative">
               <input
-                type="email"
+                type="text"
                 id="email2" name="email"
                 className="w-full  outline-none h-12 bg-transparent px-2"
                 placeholder="E-mail"
                 style={{ borderBottom: `2px solid ${palette?.brandOrange}` }}
               />
+              {
+                subscribeError && <SubscribeAlert />
+              }
+              {success && <Success />}
               <button type="submit">
 
                 <GoArrowRight
