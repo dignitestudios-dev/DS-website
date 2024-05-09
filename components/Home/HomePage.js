@@ -59,12 +59,12 @@ export default function HomePage() {
         <div className='w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto'>
             <Hero />
 
-            <div className="scroller relative w-full h-auto md:h-96 " data-speed="fast" data-animated="true">
+            {/* <div className="scroller relative w-full h-auto md:h-96 " data-speed="fast" data-animated="true">
                 <Slider />
-            </div>
+            </div> */}
 
             <Technologies />
-            <CaseStudiesSection />
+            {/* <CaseStudiesSection /> */}
             <ServicesSection />
             <Process />
             <WhyChooseUsSection />
