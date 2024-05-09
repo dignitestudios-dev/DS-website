@@ -43,6 +43,7 @@ const CaseStudiesSection = () => {
               title={c.title}
               description={c.description}
               image={c.image}
+              mobile_image={c.mobile_image}
               projectLink={c.projectLink}
             />
           );
