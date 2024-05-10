@@ -547,6 +547,14 @@ const PrivacyPolicyPage = () => {
         </p>
 
         <h3 className="text-xl font-bold mt-5">
+          Google Analytics
+
+        </h3>
+        <p className="text-md font-medium mt-3">
+
+          Google Analytics 4 is an analytics tool that collects both website and app data to better understand the customer journey. It is used to measure the effectiveness of advertising campaigns and identify the actions users take on website/app. GA4 includes privacy controls such as cookieless measurement, and behavioral and key event modeling. Google Analytics 4 may collect information from your device when you use the service. Google Analytics 4 collects information that is held in accordance with its Privacy Policy.
+        </p>
+        <h3 className="text-xl font-bold mt-5">
           <span>Tracking Technologies</span>
         </h3>
         <ul className="ml-4 list-disc mt-3">
