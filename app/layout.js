@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </head>
       <body className={inter.className}>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTVKC35B"
@@ -40,7 +41,23 @@ export default function RootLayout({ children }) {
           {children}
 
         </GlobalContextProvider>
-        <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/23199765.js"></script>
+        {/* <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/23199765.js"></script> */}
+        <Script
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+            var Tawk_API=Tawk_API||{ }, Tawk_LoadStart=new Date();
+            (function(){
+              var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+              s1.async=true;
+              s1.src='https://embed.tawk.to/664045f907f59932ab3e9a21/1htlh2m2o';
+              s1.charset='UTF-8';
+              s1.setAttribute('crossorigin','*');
+              s0.parentNode.insertBefore(s1,s0);
+            })();`,
+          }}
+        />
+
       </body>
     </html>
   )
