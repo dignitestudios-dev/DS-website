@@ -31,6 +31,11 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+        <script>
+          gtag('event', 'conversion_event_submit_lead_form', {
+            // <event_parameters>
+          });
+        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </head>
       <body className={inter.className}>
