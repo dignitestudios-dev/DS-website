@@ -21,21 +21,21 @@ const Hero = () => {
 
       if (!isDeleting && charIndex < currentWord.length) {
         charIndex++;
-        setTimeout(typeEffect, 150);
+        setTimeout(typeEffect, 80);
       } else if (isDeleting && charIndex > 0) {
         charIndex--;
-        setTimeout(typeEffect, 150);
+        setTimeout(typeEffect, 80);
       } else {
         // Check if word is fully typed and wait for 1 second before starting to delete
         if (!isDeleting) {
           setTimeout(() => {
             isDeleting = true;
-            setTimeout(typeEffect, 150);
-          }, 2000);
+            setTimeout(typeEffect, 80);
+          }, 1000);
         } else {
           isDeleting = false;
           wordIndex = (wordIndex + 1) % words.length;
-          setTimeout(typeEffect, 150);
+          setTimeout(typeEffect, 80);
           dynamicText.classList.remove("stop-blinking");
         }
       }

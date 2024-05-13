@@ -31,14 +31,14 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16524923816"></script>
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16524923816"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
+          function gtag(){dataLayer.push(arguments)}
           gtag('js', new Date());
 
           gtag('config', 'AW-16524923816');
-        </script>
+        </script> */}
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </head>
       <body className={inter.className}>

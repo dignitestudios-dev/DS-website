@@ -53,19 +53,31 @@ const PerfectBoatTechnologies = () => {
           return <MaidSimplTechnologyCard technology={technology} key={key} />;
         })}
       </div>
-      <Link
-        href="https://www.carterboating.com/"
-        className={`mt-2 w-[203px] h-[78px] border-[1px] ${
-          theme == "dark" ? "border-white" : "border-black"
-        } rounded-full px-3 flex items-center justify-center gap-3 ${
-          theme == "dark"
-            ? "hover:bg-orange-600 hover:border-orange-600 hover:text-white"
-            : "hover:bg-orange-600 hover:border-orange-600 hover:text-white"
-        }`}
-      >
-        <span>Launch Project</span>
-        <HiArrowRight className="text-xl" />
-      </Link>
+      <div className="w-auto flex justify-start items-center gap-2">
+        <Link
+          href="https://www.carterboating.com/"
+          className={`mt-2 w-auto h-[60px] border-[1px]  rounded-full px-4 flex items-center justify-center gap-3 ${
+            theme == "dark"
+              ? "border-[1px] border-white text-white"
+              : "border-[1px] border-black text-black"
+          }  `}
+        >
+          {theme == "dark" ? (
+            <img src="/website_icon_white.svg" alt="Google play icon" />
+          ) : (
+            <img src="/website_icon.svg" alt="Google play icon" />
+          )}
+
+          <span>Website</span>
+        </Link>
+        <Link
+          href="/contact-us"
+          className={`mt-2 w-auto h-[60px] border-[1px]  rounded-full px-3 flex items-center justify-center gap-3 bg-orange-600 border-orange-600 text-white`}
+        >
+          <span>Launch Your Project</span>
+          <HiArrowRight className="text-xl" />
+        </Link>
+      </div>
     </div>
   );
 };
