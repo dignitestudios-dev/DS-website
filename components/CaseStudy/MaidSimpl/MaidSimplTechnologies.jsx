@@ -55,7 +55,7 @@ const MaidSimplTechnologies = () => {
       </div>
       <div className="w-auto flex justify-start items-center gap-2">
         <Link
-          href="https://www.maidsimpl.com/"
+          href="https://play.google.com/store/apps/details?id=com.maidsimpl.maidsimpl&hl=en&gl=US"
           className={`mt-2 w-auto h-[60px] border-[1px]  rounded-full px-4 flex items-center justify-center gap-3 ${
             theme == "dark"
               ? "border-[1px] border-white text-white"
@@ -71,7 +71,7 @@ const MaidSimplTechnologies = () => {
           <span>Google play</span>
         </Link>
         <Link
-          href="https://www.maidsimpl.com/"
+          href="https://apps.apple.com/us/app/maidsimpl/id6478665215"
           className={`mt-2 w-auto h-[60px] border-[1px]  rounded-full px-4 flex items-center justify-center gap-3 ${
             theme == "dark"
               ? "border-[1px] border-white text-white"
