@@ -24,55 +24,57 @@ const LandingContactUs = () => {
     );
     return formattedNumber;
   };
-
-  useEffect(() => {
-    setPhone(formatPhoneNumber(phone));
-  }, [phone]);
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    if (formData.get("name") == "") {
-      setError("Name cannot be left empty.")
-    } else if (email == "") {
-      setError("Email cannot be left empty.")
-    } else if (!validateEmail(email)) {
-      setError("Email must be a valid email.")
-    }
-    else if (phone == "") {
-      setError("Phone number cannot be left empty.")
-    }
-    else if (phone.length < 10) {
-      setError("Phone number must contain 10 numeric characters.")
-    }
-    else if (formData.get("message") == "") {
-      setError("Message cannot be left empty.")
 
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const phone = formData.get("phone");
+    const message = formData.get("message");
+
+    if (name === "") {
+      setError("Name cannot be left empty.");
+    } else if (email === "") {
+      setError("Email cannot be left empty.");
+    }
+    // else if (!validateEmail(email)) {
+    //     setError("Email must be a valid email.");
+    // } 
+    else if (phone === "") {
+      setError("Phone number cannot be left empty.");
+    } else if (phone.length < 10) {
+      setError("Phone number must contain 10 numeric characters.");
+    } else if (message === "") {
+      setError("Message cannot be left empty.");
     } else {
 
-      const data = new URLSearchParams();
+      const formData = new FormData(event.target);
 
+      const data1 = new URLSearchParams();
+
+      const formattedNumber = formatPhoneNumber(formData.get("phone"));
+      // console.log(formattedNumber);
       //Using entry ids from Google forms config
-      data.append("entry.1883330900", formData.get("name")); // Name field
-      data.append("entry.39421230", email); // Email field
-      data.append("entry.769267793", formatPhoneNumber(phone)); // Phone field
-      data.append("entry.1280467825", formData.get("message")); // message field
+      data1.append("entry.1883330900", formData.get("name")); // Name field
+      data1.append("entry.39421230", formData.get("email")); // Email field
+      data1.append("entry.769267793", formattedNumber); // Phone field
+      data1.append("entry.1280467825", formData.get("message")); // message field
 
       fetch(
-        `https://docs.google.com/forms/d/e/${process.env.NEXT_PUBLIC_CONTACT_US_URL}/formResponse`,
-        { method: "POST", body: data, mode: "no-cors" }
+        "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
+        { method: "POST", body: data1, mode: "no-cors" }
       )
         .then((response) => {
-          if (response) {
-            navigate.push("/thank-you")
-          }
+
+          navigate.push("/thank-you")
         })
         .catch((error) => {
-          setError("Something went wrong.")
+          setError("something went wrong");
 
         });
     }
   };
-
   return (
     <div
       className={`w-full xl:w-[100%] my-14 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  flex justify-center items-start  h-auto`}
@@ -123,7 +125,7 @@ const LandingContactUs = () => {
                 Email
               </span>
               <input
-                type="text"
+                type="email"
                 id="email" name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -144,7 +146,7 @@ const LandingContactUs = () => {
               <input
                 type="text"
                 id="phone" name="phone"
-                maxLength="10"
+                maxLength="11"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 className="w-full  outline-none focus h-9 bg-transparent "
