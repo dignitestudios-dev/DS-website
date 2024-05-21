@@ -74,7 +74,7 @@ const Footer = () => {
   };
   return (
     <div
-      className={`w-full h-auto transition-all duration-300 flex flex-col gap-3 lg:gap-10 py-6 lg:py-12 justify-start items-start px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48 `}
+      className={`w-full h-auto transition-all duration-300 flex flex-col gap-3 lg:gap-10 py-6 lg:py-12 justify-start items-start px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 `}
       style={{
         background: palette?.dark_contrast_background,
       }}

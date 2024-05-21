@@ -36,7 +36,7 @@ const Navbar = ({ setIsOpen }) => {
 
   return (
     <div
-      className={`relative px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  h-20  flex items-center justify-between w-full`}
+      className={`relative px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  h-20  flex items-center justify-between w-full`}
     >
       <Link aria-label="logo" href="/" className="h-12 lg:h-16">
         <Image alt="logo" width={120} height={64} src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"} className="h-12 lg:h-16" />

@@ -73,60 +73,60 @@ const WaterfallProcess = () => {
         <div className="hidden lg:grid w-auto h-[80rem]   grid-rows-5 grid-cols-1 justify-center items-start">
           <span className=" h-full  flex flex-col justify-start items-center">
             <span
-              className=" w-6 h-6 rounded-full   flex items-center justify-center"
+              className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
             >
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
             <span
-              className="h-[calc(100%-3rem)] w-[2px] "
+              className="h-[calc(100%-64px)] w-[2px] "
               style={{ background: palette?.color }}
             ></span>
             <span
-              className=" w-6 h-6 rounded-full   flex items-center justify-center"
+              className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
             >
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
           </span>
           <span className=" h-full  flex flex-col justify-start items-center">
             <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-6 h-6 rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
+            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
           </span>
           <span className=" h-full  flex flex-col justify-start items-center">
             <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-6 h-6 rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
+            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
           </span>
           <span className=" h-full  flex flex-col justify-start items-center">
             <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-6 h-6 rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
+            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
           </span>
           <span className=" h-full  flex flex-col justify-start items-center">
             <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-6 h-6 rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
+            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
@@ -265,60 +265,60 @@ const WaterfallProcess = () => {
         <div className="hidden lg:grid w-auto h-[80rem]   grid-rows-5 grid-cols-1 justify-center items-start">
           <span className=" h-full  flex flex-col justify-start items-center">
             <span
-              className=" w-6 h-6 rounded-full   flex items-center justify-center"
+              className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
             >
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
             <span
-              className="h-[calc(100%-3rem)] w-[2px] "
+              className="h-[calc(100%-64px)] w-[2px] "
               style={{ background: palette?.color }}
             ></span>
             <span
-              className=" w-6 h-6 rounded-full   flex items-center justify-center"
+              className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
             >
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
           </span>
           <span className=" h-full  flex flex-col justify-start items-center">
             <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-6 h-6 rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
+            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
           </span>
           <span className=" h-full  flex flex-col justify-start items-center">
             <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-6 h-6 rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
+            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
           </span>
           <span className=" h-full  flex flex-col justify-start items-center">
             <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-6 h-6 rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
+            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>
           </span>
           <span className=" h-full  flex flex-col justify-start items-center">
             <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-6 h-6 rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
+            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
               <span
-                className="w-1 h-1 rounded-full "
+                className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
               ></span>
             </span>

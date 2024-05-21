@@ -15,7 +15,7 @@ const WhyChooseUsCard = ({ title, description, icon }) => {
       <img src={icon} alt="" className="" width="36px" height="36px" />
       <h2 className="text-xl  font-semibold" style={{color: theme == "dark" ? "#fff" : "#0c0c0c"}}>{title}</h2>
       <p
-        className="text-sm text-center font-normal leading-[16.14px] tracking-wider "
+        className="text-xs text-center font-normal leading-[16.14px] tracking-wider "
         style={{
           color: "#8f8f8f",
         }}
