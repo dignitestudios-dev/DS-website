@@ -21,21 +21,21 @@ const Hero = () => {
 
       if (!isDeleting && charIndex < currentWord.length) {
         charIndex++;
-        setTimeout(typeEffect, 80);
+        setTimeout(typeEffect, 100);
       } else if (isDeleting && charIndex > 0) {
         charIndex--;
-        setTimeout(typeEffect, 80);
+        setTimeout(typeEffect, 100);
       } else {
         // Check if word is fully typed and wait for 1 second before starting to delete
         if (!isDeleting) {
           setTimeout(() => {
             isDeleting = true;
-            setTimeout(typeEffect, 80);
+            setTimeout(typeEffect, 100);
           }, 1000);
         } else {
           isDeleting = false;
           wordIndex = (wordIndex + 1) % words.length;
-          setTimeout(typeEffect, 80);
+          setTimeout(typeEffect, 100);
           dynamicText.classList.remove("stop-blinking");
         }
       }
@@ -45,9 +45,9 @@ const Hero = () => {
   return (
     <div className="w-full  flex flex-col pt-2 md:pt-10  gap-4 justify-start items-center">
       <span
-        className="capitalize text-center text-[18px] font-medium "
+        className="capitalize text-center text-[16px] font-medium "
         style={{
-          color: palette?.light_contrast_color,
+          color: theme == "dark" ? "#B4B4B4" : "#8F8F8F",
         }}
       >
         mobile & Web app development agency
@@ -56,7 +56,7 @@ const Hero = () => {
         style={{
           color: palette?.color,
         }}
-        className="text-[1.8rem] lg:text-6xl font-semibold text-center capitalize"
+        className="text-[1.8rem] lg:text-6xl xl:text-[68px] font-semibold xl:font-bold text-center capitalize"
       >
         Elevate your brand in the <br />
         <span
@@ -64,15 +64,15 @@ const Hero = () => {
           style={{
             color: palette?.brandOrange
           }}
-          className={`typing-demo text-[2rem] lg:text-6xl font-bold text-center lg:text-left  leading-normal `}
+          className={`typing-demo text-[2rem] lg:text-6xl xl:text-[68px] font-semibold xl:font-bold text-center lg:text-left  leading-normal `}
         >
         </span>
       </h1>
       <span
         style={{
-          color: palette?.dark_contrast_color,
+          color: theme == "dark" ? "#B4B4B4": "#5c5c5c",
         }}
-        className=" text-center my-2 lg:my-6 text-[14px] lg:text-[19px] font-normal"
+        className=" text-center my-2 lg:my-6 text-[14px] lg:text-[18px] font-normal"
       >
         Creating seamless app experiences. Transforming your ideas <br className="hidden lg:block" /> into exceptional mobile app solutions.
       </span>

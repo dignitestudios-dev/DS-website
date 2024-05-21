@@ -8,7 +8,7 @@ import { FiPlus, FiMinus } from "react-icons/fi";
 import { GlobalContext } from "@/context/GlobalContext";
 
 const Faq = () => {
-  const { palette } = useContext(GlobalContext);
+  const { palette, theme } = useContext(GlobalContext);
   const [openAccordion, setOpenAccordion] = useState(null);
 
   const handleAccordionClick = (accordionId) => {
@@ -16,11 +16,11 @@ const Faq = () => {
   };
   return (
     <div
-      className={`w-full lg:w-[100%] my-14 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  flex justify-center items-start  h-auto`}
+      className={`w-full lg:w-[100%] xl:w-[80%]  my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  flex justify-center items-start  h-auto`}
     >
       <div className="w-full h-auto  flex flex-col gap-3 justify-start items-center">
         <h1
-          className={`uppercase font-extrabold text-center lg:text-start  text-4xl lg:text-5xl lg:font-bold lg:mb-8`}
+          className={`uppercase font-extrabold text-center lg:text-start  text-4xl lg:text-5xl xl:text-[54px] lg:font-bold lg:mb-8`}
         >
           Frequently asked questions
         </h1>
@@ -32,7 +32,7 @@ const Faq = () => {
           <div
             type="button"
             onClick={() => handleAccordionClick(1)}
-            className="flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right text-[#7D7D7D] outline-none hover:opacity-95 "
+            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"} outline-none hover:opacity-95 `}
             style={{
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
@@ -41,7 +41,7 @@ const Faq = () => {
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 1 ? "text-[#F15C20]" : "text-[#7D7D7D]"
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 1 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
                 } gap-3`}
             >
               <div
@@ -81,7 +81,7 @@ const Faq = () => {
           <div
             type="button"
             onClick={() => handleAccordionClick(2)}
-            className="flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right text-[#7D7D7D] outline-none hover:opacity-95 "
+            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"} outline-none hover:opacity-95 `}
             style={{
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
@@ -90,7 +90,7 @@ const Faq = () => {
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 2 ? "text-[#F15C20]" : "text-[#7D7D7D]"
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 2 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
                 } gap-3`}
             >
               <div
@@ -129,7 +129,7 @@ const Faq = () => {
           <div
             type="button"
             onClick={() => handleAccordionClick(3)}
-            className="flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right text-[#7D7D7D] outline-none hover:opacity-95 "
+            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"} outline-none hover:opacity-95 `}
             style={{
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
@@ -138,7 +138,7 @@ const Faq = () => {
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 3 ? "text-[#F15C20]" : "text-[#7D7D7D]"
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 3 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
                 } gap-3`}
             >
               <div
@@ -179,7 +179,7 @@ const Faq = () => {
           <div
             type="button"
             onClick={() => handleAccordionClick(4)}
-            className="flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right text-[#7D7D7D] outline-none hover:opacity-95 "
+            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"} outline-none hover:opacity-95 `}
             style={{
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
@@ -188,7 +188,7 @@ const Faq = () => {
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 4 ? "text-[#F15C20]" : "text-[#7D7D7D]"
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 4 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
                 } gap-3`}
             >
               <div
@@ -229,7 +229,7 @@ const Faq = () => {
           <div
             type="button"
             onClick={() => handleAccordionClick(5)}
-            className="flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right text-[#7D7D7D] outline-none hover:opacity-95 "
+            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"} outline-none hover:opacity-95 `}
             style={{
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
@@ -238,7 +238,7 @@ const Faq = () => {
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 5 ? "text-[#F15C20]" : "text-[#7D7D7D]"
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 5 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
                 } gap-3`}
             >
               <div

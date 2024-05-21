@@ -6,16 +6,16 @@ const HybridProcess = () => {
   const { palette } = useContext(GlobalContext);
   return (
     <>
-      <div className="w-full my-6 px-2 lg:px-10 h-auto hidden lg:flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
+      <div className="w-full my-6 px-2 lg:px-10 xl:px-14 h-auto hidden lg:flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start gap-3 py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               01.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               Analysis
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Brainstorming
             </h3>
 
@@ -30,14 +30,14 @@ const HybridProcess = () => {
               contribute to shaping a comprehensive strategy for development.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start gap-3 py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               03.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               UI Designing
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Aesthetics
             </h3>
             <p
@@ -54,10 +54,10 @@ const HybridProcess = () => {
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               Evaluation
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Testing
             </h3>
             <p
@@ -134,14 +134,14 @@ const HybridProcess = () => {
           </span>
         </div>
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start gap-3 py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               02.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               Wireframes
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Structure
             </h3>
             <p
@@ -153,14 +153,14 @@ const HybridProcess = () => {
               blueprint, guiding both design and development teams.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start gap-3 py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               04.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               Coding
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Development
             </h3>
             <p
@@ -175,14 +175,14 @@ const HybridProcess = () => {
               ease.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10 gap-3">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               06.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               Deployment
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Jackpot
             </h3>
             <p
@@ -200,14 +200,14 @@ const HybridProcess = () => {
       </div>
       <div className="w-full my-6 px-2 lg:px-10 h-auto lg:hidden flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start gap-3 py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               01.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               Analysis
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Brainstorming
             </h3>
 
@@ -222,14 +222,14 @@ const HybridProcess = () => {
               contribute to shaping a comprehensive strategy for development.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start gap-3 py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               02.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               Wireframes
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Structure
             </h3>
             <p
@@ -241,14 +241,14 @@ const HybridProcess = () => {
               blueprint, guiding both design and development teams.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start gap-3 py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               03.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               UI Designing
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Aesthetics
             </h3>
             <p
@@ -326,14 +326,14 @@ const HybridProcess = () => {
           </span>
         </div>
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start gap-3 py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               04.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               Coding
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Development
             </h3>
             <p
@@ -348,14 +348,14 @@ const HybridProcess = () => {
               ease.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[2px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start gap-3 py-10">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               Evaluation
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Testing
             </h3>
             <p
@@ -369,13 +369,13 @@ const HybridProcess = () => {
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start py-10 gap-3">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] font-bold leading-[4.5rem]">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               06.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-tight lg:leading-[4.2rem]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
               Deployment
             </h2>
-            <h3 className="  capitalize text-[30px] lg:text-[36px]  font-semibold text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Jackpot
             </h3>
             <p

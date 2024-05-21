@@ -77,7 +77,7 @@ const LandingContactUs = () => {
   };
   return (
     <div
-      className={`w-full xl:w-[100%] my-14 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  flex justify-center items-start  h-auto`}
+      className={`w-full xl:w-[80%] my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  flex justify-center items-start  h-auto`}
     >
       <div
         className={`w-full md:h-[38rem] xl:h-[35rem] grid grid-cols-1 md:grid-cols-2 rounded-3xl ${theme == "light" ? "bg-[#E7E7E7]/[0.24]" : "bg-[#2D2D2D]"

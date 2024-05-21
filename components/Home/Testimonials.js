@@ -44,14 +44,14 @@ export const sliderSettings = {
 const Testimonials = () => {
   const { palette } = useContext(GlobalContext);
   return (
-    <div id="testimonials" className={`w-full py-14 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  `}>
+    <div id="testimonials" className={`w-full py-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  `}>
       <div className={``}>
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
           Testimonials
         </p>
 
         <h1
-          className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-5xl`}
+          className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px]`}
         >
           our clients
         </h1>

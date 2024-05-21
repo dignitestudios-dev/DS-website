@@ -7,12 +7,12 @@ import { chooseus } from "../../constants/whychooseus";
 import { GlobalContext } from "@/context/GlobalContext";
 
 const WhyChooseUsSection = () => {
-  const { palette } = useContext(GlobalContext);
+  const { palette,theme } = useContext(GlobalContext);
   return (
-    <div className={`my-14 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  text-center`}>
+    <div className={`my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  text-center`}>
       <h1
         style={{
-          color: palette?.color,
+          color: theme == "dark" ? "#fff" : "#0c0c0c",
         }}
         className={`uppercase font-extrabold text-4xl lg:text-5xl lg:font-bold mb-2 lg:mb-8`}
       >
