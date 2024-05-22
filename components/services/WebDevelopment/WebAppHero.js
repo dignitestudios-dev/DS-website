@@ -17,7 +17,7 @@ const ServicesHero = () => {
 
 
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-7 gap-y-8 gap-x-5 lg:gap-y-0 justify-start items-start lg:pt-20 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48">
+    <div className="w-full grid grid-cols-1 lg:grid-cols-7 gap-y-8 gap-x-5 lg:gap-y-0 justify-start items-start lg:pt-20 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48">
       <div className='col-span-4 flex flex-col justify-start text-center lg:text-start items-center lg:items-start gap-2'>
 
         <h1

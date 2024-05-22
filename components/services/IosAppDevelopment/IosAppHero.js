@@ -15,7 +15,7 @@ const IosAppHero = () => {
   const images = ['/mobile-hero-mockup-3.png', '/mobile-hero-mockup-4.png']
 
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-6 gap-y-8  lg:gap-y-0 justify-start items-start lg:pt-20 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48 ">
+    <div className="w-full grid grid-cols-1 lg:grid-cols-6 gap-y-8  lg:gap-y-0 justify-start items-start lg:pt-20 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 ">
       <div className='col-span-3 flex flex-col justify-start text-center lg:text-start items-center lg:items-start gap-2'>
 
         <h1

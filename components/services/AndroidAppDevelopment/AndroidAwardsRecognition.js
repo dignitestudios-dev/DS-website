@@ -5,7 +5,7 @@ import React, { useContext } from "react";
 const AndroidAwardsRecognition = () => {
   const { palette } = useContext(GlobalContext);
   return (
-    <div className="px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48  flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 ">
+    <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 ">
       <h1
         style={{
           color: palette?.color,

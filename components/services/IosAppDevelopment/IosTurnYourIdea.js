@@ -14,7 +14,7 @@ const IosTurnYourIdea = () => {
   const images = ['/mobile-turn-idea-1.png', '/mobile-turn-idea-2.png']
 
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-5 justify-start items-start gap-y-8 py-4 lg:py-12 px-4 md:px-12 lg:px-28 xl:px-48 2xl:px-48 ">
+    <div className="w-full grid grid-cols-1 lg:grid-cols-5 justify-start items-start gap-y-8 py-4 lg:py-12 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 ">
       <div className="col-span-5 lg:col-span-3 flex flex-col justify-start items-start gap-y-4">
         <h1
           style={{

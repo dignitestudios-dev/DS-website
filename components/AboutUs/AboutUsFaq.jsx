@@ -13,7 +13,7 @@ const AboutUsFaq = () => {
   return (
     <div
       id="about-us-journey"
-      className="relative w-full h-auto px-4 md:px-12 lg:px-28 xl:px-48  py-6  md:py-14  lg:py-8 flex flex-col justify-start items-start gap-12 "
+      className="relative w-full h-auto px-4 md:px-12 lg:px-28 xl:px-[120px]  py-6  md:py-14  lg:py-8 flex flex-col justify-start items-start gap-12 "
     >
       <div className="w-full h-auto   flex flex-col gap-3 justify-start items-start">
         <div
