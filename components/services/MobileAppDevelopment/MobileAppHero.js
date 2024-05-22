@@ -49,8 +49,7 @@ const MobileAppHero = () => {
           >
             Transform your mobile app development strategy with our customized
             first-class solutions. Our experts will ensure seamless integration,
-            performance, and innovative features to twice your global worth
-            steadily.
+            performance, and innovative features to twice your app's worth.
           </span>
           <div className="w-auto flex gap-4 justify-start items-center">
             <Link
