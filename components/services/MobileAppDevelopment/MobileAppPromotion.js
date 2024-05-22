@@ -12,7 +12,7 @@ const MobileAppPromotion = () => {
     }}
     className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-[72px] text-center xl:leading-[67.84px] lg:font-bold xl:font-semibold tracking-tight uppercase"
   >
-    We developed more than <br/> 500+ projects
+    We developed more than <br/> 150+ projects
   </h1>
   <span
           style={{
@@ -20,7 +20,7 @@ const MobileAppPromotion = () => {
           }}
           className="lg:w-[55%] my-2 lg:my-6 text-center text-[13px] lg:text-[14px] font-normal"
         >
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut libero a arcu faucibus auctor. Cras elementum risus nec elementum tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan sem a vehicula.
+        Being a world-class mobile app development company we aim to produce unblemished mobile apps to skyrocket businesses and large enterprises. At Dignite Studios, the art of beauty holds with a knack of professionals and absolute experts whose illustrations have a diverse mechanism to develop an app.
         </span>
         <div className="w-auto flex gap-4 justify-start items-center">
           <Link href={"/contact-us"}

@@ -26,11 +26,7 @@ const MobileTechnologiesSection = () => {
           }}
           className="text-[16px] lg:my-4  font-normal lg:ml-1 lg:w-[78%]"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
-          libero a arcu faucibus auctor. Cras elementum risus nec elementum
-          tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est
-          dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan
-          sem a vehicula.
+          Harness the latest and upgraded technologies holding extraordinary features to create the next level of business application for your brand.
         </p>
       </div>
       <div className="lg:py-2 grid grid-cols-1 gap-2  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-6 ">

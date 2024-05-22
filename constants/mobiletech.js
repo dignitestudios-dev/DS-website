@@ -4,38 +4,38 @@ export const mobiletech = [
     {
       title: "Flutter",
       description:
-        "We create intuitive, engaging, and visually stunning mobile app experiences that keep users coming back for more. A clear and logical structure for your app ensures smooth navigation and a seamless user journey.",
+        "Flutter helps to transform the entire mobile app development process by generating a single code base to build, test, and deploy attractive applications on the web, desktop, and embedded apps.",
       icon: "/flutter-color.webp",
     },
     {
       title: "Vue",
       description:
-        "We create visually stunning and user-friendly android apps that cater to your unique needs. From concept to deployment, we handle every stage of android app development. Bring your android app vision to life. ",
+        "It emphasizes a declarative component programming model and sets a framework to build effective user interfaces for consumers.  ",
       icon: "/vue-color.webp",
     },
     {
-      title: "React",
+      title: "React Native",
       description:
-        "Our team of skilled developers specializes in creating custom apps for iOS devices. Whether you’re a startup, an established business, or an individual with a brilliant app idea, we’ve got you covered.",
+        "Want to speed up your programs? React Native will fabricate to create the quickest form of the mobile program and build profound driven user interfaces. It also improves the app’s efficiency quicker than you say Jack Robinson. ",
       icon: "/react-color.webp",
   
     },
     {
       title: "Swift",
       description:
-        "We design, build, and maintain web-based applications. Whether you need a custom e-commerce platform, a robust CRM system, or an interactive web portal, our team can turn your vision into reality.",
+        "Swift is a congenital and high-powered programming language for iOS platforms. As per the design perspective, the code is forfend and highly secured to use on software.",
       icon: "/swift-color.webp",
     },
     {
       title: "Figma",
       description:
-        "Get a preliminary version of your mobile or web application. It allows you to visualize and test your app’s functionality, user interface, and user experience before investing in full development.",
+        "Do your screens prevail over dullness? Then Figma is the right tool for you to design highly interactive and fertile designs for your user interface. Therefore, Figma has developed its top-notch worth in the field of software development due to its free access file design for developers. ",
       icon: "/figma-color.webp",
     },
     {
       title: "Tailwind",
       description:
-        " Imagine pouring your heart into building a mobile app, only to discover there's minimal interest or the market is already saturated. That's a harsh reality for many app developers. But what if there was a way to increase your chances of success?",
+        " To make a custom-made app for website and mobile application here is the inclusive front-end framework OF Tailwind that provides you with a set of composable classes that can be directly connected to HTML to build distinctive and peculiar designs",
       icon: "/tailwind-color.webp",
     },
   ];

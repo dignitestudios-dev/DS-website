@@ -22,7 +22,7 @@ const MobileAppWorkflowSection = () => {
             workflow
           </h1>
         </div>
-        <p
+        {/* <p
           style={{
             color: palette?.dark_contrast_color,
           }}
@@ -33,9 +33,9 @@ const MobileAppWorkflowSection = () => {
           tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est
           dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan
           sem a vehicula.
-        </p>
+        </p> */}
       </div>
-      <div className="w-full lg:py-2 grid grid-cols-1 gap-2 xl:gap-0 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 ">
+      <div className="w-full mt-4 lg:py-2 grid grid-cols-1 gap-2 xl:gap-0 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 ">
 
         {workflow?.map((s, key) => {
           return <MobileAppWorkflowCard title={s?.title} key={key} count={key} desc={s.description}/>;

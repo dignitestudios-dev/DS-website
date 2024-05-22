@@ -28,13 +28,13 @@ const MobileAppServiceCard = ({ title, desc, light_icon, dark_icon, count }) => 
       }}
     >
       <div className="w-full flex flex-col gap-2 md:gap-4 justify-start items-start">
-        <Image
+        {/* <Image
           src={hoverImage}
           alt="UIUX"
           className="block text-white"
           width={40}
           height={40}
-        />
+        /> */}
 
         {/* {hover && <span>fjef</span>} */}
         <h1

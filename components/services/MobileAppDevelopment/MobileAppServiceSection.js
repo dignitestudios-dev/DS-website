@@ -3,6 +3,7 @@ import { services } from "@/constants/services";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 import MobileAppServiceCard from "./MobileAppServiceCard";
+import { mobileservices } from "@/constants/mobileservices";
 
 const MobileAppServiceSection = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -21,22 +22,19 @@ const MobileAppServiceSection = () => {
             services
           </h1>
         </div>
-        <p
+        {/* <p
           style={{
             color: palette?.dark_contrast_color,
           }}
           className="text-[16px] lg:my-4  font-normal lg:ml-1 lg:w-[78%]"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
-          libero a arcu faucibus auctor. Cras elementum risus nec elementum
-          tincidunt. Nulla facilisi. Suspendisse lacinia nisi sit amet est
-          dictum, blandit porttitor nulla accumsan. Duis consectetur accumsan
-          sem a vehicula.
-        </p>
+          Leveraging the leading mobile solutions to global recognition for your brand. We aim to catalyze strong and striking mobile app development mechanisms to upheave the functionality of the app in no time.
+
+        </p> */}
       </div>
 
-      <div className="lg:py-2 grid grid-cols-1 gap-2  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-6 ">
-        {services?.map((s, key) => {
+      <div className="lg:py-2 mt-4 grid grid-cols-1 gap-2  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-6 ">
+        {mobileservices?.map((s, key) => {
           return (
             <MobileAppServiceCard
               key={key}
