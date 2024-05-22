@@ -19,7 +19,7 @@ module.exports = {
       'xl': '1440px',
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': '1550px',
+      '2xl': '2000px',
     },
     extend: {
       backgroundImage: {

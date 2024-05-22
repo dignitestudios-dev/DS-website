@@ -35,17 +35,26 @@ body {
   cursor: url("../public/cursor.png"), auto;
   font-display: swap;
 }
-h1::selection, h2::selection,h3::selection,h4::selection,h5::selection,h6::selection,span::selection,div::selection, a::selection, p::selection{
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+span::selection,
+div::selection,
+a::selection,
+p::selection {
   background-color: #f15c20;
   color: white;
-
 }
 
-
-button:hover, a:hover, input:hover{
+button:hover,
+a:hover,
+input:hover {
   cursor: url("../public/cursor-pointer.png"), auto !important;
 }
-.orange:hover{
+.orange:hover {
   cursor: url("../public/cursor-pointer-2.png"), auto !important;
 }
 
@@ -192,16 +201,30 @@ button:hover, a:hover, input:hover{
   content: "";
   position: absolute;
   inset: 0;
-  background: #ff8001;    
+  background: #ff8001;
   box-shadow: 0 0 0 50px;
-  clip-path: polygon(100% 0, 23% 46%, 46% 44%, 15% 69%, 38% 67%, 0 100%, 76% 57%, 53% 58%, 88% 33%, 60% 37%);;
+  clip-path: polygon(
+    100% 0,
+    23% 46%,
+    46% 44%,
+    15% 69%,
+    38% 67%,
+    0 100%,
+    76% 57%,
+    53% 58%,
+    88% 33%,
+    60% 37%
+  );
 }
 .loader:after {
   animation: l8 1s infinite;
-  transform: perspective(300px) translateZ(0px)
+  transform: perspective(300px) translateZ(0px);
 }
 @keyframes l8 {
-  to {transform:perspective(300px) translateZ(180px);opacity:0}
+  to {
+    transform: perspective(300px) translateZ(180px);
+    opacity: 0;
+  }
 }
 
 .about-bg {
@@ -218,16 +241,15 @@ button:hover, a:hover, input:hover{
   0% {
     background-color: #f15c20;
   }
-  
+
   100% {
     background-color: #393939;
   }
 }
 
-
 .typing-demo {
   width: 22ch;
-  animation: typing 500ms steps(22), blink .5s step-end infinite alternate;
+  animation: typing 500ms steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 5px solid;
@@ -235,12 +257,24 @@ button:hover, a:hover, input:hover{
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 }
-    
+
 @keyframes blink {
   50% {
-    border-color: transparent
+    border-color: transparent;
   }
+}
+
+/* Services page backgrounds */
+.bg-mobile {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.52), rgba(6, 6, 6, 0.28)),
+  url('/bg-mobile.png');
+  background-size: cover;
+}
+.bg-mobile-promo {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(6, 6, 6, 0.8)),
+  url('/bg-mobile-promo.png');
+  background-size: cover;
 }

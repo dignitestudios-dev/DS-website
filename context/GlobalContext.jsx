@@ -5,6 +5,8 @@ export const GlobalContext = createContext();
 
 export const GlobalContextProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
 
   const mouseCursor = (text, e) => {
     const cursor = document.querySelector("#cursor");
@@ -86,6 +88,8 @@ export const GlobalContextProvider = ({ children }) => {
         setSuccess,
         subscribeError,
         setSubscribeError,
+        isSidebarOpen,
+        setIsSidebarOpen
       }}
     >
       {children}

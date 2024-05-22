@@ -9,8 +9,7 @@ import Cursor from "@/components/global/Cursor";
 
 const ServicesLayout = ({ page }) => {
   // Sidebar states and ref:
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const { palette } = useContext(GlobalContext);
+  const { palette, isSidebarOpen, setIsSidebarOpen } = useContext(GlobalContext);
   return (
     <div
       className="w-full transition-all duration-700"
@@ -22,7 +21,6 @@ const ServicesLayout = ({ page }) => {
       <Cursor />
       <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
       <div className="overflow-x-hidden w-full h-auto flex flex-col justify-start items-center gap-4">
-        <Navbar setIsOpen={setIsSidebarOpen} />
         {page}
         <Footer />
         <FixedSocials />

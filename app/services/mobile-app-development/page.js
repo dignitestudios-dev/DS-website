@@ -1,10 +1,10 @@
 import MobileAppPage from '@/components/services/MobileAppDevelopment/MobileAppPage'
-import GlobalLayout from '@/layout/GlobalLayout'
+import ServicesLayout from '@/layout/ServiceLayout'
 import React from 'react'
 
 const page = () => {
   return (
-    <GlobalLayout page={<MobileAppPage />} />
+    <ServicesLayout page={<MobileAppPage />} />
   )
 }
 
