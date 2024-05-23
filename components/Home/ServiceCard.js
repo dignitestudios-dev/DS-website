@@ -1,6 +1,7 @@
 'use client'
 
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
 
@@ -39,7 +40,7 @@ const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
     >
       <div className="w-full flex flex-col gap-2 md:gap-4 justify-start items-start">
 
-        <Image src={hoverImage} alt="UIUX" className="block text-white" width={40} height={40} />
+        <Image src={hoverImage} loader={customLoader} alt="UIUX" className="block text-white" width={40} height={40} />
 
         {/* {hover && <span>fjef</span>} */}
         <h1

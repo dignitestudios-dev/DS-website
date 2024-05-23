@@ -6,6 +6,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { BsFillBrightnessHighFill } from "react-icons/bs";
 import { IoMoon } from "react-icons/io5";
 import Image from 'next/image';
+import customLoader from '@/lib/custom-loader';
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
     const sidebarRef = useRef()
@@ -43,7 +44,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <div ref={sidebarRef} className='w-[70%] md:w-1/2 lg:w-1/3  h-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col justify-start items-start py-6 px-10  ' style={{ background: palette?.background }}>
                 <div className="w-full flex gap-3 justify-start items-center">
                     <Link href="/">
-                        <Image alt="logo" width={100} height={64} src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"} className='h-10' />
+                        <Image alt="logo" loader={customLoader} width={100} height={64} src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"} className='h-10' />
                     </Link>
 
 

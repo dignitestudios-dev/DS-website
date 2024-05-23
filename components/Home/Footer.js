@@ -6,10 +6,11 @@ import Link from "next/link";
 import { GoArrowRight } from "react-icons/go";
 import { GlobalContext } from "@/context/GlobalContext";
 import { usePathname, useRouter } from "next/navigation";
-import Image from "next/image";
+import Image  from "next/image";
 import Alert from "../global/Alert";
 import Success from "../global/Success";
 import SubscribeAlert from "../global/SubscribeAlert";
+import customLoader from "@/lib/custom-loader";
 
 const Footer = () => {
   const { palette, theme, setSubscribeError, setSuccess, success, subscribeError } = useContext(GlobalContext);
@@ -148,15 +149,15 @@ const Footer = () => {
         <Link aria-label="button" href={"https://www.trustpilot.com/review/dignitestudios.com"} className="col-span-5 lg:col-span-2 flex flex-col gap-2">
           {theme == "dark" ? (
             <Link aria-label="button" href={"https://www.trustpilot.com/review/dignitestudios.com"}>
-              <Image width={140} height={30} alt="trust-pilot" src="/trust-pilot-white.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+              <Image loader={customLoader} width={140} height={30} alt="trust-pilot" src="/trust-pilot-white.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
             </Link>
           ) : (
             <Link aria-label="button" href={"https://www.trustpilot.com/review/dignitestudios.com"}>
-              <Image width={140} height={30} alt="trust-pilot" src="/trustpilot-logo.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+              <Image loader={customLoader} width={140} height={30} alt="trust-pilot" src="/trustpilot-logo.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
             </Link>
           )}
 
-          <Image width={140} height={30} alt="trust-pilot" src="/footer-stars.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+          <Image loader={customLoader} width={140} height={30} alt="trust-pilot" src="/footer-stars.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
         </Link>
         <div className="col-span-2 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
           <Link href="/" className="hover:text-orange-500">

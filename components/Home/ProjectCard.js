@@ -4,6 +4,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const ProjectCard = ({
   title,
@@ -30,6 +31,7 @@ const ProjectCard = ({
         height={360}
         layout="responsive"
         overrideSrc={image}
+        loader={customLoader}
         src={image}
         alt={title}
         className="w-full hidden md:block rounded-xl md:rounded-3xl  md:h-[220px] lg:h-[340px] xl:h-[360px]  hover:brightness-80 transition-all duration-700"
@@ -41,6 +43,7 @@ const ProjectCard = ({
         layout="responsive"
         overrideSrc={mobile_image}
         priority
+        loader={customLoader}
         src={mobile_image}
         alt={title}
         className="w-full block md:hidden rounded-xl md:rounded-3xl  md:h-[220px] lg:h-[340px] xl:h-[360px]  hover:brightness-80 transition-all duration-700"
@@ -55,6 +58,7 @@ const ProjectCard = ({
             <Image
               width={8}
               height={8}
+              loader={customLoader}
               src={"/case-study-arrow.webp"}
               alt=""
               className="w-2 md:w-4  "
