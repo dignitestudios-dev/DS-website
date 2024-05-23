@@ -273,6 +273,11 @@ input:hover {
   url('/bg-mobile.png');
   background-size: cover;
 }
+.bg-ios {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.52), rgba(6, 6, 6, 0.28)),
+  url('/bg-ios.png');
+  background-size: cover;
+}
 .bg-mobile-promo {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(6, 6, 6, 0.8)),
   url('/bg-mobile-promo.png');

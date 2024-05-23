@@ -1,10 +1,10 @@
 import IosAppPage from '@/components/services/IosAppDevelopment/IosAppPage'
-import GlobalLayout from '@/layout/GlobalLayout'
+import ServicesLayout from '@/layout/ServiceLayout'
 import React from 'react'
 
 const page = () => {
     return (
-        <GlobalLayout page={<IosAppPage />} />
+        <ServicesLayout page={<IosAppPage />} />
     )
 }
 

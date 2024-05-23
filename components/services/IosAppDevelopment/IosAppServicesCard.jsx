@@ -4,7 +4,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
 
-const MobileAppServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
+const IosAppServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
   const { theme, palette, mouseCursor, disableMouseCursor } =
     useContext(GlobalContext);
   const [hoverImage, setHoverImage] = useState(dark_icon);
@@ -60,4 +60,4 @@ const MobileAppServiceCard = ({ title, desc, light_icon, dark_icon, count }) => 
   );
 };
 
-export default MobileAppServiceCard;
+export default IosAppServiceCard;

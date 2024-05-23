@@ -2,10 +2,11 @@
 import { services } from "@/constants/services";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
-import MobileAppServiceCard from "./MobileAppServiceCard";
 import { mobileservices } from "@/constants/mobileservices";
+import IosAppServiceCard from "./IosAppServicesCard";
+import { iosservices } from "@/constants/iosservices";
 
-const MobileAppServiceSection = () => {
+const IosAppServicesSection = () => {
   const { palette, theme } = useContext(GlobalContext);
   return (
     <div
@@ -13,7 +14,7 @@ const MobileAppServiceSection = () => {
     >
       <div className={` flex flex-col gap-2 justify-start items-start `}>
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
-          Our mobile app development
+          Our ios app development
         </p>
         <div className={`w-full px-0 flex justify-between items-center`}>
           <h1
@@ -34,9 +35,9 @@ const MobileAppServiceSection = () => {
       </div>
 
       <div className="lg:py-2 mt-4 grid grid-cols-1 gap-2  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-8 ">
-        {mobileservices?.map((s, key) => {
+        {iosservices?.map((s, key) => {
           return (
-            <MobileAppServiceCard
+            <IosAppServiceCard
               key={key}
               count={key}
               title={s.title}
@@ -51,4 +52,4 @@ const MobileAppServiceSection = () => {
   );
 };
 
-export default MobileAppServiceSection;
+export default IosAppServicesSection;

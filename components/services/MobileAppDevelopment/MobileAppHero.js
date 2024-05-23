@@ -24,7 +24,7 @@ const MobileAppHero = () => {
             style={{
               color: "#fff",
             }}
-            className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-[64px] xl:leading-[67.84px] lg:font-bold xl:font-semibold tracking-tight uppercase"
+            className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-[64px] xl:leading-[67.84px] lg:font-bold xl:font-semibold tracking-tight "
           >
             Unrivaled{" "}
             <span style={{ color: palette?.brandOrange }}>Mobile</span> App
@@ -35,7 +35,7 @@ const MobileAppHero = () => {
             style={{
               color: "#fff",
             }}
-            className="lg:hidden block text-3xl font-extrabold lg:text-5xl lg:font-bold uppercase"
+            className="lg:hidden block text-3xl font-extrabold lg:text-5xl lg:font-bold "
           >
             Unrivaled{" "}
             <span style={{ color: palette?.brandOrange }}>Mobile</span> <br />{" "}
