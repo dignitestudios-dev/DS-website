@@ -34,30 +34,30 @@ const AboutUsSlider = () => {
       data-animated="true"
     >
       <div className="scroller__inner1 w-full  flex justify-start gap-6 items-center   ">
-        <img src="/our-journey.png" className="h-14" />
+        <img src="/our-journey.png" className="h-[80px]" />
 
-        <img src="/our-journey.png" className="h-14" />
+        <img src="/our-journey.png" className="h-[80px]" />
 
-        <img src="/our-journey.png" className="h-14" />
+        <img src="/our-journey.png" className="h-[80px]" />
 
-        <img src="/our-journey.png" className="h-14" />
+        <img src="/our-journey.png" className="h-[80px]" />
 
-        <img src="/our-journey.png" className="h-14" />
+        <img src="/our-journey.png" className="h-[80px]" />
 
-        <img src="/our-journey.png" className="h-14" />
+        <img src="/our-journey.png" className="h-[80px]" />
 
-        <img src="/our-journey.png" className="h-14" />
-        <img src="/our-journey.png" className="h-14" />
-        <img src="/our-journey.png" className="h-14" />
-        <img src="/our-journey.png" className="h-14" />
-        <img src="/our-journey.png" className="h-14" />
+        <img src="/our-journey.png" className="h-[80px]" />
+        <img src="/our-journey.png" className="h-[80px]" />
+        <img src="/our-journey.png" className="h-[80px]" />
+        <img src="/our-journey.png" className="h-[80px]" />
+        <img src="/our-journey.png" className="h-[80px]" />
 
-        <img src="/our-journey.png" className="h-14" />
+        <img src="/our-journey.png" className="h-[80px]" />
 
-        <img src="/our-journey.png" className="h-14" />
-        <img src="/our-journey.png" className="h-14" />
-        <img src="/our-journey.png" className="h-14" />
-        <img src="/our-journey.png" className="h-14" />
+        <img src="/our-journey.png" className="h-[80px]" />
+        <img src="/our-journey.png" className="h-[80px]" />
+        <img src="/our-journey.png" className="h-[80px]" />
+        <img src="/our-journey.png" className="h-[80px]" />
       </div>
     </div>
   );

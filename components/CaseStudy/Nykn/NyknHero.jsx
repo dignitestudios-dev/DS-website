@@ -9,7 +9,7 @@ const NyknHero = () => {
   const { palette } = useContext(GlobalContext);
   return (
     <div
-      className="w-full h-auto flex flex-col gap-4 justify-start items-start py-8 lg:py-16"
+      className="w-full h-auto flex flex-col gap-4 justify-start items-start pt-8 lg:pt-16"
       style={{
         background: palette?.background,
         color: palette?.color,

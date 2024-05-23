@@ -56,7 +56,7 @@ const MaidSimplTechnologies = () => {
       <div className="w-auto flex justify-start items-center gap-2">
         <Link
           href="https://play.google.com/store/apps/details?id=com.maidsimpl.maidsimpl&hl=en&gl=US"
-          className={`mt-2 w-auto h-[60px] border-[1px]  rounded-full px-4 flex items-center justify-center gap-3 ${
+          className={`mt-2 w-auto h-[60px] xl:h-[78px] xl:w-[166px] border-[1px]  rounded-full px-4 flex items-center justify-center gap-3 ${
             theme == "dark"
               ? "border-[1px] border-white text-white"
               : "border-[1px] border-black text-black"
@@ -72,7 +72,7 @@ const MaidSimplTechnologies = () => {
         </Link>
         <Link
           href="https://apps.apple.com/us/app/maidsimpl/id6478665215"
-          className={`mt-2 w-auto h-[60px] border-[1px]  rounded-full px-4 flex items-center justify-center gap-3 ${
+          className={`mt-2 w-auto h-[60px] xl:h-[78px] xl:w-[149px] border-[1px]  rounded-full px-4 flex items-center justify-center gap-3 ${
             theme == "dark"
               ? "border-[1px] border-white text-white"
               : "border-[1px] border-black text-black"
@@ -88,7 +88,7 @@ const MaidSimplTechnologies = () => {
         </Link>
         <Link
           href="https://www.maidsimpl.com/"
-          className={`mt-2 w-auto h-[60px] border-[1px]  rounded-full px-4 flex items-center justify-center gap-3 ${
+          className={`mt-2 w-auto h-[60px] xl:h-[78px] xl:w-[149px] border-[1px]  rounded-full px-4 flex items-center justify-center gap-3 ${
             theme == "dark"
               ? "border-[1px] border-white text-white"
               : "border-[1px] border-black text-black"
@@ -103,7 +103,7 @@ const MaidSimplTechnologies = () => {
         </Link>
         <Link
           href="/contact-us"
-          className={`mt-2 w-auto h-[60px] border-[1px]  rounded-full px-3 flex items-center justify-center gap-3 bg-orange-600 border-orange-600 text-white`}
+          className={`mt-2 w-auto h-[60px] xl:h-[78px] xl:w-[248px] border-[1px]  rounded-full px-3 flex items-center justify-center gap-3 bg-orange-600 border-orange-600 text-white`}
         >
           <span>Launch Your Project</span>
           <HiArrowRight className="text-xl" />

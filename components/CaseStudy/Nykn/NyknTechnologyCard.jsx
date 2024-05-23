@@ -19,7 +19,7 @@ const NyknTechnologyCard = ({ technology }) => {
       }}
       className="w-[50px] h-[50px] flip-vertical-left  rounded-[7px] transition-all duration-300 flex items-center justify-center "
     >
-      <img src={image} className="w-[70%]" />
+      <img src={image} className="w-[80%]" />
     </div>
   );
 };

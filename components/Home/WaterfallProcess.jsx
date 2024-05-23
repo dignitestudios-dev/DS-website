@@ -199,8 +199,8 @@ const WaterfallProcess = () => {
       </div>
       <div className="w-full my-6 px-2 lg:px-10 h-auto lg:hidden flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto   border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
+          <div className="group  w-full h-auto lg:h-auto   border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               01.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
@@ -219,8 +219,8 @@ const WaterfallProcess = () => {
               consultations to establish a concrete project roadmap.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto   border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
+          <div className="group  w-full h-auto lg:h-auto   border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               02.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
@@ -240,7 +240,7 @@ const WaterfallProcess = () => {
               adjustments.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               03.
             </h1>
@@ -325,8 +325,8 @@ const WaterfallProcess = () => {
           </span>
         </div>
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto   border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
+          <div className="group  w-full h-auto lg:h-auto   border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               04.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
@@ -346,7 +346,7 @@ const WaterfallProcess = () => {
               the alpha version before proceeding to beta development.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto   border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
+          <div className="group  w-full h-auto lg:h-auto   border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </h1>
@@ -366,8 +366,8 @@ const WaterfallProcess = () => {
               rectify any remaining bugs or glitches.
             </p>
           </div>
-          <div className="group  w-full h-auto lg:h-auto  flex flex-col justify-center items-start  py-10">
-            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
+          <div className="group  w-full h-auto lg:h-auto  flex flex-col justify-center items-start  pb-3 lg:py-10">
+            <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               06.
             </h1>
             <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">

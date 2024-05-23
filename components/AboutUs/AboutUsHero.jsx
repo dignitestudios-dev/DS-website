@@ -12,7 +12,7 @@ const AboutUsHero = () => {
           style={{
             color: palette?.color,
           }}
-          className=" text-3xl font-extrabold lg:text-5xl lg:font-bold uppercase"
+          className="text-[45px] font-extrabold lg:text-5xl xl:text-[64px] lg:font-bold uppercase"
         >
           about us
         </h1>
@@ -21,7 +21,7 @@ const AboutUsHero = () => {
           style={{
             color: palette?.dark_contrast_color,
           }}
-          className=" my-2 lg:my-6 lg:w-[80%] text-[16px] lg:text-[18px] font-normal"
+          className=" my-2 lg:my-6 lg:w-[80%] text-[16px] lg:text-[18px] font-light"
         >
           Dignite Studios believes in the transformative power of technology to
           shape the future.
@@ -40,7 +40,7 @@ const AboutUsHero = () => {
               background: palette?.brandOrange,
               color: "white",
             }}
-            className="orange w-[150px] lg:w-[171px] h-14 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
+            className="orange w-[150px] lg:w-[151px] h-14 lg:h-[59px] rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
           >
             Get Started
           </Link>

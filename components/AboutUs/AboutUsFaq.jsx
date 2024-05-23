@@ -36,7 +36,7 @@ const AboutUsFaq = () => {
             aria-controls="accordion-collapse-body-1"
           >
             <div
-              className={`w-auto flex justify-start items-center text-lg text-left gap-1 text-inherit`}
+              className={`w-auto flex justify-start items-center text-lg xl:text-[24px] xl:font-semibold text-left gap-1 text-inherit`}
             >
               <span className="font-bold">2020</span>
               <span
@@ -60,7 +60,7 @@ const AboutUsFaq = () => {
             aria-labelledby="accordion-collapse-heading-1"
           >
             <div className=" rounded-md  ">
-              <p className="mb-2 " style={{ color: palette?.color }}>
+              <p className="mb-2 xl:text-[18px] font-light" style={{ color: palette?.color }}>
                 "Every history has a beginning". In 2020, our tale began. We
                 were a group of like-minded people working for various firms
                 when we became aware of something upsetting about how we
@@ -92,7 +92,7 @@ const AboutUsFaq = () => {
             aria-controls="accordion-collapse-body-1"
           >
             <div
-              className={`w-auto flex justify-start items-center text-lg text-left gap-1 text-inherit`}
+              className={`w-auto flex justify-start items-center text-lg xl:text-[24px] xl:font-semibold text-left gap-1 text-inherit`}
             >
               <span className="font-bold">2021</span>
               <span
@@ -116,7 +116,7 @@ const AboutUsFaq = () => {
             aria-labelledby="accordion-collapse-heading-1"
           >
             <div className=" rounded-md  ">
-              <p className="mb-2 " style={{ color: palette?.color }}>
+              <p className="mb-2 xl:text-[18px] font-light" style={{ color: palette?.color }}>
                 Our expertise were shining in the area of Mobile Apps Design &
                 Development, but we felt like something was missing. So we added
                 9 more key players to our team and created a department for
@@ -149,7 +149,7 @@ const AboutUsFaq = () => {
             aria-controls="accordion-collapse-body-1"
           >
             <div
-              className={`w-auto flex justify-start items-center text-lg text-left gap-1 text-inherit`}
+              className={`w-auto flex justify-start items-center text-lg xl:text-[24px] xl:font-semibold text-left gap-1 text-inherit`}
             >
               <span className="font-bold">2022</span>
               <span
@@ -173,7 +173,7 @@ const AboutUsFaq = () => {
             aria-labelledby="accordion-collapse-heading-1"
           >
             <div className=" rounded-md  ">
-              <p className="mb-2 " style={{ color: palette?.color }}>
+              <p className="mb-2 xl:text-[18px] font-light" style={{ color: palette?.color }}>
                 We onboarded a lot of new projects in 2022, from SMEs to well
                 known brands in various industries. Dignite Studios also made it
                 into the "INC 5000 list" and also won multiple awards in the
@@ -207,7 +207,7 @@ const AboutUsFaq = () => {
             aria-controls="accordion-collapse-body-1"
           >
             <div
-              className={`w-auto flex justify-start items-center text-lg text-left gap-1 text-inherit`}
+              className={`w-auto flex justify-start items-center text-lg xl:text-[24px] xl:font-semibold text-left gap-1 text-inherit`}
             >
               <span className="font-bold">2023</span>
               <span
@@ -231,7 +231,7 @@ const AboutUsFaq = () => {
             aria-labelledby="accordion-collapse-heading-1"
           >
             <div className=" rounded-md  ">
-              <p className="mb-2 " style={{ color: palette?.color }}>
+              <p className="mb-2 xl:text-[18px] font-light" style={{ color: palette?.color }}>
                 We achieved remarkable growth, serving diverse clients and
                 earning repeat recognition in the “INC 5000 list”. Throughout
                 our journey, our unwavering focus has remained on innovation,

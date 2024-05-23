@@ -15,7 +15,7 @@ const MobileTechnologiesSection = () => {
         
         <div className={`w-full px-0 flex justify-between items-center`}>
           <h1
-            className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] xl:font-bold`}
+            className={`lg:font-bold uppercase font-extrabold text-3xl lg:text-5xl xl:text-[72px] xl:font-bold`}
           >
             Technologies we're using
           </h1>
@@ -29,7 +29,7 @@ const MobileTechnologiesSection = () => {
           Harness the latest and upgraded technologies holding extraordinary features to create the next level of business application for your brand.
         </p>
       </div>
-      <div className="lg:py-2 grid grid-cols-1 gap-2  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-6 ">
+      <div className="lg:py-2 grid grid-cols-1 gap-6 mt-4 lg:mt-0  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-6 ">
         {mobiletech?.map((s, key) => {
             return(
                 <MobileTechnologyCard title={s.title} icon={s.icon} desc={s.description} key={key} count={key}/>

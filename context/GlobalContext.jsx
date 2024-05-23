@@ -40,7 +40,7 @@ export const GlobalContextProvider = ({ children }) => {
     dark_contrast_background: "#fafafa",
     light_contrast_background: "#e7e7e7",
     color: "#000",
-    dark_contrast_color: "#B4B4B4",
+    dark_contrast_color: "#0c0c0c",
     light_contrast_color: "#8f8f8f",
   });
   const [error, setError] = useState(false);
@@ -67,7 +67,7 @@ export const GlobalContextProvider = ({ children }) => {
         dark_contrast_background: "#fafafa",
         light_contrast_background: "#e7e7e7",
         color: "#000",
-        dark_contrast_color: "#5C5C5C",
+        dark_contrast_color: "#0c0c0c",
         light_contrast_color: "#8f8f8f",
       });
     }

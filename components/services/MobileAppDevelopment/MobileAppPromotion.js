@@ -6,11 +6,11 @@ import Link from 'next/link'
 const MobileAppPromotion = () => {
     const {palette, theme} = useContext(GlobalContext)
   return (
-    <div className='bg-black bg-mobile-promo lg:h-[calc(100vh-5rem)] flex w-full flex-col gap-3 justify-center items-center'><h1
+    <div className='bg-black bg-mobile-promo h-auto py-10 lg:py-0 lg:h-[calc(100vh-5rem)] flex w-full flex-col gap-3 justify-center items-center px-3'><h1
     style={{
       color: "#fff",
     }}
-    className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-[72px] text-center xl:leading-[67.84px] lg:font-bold xl:font-semibold tracking-tight uppercase"
+    className=" text-2xl font-extrabold lg:text-4xl xl:text-[72px] text-center xl:leading-[67.84px] lg:font-bold xl:font-semibold tracking-tight uppercase"
   >
     We developed more than <br/> 150+ projects
   </h1>
