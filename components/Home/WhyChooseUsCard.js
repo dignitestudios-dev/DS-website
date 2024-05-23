@@ -7,7 +7,7 @@ const WhyChooseUsCard = ({ title, description, icon }) => {
   const { palette, theme } = useContext(GlobalContext);
   return (
     <div
-      className="border lg:border-none border-[#F15C20] xl:w-[380px] xl:h-[240px] rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-12 md:py-3"
+      className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-12 md:py-3"
       style={{
         color: palette?.color,
       }}

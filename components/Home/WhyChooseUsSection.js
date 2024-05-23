@@ -14,7 +14,7 @@ const WhyChooseUsSection = () => {
         style={{
           color: theme == "dark" ? "#fff" : "#0c0c0c",
         }}
-        className={`uppercase font-extrabold text-4xl lg:text-5xl lg:font-bold mb-2 lg:mb-8`}
+        className={`uppercase font-extrabold   text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[114px] tracking-tighter lg:font-bold mb-2 lg:mb-8`}
       >
         why choose us
       </h1>

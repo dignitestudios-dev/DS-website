@@ -22,7 +22,7 @@ const Process = () => {
             6 step agile process
           </p>
           <h1
-            className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] xl:font-bold`}
+            className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[114px] tracking-tighter xl:font-bold`}
           >
             our process
           </h1>
