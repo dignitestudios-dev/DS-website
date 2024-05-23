@@ -17,7 +17,7 @@ const MobileTechnologyCard = ({ title, desc, icon, count }) => {
       
      
     >
-      <div className="w-full flex flex-col gap-2 md:gap-4 justify-start items-start">
+      <div className="w-full flex flex-col gap-2  justify-start items-start">
         <Image
           src={icon}
           loader={customLoader}

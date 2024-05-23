@@ -29,7 +29,7 @@ export const mobiletech = [
     {
       title: "Figma",
       description:
-        "Do your screens prevail over dullness? Then Figma is the right tool for you to design highly interactive and fertile designs for your user interface. Therefore, Figma has developed its top-notch worth in the field of software development due to its free access file design for developers. ",
+        "Do your screens prevail over dullness? Then Figma is the right tool for you to design highly interactive and fertile designs for your user interface. Therefore, Figma has developed its top-notch worth in the field of software development due to its free access file. ",
       icon: "/figma-color.webp",
     },
     {

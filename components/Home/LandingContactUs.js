@@ -88,7 +88,7 @@ const LandingContactUs = () => {
             loading="lazy"
             alt="cto"
             src={"/cto.webp"}
-            className="w-full h-[17rem] md:h-[38rem] xl:h-[35rem] object-cover rounded-3xl "
+            className="w-full h-[17rem] md:h-[38rem] xl:h-[35rem] object-cover rounded-l-3xl "
           />
         </div>
         <div className="w-full h-full flex px-8 py-10 flex-col justify-start items-start gap-8 relative">
@@ -112,7 +112,7 @@ const LandingContactUs = () => {
                 className="w-full  outline-none focus h-9 bg-transparent "
                 placeholder="Mike Smith"
                 style={{
-                  borderBottom: `2px solid ${palette?.dark_contrast_color}`,
+                  borderBottom: theme == "dark" ? `2px solid #5c5c5c`: `2px solid #d1d1d1`,
                 }}
               />
             </div>
@@ -132,7 +132,7 @@ const LandingContactUs = () => {
                 className="w-full  outline-none focus h-9 bg-transparent "
                 placeholder="e.g John@gmail.com"
                 style={{
-                  borderBottom: `2px solid ${palette?.dark_contrast_color}`,
+                  borderBottom: theme == "dark" ? `2px solid #5c5c5c`: `2px solid #d1d1d1`,
                 }}
               />
             </div>
@@ -152,7 +152,7 @@ const LandingContactUs = () => {
                 className="w-full  outline-none focus h-9 bg-transparent "
                 placeholder="e.g +1 491 570 156"
                 style={{
-                  borderBottom: `2px solid ${palette?.dark_contrast_color}`,
+                  borderBottom: theme == "dark" ? `2px solid #5c5c5c`: `2px solid #d1d1d1`,
                 }}
               />
             </div>
@@ -170,7 +170,7 @@ const LandingContactUs = () => {
                 className="w-full  outline-none focus h-9 bg-transparent "
                 placeholder="Enter your message here"
                 style={{
-                  borderBottom: `2px solid ${palette?.dark_contrast_color}`,
+                  borderBottom: theme == "dark" ? `2px solid #5c5c5c`: `2px solid #d1d1d1`,
                 }}
               />
             </div>

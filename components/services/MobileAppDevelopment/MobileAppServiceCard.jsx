@@ -19,7 +19,7 @@ const MobileAppServiceCard = ({ title, desc, light_icon, dark_icon, count }) => 
   return (
     <div
       
-      className={`group w-full flex flex-col gap-2 rounded-2xl ${theme == "dark" ? "bg-[#1c1c1c]" : "bg-[#f9f9f9]"} hover:bg-[#F15C20] justify-start items-start p-3 md:py-3 md:px-3 lg:px-8 lg:py-12`}
+      className={`group w-full flex flex-col gap-2 rounded-2xl ${theme == "dark" ? "bg-[#1c1c1c]" : "bg-[#f9f9f9]"} hover:bg-[#F15C20] justify-start items-start h-64 p-3 md:py-3 md:px-3 lg:px-8 lg:py-8`}
       onMouseOver={(e) => {
         setHoverImage(light_icon);
       }}
