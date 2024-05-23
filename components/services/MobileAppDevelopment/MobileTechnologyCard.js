@@ -1,6 +1,7 @@
 'use client'
 
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
 
@@ -19,6 +20,7 @@ const MobileTechnologyCard = ({ title, desc, icon, count }) => {
       <div className="w-full flex flex-col gap-2 md:gap-4 justify-start items-start">
         <Image
           src={icon}
+          loader={customLoader}
           alt="UIUX"
           className="block text-white"
           width={40}
