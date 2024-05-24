@@ -1,6 +1,8 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { GlobalContextProvider } from '@/context/GlobalContext'
+import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import Script from "next/script"
 
 
@@ -46,6 +48,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTVKC35B"
           height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
+          <GoogleTagManager gtmId='GTM-WTVKC35B'/>
+          <GoogleAnalytics gaId='G-0GWJVWYEKD'/>
         <GlobalContextProvider>
 
           {children}
