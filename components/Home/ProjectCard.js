@@ -1,7 +1,7 @@
 "use client";
 
 import { GlobalContext } from "@/context/GlobalContext";
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
@@ -16,27 +16,17 @@ const ProjectCard = ({
 }) => {
   const { palette, mouseCursor, disableMouseCursor, theme } =
     useContext(GlobalContext);
-    const [hoverImage, setHoverImage] = useState(image)
-    const [isHover, setIsHover] = useState(false)
+
+    console.log(image, mobile_image)
     
   return (
     <Link
       href={projectLink}
-      onMouseOver={()=>{
-        setHoverImage(mobile_image);
-        setIsHover(true);
-      }}
-      
-      onMouseOut={() => {
-          setHoverImage(image);
-          setIsHover(false);
-
-      }}
-      className={`group w-full   hover:bg-[#F15C20] transition-all duration-500  py-[28px] px-[20px] flex   items-start gap-2 lg:mb-12 relative ${
+      className={`group w-full   hover:bg-[#F15C20] transition-all duration-500  py-[28px] px-[20px] flex justify-start  items-start gap-2 lg:mb-12 relative ${
         theme == "dark" ? "bg-[#1c1c1c]" : "bg-[#f9f9f9]"
       } rounded-[32px] `}
     >
-     
+  
 
       <div className="w-[65%] h-full flex flex-col justify-start gap-6 my-1 items-start md:px-2">
         <div className="w-full flex justify-start gap-2 items-center pr-1">
@@ -60,13 +50,14 @@ const ProjectCard = ({
           </Link>
         </div>
       </div>
-      <div className="w-[35%]  h-full flex  justify-center lg:justify-start items-start relative ">
-        <img
+  
+      <div className={`w-[35%] transition-all duration-300 ${image} bg-contain bg-no-repeat flex  justify-center h-[250px] md:w-[194px] md:h-[355px] md:absolute -top-16 right-0 group-hover:top-10 group-hover:right-4 group-hover:scale-[1.7] lg:justify-start items-start relative `}>
+        {/* <img
           layout="responsive"
-          src={hoverImage}
+          src={image}
           alt={title}
-          className={`${isHover ? "group-hover:w-auto group-hover:h-auto group-hover:scale-150 group-hover:md:absolute group-hover:-top-4 group-hover:right-0" : "h-[250px] md:w-[194px] md:h-[355px] md:absolute -top-24 right-0"}  hover:brightness-80 transition-all duration-500 `}
-        />
+          className={`group-hover:w-auto group-hover:h-auto  group-hover:md:absolute    hover:brightness-80 transition-all duration-500 `}
+        /> */}
       </div>
 
       

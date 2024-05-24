@@ -283,3 +283,17 @@ input:hover {
   url('/bg-mobile-promo.png');
   background-size: cover;
 }
+
+
+.card-new-1 {
+  @apply bg-img11 group-hover:bg-img12
+}
+.card-new-2 {
+  @apply bg-img21 group-hover:bg-img22
+}
+.card-new-3 {
+  @apply bg-img31 group-hover:bg-img32
+}
+.card-new-4 {
+  @apply bg-img41 group-hover:bg-img42
+}
