@@ -15,7 +15,7 @@ const AndroidAppServicesSection = () => {
     >
       <div className={` flex flex-col gap-2 justify-start items-start `}>
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
-          Our ios app development
+          Our android app development
         </p>
         <div className={`w-full px-0 flex justify-between items-center`}>
           <h1
