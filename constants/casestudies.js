@@ -7,6 +7,10 @@ export const casestudies = [
     mobile_image: "group-hover:bg-img12",
     projectLink: "/case-studies/maidsimpl",
     logo: "/maidsimpl-logo.png",
+    webLink: "https://www.maidsimpl.com/",
+    googleLink:
+      "https://play.google.com/store/apps/details?id=com.maidsimpl.maidsimpl&hl=en&gl=US",
+    appLink: "https://apps.apple.com/us/app/maidsimpl/id6478665215",
   },
   {
     title: "NYKN",
@@ -16,6 +20,9 @@ export const casestudies = [
     mobile_image: "group-hover:bg-img22",
     projectLink: "/case-studies/nykn",
     logo: "/nykn-logo-new.png",
+    webLink: "https://www.nowyouknownashville.com/",
+    googleLink: null,
+    appLink: null,
   },
   {
     title: "My Medical Journal",
@@ -25,14 +32,22 @@ export const casestudies = [
     mobile_image: "group-hover:bg-img32",
     projectLink: "/case-studies/mymedicaljournal",
     logo: "/mmj-logo.png",
+    webLink: "https://www.mymedicaljournal.app/",
+    googleLink:
+      "https://play.google.com/store/apps/details?id=com.dignitestudios.mymedicaljournal",
+    appLink:
+      "https://apps.apple.com/us/app/my-medical-journal-app/id6502008545",
   },
   {
     title: "Carter Boating",
     description:
       "List, rent, and sail with confidence. Our user-friendly platform ensures seamless transactions and secure payments, making boat rental hassle-free.",
-    image:"card-new-3",
+    image: "card-new-3",
     mobile_image: "group-hover:bg-img42",
     projectLink: "/case-studies/carter-boating",
     logo: "/carter-logo.png",
+    webLink: "https://www.carterboating.com/",
+    googleLink: null,
+    appLink: null,
   },
 ];

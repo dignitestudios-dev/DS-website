@@ -46,6 +46,9 @@ const CaseStudiesSection = () => {
               mobile_image={c.mobile_image}
               projectLink={c.projectLink}
               logo={c.logo}
+              webLink={c.webLink}
+              appLink={c.appLink}
+              googleLink={c.googleLink}
             />
           );
         })}
