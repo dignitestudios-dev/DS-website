@@ -87,7 +87,7 @@ const Hero = () => {
         >
           Schedule a meeting
         </Link>
-        <Link
+        <a
           href={"tel:+18777141770"}
           name="call-us"
           style={{
@@ -98,7 +98,7 @@ const Hero = () => {
         >
           <BsFillTelephoneFill />
           <span>+1 877 714 1770</span>
-        </Link>
+        </a>
       </div>
     </div>
   );

@@ -100,7 +100,7 @@ const Footer = () => {
             +1 877 714 1770
           </span>
 
-          <Link
+          <a
             href="tel:+18777141770"
             name="call-now-btn"
             style={{
@@ -111,7 +111,7 @@ const Footer = () => {
           >
             <BsFillTelephoneFill />
             <span>Call Now</span>
-          </Link>
+          </a>
         </div>
         <div className="w-full lg:w[50%] flex justify-end">
           <form id="subscribe" onSubmit={handleSubmit} className=" h-auto w-full lg:w-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
@@ -203,13 +203,13 @@ const Footer = () => {
         >
           © 2024 dignite studios
         </span>
-        <Link
+        <a
           href="mailto:info@dignitestudios.com"
           className="text-xs lg:text-base font-normal"
           style={{ color: palette?.light_contrast_color }}
         >
           info@dignitestudios.com
-        </Link>
+        </a>
       </div>
     </div>
   );

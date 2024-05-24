@@ -1,24 +1,34 @@
 import React from "react";
 import ServicesHero from "./AndroidAppHero";
 import CaseStudiesSection from "../../Home/CaseStudiesSection";
-import ServicesSection from "../../Home/ServicesSection";
 import Technologies from "../../Home/Technologies";
 import LandingContactUs from "../../Home/LandingContactUs";
 import Testimonials from "../../Home/Testimonials";
 import AndroidAwardsRecognition from "./AndroidAwardsRecognition";
 import AndroidTurnYourIdea from "./AndroidTurnYourIdea";
+import AndroidTechnologiesSection from "./AndroidTechnologiesSection";
+import AndroidAppServicesSection from "./AndroidAppServicesSection";
+import AndroidAppPromotion from "./AndroidAppPromotion";
+import WhyChooseUsSection from "@/components/Home/WhyChooseUsSection";
+import IndustriesSection from "@/components/Home/IndustriesSection";
+import AndroidAppWorkflowSection from "./AndroidAppWorkflowSection";
 
 const AndroidAppPage = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <ServicesHero />
       <AndroidAwardsRecognition />
-      <ServicesSection />
+      <AndroidTechnologiesSection />
       <AndroidTurnYourIdea />
-      <Technologies />
+      <AndroidAppServicesSection />
+      <AndroidAppWorkflowSection />
+      <AndroidAppPromotion />
+      <WhyChooseUsSection />
+      <IndustriesSection />
+
       <CaseStudiesSection />
-      <LandingContactUs />
       <Testimonials />
+      <LandingContactUs />
       {/* <div className="">
       </div> */}
     </div>

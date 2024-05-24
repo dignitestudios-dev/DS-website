@@ -1,11 +1,11 @@
 "use client"
 import { GlobalContext } from '@/context/GlobalContext'
 import React, { useContext } from 'react'
-import IosAppTechnologyCard from './IosAppTechnologyCard'
 import { iostech } from '@/constants/iostech'
-import { mobiletech } from '@/constants/mobiletech'
+import AndroidTechnologiesCard from './AndroidTechnologiesCard'
+import { androidtech } from '@/constants/androidtech'
 
-const IosAppTechnologiesSection = () => {
+const AndroidTechnologiesSection = () => {
     const {palette, theme} = useContext(GlobalContext)
   return (
     <div
@@ -30,9 +30,9 @@ const IosAppTechnologiesSection = () => {
         </p>
       </div>
       <div className="lg:py-2 grid grid-cols-1 gap-6 mt-4 lg:mt-0  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-6 ">
-        {iostech?.map((s, key) => {
+        {androidtech?.map((s, key) => {
             return(
-                <IosAppTechnologyCard title={s.title} icon={s.icon} desc={s.description} key={key} count={key}/>
+                <AndroidTechnologiesCard title={s.title} icon={s.icon} desc={s.description} key={key} count={key}/>
             )
         })}
         </div>
@@ -40,4 +40,4 @@ const IosAppTechnologiesSection = () => {
   )
 }
 
-export default IosAppTechnologiesSection
+export default AndroidTechnologiesSection

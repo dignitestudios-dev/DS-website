@@ -5,7 +5,7 @@ import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
 
-const MobileTechnologyCard = ({ title, desc, icon, count }) => {
+const AndroidTechnologiesCard = ({ title, desc, icon, count }) => {
   const { theme, palette, mouseCursor, disableMouseCursor } =
     useContext(GlobalContext);
 
@@ -48,4 +48,4 @@ const MobileTechnologyCard = ({ title, desc, icon, count }) => {
   );
 };
 
-export default MobileTechnologyCard;
+export default AndroidTechnologiesCard;

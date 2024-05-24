@@ -18,13 +18,10 @@ const IosAppTechnologyCard = ({ title, desc, icon, count }) => {
      
     >
       <div className="w-full flex flex-col gap-2  justify-start items-start">
-        <Image
+        <img
           src={icon}
-          loader={customLoader}
           alt="UIUX"
           className="block text-white"
-          width={40}
-          height={40}
         />
 
         {/* {hover && <span>fjef</span>} */}
