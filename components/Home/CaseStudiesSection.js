@@ -14,9 +14,11 @@ const CaseStudiesSection = () => {
     <div
       id="case-studies"
       className={` w-full py-10  px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48  `}
-      style={{ background: palette?.dark_contrast_background }}
+      style={{ background: palette?.background }}
     >
-      <div className={`  `}>
+      <div className={`  `}  style={{
+          borderBottom: `2px solid ${palette?.light_contrast_background}`,
+        }}>
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>recent</p>
         <div className={`w-full px-0 flex justify-between items-center`}>
           <h1
@@ -31,10 +33,8 @@ const CaseStudiesSection = () => {
       </div>
 
       <div
-        style={{
-          borderTop: `2px solid ${palette?.light_contrast_background}`,
-        }}
-        className={`w-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-0 md:gap-x-20 mt-4 lg:mt-12 `}
+       
+        className={`w-full  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2  md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-6 md:gap-x-6 gap-y-20 mt-24 lg:mt-24 `}
       >
         {casestudies.map((c, index) => {
           return (
@@ -45,6 +45,7 @@ const CaseStudiesSection = () => {
               image={c.image}
               mobile_image={c.mobile_image}
               projectLink={c.projectLink}
+              logo={c.logo}
             />
           );
         })}
