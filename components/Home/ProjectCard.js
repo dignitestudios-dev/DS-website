@@ -57,17 +57,10 @@ const ProjectCard = ({
           {webLink && (
             <Link
               href={webLink}
-              className={` w-auto h-[38px] px-4 text-sm   rounded-[10px]  flex items-center justify-center gap-2 ${
-                theme == "dark"
-                  ? "bg-[#f9f9f9] text-black"
-                  : "bg-[#151515] text-white"
-              }  `}
+              className={` w-auto h-[38px] px-4 text-sm   rounded-[10px]  flex items-center justify-center gap-2 bg-[#151515] text-white
+               `}
             >
-              {theme == "dark" ? (
-                <img src="/website_icon.svg" alt="Google play icon" />
-              ) : (
-                <img src="/website_icon_white.svg" alt="Google play icon" />
-              )}
+                <img src="/website_icon_white.svg" className="w-4" alt="Google play icon" />
               <span>Website</span>
             </Link>
           )}
