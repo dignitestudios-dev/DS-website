@@ -82,7 +82,7 @@ const HybridProcess = () => {
             className=" h-full  flex flex-col justify-start items-center"
           >
             <motion.span
-              variants={bgVariant("#B4B4B4", "black", "tween", 0.4, 5)}
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
               viewport={{ once: false, amount: 0.25 }}
               className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
@@ -101,7 +101,7 @@ const HybridProcess = () => {
               style={{ background: palette?.color }}
             ></motion.span>
             <motion.span
-              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
               viewport={{ once: false, amount: 0.25 }}
               className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
@@ -122,12 +122,12 @@ const HybridProcess = () => {
             className=" h-full  flex flex-col justify-start items-center"
           >
             <motion.span
-              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
               viewport={{ once: false, amount: 0.25 }}
               className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"
             ></motion.span>
             <motion.span
-              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
               viewport={{ once: false, amount: 0.25 }}
               className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
@@ -148,12 +148,12 @@ const HybridProcess = () => {
             className=" h-full  flex flex-col justify-start items-center"
           >
             <motion.span
-              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
               viewport={{ once: false, amount: 0.25 }}
               className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"
             ></motion.span>
             <motion.span
-              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
               viewport={{ once: false, amount: 0.25 }}
               className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
@@ -174,12 +174,12 @@ const HybridProcess = () => {
             className=" h-full  flex flex-col justify-start items-center"
           >
             <motion.span
-              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
               viewport={{ once: false, amount: 0.25 }}
               className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"
             ></motion.span>
             <motion.span
-              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
               viewport={{ once: false, amount: 0.25 }}
               className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
@@ -200,12 +200,12 @@ const HybridProcess = () => {
             className=" h-full  flex flex-col justify-start items-center"
           >
             <motion.span
-              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
               viewport={{ once: false, amount: 0.25 }}
               className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"
             ></motion.span>
             <motion.span
-              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
               viewport={{ once: false, amount: 0.25 }}
               className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
