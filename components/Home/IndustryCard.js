@@ -16,7 +16,7 @@ const IndustryCard = ({ industry }) => {
       </h5>
       <p
         className="font-normal text-sm "
-        style={{ color: palette?.dark_contrast_color }}
+        style={{ color: "#8f8f8f" }}
       >
         {industry?.description}
       </p>

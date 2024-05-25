@@ -5,6 +5,8 @@ export const casestudies = [
       "Users experience unparalleled convenience with MaidSimpl. From booking to monitoring, streamline your house cleaning tasks with precision and ease.",
     image: "card-new-2",
     mobile_image: "group-hover:bg-img12",
+    normalImage: "/nykn-case-1.png",
+
     projectLink: "/case-studies/maidsimpl",
     logo: "/maidsimpl-logo.png",
     webLink: "https://www.maidsimpl.com/",
@@ -18,6 +20,8 @@ export const casestudies = [
       "Embark on a journey like never before with our immersive travel guide to Nashville. From iconic landmarks to hidden gems, explore the heart of the city with just a click.",
     image: "card-new-1",
     mobile_image: "group-hover:bg-img22",
+    normalImage: "/nykn-case-1.png",
+
     projectLink: "/case-studies/nykn",
     logo: "/nykn-logo-new.png",
     webLink: "https://www.nowyouknownashville.com/",
@@ -30,6 +34,7 @@ export const casestudies = [
       "Unlock a new era of health management with this innovative anatomy visualization tool. Effortlessly navigate, interact, and track symptoms for optimal well-being.",
     image: "card-new-4",
     mobile_image: "group-hover:bg-img32",
+    normalImage: "/nykn-case-1.png",
     projectLink: "/case-studies/mymedicaljournal",
     logo: "/mmj-logo.png",
     webLink: "https://www.mymedicaljournal.app/",
@@ -44,6 +49,8 @@ export const casestudies = [
       "List, rent, and sail with confidence. Our user-friendly platform ensures seamless transactions and secure payments, making boat rental hassle-free.",
     image: "card-new-3",
     mobile_image: "group-hover:bg-img42",
+    normalImage: "/nykn-case-1.png",
+
     projectLink: "/case-studies/carter-boating",
     logo: "/carter-logo.png",
     webLink: "https://www.carterboating.com/",

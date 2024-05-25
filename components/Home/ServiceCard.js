@@ -53,8 +53,8 @@ const ServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
         </h1>
         <p
           className={`text-sm  leading-[18.83px] ${theme == "dark"
-            ? "text-gray-400 group-hover:text-gray-200"
-            : "text-black group-hover:text-gray-200"
+            ? "text-gray-200 group-hover:text-gray-200"
+            : "text-[#8f8f8f] group-hover:text-gray-200"
             }`}
         >
           {desc}
