@@ -34,7 +34,7 @@ const CaseStudiesSection = () => {
 
       <div
        
-        className={`w-full  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2  md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-6 md:gap-x-6 gap-y-20 mt-24 lg:mt-24 `}
+        className={`w-full  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2  md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-6 md:gap-x-6 md:gap-y-20 md:mt-24 lg:mt-24 `}
       >
         {casestudies.map((c, index) => {
           return (

@@ -25,11 +25,11 @@ const ProjectCard = ({
   return (
     <Link
       href={projectLink}
-      className={`group w-full h-[326px]  hover:bg-[#F15C20] transition-all duration-500  py-[28px] px-[20px] flex justify-start  items-start gap-2 lg:mb-12 relative ${
+      className={`group w-full md:h-[326px]  hover:bg-[#F15C20] transition-all duration-500  py-[28px] px-[20px] flex flex-col-reverse md:flex-row justify-start  items-start gap-2 lg:mb-12 relative ${
         theme == "dark" ? "bg-[#1c1c1c]" : "bg-[#f9f9f9]"
       } rounded-[32px] `}
     >
-      <div className="w-[65%] h-full flex flex-col justify-start gap-6 my-1 items-start md:px-2">
+      <div className="w-full md:w-[65%] h-full flex flex-col justify-start gap-6 my-1 items-start md:px-2">
         <div className="w-full flex justify-start gap-2 items-center pr-1">
           <img src={logo} alt="app-logo" />
           <h3 className="text-xl lg:text-2xl xl:text-[22px] font-semibold group-hover:text-white">
@@ -68,7 +68,7 @@ const ProjectCard = ({
       </div>
 
       <div
-        className={`w-[35%] transition-all duration-300 ${image} bg-contain bg-no-repeat flex  justify-center h-[250px] md:w-[194px] md:h-[355px] md:absolute -top-16 right-0 group-hover:top-10 group-hover:right-4 group-hover:scale-[1.7] lg:justify-start items-start relative `}
+        className={`w-full hidden md:block md:w-[35%] transition-all duration-300 ${image} bg-contain bg-no-repeat flex  justify-center  md:w-[194px] md:h-[355px] static md:absolute  md:-top-16 right-0 group-hover:top-10 group-hover:right-4 group-hover:scale-[1.7] lg:justify-start items-start  `}
       >
         {/* <img
           layout="responsive"
@@ -77,6 +77,7 @@ const ProjectCard = ({
           className={`group-hover:w-auto group-hover:h-auto  group-hover:md:absolute    hover:brightness-80 transition-all duration-500 `}
         /> */}
       </div>
+
     </Link>
   );
 };
