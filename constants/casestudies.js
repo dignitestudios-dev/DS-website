@@ -5,7 +5,7 @@ export const casestudies = [
       "Users experience unparalleled convenience with MaidSimpl. From booking to monitoring, streamline your house cleaning tasks with precision and ease.",
     image: "card-new-2",
     mobile_image: "group-hover:bg-img12",
-    normalImage: "/nykn-case-1.png",
+    normalImage: "/maidsimpl-case-1.png",
 
     projectLink: "/case-studies/maidsimpl",
     logo: "/maidsimpl-logo.png",
@@ -34,7 +34,7 @@ export const casestudies = [
       "Unlock a new era of health management with this innovative anatomy visualization tool. Effortlessly navigate, interact, and track symptoms for optimal well-being.",
     image: "card-new-4",
     mobile_image: "group-hover:bg-img32",
-    normalImage: "/nykn-case-1.png",
+    normalImage: "/mmj-case-1.png",
     projectLink: "/case-studies/mymedicaljournal",
     logo: "/mmj-logo.png",
     webLink: "https://www.mymedicaljournal.app/",
@@ -49,7 +49,7 @@ export const casestudies = [
       "List, rent, and sail with confidence. Our user-friendly platform ensures seamless transactions and secure payments, making boat rental hassle-free.",
     image: "card-new-3",
     mobile_image: "group-hover:bg-img42",
-    normalImage: "/nykn-case-1.png",
+    normalImage: "/carter-case-1.png",
 
     projectLink: "/case-studies/carter-boating",
     logo: "/carter-logo.png",
