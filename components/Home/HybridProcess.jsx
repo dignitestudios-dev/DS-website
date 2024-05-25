@@ -1,6 +1,8 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
+import {motion} from "framer-motion"
+import { staggerContainer, bgVariant } from "@/lib/motion";
 
 const HybridProcess = () => {
   const { palette } = useContext(GlobalContext);
@@ -72,66 +74,150 @@ const HybridProcess = () => {
           </div>
         </div>
         <div className="hidden lg:grid w-auto h-[80rem]   grid-rows-5 grid-cols-1 justify-center items-start">
-          <span className=" h-full  flex flex-col justify-start items-center">
-            <span
+          <motion.span
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25 }}
+            className=" h-full  flex flex-col justify-start items-center"
+          >
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.4, 5)}
+              viewport={{ once: false, amount: 0.25 }}
               className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
             >
-              <span
+              <motion.span
+                variants={bgVariant("#fff", "#fff", "tween", 0, 5)}
+                viewport={{ once: false, amount: 0.25 }}
                 className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
-              ></span>
-            </span>
-            <span
+              ></motion.span>
+            </motion.span>
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.5, 5)}
+              viewport={{ once: false, amount: 0.25 }}
               className="h-[calc(100%-64px)] w-[2px] "
               style={{ background: palette?.color }}
-            ></span>
-            <span
+            ></motion.span>
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              viewport={{ once: false, amount: 0.25 }}
               className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
               style={{ background: palette?.color }}
             >
-              <span
+              <motion.span
+                variants={bgVariant("#fff", "#fff", "tween", 0, 5)}
+                viewport={{ once: false, amount: 0.25 }}
                 className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
-              ></span>
-            </span>
-          </span>
-          <span className=" h-full  flex flex-col justify-start items-center">
-            <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
-              <span
+              ></motion.span>
+            </motion.span>
+          </motion.span>
+          <motion.span
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25 }}
+            className=" h-full  flex flex-col justify-start items-center"
+          >
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              viewport={{ once: false, amount: 0.25 }}
+              className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"
+            ></motion.span>
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              viewport={{ once: false, amount: 0.25 }}
+              className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
+              style={{ background: palette?.color }}
+            >
+              <motion.span
+                variants={bgVariant("#fff", "#fff", "tween", 0, 5)}
+                viewport={{ once: false, amount: 0.25 }}
                 className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
-              ></span>
-            </span>
-          </span>
-          <span className=" h-full  flex flex-col justify-start items-center">
-            <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
-              <span
+              ></motion.span>
+            </motion.span>
+          </motion.span>
+          <motion.span
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25 }}
+            className=" h-full  flex flex-col justify-start items-center"
+          >
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              viewport={{ once: false, amount: 0.25 }}
+              className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"
+            ></motion.span>
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              viewport={{ once: false, amount: 0.25 }}
+              className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
+              style={{ background: palette?.color }}
+            >
+              <motion.span
+                variants={bgVariant("#fff", "#fff", "tween", 0, 5)}
+                viewport={{ once: false, amount: 0.25 }}
                 className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
-              ></span>
-            </span>
-          </span>
-          <span className=" h-full  flex flex-col justify-start items-center">
-            <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
-              <span
+              ></motion.span>
+            </motion.span>
+          </motion.span>
+          <motion.span
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25 }}
+            className=" h-full  flex flex-col justify-start items-center"
+          >
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              viewport={{ once: false, amount: 0.25 }}
+              className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"
+            ></motion.span>
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              viewport={{ once: false, amount: 0.25 }}
+              className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
+              style={{ background: palette?.color }}
+            >
+              <motion.span
+                variants={bgVariant("#fff", "#fff", "tween", 0, 5)}
+                viewport={{ once: false, amount: 0.25 }}
                 className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
-              ></span>
-            </span>
-          </span>
-          <span className=" h-full  flex flex-col justify-start items-center">
-            <span className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"></span>
-            <span className=" w-[32px] h-[32px] rounded-full bg-[#b4b4b4]/[0.5]  flex items-center justify-center">
-              <span
+              ></motion.span>
+            </motion.span>
+          </motion.span>
+          <motion.span
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25 }}
+            className=" h-full  flex flex-col justify-start items-center"
+          >
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              viewport={{ once: false, amount: 0.25 }}
+              className="h-[calc(100%-1.5rem)] w-[2px] bg-[#b4b4b4]/[0.5]"
+            ></motion.span>
+            <motion.span
+              variants={bgVariant("#B4B4B4", "black", "tween", 0.6, 5)}
+              viewport={{ once: false, amount: 0.25 }}
+              className=" w-[32px] h-[32px] rounded-full   flex items-center justify-center"
+              style={{ background: palette?.color }}
+            >
+              <motion.span
+                variants={bgVariant("#fff", "#fff", "tween", 0, 5)}
+                viewport={{ once: false, amount: 0.25 }}
                 className="w-2 h-2 rounded-full "
                 style={{ background: palette?.background }}
-              ></span>
-            </span>
-          </span>
+              ></motion.span>
+            </motion.span>
+          </motion.span>
         </div>
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
