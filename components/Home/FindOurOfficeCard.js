@@ -1,11 +1,13 @@
-'use client'
+"use client";
 
+import Link from "next/link";
 import React, { useState } from "react";
 
 const FindOurOfficeCard = ({ office }) => {
   const [image, setImage] = useState(office?.image);
   return (
-    <div
+    <Link
+      href={office?.link}
       onMouseOver={() => setImage(office?.full_image)}
       onMouseOut={() => setImage(office?.image)}
       className="relative group"
@@ -22,7 +24,7 @@ const FindOurOfficeCard = ({ office }) => {
           {office?.description}
         </p>
       </span>
-    </div>
+    </Link>
   );
 };
 
