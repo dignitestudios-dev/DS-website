@@ -21,7 +21,6 @@ const ProjectCard = ({
   const { palette, mouseCursor, disableMouseCursor, theme } =
     useContext(GlobalContext);
 
-
   return (
     <Link
       href={projectLink}
@@ -30,11 +29,15 @@ const ProjectCard = ({
       } rounded-[32px] `}
     >
       <div className="w-full h-[0px] flex lg:hidden justify-center items-start relative ">
-        <img src={normalImage} className="absolute -top-12 right-0 h-[200px]"/>
+        <img src={normalImage} className="absolute -top-12 right-0 h-[200px]" />
       </div>
       <div className="w-full lg:w-[65%] h-full flex flex-col justify-start relative gap-6 my-1 items-start md:px-2">
         <div className="w-full flex justify-start gap-2 items-center pr-1">
-          <img src={logo} alt="app-logo" className="w-[32px] h-[32px] lg:w-[45px] xl:w-[65px] lg:h-[45px] xl:h-[65px]"/>
+          <img
+            src={logo}
+            alt="app-logo"
+            className="w-[32px] h-[32px] lg:w-[45px] xl:w-[65px] lg:h-[45px] xl:h-[65px]"
+          />
           <h3 className="text-lg md:text-sm lg:text-2xl xl:text-[22px] font-semibold group-hover:text-white">
             {title}
           </h3>
@@ -63,7 +66,11 @@ const ProjectCard = ({
               className={` w-auto h-[36px] px-4 text-sm   rounded-[10px]  flex items-center justify-center gap-2 bg-[#151515] text-white
                `}
             >
-                <img src="/website_icon_white.svg" className="w-4" alt="Google play icon" />
+              <img
+                src="/website_icon_white.svg"
+                className="w-4"
+                alt="Google play icon"
+              />
               <span>Website</span>
             </Link>
           )}
@@ -71,7 +78,7 @@ const ProjectCard = ({
       </div>
 
       <div
-        className={`w-full hidden lg:block lg:w-[35%] transition-all duration-300 ${image} bg-contain bg-no-repeat flex  justify-center  md:w-[194px] md:h-[355px] static md:absolute  md:-top-16 right-0 group-hover:top-10 group-hover:right-4 group-hover:scale-[1.5] lg:justify-start items-start  `}
+        className={`w-full hidden lg:block lg:w-[35%] transition-all duration-300 ${image} bg-contain bg-no-repeat flex  justify-center  md:w-[194px] md:h-[355px] static md:absolute  md:-top-16 right-0 group-hover:top-10 2xl:group-hover:top-2 group-hover:right-4 group-hover:scale-[1.5] 2xl:group-hover:scale-[1.4] lg:justify-start items-start  `}
       >
         {/* <img
           layout="responsive"
@@ -80,7 +87,6 @@ const ProjectCard = ({
           className={`group-hover:w-auto group-hover:h-auto  group-hover:md:absolute    hover:brightness-80 transition-all duration-500 `}
         /> */}
       </div>
-
     </Link>
   );
 };

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useContext } from "react";
 import { styles } from "../../styles/styles";
@@ -16,9 +16,12 @@ const CaseStudiesSection = () => {
       className={` w-full py-10  px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48  `}
       style={{ background: palette?.background }}
     >
-      <div className={`  `}  style={{
+      <div
+        className={`  `}
+        style={{
           borderBottom: `2px solid ${palette?.light_contrast_background}`,
-        }}>
+        }}
+      >
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>recent</p>
         <div className={`w-full px-0 flex justify-between items-center`}>
           <h1
@@ -33,8 +36,7 @@ const CaseStudiesSection = () => {
       </div>
 
       <div
-       
-        className={`w-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-6 md:gap-x-4 lg:gap-x-6 gap-y-10 lg:gap-y-20 mt-10 lg:mt-24 `}
+        className={`w-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-6 md:gap-x-4 lg:gap-x-6 xl:gap-x-10 2xl:gap-x-16 gap-y-10 lg:gap-y-20 mt-10 lg:mt-24 `}
       >
         {casestudies.map((c, index) => {
           return (

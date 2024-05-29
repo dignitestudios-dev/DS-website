@@ -26,15 +26,14 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        'img11': "url('/nykn-case-1.png')",
-        'img12': "url('/nykn-case-2.png')",
-        'img21': "url('/maidsimpl-case-1.png')",
-        'img22': "url('/maidsimpl-case-2.png')",
-        'img31': "url('/carter-case-1.png')",
-        'img32': "url('/carter-case-2.png')",
-        'img41': "url('/mmj-case-1.png')",
-        'img42': "url('/mmj-case-2.png')"
-
+        img11: "url('/nykn-case-1.png')",
+        img12: "url('/nykn-case-2.png')",
+        img21: "url('/maidsimpl-case-1.png')",
+        img22: "url('/maidsimpl-case-2.png')",
+        img31: "url('/carter-case-1.png')",
+        img32: "url('/carter-case-2.png')",
+        img41: "url('/mmj-case-1.png')",
+        img42: "url('/mmj-case-2.png')",
       },
     },
   },
