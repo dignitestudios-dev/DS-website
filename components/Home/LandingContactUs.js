@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useContext, useEffect, useState } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
@@ -7,16 +7,16 @@ import Alert from "../global/Alert";
 import Success from "../global/Success";
 
 const LandingContactUs = () => {
-  const { palette, theme, setError, error, success } = useContext(GlobalContext);
-  const navigate = useRouter()
+  const { palette, theme, setError, error, success } =
+    useContext(GlobalContext);
+  const navigate = useRouter();
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   };
 
-
   const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("")
+  const [phone, setPhone] = useState("");
   const formatPhoneNumber = (phoneNumber) => {
     const formattedNumber = phoneNumber.replace(
       /^(\d{3})(\d{3})(\d{4})$/,
@@ -40,7 +40,7 @@ const LandingContactUs = () => {
     }
     // else if (!validateEmail(email)) {
     //     setError("Email must be a valid email.");
-    // } 
+    // }
     else if (phone === "") {
       setError("Phone number cannot be left empty.");
     } else if (phone.length < 10) {
@@ -48,7 +48,6 @@ const LandingContactUs = () => {
     } else if (message === "") {
       setError("Message cannot be left empty.");
     } else {
-
       const formData = new FormData(event.target);
 
       const data1 = new URLSearchParams();
@@ -66,12 +65,10 @@ const LandingContactUs = () => {
         { method: "POST", body: data1, mode: "no-cors" }
       )
         .then((response) => {
-
-          navigate.push("/thank-you")
+          window.location.assign("https://www.dignitestudios.com/thank-you");
         })
         .catch((error) => {
           setError("something went wrong");
-
         });
     }
   };
@@ -80,15 +77,16 @@ const LandingContactUs = () => {
       className={`w-full xl:w-[80%] my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  flex justify-center items-start  h-auto`}
     >
       <div
-        className={`w-full md:h-[38rem] xl:h-[35rem] grid grid-cols-1 md:grid-cols-2 rounded-3xl ${theme == "light" ? "bg-[#E7E7E7]/[0.24]" : "bg-[#2D2D2D]"
-          }`}
+        className={`w-full md:h-[38rem] xl:h-[35rem] grid grid-cols-1 md:grid-cols-2 rounded-3xl ${
+          theme == "light" ? "bg-[#E7E7E7]/[0.24]" : "bg-[#2D2D2D]"
+        }`}
       >
         <div className="w-full h-full">
           <img
             loading="lazy"
             alt="cto"
             src={"/cto.webp"}
-            className="w-full h-[17rem] md:h-[38rem] xl:h-[35rem] object-cover rounded-l-3xl "
+            className="w-full h-[17rem] md:h-[38rem] xl:h-[35rem] object-cover rounded-3xl md:rounded-l-3xl "
           />
         </div>
         <div className="w-full h-full flex px-8 py-10 flex-col justify-start items-start gap-8 relative">
@@ -98,7 +96,11 @@ const LandingContactUs = () => {
           >
             Let’s start your project
           </h1>
-          <form id="home-lead-form" onSubmit={handleSubmit} className="w-full h-auto flex flex-col justify-start items-start gap-6">
+          <form
+            id="home-lead-form"
+            onSubmit={handleSubmit}
+            className="w-full h-auto flex flex-col justify-start items-start gap-6"
+          >
             <div className="w-full flex flex-col gap-1 justify-start items-start">
               <span
                 className="text-sm font-medium"
@@ -108,11 +110,13 @@ const LandingContactUs = () => {
               </span>
               <input
                 type="text"
-                id="name" name="name"
+                id="name"
+                name="name"
                 className="w-full  outline-none focus h-9 bg-transparent "
                 placeholder="Mike Smith"
                 style={{
-                  borderBottom: theme == "dark" ? `2px solid #5c5c5c`: `2px solid #d1d1d1`,
+                  borderBottom:
+                    theme == "dark" ? `2px solid #5c5c5c` : `2px solid #d1d1d1`,
                 }}
               />
             </div>
@@ -126,13 +130,15 @@ const LandingContactUs = () => {
               </span>
               <input
                 type="email"
-                id="email" name="email"
+                id="email"
+                name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full  outline-none focus h-9 bg-transparent "
                 placeholder="e.g John@gmail.com"
                 style={{
-                  borderBottom: theme == "dark" ? `2px solid #5c5c5c`: `2px solid #d1d1d1`,
+                  borderBottom:
+                    theme == "dark" ? `2px solid #5c5c5c` : `2px solid #d1d1d1`,
                 }}
               />
             </div>
@@ -145,14 +151,16 @@ const LandingContactUs = () => {
               </span>
               <input
                 type="text"
-                id="phone" name="phone"
+                id="phone"
+                name="phone"
                 maxLength="11"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 className="w-full  outline-none focus h-9 bg-transparent "
                 placeholder="e.g +1 491 570 156"
                 style={{
-                  borderBottom: theme == "dark" ? `2px solid #5c5c5c`: `2px solid #d1d1d1`,
+                  borderBottom:
+                    theme == "dark" ? `2px solid #5c5c5c` : `2px solid #d1d1d1`,
                 }}
               />
             </div>
@@ -166,11 +174,13 @@ const LandingContactUs = () => {
               </span>
               <input
                 type="text"
-                id="message" name="message"
+                id="message"
+                name="message"
                 className="w-full  outline-none focus h-9 bg-transparent "
                 placeholder="Enter your message here"
                 style={{
-                  borderBottom: theme == "dark" ? `2px solid #5c5c5c`: `2px solid #d1d1d1`,
+                  borderBottom:
+                    theme == "dark" ? `2px solid #5c5c5c` : `2px solid #d1d1d1`,
                 }}
               />
             </div>

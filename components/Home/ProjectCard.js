@@ -52,26 +52,21 @@ const ProjectCard = ({
         <div className="w-full absolute bottom-0 left-0 mt-auto flex justify-start gap-2 items-center pr-1">
           {googleLink && (
             <Link href={googleLink}>
-              <img src="/google_btn.png" />
+              <img src="/google_btn.png" className="h-[40.62px]" />
             </Link>
           )}
           {appLink && (
             <Link href={appLink}>
-              <img src="/apple_btn.png" />
+              <img src="/apple_btn.png" className="h-[40.62px]" />
             </Link>
           )}
           {webLink && (
-            <Link
-              href={webLink}
-              className={` w-auto h-[36px] px-4 text-sm   rounded-[10px]  flex items-center justify-center gap-2 bg-[#151515] text-white
-               `}
-            >
+            <Link href={webLink}>
               <img
-                src="/website_icon_white.svg"
-                className="w-4"
-                alt="Google play icon"
+                src="/web_btn.png"
+                className="h-[40.62px]"
+                alt="Website btn play icon"
               />
-              <span>Website</span>
             </Link>
           )}
         </div>
