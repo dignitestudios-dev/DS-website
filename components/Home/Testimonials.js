@@ -60,7 +60,7 @@ const Testimonials = () => {
         </h1>
       </div>
       <div
-        className="w-full h-[2px] my-4 rounded-full "
+        className="w-full h-[2px]  rounded-full "
         style={{
           background: `${palette?.light_contrast_background}`,
         }}
