@@ -36,14 +36,14 @@ const ServicesNavbar = ({ setIsOpen }) => {
     <div
       className={`relative px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  h-20  flex items-center justify-between w-full`}
     >
-      <Link aria-label="logo" href="/" className="h-12 lg:h-16">
-        <Image
+      <Link aria-label="logo" href="/" className="h-auto">
+        <img
           alt="logo"
-          width={120}
-          loader={customLoader}
-          height={64}
-          src={"/logo-dark.webp"}
-          className="h-12 lg:h-16"
+          // loader={customLoader}
+          // width={120}
+          // height={64}
+          src={"/logo-dark.png"}
+          className="h-[70px] w-[120px]"
         />
       </Link>
       <div
@@ -149,10 +149,7 @@ const ServicesNavbar = ({ setIsOpen }) => {
           onClick={() => setIsOpen(true)}
           className="flex lg:hidden h-4 lg:h-auto"
         >
-          <img
-            src={ "/menu-dark.webp"}
-            className="h-full"
-          />
+          <img src={"/menu-dark.webp"} className="h-full" />
         </button>
       </div>
     </div>
