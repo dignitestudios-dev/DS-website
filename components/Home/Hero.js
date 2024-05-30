@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext, useEffect } from "react";
@@ -8,7 +8,12 @@ const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
   useEffect(() => {
     const dynamicText = document.getElementById("typewriter-effect");
-    const words = ["Digital Cosmos", "Techno Galaxy", "Digital World", "App Universe"];
+    const words = [
+      "Digital Cosmos",
+      "Techno Galaxy",
+      "Digital World",
+      "App Universe",
+    ];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -45,7 +50,7 @@ const Hero = () => {
   return (
     <div className="w-full  flex flex-col pt-2 md:pt-10  gap-4 justify-start items-center">
       <span
-        className="capitalize text-center text-[16px] font-medium "
+        className="capitalize text-center text-[16px] 2xl:text-[20px] font-medium "
         style={{
           color: theme == "dark" ? "#B4B4B4" : "#8F8F8F",
         }}
@@ -56,34 +61,36 @@ const Hero = () => {
         style={{
           color: palette?.color,
         }}
-        className="text-[1.8rem] lg:text-6xl xl:text-[68px] font-semibold xl:font-bold text-center capitalize"
+        className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold text-center capitalize"
       >
         Elevate your brand in the <br />
         <span
           id="typewriter-effect"
           style={{
-            color: palette?.brandOrange
+            color: palette?.brandOrange,
           }}
-          className={`typing-demo text-[2rem] lg:text-6xl xl:text-[68px] font-semibold xl:font-bold text-center lg:text-left  leading-normal `}
-        >
-        </span>
+          className={`typing-demo text-[2rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold text-center lg:text-left  leading-normal `}
+        ></span>
       </h1>
       <span
         style={{
-          color: theme == "dark" ? "#B4B4B4": "#5c5c5c",
+          color: theme == "dark" ? "#B4B4B4" : "#5c5c5c",
         }}
-        className=" text-center my-2 lg:my-6 text-[14px] lg:text-[18px] font-normal"
+        className=" text-center my-2 lg:my-6 text-[14px] lg:text-[18px] 2xl:text-[20px] font-normal"
       >
-        Creating seamless app experiences. Transforming your ideas <br className="hidden lg:block" /> into exceptional mobile app solutions.
+        Creating seamless app experiences. Transforming your ideas{" "}
+        <br className="hidden lg:block" /> into exceptional mobile app
+        solutions.
       </span>
       <div className="w-auto flex gap-4 justify-center items-center">
-        <Link href={"/contact-us"}
+        <Link
+          href={"/contact-us"}
           name="schedule-a-meeting"
           style={{
             background: palette?.brandOrange,
             color: "white",
           }}
-          className="orange w-[150px] lg:w-[206px] h-14 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
+          className="orange w-[150px] lg:w-[206px] 2xl:w-[246px] h-14 lg:h-16 2xl:h-[5rem] rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md 2xl:text-lg font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
         >
           Schedule a meeting
         </Link>
@@ -94,7 +101,7 @@ const Hero = () => {
             border: `2px solid ${palette?.brandOrange}`,
             color: palette?.brandOrange,
           }}
-          className="w-[150px] lg:w-[206px] h-14 lg:h-16 rounded-full  transition-all duration-100 hover:scale-105 text-sm lg:text-md font-medium  flex items-center justify-center gap-2"
+          className="w-[150px] lg:w-[206px]  2xl:w-[246px] h-14 lg:h-16 2xl:h-[5rem] rounded-full  transition-all duration-100 hover:scale-105 text-sm lg:text-md 2xl:text-lg font-medium  flex items-center justify-center gap-2"
         >
           <BsFillTelephoneFill />
           <span>+1 877 714 1770</span>

@@ -1,7 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import { staggerContainer, bgVariant } from "@/lib/motion";
 
 const HybridProcess = () => {
@@ -22,7 +22,7 @@ const HybridProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               The analysis stage encompasses gathering requirements and
@@ -43,7 +43,7 @@ const HybridProcess = () => {
               Aesthetics
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               It transforms wireframes into visually appealing and user-friendly
@@ -63,7 +63,7 @@ const HybridProcess = () => {
               Testing
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               This ensures the application's reliability, and adherence to
@@ -231,7 +231,7 @@ const HybridProcess = () => {
               Structure
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               Wireframing involves creating skeletal frameworks to visualize the
@@ -250,7 +250,7 @@ const HybridProcess = () => {
               Development
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               Coding involves the development of both client-facing and
@@ -272,7 +272,7 @@ const HybridProcess = () => {
               Jackpot
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               The final step involves releasing the application to production
@@ -298,7 +298,7 @@ const HybridProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               The analysis stage encompasses gathering requirements and
@@ -319,7 +319,7 @@ const HybridProcess = () => {
               Structure
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               Wireframing involves creating skeletal frameworks to visualize the
@@ -338,7 +338,7 @@ const HybridProcess = () => {
               Aesthetics
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               It transforms wireframes into visually appealing and user-friendly
@@ -423,7 +423,7 @@ const HybridProcess = () => {
               Development
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               Coding involves the development of both client-facing and
@@ -445,7 +445,7 @@ const HybridProcess = () => {
               Testing
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               This ensures the application's reliability, and adherence to
@@ -465,7 +465,7 @@ const HybridProcess = () => {
               Jackpot
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               The final step involves releasing the application to production

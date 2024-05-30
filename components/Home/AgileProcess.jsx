@@ -22,7 +22,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               Branding for the app involves rapid iterations and feedback loops
@@ -43,7 +43,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               Focus is on delivering core functionality to meet user needs.
@@ -65,7 +65,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               User stories are rigorously evaluated to ensure functionality
@@ -235,7 +235,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               The development team selects items from the product backlog to
@@ -256,7 +256,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               Completing a set of user stories within a fixed time frame,
@@ -279,7 +279,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               The tested features are deployed to production environments.
@@ -303,7 +303,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               Branding for the app involves rapid iterations and feedback loops
@@ -324,7 +324,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               The development team selects items from the product backlog to
@@ -345,7 +345,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               Focus is on delivering core functionality to meet user needs.
@@ -509,7 +509,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               Completing a set of user stories within a fixed time frame,
@@ -532,7 +532,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               User stories are rigorously evaluated to ensure functionality
@@ -554,7 +554,7 @@ const AgileProcess = () => {
             </h3>
 
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}
             >
               The tested features are deployed to production environments.

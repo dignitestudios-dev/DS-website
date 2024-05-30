@@ -1,7 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import { staggerContainer, bgVariant } from "@/lib/motion";
 
 const WaterfallProcess = () => {
@@ -21,7 +21,7 @@ const WaterfallProcess = () => {
               Think Tank
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               Extensive upfront analysis and documentations are conducted to
@@ -41,7 +41,7 @@ const WaterfallProcess = () => {
               Ui Design
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               Meticulous attention is given to crafting the user interface based
@@ -62,7 +62,7 @@ const WaterfallProcess = () => {
               Beta
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               During beta development, the focus shifts to implementing features
@@ -230,7 +230,7 @@ const WaterfallProcess = () => {
               Wireframes
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               The emphasis lies on establishing a solid architectural groundwork
@@ -251,7 +251,7 @@ const WaterfallProcess = () => {
               Alpha
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               The core features of the application are developed according to
@@ -272,7 +272,7 @@ const WaterfallProcess = () => {
               Deployment
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               The finalized application is prepared for release to end-users or
@@ -296,7 +296,7 @@ const WaterfallProcess = () => {
               Think Tank
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               Extensive upfront analysis and documentations are conducted to
@@ -316,7 +316,7 @@ const WaterfallProcess = () => {
               Wireframes
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               The emphasis lies on establishing a solid architectural groundwork
@@ -337,7 +337,7 @@ const WaterfallProcess = () => {
               Ui Design
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
@@ -422,7 +422,7 @@ const WaterfallProcess = () => {
               Alpha
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               The core features of the application are developed according to
@@ -443,7 +443,7 @@ const WaterfallProcess = () => {
               Beta
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               During beta development, the focus shifts to implementing features
@@ -463,7 +463,7 @@ const WaterfallProcess = () => {
               Deployment
             </h3>
             <p
-              className="text-[14px] font-normal  "
+              className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
               The finalized application is prepared for release to end-users or
