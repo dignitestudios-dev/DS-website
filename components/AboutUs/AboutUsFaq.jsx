@@ -13,7 +13,7 @@ const AboutUsFaq = () => {
   return (
     <div
       id="about-us-journey"
-      className="relative w-full h-auto px-4 md:px-12 lg:px-28 xl:px-[120px]  py-6  md:py-14  lg:py-8 flex flex-col justify-start items-start gap-12 "
+      className="relative w-full h-auto px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  py-6  md:py-14  lg:py-8 flex flex-col justify-start items-start gap-12 "
     >
       <div className="w-full h-auto   flex flex-col gap-3 justify-start items-start">
         <div
@@ -60,7 +60,10 @@ const AboutUsFaq = () => {
             aria-labelledby="accordion-collapse-heading-1"
           >
             <div className=" rounded-md  ">
-              <p className="mb-2 xl:text-[18px] font-light" style={{ color: palette?.color }}>
+              <p
+                className="mb-2 xl:text-[18px] font-light"
+                style={{ color: palette?.color }}
+              >
                 "Every history has a beginning". In 2020, our tale began. We
                 were a group of like-minded people working for various firms
                 when we became aware of something upsetting about how we
@@ -116,7 +119,10 @@ const AboutUsFaq = () => {
             aria-labelledby="accordion-collapse-heading-1"
           >
             <div className=" rounded-md  ">
-              <p className="mb-2 xl:text-[18px] font-light" style={{ color: palette?.color }}>
+              <p
+                className="mb-2 xl:text-[18px] font-light"
+                style={{ color: palette?.color }}
+              >
                 Our expertise were shining in the area of Mobile Apps Design &
                 Development, but we felt like something was missing. So we added
                 9 more key players to our team and created a department for
@@ -173,7 +179,10 @@ const AboutUsFaq = () => {
             aria-labelledby="accordion-collapse-heading-1"
           >
             <div className=" rounded-md  ">
-              <p className="mb-2 xl:text-[18px] font-light" style={{ color: palette?.color }}>
+              <p
+                className="mb-2 xl:text-[18px] font-light"
+                style={{ color: palette?.color }}
+              >
                 We onboarded a lot of new projects in 2022, from SMEs to well
                 known brands in various industries. Dignite Studios also made it
                 into the "INC 5000 list" and also won multiple awards in the
@@ -231,7 +240,10 @@ const AboutUsFaq = () => {
             aria-labelledby="accordion-collapse-heading-1"
           >
             <div className=" rounded-md  ">
-              <p className="mb-2 xl:text-[18px] font-light" style={{ color: palette?.color }}>
+              <p
+                className="mb-2 xl:text-[18px] font-light"
+                style={{ color: palette?.color }}
+              >
                 We achieved remarkable growth, serving diverse clients and
                 earning repeat recognition in the “INC 5000 list”. Throughout
                 our journey, our unwavering focus has remained on innovation,

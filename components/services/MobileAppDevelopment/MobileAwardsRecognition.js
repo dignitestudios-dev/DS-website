@@ -12,7 +12,9 @@ const MobileAwardsRecognition = () => {
         }}
         className="text-3xl font-extrabold lg:text-4xl xl:text-[72px] lg:font-bold uppercase group"
       >
-        <span className="group-hover:text-[#F15C20] transition-all duration-300">awards & recognition</span>
+        <span className="group-hover:text-[#F15C20] transition-all duration-300">
+          awards & recognition
+        </span>
       </h1>
       <p
         className="lg:w-[70%] my-2 text-[16px] lg:text-[18px] font-normal"
@@ -20,8 +22,9 @@ const MobileAwardsRecognition = () => {
           color: palette?.dark_contrast_color,
         }}
       >
-        Our commitment to excellence is proudly displayed through our numerous awards. As the best mobile apps development company, we have been recognized for our innovative solutions and client satisfaction.
-
+        Our commitment to excellence is proudly displayed through our numerous
+        awards. As the best mobile apps development company, we have been
+        recognized for our innovative solutions and client satisfaction.
       </p>
       <div className="w-full grid grid-cols-6 md:grid-cols-6 mt-4 lg:grid-cols-6 gap-y-4">
         <div className="flex justify-center items-center ">
@@ -29,7 +32,7 @@ const MobileAwardsRecognition = () => {
         </div>
         <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
           <img src="/award-2.webp" className="" />
-        </div >
+        </div>
         <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
           <img src="/award-3.webp" className="" />
         </div>

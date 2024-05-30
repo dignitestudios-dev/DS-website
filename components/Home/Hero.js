@@ -61,7 +61,7 @@ const Hero = () => {
         style={{
           color: palette?.color,
         }}
-        className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold text-center capitalize"
+        className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize"
       >
         Elevate your brand in the <br />
         <span

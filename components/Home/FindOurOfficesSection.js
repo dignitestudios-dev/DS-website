@@ -6,7 +6,6 @@ import React, { useContext, useEffect, useState } from "react";
 import FindOurOfficeCard from "./FindOurOfficeCard";
 import FindOurOfficesSwiper from "./FindOurOfficesSwiper";
 
-
 export const sliderSettings = {
   slidesPerView: 1,
   spaceBetween: 10,
@@ -41,7 +40,7 @@ const FindOurOfficesSection = () => {
       className={`px-4 md:px-12 lg:px-28 w-full flex flex-col items-center gap-y-4 my-5`}
     >
       <h1
-        className={`${palette.color} uppercase font-extrabold text-center lg:text-start text-4xl lg:text-5xl lg:font-bold mb-2 lg:mb-6`}
+        className={`${palette.color} uppercase font-extrabold text-center lg:text-start  text-4xl lg:text-5xl xl:text-[54px] tracking-tighter lg:font-bold mb-2 lg:mb-6`}
       >
         find our offices
       </h1>

@@ -13,7 +13,7 @@ const ServicesSection = () => {
       className={` w-full my-14 px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 `}
     >
       <h1
-        className={` uppercase font-extrabold  lg:text-start text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter lg:font-bold mb-2 lg:mb-6`}
+        className={` uppercase font-extrabold  lg:text-start text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px]  tracking-tighter lg:font-bold mb-2 lg:mb-6`}
       >
         Our Services
       </h1>

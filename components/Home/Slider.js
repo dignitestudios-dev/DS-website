@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
@@ -11,9 +11,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-
-        
-
         src={"/1.webp"}
         loading="lazy"
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -22,8 +19,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         src={"/2.webp"}
         loading="lazy"
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -32,8 +27,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         src={"/3.webp"}
         loading="lazy"
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -43,8 +36,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         loading="lazy"
         src={"/4.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -54,8 +45,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         loading="lazy"
         src={"/2.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -64,8 +53,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         src={"/3.webp"}
         loading="lazy"
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -76,8 +63,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         loading="lazy"
         src={"/4.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -87,8 +72,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         loading="lazy"
         src={"/2.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -98,8 +81,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         loading="lazy"
         src={"/3.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -109,8 +90,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         loading="lazy"
         src={"/4.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -120,8 +99,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         loading="lazy"
         src={"/2.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -131,8 +108,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         loading="lazy"
         src={"/3.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -141,8 +116,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/1m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -152,8 +125,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/2m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -162,8 +133,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/3m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -172,8 +141,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/4m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -182,8 +149,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/1m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -193,8 +158,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/2m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -203,8 +166,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/3m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -213,8 +174,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/4m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -223,8 +182,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/1m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -234,8 +191,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/2m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -244,8 +199,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/3m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
@@ -254,8 +207,6 @@ const Slider = () => {
         alt="our-work-images"
         width={510}
         height={324}
-        
-
         priority
         src={"/4m.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
