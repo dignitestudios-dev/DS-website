@@ -24,7 +24,7 @@ const ProjectCard = ({
   return (
     <Link
       href={projectLink}
-      className={`group w-full h-[240px] lg:h-[326px]  hover:bg-[#F15C20] transition-all duration-500  p-[16px] lg:py-[28px] lg:px-[20px] flex flex-col lg:flex-row justify-start  items-start gap-2 lg:mb-12 relative ${
+      className={`group w-full h-[240px] lg:h-[326px]  hover:bg-[#F15C20] transition-all duration-500  p-[16px] lg:py-[28px] lg:px-[20px] flex flex-col lg:flex-row justify-start  items-start gap-2 lg:mb-6 relative ${
         theme == "dark" ? "bg-[#1c1c1c]" : "bg-[#f9f9f9]"
       } rounded-[32px] `}
     >
@@ -73,7 +73,7 @@ const ProjectCard = ({
       </div>
 
       <div
-        className={`w-full hidden lg:block lg:w-[35%] transition-all duration-300 ${image} bg-contain bg-no-repeat flex  justify-center  md:w-[194px] md:h-[355px] static md:absolute  md:-top-16 right-0 group-hover:top-10 2xl:group-hover:top-2 group-hover:right-4 group-hover:scale-[1.5] 2xl:group-hover:scale-[1.4] lg:justify-start items-start  `}
+        className={`w-full hidden lg:block lg:w-[35%] transition-all duration-300 ${image} bg-contain bg-no-repeat flex  justify-center  md:w-[194px] md:h-[355px] static md:absolute  md:-top-8 right-0 group-hover:top-10 2xl:group-hover:top-2 group-hover:right-4 group-hover:scale-[1.5] 2xl:group-hover:scale-[1.4] lg:justify-start items-start  `}
       >
         {/* <img
           layout="responsive"

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
 import Navbar from "@/components/global/Navbar";
 import Sidebar from "@/components/global/Sidebar";
@@ -11,6 +11,7 @@ const GlobalLayout = ({ page }) => {
   // Sidebar states and ref:
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const { palette } = useContext(GlobalContext);
+
   return (
     <div
       className="w-full transition-all duration-700"
