@@ -172,7 +172,7 @@ const GlobalLayout = ({ page }) => {
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     className="input_box"
-                    placeholder="e.g. Mike Smith"
+                    placeholder="e.g +1 491 570 156"
                   />
                 </button>
               </div>
