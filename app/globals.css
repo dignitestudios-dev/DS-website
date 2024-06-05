@@ -424,7 +424,7 @@ input:hover {
 }
 
 .input_span {
-  width: 12%;
+  width: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -432,11 +432,11 @@ input:hover {
   color: #f15c20;
 }
 .input_box {
-  width: 88%;
+  width: 90%;
   outline: none;
   background-color: transparent;
   height: 40px;
-  padding-left: 4px;
+  padding-left: 0px;
 }
 .input_box::placeholder {
   font-size: 13px;
@@ -460,7 +460,7 @@ input:hover {
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 16.94px;
   border-radius: 8px;
   color: #fff;
