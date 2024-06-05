@@ -320,19 +320,22 @@ input:hover {
   justify-content: center;
   align-items: center;
   transition: all;
-  transition-duration: 0.6s;
+  transition-duration: 0.4s;
   z-index: 100000;
   background-color: #000000a5;
 }
-.hide {
-  scale: 0;
-  transition: all;
-  transition-duration: 0.6s;
-}
+
 .show {
+  opacity: 100;
   scale: 1;
   transition: all;
-  transition-duration: 0.6s;
+  transition-duration: 0.4s;
+}
+.hide {
+  opacity: 0;
+  scale: 0;
+  transition: all;
+  transition-duration: 0.4s;
 }
 
 .container-form {
@@ -364,7 +367,7 @@ input:hover {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 15px;
   padding: 20px;
   justify-content: center;
   align-items: center;
@@ -443,7 +446,7 @@ input:hover {
   width: 100%;
   outline: none;
   background-color: transparent;
-  height: 116px;
+  height: 126px;
   resize: none;
   padding: 8px;
 }
@@ -461,4 +464,5 @@ input:hover {
   line-height: 16.94px;
   border-radius: 8px;
   color: #fff;
+  box-shadow: 0px 10px 36px -5px #f15b20f0;
 }
