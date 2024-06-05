@@ -10,6 +10,7 @@ import { MdMail } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 import { BsTelephoneFill } from "react-icons/bs";
 import ContactUsAlert from "@/components/global/ContactUsAlert";
+import { RxCross2 } from "react-icons/rx";
 
 const ServicesLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -32,6 +33,13 @@ const ServicesLayout = ({ page }) => {
     return () => {
       document.removeEventListener("mouseleave", handleMouseLeave);
     };
+  }, []);
+  useEffect(() => {
+    if (window.innerWidth < 780) {
+      setTimeout(() => {
+        setShowModal(true);
+      }, 7000);
+    }
   }, []);
 
   const formRef = useRef();
@@ -117,6 +125,15 @@ const ServicesLayout = ({ page }) => {
           </div>
           <div className="main-promo">
             {error && <ContactUsAlert />}
+            <img
+              src="/form_promo2.png"
+              alt="sidebar_promo"
+              className="promo2"
+            />
+            <span onClick={() => setShowModal(false)} className="close_icon">
+              <RxCross2 />
+            </span>
+
             <div className="input_field">
               <label className="label_field">Name</label>
               <button type="button" className="input_flex">

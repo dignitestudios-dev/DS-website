@@ -6,11 +6,12 @@ import Sidebar from "@/components/global/Sidebar";
 import Footer from "@/components/Home/Footer";
 import FixedSocials from "@/components/global/FixedSocials";
 import Cursor from "@/components/global/Cursor";
-import { FaUser } from "react-icons/fa";
+import { FaCross, FaUser } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
 import Alert from "@/components/global/Alert";
 import ContactUsAlert from "@/components/global/ContactUsAlert";
+import { RxCross2 } from "react-icons/rx";
 
 const GlobalLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -22,7 +23,7 @@ const GlobalLayout = ({ page }) => {
 
   useEffect(() => {
     const handleMouseLeave = (e) => {
-      if (e.clientY <= 0 && window.innerWidth > 1000) {
+      if (e.clientY <= 0 && window.innerWidth > 780) {
         setShowModal(true);
         document.removeEventListener("mouseleave", handleMouseLeave);
       }
@@ -33,6 +34,14 @@ const GlobalLayout = ({ page }) => {
     return () => {
       document.removeEventListener("mouseleave", handleMouseLeave);
     };
+  }, []);
+
+  useEffect(() => {
+    if (window.innerWidth < 780) {
+      setTimeout(() => {
+        setShowModal(true);
+      }, 7000);
+    }
   }, []);
 
   const formRef = useRef();
@@ -126,6 +135,15 @@ const GlobalLayout = ({ page }) => {
             </div>
             <div className="main-promo">
               {error && <ContactUsAlert />}
+              <img
+                src="/form_promo2.png"
+                alt="sidebar_promo"
+                className="promo2"
+              />
+              <span onClick={() => setShowModal(false)} className="close_icon">
+                <RxCross2 />
+              </span>
+
               <div className="input_field">
                 <label className="label_field">Name</label>
                 <button type="button" className="input_flex">
