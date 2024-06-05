@@ -124,12 +124,13 @@ const ServicesLayout = ({ page }) => {
             <img src="/form_promo.png" alt="sidebar_promo" className="" />
           </div>
           <div className="main-promo">
+            <div className="promo2">
+              <h1 className="heading_promo2">limited time offer</h1>
+              <span className="sub_promo2">Sign up now for a free quote</span>
+              <span className="box_promo2">Upto 25% OFF</span>
+            </div>
             {error && <ContactUsAlert />}
-            <img
-              src="/form_promo2.png"
-              alt="sidebar_promo"
-              className="promo2"
-            />
+
             <span onClick={() => setShowModal(false)} className="close_icon">
               <RxCross2 />
             </span>
