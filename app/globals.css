@@ -309,154 +309,155 @@ input:hover {
   @apply bg-img41 group-hover:bg-img42;
 }
 
-/*  */
-#registration-form {
-  font-family: "Open Sans Condensed", sans-serif;
-  width: 400px;
-  min-width: 250px;
-  margin: 20px auto;
-  position: relative;
-}
-
-#registration-form .fieldset {
-  background-color: #d5d5d5;
-
-  border-radius: 3px;
-}
-
-#registration-form legend {
-  text-align: center;
-  background: #f15c20;
-  width: 100%;
-  padding: 30px 0;
-  border-radius: 3px 3px 0 0;
-  color: white;
-  font-size: 2em;
-}
-
-.fieldset form {
-  border: 1px solid #2f2f2f;
-  margin: 0 auto;
-  display: block;
-  width: 100%;
-  padding: 30px 20px;
-  box-sizing: border-box;
-  border-radius: 0 0 3px 3px;
-}
-.placeholder #registration-form label {
-  display: none;
-}
-.no-placeholder #registration-form label {
-  margin-left: 5px;
-  position: relative;
-  display: block;
-  color: grey;
-  text-shadow: 0 1px white;
-  font-weight: bold;
-}
-/* all */
-::-webkit-input-placeholder {
-  text-shadow: 1px 1px 1px white;
-  font-weight: bold;
-}
-::-moz-placeholder {
-  text-shadow: 0 1px 1px white;
-  font-weight: bold;
-} /* firefox 19+ */
-:-ms-input-placeholder {
-  text-shadow: 0 1px 1px white;
-  font-weight: bold;
-} /* ie */
-#registration-form input[type="text"] {
-  padding: 15px 20px;
-  border-radius: 1px;
-  margin: 5px auto;
-  background-color: #f7f7f7;
-  border: 1px solid silver;
-
-  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.8);
-  width: 100%;
-
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: background-color 0.5s ease;
-  -moz-transition: background-color 0.5s ease;
-  -o-transition: background-color 0.5s ease;
-  -ms-transition: background-color 0.5s ease;
-  transition: background-color 0.5s ease;
-}
-.no-placeholder #registration-form input[type="text"] {
-  padding: 10px 20px;
-}
-
-#registration-form input[type="text"]:active,
-.placeholder #registration-form input[type="text"]:focus {
-  outline: none;
-  border-color: silver;
-  background-color: white;
-}
-
-#registration-form input[type="submit"] {
-  font-family: "Open Sans Condensed", sans-serif;
-  text-transform: uppercase;
-  outline: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  background-color: #f15c20;
-  padding: 10px;
-  color: white;
-  border: 1px solid #f15c20;
-  border-radius: 3px;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-top: 5px;
-  cursor: pointer;
-  position: relative;
+/* Leave Browser Form */
+.screen-form {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
   top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all;
+  transition-duration: 0.6s;
+  z-index: 100000;
+  background-color: #0000004a;
+}
+.hide {
+  scale: 0;
+  transition: all;
+  transition-duration: 0.6s;
+}
+.show {
+  scale: 1;
+  transition: all;
+  transition-duration: 0.6s;
 }
 
-#registration-form input[type="submit"]:hover {
-  background-color: #f15c20;
+.container-form {
+  width: auto;
+  height: 540px;
+  border-radius: 24px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
 }
 
-#registration-form input[type="submit"]:active {
-  background: #5c8ca7;
+.side-promo {
+  width: 410px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.parsley-error-list {
-  background-color: #c34343;
-  padding: 5px 11px;
-  margin: 0;
-  list-style: none;
-  border-radius: 0 0 3px 3px;
-  margin-top: -5px;
-  margin-bottom: 5px;
-  color: white;
-  border: 1px solid #870d0d;
-  border-top: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  position: relative;
-  top: -1px;
-  text-shadow: 0px 1px 1px #460909;
-  font-weight: 700;
-  font-size: 12px;
-}
-.parsley-error {
-  border-color: #870d0d !important;
-  border-bottom: none;
-}
-#registration-form select {
+.side-promo img {
   width: 100%;
-  padding: 5px;
+  height: 100%;
+  border-radius: 24px 0 0 24px;
 }
-::-moz-focus-inner {
-  border: 0;
+
+.main-promo {
+  width: 410px;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 24px 24px 0;
+}
+@media (max-width: 768px) {
+  .side-promo {
+    display: none;
+  }
+  .main-promo {
+    border-radius: 24px;
+  }
+}
+.input_field {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: 100%;
+  height: auto;
+}
+.label_field {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.input_flex {
+  width: 100%;
+  height: 47px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #bbbbbb;
+}
+.input_flex2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #bbbbbb;
+}
+.input_flex:focus-within {
+  border: 1px solid #f15c20;
+  background-color: #f15b2008;
+}
+.input_flex2:focus-within {
+  border: 1px solid #f15c20;
+  background-color: #f15b2008;
+}
+.input_box2::placeholder {
+  font-size: 13px;
+}
+
+.input_span {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #f15c20;
+}
+.input_box {
+  width: 88%;
+  outline: none;
+  background-color: transparent;
+  height: 40px;
+  padding-left: 4px;
+}
+.input_box::placeholder {
+  font-size: 13px;
+}
+
+.input_box2 {
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+  height: 116px;
+  resize: none;
+  padding: 8px;
+}
+
+.sub_button {
+  width: 100%;
+  height: 48px;
+  background: #f15c20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  border-radius: 8px;
+  color: #fff;
 }

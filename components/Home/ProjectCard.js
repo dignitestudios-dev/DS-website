@@ -73,7 +73,11 @@ const ProjectCard = ({
       </div>
 
       <div
-        className={`w-full hidden lg:block lg:w-[35%] transition-all duration-300 ${image} bg-contain bg-no-repeat flex  justify-center  md:w-[194px] md:h-[355px] static md:absolute  md:-top-8 right-0 group-hover:top-10 2xl:group-hover:top-2 group-hover:right-4 group-hover:scale-[1.5] 2xl:group-hover:scale-[1.4] lg:justify-start items-start  `}
+        className={`w-full hidden lg:block lg:w-[35%] transition-all duration-300 ${image} bg-contain bg-no-repeat flex  justify-center  md:w-[191px]  static md:absolute ${
+          title == "MaidSimpl"
+            ? "md:h-[364px] md:-top-[2.7rem]"
+            : "md:h-[355px] md:-top-8"
+        }  right-0 group-hover:top-10 2xl:group-hover:top-2  group-hover:right-4 group-hover:scale-[1.5] 2xl:group-hover:scale-[1.4] lg:justify-start items-start  `}
       >
         {/* <img
           layout="responsive"
