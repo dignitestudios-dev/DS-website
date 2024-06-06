@@ -49,7 +49,7 @@ const ProjectCard = ({
         >
           {description}
         </p>
-        <div className="w-full absolute bottom-0 left-0 mt-auto flex justify-start gap-2 items-center pr-1">
+        <div className="w-full absolute bottom-0 left-2 mt-auto flex justify-start gap-2 items-center pr-1">
           {googleLink && (
             <Link href={googleLink}>
               <img src="/google_play_btn.png" className="h-[40.62px]" />
