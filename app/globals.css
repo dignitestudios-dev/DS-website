@@ -587,3 +587,22 @@ input:hover {
   border-radius: 8px;
   color: #fff;
 }
+
+/* top rated mobile app development agency */
+.top-rated-bg {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(6, 6, 6, 0.8)
+    ),
+    url("/bg-mobile-promo.png");
+  background-size: cover;
+}
+
+.circle-shadow{
+  box-shadow: 0 0 8px #F15C20CC;
+}
+
+.workflow-box{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}

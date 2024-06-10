@@ -67,6 +67,8 @@ import Dubai from "./dubai.png";
 import Wyoming from "./wyoming.png";
 import Florida from "./florida.png";
 
+import TopRatedContactMockup from "./top-rated-contact-mockup.png"
+
 export {
   React,
   Logo,
@@ -130,4 +132,5 @@ export {
   Dubai,
   Florida,
   Wyoming,
+  TopRatedContactMockup
 };
