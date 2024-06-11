@@ -12,7 +12,11 @@ const ExpertMobileAppDevelopersSection = () => {
       <h1 className="uppercase font-extrabold text-4xl md:text-5xl lg:text-[72px] xl:font-bold text-center lg:text-start">
         expert mobile app developers
       </h1>
-      <div className="w-full border border-[#E7E7E7]" />
+      <div
+        className={`border ${
+          theme === "dark" ? "border-gray-600" : "border-[#E7E7E7]"
+        } w-full my-4`}
+      />
 
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-10">
         <div

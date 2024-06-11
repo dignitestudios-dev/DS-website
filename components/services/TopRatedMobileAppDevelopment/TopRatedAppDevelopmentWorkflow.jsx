@@ -31,7 +31,11 @@ const TopRatedAppDevelopmentWorkflow = () => {
         </Link>
       </div>
 
-      <div className="border border-[#E7E7E7] w-full mt-6 mb-4" />
+      <div
+        className={`border ${
+          theme === "dark" ? "border-gray-600" : "border-[#E7E7E7]"
+        } w-full my-6`}
+      />
 
       {/* large devices */}
       <div className="w-full hidden lg:block relative">

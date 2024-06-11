@@ -20,7 +20,11 @@ const TopRatedMobileAppCategories = () => {
         create immersive entertainment, we have the expertise to bring your app
         to life.
       </p>
-      <div className="w-full border border-[#E7E7E7] mt-4" />
+      <div
+        className={`border ${
+          theme === "dark" ? "border-gray-600" : "border-[#E7E7E7]"
+        } w-full mb-4 mt-6`}
+      />
 
       <div className="w-full flex items-center justify-center gap-10 flex-wrap mt-6">
         <div className="w-full lg:w-[345px] overflow-hidden bg-[#241C40] rounded-[24px] p-10 relative h-[425px] group">
