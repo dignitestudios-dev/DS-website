@@ -49,7 +49,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
         >
           <Image
-            src={"/android-mobile-app-mockup.png"}
+            src={"/ios-mockup.png"}
             loader={customLoader}
             width={42}
             height={42}
@@ -76,7 +76,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
         >
           <Image
-            src={"/android-mobile-app-mockup.png"}
+            src={"/cross-platform-mockup.png"}
             loader={customLoader}
             width={42}
             height={42}
