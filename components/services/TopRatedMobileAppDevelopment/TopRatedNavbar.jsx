@@ -57,13 +57,13 @@ const TopRatedNavbar = ({ setIsOpen }) => {
         <button
           aria-label="button"
           onClick={() => navigateTo("/")}
-          className={`${theme === "light" ? 'text-white': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600
+          className={`${theme === "light" ? 'text-black': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600
             } bg-transparent  outline-none`}
         >
           Home
         </button>
         <button
-          className={`${theme === "light" ? 'text-white': 'text-white'} group text-[14px] hover:text-orange-600 relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
+          className={`${theme === "light" ? 'text-black': 'text-white'} group text-[14px] hover:text-orange-600 relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
         >
           <span>Services</span>
           <IoIosArrowDown className="text-md" />
@@ -103,28 +103,28 @@ const TopRatedNavbar = ({ setIsOpen }) => {
         </button>
         <button
           onClick={() => handleClick("case-studies")}
-          className={`${theme === "light" ? 'text-white': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`${theme === "light" ? 'text-black': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
         >
           Case Studies
         </button>
         <button
           onClick={() => navigateTo("/about-us")}
-          className={`${theme === "light" ? 'text-white': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`${theme === "light" ? 'text-black': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
         >
           Our Process
         </button>
         <button
           onClick={() => navigateTo("/contact-us")}
-          className={`${theme === "light" ? 'text-white': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`${theme === "light" ? 'text-black': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
         >
           FAQs
         </button>
-        <button
-          onClick={() => navigateTo("/contact-us")}
+        <Link href={'tel:+18777141770'}
+          // onClick={() => navigateTo("/contact-us")}
           className={`text-[14px] h-8 font-medium text-orange-600 bg-transparent  outline-none flex items-center justify-center gap-1`}
         >
           <IoCall className="text-base" /> +18777141770
-        </button>
+        </Link>
         <button
           onClick={() => navigateTo("/contact-us")}
           className={`text-[14px] rounded-full font-medium text-white bg-orange-600 w-[147px] h-[48px] outline-none flex items-center justify-center gap-1`}

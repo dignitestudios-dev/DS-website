@@ -92,7 +92,7 @@ const TopRatedAppDevFaq = () => {
               className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
                 openAccordion === 2
                   ? "text-[#F15C20]"
-                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
+                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
               } gap-3`}
             >
               <div
@@ -143,7 +143,7 @@ const TopRatedAppDevFaq = () => {
               className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
                 openAccordion === 3
                   ? "text-[#F15C20]"
-                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
+                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
               } gap-3`}
             >
               <div
@@ -196,7 +196,7 @@ const TopRatedAppDevFaq = () => {
               className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
                 openAccordion === 4
                   ? "text-[#F15C20]"
-                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
+                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
               } gap-3`}
             >
               <div
@@ -251,7 +251,7 @@ const TopRatedAppDevFaq = () => {
               className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
                 openAccordion === 5
                   ? "text-[#F15C20]"
-                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
+                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
               } gap-3`}
             >
               <div

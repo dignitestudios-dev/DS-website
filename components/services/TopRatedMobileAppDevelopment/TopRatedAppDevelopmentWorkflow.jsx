@@ -7,7 +7,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const TopRatedAppDevelopmentWorkflow = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 lg:my-24">
+    <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 lg:my-14">
       <div className="w-full flex flex-col lg:flex-row justify-between items-end gap-y-6">
         <div
           className={`w-full lg:w-auto flex flex-col gap-2 justify-start items-start `}
