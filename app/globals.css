@@ -606,3 +606,12 @@ input:hover {
 .workflow-box{
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
+
+
+.top-rated-btn-shadow {
+  box-shadow: 0px 18px 28px 0px rgba(241, 92, 32, 0.32);
+}
+
+.workflow-shadow{
+  box-shadow: -15px 15px 15px rgba(124, 123, 123, 0.5);
+}

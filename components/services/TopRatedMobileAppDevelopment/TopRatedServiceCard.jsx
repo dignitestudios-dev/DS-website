@@ -7,6 +7,7 @@ import React, { useContext, useEffect, useState } from "react";
 const TopRatedServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
   const { theme, mouseCursor, disableMouseCursor } = useContext(GlobalContext);
   const [hoverImage, setHoverImage] = useState(dark_icon);
+  console.log('icons >> ', light_icon)
 
   useEffect(() => {
     setHoverImage(theme == "dark" ? light_icon : dark_icon);

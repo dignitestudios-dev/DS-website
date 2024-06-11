@@ -9,7 +9,7 @@ const ExpertMobileAppDevelopersSection = () => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   return (
     <div className={`px-4 md:px-12 lg:px-28 lg:py-24 py-12 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-center w-full my-6 md:my-12 ${theme === "dark" ? 'bg-none' : 'bg-[#F9F9F9]'}`}>
-      <h1 className="uppercase font-bold text-[42px] text-center lg:text-start lg:text-[72px]">
+      <h1 className="uppercase font-extrabold text-4xl md:text-5xl lg:text-[72px] xl:font-bold text-center lg:text-start">
         expert mobile app developers
       </h1>
       <div className="w-full border border-[#E7E7E7]" />

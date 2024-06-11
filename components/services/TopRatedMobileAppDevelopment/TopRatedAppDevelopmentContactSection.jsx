@@ -10,7 +10,7 @@ const TopRatedAppDevelopmentContactSection = () => {
     <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 lg:my-24">
       <div className={`w-full ${theme == "dark" ? "bg-[#393939]" : "bg-[#F9F9F9]"} p-4 lg:p-12 rounded-[28px] grid grid-cols-3 gap-10`}>
         <div className="col-span-3 lg:col-span-2 flex flex-col items-start gap-8">
-          <h1 className="text-[34px] lg:text-[64px] font-medium lg:tracking-[-3.2px]">
+          <h1 className="text-[34px] lg:text-[64px] font-semibold tracking-0 lg:tracking-[-3.2px]">
             Let’s build an awesome project together!
           </h1>
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-9">
@@ -58,13 +58,13 @@ const TopRatedAppDevelopmentContactSection = () => {
             </div>
           </div>
           <div className="w-full">
-            <button className="bg-[#F15C20] text-white text-[13px] font-semibold px-8 py-4 rounded-full float-end">
+            <button className="bg-[#F15C20] text-white text-[13px] font-semibold px-8 py-4 rounded-full float-end hover:opacity-[.75] transition-all duration-300">
               Submit
             </button>
           </div>
         </div>
 
-        <duv className="col-span-3 lg:col-span-1">
+        <duv className="col-span-3 lg:col-span-1 flex items-center justify-center">
           <Image
             src={"/top-rated-contact-mockup.png"}
             loader={customLoader}

@@ -36,9 +36,9 @@ const TopRatedHero = () => {
               }}
               className="lg:hidden block text-3xl font-extrabold lg:text-5xl lg:font-bold "
             >
-              Unrivaled{" "}
-              <span style={{ color: palette?.brandOrange }}>Mobile</span> <br />{" "}
-              app development agency
+              <span style={{ color: palette?.brandOrange }}>Top-Rated</span>{" "}
+              Mobile <br /> App Development
+              <br /> Agency
             </h1>
             <span
               style={{
