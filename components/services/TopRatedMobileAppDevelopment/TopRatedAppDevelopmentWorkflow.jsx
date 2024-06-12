@@ -27,7 +27,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
           href={"/contact-us"}
           className="py-3 px-5 lg:py-7 lg:px-14 bg-[#F15C20] rounded-full text-white top-rated-btn-shadow text-base lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
         >
-          Get in Touch <FiArrowUpRight className="text-xl" />
+          Let's Talk <FiArrowUpRight className="text-xl" />
         </Link>
       </div>
 
@@ -160,7 +160,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
-          <div
+            <div
               className={`w-[70%] h-full absolute top-0 z-10 left-0 opacity-[0.8] ${
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
@@ -173,7 +173,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
-          <div
+            <div
               className={`w-[70%] h-full absolute top-0 z-10 left-0 opacity-[0.8] ${
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
@@ -184,7 +184,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 px-3 pt-0 flex flex-col items-start justify-start relative pb-16">
-          <div
+            <div
               className={`w-[70%] h-full absolute top-0 z-10 left-0 opacity-[0.8] ${
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
@@ -195,7 +195,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
-          <div
+            <div
               className={`w-[70%] h-full absolute top-0 z-10 left-0 opacity-[0.8] ${
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
@@ -206,7 +206,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
-          <div
+            <div
               className={`w-[70%] h-full absolute top-0 z-10 left-0 opacity-[0.8] ${
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}

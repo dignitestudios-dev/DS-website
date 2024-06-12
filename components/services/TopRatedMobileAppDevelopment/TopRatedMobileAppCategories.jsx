@@ -64,8 +64,6 @@ const TopRatedMobileAppCategories = () => {
             className="h-[431.37px] w-[353.23px] absolute -bottom-24 -right-16 group-hover:-bottom-16 transition-all duration-300"
           />
         </div>
-      </div>
-      <div className="w-full flex items-center justify-center gap-10 flex-wrap mt-6">
         <div className="w-full lg:w-[345px] overflow-hidden bg-[#FEAE12] rounded-[24px] p-10 relative h-[425px] group">
           <h1 className="text-white text-[22px] font-bold z-30">Utility App</h1>
           <div className="bg-[#FFC046] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />

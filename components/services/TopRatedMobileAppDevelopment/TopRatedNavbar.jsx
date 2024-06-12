@@ -123,7 +123,7 @@ const TopRatedNavbar = ({ setIsOpen }) => {
           // onClick={() => navigateTo("/contact-us")}
           className={`text-[14px] h-8 font-medium text-orange-600 bg-transparent  outline-none flex items-center justify-center gap-1`}
         >
-          <IoCall className="text-base" /> +18777141770
+          <IoCall className="text-base" /> (877) 714-1770
         </Link>
         <button
           onClick={() => navigateTo("/contact-us")}

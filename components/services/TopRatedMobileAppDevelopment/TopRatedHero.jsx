@@ -92,7 +92,7 @@ const TopRatedHero = () => {
               style={{
                 color: "#fff",
               }}
-              className={`lg:block hidden text-3xl font-extrabold lg:text-[70px] xl:text-[70px] xl:leading-[72.8px] lg:font-bold xl:font-semibold tracking-[-2.8px] z-10 `}
+              className={`lg:block hidden text-3xl md:text-4xl font-extrabold lg:text-[70px] xl:text-[70px] md:leading-[70px] xl:leading-[72.8px] lg:font-bold xl:font-semibold tracking-[-2.8px] z-10 `}
             >
               <span style={{ color: palette?.brandOrange }}>Top-Rated</span>{" "}
               <span
@@ -128,11 +128,14 @@ const TopRatedHero = () => {
             </span>
           </div>
           <div className="w-full lg:w-[40%] flex items-center justify-center lg:justify-start">
-            <div className={` glass-effect h-[477px] w-[95%] md:w-[397px] rounded-[24px] p-6 md:px-12 md:py-14 flex flex-col justify-center items-start gap-y-10`}>
+            <div
+              className={` glass-effect h-[477px] w-[95%] md:w-[397px] rounded-[24px] p-6 md:px-12 md:py-14 flex flex-col justify-center items-start gap-y-10`}
+            >
               <h1 className="uppercase font-normal text-base text-gray-200 z-10">
                 Get in Touch With Us!
               </h1>
               <form
+                id="service-page-lead-form"
                 onSubmit={handleSubmit}
                 className="w-full flex flex-col items-start gap-6"
               >

@@ -18,7 +18,7 @@ const ExpertMobileAppDevelopersSection = () => {
         } w-full my-4`}
       />
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-10">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 mt-4 gap-10">
         <div
           className={`group transition-all duration-300  border-[1px] ${
             theme == "dark" ? "bg-[#393939]" : "bg-white"
