@@ -1,44 +1,39 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import Link from "next/link";
 import React, { useContext } from "react";
-import { FiArrowUpRight } from "react-icons/fi";
 
-const TopRatedAppDevelopmentWorkflow = () => {
+const OptimizedProcess = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 lg:my-14">
-      <div className="w-full flex flex-col lg:flex-row justify-between items-end gap-y-6">
-        <div
-          className={`w-full lg:w-auto flex flex-col gap-2 justify-start items-start `}
-        >
-          <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
-            Our mobile app development
-          </p>
-          <div className={`w-full px-0 flex justify-between items-center`}>
-            <h1
-              className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] xl:font-bold`}
-            >
-              work flow
-            </h1>
-          </div>
-        </div>
-        <Link
-          href={"/contact-us"}
-          className="py-3 px-5 lg:py-7 lg:px-14 bg-[#F15C20] rounded-full text-white top-rated-btn-shadow text-base lg:text-xl font-semibold hidden lg:flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
-        >
-          Let's Talk <FiArrowUpRight className="text-xl" />
-        </Link>
-      </div>
-
-      <div
-        className={`border ${
-          theme === "dark" ? "border-gray-600" : "border-[#E7E7E7]"
-        } w-full my-6`}
-      />
+    <div
+      className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:my-12`}
+    >
+      <h3 className="uppercase font-bold text-xl text-[#8F8F8F]">
+        we impact highly
+      </h3>
+      <h1
+        className={`${
+          theme === "dark" ? "text-white" : "text-black"
+        } text-[42px] text-start text-4xl lg:text-5xl xl:text-[64px] font-bold uppercase`}
+      >
+        optimized process
+      </h1>
+      <p
+        className={`text-[18px] font-normal ${
+          theme === "light" && "text-[#2A2A2A]"
+        } leading-[24.48px] tracking-[-0.252px]`}
+      >
+        Diginite Studios creates top-notch mobile applications and cutting-edge
+        mobile features for their users to clinch their potency and worthiness.
+        Our mobile app services endeavor to build Android and IOS mobile
+        applications that function as per the required needs of the user.
+        Heading with successful mobile projects we fabricate app success in the
+        procreation of unbeatable user interfaces, coding systems, database
+        management, security, and maintenance.  
+      </p>
 
       {/* large devices */}
-      <div className="w-full hidden lg:block relative">
+      <div className="w-full hidden lg:block relative mt-6">
         <div className="w-full flex items-center justify-center">
           <div className="border border-l w-[33%] border-[#F15C20] border-t-0 border-r-0 border-b-0 px-3 pt-0 flex flex-col items-start justify-start relative pb-16">
             <div
@@ -47,12 +42,10 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">01</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">
-              brainstorming
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              project <br /> analysis and <br />
+              research
             </h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">
-              think tank
-            </p>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-[33%] border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -62,8 +55,9 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">03</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">Aesthetics</h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">ui design</p>
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              iterative <br /> development
+            </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-[33%] border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -73,8 +67,9 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">05</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">back end</h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">beta</p>
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              soft launch <br /> of mobile app
+            </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
         </div>
@@ -98,10 +93,9 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">02</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">structure</h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">
-              wireframes
-            </p>
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              structural <br /> implementation <br /> and design
+            </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 top-3 z-20"></span>
           </div>
           <div className="w-[35%] border border-l border-[#F15C20] border-t-0 border-r-0 border-b-0 px-3 pb-2 flex flex-col items-start justify-end relative pt-16">
@@ -116,8 +110,9 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">04</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">Front End</h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">alpha</p>
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              application <br /> testing phase
+            </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 top-3 z-20"></span>
           </div>
           <div className="w-[15%] border border-l border-[#F15C20] border-t-0 border-r-0 border-b-0 px-3 pb-2 flex flex-col items-start justify-end relative pt-16">
@@ -132,10 +127,9 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">06</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">jackpot</h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">
-              deployment
-            </p>
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              development
+            </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 top-3 z-20"></span>
           </div>
         </div>
@@ -151,12 +145,10 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">01</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">
-              brainstorming
+            <h1 className="text-[18px] font-bold uppercase z-20">
+            project <br /> analysis and <br />
+            research
             </h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">
-              think tank
-            </p>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -166,10 +158,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">02</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">Structure</h1>
-            <p className="text-base text-[#F15C20] uppercase z-20 flex">
-              wireframe
-            </p>
+            <h1 className="text-[18px] font-bold uppercase z-20">structural <br /> implementation <br /> and design</h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -179,8 +168,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">03</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">aesthetics</h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">ui design</p>
+            <h1 className="text-[18px] font-bold uppercase z-20">iterative <br /> development</h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 px-3 pt-0 flex flex-col items-start justify-start relative pb-16">
@@ -190,8 +178,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">04</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">front end</h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">alpha</p>
+            <h1 className="text-[18px] font-bold uppercase z-20">application <br /> testing phase</h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -201,8 +188,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">05</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">backend</h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">beta</p>
+            <h1 className="text-[18px] font-bold uppercase z-20">soft launch <br /> of mobile app</h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -212,23 +198,15 @@ const TopRatedAppDevelopmentWorkflow = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">06</h5>
-            <h1 className="text-[24px] font-bold uppercase z-20">jackpot</h1>
-            <p className="text-base text-[#F15C20] uppercase z-20">
-              deployment
-            </p>
+            <h1 className="text-[18px] font-bold uppercase z-20">development</h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
         </div>
       </div>
 
-      <Link
-        href={"/contact-us"}
-        className="py-5 mt-6 px-5 text-base lg:py-7 lg:px-14 mx-auto bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300 w-[206px] lg:hidden"
-      >
-        Let's Talk <FiArrowUpRight className="text-xl" />
-      </Link>
+      
     </div>
   );
 };
 
-export default TopRatedAppDevelopmentWorkflow;
+export default OptimizedProcess;

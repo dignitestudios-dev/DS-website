@@ -623,13 +623,13 @@ input:hover {
   @apply absolute inset-0 w-full h-full apply_overlay_dark opacity-95 z-0;
 }
 
-.glass-effect{
+.glass-effect {
   /* From https://css.glass */
-background: rgba(12, 12, 12, 0.5019607843137255);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.7px);
--webkit-backdrop-filter: blur(4.7px);
+  background: rgba(12, 12, 12, 0.5019607843137255);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
 }
 
 .circle-shadow {
@@ -646,4 +646,25 @@ backdrop-filter: blur(4.7px);
 
 .workflow-shadow {
   box-shadow: -15px 15px 15px rgba(124, 123, 123, 0.5);
+}
+
+/* seo page */
+.icon_shadow {
+  box-shadow: 0px 14px 18px 0px rgba(241, 92, 32, 0.45);
+}
+
+.revolutionary-hero-overlay-dark{
+  @apply absolute inset-0 w-full h-full revolutionary-hero-dark opacity-95 z-0
+}
+
+.revolutionary-hero-dark{
+  background: linear-gradient(90deg, rgba(12, 12, 12, 0.90) 0%, rgba(12, 12, 12, 0.60) 50%, rgba(12, 12, 12, 0.90) 100%)
+}
+
+.revolutionary-hero-overlay-light{
+  @apply absolute inset-0 w-full h-full revolutionary-hero-light opacity-95 z-0
+}
+
+.revolutionary-hero-light{
+  background: linear-gradient(90deg, rgba(253, 251, 251, 0.90) 0%, rgba(253, 253, 253, 0.50) 50%, rgba(255, 255, 255, 0.90) 100%)
 }

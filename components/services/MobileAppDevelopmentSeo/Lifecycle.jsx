@@ -1,0 +1,49 @@
+"use client";
+import { lifecycle } from "@/constants/lifecycle";
+import { GlobalContext } from "@/context/GlobalContext";
+import React, { useContext } from "react";
+
+const Lifecycle = () => {
+  const { theme } = useContext(GlobalContext);
+  return (
+    <div
+      className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:mt-20 lg:mb-28`}
+    >
+      <h3
+        className={`${
+          theme === "dark" ? "text-white" : "text-black"
+        } text-[42px] text-start text-4xl lg:text-5xl xl:text-[64px] font-bold uppercase`}
+      >
+        up-to-the-minute
+      </h3>
+
+      <p
+        className={`text-[18px] font-normal ${
+          theme === "light" && "text-[#2A2A2A]"
+        } leading-[24.48px] tracking-[-0.252px]`}
+      >
+        Our software development life cycle empowers companies to functionalize
+        their brand identity by building an effective and powerful mobile app
+        for its users. To create more clicks and produce more revenue we provide
+        a complete mobile solution to make a global recognition of your mobile
+        applications.
+      </p>
+
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 xl:gap-x-20 mt-12">
+        {lifecycle.map((step, index) => {
+          return (
+            <div className="w-full flex items-start justify-start border-2 border-t border-r-0 border-l-0 border-b-0 pt-3" key={index}>
+              <div className="w-[9%] lg:w-[7%]"><p className="text-[#5F5F5F] text-2xl font-medium">{step.num}</p></div>
+              <div className="w-[91%] lg:w-[93%] flex flex-col gap-2">
+                <h2 className="text-2xl font-semibold">{step.title}</h2>
+                <p className="text-[15px] font-normal leading-[20.4px]">{step.desc}</p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default Lifecycle;

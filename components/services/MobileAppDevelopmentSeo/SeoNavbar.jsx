@@ -11,7 +11,7 @@ import customLoader from "@/lib/custom-loader";
 import { IoCall } from "react-icons/io5";
 import { FiArrowUpRight } from "react-icons/fi";
 
-const TopRatedNavbar = ({ setIsOpen }) => {
+const SeoNavbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   const navigate = useRouter();
   const pathname = usePathname();
@@ -171,4 +171,4 @@ const TopRatedNavbar = ({ setIsOpen }) => {
   );
 };
 
-export default TopRatedNavbar;
+export default SeoNavbar;
