@@ -16,7 +16,7 @@ const TopRatedAppDevFaq = () => {
     >
       <div className="w-full h-auto  flex flex-col gap-3 justify-start items-center">
         <h1
-          className={`uppercase font-extrabold text-center lg:text-start  text-4xl lg:text-[64px] xl:text-[64px] lg:leading-[70px] tracking-tighter lg:font-bold lg:mb-8`}
+          className={`uppercase font-extrabold text-center lg:text-start text-3xl lg:text-[64px] lg:leading-[70px] tracking-tight lg:tracking-tighter lg:font-bold lg:mb-8`}
         >
           Frequently asked questions
         </h1>
@@ -47,7 +47,7 @@ const TopRatedAppDevFaq = () => {
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
-                <span className={`font-medium text-[20px]`}>
+                <span className={`font-medium text-lg md:text-xl`}>
                   How much does it cost to create an app?
                 </span>
               </div>

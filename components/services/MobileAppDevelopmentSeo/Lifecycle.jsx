@@ -12,7 +12,7 @@ const Lifecycle = () => {
       <h3
         className={`${
           theme === "dark" ? "text-white" : "text-black"
-        } text-[42px] text-start text-4xl lg:text-5xl xl:text-[64px] font-bold uppercase`}
+        } text-start text-3xl lg:text-5xl xl:text-[64px] font-bold uppercase`}
       >
         up-to-the-minute
       </h3>
@@ -29,10 +29,10 @@ const Lifecycle = () => {
         applications.
       </p>
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 xl:gap-x-20 mt-12">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 xl:gap-x-20 lg:mt-12">
         {lifecycle.map((step, index) => {
           return (
-            <div className="w-full flex items-start justify-start border-2 border-t border-r-0 border-l-0 border-b-0 pt-3" key={index}>
+            <div className="w-full flex items-start justify-start border-2 border-t border-r-0 border-l-0 border-b-0 pt-3 gap-2 lg:gap-0" key={index}>
               <div className="w-[9%] lg:w-[7%]"><p className="text-[#5F5F5F] text-2xl font-medium">{step.num}</p></div>
               <div className="w-[91%] lg:w-[93%] flex flex-col gap-2">
                 <h2 className="text-2xl font-semibold">{step.title}</h2>

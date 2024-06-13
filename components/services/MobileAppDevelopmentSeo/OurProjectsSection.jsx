@@ -33,7 +33,7 @@ const OurProjectsSection = () => {
       <h1
         className={`${
           theme === "light" ? "text-black" : "text-white"
-        } font-bold uppercase lg:text-[64px] tracking-[-2.56px] leading-none`}
+        } font-bold uppercase text-4xl md:text-[64px] tracking-[-1.56px] lg:tracking-[-2.56px] leading-none`}
       >
         our projects
       </h1>

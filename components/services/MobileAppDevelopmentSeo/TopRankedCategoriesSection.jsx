@@ -9,9 +9,17 @@ const TopRankedCategoriesSection = () => {
       <h1
         className={`${
           theme === "dark" ? "text-white" : "text-black"
-        } text-[42px] text-start text-4xl lg:text-5xl xl:text-[64px] font-bold uppercase`}
+        } text-start text-4xl lg:text-5xl xl:text-[64px] font-bold uppercase hidden lg:block`}
       >
         top ranked categories of <br />
+        app development
+      </h1>
+      <h1
+        className={`${
+          theme === "dark" ? "text-white" : "text-black"
+        } text-start text-3xl lg:text-5xl xl:text-[64px] font-bold uppercase block lg:hidden`}
+      >
+        top ranked categories of
         app development
       </h1>
       <div
