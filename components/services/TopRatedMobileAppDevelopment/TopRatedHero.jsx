@@ -92,7 +92,7 @@ const TopRatedHero = () => {
               style={{
                 color: "#fff",
               }}
-              className={`lg:block hidden text-3xl md:text-4xl font-extrabold lg:text-[70px] xl:text-[70px] 2xl:text-[104px] md:leading-[70px] xl:leading-[72.8px]  2xl:leading-[102.8px] lg:font-bold xl:font-semibold tracking-[-2.8px] z-10 `}
+              className={`lg:block hidden text-3xl md:text-4xl font-extrabold lg:text-[70px] xl:text-[70px] 2xl:text-[104px] md:leading-[70px] xl:leading-[72.8px]  2xl:leading-[102.8px] lg:font-bold xl:font-semibold 2xl:font-bold tracking-[-2.8px] z-10 `}
             >
               <span style={{ color: palette?.brandOrange }}>Top-Rated</span>{" "}
               <span
@@ -117,7 +117,7 @@ const TopRatedHero = () => {
               </span>
             </h1>
             <span
-              className={`lg:w-[80%] my-2 lg:my-6 text-[13px] lg:text-base font-normal ${
+              className={`lg:w-[80%] my-2 lg:my-6 text-[13px] lg:text-base 2xl:text-lg font-normal ${
                 theme === "light" ? "text-black" : "text-white"
               }`}
             >
