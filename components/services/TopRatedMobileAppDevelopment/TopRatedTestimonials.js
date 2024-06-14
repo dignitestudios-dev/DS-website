@@ -58,7 +58,7 @@ const TopRatedTestimonials = () => {
         </h1>
       </div>
       <div
-        className="w-full h-[2px] mt-4 rounded-full "
+        className="w-full h-[2px] mt-5 rounded-full "
         style={{
           background: `${palette?.light_contrast_background}`,
         }}

@@ -52,7 +52,7 @@ const MobileAppDevCaseStudies = () => {
           <div
             className={`border ${
               theme === "dark" ? "border-gray-600" : "border-[#E7E7E7]"
-            } w-full my-4`}
+            } w-full mb-4 mt-6`}
           />
         </div>
 

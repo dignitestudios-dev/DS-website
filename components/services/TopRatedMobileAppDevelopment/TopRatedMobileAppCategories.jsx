@@ -23,7 +23,7 @@ const TopRatedMobileAppCategories = () => {
       <div
         className={`border ${
           theme === "dark" ? "border-gray-600" : "border-[#E7E7E7]"
-        } w-full mb-4 mt-6`}
+        } w-full my-4`}
       />
 
       <div className="w-full flex items-center justify-center gap-10 flex-wrap mt-6">

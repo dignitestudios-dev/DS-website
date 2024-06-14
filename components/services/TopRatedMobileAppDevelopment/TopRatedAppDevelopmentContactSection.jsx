@@ -78,14 +78,14 @@ const TopRatedAppDevelopmentContactSection = () => {
       <div
         className={`w-full ${
           theme == "dark" ? "bg-[#393939]" : "bg-[#F9F9F9]"
-        } p-4 lg:p-12 rounded-[28px] grid grid-cols-3 gap-10`}
+        }  rounded-[28px] grid grid-cols-3 gap-10`}
       >
         <form
           id="service-page-lead-form"
           onSubmit={handleSubmit}
-          className="col-span-3 lg:col-span-2 flex flex-col items-start gap-8"
+          className="col-span-3 lg:col-span-2 flex flex-col items-start gap-8 p-4 lg:p-12 2xl:p-16"
         >
-          <h1 className="text-[34px] lg:text-[64px] font-semibold tracking-0 lg:tracking-[-3.2px] leading-normal">
+          <h1 className="text-[34px] lg:text-[64px] font-semibold tracking-0 lg:tracking-[-3.2px] leading-normal 2xl:leading-[82px]">
             Let’s build an awesome project together!
           </h1>
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-9">
@@ -156,12 +156,7 @@ const TopRatedAppDevelopmentContactSection = () => {
         </form>
 
         <duv className="col-span-3 lg:col-span-1 flex items-center justify-center">
-          <Image
-            src={"/top-rated-contact-mockup.png"}
-            loader={customLoader}
-            width={402}
-            height={361}
-          />
+         <img src="/top-rated-contact-mockup.png" alt="" className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"/>
         </duv>
       </div>
     </div>
