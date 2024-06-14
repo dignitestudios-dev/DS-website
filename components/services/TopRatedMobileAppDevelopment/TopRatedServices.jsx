@@ -10,18 +10,18 @@ const TopRatedServices = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 lg:my-10">
-      <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-y-6">
+      <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-y-6">
         <div className={` flex flex-col gap-2 justify-start items-start `}>
           <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
             Our mobile app development
           </p>
-          <div className={`w-full px-0 flex justify-between items-center`}>
+          {/* <div className={`w-full px-0 flex justify-between items-center`}> */}
             <h1
-              className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] xl:font-bold`}
+              className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold`}
             >
               services
             </h1>
-          </div>
+          {/* </div> */}
         </div>
         <div className="w-full lg:w-auto hidden lg:block">
           <Link

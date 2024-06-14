@@ -43,7 +43,7 @@ const MobileAppDevCaseStudies = () => {
           </p>
           <div className={`w-full px-0 flex justify-between items-center`}>
             <h1
-              className={`font-extrabold text-3xl lg:text-5xl xl:text-[72px] xl:font-bold uppercase`}
+              className={`font-extrabold text-3xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold uppercase`}
             >
               case studies
             </h1>

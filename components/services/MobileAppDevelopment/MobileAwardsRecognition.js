@@ -10,7 +10,7 @@ const MobileAwardsRecognition = () => {
         style={{
           color: palette?.color,
         }}
-        className="text-3xl font-extrabold lg:text-4xl xl:text-[72px] lg:font-bold uppercase group"
+        className="text-3xl font-extrabold lg:text-4xl xl:text-[72px] 2xl:text-[104px] tracking-tighter lg:font-bold uppercase group"
       >
         <span className="group-hover:text-[#F15C20] transition-all duration-300">
           awards & recognition

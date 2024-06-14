@@ -10,7 +10,7 @@ const TopRatedMobileAppCategories = () => {
       <h1
         className={`${
           theme === "dark" ? "text-white" : "text-black"
-        } text-[42px] text-center font-extrabold text-4xl lg:text-5xl xl:text-[72px] xl:font-bold uppercase`}
+        } text-[42px] text-center font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold uppercase`}
       >
         mobile app categories
       </h1>
