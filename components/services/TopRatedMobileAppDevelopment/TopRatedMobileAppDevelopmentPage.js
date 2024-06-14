@@ -12,6 +12,8 @@ import TopRatedHero from './TopRatedHero'
 import TopRatedMobileAppCategories from './TopRatedMobileAppCategories'
 import TopRatedAppDevelopmentWorkflow from './TopRatedAppDevelopmentWorkflow'
 import TopRatedAppDevFaq from './TopRatedAppDevFaq'
+import MobileAppDevCaseStudies from '../MobileAppDevelopment/MobileAppDevCaseStudies'
+import TopRatedTestimonials from './TopRatedTestimonials'
 
 const TopRatedMobileAppDevelopmentPage = () => {
   return (
@@ -21,10 +23,10 @@ const TopRatedMobileAppDevelopmentPage = () => {
       <TopRatedServices />
       <TopRatedMobileAppCategories />
       <ExpertMobileAppDevelopersSection />
-      <CaseStudiesSection />
+      <MobileAppDevCaseStudies />
       <TopRatedAppDevelopmentWorkflow />
       <WhyChooseUsSection />
-      <Testimonials />
+      <TopRatedTestimonials />
       <TopRatedAppDevFaq />
       <TopRatedAppDevelopmentContactSection />
       <TopRatedPageOurOffices />
