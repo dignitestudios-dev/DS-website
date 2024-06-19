@@ -18,26 +18,26 @@ const TopRatedPageOurOffices = () => {
           image={"/florida-office.png"}
           title={"Florida, US"}
           address={
-            "3505 lake lynda drive Dr #200, orlando fL 32817, united states"
+            "3505 Lake Lynda Drive Dr #200, Orlando FL 32817, United States"
           }
         />
         <OfficeCard
           image={"/dubai-office.png"}
           title={"Dubai, UAE"}
           address={
-            "Level 21, al habtoor business tower, king salman biz abdul aziz al saud st, dubai marina, dubai, UAE"
+            "Level 21, Al Habtoor Business Tower, King Salman Biz Abdul Aziz Al Saud St, Dubai Marina, Dubai, UAE"
           }
         />
         <OfficeCard
           image={"/wyoming-office.png"}
-          title={"Wyoming, uS"}
-          address={"312 W 2nd street, casper, wy 82601, united states"}
+          title={"Wyoming, US"}
+          address={"312 W 2nd Street, Casper, Wy 82601, United States"}
         />
         <OfficeCard
           image={"/pakistan-office.png"}
           title={"Pakistan"}
           address={
-            "Suite 104, emarah suites, shahrah-e-faisal, block a, karachi, sindh 75400, pakistan"
+            "Suite 104, Emarah Suites, Shahrah-E-Faisal, Block A, Karachi, Sindh 75400, Pakistan"
           }
         />
       </div>
