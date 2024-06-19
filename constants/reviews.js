@@ -18,7 +18,7 @@ export const reviews = [
   },
   {
     review:
-      "The experience has been straight forward and seem less. I thank everyone for there knowledge and expertise on get this project done. I will be forever great full for the work that has been put in and I thank everyone for everything and all of the hard work!!",
+      "The experience has been straightforward and seamless. I thank everyone for their knowledge and expertise in getting this project done. I will be forever grateful for the work that has been put in, and I thank everyone for everything and all of their hard work!",
     image: "/testimonial-6.webp",
     author: "Laurent Carter",
     designation: "CEO, @Carterboating",

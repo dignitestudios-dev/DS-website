@@ -48,9 +48,9 @@ const TopRatedMobileAppCategories = () => {
           </h1>
           <div className="bg-[#319CFF] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
-            src="/ecommerce-mockup.png"
+            src="/ecommerce-mockup-2.png"
             alt=""
-            className="w-[549.72px] h-[490.98px] 2xl:h-[650px] 2xl:w-[590px] absolute -bottom-40 2xl:-bottom-56 2xl:-right-20 -right-14 group-hover:-bottom-32 transition-all duration-300"
+            className="w-full h-[490.98px] 2xl:h-[650px] absolute -bottom-48 2xl:-bottom-56 2xl:-right-20 -right-14 group-hover:-bottom-32 transition-all duration-300"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#07D98D] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">
@@ -59,9 +59,9 @@ const TopRatedMobileAppCategories = () => {
           </h1>
           <div className="bg-[#16ED9F] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
-            src="/insurance-mockup.png"
+            src="/insurance-mockup-1.png"
             alt=""
-            className="h-[431.37px] w-[353.23px] 2xl:h-[555px] 2xl:w-[550px] absolute -bottom-24 2xl:-bottom-32 -right-16 group-hover:-bottom-16 transition-all duration-300"
+            className="h-[431.37px] w-full 2xl:h-[555px] absolute -bottom-32 2xl:-bottom-32 -right-14 group-hover:-bottom-16 transition-all duration-300"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#FEAE12] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">
@@ -70,7 +70,7 @@ const TopRatedMobileAppCategories = () => {
           <img
             src="/utility-mockup.png"
             alt=""
-            className="w-[450.67px] h-[490.98px] 2xl:h-[565px] 2xl:w-[600px] absolute -bottom-36 -right-16 2xl:-right-20 group-hover:-bottom-28 transition-all duration-300"
+            className="w-[310.67px] h-[390.98px] 2xl:h-[490.98px] 2xl:w-[400.98px] absolute -bottom-10 right-0 2xl:-right-0 group-hover:-bottom-4 transition-all duration-300"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#F4096C] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">
@@ -79,7 +79,7 @@ const TopRatedMobileAppCategories = () => {
           <img
             src="/dating-mockup.png"
             alt=""
-            className="w-[400.67px] h-[490.98px] 2xl:h-[565px] 2xl:w-[400px] absolute -bottom-48 -right-11 group-hover:-bottom-40 transition-all duration-300"
+            className="w-full h-[490.98px] 2xl:h-[565px] 2xl:w-[400px] absolute -bottom-48 -right-14 group-hover:-bottom-40 transition-all duration-300"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#9875FD] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">

@@ -40,16 +40,16 @@ const TopRatedNavbar = ({ setIsOpen }) => {
     <div
       className={`relative px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  h-20  flex items-center justify-end w-full`}
     >
-      {/* <Link aria-label="logo" href="/" className="h-auto">
+      <Link aria-label="logo" href="/" className="h-auto">
         <img
           alt="logo"
           // loader={customLoader}
           // width={120}
           // height={64}
-          src={"/logo-dark.png"}
+          src={theme == "light" ? "/logo.png" : "/logo-dark.png"}
           className="h-[70px] w-[120px]"
         />
-      </Link> */}
+      </Link>
       <div
         style={{ color: "#fff" }}
         className={`w-auto ms-auto lg:mr-6 xl:mr-8
