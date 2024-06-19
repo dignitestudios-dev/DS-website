@@ -78,7 +78,7 @@ const TopRatedAppDevelopmentContactSection = () => {
       <div
         className={`w-full ${
           theme == "dark" ? "bg-[#393939]" : "bg-[#F9F9F9]"
-        }  rounded-[28px] grid grid-cols-3 gap-10`}
+        }  rounded-[28px] grid grid-cols-3 gap-x-10`}
       >
         <form
           id="service-page-lead-form"
@@ -155,8 +155,12 @@ const TopRatedAppDevelopmentContactSection = () => {
           {error && <Alert />}
         </form>
 
-        <duv className="col-span-3 lg:col-span-1 flex items-center justify-center">
-         <img src="/top-rated-contact-mockup.png" alt="" className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"/>
+        <duv className="col-span-3 lg:col-span-1 flex items-center justify-center p-4 pt-0 lg:p-0">
+          <img
+            src="/top-rated-contact-mockup.png"
+            alt=""
+            className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"
+          />
         </duv>
       </div>
     </div>

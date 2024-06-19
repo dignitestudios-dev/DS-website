@@ -10,6 +10,7 @@ import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
 import { IoCall } from "react-icons/io5";
 import { FiArrowUpRight } from "react-icons/fi";
+import { BiMenuAltRight } from "react-icons/bi";
 
 const TopRatedNavbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
@@ -162,9 +163,10 @@ const TopRatedNavbar = ({ setIsOpen }) => {
           type="button"
           name="menu-toggle"
           onClick={() => setIsOpen(true)}
-          className="flex lg:hidden h-4 lg:h-auto"
+          className={`flex lg:hidden ${theme === 'light' ? 'text-black': 'text-white'}`}
         >
-          <img src={"/menu-dark.webp"} className="h-full" />
+          {/* <img src={"/menu-dark.webp"} className="h-full" /> */}
+          <BiMenuAltRight className="text-3xl"/>
         </button>
       </div>
     </div>

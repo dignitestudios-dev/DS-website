@@ -3,10 +3,11 @@ import Link from "next/link";
 import React, { useContext, useState } from "react";
 import TopRatedNavbar from "./TopRatedNavbar";
 import { GlobalContext } from "@/context/GlobalContext";
-import { IoPerson } from "react-icons/io5";
+import { IoCall, IoPerson } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import Alert from "@/components/global/Alert";
+import { FiArrowUpRight } from "react-icons/fi";
 
 const TopRatedHero = () => {
   const { palette, setIsSidebarOpen, setError, error, theme } =
@@ -126,6 +127,21 @@ const TopRatedHero = () => {
               integration, performance, and innovative features to twice your
               app's worth.
             </span>
+            <div className="w-full flex items-center justify-center gap-4 mt-1 lg:hidden">
+              <Link
+                href={"tel:(877) 714-1770"}
+                // onClick={() => navigateTo("/contact-us")}
+                className={`text-sm rounded-full font-medium text-white bg-orange-600 w-[147px] h-[48px] outline-none flex items-center justify-center gap-1`}
+              >
+                <IoCall className="text-base" /> (877) 714-1770
+              </Link>
+              <button
+                onClick={() => navigateTo("/contact-us")}
+                className={`text-sm rounded-full font-medium text-white bg-orange-600 w-[147px] h-[48px] outline-none flex items-center justify-center gap-1`}
+              >
+                Contact Us <FiArrowUpRight className="text-base" />
+              </button>
+            </div>
           </div>
           <div className="w-full lg:w-[40%] flex items-center justify-center lg:justify-start">
             <div
