@@ -155,7 +155,7 @@ const TopRatedAppDevelopmentContactSection = () => {
           {error && <Alert />}
         </form>
 
-        <duv className="col-span-3 lg:col-span-1 flex items-center justify-center p-4 pt-0 lg:p-0">
+        <duv className="col-span-3 lg:col-span-1 hidden lg:flex items-center justify-center p-4 pt-0 lg:p-0">
           <img
             src="/top-rated-contact-mockup.png"
             alt=""
