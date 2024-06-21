@@ -135,12 +135,12 @@ const TopRatedHero = () => {
               >
                 <IoCall className="text-base" /> (877) 714-1770
               </Link>
-              <button
-                onClick={() => navigateTo("/contact-us")}
+              <Link
+                href={"/contact-us"}
                 className={`text-sm rounded-full font-medium text-white bg-orange-600 w-[147px] h-[48px] outline-none flex items-center justify-center gap-1`}
               >
                 Contact Us <FiArrowUpRight className="text-base" />
-              </button>
+              </Link>
             </div>
           </div>
           <div className="w-full lg:w-[40%] flex items-center justify-center lg:justify-start">
