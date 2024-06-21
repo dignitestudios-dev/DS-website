@@ -120,7 +120,7 @@ const TopRatedNavbar = ({ setIsOpen }) => {
         >
           FAQs
         </button>
-        <Link href={'tel:(877) 714-1770'}
+        <Link href={'tel:877714-1770'}
           // onClick={() => navigateTo("/contact-us")}
           className={`text-[14px] h-8 font-medium text-orange-600 bg-transparent  outline-none flex items-center justify-center gap-1`}
         >
