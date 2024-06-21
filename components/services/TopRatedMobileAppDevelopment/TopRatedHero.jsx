@@ -129,7 +129,7 @@ const TopRatedHero = () => {
             </span>
             <div className="w-full flex items-center justify-center gap-4 mt-1 lg:hidden">
               <Link
-                href={"tel:(877) 714-1770"}
+                href={"tel:877714-1770"}
                 // onClick={() => navigateTo("/contact-us")}
                 className={`text-sm rounded-full font-medium text-white bg-orange-600 w-[147px] h-[48px] outline-none flex items-center justify-center gap-1`}
               >
