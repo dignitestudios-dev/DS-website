@@ -8,13 +8,13 @@ export const topratedservices = [
   {
     icon_dark: "/mobile-app-design.png",
     icon_white: "/mobile-app-design-light.png",
-    title: "Mobile App design",
+    title: "Mobile App Design",
     desc: "We provide unique mobile app design services to create addictive mobile features and a full cycle of application design which includes UX/UI interface effectively and conveniently. Design and development of mobile applications play a vital role in the conversion of products. ",
   },
   {
     icon_dark: "/mobile-app-consultation-light.png",
     icon_white: "/mobile-app-consultation-dark.png",
-    title: "Mobile App consultation",
+    title: "Mobile App Consultation",
     desc: "Our professional development provides free mobile consulting services to advise pragmatic measures in the process of mobile app development and bring forth the cost of mobile apps swiftly. They have supreme knowledge of mobile learning and serve consumers with appropriate mobile app solutions. ",
   },
   {
@@ -26,7 +26,7 @@ export const topratedservices = [
   {
     icon_dark: "/mobile-app-maintenance-light.png",
     icon_white: "/mobile-app-maintenance-white.png",
-    title: "Mobile App maintenance",
+    title: "Mobile App Maintenance",
     desc: "Our team proposes complimentary two months of maintenance on your mobile app projects from the day of launch regardless of the app type whether simple app or enterprise app. ",
   },
   {

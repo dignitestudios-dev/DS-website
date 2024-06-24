@@ -85,7 +85,7 @@ const ExpertMobileAppDevelopersSection = () => {
             width={42}
             height={42}
           />
-          <h1 className="text-[20px] font-semibold">Cross-platform</h1>
+          <h1 className="text-[20px] font-semibold">Cross-Platform</h1>
           <p
             className={`text-sm ${
               theme === "dark" ? "text-gray-200" : "text-[#8F8F8F]"
