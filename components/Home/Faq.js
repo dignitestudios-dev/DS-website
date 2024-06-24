@@ -20,14 +20,14 @@ const Faq = () => {
     >
       <div className="w-full h-auto  flex flex-col gap-3 justify-start items-center">
         <h1
-          className={`uppercase font-extrabold text-center lg:text-start  text-4xl lg:text-5xl xl:text-[54px] tracking-tighter lg:font-bold lg:mb-8`}
+          className={`uppercase font-extrabold text-center lg:text-start  text-4xl lg:text-5xl xl:text-[58px] tracking-tighter lg:font-bold lg:mb-8`}
         >
           Frequently asked questions
         </h1>
         <div
           id="accordion-collapse"
           data-accordion="collapse"
-          className="w-full"
+          className="w-full lg:w-[85%]"
         >
           <div
             type="button"

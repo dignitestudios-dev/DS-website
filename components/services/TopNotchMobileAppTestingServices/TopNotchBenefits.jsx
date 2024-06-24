@@ -23,10 +23,30 @@ const TopNotchBenefits = () => {
 
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex flex-col items-start text-start gap-5 lg:pt-6">
-          <h1 className="font-semibold text-[28px]">
+          <h1
+            className="font-semibold text-[28px]"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false"
+            data-aos-anchor-placement="center-bottom"
+          >
             Exclusive Error Detection
           </h1>
-          <p className="text-base leading-[22.56px]">
+          <p
+            className="text-base leading-[22.56px]"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false"
+            data-aos-anchor-placement="center-bottom"
+          >
             Errors are an imminent part of applications. They must be addressed
             in the app development process because they can malfunction, crash,
             freeze, or yield improper results. Thus, the outcome can reflect the
@@ -41,13 +61,25 @@ const TopNotchBenefits = () => {
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-delay="0"
+              data-aos-duration="400"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="false"
+              data-aos-anchor-placement="center-bottom"
             >
               Let’s discuss your project
             </Link>
           </div>
         </div>
         <div className="flex justify-center">
-          <div className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${theme === 'dark'?'bg-[#1c1c1c]':'bg-[#FAFAFA]'}`}>
+          <div
+            className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+              theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
+            }`}
+          >
             <img
               src="/exclusive-error-detection.png"
               alt=""
@@ -59,7 +91,11 @@ const TopNotchBenefits = () => {
 
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex justify-center">
-          <div className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${theme === 'dark'?'bg-[#1c1c1c]':'bg-[#FAFAFA]'}`}>
+          <div
+            className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+              theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
+            }`}
+          >
             <img
               src="/quality-assurance.png"
               alt=""
@@ -68,8 +104,30 @@ const TopNotchBenefits = () => {
           </div>
         </div>
         <div className="flex flex-col items-start text-start gap-5 lg:pt-6">
-          <h1 className="font-semibold text-[28px]">Quality Assurance</h1>
-          <p className="text-base leading-[22.56px]">
+          <h1
+            className="font-semibold text-[28px]"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false"
+            data-aos-anchor-placement="center-bottom"
+          >
+            Quality Assurance
+          </h1>
+          <p
+            className="text-base leading-[22.56px]"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false"
+            data-aos-anchor-placement="center-bottom"
+          >
             In the testing phase, the level of quality assessment is analyzed in
             mobile application testing. It can prevent from bugs and serious
             development issues. Therefore, the skilled professionals of Dignite
@@ -80,6 +138,14 @@ const TopNotchBenefits = () => {
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-delay="0"
+              data-aos-duration="400"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="false"
+              data-aos-anchor-placement="center-bottom"
             >
               Let’s discuss your project
             </Link>
@@ -89,8 +155,30 @@ const TopNotchBenefits = () => {
 
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex flex-col items-start text-start gap-5 lg:pt-6">
-          <h1 className="font-semibold text-[28px]">Security Prevalence</h1>
-          <p className="text-base leading-[22.56px]">
+          <h1
+            className="font-semibold text-[28px]"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false"
+            data-aos-anchor-placement="center-bottom"
+          >
+            Security Prevalence
+          </h1>
+          <p
+            className="text-base leading-[22.56px]"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false"
+            data-aos-anchor-placement="center-bottom"
+          >
             A recent study found the number of mobile application users in the
             USA than desktop applications. In 2015, 54% of users spent their
             leisure hours while using digital media applications on mobile
@@ -106,13 +194,25 @@ const TopNotchBenefits = () => {
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-delay="0"
+              data-aos-duration="400"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="false"
+              data-aos-anchor-placement="center-bottom"
             >
               Let’s discuss your project
             </Link>
           </div>
         </div>
         <div className="flex justify-center">
-          <div className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${theme === 'dark'?'bg-[#1c1c1c]':'bg-[#FAFAFA]'}`}>
+          <div
+            className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+              theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
+            }`}
+          >
             <img
               src="/security-prevalence.png"
               alt=""
@@ -124,7 +224,11 @@ const TopNotchBenefits = () => {
 
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex justify-center">
-          <div className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${theme === 'dark'?'bg-[#1c1c1c]':'bg-[#FAFAFA]'}`}>
+          <div
+            className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+              theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
+            }`}
+          >
             <img
               src="/fast-development-process.png"
               alt=""
@@ -133,10 +237,30 @@ const TopNotchBenefits = () => {
           </div>
         </div>
         <div className="flex flex-col items-start text-start gap-5 lg:pt-6">
-          <h1 className="font-semibold text-[28px]">
+          <h1
+            className="font-semibold text-[28px]"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false"
+            data-aos-anchor-placement="center-bottom"
+          >
             Fast Development Process
           </h1>
-          <p className="text-base leading-[22.56px]">
+          <p
+            className="text-base leading-[22.56px]"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false"
+            data-aos-anchor-placement="center-bottom"
+          >
             Fast-paced and high-quality mobile apps are the most advocated in
             today’s modern world of lucrative business. Whereas it has a huge
             influence on entrepreneurs, small and large enterprises, and the
@@ -150,6 +274,14 @@ const TopNotchBenefits = () => {
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-delay="0"
+              data-aos-duration="400"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="false"
+              data-aos-anchor-placement="center-bottom"
             >
               Let’s discuss your project
             </Link>

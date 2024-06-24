@@ -7,7 +7,7 @@ const MobileAppTestingInRealTime = () => {
   return (
     <div className="w-full py-6 lg:py-12 global-padding-horizontal">
       <div
-        className={`w-full rounded-3xl flex flex-col lg:flex-row items-end ${
+        className={`w-full rounded-3xl flex flex-col lg:flex-row items-end overflow-y-hidden ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#1c1c1c]"
         }`}
       >
@@ -35,7 +35,20 @@ const MobileAppTestingInRealTime = () => {
             </button>
           </div>
         </div>
-        <img src="/testing-in-real-time.png" alt="testing-in-real-time" title="testing-in-real-time" className="lg:w-[530px] lg:h-[442px]"/>
+        <img
+          src="/testing-in-real-time.png"
+          alt="testing-in-real-time"
+          title="testing-in-real-time"
+          className="lg:w-[530px] lg:h-[442px]"
+          data-aos="slide-up"
+          data-aos-offset="200" // Adjusted offset to trigger animation earlier
+          data-aos-delay="0" // No delay for immediate animation start
+          data-aos-duration="700"
+          data-aos-easing="ease-in"
+          data-aos-mirror="false"
+          data-aos-once="false" // Set to false to repeat animation on scroll up
+          data-aos-anchor-placement="center-bottom"
+        />
       </div>
     </div>
   );

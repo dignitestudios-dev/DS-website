@@ -13,21 +13,59 @@ const TestingServices = () => {
         instantly.
       </p>
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 border-b py-6 mt-20">
-        <div className="order-2 lg:order-1">
+        <div className="order-2 lg:order-1 overflow-hidden">
           <img
             src="/software-functional-testing-services.png"
             alt="testing-services-mockup"
             title="testing-services-mockup"
+            data-aos="slide-right"
+            data-aos-offset="200" // Adjusted offset to trigger animation earlier
+            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-anchor-placement="center-bottom"
           />
         </div>
-        <div className="flex flex-col items-start text-start justify-center gap-5 order-1 lg:order-2">
-          <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]">
+        <div className="flex flex-col items-start text-start justify-center gap-5 order-1 lg:order-2 overflow-hidden">
+          <h2
+            className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]"
+            data-aos="slide-left"
+            data-aos-offset="200" // Adjusted offset to trigger animation earlier
+            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-duration="1000"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-anchor-placement="center-bottom"
+          >
             01
           </h2>
-          <h1 className="text-[28px] font-semibold">
+          <h1
+            className="text-[28px] font-semibold"
+            data-aos="slide-left"
+            data-aos-offset="200" // Adjusted offset to trigger animation earlier
+            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-anchor-placement="center-bottom"
+          >
             Software Functional Testing Services
           </h1>
-          <p className="text-xs font-normal text-start mb-3">
+          <p
+            className="text-xs font-normal text-start mb-3"
+            data-aos="slide-left"
+            data-aos-offset="200" // Adjusted offset to trigger animation earlier
+            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-anchor-placement="center-bottom"
+          >
             At multiple granularity levels, functional testing ensures the
             software’s conformity to meet the corresponding output with the
             end-user’s expectations. The process enables the quick detection of
@@ -41,6 +79,14 @@ const TestingServices = () => {
             <Link
               href={"/contact"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
+              data-aos="slide-left"
+              data-aos-offset="200" // Adjusted offset to trigger animation earlier
+              data-aos-delay="0" // No delay for immediate animation start
+              data-aos-duration="700"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="false" // Set to false to repeat animation on scroll up
+              data-aos-anchor-placement="center-bottom"
             >
               Get in touch
             </Link>
@@ -49,13 +95,43 @@ const TestingServices = () => {
       </div>
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 border-b py-6">
         <div className="flex flex-col items-start justify-center gap-5 text-start">
-          <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]">
+          <h2
+            className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]"
+            data-aos="slide-right"
+            data-aos-offset="100" // Adjusted offset to trigger animation earlier
+            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-anchor-placement="center-bottom"
+          >
             02
           </h2>
-          <h1 className="text-[28px] font-semibold">
+          <h1
+            className="text-[28px] font-semibold"
+            data-aos="slide-right"
+            data-aos-offset="100" // Adjusted offset to trigger animation earlier
+            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-anchor-placement="center-bottom"
+          >
             Software Automated Testing Services
           </h1>
-          <p className="text-xs font-normal text-start mb-3">
+          <p
+            className="text-xs font-normal text-start mb-3"
+            data-aos="slide-right"
+            data-aos-offset="100" // Adjusted offset to trigger animation earlier
+            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-anchor-placement="center-bottom"
+          >
             The testing service refers to the automated testing methodology and
             usage of tools to execute comprehensive tests of software and
             generate swift reports over the testing measures. Here at Dignite
@@ -68,6 +144,14 @@ const TestingServices = () => {
             <Link
               href={"/contact"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
+              data-aos="slide-right"
+              data-aos-offset="100" // Adjusted offset to trigger animation earlier
+              data-aos-delay="0" // No delay for immediate animation start
+              data-aos-duration="700"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="false" // Set to false to repeat animation on scroll up
+              data-aos-anchor-placement="center-bottom"
             >
               Get in touch
             </Link>
@@ -78,6 +162,14 @@ const TestingServices = () => {
             src="/software-automated-testing-services.png"
             alt="software-automated-testing-services"
             title="software-automated-testing-services"
+            data-aos="slide-left"
+            data-aos-offset="100" // Adjusted offset to trigger animation earlier
+            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-anchor-placement="center-bottom"
           />
         </div>
       </div>
@@ -87,16 +179,51 @@ const TestingServices = () => {
             src="/software-data-testing-services.png"
             alt="software-data-testing-services"
             title="software-data-testing-services"
+            data-aos="slide-right"
+            data-aos-offset="100" // Adjusted offset to trigger animation earlier
+            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-anchor-placement="center-bottom"
           />
         </div>
         <div className="flex flex-col items-start justify-center gap-5 order-1 lg:order-2 text-start">
-          <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]">
+          <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]"
+          data-aos="slide-left"
+          data-aos-offset="100" // Adjusted offset to trigger animation earlier
+          data-aos-delay="0" // No delay for immediate animation start
+          data-aos-duration="700"
+          data-aos-easing="ease-in"
+          data-aos-mirror="false"
+          data-aos-once="false" // Set to false to repeat animation on scroll up
+          data-aos-anchor-placement="center-bottom"
+          >
             03
           </h2>
-          <h1 className="text-[28px] font-semibold">
+          <h1 className="text-[28px] font-semibold" 
+          data-aos="slide-left"
+          data-aos-offset="100" // Adjusted offset to trigger animation earlier
+          data-aos-delay="0" // No delay for immediate animation start
+          data-aos-duration="700"
+          data-aos-easing="ease-in"
+          data-aos-mirror="false"
+          data-aos-once="false" // Set to false to repeat animation on scroll up
+          data-aos-anchor-placement="center-bottom"
+          >
             Software Data Testing Services
           </h1>
-          <p className="text-xs font-normal text-start mb-3">
+          <p className="text-xs font-normal text-start mb-3"
+          data-aos="slide-left"
+          data-aos-offset="100" // Adjusted offset to trigger animation earlier
+          data-aos-delay="0" // No delay for immediate animation start
+          data-aos-duration="700"
+          data-aos-easing="ease-in"
+          data-aos-mirror="false"
+          data-aos-once="false" // Set to false to repeat animation on scroll up
+          data-aos-anchor-placement="center-bottom"
+          >
             It is a process that connects Functional Testing, User Interface,
             and data analytics of the apps to ensure data transforms and
             implementation of business rules. It focuses on the Broader Quality
@@ -108,6 +235,14 @@ const TestingServices = () => {
             <Link
               href={"/contact"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
+              data-aos="slide-left"
+            data-aos-offset="100" // Adjusted offset to trigger animation earlier
+            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-anchor-placement="center-bottom"
             >
               Get in touch
             </Link>

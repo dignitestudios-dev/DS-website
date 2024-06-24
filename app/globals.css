@@ -732,42 +732,6 @@ input:hover {
   @apply px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48
 }
 
-/* scroller  */
-.scroller3 {
-  width: 100%;
-}
-
-.scroller__inner3 {
-  padding-block: 0rem;
-}
-
-.scroller3[data-animated="true"] .scroller__inner3 {
-  width: auto;
-  animation: scroll3 var(--_animation-duration, 40s)
-    var(--_animation-direction, forwards) linear infinite;
-}
-
-.scroller3[data-direction="right"] {
-  --_animation-direction: reverse;
-}
-
-.scroller3[data-direction="left"] {
-  --_animation-direction: forwards;
-}
-
-.scroller3[data-speed="fast"] {
-  --_animation-duration: 20s;
-}
-
-.scroller3[data-speed="slow"] {
-  --_animation-duration: 60s;
-}
-
-@keyframes scroll3 {
-  to {
-    transform: translate(calc(-50% - 0rem));
-  }
-}
 
 /*  */
 
@@ -775,30 +739,131 @@ input:hover {
   overflow: visible !important
 }
 
-.scroll-container {
-  width: 100%;
-  overflow: hidden;
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.custom-light-shadow{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.icon-wrapper {
+@keyframes slide {
+  from {
+    transform: translateX(0%) !important;
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 20px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
   display: inline-block;
-  animation: scrollRightToLeft 2s linear infinite;
+  animation: 20s slide infinite linear;
+  display: flex;
+  padding: 20px 0px;
+}
+
+.logos-slide div{
+  padding: 20px 40px;
+  margin: 0 30px;
+}
+
+@keyframes slide2 {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.logos2 {
+  overflow: hidden;
+  padding: 0px 0;
+  background: white;
+  white-space: nowrap;
+  margin-top: 0px;
+  position: relative;
+}
+
+.logos2:before,
+.logos2:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos2:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos2:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide2 {
+  display: inline-block;
+  animation: 20s slide2 infinite linear;
+  display: flex;
+  padding: 20px 0px 35px 0px;
+}
+
+.logos-slide2 div{
+  padding: 20px 40px;
+  margin: 0 30px;
+}
+
+/* components/Card.module.css */
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease; /* Transition for smooth scaling */
+
+  /* Adjust other styles as needed */
+}
+
+.iconContainer {
+  text-align: center;
 }
 
 .icon {
-  width: 109px; /* Adjust based on your icon size */
-  height: auto;
+  width: 50px; /* Initial size of the icon */
+  height: 50px;
+  transition: transform 0.3s ease; /* Transition for smooth scaling */
 }
 
-@keyframes scrollRightToLeft {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+.card:hover .icon {
+  transform: scale(1.2); /* Scale up to 120% on hover */
 }

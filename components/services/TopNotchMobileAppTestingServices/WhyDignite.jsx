@@ -38,7 +38,7 @@ const WhyDignite = () => {
 
         <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
           <div
-            className={`h-[286px] flex flex-col items-start gap-3 text-start ${
+            className={`h-[286px] flex flex-col items-start gap-3 text-start group ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             } rounded-xl p-6`}
           >
@@ -46,7 +46,7 @@ const WhyDignite = () => {
               src="/performance-testing.png"
               alt="performance-testing"
               title="performance-testing"
-              className="w-10 h-10"
+              className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
             />
             <h2 className="text-xl font-semibold">
               Innovative Mobile Performance Testing
@@ -60,7 +60,7 @@ const WhyDignite = () => {
             </p>
           </div>
           <div
-            className={`h-[286px] flex flex-col items-start gap-3 text-start ${
+            className={`h-[286px] flex flex-col items-start gap-3 text-start group ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             } rounded-xl p-6`}
           >
@@ -68,7 +68,7 @@ const WhyDignite = () => {
               src="/quality-assessement.png"
               alt="quality-assessement"
               title="quality-assessement-image"
-              className="w-10 h-10"
+              className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
             />
             <h2 className="text-xl font-semibold">Quality Assessment</h2>
             <p className="text-xs font-normal">
@@ -81,7 +81,7 @@ const WhyDignite = () => {
             </p>
           </div>
           <div
-            className={`h-[286px] flex flex-col items-start gap-3 text-start ${
+            className={`h-[286px] flex flex-col items-start gap-3 text-start group ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             } rounded-xl p-6`}
           >
@@ -89,7 +89,7 @@ const WhyDignite = () => {
               src="/track-record.png"
               alt="track-record"
               title="track-record-image"
-              className="w-10 h-10"
+              className="w-10 h-10 scale-75 group-hover:scale-110 group-hover:rotate-90 transition-all duration-1000"
             />
             <h2 className="text-xl font-semibold">Proven Track Record</h2>
             <p className="text-xs font-normal">

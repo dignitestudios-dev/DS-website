@@ -2,7 +2,7 @@ import React from "react";
 
 const TestingTools = () => {
   return (
-    <div className="py-10 global-padding-horizontal flex flex-col items-center text-center">
+    <div className="w-full py-10 global-padding-horizontal flex flex-col items-center text-center">
       <h3 className="text-xl font-bold text-[#F15C20] uppercase">exlcusive</h3>
       <img src="/lines.png" alt="" />
 
@@ -15,99 +15,456 @@ const TestingTools = () => {
         testing company conducts testing measures with high-standard tools and
         software. 
       </p>
-      {/* <div
-        className="scroller3 relative w-full h-auto md:h-96 "
-        data-speed="fast"
-        data-animated="true"
-      >
-        <div className="scroller__inner3 w-full my-8 flex items-center gap-4 justify-start  md:h-[250px] lg:h-[154px] border">
-          <div className="w-[109px] h-[62px] shadow-2xl rounded-full bg-gray-200 flex items-center justify-center gap-1">
-            <img
-              src="/swift-orange.png"
-              alt="swift-orange"
-              title="swift-orange"
-              className="w-[20px] h-[18px]"
-            />
-            <span className="text-[18px] font-medium">Swift</span>
-          </div>
 
-          <div className="w-[109px] h-[62px] shadow-2xl rounded-full bg-gray-200 flex items-center justify-center gap-1">
+      <div className="w-full lg:w-[70%] mx-auto logos flex">
+        <dv className="w-full logos-slide">
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
             <img
-              src="/swift-orange.png"
-              alt="swift-orange"
-              title="swift-orange"
-              className="w-[20px] h-[18px]"
+              src="/flutter-icon.webp"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
             />
-            <span className="text-[18px] font-medium">Swift</span>
+            <p className="text-[18px] font-medium">Flutter</p>
           </div>
-
-          <div className="w-[109px] h-[62px] shadow-2xl rounded-full bg-gray-200 flex items-center justify-center gap-1">
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
             <img
-              src="/swift-orange.png"
-              alt="swift-orange"
-              title="swift-orange"
-              className="w-[20px] h-[18px]"
+              src="/swift-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
             />
-            <span className="text-[18px] font-medium">Swift</span>
+            <p className="text-[18px] font-medium">Swift</p>
           </div>
-
-          <div className="w-[109px] h-[62px] shadow-2xl rounded-full bg-gray-200 flex items-center justify-center gap-1">
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
             <img
-              src="/swift-orange.png"
-              alt="swift-orange"
-              title="swift-orange"
-              className="w-[20px] h-[18px]"
+              src="/vue-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
             />
-            <span className="text-[18px] font-medium">Swift</span>
+            <p className="text-[18px] font-medium">Vue</p>
           </div>
-
-          <div className="w-[109px] h-[62px] shadow-2xl rounded-full bg-gray-200 flex items-center justify-center gap-1">
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
             <img
-              src="/swift-orange.png"
-              alt="swift-orange"
-              title="swift-orange"
-              className="w-[20px] h-[18px]"
+              src="/react-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
             />
-            <span className="text-[18px] font-medium">Swift</span>
+            <p className="text-[18px] font-medium">React</p>
           </div>
-
-          <div className="w-[109px] h-[62px] shadow-2xl rounded-full bg-gray-200 flex items-center justify-center gap-1">
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
             <img
-              src="/swift-orange.png"
-              alt="swift-orange"
-              title="swift-orange"
-              className="w-[20px] h-[18px]"
+              src="/illustrator-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[18px]"
             />
-            <span className="text-[18px] font-medium">Swift</span>
+            <p className="text-[18px] font-medium">Ilustrator</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/tailwind-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Tailwind</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/flutter-icon.webp"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Flutter</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/swift-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Swift</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/vue-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Vue</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/react-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">React</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/illustrator-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[18px]"
+            />
+            <p className="text-[18px] font-medium">Ilustrator</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/tailwind-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Tailwind</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/flutter-icon.webp"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Flutter</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/swift-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Swift</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/vue-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Vue</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/react-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">React</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/illustrator-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[18px]"
+            />
+            <p className="text-[18px] font-medium">Ilustrator</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/tailwind-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Tailwind</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/flutter-icon.webp"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Flutter</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/swift-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Swift</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/vue-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Vue</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/react-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">React</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/illustrator-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[18px]"
+            />
+            <p className="text-[18px] font-medium">Ilustrator</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/tailwind-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Tailwind</p>
+          </div>
+        </dv>
+      </div>
+
+      <div className="w-full lg:w-[70%] mx-auto logos2 flex">
+        <div className="w-full logos-slide2">
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/photoshop-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[18px]"
+            />
+            <p className="text-[18px] font-medium">Photoshop</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/java-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Java</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/kotlin-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Kotlin</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/firebase-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Firebase</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/visual-studio-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Visual Studio</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/photoshop-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[18px]"
+            />
+            <p className="text-[18px] font-medium">Photoshop</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/java-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Java</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/kotlin-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Kotlin</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/firebase-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Firebase</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/visual-studio-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Visual Studio</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/photoshop-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[18px]"
+            />
+            <p className="text-[18px] font-medium">Photoshop</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/java-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Java</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/kotlin-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Kotlin</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/firebase-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Firebase</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/visual-studio-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Visual Studio</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/photoshop-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[18px]"
+            />
+            <p className="text-[18px] font-medium">Photoshop</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/java-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Java</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/kotlin-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Kotlin</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/firebase-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Firebase</p>
+          </div>
+          <div className="rounded-full flex items-center justify-center gap-2 custom-light-shadow">
+            <img
+              src="/visual-studio-icon.png"
+              alt="tehcnology-icon"
+              title="technology-icon"
+              loading="lazy"
+              className="w-[22px] h-[22px]"
+            />
+            <p className="text-[18px] font-medium">Visual Studio</p>
           </div>
         </div>
-      </div> */}
-      <div className="scroll-container">
-      <div className="icon-wrapper">
-        <img src="/swift-orange.png" alt="icon" className="" />
       </div>
-      <div className="icon-wrapper">
-        <img src="/swift-orange.png" alt="icon" className="" />
-      </div>
-      <div className="icon-wrapper">
-        <img src="/swift-orange.png" alt="icon" className="" />
-      </div>
-      <div className="icon-wrapper">
-        <img src="/swift-orange.png" alt="icon" className="" />
-      </div>
-      <div className="icon-wrapper">
-        <img src="/swift-orange.png" alt="icon" className="" />
-      </div>
-      <div className="icon-wrapper">
-        <img src="/swift-orange.png" alt="icon" className="" />
-      </div>
-      <div className="icon-wrapper">
-        <img src="/swift-orange.png" alt="icon" className="" />
-      </div>
-      <div className="icon-wrapper">
-        <img src="/swift-orange.png" alt="icon" className="" />
-      </div>
-    </div>
     </div>
   );
 };
