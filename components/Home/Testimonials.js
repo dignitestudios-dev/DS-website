@@ -66,7 +66,7 @@ const Testimonials = () => {
         }}
       />
 
-      <div className={`w-full pt-4 lg:pt-6 gap-10`}>
+      <div className={`w-full pt-4 lg:pt-6 gap-10 overflow-hidden`}>
         <Swiper {...sliderSettings} modules={[Autoplay]} className="">
           {reviews.map((review, index) => {
             return (
