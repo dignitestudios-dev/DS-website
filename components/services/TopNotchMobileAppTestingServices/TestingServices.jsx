@@ -12,8 +12,8 @@ const TestingServices = () => {
         automated testing of <br /> apps to hasten effective solutions
         instantly.
       </p>
-      <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 border-b py-6 mt-20">
-        <div className="order-2 lg:order-1 overflow-hidden">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-10 border-b py-6 mt-20">
+        <div className="order-2 lg:order-1 overflow-hidden mb-6 lg:mb-0">
           <img
             src="/software-functional-testing-services.png"
             alt="testing-services-mockup"
@@ -28,7 +28,7 @@ const TestingServices = () => {
             data-aos-anchor-placement="center-bottom"
           />
         </div>
-        <div className="flex flex-col items-start text-start justify-center gap-5 order-1 lg:order-2 overflow-hidden">
+        <div className="flex flex-col items-start text-start justify-center gap-5 order-1 lg:order-2 ">
           <h2
             className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]"
             data-aos="slide-left"

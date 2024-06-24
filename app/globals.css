@@ -743,6 +743,10 @@ input:hover {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.custom-light-shadow-dark {
+  box-shadow: rgba(84, 87, 91, 0.2) 0px 8px 24px;
+}
+
 @keyframes slide {
   from {
     transform: translateX(0%) !important;
@@ -754,8 +758,8 @@ input:hover {
 
 .logos {
   overflow: hidden;
-  padding: 20px 0;
-  background: white;
+  padding: 40px 0 !important;
+  /* background: white; */
   white-space: nowrap;
   position: relative;
 }
@@ -784,13 +788,51 @@ input:hover {
   display: inline-block;
   animation: 20s slide infinite linear;
   display: flex;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .logos-slide div{
   padding: 20px 40px;
   margin: 0 30px;
 }
+
+@media screen and (max-width: 600px){
+  .logos-slide div{
+    padding: 20px 40px;
+    margin: 0 10px;
+  }
+}
+
+.logosDark {
+  overflow: hidden;
+  padding: 0px 0;
+  /* background: white; */
+  white-space: nowrap;
+  margin-top: 0px;
+  position: relative;
+}
+
+.logoDark:before,
+.logoDark:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logosDark:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(40, 39, 39, 0), rgb(33, 32, 32));
+}
+
+.logosDark:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(40, 39, 39, 0), rgb(33, 32, 32));
+}
+
+/* slider 2 */
 
 @keyframes slide2 {
   from {
@@ -804,7 +846,7 @@ input:hover {
 .logos2 {
   overflow: hidden;
   padding: 0px 0;
-  background: white;
+  /* background: white; */
   white-space: nowrap;
   margin-top: 0px;
   position: relative;
@@ -834,7 +876,7 @@ input:hover {
   display: inline-block;
   animation: 20s slide2 infinite linear;
   display: flex;
-  padding: 20px 0px 35px 0px;
+  padding: 10px 0px 35px 0px;
 }
 
 .logos-slide2 div{
@@ -842,28 +884,38 @@ input:hover {
   margin: 0 30px;
 }
 
-/* components/Card.module.css */
-
-.card {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 20px;
-  width: 300px;
-  transition: transform 0.3s ease; /* Transition for smooth scaling */
-
-  /* Adjust other styles as needed */
+@media screen and (max-width: 600px){
+  .logos-slide2 div{
+    padding: 20px 40px;
+    margin: 0 10px;
+  }
 }
 
-.iconContainer {
-  text-align: center;
+.logos2Dark {
+  overflow: hidden;
+  padding: 0px 0;
+  /* background: white; */
+  white-space: nowrap;
+  margin-top: 0px;
+  position: relative;
 }
 
-.icon {
-  width: 50px; /* Initial size of the icon */
-  height: 50px;
-  transition: transform 0.3s ease; /* Transition for smooth scaling */
+.logos2Dark:before,
+.logos2Dark:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
 }
 
-.card:hover .icon {
-  transform: scale(1.2); /* Scale up to 120% on hover */
+.logos2Dark:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(40, 39, 39, 0), rgb(33, 32, 32));
+}
+
+.logos2Dark:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(40, 39, 39, 0), rgb(33, 32, 32));
 }
