@@ -83,7 +83,7 @@ const TopRatedAppDevelopmentContactSection = () => {
         <form
           id="service-page-lead-form"
           onSubmit={handleSubmit}
-          className="col-span-3 lg:col-span-2 flex flex-col items-start gap-8 p-4 lg:p-12 2xl:p-16"
+          className="col-span-3 lg:col-span-2 flex flex-col items-start gap-8 p-4 2xl:gap-10 lg:p-12 2xl:p-24"
         >
           <h1 className="text-[34px] lg:text-[64px] font-semibold tracking-0 lg:tracking-[-3.2px] leading-normal 2xl:leading-[82px]">
             Let’s build an awesome project together!

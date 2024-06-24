@@ -98,7 +98,7 @@ const TopRatedAppDevFaq = () => {
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
-                <span className="font-medium text-base md:text-lg lg:text-xl text-[#5C5C5C] uppercase">
+                <span className="font-medium text-base md:text-lg lg:text-xl uppercase">
                   What are the three 3 types of mobile applications?
                 </span>
               </div>
@@ -149,7 +149,7 @@ const TopRatedAppDevFaq = () => {
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
-                <span className="font-medium text-base md:text-lg lg:text-xl text-[#5C5C5C] uppercase">
+                <span className="font-medium text-base md:text-lg lg:text-xl uppercase">
                   What is an API in mobile development?
                 </span>
               </div>
@@ -202,7 +202,7 @@ const TopRatedAppDevFaq = () => {
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
-                <span className="font-medium text-base md:text-lg lg:text-xl text-[#5C5C5C] uppercase">
+                <span className="font-medium text-base md:text-lg lg:text-xl uppercase">
                   What are the requirements for developing an app from scratch?
                 </span>
               </div>
@@ -257,7 +257,7 @@ const TopRatedAppDevFaq = () => {
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
-                <span className="font-medium text-base md:text-lg lg:text-xl text-[#5C5C5C] uppercase">
+                <span className="font-medium text-base md:text-lg lg:text-xl uppercase">
                   What is the best software for mobile app development?
                 </span>
               </div>
