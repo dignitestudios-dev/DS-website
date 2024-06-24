@@ -758,7 +758,7 @@ input:hover {
 
 .logos {
   overflow: hidden;
-  padding: 40px 0 !important;
+  padding: 30px 0 20px;;
   /* background: white; */
   white-space: nowrap;
   position: relative;
@@ -805,7 +805,7 @@ input:hover {
 
 .logosDark {
   overflow: hidden;
-  padding: 0px 0;
+  padding: 40px 0 10px;
   /* background: white; */
   white-space: nowrap;
   margin-top: 0px;
@@ -845,7 +845,7 @@ input:hover {
 
 .logos2 {
   overflow: hidden;
-  padding: 0px 0;
+  padding: 10px 0;
   /* background: white; */
   white-space: nowrap;
   margin-top: 0px;
@@ -893,10 +893,10 @@ input:hover {
 
 .logos2Dark {
   overflow: hidden;
-  padding: 0px 0;
+  padding: 10px 0;
   /* background: white; */
   white-space: nowrap;
-  margin-top: 0px;
+  margin-top: 20px;
   position: relative;
 }
 
