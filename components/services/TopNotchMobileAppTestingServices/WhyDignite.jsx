@@ -1,0 +1,109 @@
+"use client";
+import { GlobalContext } from "@/context/GlobalContext";
+import Link from "next/link";
+import React, { useContext } from "react";
+
+const WhyDignite = () => {
+  const { theme } = useContext(GlobalContext);
+  return (
+    <div className="py-10 global-padding-horizontal">
+      <div className={`w-full`}>
+        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 mt-3">
+          <div>
+            <h1
+              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[77.45px]`}
+            >
+              <span className="text-[#8F8F8F]">Why</span>
+              <br />
+              Dignite Studios
+            </h1>
+          </div>
+          <div className="lg:px-12 flex flex-col items-start justify-center gap-3">
+            <p className={`text-[13px md:leading-[17.68px]`}>
+              The top-class mobile app testing services of Dignite Studios
+              streamline highly effective testing methodology to prevent
+              disasters and provide the most reliable solutions to their
+              partners and customers.
+            </p>
+            <div className="mt-4">
+              <Link
+                href={"/contact"}
+                className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
+              >
+                Start your project
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+          <div
+            className={`h-[286px] flex flex-col items-start gap-3 text-start ${
+              theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
+            } rounded-xl p-6`}
+          >
+            <img
+              src="/performance-testing.png"
+              alt="performance-testing"
+              title="performance-testing"
+              className="w-10 h-10"
+            />
+            <h2 className="text-xl font-semibold">
+              Innovative Mobile Performance Testing
+            </h2>
+            <p className="text-xs font-normal">
+              The interpretive minds of Dignite’s mobile application testing
+              specialists bestow cutting-edge solutions to produce effective
+              in-house testing of mobile apps. We always tend to offer reliable
+              and compatible testing processes to uplift our client’s
+              businesses.
+            </p>
+          </div>
+          <div
+            className={`h-[286px] flex flex-col items-start gap-3 text-start ${
+              theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
+            } rounded-xl p-6`}
+          >
+            <img
+              src="/quality-assessement.png"
+              alt="quality-assessement"
+              title="quality-assessement-image"
+              className="w-10 h-10"
+            />
+            <h2 className="text-xl font-semibold">Quality Assessment</h2>
+            <p className="text-xs font-normal">
+              The rigorous mobile app functional testing ensures a modern
+              strategic approach in the development process with thorough mobile
+              security testing and mobile accessibility testing in a particular
+              testing time frame. Our remarkable testing team provides the best
+              solution for mobile testing portfolio and mobile testing specifics
+              to ensure the quality of the application. 
+            </p>
+          </div>
+          <div
+            className={`h-[286px] flex flex-col items-start gap-3 text-start ${
+              theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
+            } rounded-xl p-6`}
+          >
+            <img
+              src="/track-record.png"
+              alt="track-record"
+              title="track-record-image"
+              className="w-10 h-10"
+            />
+            <h2 className="text-xl font-semibold">Proven Track Record</h2>
+            <p className="text-xs font-normal">
+              With our commitment to excellence, we take pride in delivering the
+              best solutions to our clients and partners. Dignite’s reliability
+              and loyalty can’t be ever judged. We always strive to produce the
+              required mobile app testing procedure for valuable customers under
+              the mentioned testing time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default WhyDignite;

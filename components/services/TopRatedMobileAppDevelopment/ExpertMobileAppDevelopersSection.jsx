@@ -9,7 +9,7 @@ const ExpertMobileAppDevelopersSection = () => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   return (
     <div className={`px-4 md:px-12 lg:px-28 lg:py-24 py-12 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-center w-full my-6 md:my-12 ${theme === "dark" ? 'bg-none' : 'bg-[#F9F9F9]'}`}>
-      <h1 className="uppercase font-extrabold text-4xl md:text-5xl lg:text-[72px] 2xl:text-[104px] mx-auto tracking-tighter xl:font-bold text-center lg:text-start">
+      <h1 className="uppercase font-extrabold text-4xl md:text-5xl lg:text-[72px] 2xl:text-[94px] mx-auto tracking-tighter xl:font-bold text-center lg:text-start">
         expert mobile app developers
       </h1>
       <div
@@ -79,8 +79,8 @@ const ExpertMobileAppDevelopersSection = () => {
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
         >
-          <Image
-            src={"/cross-platform-mockup.png"}
+          <img
+            src={"/expert-cross-platform-developers-icon.png"}
             loader={customLoader}
             width={42}
             height={42}

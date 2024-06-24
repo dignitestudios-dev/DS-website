@@ -12,15 +12,15 @@ const TestingServices = () => {
         automated testing of <br /> apps to hasten effective solutions
         instantly.
       </p>
-      <div className="w-full grid grid-cols-1 lg:grid-cols-2 border-b py-6 mt-20">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 border-b py-6 mt-20">
         <div className="order-2 lg:order-1">
           <img
-            src="/testing-services-mockup.png"
+            src="/software-functional-testing-services.png"
             alt="testing-services-mockup"
             title="testing-services-mockup"
           />
         </div>
-        <div className="flex flex-col items-start justify-center gap-5 order-1 lg:order-2">
+        <div className="flex flex-col items-start text-start justify-center gap-5 order-1 lg:order-2">
           <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]">
             01
           </h2>
@@ -47,8 +47,8 @@ const TestingServices = () => {
           </div>
         </div>
       </div>
-      <div className="w-full grid grid-cols-1 lg:grid-cols-2 border-b py-6">
-        <div className="flex flex-col items-start justify-center gap-5">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 border-b py-6">
+        <div className="flex flex-col items-start justify-center gap-5 text-start">
           <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]">
             02
           </h2>
@@ -75,21 +75,21 @@ const TestingServices = () => {
         </div>
         <div className="flex justify-end">
           <img
-            src="/testing-services-mockup.png"
-            alt="testing-services-mockup"
-            title="testing-services-mockup"
+            src="/software-automated-testing-services.png"
+            alt="software-automated-testing-services"
+            title="software-automated-testing-services"
           />
         </div>
       </div>
-      <div className="w-full grid grid-cols-1 lg:grid-cols-2 py-6 mt-20">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 py-6">
         <div className="order-2 lg:order-1">
           <img
-            src="/testing-services-mockup.png"
-            alt="testing-services-mockup"
-            title="testing-services-mockup"
+            src="/software-data-testing-services.png"
+            alt="software-data-testing-services"
+            title="software-data-testing-services"
           />
         </div>
-        <div className="flex flex-col items-start justify-center gap-5 order-1 lg:order-2">
+        <div className="flex flex-col items-start justify-center gap-5 order-1 lg:order-2 text-start">
           <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]">
             03
           </h2>

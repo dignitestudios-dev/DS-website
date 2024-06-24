@@ -15,6 +15,7 @@ import Technologies from '@/components/Home/Technologies'
 import Testimonials from '@/components/Home/Testimonials'
 import WhyChooseUsSection from '@/components/Home/WhyChooseUsSection'
 import { IoArrowUpSharp } from "react-icons/io5";
+import TopRatedAppDevelopmentContactSection from '../services/TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection'
 
 export default function HomePage() {
     const { palette } = useContext(GlobalContext)
@@ -71,7 +72,7 @@ export default function HomePage() {
             <IndustriesSection />
             <Testimonials />
             <Faq />
-            <LandingContactUs />
+            <TopRatedAppDevelopmentContactSection />
             <FindOurOfficesSection />
 
             <button type='button' name='scroll-to-top' onClick={scrollToTop} className='z-[10000] shadow-lg text-2xl flex justify-center items-center w-14 h-14 rounded-full  text-white fixed bottom-4 left-4' style={{

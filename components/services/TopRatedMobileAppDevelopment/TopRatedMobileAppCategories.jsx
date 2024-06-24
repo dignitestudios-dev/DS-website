@@ -50,7 +50,7 @@ const TopRatedMobileAppCategories = () => {
           <img
             src="/ecommerce-mockup-2.png"
             alt=""
-            className="w-full h-[490.98px] 2xl:h-[650px] absolute -bottom-48 2xl:-bottom-[270px] 2xl:-right-20 -right-14 group-hover:-bottom-32 transition-all duration-300"
+            className="w-full h-[490.98px] 2xl:h-[650px] absolute -bottom-48 2xl:-bottom-[270px] 2xl:-right-20 -right-14 group-hover:-bottom-40 2xl:group-hover:-bottom-[248px] transition-all duration-300"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#07D98D] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">
@@ -61,7 +61,7 @@ const TopRatedMobileAppCategories = () => {
           <img
             src="/insurance-mockup-1.png"
             alt=""
-            className="h-[431.37px] w-full 2xl:h-[555px] absolute -bottom-32 2xl:-bottom-44 -right-14 group-hover:-bottom-16 transition-all duration-300"
+            className="h-[431.37px] w-full 2xl:h-[555px] absolute -bottom-32 2xl:-bottom-44 -right-14 group-hover:-bottom-24 2xl:group-hover:-bottom-36 transition-all duration-300"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#FEAE12] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">

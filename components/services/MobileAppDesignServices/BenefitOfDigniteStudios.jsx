@@ -43,7 +43,7 @@ export default function BenefitOfDigniteStudios() {
           </span>
         </div>
 
-        <Swiper {...sliderSettings} className="">
+        <Swiper {...sliderSettings} className=" z-10">
           <SliderButtons />
           {BENEFITS_OF_DIGNITE_STUDIOS.map((card, i) => {
             return (
@@ -74,7 +74,7 @@ export default function BenefitOfDigniteStudios() {
 const SliderButtons = () => {
   const swiper = useSwiper();
   return (
-    <div className="flex items-center justify-end gap-3 absolute -top-32 right-0">
+    <div className="flex items-center justify-end gap-3 absolute -top-28 right-0 z-30">
       <button
         onClick={() => swiper.slidePrev()}
         className="rounded-full bg-[#FAFAFA] text-xl"

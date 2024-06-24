@@ -3,6 +3,11 @@ import React from "react";
 import Hero from "./Hero";
 import MobileAppTestingInRealTime from "./MobileAppTestingInRealTime";
 import TestingServices from "./TestingServices";
+import TestingProcess from "./TestingProcess";
+import TopNotchBenefits from "./TopNotchBenefits";
+import TestingTools from "./TestingTools";
+import WhyDignite from "./WhyDignite";
+import TopNotchFaqs from "./TopNotchFaqs";
 
 const TopNotchMobileAppTestingServices = () => {
   return (
@@ -11,6 +16,11 @@ const TopNotchMobileAppTestingServices = () => {
       <Hero />
       <MobileAppTestingInRealTime />
       <TestingServices />
+      <TestingProcess />
+      <TopNotchBenefits />
+      <TestingTools />
+      <WhyDignite/>
+      <TopNotchFaqs/>
     </div>
   );
 };

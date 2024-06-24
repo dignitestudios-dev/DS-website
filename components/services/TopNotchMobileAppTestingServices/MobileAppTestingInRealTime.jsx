@@ -7,11 +7,11 @@ const MobileAppTestingInRealTime = () => {
   return (
     <div className="w-full py-6 lg:py-12 global-padding-horizontal">
       <div
-        className={`w-full rounded-3xl p-6 lg:p-10 ${
+        className={`w-full rounded-3xl flex flex-col lg:flex-row items-end ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#1c1c1c]"
         }`}
       >
-        <div className="flex flex-col items-start gap-5 lg:w-[55%]">
+        <div className="flex flex-col items-start gap-5 lg:w-[55%] p-6 lg:p-10">
           <h1 className="text-2xl lg:text-[48px] font-bold lg:leading-[54.94px]">
             <span className="text-[#F15C20]">Mobile App</span> Testing In <br />{" "}
             Real Time
@@ -35,6 +35,7 @@ const MobileAppTestingInRealTime = () => {
             </button>
           </div>
         </div>
+        <img src="/testing-in-real-time.png" alt="testing-in-real-time" title="testing-in-real-time" className="lg:w-[530px] lg:h-[442px]"/>
       </div>
     </div>
   );

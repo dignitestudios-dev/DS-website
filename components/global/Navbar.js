@@ -65,7 +65,7 @@ const Navbar = ({ setIsOpen }) => {
           <span>Services</span>
           <IoIosArrowDown className="text-md" />
           <div
-            className={`w-64 h-auto p-6  rounded-2xl text-md scale-0 transition-all duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${
+            className={`w-64 h-auto p-6 z-20 rounded-2xl text-md scale-0 transition-all duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${
               theme == "dark"
                 ? "shadow-[0_3px_10px_rgb(230,230,230,0.2)]"
                 : "shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
