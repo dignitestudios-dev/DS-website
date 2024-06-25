@@ -11,8 +11,8 @@ const DriveBusiness = () => {
             Let’s Talk and Drive <br /> Business Together
           </h1>
           <Link
-            href={"/contact"}
-            className="bg-[#F15C20] font-semibold text-xl text-white rounded-full py-4 px-8 lg:py-[28px] lg:px-[60px] flex items-center justify-center gap-2"
+            href={"/contact-us"}
+            className="bg-[#F15C20] font-semibold text-xl text-white rounded-full py-4 px-8 lg:py-[28px] lg:px-[60px] flex items-center justify-center gap-2 hover:opacity-[.75] transition-all duration-300 top-rated-btn-shadow"
           >
             Schedule a call <HiMiniArrowUpRight className="text-2xl" />
           </Link>

@@ -23,7 +23,7 @@ const InfluentialHero = () => {
           leading mobile platform.
         </p>
         <Link
-          href={"/contact"}
+          href={"/contact-us"}
           className="py-[19px] px-[28px] bg-[#F15C20] text-white rounded-full text-center text-base font-semibold"
         >
           Contact Us

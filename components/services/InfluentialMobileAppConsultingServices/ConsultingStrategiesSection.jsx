@@ -15,8 +15,8 @@ const ConsultingStrategiesSection = () => {
           Consulting Strategies 
         </h1>
         <Link
-          href={"/contact"}
-          className="w-[270px] h-[80px] icon_shadow rounded-full text-xl font-semibold text-white bg-[#F15C20] flex items-center justify-center gap-2"
+          href={"/contact-us"}
+          className="w-[270px] h-[80px] top-rated-btn-shadow hover:opacity-[.75] transition-all duration-300 rounded-full text-xl font-semibold text-white bg-[#F15C20] flex items-center justify-center gap-2"
         >
           Contact Us <RiArrowRightUpLine className="text-2xl" />
         </Link>

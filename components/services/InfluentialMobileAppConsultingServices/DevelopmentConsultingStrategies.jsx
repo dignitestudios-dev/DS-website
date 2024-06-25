@@ -26,7 +26,7 @@ const DevelopmentConsultingStrategies = () => {
       </p>
 
       <div className="w-full mt-10 grid grid-cols-1 lg:grid-cols-2 gap-y-8">
-        <div className="p-8 ps-0 border-b-2">
+        <div className="lg:p-8 ps-0 lg:border-b-2">
           <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
             <img
               src="/mobile-app-design-icon.png"
@@ -49,7 +49,7 @@ const DevelopmentConsultingStrategies = () => {
             platforms either Native, hybrid, or cross-platform apps.
           </p>
         </div>
-        <div className="border-s-2 p-8 border-b-2">
+        <div className="lg:border-s-2 lg:p-8 lg:border-b-2">
           <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
             <img
               src="/mobile-app-modernization.png"
@@ -75,7 +75,7 @@ const DevelopmentConsultingStrategies = () => {
           </p>
         </div>
       </div>
-      <div className="p-8 ps-0 border-b-2">
+      <div className="lg:p-8 ps-0 lg:border-b-2 mt-6 lg:mt-0">
         <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
           <img
             src="/mobile-app-optimization-and-audit.png"
