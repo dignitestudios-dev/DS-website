@@ -41,13 +41,13 @@ const Faq = () => {
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 1 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 1 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
                 } gap-3`}
             >
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
-                <span className="font-medium">
+                <span className="font-medium text-base md:text-lg lg:text-xl">
                   WHO OWNS THE LEGAL RIGHTS TO THE TECHNOLOGY DEVELOPED BY A DIGNITE
                   STUDIOS DEVELOPER?
                 </span>
@@ -90,13 +90,13 @@ const Faq = () => {
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 2 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 2 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
                 } gap-3`}
             >
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
-                <span className="font-medium">
+                <span className="font-medium text-base md:text-lg lg:text-xl">
                   HOW DO YOU ENSURE DATA SECURITY OF MOBILE APPS AND WEBSITES?
                 </span>
               </div>
@@ -138,13 +138,13 @@ const Faq = () => {
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 3 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 3 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
                 } gap-3`}
             >
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
-                <span className="font-medium">
+                <span className="font-medium text-base md:text-lg lg:text-xl">
                   HOW FREQUENTLY DO YOU SHARE AN UPDATE ON THE PROCESS?
                 </span>
               </div>
@@ -188,13 +188,13 @@ const Faq = () => {
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 4 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 4 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
                 } gap-3`}
             >
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
-                <span className="font-medium">
+                <span className="font-medium text-base md:text-lg lg:text-xl">
                   WHO WILL BE WORKING ON MY PROJECT?
                 </span>
               </div>
@@ -238,13 +238,13 @@ const Faq = () => {
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 5 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"}`
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 5 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
                 } gap-3`}
             >
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
-                <span className="font-medium">
+                <span className="font-medium text-base md:text-lg lg:text-xl">
                   HOW WILL I BE MAKING THE PAYMENTS?
                 </span>
               </div>

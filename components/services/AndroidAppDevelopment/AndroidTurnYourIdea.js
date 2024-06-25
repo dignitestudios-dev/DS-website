@@ -19,7 +19,7 @@ const AndroidTurnYourIdea = () => {
           style={{
             color: palette?.color,
           }}
-          className="text-3xl font-extrabold lg:text-4xl xl:text-[54px] xl:leading-[65.35px] lg:font-bold mx-0 uppercase group"
+          className="lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold group"
         >
           Expert Android
           <br /> App Development <br />{" "}

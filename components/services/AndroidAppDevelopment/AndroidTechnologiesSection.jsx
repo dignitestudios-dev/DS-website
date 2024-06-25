@@ -15,7 +15,7 @@ const AndroidTechnologiesSection = () => {
         
         <div className={`w-full px-0 flex justify-between items-center`}>
           <h1
-            className={`lg:font-bold uppercase font-extrabold text-3xl lg:text-5xl xl:text-[72px] xl:font-bold`}
+            className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold`}
           >
             Technologies we're using
           </h1>

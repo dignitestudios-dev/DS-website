@@ -24,7 +24,7 @@ const ServicesHero = () => {
           style={{
             color: palette?.color,
           }}
-          className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-5xl lg:font-bold uppercase"
+          className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-5xl 2xl:text-[74px] lg:font-bold uppercase"
         >
           Top Rated <span style={{ color: palette?.brandOrange }}>Web</span> <br /> App Development
           <BsArrowRight style={{ color: palette?.brandOrange }} className='inline-flex ' />  <br /> Company

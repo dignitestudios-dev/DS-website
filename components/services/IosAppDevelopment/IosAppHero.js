@@ -24,7 +24,7 @@ const IosAppHero = () => {
             style={{
               color: "#fff",
             }}
-            className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-[64px] xl:leading-[67.84px] lg:font-bold xl:font-semibold tracking-tight "
+            className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-[64px] 2xl:text-[104px] xl:leading-[67.84px] 2xl:leading-[112px] lg:font-bold xl:font-semibold tracking-tight "
           >
             Dynamic{" "}
             <span style={{ color: palette?.brandOrange }}>iOS</span> App

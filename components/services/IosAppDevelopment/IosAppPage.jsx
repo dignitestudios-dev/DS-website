@@ -11,6 +11,7 @@ import IosAppServicesSection from "./IosAppServicesSection";
 import IosAppWorkflowSection from "./IosAppWorkflowSection";
 import WhyChooseUsSection from "@/components/Home/WhyChooseUsSection";
 import IndustriesSection from "@/components/Home/IndustriesSection";
+import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 
 const IosAppPage = () => {
   return (
@@ -26,7 +27,8 @@ const IosAppPage = () => {
       <IndustriesSection />
       <CaseStudiesSection />
       <Testimonials />
-      <LandingContactUs />
+      <TopRatedAppDevelopmentContactSection />
+      {/* <LandingContactUs /> */}
       {/* <div className="">
       </div> */}
     </div>

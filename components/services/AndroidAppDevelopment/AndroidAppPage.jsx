@@ -12,6 +12,7 @@ import AndroidAppPromotion from "./AndroidAppPromotion";
 import WhyChooseUsSection from "@/components/Home/WhyChooseUsSection";
 import IndustriesSection from "@/components/Home/IndustriesSection";
 import AndroidAppWorkflowSection from "./AndroidAppWorkflowSection";
+import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 
 const AndroidAppPage = () => {
   return (
@@ -28,7 +29,8 @@ const AndroidAppPage = () => {
 
       <CaseStudiesSection />
       <Testimonials />
-      <LandingContactUs />
+      <TopRatedAppDevelopmentContactSection/>
+      {/* <LandingContactUs /> */}
       {/* <div className="">
       </div> */}
     </div>

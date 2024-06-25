@@ -19,7 +19,7 @@ const TurnYourIdea = () => {
           style={{
             color: palette?.color,
           }}
-          className="text-3xl font-extrabold lg:text-4xl xl:text-5xl lg:font-bold mx-0 uppercase group"
+          className="uppercase font-extrabold  lg:text-start text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[82px]  tracking-tighter lg:font-bold group"
         >
           TURN YOUR CONCEPT  <br /> into functional <br /> <span className="text-[#F15C20] transition-all duration-300">web Application</span>
         </h1>

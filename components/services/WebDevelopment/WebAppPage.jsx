@@ -7,6 +7,7 @@ import LandingContactUs from "../../Home/LandingContactUs";
 import Testimonials from "../../Home/Testimonials";
 import AwardsRecognition from "./WebAwardsRecognition";
 import TurnYourIdea from "./WebTurnYourIdea";
+import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 
 const WebAppPage = () => {
   return (
@@ -17,7 +18,7 @@ const WebAppPage = () => {
       <TurnYourIdea />
       <Technologies />
       <CaseStudiesSection />
-      <LandingContactUs />
+      <TopRatedAppDevelopmentContactSection />
       <Testimonials />
       {/* <div className="">
       </div> */}
