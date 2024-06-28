@@ -1,14 +1,14 @@
 "use client";
 import {
   headings,
+  items,
   paragraphs,
 } from "@/constants/convenientmobileappdevelopment";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext, useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
-
-
+import ConvenientMobileAppAccordion from "./ConvenientMobileAppAccordion";
 
 const ConvenientMobileAppDevelopment = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -51,7 +51,11 @@ const ConvenientMobileAppDevelopment = () => {
               <li
                 key={index}
                 className={`cursor-pointer w-full flex items-center justify-start gap-3 ${
-                  selectedHeading === heading ? "text-[#F15C20]" : theme === "dark" ? "text-white" : "text-black"
+                  selectedHeading === heading
+                    ? "text-[#F15C20]"
+                    : theme === "dark"
+                    ? "text-white"
+                    : "text-black"
                 } ${
                   selectedHeading === heading ? "text-[#F15C20]" : "text-black"
                 }`}
@@ -88,6 +92,10 @@ const ConvenientMobileAppDevelopment = () => {
             Start Your Project
           </Link>
         </div>
+      </div>
+
+      <div className="block lg:hidden">
+        <ConvenientMobileAppAccordion items={items}/>
       </div>
     </div>
   );
