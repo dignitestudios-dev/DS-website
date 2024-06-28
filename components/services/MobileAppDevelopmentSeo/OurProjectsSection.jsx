@@ -42,9 +42,11 @@ const OurProjectsSection = () => {
           >
             our projects
           </h1>
-          <div className="">
+          <div className="hidden lg:block">
             <Link
-              href={"/contact-us"}
+              href={{
+                pathname: "/contact-us",
+              }}
               className="px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] hover:bg-[#F15C20] hover:text-white transition-all duration-300"
             >
               Start Your Project
@@ -78,6 +80,17 @@ const OurProjectsSection = () => {
             );
           })}
         </div>
+
+        <div className="w-full flex justify-center mt-6">
+            <Link
+              href={{
+                pathname: "/contact-us",
+              }}
+              className="px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] hover:bg-[#F15C20] hover:text-white transition-all duration-300"
+            >
+              Start Your Project
+            </Link>
+          </div>
       </div>
     )
   );

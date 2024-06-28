@@ -37,14 +37,23 @@ const DiscoverOurHistory = () => {
             technology and software.
           </p>
           <div className="mt-5">
-            <Link href={'/contact-us'} className="px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] hover:bg-[#F15C20] hover:text-white transition-all duration-300">
+            <Link
+              // href={"/contact-us"}
+              href={{
+                pathname: "/contact-us",
+              }}
+              className="px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] hover:bg-[#F15C20] hover:text-white transition-all duration-300"
+            >
               Start Your Project
             </Link>
           </div>
         </div>
         <div className="col-span-3 lg:col-span-1">
-          <img
-            src={"/mobile-app-development-services-value-expedition.webp"}
+          <Image
+            loader={customLoader}
+            width={410}
+            height={435}
+            src="/mobile-app-development-services-value-expedition.webp"
             title="Mobile App Development Service History"
             alt="Mobile App development projects evaluation empowering teamwork"
           />

@@ -197,19 +197,19 @@ const Footer = () => {
       </div>
 
       <div className="w-full flex items-center justify-between">
-        <span
+        <p
           className="text-xs lg:text-base uppercase"
           style={{ color: palette?.light_contrast_color }}
         >
           © 2024 dignite studios
-        </span>
-        <a
+        </p>
+        <Link
           href="mailto:info@dignitestudios.com"
           className="text-xs lg:text-base font-normal"
           style={{ color: palette?.light_contrast_color }}
         >
           info@dignitestudios.com
-        </a>
+        </Link>
       </div>
     </div>
   );
