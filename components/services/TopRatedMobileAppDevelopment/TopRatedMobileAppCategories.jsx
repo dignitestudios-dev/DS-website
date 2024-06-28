@@ -32,13 +32,15 @@ const TopRatedMobileAppCategories = () => {
             Streaming App
           </h1>
           <img
-            src="/stream-app-shadow.png"
-            alt=""
+            src="/stream-app-shadow.webp"
+            alt="two mockup screens showing streaming mobile app development"
+            title="Streaming mobile app development"
             className="w-[130%] right-0 left-0 bottom-1 absolute"
           />
           <img
-            src="/stream-app-mockup.png"
-            alt=""
+            src="/purple-mobile-streaming-mobile-app-development.webp"
+            alt="two mockup screens showing streaming mobile app development"
+            title="Streaming mobile app development"
             className="w-[349.72px] h-[455.75px] 2xl:h-[525px] 2xl:w-[400px] absolute -bottom-36 -right-10 group-hover:-bottom-28 transition-all duration-300"
           />
         </div>
@@ -68,8 +70,9 @@ const TopRatedMobileAppCategories = () => {
           <h1 className="text-white text-[22px] font-bold z-30">Utility App</h1>
           <div className="bg-[#FFC046] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
-            src="/utility-mockup.png"
-            alt=""
+            src="/yellow-utility-mobile-app-development.webp"
+            title="Utility mobile app development"
+            alt="two mockup screens show the utility mobile app development"
             className="w-[310.67px] h-[390.98px] 2xl:h-[490.98px] 2xl:w-[400.98px] absolute -bottom-10 right-0 2xl:-right-0 2xl:-bottom-12 group-hover:-bottom-4 transition-all duration-300"
           />
         </div>
@@ -77,8 +80,9 @@ const TopRatedMobileAppCategories = () => {
           <h1 className="text-white text-[22px] font-bold z-30">Dating App</h1>
           <div className="bg-[#FF4292] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
-            src="/dating-mockup.png"
-            alt=""
+            src="/red-dating-mobile-app-development.png"
+            title="Dating mobile app development"
+            alt="two mockup screens show the dating mobile app development"
             className="w-full h-[490.98px] 2xl:h-[565px] 2xl:w-[400px] absolute -bottom-48 -right-14 group-hover:-bottom-40 transition-all duration-300"
           />
         </div>
@@ -88,8 +92,9 @@ const TopRatedMobileAppCategories = () => {
           </h1>
           <div className="bg-[#9488FF] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
-            src="/telehealth-mockup.png"
-            alt=""
+            src="/purple-telehealth-mobile-app-development.png"
+            title="Telehealth mobile app development"
+            alt="two mockup screens show the telehealth mobile app development"
             className="w-[400.67px] h-[490.98px] 2xl:h-[555px] 2xl:w-[400px] absolute -bottom-48 -right-12 group-hover:-bottom-40 transition-all duration-300"
           />
         </div>

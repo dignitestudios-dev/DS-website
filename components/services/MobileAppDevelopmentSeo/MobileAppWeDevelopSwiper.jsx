@@ -87,8 +87,7 @@ const MobileAppWeDevelopSwiper = () => {
             </h1>
             <div className="bg-[#FFC046] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-            //   src="/yellow-utility-mobile-app-development.webp"
-            src="/yellow-utility-mobile-app-development.webp"
+              src="/yellow-utility-mobile-app-development.webp"
               title="Utility mobile app development"
               alt="two mockup screens show the utility mobile app development"
               className="w-[300.67px] h-[390.98px] absolute -bottom-8 right-0 group-hover:-bottom-2 transition-all duration-300"
