@@ -11,7 +11,7 @@ const PlatformServices = () => {
           theme === "dark" ? "text-white" : "text-black"
         } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter lg:leading-[72px]`}
       >
-        mobile apps development services <br /> for various platform
+        mobile app development services <br /> for various platforms
       </h1>
       <p
         className={`text-base font-normal text-start lg:w-[60%] ${

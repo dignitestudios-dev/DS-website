@@ -63,17 +63,17 @@ const AreaOfExpertise = () => {
               <SwiperSlide key={i} className="">
                 <div
                   className={`h-full w-[438px] rounded-[18px]
-                   p-6 flex flex-col items-start gap-0 text-start ${
-                     theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
+                   p-6 flex flex-col items-start gap-0 text-start group ${
+                     theme === "dark" ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition-all duration-200" : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h1 className="font-semibold text-xl mb-2">
+                  <h1 className={`font-semibold text-xl mb-2 ${theme === 'light' ? 'text-black group-hover:text-white' : 'text-white'}`}>
                     {card?.heading}
                   </h1>
                   <p
                     className={`${
-                      theme === "dark" ? "text-white" : "text-[#424242]"
-                    } text-[13px] font-medium`}
+                      theme === "dark" ? "text-white" : "text-[#424242] group-hover:text-white"
+                    } text-[14px] font-medium`}
                   >
                     {card?.text}
                   </p>

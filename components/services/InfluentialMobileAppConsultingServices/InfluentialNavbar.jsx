@@ -69,18 +69,36 @@ const InfluentialNavbar = ({ setIsOpen }) => {
           <span>Services</span>
           <IoIosArrowDown className="text-md" />
           <div
-            className={`w-64 h-auto p-6 z-20 rounded-2xl text-md scale-0 transition-all duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${
+            className={`w-72 h-auto p-6 z-20 rounded-2xl text-md scale-0 transition-all duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${
               theme == "dark"
                 ? "shadow-[0_3px_10px_rgb(230,230,230,0.2)]"
                 : "shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-            } -right-24 z-50`}
+            } -right-24`}
             style={{ background: palette?.background, color: palette?.color }}
           >
             <Link
-              href="/services/mobile-app-development"
+              href="/services/mobile-app-development-services"
               className={`hover:text-orange-600 `}
             >
-              Mobile App Development
+              Mobile App Development Services
+            </Link>
+            <Link
+              href="/services/mobile-app-design-services"
+              className={`hover:text-orange-600 `}
+            >
+              Mobile App Design Services
+            </Link>
+            <Link
+              href="/services/mobile-app-consulting-services"
+              className={`hover:text-orange-600 `}
+            >
+              Mobile App Consulting Services
+            </Link>
+            <Link
+              href="/services/mobile-app-testing-services"
+              className={`hover:text-orange-600 `}
+            >
+              Mobile App Testing Services
             </Link>
             <Link
               href="/services/ios-app-development"
@@ -157,7 +175,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
             src={theme == "light" ? "/hamburger.webp" : "/menu-dark.webp"}
             className="h-full"
           /> */}
-          <BiMenuAltRight className="text-3xl text-white"/>
+          <BiMenuAltRight className="text-3xl text-white" />
         </button>
       </div>
     </div>

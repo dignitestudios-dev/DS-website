@@ -81,7 +81,7 @@ const OurProjectsSection = () => {
           })}
         </div>
 
-        <div className="w-full flex justify-center mt-6">
+        <div className="w-full flex justify-center mt-6 lg:hidden block">
             <Link
               href={{
                 pathname: "/contact-us",

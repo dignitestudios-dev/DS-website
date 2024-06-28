@@ -39,8 +39,8 @@ const TestingServices = () => {
           data-aos-once="false" // Set to false to repeat animation on scroll up
           data-aos-anchor-placement="center-bottom"
         >
-          <h1 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]">
-            02
+          <h1 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
+            01
           </h1>
           <h1 className="text-[28px] font-semibold">
             Software Functional Testing Services
@@ -78,7 +78,7 @@ const TestingServices = () => {
           data-aos-once="false" // Set to false to repeat animation on scroll up
           data-aos-anchor-placement="center-bottom"
         >
-          <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]">
+          <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
             02
           </h2>
           <h1 className="text-[28px] font-semibold">
@@ -146,7 +146,7 @@ const TestingServices = () => {
           data-aos-once="false" 
           data-aos-anchor-placement="center-bottom"
         >
-          <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE]">
+          <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
             03
           </h2>
           <h1 className="text-[28px] font-semibold">

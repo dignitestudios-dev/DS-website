@@ -14,7 +14,7 @@ const PlanOfActionSection = () => {
         } rounded-3xl p-6 lg:p-16 relative`}
       >
         <div className="flex flex-col items-start gap-6 lg:w-[50%]">
-          <h1 className="text-3xl md:text-5xl lg:text-[64px] 2xl:text-[84px] font-bold">
+          <h1 className="text-3xl md:text-5xl lg:text-[64px] 2xl:text-[84px] font-bold tracking-tighter">
             Plan of Action
           </h1>
           <p

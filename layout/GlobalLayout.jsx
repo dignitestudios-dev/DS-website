@@ -135,9 +135,24 @@ const GlobalLayout = ({ page }) => {
             </div>
             <div className="main-promo">
               <div className="promo2">
-                <h1 className="heading_promo2">limited time offer</h1>
+                <h1 className="heading_promo2">before you leave</h1>
                 <span className="sub_promo2">Sign up now for a free quote</span>
-                <span className="box_promo2">Upto 25% OFF</span>
+                <span className="box_promo2 uppercase">Upto 25% OFF</span>
+
+                <dv className="w-full flex justify-center items-center gap-3">
+                  <span className="bg-white w-[40px] h-[40px] flex items-center justify-center">
+                    <img src="/tailwind-color.webp" alt="" />
+                  </span>
+                  <span className="bg-white w-[40px] h-[40px] flex items-center justify-center">
+                    <img src="/vscode-color.png" alt="" />
+                  </span>
+                  <span className="bg-white w-[40px] h-[40px] flex items-center justify-center">
+                    <img src="/firebase-icon.png" alt="" />
+                  </span>
+                  <span className="bg-white w-[40px] h-[40px] flex items-center justify-center">
+                    <img src="/flutter-icon.webp" alt="" />
+                  </span>
+                </dv>
               </div>
               {error && <ContactUsAlert />}
 

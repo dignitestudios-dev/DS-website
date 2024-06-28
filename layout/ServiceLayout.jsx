@@ -14,6 +14,9 @@ import { RxCross2 } from "react-icons/rx";
 
 const ServicesLayout = ({ page }) => {
   // Sidebar states and ref:
+  const [isFocused1, setIsFocused1] = useState(false);
+  const [isFocused2, setIsFocused2] = useState(false);
+  const [isFocused3, setIsFocused3] = useState(false);
   const { palette, isSidebarOpen, setIsSidebarOpen } =
     useContext(GlobalContext);
   const { theme, setError, error, success } = useContext(GlobalContext);
@@ -121,11 +124,11 @@ const ServicesLayout = ({ page }) => {
       >
         <form onSubmit={handleSubmit} ref={formRef} className="container-form">
           <div className="side-promo">
-            <img src="/form_promo.png" alt="sidebar_promo" className="" />
+            <img src="/form-promo3.png" alt="sidebar_promo" className="" />
           </div>
           <div className="main-promo">
             <div className="promo2">
-              <h1 className="heading_promo2">limited time offer</h1>
+              <h1 className="heading_promo2">before you leave</h1>
               <span className="sub_promo2">Sign up now for a free quote</span>
               <span className="box_promo2">Upto 25% OFF</span>
             </div>
@@ -139,12 +142,18 @@ const ServicesLayout = ({ page }) => {
               <label className="label_field">Name</label>
               <button type="button" className="input_flex">
                 <span className="input_span">
-                  <FaUser />
+                  <FaUser
+                    className={`${
+                      isFocused1 ? "text-orange-500" : "text-gray-400"
+                    }`}
+                  />
                 </span>
                 <input
                   type="text"
                   id="name"
                   name="name"
+                  onFocus={() => setIsFocused1(true)}
+                  onBlur={() => setIsFocused1(false)}
                   className="input_box"
                   placeholder="e.g. Mike Smith"
                 />
@@ -154,7 +163,11 @@ const ServicesLayout = ({ page }) => {
               <label className="label_field">Email Address</label>
               <button type="button" className="input_flex">
                 <span className="input_span">
-                  <MdMail />
+                  <MdMail
+                    className={`${
+                      isFocused2 ? "text-orange-500" : "text-gray-400"
+                    }`}
+                  />
                 </span>
                 <input
                   type="email"
@@ -162,6 +175,8 @@ const ServicesLayout = ({ page }) => {
                   name="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  onFocus={() => setIsFocused2(true)}
+                  onBlur={() => setIsFocused2(false)}
                   className="input_box"
                   placeholder="Type your email here"
                 />
@@ -171,7 +186,11 @@ const ServicesLayout = ({ page }) => {
               <label className="label_field">Phone Number</label>
               <button type="button" className="input_flex">
                 <span className="input_span">
-                  <BsTelephoneFill />
+                  <BsTelephoneFill
+                    className={`${
+                      isFocused3 ? "text-orange-500" : "text-gray-400"
+                    }`}
+                  />
                 </span>
                 <input
                   type="text"
@@ -180,6 +199,8 @@ const ServicesLayout = ({ page }) => {
                   name="phone"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
+                  onFocus={() => setIsFocused3(true)}
+                  onBlur={() => setIsFocused3(false)}
                   className="input_box"
                   placeholder="e.g +1 491 570 156"
                 />

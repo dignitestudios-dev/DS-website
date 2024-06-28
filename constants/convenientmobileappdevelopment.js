@@ -1,7 +1,7 @@
 export const headings = [
   "Mobile App Design",
   "Mobile App Development",
-  "Mobile Consulting",
+  "Mobile App Consulting",
   "Mobile Application Testing",
   "IOS App Development",
   "Android App Development",
@@ -23,7 +23,7 @@ export const paragraphs = {
     image_title:"top mobile app development services",
     image_alt:" image shows man is holding a mobile device that appears top mobile app development layout"
   },
-  "Mobile Consulting": {
+  "Mobile App Consulting": {
     description:
       "Forming a mobile application is a great way for business owners to improve their marketing strategy, service optimization, and cost-effectiveness. It can systematically increase your revenue and click-through rate by consulting it with reliable mobile app developers. Therefore, each mobile app has its aspects and functionality in terms of target audience, design, monetization, security, and privacy. However, it needs to be evaluated foremost from a better platform. So, at the door of Dignite Studios, you can avail the best mobile consulting services to provide you with free consultation on your mobile app development. Also, our experts are available 24/7 to assist you on call. So, don’t wait and upgrade your mobile devices.",
     image: "/top-mobile-app-development-consulting-services.png",

@@ -15,7 +15,7 @@ const DigniteServiceScope = () => {
       <div
         className={`w-full ${theme === 'dark' ? 'bg-[#1c1c1c]' : 'bg-[#F9F9F9]'} rounded-[28px] flex flex-col lg:flex-row items-center justify-between h-auto lg:h-[443px] relative`}
       >
-        <div className="p-7 flex flex-col items-start gap-6">
+        <div className="py-7 px-6 md:px-16 flex flex-col items-start gap-6">
           <div className="flex flex-col items-center">
             <h3 className="text-xl font-bold text-[#F15C20] uppercase">want to know</h3>
             <img src="/lines.png" alt="" />

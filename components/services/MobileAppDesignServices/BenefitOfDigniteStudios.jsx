@@ -35,11 +35,11 @@ export default function BenefitOfDigniteStudios() {
     <section className="w-full relative overflow-hidden px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 py-10">
       <div className="w-full relative overflow-hidden">
         <div className="flex flex-col gap-2 mb-12">
-          <span className="text-[#F15C20] text-xl font-semibold uppercase">
+          <span className="text-[#F15C20] text-2xl font-bold uppercase">
             top-tier
           </span>
-          <span className="text-3xl md:text-5xl lg:text-[68px] 2xl:text-[80px] font-bold uppercase">
-            benefit of dignite studios
+          <span className="text-3xl md:text-5xl lg:text-[68px] 2xl:text-[80px] font-bold uppercase tracking-tighter">
+            benefits of dignite studios
           </span>
         </div>
 
@@ -50,15 +50,15 @@ export default function BenefitOfDigniteStudios() {
               <SwiperSlide key={i} className="">
                 <div
                   className={`h-full w-[438px] rounded-[18px]
-                   p-6 pt-3 flex flex-col items-start gap-0 text-start ${
-                     theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
+                   p-6 pt-3 flex flex-col items-start gap-0 text-start group  ${
+                     theme === "dark" ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition-all duration-200" : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
                   <h5 className="text-[#B8B8B8] text-[40px] font-bold">
                     {card?.count}
                   </h5>
-                  <h1 className="font-semibold text-xl mb-2">{card?.title}</h1>
-                  <p className={`${theme === 'dark' ? 'text-white' : 'text-[#424242]'} text-[13px] font-medium`}>
+                  <h1 className={`font-semibold text-xl mb-2 ${theme === 'light' ? 'text-[#424242] group-hover:text-white' : ''}`}>{card?.title}</h1>
+                  <p className={`${theme === 'dark' ? 'text-white ' : 'text-[#424242] group-hover:text-white'} text-[13px] font-medium`}>
                     {card?.description}
                   </p>
                 </div>
