@@ -4,6 +4,22 @@ import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
+// import Img1 from "../../../public/mobile-app-development-services-value-expedition.webp"
+
+// const MobAppImage = () => {
+//   "use server";
+//   return (
+//     <>
+//       <img
+//         src="/mobile-app-development-services-value-expedition.webp"
+//         // loader={customLoader}
+//         alt="Description of the image"
+//         width={410}
+//         height={435}
+//       />
+//     </>
+//   );
+// };
 
 const DiscoverOurHistory = () => {
   const { theme } = useContext(GlobalContext);
@@ -49,13 +65,12 @@ const DiscoverOurHistory = () => {
           </div>
         </div>
         <div className="col-span-3 lg:col-span-1">
-          <Image
-            loader={customLoader}
+          <img
+            src="/mobile-app-development-services-value-expedition.webp"
+            // loader={customLoader}
+            alt="Description of the image"
             width={410}
             height={435}
-            src="/mobile-app-development-services-value-expedition.webp"
-            title="Mobile App Development Service History"
-            alt="Mobile App development projects evaluation empowering teamwork"
           />
         </div>
       </div>
