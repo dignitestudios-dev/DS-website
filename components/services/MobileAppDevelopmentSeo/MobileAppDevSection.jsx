@@ -38,7 +38,6 @@ const MobileAppDevSection = () => {
                 key={index}
                 onClick={() => handleHeadingClick(heading)}
                 className={`cursor-pointer w-full flex items-center justify-start gap-3 ${
-                  // theme === "dark" ? `text-white ${selectedHeading === heading && "text-[#F15C20]"}` : "text-black"
                   selectedHeading === heading ? "text-[#F15C20]" : theme === "dark" ? "text-white" : "text-black"
                 } ${
                   selectedHeading === heading ? "text-[#F15C20]" : "text-black"
@@ -68,7 +67,7 @@ const MobileAppDevSection = () => {
             {paragraphs[selectedHeading]}
           </p>
           <Link
-            href={""}
+            href={"/contact-us"}
             className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
           >
             Start Your Project

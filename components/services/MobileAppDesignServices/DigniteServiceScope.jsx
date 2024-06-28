@@ -36,7 +36,7 @@ const DigniteServiceScope = () => {
 
         </div>
           <img
-            src="/dignite-service-scope-mockup.png"
+            src="/dignite-service-scope-mockup.webp"
             alt="dignite-service-scope-mockup"
             title="dignite-service-scope-mockup"
             className="lg:h-[557.42px] lg:w-[544.12px] lg:absolute lg:bottom-0 lg:right-7 ml-7 lg:ml-0"

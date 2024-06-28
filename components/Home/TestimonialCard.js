@@ -9,7 +9,7 @@ const TestimonialCard = ({ review }) => {
   const { palette } = useContext(GlobalContext);
   return (
     <div
-      className={`w-full h-80 min-h-80 md:min-h-80 md:h-80 lg:h-80 lg:min-h-80 xl:min-h-72 xl:h-72 relative  col-span-1 flex flex-col justify-center items-start gap-3`}
+      className={`w-full h-80 min-h-80 md:min-h-80 md:h-80 lg:h-80 lg:min-h-80 xl:min-h-72 xl:h-72 relative  col-span-1 flex flex-col justify-center items-start gap-3 text-start`}
       style={{
         color: palette?.color,
       }}

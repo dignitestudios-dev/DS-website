@@ -24,10 +24,15 @@ const MobileAppDevelopmentSeoPage = () => {
       <BenefitsOfWorking />
       <OptimizedProcess />
       <div className="w-full">
-        <img src="/technologies-we-are-using.png" alt="" className="w-full my-16" />
+        <img
+          src="/Mobile-App-Development-Service-Technologies.webp"
+          title="Mobile App Development Service Technologies"
+          alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
+          className="w-full my-16"
+        />
       </div>
-      <Lifecycle/>
-      <TopRatedAppDevFaq/>
+      <Lifecycle />
+      <TopRatedAppDevFaq />
     </div>
   );
 };

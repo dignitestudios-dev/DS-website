@@ -49,7 +49,7 @@ export default function BenefitOfDigniteStudios() {
             return (
               <SwiperSlide key={i} className="">
                 <div
-                  className={`h-[340px] w-[438px] rounded-[18px]
+                  className={`h-full w-[438px] rounded-[18px]
                    p-6 pt-3 flex flex-col items-start gap-0 text-start ${
                      theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
                    }`}

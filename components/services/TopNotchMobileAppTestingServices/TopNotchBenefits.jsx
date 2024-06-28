@@ -81,8 +81,9 @@ const TopNotchBenefits = () => {
             }`}
           >
             <img
-              src="/exclusive-error-detection.png"
-              alt=""
+              src="/mobile-app-testing-exclusive-error-detection.webp"
+              alt="mock screen shows the mobile app testing of login layout"
+              title="Mobile app testing exclusive error detection"
               className="w-[242px] lg:h-[427.52px]"
             />
           </div>
@@ -97,8 +98,9 @@ const TopNotchBenefits = () => {
             }`}
           >
             <img
-              src="/quality-assurance.png"
-              alt=""
+              src="/mobile-app-testing-quality-assurance.webp"
+              alt="the mock screen shows the quality detection of mobile app testing tool"
+              title="Mobile app testing quality assurance"
               className="w-[242px] lg:h-[427.52px]"
             />
           </div>
@@ -214,8 +216,9 @@ const TopNotchBenefits = () => {
             }`}
           >
             <img
-              src="/security-prevalence.png"
-              alt=""
+              src="/mobile-app-testing-security-prevalence.webp"
+              alt="mock up screen shows olivia james profile"
+              title="Mobile app testing security prevalence"
               className="w-[242px] lg:h-[427.52px]"
             />
           </div>
@@ -230,8 +233,9 @@ const TopNotchBenefits = () => {
             }`}
           >
             <img
-              src="/fast-development-process.png"
-              alt=""
+              src="/mobile-app-testing-fast-development.webp"
+              alt="mockup screen shows the testing of people you know the layout of the application"
+              title="Mobile app testing fast development"
               className="w-[242px] lg:h-[427.52px]"
             />
           </div>

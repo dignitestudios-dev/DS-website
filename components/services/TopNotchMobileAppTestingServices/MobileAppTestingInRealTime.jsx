@@ -36,9 +36,9 @@ const MobileAppTestingInRealTime = () => {
           </div>
         </div>
         <img
-          src="/testing-in-real-time.png"
-          alt="testing-in-real-time"
-          title="testing-in-real-time"
+          src="/mobile-app-testing-services.webp"
+          alt="the mock screen shows the job portal on the application testing"
+          title="Mobile app testing services"
           className="lg:w-[530px] lg:h-[442px]"
           data-aos="slide-up"
           data-aos-offset="200" // Adjusted offset to trigger animation earlier

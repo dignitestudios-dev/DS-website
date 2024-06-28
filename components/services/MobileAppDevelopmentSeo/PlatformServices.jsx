@@ -5,7 +5,7 @@ import React, { useContext } from "react";
 const PlatformServices = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:my-20">
+    <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full mb-6 mt-40 md:my-12 lg:mb-20 lg:mt-56">
       <h1
         className={`${
           theme === "dark" ? "text-white" : "text-black"
@@ -70,8 +70,9 @@ const PlatformServices = () => {
         </div>
         <div className="w-full lg:w-[45%] h-full">
           <img
-            src="/various-platforms-mockup.png"
-            alt=""
+            src="/telehealth-mobile-app-development.webp"
+            title="Mobile app development services"
+            alt="mockup screen shows icons of multiple mobile app development service platforms"
             className="xl:h-[557.13px] xl:w-[596.13px]"
           />
         </div>

@@ -18,7 +18,7 @@ const TopNotchTeam = () => {
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
             <h1
-              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[77.45px]`}
+              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[77.45px]`}
             >
               <span className="text-[#F15C20]">Top-Notch</span> team <br /> of
               Dignite Studios
@@ -44,7 +44,7 @@ const TopNotchTeam = () => {
         {TOP_NOTCH_TEAM.map((team, index) => {
           return (
             <div key={index} className="flex flex-col items-start gap-4">
-              <img src={team.icon_src} alt="team-icon" title="team-icon" className="w-8 h-8"/>
+              <img src={team.icon_src} alt={team.alt_text} title={team.img_title} className="w-8 h-8"/>
               <h2 className="text-xl font-semibold">{team.title}</h2>
               <p className="text-sm font-normal leading-[19.74px]">{team.description}</p>
             </div>

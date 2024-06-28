@@ -9,12 +9,14 @@ import SpecialistPlatform from "./SpecialistPlatform";
 import DigniteServiceScope from "./DigniteServiceScope";
 import FAQS from "./FAQS";
 import BenefitOfDigniteStudios from "./BenefitOfDigniteStudios";
+import PlanOfActionSection from "./PlanOfActionSection";
 
 const MobileAppDesignServicesPage = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Navbar />
       <Hero />
+      <PlanOfActionSection/>
       <MobileAppDesignCaseStudies />
       <MobileAppDesignWhyChooseUs />
       <TopNotchTeam />

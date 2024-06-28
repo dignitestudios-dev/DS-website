@@ -14,66 +14,70 @@ const HybridProcess = () => {
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               01.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Analysis
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Brainstorming
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Planning & Research
             </h3>
 
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              The analysis stage encompasses gathering requirements and
-              conducting feasibility studies. It involves a blend of detailed
-              planning and research to define project objectives and assess
-              potential challenges. Stakeholder input and market analysis
-              contribute to shaping a comprehensive strategy for development.
+              Our developers follow the latest trends while analyzing the
+              concept behind mobile app development. They deep dive into the
+              research process in evaluating their target audience and setting
+              standards.
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               03.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               UI Designing
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Aesthetics
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              User Interface Design
             </h3>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              It transforms wireframes into visually appealing and user-friendly
-              interfaces. Design elements are meticulously crafted to enhance
-              usability and brand identity while aligning with project
-              objectives.
+              In this phase, a systematic and purposeful crafting of visual
+              elements is built to create an appealing and aesthetically
+              pleasing user interface. Thus, it reflects the idea of the brand
+              through its interface. Whereas, the objective of the product can
+              be determined by the design elements. So, our capabilities satisfy
+              the client's needs by all means.
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10 gap-3">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Evaluation
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Testing
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Testing & Evaluation
             </h3>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              This ensures the application's reliability, and adherence to
-              requirements. Various evaluation methods, including unit,
-              integration, and user acceptance testing, are employed to validate
-              the software's performance.
+              After ending the development phase we evaluate the entire process
+              before moving towards the deployment phase. We proceed with the
+              testing of stability, functionality, performance, security, and
+              the removal of bugs or errors in the developed solution. So, to
+              avoid negligence and delinquency hire our valuable developers who
+              not only assist you in the evaluation process but also serve you
+              the best possible way to stand out.
             </p>
           </div>
         </div>
-        <div className="hidden lg:grid w-auto h-[80rem]   grid-rows-5 grid-cols-1 justify-center items-start">
+        <div className="hidden lg:grid w-auto h-[80rem] grid-rows-5 grid-cols-1 justify-center items-start">
           <motion.span
             variants={staggerContainer}
             initial="hidden"
@@ -224,132 +228,151 @@ const HybridProcess = () => {
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               02.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Wireframes
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Structure
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Foundation & UX
             </h3>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              Wireframing involves creating skeletal frameworks to visualize the
-              app's layout and functionality. These wireframes serve as a
-              blueprint, guiding both design and development teams.
+              It is the backbone of any project, as it starts by mapping out of
+              user flow, sketching out the core part of the user flow, deciding
+              and shaping the layout using boxes, use of several design
+              patterns, and ensuring the content scale. So, before conducting
+              this process it is necessary to conduct thorough qualitative and
+              quantitative research for a reference during wireframing.
+              Therefore, our mobile app development platform streamlines the
+              entire process to verify the functionality of the mobile
+              application. This allows escorting the design of the app
+              effectively. 
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               04.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Coding
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="capitalize text-[30px] lg:text-[36px]  ont-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Development
             </h3>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              Coding involves the development of both client-facing and
-              server-side components. Front-end coding focuses on implementing
-              the user interface with attention to design and user experience.
-              Simultaneously, back-end coding addresses server logic, database
-              management, and system integration to enable functionality with
-              ease.
+              At this stage, appropriate programming languages are selected to
+              begin the coding of the mobile application. Where the back end
+              part determines the scalability of your app in the future and the
+              Front end part mostly interacts with the user. It contains three
+              approaches to building it effectively, which include
+              platform-specific, cross-platform, and hybrid. Here, we cater to
+              all those steps that are designed to process mobile applications.
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               06.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Deployment
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Jackpot
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Go Live
             </h3>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              The final step involves releasing the application to production
-              environments. It includes activities such as packaging,
-              configuring, and deploying the software to servers or app stores.
-              Thorough testing and stakeholder approval precede deployment,
-              enabling a smooth transition to the live environment.
+              The deployment process carries a straightforward approach whether
+              to submit your app on Apple’s App Store or Google Play Store or
+              opt for other private distribution. Simultaneously, being the top
+              mobile app company in the USA we assure vast knowledge of tools
+              and hands on to the development process. Whereas, we have catered
+              hundreds of mobile app solutions and best practices during app
+              deployment.
             </p>
           </div>
         </div>
       </div>
+
       <div className="w-full my-6 px-2 lg:px-10 h-auto lg:hidden flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               01.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Analysis
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Brainstorming
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Planning & Research
             </h3>
 
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              The analysis stage encompasses gathering requirements and
-              conducting feasibility studies. It involves a blend of detailed
-              planning and research to define project objectives and assess
-              potential challenges. Stakeholder input and market analysis
-              contribute to shaping a comprehensive strategy for development.
+              Our developers follow the latest trends while analyzing the
+              concept behind mobile app development. They deep dive into the
+              research process in evaluating their target audience and setting
+              standards.
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               02.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Wireframes
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Structure
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Doundation & UX
             </h3>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              Wireframing involves creating skeletal frameworks to visualize the
-              app's layout and functionality. These wireframes serve as a
-              blueprint, guiding both design and development teams.
+              It is the backbone of any project, as it starts by mapping out of
+              user flow, sketching out the core part of the user flow, deciding
+              and shaping the layout using boxes, use of several design
+              patterns, and ensuring the content scale. So, before conducting
+              this process it is necessary to conduct thorough qualitative and
+              quantitative research for a reference during wireframing.
+              Therefore, our mobile app development platform streamlines the
+              entire process to verify the functionality of the mobile
+              application. This allows escorting the design of the app
+              effectively. 
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               03.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               UI Designing
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Aesthetics
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              User Interface Design
             </h3>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              It transforms wireframes into visually appealing and user-friendly
-              interfaces. Design elements are meticulously crafted to enhance
-              usability and brand identity while aligning with project
-              objectives.
+              In this phase, a systematic and purposeful crafting of visual
+              elements is built to create an appealing and aesthetically
+              pleasing user interface. Thus, it reflects the idea of the brand
+              through its interface. Whereas, the objective of the product can
+              be determined by the design elements. So, our capabilities satisfy
+              the client's needs by all means.
             </p>
           </div>
         </div>
 
-        <div className="hidden lg:grid w-auto h-[80rem]   grid-rows-5 grid-cols-1 justify-center items-start">
+        <div className="hidden lg:grid w-auto h-[80rem] grid-rows-5 grid-cols-1 justify-center items-start">
           <span className=" h-full  flex flex-col justify-start items-center">
             <span
               className=" w-6 h-6 rounded-full   flex items-center justify-center"
@@ -416,63 +439,69 @@ const HybridProcess = () => {
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               04.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Coding
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Development
             </h3>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              Coding involves the development of both client-facing and
-              server-side components. Front-end coding focuses on implementing
-              the user interface with attention to design and user experience.
-              Simultaneously, back-end coding addresses server logic, database
-              management, and system integration to enable functionality with
-              ease.
+              At this stage, appropriate programming languages are selected to
+              begin the coding of the mobile application. Where the back end
+              part determines the scalability of your app in the future and the
+              Front end part mostly interacts with the user. It contains three
+              approaches to building it effectively, which include
+              platform-specific, cross-platform, and hybrid. Here, we cater to
+              all those steps that are designed to process mobile applications.
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               05.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Evaluation
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Testing
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Testing & Evaluation
             </h3>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              This ensures the application's reliability, and adherence to
-              requirements. Various evaluation methods, including unit,
-              integration, and user acceptance testing, are employed to validate
-              the software's performance.
+              After ending the development phase we evaluate the entire process
+              before moving towards the deployment phase. We proceed with the
+              testing of stability, functionality, performance, security, and
+              the removal of bugs or errors in the developed solution. So, to
+              avoid negligence and delinquency hire our valuable developers who
+              not only assist you in the evaluation process but also serve you
+              the best possible way to stand out.
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start pb-3 lg:py-10 gap-3">
             <h1 className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               06.
             </h1>
-            <h2 className="text-[40px] lg:text-[48px] font-bold capitalize leading-[58.09px]">
+            <h2 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Deployment
             </h2>
-            <h3 className="    capitalize text-[30px] lg:text-[36px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Jackpot
+            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+              Go Live
             </h3>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
             >
-              The final step involves releasing the application to production
-              environments. It includes activities such as packaging,
-              configuring, and deploying the software to servers or app stores.
-              Thorough testing and stakeholder approval precede deployment,
-              enabling a smooth transition to the live environment.
+              The deployment process carries a straightforward approach whether
+              to submit your app on Apple’s App Store or Google Play Store or
+              opt for other private distribution. Simultaneously, being the top
+              mobile app company in the USA we assure vast knowledge of tools
+              and hands on to the development process. Whereas, we have catered
+              hundreds of mobile app solutions and best practices during app
+              deployment.
             </p>
           </div>
         </div>

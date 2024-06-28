@@ -8,11 +8,13 @@ import { IoIosArrowDown } from "react-icons/io";
 import { useParams, usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
+import { BiMenuAltRight } from "react-icons/bi";
 
 const InfluentialNavbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   const navigate = useRouter();
   const pathname = usePathname();
+
   const handleClick = (id) => {
     if (pathname != "/") {
       navigate.push("/");
@@ -28,13 +30,14 @@ const InfluentialNavbar = ({ setIsOpen }) => {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
+
   const navigateTo = (link) => {
     navigate.push(link);
   };
 
   return (
     <div
-      className={`relative px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  h-20  flex items-center justify-between w-full`}
+      className={`relative px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  h-20  flex items-center justify-between w-full z-50`}
     >
       <Link aria-label="logo" href="/" className="h-auto">
         <img
@@ -42,7 +45,8 @@ const InfluentialNavbar = ({ setIsOpen }) => {
           // loader={customLoader}
           // width={120}
           // height={64}
-          src={theme == "light" ? "/logo.png" : "/logo-dark.png"}
+          // src={theme == "light" ? "/logo.png" : "/logo-dark.png"}
+          src="/logo-dark.png"
           className="h-[70px] w-[120px]"
         />
       </Link>
@@ -54,13 +58,13 @@ const InfluentialNavbar = ({ setIsOpen }) => {
         <button
           aria-label="button"
           onClick={() => navigateTo("/")}
-          className={`text-[14px] h-8 font-medium hover:text-orange-600
+          className={`text-[14px] h-8 font-medium text-white hover:text-orange-600
             } bg-transparent  outline-none`}
         >
           Home
         </button>
         <button
-          className={`group text-[14px] hover:text-orange-600 relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
+          className={`group text-[14px] text-white hover:text-orange-600 relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
         >
           <span>Services</span>
           <IoIosArrowDown className="text-md" />
@@ -69,7 +73,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
               theme == "dark"
                 ? "shadow-[0_3px_10px_rgb(230,230,230,0.2)]"
                 : "shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-            } -right-24`}
+            } -right-24 z-50`}
             style={{ background: palette?.background, color: palette?.color }}
           >
             <Link
@@ -100,24 +104,24 @@ const InfluentialNavbar = ({ setIsOpen }) => {
         </button>
         <button
           onClick={() => handleClick("case-studies")}
-          className={`text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`text-[14px] h-8 font-medium text-white hover:text-orange-600 bg-transparent  outline-none`}
         >
           Case Studies
         </button>
         <button
           onClick={() => navigateTo("/about-us")}
-          className={`text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`text-[14px] h-8 font-medium text-white hover:text-orange-600 bg-transparent  outline-none`}
         >
           About us
         </button>
         <button
           onClick={() => navigateTo("/contact-us")}
-          className={`text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`text-[14px] h-8 font-medium text-white hover:text-orange-600 bg-transparent  outline-none`}
         >
           Contact
         </button>
       </div>
-      <div className="w-auto flex gap-3 justify-start items-center">
+      <div className="w-auto flex gap-3 justify-start items-center z-20">
         <button
           aria-label="button"
           name="theme-toggle"
@@ -147,12 +151,13 @@ const InfluentialNavbar = ({ setIsOpen }) => {
           type="button"
           name="menu-toggle"
           onClick={() => setIsOpen(true)}
-          className="flex lg:hidden h-4 lg:h-auto"
+          className="flex lg:hidden"
         >
-          <img
+          {/* <img
             src={theme == "light" ? "/hamburger.webp" : "/menu-dark.webp"}
             className="h-full"
-          />
+          /> */}
+          <BiMenuAltRight className="text-3xl text-white"/>
         </button>
       </div>
     </div>

@@ -2,13 +2,14 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useContext } from "react";
 
 const DiscoverOurHistory = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div className="w-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 pb-12 pt-12 lg:pt-20">
-      <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8 gap-y-16">
         <div className="col-span-3 lg:col-span-2 flex flex-col items-start gap-4 lg:gap-8 xl:pr-32">
           <h1
             className={`${
@@ -35,14 +36,18 @@ const DiscoverOurHistory = () => {
             satisfaction, and making an indelible impact in the realms of
             technology and software.
           </p>
-          <div>
-            <button className="px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] hover:bg-[#F15C20] hover:text-white transition-all duration-300">
+          <div className="mt-5">
+            <Link href={'/contact-us'} className="px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] hover:bg-[#F15C20] hover:text-white transition-all duration-300">
               Start Your Project
-            </button>
+            </Link>
           </div>
         </div>
         <div className="col-span-3 lg:col-span-1">
-            <img src={'/discover-our-history-mockup.png'} />
+          <img
+            src={"/mobile-app-development-services-value-expedition.webp"}
+            title="Mobile App Development Service History"
+            alt="Mobile App development projects evaluation empowering teamwork"
+          />
         </div>
       </div>
     </div>

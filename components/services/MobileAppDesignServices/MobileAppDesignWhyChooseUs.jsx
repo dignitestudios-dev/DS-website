@@ -69,9 +69,9 @@ const MobileAppDesignWhyChooseUs = () => {
         </div>
         <div className="w-full lg:w-[40%] flex justify-end lg:justify-end">
           <img
-            src="/mobile-app-design-choose-us-mockup.png"
-            alt="mobile-app-design-choose-us-mockup"
-            title="mobile-app-design-choose-us-mockup"
+            src="/UIUX-Mobile-app-design.webp"
+            alt=" image shows the discussion of UI/UX Mobile app design team"
+            title="UI/UX Mobile app design"
             className="md:w-[453px] md:h-[583px]"
           />
         </div>

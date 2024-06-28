@@ -728,18 +728,17 @@ input:hover {
   overflow: visible;
 }
 
-.global-padding-horizontal{
-  @apply px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48
+.global-padding-horizontal {
+  @apply px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48;
 }
-
 
 /*  */
 
-.swiper{
-  overflow: visible !important
+.swiper {
+  overflow: visible !important;
 }
 
-.custom-light-shadow{
+.custom-light-shadow {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -758,7 +757,7 @@ input:hover {
 
 .logos {
   overflow: hidden;
-  padding: 30px 0 20px;;
+  padding: 30px 0 20px;
   /* background: white; */
   white-space: nowrap;
   position: relative;
@@ -791,13 +790,13 @@ input:hover {
   padding: 10px 0px;
 }
 
-.logos-slide div{
+.logos-slide div {
   padding: 20px 40px;
   margin: 0 30px;
 }
 
-@media screen and (max-width: 600px){
-  .logos-slide div{
+@media screen and (max-width: 600px) {
+  .logos-slide div {
     padding: 20px 40px;
     margin: 0 10px;
   }
@@ -879,13 +878,13 @@ input:hover {
   padding: 10px 0px 35px 0px;
 }
 
-.logos-slide2 div{
+.logos-slide2 div {
   padding: 20px 40px;
   margin: 0 30px;
 }
 
-@media screen and (max-width: 600px){
-  .logos-slide2 div{
+@media screen and (max-width: 600px) {
+  .logos-slide2 div {
     padding: 20px 40px;
     margin: 0 10px;
   }
@@ -918,4 +917,39 @@ input:hover {
 .logos2Dark:after {
   right: 0;
   background: linear-gradient(to right, rgba(40, 39, 39, 0), rgb(33, 32, 32));
+}
+
+/* influential */
+.influential-hero {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 1)
+  ), url("/influential-hero-mockup.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.influential-overlay-dark {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 1)
+  );
+}
+
+.influential-overlay-light {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 1)
+  );
 }

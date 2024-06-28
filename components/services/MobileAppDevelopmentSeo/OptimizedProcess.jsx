@@ -1,5 +1,6 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import Link from "next/link";
 import React, { useContext } from "react";
 
 const OptimizedProcess = () => {
@@ -8,16 +9,28 @@ const OptimizedProcess = () => {
     <div
       className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:my-12`}
     >
-      <h3 className="uppercase font-bold text-xl text-[#8F8F8F]">
-        we impact highly
-      </h3>
-      <h1
-        className={`${
-          theme === "dark" ? "text-white" : "text-black"
-        } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase`}
-      >
-        optimized process
-      </h1>
+      <div className="w-full flex justify-between items-center">
+        <div className="flex flex-col">
+          <h3 className="uppercase font-bold text-xl text-[#8F8F8F]">
+            we impact highly
+          </h3>
+          <h1
+            className={`${
+              theme === "dark" ? "text-white" : "text-black"
+            } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase`}
+          >
+            optimized process
+          </h1>
+        </div>
+        <div className="hidden lg:block">
+          <Link
+            href={"/contact-us"}
+            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+          >
+            Let's Start Your Project
+          </Link>
+        </div>
+      </div>
       <p
         className={`text-[18px] font-normal ${
           theme === "light" && "text-[#2A2A2A]"
@@ -146,8 +159,8 @@ const OptimizedProcess = () => {
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">01</h5>
             <h1 className="text-[18px] font-bold uppercase z-20">
-            project <br /> analysis and <br />
-            research
+              project <br /> analysis and <br />
+              research
             </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
@@ -158,7 +171,9 @@ const OptimizedProcess = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">02</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">structural <br /> implementation <br /> and design</h1>
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              structural <br /> implementation <br /> and design
+            </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -168,7 +183,9 @@ const OptimizedProcess = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">03</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">iterative <br /> development</h1>
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              iterative <br /> development
+            </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 px-3 pt-0 flex flex-col items-start justify-start relative pb-16">
@@ -178,7 +195,9 @@ const OptimizedProcess = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">04</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">application <br /> testing phase</h1>
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              application <br /> testing phase
+            </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -188,7 +207,9 @@ const OptimizedProcess = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">05</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">soft launch <br /> of mobile app</h1>
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              soft launch <br /> of mobile app
+            </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -198,13 +219,22 @@ const OptimizedProcess = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">06</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">development</h1>
+            <h1 className="text-[18px] font-bold uppercase z-20">
+              development
+            </h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
         </div>
       </div>
 
-      
+      <div className="lg:hidden mt-6 w-full flex justify-center">
+          <Link
+            href={"/contact-us"}
+            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+          >
+            Let's Start Your Project
+          </Link>
+        </div>
     </div>
   );
 };

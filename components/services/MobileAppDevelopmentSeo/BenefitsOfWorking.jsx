@@ -1,5 +1,6 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import Link from "next/link";
 import React, { useContext } from "react";
 
 const BenefitsOfWorking = () => {
@@ -10,13 +11,24 @@ const BenefitsOfWorking = () => {
         theme === "light" ? "bg-[#F9F9F9]" : "bg-transparent"
       } py-16`}
     >
-      <h1
-        className={`${
-          theme === "dark" ? "text-white" : "text-black"
-        } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase`}
-      >
-        benefits of working with <br /> dignite studios
-      </h1>
+      <div className="w-full flex items-center justify-between">
+        <h1
+          className={`${
+            theme === "dark" ? "text-white" : "text-black"
+          } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase`}
+        >
+          benefits of working with <br /> dignite studios
+        </h1>
+        <div className="hidden lg:block">
+          <Link
+            href={"/contact-us"}
+            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+          >
+            Let's Start Your Project
+          </Link>
+        </div>
+      </div>
+
       <div
         className={`border w-full my-4 ${
           theme === "light" ? "border-[#E7E7E7]" : "border-gray-500"
@@ -30,7 +42,11 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img src="/project-outlook.png" alt="" />
+            <img
+              src="/orange-mobile-app-development-project-outlook-icon.webp"
+              alt="Mobile App Development Service Project Outlook Icon"
+              title="Mobile App Development Service Project Outlook"
+            />
           </div>
           <h2 className={`text-3xl font-semibold`}>Project Outlook</h2>
           <p
@@ -55,7 +71,11 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img src="/collaboration.png" alt="" />
+            <img
+              src="/orange-mobile-app-development-collaboration-icon.webp"
+              alt="Mobile App Development Service collaboration icon"
+              title="Mobile App Development Service collaboration"
+            />
           </div>
           <h2 className={`text-3xl font-semibold`}>Collaboration</h2>
           <p
@@ -77,7 +97,11 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img src="/cost-estimation.png" alt="" />
+            <img
+              src="/orange-mobile-app-development-cost-estimation-icon.webp"
+              alt="Mobile App Development Service Cost estimation App Icon"
+              title="Mobile App Development Service Cost Estimation"
+            />
           </div>
           <h2 className={`text-3xl font-semibold`}>Cost Estimation</h2>
           <p
@@ -102,7 +126,11 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img src="/risk-management.png" alt="" />
+            <img
+              src="/orange-mobile-app-development-service-risk-management-icon.webp"
+              alt="Mobile App Development Service Risk Management Icon"
+              title="Mobile App Development Service Risk Management"
+            />
           </div>
           <h2 className={`text-3xl font-semibold`}>Risk Management</h2>
           <p
@@ -127,8 +155,13 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img src="/project-documentation.png" alt="" />
+            <img
+              src="/orange-Mobile-App-Development-Project-Documentation-Icon.webp"
+              alt="Mobile App Development Project Documentation Icon"
+              title="Mobile App Development Project Documentation"
+            />
           </div>
+
           <h2 className={`text-3xl font-semibold`}>Project Documentation</h2>
           <p
             className={`text-sm font-normal ${
@@ -154,7 +187,11 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img src="/reporting.png" alt="" />
+            <img
+              src="/orange-mobile-app-development-service-reporting-icon.webp"
+              alt="Mobile App Development Service Reporting Icon"
+              title="Mobile App Development Service Reporting"
+            />
           </div>
           <h2 className={`text-3xl font-semibold`}>Reporting</h2>
           <p
@@ -178,7 +215,11 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img src="/post-launch.png" alt="" />
+            <img
+              src="/orange-Mobile-App-Development-Service-Post-launch-Icon.png"
+              alt="Mobile App Development Service Post-launch Icon"
+              title="Mobile App Development Service Post-launch"
+            />
           </div>
           <h2 className={`text-3xl font-semibold`}>Post Launch</h2>
           <p
@@ -200,7 +241,11 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img src="/change-request.png" alt="" />
+            <img
+              src="/orange-mobile-app-development-change-request-management-icon.webp"
+              title="Mobile App Development Change Request Management"
+              alt="mobile app development change request management icon"
+            />
           </div>
           <h2 className={`text-3xl font-semibold`}>
             Change Request Management
@@ -218,6 +263,15 @@ const BenefitsOfWorking = () => {
           </p>
         </div>
       </div>
+
+      <div className="lg:hidden mt-6 w-full flex justify-center">
+          <Link
+            href={"/contact-us"}
+            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+          >
+            Let's Start Your Project
+          </Link>
+        </div>
     </div>
   );
 };

@@ -24,12 +24,12 @@ const MobileAppDevSeoHero = () => {
               }}
               className={`lg:block hidden text-3xl md:text-4xl font-extrabold lg:text-[70px] xl:text-[70px] md:leading-[70px] xl:leading-[72.8px] lg:font-bold xl:font-semibold tracking-[-2.8px] z-10 `}
             >
-              <span style={{ color: palette?.brandOrange }}>Revolutionary</span>{" "}
+              <span style={{ color: palette?.brandOrange }}>Execute</span>{" "}
               <span
                 className={`${theme === "light" ? "text-black" : "text-white"}`}
               >
-                Mobile App
-                <br /> Development Services
+                Astounding Mobile
+                <br />App Development Services
               </span>
             </h1>
             <h1
@@ -47,9 +47,9 @@ const MobileAppDevSeoHero = () => {
               </span>
             </h1>
             <span
-              className={`lg:w-[80%] my-2 lg:my-6 lg:text-base font-medium uppercase tracking-[3.68px] ${theme === 'dark' && 'text-[#ECECEC]'}`}
+              className={`lg:w-[80%] my-2 lg:my-6 text-sm lg:text-base font-medium uppercase tracking-[3.68px] ${theme === 'dark' && 'text-[#ECECEC]'}`}
             >
-              We legitimize merchandising
+              Let’s delve into innovative ideas to strengthen <br /> first-class mobile solutions
             </span>
             {/* <span>We legitimize merchandising</span> */}
             <div className="flex items-center justify-center gap-3">

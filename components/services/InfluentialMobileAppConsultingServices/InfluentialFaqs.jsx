@@ -48,7 +48,7 @@ const InfluentialFaqs = () => {
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className={`font-medium text-base md:text-lg lg:text-xl`}>
-                  How much does it cost to create an app?
+                  What consulting services do you provide?
                 </span>
               </div>
               {openAccordion === 1 ? (
@@ -70,9 +70,9 @@ const InfluentialFaqs = () => {
                     theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
                   } text-xs lg:text-[16px] leading-normal`}
                 >
-                  To know the actual designer cost for the development of the
-                  apps, schedule a call with our specialists or fill out the
-                  form below.
+                  Dignite Studios provides top mobile free consultancy from
+                  scratch to launch a mobile app. In short, we distribute
+                  full-cycle consultancy in app development.
                 </p>
               </div>
             </div>
@@ -100,7 +100,7 @@ const InfluentialFaqs = () => {
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium text-base md:text-lg lg:text-xl">
-                  What does a mobile app designer do?
+                  What industries do you work with?
                 </span>
               </div>
               {openAccordion === 2 ? (
@@ -122,10 +122,13 @@ const InfluentialFaqs = () => {
                     theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
                   } text-xs lg:text-[16px] leading-normal`}
                 >
-                  The application designer accumulates all the requirements from
-                  business analysts and users to evaluate which IT software will
-                  easily support the application. Further, he designs the app
-                  specifications for the programmers to execute accordingly.
+                  We leverage our expertise in each sector, whether health apps,
+                  e-commerce, travel, insurance, and so on. Here, we value our
+                  customers across multiple platforms and encourage their ideas
+                  to form visionary projects. Our service not only includes
+                  mobile app consulting for various market sizes but also
+                  delivers end-to-end solutions to our clients globally and
+                  comprehensively.
                 </p>
               </div>
             </div>
@@ -153,7 +156,7 @@ const InfluentialFaqs = () => {
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium text-base md:text-lg lg:text-xl">
-                  Who designs mobile apps?
+                  How quickly can you provide a cost-effective solution?
                 </span>
               </div>
               {openAccordion === 3 ? (
@@ -175,119 +178,8 @@ const InfluentialFaqs = () => {
                     theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
                   } text-xs lg:text-[16px] leading-normal`}
                 >
-                  Apps are designed by expert UI/UX designers who build
-                  user-friendly interfaces, on the other hand, the code is
-                  translated by the front-end developers to build iOS and
-                  Android apps systematically. Our service scope can help you to
-                  seek the best mobile app designers.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            type="button"
-            onClick={() => handleAccordionClick(4)}
-            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-              theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
-            } outline-none hover:opacity-95 `}
-            style={{
-              borderBottom: `2px solid ${palette?.light_contrast_background}`,
-            }}
-            data-accordion-target="#accordion-collapse-body-1"
-          >
-            <button
-              name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
-                openAccordion === 4
-                  ? "text-[#F15C20]"
-                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-              } gap-3`}
-            >
-              <div
-                className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
-              >
-                <span className="font-medium text-base md:text-lg lg:text-xl">
-                  What is the difference between an app developer and an app
-                  designer?
-                </span>
-              </div>
-              {openAccordion === 4 ? (
-                <FiMinus className="text-2xl" />
-              ) : (
-                <FiPlus className="text-2xl" />
-              )}
-            </button>
-
-            <div
-              id="accordion-1"
-              className={`transition-all duration-200 ${
-                openAccordion === 4 ? "" : "hidden"
-              }`}
-            >
-              <div className="py-1 rounded-md mt-1 ">
-                <p
-                  className={`mb-2 ${
-                    theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
-                  } text-xs lg:text-[16px] leading-normal`}
-                >
-                  The app's developer generates front-end development,
-                  full-stack development, and back-end development in the mobile
-                  app development process. Whereas the app's designer focuses on
-                  unique and visually appealing UX/UI interfaces and develops an
-                  application code to give a lease on life.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            type="button"
-            onClick={() => handleAccordionClick(5)}
-            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-              theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
-            } outline-none hover:opacity-95 `}
-            style={{
-              borderBottom: `2px solid ${palette?.light_contrast_background}`,
-            }}
-            data-accordion-target="#accordion-collapse-body-1"
-          >
-            <button
-              name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
-                openAccordion === 5
-                  ? "text-[#F15C20]"
-                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-              } gap-3`}
-            >
-              <div
-                className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
-              >
-                <span className="font-medium text-base md:text-lg lg:text-xl">
-                  How to improve the app experience?
-                </span>
-              </div>
-              {openAccordion === 5 ? (
-                <FiMinus className="text-2xl" />
-              ) : (
-                <FiPlus className="text-2xl" />
-              )}
-            </button>
-
-            <div
-              id="accordion-1"
-              className={`transition-all duration-200 ${
-                openAccordion === 5 ? "" : "hidden"
-              }`}
-            >
-              <div className="py-1 rounded-md mt-1 ">
-                <p
-                  className={`mb-2 ${
-                    theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
-                  } text-xs lg:text-[16px] leading-normal`}
-                >
-                  The development can be refined and enhanced by the
-                  multichannel experience, unique features or functions,
-                  skeleton mobile screens, proper navigation system, and
-                  appropriate onboarding process.
+                  Schedule a call to discuss business dimensions and product
+                  goals to get a friendly budget for your mobile app.
                 </p>
               </div>
             </div>

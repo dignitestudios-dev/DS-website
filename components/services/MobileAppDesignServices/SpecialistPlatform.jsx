@@ -43,9 +43,9 @@ const  SpecialistPlatform = () => {
             stage to attract consumers rapidly.
           </p>
           <img
-            src="/native-mobile-app-design-mockup.png"
-            alt="native-mobile-app-design-mockup"
-            title="native-mobile-app-design-mockup"
+            src="/native-mobile-app-design-services.webp"
+            alt="the mockup screen shows posts on the native mobile app design services"
+            title="Native mobile app design services"
             className="mx-auto absolute -bottom-40 lg:-bottom-24 w-[249px] group-hover:-bottom-32 lg:group-hover:-bottom-16 transition-all duration-200"
           />
         </div>
@@ -60,9 +60,9 @@ const  SpecialistPlatform = () => {
             base for any process.  
           </p>
           <img
-            src="/cross-platform-mockup.png"
-            alt="native-mobile-app-design-mockup"
-            title="native-mobile-app-design-mockup"
+            src="/cross-platform-mobile-app-design-services.webp"
+            alt="mockup screen shows cross-platform mobile application design services"
+            title="Cross-platform mobile app design services"
             className="mx-auto absolute -bottom-10 2xl:-bottom-11 w-[249px] group-hover:-bottom-2 transition-all duration-200"
           />
         </div>

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useContext, useState } from "react";
 import { IoIosCheckmark } from "react-icons/io";
@@ -32,24 +32,28 @@ const Faq = () => {
           <div
             type="button"
             onClick={() => handleAccordionClick(1)}
-            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"} outline-none hover:opacity-95 `}
+            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
+              theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+            } outline-none hover:opacity-95 `}
             style={{
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
             data-accordion-target="#accordion-collapse-body-1"
-
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 1 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-                } gap-3`}
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
+                openAccordion === 1
+                  ? "text-[#F15C20]"
+                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
+              } gap-3`}
             >
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium text-base md:text-lg lg:text-xl">
-                  WHO OWNS THE LEGAL RIGHTS TO THE TECHNOLOGY DEVELOPED BY A DIGNITE
-                  STUDIOS DEVELOPER?
+                  Who owns the legal rights to the technology developed by a
+                  dignite studios developer?
                 </span>
               </div>
               {openAccordion === 1 ? (
@@ -61,9 +65,9 @@ const Faq = () => {
 
             <div
               id="accordion-1"
-              className={`transition-all duration-200 ${openAccordion === 1 ? "" : "hidden"
-                }`}
-
+              className={`transition-all duration-200 ${
+                openAccordion === 1 ? "" : "hidden"
+              }`}
             >
               <div className="py-1 rounded-md mt-1 ">
                 <p
@@ -72,8 +76,9 @@ const Faq = () => {
                     color: palette?.dark_contrast_color,
                   }}
                 >
-                  The legal rights to the technology produced by Dignite Studios developers are owned by the client. All
-                  development done by our firm is the client's sole property.
+                  The legal rights to the technology produced by Dignite Studios
+                  developers are owned by the client. All development done by
+                  our firm is the client's sole property.
                 </p>
               </div>
             </div>
@@ -81,23 +86,27 @@ const Faq = () => {
           <div
             type="button"
             onClick={() => handleAccordionClick(2)}
-            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"} outline-none hover:opacity-95 `}
+            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
+              theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+            } outline-none hover:opacity-95 `}
             style={{
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
             data-accordion-target="#accordion-collapse-body-1"
-
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 2 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-                } gap-3`}
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
+                openAccordion === 2
+                  ? "text-[#F15C20]"
+                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
+              } gap-3`}
             >
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium text-base md:text-lg lg:text-xl">
-                  HOW DO YOU ENSURE DATA SECURITY OF MOBILE APPS AND WEBSITES?
+                  How do you ensure data security of mobile apps and websites?
                 </span>
               </div>
               {openAccordion === 2 ? (
@@ -109,9 +118,9 @@ const Faq = () => {
 
             <div
               id="accordion-1"
-              className={`transition-all duration-200 ${openAccordion === 2 ? "" : "hidden"
-                }`}
-
+              className={`transition-all duration-200 ${
+                openAccordion === 2 ? "" : "hidden"
+              }`}
             >
               <div className="py-1 rounded-md mt-1 ">
                 <p
@@ -120,8 +129,9 @@ const Faq = () => {
                     color: palette?.dark_contrast_color,
                   }}
                 >
-                  For the purpose of creating highly secure mobile apps and websites, we adhere to suitable encryption
-                  and the most recent data security protocols.
+                  For the purpose of creating highly secure mobile apps and
+                  websites, we adhere to suitable encryption and the most recent
+                  data security protocols.
                 </p>
               </div>
             </div>
@@ -129,23 +139,27 @@ const Faq = () => {
           <div
             type="button"
             onClick={() => handleAccordionClick(3)}
-            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"} outline-none hover:opacity-95 `}
+            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
+              theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+            } outline-none hover:opacity-95 `}
             style={{
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
             data-accordion-target="#accordion-collapse-body-1"
-
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 3 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-                } gap-3`}
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
+                openAccordion === 3
+                  ? "text-[#F15C20]"
+                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
+              } gap-3`}
             >
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium text-base md:text-lg lg:text-xl">
-                  HOW FREQUENTLY DO YOU SHARE AN UPDATE ON THE PROCESS?
+                  How frequently do you share an update on the process?
                 </span>
               </div>
               {openAccordion === 3 ? (
@@ -157,9 +171,9 @@ const Faq = () => {
 
             <div
               id="accordion-1"
-              className={`transition-all duration-200 ${openAccordion === 3 ? "" : "hidden"
-                }`}
-
+              className={`transition-all duration-200 ${
+                openAccordion === 3 ? "" : "hidden"
+              }`}
             >
               <div className="py-1 rounded-md mt-1 ">
                 <p
@@ -168,10 +182,13 @@ const Faq = () => {
                     color: palette?.dark_contrast_color,
                   }}
                 >
-                  We have a designed process to keep you informed utilizing the best project management tools as soon
-                  as you assign us with your app concept. Our staff stays in touch with you to go through different crucial
-                  issues pertaining to your projects and company. We keep you informed of even the tiniest
-                  advancements pertaining to your project, and we welcome your criticism.
+                  We have a designed process to keep you informed utilizing the
+                  best project management tools as soon as you assign us with
+                  your app concept. Our staff stays in touch with you to go
+                  through different crucial issues pertaining to your projects
+                  and company. We keep you informed of even the tiniest
+                  advancements pertaining to your project, and we welcome your
+                  criticism.
                 </p>
               </div>
             </div>
@@ -179,23 +196,27 @@ const Faq = () => {
           <div
             type="button"
             onClick={() => handleAccordionClick(4)}
-            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"} outline-none hover:opacity-95 `}
+            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
+              theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+            } outline-none hover:opacity-95 `}
             style={{
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
             data-accordion-target="#accordion-collapse-body-1"
-
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 4 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-                } gap-3`}
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
+                openAccordion === 4
+                  ? "text-[#F15C20]"
+                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
+              } gap-3`}
             >
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium text-base md:text-lg lg:text-xl">
-                  WHO WILL BE WORKING ON MY PROJECT?
+                  Who will be working on my project?
                 </span>
               </div>
               {openAccordion === 4 ? (
@@ -207,9 +228,9 @@ const Faq = () => {
 
             <div
               id="accordion-1"
-              className={`transition-all duration-200 ${openAccordion === 4 ? "" : "hidden"
-                }`}
-
+              className={`transition-all duration-200 ${
+                openAccordion === 4 ? "" : "hidden"
+              }`}
             >
               <div className="py-1 rounded-md mt-1 ">
                 <p
@@ -218,10 +239,12 @@ const Faq = () => {
                     color: palette?.dark_contrast_color,
                   }}
                 >
-                  A proficient project manager will be assigned to oversee your project, acting as a crucial link between
-                  clients and the development team. This experienced professional will facilitate clear communication and
-                  provide regular, comprehensive updates on the project's progress, ensuring a successful and timely
-                  execution.
+                  A proficient project manager will be assigned to oversee your
+                  project, acting as a crucial link between clients and the
+                  development team. This experienced professional will
+                  facilitate clear communication and provide regular,
+                  comprehensive updates on the project's progress, ensuring a
+                  successful and timely execution.
                 </p>
               </div>
             </div>
@@ -229,23 +252,27 @@ const Faq = () => {
           <div
             type="button"
             onClick={() => handleAccordionClick(5)}
-            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"} outline-none hover:opacity-95 `}
+            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
+              theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+            } outline-none hover:opacity-95 `}
             style={{
               borderBottom: `2px solid ${palette?.light_contrast_background}`,
             }}
             data-accordion-target="#accordion-collapse-body-1"
-
           >
             <button
               name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${openAccordion === 5 ? "text-[#F15C20]" : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-                } gap-3`}
+              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
+                openAccordion === 5
+                  ? "text-[#F15C20]"
+                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
+              } gap-3`}
             >
               <div
                 className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
               >
                 <span className="font-medium text-base md:text-lg lg:text-xl">
-                  HOW WILL I BE MAKING THE PAYMENTS?
+                  How will I be making the payments?
                 </span>
               </div>
               {openAccordion === 5 ? (
@@ -257,9 +284,9 @@ const Faq = () => {
 
             <div
               id="accordion-1"
-              className={`transition-all duration-200 ${openAccordion === 5 ? "" : "hidden"
-                }`}
-
+              className={`transition-all duration-200 ${
+                openAccordion === 5 ? "" : "hidden"
+              }`}
             >
               <div className="py-1 rounded-md mt-1 ">
                 <p
@@ -268,10 +295,12 @@ const Faq = () => {
                     color: palette?.dark_contrast_color,
                   }}
                 >
-                  You will make payments according to your installment plan. Upon the completion of each deliverable,
-                  our team will send you a payment link redirecting you to the Dignite Studios payment portal, where you
-                  can complete the transaction. We accept all major debit and credit cards, including Visa, Mastercard,
-                  Discover, and American Express.
+                  You will make payments according to your installment plan.
+                  Upon the completion of each deliverable, our team will send
+                  you a payment link redirecting you to the Dignite Studios
+                  payment portal, where you can complete the transaction. We
+                  accept all major debit and credit cards, including Visa,
+                  Mastercard, Discover, and American Express.
                 </p>
               </div>
             </div>

@@ -6,12 +6,12 @@ const DevelopmentConsultingStrategies = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div className="w-full global-padding-horizontal py-14">
-      <h1 className="text-3xl lg:text-[68px] font-bold">
+      <h1 className="text-3xl lg:text-[68px] 2xl:text-[84px] font-bold">
         <span className="text-[#F15C20]">Development</span> Consulting
         Strategies 
       </h1>
       <p
-        className={`text-base font-normal ${
+        className={`text-base 2xl:text-lg font-normal ${
           theme === "light" && "text-[#5C5C5C] leading-[20.81px]"
         } mt-10`}
       >
@@ -29,15 +29,15 @@ const DevelopmentConsultingStrategies = () => {
         <div className="lg:p-8 ps-0 lg:border-b-2">
           <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
             <img
-              src="/mobile-app-design-icon.png"
-              alt="mobile-app-design-icon"
-              title="mobile-app-design-icon"
+              src="/mobile-app-consulting-design-icon.webp"
+              alt="mobile app consulting design icon"
+              title="mobile app consulting design"
               className="w-[48px] h-[55px]"
             />
           </div>
-          <h3 className="text-[24px] font-semibold my-3">Mobile App Design</h3>
+          <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3">Mobile App Design</h3>
           <p
-            className={`text-base font-normal leading-[20.81px] ${
+            className={`text-base 2xl:text-lg font-normal leading-[20.81px] ${
               theme === "light" && "#5C5C5C"
             }`}
           >
@@ -52,17 +52,17 @@ const DevelopmentConsultingStrategies = () => {
         <div className="lg:border-s-2 lg:p-8 lg:border-b-2">
           <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
             <img
-              src="/mobile-app-modernization.png"
-              alt="mobile-app-design-icon"
-              title="mobile-app-design-icon"
+              src="/mobile-app-consulting-modernization-icon.webp"
+              alt="Mobile app consulting modernization icon"
+              title="Mobile app consulting modernization"
               className="w-[48px] h-[55px]"
             />
           </div>
-          <h3 className="text-[24px] font-semibold my-3">
+          <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3">
             Mobile App Modernization 
           </h3>
           <p
-            className={`text-base font-normal leading-[20.81px] ${
+            className={`text-base 2xl:text-lg font-normal leading-[20.81px] ${
               theme === "light" && "#5C5C5C"
             }`}
           >
@@ -78,17 +78,17 @@ const DevelopmentConsultingStrategies = () => {
       <div className="lg:p-8 ps-0 lg:border-b-2 mt-6 lg:mt-0">
         <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
           <img
-            src="/mobile-app-optimization-and-audit.png"
-            alt="mobile-app-design-icon"
-            title="mobile-app-design-icon"
+            src="/Mobile-app-consulting-optimization-and-audit-icon.webp"
+            alt="Mobile app consulting optimization and audit icon"
+            title="Mobile app consulting optimization and audit"
             className="w-[48px] h-[55px]"
           />
         </div>
-        <h3 className="text-[24px] font-semibold my-3">
+        <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3">
           Mobile App Optimization and Audit
         </h3>
         <p
-          className={`text-base font-normal leading-[20.81px] ${
+          className={`text-base 2xl:text-lg font-normal leading-[20.81px] ${
             theme === "light" && "#5C5C5C"
           }`}
         >

@@ -15,9 +15,9 @@ const TestingServices = () => {
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-10 border-b py-6 mt-20">
         <div className="order-2 lg:order-1 overflow-hidden mb-6 lg:mb-0">
           <img
-            src="/software-functional-testing-services.png"
-            alt="testing-services-mockup"
-            title="testing-services-mockup"
+            src="/mobile-software-functional-testing-services.webp"
+            alt="two mobile mock screens shows the testing of streaming applications"
+            title="Mobile software functional testing services"
             data-aos="slide-right"
             data-aos-offset="200" // Adjusted offset to trigger animation earlier
             data-aos-delay="0" // No delay for immediate animation start
@@ -159,9 +159,9 @@ const TestingServices = () => {
         </div>
         <div className="flex justify-end">
           <img
-            src="/software-automated-testing-services.png"
-            alt="software-automated-testing-services"
-            title="software-automated-testing-services"
+            src="/mobile-software-automated-testing-services.webp"
+            alt=" two mobile mock screens shows the testing of application layout"
+            title="Mobile software automated testing services"
             data-aos="slide-left"
             data-aos-offset="100" // Adjusted offset to trigger animation earlier
             data-aos-delay="0" // No delay for immediate animation start
@@ -176,9 +176,9 @@ const TestingServices = () => {
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 py-6">
         <div className="order-2 lg:order-1">
           <img
-            src="/software-data-testing-services.png"
-            alt="software-data-testing-services"
-            title="software-data-testing-services"
+            src="/mobile-software-data-testing-services.webp"
+            alt="two mock screens shows the testing of application structure"
+            title="mobile software data testing services"
             data-aos="slide-right"
             data-aos-offset="100" // Adjusted offset to trigger animation earlier
             data-aos-delay="0" // No delay for immediate animation start

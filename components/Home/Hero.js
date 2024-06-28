@@ -45,7 +45,7 @@ const Hero = () => {
         }
       }
     };
-    typeEffect();
+    // typeEffect();
   }, []);
   return (
     <div className="w-full  flex flex-col pt-2 md:pt-10  gap-4 justify-start items-center">
@@ -55,22 +55,23 @@ const Hero = () => {
           color: theme == "dark" ? "#B4B4B4" : "#8F8F8F",
         }}
       >
-        mobile & Web app development agency
+        Top mobile app development company
       </span>
       <h1
         style={{
           color: palette?.color,
         }}
-        className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize"
+        className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px]"
       >
         Elevate your brand in the <br />
-        <span
+        <span className="text-[#F15C20]">Digital Cosmos</span>
+        {/* <span
           id="typewriter-effect"
           style={{
             color: palette?.brandOrange,
           }}
           className={`typing-demo text-[2rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold text-center lg:text-left  leading-normal `}
-        ></span>
+        ></span> */}
       </h1>
       <span
         style={{

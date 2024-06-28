@@ -4,10 +4,10 @@ import { HiMiniArrowUpRight } from "react-icons/hi2";
 
 const DriveBusiness = () => {
   return (
-    <div className="w-full py-12 global-padding-horizontal mt-20">
+    <div className="w-full py-12 global-padding-horizontal lg:mt-32 2xl:mt-20">
       <div className="w-full bg-[#F15C201A] rounded-[28px] relative">
-        <div className="flex flex-col items-start text-start gap-8 p-6 lg:p-16">
-          <h1 className="text-3xl lg:text-[64px] font-bold lg:leading-[77.45px]">
+        <div className="flex flex-col items-start text-start gap-8 p-6 lg:p-16 2xl:p-24 2xl:gap-12">
+          <h1 className="text-3xl lg:text-[64px] 2xl:text-[80px] font-bold lg:leading-[77.45px]">
             Let’s Talk and Drive <br /> Business Together
           </h1>
           <Link
@@ -18,10 +18,10 @@ const DriveBusiness = () => {
           </Link>
         </div>
         <img
-          src="/drive-business-mockup.png"
-          alt="drive-business-mockup"
-          title="drive-business-mockup"
-          className="w-[90%] ms-3 md:w-[530px] md:h-[504px] lg:absolute bottom-0 right-0 lg:right-4"
+          src="/mobile-app-consultation-services.webp"
+          alt="A person holding a laptop and providing mobile app consultation services"
+          title="mobile app consultation services"
+          className="w-[90%] ms-3 md:w-[530px] md:h-[504px] 2xl:w-[600px] 2xl:h-[584px] lg:absolute bottom-0 right-0 lg:right-4"
         />
       </div>
     </div>
