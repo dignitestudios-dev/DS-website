@@ -41,7 +41,7 @@ const TopRatedMobileAppCategories = () => {
             src="/purple-mobile-streaming-mobile-app-development.webp"
             alt="two mockup screens showing streaming mobile app development"
             title="Streaming mobile app development"
-            className="w-[349.72px] h-[455.75px] 2xl:h-[525px] 2xl:w-[400px] absolute -bottom-36 -right-10 group-hover:-bottom-28 transition-all duration-300"
+            className="w-[349.72px] h-[455.75px] 2xl:h-[535px] 2xl:w-[400px] absolute -bottom-36 -right-10 group-hover:-bottom-28 transition-all duration-300"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#0983F4] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">
@@ -52,7 +52,7 @@ const TopRatedMobileAppCategories = () => {
           <img
             src="/ecommerce-mockup-2.png"
             alt=""
-            className="w-full h-[490.98px] 2xl:h-[650px] absolute -bottom-48 2xl:-bottom-[270px] 2xl:-right-20 -right-14 group-hover:-bottom-40 2xl:group-hover:-bottom-[248px] transition-all duration-300"
+            className="w-full h-[490.98px] 2xl:h-[665px] absolute -bottom-48 2xl:-bottom-[270px] 2xl:-right-20 -right-14 group-hover:-bottom-40 2xl:group-hover:-bottom-[248px] transition-all duration-300"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#07D98D] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">
@@ -63,7 +63,7 @@ const TopRatedMobileAppCategories = () => {
           <img
             src="/insurance-mockup-1.png"
             alt=""
-            className="h-[431.37px] w-full 2xl:h-[555px] absolute -bottom-32 2xl:-bottom-44 -right-14 group-hover:-bottom-24 2xl:group-hover:-bottom-36 transition-all duration-300"
+            className="h-[431.37px] w-full 2xl:h-[575px] absolute -bottom-32 2xl:-bottom-44 -right-14 group-hover:-bottom-24 2xl:group-hover:-bottom-36 transition-all duration-300"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#FEAE12] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">
@@ -73,7 +73,7 @@ const TopRatedMobileAppCategories = () => {
             src="/yellow-utility-mobile-app-development.webp"
             title="Utility mobile app development"
             alt="two mockup screens show the utility mobile app development"
-            className="w-[310.67px] h-[390.98px] 2xl:h-[490.98px] 2xl:w-[400.98px] absolute -bottom-10 right-0 2xl:-right-0 2xl:-bottom-12 group-hover:-bottom-4 transition-all duration-300"
+            className="w-[400px] 2xl:h-[530.98px] 2xl:w-[560.98px] absolute -bottom-32 -right-14 group-hover:-bottom-24 2xl:-right-20 2xl:-bottom-36 2xl:group-hover:-bottom-32 transition-all duration-500"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#F4096C] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">
@@ -83,7 +83,7 @@ const TopRatedMobileAppCategories = () => {
             src="/red-dating-mobile-app-development.png"
             title="Dating mobile app development"
             alt="two mockup screens show the dating mobile app development"
-            className="w-full h-[490.98px] 2xl:h-[565px] 2xl:w-[400px] absolute -bottom-48 -right-14 group-hover:-bottom-40 transition-all duration-300"
+            className="w-full h-[490.98px] 2xl:h-[595px] 2xl:w-[400px] absolute -bottom-48 -right-14 group-hover:-bottom-40 transition-all duration-300"
           />
         </div>
         <div className="w-full lg:w-[345px] 2xl:w-[445px] overflow-hidden bg-[#9875FD] rounded-[24px] p-10 relative h-[425px] 2xl:h-[500px] group">
@@ -95,7 +95,7 @@ const TopRatedMobileAppCategories = () => {
             src="/purple-telehealth-mobile-app-development.png"
             title="Telehealth mobile app development"
             alt="two mockup screens show the telehealth mobile app development"
-            className="w-[400.67px] h-[490.98px] 2xl:h-[555px] 2xl:w-[400px] absolute -bottom-48 -right-12 group-hover:-bottom-40 transition-all duration-300"
+            className="w-[400.67px] h-[490.98px] 2xl:h-[585px] 2xl:w-[400px] absolute -bottom-48 -right-12 group-hover:-bottom-40 transition-all duration-300"
           />
         </div>
       </div>
