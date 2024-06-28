@@ -13,6 +13,7 @@ import ConvenientMobileAppAccordion from "./ConvenientMobileAppAccordion";
 const ConvenientMobileAppDevelopment = () => {
   const { palette, theme } = useContext(GlobalContext);
   const [selectedHeading, setSelectedHeading] = useState(headings[0]);
+  console.log("selectedHeading >> ", selectedHeading)
 
   const handleHeadingClick = (heading) => {
     setSelectedHeading(heading);
@@ -78,7 +79,8 @@ const ConvenientMobileAppDevelopment = () => {
           {getSelectedParagraph().image && (
             <img
               src={getSelectedParagraph().image}
-              alt={selectedHeading}
+              alt={getSelectedParagraph().image_alt}
+              title={getSelectedParagraph().image_title}
               className="w-full"
             />
           )}

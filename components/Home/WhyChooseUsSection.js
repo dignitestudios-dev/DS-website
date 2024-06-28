@@ -43,6 +43,7 @@ const WhyChooseUsSection = () => {
               description={c.description}
               icon={c.icon}
               key={index}
+              alt={c.alt}
             />
           );
         })}
