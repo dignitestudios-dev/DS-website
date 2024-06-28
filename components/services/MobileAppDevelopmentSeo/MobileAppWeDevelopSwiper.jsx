@@ -76,7 +76,7 @@ const MobileAppWeDevelopSwiper = () => {
               src="/green-insurance-mobile-app-development.webp"
               title="Insurance mobile app development"
               alt="Two mockup screens show Mobile Insurance mobile app development"
-              className="h-[431.37px] w-[510.23px] absolute -bottom-24 2xl:-bottom-[95px] 2xl:group-hover:-bottom-[80] -right-16 group-hover:-bottom-16 transition-all duration-300"
+              className="h-[431.37px] w-[510.23px] absolute -bottom-[82px] 2xl:-bottom-[95px] 2xl:group-hover:-bottom-[80] -right-16 group-hover:-bottom-16 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
@@ -90,7 +90,7 @@ const MobileAppWeDevelopSwiper = () => {
               src="/yellow-utility-mobile-app-development.webp"
               title="Utility mobile app development"
               alt="two mockup screens show the utility mobile app development"
-              className="w-[330.67px] h-[420.98px] absolute -bottom-24 -right-6 group-hover:-bottom-16 transition-all duration-300"
+              className="w-[330.67px] h-[420.98px] absolute -bottom-24 -right-8 group-hover:-bottom-16 transition-all duration-300"
             />
           </div>
         </SwiperSlide>

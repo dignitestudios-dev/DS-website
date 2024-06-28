@@ -34,7 +34,7 @@ const MobileAppWeDevelopSection = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-y-32">
+        <div className="flex flex-col gap-y-32 mt-4 lg:mt-0">
           <div className="mt-7">
             <Link
               href={"/contact-us"}
