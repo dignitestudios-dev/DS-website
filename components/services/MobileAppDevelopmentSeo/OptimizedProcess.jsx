@@ -17,7 +17,7 @@ const OptimizedProcess = () => {
           <h1
             className={`${
               theme === "dark" ? "text-white" : "text-black"
-            } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase`}
+            } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter`}
           >
             optimized process
           </h1>
@@ -26,7 +26,7 @@ const OptimizedProcess = () => {
           <Link
             // href={"/contact-us"}
             href={{
-              pathname: '/contact-us',
+              pathname: "/contact-us",
             }}
             className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
           >
@@ -143,9 +143,7 @@ const OptimizedProcess = () => {
               }`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">06</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
-              development
-            </h1>
+            <h1 className="text-[18px] font-bold uppercase z-20">deployment</h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 top-3 z-20"></span>
           </div>
         </div>
@@ -222,22 +220,20 @@ const OptimizedProcess = () => {
               }}`}
             />
             <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">06</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
-              development
-            </h1>
+            <h1 className="text-[18px] font-bold uppercase z-20">deployment</h1>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
         </div>
       </div>
 
       <div className="lg:hidden mt-6 w-full flex justify-center">
-          <Link
-            href={"/contact-us"}
-            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
-          >
-            Let's Start Your Project
-          </Link>
-        </div>
+        <Link
+          href={"/contact-us"}
+          className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+        >
+          Let's Start Your Project
+        </Link>
+      </div>
     </div>
   );
 };

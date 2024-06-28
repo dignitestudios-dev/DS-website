@@ -16,7 +16,7 @@ const TopRatedAppDevFaq = () => {
     >
       <div className="w-full h-auto  flex flex-col gap-3 justify-start items-center">
         <h1
-          className={`uppercase font-extrabold text-center lg:text-start text-3xl lg:text-[58px] lg:leading-[70px] 2xl:text-[74px] tracking-tight lg:tracking-tighter lg:font-bold lg:mb-8`}
+          className={`uppercase font-extrabold text-center lg:text-start text-3xl lg:text-[58px] lg:leading-[72px] 2xl:text-[74px] tracking-tight lg:tracking-tighter lg:font-bold lg:mb-8`}
         >
           Frequently asked questions
         </h1>

@@ -7,7 +7,7 @@ const DriveBusiness = () => {
     <div className="w-full py-12 global-padding-horizontal lg:mt-32 2xl:mt-20">
       <div className="w-full bg-[#F15C201A] rounded-[28px] relative">
         <div className="flex flex-col items-start text-start gap-8 p-6 lg:p-16 2xl:p-24 2xl:gap-12">
-          <h1 className="text-3xl lg:text-[64px] 2xl:text-[80px] font-bold lg:leading-[77.45px]">
+          <h1 className="text-3xl lg:text-[64px] 2xl:text-[80px] font-bold lg:leading-[72.45px] 2xl:leading-[77.45px] tracking-tighter">
             Let’s Talk and Drive <br /> Business Together
           </h1>
           <Link

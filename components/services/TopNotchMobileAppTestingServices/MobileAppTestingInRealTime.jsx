@@ -7,12 +7,12 @@ const MobileAppTestingInRealTime = () => {
   return (
     <div className="w-full py-6 lg:py-12 global-padding-horizontal">
       <div
-        className={`w-full rounded-3xl flex flex-col lg:flex-row items-end overflow-y-hidden ${
+        className={`w-full rounded-3xl flex flex-col lg:flex-row items-end overflow-y-hidden  relative ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#1c1c1c]"
         }`}
       >
-        <div className="flex flex-col items-start gap-5 lg:w-[55%] p-6 lg:p-10">
-          <h1 className="text-2xl lg:text-[48px] font-bold lg:leading-[54.94px]">
+        <div className="flex flex-col items-start gap-5 lg:w-[55%] p-6 lg:p-14">
+          <h1 className="text-2xl lg:text-[48px] font-bold lg:leading-[54.94px] tracking-tighter">
             <span className="text-[#F15C20]">Mobile App</span> Testing In <br />{" "}
             Real Time
           </h1>
@@ -39,7 +39,7 @@ const MobileAppTestingInRealTime = () => {
           src="/mobile-app-testing-services.webp"
           alt="the mock screen shows the job portal on the application testing"
           title="Mobile app testing services"
-          className="lg:w-[530px] lg:h-[442px]"
+          className="lg:w-[530px] lg:h-[410px]"
           data-aos="slide-up"
           data-aos-offset="200" // Adjusted offset to trigger animation earlier
           data-aos-delay="0" // No delay for immediate animation start

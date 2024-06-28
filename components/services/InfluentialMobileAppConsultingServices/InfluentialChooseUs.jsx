@@ -9,8 +9,8 @@ const InfluentialChooseUs = () => {
   return (
     <div className="w-full py-12 global-padding-horizontal grid grid-cols-1 lg:grid-cols-2 gap-6 relative">
       <div className="flex flex-col items-start justify-center gap-6">
-        <h1 className="text-4xl md:text-5xl lg:text-[68px] 2xl:text-[94px] font-bold lg:leading-[70.72px] 2xl:leading-[90px]">
-          <span className="text-[#F15C20]">Why</span> <br />
+        <h1 className="headings-size">
+          <span className="text-[#F15C20]">Why</span>
           Choose US
         </h1>
         <p

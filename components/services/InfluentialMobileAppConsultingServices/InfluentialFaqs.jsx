@@ -14,16 +14,16 @@ const InfluentialFaqs = () => {
     <div
       className={`w-full my-14 global-padding-horizontal flex justify-center items-start mx-auto h-auto`}
     >
-      <div className="w-full h-auto  flex flex-col gap-3 justify-start items-start">
+      <div className="w-full h-auto flex flex-col gap-3 justify-start items-center">
         <h1
-          className={`uppercase font-extrabold text-center lg:text-start text-3xl lg:text-[46px] lg:leading-[70px] 2xl:text-[74px] tracking-tight lg:tracking-tighter lg:font-bold lg:mb-8`}
+          className={`uppercase font-extrabold text-center lg:text-start text-3xl lg:text-[58px] lg:leading-[70px] 2xl:text-[74px] tracking-tight lg:tracking-tighter lg:font-bold lg:mb-8`}
         >
           Frequently asked questions
         </h1>
         <div
           id="accordion-collapse"
           data-accordion="collapse"
-          className="w-full mt-4 lg:px-8"
+          className="w-full mt-4 lg:w-[60%] mx-auto"
         >
           <div
             type="button"

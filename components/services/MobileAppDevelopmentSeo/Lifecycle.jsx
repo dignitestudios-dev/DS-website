@@ -14,7 +14,7 @@ const Lifecycle = () => {
         <h3
           className={`${
             theme === "dark" ? "text-white" : "text-black"
-          } text-start text-3xl lg:text-5xl xl:text-[64px] font-bold uppercase`}
+          } text-start text-3xl lg:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter`}
         >
           up-to-the-minute
         </h3>

@@ -30,7 +30,7 @@ const DiscoverOurHistory = () => {
           <h1
             className={`${
               theme === "light" ? "text-black" : "text-white"
-            } font-bold text-4xl md:text-[64px] tracking-[-2.56px] uppercase leading-none`}
+            } headings-size`}
           >
             discover our <br /> history
           </h1>

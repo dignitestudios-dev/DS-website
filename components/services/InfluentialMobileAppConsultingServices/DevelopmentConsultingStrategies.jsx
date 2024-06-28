@@ -6,14 +6,14 @@ const DevelopmentConsultingStrategies = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div className="w-full global-padding-horizontal py-14">
-      <h1 className="text-3xl lg:text-[68px] 2xl:text-[84px] font-bold">
+      <h1 className="headings-size">
         <span className="text-[#F15C20]">Development</span> Consulting
         Strategies 
       </h1>
       <p
         className={`text-base 2xl:text-lg font-normal ${
           theme === "light" && "text-[#5C5C5C] leading-[20.81px]"
-        } mt-10`}
+        } mt-6`}
       >
         The charismatic architecture of your mobile creates a spectacular
         element in your brand’s worth. Likewise, a mobile app strategy can
@@ -35,7 +35,7 @@ const DevelopmentConsultingStrategies = () => {
               className="w-[48px] h-[55px]"
             />
           </div>
-          <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3">Mobile App Design</h3>
+          <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">Mobile App Design</h3>
           <p
             className={`text-base 2xl:text-lg font-normal leading-[20.81px] ${
               theme === "light" && "#5C5C5C"
@@ -58,7 +58,7 @@ const DevelopmentConsultingStrategies = () => {
               className="w-[48px] h-[55px]"
             />
           </div>
-          <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3">
+          <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
             Mobile App Modernization 
           </h3>
           <p
@@ -84,7 +84,7 @@ const DevelopmentConsultingStrategies = () => {
             className="w-[48px] h-[55px]"
           />
         </div>
-        <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3">
+        <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
           Mobile App Optimization and Audit
         </h3>
         <p

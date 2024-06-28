@@ -71,7 +71,7 @@ const ConsultingStrategiesSection = () => {
   return (
     <div className="lg:py-12 global-padding-horizontal flex flex-col gap-4">
       <div className="w-full flex flex-col lg:flex-row gap-y-6 items-start justify-between">
-        <h1 className="text-3xl lg:text-[68px] 2xl:text-[94px] font-bold lg:leading-[70.72px] 2xl:leading-[100px] xl:w-[77%] 2xl:w-[80%]">
+        <h1 className="headings-size lg:w-[85%]">
           <span className="text-[#F15C20]">Mobile App</span> Development
           Consulting Strategies 
         </h1>

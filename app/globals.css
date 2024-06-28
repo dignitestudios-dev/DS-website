@@ -953,3 +953,8 @@ input:hover {
     rgba(255, 255, 255, 1)
   );
 }
+
+
+.headings-size{
+  @apply lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[80px] tracking-tighter xl:font-bold
+}

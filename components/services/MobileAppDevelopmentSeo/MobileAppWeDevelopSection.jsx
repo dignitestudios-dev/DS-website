@@ -15,7 +15,7 @@ const MobileAppWeDevelopSection = () => {
           <h1
             className={`${
               theme === "dark" ? "text-white" : "text-black"
-            } text-[42px] font-extrabold text-4xl lg:text-5xl xl:text-[72px] xl:font-bold uppercase`}
+            } headings-size`}
           >
             <span className="text-[#F15C20]">mobile apps</span> we develop
           </h1>

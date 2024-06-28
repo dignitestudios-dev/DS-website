@@ -12,7 +12,7 @@ const TopNotchBenefits = () => {
       </h3>
       <img src="/lines.png" alt="" />
 
-      <h1 className="text-3xl md:text-5xl lg:text-[64px] font-bold uppercase my-6">
+      <h1 className="text-3xl md:text-5xl lg:text-[64px] font-bold uppercase my-6 tracking-tighter">
         top-Notch Benefits
       </h1>
       <p className="lg:w-[666px] text-center text-[15px] leading-[20.4px]">
@@ -22,31 +22,21 @@ const TopNotchBenefits = () => {
       </p>
 
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="flex flex-col items-start text-start gap-5 lg:pt-6">
-          <h1
-            className="font-semibold text-[28px]"
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="0"
-            data-aos-duration="400"
-            data-aos-easing="ease-in"
-            data-aos-mirror="false"
-            data-aos-once="false"
-            data-aos-anchor-placement="center-bottom"
-          >
+        <div
+          className="flex flex-col items-start text-start gap-5 lg:pt-6"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="0"
+          data-aos-duration="400"
+          data-aos-easing="ease-in"
+          data-aos-mirror="false"
+          data-aos-once="false"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <h1 className="font-semibold text-[28px] tracking-tight">
             Exclusive Error Detection
           </h1>
-          <p
-            className="text-base leading-[22.56px]"
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="0"
-            data-aos-duration="400"
-            data-aos-easing="ease-in"
-            data-aos-mirror="false"
-            data-aos-once="false"
-            data-aos-anchor-placement="center-bottom"
-          >
+          <p className="text-base leading-[22.56px]">
             Errors are an imminent part of applications. They must be addressed
             in the app development process because they can malfunction, crash,
             freeze, or yield improper results. Thus, the outcome can reflect the
@@ -61,14 +51,6 @@ const TopNotchBenefits = () => {
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
-              data-aos="fade-up"
-              data-aos-offset="100"
-              data-aos-delay="0"
-              data-aos-duration="400"
-              data-aos-easing="ease-in"
-              data-aos-mirror="false"
-              data-aos-once="false"
-              data-aos-anchor-placement="center-bottom"
             >
               Let’s discuss your project
             </Link>
@@ -105,31 +87,21 @@ const TopNotchBenefits = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-start text-start gap-5 lg:pt-6">
-          <h1
-            className="font-semibold text-[28px]"
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="0"
-            data-aos-duration="400"
-            data-aos-easing="ease-in"
-            data-aos-mirror="false"
-            data-aos-once="false"
-            data-aos-anchor-placement="center-bottom"
-          >
+        <div
+          className="flex flex-col items-start text-start gap-5 lg:pt-6"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="0"
+          data-aos-duration="400"
+          data-aos-easing="ease-in"
+          data-aos-mirror="false"
+          data-aos-once="false"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <h1 className="font-semibold text-[28px] tracking-tight">
             Quality Assurance
           </h1>
-          <p
-            className="text-base leading-[22.56px]"
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="0"
-            data-aos-duration="400"
-            data-aos-easing="ease-in"
-            data-aos-mirror="false"
-            data-aos-once="false"
-            data-aos-anchor-placement="center-bottom"
-          >
+          <p className="text-base leading-[22.56px]">
             In the testing phase, the level of quality assessment is analyzed in
             mobile application testing. It can prevent from bugs and serious
             development issues. Therefore, the skilled professionals of Dignite
@@ -140,14 +112,6 @@ const TopNotchBenefits = () => {
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
-              data-aos="fade-up"
-              data-aos-offset="100"
-              data-aos-delay="0"
-              data-aos-duration="400"
-              data-aos-easing="ease-in"
-              data-aos-mirror="false"
-              data-aos-once="false"
-              data-aos-anchor-placement="center-bottom"
             >
               Let’s discuss your project
             </Link>
@@ -156,31 +120,19 @@ const TopNotchBenefits = () => {
       </div>
 
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="flex flex-col items-start text-start gap-5 lg:pt-6">
-          <h1
-            className="font-semibold text-[28px]"
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="0"
-            data-aos-duration="400"
-            data-aos-easing="ease-in"
-            data-aos-mirror="false"
-            data-aos-once="false"
-            data-aos-anchor-placement="center-bottom"
-          >
-            Security Prevalence
-          </h1>
-          <p
-            className="text-base leading-[22.56px]"
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="0"
-            data-aos-duration="400"
-            data-aos-easing="ease-in"
-            data-aos-mirror="false"
-            data-aos-once="false"
-            data-aos-anchor-placement="center-bottom"
-          >
+        <div
+          className="flex flex-col items-start text-start gap-5 lg:pt-6"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="0"
+          data-aos-duration="400"
+          data-aos-easing="ease-in"
+          data-aos-mirror="false"
+          data-aos-once="false"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <h1 className="font-semibold text-[28px] tracking-tight">Security Prevalence</h1>
+          <p className="text-base leading-[22.56px]">
             A recent study found the number of mobile application users in the
             USA than desktop applications. In 2015, 54% of users spent their
             leisure hours while using digital media applications on mobile
@@ -196,14 +148,6 @@ const TopNotchBenefits = () => {
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
-              data-aos="fade-up"
-              data-aos-offset="100"
-              data-aos-delay="0"
-              data-aos-duration="400"
-              data-aos-easing="ease-in"
-              data-aos-mirror="false"
-              data-aos-once="false"
-              data-aos-anchor-placement="center-bottom"
             >
               Let’s discuss your project
             </Link>
@@ -240,31 +184,21 @@ const TopNotchBenefits = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-start text-start gap-5 lg:pt-6">
-          <h1
-            className="font-semibold text-[28px]"
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="0"
-            data-aos-duration="400"
-            data-aos-easing="ease-in"
-            data-aos-mirror="false"
-            data-aos-once="false"
-            data-aos-anchor-placement="center-bottom"
-          >
+        <div
+          className="flex flex-col items-start text-start gap-5 lg:pt-6"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="0"
+          data-aos-duration="400"
+          data-aos-easing="ease-in"
+          data-aos-mirror="false"
+          data-aos-once="false"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <h1 className="font-semibold text-[28px] tracking-tight">
             Fast Development Process
           </h1>
-          <p
-            className="text-base leading-[22.56px]"
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="0"
-            data-aos-duration="400"
-            data-aos-easing="ease-in"
-            data-aos-mirror="false"
-            data-aos-once="false"
-            data-aos-anchor-placement="center-bottom"
-          >
+          <p className="text-base leading-[22.56px]">
             Fast-paced and high-quality mobile apps are the most advocated in
             today’s modern world of lucrative business. Whereas it has a huge
             influence on entrepreneurs, small and large enterprises, and the
@@ -278,14 +212,6 @@ const TopNotchBenefits = () => {
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
-              data-aos="fade-up"
-              data-aos-offset="100"
-              data-aos-delay="0"
-              data-aos-duration="400"
-              data-aos-easing="ease-in"
-              data-aos-mirror="false"
-              data-aos-once="false"
-              data-aos-anchor-placement="center-bottom"
             >
               Let’s discuss your project
             </Link>

@@ -14,9 +14,9 @@ const TestingProcess = () => {
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
             <h1
-              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[77.45px]`}
+              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[72.45px] group`}
             >
-              <span className="text-[#8F8F8F]">Inevitable</span>
+              <span className="text-[#8F8F8F] group-hover:text-[#F15C20] transition-all duration-200">Inevitable</span>
               <br />
               Testing Process
             </h1>
