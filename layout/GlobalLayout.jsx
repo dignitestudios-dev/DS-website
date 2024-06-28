@@ -15,6 +15,9 @@ import { RxCross2 } from "react-icons/rx";
 
 const GlobalLayout = ({ page }) => {
   // Sidebar states and ref:
+  const [isFocused1, setIsFocused1] = useState(false);
+  const [isFocused2, setIsFocused2] = useState(false);
+  const [isFocused3, setIsFocused3] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const { palette, theme, setError, error, success } =
     useContext(GlobalContext);
@@ -131,7 +134,7 @@ const GlobalLayout = ({ page }) => {
             className="container-form"
           >
             <div className="side-promo">
-              <img src="/form_promo.png" alt="sidebar_promo" className="" />
+              <img src="/form-promo3.png" alt="sidebar_promo" className="" />
             </div>
             <div className="main-promo">
               <div className="promo2">
@@ -161,67 +164,85 @@ const GlobalLayout = ({ page }) => {
               </span>
 
               <div className="input_field">
-                <label className="label_field">Name</label>
-                <button type="button" className="input_flex">
-                  <span className="input_span">
-                    <FaUser />
-                  </span>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    className="input_box"
-                    placeholder="e.g. Mike Smith"
+              <label className="label_field">Name</label>
+              <button type="button" className="input_flex">
+                <span className="input_span">
+                  <FaUser
+                    className={`${
+                      isFocused1 ? "text-orange-500" : "text-gray-400"
+                    }`}
                   />
-                </button>
-              </div>
-              <div className="input_field">
-                <label className="label_field">Email Address</label>
-                <button type="button" className="input_flex">
-                  <span className="input_span">
-                    <MdMail />
-                  </span>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="input_box"
-                    placeholder="Type your email here"
+                </span>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  onFocus={() => setIsFocused1(true)}
+                  onBlur={() => setIsFocused1(false)}
+                  className="input_box"
+                  placeholder="e.g. Mike Smith"
+                />
+              </button>
+            </div>
+            <div className="input_field">
+              <label className="label_field">Email Address</label>
+              <button type="button" className="input_flex">
+                <span className="input_span">
+                  <MdMail
+                    className={`${
+                      isFocused2 ? "text-orange-500" : "text-gray-400"
+                    }`}
                   />
-                </button>
-              </div>
-              <div className="input_field">
-                <label className="label_field">Phone Number</label>
-                <button type="button" className="input_flex">
-                  <span className="input_span">
-                    <BsTelephoneFill />
-                  </span>
-                  <input
-                    type="text"
-                    maxLength="11"
-                    id="phone"
-                    name="phone"
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                    className="input_box"
-                    placeholder="e.g +1 491 570 156"
+                </span>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  onFocus={() => setIsFocused2(true)}
+                  onBlur={() => setIsFocused2(false)}
+                  className="input_box"
+                  placeholder="Type your email here"
+                />
+              </button>
+            </div>
+            <div className="input_field">
+              <label className="label_field">Phone Number</label>
+              <button type="button" className="input_flex">
+                <span className="input_span">
+                  <BsTelephoneFill
+                    className={`${
+                      isFocused3 ? "text-orange-500" : "text-gray-400"
+                    }`}
                   />
-                </button>
-              </div>
-              <div className="input_field">
-                <label className="label_field">Message</label>
-                <button type="button" className="input_flex2">
-                  <textarea
-                    type="text"
-                    className="input_box2"
-                    id="message"
-                    name="message"
-                    placeholder="Type your message here."
-                  ></textarea>
-                </button>
-              </div>
+                </span>
+                <input
+                  type="text"
+                  maxLength="11"
+                  id="phone"
+                  name="phone"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  onFocus={() => setIsFocused3(true)}
+                  onBlur={() => setIsFocused3(false)}
+                  className="input_box"
+                  placeholder="e.g +1 491 570 156"
+                />
+              </button>
+            </div>
+            <div className="input_field">
+              <label className="label_field">Message</label>
+              <button type="button" className="input_flex2">
+                <textarea
+                  type="text"
+                  className="input_box2"
+                  id="message"
+                  name="message"
+                  placeholder="Type your message here."
+                ></textarea>
+              </button>
+            </div>
 
               <button type="submit" className="sub_button">
                 Submit
