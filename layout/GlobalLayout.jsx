@@ -134,7 +134,7 @@ const GlobalLayout = ({ page }) => {
             className="container-form"
           >
             <div className="side-promo">
-              <img src="/form-promo3.png" alt="sidebar_promo" className="" />
+              <img src="/form-promo3.webp" alt="sidebar_promo" className="" />
             </div>
             <div className="main-promo">
               <div className="promo2">
