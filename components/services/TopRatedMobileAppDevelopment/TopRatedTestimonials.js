@@ -2,7 +2,7 @@
 
 import React, { useContext } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
-import { reviews } from "@/constants/reviews";
+import { val } from "@/constants/reviews";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -66,10 +66,16 @@ const TopRatedTestimonials = () => {
 
       <div className={`w-full pt-4 lg:pt-6 gap-10 overflow-hidden`}>
         <Swiper {...sliderSettings} modules={[Autoplay]} className="">
-          {reviews.map((review, index) => {
+          {val.map(({ reviewBody, author: { name, jobtitle } }, index) => {
             return (
               <SwiperSlide key={index} className="">
-                <TestimonialCard review={review} key={index} />
+                <TestimonialCard
+                  reviewBody={reviewBody}
+                  authorName={name}
+                  jobtitle={jobtitle}
+                  index={index}
+                  key={index}
+                />
               </SwiperSlide>
             );
           })}

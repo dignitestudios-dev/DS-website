@@ -23,6 +23,7 @@ const TestimonialCard = ({ reviewBody, authorName, jobtitle, index }) => {
         }}
       >
         {reviewBody.length > 340 ? reviewBody?.slice(0, 340) + "..." : reviewBody}
+        {/* {reviewBody} */}
       </p>
       <div className="w-auto h-[20%] absolute bottom-0 left-0 flex gap-2 justify-start items-center">
         <Image loading="lazy" src={IMAGE_LIST[index]} loader={customLoader} alt="client_image" className="rounded-full w-14 h-14" width={56} height={56} />
