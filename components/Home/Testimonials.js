@@ -3,7 +3,7 @@
 import React, { useContext } from "react";
 import { styles } from "../../styles/styles";
 import { GlobalContext } from "@/context/GlobalContext";
-import { reviews } from "@/constants/reviews";
+import { val } from "@/constants/reviews";
 import TestimonialCard from "./TestimonialCard";
 
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -43,6 +43,7 @@ export const sliderSettings = {
 
 const Testimonials = () => {
   const { palette } = useContext(GlobalContext);
+  console.log(val);
   return (
     <div
       id="testimonials"
@@ -68,17 +69,20 @@ const Testimonials = () => {
 
       <div className={`w-full pt-4 lg:pt-6 gap-10 overflow-hidden`}>
         <Swiper {...sliderSettings} modules={[Autoplay]} className="">
-          {reviews.map((review, index) => {
+          {val.map(({ reviewBody, author: { name, jobtitle } }, index) => {
             return (
               <SwiperSlide key={index} className="">
-                <TestimonialCard review={review} key={index} />
+                <TestimonialCard
+                  reviewBody={reviewBody}
+                  authorName={name}
+                  jobtitle={jobtitle}
+                  index={index}
+                  key={index}
+                />
               </SwiperSlide>
             );
           })}
         </Swiper>
-        {/* {reviews.map((review, index) => {
-          return <TestimonialCard review={review} key={index} />;
-        })} */}
       </div>
     </div>
   );

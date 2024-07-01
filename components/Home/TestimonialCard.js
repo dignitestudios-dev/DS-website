@@ -5,7 +5,9 @@ import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext } from "react";
 
-const TestimonialCard = ({ review }) => {
+const IMAGE_LIST = ["/testimonial-7.webp","/testimonial-8.webp", "/testimonial-1.webp", "/testimonial-6.webp", "/testimonial-4.webp", "/testimonial-5.webp", "/testimonial-9.webp"]
+
+const TestimonialCard = ({ reviewBody, authorName, jobtitle, index }) => {
   const { palette } = useContext(GlobalContext);
   return (
     <div
@@ -20,19 +22,19 @@ const TestimonialCard = ({ review }) => {
           color: palette?.light_contrast_color,
         }}
       >
-        {review?.review.length > 340 ? review?.review?.slice(0, 340) + "..." : review?.review}
+        {reviewBody.length > 340 ? reviewBody?.slice(0, 340) + "..." : reviewBody}
       </p>
       <div className="w-auto h-[20%] absolute bottom-0 left-0 flex gap-2 justify-start items-center">
-        <Image loading="lazy" src={review?.image} loader={customLoader} alt="client_image" className="rounded-full w-14 h-14" width={56} height={56} />
+        <Image loading="lazy" src={IMAGE_LIST[index]} loader={customLoader} alt="client_image" className="rounded-full w-14 h-14" width={56} height={56} />
         <div className="flex flex-col justify-start items-start">
-          <p className="text-base font-semibold">{review?.author}</p>
+          <p className="text-base font-semibold">{authorName}</p>
           <p
             className="text-sm"
             style={{
               color: palette?.light_contrast_color,
             }}
           >
-            {review?.designation}
+            {jobtitle}
           </p>
         </div>
       </div>

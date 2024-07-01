@@ -1,4 +1,5 @@
 "use client";
+import { MOBILE_APP_CONSULTING_FAQS } from "@/constants/mobileappconsultingfaq";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext, useState } from "react";
 import { FiMinus, FiPlus } from "react-icons/fi";
@@ -6,6 +7,12 @@ import { FiMinus, FiPlus } from "react-icons/fi";
 const InfluentialFaqs = () => {
   const { palette, theme } = useContext(GlobalContext);
   const [openAccordion, setOpenAccordion] = useState(null);
+
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const handleToggle = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
 
   const handleAccordionClick = (accordionId) => {
     setOpenAccordion((prev) => (prev === accordionId ? null : accordionId));
@@ -25,165 +32,63 @@ const InfluentialFaqs = () => {
           data-accordion="collapse"
           className="w-full mt-4 lg:w-[60%] mx-auto"
         >
-          <div
-            type="button"
-            onClick={() => handleAccordionClick(1)}
-            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-              theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
-            } outline-none hover:opacity-95 `}
-            style={{
-              borderBottom: `2px solid ${palette?.light_contrast_background}`,
-            }}
-            data-accordion-target="#accordion-collapse-body-1"
-          >
-            <button
-              name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
-                openAccordion === 1
-                  ? "text-[#F15C20]"
-                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-              } gap-3`}
-            >
+          {MOBILE_APP_CONSULTING_FAQS.mainEntity.map((faq, index) => {
+            return (
               <div
-                className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
+                type="button"
+                key={index}
+                className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
+                  theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+                } outline-none hover:opacity-95 `}
+                style={{
+                  borderBottom: `2px solid ${palette?.light_contrast_background}`,
+                }}
+                data-accordion-target="#accordion-collapse-body-1"
               >
-                <span className={`font-medium text-base md:text-lg lg:text-xl`}>
-                  What consulting services do you provide?
-                </span>
-              </div>
-              {openAccordion === 1 ? (
-                <FiMinus className="text-2xl" />
-              ) : (
-                <FiPlus className="text-2xl" />
-              )}
-            </button>
-
-            <div
-              id="accordion-1"
-              className={`transition-all duration-200 ${
-                openAccordion === 1 ? "" : "hidden"
-              }`}
-            >
-              <div className="py-1 rounded-md mt-1 ">
-                <p
-                  className={`mb-2 ${
-                    theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
-                  } text-xs lg:text-[16px] leading-normal`}
+                <button
+                  name="faq-question"
+                  className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
+                    openIndex === index
+                      ? "text-[#F15C20]"
+                      : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
+                  } gap-3`}
+                  onClick={() => handleToggle(index)}
                 >
-                  Dignite Studios provides top mobile free consultancy from
-                  scratch to launch a mobile app. In short, we distribute
-                  full-cycle consultancy in app development.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            type="button"
-            onClick={() => handleAccordionClick(2)}
-            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-              theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
-            } outline-none hover:opacity-95 `}
-            style={{
-              borderBottom: `2px solid ${palette?.light_contrast_background}`,
-            }}
-            data-accordion-target="#accordion-collapse-body-1"
-          >
-            <button
-              name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
-                openAccordion === 2
-                  ? "text-[#F15C20]"
-                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-              } gap-3`}
-            >
-              <div
-                className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
-              >
-                <span className="font-medium text-base md:text-lg lg:text-xl">
-                  What industries do you work with?
-                </span>
-              </div>
-              {openAccordion === 2 ? (
-                <FiMinus className="text-2xl" />
-              ) : (
-                <FiPlus className="text-2xl" />
-              )}
-            </button>
+                  <div
+                    className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
+                  >
+                    <span
+                      className={`font-medium text-base md:text-lg lg:text-xl`}
+                    >
+                      {faq.name}
+                    </span>
+                  </div>
+                  {openIndex === index ? (
+                    <FiMinus className="text-2xl" />
+                  ) : (
+                    <FiPlus className="text-2xl" />
+                  )}
+                </button>
 
-            <div
-              id="accordion-1"
-              className={`transition-all duration-200 ${
-                openAccordion === 2 ? "" : "hidden"
-              }`}
-            >
-              <div className="py-1 rounded-md mt-1 ">
-                <p
-                  className={`mb-2 ${
-                    theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
-                  } text-xs lg:text-[16px] leading-normal`}
+                <div
+                  id="accordion-1"
+                  className={`transition-all duration-200 ${
+                    openIndex === index ? "" : "hidden"
+                  }`}
                 >
-                  We leverage our expertise in each sector, whether health apps,
-                  e-commerce, travel, insurance, and so on. Here, we value our
-                  customers across multiple platforms and encourage their ideas
-                  to form visionary projects. Our service not only includes
-                  mobile app consulting for various market sizes but also
-                  delivers end-to-end solutions to our clients globally and
-                  comprehensively.
-                </p>
+                  <div className="py-1 rounded-md mt-1 ">
+                    <p
+                      className={`mb-2 ${
+                        theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
+                      } text-xs lg:text-[16px] leading-normal`}
+                    >
+                      {faq.acceptedAnswer.text}
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div
-            type="button"
-            onClick={() => handleAccordionClick(3)}
-            className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-              theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
-            } outline-none hover:opacity-95 `}
-            style={{
-              borderBottom: `2px solid ${palette?.light_contrast_background}`,
-            }}
-            data-accordion-target="#accordion-collapse-body-1"
-          >
-            <button
-              name="faq-question"
-              className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
-                openAccordion === 3
-                  ? "text-[#F15C20]"
-                  : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-              } gap-3`}
-            >
-              <div
-                className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
-              >
-                <span className="font-medium text-base md:text-lg lg:text-xl">
-                  How quickly can you provide a cost-effective solution?
-                </span>
-              </div>
-              {openAccordion === 3 ? (
-                <FiMinus className="text-2xl" />
-              ) : (
-                <FiPlus className="text-2xl" />
-              )}
-            </button>
-
-            <div
-              id="accordion-1"
-              className={`transition-all duration-200 ${
-                openAccordion === 3 ? "" : "hidden"
-              }`}
-            >
-              <div className="py-1 rounded-md mt-1 ">
-                <p
-                  className={`mb-2 ${
-                    theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
-                  } text-xs lg:text-[16px] leading-normal`}
-                >
-                  Schedule a call to discuss business dimensions and product
-                  goals to get a friendly budget for your mobile app.
-                </p>
-              </div>
-            </div>
-          </div>
+            );
+          })}
         </div>
       </div>
     </div>
@@ -191,3 +96,8 @@ const InfluentialFaqs = () => {
 };
 
 export default InfluentialFaqs;
+
+{
+  /* <h3>{faq.name}</h3>
+                  <p>{faq.acceptedAnswer.text}</p> */
+}
