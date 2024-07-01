@@ -44,7 +44,6 @@ const WhyChooseUsSection = () => {
               icon={c.icon}
               key={index}
               alt={c.alt}
-              image_title={c.image_title}
             />
           );
         })}

@@ -7,6 +7,7 @@ import { styles } from "../../styles/styles";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import { GlobalContext } from "@/context/GlobalContext";
 import Script from "next/script";
+import Head from "next/head";
 
 const Faq = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -16,10 +17,11 @@ const Faq = () => {
     setOpenAccordion((prev) => (prev === accordionId ? null : accordionId));
   };
 
-  <Script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{
-      __html: `
+  <Head>
+    <Script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: `
         {
           "@context": "https://schema.org",
           "@type": "FAQPage",
@@ -67,8 +69,10 @@ const Faq = () => {
           ]
         }
       `,
-    }}
-  />;
+      }}
+    />
+    ;
+  </Head>;
 
   return (
     <div

@@ -167,6 +167,8 @@ const reviews = [
       "name": "Dignite Studios",
     },
   },
+
+  
   // {
   //   review:
   //     "Dignite Studios were quick to respond to my inquiry regarding development of my app. Shane the Senior Business Consultant was amazing. He explained things in a language I could understand. They are super friendly and professional.",

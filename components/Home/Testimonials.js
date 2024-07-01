@@ -69,7 +69,7 @@ const Testimonials = () => {
 
       <div className={`w-full pt-4 lg:pt-6 gap-10 overflow-hidden`}>
         <Swiper {...sliderSettings} modules={[Autoplay]} className="">
-          {val.map(({ reviewBody, author: { name, jobtitle } }, index) => {
+          {val?.map(({ reviewBody, author: { name, jobtitle } }, index) => {
             return (
               <SwiperSlide key={index} className="">
                 <TestimonialCard
