@@ -75,7 +75,13 @@ const page = () => {
     />
     <meta name="twitter:image:alt" content="Mobile app development services" />
 
-    <Script
+    
+  </Head>;
+  return (
+    <div>
+      <ServicesLayout page={<MobileAppDevelopmentSeoPage />} />   
+
+      <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `
@@ -131,10 +137,6 @@ const page = () => {
           }),
         }}
       />
-  </Head>;
-  return (
-    <div>
-      <ServicesLayout page={<MobileAppDevelopmentSeoPage />} />   
     </div>
   );
 };

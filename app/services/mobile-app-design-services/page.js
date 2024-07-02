@@ -121,8 +121,12 @@ const page = () => {
       content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-design-services.webp"
     />
     <meta name="twitter:image:alt" content="Mobile app design services" />
+  </Head>;
+  return (
+    <div>
+      <ServicesLayout page={<MobileAppDesignServicesPage />} />
 
-    <Script
+      <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageData) }}
       />
@@ -136,12 +140,6 @@ const page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productData) }}
       />
-  </Head>;
-  return (
-    <div>
-      <ServicesLayout page={<MobileAppDesignServicesPage />} />
-
-      
     </div>
   );
 };

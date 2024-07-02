@@ -74,85 +74,84 @@ const page = () => {
       content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp"
     />
     <meta name="twitter:image:alt" content="Mobile App Testing Services" />
-
-    <Script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          name: "Mobile App Testing Services | Dignite Studios",
-          url: "https://www.dignitestudios.com/services/mobile-app-testing-services",
-          description:
-            "Embarke top-tier mobile app testing services from our leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts.",
-        }),
-      }}
-    />
-
-    <Script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org/",
-          "@type": "BreadcrumbList",
-          itemListElement: [
-            {
-              "@type": "ListItem",
-              position: 1,
-              name: "Home Page",
-              item: "https://www.dignitestudios.com/",
-            },
-            {
-              "@type": "ListItem",
-              position: 2,
-              name: "Mobile App Development Services",
-              item: "https://www.dignitestudios.com/mobile-app-development-services",
-            },
-            {
-              "@type": "ListItem",
-              position: 3,
-              name: "Mobile App Design Services",
-              item: "https://www.dignitestudios.com/services/mobile-app-design-services",
-            },
-            {
-              "@type": "ListItem",
-              position: 4,
-              name: "Mobile App Consulting Services",
-              item: "https://www.dignitestudios.com/services/mobile-app-consulting-services",
-            },
-            {
-              "@type": "ListItem",
-              position: 5,
-              name: "Mobile App Testing Services",
-              item: "https://www.dignitestudios.com/services/mobile-app-testing-services",
-            },
-          ],
-        }),
-      }}
-    />
-
-    <Script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "http://schema.org",
-          "@type": "Product",
-          name: "Mobile App Testing Services",
-          aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: "4.8",
-            worstRating: "1",
-            bestRating: "5",
-            reviewCount: "37",
-          },
-        }),
-      }}
-    />
-
   </Head>;
   return (
     <>
       <ServicesLayout page={<TopNotchMobileAppTestingServices />} />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "Mobile App Testing Services | Dignite Studios",
+            url: "https://www.dignitestudios.com/services/mobile-app-testing-services",
+            description:
+              "Embarke top-tier mobile app testing services from our leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts.",
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home Page",
+                item: "https://www.dignitestudios.com/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Mobile App Development Services",
+                item: "https://www.dignitestudios.com/mobile-app-development-services",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Mobile App Design Services",
+                item: "https://www.dignitestudios.com/services/mobile-app-design-services",
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                name: "Mobile App Consulting Services",
+                item: "https://www.dignitestudios.com/services/mobile-app-consulting-services",
+              },
+              {
+                "@type": "ListItem",
+                position: 5,
+                name: "Mobile App Testing Services",
+                item: "https://www.dignitestudios.com/services/mobile-app-testing-services",
+              },
+            ],
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "Product",
+            name: "Mobile App Testing Services",
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.8",
+              worstRating: "1",
+              bestRating: "5",
+              reviewCount: "37",
+            },
+          }),
+        }}
+      />
     </>
   );
 };

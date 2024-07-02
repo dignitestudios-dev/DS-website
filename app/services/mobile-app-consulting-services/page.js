@@ -93,69 +93,69 @@ const page = () => {
       content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-consulting-services.webp"
     />
     <meta name="twitter:image:alt" content="Mobile app consulting services" />
-
-    <Script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
-    />
-
-    <Script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org/",
-          "@type": "BreadcrumbList",
-          itemListElement: [
-            {
-              "@type": "ListItem",
-              position: 1,
-              name: "Home Page",
-              item: "https://www.dignitestudios.com/",
-            },
-            {
-              "@type": "ListItem",
-              position: 2,
-              name: "Mobile App Development Services",
-              item: "https://www.dignitestudios.com/mobile-app-development-services",
-            },
-            {
-              "@type": "ListItem",
-              position: 3,
-              name: "Mobile app design services",
-              item: "https://www.dignitestudios.com/services/mobile-app-design-services",
-            },
-            {
-              "@type": "ListItem",
-              position: 4,
-              name: "Mobile app consulting services",
-              item: "https://www.dignitestudios.com/services/mobile-app-consulting-services",
-            },
-          ],
-        }),
-      }}
-    />
-
-    <Script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "http://schema.org",
-          "@type": "Product",
-          name: "Mobile app consulting services",
-          aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: "4.8",
-            worstRating: "1",
-            bestRating: "5",
-            reviewCount: "37",
-          },
-        }),
-      }}
-    />
   </Head>;
   return (
     <>
       <ServicesLayout page={<InfluentialMobileAppConsultingServicesPage />} />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home Page",
+                item: "https://www.dignitestudios.com/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Mobile App Development Services",
+                item: "https://www.dignitestudios.com/mobile-app-development-services",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Mobile app design services",
+                item: "https://www.dignitestudios.com/services/mobile-app-design-services",
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                name: "Mobile app consulting services",
+                item: "https://www.dignitestudios.com/services/mobile-app-consulting-services",
+              },
+            ],
+          }),
+        }}
+      />
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "Product",
+            name: "Mobile app consulting services",
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.8",
+              worstRating: "1",
+              bestRating: "5",
+              reviewCount: "37",
+            },
+          }),
+        }}
+      />
     </>
   );
 };
