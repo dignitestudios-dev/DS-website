@@ -1,5 +1,3 @@
-// data/mobileAppDesignFAQs.js
-
 export const MOBILE_APP_DESIGN_FAQS = {
   "@context": "https://schema.org",
   "@type": "FAQPage",

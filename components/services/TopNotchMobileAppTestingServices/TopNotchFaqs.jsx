@@ -1,6 +1,8 @@
 "use client";
 import { MOBILE_APP_TESTING_SERVICES_FAQ } from "@/constants/mobileapptestingservicesfaq";
 import { GlobalContext } from "@/context/GlobalContext";
+import Head from "next/head";
+import Script from "next/script";
 import React, { useContext, useState } from "react";
 import { FiMinus, FiPlus } from "react-icons/fi";
 
@@ -18,6 +20,15 @@ const TopNotchFaqs = () => {
   const handleAccordionClick = (accordionId) => {
     setOpenAccordion((prev) => (prev === accordionId ? null : accordionId));
   };
+
+  <Head>
+    <Script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(MOBILE_APP_TESTING_SERVICES_FAQ),
+      }}
+    />
+  </Head>;
 
   return (
     <div className={`w-full lg:w-[100%] py-20 global-padding-horizontal`}>

@@ -1,6 +1,8 @@
 "use client";
 import { MOBILE_APP_CONSULTING_FAQS } from "@/constants/mobileappconsultingfaq";
 import { GlobalContext } from "@/context/GlobalContext";
+import Head from "next/head";
+import Script from "next/script";
 import React, { useContext, useState } from "react";
 import { FiMinus, FiPlus } from "react-icons/fi";
 
@@ -17,6 +19,16 @@ const InfluentialFaqs = () => {
   const handleAccordionClick = (accordionId) => {
     setOpenAccordion((prev) => (prev === accordionId ? null : accordionId));
   };
+
+  <Head>
+    <Script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(MOBILE_APP_CONSULTING_FAQS),
+      }}
+    />
+  </Head>;
+  
   return (
     <div
       className={`w-full my-14 global-padding-horizontal flex justify-center items-start mx-auto h-auto`}
