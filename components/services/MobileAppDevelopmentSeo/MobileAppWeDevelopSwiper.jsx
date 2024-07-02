@@ -34,91 +34,86 @@ const MobileAppWeDevelopSwiper = () => {
       <Swiper {...sliderSettings} className="z-10">
         <SliderButtons />
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#241C40] rounded-[24px] p-10 relative h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#AE0843] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <h1 className="text-white text-[22px] font-bold z-30 float-start">
-              Streaming App
+              Lending App
             </h1>
+            <div className="bg-[#DD065C] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full" />
             <img
-              src="/stream-app-shadow.webp"
+              src="/lending-app.png"
               alt="two mockup screens showing streaming mobile app development"
               title="Streaming mobile app development"
-              className="w-[130%] right-0 left-0 bottom-1 absolute"
-            />
-            <img
-              src="/purple-mobile-streaming-mobile-app-development.webp"
-              alt="two mockup screens showing streaming mobile app development"
-              title="Streaming mobile app development"
-              className="w-[349.72px] h-[455.75px] absolute -bottom-36 -right-10 group-hover:-bottom-28 transition-all duration-300"
+              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#0983F4] rounded-[24px] p-10 relative h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#4C7BFC] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <h1 className="text-white text-[22px] font-bold z-30 float-start">
-              E-Commerce App
+              Booking App
             </h1>
-            <div className="bg-[#319CFF] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
+            <div className="bg-[#658EFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-              src="/blue-ecommerce-mobile-app-development.webp"
-              title="E-commerce mobile app development"
-              alt=" two mockup screens show the e-commerce mobile app development"
-              className="w-[800.72px] h-[500.98px] absolute -bottom-36 -right-14 group-hover:-bottom-28 transition-all duration-300"
+              src="/booking-app.png"
+              title="booking app mobile app development"
+              alt="two mockup screens show the booking mobile app development"
+              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#07D98D] rounded-[24px] p-10 relative h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#9143F4] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <h1 className="text-white text-[22px] font-bold z-30 float-start">
-              Insurance App
+              Social Media App
             </h1>
-            <div className="bg-[#16ED9F] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
+            <div className="bg-[#A35AFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-              src="/green-insurance-mobile-app-development.webp"
-              title="Insurance mobile app development"
-              alt="Two mockup screens show Mobile Insurance mobile app development"
-              className="h-[431.37px] w-[510.23px] absolute -bottom-[82px] 2xl:-bottom-[95px] 2xl:group-hover:-bottom-[80] -right-16 group-hover:-bottom-16 transition-all duration-300"
+              src="/social-media-app.png"
+              title="social media mobile app development"
+              alt="Two mockup screens show social media mobile app development"
+              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#FEAE12] rounded-[24px] p-10 relative h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#117E77] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <h1 className="text-white text-[22px] font-bold z-30 float-start">
-              Utility App
+              Ticketing App
             </h1>
-            <div className="bg-[#FFC046] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
+            <div className="bg-[#158F88] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-              src="/yellow-utility-mobile-app-development.webp"
-              title="Utility mobile app development"
-              alt="two mockup screens show the utility mobile app development"
-              className="w-[330.67px] h-[420.98px] absolute -bottom-24 -right-8 group-hover:-bottom-16 transition-all duration-300"
+              src="/ticketing-app.png"
+              title="Ticketing mobile app development"
+              alt="two mockup screens show the ticketing mobile app development"
+              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#F4096C] rounded-[24px] p-10 relative h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#3A7DFF] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <h1 className="text-white text-[22px] font-bold z-30 float-start">
-              Dating App
+              Communication App
             </h1>
-            <div className="bg-[#FF4292] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
+            <div className="bg-[#4B88FF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-              src="/red-dating-mobile-app-development.png"
+              src="/communication-app.png"
               title="Dating mobile app development"
               alt="two mockup screens show the dating mobile app development"
-              className="w-[400.67px] absolute -bottom-52 -right-11 group-hover:-bottom-44 transition-all duration-300"
+              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#9875FD] rounded-[24px] p-10 relative h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#F8B84E] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <h1 className="text-white text-[22px] font-bold z-30 float-start">
-              Telehealth App
+              Marketplace App
             </h1>
-            <div className="bg-[#9488FF] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
+            <div className="bg-[#FFC86C] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-              src="/purple-telehealth-mobile-app-development.png"
+              src="/market-place-app.png"
               title="Telehealth mobile app development"
               alt="two mockup screens show the telehealth mobile app development"
-              className="w-[400.67px] absolute -bottom-52 -right-12 group-hover:-bottom-44 transition-all duration-300"
+              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
@@ -134,10 +129,10 @@ const SliderButtons = () => {
   return (
     <div className="flex items-center justify-end gap-6 absolute -top-32 right-2 z-30">
       <button onClick={() => swiper.slidePrev()}>
-        <HiOutlineArrowLeft className="w-8 h-8 text-[#B6B6B6]" />
+        <HiOutlineArrowLeft className="w-8 h-8 text-[#B6B6B6] hover:text-[#F15C20] transition-all duration-200" />
       </button>
       <button onClick={() => swiper.slideNext()}>
-        <HiOutlineArrowRight className="w-8 h-8 text-[#F15C20]" />
+        <HiOutlineArrowRight className="w-8 h-8 text-[#B6B6B6] hover:text-[#F15C20] transition-all duration-200" />
       </button>
     </div>
   );

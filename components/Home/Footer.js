@@ -194,6 +194,20 @@ const Footer = () => {
 
           </Link>
         </div>
+        {/* <div className="col-span-5 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 justify-start items-start">
+          <Link href="/services/android-app-development" className="hover:text-orange-500">
+            Mobile App Development Services
+          </Link>
+          <Link href="/services/ios-app-development" className="hover:text-orange-500">
+            Mobile App Design Services
+          </Link>
+          <Link href="/services/web-app-development" className="hover:text-orange-500">
+            Mobile App Consulting Services
+          </Link>
+          <Link href="/services/web-app-development" className="hover:text-orange-500">
+            Mobile App Testing Services
+          </Link>
+        </div> */}
       </div>
 
       <div className="w-full flex items-center justify-between">

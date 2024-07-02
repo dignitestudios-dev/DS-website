@@ -921,13 +921,7 @@ input:hover {
 
 /* influential */
 .influential-hero {
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 1)
-  ), url("/influential-hero-mockup.webp");
+  background-image: url("/influential-hero-mockup.webp");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -947,10 +941,10 @@ input:hover {
 .influential-overlay-light {
   background: linear-gradient(
     to right,
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 1)
+    rgba(78, 78, 78, 78),
+    rgba(78, 78, 78, 0.8),
+    rgba(78, 78, 78, 0.8),
+    rgb(78, 78, 78, 78)
   );
 }
 

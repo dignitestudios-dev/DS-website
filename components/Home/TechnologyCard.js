@@ -17,9 +17,9 @@ const TechnologyCard = ({ technology }) => {
       onMouseOver={() => setImage(technology?.color)}
       onMouseOut={() => { setImage(technology?.gray); disableMouseCursor(); }}
       
-      className={`h-[88px] flip-vertical-left  rounded-[20px] transition-all duration-300 flex items-center justify-center ${theme == "dark" ? "bg-[#e7e7e7]/[0.2]" : "bg-[#e7e7e7]/[0.2]"} `}
+      className={`h-[88px] w-[98px] flip-vertical-left rounded-[20px] transition-all duration-300 flex items-center justify-center ${theme == "dark" ? "bg-[#e7e7e7]/[0.2]" : "bg-[#e7e7e7]/[0.2]"} p-6`}
     >
-      <Image loader={customLoader} width={50} height={50} src={image} alt="technology" className=" md:h-auto" />
+      <Image loader={customLoader} width={98} height={88} src={image} alt="technology" className="md:h-auto" />
     </div>
   );
 };

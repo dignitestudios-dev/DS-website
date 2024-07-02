@@ -41,7 +41,7 @@ const MobileAppTestingInRealTime = () => {
           title="Mobile app testing services"
           className="lg:w-[530px] lg:h-[410px]"
           data-aos="slide-up"
-          data-aos-offset="200" // Adjusted offset to trigger animation earlier
+          data-aos-offset="100" // Adjusted offset to trigger animation earlier
           data-aos-delay="0" // No delay for immediate animation start
           data-aos-duration="700"
           data-aos-easing="ease-in"

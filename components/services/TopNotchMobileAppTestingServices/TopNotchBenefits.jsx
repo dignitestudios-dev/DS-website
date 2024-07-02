@@ -23,11 +23,11 @@ const TopNotchBenefits = () => {
 
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div
-          className="flex flex-col items-start text-start gap-5 lg:pt-6"
-          data-aos="fade-up"
+          className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
+          data-aos="slide-up"
           data-aos-offset="100"
           data-aos-delay="0"
-          data-aos-duration="400"
+          data-aos-duration="600"
           data-aos-easing="ease-in"
           data-aos-mirror="false"
           data-aos-once="false"
@@ -58,7 +58,7 @@ const TopNotchBenefits = () => {
         </div>
         <div className="flex justify-center">
           <div
-            className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+            className={`w-full lg:w-[420px] overflow-hidden h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             }`}
           >
@@ -67,6 +67,14 @@ const TopNotchBenefits = () => {
               alt="mock screen shows the mobile app testing of login layout"
               title="Mobile app testing exclusive error detection"
               className="w-[242px] lg:h-[427.52px]"
+              data-aos="slide-up"
+              data-aos-offset="100" // Adjusted offset to trigger animation earlier
+              data-aos-delay="0" // No delay for immediate animation start
+              data-aos-duration="600"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="false" // Set to false to repeat animation on scroll up
+              data-aos-anchor-placement="center-bottom"
             />
           </div>
         </div>
@@ -75,7 +83,7 @@ const TopNotchBenefits = () => {
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex justify-center">
           <div
-            className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+            className={`w-full lg:w-[420px] overflow-hidden h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             }`}
           >
@@ -84,15 +92,23 @@ const TopNotchBenefits = () => {
               alt="the mock screen shows the quality detection of mobile app testing tool"
               title="Mobile app testing quality assurance"
               className="w-[242px] lg:h-[427.52px]"
+              data-aos="slide-up"
+              data-aos-offset="100" // Adjusted offset to trigger animation earlier
+              data-aos-delay="0" // No delay for immediate animation start
+              data-aos-duration="600"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="false" // Set to false to repeat animation on scroll up
+              data-aos-anchor-placement="center-bottom"
             />
           </div>
         </div>
         <div
-          className="flex flex-col items-start text-start gap-5 lg:pt-6"
-          data-aos="fade-up"
+          className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
+          data-aos="slide-up"
           data-aos-offset="100"
           data-aos-delay="0"
-          data-aos-duration="400"
+          data-aos-duration="600"
           data-aos-easing="ease-in"
           data-aos-mirror="false"
           data-aos-once="false"
@@ -121,17 +137,19 @@ const TopNotchBenefits = () => {
 
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div
-          className="flex flex-col items-start text-start gap-5 lg:pt-6"
-          data-aos="fade-up"
+          className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
+          data-aos="slide-up"
           data-aos-offset="100"
           data-aos-delay="0"
-          data-aos-duration="400"
+          data-aos-duration="600"
           data-aos-easing="ease-in"
           data-aos-mirror="false"
           data-aos-once="false"
           data-aos-anchor-placement="center-bottom"
         >
-          <h1 className="font-semibold text-[28px] tracking-tight">Security Prevalence</h1>
+          <h1 className="font-semibold text-[28px] tracking-tight">
+            Security Prevalence
+          </h1>
           <p className="text-base leading-[22.56px]">
             A recent study found the number of mobile application users in the
             USA than desktop applications. In 2015, 54% of users spent their
@@ -155,7 +173,7 @@ const TopNotchBenefits = () => {
         </div>
         <div className="flex justify-center">
           <div
-            className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+            className={`w-full lg:w-[420px] overflow-hidden h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             }`}
           >
@@ -164,6 +182,14 @@ const TopNotchBenefits = () => {
               alt="mock up screen shows olivia james profile"
               title="Mobile app testing security prevalence"
               className="w-[242px] lg:h-[427.52px]"
+              data-aos="slide-up"
+              data-aos-offset="100" // Adjusted offset to trigger animation earlier
+              data-aos-delay="0" // No delay for immediate animation start
+              data-aos-duration="600"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="false" // Set to false to repeat animation on scroll up
+              data-aos-anchor-placement="center-bottom"
             />
           </div>
         </div>
@@ -172,7 +198,7 @@ const TopNotchBenefits = () => {
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex justify-center">
           <div
-            className={`w-full lg:w-[420px] h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+            className={`w-full lg:w-[420px] overflow-hidden h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             }`}
           >
@@ -181,15 +207,23 @@ const TopNotchBenefits = () => {
               alt="mockup screen shows the testing of people you know the layout of the application"
               title="Mobile app testing fast development"
               className="w-[242px] lg:h-[427.52px]"
+              data-aos="slide-up"
+              data-aos-offset="100" // Adjusted offset to trigger animation earlier
+              data-aos-delay="0" // No delay for immediate animation start
+              data-aos-duration="600"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="false" // Set to false to repeat animation on scroll up
+              data-aos-anchor-placement="center-bottom"
             />
           </div>
         </div>
         <div
-          className="flex flex-col items-start text-start gap-5 lg:pt-6"
-          data-aos="fade-up"
+          className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
+          data-aos="slide-up"
           data-aos-offset="100"
           data-aos-delay="0"
-          data-aos-duration="400"
+          data-aos-duration="600"
           data-aos-easing="ease-in"
           data-aos-mirror="false"
           data-aos-once="false"

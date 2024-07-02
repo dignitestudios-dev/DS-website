@@ -9,7 +9,7 @@ const InfluentialHero = () => {
   const overlay = theme === 'light' ? 'influential-overlay-light':'influential-overlay-dark'
   return (
     <div className={`w-full influential-hero relative h-screen`}>
-      {/* <div className={`${overlay} w-full h-full absolute top-0 z-0`}/> */}
+      <div className={`${overlay} w-full h-full absolute top-0 z-0`}/>
       <InfluentialNavbar setIsOpen={setIsSidebarOpen}/>
       <div className="w-full h-full global-padding-horizontal flex flex-col items-center justify-start text-center gap-8 lg:gap-10 py-28 lg:py-40 2xl:pt-60 relative z-20">
         <h1 className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-normal text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px text-white hidden lg:block">

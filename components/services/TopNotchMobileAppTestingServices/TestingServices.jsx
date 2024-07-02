@@ -19,7 +19,7 @@ const TestingServices = () => {
             alt="two mobile mock screens shows the testing of streaming applications"
             title="Mobile software functional testing services"
             data-aos="slide-right"
-            data-aos-offset="200" // Adjusted offset to trigger animation earlier
+            data-aos-offset="100" // Adjusted offset to trigger animation earlier
             data-aos-delay="0" // No delay for immediate animation start
             data-aos-duration="400"
             data-aos-easing="ease-in"
@@ -31,7 +31,7 @@ const TestingServices = () => {
         <div
           className="flex flex-col items-start text-start justify-center gap-5 order-1 lg:order-2 "
           data-aos="slide-left"
-          data-aos-offset="200" // Adjusted offset to trigger animation earlier
+          data-aos-offset="100" // Adjusted offset to trigger animation earlier
           data-aos-delay="0" // No delay for immediate animation start
           data-aos-duration="400"
           data-aos-easing="ease-in"

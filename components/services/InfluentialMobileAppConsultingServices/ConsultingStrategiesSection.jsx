@@ -13,43 +13,47 @@ const ConsultingStrategiesSection = () => {
   const headings = [
     {
       heading: "Market Research",
-      image_src:'/mobile-app-consulting-market-research.webp',
-      image_title:"Mobile app consulting market research",
-      image_alt:"image shows the market evaluation among Mobile app consulting team members",
+      image_src: "/mobile-app-consulting-market-research.webp",
+      image_title: "Mobile app consulting market research",
+      image_alt:
+        "image shows the market evaluation among Mobile app consulting team members",
       paragrap1:
         " Market analysis for mobile apps improves to identification of potential consumers and highlights the customization required from the audience in the application. In the competitive space, the mobile app market has surpassed the worth of $197 billion in 2021. However, it has been evaluated that it will rise to $583 billion by 2030. Likewise, the professional service of Dignite Studios showcases productive consulting services and conducts proper research in the consultation process of app development. Hence, this will help you to increase your chances of success in the market of mobile technology.",
     },
     {
       heading: "Product Roadmap",
-      image_src:"/mobile-app-consulting-product-roadmap.webp",
-      image_title:"Mobile app consulting Product Roadmap",
-      image_alt:"image shows the group discussion on Mobile app consulting Roadmap",
+      image_src: "/mobile-app-consulting-product-roadmap.webp",
+      image_title: "Mobile app consulting Product Roadmap",
+      image_alt:
+        "image shows the group discussion on Mobile app consulting Roadmap",
       paragrap1:
-        "In the arena of innovative mobile structures, it helps to navigate the entire procedure of mobile app development from what features need to be prioritized and how to streamline the goals and the product’s vision. It provides a clear vision to create a timeframe for your initiatives. We allocate flawless and immaculate design to custom-make your product roadmap in the consultation process. "
+        "In the arena of innovative mobile structures, it helps to navigate the entire procedure of mobile app development from what features need to be prioritized and how to streamline the goals and the product’s vision. It provides a clear vision to create a timeframe for your initiatives. We allocate flawless and immaculate design to custom-make your product roadmap in the consultation process. ",
     },
     {
       heading: "Infrastructure And Mobile Technology",
-      image_src:"/consulting-infrastructure-and-mobile-technology.webp",
-      image_title:"Consulting Infrastructure and mobile technology",
-      image_alt:"image shows the graphical revolving of tech icons",
+      image_src: "/consulting-infrastructure-and-mobile-technology.webp",
+      image_title: "Consulting Infrastructure and mobile technology",
+      image_alt: "image shows the graphical revolving of tech icons",
       paragrap1:
         "Infrastructure pertains to the foundational framework and mandatory resources to replenish digital products. It encircles hardware, software, networks, and services that produce optimal functioning of the apps, and websites. Dignite Studios delivers professional mobile app consulting to its partners and consumers in determining the best mobile project for the brand. Whether native, hybrid, or cross-platform apps, the service also furnishes the best mobile significant factors; li*ke programming language, and more throughout consulting services of mobile apps. ",
     },
     {
       heading: "Testing and Launch",
-      image_src:"/mobile-app-testing-and-launch.webp",
-      image_title:"Mobile App testing and launch",
-      image_alt:"man is holding a mobile device that appears mobile application layout",
+      image_src: "/mobile-app-testing-and-launch.webp",
+      image_title: "Mobile App testing and launch",
+      image_alt:
+        "man is holding a mobile device that appears mobile application layout",
       paragrap1:
         "Mobile testing refers to the proceeding of corroborating app functionality and usability before the mobile app launch phase of (Android or iOS) apps. Here, we provide the best mobile app consulting services while providing an intuitive user-friendly mobile app.",
     },
     {
       heading: "Maintenance and Support",
-      image_src:"/mobile-app-consulting-maintenance-and-support.webp",
-      image_title:"Mobile App Consulting maintenance and support",
-      image_alt:"a team member is providing quality support to their consumers of Mobile App Consulting maintenance",
+      image_src: "/mobile-app-consulting-maintenance-and-support.webp",
+      image_title: "Mobile App Consulting maintenance and support",
+      image_alt:
+        "a team member is providing quality support to their consumers of Mobile App Consulting maintenance",
       paragrap1:
-        "After the mobile application development process, it is very important to update the longevity and cogency of your mobile app. It not only helps in fixing bugs but also eradicates the errors interrupting the performance of your mobile. At Dignite Studios, you’ll get free mobile app maintenance and support from our incredible team for up to 2 months. Also, you’ll witness next-level mobile app consulting dispensations throughout the process."
+        "After the mobile application development process, it is very important to update the longevity and cogency of your mobile app. It not only helps in fixing bugs but also eradicates the errors interrupting the performance of your mobile. At Dignite Studios, you’ll get free mobile app maintenance and support from our incredible team for up to 2 months. Also, you’ll witness next-level mobile app consulting dispensations throughout the process.",
     },
   ];
   const [selectedHeading, setSelectedHeading] = useState(
@@ -122,7 +126,7 @@ const ConsultingStrategiesSection = () => {
       </div>
 
       <div className="w-full flex items-start justify-between gap-3 mt-10">
-        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3">
+        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer" onClick={()=> setCurrentIndex(0)}>
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
             01
           </span>
@@ -133,7 +137,7 @@ const ConsultingStrategiesSection = () => {
           />
           <p className="text-base 2xl:text-lg font-normal">Market Research</p>
         </div>
-        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3">
+        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer" onClick={()=> setCurrentIndex(1)}>
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
             02
           </span>
@@ -144,7 +148,7 @@ const ConsultingStrategiesSection = () => {
           />
           <p className="text-base 2xl:text-lg font-normal">Product Roadmap</p>
         </div>
-        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3">
+        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer" onClick={()=> setCurrentIndex(2)}>
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
             03
           </span>
@@ -157,7 +161,7 @@ const ConsultingStrategiesSection = () => {
             Infrastructure and Mobile Technology
           </p>
         </div>
-        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3">
+        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer" onClick={()=> setCurrentIndex(3)}>
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
             04
           </span>
@@ -170,7 +174,7 @@ const ConsultingStrategiesSection = () => {
             Testing and Launch
           </p>
         </div>
-        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3">
+        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer" onClick={()=> setCurrentIndex(4)}>
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
             05
           </span>
@@ -185,16 +189,20 @@ const ConsultingStrategiesSection = () => {
         </div>
         <div className="py-6 flex items-center justify-center lg:justify-end gap-3 w-full lg:w-auto">
           <button
-            className="w-[49px] h-[49px] rounded-full flex items-center justify-center"
+            className={`w-[49px] h-[49px] rounded-full flex items-center justify-center ${
+              theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
+            } hover:bg-[#F15C20] hover:text-white transition-all duration-200`}
             onClick={() => handleDecrement()}
           >
             <GoArrowLeft className="text-xl" />
           </button>
           <button
-            className="w-[49px] h-[49px] rounded-full flex items-center justify-center bg-[#F15C20]"
+            className={`w-[49px] h-[49px] rounded-full flex items-center justify-center ${
+              theme === "light" ? "bg-[#FAFAFA] text-black" : "bg-[#333333]"
+            } hover:bg-[#F15C20] hover:text-white transition-all duration-200`}
             onClick={() => handleIncrement()}
           >
-            <GoArrowRight className="text-white text-xl" />
+            <GoArrowRight className="text-xl" />
           </button>
         </div>
       </div>

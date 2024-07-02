@@ -78,7 +78,7 @@ export default function HomePage() {
       <Technologies />
       <ConvenientMobileAppDevelopment />
       <CaseStudiesSection />
-      <ServicesSection />
+      {/* <ServicesSection /> */}
       <Process />
       <WhyChooseUsSection />
       <AreaOfExpertise />

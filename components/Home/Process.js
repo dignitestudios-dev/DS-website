@@ -7,8 +7,24 @@ import ProcessContainer from "./ProcessContainer";
 import Link from "next/link";
 
 const Process = () => {
+  const [currentTab, setCurrentTab] = useState("Agile")
   const { palette, theme } = useContext(GlobalContext);
   const [openedTab, setOpenedTab] = useState(1);
+
+  const handleAgileClick = ()=>{
+    setOpenedTab(1);
+    setCurrentTab("Agile")
+  }
+
+  const handleWaterfallClick = ()=>{
+    setOpenedTab(2);
+    setCurrentTab("Waterfall")
+  }
+
+  const handleHybridClick = ()=>{
+    setOpenedTab(3);
+    setCurrentTab("Hybrid")
+  }
 
   return (
     <div
@@ -23,7 +39,7 @@ const Process = () => {
           className={`w-full px-0 flex flex-col justify-between items-start`}
         >
           <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
-            6 step agile process
+            6 step {currentTab} process
           </p>
           <h1
             className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold`}
@@ -35,7 +51,7 @@ const Process = () => {
           <button
             type="button"
             name="open-tab"
-            onClick={() => setOpenedTab(1)}
+            onClick={() => handleAgileClick()}
             className={`w-full font-medium text-md lg:text-lg gap-1 lg:gap-3 transition-all duration-300 h-16  border-b-[1px]  ${
               openedTab == 1
                 ? "border-[#F15C20] text-[#f15c20]"
@@ -58,7 +74,7 @@ const Process = () => {
           <button
             type="button"
             name="open-tab"
-            onClick={() => setOpenedTab(2)}
+            onClick={() => handleWaterfallClick()}
             className={`w-full font-medium text-md lg:text-lg gap-1 lg:gap-3 transition-all duration-300 h-16  border-b-[1px]  ${
               openedTab == 2
                 ? "border-[#F15C20] text-[#f15c20]"
@@ -81,7 +97,7 @@ const Process = () => {
           <button
             type="button"
             name="open-tab"
-            onClick={() => setOpenedTab(3)}
+            onClick={() => handleHybridClick()}
             className={`w-full font-medium text-md lg:text-lg gap-1 lg:gap-3 transition-all duration-300 h-16  border-b-[1px]  ${
               openedTab == 3
                 ? "border-[#F15C20] text-[#f15c20]"
