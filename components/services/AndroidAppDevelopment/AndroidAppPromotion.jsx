@@ -12,7 +12,7 @@ const AndroidAppPromotion = () => {
     }}
     className=" text-2xl font-extrabold lg:text-4xl xl:text-[72px] text-center xl:leading-[67.84px] lg:font-bold xl:font-semibold tracking-tight uppercase"
   >
-    We developed more than <br/> 100+ projects
+    We have developed more than <br/> 100+ projects
   </h1>
   <span
           style={{
