@@ -75,25 +75,22 @@ const page = () => {
       name="twitter:image:alt"
       content="Top Mobile App Development Company"
     />
-  </Head>;
-  return (
-    <>
-      <GlobalLayout page={<HomePage />} />
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{
+
+    <Script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: `{
             "@context": "https://schema.org",
             "@type": "ImageObject",
             "url": "https://www.dignitestudios.com/logo.png"
           }`,
-        }}
-      />
+      }}
+    />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
+    <Script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: `
             {
               "@context": "https://schema.org/",
               "@type": "BreadcrumbList",
@@ -107,26 +104,26 @@ const page = () => {
               ]
             }
           `,
-        }}
-      />
+      }}
+    />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{
+    <Script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: `{
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Top Mobile App Development Company | Dignite Studios",
             "url": "https://www.dignitestudios.com/",
             "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with a significant solution."
           }`,
-        }}
-      />
+      }}
+    />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
+    <Script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: `
             {
               "@context":"http://schema.org",
               "@type":"WebSite",
@@ -151,13 +148,13 @@ const page = () => {
               }
             }
           `,
-        }}
-      />
+      }}
+    />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
+    <Script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: `
             {
               "@context": "https://schema.org",
               "@type": "Organization",
@@ -185,13 +182,13 @@ const page = () => {
               ]
             }
           `,
-        }}
-      />
+      }}
+    />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
+    <Script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: `
             {
               "@context": "http://schema.org",
               "@type": "Service", // Corrected type to "Service"
@@ -205,13 +202,13 @@ const page = () => {
               }
             }
           `,
-        }}
-      />
+      }}
+    />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
+    <Script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: `
         {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
@@ -266,8 +263,12 @@ const page = () => {
           ]
         }
       `,
-        }}
-      />
+      }}
+    />
+  </Head>;
+  return (
+    <>
+      <GlobalLayout page={<HomePage />} />
     </>
   );
 };

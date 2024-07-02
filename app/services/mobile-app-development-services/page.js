@@ -134,9 +134,7 @@ const page = () => {
   </Head>;
   return (
     <div>
-      <ServicesLayout page={<MobileAppDevelopmentSeoPage />} />
-
-      
+      <ServicesLayout page={<MobileAppDevelopmentSeoPage />} />   
     </div>
   );
 };
