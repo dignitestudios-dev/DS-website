@@ -17,63 +17,6 @@ const Faq = () => {
     setOpenAccordion((prev) => (prev === accordionId ? null : accordionId));
   };
 
-  <Head>
-    <Script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: `
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "WHO OWNS THE LEGAL RIGHTS TO THE TECHNOLOGY DEVELOPED BY A DIGNITE STUDIO DEVELOPER?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Dignite Studio developers deliver all the legal rights to the client to maintain the privacy and security of the sole property."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "HOW DO YOU ENSURE DATA SECURITY OF MOBILE APPS AND WEBSITES?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Our developers maintain the security of your mobile application by adhering to the confidentiality of the entire application process."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "HOW FREQUENTLY DO YOU SHARE AN UPDATE ON THE PROCESS?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Mobile app developers serve all the updates on your mobile application. With a unique design and automation service your app will be updated automatically and promptly."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "WHO WILL BE WORKING ON MY PROJECT?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "An experienced developer will cater to all your web processes. A proficient project manager will streamline your mobile app development project according to its requirements."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "HOW WILL I BE MAKING THE PAYMENTS?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "You will handle all your payments online as per the designed roadmap. That will make your installation plan easy, accessible, and effortless. We accept all major debit and credit cards, including Visa, Mastercard, Discover, and American Express for your transactions."
-              }
-            }
-          ]
-        }
-      `,
-      }}
-    />
-    ;
-  </Head>;
-
   return (
     <div
       className={`w-full lg:w-[100%] xl:w-[80%]  my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  flex justify-center items-start  h-auto`}
@@ -371,6 +314,60 @@ const Faq = () => {
           </div>
         </div>
       </div>
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "WHO OWNS THE LEGAL RIGHTS TO THE TECHNOLOGY DEVELOPED BY A DIGNITE STUDIO DEVELOPER?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dignite Studio developers deliver all the legal rights to the client to maintain the privacy and security of the sole property."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "HOW DO YOU ENSURE DATA SECURITY OF MOBILE APPS AND WEBSITES?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our developers maintain the security of your mobile application by adhering to the confidentiality of the entire application process."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "HOW FREQUENTLY DO YOU SHARE AN UPDATE ON THE PROCESS?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mobile app developers serve all the updates on your mobile application. With a unique design and automation service your app will be updated automatically and promptly."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "WHO WILL BE WORKING ON MY PROJECT?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "An experienced developer will cater to all your web processes. A proficient project manager will streamline your mobile app development project according to its requirements."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "HOW WILL I BE MAKING THE PAYMENTS?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You will handle all your payments online as per the designed roadmap. That will make your installation plan easy, accessible, and effortless. We accept all major debit and credit cards, including Visa, Mastercard, Discover, and American Express for your transactions."
+              }
+            }
+          ]
+        }
+      `,
+        }}
+      />
     </div>
   );
 };
