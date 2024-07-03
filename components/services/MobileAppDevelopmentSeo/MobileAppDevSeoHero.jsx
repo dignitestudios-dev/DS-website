@@ -5,9 +5,8 @@ import SeoNavbar from "./SeoNavbar";
 import Link from "next/link";
 
 const MobileAppDevSeoHero = () => {
-  const { palette, setIsSidebarOpen, setError, error, theme } =
+  const { palette, setIsSidebarOpen, theme } =
     useContext(GlobalContext);
-  const [myTheme, setMyTheme] = useState("dark");
   return (
     <main className="top-rated-bg bg-black w-full lg:h-screen flex flex-col justify-start items-start z-0 relative">
       {theme === "light" ? (
@@ -30,7 +29,8 @@ const MobileAppDevSeoHero = () => {
                 className={`${theme === "light" ? "text-black" : "text-white"}`}
               >
                 Astounding Mobile
-                <br />App Development Services
+                <br />
+                App Development Services
               </span>
             </h1>
             <h1
@@ -43,19 +43,30 @@ const MobileAppDevSeoHero = () => {
               <span
                 className={`${theme === "light" ? "text-black" : "text-white"}`}
               >
-                Astounding <br /> Mobile App Development
-                 Agency
+                Astounding <br /> Mobile App Development Agency
               </span>
             </h1>
             <span
-              className={`lg:w-[80%] my-2 lg:my-6 text-sm lg:text-base font-medium uppercase tracking-[3.68px] ${theme === 'dark' && 'text-[#ECECEC]'}`}
+              className={`lg:w-[80%] my-2 lg:my-6 text-sm lg:text-base font-medium uppercase tracking-[3.68px] ${
+                theme === "dark" && "text-[#ECECEC]"
+              }`}
             >
-              Let’s delve into innovative ideas to strengthen <br /> first-class mobile solutions
+              Let’s delve into innovative ideas to strengthen <br /> first-class
+              mobile solutions
             </span>
-            {/* <span>We legitimize merchandising</span> */}
             <div className="flex items-center justify-center gap-3">
-                <Link href="/contact-us" aria-label="Get a free consultation with Dignite Studios" className="px-6 py-4 rounded-full text-base font-normal bg-[#F15C20] text-[#FFFFFF]">Free Consultation</Link>
-                <Link href={'/contact-us'} aria-label="Get a quote by Dignite Studios" className="px-6 py-4 rounded-full text-base font-normal bg-[#FFFFFF66] text-[#FFFFFF]">Get a quote</Link>
+              <Link
+                href="/contact-us"
+                className="px-6 py-4 rounded-full text-base font-normal bg-[#F15C20] text-[#FFFFFF]"
+              >
+                Free Consultation
+              </Link>
+              <Link
+                href={"/contact-us"}
+                className="px-6 py-4 rounded-full text-base font-normal bg-[#FFFFFF66] text-[#FFFFFF]"
+              >
+                Get a quote
+              </Link>
             </div>
           </div>
         </div>

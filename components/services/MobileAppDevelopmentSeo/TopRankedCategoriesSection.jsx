@@ -28,7 +28,6 @@ const TopRankedCategoriesSection = () => {
             href={{
               pathname: "/contact-us",
             }}
-            aria-label="Contact with Dignite Studios"
             className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
               theme === "light" ? "bg-white" : "bg-[#222222]"
             } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
@@ -106,7 +105,6 @@ const TopRankedCategoriesSection = () => {
       <div className="lg:hidden mt-6 w-full flex justify-center">
         <Link
           href={"/contact-us"}
-          aria-label="Contact with Dignite Studios"
           className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
             theme === "light" ? "bg-white" : "bg-[#222222]"
           } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}

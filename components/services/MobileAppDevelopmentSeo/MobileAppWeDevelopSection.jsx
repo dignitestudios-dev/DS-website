@@ -40,7 +40,6 @@ const MobileAppWeDevelopSection = () => {
               href={{
                 pathname: "/contact-us",
               }}
-              aria-label="Contact with Dignite Studios"
               className={`px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] ${
                 theme === "light" ? "bg-white" : "bg-[#222222]"
               } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
