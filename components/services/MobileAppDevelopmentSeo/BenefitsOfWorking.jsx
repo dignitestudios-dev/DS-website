@@ -8,7 +8,7 @@ import React, { useContext } from "react";
 const BenefitsOfWorking = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div
+    <section
       className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:my-20 ${
         theme === "light" ? "bg-[#F9F9F9]" : "bg-transparent"
       } py-16`}
@@ -23,10 +23,12 @@ const BenefitsOfWorking = () => {
         </h1>
         <div className="hidden lg:block">
           <Link
-          href={{
-            pathname: '/contact-us',
-          }}
-            className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
+            href={{
+              pathname: "/contact-us",
+            }}
+            className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
+              theme === "light" ? "bg-white" : "bg-[#222222]"
+            } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
           >
             Let's Start Your Project
           </Link>
@@ -47,15 +49,15 @@ const BenefitsOfWorking = () => {
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
-            loader={customLoader}
-            width={24}
-            height={24}
+              loader={customLoader}
+              width={24}
+              height={24}
               src="/orange-mobile-app-development-project-outlook-icon.webp"
               alt="Mobile App Development Service Project Outlook Icon"
               title="Mobile App Development Service Project Outlook"
             />
           </div>
-          <h2 className={`text-3xl font-semibold`}>Project Outlook</h2>
+          <p className={`text-3xl font-semibold`}>Project Outlook</p>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -79,15 +81,15 @@ const BenefitsOfWorking = () => {
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
-            loader={customLoader}
-            width={24}
-            height={24}
+              loader={customLoader}
+              width={24}
+              height={24}
               src="/orange-mobile-app-development-collaboration-icon.webp"
               alt="Mobile App Development Service collaboration icon"
               title="Mobile App Development Service collaboration"
             />
           </div>
-          <h2 className={`text-3xl font-semibold`}>Collaboration</h2>
+          <p className={`text-3xl font-semibold`}>Collaboration</p>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -108,15 +110,15 @@ const BenefitsOfWorking = () => {
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
-            loader={customLoader}
-            width={24}
-            height={24}
+              loader={customLoader}
+              width={24}
+              height={24}
               src="/orange-mobile-app-development-cost-estimation-icon.webp"
               alt="Mobile App Development Service Cost estimation App Icon"
               title="Mobile App Development Service Cost Estimation"
             />
           </div>
-          <h2 className={`text-3xl font-semibold`}>Cost Estimation</h2>
+          <p className={`text-3xl font-semibold`}>Cost Estimation</p>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -140,15 +142,15 @@ const BenefitsOfWorking = () => {
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
-            loader={customLoader}
-            width={24}
-            height={24}
+              loader={customLoader}
+              width={24}
+              height={24}
               src="/orange-mobile-app-development-service-risk-management-icon.webp"
               alt="Mobile App Development Service Risk Management Icon"
               title="Mobile App Development Service Risk Management"
             />
           </div>
-          <h2 className={`text-3xl font-semibold`}>Risk Management</h2>
+          <p className={`text-3xl font-semibold`}>Risk Management</p>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -172,16 +174,16 @@ const BenefitsOfWorking = () => {
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
-            loader={customLoader}
-            width={24}
-            height={24}
+              loader={customLoader}
+              width={24}
+              height={24}
               src="/orange-Mobile-App-Development-Project-Documentation-Icon.webp"
               alt="Mobile App Development Project Documentation Icon"
               title="Mobile App Development Project Documentation"
             />
           </div>
 
-          <h2 className={`text-3xl font-semibold`}>Project Documentation</h2>
+          <p className={`text-3xl font-semibold`}>Project Documentation</p>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -207,15 +209,15 @@ const BenefitsOfWorking = () => {
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
-            loader={customLoader}
-            width={24}
-            height={24}
+              loader={customLoader}
+              width={24}
+              height={24}
               src="/orange-mobile-app-development-service-reporting-icon.webp"
               alt="Mobile App Development Service Reporting Icon"
               title="Mobile App Development Service Reporting"
             />
           </div>
-          <h2 className={`text-3xl font-semibold`}>Reporting</h2>
+          <p className={`text-3xl font-semibold`}>Reporting</p>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -238,15 +240,15 @@ const BenefitsOfWorking = () => {
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
-            loader={customLoader}
-            width={24}
-            height={24}
+              loader={customLoader}
+              width={24}
+              height={24}
               src="/orange-Mobile-App-Development-Service-Post-launch-Icon.png"
               alt="Mobile App Development Service Post-launch Icon"
               title="Mobile App Development Service Post-launch"
             />
           </div>
-          <h2 className={`text-3xl font-semibold`}>Post Launch</h2>
+          <p className={`text-3xl font-semibold`}>Post Launch</p>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -267,17 +269,17 @@ const BenefitsOfWorking = () => {
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
-            loader={customLoader}
-            width={24}
-            height={24}
+              loader={customLoader}
+              width={24}
+              height={24}
               src="/orange-mobile-app-development-change-request-management-icon.webp"
               title="Mobile App Development Change Request Management"
               alt="mobile app development change request management icon"
             />
           </div>
-          <h2 className={`text-3xl font-semibold`}>
+          <p className={`text-3xl font-semibold`}>
             Change Request Management
-          </h2>
+          </p>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -293,14 +295,14 @@ const BenefitsOfWorking = () => {
       </div>
 
       <div className="lg:hidden mt-6 w-full flex justify-center">
-          <Link
-            href={"/contact-us"}
-            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white bg-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
-          >
-            Let's Start Your Project
-          </Link>
-        </div>
-    </div>
+        <Link
+          href={"/contact-us"}
+          className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white bg-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+        >
+          Let's Start Your Project
+        </Link>
+      </div>
+    </section>
   );
 };
 

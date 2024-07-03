@@ -9,7 +9,7 @@ const MobileAppWeDevelopSection = () => {
   const { theme } = useContext(GlobalContext);
 
   return (
-    <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-center w-full mt-6 mb-10 md:my-12 lg:mt-16 lg:mb-20">
+    <section className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-center w-full mt-6 mb-10 md:my-12 lg:mt-16 lg:mb-20">
       <div className="w-full flex flex-col lg:flex-row items-start justify-between">
         <div className="lg:w-[80%] flex flex-col gap-y-6 lg:gap-y-2">
           <h1
@@ -38,9 +38,11 @@ const MobileAppWeDevelopSection = () => {
           <div className="mt-7">
             <Link
               href={{
-                pathname: '/contact-us',
+                pathname: "/contact-us",
               }}
-              className={`px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
+              className={`px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] ${
+                theme === "light" ? "bg-white" : "bg-[#222222]"
+              } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
             >
               Get In Touch
             </Link>
@@ -53,10 +55,8 @@ const MobileAppWeDevelopSection = () => {
         } w-full mb-4 mt-6`}
       />
 
-      <MobileAppWeDevelopSwiper/>
-
-    
-    </div>
+      <MobileAppWeDevelopSwiper />
+    </section>
   );
 };
 

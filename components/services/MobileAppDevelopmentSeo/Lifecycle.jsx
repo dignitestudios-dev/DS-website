@@ -7,17 +7,17 @@ import React, { useContext } from "react";
 const Lifecycle = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div
+    <section
       className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:mt-20 lg:mb-28`}
     >
       <div className="w-full flex items-center justify-between">
-        <h3
+        <h1
           className={`${
             theme === "dark" ? "text-white" : "text-black"
           } text-start text-3xl lg:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter`}
         >
           up-to-the-minute
-        </h3>
+        </h1>
         <div className="hidden lg:block">
           <Link
           href={{
@@ -55,7 +55,7 @@ const Lifecycle = () => {
                 </p>
               </div>
               <div className="w-[91%] lg:w-[93%] flex flex-col gap-2">
-                <h2 className="text-2xl font-semibold">{step.title}</h2>
+                <p className="text-2xl font-semibold">{step.title}</p>
                 <p className="text-[15px] font-normal leading-[20.4px]">
                   {step.desc}
                 </p>
@@ -75,7 +75,7 @@ const Lifecycle = () => {
             Let's Start Your Project
           </Link>
         </div>
-    </div>
+    </section>
   );
 };
 

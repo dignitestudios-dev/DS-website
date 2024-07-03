@@ -8,7 +8,7 @@ const MobileAppDevSeoHero = () => {
     useContext(GlobalContext);
   const [myTheme, setMyTheme] = useState("dark");
   return (
-    <div className="top-rated-bg bg-black w-full lg:h-screen flex flex-col justify-start items-start z-0 relative">
+    <main className="top-rated-bg bg-black w-full lg:h-screen flex flex-col justify-start items-start z-0 relative">
       {theme === "light" ? (
         <div className="revolutionary-hero-overlay-light" />
       ) : (
@@ -59,7 +59,7 @@ const MobileAppDevSeoHero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

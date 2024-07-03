@@ -21,7 +21,7 @@ const TopRatedAppDevFaq = () => {
   };
 
   return (
-    <div
+    <section
       className={`w-full lg:w-[100%] xl:w-[80%]  my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  flex justify-center items-start mx-auto h-auto`}
     >
       <div className="w-full h-auto  flex flex-col gap-3 justify-start items-center">
@@ -60,11 +60,12 @@ const TopRatedAppDevFaq = () => {
                   <div
                     className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
                   >
-                    <span
+                    <p
+                    id="faq-question"
                       className={`font-medium text-base md:text-lg lg:text-xl `}
                     >
                       {faq.name}
-                    </span>
+                    </p>
                   </div>
                   {openIndex === index ? (
                     <FiMinus className="text-2xl" />
@@ -81,6 +82,7 @@ const TopRatedAppDevFaq = () => {
                   >
                     <div className="py-1 rounded-md mt-1 ">
                       <p
+                      id="faq-answer"
                         className={`mb-2 ${
                           theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
                         } text-xs lg:text-[16px] leading-normal`}
@@ -147,7 +149,7 @@ const TopRatedAppDevFaq = () => {
         }),
       }}
     />
-    </div>
+    </section>
   );
 };
 

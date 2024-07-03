@@ -6,21 +6,21 @@ import React, { useContext } from "react";
 const OptimizedProcess = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div
+    <section
       className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:my-12`}
     >
       <div className="w-full flex justify-between items-center">
         <div className="flex flex-col">
-          <h3 className="uppercase font-bold text-xl text-[#8F8F8F]">
+          <h1 className="uppercase font-bold text-xl text-[#8F8F8F]">
             we impact highly
-          </h3>
-          <h1
+          </h1>
+          <h2
             className={`${
               theme === "dark" ? "text-white" : "text-black"
             } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter`}
           >
             optimized process
-          </h1>
+          </h2>
         </div>
         <div className="hidden lg:block">
           <Link
@@ -57,11 +57,11 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">01</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">01</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">
               project <br /> analysis and <br />
               research
-            </h1>
+            </h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-[33%] border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -70,10 +70,10 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">03</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">03</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">
               iterative <br /> development
-            </h1>
+            </h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-[33%] border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -82,10 +82,10 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">05</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">05</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">
               soft launch <br /> of mobile app
-            </h1>
+            </h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
         </div>
@@ -108,10 +108,10 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "border-gray-500" : "border-gray-300"
               }`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">02</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">02</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">
               structural <br /> implementation <br /> and design
-            </h1>
+            </h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 top-3 z-20"></span>
           </div>
           <div className="w-[35%] border border-l border-[#F15C20] border-t-0 border-r-0 border-b-0 px-3 pb-2 flex flex-col items-start justify-end relative pt-16">
@@ -125,10 +125,10 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "border-gray-500" : "border-gray-300"
               }`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">04</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">04</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">
               application <br /> testing phase
-            </h1>
+            </h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 top-3 z-20"></span>
           </div>
           <div className="w-[15%] border border-l border-[#F15C20] border-t-0 border-r-0 border-b-0 px-3 pb-2 flex flex-col items-start justify-end relative pt-16">
@@ -142,8 +142,8 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "border-gray-500" : "border-gray-300"
               }`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">06</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">deployment</h1>
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">06</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">deployment</h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 top-3 z-20"></span>
           </div>
         </div>
@@ -158,11 +158,11 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">01</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">01</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">
               project <br /> analysis and <br />
               research
-            </h1>
+            </h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -171,10 +171,10 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">02</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">02</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">
               structural <br /> implementation <br /> and design
-            </h1>
+            </h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -183,10 +183,10 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">03</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">03</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">
               iterative <br /> development
-            </h1>
+            </h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 px-3 pt-0 flex flex-col items-start justify-start relative pb-16">
@@ -195,10 +195,10 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">04</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">04</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">
               application <br /> testing phase
-            </h1>
+            </h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -207,10 +207,10 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">05</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">05</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">
               soft launch <br /> of mobile app
-            </h1>
+            </h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
           <div className="border border-l w-full border-[#F15C20] border-t-0 border-r-0 border-b-0 p-3 flex flex-col items-start justify-start relative pb-16">
@@ -219,8 +219,8 @@ const OptimizedProcess = () => {
                 theme === "dark" ? "" : " bg-gradient-to-r from-[#FAFAFA] "
               }}`}
             />
-            <h5 className="text-[#B4B4B499] text-[24px] font-bold z-20">06</h5>
-            <h1 className="text-[18px] font-bold uppercase z-20">deployment</h1>
+            <p className="text-[#B4B4B499] text-[24px] font-bold z-20">06</p>
+            <h3 className="text-[18px] font-bold uppercase z-20">deployment</h3>
             <span className="bg-white circle-shadow w-[24px] h-[24px] rounded-full absolute -left-3 bottom-3 z-20"></span>
           </div>
         </div>
@@ -234,7 +234,7 @@ const OptimizedProcess = () => {
           Let's Start Your Project
         </Link>
       </div>
-    </div>
+    </section>
   );
 };
 

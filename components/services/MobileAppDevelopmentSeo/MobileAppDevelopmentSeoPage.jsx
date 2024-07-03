@@ -1,4 +1,4 @@
-'use server'
+'use client'
 import React from "react";
 import MobileAppDevSeoHero from "./MobileAppDevSeoHero";
 import DiscoverOurHistory from "./DiscoverOurHistory";
@@ -11,6 +11,8 @@ import BenefitsOfWorking from "./BenefitsOfWorking";
 import OptimizedProcess from "./OptimizedProcess";
 import Lifecycle from "./Lifecycle";
 import TopRatedAppDevFaq from "../TopRatedMobileAppDevelopment/TopRatedAppDevFaq";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const MobileAppDevelopmentSeoPage = () => {
   return (
@@ -24,14 +26,17 @@ const MobileAppDevelopmentSeoPage = () => {
       <TopRankedCategoriesSection />
       <BenefitsOfWorking />
       <OptimizedProcess />
-      <div className="w-full">
-        <img
+      <section className="w-full">
+        <Image
+        loader={customLoader}
+        width={1440}
+        height={545}
           src="/Mobile-App-Development-Service-Technologies.webp"
           title="Mobile App Development Service Technologies"
           alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
           className="w-full my-16"
         />
-      </div>
+      </section>
       <Lifecycle />
       <TopRatedAppDevFaq />
     </div>

@@ -4,27 +4,11 @@ import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
-// import Img1 from "../../../public/mobile-app-development-services-value-expedition.webp"
-
-// const MobAppImage = () => {
-//   "use server";
-//   return (
-//     <>
-//       <img
-//         src="/mobile-app-development-services-value-expedition.webp"
-//         // loader={customLoader}
-//         alt="Description of the image"
-//         width={410}
-//         height={435}
-//       />
-//     </>
-//   );
-// };
 
 const DiscoverOurHistory = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="w-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 pb-12 pt-12 lg:pt-20">
+    <section className="w-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 pb-12 pt-12 lg:pt-20">
       <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8 gap-y-16">
         <div className="col-span-3 lg:col-span-2 flex flex-col items-start gap-4 lg:gap-8 xl:pr-32">
           <h1
@@ -74,7 +58,7 @@ const DiscoverOurHistory = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

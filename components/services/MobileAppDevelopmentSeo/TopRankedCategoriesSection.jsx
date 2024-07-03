@@ -6,7 +6,7 @@ import React, { useContext } from "react";
 const TopRankedCategoriesSection = () => {
   const { theme, palette } = useContext(GlobalContext);
   return (
-    <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:my-20">
+    <section className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:my-20">
       <div className="w-full flex items-center justify-between">
         <h1
           className={`${
@@ -136,7 +136,7 @@ const TopRankedCategoriesSection = () => {
       </div>
 
       
-    </div>
+    </section>
   );
 };
 

@@ -16,7 +16,7 @@ const MobileAppDevSection = () => {
   };
 
   return (
-    <div className="w-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 lg:py-12">
+    <section className="w-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 lg:py-12">
       <h1
         className={`${
           theme === "light" ? "text-black" : "text-white"
@@ -71,7 +71,6 @@ const MobileAppDevSection = () => {
             {paragraphs[selectedHeading]}
           </p>
           <Link
-            // href={"/contact-us"}
             href={{
               pathname: "/contact-us",
             }}
@@ -84,7 +83,7 @@ const MobileAppDevSection = () => {
       <div className="w-full block lg:hidden">
         <MobileAppDevSectionAccordion />
       </div>
-    </div>
+    </section>
   );
 };
 
