@@ -24,6 +24,7 @@ const ProjectCard = ({
   return (
     <Link
       href={projectLink}
+      aria-label="Case study of Dignite Studios Project"
       className={`group w-full h-[240px] lg:h-[326px]  hover:bg-[#F15C20] transition-all duration-500  p-[16px] lg:py-[28px] lg:px-[20px] flex flex-col lg:flex-row justify-start  items-start gap-2 lg:mb-6 relative ${
         theme == "dark" ? "bg-[#1c1c1c]" : "bg-[#f9f9f9]"
       } rounded-[32px] `}
@@ -52,17 +53,34 @@ const ProjectCard = ({
         <div className="w-full absolute bottom-0 left-2 mt-auto flex justify-start gap-2 items-center pr-1">
           {googleLink && (
             <Link href={googleLink}>
-              <img src="/google_play_btn.png" className="h-[40.62px]" />
+              <Image
+                loader={customLoader}
+                width={134.5}
+                height={40.62}
+                src="/google_play_btn.png"
+                className="h-[40.62px]"
+                alt="google_play_button"
+              />
             </Link>
           )}
           {appLink && (
             <Link href={appLink}>
-              <img src="/apple_store_btn.png" className="h-[40.62px]" />
+              <Image
+                loader={customLoader}
+                width={134.5}
+                height={40.62}
+                src="/apple_store_btn.png"
+                className="h-[40.62px]"
+                alt="app_store_button"
+              />
             </Link>
           )}
           {webLink && (
             <Link href={webLink}>
-              <img
+              <Image
+                loader={customLoader}
+                width={134.5}
+                height={40.62}
                 src="/website_btn.png"
                 className="h-[40.62px]"
                 alt="Website btn play icon"

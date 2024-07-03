@@ -2,6 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext, useState } from "react";
 import SeoNavbar from "./SeoNavbar";
+import Link from "next/link";
 
 const MobileAppDevSeoHero = () => {
   const { palette, setIsSidebarOpen, setError, error, theme } =
@@ -53,8 +54,8 @@ const MobileAppDevSeoHero = () => {
             </span>
             {/* <span>We legitimize merchandising</span> */}
             <div className="flex items-center justify-center gap-3">
-                <button className="px-6 py-4 rounded-full text-base font-normal bg-[#F15C20] text-white">Free Consultation</button>
-                <button className="px-6 py-4 rounded-full text-base font-normal bg-[#FFFFFF66] text-white">Get a quote</button>
+                <Link href="/contact-us" aria-label="Get a free consultation with Dignite Studios" className="px-6 py-4 rounded-full text-base font-normal bg-[#F15C20] text-white">Free Consultation</Link>
+                <Link href={'/contact-us'} aria-label="Get a quote by Dignite Studios" className="px-6 py-4 rounded-full text-base font-normal bg-[#FFFFFF66] text-white">Get a quote</Link>
             </div>
           </div>
         </div>

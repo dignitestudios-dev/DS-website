@@ -25,10 +25,13 @@ const TopRankedCategoriesSection = () => {
         </h1>
         <div className="hidden lg:block">
           <Link
-          href={{
-              pathname: '/contact-us',
+            href={{
+              pathname: "/contact-us",
             }}
-            className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
+            aria-label="Contact with Dignite Studios"
+            className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
+              theme === "light" ? "bg-white" : "bg-[#222222]"
+            } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
           >
             Let's Start Your Project
           </Link>
@@ -101,13 +104,16 @@ const TopRankedCategoriesSection = () => {
       </div>
 
       <div className="lg:hidden mt-6 w-full flex justify-center">
-          <Link
-            href={"/contact-us"}
-            className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
-          >
-            Let's Start Your Project
-          </Link>
-        </div>
+        <Link
+          href={"/contact-us"}
+          aria-label="Contact with Dignite Studios"
+          className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
+            theme === "light" ? "bg-white" : "bg-[#222222]"
+          } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
+        >
+          Let's Start Your Project
+        </Link>
+      </div>
 
       <div className="w-full mt-12">
         <div className="w-full lg:w-[80%] mx-auto flex flex-col lg:flex-row lg:items-end lg:justify-center gap-x-6">
@@ -134,8 +140,6 @@ const TopRankedCategoriesSection = () => {
           </div>
         </div>
       </div>
-
-      
     </section>
   );
 };
