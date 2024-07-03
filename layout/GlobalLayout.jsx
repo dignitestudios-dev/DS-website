@@ -12,6 +12,8 @@ import { BsTelephoneFill } from "react-icons/bs";
 import Alert from "@/components/global/Alert";
 import ContactUsAlert from "@/components/global/ContactUsAlert";
 import { RxCross2 } from "react-icons/rx";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const GlobalLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -134,7 +136,7 @@ const GlobalLayout = ({ page }) => {
             className="container-form"
           >
             <div className="side-promo">
-              <img src="/form-promo3.webp" alt="sidebar_promo" className="" />
+              <Image loader={customLoader} width={400} height={540} src="/form-promo3.webp" alt="sidebar_promo" className="" />
             </div>
             <div className="main-promo">
               <div className="promo2">

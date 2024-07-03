@@ -11,6 +11,8 @@ import { FaUser } from "react-icons/fa";
 import { BsTelephoneFill } from "react-icons/bs";
 import ContactUsAlert from "@/components/global/ContactUsAlert";
 import { RxCross2 } from "react-icons/rx";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const ServicesLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -124,7 +126,7 @@ const ServicesLayout = ({ page }) => {
       >
         <form onSubmit={handleSubmit} ref={formRef} className="container-form">
           <div className="side-promo">
-            <img src="/form-promo3.webp" alt="sidebar_promo" className="" />
+            <Image loader={customLoader} width={400} height={540} src="/form-promo3.webp" alt="sidebar_promo" className="" />
           </div>
           <div className="main-promo">
             <div className="promo2">
