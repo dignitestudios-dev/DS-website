@@ -277,9 +277,7 @@ const BenefitsOfWorking = () => {
               alt="mobile app development change request management icon"
             />
           </div>
-          <p className={`text-3xl font-semibold`}>
-            Change Request Management
-          </p>
+          <p className={`text-3xl font-semibold`}>Change Request Management</p>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -297,7 +295,9 @@ const BenefitsOfWorking = () => {
       <div className="lg:hidden mt-6 w-full flex justify-center">
         <Link
           href={"/contact-us"}
-          className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white bg-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+          className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
+            theme === "light" ? "bg-white" : "bg-[#222222]"
+          } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
         >
           Let's Start Your Project
         </Link>

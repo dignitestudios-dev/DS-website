@@ -19,8 +19,8 @@ const MobileAppDevSectionAccordion = () => {
     };
 
     return (
-      <div key={index} className="w-full">
-        <div
+      <section key={index} className="w-full">
+        <button
           onClick={() => onTitleClick(index)}
           style={{
             cursor: "pointer",
@@ -34,7 +34,7 @@ const MobileAppDevSectionAccordion = () => {
           </span>
           <p
             className={`cursor-pointer w-full flex items-center justify-between gap-3 text-xl ${
-              isActive ? "text-[#F15C20]" : "text-black"
+              isActive ? "text-[#F15C20]" :  `${theme === "dark" ? 'text-white' : 'text-black'}`
             }`}
           >
             <span>{item.title}</span>
@@ -42,7 +42,7 @@ const MobileAppDevSectionAccordion = () => {
           <span className="w-6 h-5 bg-[#F15C20] rounded-full">
             {isActive ? <MdOutlineKeyboardArrowUp className="text-white w-5 h-5"/> : <MdOutlineKeyboardArrowDown className="text-white w-5 h-5"/>}
           </span>
-        </div>
+        </button>
         <div style={contentStyle} className="pb-2">
           <p
             className={`text-sm md:text-base lg:text-[24px] lg:leading-[32.16px] ${
@@ -52,7 +52,7 @@ const MobileAppDevSectionAccordion = () => {
             {item.content}
           </p>
         </div>
-      </div>
+      </section>
     );
   });
 

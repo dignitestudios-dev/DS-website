@@ -8,14 +8,14 @@ const MobileAppDevSeoHero = () => {
   const { palette, setIsSidebarOpen, theme } =
     useContext(GlobalContext);
   return (
-    <main className="top-rated-bg bg-black w-full lg:h-screen flex flex-col justify-start items-start z-0 relative">
+    <main className="top-rated-bg bg-black w-full h-screen flex flex-col justify-start items-start z-0 relative">
       {theme === "light" ? (
         <div className="revolutionary-hero-overlay-light" />
       ) : (
         <div className="revolutionary-hero-overlay-dark" />
       )}
       <SeoNavbar setIsOpen={setIsSidebarOpen} />
-      <div className="w-full flex lg:h-[calc(100%-5rem)] py-6 lg:py-0 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 z-10 relative">
+      <div className="w-full flex lg:h-[calc(100%-5rem)] py-28 lg:py-0 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 z-10 relative">
         <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-y-12">
           <div className="w-full h-full flex flex-col justify-center text-center items-center gap-2 ">
             <h1
