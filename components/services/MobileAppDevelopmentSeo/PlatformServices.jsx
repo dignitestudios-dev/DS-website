@@ -1,5 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import React, { useContext } from "react";
 
 const PlatformServices = () => {
@@ -29,7 +31,10 @@ const PlatformServices = () => {
         <div className="w-full lg:w-[55%] flex flex-col items-start justify-center gap-y-6 lg:gap-y-14 h-full lg:pt-10 xl:pt-20 xl:pr-24">
           <div className="flex flex-col items-start gap-2">
             <div className="flex items-center justify-start gap-3">
-              <img
+              <Image
+                loader={customLoader}
+                width={21}
+                height={21}
                 src="/android-mobile-app-mockup.png"
                 alt=""
                 className="w-[21px] h-[21px]"
@@ -50,7 +55,14 @@ const PlatformServices = () => {
           </div>
           <div className="flex flex-col items-start gap-2">
             <div className="flex items-center justify-start gap-3">
-              <img src="/ios-mockup.png" alt="" className="w-[21px] h-[21px]" />
+              <Image
+                loader={customLoader}
+                width={21}
+                height={21}
+                src="/ios-mockup.png"
+                alt=""
+                className="w-[21px] h-[21px]"
+              />
               <h3 className="text-xl font-semibold">iOS App Development</h3>
             </div>
             <p
@@ -69,7 +81,10 @@ const PlatformServices = () => {
           </div>
         </div>
         <div className="w-full lg:w-[45%] h-full">
-          <img
+          <Image
+            loader={customLoader}
+            width={596}
+            height={557}
             src="/telehealth-mobile-app-development.webp"
             title="Mobile app development services"
             alt="mockup screen shows icons of multiple mobile app development service platforms"

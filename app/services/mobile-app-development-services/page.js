@@ -6,6 +6,7 @@ import React from "react";
 
 const page = () => {
   <Head>
+    <title>Dignite Studis</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link
       rel="canonical"
@@ -74,12 +75,10 @@ const page = () => {
       content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-development-services.webp"
     />
     <meta name="twitter:image:alt" content="Mobile app development services" />
-
-    
   </Head>;
   return (
     <div>
-      <ServicesLayout page={<MobileAppDevelopmentSeoPage />} />   
+      <ServicesLayout page={<MobileAppDevelopmentSeoPage />} />
 
       <Script
         type="application/ld+json"

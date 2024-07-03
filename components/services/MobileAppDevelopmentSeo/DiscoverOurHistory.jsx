@@ -58,16 +58,16 @@ const DiscoverOurHistory = () => {
               href={{
                 pathname: "/contact-us",
               }}
-              className="px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] hover:bg-[#F15C20] hover:text-white transition-all duration-300"
+              className={`px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
             >
               Start Your Project
             </Link>
           </div>
         </div>
         <div className="col-span-3 lg:col-span-1">
-          <img
+          <Image
             src="/mobile-app-development-services-value-expedition.webp"
-            // loader={customLoader}
+            loader={customLoader}
             alt="Description of the image"
             width={410}
             height={435}

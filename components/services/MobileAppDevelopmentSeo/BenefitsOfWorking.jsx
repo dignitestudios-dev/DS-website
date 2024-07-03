@@ -1,5 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
 
@@ -24,7 +26,7 @@ const BenefitsOfWorking = () => {
           href={{
             pathname: '/contact-us',
           }}
-            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+            className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
           >
             Let's Start Your Project
           </Link>
@@ -44,7 +46,10 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img
+            <Image
+            loader={customLoader}
+            width={24}
+            height={24}
               src="/orange-mobile-app-development-project-outlook-icon.webp"
               alt="Mobile App Development Service Project Outlook Icon"
               title="Mobile App Development Service Project Outlook"
@@ -73,7 +78,10 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img
+            <Image
+            loader={customLoader}
+            width={24}
+            height={24}
               src="/orange-mobile-app-development-collaboration-icon.webp"
               alt="Mobile App Development Service collaboration icon"
               title="Mobile App Development Service collaboration"
@@ -99,7 +107,10 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img
+            <Image
+            loader={customLoader}
+            width={24}
+            height={24}
               src="/orange-mobile-app-development-cost-estimation-icon.webp"
               alt="Mobile App Development Service Cost estimation App Icon"
               title="Mobile App Development Service Cost Estimation"
@@ -128,7 +139,10 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img
+            <Image
+            loader={customLoader}
+            width={24}
+            height={24}
               src="/orange-mobile-app-development-service-risk-management-icon.webp"
               alt="Mobile App Development Service Risk Management Icon"
               title="Mobile App Development Service Risk Management"
@@ -157,7 +171,10 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img
+            <Image
+            loader={customLoader}
+            width={24}
+            height={24}
               src="/orange-Mobile-App-Development-Project-Documentation-Icon.webp"
               alt="Mobile App Development Project Documentation Icon"
               title="Mobile App Development Project Documentation"
@@ -189,7 +206,10 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img
+            <Image
+            loader={customLoader}
+            width={24}
+            height={24}
               src="/orange-mobile-app-development-service-reporting-icon.webp"
               alt="Mobile App Development Service Reporting Icon"
               title="Mobile App Development Service Reporting"
@@ -217,7 +237,10 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img
+            <Image
+            loader={customLoader}
+            width={24}
+            height={24}
               src="/orange-Mobile-App-Development-Service-Post-launch-Icon.png"
               alt="Mobile App Development Service Post-launch Icon"
               title="Mobile App Development Service Post-launch"
@@ -243,7 +266,10 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <img
+            <Image
+            loader={customLoader}
+            width={24}
+            height={24}
               src="/orange-mobile-app-development-change-request-management-icon.webp"
               title="Mobile App Development Change Request Management"
               alt="mobile app development change request management icon"
@@ -269,7 +295,7 @@ const BenefitsOfWorking = () => {
       <div className="lg:hidden mt-6 w-full flex justify-center">
           <Link
             href={"/contact-us"}
-            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white bg-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
           >
             Let's Start Your Project
           </Link>

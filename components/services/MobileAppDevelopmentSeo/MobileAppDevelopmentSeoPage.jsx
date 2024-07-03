@@ -1,3 +1,4 @@
+'use server'
 import React from "react";
 import MobileAppDevSeoHero from "./MobileAppDevSeoHero";
 import DiscoverOurHistory from "./DiscoverOurHistory";
