@@ -1,5 +1,5 @@
-'use client'
-import React from "react";
+"use client";
+import React, { useContext } from "react";
 import MobileAppDevSeoHero from "./MobileAppDevSeoHero";
 import DiscoverOurHistory from "./DiscoverOurHistory";
 import MobileAppDevSection from "./MobileAppDevSection";
@@ -13,8 +13,10 @@ import Lifecycle from "./Lifecycle";
 import TopRatedAppDevFaq from "../TopRatedMobileAppDevelopment/TopRatedAppDevFaq";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
+import { GlobalContext } from "@/context/GlobalContext";
 
 const MobileAppDevelopmentSeoPage = () => {
+  const { theme } = useContext(GlobalContext);
   return (
     <div className="w-full">
       <MobileAppDevSeoHero />
@@ -28,14 +30,35 @@ const MobileAppDevelopmentSeoPage = () => {
       <OptimizedProcess />
       <section className="w-full">
         <Image
-        loader={customLoader}
-        width={1440}
-        height={545}
+          loader={customLoader}
+          width={1440}
+          height={545}
           src="/Mobile-App-Development-Service-Technologies.webp"
           title="Mobile App Development Service Technologies"
           alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
           className="w-full my-16"
         />
+        {/* {theme === "light" ? (
+          <Image
+            loader={customLoader}
+            width={1440}
+            height={545}
+            src="/Mobile-App-Development-Service-Technologies.webp"
+            title="Mobile App Development Service Technologies"
+            alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
+            className="w-full my-16"
+          />
+        ) : (
+          <Image
+            loader={customLoader}
+            width={1440}
+            height={545}
+            src="/technologies-using.png"
+            title="Mobile App Development Service Technologies"
+            alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
+            className="w-full my-16"
+          />
+        )} */}
       </section>
       <Lifecycle />
       <TopRatedAppDevFaq />

@@ -1,5 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
@@ -7,7 +9,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const PlanOfActionSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className={`w-full py-12 global-padding-horizontal`}>
+    <section className={`w-full py-12 global-padding-horizontal`}>
       <div
         className={`w-full ${
           theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
@@ -31,15 +33,22 @@ const PlanOfActionSection = () => {
           <div className="w-full lg:w-auto lg:block">
             <Link
               href="/contact-us"
-              className="py-3 px-5 text-base lg:py-7 lg:px-14 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
+              className="py-3 px-5 text-base lg:py-7 lg:px-14 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
             >
               Get in Touch <FiArrowUpRight className="text-xl" />
             </Link>
           </div>
         </div>
-        <img src="/plan-of-action.webp" alt="" className="w-[55%] absolute right-0 top-0 bottom-0 h-full rounded-r-3xl hidden lg:block"/>
+        <Image
+          loader={customLoader}
+          width={712.18}
+          height={1122.32}
+          src="/plan-of-action.webp"
+          alt="Plan of action image"
+          className="absolute right-0 top-0 bottom-0 h-full rounded-r-3xl hidden lg:block"
+        />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -21,7 +21,7 @@ const FAQS = () => {
   };
 
   return (
-    <div
+    <section
       className={`w-full lg:w-[100%] xl:w-[80%]  my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  flex justify-center items-start mx-auto h-auto`}
     >
       <div className="w-full h-auto  flex flex-col gap-3 justify-start items-center">
@@ -36,7 +36,7 @@ const FAQS = () => {
           className="w-full mt-4 lg:w-[85%]"
         >
           {MOBILE_APP_DESIGN_FAQS.mainEntity.map((faq, index) => (
-            <div
+            <button
               type="button"
               className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
                 theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
@@ -46,7 +46,7 @@ const FAQS = () => {
               }}
               data-accordion-target="#accordion-collapse-body-1"
             >
-              <button
+              <p
                 name="faq-question"
                 className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
                   openIndex === index
@@ -58,18 +58,18 @@ const FAQS = () => {
                 <div
                   className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-2 `}
                 >
-                  <span
+                  <p
                     className={`font-medium text-base md:text-lg lg:text-xl`}
                   >
                     {faq.name}
-                  </span>
+                  </p>
                 </div>
                 {openIndex === index ? (
                   <FiMinus className="text-2xl" />
                 ) : (
                   <FiPlus className="text-2xl" />
                 )}
-              </button>
+              </p>
               {openIndex === index && (
                 <div
                   id="accordion-1"
@@ -88,7 +88,7 @@ const FAQS = () => {
                   </div>
                 </div>
               )}
-            </div>
+            </button>
           ))}
         </div>
       </div>
@@ -144,7 +144,7 @@ const FAQS = () => {
           }),
         }}
       />
-    </div>
+    </section>
   );
 };
 

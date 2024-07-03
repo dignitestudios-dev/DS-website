@@ -1,12 +1,14 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import React, { useContext } from "react";
 import { FaCheck } from "react-icons/fa6";
 
 const MobileAppDesignWhyChooseUs = () => {
   const { palette } = useContext(GlobalContext);
   return (
-    <div
+    <section
       id="case-studies"
       className="w-full py-14  px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48"
       style={{ background: palette?.background }}
@@ -68,15 +70,18 @@ const MobileAppDesignWhyChooseUs = () => {
           </div>
         </div>
         <div className="w-full lg:w-[40%] flex justify-end lg:justify-end">
-          <img
+          <Image
+            loader={customLoader}
+            width={453}
+            height={583}
             src="/UIUX-Mobile-app-design.webp"
             alt=" image shows the discussion of UI/UX Mobile app design team"
             title="UI/UX Mobile app design"
-            className="md:w-[453px] md:h-[583px]"
+            className=""
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -33,7 +33,7 @@ const Navbar = ({ setIsOpen }) => {
   };
 
   return (
-    <div
+    <nav
       className={`relative px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  h-20  flex items-center justify-between w-full`}
     >
       <Link aria-label="logo" href="/" className="h-auto">
@@ -173,7 +173,7 @@ const Navbar = ({ setIsOpen }) => {
           />
         </button>
       </div>
-    </div>
+    </nav>
   );
 };
 

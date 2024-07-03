@@ -1,12 +1,14 @@
 "use client";
 import { TOP_NOTCH_TEAM } from "@/constants/topnotchteam";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import React, { useContext } from "react";
 
 const TopNotchTeam = () => {
   const { palette, theme } = useContext(GlobalContext);
   return (
-    <div
+    <section
       id="top-notch-team-ofdignite-studios"
       className="w-full py-14 px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48"
       style={{ background: palette?.background }}
@@ -44,14 +46,24 @@ const TopNotchTeam = () => {
         {TOP_NOTCH_TEAM.map((team, index) => {
           return (
             <div key={index} className="flex flex-col items-start gap-4">
-              <img src={team.icon_src} alt={team.alt_text} title={team.img_title} className="w-8 h-8"/>
-              <h2 className="text-xl font-semibold">{team.title}</h2>
-              <p className="text-sm font-normal leading-[19.74px]">{team.description}</p>
+              <Image
+                loader={customLoader}
+                width={33}
+                height={33}
+                src={team.icon_src}
+                alt={team.alt_text}
+                title={team.img_title}
+                className=""
+              />
+              <p className="text-xl font-semibold">{team.title}</p>
+              <p className="text-sm font-normal leading-[19.74px]">
+                {team.description}
+              </p>
             </div>
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

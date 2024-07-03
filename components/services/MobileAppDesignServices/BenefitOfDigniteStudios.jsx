@@ -56,10 +56,10 @@ export default function BenefitOfDigniteStudios() {
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h5 className="text-[#B8B8B8] text-[40px] font-bold">
+                  <h1 className="text-[#B8B8B8] text-[40px] font-bold">
                     {card?.count}
-                  </h5>
-                  <h1
+                  </h1>
+                  <h2
                     className={`font-semibold text-xl mb-2 ${
                       theme === "light"
                         ? "text-[#424242] group-hover:text-white"
@@ -67,7 +67,7 @@ export default function BenefitOfDigniteStudios() {
                     }`}
                   >
                     {card?.title}
-                  </h1>
+                  </h2>
                   <p
                     className={`${
                       theme === "dark"
@@ -94,6 +94,8 @@ const SliderButtons = () => {
     <div className="flex items-center justify-end gap-3 absolute -top-28 right-0 z-30">
       <button
         onClick={() => swiper.slidePrev()}
+        name="swipe left button"
+        type="button"
         className={`rounded-full ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
         } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl`}
@@ -103,6 +105,8 @@ const SliderButtons = () => {
       </button>
       <button
         onClick={() => swiper.slideNext()}
+        name="swipe right button"
+        type="button"
         className={`rounded-full ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
         } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl`}
