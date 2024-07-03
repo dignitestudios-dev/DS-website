@@ -39,12 +39,12 @@ const MobileAppDevSeoHero = () => {
               }}
               className="lg:hidden block text-3xl font-extrabold lg:text-5xl lg:font-bold "
             >
-              <span style={{ color: palette?.brandOrange }}>Top-Rated</span>{" "}
+              <span style={{ color: palette?.brandOrange }}>Execute</span>{" "}
               <span
                 className={`${theme === "light" ? "text-black" : "text-white"}`}
               >
-                Mobile <br /> App Development
-                <br /> Agency
+                Astounding <br /> Mobile App Development
+                 Agency
               </span>
             </h1>
             <span
@@ -54,8 +54,8 @@ const MobileAppDevSeoHero = () => {
             </span>
             {/* <span>We legitimize merchandising</span> */}
             <div className="flex items-center justify-center gap-3">
-                <Link href="/contact-us" aria-label="Get a free consultation with Dignite Studios" className="px-6 py-4 rounded-full text-base font-normal bg-[#F15C20] text-white">Free Consultation</Link>
-                <Link href={'/contact-us'} aria-label="Get a quote by Dignite Studios" className="px-6 py-4 rounded-full text-base font-normal bg-[#FFFFFF66] text-white">Get a quote</Link>
+                <Link href="/contact-us" aria-label="Get a free consultation with Dignite Studios" className="px-6 py-4 rounded-full text-base font-normal bg-[#F15C20] text-[#FFFFFF]">Free Consultation</Link>
+                <Link href={'/contact-us'} aria-label="Get a quote by Dignite Studios" className="px-6 py-4 rounded-full text-base font-normal bg-[#FFFFFF66] text-[#FFFFFF]">Get a quote</Link>
             </div>
           </div>
         </div>

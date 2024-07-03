@@ -39,9 +39,9 @@ const ProjectCard = ({
             alt="app-logo"
             className="w-[32px] h-[32px] lg:w-[45px] xl:w-[65px] lg:h-[45px] xl:h-[65px]"
           />
-          <h3 className="text-lg md:text-sm lg:text-2xl xl:text-[22px] font-semibold group-hover:text-white">
+          <p className="text-lg md:text-sm lg:text-2xl xl:text-[22px] font-semibold group-hover:text-white">
             {title}
-          </h3>
+          </p>
         </div>
         <p
           className={`text-xs md:text-[10px] w-[70%] md:w-[60%] lg:w-[85%] lg:text-sm xl:text-[16px] ${
