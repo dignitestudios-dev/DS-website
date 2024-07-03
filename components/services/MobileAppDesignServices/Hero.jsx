@@ -25,7 +25,7 @@ const Hero = () => {
       </h6>
       <Image
         loader={customLoader}
-        width={1046.43}
+        width={1046}
         height={883}
         src="/Mobile-app-design-services.webp"
         alt=" two mockup screens show the mobile app design services, with multiple icons revolving around them"
