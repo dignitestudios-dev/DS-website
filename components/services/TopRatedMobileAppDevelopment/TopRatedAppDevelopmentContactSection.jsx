@@ -157,8 +157,8 @@ const TopRatedAppDevelopmentContactSection = () => {
 
         <duv className="col-span-3 lg:col-span-1 hidden lg:flex items-center justify-center p-4 pt-0 lg:p-0">
           <img
-            src="/top-rated-contact-mockup.png"
-            alt=""
+            src="/top-rated-contact-mockup.webp"
+            alt="top-rated-mobile-app-development"
             className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"
           />
         </duv>
