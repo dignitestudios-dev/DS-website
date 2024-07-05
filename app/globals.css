@@ -948,7 +948,10 @@ input:hover {
   );
 }
 
+.headings-size {
+  @apply lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[80px] tracking-tighter xl:font-bold;
+}
 
-.headings-size{
-  @apply lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[80px] tracking-tighter xl:font-bold
+.mockup-shadow {
+  box-shadow: rgba(125, 125, 140, 0.2) 0px 7px 29px 0px;
 }

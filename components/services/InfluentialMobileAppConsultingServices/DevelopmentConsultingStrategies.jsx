@@ -1,11 +1,13 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import React, { useContext } from "react";
 
 const DevelopmentConsultingStrategies = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="w-full global-padding-horizontal py-14">
+    <section className="w-full global-padding-horizontal py-14">
       <h1 className="headings-size">
         <span className="text-[#F15C20]">Development</span> Consulting
         Strategies 
@@ -28,14 +30,19 @@ const DevelopmentConsultingStrategies = () => {
       <div className="w-full mt-10 grid grid-cols-1 lg:grid-cols-2 gap-y-8">
         <div className="lg:p-8 ps-0 lg:border-b-2">
           <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
-            <img
+            <Image
+              loader={customLoader}
+              width={48}
+              height={55}
               src="/mobile-app-consulting-design-icon.webp"
               alt="mobile app consulting design icon"
               title="mobile app consulting design"
-              className="w-[48px] h-[55px]"
+              className=""
             />
           </div>
-          <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">Mobile App Design</h3>
+          <p className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
+            Mobile App Design
+          </p>
           <p
             className={`text-base 2xl:text-lg font-normal leading-[20.81px] ${
               theme === "light" && "#5C5C5C"
@@ -51,16 +58,19 @@ const DevelopmentConsultingStrategies = () => {
         </div>
         <div className="lg:border-s-2 lg:p-8 lg:border-b-2">
           <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
-            <img
+            <Image
+              loader={customLoader}
+              width={48}
+              height={55}
               src="/mobile-app-consulting-modernization-icon.webp"
               alt="Mobile app consulting modernization icon"
               title="Mobile app consulting modernization"
-              className="w-[48px] h-[55px]"
+              className=""
             />
           </div>
-          <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
+          <p className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
             Mobile App Modernization 
-          </h3>
+          </p>
           <p
             className={`text-base 2xl:text-lg font-normal leading-[20.81px] ${
               theme === "light" && "#5C5C5C"
@@ -77,16 +87,19 @@ const DevelopmentConsultingStrategies = () => {
       </div>
       <div className="lg:p-8 ps-0 lg:border-b-2 mt-6 lg:mt-0">
         <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
-          <img
+          <Image
+            loader={customLoader}
+            width={48}
+            height={55}
             src="/Mobile-app-consulting-optimization-and-audit-icon.webp"
             alt="Mobile app consulting optimization and audit icon"
             title="Mobile app consulting optimization and audit"
-            className="w-[48px] h-[55px]"
+            className=""
           />
         </div>
-        <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
+        <p className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
           Mobile App Optimization and Audit
-        </h3>
+        </p>
         <p
           className={`text-base 2xl:text-lg font-normal leading-[20.81px] ${
             theme === "light" && "#5C5C5C"
@@ -100,7 +113,7 @@ const DevelopmentConsultingStrategies = () => {
           guidance on the testing capabilities of our entire process.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

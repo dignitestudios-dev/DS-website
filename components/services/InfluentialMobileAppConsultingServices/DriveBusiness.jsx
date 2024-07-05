@@ -1,10 +1,13 @@
+'use server'
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 
 const DriveBusiness = () => {
   return (
-    <div className="w-full py-12 global-padding-horizontal lg:mt-32 2xl:mt-20">
+    <section className="w-full py-12 global-padding-horizontal lg:mt-32 2xl:mt-20">
       <div className="w-full bg-[#F15C201A] rounded-[28px] relative">
         <div className="flex flex-col items-start text-start gap-8 p-6 lg:p-16 2xl:p-24 2xl:gap-12">
           <h1 className="text-3xl lg:text-[64px] 2xl:text-[80px] font-bold lg:leading-[72.45px] 2xl:leading-[77.45px] tracking-tighter">
@@ -24,7 +27,7 @@ const DriveBusiness = () => {
           className="w-[90%] ms-3 md:w-[530px] md:h-[504px] 2xl:w-[600px] 2xl:h-[584px] lg:absolute bottom-0 right-0 lg:right-4"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,4 +1,5 @@
 "use client";
+import { ANDROID_APP_DEV_SERVICES_FAQS } from "@/constants/androidappdevelopmentserviesfaqs";
 import { MOBILE_APP_CONSULTING_FAQS } from "@/constants/mobileappconsultingfaq";
 import { GlobalContext } from "@/context/GlobalContext";
 import Head from "next/head";
@@ -6,7 +7,7 @@ import Script from "next/script";
 import React, { useContext, useState } from "react";
 import { FiMinus, FiPlus } from "react-icons/fi";
 
-const InfluentialFaqs = () => {
+const FAQS = () => {
   const { palette, theme } = useContext(GlobalContext);
   const [openAccordion, setOpenAccordion] = useState(null);
 
@@ -22,7 +23,7 @@ const InfluentialFaqs = () => {
 
   return (
     <section
-      className={`w-full my-14 global-padding-horizontal flex justify-center items-start mx-auto h-auto`}
+      className={`w-full mt-14 global-padding-horizontal flex justify-center items-start mx-auto h-auto`}
     >
       <div className="w-full h-auto flex flex-col gap-3 justify-start items-center">
         <h1
@@ -33,9 +34,9 @@ const InfluentialFaqs = () => {
         <div
           id="accordion-collapse"
           data-accordion="collapse"
-          className="w-full mt-4 lg:w-[60%] mx-auto"
+          className="w-full lg:w-[60%] mx-auto"
         >
-          {MOBILE_APP_CONSULTING_FAQS.mainEntity.map((faq, index) => {
+          {ANDROID_APP_DEV_SERVICES_FAQS.map((faq, index) => {
             return (
               <div
                 type="button"
@@ -64,7 +65,7 @@ const InfluentialFaqs = () => {
                     <p
                       className={`font-medium text-base md:text-lg lg:text-xl`}
                     >
-                      {faq.name}
+                      {faq.question}
                     </p>
                   </div>
                   {openIndex === index ? (
@@ -86,7 +87,7 @@ const InfluentialFaqs = () => {
                         theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
                       } text-xs lg:text-[16px] leading-normal`}
                     >
-                      {faq.acceptedAnswer.text}
+                      {faq?.answer}
                     </p>
                   </div>
                 </div>
@@ -99,40 +100,52 @@ const InfluentialFaqs = () => {
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "What consulting services do you provide?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Dignite Studios provides top mobile free consultancy from scratch to launch a mobile app. In short, we distribute full-cycle consultancy in app development.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What industries do you work with?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "We lie our expertise in each sector whether health apps, e-commerce, traveling, insurance, and so on. Here, we value our customers from multiple platforms and encourage their ideas to form a visionary project. Our service does not only hold a mobile app consulting for a particular size of the market, but we also deliver end-to-end solutions to our clients globally and broadly.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How quickly can you provide a cost-effective solution?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Schedule a call to discuss business dimensions and product goals to get a friendly budget for your mobile app.",
-                },
-              },
-            ],
-          }),
+          __html: `
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [{
+            "@type": "Question",
+            "name": "How much does it cost to build an Android app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "To know the cost of your custom Android application development. You have to fill out the form below."
+            }
+          },{
+            "@type": "Question",
+            "name": "Is Android app development profitable?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, due to its open source, our custom Android application development has become so much more profitable."
+            }
+          },{
+            "@type": "Question",
+            "name": "Which technology is best for Android app development?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Java, Kotlin, and Flutter make the custom Android application development process smooth and effective."
+            }
+          },{
+            "@type": "Question",
+            "name": "Which software is required for Android app development?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Android Studio is required to generate an effective app."
+            }
+          },{
+            "@type": "Question",
+            "name": "How much does it cost to hire a custom Android application development agency?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "To know Dignite’s services cost click on the link below and schedule a call right away."
+            }
+          }]
+        }
+        `,
         }}
       />
     </section>
   );
 };
 
-export default InfluentialFaqs;
+export default FAQS;

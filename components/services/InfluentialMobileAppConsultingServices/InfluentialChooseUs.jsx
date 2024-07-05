@@ -1,5 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
 import { RiArrowRightUpLine } from "react-icons/ri";
@@ -7,10 +9,10 @@ import { RiArrowRightUpLine } from "react-icons/ri";
 const InfluentialChooseUs = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="w-full py-12 global-padding-horizontal grid grid-cols-1 lg:grid-cols-2 gap-6 relative">
+    <section className="w-full py-12 global-padding-horizontal grid grid-cols-1 lg:grid-cols-2 gap-6 relative">
       <div className="flex flex-col items-start justify-center gap-6">
         <h1 className="headings-size">
-          <span className="text-[#F15C20]">Why {" "}</span>
+          <span className="text-[#F15C20]">Why </span>
           Choose US
         </h1>
         <p
@@ -39,21 +41,33 @@ const InfluentialChooseUs = () => {
         </Link>
       </div>
       <div className="relative w-full">
-        <img
+        <Image
+          loader={customLoader}
+          width={684.15}
+          height={669.56}
           src="/why-choose-us-borders.png"
           alt="why-choose-us-borders"
           title="why-choose-us-borders"
-          className="w-full lg:w-[684.15px] h-full lg:h-[669.56px] absolute top-0 left-0 z-0 hidden lg:block"
+          className="w-full absolute top-0 left-0 z-0 hidden lg:block"
         />
 
         <div className="w-full h-full grid grid-cols-1 lg:grid-cols-2 gap-6 mt-3 lg:mt-0 relative z-10">
           <div className="flex items-center">
-            <div className={`${theme === 'dark' ? 'bg-[#2d2d2d]' : 'bg-white custom-light-shadow'} 2xl:gap-4 w-full h-[370px] mx-auto px-6 flex flex-col items-center justify-center gap-2 rounded-[16px] relative z-20`}>
+            <div
+              className={`${
+                theme === "dark"
+                  ? "bg-[#2d2d2d]"
+                  : "bg-white custom-light-shadow"
+              } 2xl:gap-4 w-full h-[370px] mx-auto px-6 flex flex-col items-center justify-center gap-2 rounded-[16px] relative z-20`}
+            >
               {/* Card Content */}
               <div className="w-full flex items-center justify-start gap-2">
                 {/* Icon */}
                 <div className="h-[62px] w-[140px] bg-[#FFC5AE1A] rounded-[8px] flex items-center justify-center">
-                  <img
+                  <Image
+                    loader={customLoader}
+                    width={40}
+                    height={33}
                     src="/transparent-process-icon.png"
                     alt="transparent-process-icon"
                     title="transparent-process-icon"
@@ -80,12 +94,21 @@ const InfluentialChooseUs = () => {
           </div>
 
           <div className="flex flex-col 2xl:justify-center gap-6 relative">
-            <div className={`${theme === 'dark' ? 'bg-[#2d2d2d]' : 'bg-white custom-light-shadow'} 2xl:gap-4 w-full mx-auto h-auto p-6 flex flex-col items-center justify-start gap-2 rounded-[16px] relative z-20`}>
+            <div
+              className={`${
+                theme === "dark"
+                  ? "bg-[#2d2d2d]"
+                  : "bg-white custom-light-shadow"
+              } 2xl:gap-4 w-full mx-auto h-auto p-6 flex flex-col items-center justify-start gap-2 rounded-[16px] relative z-20`}
+            >
               {/* Card Content */}
               <div className="w-full flex items-center justify-start gap-2">
                 {/* Icon */}
                 <div className="h-[62px] px-5 bg-[#FFC5AE1A] rounded-[8px] flex items-center justify-center">
-                  <img
+                  <Image
+                    loader={customLoader}
+                    width={32}
+                    height={41}
                     src="/focused-strategies.png"
                     alt="focused-strategies-icon"
                     title="focused-strategies-icon"
@@ -107,12 +130,21 @@ const InfluentialChooseUs = () => {
                 development process to ensure its efficacy and mobile strategy.
               </p>
             </div>
-            <div className={`${theme === 'dark' ? 'bg-[#2d2d2d]' : 'bg-white custom-light-shadow'} 2xl:gap-4 w-full mx-auto h-auto p-6 flex flex-col items-center justify-center gap-2 rounded-[16px] relative z-20`}>
+            <div
+              className={`${
+                theme === "dark"
+                  ? "bg-[#2d2d2d]"
+                  : "bg-white custom-light-shadow"
+              } 2xl:gap-4 w-full mx-auto h-auto p-6 flex flex-col items-center justify-center gap-2 rounded-[16px] relative z-20`}
+            >
               {/* Card Content */}
               <div className="w-full flex items-center justify-start gap-2">
                 {/* Icon */}
                 <div className="h-[62px] px-5 bg-[#FFC5AE1A] rounded-[8px] flex items-center justify-center">
-                  <img
+                  <Image
+                    loader={customLoader}
+                    width={37}
+                    height={41}
                     src="/business-growth-icon.png"
                     alt="business-growth-icon"
                     title="business-growth-icon"
@@ -137,7 +169,7 @@ const InfluentialChooseUs = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

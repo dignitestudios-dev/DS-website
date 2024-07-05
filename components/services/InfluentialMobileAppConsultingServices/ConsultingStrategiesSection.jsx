@@ -5,6 +5,8 @@ import React, { useContext, useState } from "react";
 import { RiArrowRightUpLine } from "react-icons/ri";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import { headings, paragraphs } from "@/constants/mobileappdevsection";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const ConsultingStrategiesSection = () => {
   const { theme } = useContext(GlobalContext);
@@ -73,7 +75,7 @@ const ConsultingStrategiesSection = () => {
   };
 
   return (
-    <div className="lg:py-12 global-padding-horizontal flex flex-col gap-4">
+    <section className="w-full lg:py-12 global-padding-horizontal flex flex-col gap-4">
       <div className="w-full flex flex-col lg:flex-row gap-y-6 items-start justify-between">
         <h1 className="headings-size lg:w-[85%]">
           <span className="text-[#F15C20]">Mobile App</span> Development
@@ -81,7 +83,7 @@ const ConsultingStrategiesSection = () => {
         </h1>
         <Link
           href={"/contact-us"}
-          className="w-[270px] h-[80px] top-rated-btn-shadow hover:opacity-[.75] transition-all duration-300 rounded-full text-xl font-semibold text-white bg-[#F15C20] flex items-center justify-center gap-2 xl:mt-2"
+          className="w-[270px] h-[80px] top-rated-btn-shadow hover:opacity-[.75] transition-all duration-300 rounded-full text-xl font-semibold text-[#ffff] bg-[#F15C20] flex items-center justify-center gap-2 xl:mt-2"
         >
           Contact Us <RiArrowRightUpLine className="text-2xl" />
         </Link>
@@ -104,7 +106,10 @@ const ConsultingStrategiesSection = () => {
 
       <div className="w-full mt-8 flex flex-col lg:flex-row gap-y-6 items-start lg:items-center justify-between">
         <div className="lg:w-[40%]">
-          <img
+          <Image
+            loader={customLoader}
+            width={614}
+            height={391}
             src={headings[currentIndex]?.image_src}
             alt={headings[currentIndex]?.image_alt}
             title={headings[currentIndex]?.image_title}
@@ -126,7 +131,10 @@ const ConsultingStrategiesSection = () => {
       </div>
 
       <div className="w-full flex items-start justify-between gap-3 mt-10">
-        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer" onClick={()=> setCurrentIndex(0)}>
+        <div
+          className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer"
+          onClick={() => setCurrentIndex(0)}
+        >
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
             01
           </span>
@@ -137,7 +145,10 @@ const ConsultingStrategiesSection = () => {
           />
           <p className="text-base 2xl:text-lg font-normal">Market Research</p>
         </div>
-        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer" onClick={()=> setCurrentIndex(1)}>
+        <div
+          className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer"
+          onClick={() => setCurrentIndex(1)}
+        >
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
             02
           </span>
@@ -148,7 +159,10 @@ const ConsultingStrategiesSection = () => {
           />
           <p className="text-base 2xl:text-lg font-normal">Product Roadmap</p>
         </div>
-        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer" onClick={()=> setCurrentIndex(2)}>
+        <div
+          className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer"
+          onClick={() => setCurrentIndex(2)}
+        >
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
             03
           </span>
@@ -161,7 +175,10 @@ const ConsultingStrategiesSection = () => {
             Infrastructure and Mobile Technology
           </p>
         </div>
-        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer" onClick={()=> setCurrentIndex(3)}>
+        <div
+          className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer"
+          onClick={() => setCurrentIndex(3)}
+        >
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
             04
           </span>
@@ -174,7 +191,10 @@ const ConsultingStrategiesSection = () => {
             Testing and Launch
           </p>
         </div>
-        <div className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer" onClick={()=> setCurrentIndex(4)}>
+        <div
+          className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer"
+          onClick={() => setCurrentIndex(4)}
+        >
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
             05
           </span>
@@ -189,6 +209,8 @@ const ConsultingStrategiesSection = () => {
         </div>
         <div className="py-6 flex items-center justify-center lg:justify-end gap-3 w-full lg:w-auto">
           <button
+            type="button"
+            name="swipe left button"
             className={`w-[49px] h-[49px] rounded-full flex items-center justify-center ${
               theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
             } hover:bg-[#F15C20] hover:text-white transition-all duration-200`}
@@ -197,6 +219,8 @@ const ConsultingStrategiesSection = () => {
             <GoArrowLeft className="text-xl" />
           </button>
           <button
+            type="button"
+            name="swipe right button"
             className={`w-[49px] h-[49px] rounded-full flex items-center justify-center ${
               theme === "light" ? "bg-[#FAFAFA] text-black" : "bg-[#333333]"
             } hover:bg-[#F15C20] hover:text-white transition-all duration-200`}
@@ -206,7 +230,7 @@ const ConsultingStrategiesSection = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

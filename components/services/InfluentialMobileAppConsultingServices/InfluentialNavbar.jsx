@@ -36,16 +36,15 @@ const InfluentialNavbar = ({ setIsOpen }) => {
   };
 
   return (
-    <div
+    <nav
       className={`relative px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  h-20  flex items-center justify-between w-full z-50`}
     >
       <Link aria-label="logo" href="/" className="h-auto">
-        <img
+        <Image
           alt="logo"
-          // loader={customLoader}
-          // width={120}
-          // height={64}
-          // src={theme == "light" ? "/logo.png" : "/logo-dark.png"}
+          loader={customLoader}
+          width={120}
+          height={64}
           src="/logo-dark.png"
           className="h-[70px] w-[120px]"
         />
@@ -178,7 +177,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
           <BiMenuAltRight className="text-3xl text-white" />
         </button>
       </div>
-    </div>
+    </nav>
   );
 };
 
