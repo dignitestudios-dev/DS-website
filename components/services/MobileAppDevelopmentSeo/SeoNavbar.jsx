@@ -182,7 +182,7 @@ const SeoNavbar = ({ setIsOpen }) => {
           onClick={() => setIsOpen(true)}
           className="flex lg:hidden h-4 lg:h-auto"
         >
-          <img src={"/menu-dark.webp"} className="h-full" />
+          <img src={"/menu-dark.webp"} className="h-full" width={30} height={30}/>
         </button>
       </div>
     </nav>

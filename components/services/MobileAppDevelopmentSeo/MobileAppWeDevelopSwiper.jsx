@@ -45,7 +45,7 @@ const MobileAppWeDevelopSwiper = () => {
               loader={customLoader}
               width={300}
               height={431}
-              src="/lending-app.png"
+              src="/lending-app.webp"
               alt="two mockup screens showing streaming mobile app development"
               title="Streaming mobile app development"
               className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
@@ -62,7 +62,7 @@ const MobileAppWeDevelopSwiper = () => {
               loader={customLoader}
               width={300}
               height={431}
-              src="/booking-app.png"
+              src="/booking-app.webp"
               title="booking app mobile app development"
               alt="two mockup screens show the booking mobile app development"
               className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
@@ -79,7 +79,7 @@ const MobileAppWeDevelopSwiper = () => {
               loader={customLoader}
               width={300}
               height={431}
-              src="/social-media-app.png"
+              src="/social-media-app.webp"
               title="social media mobile app development"
               alt="Two mockup screens show social media mobile app development"
               className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
@@ -96,7 +96,7 @@ const MobileAppWeDevelopSwiper = () => {
               loader={customLoader}
               width={300}
               height={431}
-              src="/ticketing-app.png"
+              src="/ticketing-app.webp"
               title="Ticketing mobile app development"
               alt="two mockup screens show the ticketing mobile app development"
               className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
@@ -113,7 +113,7 @@ const MobileAppWeDevelopSwiper = () => {
               loader={customLoader}
               width={300}
               height={431}
-              src="/communication-app.png"
+              src="/communication-app.webp"
               title="Dating mobile app development"
               alt="two mockup screens show the dating mobile app development"
               className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
@@ -130,7 +130,7 @@ const MobileAppWeDevelopSwiper = () => {
               loader={customLoader}
               width={300}
               height={431}
-              src="/market-place-app.png"
+              src="/market-place-app.webp"
               title="Telehealth mobile app development"
               alt="two mockup screens show the telehealth mobile app development"
               className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
