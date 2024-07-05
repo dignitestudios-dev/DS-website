@@ -82,6 +82,7 @@ const page = () => {
 
       <Script
         type="application/ld+json"
+        async
         dangerouslySetInnerHTML={{
           __html: `
         {
@@ -97,6 +98,7 @@ const page = () => {
 
       <Script
         type="application/ld+json"
+        async
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org/",
@@ -121,6 +123,7 @@ const page = () => {
 
       <Script
         type="application/ld+json"
+        async
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "http://schema.org",

@@ -67,9 +67,10 @@ const MobileAppDevelopmentSeoPage = () => {
         )} */}
       </section>
       <Lifecycle />
-      <TopRatedAppDevelopmentContactSection />
-      <TopRatedAppDevFaq />
       <InnovativeMobileAppSection />
+      <TopRatedAppDevFaq />
+      <TopRatedAppDevelopmentContactSection />
+      
     </div>
   );
 };

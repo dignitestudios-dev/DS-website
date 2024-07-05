@@ -11,7 +11,7 @@ const InnovativeMobileAppSection = () => {
   return (
     <section
       id="dignite studios services scope"
-      className="w-full relative px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 mt-32 pb-10"
+      className="w-full relative px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 mt-32 py-10"
       style={{ background: palette?.background }}
     >
       <div

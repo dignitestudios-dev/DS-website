@@ -52,7 +52,7 @@ const TopRankedCategoriesSection = () => {
           //   background: palette?.dark_contrast_background,
           // }}
         >
-          <h3 className={` text-xl font-semibold`}>Android Mobile App</h3>
+          <h3 className={` text-xl font-semibold`}>Native Mobile App Development</h3>
           <p className={``}>
             We ensure to build highly effective and productive native mobile
             apps for Android and IOS systems that will be based on your security
