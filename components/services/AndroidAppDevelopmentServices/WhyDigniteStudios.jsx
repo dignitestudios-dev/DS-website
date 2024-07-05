@@ -36,9 +36,8 @@ const WhyDigniteStudios = () => {
 
       <div className="w-full col-span-3 lg:col-span-2">
         <div className="w-full flex flex-col items-start gap-2">
-          <Image
+          <img
             src={"/powerful-business-handling-icon.webp"}
-            loader={customLoader}
             width={36}
             height={36}
             alt="Powerful business handling icon"
@@ -61,11 +60,10 @@ const WhyDigniteStudios = () => {
 
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 mt-6 lg:mt-10">
           <div className="w-full flex flex-col items-start gap-2">
-            <Image
+            <img
               src={"/intuitive-user-experience-icon.webp"}
               width={36}
               height={36}
-              loader={customLoader}
               alt="Intuitive user experience icon"
               title="Intuitive User Experience"
             />
@@ -83,10 +81,9 @@ const WhyDigniteStudios = () => {
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-2">
-            <Image
+            <img
               width={36}
               height={36}
-              loader={customLoader}
               src={"/scalable-app-compliance-icon.webp"}
               alt="scalable app compliance icon"
               title="Scalable App Compliance"
@@ -106,11 +103,10 @@ const WhyDigniteStudios = () => {
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-2">
-            <Image
+            <img
               src={"/impeccable-security-measures-icon.webp"}
               width={36}
               height={36}
-              loader={customLoader}
               alt="impeccable security measures icon"
               title="Impeccable security measures"
             />
@@ -128,10 +124,9 @@ const WhyDigniteStudios = () => {
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-2">
-            <Image
+            <img
               width={36}
               height={36}
-              loader={customLoader}
               src={"/Translucent-environment-icon.webp"}
               alt="Translucent environment icon"
               title="Translucent Environment"

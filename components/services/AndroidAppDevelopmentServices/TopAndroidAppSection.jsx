@@ -175,16 +175,18 @@ const TopAndroidAppSection = () => {
               theme === "light" ? "text-[#666666]" : "text-gray-200"
             } text-[13px] mt-2`}
           >
-            These apps are a blend of native Android development and web
-            solutions. However, to make our app more faster you can use a native
-            user interface to access layouts and multiple controls. Therefore,
-            if you want to produce cross-platform apps for both iOS and Android
-            apps, the budget will closely increase, as the size of your experts
-            is too much for both iOS and Android platforms. Highly optimized
-            Android application development services of Dignite Studios, impart
-            first-rate development strategy to frame striking hybrid Android
-            apps to furnish world-class Android app development solutions to
-            generate mobile apps scalability.
+            Hybrid Apps can be installed for multiple platforms like iOS and
+            Android devices. These apps also helps in providing web solutions
+            and native Android development. re a blend of native Android
+            development and web solutions. However, to make your app more faster
+            you can use a native user interface to access layouts and multiple
+            controls. Therefore, if you want to produce cross-platform apps for
+            both iOS and Android apps, the budget will closely increase, as the
+            size of your experts is too much for both iOS and Android platforms.
+            Highly optimized Android application development services of Dignite
+            Studios, impart first-rate development strategy to frame striking
+            hybrid Android apps to furnish world-class Android app development
+            solutions to generate mobile apps scalability.
           </p>
         </div>
       </div>

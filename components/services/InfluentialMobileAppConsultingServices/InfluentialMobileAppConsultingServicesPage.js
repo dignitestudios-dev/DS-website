@@ -7,6 +7,7 @@ import MobileAppDesignCaseStudies from "../MobileAppDesignServices/MobileAppDesi
 import DriveBusiness from "./DriveBusiness";
 import InfluentialFaqs from "./InfluentialFaqs";
 import InfluentialChooseUs from "./InfluentialChooseUs";
+import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 
 const InfluentialMobileAppConsultingServicesPage = () => {
   return (
@@ -19,6 +20,7 @@ const InfluentialMobileAppConsultingServicesPage = () => {
       <InfluentialChooseUs/>
       <DriveBusiness />
       <InfluentialFaqs />
+      <TopRatedAppDevelopmentContactSection />
     </div>
   );
 };

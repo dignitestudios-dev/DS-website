@@ -12,7 +12,7 @@ export const process = [
   {
     count: "03.",
     title: "Cost Estimation",
-    desc: "LBudgets for custom Android apps spell ample range in the development of apps. In building custom Android application development it is paramount to break down the Android app development cost to regale in harsh consequences. Dignite’s leading cost-effective approach will build the entire software development process constructively and strategically according to the budget indication. ",
+    desc: "Budgets for custom Android apps spell ample range in the development of apps. In chartering custom Android application development it is paramount to break down the Android app development cost to regale in harsh consequences. Dignite’s leading cost-effective approach will build the entire software development process constructively and strategically according to the budget indication. ",
   },
   {
     count: "04.",
@@ -21,8 +21,8 @@ export const process = [
   },
   {
     count: "05.",
-    title: "Android App Development",
-    desc: "While developing the Android app multiple tools were downloaded to perform the task efficiently. To create a powerful app strong practical measures have been accomplished to avoid errors. Heretofore, our Android app development services spawn and construct highly optimized end-to-end development environments to meet the requirements of the partners and consumers.",
+    title: "Development",
+    desc: "While developing the Android app multiple tools are downloaded to perform the task efficiently. To create a powerful app strong practical measures have been accomplished to avoid errors. Heretofore, our Android app development services spawn and construct highly optimized end-to-end development environments to meet the requirements of the partners and consumers.",
   },
   {
     count: "06.",
@@ -32,6 +32,6 @@ export const process = [
   {
     count: "07.",
     title: "Release",
-    desc: "In custom Android app development and testing, your Android app is ready for market. Our top custom Android app development includes your launch and the weeks and months that follow. We closely monitor the mobile applications we build to make any final adjustments if needed in the apps.",
+    desc: "Once your custom Android app development and testing is completed, your Android app is ready for market. Our top custom Android app development includes your app launch from weeks to months that follow. We closely monitor the mobile applications we build to make any final adjustments if needed in the apps.",
   },
 ];

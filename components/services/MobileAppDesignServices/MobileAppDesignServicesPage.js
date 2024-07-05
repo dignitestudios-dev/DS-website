@@ -12,6 +12,7 @@ import FAQS from "./FAQS";
 import BenefitOfDigniteStudios from "./BenefitOfDigniteStudios";
 import PlanOfActionSection from "./PlanOfActionSection";
 import { GlobalContext } from "@/context/GlobalContext";
+import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 
 const MobileAppDesignServicesPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -27,6 +28,7 @@ const MobileAppDesignServicesPage = () => {
       <BenefitOfDigniteStudios />
       <DigniteServiceScope />
       <FAQS />
+      <TopRatedAppDevelopmentContactSection />
     </div>
   );
 };

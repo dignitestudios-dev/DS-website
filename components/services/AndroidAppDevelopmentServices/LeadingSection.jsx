@@ -25,15 +25,14 @@ const LeadingSection = () => {
         }`}
       >
         The industry-leading Android app development company Dignite Studios
-        replenishes the best viable service apps to expedite businesses with
+        replenishes viable service apps to expedite businesses with
         complementary services, app maintenance, and application monitoring in
         occurrence to secure harmful errors and bugs.
       </p>
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 lg:gap-y-16 mt-12">
         <div className="flex flex-col gap-2">
-          <Image
-            loader={customLoader}
+          <img
             width={36}
             height={36}
             src={"/custom-android-app-development-services.webp"}
@@ -49,14 +48,13 @@ const LeadingSection = () => {
               theme === "light" && "text-[#424242]"
             } text-sm leading-[19.74px]`}
           >
-            Dignity Studios has an exceptional team of custom app development
+            Dignite Studios has an exceptional team of custom app development
             services who can creatively build your Android app to break through
             your business amplitude to the next level.
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <Image
-            loader={customLoader}
+          <img
             width={36}
             height={33}
             src={"/Android-tv-app-development-services-icon.webp"}
@@ -74,14 +72,13 @@ const LeadingSection = () => {
           >
             Our professional Android team can create a highly optimized
             fascinating custom Android app framework that will boost the entire
-            layout of the TV application at once.  Also, tend to produce the
-            best Android app development solutions to satisfy clients'
+            layout of the TV application at once. Also, tend to produce the
+            bizzare Android app development solutions to satisfy clients'
             requirements.
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <Image
-            loader={customLoader}
+          <img
             width={36}
             height={33}
             src={"/android-mobile-app-development-services-icon.webp"}
@@ -103,11 +100,10 @@ const LeadingSection = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <Image
-            loader={customLoader}
+          <img
             width={36}
             height={33}
-            src={"/ android-tablet-app-development-services-icon.webp"}
+            src={"/android-tablet-app-development-services-icon.webp"}
             alt="Android Tablet App Development Services icon"
             title="Android Tablet App Development Services"
             className="w-[36px] h-[33px]"
@@ -123,7 +119,7 @@ const LeadingSection = () => {
             Architectural applications for Android tablets and smartphones are
             very similar, and their operating system also works in the same
             disposition. But they vary in design, user interface, and user
-            experience where our services bestow the best developmental
+            experience where our services bestow eccentric developmental
             practices to build unprecedented device sharing, usage context, and
             user demographics for your Android apps.
           </p>

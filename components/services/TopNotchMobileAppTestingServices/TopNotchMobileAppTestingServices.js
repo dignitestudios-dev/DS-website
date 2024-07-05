@@ -11,6 +11,7 @@ import WhyDignite from "./WhyDignite";
 import TopNotchFaqs from "./TopNotchFaqs";
 import "aos/dist/aos.css";
 import { GlobalContext } from "@/context/GlobalContext";
+import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 
 const TopNotchMobileAppTestingServices = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -26,6 +27,7 @@ const TopNotchMobileAppTestingServices = () => {
       <TestingTools />
       <WhyDignite />
       <TopNotchFaqs />
+      <TopRatedAppDevelopmentContactSection />
     </div>
   );
 };

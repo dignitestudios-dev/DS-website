@@ -12,7 +12,7 @@ export const EDGE_OF_WORKING_WITH_DIGNITE = [
   {
     count: "03",
     title: "Hassle-Free Marketing",
-    desc: "Google Play Store is highly decisive in deploying the apps. You can also get swift approval for deploying the app. Further, you can also fix bugs and erase all unnecessary updates. The best Android development company, Dignite Studios will make your marketing strategy easy to handle and effortless in just time.",
+    desc: "Google Play Store is highly decisive in deploying the apps. You can also get swift approval for deploying the app. Further, you can also fix bugs and erase all unnecessary updates. The Android development company, Dignite Studios will make your marketing strategy easy to handle and effortless in just time.",
   },
   {
     count: "04",

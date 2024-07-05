@@ -45,7 +45,7 @@ const page = () => {
     />
     <meta
       property="og:description"
-      content="The first-class Android app development company Dignite Studios bestows the best international development mobile app standards so that the agency can fulfill custom application solutions and other mobile projects."
+      content="The first-class Android app development company Dignite Studios bequeath exceptional standards of mobile app development so that the agency can fulfill custom application solutions and other mobile projects adeptly."
     />
     <meta
       property="og:url"
@@ -91,7 +91,7 @@ const page = () => {
       "@type": "WebPage",
       "name": "Android app development services | Dignite Studios",
       "url": "https://www.dignitestudios.com/services/android-app-development-services",
-      "description": "The first-class Android app development company Dignite Studios bestows the best international development mobile app standards so that the agency can fulfill custom application solutions and other mobile projects."
+      "description": "The first-class Android app development company Dignite Studios bequeath exceptional standards of mobile app development so that the agency can fulfill custom application solutions and other mobile projects adeptly."
     }
     `,
         }}

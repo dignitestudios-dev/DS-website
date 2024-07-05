@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -7,7 +7,7 @@ import ProcessCard from "./ProcessCard";
 import { process } from "@/constants/mobileappdevelopmentprocess";
 
 const Process = () => {
-    const {theme} = useContext(GlobalContext)
+  const { theme } = useContext(GlobalContext);
   return (
     <section className="w-full py-12 global-padding-horizontal mt-[450px] lg:mt-0">
       <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-6">
@@ -25,11 +25,11 @@ const Process = () => {
               theme === "light" && "text-[#2A2A2A]"
             }`}
           >
-            World-class mobile app development company Dignite Studios,
-            compelling custom Android app development services encumber a
-            vigorous approach to frame practical Android app development
-            solutions to build highly fortified custom Android apps for your
-            rapid business elevation.
+            The dynamic mobile app development company Dignite Studios
+            fabricates compelling custom Android app development services to
+            encumber a vigorous approach to frame practical Android app
+            development solutions and to build highly fortified custom Android
+            apps for your rapid business elevation.
           </p>
         </div>
         <div className="">
