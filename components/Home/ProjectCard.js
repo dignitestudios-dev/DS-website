@@ -36,6 +36,8 @@ const ProjectCard = ({
           <img
             src={logo}
             alt="app-logo"
+            width={32}
+            height={32}
             className="w-[32px] h-[32px] lg:w-[45px] xl:w-[65px] lg:h-[45px] xl:h-[65px]"
           />
           <p className="text-lg md:text-sm lg:text-2xl xl:text-[22px] font-semibold group-hover:text-white">

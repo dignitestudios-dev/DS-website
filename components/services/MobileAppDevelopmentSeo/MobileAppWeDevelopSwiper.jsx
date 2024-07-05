@@ -47,7 +47,7 @@ const MobileAppWeDevelopSwiper = () => {
               src="/lending-app.webp"
               alt="two mockup screens showing streaming mobile app development"
               title="Streaming mobile app development"
-              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
+              className=" absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
@@ -63,7 +63,7 @@ const MobileAppWeDevelopSwiper = () => {
               src="/booking-app.webp"
               title="booking app mobile app development"
               alt="two mockup screens show the booking mobile app development"
-              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
+              className=" absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
@@ -79,7 +79,7 @@ const MobileAppWeDevelopSwiper = () => {
               src="/social-media-app.webp"
               title="social media mobile app development"
               alt="Two mockup screens show social media mobile app development"
-              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
+              className=" absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
@@ -95,7 +95,7 @@ const MobileAppWeDevelopSwiper = () => {
               src="/ticketing-app.webp"
               title="Ticketing mobile app development"
               alt="two mockup screens show the ticketing mobile app development"
-              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
+              className=" absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
@@ -111,7 +111,7 @@ const MobileAppWeDevelopSwiper = () => {
               src="/communication-app.webp"
               title="Dating mobile app development"
               alt="two mockup screens show the dating mobile app development"
-              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
+              className=" absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
@@ -127,7 +127,7 @@ const MobileAppWeDevelopSwiper = () => {
               src="/market-place-app.webp"
               title="Telehealth mobile app development"
               alt="two mockup screens show the telehealth mobile app development"
-              className="w-[95%] absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
+              className=" absolute -bottom-8 lg:-bottom-10 right-0 group-hover:-bottom-4 lg:group-hover:-bottom-6 transition-all duration-300"
             />
           </div>
         </SwiperSlide>
