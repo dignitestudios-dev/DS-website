@@ -41,8 +41,7 @@ const MobileAppWeDevelopSwiper = () => {
               Lending App
             </p>
             <div className="bg-[#DD065C] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full" />
-            <Image
-              loader={customLoader}
+            <img
               width={300}
               height={431}
               src="/lending-app.webp"
@@ -58,8 +57,7 @@ const MobileAppWeDevelopSwiper = () => {
               Booking App
             </p>
             <div className="bg-[#658EFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <Image
-              loader={customLoader}
+            <img
               width={300}
               height={431}
               src="/booking-app.webp"
@@ -75,8 +73,7 @@ const MobileAppWeDevelopSwiper = () => {
               Social Media App
             </p>
             <div className="bg-[#A35AFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <Image
-              loader={customLoader}
+            <img
               width={300}
               height={431}
               src="/social-media-app.webp"
@@ -92,8 +89,7 @@ const MobileAppWeDevelopSwiper = () => {
               Ticketing App
             </p>
             <div className="bg-[#158F88] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <Image
-              loader={customLoader}
+            <img
               width={300}
               height={431}
               src="/ticketing-app.webp"
@@ -109,8 +105,7 @@ const MobileAppWeDevelopSwiper = () => {
               Communication App
             </p>
             <div className="bg-[#4B88FF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <Image
-              loader={customLoader}
+            <img
               width={300}
               height={431}
               src="/communication-app.webp"
@@ -126,8 +121,7 @@ const MobileAppWeDevelopSwiper = () => {
               Marketplace App
             </p>
             <div className="bg-[#FFC86C] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <Image
-              loader={customLoader}
+            <img
               width={300}
               height={431}
               src="/market-place-app.webp"
