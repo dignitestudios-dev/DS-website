@@ -97,7 +97,7 @@ const SliderButtons = () => {
   const swiper = useSwiper();
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="flex items-center justify-end gap-3 absolute -top-36 right-0 z-30">
+    <div className="hidden lg:flex items-center justify-end gap-3 absolute -top-36 right-0 z-30">
       <button
         onClick={() => swiper.slidePrev()}
         name="swipe left button"

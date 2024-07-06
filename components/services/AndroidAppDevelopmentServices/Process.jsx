@@ -9,8 +9,8 @@ import { process } from "@/constants/mobileappdevelopmentprocess";
 const Process = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full py-12 global-padding-horizontal mt-[450px] lg:mt-0">
-      <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-6">
+    <section className="w-full py-12 global-padding-horizontal lg:mt-0">
+      <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-0 md:gap-6">
         <div className="w-full lg:w-[73%]">
           <h3 className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
             mobile app development
@@ -32,7 +32,7 @@ const Process = () => {
             apps for your rapid business elevation.
           </p>
         </div>
-        <div className="">
+        <div className="mb-8 lg:mb-0">
           <Link
             href="/contact-us"
             className="py-3 px-5 text-base lg:py-7 lg:px-14 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"

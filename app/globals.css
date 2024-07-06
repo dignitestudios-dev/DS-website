@@ -955,3 +955,7 @@ input:hover {
 .mockup-shadow {
   box-shadow: rgba(125, 125, 140, 0.2) 0px 7px 29px 0px;
 }
+
+/* .swiper-vertical{
+  overflow-y: visible;
+} */

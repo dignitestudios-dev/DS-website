@@ -18,24 +18,24 @@ const Hero = () => {
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
+          data-aos-mirror="false"
           data-aos-once="false"
           data-aos-anchor-placement="top-center"
         >
           <img
             src="/hero-heading-border.png"
             alt=""
-            className="w-[195px] h-[44px] left-3 top-0 lg:top-1.5 2xl:top-0 lg:w-[392px] lg:h-[77px] 2xl:w-[540px] 2xl:left-[226px] 2xl:h-[104px] absolute lg:left-[256px]"
+            className="w-[225px] h-[44px] -left-1 top-0 lg:top-1.5 2xl:top-0 lg:w-[457px] lg:h-[84px] 2xl:w-[635px] 2xl:left-[179px] 2xl:h-[114px] absolute lg:left-[223px]"
           />
           <img
             src="/arrow-icon.png"
             alt="arrow-icon"
-            className="hidden lg:block absolute top-[87px] left-[612px] 2xl:top-[110px] 2xl:left-[720px] w-[26.1px] h-[24.1px]"
+            className="hidden lg:block absolute top-[92px] left-[612px] 2xl:top-[110px] 2xl:left-[720px] w-[26.1px] h-[24.1px]"
           />
           <h1
             className={`text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[81.93px] 2xl:leading-[99px] hidden lg:block`}
           >
-            <span className="">World's Best</span>{" "}
+            <span className="">High-Powered</span>{" "}
             <span className="text-[#F15C20]">Android App</span> <br />
             Development Services
           </h1>
@@ -43,7 +43,7 @@ const Hero = () => {
           <h1
             className={`lg:leading-[90.72px] text-3xl md:text-4xl font-extrabold lg:text-[68px] xl:text-[68px] 2xl:text-[84px] z-20 2xl:leading-[40.72px] block lg:hidden`}
           >
-            World's Best <span className="text-[#F15C20]">Android App</span>{" "}
+            High-Powered <span className="text-[#F15C20]">Android App</span>{" "}
             Development Services
             <br />
           </h1>

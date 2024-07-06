@@ -9,7 +9,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const ReownedSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full global-padding-horizontal relative lg:h-screen pt-20">
+    <section className="w-full global-padding-horizontal relative lg:h-screen 2xl:h-[70vh] pt-20">
       <div
         className="w-full lg:w-[70%]"
         data-aos="slide-right"
@@ -17,11 +17,11 @@ const ReownedSection = () => {
         data-aos-delay="50"
         data-aos-duration="700"
         data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
+        data-aos-mirror="false"
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       >
-        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>reowned</p>
+        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>Renowned</p>
         <h1
           className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[77.45px]`}
         >
@@ -58,7 +58,7 @@ const ReownedSection = () => {
         data-aos-delay="50"
         data-aos-duration="700"
         data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
+        data-aos-mirror="false"
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       />
