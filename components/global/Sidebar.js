@@ -111,10 +111,10 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 IOS App Development
               </Link>
               <Link
-                href="/services/android-app-development"
+                href="/services/android-app-development-services"
                 className={`hover:text-orange-600 `}
               >
-                Android App Development
+                Android App Development-services
               </Link>
               <Link
                 href="/services/web-app-development"
