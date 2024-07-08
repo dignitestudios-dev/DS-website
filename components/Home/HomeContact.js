@@ -44,7 +44,7 @@ const HomeContact = () => {
     // }
     else if (phone === "") {
       setError("Phone number cannot be left empty.");
-    } else if (phone.length < 10 || phone.length > 10) {
+    } else if (phone.length < 10) {
       setError("Phone number must contain 10 numeric characters.");
     } else if (message === "") {
       setError("Message cannot be left empty.");
