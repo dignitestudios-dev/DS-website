@@ -12,7 +12,7 @@ const WhyDigniteStudios = () => {
     <section className="w-full global-padding-horizontal py-12 grid grid-cols-1 lg:grid-cols-3 gap-10">
       <div className="w-full col-span-3 lg:col-span-1 flex flex-col items-start gap-4">
         <h2
-          className={`font-extrabold text-3xl lg:text-5xl xl:text-[48px] 2xl:text-[64px] tracking-tighter xl:font-bold uppercase lg:leading-[58.09px] group`}
+          className={`font-extrabold text-3xl lg:text-[48px] 2xl:text-[54px] tracking-tighter xl:font-bold uppercase lg:leading-[58.09px] group`}
         >
           <span className="text-[#8F8F8F] group-hover:text-[#F15C20]">Why</span>
           <br />

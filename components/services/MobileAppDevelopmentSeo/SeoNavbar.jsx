@@ -99,17 +99,18 @@ const SeoNavbar = ({ setIsOpen }) => {
             >
               Mobile App Testing Services
             </Link>
+            
+            <Link
+              href="/services/android-app-development-services"
+              className={`hover:text-orange-600 `}
+            >
+              Android App Development Services
+            </Link>
             <Link
               href="/services/ios-app-development"
               className={`hover:text-orange-600 `}
             >
               IOS App Development
-            </Link>
-            <Link
-              href="/services/android-app-development"
-              className={`hover:text-orange-600 `}
-            >
-              Android App Development
             </Link>
             <Link
               href="/services/web-app-development"

@@ -9,7 +9,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const ReownedSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full global-padding-horizontal relative lg:h-screen 2xl:h-[70vh] pt-20">
+    <section className="w-full global-padding-horizontal relative lg:h-screen 2xl:h-[70vh] pt-20 2xl:pt-52">
       <div
         className="w-full lg:w-[70%]"
         data-aos="slide-right"
@@ -52,7 +52,7 @@ const ReownedSection = () => {
         src={"/shows-two-mobile-devices-with-android-app-development-layouts.webp"}
         alt="The image shows two mobile devices with Android app development layouts"
         title="Android app development"
-        className="lg:w-[684.93px] lg:h-[734px] lg:absolute lg:right-0 lg:top-0"
+        className="lg:w-[684.93px] 2xl:w-[784.93px] lg:h-[734px] lg:absolute lg:right-0 lg:top-0 2xl:top-32"
         data-aos="slide-left"
         data-aos-offset="50"
         data-aos-delay="50"

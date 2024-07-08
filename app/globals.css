@@ -959,3 +959,51 @@ input:hover {
 /* .swiper-vertical{
   overflow-y: visible;
 } */
+
+.animated-icon {
+  animation: moveVertically 4s infinite;
+}
+
+@keyframes moveVertically {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-30px, 30px); /* Move down-left */
+  }
+  100% {
+    transform: translate(0, 0); /* Move back to original position */
+  }
+}
+
+.animated-icon-2 {
+  animation: moveVertically2 4s infinite;
+}
+
+@keyframes moveVertically2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(30px, -30px); /* Move down-left */
+  }
+  100% {
+    transform: translate(0, 0); /* Move back to original position */
+  }
+}
+
+.animated-icon-3 {
+  animation: moveVertically3 4s infinite;
+}
+
+@keyframes moveVertically3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(30px, 30px); /* Move down-left */
+  }
+  100% {
+    transform: translate(0, 0); /* Move back to original position */
+  }
+}

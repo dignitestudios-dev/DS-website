@@ -38,7 +38,7 @@ const MobileAppWeDevelopSwiper = () => {
         <SwiperSlide className="">
           <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#AE0843] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
-              Lending App
+              Lending Apps
             </p>
             <div className="bg-[#DD065C] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full" />
             <img
@@ -54,7 +54,7 @@ const MobileAppWeDevelopSwiper = () => {
         <SwiperSlide className="">
           <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#4C7BFC] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
-              Booking App
+              Booking Apps
             </p>
             <div className="bg-[#658EFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
@@ -70,7 +70,7 @@ const MobileAppWeDevelopSwiper = () => {
         <SwiperSlide className="">
           <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#9143F4] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
-              Social Media App
+              Social Media Apps
             </p>
             <div className="bg-[#A35AFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
@@ -86,7 +86,7 @@ const MobileAppWeDevelopSwiper = () => {
         <SwiperSlide className="">
           <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#117E77] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
-              Ticketing App
+              Ticketing Apps
             </p>
             <div className="bg-[#158F88] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
@@ -102,7 +102,7 @@ const MobileAppWeDevelopSwiper = () => {
         <SwiperSlide className="">
           <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#3A7DFF] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
-              Communication App
+              Communication Apps
             </p>
             <div className="bg-[#4B88FF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
@@ -118,7 +118,7 @@ const MobileAppWeDevelopSwiper = () => {
         <SwiperSlide className="">
           <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#F8B84E] rounded-[24px] p-10 relative h-[400px] md:h-[425px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
-              Marketplace App
+              Marketplace Apps
             </p>
             <div className="bg-[#FFC86C] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img

@@ -31,7 +31,7 @@ const MobileAppDevelopmentSeoPage = () => {
       <BenefitsOfWorking />
       <OptimizedProcess />
       <section className="w-full">
-        <Image
+        {/* <Image
           loader={customLoader}
           width={1440}
           height={545}
@@ -39,38 +39,25 @@ const MobileAppDevelopmentSeoPage = () => {
           title="Mobile App Development Service Technologies"
           alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
           className="w-full my-16"
-        />
-        {/* {theme === "light" ? (
-          <Image
-            loader={customLoader}
+        /> */}
+        <div className={`w-full relative overflow-x-hidden ${theme === 'light' && 'bg-[#F9F9F9]'}`}>
+          <h1 className="uppercase font-bold text-sm w-full lg:text-[48px] z-20 absolute top-16 lg:top-24 2xl:top-32 left-1/2 transform -translate-x-1/2 text-center mx-auto">
+            <span className="text-[#F15C20]">technologies</span> we’re using
+          </h1>
+          <img
             width={1440}
             height={545}
-            src="/Mobile-App-Development-Service-Technologies.webp"
+            src="/Mobile-App-Development-Service-Technologies-dark.png"
             title="Mobile App Development Service Technologies"
             alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
-            className="w-full my-16"
+            className="w-full my-16 z-10 h-[150px] lg:h-auto"
           />
-        ) : (
-          <div className="w-full relative overflow-x-hidden">
-            <h1 className="uppercase font-bold text-sm w-full lg:text-[48px] z-20 absolute top-16 lg:top-4 left-1/2 transform -translate-x-1/2 text-center mx-auto">
-              <span className="text-[#F15C20]">technologies</span> we’re using
-            </h1>
-            <img
-              width={1440}
-              height={545}
-              src="/Mobile-App-Development-Service-Technologies-dark.png"
-              title="Mobile App Development Service Technologies"
-              alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
-              className="w-full my-16 z-10 h-[150px] lg:h-auto"
-            />
-          </div>
-        )} */}
+        </div>
       </section>
       <Lifecycle />
       <InnovativeMobileAppSection />
       <TopRatedAppDevFaq />
       <TopRatedAppDevelopmentContactSection />
-      
     </div>
   );
 };

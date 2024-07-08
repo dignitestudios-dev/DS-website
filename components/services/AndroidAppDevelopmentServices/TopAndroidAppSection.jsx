@@ -6,7 +6,7 @@ const TopAndroidAppSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <section
-      className={`w-full global-padding-horizontal flex flex-col items-center text-center py-20`}
+      className={`w-full global-padding-horizontal flex flex-col items-center text-center py-20 xl:py-32 2xl:py-36`}
     >
       <p className={`text-xl font-bold text-[#F15C20] uppercase `}>
         top android application
