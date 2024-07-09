@@ -172,7 +172,7 @@ const ServicesLayout = ({ page }) => {
                     onChange={(e)=> setName(e.target.value)}
                     onFocus={() => setIsFocused1(true)}
                     onBlur={() => setIsFocused1(false)}
-                    className="input_box"
+                    className="input_box text-black"
                     placeholder="e.g. Mike Smith"
                   />
                 </button>
@@ -196,7 +196,7 @@ const ServicesLayout = ({ page }) => {
                     onChange={(e) => setEmail(e.target.value)}
                     onFocus={() => setIsFocused2(true)}
                     onBlur={() => setIsFocused2(false)}
-                    className="input_box"
+                    className="input_box text-black"
                     placeholder="Type your email here"
                   />
                 </button>
@@ -221,7 +221,7 @@ const ServicesLayout = ({ page }) => {
                     onChange={(e) => setPhone(e.target.value)}
                     onFocus={() => setIsFocused3(true)}
                     onBlur={() => setIsFocused3(false)}
-                    className="input_box"
+                    className="input_box text-black"
                     placeholder="e.g +1 491 570 156"
                   />
                 </button>
@@ -232,7 +232,7 @@ const ServicesLayout = ({ page }) => {
                 <button type="button" className="input_flex2">
                   <textarea
                     type="text"
-                    className="input_box2"
+                    className="input_box2 text-black"
                     id="message"
                     value={message}
                     onChange={(e)=> setMessage(e.target.value)}
