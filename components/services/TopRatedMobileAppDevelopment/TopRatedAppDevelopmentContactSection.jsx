@@ -12,6 +12,7 @@ const TopRatedAppDevelopmentContactSection = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [errors, setErrors] = useState({});
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -25,6 +26,7 @@ const TopRatedAppDevelopmentContactSection = () => {
     );
     return formattedNumber;
   };
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -34,32 +36,37 @@ const TopRatedAppDevelopmentContactSection = () => {
     const phone = formData.get("phone");
     const message = formData.get("message");
 
+    const newErrors = {};
     if (name === "") {
-      setError("Name cannot be left empty.");
-    } else if (email === "") {
-      setError("Email cannot be left empty.");
+      newErrors.name = "Name cannot be left empty.";
     }
-    // else if (!validateEmail(email)) {
-    //     setError("Email must be a valid email.");
-    // }
-    else if (phone === "") {
-      setError("Phone number cannot be left empty.");
+    if (email === "") {
+      newErrors.email = "Email cannot be left empty.";
+    } else if (!validateEmail(email)) {
+      newErrors.email = "Email must be a valid email.";
+    }
+    if (phone.length === 0) {
+      newErrors.phone = "Phone number cannot be left empty.";
     } else if (phone.length < 10) {
-      setError("Phone number must contain 10 numeric characters.");
-    } else if (message === "") {
-      setError("Message cannot be left empty.");
-    } else {
-      const formData = new FormData(event.target);
+      newErrors.phone = "Phone number can not be less than 10 digits.";
+    } else if (phone.length > 11) {
+      newErrors.phone = "Phone number can not be more than 11 digits.";
+    }
+    if (message === "") {
+      newErrors.message = "Message cannot be left empty.";
+    }
+
+    setErrors(newErrors);
+
+    if (Object.keys(newErrors).length === 0) {
+      const formattedNumber = formatPhoneNumber(phone);
 
       const data1 = new URLSearchParams();
-
-      const formattedNumber = formatPhoneNumber(formData.get("phone"));
-      // console.log(formattedNumber);
       //Using entry ids from Google forms config
-      data1.append("entry.1883330900", formData.get("name")); // Name field
-      data1.append("entry.39421230", formData.get("email")); // Email field
+      data1.append("entry.1883330900", name); // Name field
+      data1.append("entry.39421230", email); // Email field
       data1.append("entry.769267793", formattedNumber); // Phone field
-      data1.append("entry.1280467825", formData.get("message")); // message field
+      data1.append("entry.1280467825", message); // Message field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
@@ -69,7 +76,7 @@ const TopRatedAppDevelopmentContactSection = () => {
           window.location.assign("https://www.dignitestudios.com/thank-you");
         })
         .catch((error) => {
-          setError("something went wrong");
+          setError("Something went wrong.");
         });
     }
   };
@@ -101,6 +108,7 @@ const TopRatedAppDevelopmentContactSection = () => {
                 className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 border-b bg-transparent"
                 placeholder="Enter name"
               />
+              {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
             </div>
             <div className="w-full flex flex-col items-start gap-1">
               <label htmlFor="name" className="text-base font-medium">
@@ -114,6 +122,7 @@ const TopRatedAppDevelopmentContactSection = () => {
                 className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 border-b bg-transparent"
                 placeholder="Enter email address"
               />
+              {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
             </div>
           </div>
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -122,13 +131,14 @@ const TopRatedAppDevelopmentContactSection = () => {
                 Phone number<span className="text-[#E94C42]">*</span>
               </label>
               <input
-                type="text"
+                type="number"
                 name="phone"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 border-b bg-transparent"
                 placeholder="Enter phone number"
               />
+              {errors.phone && <span className="text-red-500 text-sm">{errors.phone}</span>}
             </div>
             <div className="w-full flex flex-col items-start gap-1">
               <label htmlFor="message" className="text-base font-medium">
@@ -142,6 +152,7 @@ const TopRatedAppDevelopmentContactSection = () => {
                 className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 border-b bg-transparent"
                 placeholder="Type here"
               />
+              {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>}
             </div>
           </div>
           <div className="w-full">

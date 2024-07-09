@@ -21,6 +21,7 @@ const GlobalLayout = ({ page }) => {
   const [isFocused2, setIsFocused2] = useState(false);
   const [isFocused3, setIsFocused3] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  
   const { palette, theme, setError, error, success } =
     useContext(GlobalContext);
   const [showModal, setShowModal] = useState(false);
@@ -56,8 +57,17 @@ const GlobalLayout = ({ page }) => {
     }
   };
 
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const [errors, setErrors] = useState({});
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+  
   const formatPhoneNumber = (phoneNumber) => {
     const formattedNumber = phoneNumber.replace(
       /^(\d{3})(\d{3})(\d{4})$/,
@@ -74,32 +84,37 @@ const GlobalLayout = ({ page }) => {
     const phone = formData.get("phone");
     const message = formData.get("message");
 
+    const newErrors = {};
     if (name === "") {
-      setError("Name cannot be left empty.");
-    } else if (email === "") {
-      setError("Email cannot be left empty.");
+      newErrors.name = "Name cannot be left empty.";
     }
-    // else if (!validateEmail(email)) {
-    //     setError("Email must be a valid email.");
-    // }
-    else if (phone === "") {
-      setError("Phone number cannot be left empty.");
+    if (email === "") {
+      newErrors.email = "Email cannot be left empty.";
+    } else if (!validateEmail(email)) {
+      newErrors.email = "Email must be a valid email.";
+    }
+    if (phone.length === 0) {
+      newErrors.phone = "Phone number cannot be left empty.";
     } else if (phone.length < 10) {
-      setError("Phone number must contain 10 numeric characters.");
-    } else if (message === "") {
-      setError("Message cannot be left empty.");
-    } else {
-      const formData = new FormData(event.target);
+      newErrors.phone = "Phone number can not be less than 10 digits.";
+    } else if (phone.length > 11) {
+      newErrors.phone = "Phone number can not be more than 11 digits.";
+    }
+    if (message === "") {
+      newErrors.message = "Message cannot be left empty.";
+    }
+
+    setErrors(newErrors);
+
+    if (Object.keys(newErrors).length === 0) {
+      const formattedNumber = formatPhoneNumber(phone);
 
       const data1 = new URLSearchParams();
-
-      const formattedNumber = formatPhoneNumber(formData.get("phone"));
-      // console.log(formattedNumber);
       //Using entry ids from Google forms config
-      data1.append("entry.1883330900", formData.get("name")); // Name field
-      data1.append("entry.39421230", formData.get("email")); // Email field
+      data1.append("entry.1883330900", name); // Name field
+      data1.append("entry.39421230", email); // Email field
       data1.append("entry.769267793", formattedNumber); // Phone field
-      data1.append("entry.1280467825", formData.get("message")); // message field
+      data1.append("entry.1280467825", message); // Message field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
@@ -109,7 +124,7 @@ const GlobalLayout = ({ page }) => {
           window.location.assign("https://www.dignitestudios.com/thank-you");
         })
         .catch((error) => {
-          setError("something went wrong");
+          setError("Something went wrong.");
         });
     }
   };
@@ -136,7 +151,14 @@ const GlobalLayout = ({ page }) => {
             className="container-form"
           >
             <div className="side-promo">
-              <Image loader={customLoader} width={400} height={540} src="/form-promo3.webp" alt="sidebar_promo" className="" />
+              <Image
+                loader={customLoader}
+                width={400}
+                height={540}
+                src="/form-promo3.webp"
+                alt="sidebar_promo"
+                className=""
+              />
             </div>
             <div className="main-promo">
               <div className="promo2">
@@ -166,85 +188,93 @@ const GlobalLayout = ({ page }) => {
               </span>
 
               <div className="input_field">
-              <label className="label_field">Name</label>
-              <button type="button" className="input_flex">
-                <span className="input_span">
-                  <FaUser
-                    className={`${
-                      isFocused1 ? "text-orange-500" : "text-gray-400"
-                    }`}
+                <label className="label_field">Name</label>
+                <button type="button" className="input_flex">
+                  <span className="input_span">
+                    <FaUser
+                      className={`${
+                        isFocused1 ? "text-orange-500" : "text-gray-400"
+                      }`}
+                    />
+                  </span>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={name}
+                    onChange={(e)=> setName(e.target.value)}
+                    onFocus={() => setIsFocused1(true)}
+                    onBlur={() => setIsFocused1(false)}
+                    className="input_box"
+                    placeholder="e.g. Mike Smith"
                   />
-                </span>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  onFocus={() => setIsFocused1(true)}
-                  onBlur={() => setIsFocused1(false)}
-                  className="input_box"
-                  placeholder="e.g. Mike Smith"
-                />
-              </button>
-            </div>
-            <div className="input_field">
-              <label className="label_field">Email Address</label>
-              <button type="button" className="input_flex">
-                <span className="input_span">
-                  <MdMail
-                    className={`${
-                      isFocused2 ? "text-orange-500" : "text-gray-400"
-                    }`}
+                </button>
+                {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
+              </div>
+              <div className="input_field">
+                <label className="label_field">Email Address</label>
+                <button type="button" className="input_flex">
+                  <span className="input_span">
+                    <MdMail
+                      className={`${
+                        isFocused2 ? "text-orange-500" : "text-gray-400"
+                      }`}
+                    />
+                  </span>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    onFocus={() => setIsFocused2(true)}
+                    onBlur={() => setIsFocused2(false)}
+                    className="input_box"
+                    placeholder="Type your email here"
                   />
-                </span>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  onFocus={() => setIsFocused2(true)}
-                  onBlur={() => setIsFocused2(false)}
-                  className="input_box"
-                  placeholder="Type your email here"
-                />
-              </button>
-            </div>
-            <div className="input_field">
-              <label className="label_field">Phone Number</label>
-              <button type="button" className="input_flex">
-                <span className="input_span">
-                  <BsTelephoneFill
-                    className={`${
-                      isFocused3 ? "text-orange-500" : "text-gray-400"
-                    }`}
+                </button>
+                {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
+              </div>
+              <div className="input_field">
+                <label className="label_field">Phone Number</label>
+                <button type="button" className="input_flex">
+                  <span className="input_span">
+                    <BsTelephoneFill
+                      className={`${
+                        isFocused3 ? "text-orange-500" : "text-gray-400"
+                      }`}
+                    />
+                  </span>
+                  <input
+                    type="number"
+                    maxLength="11"
+                    id="phone"
+                    name="phone"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                    onFocus={() => setIsFocused3(true)}
+                    onBlur={() => setIsFocused3(false)}
+                    className="input_box"
+                    placeholder="e.g +1 491 570 156"
                   />
-                </span>
-                <input
-                  type="text"
-                  maxLength="11"
-                  id="phone"
-                  name="phone"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                  onFocus={() => setIsFocused3(true)}
-                  onBlur={() => setIsFocused3(false)}
-                  className="input_box"
-                  placeholder="e.g +1 491 570 156"
-                />
-              </button>
-            </div>
-            <div className="input_field">
-              <label className="label_field">Message</label>
-              <button type="button" className="input_flex2">
-                <textarea
-                  type="text"
-                  className="input_box2"
-                  id="message"
-                  name="message"
-                  placeholder="Type your message here."
-                ></textarea>
-              </button>
-            </div>
+                </button>
+                {errors.phone && <span className="text-red-500 text-sm">{errors.phone}</span>}
+              </div>
+              <div className="input_field">
+                <label className="label_field">Message</label>
+                <button type="button" className="input_flex2">
+                  <textarea
+                    type="text"
+                    className="input_box2"
+                    id="message"
+                    value={message}
+                    onChange={(e)=> setMessage(e.target.value)}
+                    name="message"
+                    placeholder="Type your message here."
+                  ></textarea>
+                </button>
+                {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>}
+              </div>
 
               <button type="submit" className="sub_button">
                 Submit

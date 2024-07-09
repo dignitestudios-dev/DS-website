@@ -8,13 +8,16 @@ import ContactUsAlert from "../global/ContactUsAlert";
 const ContactUsPage = () => {
   const { palette, theme, setError, error } = useContext(GlobalContext);
   const navigate = useRouter();
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  
+  const [errors, setErrors] = useState({});
+
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   };
 
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
   const formatPhoneNumber = (phoneNumber) => {
     const formattedNumber = phoneNumber.replace(
       /^(\d{3})(\d{3})(\d{4})$/,
@@ -31,32 +34,37 @@ const ContactUsPage = () => {
     const phone = formData.get("phone");
     const message = formData.get("message");
 
+    const newErrors = {};
     if (name === "") {
-      setError("Name cannot be left empty.");
-    } else if (email === "") {
-      setError("Email cannot be left empty.");
+      newErrors.name = "Name cannot be left empty.";
     }
-    // else if (!validateEmail(email)) {
-    //     setError("Email must be a valid email.");
-    // }
-    else if (phone === "") {
-      setError("Phone number cannot be left empty.");
+    if (email === "") {
+      newErrors.email = "Email cannot be left empty.";
+    } else if (!validateEmail(email)) {
+      newErrors.email = "Email must be a valid email.";
+    }
+    if (phone.length === 0) {
+      newErrors.phone = "Phone number cannot be left empty.";
     } else if (phone.length < 10) {
-      setError("Phone number must contain 10 numeric characters.");
-    } else if (message === "") {
-      setError("Message cannot be left empty.");
-    } else {
-      const formData = new FormData(event.target);
+      newErrors.phone = "Phone number can not be less than 10 digits.";
+    } else if (phone.length > 11) {
+      newErrors.phone = "Phone number can not be more than 11 digits.";
+    }
+    if (message === "") {
+      newErrors.message = "Message cannot be left empty.";
+    }
+
+    setErrors(newErrors);
+
+    if (Object.keys(newErrors).length === 0) {
+      const formattedNumber = formatPhoneNumber(phone);
 
       const data1 = new URLSearchParams();
-
-      const formattedNumber = formatPhoneNumber(formData.get("phone"));
-      // console.log(formattedNumber);
       //Using entry ids from Google forms config
-      data1.append("entry.1883330900", formData.get("name")); // Name field
-      data1.append("entry.39421230", formData.get("email")); // Email field
+      data1.append("entry.1883330900", name); // Name field
+      data1.append("entry.39421230", email); // Email field
       data1.append("entry.769267793", formattedNumber); // Phone field
-      data1.append("entry.1280467825", formData.get("message")); // message field
+      data1.append("entry.1280467825", message); // Message field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
@@ -66,7 +74,7 @@ const ContactUsPage = () => {
           window.location.assign("https://www.dignitestudios.com/thank-you");
         })
         .catch((error) => {
-          setError("something went wrong");
+          setError("Something went wrong.");
         });
     }
   };
@@ -113,7 +121,7 @@ const ContactUsPage = () => {
               <input
                 type="text"
                 className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="e.g. Mike Smith"
+                placeholder="Enter your name"
                 id="name"
                 name="name"
                 style={{
@@ -124,6 +132,7 @@ const ContactUsPage = () => {
                   }`,
                 }}
               />
+              {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
             </div>
 
             <div className="w-full flex flex-col gap-1 justify-start items-start">
@@ -134,13 +143,13 @@ const ContactUsPage = () => {
                 Email
               </span>
               <input
-                type="text"
+                type="email"
                 id="email"
                 name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="e.g John@gmail.com"
+                placeholder="Enter your email"
                 style={{
                   borderBottom: `2px solid ${
                     theme == "light"
@@ -149,6 +158,7 @@ const ContactUsPage = () => {
                   }`,
                 }}
               />
+              {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
             </div>
             <div className="w-full flex flex-col gap-1 justify-start items-start">
               <span
@@ -158,14 +168,14 @@ const ContactUsPage = () => {
                 Phone Number
               </span>
               <input
-                type="text"
+                type="number"
                 id="phone"
                 name="phone"
                 maxLength="11"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="e.g +1 491 570 156"
+                placeholder="Enter phone number"
                 style={{
                   borderBottom: `2px solid ${
                     theme == "light"
@@ -174,6 +184,7 @@ const ContactUsPage = () => {
                   }`,
                 }}
               />
+              {errors.phone && <span className="text-red-500 text-sm">{errors.phone}</span>}
             </div>
 
             <div className="w-full flex flex-col gap-1 justify-start items-start">
@@ -197,6 +208,7 @@ const ContactUsPage = () => {
                   }`,
                 }}
               />
+              {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>}
             </div>
 
             <button
