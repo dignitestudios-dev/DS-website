@@ -90,7 +90,7 @@ const TopRatedAppDevelopmentContactSection = () => {
         <form
           id="service-page-lead-form"
           onSubmit={handleSubmit}
-          className="col-span-3 lg:col-span-2 flex flex-col items-start gap-8 p-4 2xl:gap-10 lg:p-12 2xl:p-24"
+          className="col-span-3 xl:col-span-2 flex flex-col items-start gap-8 p-4 2xl:gap-10 lg:p-12 2xl:p-24"
         >
           <h1 className="text-[34px] lg:text-[64px] font-semibold tracking-0 lg:tracking-[-3.2px] leading-normal 2xl:leading-[82px]">
             Let’s build an awesome project together!
@@ -166,7 +166,7 @@ const TopRatedAppDevelopmentContactSection = () => {
           {error && <Alert />}
         </form>
 
-        <duv className="col-span-3 lg:col-span-1 hidden lg:flex items-center justify-center p-4 pt-0 lg:p-0">
+        <duv className="col-span-3 xl:col-span-1 hidden xl:flex items-center justify-center p-4 pt-0 lg:p-0">
           <img
             src="/top-rated-contact-mockup.webp"
             alt="top-rated-mobile-app-development"

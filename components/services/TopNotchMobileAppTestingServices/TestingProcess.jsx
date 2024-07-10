@@ -11,10 +11,10 @@ const TestingProcess = () => {
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
           exclusive design services by
         </p>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 mt-3">
+        <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
             <h1
-              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[72.45px] group`}
+              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[62px] xl:leading-[72.45px] group`}
             >
               <span className="text-[#8F8F8F] group-hover:text-[#F15C20] transition-all duration-200">Inevitable</span>
               <br />
@@ -22,7 +22,7 @@ const TestingProcess = () => {
             </h1>
           </div>
 
-          <div className="lg:px-12 flex items-center">
+          <div className="xl:px-12 flex items-center">
             <p className={`text-base md:text-xl md:leading-[27.2px]`}>
               The top-class mobile app testing services of Dignite Studios
               streamline highly effective testing methodology to prevent

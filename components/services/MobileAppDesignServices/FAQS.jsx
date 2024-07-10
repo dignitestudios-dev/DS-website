@@ -79,7 +79,7 @@ const FAQS = () => {
                 >
                   <div className="py-1 rounded-md mt-1 ">
                     <p
-                      className={`mb-2 ${
+                      className={`mb-2 text-start ${
                         theme === "dark" ? "text-gray-400" : "text-[#5C5C5C]"
                       } text-xs lg:text-[16px] leading-normal`}
                     >

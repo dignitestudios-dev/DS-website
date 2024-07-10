@@ -60,9 +60,10 @@ const SpecialistPlatform = () => {
             src="/native-mobile-app-design-services.webp"
             alt="the mockup screen shows posts on the native mobile app design services"
             title="Native mobile app design services"
-            className="mx-auto absolute -bottom-40 lg:-bottom-24 group-hover:-bottom-32 lg:group-hover:-bottom-16 transition-all duration-200"
+            className="mx-auto absolute -bottom-40 md:-bottom-16 md:group-hover:-bottom-24 lg:-bottom-28 lg:group-hover:-bottom-20 xl:-bottom-24 xl:group-hover:-bottom-16 transition-all duration-200"
           />
         </div>
+        {/* card 2 */}
         <div
           className={`w-full lg:w-[459px] ${
             theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"

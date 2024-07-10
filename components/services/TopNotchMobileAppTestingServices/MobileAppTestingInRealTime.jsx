@@ -7,11 +7,11 @@ const MobileAppTestingInRealTime = () => {
   return (
     <div className="w-full py-6 lg:py-12 global-padding-horizontal">
       <div
-        className={`w-full rounded-3xl flex flex-col lg:flex-row items-end overflow-y-hidden  relative ${
+        className={`w-full rounded-3xl flex flex-col xl:flex-row items-end overflow-y-hidden  relative ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#1c1c1c]"
         }`}
       >
-        <div className="flex flex-col items-start gap-5 lg:w-[55%] p-6 lg:p-14">
+        <div className="flex flex-col items-start gap-5 w-full xl:w-[55%] p-6 lg:p-14">
           <h1 className="text-2xl lg:text-[48px] font-bold lg:leading-[54.94px] tracking-tighter">
             <span className="text-[#F15C20]">Mobile App</span> Testing In <br />{" "}
             Real Time
@@ -39,14 +39,14 @@ const MobileAppTestingInRealTime = () => {
           src="/mobile-app-testing-services.webp"
           alt="the mock screen shows the job portal on the application testing"
           title="Mobile app testing services"
-          className="lg:w-[530px] lg:h-[410px]"
+          className="lg:w-[530px] lg:h-[410px] mx-auto"
           data-aos="slide-up"
-          data-aos-offset="100" // Adjusted offset to trigger animation earlier
-          data-aos-delay="0" // No delay for immediate animation start
+          data-aos-offset="100" 
+          data-aos-delay="0"
           data-aos-duration="700"
           data-aos-easing="ease-in"
           data-aos-mirror="false"
-          data-aos-once="false" // Set to false to repeat animation on scroll up
+          data-aos-once="false" 
           data-aos-anchor-placement="center-bottom"
         />
       </div>

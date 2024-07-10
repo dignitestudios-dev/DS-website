@@ -4,42 +4,42 @@ export const MOBILE_APP_DESIGN_FAQS = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How much does it cost to create an app?",
+      name: "How much does a mobile app designer cost?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The cost of mobile app development can easily be acquired by filling out the form below.",
+        text: "To know the actual designer cost for the development of the apps, schedule a call with our specialists or fill out the form below.",
       },
     },
     {
       "@type": "Question",
-      name: "What are the three 3 types of mobile applications?",
+      name: "What does a mobile app designer do?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "There are three types of app types Native, Hybrid, and Progressive apps.",
+        text: "The application designer accumulates all the requirements from business analysts and users to evaluate which IT software will easily support the application. Further, he designs the app specifications for the programmers to execute accordingly.",
       },
     },
     {
       "@type": "Question",
-      name: "What is an API in mobile development?",
+      name: "Who designs mobile apps?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "APIs are the foundational element of the mobile or web app. It helps developers to access other applications. API management is a core operation of IT departments that incorporates people with the data and attracts more interaction.",
+        text: "Apps are designed by expert UI/UX designers who build user-friendly interfaces, on the other hand, the code is translated by the front-end developers to build iOS and Android apps systematically. Our service scope can help you to seek the best mobile app designers.",
       },
     },
     {
       "@type": "Question",
-      name: "What are the requirements for developing an app from scratch?",
+      name: "What is the difference between an app developer and an app designer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "First, you have to define the goal of your project, analyze the problem statement, evaluate in-depth market research of your competitors, choose an appropriate app template, app code, customize app features, and analyze the cost-effective launch platform. That’s how you will build constructive apps for your consumers.",
+        text: "The app's developer generates front-end development, full-stack development, and back-end development in the mobile app development process. Whereas the app's designer focuses on unique and visually appealing UX/UI interfaces and develops an application code to give a lease on life.",
       },
     },
     {
       "@type": "Question",
-      name: "What is the best software for mobile app development?",
+      name: "How to improve the app experience?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ReactNAtive, flutter, Swift, flutter, Xcode, Python, and many more to provide a comprehensive app solution to business holders.",
+        text: "The development can be refined and enhanced by the multichannel experience, unique features or functions, skeleton mobile screens, proper navigation system, and appropriate onboarding process.",
       },
     },
   ],

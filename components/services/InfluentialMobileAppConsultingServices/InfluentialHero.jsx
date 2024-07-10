@@ -8,10 +8,10 @@ const InfluentialHero = () => {
   const { theme, setIsSidebarOpen } = useContext(GlobalContext);
   const overlay = theme === 'light' ? 'influential-overlay-light':'influential-overlay-dark'
   return (
-    <main className={`w-full influential-hero relative h-screen`}>
+    <main className={`w-full influential-hero relative md:h-[60vh] lg:h-[70vh] xl:h-screen`}>
       <div className={`${overlay} w-full h-full absolute top-0 z-0`}/>
       <InfluentialNavbar setIsOpen={setIsSidebarOpen}/>
-      <div className="w-full h-full global-padding-horizontal flex flex-col items-center justify-start text-center gap-8 lg:gap-10 py-28 lg:py-40 2xl:pt-60 relative z-20">
+      <div className="w-full h-full global-padding-horizontal flex flex-col items-center justify-center text-center gap-8 lg:gap-10 relative z-20">
         <h1 className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-normal text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px text-white hidden lg:block">
           <span className="text-[#F15C20]">Influential</span> Mobile App <br />
           Consulting Services

@@ -16,16 +16,19 @@ export const sliderSettings = {
       slidesPerView: 1,
     },
     600: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
 
     750: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
 
     1100: {
       slidesPerView: 3,
     },
+    2560:{
+      slidesPerView: 4,
+    }
   },
 };
 
@@ -49,7 +52,7 @@ export default function BenefitOfDigniteStudios() {
             return (
               <SwiperSlide key={i} className="">
                 <div
-                  className={`h-full w-[438px] rounded-[18px]
+                  className={`h-full w-full rounded-[18px]
                    p-6 pt-3 flex flex-col items-start gap-0 text-start group  ${
                      theme === "dark"
                        ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition-all duration-200"
@@ -91,15 +94,14 @@ const SliderButtons = () => {
   const swiper = useSwiper();
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="flex items-center justify-end gap-3 absolute -top-28 right-0 z-30">
+    <div className="flex items-center justify-end gap-3 absolute -top-20 right-4 lg:-top-28 md:right-0 z-30">
       <button
         onClick={() => swiper.slidePrev()}
         name="swipe left button"
         type="button"
         className={`rounded-full ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
-        } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl`}
-        style={{ width: "76px", height: "76px" }}
+        } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl w-[45px] h-[45px] xl:w-[76px] xl:h-[76px]`}
       >
         &lt;
       </button>
@@ -109,8 +111,7 @@ const SliderButtons = () => {
         type="button"
         className={`rounded-full ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
-        } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl`}
-        style={{ width: "76px", height: "76px" }}
+        } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl w-[45px] h-[45px] xl:w-[76px] xl:h-[76px]`}
       >
         &gt;
       </button>

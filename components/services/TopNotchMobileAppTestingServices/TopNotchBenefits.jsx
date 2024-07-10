@@ -47,7 +47,7 @@ const TopNotchBenefits = () => {
             Therefore, it will lead to more user satisfaction and revenue
             generation from your mobile apps.
           </p>
-          <div className="mt-4">
+          <div className="mt-4 pb-6">
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
@@ -58,7 +58,7 @@ const TopNotchBenefits = () => {
         </div>
         <div className="flex justify-center">
           <div
-            className={`w-full lg:w-[420px] overflow-hidden h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+            className={`w-full lg:w-[420px] overflow-hidden h-[379px] lg:h-[479px] rounded-3xl flex justify-center items-end ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             }`}
           >
@@ -66,7 +66,7 @@ const TopNotchBenefits = () => {
               src="/mobile-app-testing-exclusive-error-detection.webp"
               alt="mock screen shows the mobile app testing of login layout"
               title="Mobile app testing exclusive error detection"
-              className="w-[242px] lg:h-[427.52px]"
+              className="w-[242px] h-[367px] md:h-[427.52px]"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
               data-aos-delay="0" // No delay for immediate animation start
@@ -83,7 +83,7 @@ const TopNotchBenefits = () => {
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex justify-center">
           <div
-            className={`w-full lg:w-[420px] overflow-hidden h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+            className={`w-full lg:w-[420px] overflow-hidden h-[379px] lg:h-[479px] rounded-3xl flex justify-center items-end ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             }`}
           >
@@ -91,7 +91,7 @@ const TopNotchBenefits = () => {
               src="/mobile-app-testing-quality-assurance.webp"
               alt="the mock screen shows the quality detection of mobile app testing tool"
               title="Mobile app testing quality assurance"
-              className="w-[242px] lg:h-[427.52px]"
+              className="w-[242px] h-[367px] md:h-[427.52px]"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
               data-aos-delay="0" // No delay for immediate animation start
@@ -124,7 +124,7 @@ const TopNotchBenefits = () => {
             Studios, conduct multiple phases to create an evaluation process to
             meet the success of the mobile performance testing of the app. 
           </p>
-          <div className="mt-4">
+          <div className="mt-4 pb-6">
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
@@ -162,7 +162,7 @@ const TopNotchBenefits = () => {
             security testing process ensures secure configuration, prevention of
             encryption methods, and shielded transmission of data.
           </p>
-          <div className="mt-4">
+          <div className="mt-4 pb-6">
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
@@ -173,7 +173,7 @@ const TopNotchBenefits = () => {
         </div>
         <div className="flex justify-center">
           <div
-            className={`w-full lg:w-[420px] overflow-hidden h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+            className={`w-full lg:w-[420px] overflow-hidden h-[379px] lg:h-[479px] rounded-3xl flex justify-center items-end ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             }`}
           >
@@ -181,7 +181,7 @@ const TopNotchBenefits = () => {
               src="/mobile-app-testing-security-prevalence.webp"
               alt="mock up screen shows olivia james profile"
               title="Mobile app testing security prevalence"
-              className="w-[242px] lg:h-[427.52px]"
+              className="w-[242px] h-[367px] md:h-[427.52px]"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
               data-aos-delay="0" // No delay for immediate animation start
@@ -198,7 +198,7 @@ const TopNotchBenefits = () => {
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex justify-center">
           <div
-            className={`w-full lg:w-[420px] overflow-hidden h-auto lg:h-[479px] rounded-3xl flex justify-center items-end ${
+            className={`w-full lg:w-[420px] overflow-hidden h-[379px] lg:h-[479px] rounded-3xl flex justify-center items-end ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             }`}
           >
@@ -206,7 +206,7 @@ const TopNotchBenefits = () => {
               src="/mobile-app-testing-fast-development.webp"
               alt="mockup screen shows the testing of people you know the layout of the application"
               title="Mobile app testing fast development"
-              className="w-[242px] lg:h-[427.52px]"
+              className="w-[242px] h-[367px] md:h-[427.52px]"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
               data-aos-delay="0" // No delay for immediate animation start
@@ -242,7 +242,7 @@ const TopNotchBenefits = () => {
             the right platform for testing, mobile app testing automated
             programs, and updating new feeds at a similar speed.
           </p>
-          <div className="mt-4">
+          <div className="mt-4 pb-6">
             <Link
               href={"/contact"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"

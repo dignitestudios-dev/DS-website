@@ -8,17 +8,17 @@ const WhyDignite = () => {
   return (
     <div className="py-10 global-padding-horizontal">
       <div className={`w-full`}>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 mt-3">
+        <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
             <h1
-              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[72.45px] group`}
+              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[62px] xl:leading-[72.45px] group`}
             >
               <span className="text-[#8F8F8F] group-hover:text-[#F15C20]">Why</span>
               <br />
               Dignite Studios
             </h1>
           </div>
-          <div className="lg:px-12 flex flex-col items-start justify-center gap-3">
+          <div className="xl:px-12 flex flex-col items-start justify-center gap-3">
             <p className={`text-[13px md:leading-[17.68px]`}>
               The top-class mobile app testing services of Dignite Studios
               streamline highly effective testing methodology to prevent
@@ -36,7 +36,7 @@ const WhyDignite = () => {
           </div>
         </div>
 
-        <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <div className="w-full grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 mt-10">
           <div
             className={`h-[286px] flex flex-col items-start gap-3 text-start group ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
