@@ -5,6 +5,7 @@ import AboutUsHero from "./AboutUsHero";
 import AboutUsSlider from "./AboutUsSlider";
 import AboutUsFaq from "./AboutUsFaq";
 import AwardsRecognition from "../services/MobileAppDevelopment/MobileAwardsRecognition";
+import TopRatedPageOurOffices from "../services/TopRatedMobileAppDevelopment/TopRatedPageOurOffices";
 
 const AboutUsPage = () => {
   return (
@@ -14,7 +15,8 @@ const AboutUsPage = () => {
       <AboutUsFaq />
       <AwardsRecognition />
       <LandingContactUs />
-      <FindOurOfficesSection />
+      {/* <FindOurOfficesSection /> */}
+      <TopRatedPageOurOffices />
     </div>
   );
 };

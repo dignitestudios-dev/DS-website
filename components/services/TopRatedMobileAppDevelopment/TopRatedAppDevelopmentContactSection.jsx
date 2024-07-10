@@ -49,7 +49,7 @@ const TopRatedAppDevelopmentContactSection = () => {
       newErrors.phone = "Phone number cannot be left empty.";
     } else if (phone.length < 10) {
       newErrors.phone = "Phone number can not be less than 10 digits.";
-    } else if (phone.length > 11) {
+    } else if (phone.length > 10) {
       newErrors.phone = "Phone number can not be more than 11 digits.";
     }
     if (message === "") {

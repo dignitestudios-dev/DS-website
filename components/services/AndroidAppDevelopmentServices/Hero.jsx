@@ -23,7 +23,7 @@ const Hero = () => {
           <img
             src="/hero-heading-border.png"
             alt=""
-            className="w-[228px] h-[44px] left-[2.9%] md:left-[17%] md:w-[275px] md:h-[50px] top-0 lg:top-0 2xl:top-0 lg:w-[415px] lg:h-[98px] 2xl:w-[640px] 2xl:left-[19.2%] 2xl:h-[120px] absolute lg:left-[13%] xl:left-[22%] xl:w-[468px] z-20"
+            className="absolute w-[228px] h-[44px] left-[2.9%] md:left-[17%] md:w-[275px] md:h-[50px] top-0 lg:top-0 2xl:top-0 lg:w-[415px] lg:h-[98px] lg:left-[13%] xl:left-[22%] xl:w-[468px] 2xl:w-[640px] 2xl:left-[19.2%] 2xl:h-[120px]  z-20"
           />
           <img
             src="/arrow-icon.png"

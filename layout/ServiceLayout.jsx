@@ -73,7 +73,7 @@ const ServicesLayout = ({ page }) => {
     );
     return formattedNumber;
   };
-  
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -96,7 +96,7 @@ const ServicesLayout = ({ page }) => {
       newErrors.phone = "Phone number cannot be left empty.";
     } else if (phone.length < 10) {
       newErrors.phone = "Phone number can not be less than 10 digits.";
-    } else if (phone.length > 11) {
+    } else if (phone.length > 10) {
       newErrors.phone = "Phone number can not be more than 11 digits.";
     }
     if (message === "") {

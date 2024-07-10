@@ -48,13 +48,14 @@ const DiscoverOurHistory = () => {
             </Link>
           </div>
         </div>
-        <div className="col-span-3 lg:col-span-1">
+        <div className="col-span-3 lg:col-span-1 flex justify-center lg:justify-end">
           <Image
             src="/mobile-app-development-services-value-expedition.webp"
             loader={customLoader}
             alt="Description of the image"
             width={410}
             height={435}
+            className="h-[365px]"
           />
         </div>
       </div>

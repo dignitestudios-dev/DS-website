@@ -10,8 +10,8 @@ const Process = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <section className="w-full py-12 global-padding-horizontal lg:mt-0">
-      <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-0 md:gap-6">
-        <div className="w-full lg:w-[73%]">
+      <div className="w-full flex flex-col xl:flex-row items-start justify-between gap-0 md:gap-6">
+        <div className="w-full xl:w-[70%]">
           <h3 className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
             mobile app development
           </h3>
@@ -42,7 +42,7 @@ const Process = () => {
         </div>
       </div>
 
-      <div className="w-full  lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 xl:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 ">
+      <div className="w-full lg:mt-6 xl:mt-0 lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 xl:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 ">
         {process.map((s, key) => {
           return (
             <ProcessCard

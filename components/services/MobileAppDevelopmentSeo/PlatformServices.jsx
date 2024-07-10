@@ -7,13 +7,20 @@ import React, { useContext } from "react";
 const PlatformServices = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full mb-6 mt-40 md:mb-12 md:mt-32 lg:mt-36 lg:pb-20 xl:pb-0 xl:mt-56">
+    <section className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full mb-6 mt-20 md:mb-12 md:mt-32 lg:mt-24 lg:pb-20 xl:pb-0 xl:mt-36">
       <h1
         className={`${
           theme === "dark" ? "text-white" : "text-black"
-        } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter lg:leading-[72px]`}
+        } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter lg:leading-[72px] hidden xl:block`}
       >
         mobile app development services <br /> for various platforms
+      </h1>
+      <h1
+        className={`${
+          theme === "dark" ? "text-white" : "text-black"
+        } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter xl:hidden`}
+      >
+        mobile app development services for various platforms
       </h1>
       <p
         className={`text-base font-normal text-start lg:w-[60%] ${

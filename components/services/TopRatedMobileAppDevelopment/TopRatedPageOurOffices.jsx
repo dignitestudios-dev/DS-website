@@ -31,7 +31,7 @@ const TopRatedPageOurOffices = () => {
         <OfficeCard
           image={"/wyoming-office.png"}
           title={"Wyoming, US"}
-          address={"312 W 2nd Street, Casper, Wy 82601, United States"}
+          address={"312 W 2nd Street, Casper, WY 82601, United States"}
         />
         <OfficeCard
           image={"/pakistan-office.png"}
