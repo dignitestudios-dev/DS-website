@@ -13,6 +13,7 @@ import ContactUsAlert from "@/components/global/ContactUsAlert";
 import { RxCross2 } from "react-icons/rx";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
+import ScrollToTopButton from "@/components/global/ScrollToTopButton";
 
 const ServicesLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -72,6 +73,7 @@ const ServicesLayout = ({ page }) => {
     );
     return formattedNumber;
   };
+  
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -134,6 +136,7 @@ const ServicesLayout = ({ page }) => {
       }}
     >
       <Cursor />
+      <ScrollToTopButton/>
       <div
         onClick={handleCloseModal}
         className={`screen-form ${showModal ? "show" : "hide"}`}

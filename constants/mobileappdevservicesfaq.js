@@ -12,10 +12,10 @@ export const faqData = {
     },
     {
       "@type": "Question",
-      name: "What are the three 3 types of mobile applications?",
+      name: "What are the 3 types of mobile applications?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "There are three types of app types Native, Hybrid, and Progressive apps.",
+        text: "Native, Hybrid, and Web Apps.",
       },
     },
     {
@@ -39,7 +39,7 @@ export const faqData = {
       name: "What is the best software for mobile app development?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ReactNAtive, flutter, Swift, flutter, Xcode, Python, and many more to provide a comprehensive app solution to business holders.",
+        text: "React Native, Swift, flutter, Xcode, Python, and many more to provide a comprehensive app solution to business holders.",
       },
     },
   ],

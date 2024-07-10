@@ -17,17 +17,17 @@ const TopNotchTeam = () => {
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
           exclusive design services by
         </p>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 mt-3">
+        <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
             <h1
-              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[77.45px]`}
+              className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[57px] xl:leading-[77.45px]`}
             >
               <span className="text-[#F15C20]">Top-Notch</span> team <br /> of
               Dignite Studios
             </h1>
           </div>
 
-          <div className="lg:px-12 flex items-center">
+          <div className="xl:px-12 flex items-center">
             <p className={`text-base md:text-2xl md:leading-[32.64px]`}>
               The unparalleled creativity and expertise of Dignite Studios
               prevailed in providing extreme cutting-edge solutions to design

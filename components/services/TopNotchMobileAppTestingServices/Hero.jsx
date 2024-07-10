@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-full text-center h-[60vh] xl:h-screen relative pb-20 pt-2 md:pt-10 global-padding-horizontal flex flex-col items-center lg:mb-14 z-0">
+    <div className="w-full text-center h-[65vh] md:h-[90vh] lg:h-screen relative pb-20 pt-2 md:pt-10 global-padding-horizontal flex flex-col items-center lg:mb-14 z-0">
       <h1 className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px] z-10">
         <span className="text-[#F15C20]">Top-Notch Mobile</span> <br />{" "}
         Application Testing Services

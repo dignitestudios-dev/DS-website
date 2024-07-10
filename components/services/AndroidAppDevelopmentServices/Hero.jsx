@@ -1,8 +1,6 @@
 "use client";
 import Navbar from "@/components/global/Navbar";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
-import Image from "next/image";
 import React, { useContext } from "react";
 
 const Hero = () => {
@@ -25,12 +23,12 @@ const Hero = () => {
           <img
             src="/hero-heading-border.png"
             alt=""
-            className="w-[228px] h-[44px] left-[2.9%] top-0 lg:top-0 2xl:top-0 lg:w-[460px] lg:h-[98px] 2xl:w-[640px] 2xl:left-[19.2%] 2xl:h-[120px] absolute lg:left-[22.2%]"
+            className="w-[228px] h-[44px] left-[2.9%] md:left-[17%] md:w-[275px] md:h-[50px] top-0 lg:top-0 2xl:top-0 lg:w-[415px] lg:h-[98px] 2xl:w-[640px] 2xl:left-[19.2%] 2xl:h-[120px] absolute lg:left-[13%] xl:left-[22%] xl:w-[468px] z-20"
           />
           <img
             src="/arrow-icon.png"
             alt="arrow-icon"
-            className="absolute top-[19%] lg:top-[94px] left-[48%] 2xl:top-[110px] 2xl:left-[720px] w-[17px] h-[16px] md:w-[22.1px] md:h-[20.1px]"
+            className="absolute top-[19%] md:top-[32%] lg:top-[94px] left-[48%] md:left-[47%] lg:left-[48%] 2xl:top-[110px] 2xl:left-[48%] w-[17px] h-[16px] md:w-[22.1px] md:h-[20.1px]"
           />
           <h1
             className={`text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[81.93px] 2xl:leading-[99px] hidden lg:block`}
@@ -55,7 +53,7 @@ const Hero = () => {
         <img
           src="/tailwind-icon-2.png"
           alt="firebase-icon"
-          className="w-[150px] h-[150px] absolute hidden lg:block left-[4%] animated-icon"
+          className="w-[150px] h-[150px] absolute hidden lg:block left-[4%] animated-icon z-0"
         />
         <img
           src="/java-icon-2.png"

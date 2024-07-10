@@ -3,8 +3,8 @@ import React from "react";
 
 const TestingServices = () => {
   return (
-    <div className="text-center py-10 global-padding-horizontal">
-      <h1 className="text-3xl md:text-5xl lg:text-[64px] 2xl:text-[80px] font-bold lg:leading-[70.72px] tracking-tighter">
+    <div className="text-center pt-10 lg:py-10 global-padding-horizontal">
+      <h1 className="text-3xl md:text-5xl lg:text-[54px] xl:text-[64px] 2xl:text-[80px] font-bold lg:leading-[70.72px] tracking-tighter">
         <span className="text-[#F15C20]">Mobile App</span> Testing Services
       </h1>
       <p className="text-base font-medium mt-6">
@@ -12,12 +12,13 @@ const TestingServices = () => {
         automated testing of <br /> apps to hasten effective solutions
         instantly.
       </p>
-      <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-10 border-b py-6 mt-20">
-        <div className="order-2 lg:order-1 overflow-hidden mb-6 lg:mb-0">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-10 border-b py-6 mt-5 lg:mt-10">
+        <div className="order-2 lg:order-1 overflow-hidden mb-6 lg:mb-0 flex justify-center lg:justify-start">
           <img
             src="/mobile-software-functional-testing-services.webp"
             alt="two mobile mock screens shows the testing of streaming applications"
             title="Mobile software functional testing services"
+            className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-right"
             data-aos-offset="100" // Adjusted offset to trigger animation earlier
             data-aos-delay="0" // No delay for immediate animation start
@@ -42,7 +43,7 @@ const TestingServices = () => {
           <h1 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
             01
           </h1>
-          <h1 className="text-[28px] font-semibold">
+          <h1 className="text-[28px] font-semibold leading-tight">
             Software Functional Testing Services
           </h1>
           <p className="text-xs font-normal text-start mb-3">
@@ -81,7 +82,7 @@ const TestingServices = () => {
           <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
             02
           </h2>
-          <h1 className="text-[28px] font-semibold">
+          <h1 className="text-[28px] font-semibold leading-tight">
             Software Automated Testing Services
           </h1>
           <p className="text-xs font-normal text-start mb-3">
@@ -102,11 +103,12 @@ const TestingServices = () => {
             </Link>
           </div>
         </div>
-        <div className="flex justify-end">
+        <div className="flex md:justify-center lg:justify-end">
           <img
             src="/mobile-software-automated-testing-services.webp"
             alt=" two mobile mock screens shows the testing of application layout"
             title="Mobile software automated testing services"
+            className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-left"
             data-aos-offset="100" // Adjusted offset to trigger animation earlier
             data-aos-delay="0" // No delay for immediate animation start
@@ -120,11 +122,12 @@ const TestingServices = () => {
       </div>
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 py-6">
-        <div className="order-2 lg:order-1">
+        <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
           <img
             src="/mobile-software-data-testing-services.webp"
             alt="two mock screens shows the testing of application structure"
             title="mobile software data testing services"
+            className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-right"
             data-aos-offset="100" // Adjusted offset to trigger animation earlier
             data-aos-delay="0" // No delay for immediate animation start
@@ -149,7 +152,7 @@ const TestingServices = () => {
           <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
             03
           </h2>
-          <h1 className="text-[28px] font-semibold">
+          <h1 className="text-[28px] font-semibold leading-tight">
             Software Data Testing Services
           </h1>
           <p className="text-xs font-normal text-start mb-3">

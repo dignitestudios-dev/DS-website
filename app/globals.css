@@ -684,6 +684,10 @@ input:hover {
   height: 100%;
 }
 
+.swiper-vertical{
+overflow: visible;
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -701,11 +705,11 @@ input:hover {
   object-fit: cover;
 }
 
-.swiper {
+/* .swiper {
   width: 100%;
   height: 300px;
   margin: 20px auto;
-}
+} */
 
 .append-buttons {
   text-align: center;
@@ -795,11 +799,20 @@ input:hover {
   margin: 0 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1020px) {
   .logos-slide div {
-    padding: 20px 40px;
+    padding: 20px 30px;
     margin: 0 10px;
   }
+  .logoDark:before,
+.logoDark:after {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
 }
 
 .logosDark {
@@ -883,11 +896,20 @@ input:hover {
   margin: 0 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1020px) {
   .logos-slide2 div {
-    padding: 20px 40px;
+    padding: 20px 30px;
     margin: 0 10px;
   }
+  .logos2:before,
+.logos2:after {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
 }
 
 .logos2Dark {

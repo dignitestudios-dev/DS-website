@@ -14,6 +14,7 @@ import ContactUsAlert from "@/components/global/ContactUsAlert";
 import { RxCross2 } from "react-icons/rx";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
+import ScrollToTopButton from "@/components/global/ScrollToTopButton";
 
 const GlobalLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -137,6 +138,7 @@ const GlobalLayout = ({ page }) => {
       }}
     >
       <Cursor />
+      <ScrollToTopButton/>
       <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
       <div className="overflow-x-hidden w-full h-auto flex flex-col justify-start items-center gap-4">
         <Navbar setIsOpen={setIsSidebarOpen} />

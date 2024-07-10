@@ -92,7 +92,7 @@ const TopRatedAppDevelopmentContactSection = () => {
           onSubmit={handleSubmit}
           className="col-span-3 xl:col-span-2 flex flex-col items-start gap-8 p-4 2xl:gap-10 lg:p-12 2xl:p-24"
         >
-          <h1 className="text-[34px] lg:text-[64px] font-semibold tracking-0 lg:tracking-[-3.2px] leading-normal 2xl:leading-[82px]">
+          <h1 className="text-[34px] lg:text-[54px] lg:leading-[64px] xl:text-[64px] font-semibold tracking-0 lg:tracking-[-3.2px] leading-normal 2xl:leading-[82px]">
             Let’s build an awesome project together!
           </h1>
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-9">

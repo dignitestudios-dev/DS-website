@@ -9,9 +9,9 @@ import { FiArrowUpRight } from "react-icons/fi";
 const ReownedSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full global-padding-horizontal relative lg:h-screen 2xl:h-[70vh] pt-36 2xl:pt-52">
+    <section className="w-full global-padding-horizontal relative lg:h-screen 2xl:h-[70vh] pt-16 lg:pt-36 2xl:pt-52">
       <div
-        className="w-full lg:w-[70%]"
+        className="w-full xl:w-[70%]"
         data-aos="slide-right"
         data-aos-offset="50"
         data-aos-delay="50"
@@ -23,7 +23,7 @@ const ReownedSection = () => {
       >
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>Renowned</p>
         <h1
-          className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[77.45px]`}
+          className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[57px] xl:leading-[77.45px]`}
         >
           <span className="text-[#F15C20]">Android App</span> <br /> Development
           Company
@@ -52,7 +52,7 @@ const ReownedSection = () => {
         src={"/shows-two-mobile-devices-with-android-app-development-layouts.webp"}
         alt="The image shows two mobile devices with Android app development layouts"
         title="Android app development"
-        className="lg:w-[684.93px] 2xl:w-[784.93px] lg:h-[734px] lg:absolute lg:right-0 lg:top-12 2xl:top-32"
+        className="md:w-[484px] md:h-[484px] md:mx-auto xl:w-[684.93px] xl:h-[734px] 2xl:w-[784.93px] lg:absolute lg:right-0 lg:top-36 xl:top-12 2xl:top-28"
         data-aos="slide-left"
         data-aos-offset="50"
         data-aos-delay="50"

@@ -9,8 +9,8 @@ import { FiArrowUpRight } from "react-icons/fi";
 const WhyDigniteStudios = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full global-padding-horizontal py-12 grid grid-cols-1 lg:grid-cols-3 gap-10">
-      <div className="w-full col-span-3 lg:col-span-1 flex flex-col items-start gap-4">
+    <section className="w-full global-padding-horizontal py-12 grid grid-cols-1 xl:grid-cols-3 gap-10">
+      <div className="w-full col-span-3 xl:col-span-1 flex flex-col items-start gap-4">
         <h2
           className={`font-extrabold text-3xl lg:text-[48px] 2xl:text-[54px] tracking-tighter xl:font-bold uppercase lg:leading-[58.09px] group`}
         >
@@ -34,7 +34,7 @@ const WhyDigniteStudios = () => {
         </div>
       </div>
 
-      <div className="w-full col-span-3 lg:col-span-2">
+      <div className="w-full col-span-3 xl:col-span-2">
         <div className="w-full flex flex-col items-start gap-2">
           <img
             src={"/powerful-business-handling-icon.webp"}

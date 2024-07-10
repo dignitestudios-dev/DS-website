@@ -15,7 +15,7 @@ const PlanOfActionSection = () => {
           theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
         } rounded-3xl p-6 lg:p-16 relative`}
       >
-        <div className="flex flex-col items-start gap-6 lg:w-[50%]">
+        <div className="flex flex-col items-start gap-6 xl:w-[50%]">
           <h1 className="text-3xl md:text-5xl lg:text-[64px] 2xl:text-[84px] font-bold tracking-tighter">
             Plan of Action
           </h1>
@@ -45,7 +45,7 @@ const PlanOfActionSection = () => {
           height={1122.32}
           src="/plan-of-action.webp"
           alt="Plan of action image"
-          className="absolute right-0 top-0 bottom-0 h-full rounded-r-3xl hidden lg:block"
+          className="absolute right-0 top-0 bottom-0 h-full rounded-r-3xl hidden xl:block"
         />
       </div>
     </section>

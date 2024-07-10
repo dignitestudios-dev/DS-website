@@ -9,7 +9,7 @@ import { RiArrowRightUpLine } from "react-icons/ri";
 const InfluentialChooseUs = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full py-12 global-padding-horizontal grid grid-cols-1 lg:grid-cols-2 gap-6 relative">
+    <section className="w-full py-12 global-padding-horizontal grid grid-cols-1 xl:grid-cols-2 lg:gap-y-12 gap-6 relative">
       <div className="flex flex-col items-start justify-center gap-6">
         <h1 className="headings-size">
           <span className="text-[#F15C20]">Why </span>
@@ -48,7 +48,7 @@ const InfluentialChooseUs = () => {
           src="/why-choose-us-borders.png"
           alt="why-choose-us-borders"
           title="why-choose-us-borders"
-          className="w-full absolute top-0 left-0 z-0 hidden lg:block"
+          className="w-full absolute top-0 lg:-top-28 xl:top-0 left-0 z-0 hidden lg:block"
         />
 
         <div className="w-full h-full grid grid-cols-1 lg:grid-cols-2 gap-6 mt-3 lg:mt-0 relative z-10">
@@ -58,12 +58,12 @@ const InfluentialChooseUs = () => {
                 theme === "dark"
                   ? "bg-[#2d2d2d]"
                   : "bg-white custom-light-shadow"
-              } 2xl:gap-4 w-full h-[370px] mx-auto px-6 flex flex-col items-center justify-center gap-2 rounded-[16px] relative z-20`}
+              } 2xl:gap-4 w-full xl:h-[370px] mx-auto p-6 flex flex-col items-center justify-center gap-2 rounded-[16px] relative z-20`}
             >
               {/* Card Content */}
               <div className="w-full flex items-center justify-start gap-2">
                 {/* Icon */}
-                <div className="h-[62px] w-[140px] bg-[#FFC5AE1A] rounded-[8px] flex items-center justify-center">
+                <div className="h-[62px] md:w-[75px] xl:w-[140px] bg-[#FFC5AE1A] rounded-[8px] flex items-center justify-center">
                   <Image
                     loader={customLoader}
                     width={40}

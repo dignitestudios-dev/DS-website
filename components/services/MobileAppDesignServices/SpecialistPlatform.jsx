@@ -60,7 +60,7 @@ const SpecialistPlatform = () => {
             src="/native-mobile-app-design-services.webp"
             alt="the mockup screen shows posts on the native mobile app design services"
             title="Native mobile app design services"
-            className="mx-auto absolute -bottom-40 md:-bottom-16 md:group-hover:-bottom-24 lg:-bottom-28 lg:group-hover:-bottom-20 xl:-bottom-24 xl:group-hover:-bottom-16 transition-all duration-200"
+            className="mx-auto absolute -bottom-40 group-hover:-bottom-32 md:-bottom-16 md:group-hover:-bottom-10 lg:-bottom-28 lg:group-hover:-bottom-20 xl:-bottom-24 xl:group-hover:-bottom-16 transition-all duration-200"
           />
         </div>
         {/* card 2 */}
@@ -85,7 +85,7 @@ const SpecialistPlatform = () => {
             src="/cross-platform-mobile-app-design-services.webp"
             alt="mockup screen shows cross-platform mobile application design services"
             title="Cross-platform mobile app design services"
-            className="mx-auto absolute -bottom-10 2xl:-bottom-11 group-hover:-bottom-2 transition-all duration-200"
+            className="mx-auto absolute -bottom-10 2xl:-bottom-11 group-hover:-bottom-3 transition-all duration-200"
           />
         </div>
       </div>

@@ -55,8 +55,8 @@ export default function EdgeOfDigniteStudios() {
             return (
               <SwiperSlide key={i} className="">
                 <div
-                  className={`h-full rounded-[18px]
-                   p-6 pt-3 flex flex-col items-start gap-0 text-start group  ${
+                  className={`rounded-[18px]
+                   p-6 pt-3 flex flex-col items-start gap-0 text-start group md:h-[370px] lg:h-[320px] ${
                      theme === "dark"
                        ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition-all duration-200"
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"

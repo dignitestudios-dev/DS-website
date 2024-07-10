@@ -19,8 +19,8 @@ export const sliderSettings = {
       slidesPerView: 1,
     },
 
-    750: {
-      slidesPerView: 1,
+    850: {
+      slidesPerView: 2,
     },
 
     1100: {
@@ -41,7 +41,7 @@ export default function BenefitOfDigniteStudios() {
           <span className="text-[#F15C20] text-2xl font-bold uppercase">
             top-tier
           </span>
-          <span className="text-3xl md:text-5xl lg:text-[68px] 2xl:text-[80px] font-bold uppercase tracking-tighter">
+          <span className="text-3xl md:text-4xl lg:text-[58px] xl:text-[68px] 2xl:text-[80px] lg:leading-[57px] font-bold uppercase tracking-tighter">
             benefits of dignite studios
           </span>
         </div>
@@ -52,18 +52,18 @@ export default function BenefitOfDigniteStudios() {
             return (
               <SwiperSlide key={i} className="">
                 <div
-                  className={`h-full w-full rounded-[18px]
+                  className={`h-[320px] lg:h-[360px] xl:h-[310px] 2xl:h-[340px] w-full rounded-[18px]
                    p-6 pt-3 flex flex-col items-start gap-0 text-start group  ${
                      theme === "dark"
                        ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition-all duration-200"
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h1 className="text-[#B8B8B8] text-[40px] font-bold">
+                  <h1 className="text-[#B8B8B8] text-[20px] md:text-[40px] font-bold">
                     {card?.count}
                   </h1>
                   <h2
-                    className={`font-semibold text-xl mb-2 ${
+                    className={`font-semibold text-xl md:mb-2 ${
                       theme === "light"
                         ? "text-[#424242] group-hover:text-white"
                         : ""
@@ -94,7 +94,7 @@ const SliderButtons = () => {
   const swiper = useSwiper();
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="flex items-center justify-end gap-3 absolute -top-20 right-4 lg:-top-28 md:right-0 z-30">
+    <div className="flex items-center justify-end gap-3 absolute -top-20 md:-top-24 right-4 lg:-top-28 md:right-0 z-30">
       <button
         onClick={() => swiper.slidePrev()}
         name="swipe left button"

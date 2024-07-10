@@ -130,9 +130,9 @@ const ConsultingStrategiesSection = () => {
         </div>
       </div>
 
-      <div className="w-full flex items-start justify-between gap-3 mt-10">
+      <div className="w-full flex items-start justify-end xl:justify-between gap-3 mt-10">
         <div
-          className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer"
+          className="w-[210px] py-3 hidden xl:flex flex-col items-start justify-start gap-3 cursor-pointer"
           onClick={() => setCurrentIndex(0)}
         >
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
@@ -146,7 +146,7 @@ const ConsultingStrategiesSection = () => {
           <p className="text-base 2xl:text-lg font-normal">Market Research</p>
         </div>
         <div
-          className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer"
+          className="w-[210px] py-3 hidden xl:flex flex-col items-start justify-start gap-3 cursor-pointer"
           onClick={() => setCurrentIndex(1)}
         >
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
@@ -160,7 +160,7 @@ const ConsultingStrategiesSection = () => {
           <p className="text-base 2xl:text-lg font-normal">Product Roadmap</p>
         </div>
         <div
-          className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer"
+          className="w-[210px] py-3 hidden xl:flex flex-col items-start justify-start gap-3 cursor-pointer"
           onClick={() => setCurrentIndex(2)}
         >
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
@@ -176,7 +176,7 @@ const ConsultingStrategiesSection = () => {
           </p>
         </div>
         <div
-          className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer"
+          className="w-[210px] py-3 hidden xl:flex flex-col items-start justify-start gap-3 cursor-pointer"
           onClick={() => setCurrentIndex(3)}
         >
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
@@ -192,7 +192,7 @@ const ConsultingStrategiesSection = () => {
           </p>
         </div>
         <div
-          className="w-[210px] py-3 hidden lg:flex flex-col items-start justify-start gap-3 cursor-pointer"
+          className="w-[210px] py-3 hidden xl:flex flex-col items-start justify-start gap-3 cursor-pointer"
           onClick={() => setCurrentIndex(4)}
         >
           <span className="text-base 2xl:text-lg font-normal text-[#A4A4A4]">
@@ -207,7 +207,7 @@ const ConsultingStrategiesSection = () => {
             Maintenance and Support
           </p>
         </div>
-        <div className="py-6 flex items-center justify-center lg:justify-end gap-3 w-full lg:w-auto">
+        <div className="xl:py-6 py-0 flex items-center justify-center gap-3 w-full lg:w-auto">
           <button
             type="button"
             name="swipe left button"

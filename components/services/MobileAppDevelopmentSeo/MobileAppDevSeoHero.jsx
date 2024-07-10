@@ -8,21 +8,21 @@ const MobileAppDevSeoHero = () => {
   const { palette, setIsSidebarOpen, theme } =
     useContext(GlobalContext);
   return (
-    <main className="top-rated-bg bg-black w-full h-screen flex flex-col justify-start items-start z-0 relative">
+    <main className="top-rated-bg bg-black w-full md:h-[70vh] lg:h-screen flex flex-col justify-start items-start z-0 relative">
       {theme === "light" ? (
         <div className="revolutionary-hero-overlay-light" />
       ) : (
         <div className="revolutionary-hero-overlay-dark" />
       )}
       <SeoNavbar setIsOpen={setIsSidebarOpen} />
-      <div className="w-full flex lg:h-[calc(100%-5rem)] py-28 lg:py-0 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 z-10 relative">
+      <div className="w-full flex lg:h-[calc(100%-5rem)] h-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 z-10 relative">
         <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-y-12">
           <div className="w-full h-full flex flex-col justify-center text-center items-center gap-2 ">
             <h1
               style={{
                 color: "#fff",
               }}
-              className={`lg:block hidden text-3xl md:text-4xl font-extrabold lg:text-[70px] xl:text-[70px] md:leading-[70px] xl:leading-[72.8px] lg:font-bold xl:font-semibold tracking-[-2.8px] z-10 `}
+              className={`lg:block hidden text-3xl md:text-4xl font-extrabold lg:text-[60px] xl:text-[70px] md:leading-[70px] xl:leading-[72.8px] lg:font-bold xl:font-semibold tracking-[-2.8px] z-10 `}
             >
               <span style={{ color: palette?.brandOrange }}>Execute</span>{" "}
               <span

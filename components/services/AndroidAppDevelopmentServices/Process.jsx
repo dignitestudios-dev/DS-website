@@ -42,7 +42,7 @@ const Process = () => {
         </div>
       </div>
 
-      <div className="w-full  lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 ">
+      <div className="w-full  lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 xl:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 ">
         {process.map((s, key) => {
           return (
             <ProcessCard

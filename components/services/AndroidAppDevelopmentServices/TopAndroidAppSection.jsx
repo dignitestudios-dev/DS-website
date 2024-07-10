@@ -30,7 +30,7 @@ const TopAndroidAppSection = () => {
       </p>
 
       <div className="w-full lg:max-w-[1000px] h-auto lg:h-[480px] grid md:grid-cols-2 grid-cols-1 gap-5 lg:gap-10 mt-5 lg:mt-10 relative">
-        <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] hidden lg:flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
+        <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] hidden md:flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[380px] lg:h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
             <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">
               <img
@@ -89,7 +89,7 @@ const TopAndroidAppSection = () => {
           </div>
         </div>
 
-        <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] hidden lg:flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
+        <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] hidden md:flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
             <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">
               <img
@@ -149,7 +149,7 @@ const TopAndroidAppSection = () => {
         </div>
       </div>
 
-      <div className="w-full hidden lg:max-w-[1000px] lg:grid md:grid-cols-2 grid-cols-1 gap-10">
+      <div className="w-full lg:max-w-[1000px] hidden md:grid md:grid-cols-2 grid-cols-1 gap-10">
         <div className="text-start pt-4">
           <h3 className="text-[18px] font-bold">
             <span className="text-[#F15C20]">Native</span> App Development
@@ -191,7 +191,7 @@ const TopAndroidAppSection = () => {
         </div>
       </div>
 
-      <div className="w-full lg:hidden">
+      <div className="w-full block md:hidden">
         <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[380px] lg:h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
             <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">

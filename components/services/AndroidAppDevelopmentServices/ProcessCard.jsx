@@ -27,10 +27,10 @@ const ProcessCard = ({ title, desc, count, num }) => {
         count == 0
           ? "lg:border-b "
           : count == 1
-          ? "lg:border-b lg:border-r lg:border-l "
+          ? "lg:border-b lg:border-r-0 xl:border-r lg:border-l "
           : count == 2
-          ? "lg:border-b" : count === 3 ? "lg:border-b"
-          : count == 4 ? "lg:border-r lg:border-l lg:border-b" : count == 5 ? 'lg:border-b' : count == 6 && 'lg:border-r'
+          ? "lg:border-b lg:border-r xl:border-r-0" : count === 3 ? "lg:border-b"
+          : count == 4 ? "lg:border-r lg:border-l-0 xl:border-l lg:border-b" : count == 5 ? 'lg:border-b' : count == 6 && 'lg:border-r'
       }`}
     >
       <div className="w-full flex flex-col gap-2 md:gap-4 justify-start items-start">

@@ -21,7 +21,7 @@ const TopNotchBenefits = () => {
         user expectations to ensure refined customized solutions for your apps. 
       </p>
 
-      <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="w-full md:mt-10 xl:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div
           className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
           data-aos="slide-up"
@@ -66,7 +66,7 @@ const TopNotchBenefits = () => {
               src="/mobile-app-testing-exclusive-error-detection.webp"
               alt="mock screen shows the mobile app testing of login layout"
               title="Mobile app testing exclusive error detection"
-              className="w-[242px] h-[367px] md:h-[427.52px]"
+              className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
               data-aos-delay="0" // No delay for immediate animation start
@@ -81,7 +81,7 @@ const TopNotchBenefits = () => {
       </div>
 
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="flex justify-center">
+        <div className="flex justify-center order-2 lg:order-1">
           <div
             className={`w-full lg:w-[420px] overflow-hidden h-[379px] lg:h-[479px] rounded-3xl flex justify-center items-end ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
@@ -91,7 +91,7 @@ const TopNotchBenefits = () => {
               src="/mobile-app-testing-quality-assurance.webp"
               alt="the mock screen shows the quality detection of mobile app testing tool"
               title="Mobile app testing quality assurance"
-              className="w-[242px] h-[367px] md:h-[427.52px]"
+              className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
               data-aos-delay="0" // No delay for immediate animation start
@@ -104,7 +104,7 @@ const TopNotchBenefits = () => {
           </div>
         </div>
         <div
-          className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
+          className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden order-1 lg:order-2"
           data-aos="slide-up"
           data-aos-offset="100"
           data-aos-delay="0"
@@ -181,7 +181,7 @@ const TopNotchBenefits = () => {
               src="/mobile-app-testing-security-prevalence.webp"
               alt="mock up screen shows olivia james profile"
               title="Mobile app testing security prevalence"
-              className="w-[242px] h-[367px] md:h-[427.52px]"
+              className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
               data-aos-delay="0" // No delay for immediate animation start
@@ -196,7 +196,7 @@ const TopNotchBenefits = () => {
       </div>
 
       <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="flex justify-center">
+        <div className="flex justify-center order-2 lg:order-1">
           <div
             className={`w-full lg:w-[420px] overflow-hidden h-[379px] lg:h-[479px] rounded-3xl flex justify-center items-end ${
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
@@ -206,7 +206,7 @@ const TopNotchBenefits = () => {
               src="/mobile-app-testing-fast-development.webp"
               alt="mockup screen shows the testing of people you know the layout of the application"
               title="Mobile app testing fast development"
-              className="w-[242px] h-[367px] md:h-[427.52px]"
+              className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
               data-aos-delay="0" // No delay for immediate animation start
@@ -219,7 +219,7 @@ const TopNotchBenefits = () => {
           </div>
         </div>
         <div
-          className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
+          className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden order-1 lg:order-2"
           data-aos="slide-up"
           data-aos-offset="100"
           data-aos-delay="0"

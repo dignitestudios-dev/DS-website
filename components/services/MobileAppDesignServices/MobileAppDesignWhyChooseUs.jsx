@@ -13,7 +13,7 @@ const MobileAppDesignWhyChooseUs = () => {
       className="w-full py-14  px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48"
       style={{ background: palette?.background }}
     >
-      <div className="w-full flex flex-col lg:flex-row items-start gap-y-6">
+      <div className="w-full flex flex-col lg:flex-row items-start lg:gap-x-6 gap-y-6">
         <div className="w-full lg:w-[60%] flex flex-col items-start gap-6">
           <h1 className="font-extrabold text-3xl lg:text-5xl xl:text-[77px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase">
             why choose us

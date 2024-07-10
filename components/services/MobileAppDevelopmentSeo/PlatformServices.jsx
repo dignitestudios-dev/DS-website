@@ -7,7 +7,7 @@ import React, { useContext } from "react";
 const PlatformServices = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full mb-6 mt-40 md:my-12 lg:mb-20 lg:mt-56">
+    <section className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full mb-6 mt-40 md:mb-12 md:mt-32 lg:mt-36 lg:pb-20 xl:pb-0 xl:mt-56">
       <h1
         className={`${
           theme === "dark" ? "text-white" : "text-black"

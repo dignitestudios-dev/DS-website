@@ -30,7 +30,7 @@ const MobileAppDevSection = () => {
         }`}
       />
 
-      <div className="w-full hidden lg:flex items-start justify-start">
+      <div className="w-full hidden xl:flex items-start justify-start">
         <div className="w-[40%]">
           <ul className="flex flex-col items-start gap-6">
             {headings.map((heading, index) => (
@@ -80,7 +80,7 @@ const MobileAppDevSection = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full block lg:hidden">
+      <div className="w-full block xl:hidden">
         <MobileAppDevSectionAccordion />
       </div>
     </section>

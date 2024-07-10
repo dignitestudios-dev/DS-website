@@ -49,12 +49,12 @@ const Lifecycle = () => {
               className="w-full flex items-start justify-start border-2 border-t border-r-0 border-l-0 border-b-0 pt-3 gap-2 lg:gap-0"
               key={index}
             >
-              <div className="w-[9%] lg:w-[7%]">
+              <div className="w-[9%] lg:w-[10%] xl:w-[7%]">
                 <p className="text-[#5F5F5F] text-2xl font-medium">
                   {step.num}
                 </p>
               </div>
-              <div className="w-[91%] lg:w-[93%] flex flex-col gap-2">
+              <div className="w-[91%] lg:w-[90%] xl:w-[93%] flex flex-col gap-2">
                 <p className="text-2xl font-semibold">{step.title}</p>
                 <p className="text-[15px] font-normal leading-[20.4px]">
                   {step.desc}

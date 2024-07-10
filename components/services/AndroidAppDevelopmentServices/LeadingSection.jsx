@@ -1,13 +1,11 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
-import Image from "next/image";
 import React, { useContext } from "react";
 
 const LeadingSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full global-padding-horizontal mt-16">
+    <section className="w-full global-padding-horizontal mt-8 xl:mt-16">
       <p className={`text-xl font-bold text-[#F15C20] uppercase `}>leading</p>
       <img
         src="/leading-lines.png"
