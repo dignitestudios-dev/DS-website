@@ -17,17 +17,17 @@ const BenefitsOfWorking = () => {
         <h1
           className={`${
             theme === "dark" ? "text-white" : "text-black"
-          } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter lg:w-[60%]`}
+          } headings-size xl:w-[70%]`}
         >
           benefits of working with <br /> dignite studios
         </h1>
-        <div className="hidden lg:block">
+        <div className="hidden xl:block">
           <Link
             href={{
               pathname: "/contact-us",
             }}
             className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
-              theme === "light" ? "bg-white" : "bg-[#222222]"
+              theme === "light" ? "bg-[#F9F9F9]" : "bg-[#222222]"
             } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
           >
             Let's Start Your Project
@@ -292,10 +292,10 @@ const BenefitsOfWorking = () => {
         </div>
       </div>
 
-      <div className="lg:hidden mt-6 w-full flex justify-center">
+      <div className="xl:hidden mt-6 w-full flex justify-center">
         <Link
           href={"/contact-us"}
-          className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
+          className={`px-6 py-5 xl:py-8 xl:px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
             theme === "light" ? "bg-[#F9F9F9]" : "bg-[#222222]"
           } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
         >

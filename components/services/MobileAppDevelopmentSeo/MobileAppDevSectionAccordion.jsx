@@ -45,7 +45,7 @@ const MobileAppDevSectionAccordion = () => {
         </button>
         <div style={contentStyle} className="pb-2">
           <p
-            className={`text-sm md:text-base lg:text-[24px] lg:leading-[32.16px] ${
+            className={`text-sm md:text-base xl:leading-[32.16px] ${
               theme === "light" && "text-[#2A2A2A]"
             }`}
           >

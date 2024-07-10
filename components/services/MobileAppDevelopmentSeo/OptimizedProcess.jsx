@@ -17,7 +17,7 @@ const OptimizedProcess = () => {
           <h2
             className={`${
               theme === "dark" ? "text-white" : "text-black"
-            } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter`}
+            } text-start headings-size`}
           >
             optimized process
           </h2>
@@ -28,7 +28,7 @@ const OptimizedProcess = () => {
             href={{
               pathname: "/contact-us",
             }}
-            className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
+            className={`px-6 py-5 xl:py-8 xl:px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
           >
             Let's Start Your Project
           </Link>

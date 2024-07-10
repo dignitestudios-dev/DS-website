@@ -38,7 +38,7 @@ const OurProjectsSection = () => {
           <h1
             className={`${
               theme === "light" ? "text-black" : "text-white"
-            } font-bold uppercase text-4xl md:text-[64px] tracking-[-1.56px] lg:tracking-[-2.56px] leading-none`}
+            } headings-size`}
           >
             our projects
           </h1>
@@ -47,7 +47,7 @@ const OurProjectsSection = () => {
               href={{
                 pathname: "/contact-us",
               }}
-              className={`px-8 py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] ${
+              className={`px-6 py-5 xl:px-8 xl:py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] ${
                 theme === "light" ? "bg-white" : "bg-[#222222]"
               } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
             >
@@ -57,7 +57,7 @@ const OurProjectsSection = () => {
         </div>
 
         <div
-          className={`border w-full mb-4 mt-8 ${
+          className={`border w-full mb-4 mt-6 xl:mt-8 ${
             theme === "light" ? "border-[#E7E7E7]" : "border-gray-500"
           }`}
         />

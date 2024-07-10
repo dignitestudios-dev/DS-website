@@ -20,7 +20,7 @@ const MobileAppDevSection = () => {
       <h1
         className={`${
           theme === "light" ? "text-black" : "text-white"
-        } font-bold uppercase text-4xl lg:text-[64px] lg:tracking-[-2.56px] lg:leading-none`}
+        } headings-size`}
       >
         mobile app development <br /> services
       </h1>
