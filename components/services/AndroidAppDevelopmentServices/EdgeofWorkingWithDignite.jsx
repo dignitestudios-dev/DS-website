@@ -36,7 +36,7 @@ export default function EdgeOfDigniteStudios() {
     <section className="w-full relative overflow-hidden px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 lg:py-10">
       <div className="w-full relative overflow-hidden">
         <div className="flex flex-col gap-2 mb-12">
-          <span className="text-[#F15C20] text-2xl font-bold uppercase">
+          <span className="text-[#8F8F8F] text-2xl font-bold uppercase">
             Edge of
           </span>
           <span className="headings-size">

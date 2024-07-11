@@ -21,30 +21,30 @@ const Hero = () => {
           data-aos-anchor-placement="top-center"
         >
           <img
-            src="/hero-heading-border.png"
-            alt=""
-            className="absolute w-[228px] h-[44px] left-[2.9%] md:left-[17%] md:w-[275px] md:h-[50px] top-0 lg:top-0 2xl:top-0 lg:w-[415px] lg:h-[98px] lg:left-[13%] xl:left-[22%] xl:w-[468px] 2xl:w-[640px] 2xl:left-[19.2%] 2xl:h-[120px] hidden xl:block z-20"
-          />
-          <img
             src="/arrow-icon.png"
             alt="arrow-icon"
-            className="absolute top-[19%] md:top-[32%] lg:top-[70px] left-[48%] md:left-[47%] lg:left-[47%] xl:top-[95px] xl:left-[48%] 2xl:top-[110px] 2xl:left-[48%] w-[17px] h-[16px] md:w-[22.1px] md:h-[20.1px]"
+            className="absolute top-[27%] md:top-[32%] lg:top-[70px] left-[48%] md:left-[47%] lg:left-[47%] xl:top-[95px] xl:left-[48%] 2xl:top-[110px] 2xl:left-[48%] w-[17px] h-[16px] md:w-[22.1px] md:h-[20.1px]"
           />
           <h1
-            className={`text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[67px] xl:leading-[81.93px] 2xl:leading-[99px] hidden lg:block`}
+            className={`text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-center capitalize lg:leading-[67px] xl:leading-[81.93px] 2xl:leading-[99px] md:block hidden`}
           >
-            High-Powered <span className="text-[#F15C20]">Android App</span>{" "}
-            <br />
+            <span className="high-powered">
+              <span>High-Powered</span>
+            </span>
+            <span className="text-[#F15C20]">Android App</span> <br />
             Development Services
           </h1>
 
           <h1
-            className={`lg:leading-[67px] xl:leading-[90.72px] text-3xl md:text-4xl font-extrabold lg:text-[68px] xl:text-[68px] 2xl:text-[84px] z-20 2xl:leading-[40.72px] block lg:hidden`}
+            className={`text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-center capitalize lg:leading-[67px] xl:leading-[81.93px] 2xl:leading-[99px] block md:hidden`}
           >
-            High-Powered <span className="text-[#F15C20]">Android App</span>{" "}
+            <span className="high-powered">
+              <span>High-Powered</span>
+            </span>
+            <span className="text-[#F15C20]">Android App</span> 
             Development Services
-            <br />
           </h1>
+
           <h6 className="text-base 2xl:text-xl 2xl:mt-3 font-normal">
             Build intuitive app architecture for your Android devices
           </h6>

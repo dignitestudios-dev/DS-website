@@ -27,7 +27,7 @@ const WhyDigniteStudios = () => {
         <div className="mt-3">
           <Link
             href={"/contact-us"}
-            className="py-[20px] px-[30px] xl:py-[28px] xl:px-[60px] rounded-full text-white bg-[#F15C20] text-base md:text-xl font-semibold flex items-center justify-center gap-2"
+            className="py-[20px] px-[30px] xl:py-[28px] xl:px-[60px] rounded-full text-white bg-[#F15C20] text-base md:text-xl font-semibold flex items-center justify-center gap-2 top-rated-btn-shadow hover:opacity-85 transition-all duration-200"
           >
             Contact Us <FiArrowUpRight className="" />
           </Link>
