@@ -51,14 +51,15 @@ const Navbar = ({ setIsOpen }) => {
         className={`w-auto mx-auto
          hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8 `}
       >
-        <button
-          aria-label="button"
-          onClick={() => navigateTo("/")}
-          className={`text-[14px] h-8 font-medium hover:text-orange-600
+        <Link
+          aria-label="link"
+          href={"/"}
+          // onClick={() => navigateTo("/")}
+          className={`text-[14px] font-medium hover:text-orange-600
             } bg-transparent  outline-none`}
         >
           Home
-        </button>
+        </Link>
         <button
           className={`group text-[14px] hover:text-orange-600 relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
         >
@@ -96,11 +97,11 @@ const Navbar = ({ setIsOpen }) => {
             >
               Mobile App Testing Services
             </Link>
-            
+
             <Link
               href="/services/android-app-development-services"
               className={`hover:text-orange-600 `}
-            > 
+            >
               Android App Development Services
             </Link>
             <Link
@@ -123,18 +124,20 @@ const Navbar = ({ setIsOpen }) => {
         >
           Case Studies
         </button>
-        <button
-          onClick={() => navigateTo("/about-us")}
-          className={`text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+        <Link
+          href={"/about-us"}
+          // onClick={() => navigateTo("/about-us")}
+          className={`text-[14px] font-medium hover:text-orange-600 bg-transparent  outline-none`}
         >
           About us
-        </button>
-        <button
-          onClick={() => navigateTo("/contact-us")}
-          className={`text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+        </Link>
+        <Link
+          href={"/contact-us"}
+          // onClick={() => navigateTo("/contact-us")}
+          className={`text-[14px] font-medium hover:text-orange-600 bg-transparent  outline-none`}
         >
           Contact
-        </button>
+        </Link>
       </div>
       <div className="w-auto flex gap-3 justify-start items-center">
         <button

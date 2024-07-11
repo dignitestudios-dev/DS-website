@@ -3,6 +3,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext, useState } from "react";
 import SeoNavbar from "./SeoNavbar";
 import Link from "next/link";
+import Navbar from "@/components/global/Navbar";
 
 const MobileAppDevSeoHero = () => {
   const { palette, setIsSidebarOpen, theme } =
@@ -14,7 +15,7 @@ const MobileAppDevSeoHero = () => {
       ) : (
         <div className="revolutionary-hero-overlay-dark" />
       )}
-      <SeoNavbar setIsOpen={setIsSidebarOpen} />
+      <Navbar setIsOpen={setIsSidebarOpen} />
       <div className="w-full flex lg:h-[calc(100%-5rem)] h-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 z-10 relative">
         <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-y-12">
           <div className="w-full h-full flex flex-col justify-center text-center items-center gap-2 ">
