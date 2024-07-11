@@ -6,8 +6,7 @@ import Link from "next/link";
 import Navbar from "@/components/global/Navbar";
 
 const MobileAppDevSeoHero = () => {
-  const { palette, setIsSidebarOpen, theme } =
-    useContext(GlobalContext);
+  const { palette, setIsSidebarOpen, theme } = useContext(GlobalContext);
   return (
     <main className="top-rated-bg bg-black w-full h-[90vh] md:h-[80vh] lg:h-screen flex flex-col justify-start items-start z-0 relative">
       {theme === "light" ? (
@@ -58,13 +57,16 @@ const MobileAppDevSeoHero = () => {
             <div className="flex items-center justify-center gap-3">
               <Link
                 href="/contact-us"
+                id=""
                 className="px-6 py-4 rounded-full text-base font-normal bg-[#F15C20] text-[#FFFFFF]"
               >
                 Free Consultation
               </Link>
               <Link
                 href={"/contact-us"}
-                className="px-6 py-4 rounded-full text-base font-normal bg-[#FFFFFF66] text-[#FFFFFF]"
+                className={`px-6 py-4 rounded-full text-base font-normal ${
+                  theme === "dark" ? "bg-[#FFFFFF66]" : "bg-[#0c0c0c66]"
+                } text-[#FFFFFF]`}
               >
                 Get a quote
               </Link>

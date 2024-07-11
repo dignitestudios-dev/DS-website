@@ -11,9 +11,9 @@ const PlatformServices = () => {
       <h1
         className={`${
           theme === "dark" ? "text-white" : "text-black"
-        } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter lg:leading-[72px] hidden xl:block`}
+        } text-start text-3xl md:text-5xl xl:text-[64px] font-bold lg:tracking-tighter lg:leading-[72px] hidden xl:block`}
       >
-        mobile app development services <br /> for various platforms
+        <span className="uppercase"> mobile app development services <br /> for</span> <span className="text-[#F15C20]">iOS & ANDROID</span>
       </h1>
       <h1
         className={`${
