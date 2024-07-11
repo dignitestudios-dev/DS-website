@@ -12,7 +12,7 @@ const TopNotchBenefits = () => {
       </h3>
       <img src="/lines.png" alt="" />
 
-      <h1 className="text-3xl md:text-5xl lg:text-[64px] font-bold uppercase my-6 tracking-tighter">
+      <h1 className="headings-size mt-3">
         top-Notch Benefits
       </h1>
       <p className="lg:w-[666px] text-center text-[15px] leading-[20.4px]">
@@ -21,7 +21,7 @@ const TopNotchBenefits = () => {
         user expectations to ensure refined customized solutions for your apps. 
       </p>
 
-      <div className="w-full md:mt-10 xl:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="w-full mt-10 lg:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div
           className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
           data-aos="slide-up"
@@ -80,7 +80,7 @@ const TopNotchBenefits = () => {
         </div>
       </div>
 
-      <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="w-full mt-10 lg:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex justify-center order-2 lg:order-1">
           <div
             className={`w-full lg:w-[420px] overflow-hidden h-[379px] lg:h-[479px] rounded-3xl flex justify-center items-end ${
@@ -135,7 +135,7 @@ const TopNotchBenefits = () => {
         </div>
       </div>
 
-      <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="w-full mt-20 lg:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div
           className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
           data-aos="slide-up"
@@ -195,7 +195,7 @@ const TopNotchBenefits = () => {
         </div>
       </div>
 
-      <div className="w-full mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="w-full mt-10 lg:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex justify-center order-2 lg:order-1">
           <div
             className={`w-full lg:w-[420px] overflow-hidden h-[379px] lg:h-[479px] rounded-3xl flex justify-center items-end ${

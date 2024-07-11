@@ -23,7 +23,7 @@ const ReownedSection = () => {
       >
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>Renowned</p>
         <h1
-          className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[57px] xl:leading-[77.45px]`}
+          className={`headings-size`}
         >
           <span className="text-[#F15C20]">Android App</span> <br /> Development
           Company
@@ -52,7 +52,7 @@ const ReownedSection = () => {
         src={"/shows-two-mobile-devices-with-android-app-development-layouts.webp"}
         alt="The image shows two mobile devices with Android app development layouts"
         title="Android app development"
-        className="md:w-[484px] md:h-[484px] md:mx-auto xl:w-[684.93px] xl:h-[734px] 2xl:w-[784.93px] lg:absolute lg:right-0 lg:top-36 xl:top-12 2xl:top-28"
+        className="md:w-[484px] md:h-[484px] md:mx-auto xl:w-[684.93px] xl:h-[734px] 2xl:w-[784.93px] lg:absolute lg:right-0 lg:top-36 xl:top-20 2xl:top-28"
         data-aos="slide-left"
         data-aos-offset="50"
         data-aos-delay="50"

@@ -37,7 +37,7 @@ const DigniteServiceScope = () => {
             Dignite’s Service <br /> Scope?
           </h1>
 
-          <div className="w-full lg:w-auto hidden text-start md:flex justify-start">
+          <div className="w-full lg:w-auto flex justify-start">
             <Link
               href="/contact-us"
               className="py-3 px-5 text-base xl:py-[28px] xl:px-[60px] float-end bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"

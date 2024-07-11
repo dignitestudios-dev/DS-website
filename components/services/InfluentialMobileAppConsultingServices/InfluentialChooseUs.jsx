@@ -35,11 +35,12 @@ const InfluentialChooseUs = () => {
         </p>
         <Link
           href={"/contact-us"}
-          className="w-[206px] h-[80px] top-rated-btn-shadow hover:opacity-[.75] transition-all duration-300 rounded-full text-xl font-semibold text-white bg-[#F15C20] flex items-center justify-center gap-2"
+          className="px-6 py-5 lg:w-[206px] lg:h-[80px] top-rated-btn-shadow hover:opacity-[.75] transition-all duration-300 rounded-full text-xl font-semibold text-white bg-[#F15C20] flex items-center justify-center gap-2"
         >
           Contact Us <RiArrowRightUpLine className="text-2xl" />
         </Link>
       </div>
+
       <div className="relative w-full">
         <Image
           loader={customLoader}

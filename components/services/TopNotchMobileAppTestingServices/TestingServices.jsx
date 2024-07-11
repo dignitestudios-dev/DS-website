@@ -4,7 +4,7 @@ import React from "react";
 const TestingServices = () => {
   return (
     <div className="text-center pt-10 lg:py-10 global-padding-horizontal">
-      <h1 className="text-3xl md:text-5xl lg:text-[54px] xl:text-[64px] 2xl:text-[80px] font-bold lg:leading-[70.72px] tracking-tighter">
+      <h1 className="headings-size">
         <span className="text-[#F15C20]">Mobile App</span> Testing Services
       </h1>
       <p className="text-base font-medium mt-6">

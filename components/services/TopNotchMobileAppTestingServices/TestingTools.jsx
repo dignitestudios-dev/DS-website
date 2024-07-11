@@ -11,7 +11,7 @@ const TestingTools = () => {
       <h3 className="text-xl font-bold text-[#F15C20] uppercase">exlcusive</h3>
       <img src="/lines.png" alt="" />
 
-      <h1 className="text-3xl md:text-5xl lg:text-[64px] lg:leading-[77.45px] font-bold tracking-tighter uppercase my-6">
+      <h1 className="headings-size uppercase my-6">
         Testing Tools and <br /> Technologies
       </h1>
       <p className="lg:w-[666px] text-center text-[15px] leading-[20.4px]">

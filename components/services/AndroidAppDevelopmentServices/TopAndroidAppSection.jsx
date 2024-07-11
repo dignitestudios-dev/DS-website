@@ -13,7 +13,7 @@ const TopAndroidAppSection = () => {
       </p>
       <img src="/lines-4.png" alt="leading-lines" className="w-[269px] h-[8]" />
       <h2
-        className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[77.45px] mt-4`}
+        className={`headings-size mt-4`}
       >
         <span className="">development services for</span> <br /> multiple
         platforms

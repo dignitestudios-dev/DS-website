@@ -25,7 +25,7 @@ const TopNotchFaqs = () => {
     <div className={`w-full lg:w-[100%] py-20 global-padding-horizontal`}>
       <div className="w-full h-auto  flex flex-col gap-3 justify-start items-center">
         <h1
-          className={`uppercase font-extrabold text-center lg:text-start text-3xl lg:text-[48px] xl:text-[58px] lg:leading-[70px] 2xl:text-[74px] tracking-tight lg:tracking-tighter lg:font-bold lg:mb-5 xl:mb-8`}
+          className={`uppercase font-extrabold text-center lg:text-start text-3xl md:text-4xl lg:text-5xl xl:text-[58px] lg:leading-[70px] 2xl:text-[74px] tracking-tight lg:tracking-tighter lg:font-bold lg:mb-5 xl:mb-8`}
         >
           Frequently asked questions
         </h1>

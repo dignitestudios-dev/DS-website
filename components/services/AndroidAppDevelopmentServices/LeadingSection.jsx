@@ -13,7 +13,7 @@ const LeadingSection = () => {
         className="w-[86px] h-[8]"
       />
       <h1
-        className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[77.45px]`}
+        className={`headings-size`}
       >
         <span className="">Android App</span> <br /> Development Services
       </h1>

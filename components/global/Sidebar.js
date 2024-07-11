@@ -56,7 +56,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               width={100}
               height={64}
               src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"}
-              className="h-10"
+              className="h-16"
             />
           </Link>
         </div>

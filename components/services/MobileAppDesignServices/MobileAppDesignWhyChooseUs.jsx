@@ -77,7 +77,7 @@ const MobileAppDesignWhyChooseUs = () => {
             src="/UIUX-Mobile-app-design.webp"
             alt=" image shows the discussion of UI/UX Mobile app design team"
             title="UI/UX Mobile app design"
-            className=""
+            className="md:h-[355px] md:w-[443px] md:mx-auto xl:me-auto xl:h-[583px]"
           />
         </div>
       </div>

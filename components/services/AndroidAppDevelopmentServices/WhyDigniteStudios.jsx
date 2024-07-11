@@ -12,7 +12,7 @@ const WhyDigniteStudios = () => {
     <section className="w-full global-padding-horizontal py-12 grid grid-cols-1 xl:grid-cols-3 gap-10">
       <div className="w-full col-span-3 xl:col-span-1 flex flex-col items-start gap-4">
         <h2
-          className={`font-extrabold text-3xl lg:text-[48px] 2xl:text-[54px] tracking-tighter xl:font-bold uppercase lg:leading-[58.09px] group`}
+          className={`headings-size group`}
         >
           <span className="text-[#8F8F8F] group-hover:text-[#F15C20]">Why</span>
           <br />
@@ -27,7 +27,7 @@ const WhyDigniteStudios = () => {
         <div className="mt-3">
           <Link
             href={"/contact-us"}
-            className="py-[24px] px-[40px] md:py-[28px] md:px-[60px] rounded-full text-white bg-[#F15C20] text-base md:text-xl font-semibold flex items-center justify-center gap-2"
+            className="py-[20px] px-[30px] xl:py-[28px] xl:px-[60px] rounded-full text-white bg-[#F15C20] text-base md:text-xl font-semibold flex items-center justify-center gap-2"
           >
             Contact Us <FiArrowUpRight className="" />
           </Link>
