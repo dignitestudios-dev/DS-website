@@ -7,7 +7,7 @@ const Technologies = () => {
   const logosDard = theme === "light" ? "logos" : "logosDark";
   const logos2Classes = theme === "light" ? "logos2" : "logos2Dark";
   return (
-    <section className="w-full global-padding-horizontal md:py-12">
+    <section className="w-full global-padding-horizontal py-12">
       <h1 className="headings-size text-center">
         Technologies we are using
       </h1>

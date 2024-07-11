@@ -55,7 +55,7 @@ const DiscoverOurHistory = () => {
             alt="Description of the image"
             width={410}
             height={435}
-            className="h-[365px]"
+            className="h-[365px] xl:h-auto"
           />
         </div>
       </div>

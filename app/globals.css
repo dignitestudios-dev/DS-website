@@ -684,8 +684,8 @@ input:hover {
   height: 100%;
 }
 
-.swiper-vertical{
-overflow: visible;
+.swiper-vertical {
+  overflow: visible;
 }
 
 .swiper-slide {
@@ -799,22 +799,6 @@ overflow: visible;
   margin: 0 30px;
 }
 
-@media screen and (max-width: 1020px) {
-  .logos-slide div {
-    padding: 20px 30px;
-    margin: 0 10px;
-  }
-  .logoDark:before,
-.logoDark:after {
-  position: absolute;
-  top: 0;
-  width: 150px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
-}
-
 .logosDark {
   overflow: hidden;
   padding: 40px 0 10px;
@@ -842,6 +826,32 @@ overflow: visible;
 .logosDark:after {
   right: 0;
   background: linear-gradient(to right, rgba(40, 39, 39, 0), rgb(33, 32, 32));
+}
+
+@media screen and (max-width: 1020px) {
+  .logos-slide div {
+    padding: 20px 30px;
+    margin: 0 10px;
+  }
+  .logoDark:before,
+  .logoDark:after {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
 }
 
 /* slider 2 */
@@ -896,21 +906,7 @@ overflow: visible;
   margin: 0 30px;
 }
 
-@media screen and (max-width: 1020px) {
-  .logos-slide2 div {
-    padding: 20px 30px;
-    margin: 0 10px;
-  }
-  .logos2:before,
-.logos2:after {
-  position: absolute;
-  top: 0;
-  width: 150px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
-}
+
 
 .logos2Dark {
   overflow: hidden;
@@ -939,6 +935,32 @@ overflow: visible;
 .logos2Dark:after {
   right: 0;
   background: linear-gradient(to right, rgba(40, 39, 39, 0), rgb(33, 32, 32));
+}
+
+@media screen and (max-width: 1020px) {
+  .logos-slide2 div {
+    padding: 20px 30px;
+    margin: 0 10px;
+  }
+  .logos2:before,
+  .logos2:after {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+
+  .logos2Dark:before,
+.logos2Dark:after {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
 }
 
 /* influential */

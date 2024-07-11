@@ -12,7 +12,7 @@ const ReownedSection = () => {
     <section className="w-full global-padding-horizontal relative lg:h-screen 2xl:h-[70vh] pt-16 lg:pt-36 2xl:pt-52">
       <div
         className="w-full xl:w-[70%]"
-        data-aos="slide-right"
+        data-aos="fade-in"
         data-aos-offset="50"
         data-aos-delay="50"
         data-aos-duration="700"

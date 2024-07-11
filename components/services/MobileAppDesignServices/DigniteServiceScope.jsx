@@ -11,7 +11,7 @@ const DigniteServiceScope = () => {
   return (
     <section
       id="dignite studios services scope"
-      className="w-full relative px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 mt-7 lg:mt-20 pb-10 2xl:mt-32"
+      className="w-full relative px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 mt-7 md:mt-12 lg:mt-16 xl:mt-28 pb-10 2xl:mt-32"
       style={{ background: palette?.background }}
     >
       <div

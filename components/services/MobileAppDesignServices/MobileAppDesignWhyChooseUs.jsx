@@ -69,7 +69,7 @@ const MobileAppDesignWhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-[40%] flex justify-end lg:justify-end">
+        <div className="w-full lg:w-[40%] flex justify-end lg:justify-end lg:pt-2">
           <Image
             loader={customLoader}
             width={453}
@@ -77,7 +77,7 @@ const MobileAppDesignWhyChooseUs = () => {
             src="/UIUX-Mobile-app-design.webp"
             alt=" image shows the discussion of UI/UX Mobile app design team"
             title="UI/UX Mobile app design"
-            className="md:h-[355px] md:w-[443px] md:mx-auto xl:me-auto xl:h-[583px]"
+            className="md:h-[355px] md:w-[423px] md:mx-auto xl:me-auto xl:h-[583px]"
           />
         </div>
       </div>

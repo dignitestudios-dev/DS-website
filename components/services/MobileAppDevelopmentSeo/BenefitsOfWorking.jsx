@@ -17,7 +17,7 @@ const BenefitsOfWorking = () => {
         <h1
           className={`${
             theme === "dark" ? "text-white" : "text-black"
-          } headings-size xl:w-[70%]`}
+          } headings-size xl:w-[75%]`}
         >
           benefits of working with <br /> dignite studios
         </h1>

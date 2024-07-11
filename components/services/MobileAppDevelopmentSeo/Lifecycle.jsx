@@ -8,7 +8,7 @@ const Lifecycle = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <section
-      className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:mt-20 lg:mb-28`}
+      className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-10 md:my-16 lg:mt-24 lg:mb-28`}
     >
       <div className="w-full flex items-center justify-between">
         <h1

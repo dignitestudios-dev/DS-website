@@ -12,7 +12,7 @@ const TopNotchBenefits = () => {
       </h3>
       <img src="/lines.png" alt="" />
 
-      <h1 className="headings-size mt-3">
+      <h1 className="headings-size mt-3 text-center mx-auto mb-2">
         top-Notch Benefits
       </h1>
       <p className="lg:w-[666px] text-center text-[15px] leading-[20.4px]">

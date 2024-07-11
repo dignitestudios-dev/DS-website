@@ -113,7 +113,7 @@ const ConsultingStrategiesSection = () => {
             src={headings[currentIndex]?.image_src}
             alt={headings[currentIndex]?.image_alt}
             title={headings[currentIndex]?.image_title}
-            className="lg:h-[391px] w-[614px] rounded-3xl"
+            className="lg:h-[310px] xl:h-[391px] w-[614px] rounded-3xl"
           />
         </div>
         <div className="lg:w-[60%] flex flex-col items-start justify-center gap-6 lg:ps-12">

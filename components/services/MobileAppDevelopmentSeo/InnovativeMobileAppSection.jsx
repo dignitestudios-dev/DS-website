@@ -11,7 +11,7 @@ const InnovativeMobileAppSection = () => {
   return (
     <section
       id="dignite studios services scope"
-      className="w-full relative px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 mt-32 py-10"
+      className="w-full relative px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 mt-10 md:mt-24 py-10"
       style={{ background: palette?.background }}
     >
       <div
@@ -30,7 +30,7 @@ const InnovativeMobileAppSection = () => {
             into an Innovative <br /> Mobile App. 
           </h1>
 
-          <div className="w-full lg:w-auto hidden lg:block">
+          <div className="w-full lg:w-auto flex justify-start">
             <Link
               href="/contact-us"
               className="py-3 px-5 lg:py-[20px] lg:px-[30px] xl:py-[28px] xl:px-[60px] float-end bg-[#F15C20] top-rated-btn-shadow rounded-full text-white text-base xl:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"

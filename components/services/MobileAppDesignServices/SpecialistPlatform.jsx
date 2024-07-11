@@ -11,7 +11,7 @@ const SpecialistPlatform = () => {
   return (
     <section
       id="SpecialistPlatform"
-      className="w-full py-14  px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 flex flex-col items-center text-center gap-6"
+      className="w-full py-10 px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 flex flex-col items-center text-center gap-6"
       style={{ background: palette?.background }}
     >
       <div className="w-full flex flex-col items-center justify-start">
@@ -93,7 +93,7 @@ const SpecialistPlatform = () => {
       <div className="w-full flex justify-center mt-6">
         <Link
           href="/contact-us"
-          className="py-3 px-5 text-base lg:py-7 lg:px-14 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
+          className="py-3 px-5 lg:py-6 lg:px-7 text-base xl:py-7 xl:px-14 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
         >
           Get in Touch <FiArrowUpRight className="text-xl" />
         </Link>
