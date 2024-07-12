@@ -121,6 +121,8 @@ const page = () => {
       content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-design-services.webp"
     />
     <meta name="twitter:image:alt" content="Mobile app design services" />
+
+    <link rel="preload" fetchpriority="high" as="image" href="/Mobile-app-design-services.webp" type="image/webp"></link>
   </Head>;
   return (
     <div>

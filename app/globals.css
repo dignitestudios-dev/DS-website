@@ -1063,3 +1063,15 @@ input:hover {
   @apply p-2 pb-3 lg:p-3 lg:pb-4 xl:p-4 xl:pb-6
 
 }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTggMTgiIHZlcnNpb249IjEuMSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4Ij4KPHBhdGggZD0iTTAgMTBsNiA2IDYtNkgweiIgZmlsbD0iIzAwMCIvPgo8cGF0aCBkPSJNMTggOGwtNi02LTYgNmgxMnYxMnoiIGZpbGw9IiMwMDAiLz4KPC9zdmc+Cg==') no-repeat right 10px center;
+  padding-right: 10px; 
+}
+
+.selected-flag{
+  border: none !important;
+}

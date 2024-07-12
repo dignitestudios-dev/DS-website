@@ -15,22 +15,24 @@ import { RxCross2 } from "react-icons/rx";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
 import ScrollToTopButton from "@/components/global/ScrollToTopButton";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
+import classNames from "classnames";
 
 const GlobalLayout = ({ page }) => {
   // Sidebar states and ref:
   const [isFocused1, setIsFocused1] = useState(false);
   const [isFocused2, setIsFocused2] = useState(false);
   const [isFocused3, setIsFocused3] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  
-  const { palette, theme, setError, error, success } =
+  const { palette, isSidebarOpen, setIsSidebarOpen } =
     useContext(GlobalContext);
+  const { theme, setError, error, success } = useContext(GlobalContext);
   const [showModal, setShowModal] = useState(false);
   const [counter, setCounter] = useState(0);
 
   useEffect(() => {
     const handleMouseLeave = (e) => {
-      if (e.clientY <= 0 && window.innerWidth > 780) {
+      if (e.clientY <= 0 && window.innerWidth > 1000) {
         setShowModal(true);
         document.removeEventListener("mouseleave", handleMouseLeave);
       }
@@ -42,7 +44,6 @@ const GlobalLayout = ({ page }) => {
       document.removeEventListener("mouseleave", handleMouseLeave);
     };
   }, []);
-
   useEffect(() => {
     if (window.innerWidth < 780) {
       setTimeout(() => {
@@ -64,6 +65,18 @@ const GlobalLayout = ({ page }) => {
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
 
+  const validateName = (name) => {
+    return name.length > 0;
+  };
+
+  const validatePhone = (phone) => {
+    return phone.length === 10;
+  };
+
+  const validateMessage = (message) => {
+    return message.length > 0;
+  };
+
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
@@ -76,13 +89,32 @@ const GlobalLayout = ({ page }) => {
     );
     return formattedNumber;
   };
+
+  const [countryCode, setCountryCode] = useState("");
+  const [isValid, setIsValid] = useState(true);
+
+  const handlePhoneChange = (value, country) => {
+    console.log("ya ha phone :::::::::", value);
+    setPhone(value);
+    setCountryCode(country.dialCode);
+
+    // Validate the phone number
+    if (!value.startsWith(`+${country.dialCode}`)) {
+      setIsValid(false);
+      console.log("phone >> ", phone)
+    } else {
+      setIsValid(true);
+      console.log("phone >> ", phone)
+    }
+  };
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
     const name = formData.get("name");
     const email = formData.get("email");
-    const phone = formData.get("phone");
+    // const phone = formData.get("phone");
     const message = formData.get("message");
 
     const newErrors = {};
@@ -98,7 +130,7 @@ const GlobalLayout = ({ page }) => {
       newErrors.phone = "Phone number cannot be left empty.";
     } else if (phone.length < 10) {
       newErrors.phone = "Phone number can not be less than 10 digits.";
-    } else if (phone.length > 10) {
+    } else if (phone.length > 15) {
       newErrors.phone = "Phone number can not be more than 11 digits.";
     }
     if (message === "") {
@@ -108,13 +140,13 @@ const GlobalLayout = ({ page }) => {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      const formattedNumber = formatPhoneNumber(phone);
+      // const formattedNumber = formatPhoneNumber(phone);
 
       const data1 = new URLSearchParams();
       //Using entry ids from Google forms config
       data1.append("entry.1883330900", name); // Name field
       data1.append("entry.39421230", email); // Email field
-      data1.append("entry.769267793", formattedNumber); // Phone field
+      data1.append("entry.769267793", phone); // Phone field
       data1.append("entry.1280467825", message); // Message field
 
       fetch(
@@ -147,49 +179,23 @@ const GlobalLayout = ({ page }) => {
           onClick={handleCloseModal}
           className={`screen-form ${showModal ? "show" : "hide"}`}
         >
-          <form
-            onSubmit={handleSubmit}
-            ref={formRef}
-            className="container-form"
-          >
-            <div className="side-promo">
-              <Image
-                loader={customLoader}
-                width={400}
-                height={540}
-                src="/form-promo3.webp"
-                alt="sidebar_promo"
-                className=""
-              />
+         <form onSubmit={handleSubmit} ref={formRef} className="container-form">
+          <div className="side-promo">
+            <Image loader={customLoader} width={400} height={540} src="/form-promo3.webp" alt="sidebar_promo" className="" />
+          </div>
+          <div className="main-promo">
+            <div className="promo2">
+              <h1 className="heading_promo2">before you leave</h1>
+              <span className="sub_promo2">Sign up now for a free quote</span>
+              <span className="box_promo2">Upto 25% OFF</span>
             </div>
-            <div className="main-promo">
-              <div className="promo2">
-                <h1 className="heading_promo2">before you leave</h1>
-                <span className="sub_promo2">Sign up now for a free quote</span>
-                <span className="box_promo2 uppercase">Upto 25% OFF</span>
+            {error && <ContactUsAlert />}
 
-                <dv className="w-full flex justify-center items-center gap-3">
-                  <span className="bg-white w-[40px] h-[40px] flex items-center justify-center">
-                    <img src="/tailwind-color.webp" alt="" />
-                  </span>
-                  <span className="bg-white w-[40px] h-[40px] flex items-center justify-center">
-                    <img src="/vscode-color.png" alt="" />
-                  </span>
-                  <span className="bg-white w-[40px] h-[40px] flex items-center justify-center">
-                    <img src="/firebase-icon.png" alt="" />
-                  </span>
-                  <span className="bg-white w-[40px] h-[40px] flex items-center justify-center">
-                    <img src="/flutter-icon.webp" alt="" />
-                  </span>
-                </dv>
-              </div>
-              {error && <ContactUsAlert />}
+            <span onClick={() => setShowModal(false)} className="close_icon">
+              <RxCross2 />
+            </span>
 
-              <span onClick={() => setShowModal(false)} className="close_icon">
-                <RxCross2 />
-              </span>
-
-              <div className="input_field">
+            <div className="input_field">
                 <label className="label_field">Name</label>
                 <button type="button" className="input_flex">
                   <span className="input_span">
@@ -240,14 +246,47 @@ const GlobalLayout = ({ page }) => {
               <div className="input_field">
                 <label className="label_field">Phone Number</label>
                 <button type="button" className="input_flex">
-                  <span className="input_span">
+                  {/* <span className="input_span">
                     <BsTelephoneFill
                       className={`${
                         isFocused3 ? "text-orange-500" : "text-gray-400"
                       }`}
                     />
-                  </span>
-                  <input
+                  </span> */}
+                  <PhoneInput
+                  country={"us"}
+                  value={phone}
+                  name="phone"
+                  onChange={handlePhoneChange}
+                  onFocus={() => setIsFocused3(true)}
+                    onBlur={() => setIsFocused3(false)}
+                  containerStyle={{
+                    width: '100%',
+                    paddingRight: '0px',
+                    fontSize: '16px',
+                    border: 'none',
+                    borderRadius: '0px',
+                    background:"transparent"
+                  }}
+                  inputStyle={{
+                    width: '90%',
+                    height: '100%',
+                    outline: 'none',
+                    border: 'none',
+                    fontSize: '14px',
+                    color:"gray",
+                    padding: '10px 30px',
+                    margin: '0',
+                    background:'transparent'
+                  }}
+                  className="text-sm font-normal outline-none py-0 px-1 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
+                />
+                <style jsx>{`
+                  .invalid input {
+                    border: none !important;
+                  }
+                `}</style>
+                  {/* <input
                     type="number"
                     maxLength="11"
                     id="phone"
@@ -258,7 +297,7 @@ const GlobalLayout = ({ page }) => {
                     onBlur={() => setIsFocused3(false)}
                     className="input_box text-black"
                     placeholder="e.g +1 491 570 156"
-                  />
+                  /> */}
                 </button>
                 {errors.phone && <span className="text-red-500 text-sm">{errors.phone}</span>}
               </div>
@@ -278,11 +317,11 @@ const GlobalLayout = ({ page }) => {
                 {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>}
               </div>
 
-              <button type="submit" className="sub_button">
-                Submit
-              </button>
-            </div>
-          </form>
+            <button type="submit" className="sub_button">
+              Submit
+            </button>
+          </div>
+        </form>
         </div>
         {page}
         <Footer />

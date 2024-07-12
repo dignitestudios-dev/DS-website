@@ -1,10 +1,14 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
+// import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
+
+const customLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}&blur=10`;
+};
 
 const SpecialistPlatform = () => {
   const { palette, theme } = useContext(GlobalContext);

@@ -40,8 +40,8 @@ const Navbar = ({ setIsOpen }) => {
         <img
           alt="logo"
           // loader={customLoader}
-          // width={120}
-          // height={64}
+          width={120}
+          height={70}
           src={theme == "light" ? "/logo.png" : "/logo-dark.png"}
           className="h-[70px] w-[120px]"
         />

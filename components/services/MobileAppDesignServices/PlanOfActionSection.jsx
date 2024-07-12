@@ -6,6 +6,7 @@ import Link from "next/link";
 import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 
+
 const PlanOfActionSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
@@ -39,8 +40,8 @@ const PlanOfActionSection = () => {
             </Link>
           </div>
         </div>
-        <Image
-          loader={customLoader}
+        <img
+          // loader={'lazy'}
           width={712.18}
           height={1122.32}
           src="/plan-of-action.webp"

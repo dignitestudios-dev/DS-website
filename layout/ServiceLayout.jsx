@@ -14,6 +14,9 @@ import { RxCross2 } from "react-icons/rx";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
 import ScrollToTopButton from "@/components/global/ScrollToTopButton";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
+import classNames from "classnames";
 
 const ServicesLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -61,6 +64,18 @@ const ServicesLayout = ({ page }) => {
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
 
+  const validateName = (name) => {
+    return name.length > 0;
+  };
+
+  const validatePhone = (phone) => {
+    return phone.length === 10;
+  };
+
+  const validateMessage = (message) => {
+    return message.length > 0;
+  };
+
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
@@ -74,13 +89,31 @@ const ServicesLayout = ({ page }) => {
     return formattedNumber;
   };
 
+  const [countryCode, setCountryCode] = useState("");
+  const [isValid, setIsValid] = useState(true);
+
+  const handlePhoneChange = (value, country) => {
+    console.log("ya ha phone :::::::::", value);
+    setPhone(value);
+    setCountryCode(country.dialCode);
+
+    // Validate the phone number
+    if (!value.startsWith(`+${country.dialCode}`)) {
+      setIsValid(false);
+      console.log("phone >> ", phone)
+    } else {
+      setIsValid(true);
+      console.log("phone >> ", phone)
+    }
+  };
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
     const name = formData.get("name");
     const email = formData.get("email");
-    const phone = formData.get("phone");
+    // const phone = formData.get("phone");
     const message = formData.get("message");
 
     const newErrors = {};
@@ -96,7 +129,7 @@ const ServicesLayout = ({ page }) => {
       newErrors.phone = "Phone number cannot be left empty.";
     } else if (phone.length < 10) {
       newErrors.phone = "Phone number can not be less than 10 digits.";
-    } else if (phone.length > 10) {
+    } else if (phone.length > 15) {
       newErrors.phone = "Phone number can not be more than 11 digits.";
     }
     if (message === "") {
@@ -106,13 +139,13 @@ const ServicesLayout = ({ page }) => {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      const formattedNumber = formatPhoneNumber(phone);
+      // const formattedNumber = formatPhoneNumber(phone);
 
       const data1 = new URLSearchParams();
       //Using entry ids from Google forms config
       data1.append("entry.1883330900", name); // Name field
       data1.append("entry.39421230", email); // Email field
-      data1.append("entry.769267793", formattedNumber); // Phone field
+      data1.append("entry.769267793", phone); // Phone field
       data1.append("entry.1280467825", message); // Message field
 
       fetch(
@@ -127,6 +160,7 @@ const ServicesLayout = ({ page }) => {
         });
     }
   };
+
   return (
     <div
       className="w-full transition-all duration-700"
@@ -208,14 +242,47 @@ const ServicesLayout = ({ page }) => {
               <div className="input_field">
                 <label className="label_field">Phone Number</label>
                 <button type="button" className="input_flex">
-                  <span className="input_span">
+                  {/* <span className="input_span">
                     <BsTelephoneFill
                       className={`${
                         isFocused3 ? "text-orange-500" : "text-gray-400"
                       }`}
                     />
-                  </span>
-                  <input
+                  </span> */}
+                  <PhoneInput
+                  country={"us"}
+                  value={phone}
+                  name="phone"
+                  onChange={handlePhoneChange}
+                  onFocus={() => setIsFocused3(true)}
+                    onBlur={() => setIsFocused3(false)}
+                  containerStyle={{
+                    width: '100%',
+                    paddingRight: '0px',
+                    fontSize: '16px',
+                    border: 'none',
+                    borderRadius: '0px',
+                    background:"transparent"
+                  }}
+                  inputStyle={{
+                    width: '90%',
+                    height: '100%',
+                    outline: 'none',
+                    border: 'none',
+                    fontSize: '14px',
+                    color:"gray",
+                    padding: '10px 30px',
+                    margin: '0',
+                    background:'transparent'
+                  }}
+                  className="text-sm font-normal outline-none py-0 px-1 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
+                />
+                <style jsx>{`
+                  .invalid input {
+                    border: none !important;
+                  }
+                `}</style>
+                  {/* <input
                     type="number"
                     maxLength="11"
                     id="phone"
@@ -226,7 +293,7 @@ const ServicesLayout = ({ page }) => {
                     onBlur={() => setIsFocused3(false)}
                     className="input_box text-black"
                     placeholder="e.g +1 491 570 156"
-                  />
+                  /> */}
                 </button>
                 {errors.phone && <span className="text-red-500 text-sm">{errors.phone}</span>}
               </div>
