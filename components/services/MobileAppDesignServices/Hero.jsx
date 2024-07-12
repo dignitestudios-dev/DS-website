@@ -27,14 +27,14 @@ const Hero = () => {
       <h2 className="text-sm font-semibold text-white p-2 rounded uppercase 2xl:mt-4 z-10" style={{background:'#F15C20'}}>
         Turn your illustrations into realism
       </h2>
-      <img
+      {/* <img
         width={1046}
         height={883}
         src="/Mobile-app-design-services.png"
         alt="two mockup screens show the mobile app design services, with multiple icons revolving around them"
         title="Mobile app design services"
         className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"
-      />
+      /> */}
     </main>
   );
 };

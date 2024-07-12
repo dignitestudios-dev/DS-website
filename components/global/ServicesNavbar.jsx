@@ -9,7 +9,7 @@ import { useParams, usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
 
-const ServicesNavbar = ({ setIsOpen }) => {
+const zServicesNavbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   const navigate = useRouter();
   const pathname = usePathname();
@@ -168,7 +168,7 @@ const ServicesNavbar = ({ setIsOpen }) => {
           onClick={() => setIsOpen(true)}
           className="flex lg:hidden h-4 lg:h-auto"
         >
-          <img src={"/menu-dark.webp"} className="h-full" />
+          <img src={"/menu-dark.webp"} className="h-full" width={16} height={26}/>
         </button>
       </div>
     </div>
