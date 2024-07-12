@@ -1075,3 +1075,7 @@ select {
 .selected-flag{
   border: none !important;
 }
+
+image{
+  object-fit: contain !important;
+}
