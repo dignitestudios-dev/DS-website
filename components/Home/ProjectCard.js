@@ -58,7 +58,7 @@ const ProjectCard = ({
                 loader={customLoader}
                 width={134}
                 height={40}
-                src="/google_play_btn.webp"
+                src="/google_play_btn.png"
                 // className="h-[40.62px]"
                 alt="google_play_button"
               />
@@ -70,7 +70,7 @@ const ProjectCard = ({
                 loader={customLoader}
                 width={134}
                 height={40}
-                src="/apple_store_btn.webp"
+                src="/apple_store_btn.png"
                 // className="h-[40.62px]"
                 alt="app_store_button"
               />
@@ -82,7 +82,7 @@ const ProjectCard = ({
                 loader={customLoader}
                 width={134}
                 height={40}
-                src="/website_btn.webp"
+                src="/website_btn.png"
                 // className="h-[40.62px]"
                 alt="Website btn play icon"
               />
