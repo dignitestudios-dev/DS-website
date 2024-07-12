@@ -74,14 +74,15 @@ const MobileAppDesignWhyChooseUs = () => {
           </div>
         </div>
         <div className="w-full lg:w-[40%] flex justify-end lg:justify-end lg:pt-2">
-          <Image
-            loader={customLoader}
+          <img
+            // loader={customLoader}
+            
             width={453}
             height={583}
             src="/UIUX-Mobile-app-design.webp"
             alt="Image shows the discussion of UI/UX Mobile app design team"
             title="UI/UX Mobile app design"
-            className="md:h-[355px] md:w-[423px] md:mx-auto xl:me-auto xl:h-[583px]"
+            className="md:h-[475px] md:w-[423px] md:mx-auto xl:me-auto xl:h-[583px]"
             loading="lazy" // Add the loading="lazy" attribute here
           />
         </div>

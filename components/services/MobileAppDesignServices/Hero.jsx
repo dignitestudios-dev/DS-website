@@ -1,12 +1,8 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-// import customLoader from "@/lib/custom-loader";
+import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext } from "react";
-
-const customLoader = ({ src, width, quality }) => {
-  return `${src}?w=${width}&q=${quality || 75}&blur=10`;
-};
 
 const Hero = () => {
   const { theme } = useContext(GlobalContext);
@@ -24,17 +20,21 @@ const Hero = () => {
         <span className="text-[#F15C20]">Leading - Edge</span> Mobile App Design
         Services
       </h1>
-      <h2 className="text-sm font-semibold text-white p-2 rounded uppercase 2xl:mt-4 z-10" style={{background:'#F15C20'}}>
+      <h2
+        className="text-sm font-semibold text-white p-2 rounded uppercase 2xl:mt-4 z-10"
+        style={{ background: "#F15C20" }}
+      >
         Turn your illustrations into realism
       </h2>
-      {/* <img
+      <Image
+        loader={customLoader}
         width={1046}
         height={883}
-        src="/Mobile-app-design-services.png"
+        src="/Mobile-app-design-services.webp"
         alt="two mockup screens show the mobile app design services, with multiple icons revolving around them"
         title="Mobile app design services"
         className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"
-      /> */}
+      />
     </main>
   );
 };

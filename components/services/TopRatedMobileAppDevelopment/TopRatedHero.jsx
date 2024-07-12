@@ -159,6 +159,9 @@ const TopRatedHero = () => {
                 onSubmit={handleSubmit}
                 className="w-full flex flex-col items-start gap-6"
               >
+                 <span className="hidden">Name:</span> <input type="text" name="name" className="hidden"/>
+         <input type="hidden" id="gclid_field" name="gclid_field" value="" className="hidden"/>
+         <input type="submit" value="Submit Form" name="btnSubmit" className="hidden"/>
                 <div className="w-full border border-b border-t-0 border-r-0 border-l-0 flex items-center justify-start gap-2">
                   <IoPerson className="text-[#F15C20] w-[16px] h-[16px]" />
                   <input

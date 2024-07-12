@@ -1,14 +1,12 @@
 "use client";
 import Alert from "@/components/global/Alert";
 import { GlobalContext } from "@/context/GlobalContext";
-// import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext, useState } from "react";
-import { phone } from "phone";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import classNames from "classnames";
 import { usePathname } from "next/navigation";
+import customLoader from "@/lib/custom-loader";
 
 const TopRatedAppDevelopmentContactSection = () => {
   const { palette, theme, setIsSidebarOpen, setError, error } =
@@ -184,6 +182,21 @@ const TopRatedAppDevelopmentContactSection = () => {
           <h1 className="text-[34px] lg:text-[56px] 2xl:text-[60px] font-semibold tracking-0 lg:tracking-[-3.2px] leading-normal lg:leading-[65.35px] 2xl:leading-[70px]">
             Let’s build an awesome project together!
           </h1>
+          <span className="hidden">Name:</span>{" "}
+          <input type="text" name="name" className="hidden" />
+          <input
+            type="hidden"
+            id="gclid_field"
+            name="gclid_field"
+            value=""
+            className="hidden"
+          />
+          <input
+            type="submit"
+            value="Submit Form"
+            name="btnSubmit"
+            className="hidden"
+          />
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-9">
             <div className="w-full flex flex-col items-start gap-1">
               <label htmlFor="name" className="text-base font-medium">
@@ -194,8 +207,9 @@ const TopRatedAppDevelopmentContactSection = () => {
                 name="name"
                 value={name}
                 onChange={handleNameChange}
-                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 border-b bg-transparent"
+                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 bg-transparent"
                 placeholder="Enter name"
+                style={{ borderBottom: "1px solid silver" }}
               />
               {errors.name && (
                 <span className="text-red-500 text-sm">{errors.name}</span>
@@ -210,8 +224,9 @@ const TopRatedAppDevelopmentContactSection = () => {
                 name="email"
                 value={email}
                 onChange={handleEmailChange}
-                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 border-b bg-transparent"
+                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 bg-transparent"
                 placeholder="Enter email address"
+                style={{ borderBottom: "1px solid silver" }}
               />
               {errors.email && (
                 <span className="text-red-500 text-sm">{errors.email}</span>
@@ -291,8 +306,9 @@ const TopRatedAppDevelopmentContactSection = () => {
                 name="message"
                 value={message}
                 onChange={handleMessageChange}
-                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 border-b bg-transparent"
+                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 bg-transparent"
                 placeholder="Type here"
+                style={{ borderBottom: "1px solid silver" }}
               />
               {errors.message && (
                 <span className="text-red-500 text-sm">{errors.message}</span>
@@ -313,7 +329,8 @@ const TopRatedAppDevelopmentContactSection = () => {
         </form>
 
         <duv className="col-span-3 lg:col-span-1 hidden xl:flex items-center justify-center p-4 pt-0 lg:p-0">
-          <img
+          <Image
+            loader={customLoader}
             src="/top-rated-contact-mockup.webp"
             width={402}
             height={361}

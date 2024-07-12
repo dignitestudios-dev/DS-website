@@ -41,8 +41,8 @@ const PlanOfActionSection = () => {
             </Link>
           </div>
         </div>
-        <img
-          // loader={'lazy'}
+        <Image
+          loader={customLoader}
           width={712}
           height={1122}
           src="/plan-of-action.webp"
