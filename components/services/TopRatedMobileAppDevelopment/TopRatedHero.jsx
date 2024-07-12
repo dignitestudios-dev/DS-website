@@ -8,6 +8,7 @@ import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import Alert from "@/components/global/Alert";
 import { FiArrowUpRight } from "react-icons/fi";
+import { usePathname } from "next/navigation";
 
 const TopRatedHero = () => {
   const { palette, setIsSidebarOpen, setError, error, theme } =
@@ -16,6 +17,8 @@ const TopRatedHero = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const pathname = usePathname();
+  console.log("pathname >> ", pathname)
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -64,6 +67,7 @@ const TopRatedHero = () => {
       data1.append("entry.39421230", formData.get("email")); // Email field
       data1.append("entry.769267793", formattedNumber); // Phone field
       data1.append("entry.1280467825", formData.get("message")); // message field
+      data1.append("entry.764492805", pathname); // Page field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",

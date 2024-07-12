@@ -15,7 +15,7 @@ const ScrollToTopButton = () => {
   return (
     <button
       type="button"
-      name="scroll-to-top"
+      name="scroll-to-top-button"
       onClick={scrollToTop}
       className="z-[10000] shadow-lg text-2xl flex justify-center items-center w-14 h-14 rounded-full  text-white fixed bottom-4 left-4"
       style={{

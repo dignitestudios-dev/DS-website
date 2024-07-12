@@ -174,6 +174,7 @@ const Navbar = ({ setIsOpen }) => {
           <img
             src={theme == "light" ? "/hamburger.webp" : "/menu-dark.webp"}
             className="h-full"
+            alt="hamburger-image"
           />
         </button>
       </div>

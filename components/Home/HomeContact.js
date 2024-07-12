@@ -88,11 +88,7 @@ const HomeContact = () => {
       data1.append("entry.39421230", email); // Email field
       data1.append("entry.769267793", phone); // Phone field
       data1.append("entry.1280467825", message); // Message field
-      console.log("name >> ", name)
-      console.log("email >> ", email)
-      console.log("phone >> ", phone)
-      console.log("message >> ", message)
-      console.log("submitttttteddddd")
+      data1.append("entry.764492805", pathname); // Page field
 
       // fetch(
       //   "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",

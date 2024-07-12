@@ -24,14 +24,13 @@ const Hero = () => {
         <span className="text-[#F15C20]">Leading - Edge</span> Mobile App Design
         Services
       </h1>
-      <h6 className="text-sm font-semibold bg-[#F15C20] text-white p-2 rounded uppercase 2xl:mt-4 z-10">
+      <h6 className="text-sm font-semibold text-white p-2 rounded uppercase 2xl:mt-4 z-10" style={{background:'#F15C20'}}>
         Turn your illustrations into realism
       </h6>
-      <Image
-        loader={customLoader}
+      <img
         width={1046}
         height={883}
-        src="/Mobile-app-design-services.webp"
+        src="/Mobile-app-design-services.png"
         alt="two mockup screens show the mobile app design services, with multiple icons revolving around them"
         title="Mobile app design services"
         className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"

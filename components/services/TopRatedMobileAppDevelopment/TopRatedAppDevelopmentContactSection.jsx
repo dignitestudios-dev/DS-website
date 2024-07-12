@@ -8,11 +8,7 @@ import { phone } from "phone";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import classNames from "classnames";
-import { usePathname } from 'next/navigation'
-
-const customLoader = ({ src, width, quality }) => {
-  return `${src}?w=${width}&q=${quality || 75}&blur=10`;
-};
+import { usePathname } from "next/navigation";
 
 const TopRatedAppDevelopmentContactSection = () => {
   const { palette, theme, setIsSidebarOpen, setError, error } =
@@ -25,8 +21,7 @@ const TopRatedAppDevelopmentContactSection = () => {
   // const [countryCode, setCountryCode] = useState("+1");
   const [showCountryCode, setShowCountryCode] = useState(false);
   const pathname = usePathname();
-  console.log("pathname >> ", pathname)
- 
+  console.log("pathname >> ", pathname);
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -93,7 +88,7 @@ const TopRatedAppDevelopmentContactSection = () => {
       data1.append("entry.39421230", email); // Email field
       data1.append("entry.769267793", phone); // Phone field
       data1.append("entry.1280467825", message); // Message field
-      data1.append("entry.764492805", pathname); // Message field
+      data1.append("entry.764492805", pathname); // Page field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
@@ -167,10 +162,10 @@ const TopRatedAppDevelopmentContactSection = () => {
     // Validate the phone number
     if (!value.startsWith(`+${country.dialCode}`)) {
       setIsValid(false);
-      console.log("phone >> ", phone)
+      console.log("phone >> ", phone);
     } else {
       setIsValid(true);
-      console.log("phone >> ", phone)
+      console.log("phone >> ", phone);
     }
   };
 
@@ -256,24 +251,24 @@ const TopRatedAppDevelopmentContactSection = () => {
                   name="phone"
                   onChange={handlePhoneChange}
                   containerStyle={{
-                    width: '100%',
-                    paddingRight: '0px',
-                    fontSize: '16px',
-                    border: 'none',
-                    borderBottom:"1px solid silver",
-                    borderRadius: '0px',
-                    background:"transparent"
+                    width: "100%",
+                    paddingRight: "0px",
+                    fontSize: "16px",
+                    border: "none",
+                    borderBottom: "1px solid silver",
+                    borderRadius: "0px",
+                    background: "transparent",
                   }}
                   inputStyle={{
-                    width: '90%',
-                    height: '100%',
-                    outline: 'none',
-                    border: 'none',
-                    fontSize: '14px',
-                    color:"gray",
-                    padding: '10px 50px',
-                    margin: '0',
-                    background:'transparent'
+                    width: "90%",
+                    height: "100%",
+                    outline: "none",
+                    border: "none",
+                    fontSize: "14px",
+                    color: "gray",
+                    padding: "10px 50px",
+                    margin: "0",
+                    background: "transparent",
                   }}
                   className="text-sm font-normal outline-none py-0 px-1 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
                 />
@@ -307,7 +302,9 @@ const TopRatedAppDevelopmentContactSection = () => {
           <div className="w-full">
             <button
               type="submit"
-              className="bg-[#F15C20] text-white text-[13px] font-semibold px-8 py-4 rounded-full float-end hover:opacity-[.75] transition-all duration-300"
+              name="form-submit-button"
+              className=" text-white text-[13px] font-semibold px-8 py-4 rounded-full float-end hover:opacity-[.75] transition-all duration-300"
+              style={{ background: "#F15C20" }}
             >
               Submit
             </button>
@@ -317,8 +314,10 @@ const TopRatedAppDevelopmentContactSection = () => {
 
         <duv className="col-span-3 lg:col-span-1 hidden xl:flex items-center justify-center p-4 pt-0 lg:p-0">
           <img
-            src="/top-rated-contact-mockup.png"
-            alt=""
+            src="/top-rated-contact-mockup.webp"
+            width={402}
+            height={361}
+            alt="top-rated-contact-mockup"
             className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"
           />
         </duv>

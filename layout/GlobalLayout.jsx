@@ -18,6 +18,7 @@ import ScrollToTopButton from "@/components/global/ScrollToTopButton";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import classNames from "classnames";
+import { usePathname } from "next/navigation";
 
 const GlobalLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -29,6 +30,8 @@ const GlobalLayout = ({ page }) => {
   const { theme, setError, error, success } = useContext(GlobalContext);
   const [showModal, setShowModal] = useState(false);
   const [counter, setCounter] = useState(0);
+  const pathname = usePathname();
+  console.log("pathname >> ", pathname)
 
   useEffect(() => {
     const handleMouseLeave = (e) => {
@@ -148,6 +151,7 @@ const GlobalLayout = ({ page }) => {
       data1.append("entry.39421230", email); // Email field
       data1.append("entry.769267793", phone); // Phone field
       data1.append("entry.1280467825", message); // Message field
+      data1.append("entry.764492805", pathname); // Page field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
