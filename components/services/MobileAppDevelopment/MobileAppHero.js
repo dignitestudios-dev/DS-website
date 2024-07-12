@@ -2,13 +2,8 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { BsArrowRight } from "react-icons/bs";
-import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css/effect-fade";
-import { Autoplay, EffectFade } from "swiper/modules";
 import ServicesNavbar from "@/components/global/ServicesNavbar";
 
 const MobileAppHero = () => {

@@ -9,7 +9,7 @@ import { useParams, usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
 
-const zServicesNavbar = ({ setIsOpen }) => {
+const ServicesNavbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   const navigate = useRouter();
   const pathname = usePathname();
