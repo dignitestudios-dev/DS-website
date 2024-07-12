@@ -59,7 +59,7 @@ export default function BenefitOfDigniteStudios() {
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h1 className="text-[#595959] text-[20px] md:text-[40px] font-bold">
+                  <h1 className="text-[#B8B8B8] text-[20px] md:text-[40px] font-bold">
                     {card?.count}
                   </h1>
                   <h2

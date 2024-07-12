@@ -21,12 +21,12 @@ const Hero = () => {
         Services
       </h1>
       <h2
-        className="text-sm font-semibold text-white p-2 rounded uppercase 2xl:mt-4 z-10 bg-orange"
-        // style={{ background: "#F15C20" }}
+        className="text-sm font-semibold text-white p-2 rounded uppercase 2xl:mt-4 z-10"
+        style={{ background: "#F15C20" }}
       >
         Turn your illustrations into realism
       </h2>
-      <Image
+      {/* <Image
         loader={customLoader}
         width={1046}
         height={883}
@@ -34,6 +34,18 @@ const Hero = () => {
         alt="two mockup screens show the mobile app design services, with multiple icons revolving around them"
         title="Mobile app design services"
         className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"
+      /> */}
+      <img
+        alt="two mockup screens show the mobile app design services, with multiple icon…"
+        loading="lazy"
+        width="1046"
+        height="883"
+        decoding="async"
+        data-nimg="1"
+        className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"
+        srcset="https://dignitestudios.com//Mobile-app-design-services.webp 1x, https://di…"
+        src="https://dignitestudios.com//Mobile-app-design-services.webp"
+        style={{color: "transparent"}}
       />
     </main>
   );
