@@ -24,7 +24,7 @@ const ConvenientMobileAppDevelopment = () => {
   };
 
   return (
-    <div className="global-padding-horizontal py-20">
+    <div className="global-padding-horizontal py-20" id="services">
       <h1 className="uppercase font-extrabold  lg:text-start text-4xl xl:text-[72px] 2xl:text-[104px] tracking-tighter lg:font-bold lg:text-[64px] lg:leading-[77.45px] 2xl:leading-[107px]">
         Convenient Mobile App Development Services
       </h1>

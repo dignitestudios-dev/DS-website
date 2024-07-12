@@ -77,13 +77,7 @@ const PlatformServices = () => {
                 theme === "light" ? "text-[#5F5F5F]" : "text-white"
               }`}
             >
-              Have you ever heard that an IOS application is running slow? Yes,
-              you’ve been familiar with the term, as Dignite Studios built
-              powerful, stable, highly functional, operational, and systemized
-              app versions of the IOS mobile applications to satisfy their
-              clients in the process of mobile development. And that’s how our
-              development efforts create rapid mobile app conversions in no
-              time.   
+              Turn your illustrations into an unprecedented model that robust iOS mobile applications in an exclusive manner. From code to launch, the top-notch developers of Dignite Studios will transform your entire mobile app with eminent methodologies of mobile development to make your app version highly functional, optimized, systemized, and scalable on any platform. We take pride in our development efforts to help businesses achieve their rapid ROIs and conversions. 
             </p>
           </div>
         </div>

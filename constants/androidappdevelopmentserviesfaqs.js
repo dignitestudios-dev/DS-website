@@ -22,6 +22,6 @@ export const ANDROID_APP_DEV_SERVICES_FAQS = [
     question:
       "How much does it cost to hire a custom Android application development agency?",
     answer:
-      "To know Dignite’s services cost click on the link below and schedule a call right away.",
+      "To know Dignite’s services cost fill out the form below and schedule a call right away.",
   },
 ];

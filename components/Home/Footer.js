@@ -6,36 +6,41 @@ import Link from "next/link";
 import { GoArrowRight } from "react-icons/go";
 import { GlobalContext } from "@/context/GlobalContext";
 import { usePathname, useRouter } from "next/navigation";
-import Image  from "next/image";
+import Image from "next/image";
 import Alert from "../global/Alert";
 import Success from "../global/Success";
 import SubscribeAlert from "../global/SubscribeAlert";
 import customLoader from "@/lib/custom-loader";
 
 const Footer = () => {
-  const { palette, theme, setSubscribeError, setSuccess, success, subscribeError } = useContext(GlobalContext);
-  const navigate = useRouter()
-  const pathname = usePathname()
+  const {
+    palette,
+    theme,
+    setSubscribeError,
+    setSuccess,
+    success,
+    subscribeError,
+  } = useContext(GlobalContext);
+  const navigate = useRouter();
+  const pathname = usePathname();
   const handleClick = (id) => {
     if (pathname != "/") {
-      navigate.push("/")
+      navigate.push("/");
       setTimeout(() => {
-
         const element = document.getElementById(id);
         if (element) {
           element.scrollIntoView({ behavior: "smooth", block: "start" });
         }
-      }, 500)
+      }, 500);
     }
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-
-  }
+  };
   const navigateTo = (link) => {
-    navigate.push(link)
-  }
+    navigate.push(link);
+  };
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
@@ -43,15 +48,13 @@ const Footer = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const form = document.getElementById("subscribe")
+    const form = document.getElementById("subscribe");
     const formData = new FormData(event.target);
     if (formData.get("email") == "") {
-      setSubscribeError("Email cannot be left empty.")
+      setSubscribeError("Email cannot be left empty.");
     } else if (!validateEmail(formData.get("email"))) {
-      setSubscribeError("Email must be a valid email.")
+      setSubscribeError("Email must be a valid email.");
     } else {
-
-
       const data = new URLSearchParams();
 
       //Using entry ids from Google forms config
@@ -63,15 +66,14 @@ const Footer = () => {
       )
         .then((response) => {
           if (response) {
-            setSuccess("Thankyou for subscribing.")
-            form.reset()
+            setSuccess("Thankyou for subscribing.");
+            form.reset();
           }
         })
         .catch((error) => {
-          setSubscribeError("Something went wrong.")
+          setSubscribeError("Something went wrong.");
         });
     }
-
   };
   return (
     <div
@@ -114,7 +116,11 @@ const Footer = () => {
           </a>
         </div>
         <div className="w-full lg:w[50%] flex justify-end">
-          <form id="subscribe" onSubmit={handleSubmit} className=" h-auto w-full lg:w-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2">
+          <form
+            id="subscribe"
+            onSubmit={handleSubmit}
+            className=" h-auto w-full lg:w-auto  text-md lg:text-lg font-normal flex flex-col uppercase gap-4 py-6 px-2 justify-start lg:col-start-4  items-start col-span-2"
+          >
             <span
               className="text-3xl md:text-[42px] font-bold"
               style={{ color: palette?.color }}
@@ -124,17 +130,15 @@ const Footer = () => {
             <div className="w-full lg:w-96 relative">
               <input
                 type="text"
-                id="email2" name="email"
+                id="email2"
+                name="email"
                 className="w-full  outline-none h-12 bg-transparent px-2"
                 placeholder="E-mail"
                 style={{ borderBottom: `2px solid ${palette?.brandOrange}` }}
               />
-              {
-                subscribeError && <SubscribeAlert />
-              }
+              {subscribeError && <SubscribeAlert />}
               {success && <Success />}
               <button type="submit">
-
                 <GoArrowRight
                   className="absolute top-2 right-2  text-2xl"
                   style={{ color: palette?.brandOrange }}
@@ -145,34 +149,86 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full h-auto grid grid-cols-2 lg:grid-cols-5 gap-2">
-        <Link aria-label="button" href={"https://www.trustpilot.com/review/dignitestudios.com"} className="col-span-5 lg:col-span-2 flex flex-col gap-2">
+      <div className="w-full h-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-2 lg:gap-0">
+        <Link
+          aria-label="button"
+          href={"https://www.trustpilot.com/review/dignitestudios.com"}
+          className="col-span-5 lg:col-span-1 flex flex-col gap-2"
+        >
           {theme == "dark" ? (
-            <Link aria-label="button" href={"https://www.trustpilot.com/review/dignitestudios.com"}>
-              <Image loader={customLoader} width={140} height={30} alt="trust-pilot" src="/trust-pilot-white.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+            <Link
+              aria-label="button"
+              href={"https://www.trustpilot.com/review/dignitestudios.com"}
+            >
+              <Image
+                loader={customLoader}
+                width={140}
+                height={30}
+                alt="trust-pilot"
+                src="/trust-pilot-white.webp"
+                className="w-[140px] md:w-[200px] lg:w-[236px]"
+              />
             </Link>
           ) : (
-            <Link aria-label="button" href={"https://www.trustpilot.com/review/dignitestudios.com"}>
-              <Image loader={customLoader} width={140} height={30} alt="trust-pilot" src="/trustpilot-logo.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+            <Link
+              aria-label="button"
+              href={"https://www.trustpilot.com/review/dignitestudios.com"}
+            >
+              <Image
+                loader={customLoader}
+                width={140}
+                height={30}
+                alt="trust-pilot"
+                src="/trustpilot-logo.webp"
+                className="w-[140px] md:w-[200px] lg:w-[236px]"
+              />
             </Link>
           )}
 
-          <Image loader={customLoader} width={140} height={30} alt="trust-pilot" src="/footer-stars.webp" className="w-[140px] md:w-[200px] lg:w-[236px]" />
+          <Image
+            loader={customLoader}
+            width={140}
+            height={30}
+            alt="trust-pilot"
+            src="/footer-stars.webp"
+            className="w-[140px] md:w-[200px] lg:w-[236px]"
+          />
         </Link>
-        <div className="col-span-2 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
+        <div className="col-span-2 lg:col-span-1 lg:pl-10 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 lg:px-0 justify-start items-start">
           <Link href="/" className="hover:text-orange-500">
             Home
           </Link>
-          <button onClick={() => handleClick("process")} className=" uppercase hover:text-orange-500">
+          <button
+            onClick={() => handleClick("process")}
+            className=" uppercase hover:text-orange-500"
+          >
             Our Process
           </button>
-          <button onClick={() => handleClick("case-studies")} className="uppercase hover:text-orange-500">
+          <button
+            onClick={() => handleClick("services")}
+            className="uppercase hover:text-orange-500"
+          >
+            Services
+          </button>
+          <button
+            onClick={() => handleClick("case-studies")}
+            className="uppercase hover:text-orange-500"
+          >
             Case Study
           </button>
         </div>
-        <div className="col-span-3 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 justify-start items-start">
-          <button onClick={() => handleClick("testimonials")} className="uppercase hover:text-orange-500">
+        <div className="col-span-3 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 lg:px-0 justify-start items-start">
+          <button
+            onClick={() => handleClick("testimonials")}
+            className="uppercase hover:text-orange-500"
+          >
             Testimonials
+          </button>
+          <button
+            onClick={() => handleClick("faqs")}
+            className="uppercase hover:text-orange-500"
+          >
+            FAQ's
           </button>
           <Link href="/terms-and-conditions" className="hover:text-orange-500">
             Terms & Conditions
@@ -181,33 +237,52 @@ const Footer = () => {
             Privacy Policy
           </Link>
         </div>
-        <div className="col-span-5 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 justify-start items-start">
-          <Link href="/services/android-app-development" className="hover:text-orange-500">
-            Android App Development
+        <div className="col-span-5 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 lg:px-0 justify-start items-start">
+          <Link
+            href="/services/android-app-development"
+            className="hover:text-orange-500"
+          >
+            Android App Development Services
           </Link>
-          <Link href="/services/ios-app-development" className="hover:text-orange-500">
+          <Link
+            href="/services/ios-app-development"
+            className="hover:text-orange-500"
+          >
             IOS App Development
-
           </Link>
-          <Link href="/services/web-app-development" className="hover:text-orange-500">
+          <Link
+            href="/services/web-app-development"
+            className="hover:text-orange-500"
+          >
             Web App Development
-
           </Link>
         </div>
-        {/* <div className="col-span-5 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 justify-start items-start">
-          <Link href="/services/android-app-development" className="hover:text-orange-500">
+        <div className="col-span-5 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 lg:px-0 justify-start items-start">
+          <Link
+            href="/services/mobile-app-development-services"
+            className="hover:text-orange-500"
+          >
             Mobile App Development Services
           </Link>
-          <Link href="/services/ios-app-development" className="hover:text-orange-500">
-            Mobile App Design Services
-          </Link>
-          <Link href="/services/web-app-development" className="hover:text-orange-500">
+          <Link
+            href="/services/mobile-app-consulting-services"
+            className="hover:text-orange-500"
+          >
             Mobile App Consulting Services
           </Link>
-          <Link href="/services/web-app-development" className="hover:text-orange-500">
+          <Link
+            href="/services/mobile-app-design-services"
+            className="hover:text-orange-500"
+          >
+            Mobile App Design Services
+          </Link>
+          <Link
+            href="/services/mobile-app-testing-services"
+            className="hover:text-orange-500"
+          >
             Mobile App Testing Services
           </Link>
-        </div> */}
+        </div>
       </div>
 
       <div className="w-full flex items-center justify-between">

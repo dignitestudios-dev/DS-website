@@ -16,7 +16,7 @@ export const MOBILE_APP_TESTING_SERVICES_FAQ = [
         name: "How are mobile apps tested?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "A. First ensure the test objectives, then test the application on real devices, analyze the use cases/test cases, execute tests for all the devices, networks, or operating systems, evaluate the app performance, perform security testing, regression testing, and at last validate user flows.",
+          text: "First ensure the test objectives, then test the application on real devices, analyze the use cases/test cases, execute tests for all the devices, networks, or operating systems, evaluate the app performance, perform security testing, regression testing, and at last validate user flows.",
         },
       },
       {

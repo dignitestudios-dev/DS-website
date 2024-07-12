@@ -23,7 +23,7 @@ export const faqData = {
       name: "What is an API in mobile development?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "APIs are the foundational element of the mobile or web app. It helps developers to access other applications. API management is a core operation of IT departments that incorporates people with the data and attracts more interaction.",
+        text: "Application programming Interface (API) enables mobile apps to access data, interact with external services, handle user authentication, process payments and receive push notifications.",
       },
     },
     {

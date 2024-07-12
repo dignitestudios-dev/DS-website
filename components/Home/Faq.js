@@ -19,6 +19,7 @@ const Faq = () => {
 
   return (
     <div
+    id="faqs"
       className={`w-full lg:w-[100%] xl:w-[80%]  my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  flex justify-center items-start  h-auto`}
     >
       <div className="w-full h-auto  flex flex-col gap-3 justify-start items-center">
