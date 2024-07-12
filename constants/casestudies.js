@@ -8,7 +8,7 @@ export const casestudies = [
     normalImage: "/maidsimpl-case-1.webp",
 
     projectLink: "/case-studies/maidsimpl",
-    logo: "/maidsimpl-logo.png",
+    logo: "/maidsimpl-logo.webp",
     webLink: "https://www.maidsimpl.com/",
     googleLink:
       "https://play.google.com/store/apps/details?id=com.maidsimpl.maidsimpl&hl=en&gl=US",
@@ -23,7 +23,7 @@ export const casestudies = [
     normalImage: "/nykn-case-1.webp",
 
     projectLink: "/case-studies/nykn",
-    logo: "/nykn-logo-new.png",
+    logo: "/nykn-logo-new.webp",
     webLink: "https://www.nowyouknownashville.com/",
     googleLink: null,
     appLink: null,
@@ -36,7 +36,7 @@ export const casestudies = [
     mobile_image: "group-hover:bg-img32",
     normalImage: "/mmj-case-1.webp",
     projectLink: "/case-studies/mymedicaljournal",
-    logo: "/mmj-logo.png",
+    logo: "/mmj-logo.webp",
     webLink: "https://www.mymedicaljournal.app/",
     googleLink:
       "https://play.google.com/store/apps/details?id=com.dignitestudios.mymedicaljournal",
@@ -52,7 +52,7 @@ export const casestudies = [
     normalImage: "/carter-case-1.webp",
 
     projectLink: "/case-studies/carter-boating",
-    logo: "/carter-logo.png",
+    logo: "/carter-logo.webp",
     webLink: "https://www.carterboating.com/",
     googleLink: null,
     appLink: null,

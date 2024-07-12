@@ -36,9 +36,9 @@ const ProjectCard = ({
           <img
             src={logo}
             alt="app-logo"
-            width={32}
-            height={32}
-            className="w-[32px] h-[32px] lg:w-[45px] xl:w-[65px] lg:h-[45px] xl:h-[65px]"
+            width={65}
+            height={65}
+            // className="w-[32px] h-[32px] lg:w-[45px] xl:w-[65px] lg:h-[45px] xl:h-[65px]"
           />
           <p className="text-lg md:text-sm lg:text-2xl xl:text-[22px] font-semibold group-hover:text-white">
             {title}
@@ -56,10 +56,10 @@ const ProjectCard = ({
             <Link href={googleLink}>
               <Image
                 loader={customLoader}
-                width={134.5}
-                height={40.62}
-                src="/google_play_btn.png"
-                className="h-[40.62px]"
+                width={134}
+                height={40}
+                src="/google_play_btn.webp"
+                // className="h-[40.62px]"
                 alt="google_play_button"
               />
             </Link>
@@ -68,10 +68,10 @@ const ProjectCard = ({
             <Link href={appLink}>
               <Image
                 loader={customLoader}
-                width={134.5}
-                height={40.62}
-                src="/apple_store_btn.png"
-                className="h-[40.62px]"
+                width={134}
+                height={40}
+                src="/apple_store_btn.webp"
+                // className="h-[40.62px]"
                 alt="app_store_button"
               />
             </Link>
@@ -80,10 +80,10 @@ const ProjectCard = ({
             <Link href={webLink}>
               <Image
                 loader={customLoader}
-                width={134.5}
-                height={40.62}
-                src="/website_btn.png"
-                className="h-[40.62px]"
+                width={134}
+                height={40}
+                src="/website_btn.webp"
+                // className="h-[40.62px]"
                 alt="Website btn play icon"
               />
             </Link>
