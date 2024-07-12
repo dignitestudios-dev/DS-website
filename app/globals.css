@@ -1079,3 +1079,7 @@ select {
 image{
   object-fit: contain !important;
 }
+
+.bg-orange{
+  background: #9F310E;
+}

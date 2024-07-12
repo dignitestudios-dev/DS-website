@@ -21,8 +21,8 @@ const Hero = () => {
         Services
       </h1>
       <h2
-        className="text-sm font-semibold text-white p-2 rounded uppercase 2xl:mt-4 z-10"
-        style={{ background: "#F15C20" }}
+        className="text-sm font-semibold text-white p-2 rounded uppercase 2xl:mt-4 z-10 bg-orange"
+        // style={{ background: "#F15C20" }}
       >
         Turn your illustrations into realism
       </h2>
