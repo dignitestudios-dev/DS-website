@@ -16,8 +16,8 @@ const TopRatedAppDevelopmentContactSection = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
-  // const [countryCode, setCountryCode] = useState("+1");
-  const [showCountryCode, setShowCountryCode] = useState(false);
+  const [countryCode, setCountryCode] = useState("");
+  const [isValid, setIsValid] = useState(true);
   const pathname = usePathname();
   console.log("pathname >> ", pathname);
 
@@ -30,30 +30,12 @@ const TopRatedAppDevelopmentContactSection = () => {
     return name.length > 0;
   };
 
-  const validatePhone = (phone) => {
-    return phone.length === 10;
-  };
-
   const validateMessage = (message) => {
     return message.length > 0;
   };
 
-  // const formatPhoneNumber = (phoneNumber) => {
-  //   const formattedNumber = phoneNumber.replace(
-  //     /^(\d{3})(\d{3})(\d{4})$/,
-  //     "($1) $2-$3"
-  //   );
-  //   return formattedNumber;
-  // };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
-
-    const name = formData.get("name");
-    const email = formData.get("email");
-    // const phone = formData.get("phone");
-    const message = formData.get("message");
 
     const newErrors = {};
     if (name === "") {
@@ -67,9 +49,9 @@ const TopRatedAppDevelopmentContactSection = () => {
     if (phone.length === 0) {
       newErrors.phone = "Phone number cannot be left empty.";
     } else if (phone.length < 10) {
-      newErrors.phone = "Phone number can not be less than 10 digits.";
+      newErrors.phone = "Phone number cannot be less than 10 digits.";
     } else if (phone.length > 15) {
-      newErrors.phone = "Phone number can not be more than 11 digits.";
+      newErrors.phone = "Phone number cannot be more than 15 digits.";
     }
     if (message === "") {
       newErrors.message = "Message cannot be left empty.";
@@ -78,8 +60,6 @@ const TopRatedAppDevelopmentContactSection = () => {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      // const formattedNumber = formatPhoneNumber(phone);
-
       const data1 = new URLSearchParams();
       //Using entry ids from Google forms config
       data1.append("entry.1883330900", name); // Name field
@@ -149,21 +129,14 @@ const TopRatedAppDevelopmentContactSection = () => {
     }
   };
 
-  const [countryCode, setCountryCode] = useState("");
-  const [isValid, setIsValid] = useState(true);
-
   const handlePhoneChange = (value, country) => {
-    console.log("ya ha phone :::::::::", value);
     setPhone(value);
     setCountryCode(country.dialCode);
 
-    // Validate the phone number
     if (!value.startsWith(`+${country.dialCode}`)) {
       setIsValid(false);
-      console.log("phone >> ", phone);
     } else {
       setIsValid(true);
-      console.log("phone >> ", phone);
     }
   };
 
@@ -239,27 +212,6 @@ const TopRatedAppDevelopmentContactSection = () => {
                 Phone number<span className="text-[#E94C42]">*</span>
               </label>
               <div className="flex w-full">
-                {/* {showCountryCode && (
-                  <select
-                    value={countryCode}
-                    onChange={(e) => setCountryCode(e.target.value)}
-                    className="text-sm font-normal outline-none py-2 pr-2 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
-                    onBlur={() =>
-                      setTimeout(() => setShowCountryCode(true), 200)
-                    }
-                  >
-                    <option value="+1">+1</option>
-                    <option value="+44">+44</option>
-                    <option value="+91">+91</option>
-                    <option value="+52">+52</option>
-                    <option value="+55">+55</option>
-                    <option value="+54">+54</option>
-                    <option value="+86">+86</option>
-                    <option value="+81">+81</option>
-                    <option value="+49">+49</option>
-                    <option value="+33">+33</option>
-                  </select>
-                )} */}
                 <PhoneInput
                   country={"us"}
                   value={phone}
@@ -328,7 +280,7 @@ const TopRatedAppDevelopmentContactSection = () => {
           {error && <Alert />}
         </form>
 
-        <duv className="col-span-3 lg:col-span-1 hidden xl:flex items-center justify-center p-4 pt-0 lg:p-0">
+        <div className="col-span-3 lg:col-span-1 hidden xl:flex items-center justify-center p-4 pt-0 lg:p-0">
           <Image
             loader={customLoader}
             src="/top-rated-contact-mockup.webp"
@@ -337,7 +289,7 @@ const TopRatedAppDevelopmentContactSection = () => {
             alt="top-rated-contact-mockup"
             className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"
           />
-        </duv>
+        </div>
       </div>
     </div>
   );

@@ -1,16 +1,14 @@
 "use client";
 import Alert from "@/components/global/Alert";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext, useState } from "react";
-import { phone } from "phone";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import classNames from "classnames";
 import { usePathname } from "next/navigation";
+import customLoader from "@/lib/custom-loader";
 
-const HomeContact = () => {
+const TopRatedAppDevelopmentContactSection = () => {
   const { palette, theme, setIsSidebarOpen, setError, error } =
     useContext(GlobalContext);
   const [name, setName] = useState("");
@@ -18,10 +16,10 @@ const HomeContact = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
-  // const [countryCode, setCountryCode] = useState("+1");
-  const [showCountryCode, setShowCountryCode] = useState(false);
+  const [countryCode, setCountryCode] = useState("");
+  const [isValid, setIsValid] = useState(true);
   const pathname = usePathname();
-  console.log("pathname >> ", pathname)
+  console.log("pathname >> ", pathname);
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -32,30 +30,12 @@ const HomeContact = () => {
     return name.length > 0;
   };
 
-  const validatePhone = (phone) => {
-    return phone.length === 10;
-  };
-
   const validateMessage = (message) => {
     return message.length > 0;
   };
 
-  // const formatPhoneNumber = (phoneNumber) => {
-  //   const formattedNumber = phoneNumber.replace(
-  //     /^(\d{3})(\d{3})(\d{4})$/,
-  //     "($1) $2-$3"
-  //   );
-  //   return formattedNumber;
-  // };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
-
-    const name = formData.get("name");
-    const email = formData.get("email");
-    // const phone = formData.get("phone");
-    const message = formData.get("message");
 
     const newErrors = {};
     if (name === "") {
@@ -69,9 +49,9 @@ const HomeContact = () => {
     if (phone.length === 0) {
       newErrors.phone = "Phone number cannot be left empty.";
     } else if (phone.length < 10) {
-      newErrors.phone = "Phone number can not be less than 10 digits.";
+      newErrors.phone = "Phone number cannot be less than 10 digits.";
     } else if (phone.length > 15) {
-      newErrors.phone = "Please enter a valid phone number.";
+      newErrors.phone = "Phone number cannot be more than 15 digits.";
     }
     if (message === "") {
       newErrors.message = "Message cannot be left empty.";
@@ -80,8 +60,6 @@ const HomeContact = () => {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      // const formattedNumber = formatPhoneNumber(phone);
-
       const data1 = new URLSearchParams();
       //Using entry ids from Google forms config
       data1.append("entry.1883330900", name); // Name field
@@ -90,16 +68,16 @@ const HomeContact = () => {
       data1.append("entry.1280467825", message); // Message field
       data1.append("entry.764492805", pathname); // Page field
 
-      // fetch(
-      //   "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
-      //   { method: "POST", body: data1, mode: "no-cors" }
-      // )
-      //   .then((response) => {
-      //     window.location.assign("https://www.dignitestudios.com/thank-you");
-      //   })
-      //   .catch((error) => {
-      //     setError("Something went wrong.");
-      //   });
+      fetch(
+        "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
+        { method: "POST", body: data1, mode: "no-cors" }
+      )
+        .then((response) => {
+          window.location.assign("https://www.dignitestudios.com/thank-you");
+        })
+        .catch((error) => {
+          setError("Something went wrong.");
+        });
     }
   };
 
@@ -151,21 +129,14 @@ const HomeContact = () => {
     }
   };
 
-  const [countryCode, setCountryCode] = useState("");
-  const [isValid, setIsValid] = useState(true);
-
   const handlePhoneChange = (value, country) => {
-    console.log("ya ha phone :::::::::", value);
     setPhone(value);
     setCountryCode(country.dialCode);
 
-    // Validate the phone number
     if (!value.startsWith(`+${country.dialCode}`)) {
       setIsValid(false);
-      console.log("phone >> ", phone)
     } else {
       setIsValid(true);
-      console.log("phone >> ", phone)
     }
   };
 
@@ -184,6 +155,21 @@ const HomeContact = () => {
           <h1 className="text-[34px] lg:text-[56px] 2xl:text-[60px] font-semibold tracking-0 lg:tracking-[-3.2px] leading-normal lg:leading-[65.35px] 2xl:leading-[70px]">
           Let’s Transform Your Business In The Digital Arena Of Latest Technologies
           </h1>
+          <span className="hidden">Name:</span>{" "}
+          <input type="text" name="name" className="hidden" />
+          <input
+            type="hidden"
+            id="gclid_field"
+            name="gclid_field"
+            value=""
+            className="hidden"
+          />
+          <input
+            type="submit"
+            value="Submit Form"
+            name="btnSubmit"
+            className="hidden"
+          />
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-9">
             <div className="w-full flex flex-col items-start gap-1">
               <label htmlFor="name" className="text-base font-medium">
@@ -194,8 +180,9 @@ const HomeContact = () => {
                 name="name"
                 value={name}
                 onChange={handleNameChange}
-                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 border-b bg-transparent"
+                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 bg-transparent"
                 placeholder="Enter name"
+                style={{ borderBottom: "1px solid silver" }}
               />
               {errors.name && (
                 <span className="text-red-500 text-sm">{errors.name}</span>
@@ -210,8 +197,9 @@ const HomeContact = () => {
                 name="email"
                 value={email}
                 onChange={handleEmailChange}
-                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 border-b bg-transparent"
+                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 bg-transparent"
                 placeholder="Enter email address"
+                style={{ borderBottom: "1px solid silver" }}
               />
               {errors.email && (
                 <span className="text-red-500 text-sm">{errors.email}</span>
@@ -224,51 +212,30 @@ const HomeContact = () => {
                 Phone number<span className="text-[#E94C42]">*</span>
               </label>
               <div className="flex w-full">
-                {/* {showCountryCode && (
-                  <select
-                    value={countryCode}
-                    onChange={(e) => setCountryCode(e.target.value)}
-                    className="text-sm font-normal outline-none py-2 pr-2 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
-                    onBlur={() =>
-                      setTimeout(() => setShowCountryCode(true), 200)
-                    }
-                  >
-                    <option value="+1">+1</option>
-                    <option value="+44">+44</option>
-                    <option value="+91">+91</option>
-                    <option value="+52">+52</option>
-                    <option value="+55">+55</option>
-                    <option value="+54">+54</option>
-                    <option value="+86">+86</option>
-                    <option value="+81">+81</option>
-                    <option value="+49">+49</option>
-                    <option value="+33">+33</option>
-                  </select>
-                )} */}
                 <PhoneInput
                   country={"us"}
                   value={phone}
                   name="phone"
                   onChange={handlePhoneChange}
                   containerStyle={{
-                    width: '100%',
-                    paddingRight: '0px',
-                    fontSize: '16px',
-                    border: 'none',
-                    borderBottom:"1px solid silver",
-                    borderRadius: '0px',
-                    background:"transparent"
+                    width: "100%",
+                    paddingRight: "0px",
+                    fontSize: "16px",
+                    border: "none",
+                    borderBottom: "1px solid silver",
+                    borderRadius: "0px",
+                    background: "transparent",
                   }}
                   inputStyle={{
-                    width: '90%',
-                    height: '100%',
-                    outline: 'none',
-                    border: 'none',
-                    fontSize: '14px',
-                    color:"gray",
-                    padding: '10px 50px',
-                    margin: '0',
-                    background:'transparent'
+                    width: "90%",
+                    height: "100%",
+                    outline: "none",
+                    border: "none",
+                    fontSize: "14px",
+                    color: "gray",
+                    padding: "10px 50px",
+                    margin: "0",
+                    background: "transparent",
                   }}
                   className="text-sm font-normal outline-none py-0 px-1 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
                 />
@@ -291,8 +258,9 @@ const HomeContact = () => {
                 name="message"
                 value={message}
                 onChange={handleMessageChange}
-                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 border-b bg-transparent"
+                className="text-sm font-normal placeholder:text-[#838383] outline-none w-full border border-t-0 border-r-0 border-l-0 py-2 px-1 bg-transparent"
                 placeholder="Type here"
+                style={{ borderBottom: "1px solid silver" }}
               />
               {errors.message && (
                 <span className="text-red-500 text-sm">{errors.message}</span>
@@ -302,7 +270,9 @@ const HomeContact = () => {
           <div className="w-full">
             <button
               type="submit"
-              className="bg-[#F15C20] text-white text-[13px] font-semibold px-8 py-4 rounded-full float-end hover:opacity-[.75] transition-all duration-300"
+              name="form-submit-button"
+              className=" text-white text-[13px] font-semibold px-8 py-4 rounded-full float-end hover:opacity-[.75] transition-all duration-300"
+              style={{ background: "#F15C20" }}
             >
               Submit
             </button>
@@ -310,16 +280,19 @@ const HomeContact = () => {
           {error && <Alert />}
         </form>
 
-        <duv className="col-span-3 lg:col-span-1 hidden xl:flex items-center justify-center p-4 pt-0 lg:p-0">
-          <img
-            src="/top-rated-contact-mockup.png"
-            alt=""
+        <div className="col-span-3 lg:col-span-1 hidden xl:flex items-center justify-center p-4 pt-0 lg:p-0">
+          <Image
+            loader={customLoader}
+            src="/top-rated-contact-mockup.webp"
+            width={402}
+            height={361}
+            alt="top-rated-contact-mockup"
             className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"
           />
-        </duv>
+        </div>
       </div>
     </div>
   );
 };
 
-export default HomeContact;
+export default TopRatedAppDevelopmentContactSection;
