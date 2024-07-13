@@ -75,7 +75,7 @@ const TopRankedCategoriesSection = () => {
             theme === "light" ? "bg-[#F9F9F9] hover:text-white" : "bg-[#2d2d2d]"
           } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
         >
-          <h3 className={`text-xl font-semibold`}>Cross-Platform</h3>
+          <h3 className={`text-xl font-semibold`}>Cross-Platform App Development</h3>
           <p className={``}>
             React Native, Xamarin, and Flutter are the most popular languages to
             increase a project's versatility, efficiency, and speed. Thus, that

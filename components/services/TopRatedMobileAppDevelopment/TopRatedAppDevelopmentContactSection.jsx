@@ -48,7 +48,7 @@ const TopRatedAppDevelopmentContactSection = () => {
     }
     if (phone.length === 0) {
       newErrors.phone = "Phone number cannot be left empty.";
-    } else if (phone.length < 10) {
+    } else if (phone.length < 11) {
       newErrors.phone = "Phone number cannot be less than 10 digits.";
     } else if (phone.length > 15) {
       newErrors.phone = "Phone number cannot be more than 15 digits.";
