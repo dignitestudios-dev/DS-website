@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="robots" content="noindex, nofollow" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         {/* Google Tag Manager script */}
         <Script
