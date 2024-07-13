@@ -37,7 +37,7 @@ const Hero = () => {
       /> */}
       <img
         alt="two mockup screens show the mobile app design services, with multiple icon…"
-        loading="lazy"
+        
         width="1046"
         height="883"
         decoding="async"
