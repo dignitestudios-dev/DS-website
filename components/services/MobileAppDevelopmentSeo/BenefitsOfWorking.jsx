@@ -45,7 +45,7 @@ const BenefitsOfWorking = () => {
         <div
           className={`${
             theme === "light" ? "bg-white" : "bg-[#2d2d2d]"
-          } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
+          } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
@@ -77,7 +77,7 @@ const BenefitsOfWorking = () => {
         <div
           className={`${
             theme === "light" ? "bg-white" : "bg-[#2d2d2d]"
-          } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
+          } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
@@ -106,7 +106,7 @@ const BenefitsOfWorking = () => {
         <div
           className={`${
             theme === "light" ? "bg-white" : "bg-[#2d2d2d]"
-          } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
+          } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
@@ -138,7 +138,7 @@ const BenefitsOfWorking = () => {
         <div
           className={`${
             theme === "light" ? "bg-white" : "bg-[#2d2d2d]"
-          } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
+          } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
@@ -170,7 +170,7 @@ const BenefitsOfWorking = () => {
         <div
           className={`${
             theme === "light" ? "bg-white" : "bg-[#2d2d2d]"
-          } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
+          } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
@@ -205,7 +205,7 @@ const BenefitsOfWorking = () => {
         <div
           className={`${
             theme === "light" ? "bg-white" : "bg-[#2d2d2d]"
-          } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
+          } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
@@ -236,7 +236,7 @@ const BenefitsOfWorking = () => {
         <div
           className={`${
             theme === "light" ? "bg-white" : "bg-[#2d2d2d]"
-          } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
+          } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image
@@ -265,7 +265,7 @@ const BenefitsOfWorking = () => {
         <div
           className={`${
             theme === "light" ? "bg-white" : "bg-[#2d2d2d]"
-          } p-6 rounded-3xl flex flex-col items-start gap-4 lg:h-[312px]`}
+          } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <Image

@@ -57,10 +57,15 @@ const MobileAppWeDevelopSwiper = () => {
             <div className="bg-[#658EFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
               src="/booking-app.webp"
-              title="booking app mobile app development"
               alt="two mockup screens show the booking mobile app development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
             />
+            {/* <img
+              src="/booking-app.webp"
+              title="booking app mobile app development"
+              alt="two mockup screens show the booking mobile app development"
+              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
+            /> */}
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
@@ -69,12 +74,13 @@ const MobileAppWeDevelopSwiper = () => {
               Social Media Apps
             </p>
             <div className="bg-[#A35AFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <img
+            <img src="/social-media-app.webp" alt="Two mockup screens show social media mobile app development" className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"/>
+            {/* <img
               src="/social-media-app.webp"
               title="social media mobile app development"
               alt="Two mockup screens show social media mobile app development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
-            />
+            /> */}
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
@@ -83,12 +89,13 @@ const MobileAppWeDevelopSwiper = () => {
               Ticketing Apps
             </p>
             <div className="bg-[#158F88] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <img
+            <img src="/ticketing-app.webp" alt="two mockup screens show the ticketing mobile app development" class="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"/>          
+              {/* <img
               src="/ticketing-app.webp"
               title="Ticketing mobile app development"
               alt="two mockup screens show the ticketing mobile app development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
-            />
+            /> */}
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
@@ -97,12 +104,13 @@ const MobileAppWeDevelopSwiper = () => {
               Communication Apps
             </p>
             <div className="bg-[#4B88FF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <img
+            <img src="/communication-app.webp" alt="two mockup screens show the dating mobile app development" className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"/>
+            {/* <img
               src="/communication-app.webp"
               title="Dating mobile app development"
               alt="two mockup screens show the dating mobile app development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
-            />
+            /> */}
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
