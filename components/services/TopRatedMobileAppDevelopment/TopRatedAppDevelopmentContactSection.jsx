@@ -286,6 +286,8 @@ const TopRatedAppDevelopmentContactSection = () => {
             src="/top-rated-contact-mockup.webp"
             width={402}
             height={361}
+            decoding="async"
+            data-nimg="1"
             alt="top-rated-contact-mockup"
             className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"
           />

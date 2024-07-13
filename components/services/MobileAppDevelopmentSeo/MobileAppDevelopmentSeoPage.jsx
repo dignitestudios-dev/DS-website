@@ -31,30 +31,37 @@ const MobileAppDevelopmentSeoPage = () => {
       <BenefitsOfWorking />
       <OptimizedProcess />
       <section className="w-full">
-        <div className={`w-full relative ${theme === 'light' && 'bg-[#F9F9F9]'} h-[170px] md:h-[345px] lg:h-[405px] xl:h-[545px] overflow-hidden`}>
+        <div
+          className={`w-full relative ${
+            theme === "light" && "bg-[#F9F9F9]"
+          } h-[170px] md:h-[345px] lg:h-[405px] xl:h-[545px] overflow-hidden`}
+        >
           <h1 className="uppercase font-bold text-sm w-full md:text-3xl lg:text-[48px] z-20 absolute top-[10%] 2xl:top-32 left-1/2 transform -translate-x-1/2 text-center mx-auto">
             <span className="text-[#F15C20]">technologies</span> we’re using
           </h1>
-          {
-            theme === 'dark' ? 
+          {theme === "dark" ? (
             <img
-            width={1440}
-            height={545}
-            src="/Mobile-App-Development-Service-Technologies-dark.png"
-            title="Mobile App Development Service Technologies"
-            alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
-            className="w-full z-10 h-full md:h-[340px] lg:h-full absolute bottom-0"
-          />
-          :
-          <img
-            width={1440}
-            height={545}
-            src="/Mobile-App-Development-Service-Technologies-dark-light.webp"
-            title="Mobile App Development Service Technologies"
-            alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
-            className="w-full z-10 h-full md:h-[340px] lg:h-full absolute bottom-0"
-          />
-          }
+              width={1440}
+              height={545}
+              decoding="async"
+              data-nimg="1"
+              src="/Mobile-App-Development-Service-Technologies-dark.png"
+              title="Mobile App Development Service Technologies"
+              alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
+              className="w-full z-10 h-full md:h-[340px] lg:h-full absolute bottom-0"
+            />
+          ) : (
+            <img
+              width={1440}
+              height={545}
+              decoding="async"
+              data-nimg="1"
+              src="/Mobile-App-Development-Service-Technologies-dark-light.webp"
+              title="Mobile App Development Service Technologies"
+              alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
+              className="w-full z-10 h-full md:h-[340px] lg:h-full absolute bottom-0"
+            />
+          )}
         </div>
       </section>
       <Lifecycle />

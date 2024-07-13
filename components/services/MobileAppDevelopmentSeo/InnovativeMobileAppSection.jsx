@@ -22,7 +22,7 @@ const InnovativeMobileAppSection = () => {
         <div className="py-7 px-6 xl:px-16 flex flex-col items-start gap-4 lg:gap-6">
           <div className="flex flex-col items-center">
             <h3 className="text-xl font-bold text-[#8F8F8F] uppercase">
-              Empower Your Vision 
+              Empower Your Vision
             </h3>
           </div>
 
@@ -43,6 +43,8 @@ const InnovativeMobileAppSection = () => {
           loader={customLoader}
           width={544.12}
           height={557.42}
+          decoding="async"
+          data-nimg="1"
           src="/dignite-service-scope-mockup.webp"
           alt="dignite-service-scope-mockup"
           title="dignite-service-scope-mockup"

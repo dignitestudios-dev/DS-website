@@ -7,6 +7,7 @@ import Navbar from "@/components/global/Navbar";
 
 const MobileAppDevSeoHero = () => {
   const { palette, setIsSidebarOpen, theme } = useContext(GlobalContext);
+  
   return (
     <main className="top-rated-bg bg-black w-full h-[90vh] md:h-[80vh] lg:h-screen flex flex-col justify-start items-start z-0 relative">
       {theme === "light" ? (

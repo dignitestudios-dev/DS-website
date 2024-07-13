@@ -51,6 +51,8 @@ const BenefitsOfWorking = () => {
             <Image
               loader={customLoader}
               width={24}
+              decoding="async"
+              data-nimg="1"
               height={24}
               src="/orange-mobile-app-development-project-outlook-icon.webp"
               alt="Mobile App Development Service Project Outlook Icon"
@@ -84,6 +86,8 @@ const BenefitsOfWorking = () => {
               loader={customLoader}
               width={24}
               height={24}
+              decoding="async"
+              data-nimg="1"
               src="/orange-mobile-app-development-collaboration-icon.webp"
               alt="Mobile App Development Service collaboration icon"
               title="Mobile App Development Service collaboration"
@@ -113,6 +117,8 @@ const BenefitsOfWorking = () => {
               loader={customLoader}
               width={24}
               height={24}
+              decoding="async"
+              data-nimg="1"
               src="/orange-mobile-app-development-cost-estimation-icon.webp"
               alt="Mobile App Development Service Cost estimation App Icon"
               title="Mobile App Development Service Cost Estimation"
@@ -145,6 +151,8 @@ const BenefitsOfWorking = () => {
               loader={customLoader}
               width={24}
               height={24}
+              decoding="async"
+              data-nimg="1"
               src="/orange-mobile-app-development-service-risk-management-icon.webp"
               alt="Mobile App Development Service Risk Management Icon"
               title="Mobile App Development Service Risk Management"
@@ -177,6 +185,8 @@ const BenefitsOfWorking = () => {
               loader={customLoader}
               width={24}
               height={24}
+              decoding="async"
+              data-nimg="1"
               src="/orange-Mobile-App-Development-Project-Documentation-Icon.webp"
               alt="Mobile App Development Project Documentation Icon"
               title="Mobile App Development Project Documentation"
@@ -212,6 +222,8 @@ const BenefitsOfWorking = () => {
               loader={customLoader}
               width={24}
               height={24}
+              decoding="async"
+              data-nimg="1"
               src="/orange-mobile-app-development-service-reporting-icon.webp"
               alt="Mobile App Development Service Reporting Icon"
               title="Mobile App Development Service Reporting"
@@ -243,6 +255,8 @@ const BenefitsOfWorking = () => {
               loader={customLoader}
               width={24}
               height={24}
+              decoding="async"
+              data-nimg="1"
               src="/orange-Mobile-App-Development-Service-Post-launch-Icon.png"
               alt="Mobile App Development Service Post-launch Icon"
               title="Mobile App Development Service Post-launch"
@@ -272,6 +286,8 @@ const BenefitsOfWorking = () => {
               loader={customLoader}
               width={24}
               height={24}
+              decoding="async"
+              data-nimg="1"
               src="/orange-mobile-app-development-change-request-management-icon.webp"
               title="Mobile App Development Change Request Management"
               alt="mobile app development change request management icon"
