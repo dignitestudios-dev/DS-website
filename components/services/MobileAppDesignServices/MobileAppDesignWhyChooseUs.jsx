@@ -74,7 +74,7 @@ const MobileAppDesignWhyChooseUs = () => {
           </div>
         </div>
         <div className="w-full lg:w-[40%] flex justify-end lg:justify-end lg:pt-2">
-          {/* <img
+          <img
             width={453}
             height={583}
             src="/UIUX-Mobile-app-design.webp"
@@ -82,15 +82,7 @@ const MobileAppDesignWhyChooseUs = () => {
             title="UI/UX Mobile app design"
             className="md:h-[475px] md:w-[423px] md:mx-auto xl:me-auto xl:h-[583px]"
             loading="lazy"
-          /> */}
-          <img
-            width="453"
-            height="583"
-            src="/UIUX-Mobile-app-design.webp"
-            alt="Image shows the discussion of UI/UX Mobile app design team"
-            class="md:h-[475px] md:w-[423px] md:mx-auto xl:me-auto xl:h-[583px]"
-            loading="lazy"
-          ></img>
+          />
         </div>
       </div>
     </section>
