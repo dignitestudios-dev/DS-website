@@ -225,6 +225,8 @@ const TopRatedAppDevelopmentContactSection = () => {
                     borderBottom: "1px solid silver",
                     borderRadius: "0px",
                     background: "transparent",
+                    textAlign:'start',
+                    color:'black'
                   }}
                   inputStyle={{
                     width: "90%",

@@ -87,12 +87,20 @@ const ConvenientMobileAppDevelopment = () => {
           <p className="text-[24px] leading-[32.16px]">
             {getSelectedParagraph().description}
           </p>
+          <div className="w-full flex items-center justify-start gap-4">
           <Link
             href={"/contact-us"}
             className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
           >
             Start Your Project
           </Link>
+          <Link
+            href={getSelectedParagraph().page_url}
+            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+          >
+            Explore More
+          </Link>
+          </div>
         </div>
       </div>
 

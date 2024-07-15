@@ -41,11 +41,11 @@ const page = () => {
     <meta property="og:site_name" content="Dignite Studios" />
     <meta
       property="og:title"
-      content="Mobile App Testing Services | Dignite Studios"
+      content="Mobile app testing services | Dignite Studios"
     />
     <meta
       property="og:description"
-      content="Embarke top-tier mobile app testing services from our leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts."
+      content="Embarke top-tier mobile app testing services from the leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts."
     />
     <meta
       property="og:url"

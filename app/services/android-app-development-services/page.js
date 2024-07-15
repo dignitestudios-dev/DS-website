@@ -41,7 +41,7 @@ const page = () => {
     <meta property="og:site_name" content="Dignite Studios" />
     <meta
       property="og:title"
-      content="Mobile app development services | Dignite Studios"
+      content="Android app development services | Dignite Studios"
     />
     <meta
       property="og:description"

@@ -1,38 +1,39 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import React, { useContext, useState, useEffect } from "react";
 import Alert from "../global/Alert";
 import ContactUsAlert from "../global/ContactUsAlert";
+import PhoneInput from "react-phone-input-2";
 
 const ContactUsPage = () => {
   const { palette, theme, setError, error } = useContext(GlobalContext);
   const navigate = useRouter();
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  
+  const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
+  const [countryCode, setCountryCode] = useState("");
+  const [isValid, setIsValid] = useState(true);
+  const pathname = usePathname();
+  console.log("pathname >> ", pathname);
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   };
 
-  const formatPhoneNumber = (phoneNumber) => {
-    const formattedNumber = phoneNumber.replace(
-      /^(\d{3})(\d{3})(\d{4})$/,
-      "($1) $2-$3"
-    );
-    return formattedNumber;
+  const validateName = (name) => {
+    return name.length > 0;
   };
+
+  const validateMessage = (message) => {
+    return message.length > 0;
+  };
+
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
-
-    const name = formData.get("name");
-    const email = formData.get("email");
-    const phone = formData.get("phone");
-    const message = formData.get("message");
 
     const newErrors = {};
     if (name === "") {
@@ -45,10 +46,10 @@ const ContactUsPage = () => {
     }
     if (phone.length === 0) {
       newErrors.phone = "Phone number cannot be left empty.";
-    } else if (phone.length < 10) {
-      newErrors.phone = "Phone number can not be less than 10 digits.";
-    } else if (phone.length > 11) {
-      newErrors.phone = "Phone number can not be more than 11 digits.";
+    } else if (phone.length < 11) {
+      newErrors.phone = "Phone number cannot be less than 10 digits.";
+    } else if (phone.length > 15) {
+      newErrors.phone = "Phone number cannot be more than 15 digits.";
     }
     if (message === "") {
       newErrors.message = "Message cannot be left empty.";
@@ -57,14 +58,13 @@ const ContactUsPage = () => {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      const formattedNumber = formatPhoneNumber(phone);
-
       const data1 = new URLSearchParams();
       //Using entry ids from Google forms config
       data1.append("entry.1883330900", name); // Name field
       data1.append("entry.39421230", email); // Email field
-      data1.append("entry.769267793", formattedNumber); // Phone field
+      data1.append("entry.769267793", phone); // Phone field
       data1.append("entry.1280467825", message); // Message field
+      data1.append("entry.764492805", pathname); // Page field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
@@ -76,6 +76,77 @@ const ContactUsPage = () => {
         .catch((error) => {
           setError("Something went wrong.");
         });
+    }
+  };
+
+  const handleNameChange = (e) => {
+    const value = e.target.value;
+    setName(value);
+    if (!validateName(value)) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        name: "Name cannot be left empty.",
+      }));
+    } else {
+      setErrors((prevErrors) => {
+        const { name, ...rest } = prevErrors;
+        return rest;
+      });
+    }
+  };
+
+  const handleEmailChange = (e) => {
+    const value = e.target.value;
+    setEmail(value);
+    if (!validateEmail(value)) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        email: "Email must be a valid email.",
+      }));
+    } else {
+      setErrors((prevErrors) => {
+        const { email, ...rest } = prevErrors;
+        return rest;
+      });
+    }
+  };
+
+  const handleMessageChange = (e) => {
+    const value = e.target.value;
+    setMessage(value);
+    if (!validateMessage(value)) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        message: "Message cannot be left empty.",
+      }));
+    } else {
+      setErrors((prevErrors) => {
+        const { message, ...rest } = prevErrors;
+        return rest;
+      });
+    }
+  };
+
+  // const handlePhoneChange = (value, country) => {
+  //   setPhone(value);
+  //   setCountryCode(country.dialCode);
+
+  //   if (!value.startsWith(`+${country.dialCode}`)) {
+  //     setIsValid(false);
+  //   } else {
+  //     setIsValid(true);
+  //   }
+  // };
+
+
+  const handlePhoneChange = (value, country) => {
+    setPhone(value);
+    setCountryCode(country.dialCode);
+
+    if (!value.startsWith(`+${country.dialCode}`)) {
+      setIsValid(false);
+    } else {
+      setIsValid(true);
     }
   };
   return (
@@ -118,7 +189,7 @@ const ContactUsPage = () => {
               >
                 Name
               </span>
-              <input
+              {/* <input
                 type="text"
                 className="w-full  outline-none focus h-9 bg-transparent "
                 placeholder="Enter your name"
@@ -132,7 +203,26 @@ const ContactUsPage = () => {
                   }`,
                 }}
               />
-              {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
+              {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>} */}
+               <input
+                type="text"
+                name="name"
+                value={name}
+                onChange={handleNameChange}
+                className="w-full  outline-none focus h-9 bg-transparent "
+                placeholder="Enter your name"
+                id="name"
+                style={{
+                  borderBottom: `2px solid ${
+                    theme == "light"
+                      ? "#D1D1D1"
+                      : palette?.dark_contrast_background
+                  }`,
+                }}
+              />
+              {errors.name && (
+                <span className="text-red-500 text-sm">{errors.name}</span>
+              )}
             </div>
 
             <div className="w-full flex flex-col gap-1 justify-start items-start">
@@ -142,7 +232,7 @@ const ContactUsPage = () => {
               >
                 Email
               </span>
-              <input
+              {/* <input
                 type="email"
                 id="email"
                 name="email"
@@ -158,7 +248,25 @@ const ContactUsPage = () => {
                   }`,
                 }}
               />
-              {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
+              {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>} */}
+              <input
+                type="email"
+                name="email"
+                value={email}
+                onChange={handleEmailChange}
+                className="w-full  outline-none focus h-9 bg-transparent "
+                placeholder="Enter your email"
+                style={{
+                  borderBottom: `2px solid ${
+                    theme == "light"
+                      ? "#D1D1D1"
+                      : palette?.dark_contrast_background
+                  }`,
+                }}
+              />
+              {errors.email && (
+                <span className="text-red-500 text-sm">{errors.email}</span>
+              )}
             </div>
             <div className="w-full flex flex-col gap-1 justify-start items-start">
               <span
@@ -167,7 +275,7 @@ const ContactUsPage = () => {
               >
                 Phone Number
               </span>
-              <input
+              {/* <input
                 type="number"
                 id="phone"
                 name="phone"
@@ -183,7 +291,43 @@ const ContactUsPage = () => {
                       : palette?.dark_contrast_background
                   }`,
                 }}
-              />
+              /> */}
+              <div className="flex w-full">
+                <PhoneInput
+                  country={"us"}
+                  value={phone}
+                  name="phone"
+                  onChange={handlePhoneChange}
+                  containerStyle={{
+                    width: "100%",
+                    paddingRight: "0px",
+                    fontSize: "16px",
+                    border: "none",
+                    borderBottom: "1px solid silver",
+                    borderRadius: "0px",
+                    background: "transparent",
+                    textAlign:'start',
+                    color:'black'
+                  }}
+                  inputStyle={{
+                    width: "90%",
+                    height: "100%",
+                    outline: "none",
+                    border: "none",
+                    fontSize: "14px",
+                    color: "gray",
+                    padding: "10px 50px",
+                    margin: "0",
+                    background: "transparent",
+                  }}
+                  className="text-sm font-normal outline-none py-0 px-1 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
+                />
+                <style jsx>{`
+                  .invalid input {
+                    border: none !important;
+                  }
+                `}</style>
+              </div>
               {errors.phone && <span className="text-red-500 text-sm">{errors.phone}</span>}
             </div>
 
@@ -194,7 +338,7 @@ const ContactUsPage = () => {
               >
                 Message
               </span>
-              <input
+              {/* <input
                 type="text"
                 id="message"
                 name="message"
@@ -208,7 +352,25 @@ const ContactUsPage = () => {
                   }`,
                 }}
               />
-              {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>}
+              {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>} */}
+              <input
+                type="text"
+                name="message"
+                value={message}
+                onChange={handleMessageChange}
+                className="w-full  outline-none focus h-9 bg-transparent "
+                placeholder="Enter your message here"
+                style={{
+                  borderBottom: `2px solid ${
+                    theme == "light"
+                      ? "#D1D1D1"
+                      : palette?.dark_contrast_background
+                  }`,
+                }}
+              />
+              {errors.message && (
+                <span className="text-red-500 text-sm">{errors.message}</span>
+              )}
             </div>
 
             <button
