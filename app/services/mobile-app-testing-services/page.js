@@ -4,6 +4,12 @@ import Head from "next/head";
 import Script from "next/script";
 import React from "react";
 
+export const metadata = {
+  title: "Mobile app testing services | Dignite Studios",
+  description:
+    "Embarke top-tier mobile app testing services from the leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts.",
+};
+
 const page = () => {
   <Head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

@@ -4,6 +4,11 @@ import Head from "next/head";
 import Script from "next/script";
 import React from "react";
 
+export const metadata = {
+  title: "Mobile app consulting services | Dignite Studios",
+  description: "Explore professional mobile application consulting services with our expert agency to thrive your innovative application solutions. Here, you’ll experience modern mobile application development strategies to make your company bulge out. ",
+};
+
 const breadcrumbData = {
   "@context": "https://schema.org/",
   "@type": "BreadcrumbList",

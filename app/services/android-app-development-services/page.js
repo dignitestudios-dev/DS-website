@@ -4,6 +4,11 @@ import Head from "next/head";
 import Script from "next/script";
 import React from "react";
 
+export const metadata = {
+  title: "Android app development services | Dignite Studios",
+  description: "The first-class Android app development company Dignite Studios bequeath exceptional standards of mobile app development so that the agency can fulfill custom application solutions and other mobile projects adeptly. ",
+};
+
 const page = () => {
   <Head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

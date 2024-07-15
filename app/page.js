@@ -4,6 +4,11 @@ import Head from "next/head";
 import Script from "next/script";
 import React from "react";
 
+export const metadata = {
+  title: "Top Mobile App Development Company | Dignite Studios",
+  description: "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
+};
+
 const page = () => {
   <Head>
     <title>Dignite Studios</title>
