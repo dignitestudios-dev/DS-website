@@ -35,7 +35,7 @@ const TopRatedPageOurOffices = () => {
         />
         <OfficeCard
           image={"/pakistan-office.png"}
-          title={"Karachi, Pakistan"}
+          title={"Karachi, PK"}
           address={
             "Suite 104, Emarah Suites, Shahrah-E-Faisal, Block A, Karachi, Sindh 75400, Pakistan"
           }
