@@ -199,7 +199,7 @@ const page = () => {
           __html: `
             {
               "@context": "http://schema.org",
-              "@type": "Service", // Corrected type to "Service"
+              "@type": "Product", // Corrected type to "Product"
               "name": "Mobile App Development Company",
               "aggregateRating": {
                 "@type": "AggregateRating",
