@@ -2,7 +2,6 @@ User-agent: *
 Disallow: ios-app-development
 Disallow: android-app-development
 Disallow: web-app-development
+Disallow: mobile-app-development
 
 https://www.dignitestudios.com/sitemap.xml
-
-Crawl-delay: 5

@@ -67,7 +67,7 @@ const MobileAppServiceCard = () => {
       are willing to pay more for the apps via the Apple App Store. With those
       concerns, our highly skillful mobile app development body uses integrated
       Apple Xcode to test, build, and package apps. Whereas,{" "}
-      <Link href="/services/ios-app-development" className="text-orange-600">
+      <Link href="/" className="">
         iOS app development services
       </Link>{" "}
       can play a vital role in forming an effective iOS application.
@@ -185,7 +185,7 @@ const MobileAppServiceCard = () => {
         href="/services/mobile-app-consulting-services"
         className="text-orange-600"
       >
-        mobil app consulting services
+        mobile app consulting services
       </Link>{" "}
       to provide you with free consultation on your mobile app development.
       Also, our experts are available 24/7 to assist you on call. So, don’t wait
