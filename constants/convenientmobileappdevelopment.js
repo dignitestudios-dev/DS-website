@@ -71,10 +71,18 @@ export const items = [
   {
     heading: "Mobile App Design",
     text: "It’s no wonder that mobile applications have escalated in terms of designs, functions, and features. Here, at Dignite Studios our highly skillful and dedicated team can make your mobile applications flawless and innovative UI/UX design to create engaging visual elements in mobile applications. Therefore, we assure the best mobile app design services in the USA.",
+    image: "/top-mobile-app-design-services.png",
+    image_title:"top mobile app design services",
+    image_alt:"image shows man is holding a mobile device that appears top mobile app design interface",
+    page_url:"/services/mobile-app-design-services"
   },
   {
     heading: "Mobile App Development",
     text: "Mobile application development is a fast-paced emerging field of new trends and the latest deployment strategies to boost business in the digital world. Whereas, our mobile app development services produce different types of mobile applications such as basic apps, complex apps, unique apps, and separate apps. Thus, if you’re frustrated and making common mistakes in the deployment of your app, here is our dedicated team of mobile app design services to produce a thriving master plan to design native, hybrid, and cross-platform mobile development apps. Whereas, it can robust your entire business structure and transit your concept to code efficiently like Facebook, Gmail, and YouTube.",
+    image: "/top-mobile-app-development-services.png",
+    image_title:"top mobile app development services",
+    image_alt:" image shows man is holding a mobile device that appears top mobile app development layout",
+    page_url:"/services/mobile-app-development-services"
   },
   {
     heading: "Mobile Consulting",

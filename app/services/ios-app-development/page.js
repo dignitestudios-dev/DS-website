@@ -4,9 +4,9 @@ import Head from "next/head";
 import React from "react";
 
 const page = () => {
-  <Head>
+  <head>
     <meta name="robots" content="noindex, nofollow" />
-  </Head>;
+  </head>;
   return <ServicesLayout page={<IosAppPage />} />;
 };
 
