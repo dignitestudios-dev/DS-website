@@ -3,6 +3,8 @@ import { items } from "@/constants/mobileappdevsectionaccordion";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext, useState } from "react";
 import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from "react-icons/md";
+import { FiMinus, FiPlus } from "react-icons/fi";
+import { IoClose } from "react-icons/io5";
 
 const MobileAppDevSectionAccordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -19,7 +21,7 @@ const MobileAppDevSectionAccordion = () => {
     };
 
     return (
-      <section key={index} className="w-full">
+      <section key={index} className="w-full xl:w-[75%] mx-auto">
         <button
           onClick={() => onTitleClick(index)}
           style={{
@@ -27,25 +29,23 @@ const MobileAppDevSectionAccordion = () => {
             fontWeight: "bold",
             marginBottom: "15px",
           }}
-          className="w-full border-b py-2 flex items-center justify-start gap-3"
+          className="w-full border-b pb-6 pt-3 flex items-center justify-start gap-3 xl:gap-6 outline-none"
         >
-          <span className={`${isActive ? "text-[#5C5C5C]" : "text-[#5C5C5C]"} font-normal text-lg`}>
-            0{index + 1}/
+          <span className={`${isActive ? "text-[#5C5C5C]" : "text-[#B4B4B4]"} font-bold text-xl`}>
+            0{index + 1}.
           </span>
           <p
-            className={`cursor-pointer w-full flex items-center justify-between gap-3 text-xl ${
+            className={`cursor-pointer w-full flex items-center justify-between gap-3 text-xl lg:text-[32px] font-semibold ${
               isActive ? "text-[#F15C20]" :  `${theme === "dark" ? 'text-white' : 'text-black'}`
             }`}
           >
             <span>{item.title}</span>
           </p>
-          <span className="w-6 h-5 bg-[#F15C20] rounded-full">
-            {isActive ? <MdOutlineKeyboardArrowUp className="text-white w-5 h-5"/> : <MdOutlineKeyboardArrowDown className="text-white w-5 h-5"/>}
-          </span>
+            {isActive ? <IoClose className="text-orange-600 w-8 h-8"/> : <FiPlus className="text-gray-600 w-8 h-8"/>}
         </button>
-        <div style={contentStyle} className="pb-2">
+        <div style={contentStyle} className="xl:pl-14">
           <p
-            className={`text-sm md:text-base xl:leading-[32.16px] ${
+            className={`text-sm md:text-base mb-4 xl:leading-[22.16px] ${
               theme === "light" && "text-[#2A2A2A]"
             }`}
           >
