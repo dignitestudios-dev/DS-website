@@ -31,7 +31,7 @@ const MobileAppDevSectionAccordion = () => {
           }}
           className="w-full border-b pb-6 pt-3 flex items-center justify-start gap-3 xl:gap-6 outline-none"
         >
-          <span className={`${isActive ? "text-[#5C5C5C]" : "text-[#B4B4B4]"} font-bold text-xl`}>
+          <span className={`${isActive ? "text-[#191919]" : "text-[#B4B4B4]"} font-bold text-xl`}>
             0{index + 1}.
           </span>
           <p
