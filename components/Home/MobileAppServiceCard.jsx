@@ -225,7 +225,7 @@ const MobileAppServiceCard = () => {
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore ? "Show Less" : "Show More"}
+              {showMore2 ? "Show Less" : "Show More"}
             </button>
           </div>
         </div>
@@ -254,12 +254,12 @@ const MobileAppServiceCard = () => {
               {showMore3 ? paragraphFull3 : paragraphShort3}
             </p>
             <button
-              onClick={handleShowMor2}
+              onClick={handleShowMore3}
               className={`text-[13px] font-semibold ${
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore ? "Show Less" : "Show More"}
+              {showMore3 ? "Show Less" : "Show More"}
             </button>
           </div>
         </div>
@@ -288,12 +288,12 @@ const MobileAppServiceCard = () => {
               {showMore4 ? paragraphFull4 : paragraphShort4}
             </p>
             <button
-              onClick={handleShowMor2}
+              onClick={handleShowMore4}
               className={`text-[13px] font-semibold ${
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore ? "Show Less" : "Show More"}
+              {showMore4 ? "Show Less" : "Show More"}
             </button>
           </div>
         </div>
@@ -322,12 +322,12 @@ const MobileAppServiceCard = () => {
               {showMore5 ? paragraphFull5 : paragraphShort5}
             </p>
             <button
-              onClick={handleShowMor2}
+              onClick={handleShowMore5}
               className={`text-[13px] font-semibold ${
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore ? "Show Less" : "Show More"}
+              {showMore5 ? "Show Less" : "Show More"}
             </button>
           </div>
         </div>
@@ -356,12 +356,12 @@ const MobileAppServiceCard = () => {
               {showMore6 ? paragraphFull6 : paragraphShort6}
             </p>
             <button
-              onClick={handleShowMor2}
+              onClick={handleShowMore6}
               className={`text-[13px] font-semibold ${
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore ? "Show Less" : "Show More"}
+              {showMore6 ? "Show Less" : "Show More"}
             </button>
           </div>
         </div>
