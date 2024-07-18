@@ -3,7 +3,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
 
-const MobileAppTestingInRealTime = () => {
+const TopNotchIosApp = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div className="w-full py-6 lg:py-12 global-padding-horizontal">
@@ -13,9 +13,12 @@ const MobileAppTestingInRealTime = () => {
         }`}
       >
         <div className="flex flex-col items-start gap-5 w-full xl:w-[55%] p-6 lg:p-14">
-          <h1 className="text-2xl lg:text-[48px] font-bold lg:leading-[54.94px] tracking-tighter">
-            <span className="text-[#F15C20]">Mobile App</span> Testing In <br />{" "}
-            Real Time
+            <div className="flex flex-col items-start">
+                <h1 className="text-[#F15C20] font-extrabold text-xl uppercase">top-notch ios application</h1>
+            </div>
+          <h1 className="text-2xl lg:text-[48px] xl:text-[74px] font-bold lg:leading-[74.94px] tracking-tighter">
+            Development <br />{" "}
+            Company
           </h1>
           <p
             className={`text-base font-normal ${
@@ -31,8 +34,8 @@ const MobileAppTestingInRealTime = () => {
             digital landscape
           </p>
           <div>
-            <Link href={'/contact-us'} className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full">
-              Let’s discuss your project
+            <Link href={'/contactu-us'} className="py-4 px-[20px] bg-[#F15C20] text-white text-base font-semibold rounded-full">
+              Let’s Start the Project
             </Link>
           </div>
         </div>
@@ -55,4 +58,4 @@ const MobileAppTestingInRealTime = () => {
   );
 };
 
-export default MobileAppTestingInRealTime;
+export default TopNotchIosApp;
