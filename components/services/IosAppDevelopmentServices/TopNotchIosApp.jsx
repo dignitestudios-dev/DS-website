@@ -22,7 +22,7 @@ const TopNotchIosApp = () => {
             </h1>
             <img src="/wide-lines.png" alt="" />
           </div>
-          <h1 className="text-3xl lg:text-[48px] xl:text-[64px] font-bold lg:leading-[64.94px] tracking-tighter">
+          <h1 className="text-3xl lg:text-[48px] xl:text-[68px] 2xl:text-[72px] font-bold lg:leading-[64.94px] tracking-tighter">
             Development <br /> Company
           </h1>
           <p

@@ -15,7 +15,7 @@ const VariousIndustriesSection = () => {
           </h1>
           <h2 className={`headings-size`}>Various Industries</h2>
           <p
-            className={`text-[15px] my-4 font-normal ${
+            className={`text-[18px] my-4 font-normal ${
               theme === "light" && "text-[#2A2A2A]"
             }`}
           >
