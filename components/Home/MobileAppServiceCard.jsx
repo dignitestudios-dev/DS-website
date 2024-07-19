@@ -230,7 +230,7 @@ const MobileAppServiceCard = () => {
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore ? "Show Less" : "Show More"}
+              {showMore ? "Show less" : "Show more"}
             </button>
           </div>
         </div>
@@ -264,7 +264,7 @@ const MobileAppServiceCard = () => {
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore2 ? "Show Less" : "Show More"}
+              {showMore2 ? "Show less" : "Show more"}
             </button>
           </div>
         </div>
@@ -298,7 +298,7 @@ const MobileAppServiceCard = () => {
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore3 ? "Show Less" : "Show More"}
+              {showMore3 ? "Show less" : "Show more"}
             </button>
           </div>
         </div>
@@ -332,7 +332,7 @@ const MobileAppServiceCard = () => {
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore4 ? "Show Less" : "Show More"}
+              {showMore4 ? "Show less" : "Show more"}
             </button>
           </div>
         </div>
@@ -367,7 +367,7 @@ const MobileAppServiceCard = () => {
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore5 ? "Show Less" : "Show More"}
+              {showMore5 ? "Show less" : "Show more"}
             </button>
           </div>
         </div>
@@ -402,7 +402,7 @@ const MobileAppServiceCard = () => {
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore6 ? "Show Less" : "Show More"}
+              {showMore6 ? "Show less" : "Show more"}
             </button>
           </div>
         </div>
@@ -437,7 +437,7 @@ const MobileAppServiceCard = () => {
                 theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
               }`}
             >
-              {showMore7 ? "Show Less" : "Show More"}
+              {showMore7 ? "Show less" : "Show more"}
             </button>
           </div>
         </div>

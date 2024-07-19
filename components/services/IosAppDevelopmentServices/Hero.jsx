@@ -14,7 +14,7 @@ const Hero = () => {
     setShowIcons(true);
   };
   return (
-    <main className="w-full h-[105vh] 2xl:h-[80vh] border-b flex flex-col pt-2 md:pt-10  gap-4 justify-start items-center overflow-x-hidden xl:global-padding-horizontal text-center">
+    <main className="w-full h-[105vh] 2xl:h-[80vh] flex flex-col pt-2 md:pt-10  gap-4 justify-start items-center overflow-x-hidden xl:global-padding-horizontal text-center">
       <h1
         style={{
           color: palette?.color,
