@@ -4,6 +4,12 @@
 
 /*  */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 /* / width /  */
 ::-webkit-scrollbar {
   width: 6px;
@@ -851,7 +857,6 @@ input:hover {
     content: "";
     z-index: 2;
   }
-  
 }
 
 /* slider 2 */
@@ -906,8 +911,6 @@ input:hover {
   margin: 0 30px;
 }
 
-
-
 .logos2Dark {
   overflow: hidden;
   padding: 10px 0;
@@ -953,14 +956,14 @@ input:hover {
   }
 
   .logos2Dark:before,
-.logos2Dark:after {
-  position: absolute;
-  top: 0;
-  width: 150px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
+  .logos2Dark:after {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
 }
 
 /* influential */
@@ -993,7 +996,7 @@ input:hover {
 }
 
 .headings-size {
-  @apply lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[80px] tracking-tighter xl:font-bold;
+  @apply font-bold uppercase lg:font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[80px] tracking-tighter xl:font-bold;
 }
 
 .mockup-shadow {
@@ -1052,34 +1055,261 @@ input:hover {
   }
 }
 
-
-.high-powered{
-  background-image: url('/hero-heading-border.png');
+.high-powered {
+  background-image: url("/hero-heading-border.png");
   background-position: center;
   background-size: contain;
   margin-right: 2px;
   background-repeat: no-repeat;
   width: 110% !important;
-  @apply p-2 pb-3 lg:p-3 lg:pb-4 xl:p-4 xl:pb-6
-
+  @apply p-2 pb-3 lg:p-3 lg:pb-4 xl:p-4 xl:pb-6;
 }
 
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTggMTgiIHZlcnNpb249IjEuMSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4Ij4KPHBhdGggZD0iTTAgMTBsNiA2IDYtNkgweiIgZmlsbD0iIzAwMCIvPgo8cGF0aCBkPSJNMTggOGwtNi02LTYgNmgxMnYxMnoiIGZpbGw9IiMwMDAiLz4KPC9zdmc+Cg==') no-repeat right 10px center;
-  padding-right: 10px; 
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTggMTgiIHZlcnNpb249IjEuMSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4Ij4KPHBhdGggZD0iTTAgMTBsNiA2IDYtNkgweiIgZmlsbD0iIzAwMCIvPgo8cGF0aCBkPSJNMTggOGwtNi02LTYgNmgxMnYxMnoiIGZpbGw9IiMwMDAiLz4KPC9zdmc+Cg==")
+    no-repeat right 10px center;
+  padding-right: 10px;
 }
 
-.selected-flag{
+.selected-flag {
   border: none !important;
 }
 
-image{
+image {
   object-fit: contain !important;
 }
 
-.bg-orange{
-  background: #9F310E;
+.bg-orange {
+  background: #9f310e;
+}
+
+/* ios app dev service animations */
+
+/* @keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.container {
+  position: relative;
+  width: 182px; 
+  height: 182px;
+  margin: 0 auto;
+}
+
+.container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.apple-icon {
+  animation: fadeOut 3s ease-in-out forwards;
+}
+
+.person-face {
+  opacity: 0;
+  animation: fadeIn 3s ease-in-out forwards;
+  animation-delay: 3s;
+} */
+
+/* styles.css */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes moveIconTop {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(20%, -230%);
+    opacity: 1;
+  }
+}
+
+@keyframes moveIconRight {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(240%, -80%);
+    opacity: 1;
+  }
+}
+
+@keyframes moveIconBottom {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(180%, 150%);
+    opacity: 1;
+  }
+}
+
+@keyframes moveIconLeft {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-160%, 160%);
+    opacity: 1;
+  }
+}
+
+@keyframes moveIconTopRight {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-230%, -70%);
+    opacity: 1;
+  }
+}
+
+.container {
+  position: relative;
+  margin: 0 auto !important;
+}
+
+.mt{
+  margin-top: 30px !important;
+  position: relative;
+  left: -40px !important;
+  top: -11px !important;
+}
+
+.mt2{
+  margin-top: 60px !important;
+  position: relative;
+  left: -40px !important;
+  top: -11px !important;
+}
+
+.container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.apple-icon {
+  animation: fadeOut 1s ease-in-out forwards;
+}
+
+.person-face {
+  opacity: 0;
+  /* margin-top: 20px !important; */
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  opacity: 0;
+}
+
+.icon-1 {
+  animation: moveIconTop 1s ease-in-out forwards;
+  animation-delay: 0s;
+}
+
+.icon-2 {
+  animation: moveIconRight 1s ease-in-out forwards;
+  animation-delay: 0s;
+}
+
+.icon-3 {
+  animation: moveIconBottom 1s ease-in-out forwards;
+  animation-delay: 0s;
+}
+
+.icon-4 {
+  animation: moveIconLeft 1s ease-in-out forwards;
+  animation-delay: 0s;
+}
+
+.icon-5 {
+  animation: moveIconTopRight 1s ease-in-out forwards;
+  animation-delay: 0s;
+}
+
+/* for rotating the icons */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translateX(0);
+  }
+  100% {
+    transform: rotate(20deg) translateX(20px); /* Adjust the translateX value as needed */
+  }
+}
+
+.rotating-image {
+  animation: rotate 1.5s infinite alternate;
+  display: block;
+}
+
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  100% {
+    transform: translateX(0); /* End at the original position */
+  }
+}
+
+.slide-left-on-load {
+  animation: slideLeft 1s ease-out; /* Adjust duration and easing as needed */
+  animation-delay: 0s;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the right */
+  }
+  100% {
+    transform: translateX(0); /* End at the original position */
+  }
+}
+
+.slide-right-on-load {
+  animation: slideRight 1s ease-out; /* Adjust duration and easing as needed */
+  animation-delay: 0s;
 }

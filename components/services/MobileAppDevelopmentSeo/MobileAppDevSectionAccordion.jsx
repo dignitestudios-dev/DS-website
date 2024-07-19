@@ -1,12 +1,11 @@
 "use client";
-import { items } from "@/constants/mobileappdevsectionaccordion";
+// import { items } from "@/constants/mobileappdevsectionaccordion";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext, useState } from "react";
-import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from "react-icons/md";
-import { FiMinus, FiPlus } from "react-icons/fi";
+import { FiPlus } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
 
-const MobileAppDevSectionAccordion = () => {
+const MobileAppDevSectionAccordion = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(null);
   const { theme } = useContext(GlobalContext);
 
@@ -29,19 +28,29 @@ const MobileAppDevSectionAccordion = () => {
             fontWeight: "bold",
             marginBottom: "15px",
           }}
-          className="w-full border-b pb-6 pt-3 flex items-center justify-start gap-3 xl:gap-6 outline-none"
+          className="w-full border-b pb-3 md:pb-6 pt-0 md:pt-3 flex items-center justify-start gap-3 xl:gap-6 outline-none"
         >
-          <span className={`${isActive ? "text-[#191919]" : "text-[#B4B4B4]"} font-bold text-xl`}>
+          <span
+            className={`${
+              isActive ? `${theme === 'light' ? 'text-[#191919]': 'text-[#F15C20]'}` : "text-[#B4B4B4]"
+            } font-bold text-xl`}
+          >
             0{index + 1}.
           </span>
           <p
-            className={`cursor-pointer w-full flex items-center justify-between gap-3 text-xl lg:text-[32px] font-semibold ${
-              isActive ? "text-[#F15C20]" :  `${theme === "dark" ? 'text-white' : 'text-black'}`
+            className={`cursor-pointer w-full flex items-center justify-start text-start gap-3 text-lg md:text-xl lg:text-[32px] font-bold lg:font-semibold ${
+              isActive
+                ? "text-[#F15C20]"
+                : `${theme === "dark" ? "text-white" : "text-black"}`
             }`}
           >
             <span>{item.title}</span>
           </p>
-            {isActive ? <IoClose className="text-orange-600 w-8 h-8"/> : <FiPlus className="text-gray-600 w-8 h-8"/>}
+          {isActive ? (
+            <IoClose className="text-orange-600 w-8 h-8" />
+          ) : (
+            <FiPlus className={`${theme === 'light' ? 'text-gray-600' : 'text-[#B4B4B4]'} w-8 h-8`} />
+          )}
         </button>
         <div style={contentStyle} className="xl:pl-14">
           <p

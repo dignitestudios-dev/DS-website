@@ -45,7 +45,7 @@ const ProcessCard = ({ title, desc, count, num }) => {
           {title}
         </h1>
         <p
-          className={`text-sm  leading-[16.14px] ${
+          className={`text-sm leading-[19.14px] ${
             theme == "dark"
               ? "text-gray-200 group-hover:text-gray-200"
               : "text-[#8f8f8f] group-hover:text-gray-200"

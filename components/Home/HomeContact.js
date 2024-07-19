@@ -152,7 +152,7 @@ const TopRatedAppDevelopmentContactSection = () => {
           onSubmit={handleSubmit}
           className="col-span-3 xl:col-span-2 flex flex-col items-start gap-8 p-4 2xl:gap-10 lg:p-12 2xl:p-24"
         >
-          <h1 className="text-[34px] lg:text-[56px] 2xl:text-[60px] font-semibold tracking-0 lg:tracking-[-3.2px] leading-normal lg:leading-[65.35px] 2xl:leading-[70px]">
+          <h1 className="text-[34px] lg:text-[56px] 2xl:text-[60px] font-semibold tracking-0 lg:tracking-[-3px] leading-normal lg:leading-[65.35px] 2xl:leading-[70px]">
           Let’s Transform Your Business In The Digital Arena Of Latest Technologies
           </h1>
           <span className="hidden">Name:</span>{" "}
