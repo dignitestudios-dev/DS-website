@@ -105,10 +105,10 @@ const Navbar = ({ setIsOpen }) => {
               Android App Development Services
             </Link>
             <Link
-              href="/services/ios-app-development"
+              href="/services/ios-app-development-services"
               className={`hover:text-orange-600 `}
             >
-              IOS App Development
+              IOS App Development Services
             </Link>
             <Link
               href="/services/web-app-development"

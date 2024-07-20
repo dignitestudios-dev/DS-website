@@ -245,10 +245,10 @@ const Footer = () => {
             Android App Development Services
           </Link>
           <Link
-            href="/services/ios-app-development"
+            href="/services/ios-app-development-services"
             className="hover:text-orange-500"
           >
-            IOS App Development
+            IOS App Development Services
           </Link>
           <Link
             href="/services/web-app-development"

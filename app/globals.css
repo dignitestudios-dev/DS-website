@@ -1198,23 +1198,10 @@ image {
   }
 }
 
+
 .container {
   position: relative;
   margin: 0 auto !important;
-}
-
-.mt{
-  margin-top: 30px !important;
-  position: relative;
-  left: -40px !important;
-  top: -11px !important;
-}
-
-.mt2{
-  margin-top: 60px !important;
-  position: relative;
-  left: -40px !important;
-  top: -11px !important;
 }
 
 .container img {
@@ -1247,7 +1234,7 @@ image {
 
 .icon-1 {
   animation: moveIconTop 1s ease-in-out forwards;
-  animation-delay: 0s;
+  animation-delay: 0s;    
 }
 
 .icon-2 {
@@ -1269,22 +1256,6 @@ image {
   animation: moveIconTopRight 1s ease-in-out forwards;
   animation-delay: 0s;
 }
-
-/* for rotating the icons */
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg) translateX(0);
-  }
-  100% {
-    transform: rotate(20deg) translateX(20px); /* Adjust the translateX value as needed */
-  }
-}
-
-.rotating-image {
-  animation: rotate 1.5s infinite alternate;
-  display: block;
-}
-
 
 @keyframes slideLeft {
   0% {
@@ -1312,4 +1283,75 @@ image {
 .slide-right-on-load {
   animation: slideRight 1s ease-out; /* Adjust duration and easing as needed */
   animation-delay: 0s;
+}
+
+.mt{
+  margin-top: 30px !important;
+  position: relative;
+  left: -40px !important;
+  top: -11px !important;
+}
+
+.mt2{
+  margin-top: 60px !important;
+  position: relative;
+  left: -40px !important;
+  top: -11px !important;
+}
+
+
+/* for rotating the icons */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translateX(0);
+  }
+  100% {
+    transform: rotate(20deg) translateX(20px); /* Adjust the translateX value as needed */
+  }
+}
+
+.rotating-image {
+  animation: moveIconTop rotate 1.5s infinite alternate;
+  display: block;
+}
+
+
+/*  */
+@keyframes moveIconTop1 {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(20%, -230%);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate1 {
+  0% {
+    transform: rotate(0deg) translateX(0);
+  }
+  100% {
+    transform: rotate(20deg) translateX(20px);
+  }
+}
+
+.move-icon-top1 {
+  animation: moveIconTop1 1.5s forwards;
+}
+
+.rotating-image1 {
+  /* transform: rotate(20deg) translateX(20px); */
+  animation: rotate1 1.5s infinite alternate;
+  /* Ensure the final state is preserved */
+  /* animation-fill-mode: forwards; */
+}
+
+.icons-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  opacity: 0;
 }

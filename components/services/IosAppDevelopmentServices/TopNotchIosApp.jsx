@@ -46,11 +46,11 @@ const TopNotchIosApp = () => {
           </div>
         </div>
         <img
-          src="/ios-app-mockup.webp"
+          src="/ios-application-development-company.webp"
           width={310}
           height={488}  
-          alt="the mock screen shows the job portal on the application testing"
-          title="Mobile app testing services"
+          alt="iOS app development company shows two mock screens of iOS applications"
+          title="ios-application-development-company"
           className="h-[390px] w-[220px] md:h-[310px] lg:h-[370px] lg:w-[254px] xl:h-[488px] mx-auto"
           data-aos="slide-up"
           data-aos-offset="100"
