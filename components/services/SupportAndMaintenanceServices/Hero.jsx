@@ -7,7 +7,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
   return (
-    <main className="w-full global-padding-horizontal flex flex-col pt-2 md:pt-10  gap-4 justify-start items-center">
+    <main className="w-full global-padding-horizontal flex flex-col pt-2 md:py-10  gap-4 justify-start items-center">
       <h1
         style={{
           color: palette?.color,
@@ -29,7 +29,7 @@ const Hero = () => {
           href={"/contact-us"}
           className="bg-[#F15C20] text-white w-[164px] h-[64px] rounded-full text-center flex items-center gap-2 justify-center font-semibold"
         >
-          Get a quote <FiArrowUpRight className="text-2xl" />
+          Get A Quote <FiArrowUpRight className="text-2xl" />
         </Link>
       </div>
       {/* <div className="w-full relative">

@@ -24,12 +24,12 @@ const IndustryLeading = () => {
             href={"/contact-us"}
             className="bg-[#F15C20] text-white w-[164px] h-[64px] rounded-full text-center flex items-center gap-2 justify-center font-semibold"
           >
-            Get a quote <FiArrowUpRight className="text-2xl" />
+            Get A Quote <FiArrowUpRight className="text-2xl" />
           </Link>
         </div>
       </div>
       <div className="flex justify-center lg:justify-end">
-        <img src="/industry-leading-image.png" alt="" className="w-[437px] h-[471px]" />
+        <img src="/industry-leading-image.webp" alt="" className="w-[437px] h-[471px]" />
       </div>
     </section>
   );

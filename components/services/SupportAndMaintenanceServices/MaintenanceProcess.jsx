@@ -24,7 +24,7 @@ const MaintenanceProcess = () => {
           </p>
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-center lg:justify-end">
-          <div className="mt-6">
+          <div className="lg:mt-6">
             <Link
               href={"/contact-us"}
               className="bg-[#F15C20] text-white w-[218px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
@@ -35,7 +35,7 @@ const MaintenanceProcess = () => {
         </div>
       </section>
 
-      <div className="w-full lg:mt-6 lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 xl:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 xl:mt-10">
+      <div className="w-full mt-6 lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 xl:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 xl:mt-10">
         {MAINTENANCE_PROCESS.map((service, key) => {
           return (
             <div
