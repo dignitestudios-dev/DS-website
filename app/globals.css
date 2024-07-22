@@ -1,13 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /*  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif !important;
 }
 
 /* / width /  */
@@ -40,6 +41,7 @@ body {
   /* cursor: url("./assets/cursor.png"), auto; */
   cursor: url("../public/cursor.png"), auto;
   font-display: swap;
+  /* font-family: "Inter", sans-serif !important; */
 }
 h1::selection,
 h2::selection,
@@ -53,6 +55,7 @@ a::selection,
 p::selection {
   background-color: #f15c20;
   color: white;
+  /* font-family: "Inter", sans-serif !important; */
 }
 
 button:hover,
@@ -1198,7 +1201,6 @@ image {
   }
 }
 
-
 .container {
   position: relative;
   margin: 0 auto !important;
@@ -1234,7 +1236,7 @@ image {
 
 .icon-1 {
   animation: moveIconTop 1s ease-in-out forwards;
-  animation-delay: 0s;    
+  animation-delay: 0s;
 }
 
 .icon-2 {
@@ -1285,20 +1287,19 @@ image {
   animation-delay: 0s;
 }
 
-.mt{
+.mt {
   margin-top: 30px !important;
   position: relative;
   left: -40px !important;
   top: -11px !important;
 }
 
-.mt2{
+.mt2 {
   margin-top: 60px !important;
   position: relative;
   left: -40px !important;
   top: -11px !important;
 }
-
 
 /* for rotating the icons */
 @keyframes rotate {
@@ -1314,7 +1315,6 @@ image {
   animation: moveIconTop rotate 1.5s infinite alternate;
   display: block;
 }
-
 
 /*  */
 @keyframes moveIconTop1 {
