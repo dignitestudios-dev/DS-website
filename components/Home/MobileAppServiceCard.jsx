@@ -212,7 +212,7 @@ const MobileAppServiceCard = () => {
           src="/top-mobile-app-development-services.webp"
           title="top mobile app development services"
           alt="image shows man is holding a mobile device that appears top mobile app development layout"
-          className="w-full h-[200px] rounded-xl"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h1 className="text-base font-semibold">Mobile App Development</h1>
@@ -246,7 +246,7 @@ const MobileAppServiceCard = () => {
         <img
           src="/home-ios-development.webp"
           alt=""
-          className="w-full h-[200px] rounded-xl"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h1 className="text-base font-semibold">iOS App Development</h1>
@@ -280,7 +280,7 @@ const MobileAppServiceCard = () => {
         <img
           src="/home-android-app-development.webp"
           alt=""
-          className="w-full h-[200px] rounded-xl"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h1 className="text-base font-semibold">Android App Development</h1>
@@ -314,7 +314,7 @@ const MobileAppServiceCard = () => {
         <img
           src="/home-web-app-development.webp"
           alt=""
-          className="w-full h-[200px] rounded-xl"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h1 className="text-base font-semibold">Web App Development</h1>
@@ -349,7 +349,7 @@ const MobileAppServiceCard = () => {
           src="/top-mobile-app-design-services.webp"
           title="top mobile app design services"
           alt="image shows man is holding a mobile device that appears top mobile app design interface"
-          className="w-full h-[200px] rounded-xl"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h1 className="text-base font-semibold">Mobile App Design</h1>
@@ -384,7 +384,7 @@ const MobileAppServiceCard = () => {
           src="/top-mobile-app-development-testing-services.webp"
           title="top mobile app development testing services"
           alt="image shows man is holding a mobile device that appears top mobile app testing screen"
-          className="w-full h-[200px] rounded-xl"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h1 className="text-base font-semibold">Mobile App Testing</h1>
@@ -419,7 +419,7 @@ const MobileAppServiceCard = () => {
           src="/top-mobile-app-development-consulting-services.webp"
           title="top mobile app development consulting services"
           alt="image shows a mobile app consulting discussion between consultant and client"
-          className="w-full h-[200px] rounded-xl"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h1 className="text-base font-semibold">Mobile App Consulting</h1>
