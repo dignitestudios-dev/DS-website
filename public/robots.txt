@@ -1,10 +1,9 @@
 User-agent: *
-Allow: /
 
-Disallow: /services/android-app-development
-Disallow: /services/ios-app-development
-Disallow: /services/web-app-development
-Disallow: /services/mobile-app-development
+Disallow: *android-app-development-*
+Disallow: *ios-app-development-*
+Disallow: *web-app-development-*
+Disallow: *mobile-app-development-*
 
 Allow: /services/mobile-app-development-services
 Allow: /services/android-app-development-services

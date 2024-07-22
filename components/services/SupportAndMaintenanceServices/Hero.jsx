@@ -17,7 +17,13 @@ const Hero = () => {
         Robust Your Mobile Application <br />{" "}
         <span className="text-[#F15C20]">Support and Maintenance</span> Services
       </h1>
-      <h2 className={`text-base font-normal text-[#5C5C5C]`}>Get free maintenance and support service from our top experts.</h2>
+      <h2
+        className={`text-base font-normal ${
+          theme === "light" ? "text-[#5C5C5C]" : "text-[#8F8F8F]"
+        }`}
+      >
+        Get free maintenance and support service from our top experts.
+      </h2>
       <div>
         <Link
           href={"/contact-us"}
@@ -26,6 +32,14 @@ const Hero = () => {
           Get a quote <FiArrowUpRight className="text-2xl" />
         </Link>
       </div>
+      {/* <div className="w-full global-padding-horizontal relative">
+        <img src="/maintenance-hero-borders.webp" alt="" className="xl:w-[1134.56px] mx-auto absolute top-0 translate-x-[20%] z-0"/>
+        <div className="w-full flex items-center justify-center z-10 mt-10 relative">
+            <img src="/maintenance-hero-mockup-1.png" alt="" className="w-[300px] h-[500.1px] z-20"/>
+            <img src="/maintenance-hero-mockup-2.png" alt="" className="w-[300px] h-[500.1px] z-20"/>
+            <img src="/maintenance-hero-mockup-3.png" alt="" className="w-[300px] h-[500.1px] z-20"/>
+        </div>
+      </div> */}
     </main>
   );
 };
