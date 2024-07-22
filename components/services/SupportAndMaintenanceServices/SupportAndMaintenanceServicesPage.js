@@ -9,18 +9,22 @@ import ReliableMobileAppSection from "./ReliableMobileAppSection";
 import MaintenanceProcess from "./MaintenanceProcess";
 import TechnologiesWeAreUsing from "./TechnologiesWeAreUsing";
 import ValuePropositionSection from "./ValuePropositionSection";
+import WhyChooseUs from "./WhyChooseUs";
+import Faqs from "./Faqs";
 
 const SupportAndMaintenanceServicesPage = () => {
-  const { theme } = useContext(GlobalContext);
+  const { setIsSidebarOpen } = useContext(GlobalContext);
   return (
     <div className="w-full overflow-x-hidden overflow-y-auto">
-      <Navbar />
+      <Navbar setIsOpen={setIsSidebarOpen} />
       <Hero />
       <IndustryLeading />
       <ReliableMobileAppSection />
       <MaintenanceProcess />
       <TechnologiesWeAreUsing />
-      <ValuePropositionSection/>
+      <ValuePropositionSection />
+      <WhyChooseUs />
+      <Faqs />
     </div>
   );
 };

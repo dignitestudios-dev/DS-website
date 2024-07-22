@@ -5,8 +5,8 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { BENEFITS_OF_DIGNITE_STUDIOS } from "@/constants/benefitsofdignitestudio";
 import { GlobalContext } from "@/context/GlobalContext";
+import { VALUE_PROPOSITION } from "@/constants/valueproposition";
 
 export const sliderSettings = {
   slidesPerView: 1,
@@ -55,7 +55,7 @@ export default function ValuePropositionSection() {
 
         <Swiper {...sliderSettings} className=" z-10">
           <SliderButtons />
-          {BENEFITS_OF_DIGNITE_STUDIOS.map((card, i) => {
+          {VALUE_PROPOSITION.map((card, i) => {
             return (
               <SwiperSlide key={i} className="">
                 <div
@@ -101,7 +101,7 @@ const SliderButtons = () => {
   const swiper = useSwiper();
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="flex items-center justify-end gap-3 absolute -top-20 md:-top-24 right-4 lg:-top-28 md:right-0 z-30">
+    <div className="flex items-center justify-end gap-3 absolute -top-14 md:-top-24 right-4 lg:-top-28 md:right-0 z-30">
       <button
         onClick={() => swiper.slidePrev()}
         name="swipe left button"
