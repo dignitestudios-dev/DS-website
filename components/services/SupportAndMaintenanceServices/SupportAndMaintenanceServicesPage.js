@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useContext } from "react";
 import Hero from "./Hero";
@@ -7,6 +7,8 @@ import Navbar from "@/components/global/Navbar";
 import IndustryLeading from "./IndustryLeading";
 import ReliableMobileAppSection from "./ReliableMobileAppSection";
 import MaintenanceProcess from "./MaintenanceProcess";
+import TechnologiesWeAreUsing from "./TechnologiesWeAreUsing";
+import ValuePropositionSection from "./ValuePropositionSection";
 
 const SupportAndMaintenanceServicesPage = () => {
   const { theme } = useContext(GlobalContext);
@@ -17,6 +19,8 @@ const SupportAndMaintenanceServicesPage = () => {
       <IndustryLeading />
       <ReliableMobileAppSection />
       <MaintenanceProcess />
+      <TechnologiesWeAreUsing />
+      <ValuePropositionSection/>
     </div>
   );
 };
