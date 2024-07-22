@@ -1,7 +1,13 @@
 User-agent: *
-Disallow: ios-app-development
-Disallow: android-app-development
-Disallow: web-app-development
-Disallow: mobile-app-development
+Disallow: 
+Crawl-delay: 5
+Disallow: *android-app-development*
+Disallow: *ios-app-development*
+Disallow: *web-app-development*
+Disallow: *mobile-app-development*
 
-https://www.dignitestudios.com/sitemap.xml
+Allow: /mobile-app-development-services*
+Allow: /android-app-development-services*
+Allow: /ios-app-development-services*
+
+Sitemap: https://dignitestudios.com/sitemap.xml
