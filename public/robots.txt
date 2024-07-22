@@ -1,12 +1,12 @@
 User-agent: *
 
+Allow: /*mobile-app-development-services*
+Allow: /*android-app-development-services*
+Allow: /*ios-app-development-services*
+
 Disallow: *android-app-development-*
 Disallow: *ios-app-development-*
 Disallow: *web-app-development-*
 Disallow: *mobile-app-development-*
-
-Allow: /services/mobile-app-development-services
-Allow: /services/android-app-development-services
-Allow: /services/ios-app-development-services
 
 Sitemap: https://dignitestudios.com/sitemap.xml
