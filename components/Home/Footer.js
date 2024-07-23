@@ -214,7 +214,7 @@ const Footer = () => {
             onClick={() => handleClick("case-studies")}
             className="uppercase hover:text-orange-500"
           >
-            Case Study
+            Case Studies
           </button>
         </div>
         <div className="col-span-3 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 py-6 px-2 lg:px-0 justify-start items-start">
@@ -228,7 +228,7 @@ const Footer = () => {
             onClick={() => handleClick("faqs")}
             className="uppercase hover:text-orange-500"
           >
-            FAQ's
+            FAQ<span className="lowercase">s</span>
           </button>
           <Link href="/terms-and-conditions" className="hover:text-orange-500">
             Terms & Conditions
@@ -255,6 +255,12 @@ const Footer = () => {
             className="hover:text-orange-500"
           >
             Web App Development
+          </Link>
+          <Link
+            href="/services/mobile-application-support-and-maintenance-services"
+            className="hover:text-orange-500"
+          >
+            Mobile App Support And Maintenance Services
           </Link>
         </div>
         <div className="col-span-5 lg:col-span-1 uppercase text-xs md:text-md lg:text-sm font-normal flex flex-col gap-3 pb-6 lg:py-6 px-2 lg:px-0 justify-start items-start">
