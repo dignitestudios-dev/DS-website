@@ -42,7 +42,7 @@ const Hero = () => {
           <img
             src="/maintenance-hero-left-icon.png"
             alt=""
-            className="w-[157.05px] h-[100px] hidden lg:block absolute top-9 -left-20 xl:left-24 2xl:left-32 z-20 animated-icon-3"
+            className="w-[157.05px] h-[100px] hidden lg:block absolute top-9 -left-20 xl:left-16 2xl:left-28 z-20 maintenance-animated-icon"
           />
           <img
             src="/support-header-img1.png"
@@ -62,7 +62,7 @@ const Hero = () => {
           <img
             src="/app-maintenance-icon.png"
             alt=""
-            className="w-[187.05px] h-[107px] hidden lg:block absolute bottom-16 -right-28 xl:right-20 2xl:right-28 2xl:bottom-24 z-20 animated-icon"
+            className="w-[187.05px] h-[107px] hidden lg:block absolute bottom-16 -right-28 xl:right-12 2xl:right-24 2xl:bottom-24 z-20 maintanence-animated-icon-2"
           />
         </div>
       </div>

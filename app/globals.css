@@ -1395,3 +1395,35 @@ image {
 .animated-image-down2 {
   animation: moveDown 6s infinite ease-in-out; /* 2s duration, infinite loop */
 }
+
+.maintenance-animated-icon {
+  animation: moveVertically3 4s infinite;
+}
+
+@keyframes moveVertically3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(50px, 30px); /* Move down-left */
+  }
+  100% {
+    transform: translate(0, 0); /* Move back to original position */
+  }
+}
+
+.maintanence-animated-icon-2 {
+  animation: moveVertically 4s infinite;
+}
+
+@keyframes moveVertically {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-50px, 30px); /* Move down-left */
+  }
+  100% {
+    transform: translate(0, 0); /* Move back to original position */
+  }
+}
