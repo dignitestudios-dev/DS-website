@@ -43,7 +43,7 @@ const ReliableMobileAppSection = () => {
               className="flex flex-col items-start text-start gap-y-2.5"
             >
               <div className="w-[44px] h-[44px] flex justify-center items-center rounded-[12px] bg-[#F15C2014]">
-                <img src={service.image_src} alt="" className="w-6 h-6"/>
+                <img src={service.image_src} alt={service.alt_tag} title={service.img_title} className="w-6 h-6"/>
               </div>
               <h3 className="font-semibold text-xl">{service.title}</h3>
               <p className="text-sm font-normal leading-[19.74px]">
