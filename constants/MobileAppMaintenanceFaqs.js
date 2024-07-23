@@ -7,7 +7,7 @@ export const MOBILE_APP_MAINTENANCE_FAQS = [
   {
     question: "How much does it cost for mobile app maintenance?",
     answer:
-      "We provide multiple mobile app support and maintenance packages under reasonable cost measures.",
+      "We provide multiple mobile app support and maintenance packages under reasonable cost measures. Please fill out the form below to consult our team about the cost.",
   },
   {
     question: "How long does app maintenance take?",

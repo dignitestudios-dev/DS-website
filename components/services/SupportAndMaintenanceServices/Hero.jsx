@@ -14,7 +14,7 @@ const Hero = () => {
         }}
         className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px]"
       >
-        Robust Your Mobile Application <br />{" "}
+        High-End Mobile Application <br />{" "}
         <span className="text-[#F15C20]">Support and Maintenance</span> Services
       </h1>
       <h2
@@ -22,7 +22,7 @@ const Hero = () => {
           theme === "light" ? "text-[#5C5C5C]" : "text-[#8F8F8F]"
         }`}
       >
-        Get free maintenance and support service from our top experts.
+        Get free maintenance and support consultation from our top experts.
       </h2>
       <div>
         <Link
