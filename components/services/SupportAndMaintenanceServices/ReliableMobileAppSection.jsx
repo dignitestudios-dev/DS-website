@@ -5,7 +5,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const ReliableMobileAppSection = () => {
   return (
-    <section className="w-full py-12 global-padding-horizontal">
+    <section className="w-full py-12 lg:py-20 global-padding-horizontal">
       <section className="w-full grid grid-cols-1 lg:grid-cols-3 gap-y-6">
         <div className="col-span-3 lg:col-span-2">
           <h1 className="uppercase font-bold text-xl text-[#8F8F8F]">

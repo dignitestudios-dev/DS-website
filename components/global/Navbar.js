@@ -116,6 +116,13 @@ const Navbar = ({ setIsOpen }) => {
             >
               Web App Development
             </Link>
+            {/* mobile-application-support-and-maintenance-services */}
+            <Link
+              href="/services/mobile-application-support-and-maintenance-services"
+              className={`hover:text-orange-600 text-start`}
+            >
+              Mobile App Support And Maintenance Services
+            </Link>
           </div>
         </button>
         <button
