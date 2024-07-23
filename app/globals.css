@@ -1354,3 +1354,44 @@ image {
   transform: translate(-50%, 100%);
   opacity: 0;
 }
+
+.maintenance-mockup-shadow{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px); /* Move up by 20px */
+  }
+  100% {
+    transform: translateY(0); /* Move back to the original position */
+  }
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px); /* Move down by 20px */
+  }
+  100% {
+    transform: translateY(0); /* Move back to the original position */
+  }
+}
+
+.animated-image-up {
+  animation: moveUp 4s infinite ease-in-out; /* 2s duration, infinite loop */
+}
+
+.animated-image-down {
+  animation: moveDown 4s infinite ease-in-out; /* 2s duration, infinite loop */
+}
+
+.animated-image-down2 {
+  animation: moveDown 6s infinite ease-in-out; /* 2s duration, infinite loop */
+}
