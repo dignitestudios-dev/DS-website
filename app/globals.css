@@ -1403,3 +1403,20 @@ image {
   animation: fadeInOut 4s infinite;
   animation-delay: 2s; /* Delays the animation to make it fade in after fade-out starts */
 }
+
+@keyframes slideX {
+  0% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(100px); /* Adjust this value as needed */
+  }
+}
+
+.range-slider {
+  animation: slideX 2s linear infinite alternate;
+}
+
+.bg-animation{
+  background: linear-gradient(45deg, rgba(255, 212, 58, 1), rgba(255, 98, 31, 1));
+}

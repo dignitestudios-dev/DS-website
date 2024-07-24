@@ -3,6 +3,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
+import HeroAnimation from "./HeroAnimation";
 
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -35,7 +36,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-full mt-6 md:mt-0 relative lg:h-[60vh] xl:h-[80vh] flex items-center justify-center">
+      <HeroAnimation/>
+
+      {/* <div className="w-full mt-6 md:mt-0 relative lg:h-[60vh] xl:h-[80vh] flex items-center justify-center">
         <img
           src="/Web-Application-Development-Services-Left.png"
           alt=""
@@ -66,7 +69,7 @@ const Hero = () => {
           alt=""
           className="hidden xl:block lg:w-[317px] lg:h-[231px] 2xl:w-[407px] 2xl:h-[311px] absolute top-1/2 right-20 2xl:right-24 transform -translate-y-1/2 z-20 slide-left-on-load"
         />
-      </div>
+      </div> */}
     </main>
   );
 };

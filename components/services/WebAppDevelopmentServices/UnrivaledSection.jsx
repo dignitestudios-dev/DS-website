@@ -36,19 +36,14 @@ const UnrivaledSection = () => {
         alt=""
         className="lg:w-[826px] lg:h-[573px] float-end slide-left-on-load"
         data-aos="slide-left"
-        data-aos-offset="100" // Adjusted offset to trigger animation earlier
-        data-aos-delay="0" // No delay for immediate animation start
+        data-aos-offset="100"
+        data-aos-delay="0"
         data-aos-duration="500"
         data-aos-easing="ease-in"
         data-aos-mirror="false"
-        data-aos-once="false" // Set to false to repeat animation on scroll up
+        data-aos-once="false"
         data-aos-anchor-placement="center-bottom"
       />
-      {/* <div className="flex items-center justify-end border">
-        <div>
-         
-        </div> */}
-      {/* </div> */}
     </section>
   );
 };
