@@ -41,27 +41,30 @@ const Hero = () => {
         <div className="w-full flex items-center justify-center z-10 mt-10 gap-3 md:gap-6 relative">
           <img
             src="/maintenance-hero-left-icon.png"
-            alt=""
+            alt="app-service-icon"
             className="w-[157.05px] h-[100px] hidden lg:block absolute top-9 -left-20 xl:left-16 2xl:left-28 z-20 maintenance-animated-icon"
           />
           <img
-            src="/support-header-img1.png"
-            alt=""
+            src="/mobile-application-support-and-maintenance-services-1.webp"
+            alt="the image shows three mockscreens of mobile application maintenance and support services"
             className="w-[200px] xl:w-[260px] h-[300px] md:h-[400px] xl:h-[500.1px] 2xl:h-[550px] 2xl:w-[310px] z-0 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative animated-image-up"
+            title="Mobile application support and maintenance services"
           />
           <img
-            src="/support-header-img2.png"
-            alt=""
+            src="/mobile-application-support-and-maintenance-services-2.webp"
+            alt="the image shows three mockscreens of mobile application maintenance and support services"
             className="w-[200px] xl:w-[260px] h-[300px] md:h-[400px] xl:h-[500.1px] 2xl:h-[550px] 2xl:w-[310px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down2 hidden lg:block"
+            title="Mobile application support and maintenance services"
           />
           <img
-            src="/support-header-img3.png"
-            alt=""
+            src="/mobile-application-support-and-maintenance-services-3.webp"
+            alt="the image shows three mockscreens of mobile application maintenance and support services"
             className="w-[200px] xl:w-[260px] h-[300px] md:h-[400px] xl:h-[500.1px] 2xl:h-[550px] 2xl:w-[310px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down"
+            title="Mobile application support and maintenance services"
           />
           <img
             src="/app-maintenance-icon.png"
-            alt=""
+            alt="app-service-icon"
             className="w-[187.05px] h-[107px] hidden lg:block absolute bottom-16 -right-28 xl:right-12 2xl:right-24 2xl:bottom-24 z-20 maintanence-animated-icon-2"
           />
         </div>
