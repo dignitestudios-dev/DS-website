@@ -4,7 +4,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const UnrivaledSection = () => {
   return (
-    <section className="w-full py-12 flex items-end flex-col lg:flex-row gap-y-6">
+    <section className="w-full py-12 xl:pt-32 flex items-end flex-col lg:flex-row gap-y-6">
       <div className="flex global-padding-horizontal flex-col items-start text-start gap-y-3">
         <h1 className="text-xl font-bold text-[#8F8F8F] uppercase">
           Unrivaled
