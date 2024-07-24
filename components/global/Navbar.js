@@ -75,51 +75,51 @@ const Navbar = ({ setIsOpen }) => {
           >
             <Link
               href="/services/mobile-app-development-services"
-              className={`hover:text-orange-600 `}
+              className={`hover:text-orange-600 cursor-pointer `}
             >
               Mobile App Development Services
             </Link>
             <Link
               href="/services/mobile-app-design-services"
-              className={`hover:text-orange-600 `}
+              className={`hover:text-orange-600 cursor-pointer `}
             >
               Mobile App Design Services
             </Link>
             <Link
               href="/services/mobile-app-consulting-services"
-              className={`hover:text-orange-600 `}
+              className={`hover:text-orange-600 cursor-pointer `}
             >
               Mobile App Consulting Services
             </Link>
             <Link
               href="/services/mobile-app-testing-services"
-              className={`hover:text-orange-600 `}
+              className={`hover:text-orange-600 cursor-pointer `}
             >
               Mobile App Testing Services
             </Link>
 
             <Link
               href="/services/android-app-development-services"
-              className={`hover:text-orange-600 `}
+              className={`hover:text-orange-600 cursor-pointer `}
             >
               Android App Development Services
             </Link>
             <Link
               href="/services/ios-app-development-services"
-              className={`hover:text-orange-600 `}
+              className={`hover:text-orange-600 cursor-pointer `}
             >
               IOS App Development Services
             </Link>
             <Link
               href="/services/web-app-development"
-              className={`hover:text-orange-600 `}
+              className={`hover:text-orange-600 cursor-pointer `}
             >
               Web App Development
             </Link>
             {/* mobile-application-support-and-maintenance-services */}
             <Link
               href="/services/mobile-application-support-and-maintenance-services"
-              className={`hover:text-orange-600 text-start`}
+              className={`hover:text-orange-600 cursor-pointer text-start`}
             >
               Mobile App Support And Maintenance Services
             </Link>

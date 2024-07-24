@@ -39,7 +39,7 @@ body {
   overflow-y: auto;
   overflow-x: hidden !important;
   /* cursor: url("./assets/cursor.png"), auto; */
-  cursor: url("../public/cursor.png"), auto;
+  cursor: url("https://www.dignitestudios.com/cursor.png"), auto;
   font-display: swap;
 }
 h1::selection,
@@ -60,10 +60,10 @@ p::selection {
 button:hover,
 a:hover,
 input:hover {
-  cursor: url("../public/cursor-pointer.png"), auto !important;
+  cursor: url("https://www.dignitestudios.com/cursor-pointer.png"), auto !important;
 }
 .orange:hover {
-  cursor: url("../public/cursor-pointer-2.png"), auto !important;
+  cursor: url("https://www.dignitestudios.com/cursor-pointer-2.png"), auto !important;
 }
 
 /***** Slide Left *****/
