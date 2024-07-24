@@ -41,7 +41,7 @@ const HeroAnimation = () => {
         </div>
 
         <div className="relative w-[179px] h-[9px] bg-animation rounded-full overflow-hidden mx-auto">
-          <div className="absolute top-0 left-0 w-[9px] h-[9px] bg-[#6640FF] rounded-full range-slider"></div>
+          <div className="absolute -top-1 left-0 w-[19px] h-[19px] bg-[#6640FF] rounded-full range-slider"></div>
         </div>
       </div>
 
