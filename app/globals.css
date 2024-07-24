@@ -6,7 +6,6 @@
 
 /*  */
 
-
 * {
   font-family: "Inter", sans-serif !important;
 }
@@ -1088,45 +1087,7 @@ image {
   background: #9f310e;
 }
 
-/* ios app dev service animations */
-
-/* @keyframes fadeOut {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-.container {
-  position: relative;
-  width: 182px; 
-  height: 182px;
-  margin: 0 auto;
-}
-
-.container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-.apple-icon {
-  animation: fadeOut 3s ease-in-out forwards;
-}
-
-.person-face {
-  opacity: 0;
-  animation: fadeIn 3s ease-in-out forwards;
-  animation-delay: 3s;
-} */
-
-/* styles.css */
+/* IOS page styles.css */
 @keyframes fadeOut {
   from {
     opacity: 1;
@@ -1341,10 +1302,7 @@ image {
 }
 
 .rotating-image1 {
-  /* transform: rotate(20deg) translateX(20px); */
   animation: rotate1 1.5s infinite alternate;
-  /* Ensure the final state is preserved */
-  /* animation-fill-mode: forwards; */
 }
 
 .icons-container {
@@ -1355,10 +1313,9 @@ image {
   opacity: 0;
 }
 
-.maintenance-mockup-shadow{
+.maintenance-mockup-shadow {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
 
 @keyframes moveUp {
   0% {
@@ -1428,4 +1385,21 @@ image {
   }
 }
 
-/* mobile app dev services */
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeInOut 4s infinite;
+}
+
+.fade-out {
+  animation: fadeInOut 4s infinite;
+  animation-delay: 2s; /* Delays the animation to make it fade in after fade-out starts */
+}
