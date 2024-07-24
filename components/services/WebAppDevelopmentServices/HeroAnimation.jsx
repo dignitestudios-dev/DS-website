@@ -17,7 +17,7 @@ const HeroAnimation = () => {
         className="lg:w-[450px] lg:h-[358px] 2xl:w-[530px] 2xl:h-[418px] absolute top-1/2 left-24 2xl:left-36 transform -translate-y-3/5 2xl:-translate-y-[-40px] z-20 slide-right-on-load hidden xl:block"
       /> */}
 
-      <div className="lg:w-[272px] lg:h-[248px] xl:flex flex-col justify-between 2xl:w-[320px] 2xl:h-[290px] absolute top-[57%] left-44 2xl:left-60 border-[10px] border-gray-50 transform -translate-y-3/5 2xl:-translate-y-[-40px] z-20 slide-right-on-load hidden bg-white workflow-box rounded-[16px] p-7">
+      <div className="lg:w-[272px] lg:h-[248px] xl:flex flex-col justify-between 2xl:w-[320px] 2xl:h-[290px] absolute top-[57%] left-44 2xl:left-60 border-[10px] border-gray-50 transform -translate-y-3/5 2xl:-translate-y-[-40px] z-20 slide-right-on-load hidden bg-white workflow-box rounded-[16px] p-6">
        
         <div className="w-full flex items-center justify-between">
           <p className="text-sm font-bold">Based Instagram</p>
@@ -40,8 +40,8 @@ const HeroAnimation = () => {
           />
         </div>
 
-        <div className="relative w-[179px] h-[13px] bg-animation rounded-full overflow-hidden mx-auto">
-          <div className="absolute top-0 left-0 w-[13px] h-[13px] bg-[#6640FF] rounded-full range-slider"></div>
+        <div className="relative w-[179px] h-[9px] bg-animation rounded-full overflow-hidden mx-auto">
+          <div className="absolute top-0 left-0 w-[9px] h-[9px] bg-[#6640FF] rounded-full range-slider"></div>
         </div>
       </div>
 
