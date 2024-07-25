@@ -117,10 +117,10 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 Android App Development-services
               </Link>
               <Link
-                href="/services/web-app-development"
+                href="/services/web-app-development-services"
                 className={`hover:text-orange-600 `}
               >
-                Web App Development
+                Web App Development Services
               </Link>
               <Link
               href="/services/mobile-application-support-and-maintenance-services"
