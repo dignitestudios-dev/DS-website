@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import HeroAnimation from "./HeroAnimation";
+import { MdOutlineArrowDropDown } from "react-icons/md";
 
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -36,40 +37,68 @@ const Hero = () => {
         </div>
       </div>
 
-      <HeroAnimation/>
+      {/* <div className="w-[266px] h-[215px] bg-gra-200 rounded-[18px] p-3 pl-0 workflow-box flex flex-col items-start justify-start relative">
+        <div className="w-full flex items-center justify-between mb-5 pl-5">
+          <span className="font-bold text-sm text-black">Users Activity</span>
+          <span className="text-[11px] text-gray-400 flex items-center">
+            This Week <MdOutlineArrowDropDown className="text-lg" />
+          </span>
+        </div>
+        <div className="w-full flex items-end justify-between gap-x-4 px-3">
+          <div className="border">
+            <div className="flex flex-col items-center gap-y-3 mr-4">
+              <span className="text-[10px] text-gray-400">300</span>
+              <span className="text-[10px] text-gray-400">200</span>
+              <span className="text-[10px] text-gray-400">100</span>
+              <span className="text-[10px] text-gray-400">0</span>
+            </div>
+          </div>
+          <div className="relative w-[7px] h-[98px] bg-[#FFD0BB] flex justify-center items-end overflow-hidden rounded-t-full">
+            <div className="bar1 w-[50px] h-[87px] bg-[#A851FF] rounded-t-full"></div>
+          </div>
+          <div className="relative w-[7px] h-[36px] bg-[#FFD0BB] flex justify-center items-end overflow-hidden rounded-t-full">
+            <div className="bar2 w-[50px] h-[27px] bg-[#A851FF] rounded-t-full"></div>
+          </div>
+          <div className="relative w-[7px] h-[68px] bg-[#FFD0BB] flex justify-center items-end overflow-hidden rounded-t-full">
+            <div className="bar3 w-[50px] h-[51px] bg-[#A851FF] rounded-t-full"></div>
+          </div>
+          <div className="relative w-[7px] h-[68px] bg-[#FFD0BB] flex justify-center items-end overflow-hidden rounded-t-full">
+            <div className="bar4 w-[50px] h-[51px] bg-[#A851FF] rounded-t-full"></div>
+          </div>
+          <div className="relative w-[7px] h-[46px] bg-[#FFD0BB] flex justify-center items-end overflow-hidden rounded-t-full">
+            <div className="bar5 w-[50px] h-[36px] bg-[#A851FF] rounded-t-full"></div>
+          </div>
+          <div className="relative w-[7px] h-[36px] bg-[#FFD0BB] flex justify-center items-end overflow-hidden rounded-t-full">
+            <div className="bar2 w-[50px] h-[27px] bg-[#A851FF] rounded-t-full"></div>
+          </div>
+          <div className="relative w-[7px] h-[68px] bg-[#FFD0BB] flex justify-center items-end overflow-hidden rounded-t-full">
+            <div className="bar3 w-[50px] h-[51px] bg-[#A851FF] rounded-t-full"></div>
+          </div>
+        </div>
+        <div className="h-[0.5px] bg-gray-300 w-[176.45px] float-end absolute right-3 bottom-[70%] z-0" />
+        <div className="h-[0.5px] bg-gray-300 w-[176.45px] float-end absolute right-3 bottom-[55%] z-0" />
+        <div className="h-[0.5px] bg-gray-300 w-[176.45px] float-end absolute right-3 bottom-[40%] z-0" />
 
-      {/* <div className="w-full mt-6 md:mt-0 relative lg:h-[60vh] xl:h-[80vh] flex items-center justify-center">
-        <img
-          src="/Web-Application-Development-Services-Left.png"
-          alt=""
-          className="lg:w-[346px] lg:h-[325px] 2xl:w-[426px] 2xl:h-[395px] absolute top-16 2xl:top-44 left-14 2xl:left-20 z-20 slide-right-on-load hidden xl:block"
-        />
-        <img
-          src="/Web-Application-Development-Services-Left-Bottom.png"
-          alt=""
-          className="lg:w-[450px] lg:h-[358px] 2xl:w-[530px] 2xl:h-[418px] absolute top-1/2 left-24 2xl:left-36 transform -translate-y-3/5 2xl:-translate-y-[-40px] z-20 slide-right-on-load hidden xl:block"
-        />
-        <img
-          src="/web-app-dev-image-shadow-purple.png"
-          alt=""
-          className="w-[80%] lg:h-[78vh] xl:h-[82vh] absolute inset-0 m-auto z-0 fade-in"
-        />
-        <img
-          src="/web-app-dev-image-shadow-yellow.png"
-          alt=""
-          className="w-[80%] lg:h-[78vh] xl:h-[82vh] absolute inset-0 m-auto z-0 fade-out"
-        />
-        <img
-          src="/Web-Application-Development-Services.png"
-          alt=""
-          className="w-[90%] xl:w-[834px] lg:w-[60%] lg:h-[350px] xl:h-[520px] 2xl:w-[1034px] 2xl:h-[690px] relative mx-auto border web-app-dev-hero-mockup z-10 rounded-2xl animated-shadow"
-        />
-        <img
-          src="/Web-Application-Development-Services-Right.png"
-          alt=""
-          className="hidden xl:block lg:w-[317px] lg:h-[231px] 2xl:w-[407px] 2xl:h-[311px] absolute top-1/2 right-20 2xl:right-24 transform -translate-y-1/2 z-20 slide-left-on-load"
-        />
+        <div className="w-full">
+          <div className="h-[0.5px] bg-gray-300 w-[176.45px] float-end" />
+        </div>
+        <div className="w-full">
+          <div className="w-[176.45px] float-end mt-1 flex items-center justify-around pl-2 pr-1">
+            <span className="text-[10px] text-gray-300">M</span>
+            <span className="text-[10px] text-gray-300">T</span>
+            <span className="text-[10px] text-gray-300">W</span>
+            <span className="text-[10px] text-gray-300">T</span>
+            <span className="text-[10px] text-gray-300">F</span>
+            <span className="text-[10px] text-gray-300">S</span>
+            <span className="text-[10px] text-gray-300">S</span>
+          </div>
+        </div>
       </div> */}
+
+      <HeroAnimation />
+
+      {/* <div className="w-[60%] lg:h-[78vh] xl:h-[82vh] inset-0 m-auto z-0 rounded-[100%] shadow-purple"></div>
+      <div className="w-[60%] lg:h-[78vh] xl:h-[82vh] inset-0 m-auto z-0 rounded-[100%] shadow-yellow"></div> */}
     </main>
   );
 };

@@ -2,10 +2,9 @@ import React from "react";
 import { FiDownload } from "react-icons/fi";
 import { TbBrandWindows } from "react-icons/tb";
 
-
 const HeroAnimation = () => {
   return (
-    <div className="w-full mt-6 md:mt-0 relative lg:h-[60vh] xl:h-[80vh] flex items-center justify-center">
+    <div className="w-full mt-6 md:mt-0 relative lg:h-[60vh] xl:h-[79vh] flex items-center justify-start overflow-y-visible">
       <img
         src="/Web-Application-Development-Services-Left.png"
         alt=""
@@ -18,9 +17,8 @@ const HeroAnimation = () => {
       /> */}
 
       <div className="lg:w-[272px] lg:h-[248px] xl:flex flex-col justify-between 2xl:w-[320px] 2xl:h-[290px] absolute top-[57%] left-44 2xl:left-60 border-[10px] border-gray-50 transform -translate-y-3/5 2xl:-translate-y-[-40px] z-20 slide-right-on-load hidden bg-white workflow-box rounded-[16px] p-6">
-       
         <div className="w-full flex items-center justify-between">
-          <p className="text-sm font-bold">Based Instagram</p>
+          <p className="text-sm font-bold text-black">Based Instagram</p>
 
           <div className="flex items-center gap-4">
             <div className="w-[27px] h-[27px] border border-gray-300 p-1 rounded-2xl">
@@ -46,14 +44,14 @@ const HeroAnimation = () => {
       </div>
 
       <img
-        src="/web-app-dev-image-shadow-purple.webp"
+        src="/web-app-dev-image-shadow-purple.png"
         alt=""
-        className="w-[80%] lg:h-[78vh] xl:h-[82vh] absolute inset-0 m-auto z-0 fade-in"
+        className="w-[80%] lg:h-[78vh] xl:h-[84vh] absolute inset-0 m-auto z-0 fade-in"
       />
       <img
-        src="/web-app-dev-image-shadow-yellow.webp"
+        src="/web-app-dev-image-shadow-yellow.png"
         alt=""
-        className="w-[80%] lg:h-[78vh] xl:h-[82vh] absolute inset-0 m-auto z-0 fade-out"
+        className="w-[80%] lg:h-[78vh] xl:h-[84vh] absolute inset-0 m-auto z-0 fade-out"
       />
       <img
         src="/Web-Application-Development-Services.webp"

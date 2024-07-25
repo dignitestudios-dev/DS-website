@@ -1401,7 +1401,7 @@ image {
 
 .fade-out {
   animation: fadeInOut 4s infinite;
-  animation-delay: 2s; /* Delays the animation to make it fade in after fade-out starts */
+  animation-delay: 2s; 
 }
 
 @keyframes slideX {
@@ -1409,7 +1409,7 @@ image {
     transform: translateX(40px);
   }
   100% {
-    transform: translateX(100px); /* Adjust this value as needed */
+    transform: translateX(100px); 
   }
 }
 
@@ -1419,4 +1419,60 @@ image {
 
 .bg-animation{
   background: linear-gradient(45deg, rgba(255, 212, 58, 1), rgba(255, 98, 31, 1));
+}
+
+@keyframes moveUpDownBar {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(70px); /* Adjust the value as needed */
+  }
+}
+
+.bar1 {
+  animation: moveUpDownBar 2s infinite;
+}
+
+@keyframes moveUpDownBar2 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px); /* Adjust the value as needed */
+  }
+}
+
+.bar2 {
+  animation: moveUpDownBar2 2s infinite;
+}
+
+@keyframes moveUpDownBar3 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(40px); /* Adjust the value as needed */
+  }
+}
+
+.bar3 {
+  animation: moveUpDownBar3 2s infinite;
+}
+
+.bar4 {
+  animation: moveUpDownBar3 2.5s infinite;
+}
+
+@keyframes moveUpDownBar5 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(24px); /* Adjust the value as needed */
+  }
+}
+
+.bar5 {
+  animation: moveUpDownBar5 2s infinite;
 }
