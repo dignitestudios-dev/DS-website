@@ -49,7 +49,7 @@ const TopNotchBenefits = () => {
           </p>
           <div className="mt-4 pb-6">
             <Link
-              href={"/contact"}
+              href={"/contact-us"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
             >
               Let’s discuss your project
@@ -126,7 +126,7 @@ const TopNotchBenefits = () => {
           </p>
           <div className="mt-4 pb-6">
             <Link
-              href={"/contact"}
+              href={"/contact-us"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
             >
               Let’s discuss your project
@@ -164,7 +164,7 @@ const TopNotchBenefits = () => {
           </p>
           <div className="mt-4 pb-6">
             <Link
-              href={"/contact"}
+              href={"/contact-us"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
             >
               Let’s discuss your project
@@ -244,7 +244,7 @@ const TopNotchBenefits = () => {
           </p>
           <div className="mt-4 pb-6">
             <Link
-              href={"/contact"}
+              href={"/contact-us"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
             >
               Let’s discuss your project

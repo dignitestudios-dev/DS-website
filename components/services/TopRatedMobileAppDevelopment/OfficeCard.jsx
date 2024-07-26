@@ -6,7 +6,7 @@ const OfficeCard = ({ image, title, address }) => {
       <div className="w-full h-auto lg:h-[260px] 2xl:h-[400px] overflow-hidden rounded-md">
         <img
           src={image}
-          alt=""
+          alt="Dignite Studios"
           className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
         />
       </div>

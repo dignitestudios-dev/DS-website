@@ -1397,11 +1397,13 @@ image {
 
 .fade-in {
   animation: fadeInOut 4s infinite;
+  z-index: 0 !important;
 }
 
 .fade-out {
   animation: fadeInOut 4s infinite;
   animation-delay: 2s; 
+  z-index: 0 !important;
 }
 
 @keyframes slideX {
@@ -1421,58 +1423,79 @@ image {
   background: linear-gradient(45deg, rgba(255, 212, 58, 1), rgba(255, 98, 31, 1));
 }
 
-@keyframes moveUpDownBar {
-  0%, 100% {
-    transform: translateY(0);
+/* animated-bar */
+@keyframes animatedBar1 {
+  0% {
+    transform: translateY(90px);
   }
   50% {
-    transform: translateY(70px); /* Adjust the value as needed */
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(90px);
   }
 }
 
-.bar1 {
-  animation: moveUpDownBar 2s infinite;
+.animated-bar {
+  animation: animatedBar1 4s infinite;
 }
 
-@keyframes moveUpDownBar2 {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(20px); /* Adjust the value as needed */
-  }
-}
-
-.bar2 {
-  animation: moveUpDownBar2 2s infinite;
-}
-
-@keyframes moveUpDownBar3 {
-  0%, 100% {
-    transform: translateY(0);
+/* bar 2 */
+@keyframes animatedBar2 {
+  0% {
+    transform: translateY(20px);
   }
   50% {
-    transform: translateY(40px); /* Adjust the value as needed */
+    transform: translateY(80px);
+  }
+  100% {
+    transform: translateY(20px);
   }
 }
 
-.bar3 {
-  animation: moveUpDownBar3 2s infinite;
+.animated-bar2 {
+  animation: animatedBar2 4.5s infinite;
 }
 
-.bar4 {
-  animation: moveUpDownBar3 2.5s infinite;
-}
-
-@keyframes moveUpDownBar5 {
-  0%, 100% {
-    transform: translateY(0);
+/* bar 3 */
+@keyframes animatedBar3 {
+  0% {
+    transform: translateY(10px);
   }
   50% {
-    transform: translateY(24px); /* Adjust the value as needed */
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(10px);
   }
 }
 
-.bar5 {
-  animation: moveUpDownBar5 2s infinite;
+.animated-bar3 {
+  animation: animatedBar3 3.5s infinite;
+}
+
+/* bar 5 */
+@keyframes animatedBar5 {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.animated-bar5 {
+  animation: animatedBar5 4.5s infinite;
+}
+
+
+.custom-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.animated-bar-chart{
+  z-index: 4000000 !important;
 }

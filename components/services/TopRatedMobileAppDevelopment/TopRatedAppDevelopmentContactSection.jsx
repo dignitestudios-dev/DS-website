@@ -283,14 +283,14 @@ const TopRatedAppDevelopmentContactSection = () => {
         </form>
 
         <div className="col-span-3 lg:col-span-1 hidden xl:flex items-center justify-center p-4 pt-0 lg:p-0">
-          <Image
-            loader={customLoader}
-            src="/top-rated-contact-mockup.webp"
+          <img
+            src="/top-mobile-app-development-company-latest-technologies.webp"
             width={402}
             height={361}
             decoding="async"
             data-nimg="1"
-            alt="top-rated-contact-mockup"
+            alt=" image shows one back cover of mobile device and another is the mock screen of the mobile app"
+            title="top mobile app development company latest technologies"
             className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"
           />
         </div>

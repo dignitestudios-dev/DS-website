@@ -42,9 +42,9 @@ const MobileAppWeDevelopSwiper = () => {
             </p>
             <div className="bg-[#DD065C] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full" />
             <img
-              src="/lending-app.webp"
-              alt="two mockup screens showing streaming mobile app development"
-              title="Streaming mobile app development"
+              src="/lending-mobile-app-development.webp"
+              alt="two mockup screens showing lending mobile app development"
+              title="Leanding mobile app development"
               decoding="async"
               data-nimg="1"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
@@ -58,10 +58,11 @@ const MobileAppWeDevelopSwiper = () => {
             </p>
             <div className="bg-[#658EFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-              src="/booking-app.webp"
+              src="/booking-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
               alt="two mockup screens show the booking mobile app development"
+              title="Booking Mobile App Development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
             />
             {/* <img
@@ -79,9 +80,10 @@ const MobileAppWeDevelopSwiper = () => {
             </p>
             <div className="bg-[#A35AFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-              src="/social-media-app.webp"
+              src="/socia-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
+              title="Social Media Mobile App Development"
               alt="Two mockup screens show social media mobile app development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
             />
@@ -100,9 +102,10 @@ const MobileAppWeDevelopSwiper = () => {
             </p>
             <div className="bg-[#158F88] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-              src="/ticketing-app.webp"
+              src="/ticketing-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
+              title="Ticketing Mobile App Development"
               alt="two mockup screens show the ticketing mobile app development"
               class="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
             />
@@ -121,9 +124,10 @@ const MobileAppWeDevelopSwiper = () => {
             </p>
             <div className="bg-[#4B88FF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-              src="/communication-app.webp"
+              src="/commuincation-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
+              title="Communication Mobile App Development"
               alt="two mockup screens show the dating mobile app development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
             />
@@ -142,10 +146,10 @@ const MobileAppWeDevelopSwiper = () => {
             </p>
             <div className="bg-[#FFC86C] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
             <img
-              src="/market-place-app.webp"
+              src="/marketplace-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
-              title="Telehealth mobile app development"
+              title="Marketplace mobile app development"
               alt="two mockup screens show the telehealth mobile app development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
             />

@@ -23,7 +23,7 @@ const MobileAppDevSeoHero = () => {
               style={{
                 color: "#fff",
               }}
-              className={`lg:block hidden text-3xl md:text-4xl font-extrabold lg:text-[60px] xl:text-[70px] md:leading-[70px] xl:leading-[72.8px] lg:font-bold xl:font-semibold tracking-[-2.8px] z-10 `}
+              className={`block text-3xl md:text-4xl font-extrabold lg:text-[60px] xl:text-[70px] md:leading-[70px] xl:leading-[72.8px] lg:font-bold xl:font-semibold lg:tracking-[-2.8px] z-10 `}
             >
               <span style={{ color: palette?.brandOrange }}>Execute</span>{" "}
               <span
@@ -34,19 +34,7 @@ const MobileAppDevSeoHero = () => {
                 App Development Services
               </span>
             </h1>
-            <h1
-              style={{
-                color: "#fff",
-              }}
-              className="lg:hidden block text-3xl font-extrabold lg:text-5xl lg:font-bold "
-            >
-              <span style={{ color: palette?.brandOrange }}>Execute</span>{" "}
-              <span
-                className={`${theme === "light" ? "text-black" : "text-white"}`}
-              >
-                Astounding <br /> Mobile App Development Agency
-              </span>
-            </h1>
+          
             <span
               className={`lg:w-[80%] my-2 lg:my-6 text-sm lg:text-base font-medium uppercase tracking-[3.68px] ${
                 theme === "dark" && "text-[#ECECEC]"

@@ -4,6 +4,11 @@ import Head from "next/head";
 import Script from "next/script";
 import React from "react";
 
+export const metadata = {
+  title: "Web application development services | Dignite Studios",
+  description: "Dignite’s top experts fabricate stellar web app development services from custom applications to high-end optimization, our value-driven approach will make your company stand out among the utmost industries.",
+};
+
 const page = () => {
   <Head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

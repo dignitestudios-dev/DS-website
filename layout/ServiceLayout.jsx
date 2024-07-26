@@ -181,7 +181,7 @@ const ServicesLayout = ({ page }) => {
       >
         <form onSubmit={handleSubmit} ref={formRef} className="container-form">
           <div className="side-promo">
-            <Image loader={customLoader} width={400} height={540} src="/form-promo3.webp" alt="sidebar_promo" className="" />
+            <Image loader={customLoader} width={400} height={540} src="/form-promo3.webp" alt="popup form image" title="popup form image" className="" />
           </div>
           <div className="main-promo">
             <div className="promo2">

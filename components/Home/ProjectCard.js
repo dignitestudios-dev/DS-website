@@ -29,15 +29,22 @@ const ProjectCard = ({
       } rounded-[32px] `}
     >
       <div className="w-full h-[0px] flex lg:hidden justify-center items-start relative ">
-        <img src={normalImage} className="absolute -top-12 right-0 h-[200px]" alt={title} />
+        <img
+          src={normalImage}
+          className="absolute -top-12 right-0 h-[200px]"
+          alt={title}
+          title="app-logo"
+        />
       </div>
       <div className="w-full lg:w-[65%] h-full flex flex-col justify-start relative gap-6 my-1 items-start md:px-2">
         <div className="w-full flex justify-start gap-2 items-center pr-1">
           <img
             src={logo}
-            alt="app-logo"
+            alt="case-study-image"
             width={65}
             height={65}
+            title="case study image"
+
             // className="w-[32px] h-[32px] lg:w-[45px] xl:w-[65px] lg:h-[45px] xl:h-[65px]"
           />
           <p className="text-lg md:text-sm lg:text-2xl xl:text-[22px] font-semibold group-hover:text-white">
@@ -61,6 +68,7 @@ const ProjectCard = ({
                 src="/google_play_btn.png"
                 // className="h-[40.62px]"
                 alt="google_play_button"
+                title="google_play_button"
               />
             </Link>
           )}
@@ -73,6 +81,7 @@ const ProjectCard = ({
                 src="/apple_store_btn.png"
                 // className="h-[40.62px]"
                 alt="app_store_button"
+                title="app_store_button"
               />
             </Link>
           )}
@@ -85,6 +94,7 @@ const ProjectCard = ({
                 src="/website_btn.png"
                 // className="h-[40.62px]"
                 alt="Website btn play icon"
+                title="Website btn play icon"
               />
             </Link>
           )}

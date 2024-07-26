@@ -1,6 +1,7 @@
 import React from "react";
 import { FiDownload } from "react-icons/fi";
 import { TbBrandWindows } from "react-icons/tb";
+import AnimatedBarChart from "./AnimatedBarChart";
 
 const HeroAnimation = () => {
   return (
@@ -10,11 +11,7 @@ const HeroAnimation = () => {
         alt=""
         className="lg:w-[346px] lg:h-[325px] 2xl:w-[426px] 2xl:h-[395px] absolute top-16 2xl:top-44 left-14 2xl:left-20 z-20 slide-right-on-load hidden xl:block"
       />
-      {/* <img
-        src="/Web-Application-Development-Services-Left-Bottom.png"
-        alt=""
-        className="lg:w-[450px] lg:h-[358px] 2xl:w-[530px] 2xl:h-[418px] absolute top-1/2 left-24 2xl:left-36 transform -translate-y-3/5 2xl:-translate-y-[-40px] z-20 slide-right-on-load hidden xl:block"
-      /> */}
+      {/* <AnimatedBarChart /> */}
 
       <div className="lg:w-[272px] lg:h-[248px] xl:flex flex-col justify-between 2xl:w-[320px] 2xl:h-[290px] absolute top-[57%] left-44 2xl:left-60 border-[10px] border-gray-50 transform -translate-y-3/5 2xl:-translate-y-[-40px] z-20 slide-right-on-load hidden bg-white workflow-box rounded-[16px] p-6">
         <div className="w-full flex items-center justify-between">

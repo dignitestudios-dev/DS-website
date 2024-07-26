@@ -42,7 +42,7 @@ const Navbar = ({ setIsOpen }) => {
           // loader={customLoader}
           width={120}
           height={70}
-          src={theme == "light" ? "/logo.png" : "/logo-dark.png"}
+          src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"}
           className="h-[70px] w-[120px]"
         />
       </Link>
@@ -183,7 +183,8 @@ const Navbar = ({ setIsOpen }) => {
             className="h-full"
             height={28}
             width={34}
-            alt="hamburger-image"
+            alt="hamburger-icon"
+            title="hamburger-icon"
           />
         </button>
       </div>

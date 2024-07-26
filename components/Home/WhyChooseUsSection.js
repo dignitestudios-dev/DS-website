@@ -16,7 +16,7 @@ const WhyChooseUsSection = () => {
         <p className="text-[#F15C20] text-[20px] uppercase font-bold">
           value proposition of
         </p>
-        <img src="/lines2.png" alt="lines2" />
+        <img src="/lines2.png" alt="lines2" title="lines2" />
       </div>
       <h2
         style={{
@@ -44,6 +44,7 @@ const WhyChooseUsSection = () => {
               icon={c.icon}
               key={index}
               alt={c.alt}
+              image_title={c.image_title}
             />
           );
         })}

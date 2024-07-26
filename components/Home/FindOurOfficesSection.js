@@ -39,11 +39,11 @@ const FindOurOfficesSection = () => {
     <div
       className={`px-4 md:px-12 lg:px-28 w-full flex flex-col items-center gap-y-4 my-5`}
     >
-      <h1
+      <h2
         className={`${palette.color} uppercase font-extrabold text-center lg:text-start  text-4xl lg:text-5xl xl:text-[54px] tracking-tighter lg:font-bold mb-2 lg:mb-6`}
       >
         find our offices
-      </h1>
+      </h2>
 
       <div
         className={`w-full lg:w-[90%] xl:w-[70%] h-auto my-5 flex justify-center items-start `}

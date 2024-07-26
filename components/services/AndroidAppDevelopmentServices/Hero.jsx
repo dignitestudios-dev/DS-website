@@ -35,7 +35,7 @@ const Hero = () => {
             Development Services
           </h1>
 
-          <h1
+          <h2
             className={`text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-center capitalize lg:leading-[67px] xl:leading-[81.93px] 2xl:leading-[99px] block md:hidden`}
           >
             <span className="high-powered">
@@ -43,11 +43,11 @@ const Hero = () => {
             </span>
             <span className="text-[#F15C20]">Android App</span> 
             Development Services
-          </h1>
-
-          <h2 className="text-base 2xl:text-xl 2xl:mt-3 font-normal">
-            Build intuitive app architecture for your Android devices
           </h2>
+
+          <h3 className="text-base 2xl:text-xl 2xl:mt-3 font-normal">
+            Build intuitive app architecture for your Android devices
+          </h3>
         </div>
 
         <img

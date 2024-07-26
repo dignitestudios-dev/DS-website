@@ -58,7 +58,7 @@ const TestingServices = () => {
           </p>
           <div>
             <Link
-              href={"/contact"}
+              href={"/contact-us"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
             >
               Get in touch
@@ -96,7 +96,7 @@ const TestingServices = () => {
           </p>
           <div>
             <Link
-              href={"/contact"}
+              href={"/contact-us"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
             >
               Get in touch
@@ -165,7 +165,7 @@ const TestingServices = () => {
           </p>
           <div>
             <Link
-              href={"/contact"}
+              href={"/contact-us"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
             >
               Get in touch

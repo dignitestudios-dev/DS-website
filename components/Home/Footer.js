@@ -164,7 +164,8 @@ const Footer = () => {
                 loader={customLoader}
                 width={140}
                 height={30}
-                alt="trust-pilot"
+                alt="trust-pilot-icon"
+                title="trust-pilot-icon"
                 src="/trust-pilot-white.webp"
                 className="w-[140px] md:w-[200px] lg:w-[236px]"
               />

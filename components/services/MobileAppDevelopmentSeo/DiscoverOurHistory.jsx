@@ -53,7 +53,8 @@ const DiscoverOurHistory = () => {
           <Image
             src="/mobile-app-development-services-value-expedition.webp"
             loader={customLoader}
-            alt="Description of the image"
+            alt="mobile-app-development-services-value-expedition"
+            title="mobile-app-development-services-value-expedition"
             width={410}
             height={435}
             className="h-[365px] xl:h-auto"

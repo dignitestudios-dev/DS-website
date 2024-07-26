@@ -8,44 +8,60 @@ const Technologies = () => {
   const { palette, theme } = useContext(GlobalContext);
   const technologies = [
     {
-      color: "/flutter-color.webp",
-      gray: "/flutter-gray.webp",
+      color: "/Mobile-app-development-technology-Flutter-Icon-color.webp",
+      gray: "/Mobile-app-development-technology-Flutter-Icon-gray.webp",
       name: "Flutter",
+      alt:"Mobile app development technology Flutter Icon",
+      img_title:"Mobile app development technology Flutter Icon"
     },
     {
-      color: "/swift-color.webp",
-      gray: "/swift-gray.webp",
+      color: "/Mobile-app-development-technology-Swift-Icon-color.webp",
+      gray: "/Mobile-app-development-technology-Swift-Icon-gray.webp",
       name: "Swift",
+      alt:"Mobile app development technology Swift Icon",
+      img_title:"Mobile app development technology Swift Icon"
     },
     {
-      color: "/vue-color.webp",
-      gray: "/vue-gray.webp",
+      color: "/Mobile-app-development-technology-Vue-Icon-color.webp",
+      gray: "/Mobile-app-development-technology-Vue-Icon-gray.webp",
       name: "Vue",
+      alt:"Mobile app development technology Vue Icon",
+      img_title:"Mobile app development technology Vue Icon"
     },
     {
-      color: "/react-color.webp",
-      gray: "/react-gray.webp",
+      color: "/Mobile-app-development-technology-react-Icon-color.webp",
+      gray: "/Mobile-app-development-technology-react-Icon-gray.webp",
       name: "React",
+      alt:"Mobile app development technology React Icon",
+      img_title:"Mobile app development technology React Icon"
     },
     {
-      color: "/tailwind-color.webp",
-      gray: "/tailwind-gray.webp",
+      color: "/Mobile-app-development-technology-tailwind-Icon-color.webp",
+      gray: "/Mobile-app-development-technology-tailwind-Icon-gray.webp",
       name: "Tailwind",
+      alt:"Mobile app development technology Tailwind Icon",
+      img_title:"Mobile app development technology Tailwind Icon"
     },
     {
-      color: "/figma-color.webp",
-      gray: "/figma-gray.webp",
+      color: "/Mobile-app-development-technology-Figma-Icon-color.webp",
+      gray: "/Mobile-app-development-technology-Figma-Icon-gray.webp",
       name: "Figma",
+      alt:"Mobile app development technology Figma Icon",
+      img_title:"Mobile app development technology Figma Icon"
     },
     {
-      color: "/ai-color.webp",
-      gray: "/ai-gray.webp",
+      color: "/Mobile-app-development-technology-AI-Icon-color.webp",
+      gray: "/Mobile-app-development-technology-AI-Icon-gray.webp",
       name: "Adobe Illustrator",
+      alt:"Mobile app development technology AI Icon",
+      img_title:"Mobile app development technology AI Icon"
     },
     {
-      color: "/ps-color.webp",
-      gray: "/ps-gray.webp",
+      color: "/Mobile-app-development-technology-PS-Icon-color.webp",
+      gray: "/Mobile-app-development-technology-PS-Icon-gray.webp",
       name: "Photoshop",
+      alt:"Mobile app development technology Photoshop Icon",
+      img_title:"Mobile app development technology Photoshop Icon"
     },
   ];
   return (

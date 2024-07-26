@@ -244,8 +244,9 @@ const MobileAppServiceCard = () => {
         }`}
       >
         <img
-          src="/home-ios-development.webp"
-          alt=""
+          src="/top-ios-app-development-services.webp"
+          alt="Top iOS App Development Services"
+          title="Top iOS App Development Services"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
@@ -278,8 +279,9 @@ const MobileAppServiceCard = () => {
         }`}
       >
         <img
-          src="/home-android-app-development.webp"
-          alt=""
+          src="/top-android-app-development-services.webp"
+          alt="Top iOS App Development Services"
+          title="Top iOS App Development Services"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
@@ -312,8 +314,9 @@ const MobileAppServiceCard = () => {
         }`}
       >
         <img
-          src="/home-web-app-development.webp"
-          alt=""
+          src="/top-webp-app-development-services.webp"
+          alt="Top iOS App Development Services"
+          title="Top iOS App Development Services"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">

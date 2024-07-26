@@ -31,7 +31,7 @@ const AndroidAppHero = () => {
             <br /> Development
             <br /> Company
           </h1>
-          <h1
+          <h2
             style={{
               color: "#fff",
             }}
@@ -40,7 +40,7 @@ const AndroidAppHero = () => {
             Best-Class{" "}
             <span style={{ color: palette?.brandOrange }}>Android</span> <br />{" "}
             app development company
-          </h1>
+          </h2>
           <span
             style={{
               color: "#fff",
