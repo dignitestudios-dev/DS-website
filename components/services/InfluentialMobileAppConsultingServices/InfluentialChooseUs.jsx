@@ -11,10 +11,10 @@ const InfluentialChooseUs = () => {
   return (
     <section className="w-full py-12 global-padding-horizontal grid grid-cols-1 xl:grid-cols-2 lg:gap-y-12 gap-6 relative">
       <div className="flex flex-col items-start justify-center gap-6">
-        <h1 className="headings-size">
+        <h2 className="headings-size">
           <span className="text-[#F15C20]">Why </span>
           Choose US
-        </h1>
+        </h2>
         <p
           className={`text-base 2xl:text-lg ${
             theme === "light" && "text-[#5C5C5C] leading-[22.4px]"
@@ -76,9 +76,9 @@ const InfluentialChooseUs = () => {
                   />
                 </div>
                 {/* Title */}
-                <h2 className="text-base font-semibold">
+                <h3 className="text-base font-semibold">
                   Transparent Process And Professional Developers
-                </h2>
+                </h3>
               </div>
               {/* Description */}
               <p className="text-sm font-normal">
@@ -117,10 +117,10 @@ const InfluentialChooseUs = () => {
                   />
                 </div>
                 {/* Title */}
-                <h2 className="text-base font-semibold">
+                <h3 className="text-base font-semibold">
                   Focused <br />
                   Strategies
-                </h2>
+                </h3>
               </div>
               {/* Description */}
               <p className="text-sm font-normal">
@@ -153,9 +153,9 @@ const InfluentialChooseUs = () => {
                   />
                 </div>
                 {/* Title */}
-                <h2 className="text-base font-semibold">
+                <h3 className="text-base font-semibold">
                   Drive Business <br /> Growth
-                </h2>
+                </h3>
               </div>
               {/* Description */}
               <p className="text-sm font-normal">

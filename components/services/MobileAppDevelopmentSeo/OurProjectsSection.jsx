@@ -35,13 +35,13 @@ const OurProjectsSection = () => {
         className="w-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 py-12"
       >
         <div className="w-full flex items-center justify-between">
-          <h1
+          <h2
             className={`${
               theme === "light" ? "text-black" : "text-white"
             } headings-size`}
           >
             our projects
-          </h1>
+          </h2>
           <div className="hidden lg:block">
             <Link
               href={{

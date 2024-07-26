@@ -17,14 +17,14 @@ const TopNotchIosApp = () => {
       >
         <div className="flex flex-col items-start gap-5 w-full xl:w-[55%] p-6 lg:p-14">
           <div className="flex flex-col items-start">
-            <h1 className="text-[#F15C20] font-bold text-xl uppercase">
+            <p className="text-[#F15C20] font-bold text-xl uppercase">
               top-notch ios application
-            </h1>
+            </p>
             <img src="/wide-lines.png" alt="" className="w-40 h-2 md:w-[289px]"/>
           </div>
-          <h1 className="text-3xl lg:text-[48px] xl:text-[68px] 2xl:text-[72px] font-bold lg:leading-[64.94px] tracking-tighter">
+          <h2 className="text-3xl lg:text-[48px] xl:text-[68px] 2xl:text-[72px] font-bold lg:leading-[64.94px] tracking-tighter">
             Development <br /> Company
-          </h1>
+          </h2>
           <p
             className={`text-base font-normal ${
               theme === "light" && "text-[#5C5C5C]"

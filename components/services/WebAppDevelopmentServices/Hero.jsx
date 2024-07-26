@@ -17,7 +17,7 @@ const Hero = () => {
           }}
           className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px]"
         >
-          Purpose-Driven <span className="text-[#F15C20]">Web Application</span>{" "}
+          Purpose-Driven <span className="text-[#F15C20]">Web Application <br /></span>{" "}
           Development Services
         </h1>
         <h2

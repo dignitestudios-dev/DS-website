@@ -6,9 +6,9 @@ const UnrivaledSection = () => {
   return (
     <section className="w-full py-12 xl:pt-32 flex items-end flex-col lg:flex-row gap-y-6">
       <div className="flex global-padding-horizontal flex-col items-start text-start gap-y-3">
-        <h1 className="text-xl font-bold text-[#8F8F8F] uppercase">
+        <p className="text-xl font-bold text-[#8F8F8F] uppercase">
           Unrivaled
-        </h1>
+        </p>
         <h2 className="headings-size">
           <span className="text-[#F15C20]">Web App</span> Development Company
         </h2>

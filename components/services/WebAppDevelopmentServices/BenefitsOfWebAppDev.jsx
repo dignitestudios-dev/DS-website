@@ -8,9 +8,9 @@ const BenefitsOfWebAppDev = () => {
   return (
     <section className="w-full py-12 global-padding-horizontal lg:mt-0">
       <div className="w-full flex flex-col items-start text-start gap-3">
-        <h1 className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
+        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
           Benefits of
-        </h1>
+        </p>
         <h2 className={`headings-size`}>
           Web App Development <br /> with Dignite Studios
         </h2>
@@ -37,7 +37,7 @@ const BenefitsOfWebAppDev = () => {
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
             >
-              <h2
+              <h3
                 className={`font-bold text-xl md:mb-2 ${
                   theme === "light"
                     ? "text-[#424242] group-hover:text-white"
@@ -45,7 +45,7 @@ const BenefitsOfWebAppDev = () => {
                 }`}
               >
                 {benefit?.title}
-              </h2>
+              </h3>
               <p
                 className={`${
                   theme === "dark"

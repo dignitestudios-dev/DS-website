@@ -9,9 +9,9 @@ const WebAppProcess = () => {
   return (
     <section className="w-full py-12 global-padding-horizontal lg:mt-0">
       <div className="w-full flex flex-col items-start text-start gap-3">
-        <h1 className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
+        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
           Potent
-        </h1>
+        </p>
         <h2 className={`headings-size`}>
           web app <span className="text-[#F15C20]">process</span>
         </h2>

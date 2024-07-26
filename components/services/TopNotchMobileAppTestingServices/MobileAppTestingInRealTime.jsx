@@ -13,10 +13,10 @@ const MobileAppTestingInRealTime = () => {
         }`}
       >
         <div className="flex flex-col items-start gap-5 w-full xl:w-[55%] p-6 lg:p-14">
-          <h1 className="text-2xl lg:text-[48px] font-bold lg:leading-[54.94px] tracking-tighter">
+          <h2 className="text-2xl lg:text-[48px] font-bold lg:leading-[54.94px] tracking-tighter">
             <span className="text-[#F15C20]">Mobile App</span> Testing In <br />{" "}
             Real Time
-          </h1>
+          </h2>
           <p
             className={`text-base font-normal ${
               theme === "light" && "text-[#5C5C5C]"

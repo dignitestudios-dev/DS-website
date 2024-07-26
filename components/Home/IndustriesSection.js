@@ -11,11 +11,11 @@ const IndustriesSection = () => {
       className={`w-full flex flex-col gap-y-4 my-5 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 `}
     >
       <div>
-        <h1
+        <h2
           className={` uppercase font-extrabold lg:text-start text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter lg:font-bold `}
         >
           industries
-        </h1>
+        </h2>
         <div
           className="w-full "
           style={{

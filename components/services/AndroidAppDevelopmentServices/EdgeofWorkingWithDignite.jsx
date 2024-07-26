@@ -39,9 +39,9 @@ export default function EdgeOfDigniteStudios() {
           <span className="text-[#8F8F8F] text-2xl font-bold uppercase">
             Edge of
           </span>
-          <span className="headings-size">
+          <h2 className="headings-size">
             working with dignite studios
-          </span>
+          </h2>
         </div>
         <p className="text-[18px] leading-[23.41px] font-normal lg:w-[70%] mb-10">
         Android has taken a large slice of services in the open market globally. The competition among operating systems is fierce, therefore our service nestled an extensive selection of mobile application development with super features and friendly user interfaces.
@@ -62,10 +62,10 @@ export default function EdgeOfDigniteStudios() {
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h1 className="text-[#B8B8B8] text-[40px] font-bold">
+                  <p className="text-[#B8B8B8] text-[40px] font-bold">
                     {card?.count}
-                  </h1>
-                  <h2
+                  </p>
+                  <h3
                     className={`font-semibold text-xl mb-2 ${
                       theme === "light"
                         ? "text-[#424242] group-hover:text-white"
@@ -73,7 +73,7 @@ export default function EdgeOfDigniteStudios() {
                     }`}
                   >
                     {card?.title}
-                  </h2>
+                  </h3>
                   <p
                     className={`${
                       theme === "dark"

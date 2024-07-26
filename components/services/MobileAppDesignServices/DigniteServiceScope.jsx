@@ -21,9 +21,9 @@ const DigniteServiceScope = () => {
       >
         <div className="py-7 px-6 xl:px-16 flex flex-col items-start gap-6">
           <div className="flex flex-col items-center">
-            <h3 className="text-xl font-bold text-[#F15C20] uppercase">
+            <p className="text-xl font-bold text-[#F15C20] uppercase">
               want to know
-            </h3>
+            </p>
             <Image
               loader={customLoader}
               width={141}
@@ -33,9 +33,9 @@ const DigniteServiceScope = () => {
             />
           </div>
 
-          <h1 className="font-extrabold text-3xl lg:text-4xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[47px] xl:leading-[77.45px] 2xl:leading-[87.45px]">
+          <h2 className="font-extrabold text-3xl lg:text-4xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[47px] xl:leading-[77.45px] 2xl:leading-[87.45px]">
             Dignite’s Service <br /> Scope?
-          </h1>
+          </h2>
 
           <div className="w-full lg:w-auto flex justify-start">
             <Link

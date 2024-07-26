@@ -4,9 +4,9 @@ import React from "react";
 const TestingServices = () => {
   return (
     <div className="text-center pt-10 lg:py-10 global-padding-horizontal">
-      <h1 className="headings-size">
+      <h2 className="headings-size">
         <span className="text-[#F15C20]">Mobile App</span> Testing Services
-      </h1>
+      </h2>
       <p className="text-base font-medium mt-6">
         The first-class mobile testing team of Dignite Studios fabricates
         automated testing of <br /> apps to hasten effective solutions
@@ -40,12 +40,12 @@ const TestingServices = () => {
           data-aos-once="false" // Set to false to repeat animation on scroll up
           data-aos-anchor-placement="center-bottom"
         >
-          <h1 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
+          <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
             01
-          </h1>
-          <h1 className="text-[28px] font-semibold leading-tight">
+          </p>
+          <h3 className="text-[28px] font-semibold leading-tight">
             Software Functional Testing Services
-          </h1>
+          </h3>
           <p className="text-xs font-normal text-start mb-3">
             At multiple granularity levels, functional testing ensures the
             software’s conformity to meet the corresponding output with the
@@ -79,12 +79,12 @@ const TestingServices = () => {
           data-aos-once="false" // Set to false to repeat animation on scroll up
           data-aos-anchor-placement="center-bottom"
         >
-          <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
+          <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
             02
-          </h2>
-          <h1 className="text-[28px] font-semibold leading-tight">
+          </p>
+          <h3 className="text-[28px] font-semibold leading-tight">
             Software Automated Testing Services
-          </h1>
+          </h3>
           <p className="text-xs font-normal text-start mb-3">
             The testing service refers to the automated testing methodology and
             usage of tools to execute comprehensive tests of software and
@@ -149,12 +149,12 @@ const TestingServices = () => {
           data-aos-once="false" 
           data-aos-anchor-placement="center-bottom"
         >
-          <h2 className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
+          <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
             03
-          </h2>
-          <h1 className="text-[28px] font-semibold leading-tight">
+          </p>
+          <h3 className="text-[28px] font-semibold leading-tight">
             Software Data Testing Services
-          </h1>
+          </h3>
           <p className="text-xs font-normal text-start mb-3">
             It is a process that connects Functional Testing, User Interface,
             and data analytics of the apps to ensure data transforms and

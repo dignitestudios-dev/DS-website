@@ -43,9 +43,9 @@ const WhyDigniteStudios = () => {
             alt="Powerful business handling icon"
             title="Powerful Business Handling"
           />
-          <span className="text-[18px] font-semibold">
+          <h3 className="text-[18px] font-semibold">
             Powerful Business Handling
-          </span>
+          </h3>
           <p
             className={`${
               theme === "light" && "text-[#8F8F8F]"

@@ -10,9 +10,9 @@ const VariousIndustriesSection = () => {
     <section className="w-full py-16 lg:py-12 global-padding-horizontal lg:mt-0">
       <div className="w-full flex flex-col xl:flex-row items-start justify-between gap-0 md:gap-6">
         <div className="w-full xl:w-[70%]">
-          <h1 className={`text-xl font-bold text-[#8F8F8F] uppercase mb-4`}>
+          <p className={`text-xl font-bold text-[#8F8F8F] uppercase mb-4`}>
             Comprehensive iOS Application Development for
-          </h1>
+          </p>
           <h2 className={`headings-size`}>Various Industries</h2>
           <p
             className={`text-[18px] my-4 font-normal ${

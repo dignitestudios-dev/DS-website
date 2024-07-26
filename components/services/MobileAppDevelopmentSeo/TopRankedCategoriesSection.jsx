@@ -8,20 +8,20 @@ const TopRankedCategoriesSection = () => {
   return (
     <section className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:my-20">
       <div className="w-full flex items-center justify-between">
-        <h1
+        <h2
           className={`${
             theme === "dark" ? "text-white" : "text-black"
           } text-start text-4xl lg:text-5xl xl:text-[67px] font-bold uppercase hidden lg:w-[60%] xl:w-[70%] lg:block tracking-tighter xl:leading-[72px]`}
         >
           Top Ranked Solutions for Multiple Platforms 
-        </h1>
-        <h1
+        </h2>
+        <h2
           className={`${
             theme === "dark" ? "text-white" : "text-black"
           } text-start text-3xl lg:text-5xl xl:text-[64px] font-bold uppercase block lg:hidden`}
         >
           top ranked categories of app development
-        </h1>
+        </h2>
         <div className="hidden lg:block">
           <Link
             href={{

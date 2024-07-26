@@ -7,7 +7,7 @@ const TopRatedPageOurOffices = () => {
   const {theme} = useContext(GlobalContext);
   return (
     <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 lg:mb-24">
-      <h1 className="font-extrabold text-3xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold uppercase">our offices</h1>
+      <h2 className="font-extrabold text-3xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold uppercase">our offices</h2>
       <div
         className={`border ${
           theme === "dark" ? "border-gray-600" : "border-[#E7E7E7]"

@@ -215,7 +215,7 @@ const MobileAppServiceCard = () => {
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
-          <h1 className="text-base font-semibold">Mobile App Development</h1>
+          <h3 className="text-base font-semibold">Mobile App Development</h3>
           <div className="flex flex-wrap gap-1">
             <p
               className={`text-[13px] ${
@@ -249,7 +249,7 @@ const MobileAppServiceCard = () => {
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
-          <h1 className="text-base font-semibold">iOS App Development</h1>
+          <h3 className="text-base font-semibold">iOS App Development</h3>
           <div className="flex flex-wrap gap-1">
             <p
               className={`text-[13px] ${
@@ -283,7 +283,7 @@ const MobileAppServiceCard = () => {
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
-          <h1 className="text-base font-semibold">Android App Development</h1>
+          <h3 className="text-base font-semibold">Android App Development</h3>
           <div className="flex flex-wrap gap-1">
             <p
               className={`text-[13px] ${
@@ -317,7 +317,7 @@ const MobileAppServiceCard = () => {
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
-          <h1 className="text-base font-semibold">Web App Development</h1>
+          <h3 className="text-base font-semibold">Web App Development</h3>
           <div className="">
             <p
               className={`text-[13px] ${
@@ -352,7 +352,7 @@ const MobileAppServiceCard = () => {
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
-          <h1 className="text-base font-semibold">Mobile App Design</h1>
+          <h3 className="text-base font-semibold">Mobile App Design</h3>
           <div className="flex flex-wrap gap-1">
             <p
               className={`text-[13px] ${
@@ -387,7 +387,7 @@ const MobileAppServiceCard = () => {
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
-          <h1 className="text-base font-semibold">Mobile App Testing</h1>
+          <h3 className="text-base font-semibold">Mobile App Testing</h3>
           <div className="flex flex-wrap gap-1">
             <p
               className={`text-[13px] ${
@@ -422,7 +422,7 @@ const MobileAppServiceCard = () => {
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
-          <h1 className="text-base font-semibold">Mobile App Consulting</h1>
+          <h3 className="text-base font-semibold">Mobile App Consulting</h3>
           <div className="flex flex-wrap gap-1">
             <p
               className={`text-[13px] ${

@@ -48,11 +48,11 @@ const CaseStudiesSection = () => {
             recent
           </p>
           <div className={`w-full px-0 flex justify-between items-center`}>
-            <h1
+            <h2
               className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold`}
             >
               case studies
-            </h1>
+            </h2>
             {/* <button name="view-all-case-studies" className="w-[120px] lg:w-[206px] h-12 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90 bg-[#F15C20] shadow-xl text-white text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center gap-4">
             All Cases <img src={"/arrow-up.png"} alt="arrow" className="w-3" />
           </button> */}

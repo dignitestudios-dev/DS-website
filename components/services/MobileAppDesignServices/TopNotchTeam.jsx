@@ -19,12 +19,12 @@ const TopNotchTeam = () => {
         </p>
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
-            <h1
+            <h2
               className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[57px] xl:leading-[77.45px]`}
             >
               <span className="text-[#F15C20]">Top-Notch</span> team <br /> of
               Dignite Studios
-            </h1>
+            </h2>
           </div>
 
           <div className="xl:px-12 flex items-center">

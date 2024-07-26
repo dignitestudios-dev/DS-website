@@ -8,12 +8,12 @@ const TestingTools = () => {
   const logos2Classes = theme === 'light' ? 'logos2' : 'logos2Dark';
   return (
     <div className="w-full py-10 global-padding-horizontal flex flex-col items-center text-center">
-      <h3 className="text-xl font-bold text-[#F15C20] uppercase">exlcusive</h3>
+      <p className="text-xl font-bold text-[#F15C20] uppercase">exlcusive</p>
       <img src="/lines.png" alt="" />
 
-      <h1 className="headings-size uppercase my-6">
+      <h2 className="headings-size uppercase my-6">
         Testing Tools and <br /> Technologies
-      </h1>
+      </h2>
       <p className="lg:w-[666px] text-center text-[15px] leading-[20.4px]">
         Mobilizing operative and powerful mobile app testing solutions to update
         current trends and maintain valuable insights. Our mobile application

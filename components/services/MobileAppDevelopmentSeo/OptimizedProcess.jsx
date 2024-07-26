@@ -11,9 +11,9 @@ const OptimizedProcess = () => {
     >
       <div className="w-full flex justify-between items-center">
         <div className="flex flex-col">
-          <h1 className="uppercase font-bold text-xl text-[#8F8F8F]">
+          <p className="uppercase font-bold text-xl text-[#8F8F8F]">
             we impact highly
-          </h1>
+          </p>
           <h2
             className={`${
               theme === "dark" ? "text-white" : "text-black"

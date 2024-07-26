@@ -8,16 +8,16 @@ const TechnologiesAndTools = () => {
   const logos2Classes = theme === "light" ? "logos2" : "logos2Dark";
   return (
     <section className="w-full global-padding-horizontal py-12">
-        <div className="w-full flex flex-col items-center justify-center">
-            <h1 className="text-[#F15C20] text-xl font-bold uppercase">modern</h1>
-            <img src="/lines.png" alt="" className="w-[101px] h-[8px]"/>
-        </div>
-      <h2 className="headings-size text-center my-4">
-      Technology and Tools
-      </h2>
+      <div className="w-full flex flex-col items-center justify-center">
+        <p className="text-[#F15C20] text-xl font-bold uppercase">modern</p>
+        <img src="/lines.png" alt="" className="w-[101px] h-[8px]" />
+      </div>
+      <h2 className="headings-size text-center my-4">Technology and Tools</h2>
       <p className={`txt-[15px] font-normal text-center lg:w-[50%] mx-auto`}>
-      We impart cutting-edge tech solutions for your stellar web development projects that deliver exclusive programming languages, frameworks, and libraries that enable us to rank apps with modern web technologies and web development tools.
-
+        We impart cutting-edge tech solutions for your stellar web development
+        projects that deliver exclusive programming languages, frameworks, and
+        libraries that enable us to rank apps with modern web technologies and
+        web development tools.
       </p>
       <div className={`w-full lg:w-[75%] mx-auto ${logosDard} flex mt-3`}>
         <dv className={`w-full logos-slide `}>

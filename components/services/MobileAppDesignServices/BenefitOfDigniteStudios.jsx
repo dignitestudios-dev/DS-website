@@ -41,9 +41,9 @@ export default function BenefitOfDigniteStudios() {
           <span className="text-[#F15C20] text-2xl font-bold uppercase">
             top-tier
           </span>
-          <span className="text-3xl md:text-4xl lg:text-[58px] xl:text-[68px] 2xl:text-[80px] lg:leading-[57px] font-bold uppercase tracking-tighter">
+          <h2 className="text-3xl md:text-4xl lg:text-[58px] xl:text-[68px] 2xl:text-[80px] lg:leading-[57px] font-bold uppercase tracking-tighter">
             benefits of dignite studios
-          </span>
+          </h2>
         </div>
 
         <Swiper {...sliderSettings} className=" z-10">
@@ -59,10 +59,10 @@ export default function BenefitOfDigniteStudios() {
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h1 className="text-[#B8B8B8] text-[20px] md:text-[40px] font-bold">
+                  <p className="text-[#B8B8B8] text-[20px] md:text-[40px] font-bold">
                     {card?.count}
-                  </h1>
-                  <h2
+                  </p>
+                  <h3
                     className={`font-semibold text-xl md:mb-2 ${
                       theme === "light"
                         ? "text-[#424242] group-hover:text-white"
@@ -70,7 +70,7 @@ export default function BenefitOfDigniteStudios() {
                     }`}
                   >
                     {card?.title}
-                  </h2>
+                  </h3>
                   <p
                     className={`${
                       theme === "dark"

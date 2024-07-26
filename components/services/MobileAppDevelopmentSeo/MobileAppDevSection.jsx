@@ -18,13 +18,13 @@ const MobileAppDevSection = () => {
 
   return (
     <section className="w-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 lg:py-12">
-      <h1
+      <h2
         className={`text-center mb-10 ${
           theme === "light" ? "text-black" : "text-white"
         } headings-size`}
       >
       <span className="text-[#F15C20]">mobile app</span> <br /> development services
-      </h1>
+      </h2>
         <MobileAppDevSectionAccordion items={items}/>
     </section>
   );

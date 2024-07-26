@@ -35,7 +35,7 @@ const ProcessCard = ({ title, desc, count, num }) => {
     >
       <div className="w-full flex flex-col gap-2 md:gap-4 justify-start items-start">
         <p className="text-[40px] font-extrabold text-[#B4B4B499]">{num}</p>
-        <h1
+        <h3
           className={`font-bold text-[28px] ${
             theme == "dark"
               ? "text-white group-hover:text-white"
@@ -43,7 +43,7 @@ const ProcessCard = ({ title, desc, count, num }) => {
           }`}
         >
           {title}
-        </h1>
+        </h3>
         <p
           className={`text-sm leading-[19.14px] ${
             theme == "dark"

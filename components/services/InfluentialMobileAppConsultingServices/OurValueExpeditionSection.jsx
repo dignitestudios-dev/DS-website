@@ -20,22 +20,22 @@ const OurValueExpeditionSection = () => {
         />
       </div>
       <div className="flex flex-col gap-4 lg:gap-6">
-        <h1 className="headings-size text-[#F15C20] hidden xl:block">
+        <h2 className="headings-size text-[#F15C20] hidden xl:block">
           Our Value <br />{" "}
           <span
             className={`${theme === "light" ? "text-black" : "text-white"}`}
           >
             Expedition
           </span>
-        </h1>
-        <h1 className="headings-size text-[#F15C20] xl:hidden">
+        </h2>
+        <h2 className="headings-size text-[#F15C20] xl:hidden">
           Our Value {" "}
           <span
             className={`${theme === "light" ? "text-black" : "text-white"}`}
           >
             Expedition
           </span>
-        </h1>
+        </h2>
         <p className="text-base 2xl:text-xl font-normal">
           The world’s preeminent ensemble Dignite Studios, harnesses the power
           of sustainability, believability, and solution to empower business

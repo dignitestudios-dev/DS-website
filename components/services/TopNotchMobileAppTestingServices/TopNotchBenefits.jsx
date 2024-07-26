@@ -7,14 +7,14 @@ const TopNotchBenefits = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div className="py-10 global-padding-horizontal flex flex-col items-center">
-      <h3 className="text-xl font-bold text-[#F15C20] uppercase">
+      <p className="text-xl font-bold text-[#F15C20] uppercase">
         dignite studios
-      </h3>
+      </p>
       <img src="/lines.png" alt="" />
 
-      <h1 className="headings-size mt-3 text-center mx-auto mb-2">
+      <h2 className="headings-size mt-3 text-center mx-auto mb-2">
         top-Notch Benefits
-      </h1>
+      </h2>
       <p className="lg:w-[666px] text-center text-[15px] leading-[20.4px]">
         The first-class application testing services of Dignite Studios pursue
         the perfection of landscape to meet the reality of diverse devices, and
@@ -33,9 +33,9 @@ const TopNotchBenefits = () => {
           data-aos-once="false"
           data-aos-anchor-placement="center-bottom"
         >
-          <h1 className="font-semibold text-[28px] tracking-tight">
+          <h3 className="font-semibold text-[28px] tracking-tight">
             Exclusive Error Detection
-          </h1>
+          </h3>
           <p className="text-base leading-[22.56px]">
             Errors are an imminent part of applications. They must be addressed
             in the app development process because they can malfunction, crash,
@@ -114,9 +114,9 @@ const TopNotchBenefits = () => {
           data-aos-once="false"
           data-aos-anchor-placement="center-bottom"
         >
-          <h1 className="font-semibold text-[28px] tracking-tight">
+          <h3 className="font-semibold text-[28px] tracking-tight">
             Quality Assurance
-          </h1>
+          </h3>
           <p className="text-base leading-[22.56px]">
             In the testing phase, the level of quality assessment is analyzed in
             mobile application testing. It can prevent from bugs and serious
@@ -147,9 +147,9 @@ const TopNotchBenefits = () => {
           data-aos-once="false"
           data-aos-anchor-placement="center-bottom"
         >
-          <h1 className="font-semibold text-[28px] tracking-tight">
+          <h3 className="font-semibold text-[28px] tracking-tight">
             Security Prevalence
-          </h1>
+          </h3>
           <p className="text-base leading-[22.56px]">
             A recent study found the number of mobile application users in the
             USA than desktop applications. In 2015, 54% of users spent their
@@ -229,9 +229,9 @@ const TopNotchBenefits = () => {
           data-aos-once="false"
           data-aos-anchor-placement="center-bottom"
         >
-          <h1 className="font-semibold text-[28px] tracking-tight">
+          <h3 className="font-semibold text-[28px] tracking-tight">
             Fast Development Process
-          </h1>
+          </h3>
           <p className="text-base leading-[22.56px]">
             Fast-paced and high-quality mobile apps are the most advocated in
             today’s modern world of lucrative business. Whereas it has a huge

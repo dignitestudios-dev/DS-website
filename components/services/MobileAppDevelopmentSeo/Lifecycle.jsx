@@ -11,13 +11,13 @@ const Lifecycle = () => {
       className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-10 md:my-16 lg:mt-24 lg:mb-28`}
     >
       <div className="w-full flex items-center justify-between">
-        <h1
+        <h2
           className={`${
             theme === "dark" ? "text-white" : "text-black"
           } text-start text-3xl lg:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter`}
         >
           up-to-the-minute
-        </h1>
+        </h2>
         <div className="hidden lg:block">
           <Link
           href={{

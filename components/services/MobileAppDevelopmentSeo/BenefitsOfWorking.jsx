@@ -14,13 +14,13 @@ const BenefitsOfWorking = () => {
       } py-16`}
     >
       <div className="w-full flex items-center justify-between">
-        <h1
+        <h2
           className={`${
             theme === "dark" ? "text-white" : "text-black"
           } headings-size xl:w-[75%]`}
         >
           benefits of working with <br /> dignite studios
-        </h1>
+        </h2>
         <div className="hidden xl:block">
           <Link
             href={{

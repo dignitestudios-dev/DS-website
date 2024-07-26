@@ -6,7 +6,7 @@ const CustomWebAppDevSection = () => {
   return (
     <section className="w-full global-padding-horizontal py-12">
       <div className="flex flex-col items-start text-start gap-y-3">
-        <h1 className="text-xl font-bold text-[#8F8F8F] uppercase">custom</h1>
+        <p className="text-xl font-bold text-[#8F8F8F] uppercase">custom</p>
         <h2 className="headings-size">
           <span className="text-[#F15C20]">
             Web Application <br />

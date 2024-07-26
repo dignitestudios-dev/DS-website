@@ -36,9 +36,9 @@ const MobileAppDevelopmentSeoPage = () => {
             theme === "light" && "bg-[#F9F9F9]"
           } h-[170px] md:h-[345px] lg:h-[405px] xl:h-[545px] overflow-hidden`}
         >
-          <h1 className="uppercase font-bold text-sm w-full md:text-3xl lg:text-[48px] z-20 absolute top-[10%] 2xl:top-32 left-1/2 transform -translate-x-1/2 text-center mx-auto">
+          <h2 className="uppercase font-bold text-sm w-full md:text-3xl lg:text-[48px] z-20 absolute top-[10%] 2xl:top-32 left-1/2 transform -translate-x-1/2 text-center mx-auto">
             <span className="text-[#F15C20]">technologies</span> we’re using
-          </h1>
+          </h2>
           {theme === "dark" ? (
             <img
               width={1440}

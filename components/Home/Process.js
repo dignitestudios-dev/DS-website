@@ -41,11 +41,11 @@ const Process = () => {
           <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
             6 step {currentTab} process
           </p>
-          <h1
+          <h2
             className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold`}
           >
             our process
-          </h1>
+          </h2>
         </div>
         <div className="w-full h-auto mt-6 lg:my-6 grid grid-cols-3 grid-rows-1">
           <button
@@ -69,7 +69,7 @@ const Process = () => {
             >
               <MdKeyboardArrowDown className="text-2xl" />
             </span>
-            <h1>agile</h1>
+            <h3>agile</h3>
           </button>
           <button
             type="button"
@@ -92,7 +92,7 @@ const Process = () => {
             >
               <MdKeyboardArrowDown className="text-2xl" />
             </span>
-            <h1>waterfall</h1>
+            <h3>waterfall</h3>
           </button>
           <button
             type="button"
@@ -115,7 +115,7 @@ const Process = () => {
             >
               <MdKeyboardArrowDown className="text-2xl" />
             </span>
-            <h1>hybrid</h1>
+            <h3>hybrid</h3>
           </button>
         </div>
 

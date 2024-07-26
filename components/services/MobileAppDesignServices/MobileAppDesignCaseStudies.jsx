@@ -44,7 +44,7 @@ const MobileAppDesignCaseStudies = () => {
               recent
             </p>
             <div className={`w-full px-0 flex justify-between items-center`}>
-              <h1 className={`headings-size`}>case studies</h1>
+              <h2 className={`headings-size`}>case studies</h2>
             </div>
           </div>
           <div className="w-full lg:w-auto hidden lg:block">

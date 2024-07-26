@@ -77,10 +77,10 @@ const ConsultingStrategiesSection = () => {
   return (
     <section className="w-full lg:py-12 global-padding-horizontal flex flex-col gap-4">
       <div className="w-full flex flex-col lg:flex-row gap-y-6 items-start justify-between">
-        <h1 className="headings-size lg:w-[85%]">
+        <h2 className="headings-size lg:w-[85%]">
           <span className="text-[#F15C20]">Mobile App</span> Development
           Consulting Strategies 
-        </h1>
+        </h2>
         <Link
           href={"/contact-us"}
           className="px-6 py-5 lg:w-[270px] lg:h-[80px] top-rated-btn-shadow hover:opacity-[.75] transition-all duration-300 rounded-full text-xl font-semibold text-[#ffff] bg-[#F15C20] flex items-center justify-center gap-2 xl:mt-2"
@@ -117,9 +117,9 @@ const ConsultingStrategiesSection = () => {
           />
         </div>
         <div className="lg:w-[60%] flex flex-col items-start justify-center gap-6 lg:ps-12">
-          <h2 className="text-[28px] 2xl:text-[38px] font-semibold">
+          <h3 className="text-[28px] 2xl:text-[38px] font-semibold">
             {headings[currentIndex]?.heading}
-          </h2>
+          </h3>
           <p
             className={`text-base 2xl:text-lg font-normal ${
               theme === "light" && "text-[#5C5C5C] leading-[20.81px]"

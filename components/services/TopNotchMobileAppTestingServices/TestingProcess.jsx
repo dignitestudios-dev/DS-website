@@ -13,13 +13,13 @@ const TestingProcess = () => {
         </p>
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
-            <h1
+            <h2
               className={`headings-size group`}
             >
               <span className="text-[#8F8F8F] group-hover:text-[#F15C20] transition-all duration-200">Inevitable</span>
               <br />
               Testing Process
-            </h1>
+            </h2>
           </div>
 
           <div className="xl:px-12 flex items-center">
@@ -43,7 +43,7 @@ const TestingProcess = () => {
           return (
             <div key={index} className={`flex flex-col items-start gap-4 `}>
               <img src={team.icon_src} alt="team-icon" title="team-icon" className="w-9 h-9"/>
-              <h2 className="text-xl font-semibold">{team.title}</h2>
+              <h3 className="text-xl font-semibold">{team.title}</h3>
               <p className="text-sm font-normal leading-[19.74px]">{team.desc}</p>
             </div>
           );

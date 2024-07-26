@@ -13,14 +13,14 @@ const WhyChooseUs = () => {
     <div
       className={`mt-14 mb-24 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 text-center`}
     >
-      <h1
+      <h2
         style={{
           color: theme == "dark" ? "#fff" : "#0c0c0c",
         }}
         className={`uppercase text-4xl lg:text-5xl xl:text-[58px] 2xl:text-[74px] tracking-tighter font-bold mb-2 lg:mb-8`}
       >
         why choose us
-      </h1>
+      </h2>
 
       <p className="text-base lg:leading-[21.76px] lg:w-[50%] mx-auto lg:text-center mb-6">
       Leveraging the field of web application development services for years, Dignite Studios has excelled in its services regardless of web apps, we’ve nestled multiple web solutions not only subjected to web apps but also web portals. The company ensures a strong framework for the development process of your web project. Our supreme design features and layout will blow your app dimension in just a go.

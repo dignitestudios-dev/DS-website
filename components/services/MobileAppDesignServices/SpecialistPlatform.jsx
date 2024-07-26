@@ -19,9 +19,9 @@ const SpecialistPlatform = () => {
       style={{ background: palette?.background }}
     >
       <div className="w-full flex flex-col items-center justify-start">
-        <h1 className="uppercase text-xl font-bold text-[#F15C20]">
+        <p className="uppercase text-xl font-bold text-[#F15C20]">
           hire on demand
-        </h1>
+        </p>
         <Image
           loader={customLoader}
           width={141}

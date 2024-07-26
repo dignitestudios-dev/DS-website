@@ -45,9 +45,9 @@ const Hero = () => {
             Development Services
           </h1>
 
-          <h6 className="text-base 2xl:text-xl 2xl:mt-3 font-normal">
+          <h2 className="text-base 2xl:text-xl 2xl:mt-3 font-normal">
             Build intuitive app architecture for your Android devices
-          </h6>
+          </h2>
         </div>
 
         <img

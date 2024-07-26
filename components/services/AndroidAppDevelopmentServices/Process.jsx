@@ -12,14 +12,14 @@ const Process = () => {
     <section className="w-full lg:py-12 global-padding-horizontal lg:mt-0">
       <div className="w-full flex flex-col xl:flex-row items-start justify-between gap-0 md:gap-6">
         <div className="w-full xl:w-[70%]">
-          <h3 className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
+          <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
             mobile app development
-          </h3>
-          <h1
+          </p>
+          <h2
             className={`headings-size`}
           >
             process
-          </h1>
+          </h2>
           <p
             className={`text-[15px] my-4 font-normal ${
               theme === "light" && "text-[#2A2A2A]"

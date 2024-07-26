@@ -12,13 +12,13 @@ const MobileAppWeDevelopSection = () => {
     <section className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-center w-full mt-6 mb-10 md:my-12 lg:mt-16 lg:mb-20">
       <div className="w-full flex flex-col lg:flex-row items-start justify-between">
         <div className="lg:w-[70%] xl:w-[80%] flex flex-col gap-y-6 lg:gap-y-2">
-          <h1
+          <h2
             className={`${
               theme === "dark" ? "text-white" : "text-black"
             } headings-size`}
           >
             <span className="text-[#F15C20]">mobile apps</span> we develop
-          </h1>
+          </h2>
           <p
             className={`text-base font-normal text-start ${
               theme === "light" && "text-[#2A2A2A]"

@@ -12,11 +12,11 @@ const LeadingSection = () => {
         alt="leading-lines"
         className="w-[86px] h-[8]"
       />
-      <h1
+      <h2
         className={`headings-size`}
       >
         <span className="">Android App</span> <br /> Development Services
-      </h1>
+      </h2>
       <p
         className={`lg:w-[70%] leading-[20.4px] text-[15px] my-4 font-normal ${
           theme === "light" && "text-[#2A2A2A]"

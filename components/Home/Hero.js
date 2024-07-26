@@ -49,15 +49,15 @@ const Hero = () => {
   }, []);
   return (
     <div className="w-full  flex flex-col pt-2 md:pt-10  gap-4 justify-start items-center">
-      <span
+      <h1
         className="capitalize text-center text-[16px] 2xl:text-[20px] font-medium "
         style={{
           color: theme == "dark" ? "#B4B4B4" : "#8F8F8F",
         }}
       >
         Top mobile app development company
-      </span>
-      <h1
+      </h1>
+      <h2
         style={{
           color: palette?.color,
         }}
@@ -72,7 +72,7 @@ const Hero = () => {
           }}
           className={`typing-demo text-[2rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold text-center lg:text-left  leading-normal `}
         ></span>
-      </h1>
+      </h2>
       <span
         style={{
           color: theme == "dark" ? "#B4B4B4" : "#5c5c5c",

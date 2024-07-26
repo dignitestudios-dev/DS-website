@@ -26,9 +26,9 @@ const InnovativeMobileAppSection = () => {
             </h3>
           </div>
 
-          <h1 className="font-extrabold text-3xl lg:text-4xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[47px] xl:leading-[77.45px] 2xl:leading-[87.45px]">
+          <h2 className="font-extrabold text-3xl lg:text-4xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[47px] xl:leading-[77.45px] 2xl:leading-[87.45px]">
             into an Innovative <br /> Mobile App. 
-          </h1>
+          </h2>
 
           <div className="w-full lg:w-auto flex justify-start">
             <Link

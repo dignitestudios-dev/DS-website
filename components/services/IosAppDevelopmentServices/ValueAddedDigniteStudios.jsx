@@ -17,11 +17,11 @@ const ValueAddedDigniteStudios = () => {
             <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
               Value-Added Outsourcing With
             </p>
-            <h1
+            <h2
               className={`text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter font-bold uppercase lg:leading-[57px] xl:leading-[77.45px]`}
             >
               Dignite Studios
-            </h1>
+            </h2>
           </div>
 
           <div className="xl:px-12 flex items-center">
@@ -52,7 +52,7 @@ const ValueAddedDigniteStudios = () => {
                 title={team.img_title}
                 className=""
               />
-              <p className="text-xl font-semibold">{team.title}</p>
+              <h3 className="text-xl font-semibold">{team.title}</h3>
               <p className="text-sm font-normal leading-[19.74px]">
                 {team.description}
               </p>

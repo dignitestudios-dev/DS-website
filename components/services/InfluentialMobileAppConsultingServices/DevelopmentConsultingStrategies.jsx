@@ -8,10 +8,10 @@ const DevelopmentConsultingStrategies = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <section className="w-full global-padding-horizontal py-14">
-      <h1 className="headings-size">
+      <h2 className="headings-size">
         <span className="text-[#F15C20]">Development</span> Consulting
         Strategies 
-      </h1>
+      </h2>
       <p
         className={`text-base 2xl:text-lg font-normal ${
           theme === "light" && "text-[#5C5C5C] leading-[20.81px]"

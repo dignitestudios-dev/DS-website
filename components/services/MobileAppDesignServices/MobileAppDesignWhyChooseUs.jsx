@@ -19,9 +19,9 @@ const MobileAppDesignWhyChooseUs = () => {
     >
       <div className="w-full flex flex-col lg:flex-row items-start lg:gap-x-6 gap-y-6">
         <div className="w-full lg:w-[60%] flex flex-col items-start gap-6">
-          <h1 className="font-extrabold text-3xl lg:text-5xl xl:text-[77px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase">
+          <h2 className="font-extrabold text-3xl lg:text-5xl xl:text-[77px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase">
             why choose us
-          </h1>
+          </h2>
           <p className="text-[15px]">
             Holding comprehensive experience in the field of mobile app design,
             we have served hundreds of potential clients to deliver the best

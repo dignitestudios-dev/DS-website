@@ -8,20 +8,25 @@ const PlatformServices = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <section className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full mb-6 mt-20 md:mb-12 md:mt-32 lg:mt-24 lg:pb-20 xl:pb-0 xl:mt-36">
-      <h1
+      <h2
         className={`${
           theme === "dark" ? "text-white" : "text-black"
         } text-start text-3xl md:text-5xl xl:text-[64px] font-bold lg:tracking-tighter lg:leading-[72px] hidden xl:block`}
       >
-        <span className="uppercase"> mobile app development services <br /> for</span> <span className="text-[#F15C20]">iOS & ANDROID</span>
-      </h1>
-      <h1
+        <span className="uppercase">
+          {" "}
+          mobile app development services <br /> for
+        </span>{" "}
+        <span className="text-[#F15C20]">iOS & ANDROID</span>
+      </h2>
+      <h2
         className={`${
           theme === "dark" ? "text-white" : "text-black"
         } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter xl:hidden`}
       >
-        mobile app development services for various platforms
-      </h1>
+        mobile app development services for{" "}
+        <span className="text-[#F15C20]">iOS & ANDROID</span>
+      </h2>
       <p
         className={`text-base font-normal text-start lg:w-[60%] ${
           theme === "light" ? "text-[#2A2A2A]" : "text-white"
@@ -45,7 +50,7 @@ const PlatformServices = () => {
                 src="/android-mobile-app-mockup.png"
                 alt=""
                 decoding="async"
-        data-nimg="1"
+                data-nimg="1"
                 className="w-[21px] h-[21px]"
               />
               <h3 className="text-xl font-semibold">Android App Development</h3>
@@ -71,7 +76,7 @@ const PlatformServices = () => {
                 src="/ios-mockup.png"
                 alt=""
                 decoding="async"
-        data-nimg="1"
+                data-nimg="1"
                 className="w-[21px] h-[21px]"
               />
               <h3 className="text-xl font-semibold">iOS App Development</h3>
@@ -81,7 +86,14 @@ const PlatformServices = () => {
                 theme === "light" ? "text-[#5F5F5F]" : "text-white"
               }`}
             >
-              Turn your illustrations into an unprecedented model that robust iOS mobile applications in an exclusive manner. From code to launch, the top-notch developers of Dignite Studios will transform your entire mobile app with eminent methodologies of mobile development to make your app version highly functional, optimized, systemized, and scalable on any platform. We take pride in our development efforts to help businesses achieve their rapid ROIs and conversions. 
+              Turn your illustrations into an unprecedented model that robust
+              iOS mobile applications in an exclusive manner. From code to
+              launch, the top-notch developers of Dignite Studios will transform
+              your entire mobile app with eminent methodologies of mobile
+              development to make your app version highly functional, optimized,
+              systemized, and scalable on any platform. We take pride in our
+              development efforts to help businesses achieve their rapid ROIs
+              and conversions.
             </p>
           </div>
         </div>
@@ -91,7 +103,7 @@ const PlatformServices = () => {
             width={596}
             height={557}
             decoding="async"
-        data-nimg="1"
+            data-nimg="1"
             src="/telehealth-mobile-app-development.webp"
             title="Mobile app development services"
             alt="mockup screen shows icons of multiple mobile app development service platforms"

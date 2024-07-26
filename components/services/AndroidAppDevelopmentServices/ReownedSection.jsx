@@ -22,12 +22,12 @@ const ReownedSection = () => {
         data-aos-anchor-placement="top-center"
       >
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>Renowned</p>
-        <h1
+        <h2
           className={`headings-size`}
         >
           <span className="text-[#F15C20]">Android App</span> <br /> Development
           Company
-        </h1>
+        </h2>
         <p
           className={`lg:w-[50%] text-[15px] my-4 font-normal ${
             theme === "light" && "text-[#2A2A2A]"

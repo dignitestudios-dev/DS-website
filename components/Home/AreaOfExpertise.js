@@ -45,9 +45,9 @@ const AreaOfExpertise = () => {
             </span>
             <img src="/lines3.png" className="w-[122px]" />
           </div>
-          <span className="lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold">
+          <h2 className="lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold">
             Area Of Expertise
-          </span>
+          </h2>
         </div>
 
         <div
@@ -69,7 +69,7 @@ const AreaOfExpertise = () => {
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h1
+                  <h3
                     className={`font-semibold text-xl mb-2 ${
                       theme === "light"
                         ? "text-black group-hover:text-white"
@@ -77,7 +77,7 @@ const AreaOfExpertise = () => {
                     }`}
                   >
                     {card?.heading}
-                  </h1>
+                  </h3>
                   <p
                     className={`${
                       theme === "dark"
