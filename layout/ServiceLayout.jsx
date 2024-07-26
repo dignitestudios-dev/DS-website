@@ -185,7 +185,7 @@ const ServicesLayout = ({ page }) => {
           </div>
           <div className="main-promo">
             <div className="promo2">
-              <h1 className="heading_promo2">before you leave</h1>
+              <h2 className="heading_promo2">before you leave</h2>
               <span className="sub_promo2">Sign up now for a free quote</span>
               <span className="box_promo2">Upto 25% OFF</span>
             </div>

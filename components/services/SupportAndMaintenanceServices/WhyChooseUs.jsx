@@ -13,14 +13,14 @@ const WhyChooseUs = () => {
     <div
       className={`my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  text-center`}
     >
-      <h1
+      <h2
         style={{
           color: theme == "dark" ? "#fff" : "#0c0c0c",
         }}
         className={`uppercase text-4xl lg:text-5xl xl:text-[58px] 2xl:text-[74px] tracking-tighter font-bold mb-2 lg:mb-8`}
       >
         why choose us
-      </h1>
+      </h2>
 
       <p className="text-base lg:leading-[21.76px] lg:w-[50%] mx-auto lg:text-center mb-6">
         In the modern times of technological enhancement software mobile app

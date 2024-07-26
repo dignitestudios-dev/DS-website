@@ -6,9 +6,9 @@ const IndustryLeading = () => {
   return (
     <section className="py-12 global-padding-horizontal grid grid-cols-1 lg:grid-cols-2 gap-y-6">
       <div>
-        <h1 className="uppercase font-bold text-xl text-[#8F8F8F]">
+        <p className="uppercase font-bold text-xl text-[#8F8F8F]">
           industry leading
-        </h1>
+        </p>
         <h2 className="headings-size mt-2">
           Mobile App <span className="text-[#F15C20]">Maintenance</span> Company
         </h2>

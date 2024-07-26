@@ -39,9 +39,9 @@ export default function ValuePropositionSection() {
       <div className="w-full relative overflow-hidden">
         <div className="flex flex-col gap-2 mb-12">
           <div className="flex flex-col items-start">
-            <h1 className="text-[#F15C20] text-xl font-bold uppercase">
+            <p className="text-[#F15C20] text-xl font-bold uppercase">
               Value Proposition of
-            </h1>
+            </p>
             <img
               src="/value-proposition-lines.png"
               alt=""
@@ -66,9 +66,9 @@ export default function ValuePropositionSection() {
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h1 className="text-[#B8B8B8] text-[20px] md:text-[40px] font-bold">
+                  <h3 className="text-[#B8B8B8] text-[20px] md:text-[40px] font-bold">
                     {card?.count}
-                  </h1>
+                  </h3>
                   <h2
                     className={`font-semibold text-xl md:mb-2 ${
                       theme === "light"

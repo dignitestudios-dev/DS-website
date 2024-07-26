@@ -23,11 +23,11 @@ const Faqs = () => {
       className={`w-full my-14 global-padding-horizontal flex justify-center items-start mx-auto h-auto`}
     >
       <div className="w-full h-auto flex flex-col gap-3 justify-start items-center">
-        <h1
+        <h2
           className={`uppercase text-center lg:text-start text-3xl lg:text-5xl xl:text-[58px] lg:leading-[70px] 2xl:text-[74px] tracking-tight lg:tracking-tighter font-bold lg:mb-8`}
         >
           Frequently asked questions
-        </h1>
+        </h2>
         <div
           id="accordion-collapse"
           data-accordion="collapse"
