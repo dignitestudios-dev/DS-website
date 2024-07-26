@@ -47,6 +47,7 @@ const PlanOfActionSection = () => {
           height={1122}
           src="/plan-of-action.webp"
           alt="Plan of action image"
+          title="Plan of action image"
           className="absolute right-0 top-0 bottom-0 h-full rounded-r-3xl hidden xl:block"
         />
       </div>

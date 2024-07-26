@@ -44,7 +44,8 @@ export default function ValuePropositionSection() {
             </p>
             <img
               src="/value-proposition-lines.png"
-              alt=""
+              alt="lines"
+              title="lines"
               className="w-[227px] h-[8px]"
             />
           </div>

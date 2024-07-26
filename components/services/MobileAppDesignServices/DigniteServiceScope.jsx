@@ -30,6 +30,7 @@ const DigniteServiceScope = () => {
               height={8}
               src="/lines.png"
               alt="design-lines"
+              title="lines"
             />
           </div>
 

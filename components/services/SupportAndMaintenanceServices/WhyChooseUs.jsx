@@ -40,6 +40,7 @@ const WhyChooseUs = () => {
               icon={c.icon}
               key={index}
               alt={c.alt}
+              img_title={c.image_title}
             />
           );
         })}

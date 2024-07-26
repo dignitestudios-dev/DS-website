@@ -12,7 +12,7 @@ const TechnologiesWeAreUsing = () => {
         <p className="text-[#F15C20] text-xl font-bold uppercase">
           exlcusive
         </p>
-        <img src="/lines.png" alt="" className="w-[101px] h-[8px]" />
+        <img src="/lines.png" alt="lines" title="lines" className="w-[101px] h-[8px]" />
       </div>
       <h2 className="headings-size text-center my-4">
         Testing Tools and <br /> Technologies

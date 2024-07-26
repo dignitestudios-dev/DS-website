@@ -51,11 +51,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         <div className="w-full flex gap-3 justify-start items-center">
           <Link href="/">
             <Image
-              alt="logo"
+              alt="Dignite Studios Logo"
               loader={customLoader}
               width={100}
               height={64}
               src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"}
+              title="Dignite Studios Logo"
+              
               className="h-16"
             />
           </Link>

@@ -45,6 +45,7 @@ const Hero = () => {
         srcset="https://dignitestudios.com//Mobile-app-design-services.webp 1x, /Mobile-app-design-services.webp"
         src="/Mobile-app-design-services.webp"
         style={{color: "transparent"}}
+        title="Mobile app design services"
       />
     </main>
   );

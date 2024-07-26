@@ -20,7 +20,7 @@ const TopNotchIosApp = () => {
             <p className="text-[#F15C20] font-bold text-xl uppercase">
               top-notch ios application
             </p>
-            <img src="/wide-lines.png" alt="" className="w-40 h-2 md:w-[289px]"/>
+            <img src="/wide-lines.png" alt="lines" title="lines" className="w-40 h-2 md:w-[289px]"/>
           </div>
           <h2 className="text-3xl lg:text-[48px] xl:text-[68px] 2xl:text-[72px] font-bold lg:leading-[64.94px] tracking-tighter">
             Development <br /> Company

@@ -10,7 +10,7 @@ const TechnologiesAndTools = () => {
     <section className="w-full global-padding-horizontal py-12">
       <div className="w-full flex flex-col items-center justify-center">
         <p className="text-[#F15C20] text-xl font-bold uppercase">modern</p>
-        <img src="/lines.png" alt="" className="w-[101px] h-[8px]" />
+        <img src="/lines.png" alt="lines" title="lines" className="w-[101px] h-[8px]" />
       </div>
       <h2 className="headings-size text-center my-4">Technology and Tools</h2>
       <p className={`txt-[15px] font-normal text-center lg:w-[50%] mx-auto`}>

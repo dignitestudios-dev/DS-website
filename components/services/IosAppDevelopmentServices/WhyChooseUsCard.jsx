@@ -3,7 +3,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 
-const WhyChooseUsCard = ({ title, description, icon, alt }) => {
+const WhyChooseUsCard = ({ title, description, icon, alt, img_title }) => {
   const { palette, theme } = useContext(GlobalContext);
   return (
     <div
@@ -12,7 +12,7 @@ const WhyChooseUsCard = ({ title, description, icon, alt }) => {
         color: palette?.color,
       }}
     >
-      <img src={icon} alt={alt} className="" width="36px" height="36px" />
+      <img src={icon} alt={alt} title={img_title} className="" width="36px" height="36px" />
       <h3
         className="text-xl  font-semibold"
         style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}

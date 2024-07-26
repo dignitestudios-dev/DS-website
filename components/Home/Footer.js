@@ -179,8 +179,9 @@ const Footer = () => {
                 loader={customLoader}
                 width={140}
                 height={30}
-                alt="trust-pilot"
+                alt="trust-pilot-logo"
                 src="/trustpilot-logo.webp"
+                title="trustpilot-logo"
                 className="w-[140px] md:w-[200px] lg:w-[236px]"
               />
             </Link>
@@ -190,7 +191,8 @@ const Footer = () => {
             loader={customLoader}
             width={140}
             height={30}
-            alt="trust-pilot"
+            alt="trust-pilot-stars"
+            title="trust-pilot-stars"
             src="/footer-stars.webp"
             className="w-[140px] md:w-[200px] lg:w-[236px]"
           />

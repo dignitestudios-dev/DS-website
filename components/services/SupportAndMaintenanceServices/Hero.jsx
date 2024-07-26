@@ -35,13 +35,15 @@ const Hero = () => {
       <div className="w-full relative">
         <img
           src="/maintenance-hero-borders.webp"
-          alt=""
+          alt="maintenance-hero-borders"
+          title="maintenance-hero-borders"
           className="w-full lg:w-[934] xl:h-[639.79px] xl:w-[1134.56px] mx-auto absolute top-0 md:translate-x-[2%] xl:translate-x-[7%] 2xl:translate-x-[20%] z-0"
         />
         <div className="w-full flex items-center justify-center z-10 mt-10 gap-3 md:gap-6 relative">
           <img
             src="/maintenance-hero-left-icon.png"
             alt="app-service-icon"
+            title="app-service-icon"
             className="w-[157.05px] h-[100px] hidden lg:block absolute top-9 -left-20 xl:left-16 2xl:left-28 z-20 maintenance-animated-icon"
           />
           <img
@@ -65,6 +67,7 @@ const Hero = () => {
           <img
             src="/app-maintenance-icon.png"
             alt="app-service-icon"
+            title="app-service-icon"
             className="w-[187.05px] h-[107px] hidden lg:block absolute bottom-16 -right-28 xl:right-12 2xl:right-24 2xl:bottom-24 z-20 maintanence-animated-icon-2"
           />
         </div>

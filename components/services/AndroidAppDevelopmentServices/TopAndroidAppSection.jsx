@@ -11,7 +11,7 @@ const TopAndroidAppSection = () => {
       <p className={`text-xl font-bold text-[#F15C20] uppercase `}>
         top android application
       </p>
-      <img src="/lines-4.png" alt="leading-lines" className="w-[269px] h-[8]" />
+      <img src="/lines-4.png" alt="leading-lines" title="leading-lines" className="w-[269px] h-[8]" />
       <h2
         className={`headings-size mt-4`}
       >

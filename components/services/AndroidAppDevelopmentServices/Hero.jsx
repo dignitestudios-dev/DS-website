@@ -23,6 +23,7 @@ const Hero = () => {
           <img
             src="/arrow-icon.png"
             alt="arrow-icon"
+            title="arrow-icon"
             className="absolute top-[27%] md:top-[32%] lg:top-[70px] left-[48%] md:left-[47%] lg:left-[47%] xl:top-[95px] xl:left-[48%] 2xl:top-[110px] 2xl:left-[48%] w-[17px] h-[16px] md:w-[22.1px] md:h-[20.1px]"
           />
           <h1
@@ -53,16 +54,19 @@ const Hero = () => {
         <img
           src="/tailwind-icon-2.png"
           alt="firebase-icon"
+          title="firebase-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[4%] animated-icon z-0"
         />
         <img
           src="/java-icon-2.png"
-          alt="firebase-icon"
+          alt="java-icon"
+          title="java-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[15%] top-[35%] animated-icon-2"
         />
         <img
           src="/flutter-icon-2.png"
-          alt="firebase-icon"
+          alt="flutter-icon"
+          title="flutter-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[0%] bottom-[15%] animated-icon-2"
         />
 
@@ -70,37 +74,40 @@ const Hero = () => {
         <img
           src="/firebase-icon-2.png"
           alt="firebase-icon"
+          title="firebase-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[4%] top-[15%] animated-icon-3"
         />
         <img
           src="/vs-icon.png"
-          alt="firebase-icon"
+          alt="vs-code-icon"
+          title="vs-code-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[15%] top-[40%] animated-icon-3"
         />
         <img
           src="/react-icon-2.png"
-          alt="firebase-icon"
+          alt="react-icon"
+          title="react-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[5%] bottom-[15%] animated-icon-3"
         />
 
         <div className="w-full lg:hidden grid grid-cols-3 gap-x-2 gap-y-4 px-4">
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/tailwind-icon.png" alt="" className="w-full h-full" />
+            <img src="/tailwind-icon.png" alt="tailwind-icon" title="tailwind-icon" className="w-full h-full" />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/java-icon.png" alt="" className="w-full h-full" />
+            <img src="/java-icon.png" alt="java-icon" title="java-icon" className="w-full h-full" />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/flutter-color.webp" alt="" className="w-full h-full" />
+            <img src="/flutter-color.webp" alt="flutter-color" title="flutter-color" className="w-full h-full" />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/firebase-icon.png" alt="" className="w-full h-full" />
+            <img src="/firebase-icon.png" alt="firebase-icon" title="firebase-icon" className="w-full h-full" />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/vscode-color.png" alt="" className="w-full h-full" />
+            <img src="/vscode-color.png" alt="vscode-color" title="vscode-color" className="w-full h-full" />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/react-icon.png" alt="" className="w-full h-full" />
+            <img src="/react-icon.png" alt="react-icon" title="react-icon" className="w-full h-full" />
           </div>
         </div>
 

@@ -10,6 +10,7 @@ const LeadingSection = () => {
       <img
         src="/leading-lines.png"
         alt="leading-lines"
+        title="leading-lines"
         className="w-[86px] h-[8]"
       />
       <h2

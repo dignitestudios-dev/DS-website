@@ -38,7 +38,8 @@ const Navbar = ({ setIsOpen }) => {
     >
       <Link aria-label="logo" href="/" className="h-auto">
         <img
-          alt="logo"
+          alt="Dignite Studios Logo"
+          title="Dignite Studios Logo"
           // loader={customLoader}
           width={120}
           height={70}

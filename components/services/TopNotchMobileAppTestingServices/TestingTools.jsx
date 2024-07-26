@@ -9,7 +9,7 @@ const TestingTools = () => {
   return (
     <div className="w-full py-10 global-padding-horizontal flex flex-col items-center text-center">
       <p className="text-xl font-bold text-[#F15C20] uppercase">exlcusive</p>
-      <img src="/lines.png" alt="" />
+      <img src="/lines.png" alt="lines" title="lines"/>
 
       <h2 className="headings-size uppercase my-6">
         Testing Tools and <br /> Technologies

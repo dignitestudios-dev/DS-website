@@ -48,7 +48,8 @@ const PlatformServices = () => {
                 width={21}
                 height={21}
                 src="/android-mobile-app-mockup.png"
-                alt=""
+                alt="android-app-icon"
+                title="android-app-icon"
                 decoding="async"
                 data-nimg="1"
                 className="w-[21px] h-[21px]"
@@ -74,7 +75,8 @@ const PlatformServices = () => {
                 width={21}
                 height={21}
                 src="/ios-mockup.png"
-                alt=""
+                alt="ios-app-icon"
+                title="ios-app-icon"
                 decoding="async"
                 data-nimg="1"
                 className="w-[21px] h-[21px]"

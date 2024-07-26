@@ -13,7 +13,7 @@ const PhenomenalSection = () => {
         <p className="text-[#F15C20] text-xl font-bold uppercase">
           Phenomenal
         </p>
-        <img src="/lines.png" alt="lines" className="" />
+        <img src="/lines.png" alt="lines" title="lines" className="" />
       </div>
       <h2
         className={`text-center mb-5 ${

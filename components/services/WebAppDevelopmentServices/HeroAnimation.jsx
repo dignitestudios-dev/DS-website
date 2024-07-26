@@ -8,7 +8,8 @@ const HeroAnimation = () => {
     <div className="w-full mt-6 md:mt-0 relative lg:h-[60vh] xl:h-[79vh] flex items-center justify-start overflow-y-visible">
       <img
         src="/Web-Application-Development-Services-Left.png"
-        alt=""
+        alt="Web Application Development Services page shows web mock screens which presents application layout"
+        title="Web Application Development Services"
         className="lg:w-[346px] lg:h-[325px] 2xl:w-[426px] 2xl:h-[395px] absolute top-16 2xl:top-44 left-14 2xl:left-20 z-20 slide-right-on-load hidden xl:block"
       />
       {/* <AnimatedBarChart /> */}
@@ -31,6 +32,7 @@ const HeroAnimation = () => {
           <img
             src="/pie-chart.png"
             alt="pie-chart"
+            title="pie-chart-img"
             className="w-[103px] h-[103px] mx-auto"
           />
         </div>
@@ -42,22 +44,26 @@ const HeroAnimation = () => {
 
       <img
         src="/web-app-dev-image-shadow-purple.png"
-        alt=""
+        alt="web-app-dev-image-shadow-purple"
+        title="web-app-dev-image-shadow-purple"
         className="w-[80%] lg:h-[78vh] xl:h-[84vh] absolute inset-0 m-auto z-0 fade-in"
       />
       <img
         src="/web-app-dev-image-shadow-yellow.png"
-        alt=""
+        alt="web-app-dev-image-shadow-yellow"
+        title="web-app-dev-image-shadow-yellow"
         className="w-[80%] lg:h-[78vh] xl:h-[84vh] absolute inset-0 m-auto z-0 fade-out"
       />
       <img
         src="/Web-Application-Development-Services.webp"
-        alt=""
+        title="Web Application Development Services"
+        alt="Web Application Development Services page shows web mock screens which presents application layout"
         className="w-[90%] xl:w-[834px] lg:w-[60%] lg:h-[350px] xl:h-[520px] 2xl:w-[1034px] 2xl:h-[690px] relative mx-auto border web-app-dev-hero-mockup z-10 rounded-2xl animated-shadow"
       />
       <img
         src="/Web-Application-Development-Services-Right.webp"
-        alt=""
+        title="Web Application Development Services"
+        alt="Web Application Development Services page shows web mock screens which presents application layout"
         className="hidden xl:block lg:w-[317px] lg:h-[231px] 2xl:w-[407px] 2xl:h-[311px] absolute top-1/2 right-20 2xl:right-24 transform -translate-y-1/2 z-20 slide-left-on-load"
       />
     </div>
