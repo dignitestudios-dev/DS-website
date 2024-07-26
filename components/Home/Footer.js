@@ -83,15 +83,15 @@ const Footer = () => {
       }}
     >
       <div className="flex flex-col gap-2">
-        <h1
+        <h2
           className="text-3xl md:text-5xl font-extrabold lg:text-6xl lg:font-bold "
           style={{ color: palette?.color }}
         >
           Have an idea?
-        </h1>
-        <h1 className="text-3xl md:text-5xl text-[#F15C20] font-extrabold lg:text-[65px] lg:font-bold ">
+        </h2>
+        <h3 className="text-3xl md:text-5xl text-[#F15C20] font-extrabold lg:text-[65px] lg:font-bold ">
           Let’s talk!
-        </h1>
+        </h3>
       </div>
       <div className="w-full flex flex-col lg:flex-row justify-between items-end">
         <div className="w-full lg:w[50%] flex flex-col gap-3 lg:gap-10">
