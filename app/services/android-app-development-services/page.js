@@ -88,14 +88,11 @@ const page = () => {
           name="twitter:image:alt"
           content="Android app development services"
         ></meta>
-      </Head>
 
-      <ServicesLayout page={<AndroidAppDevelopmentServicesPage />} />
-
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
+        <Script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -104,13 +101,13 @@ const page = () => {
       "description": "The first-class Android app development company Dignite Studios bequeath exceptional standards of mobile app development so that the agency can fulfill custom application solutions and other mobile projects adeptly."
     }
     `,
-        }}
-      />
+          }}
+        />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
+        <Script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
     {
       "@context": "https://schema.org/",
       "@type": "BreadcrumbList",
@@ -127,13 +124,13 @@ const page = () => {
       }]
     }
     `,
-        }}
-      />
+          }}
+        />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
+        <Script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
     {
       "@context": "http://schema.org",
       "@type": "Product",
@@ -147,8 +144,11 @@ const page = () => {
       }
     }
     `,
-        }}
-      />
+          }}
+        />
+      </Head>
+
+      <ServicesLayout page={<AndroidAppDevelopmentServicesPage />} />
     </>
   );
 };
