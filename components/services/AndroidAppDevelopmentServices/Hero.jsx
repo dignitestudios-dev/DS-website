@@ -32,7 +32,7 @@ const Hero = () => {
             <span className="high-powered">
               <span>High-Powered</span>
             </span>
-            <span className="text-[#F15C20]">Android App</span> <br />
+            <span className="text-[#F15C20]"> Android App</span> <br />
             Development Services
           </h1>
 

@@ -25,7 +25,7 @@ const TopRatedPageOurOffices = () => {
               className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
             />
           </div>
-          <h1 className="font-semibold text-[20px]">Florida, US</h1>
+          <h3 className="font-semibold text-[20px]">Florida, US</h3>
           <p className="text-[18px] font-normal">
             3505 Lake Lynda Drive Dr #200, Orlando FL 32817, United States
           </p>
@@ -40,7 +40,7 @@ const TopRatedPageOurOffices = () => {
               className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
             />
           </div>
-          <h1 className="font-semibold text-[20px]">Dubai, UAE</h1>
+          <h3 className="font-semibold text-[20px]">Dubai, UAE</h3>
           <p className="text-[18px] font-normal">
             Level 21, Al Habtoor Business Tower, King Salman Biz Abdul Aziz Al
             Saud St, Dubai Marina, Dubai, UAE
@@ -56,7 +56,7 @@ const TopRatedPageOurOffices = () => {
               className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
             />
           </div>
-          <h1 className="font-semibold text-[20px]">Wyoming, US</h1>
+          <h3 className="font-semibold text-[20px]">Wyoming, US</h3>
           <p className="text-[18px] font-normal">
             312 W 2nd Street, Casper, WY 82601, United States
           </p>
@@ -71,7 +71,7 @@ const TopRatedPageOurOffices = () => {
               className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
             />
           </div>
-          <h1 className="font-semibold text-[20px]">Karachi, PK</h1>
+          <h3 className="font-semibold text-[20px]">Karachi, PK</h3>
           <p className="text-[18px] font-normal">
             Suite 104, Emarah Suites, Shahrah-E-Faisal, Block A, Karachi, Sindh
             75400, Pakistan
