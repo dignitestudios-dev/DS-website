@@ -4,7 +4,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 const AnimatedBarChart = () => {
   return (
     <>
-      <div className="w-[280px] h-[210px] rounded-[24px] p-6 xl:flex flex-col items-start justify-between shadow-2xl absolute left-[4%] top-20 hidden slide-right-on-load bg-white z-30">
+      <div className="w-[280px] h-[210px] 2xl:w-[350px] 2xl:h-[240px] rounded-[24px] p-6 xl:flex flex-col items-start justify-between shadow-2xl absolute left-[4%] top-20 2xl:top-52 hidden slide-right-on-load bg-white z-30">
         <div className="w-full flex items-center justify-between z-30">
           <h1 className="text-[13.96px] font-bold">Users Activity</h1>
           <p className="text-[#9197A0] text-[10px] flex items-center">
@@ -23,8 +23,8 @@ const AnimatedBarChart = () => {
           <div className="h-[2px] bg-gray-200 absolute w-[89%] right-0 bottom-[62%]"></div>
           <div className="h-[2px] bg-gray-200 absolute w-[89%] right-0 top-3.5"></div>
           {/* bar 1 */}
-          <div className="w-[8px] h-[113px] rounded-t-full overflow-hidden bg-[#FFD0BB] relative">
-            <div className="w-[8px] h-[100px] bg-[#A851FF] rounded-t-full animated-bar"></div>
+          <div className="w-[8px] h-[113px] 2xl:h-[140px] rounded-t-full overflow-hidden bg-[#FFD0BB] relative">
+            <div className="w-[8px] h-[100px] 2xl:h-[120px] bg-[#A851FF] rounded-t-full animated-bar"></div>
           </div>
           {/* bar 3 */}
           <div className="w-[8px] h-[45px] rounded-t-full overflow-hidden bg-[#FFD0BB] relative">

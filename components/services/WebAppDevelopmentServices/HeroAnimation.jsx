@@ -6,13 +6,13 @@ import AnimatedBarChart from "./AnimatedBarChart";
 const HeroAnimation = () => {
   return (
     <div className="w-full mt-6 md:mt-0 relative lg:h-[60vh] xl:h-[79vh] flex items-center justify-start overflow-y-visible">
-      <img
+      {/* <img
         src="/Web-Application-Development-Services-Left.png"
         alt="Web Application Development Services page shows web mock screens which presents application layout"
         title="Web Application Development Services"
         className="lg:w-[346px] lg:h-[325px] 2xl:w-[426px] 2xl:h-[395px] absolute top-16 2xl:top-44 left-14 2xl:left-20 z-20 slide-right-on-load hidden xl:block"
-      />
-      {/* <AnimatedBarChart /> */}
+      /> */}
+      <AnimatedBarChart />
 
       <div className="lg:w-[272px] lg:h-[248px] xl:flex flex-col justify-between 2xl:w-[320px] 2xl:h-[290px] absolute top-[57%] left-44 2xl:left-60 border-[10px] border-gray-50 transform -translate-y-3/5 2xl:-translate-y-[-40px] z-20 slide-right-on-load hidden bg-white workflow-box rounded-[16px] p-6">
         <div className="w-full flex items-center justify-between">
