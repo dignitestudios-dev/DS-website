@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
 
+Disallow: /services/android-app-development
+Allow: /services/android-app-development-services
+
 Sitemap: https://dignitestudios.com/sitemap.xml
+
+
