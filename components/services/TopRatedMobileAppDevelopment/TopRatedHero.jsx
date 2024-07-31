@@ -170,7 +170,7 @@ const TopRatedHero = () => {
                 className={`${theme === "light" ? "text-black" : "text-white"}`}
               >
                 Mobile <br /> App Development
-                <br /> Agency
+                <br /> Services
               </span>
             </h1>
             <h1
@@ -184,7 +184,7 @@ const TopRatedHero = () => {
                 className={`${theme === "light" ? "text-black" : "text-white"}`}
               >
                 Mobile <br /> App Development
-                <br /> Agency
+                <br /> Services
               </span>
             </h1>
             <span
@@ -262,6 +262,7 @@ const TopRatedHero = () => {
                     <input
                       type="email"
                       name="email"
+                      id="ppc_email"
                       value={email}
                       onChange={handleEmailChange}
                       className="text-sm font-normal text-[#D3D3D3] outline-none w-full py-2 px-1 bg-transparent"
@@ -277,6 +278,7 @@ const TopRatedHero = () => {
                     <FaPhone className="text-[#F15C20] w-[16px] h-[16px]" />
                     <input
                       type="text"
+                      id="ppc_phoneNumber"
                       placeholder="Phone number"
                       name="phone"
                       value={phone}
