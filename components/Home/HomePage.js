@@ -55,7 +55,7 @@ export default function HomePage() {
   //   }
   // });
 
-  <Head>
+  <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="canonical" href="https://www.dignitestudios.com/" />
     <link
@@ -124,7 +124,7 @@ export default function HomePage() {
       name="twitter:image:alt"
       content="Top Mobile App Development Company"
     />
-  </Head>;
+  </head>;
 
   return (
     <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
