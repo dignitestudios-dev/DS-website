@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <link rel="canonical" href="https://www.dignitestudios.com/" />
+        {/* <link rel="canonical" href="https://www.dignitestudios.com/" /> */}
         {/* Google Tag Manager script */}
         <Script
           strategy="beforeInteractive"
