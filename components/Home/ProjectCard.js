@@ -29,19 +29,23 @@ const ProjectCard = ({
       } rounded-[32px] `}
     >
       <div className="w-full h-[0px] flex lg:hidden justify-center items-start relative ">
-        <img
+        <Image
           src={normalImage}
           className="absolute -top-12 right-0 h-[200px]"
           alt={title}
+          width={200}
+          height={200}
+          loader={customLoader}
           title="app-logo"
         />
       </div>
       <div className="w-full lg:w-[65%] h-full flex flex-col justify-start relative gap-6 my-1 items-start md:px-2">
         <div className="w-full flex justify-start gap-2 items-center pr-1">
-          <img
+          <Image
             src={logo}
             alt="case-study-image"
             width={65}
+            loader={customLoader}
             height={65}
             title="case study image"
 

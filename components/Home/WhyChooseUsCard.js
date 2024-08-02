@@ -2,6 +2,8 @@
 
 import React, { useContext } from "react";
 import { GlobalContext } from "../../context/GlobalContext";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const WhyChooseUsCard = ({ title, description, icon, alt, image_title }) => {
   const { palette, theme } = useContext(GlobalContext);
@@ -12,7 +14,15 @@ const WhyChooseUsCard = ({ title, description, icon, alt, image_title }) => {
         color: palette?.color,
       }}
     >
-      <img src={icon} alt={alt} title={image_title} className="" width="36px" height="36px" />
+      <Image
+        src={icon}
+        alt={alt}
+        title={image_title}
+        className=""
+        loader={customLoader}
+        width={36}
+        height={36}
+      />
       <h2
         className="text-xl  font-semibold"
         style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}

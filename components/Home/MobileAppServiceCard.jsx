@@ -1,6 +1,8 @@
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
 import Link from "next/link";
 import React, { useContext, useState } from "react";
+import Image from "next/image";
 
 const MobileAppServiceCard = () => {
   const { theme } = useContext(GlobalContext);
@@ -208,7 +210,10 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
+          loader={customLoader}
+          width={300}
+          height={200}
           src="/top-mobile-app-development-services.webp"
           title="top mobile app development services"
           alt="image shows man is holding a mobile device that appears top mobile app development layout"
@@ -243,7 +248,10 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
+          loader={customLoader}
+          width={300}
+          height={200}
           src="/top-ios-app-development-services.webp"
           alt="Top iOS App Development Services"
           title="Top iOS App Development Services"
@@ -278,7 +286,10 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
+          loader={customLoader}
+          width={300}
+          height={200}
           src="/top-android-app-development-services.webp"
           alt="Top iOS App Development Services"
           title="Top iOS App Development Services"
@@ -313,7 +324,10 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
+          loader={customLoader}
+          width={300}
+          height={200}
           src="/top-webp-app-development-services.webp"
           alt="Top iOS App Development Services"
           title="Top iOS App Development Services"
@@ -348,7 +362,10 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
+          loader={customLoader}
+          width={300}
+          height={200}
           src="/top-mobile-app-design-services.webp"
           title="top mobile app design services"
           alt="image shows man is holding a mobile device that appears top mobile app design interface"
@@ -383,7 +400,10 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
+          loader={customLoader}
+          width={300}
+          height={200}
           src="/top-mobile-app-development-testing-services.webp"
           title="top mobile app development testing services"
           alt="image shows man is holding a mobile device that appears top mobile app testing screen"
@@ -418,7 +438,10 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
+          loader={customLoader}
+          width={300}
+          height={200}
           src="/top-mobile-app-development-consulting-services.webp"
           title="top mobile app development consulting services"
           alt="image shows a mobile app consulting discussion between consultant and client"
