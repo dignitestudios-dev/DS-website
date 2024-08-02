@@ -6,83 +6,84 @@ import React from "react";
 
 export const metadata = {
   title: "Top Mobile App Development Company | Dignite Studios",
-  description: "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
+  description:
+    "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
 };
 
-const page = () => {
-  <Head>
-    <title>Dignite Studios</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="canonical" href="https://www.dignitestudios.com/" />
-    <link
-      rel="alternate"
-      hreflang="en-ca"
-      href="https://www.dignitestudios.com/"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-us"
-      href="https://www.dignitestudios.com/"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-gb"
-      href="https://www.dignitestudios.com/"
-    />
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://www.dignitestudios.com/"
-    />
-    <meta http-equiv="content-language" content="en-us" />
-    <meta http-equiv="content-language" content="en-ca" />
-    <meta http-equiv="content-language" content="en-gb" />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow, max-snippet: 200" />
-    <meta name="bingbot" content="index, follow, max-snippet: 200 " />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Dignite Studios" />
-    <meta
-      property="og:title"
-      content="Top Mobile App Development Company | Dignite Studios"
-    />
-    <meta
-      property="og:description"
-      content="Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution."
-    />
-    <meta property="og:url" content="https://www.dignitestudios.com/" />
-    <meta
-      property="og:image"
-      content="https://www.dignitestudios.com/banner-cover-image-of-top-mobile-app-development-company.webp"
-    />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta
-      property="og:image:alt"
-      content="Top Mobile App Development Company | Dignite Studios"
-    />
-    <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Top Mobile App Development Company | Dignite Studios"
-    />
-    <meta name="twitter:site" content="@dignitestudios" />
-    <meta
-      name="twitter:description"
-      content="Explore interactive user experience to transform your software application to stand out among top mobile app development companies."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.dignitestudios.com/banner-cover-image-of-top-mobile-app-development-company.webp"
-    />
-    <meta
-      name="twitter:image:alt"
-      content="Top Mobile App Development Company"
-    />
-  </Head>;
+const Page = () => {
   return (
     <>
+      <Head>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="canonical" href="https://www.dignitestudios.com/" />
+
+        <link
+          rel="alternate"
+          hreflang="en-ca"
+          href="https://www.dignitestudios.com/"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-us"
+          href="https://www.dignitestudios.com/"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-gb"
+          href="https://www.dignitestudios.com/"
+        />
+        <link
+          rel="alternate"
+          hreflang="x-default"
+          href="https://www.dignitestudios.com/"
+        />
+        <meta httpEquiv="content-language" content="en-us" />
+        <meta httpEquiv="content-language" content="en-ca" />
+        <meta httpEquiv="content-language" content="en-gb" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow, max-snippet: 200" />
+        <meta name="bingbot" content="index, follow, max-snippet: 200" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dignite Studios" />
+        <meta
+          property="og:title"
+          content="Top Mobile App Development Company | Dignite Studios"
+        />
+        <meta
+          property="og:description"
+          content="Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution."
+        />
+        <meta property="og:url" content="https://www.dignitestudios.com/" />
+        <meta
+          property="og:image"
+          content="https://www.dignitestudios.com/banner-cover-image-of-top-mobile-app-development-company.webp"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+          property="og:image:alt"
+          content="Top Mobile App Development Company | Dignite Studios"
+        />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Top Mobile App Development Company | Dignite Studios"
+        />
+        <meta name="twitter:site" content="@dignitestudios" />
+        <meta
+          name="twitter:description"
+          content="Explore interactive user experience to transform your software application to stand out among top mobile app development companies."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dignitestudios.com/banner-cover-image-of-top-mobile-app-development-company.webp"
+        />
+        <meta
+          name="twitter:image:alt"
+          content="Top Mobile App Development Company"
+        />
+      </Head>
       <GlobalLayout page={<HomePage />} />
       <Script
         type="application/ld+json"
@@ -94,7 +95,6 @@ const page = () => {
           }`,
         }}
       />
-
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -114,7 +114,6 @@ const page = () => {
           `,
         }}
       />
-
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -127,7 +126,6 @@ const page = () => {
           }`,
         }}
       />
-
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -158,12 +156,10 @@ const page = () => {
           `,
         }}
       />
-
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `
-            {
+          __html: `{
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Dignite Studios",
@@ -192,7 +188,6 @@ const page = () => {
           `,
         }}
       />
-
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -212,7 +207,6 @@ const page = () => {
           `,
         }}
       />
-
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -237,104 +231,28 @@ const page = () => {
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 28.6008727,
-            "longitude": -81.2219365
+            "latitude": 28.598347,
+            "longitude": -81.207871
           },
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+1 877-714-1770",
-            "contactType": "customer service",
-            "contactOption": "TollFree",
-            "email": "support@dignitestudios.com",
-            "availableLanguage": "en"
-          },
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday",
-              "Sunday"
-            ],
-            "opens": "00:00",
-            "closes": "23:59"
-          },
-          "sameAs": [
-            "https://facebook.com/dignitestudios",
-            "https://twitter.com/dignitestudios",
-            "https://www.instagram.com/dignitestudios/",
-            "https://www.linkedin.com/company/dignitestudios/",
-            "https://www.pinterest.com/dignitestudios/"
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "09:00",
+              "closes": "18:00"
+            }
           ]
-        }
-      `,
-        }}
-      />
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "http://schema.org",
-            "@type": "ItemList",
-            itemListElement: [
-              {
-                "@type": "SiteNavigationElement",
-                position: 1,
-                name: "Home",
-                description:
-                  "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
-                url: "https://www.dignitestudios.com/",
-              },
-              {
-                "@type": "SiteNavigationElement",
-                position: 2,
-                name: "Mobile app development services | Dignite Studios",
-                description:
-                  "Recruit top mobile app design services that flawlessly create innovative UI/UX designs, and deliver smooth UX wireframes that fit your match. A highly experienced suite of designing application services will elevate your app’s design at a pace of breakneck.",
-                url: "https://www.dignitestudios.com/services/mobile-app-design-services",
-              },
-              {
-                "@type": "SiteNavigationElement",
-                position: 3,
-                name: "Mobile app design services | Dignite Studios",
-                description:
-                  "Let's delve into professional mobile app development services encompassing multiple app solutions for your tailored needs. Our high-ranking team crafts ingenious and state-of-the-art applications to stand out in your mobile services.",
-                url: "https://www.dignitestudios.com/services/mobile-app-design-services",
-              },
-              {
-                "@type": "SiteNavigationElement",
-                position: 4,
-                name: "Mobile app consulting services | Dignite Studios",
-                description:
-                  "Explore professional mobile application consulting services with our expert agency to thrive your innovative application solutions. Here, you’ll experience modern mobile application development strategies to make your company bulge out.",
-                url: "https://www.dignitestudios.com/services/mobile-app-consulting-services",
-              },
-              {
-                "@type": "SiteNavigationElement",
-                position: 5,
-                name: "Mobile app testing services | Dignite Studios",
-                description:
-                  "Embarke top-tier mobile app testing services from the leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts.",
-                url: "https://www.dignitestudios.com/services/mobile-app-testing-services",
-              },
-              {
-                "@type": "SiteNavigationElement",
-                position: 6,
-                name: "Mobile app development services | Dignite Studios",
-                description:
-                  "The first-class Android app development company Dignite Studios bestows the best international development mobile app standards so that the agency can fulfill custom application solutions and other mobile projects.",
-                url: "https://www.dignitestudios.com/services/android-app-development-services",
-              },
-            ],
-          }),
+        }`,
         }}
       />
     </>
   );
 };
 
-export default page;
+export default Page;

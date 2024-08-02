@@ -31,7 +31,7 @@ const GlobalLayout = ({ page }) => {
   const [showModal, setShowModal] = useState(false);
   const [counter, setCounter] = useState(0);
   const pathname = usePathname();
-  console.log("pathname >> ", pathname)
+  console.log("pathname >> ", pathname);
 
   useEffect(() => {
     const handleMouseLeave = (e) => {
@@ -84,7 +84,7 @@ const GlobalLayout = ({ page }) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   };
-  
+
   const formatPhoneNumber = (phoneNumber) => {
     const formattedNumber = phoneNumber.replace(
       /^(\d{3})(\d{3})(\d{4})$/,
@@ -104,10 +104,10 @@ const GlobalLayout = ({ page }) => {
     // Validate the phone number
     if (!value.startsWith(`+${country.dialCode}`)) {
       setIsValid(false);
-      console.log("phone >> ", phone)
+      console.log("phone >> ", phone);
     } else {
       setIsValid(true);
-      console.log("phone >> ", phone)
+      console.log("phone >> ", phone);
     }
   };
 
@@ -174,7 +174,7 @@ const GlobalLayout = ({ page }) => {
       }}
     >
       <Cursor />
-      <ScrollToTopButton/>
+      <ScrollToTopButton />
       <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
       <div className="overflow-x-hidden w-full h-auto flex flex-col justify-start items-center gap-4">
         <Navbar setIsOpen={setIsSidebarOpen} />
@@ -183,23 +183,35 @@ const GlobalLayout = ({ page }) => {
           onClick={handleCloseModal}
           className={`screen-form ${showModal ? "show" : "hide"}`}
         >
-         <form onSubmit={handleSubmit} ref={formRef} className="container-form">
-          <div className="side-promo">
-            <Image loader={customLoader} width={400} height={540} src="/form-promo3.webp" alt="popup form image" title="popup form image" className="" />
-          </div>
-          <div className="main-promo">
-            <div className="promo2">
-              <h2 className="heading_promo2">before you leave</h2>
-              <span className="sub_promo2">Sign up now for a free quote</span>
-              <span className="box_promo2">Upto 25% OFF</span>
+          <form
+            onSubmit={handleSubmit}
+            ref={formRef}
+            className="container-form"
+          >
+            <div className="side-promo">
+              <Image
+                loader={customLoader}
+                width={400}
+                height={540}
+                src="/form-promo3.webp"
+                alt="popup form image"
+                title="popup form image"
+                className=""
+              />
             </div>
-            {error && <ContactUsAlert />}
+            <div className="main-promo">
+              <div className="promo2">
+                <h2 className="heading_promo2">before you leave</h2>
+                <span className="sub_promo2">Sign up now for a free quote</span>
+                <span className="box_promo2">Upto 25% OFF</span>
+              </div>
+              {error && <ContactUsAlert />}
 
-            <span onClick={() => setShowModal(false)} className="close_icon">
-              <RxCross2 />
-            </span>
+              <span onClick={() => setShowModal(false)} className="close_icon">
+                <RxCross2 />
+              </span>
 
-            <div className="input_field">
+              <div className="input_field">
                 <label className="label_field">Name</label>
                 <button type="button" className="input_flex">
                   <span className="input_span">
@@ -214,14 +226,16 @@ const GlobalLayout = ({ page }) => {
                     id="name"
                     name="name"
                     value={name}
-                    onChange={(e)=> setName(e.target.value)}
+                    onChange={(e) => setName(e.target.value)}
                     onFocus={() => setIsFocused1(true)}
                     onBlur={() => setIsFocused1(false)}
                     className="input_box text-black"
                     placeholder="e.g. Mike Smith"
                   />
                 </button>
-                {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
+                {errors.name && (
+                  <span className="text-red-500 text-sm">{errors.name}</span>
+                )}
               </div>
               <div className="input_field">
                 <label className="label_field">Email Address</label>
@@ -245,7 +259,9 @@ const GlobalLayout = ({ page }) => {
                     placeholder="Type your email here"
                   />
                 </button>
-                {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
+                {errors.email && (
+                  <span className="text-red-500 text-sm">{errors.email}</span>
+                )}
               </div>
               <div className="input_field">
                 <label className="label_field">Phone Number</label>
@@ -258,38 +274,38 @@ const GlobalLayout = ({ page }) => {
                     />
                   </span> */}
                   <PhoneInput
-                  country={"us"}
-                  value={phone}
-                  name="phone"
-                  onChange={handlePhoneChange}
-                  onFocus={() => setIsFocused3(true)}
+                    country={"us"}
+                    value={phone}
+                    name="phone"
+                    onChange={handlePhoneChange}
+                    onFocus={() => setIsFocused3(true)}
                     onBlur={() => setIsFocused3(false)}
-                  containerStyle={{
-                    width: '100%',
-                    paddingRight: '0px',
-                    fontSize: '16px',
-                    border: 'none',
-                    borderRadius: '0px',
-                    background:"transparent"
-                  }}
-                  inputStyle={{
-                    width: '90%',
-                    height: '100%',
-                    outline: 'none',
-                    border: 'none',
-                    fontSize: '14px',
-                    color:"gray",
-                    padding: '10px 30px',
-                    margin: '0',
-                    background:'transparent'
-                  }}
-                  className="text-sm font-normal outline-none py-0 px-1 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
-                />
-                <style jsx>{`
-                  .invalid input {
-                    border: none !important;
-                  }
-                `}</style>
+                    containerStyle={{
+                      width: "100%",
+                      paddingRight: "0px",
+                      fontSize: "16px",
+                      border: "none",
+                      borderRadius: "0px",
+                      background: "transparent",
+                    }}
+                    inputStyle={{
+                      width: "90%",
+                      height: "100%",
+                      outline: "none",
+                      border: "none",
+                      fontSize: "14px",
+                      color: "gray",
+                      padding: "10px 30px",
+                      margin: "0",
+                      background: "transparent",
+                    }}
+                    className="text-sm font-normal outline-none py-0 px-1 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
+                  />
+                  <style jsx>{`
+                    .invalid input {
+                      border: none !important;
+                    }
+                  `}</style>
                   {/* <input
                     type="number"
                     maxLength="11"
@@ -303,7 +319,9 @@ const GlobalLayout = ({ page }) => {
                     placeholder="e.g +1 491 570 156"
                   /> */}
                 </button>
-                {errors.phone && <span className="text-red-500 text-sm">{errors.phone}</span>}
+                {errors.phone && (
+                  <span className="text-red-500 text-sm">{errors.phone}</span>
+                )}
               </div>
               <div className="input_field">
                 <label className="label_field">Message</label>
@@ -313,19 +331,21 @@ const GlobalLayout = ({ page }) => {
                     className="input_box2 text-black"
                     id="message"
                     value={message}
-                    onChange={(e)=> setMessage(e.target.value)}
+                    onChange={(e) => setMessage(e.target.value)}
                     name="message"
                     placeholder="Type your message here."
                   ></textarea>
                 </button>
-                {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>}
+                {errors.message && (
+                  <span className="text-red-500 text-sm">{errors.message}</span>
+                )}
               </div>
 
-            <button type="submit" className="sub_button">
-              Submit
-            </button>
-          </div>
-        </form>
+              <button type="submit" className="sub_button">
+                Submit
+              </button>
+            </div>
+          </form>
         </div>
         {page}
         <Footer />

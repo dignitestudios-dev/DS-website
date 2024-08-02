@@ -7,18 +7,12 @@ import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Dignite Studios",
-  description: "An IT Consulting agency.",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        {/* <link rel="canonical" href="https://www.dignitestudios.com/" /> */}
-        {/* Google Tag Manager script */}
+
         <Script
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
@@ -34,19 +28,12 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16524923816"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
 
-          gtag('config', 'AW-16524923816');
-        </script> */}
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
-      </head>
+      </head> */}
       <body className={inter.className}>
         <noscript>
           <iframe
@@ -59,7 +46,6 @@ export default function RootLayout({ children }) {
         <GoogleTagManager gtmId="GTM-WTVKC35B" />
         <GoogleAnalytics gaId="G-0GWJVWYEKD" />
         <GlobalContextProvider>{children}</GlobalContextProvider>
-        {/* <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/23199765.js"></script> */}
         <Script
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{

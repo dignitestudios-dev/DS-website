@@ -1,6 +1,6 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import CaseStudiesSection from "@/components/Home/CaseStudiesSection";
 import Faq from "@/components/Home/Faq";
 import FindOurOfficesSection from "@/components/Home/FindOurOfficesSection";
@@ -55,9 +55,9 @@ export default function HomePage() {
   //   }
   // });
 
-  <head>
+  <Head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="canonical" href="https://www.dignitestudios.com/" />
+
     <link
       rel="alternate"
       hreflang="en-ca"
@@ -124,7 +124,7 @@ export default function HomePage() {
       name="twitter:image:alt"
       content="Top Mobile App Development Company"
     />
-  </head>;
+  </Head>;
 
   return (
     <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
