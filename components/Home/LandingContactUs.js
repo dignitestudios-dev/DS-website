@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import Alert from "../global/Alert";
 import Success from "../global/Success";
 import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 
 const LandingContactUs = () => {
   const { palette, theme, setError, error, success } =
