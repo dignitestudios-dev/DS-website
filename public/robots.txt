@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
 
+Disallow: /lp/mobile-app-development
+Disallow: /lp/android-app-development
+Disallow: /lp/ios-app-development
+Disallow: /lp/web-app-development
+
 Sitemap: https://dignitestudios.com/sitemap.xml
-
-
