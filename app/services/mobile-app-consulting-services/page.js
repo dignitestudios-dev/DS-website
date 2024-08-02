@@ -6,7 +6,8 @@ import React from "react";
 
 export const metadata = {
   title: "Mobile app consulting services | Dignite Studios",
-  description: "Explore professional mobile application consulting services with our expert agency to thrive your innovative application solutions. Here, you’ll experience modern mobile application development strategies to make your company bulge out. ",
+  description:
+    "Explore professional mobile application consulting services with our expert agency to thrive your innovative application solutions. Here, you’ll experience modern mobile application development strategies to make your company bulge out. ",
 };
 
 const breadcrumbData = {
@@ -29,78 +30,84 @@ const breadcrumbData = {
 };
 
 const page = () => {
-  <Head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link
-      rel="canonical"
-      href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-ca"
-      href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-us"
-      href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-gb"
-      href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
-    />
-    <meta http-equiv="content-language" content="en-us" />
-    <meta http-equiv="content-language" content="en-ca" />
-    <meta http-equiv="content-language" content="en-gb" />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow, max-snippet: 200" />
-    <meta name="bingbot" content="index, follow, max-snippet: 200 " />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Dignite Studios" />
-    <meta
-      property="og:title"
-      content="Mobile app consulting services | Dignite Studios"
-    />
-    <meta
-      property="og:description"
-      content="Explore professional mobile application consulting services with our expert agency to thrive your innovative application solutions. Here, you’ll experience modern mobile application development strategies to make your company bulge out."
-    />
-    <meta
-      property="og:url"
-      content="https://www.dignitestudios.com/services/mobile-app-consulting-services"
-    />
-    <meta
-      property="og:image"
-      content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-consulting-services.webp"
-    />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Mobile app consulting services" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Mobile app consulting services | Dignite Studios"
-    />
-    <meta name="twitter:site" content="@dignitestudios" />
-    <meta
-      name="twitter:description"
-      content="Professional mobile application consulting services that thrive your innovative application solutions. Experience modern mobile application development strategies to make your company bulge out."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-consulting-services.webp"
-    />
-    <meta name="twitter:image:alt" content="Mobile app consulting services" />
-  </Head>;
   return (
     <>
+      <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link
+          rel="canonical"
+          href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-ca"
+          href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-us"
+          href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-gb"
+          href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="x-default"
+          href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+        />
+        <meta http-equiv="content-language" content="en-us" />
+        <meta http-equiv="content-language" content="en-ca" />
+        <meta http-equiv="content-language" content="en-gb" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow, max-snippet: 200" />
+        <meta name="bingbot" content="index, follow, max-snippet: 200 " />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dignite Studios" />
+        <meta
+          property="og:title"
+          content="Mobile app consulting services | Dignite Studios"
+        />
+        <meta
+          property="og:description"
+          content="Explore professional mobile application consulting services with our expert agency to thrive your innovative application solutions. Here, you’ll experience modern mobile application development strategies to make your company bulge out."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+        />
+        <meta
+          property="og:image"
+          content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-consulting-services.webp"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+          property="og:image:alt"
+          content="Mobile app consulting services"
+        />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Mobile app consulting services | Dignite Studios"
+        />
+        <meta name="twitter:site" content="@dignitestudios" />
+        <meta
+          name="twitter:description"
+          content="Professional mobile application consulting services that thrive your innovative application solutions. Experience modern mobile application development strategies to make your company bulge out."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-consulting-services.webp"
+        />
+        <meta
+          name="twitter:image:alt"
+          content="Mobile app consulting services"
+        />
+      </head>
       <ServicesLayout page={<InfluentialMobileAppConsultingServicesPage />} />
 
       <Script

@@ -6,88 +6,89 @@ import React from "react";
 
 export const metadata = {
   title: "Web application development services | Dignite Studios",
-  description: "Dignite’s top experts fabricate stellar web app development services from custom applications to high-end optimization, our value-driven approach will make your company stand out among the utmost industries.",
+  description:
+    "Dignite’s top experts fabricate stellar web app development services from custom applications to high-end optimization, our value-driven approach will make your company stand out among the utmost industries.",
 };
 
 const page = () => {
-  <Head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link
-      rel="canonical"
-      href="https://www.dignitestudios.com/services/web-application-development-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-ca"
-      href="https://www.dignitestudios.com/services/web-application-development-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-us"
-      href="https://www.dignitestudios.com/services/web-application-development-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-gb"
-      href="https://www.dignitestudios.com/services/web-application-development-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://www.dignitestudios.com/services/web-application-development-services"
-    />
-    <meta http-equiv="content-language" content="en-us" />
-    <meta http-equiv="content-language" content="en-ca" />
-    <meta http-equiv="content-language" content="en-gb" />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow, max-snippet: 200" />
-    <meta name="bingbot" content="index, follow, max-snippet: 200 " />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Dignite Studios" />
-    <meta
-      property="og:title"
-      content="Web application development Services | Dignite Studios"
-    />
-    <meta
-      property="og:description"
-      content="Dignite’s top experts fabricate stellar web app development services from custom applications to high-end optimization, our value-driven approach will make your company stand out among the utmost industries."
-    />
-    <meta
-      property="og:url"
-      content="https://www.dignitestudios.com/services/web-application-development-services"
-    />
-    <meta
-      property="og:image"
-      content="https://www.dignitestudios.com/banner-cover-image-of-web-application-development-services.webp"
-    />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta
-      property="og:image:alt"
-      content="Web application development Services"
-    />
-    <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Web application development Services | Dignite Studios"
-    />
-    <meta name="twitter:site" content="@dignitestudios" />
-    <meta
-      name="twitter:description"
-      content="Dignite’s top experts of web app development services from custom applications to high-end optimization, our value-driven approach will make your company stand out among the utmost industries."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.dignitestudios.com/banner-cover-image-of-web-application-development-services.webp"
-    />
-    <meta
-      name="twitter:image:alt"
-      content="Web application development Services"
-    ></meta>
-  </Head>;
   return (
     <div>
+      <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link
+          rel="canonical"
+          href="https://www.dignitestudios.com/services/web-application-development-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-ca"
+          href="https://www.dignitestudios.com/services/web-application-development-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-us"
+          href="https://www.dignitestudios.com/services/web-application-development-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-gb"
+          href="https://www.dignitestudios.com/services/web-application-development-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="x-default"
+          href="https://www.dignitestudios.com/services/web-application-development-services"
+        />
+        <meta http-equiv="content-language" content="en-us" />
+        <meta http-equiv="content-language" content="en-ca" />
+        <meta http-equiv="content-language" content="en-gb" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow, max-snippet: 200" />
+        <meta name="bingbot" content="index, follow, max-snippet: 200 " />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dignite Studios" />
+        <meta
+          property="og:title"
+          content="Web application development Services | Dignite Studios"
+        />
+        <meta
+          property="og:description"
+          content="Dignite’s top experts fabricate stellar web app development services from custom applications to high-end optimization, our value-driven approach will make your company stand out among the utmost industries."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dignitestudios.com/services/web-application-development-services"
+        />
+        <meta
+          property="og:image"
+          content="https://www.dignitestudios.com/banner-cover-image-of-web-application-development-services.webp"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+          property="og:image:alt"
+          content="Web application development Services"
+        />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Web application development Services | Dignite Studios"
+        />
+        <meta name="twitter:site" content="@dignitestudios" />
+        <meta
+          name="twitter:description"
+          content="Dignite’s top experts of web app development services from custom applications to high-end optimization, our value-driven approach will make your company stand out among the utmost industries."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dignitestudios.com/banner-cover-image-of-web-application-development-services.webp"
+        />
+        <meta
+          name="twitter:image:alt"
+          content="Web application development Services"
+        ></meta>
+      </head>
       <ServicesLayout page={<WebAppDevServicePage />} />
 
       <Script

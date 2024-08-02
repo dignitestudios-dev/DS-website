@@ -11,78 +11,78 @@ export const metadata = {
 };
 
 const page = () => {
-  <Head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link
-      rel="canonical"
-      href="https://www.dignitestudios.com/services/mobile-app-testing-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-ca"
-      href="https://www.dignitestudios.com/services/mobile-app-testing-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-us"
-      href="https://www.dignitestudios.com/services/mobile-app-testing-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-gb"
-      href="https://www.dignitestudios.com/services/mobile-app-testing-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://www.dignitestudios.com/services/mobile-app-testing-services"
-    />
-    <meta http-equiv="content-language" content="en-us" />
-    <meta http-equiv="content-language" content="en-ca" />
-    <meta http-equiv="content-language" content="en-gb" />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow, max-snippet: 200" />
-    <meta name="bingbot" content="index, follow, max-snippet: 200 " />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Dignite Studios" />
-    <meta
-      property="og:title"
-      content="Mobile app testing services | Dignite Studios"
-    />
-    <meta
-      property="og:description"
-      content="Embarke top-tier mobile app testing services from the leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts."
-    />
-    <meta
-      property="og:url"
-      content="https://www.dignitestudios.com/services/mobile-app-testing-services"
-    />
-    <meta
-      property="og:image"
-      content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp"
-    />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Mobile App Testing Services" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Mobile App Testing Services | Dignite Studios"
-    />
-    <meta name="twitter:site" content="@dignitestudios" />
-    <meta
-      name="twitter:description"
-      content="Embarke top-tier mobile app testing services from our leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp"
-    />
-    <meta name="twitter:image:alt" content="Mobile App Testing Services" />
-  </Head>;
   return (
     <>
+      <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link
+          rel="canonical"
+          href="https://www.dignitestudios.com/services/mobile-app-testing-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-ca"
+          href="https://www.dignitestudios.com/services/mobile-app-testing-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-us"
+          href="https://www.dignitestudios.com/services/mobile-app-testing-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-gb"
+          href="https://www.dignitestudios.com/services/mobile-app-testing-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="x-default"
+          href="https://www.dignitestudios.com/services/mobile-app-testing-services"
+        />
+        <meta http-equiv="content-language" content="en-us" />
+        <meta http-equiv="content-language" content="en-ca" />
+        <meta http-equiv="content-language" content="en-gb" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow, max-snippet: 200" />
+        <meta name="bingbot" content="index, follow, max-snippet: 200 " />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dignite Studios" />
+        <meta
+          property="og:title"
+          content="Mobile app testing services | Dignite Studios"
+        />
+        <meta
+          property="og:description"
+          content="Embarke top-tier mobile app testing services from the leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dignitestudios.com/services/mobile-app-testing-services"
+        />
+        <meta
+          property="og:image"
+          content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Mobile App Testing Services" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Mobile App Testing Services | Dignite Studios"
+        />
+        <meta name="twitter:site" content="@dignitestudios" />
+        <meta
+          name="twitter:description"
+          content="Embarke top-tier mobile app testing services from our leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp"
+        />
+        <meta name="twitter:image:alt" content="Mobile App Testing Services" />
+      </head>
       <ServicesLayout page={<TopNotchMobileAppTestingServices />} />
 
       <Script

@@ -6,7 +6,8 @@ import React from "react";
 
 export const metadata = {
   title: "Mobile app design services | Dignite Studios",
-  description: "Recruit top mobile app design services that flawlessly create innovative UI/UX designs, and deliver smooth UX wireframes that fit your match. A highly experienced suite of designing application services will elevate your app’s design at a pace of breakneck.",
+  description:
+    "Recruit top mobile app design services that flawlessly create innovative UI/UX designs, and deliver smooth UX wireframes that fit your match. A highly experienced suite of designing application services will elevate your app’s design at a pace of breakneck.",
 };
 
 const webPageData = {
@@ -57,80 +58,86 @@ const productData = {
 };
 
 const page = () => {
-  <Head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link
-      rel="canonical"
-      href="https://www.dignitestudios.com/services/mobile-app-design-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-ca"
-      href="https://www.dignitestudios.com/services/mobile-app-design-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-us"
-      href="https://www.dignitestudios.com/services/mobile-app-design-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="en-gb"
-      href="https://www.dignitestudios.com/services/mobile-app-design-services"
-    />
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://www.dignitestudios.com/services/mobile-app-design-services"
-    />
-    <meta http-equiv="content-language" content="en-us" />
-    <meta http-equiv="content-language" content="en-ca" />
-    <meta http-equiv="content-language" content="en-gb" />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow, max-snippet: 200" />
-    <meta name="bingbot" content="index, follow, max-snippet: 200 " />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Dignite Studios" />
-    <meta
-      property="og:title"
-      content="Mobile app design services | Dignite Studios"
-    />
-    <meta
-      property="og:description"
-      content="Recruit top mobile app design services that flawlessly create innovative UI/UX designs, and deliver smooth UX wireframes that fit your match. A highly experienced suite of designing application services will elevate your app’s design at a pace of breakneck."
-    />
-    <meta
-      property="og:url"
-      content="https://www.dignitestudios.com/services/mobile-app-design-services"
-    />
-    <meta
-      property="og:image"
-      content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-design-services.webp"
-    />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Mobile app design services" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Mobile app design services | Dignite Studios"
-    />
-    <meta name="twitter:site" content="@dignitestudios" />
-    <meta
-      name="twitter:description"
-      content="Recruit top mobile app design services that flawlessly create innovative UI/UX designs. Experienced suite of designing application services will elevate your app’s design at a pace of breakneck."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-design-services.webp"
-    />
-    <meta name="twitter:image:alt" content="Mobile app design services" />
-
-    <link rel="preload" fetchpriority="high" as="image" href="/Mobile-app-design-services.webp" type="image/webp"></link>
-  </Head>;
   return (
     <div>
+      <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link
+          rel="canonical"
+          href="https://www.dignitestudios.com/services/mobile-app-design-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-ca"
+          href="https://www.dignitestudios.com/services/mobile-app-design-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-us"
+          href="https://www.dignitestudios.com/services/mobile-app-design-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="en-gb"
+          href="https://www.dignitestudios.com/services/mobile-app-design-services"
+        />
+        <link
+          rel="alternate"
+          hreflang="x-default"
+          href="https://www.dignitestudios.com/services/mobile-app-design-services"
+        />
+        <meta http-equiv="content-language" content="en-us" />
+        <meta http-equiv="content-language" content="en-ca" />
+        <meta http-equiv="content-language" content="en-gb" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow, max-snippet: 200" />
+        <meta name="bingbot" content="index, follow, max-snippet: 200 " />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dignite Studios" />
+        <meta
+          property="og:title"
+          content="Mobile app design services | Dignite Studios"
+        />
+        <meta
+          property="og:description"
+          content="Recruit top mobile app design services that flawlessly create innovative UI/UX designs, and deliver smooth UX wireframes that fit your match. A highly experienced suite of designing application services will elevate your app’s design at a pace of breakneck."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dignitestudios.com/services/mobile-app-design-services"
+        />
+        <meta
+          property="og:image"
+          content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-design-services.webp"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Mobile app design services" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Mobile app design services | Dignite Studios"
+        />
+        <meta name="twitter:site" content="@dignitestudios" />
+        <meta
+          name="twitter:description"
+          content="Recruit top mobile app design services that flawlessly create innovative UI/UX designs. Experienced suite of designing application services will elevate your app’s design at a pace of breakneck."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-design-services.webp"
+        />
+        <meta name="twitter:image:alt" content="Mobile app design services" />
+
+        <link
+          rel="preload"
+          fetchpriority="high"
+          as="image"
+          href="/Mobile-app-design-services.webp"
+          type="image/webp"
+        ></link>
+      </head>
       <ServicesLayout page={<MobileAppDesignServicesPage />} />
 
       <Script
