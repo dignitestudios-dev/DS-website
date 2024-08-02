@@ -97,7 +97,6 @@ const GlobalLayout = ({ page }) => {
   const [isValid, setIsValid] = useState(true);
 
   const handlePhoneChange = (value, country) => {
-    console.log("ya ha phone :::::::::", value);
     setPhone(value);
     setCountryCode(country.dialCode);
 

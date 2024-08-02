@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <head>
+      <head>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <Script
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
-      </head> */}
+      </head>
       <body className={inter.className}>
         <noscript>
           <iframe

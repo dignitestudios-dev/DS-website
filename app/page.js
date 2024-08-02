@@ -3,6 +3,7 @@ import GlobalLayout from "@/layout/GlobalLayout";
 import Head from "next/head";
 import Script from "next/script";
 import React from "react";
+import RootLayout from "./layout";
 
 export const metadata = {
   title: "Top Mobile App Development Company | Dignite Studios",
@@ -13,10 +14,9 @@ export const metadata = {
 const Page = () => {
   return (
     <>
-      <Head>
+      <head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="canonical" href="https://www.dignitestudios.com/" />
-
         <link
           rel="alternate"
           hreflang="en-ca"
@@ -83,7 +83,7 @@ const Page = () => {
           name="twitter:image:alt"
           content="Top Mobile App Development Company"
         />
-      </Head>
+      </head>
       <GlobalLayout page={<HomePage />} />
       <Script
         type="application/ld+json"
@@ -92,26 +92,26 @@ const Page = () => {
             "@context": "https://schema.org",
             "@type": "ImageObject",
             "url": "https://www.dignitestudios.com/logo.png"
-          }`,
+            }`,
         }}
       />
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `
-            {
-              "@context": "https://schema.org/",
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Home Page",
-                  "item": "https://www.dignitestudios.com/"
+          {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home Page",
+                "item": "https://www.dignitestudios.com/"
                 }
-              ]
-            }
-          `,
+                ]
+                }
+                `,
         }}
       />
       <Script
@@ -123,48 +123,48 @@ const Page = () => {
             "name": "Top Mobile App Development Company | Dignite Studios",
             "url": "https://www.dignitestudios.com/",
             "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with a significant solution."
-          }`,
+            }`,
         }}
       />
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `
+          {
+            "@context":"http://schema.org",
+            "@type":"WebSite",
+            "url":"https://www.dignitestudios.com/",
+            "name":"Dignite Studios",
+            "description":"Top Mobile App Development Company",
+            "inLanguage":"en",
+            "publisher":
             {
-              "@context":"http://schema.org",
-              "@type":"WebSite",
+              "@type":"Organization",
               "url":"https://www.dignitestudios.com/",
               "name":"Dignite Studios",
-              "description":"Top Mobile App Development Company",
-              "inLanguage":"en",
-              "publisher":
-              {
-                "@type":"Organization",
-                "url":"https://www.dignitestudios.com/",
-                "name":"Dignite Studios",
-                "logo":"https://www.dignitestudios.com/logo.png",
-                "sameAs": [
-                  "https://facebook.com/dignitestudios",
-                  "https://twitter.com/dignitestudios",
-                  "https://www.instagram.com/dignitestudios/",
-                  "https://www.linkedin.com/company/dignitestudios/",
-                  "https://www.pinterest.com/dignitestudios/",
-                  "https://g.page/r/CTqywDbEQFRNEBM"
+              "logo":"https://www.dignitestudios.com/logo.png",
+              "sameAs": [
+                "https://facebook.com/dignitestudios",
+                "https://twitter.com/dignitestudios",
+                "https://www.instagram.com/dignitestudios/",
+                "https://www.linkedin.com/company/dignitestudios/",
+                "https://www.pinterest.com/dignitestudios/",
+                "https://g.page/r/CTqywDbEQFRNEBM"
                 ]
-              }
-            }
-          `,
+                }
+                }
+                `,
         }}
       />
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `{
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Dignite Studios",
-              "alternateName": "DS",
-              "url": "https://www.dignitestudios.com/",
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Dignite Studios",
+            "alternateName": "DS",
+            "url": "https://www.dignitestudios.com/",
               "logo": "https://www.dignitestudios.com/logo.png",
               "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
               "email": "support@dignitestudios.com",
@@ -176,79 +176,79 @@ const Page = () => {
                 "contactOption": "TollFree",
                 "email": "support@dignitestudios.com",
                 "availableLanguage": "en"
-              },
-              "sameAs": [
-                "https://facebook.com/dignitestudios",
-                "https://twitter.com/dignitestudios",
-                "https://www.instagram.com/dignitestudios/",
-                "https://www.linkedin.com/company/dignitestudios/",
-                "https://www.pinterest.com/dignitestudios/"
-              ]
-            }
-          `,
+                },
+                "sameAs": [
+                  "https://facebook.com/dignitestudios",
+                  "https://twitter.com/dignitestudios",
+                  "https://www.instagram.com/dignitestudios/",
+                  "https://www.linkedin.com/company/dignitestudios/",
+                  "https://www.pinterest.com/dignitestudios/"
+                  ]
+                  }
+                  `,
         }}
       />
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `
-            {
-              "@context": "http://schema.org",
-              "@type": "Product", // Corrected type to "Product"
-              "name": "Mobile App Development Company",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.8",
-                "worstRating": "1",
-                "bestRating": "5",
-                "reviewCount": "7"
+          {
+            "@context": "http://schema.org",
+            "@type": "Product", // Corrected type to "Product"
+            "name": "Mobile App Development Company",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "worstRating": "1",
+              "bestRating": "5",
+              "reviewCount": "7"
               }
-            }
-          `,
+              }
+              `,
         }}
       />
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `
-        {
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "name": "Dignite Studios",
-          "image": "https://www.dignitestudios.com/logo.png",
-          "url": "https://www.dignitestudios.com/",
-          "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
-          "email": "support@dignitestudios.com",
-          "telephone": "+18777141770",
-          "priceRange": "$$$",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "3505 Lake Lynda Dr #200",
-            "addressLocality": "Orlando",
-            "addressRegion": "FL",
-            "postalCode": "32817",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 28.598347,
-            "longitude": -81.207871
-          },
-          "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday"
-              ],
-              "opens": "09:00",
-              "closes": "18:00"
-            }
-          ]
-        }`,
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Dignite Studios",
+            "image": "https://www.dignitestudios.com/logo.png",
+            "url": "https://www.dignitestudios.com/",
+            "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
+            "email": "support@dignitestudios.com",
+            "telephone": "+18777141770",
+            "priceRange": "$$$",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "3505 Lake Lynda Dr #200",
+              "addressLocality": "Orlando",
+              "addressRegion": "FL",
+              "postalCode": "32817",
+              "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 28.598347,
+                "longitude": -81.207871
+                },
+                "openingHoursSpecification": [
+                  {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                      "Monday",
+                      "Tuesday",
+                      "Wednesday",
+                      "Thursday",
+                      "Friday"
+                      ],
+                      "opens": "09:00",
+                      "closes": "18:00"
+                      }
+                      ]
+                      }`,
         }}
       />
     </>
