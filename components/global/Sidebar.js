@@ -57,7 +57,6 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               height={64}
               src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"}
               title="Dignite Studios Logo"
-              
               className="h-16"
             />
           </Link>
@@ -83,29 +82,29 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               style={{ color: palette?.color }}
             >
               <Link
-              href="/services/mobile-app-development-services"
-              className={`hover:text-orange-600 `}
-            >
-              Mobile App Development Services
-            </Link>
-            <Link
-              href="/services/mobile-app-design-services"
-              className={`hover:text-orange-600 `}
-            >
-              Mobile App Design Services
-            </Link>
-            <Link
-              href="/services/mobile-app-consulting-services"
-              className={`hover:text-orange-600 `}
-            >
-              Mobile App Consulting Services
-            </Link>
-            <Link
-              href="/services/mobile-app-testing-services"
-              className={`hover:text-orange-600 `}
-            >
-              Mobile App Testing Services
-            </Link>
+                href="/services/mobile-app-development-services"
+                className={`hover:text-orange-600 `}
+              >
+                Mobile App Development Services
+              </Link>
+              <Link
+                href="/services/mobile-app-design-services"
+                className={`hover:text-orange-600 `}
+              >
+                Mobile App Design Services
+              </Link>
+              <Link
+                href="/services/mobile-app-consulting-services"
+                className={`hover:text-orange-600 `}
+              >
+                Mobile App Consulting Services
+              </Link>
+              <Link
+                href="/services/mobile-app-testing-services"
+                className={`hover:text-orange-600 `}
+              >
+                Mobile App Testing Services
+              </Link>
               <Link
                 href="/services/ios-app-development-services"
                 className={`hover:text-orange-600 `}
@@ -119,17 +118,17 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 Android App Development-services
               </Link>
               <Link
-                href="/services/web-app-development-services"
+                href="/services/web-application-development-services"
                 className={`hover:text-orange-600 `}
               >
                 Web App Development Services
               </Link>
               <Link
-              href="/services/mobile-application-support-and-maintenance-services"
-              className={`hover:text-orange-600 text-start`}
-            >
-              Mobile App Support And Maintenance Services
-            </Link>
+                href="/services/mobile-application-support-and-maintenance-services"
+                className={`hover:text-orange-600 text-start`}
+              >
+                Mobile App Support And Maintenance Services
+              </Link>
             </div>
           </button>
 
