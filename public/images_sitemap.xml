@@ -2,122 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.dignitestudios.com/</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-1.webp</image:loc>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-2.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-3.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-4.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-1m.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-2m.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-3m.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-4m.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-app-development-technology-Flutter-Icon-gray.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-app-development-technology-Swift-Icon-gray.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-app-development-technology-Vue-Icon-gray.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-app-development-technology-react-Icon-gray.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-app-development-technology-tailwind-Icon-gray.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-app-development-technology-Figma-Icon-gray.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-app-development-technology-AI-Icon-gray.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-app-development-technology-PS-Icon-gray.webp</image:loc>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
       </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/lines.png</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-services.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-ios-app-development-services.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-android-app-development-services.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-webp-app-development-services.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-design-services.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-testing-services.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-consulting-services.webp</image:loc>
-      </image:image>
-      <image:image>
         <image:loc>https://www.dignitestudios.com/lines2.png</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.dignitestudios.com/mobile-app-development-quick-response-icon.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/mobile-app-development-fast-delivery-icon.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/mobile-app-development-satisfaction-guaranteed-icon.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/mobile-app-development-high-quality-work-icon.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/mobile-app-development-unlimited-revisions-icon.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/mobile-app-development-cost-effective-icon.webp</image:loc>
-      </image:image>
-      <image:image>
         <image:loc>https://www.dignitestudios.com/lines3.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-App-Development-Telemdicine-Industry-Icon.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-App-Development-Fintech-Industry-Icon.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-App-Development-Dating-Industry-Icon.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-App-Development-Ecommerce-Industry-Icon.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-App-Development-Social-Media-Industry-Icon.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-App-Development-Merketplace-Industry-Icon.webp</image:loc>
       </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-latest-technologies.webp</image:loc>
@@ -136,19 +37,145 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.dignitestudios.com/contact-us</loc>
-    <lastmod>2024-08-02</lastmod>
+    <loc>https://www.dignitestudios.com/services/web-application-development-services</loc>
+    <lastmod>2024-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/pie-chart.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/web-app-dev-image-shadow-purple.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/web-app-dev-image-shadow-yellow.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/Web-Application-Development-Services.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/Web-Application-Development-Services-Right.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/Web-app-development-company.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/enterprise-web-app-development-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/web-portal-development-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/web-app-development-consultation-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/custom-web-application-development-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/progressive-web-app-development-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/cross-platform-web-app-development-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/single-page-web-app-development-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/e-commerce-web-app-development-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/lines.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/flutter-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/swift-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/vue-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/react-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/illustrator-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/tailwind-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/photoshop-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/java-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/kotlin-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/firebase-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/visual-studio-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/quality-assurance-of-web-app-development-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/reliability-of-web-app-development-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/exponential-innovation-of-web-app-development-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-latest-technologies.webp</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.dignitestudios.com/terms-and-conditions</loc>
+    <lastmod>2024-08-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.dignitestudios.com/contact-us</loc>
+    <lastmod>2024-08-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
+      </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/contact-us-main.png</image:loc>
       </image:image>
   </url>
   <url>
     <loc>https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
+      </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/maintenance-hero-borders.webp</image:loc>
       </image:image>
@@ -189,6 +216,39 @@
         <image:loc>https://www.dignitestudios.com/lines.png</image:loc>
       </image:image>
       <image:image>
+        <image:loc>https://www.dignitestudios.com/flutter-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/swift-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/vue-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/react-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/illustrator-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/tailwind-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/photoshop-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/java-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/kotlin-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/firebase-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/visual-studio-icon.png</image:loc>
+      </image:image>
+      <image:image>
         <image:loc>https://www.dignitestudios.com/value-proposition-lines.png</image:loc>
       </image:image>
       <image:image>
@@ -211,10 +271,52 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.dignitestudios.com/services/android-app-development-services</loc>
-    <lastmod>2024-08-02</lastmod>
+    <loc>https://www.dignitestudios.com/services/mobile-app-development-services</loc>
+    <lastmod>2024-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/lending-mobile-app-development.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/booking-mobile-app-development.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/socia-mobile-app-development.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/ticketing-mobile-app-development.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/commuincation-mobile-app-development.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/marketplace-mobile-app-development.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/Mobile-App-Development-Service-Technologies-dark-light.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-latest-technologies.webp</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.dignitestudios.com/services/android-app-development-services</loc>
+    <lastmod>2024-08-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
+      </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/arrow-icon.png</image:loc>
       </image:image>
@@ -237,7 +339,19 @@
         <image:loc>https://www.dignitestudios.com/react-icon-2.png</image:loc>
       </image:image>
       <image:image>
+        <image:loc>https://www.dignitestudios.com/tailwind-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/java-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/firebase-icon.png</image:loc>
+      </image:image>
+      <image:image>
         <image:loc>https://www.dignitestudios.com/vscode-color.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/react-icon.png</image:loc>
       </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/android-app-development-services.webp</image:loc>
@@ -297,6 +411,27 @@
         <image:loc>https://www.dignitestudios.com/hybrid-app-7.png</image:loc>
       </image:image>
       <image:image>
+        <image:loc>https://www.dignitestudios.com/flutter-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/swift-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/vue-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/illustrator-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/photoshop-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/kotlin-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/visual-studio-icon.png</image:loc>
+      </image:image>
+      <image:image>
         <image:loc>https://www.dignitestudios.com/powerful-business-handling-icon.webp</image:loc>
       </image:image>
       <image:image>
@@ -316,40 +451,28 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.dignitestudios.com/services/mobile-app-development-services</loc>
-    <lastmod>2024-08-02</lastmod>
+    <loc>https://www.dignitestudios.com/privacy-policy</loc>
+    <lastmod>2024-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://www.dignitestudios.com/lending-mobile-app-development.webp</image:loc>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.dignitestudios.com/booking-mobile-app-development.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/socia-mobile-app-development.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/ticketing-mobile-app-development.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/commuincation-mobile-app-development.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/marketplace-mobile-app-development.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/Mobile-App-Development-Service-Technologies-dark-light.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-latest-technologies.webp</image:loc>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
       </image:image>
   </url>
   <url>
     <loc>https://www.dignitestudios.com/services/mobile-app-design-services</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
+      </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/Mobile-app-design-services.webp</image:loc>
       </image:image>
@@ -371,9 +494,15 @@
   </url>
   <url>
     <loc>https://www.dignitestudios.com/services/mobile-app-testing-services</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
+      </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/mobile-application-testing-services.webp</image:loc>
       </image:image>
@@ -423,6 +552,39 @@
         <image:loc>https://www.dignitestudios.com/mobile-app-testing-fast-development.webp</image:loc>
       </image:image>
       <image:image>
+        <image:loc>https://www.dignitestudios.com/flutter-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/swift-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/vue-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/react-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/illustrator-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/tailwind-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/photoshop-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/java-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/kotlin-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/firebase-icon.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/visual-studio-icon.png</image:loc>
+      </image:image>
+      <image:image>
         <image:loc>https://www.dignitestudios.com/performance-testing.png</image:loc>
       </image:image>
       <image:image>
@@ -437,9 +599,18 @@
   </url>
   <url>
     <loc>https://www.dignitestudios.com/about-us</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/our-journey.png</image:loc>
+      </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/award-1.webp</image:loc>
       </image:image>
@@ -459,9 +630,6 @@
         <image:loc>https://www.dignitestudios.com/award-6.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.dignitestudios.com/cto.webp</image:loc>
-      </image:image>
-      <image:image>
         <image:loc>https://www.dignitestudios.com/Dignite-Studios-Florida-Office.webp</image:loc>
       </image:image>
       <image:image>
@@ -475,22 +643,16 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.dignitestudios.com/services/mobile-app-consulting-services</loc>
-    <lastmod>2024-08-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/mobile-app-consultation-services.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-latest-technologies.webp</image:loc>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.dignitestudios.com/services/ios-app-development-services</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/logo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/hamburger.webp</image:loc>
+      </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/apple_icon_silver.webp</image:loc>
       </image:image>
@@ -559,6 +721,18 @@
       </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/ios-app-streamline-resources-icon.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-latest-technologies.webp</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.dignitestudios.com/services/mobile-app-consulting-services</loc>
+    <lastmod>2024-08-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.dignitestudios.com/mobile-app-consultation-services.webp</image:loc>
       </image:image>
       <image:image>
         <image:loc>https://www.dignitestudios.com/top-mobile-app-development-company-latest-technologies.webp</image:loc>
