@@ -5,5 +5,7 @@ Disallow: /lp/mobile-app-development
 Disallow: /lp/android-app-development
 Disallow: /lp/ios-app-development
 Disallow: /lp/web-app-development
+Disallow: /thank-you
 
 Sitemap: https://dignitestudios.com/sitemap.xml
+image Sitemap: https://dignitestudios.com/sitemap-image.xml

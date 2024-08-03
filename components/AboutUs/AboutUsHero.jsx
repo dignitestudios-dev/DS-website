@@ -23,14 +23,13 @@ const AboutUsHero = () => {
           }}
           className=" my-2 lg:my-6 lg:w-[80%] text-[16px] lg:text-[18px] font-light"
         >
-          Dignite Studios believes in the transformative power of technology to
-          shape the future.
+          Your Powerful Manifest Partner
           <br />
           <br />
-          With a passion for innovation and a commitment to excellence, we are a
-          premier mobile and web app development agency dedicated to crafting
-          digital solutions that not only meet but exceed the expectations of
-          our clients.
+          Welcome to the world’s most renowned company, where innovation meets
+          excellence in the formation of mobile solutions. Let's delve into the
+          chronicle where we began with a mission, laying the foundation of a
+          vision into the realm of modern technology.
         </span>
         <div className="w-auto flex gap-4 justify-start items-center">
           <Link

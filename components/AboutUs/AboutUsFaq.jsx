@@ -64,13 +64,11 @@ const AboutUsFaq = () => {
                 className="mb-2 xl:text-[18px] font-light"
                 style={{ color: palette?.color }}
               >
-                "Every history has a beginning". In 2020, our tale began. We
-                were a group of like-minded people working for various firms
-                when we became aware of something upsetting about how we
-                conducted business. We didn't like the fact that we were only
-                concentrating on sales and neglecting to develop solid,
-                long-lasting connections with our clients. Since we had similar
-                objectives we all came together as Dignite Studios.
+                "The history began in 2020 with muddled and ambiguous feelings
+                among accord enthusiasts. We were overwhelmed with building a
+                start-up business, but in all of our haste, we bumped into the
+                fact that the aggregation of sales was swamping us away. So, we
+                revamped the objective and set it together as Dignite Studios.
               </p>
             </div>
           </div>
@@ -123,14 +121,15 @@ const AboutUsFaq = () => {
                 className="mb-2 xl:text-[18px] font-light"
                 style={{ color: palette?.color }}
               >
-                Our expertise were shining in the area of Mobile Apps Design &
-                Development, but we felt like something was missing. So we added
-                9 more key players to our team and created a department for
-                Digital Marketing. With a strong marketing team we were able to
-                launch some of our most popular apps in 2021. We also widened
-                our services to Web & Graphics designing. As a result, Dignite
-                Studios was recognized as one of the most reviewed social media
-                marketing companies by The Manifest.
+                Over the water, we realized that our area of expertise must
+                cover all sides of leading tech in the booming sphere of
+                digitalization. So, apart from Mobile App Design and
+                Development, we hired 9 key players for Digital Marketing. Thus,
+                within time we launched our prominent apps, graphic design
+                services, and web application development to uplift the new
+                frontiers in merchandising. Whereas, we stem from a global
+                recognition on the platform of The Manifest as the most reviewed
+                social media marketing company.
               </p>
             </div>
           </div>
@@ -183,15 +182,14 @@ const AboutUsFaq = () => {
                 className="mb-2 xl:text-[18px] font-light"
                 style={{ color: palette?.color }}
               >
-                We onboarded a lot of new projects in 2022, from SMEs to well
-                known brands in various industries. Dignite Studios also made it
-                into the "INC 5000 list" and also won multiple awards in the
-                area of Design, Development & Marketing. But that's not what
-                made us happy. We took pride in closing the last year with 100%
-                customer satisfaction rate and 89% Customer retention rate.
-                After 2 years of continuous efforts and dedication, team Dignite
-                Studios has brought more than 200 dreams into successful apps,
-                websites, softwares and products.
+                Here, a thrilling turn changed the whole dilemma of Dignite
+                Studios by achieving outstanding recognition, in the “INC 5000
+                list” and also getting rewarded multiple times for renowned
+                awards in the field of Design, Development, and Marketing. We
+                took real pride in an incredible closing of 100% customer
+                satisfaction rate and 89% customer retention rate. In the past 2
+                years, we’ve obsolete 200 dreams into triumphant apps, websites,
+                and mobile solutions.
               </p>
             </div>
           </div>
@@ -244,11 +242,12 @@ const AboutUsFaq = () => {
                 className="mb-2 xl:text-[18px] font-light"
                 style={{ color: palette?.color }}
               >
-                We achieved remarkable growth, serving diverse clients and
-                earning repeat recognition in the “INC 5000 list”. Throughout
-                our journey, our unwavering focus has remained on innovation,
-                client satisfaction, and making a lasting impact in the realms
-                of technology and creativity.
+                Dignite Studios achieved remarkable proven results in acquiring
+                clients' goals and feedback. This has led to persistent
+                recognition in the “INC 5000 list.” Throughout our journey, our
+                unwavering focus has remained on innovation, client
+                satisfaction, and making a lasting impact in the realms of
+                technology and creativity.
               </p>
             </div>
           </div>

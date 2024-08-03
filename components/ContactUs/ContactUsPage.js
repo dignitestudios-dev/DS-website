@@ -138,7 +138,6 @@ const ContactUsPage = () => {
   //   }
   // };
 
-
   const handlePhoneChange = (value, country) => {
     setPhone(value);
     setCountryCode(country.dialCode);
@@ -158,12 +157,14 @@ const ContactUsPage = () => {
       }}
     >
       <h1 className="text-[45px] font-extrabold lg:text-5xl xl:text-[64px] lg:font-bold uppercase">
-        Contact Us
+        Let’s Manifest Your <br /> Dream Project
       </h1>
       <p className="text-[18px] w-[70%] font-light ">
-        If there is anything you would like to talk about, please feel free to
-        contact us. Even if you just want to say hello, we look forward to
-        hearing from you.
+        Dignite Studios is all set to dispense unprecedented services to propel
+        your business insights to new heights. Whether you are in the middle of
+        your idea or on the verge of your business, we set the seal to explicit
+        updated strategies, engaging functions, and producing extraordinary user
+        interfaces. Fill out the form below to get started now.
       </p>
 
       <div
@@ -204,7 +205,7 @@ const ContactUsPage = () => {
                 }}
               />
               {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>} */}
-               <input
+              <input
                 type="text"
                 name="name"
                 value={name}
@@ -306,8 +307,8 @@ const ContactUsPage = () => {
                     borderBottom: "1px solid silver",
                     borderRadius: "0px",
                     background: "transparent",
-                    textAlign:'start',
-                    color:'black'
+                    textAlign: "start",
+                    color: "black",
                   }}
                   inputStyle={{
                     width: "90%",
@@ -328,7 +329,9 @@ const ContactUsPage = () => {
                   }
                 `}</style>
               </div>
-              {errors.phone && <span className="text-red-500 text-sm">{errors.phone}</span>}
+              {errors.phone && (
+                <span className="text-red-500 text-sm">{errors.phone}</span>
+              )}
             </div>
 
             <div className="w-full flex flex-col gap-1 justify-start items-start">
@@ -386,6 +389,21 @@ const ContactUsPage = () => {
         <div className="w-full h-full lg:col-span-2">
           <img src={"/contact-us-main.png"} className="w-full h-full " />
         </div>
+      </div>
+
+      <div className="w-full mb-6">
+        <h2 className="text-3xl font-bold">Follow Us</h2>
+        <p className="text-[18px] w-[70%] font-light mt-1">
+          Stay connected with us on LinkedIn, Twitter, and Facebook to get the
+          latest updates on our forthcoming.
+        </p>
+
+        <h2 className="text-3xl font-bold mt-6">Join Us Today</h2>
+        <p className="text-[18px] w-[70%] font-light mt-1">
+          Dignite Studios is overwhelmed to onboard valuable clients and
+          partners to bestow pre-eminent solutions and establish futuristic
+          goals with long-lasting relations.
+        </p>
       </div>
     </div>
   );
