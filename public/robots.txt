@@ -8,4 +8,3 @@ Disallow: /lp/web-app-development
 Disallow: /thank-you
 
 Sitemap: https://dignitestudios.com/sitemap.xml
-image Sitemap: https://dignitestudios.com/sitemap-image.xml
