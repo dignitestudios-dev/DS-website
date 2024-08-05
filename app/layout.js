@@ -11,11 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/aos@next/dist/aos.css"
-          async
-        />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <Script
           strategy="beforeInteractive"
@@ -65,8 +61,8 @@ export default function RootLayout({ children }) {
             })();`,
           }}
         />
-        <script src="https://unpkg.com/aos@next/dist/aos.js" async></script>
-        <script async>AOS.init()</script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init()</script>
       </body>
     </html>
   );
