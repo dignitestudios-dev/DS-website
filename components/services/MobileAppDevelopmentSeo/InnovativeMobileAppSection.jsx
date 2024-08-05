@@ -11,7 +11,7 @@ const InnovativeMobileAppSection = () => {
   return (
     <section
       id="dignite studios services scope"
-      className="w-full relative px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 mt-10 md:mt-24 py-10"
+      className="w-full relative px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 mt-10 md:mt-24 xl:mt-36 py-10"
       style={{ background: palette?.background }}
     >
       <div
@@ -41,10 +41,9 @@ const InnovativeMobileAppSection = () => {
         </div>
         <Image
           loader={customLoader}
+          loading="lazy"
           width={544.12}
           height={557.42}
-          decoding="async"
-          data-nimg="1"
           src="/dignite-service-scope-mockup.webp"
           alt="dignite-service-scope-mockup"
           title="dignite-service-scope-mockup"

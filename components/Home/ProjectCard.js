@@ -24,24 +24,24 @@ const ProjectCard = ({
   return (
     <Link
       href={projectLink}
-      className={`group w-full h-[240px] lg:h-[326px]  hover:bg-[#F15C20] transition-all duration-500  p-[16px] lg:py-[28px] lg:px-[20px] flex flex-col lg:flex-row justify-start  items-start gap-2 lg:mb-6 relative ${
+      className={`group w-full h-[240px] lg:h-[326px]  hover:bg-[#F15C20] transition-all duration-500 pt-[6px] pb-[8px] px-[14px] lg:py-[28px] lg:px-[20px] flex flex-col lg:flex-row justify-start  items-start gap-2 lg:mb-6 relative ${
         theme == "dark" ? "bg-[#1c1c1c]" : "bg-[#f9f9f9]"
       } rounded-[32px] `}
     >
       <div className="w-full h-[0px] flex lg:hidden justify-center items-start relative ">
-        <Image
+        <img
           src={normalImage}
           className="absolute -top-12 right-0 h-[200px]"
           alt={title}
-          width={200}
-          height={200}
-          loader={customLoader}
+          // width={200}
+          // height={200}
+          // loader={customLoader}
           title="app-logo"
         />
       </div>
       <div className="w-full lg:w-[65%] h-full flex flex-col justify-start relative gap-6 my-1 items-start md:px-2">
         <div className="w-full flex justify-start gap-2 items-center pr-1">
-          <Image
+          <img
             src={logo}
             alt="case-study-image"
             width={65}
@@ -65,12 +65,12 @@ const ProjectCard = ({
         <div className="w-full absolute bottom-0 left-2 mt-auto flex justify-start gap-2 items-center pr-1">
           {googleLink && (
             <Link href={googleLink}>
-              <Image
-                loader={customLoader}
-                width={134}
-                height={40}
+              <img
+                // loader={customLoader}
+                // width={134}
+                // height={40}
                 src="/google_play_btn.png"
-                // className="h-[40.62px]"
+                className="h-[40.62px]"
                 alt="google_play_button"
                 title="google_play_button"
               />
@@ -78,12 +78,12 @@ const ProjectCard = ({
           )}
           {appLink && (
             <Link href={appLink}>
-              <Image
-                loader={customLoader}
-                width={134}
-                height={40}
+              <img
+                // loader={customLoader}
+                // width={134}
+                // height={40}
                 src="/apple_store_btn.png"
-                // className="h-[40.62px]"
+                className="h-[40.62px]"
                 alt="app_store_button"
                 title="app_store_button"
               />
@@ -91,12 +91,12 @@ const ProjectCard = ({
           )}
           {webLink && (
             <Link href={webLink}>
-              <Image
-                loader={customLoader}
-                width={134}
-                height={40}
+              <img
+                // loader={customLoader}
+                // width={134}
+                // height={40}
                 src="/website_btn.png"
-                // className="h-[40.62px]"
+                className="h-[40.62px]"
                 alt="Website btn play icon"
                 title="Website btn play icon"
               />

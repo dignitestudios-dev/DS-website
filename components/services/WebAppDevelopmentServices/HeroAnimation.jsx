@@ -43,13 +43,13 @@ const HeroAnimation = () => {
       </div>
 
       <img
-        src="/web-app-dev-image-shadow-purple.png"
+        src="/web-app-dev-image-shadow-purple.webp"
         alt="web-app-dev-image-shadow-purple"
         title="web-app-dev-image-shadow-purple"
         className="w-[80%] lg:h-[78vh] xl:h-[84vh] absolute inset-0 m-auto z-0 fade-in"
       />
       <img
-        src="/web-app-dev-image-shadow-yellow.png"
+        src="/web-app-dev-image-shadow-yellow.webp"
         alt="web-app-dev-image-shadow-yellow"
         title="web-app-dev-image-shadow-yellow"
         className="w-[80%] lg:h-[78vh] xl:h-[84vh] absolute inset-0 m-auto z-0 fade-out"

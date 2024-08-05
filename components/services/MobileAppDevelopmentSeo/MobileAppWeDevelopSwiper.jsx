@@ -41,7 +41,11 @@ const MobileAppWeDevelopSwiper = () => {
               Lending Apps
             </p>
             <div className="bg-[#DD065C] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full" />
-            <img
+            <Image
+              width={400}
+              height={400}
+              loading="lazy"
+              loader={customLoader}
               src="/lending-mobile-app-development.webp"
               alt="two mockup screens showing lending mobile app development"
               title="Leanding mobile app development"
@@ -57,7 +61,11 @@ const MobileAppWeDevelopSwiper = () => {
               Booking Apps
             </p>
             <div className="bg-[#658EFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <img
+            <Image
+              width={400}
+              height={400}
+              loading="lazy"
+              loader={customLoader}
               src="/booking-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
@@ -79,7 +87,11 @@ const MobileAppWeDevelopSwiper = () => {
               Social Media Apps
             </p>
             <div className="bg-[#A35AFF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <img
+            <Image
+              width={400}
+              height={400}
+              loading="lazy"
+              loader={customLoader}
               src="/socia-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
@@ -101,7 +113,11 @@ const MobileAppWeDevelopSwiper = () => {
               Ticketing Apps
             </p>
             <div className="bg-[#158F88] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <img
+            <Image
+              width={400}
+              height={400}
+              loading="lazy"
+              loader={customLoader}
               src="/ticketing-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
@@ -123,7 +139,11 @@ const MobileAppWeDevelopSwiper = () => {
               Communication Apps
             </p>
             <div className="bg-[#4B88FF] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <img
+            <Image
+              width={400}
+              height={400}
+              loading="lazy"
+              loader={customLoader}
               src="/commuincation-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
@@ -145,7 +165,11 @@ const MobileAppWeDevelopSwiper = () => {
               Marketplace Apps
             </p>
             <div className="bg-[#FFC86C] w-[130%] h-[115%] absolute -left-12 top-28 rounded-full top-rated-category1" />
-            <img
+            <Image
+              width={400}
+              height={400}
+              loading="lazy"
+              loader={customLoader}
               src="/marketplace-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"

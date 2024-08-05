@@ -45,13 +45,12 @@ const PlatformServices = () => {
             <div className="flex items-center justify-start gap-3">
               <Image
                 loader={customLoader}
+                loading="lazy"
                 width={21}
                 height={21}
                 src="/android-mobile-app-mockup.png"
                 alt="android-app-icon"
                 title="android-app-icon"
-                decoding="async"
-                data-nimg="1"
                 className="w-[21px] h-[21px]"
               />
               <h3 className="text-xl font-semibold">Android App Development</h3>
@@ -72,13 +71,12 @@ const PlatformServices = () => {
             <div className="flex items-center justify-start gap-3">
               <Image
                 loader={customLoader}
+                loading="lazy"
                 width={21}
                 height={21}
                 src="/ios-mockup.png"
                 alt="ios-app-icon"
                 title="ios-app-icon"
-                decoding="async"
-                data-nimg="1"
                 className="w-[21px] h-[21px]"
               />
               <h3 className="text-xl font-semibold">iOS App Development</h3>
@@ -102,10 +100,9 @@ const PlatformServices = () => {
         <div className="w-full lg:w-[45%] h-full">
           <Image
             loader={customLoader}
+            loading="lazy"
             width={596}
             height={557}
-            decoding="async"
-            data-nimg="1"
             src="/telehealth-mobile-app-development.webp"
             title="Mobile app development services"
             alt="mockup screen shows icons of multiple mobile app development service platforms"
