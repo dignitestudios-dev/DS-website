@@ -14,7 +14,7 @@ const page = () => {
   return (
     <div>
       <head>
-        <title>Dignite Studis</title>
+        {/* <title>Dignite Studios</title> */}
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
           rel="canonical"

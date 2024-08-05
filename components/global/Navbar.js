@@ -112,7 +112,7 @@ const Navbar = ({ setIsOpen }) => {
               IOS App Development Services
             </Link>
             <Link
-              href="/services/web-app-development-services"
+              href="/services/web-application-development-services"
               className={`hover:text-orange-600 cursor-pointer `}
             >
               Web App Development Services
