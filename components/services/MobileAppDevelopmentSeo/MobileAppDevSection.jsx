@@ -23,9 +23,10 @@ const MobileAppDevSection = () => {
           theme === "light" ? "text-black" : "text-white"
         } headings-size`}
       >
-      <span className="text-[#F15C20]">mobile app</span> <br /> development services
+        <span className="text-[#F15C20]">mobile app</span> <br /> development
+        services
       </h2>
-        <MobileAppDevSectionAccordion items={items}/>
+      <MobileAppDevSectionAccordion />
     </section>
   );
 };

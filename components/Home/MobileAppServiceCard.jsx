@@ -69,7 +69,10 @@ const MobileAppServiceCard = () => {
       are willing to pay more for the apps via the Apple App Store. With those
       concerns, our highly skillful mobile app development body uses integrated
       Apple Xcode to test, build, and package apps. Whereas,{" "}
-      <Link href="/" className="">
+      <Link
+        href="/services/ios-app-development-services"
+        className="text-orange-600"
+      >
         iOS app development services
       </Link>{" "}
       can play a vital role in forming an effective iOS application.
@@ -108,7 +111,10 @@ const MobileAppServiceCard = () => {
   const paragraphFull4 = (
     <>
       Are you worried about your{" "}
-      <Link href="/services/web-app-development" className="text-orange-600">
+      <Link
+        href="/services/web-application-development-services"
+        className="text-orange-600"
+      >
         web app development services
       </Link>{" "}
       ? No need to, our valuable and reliable web application team can help you
