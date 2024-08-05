@@ -29,7 +29,7 @@ const DevelopmentConsultingStrategies = () => {
 
       <div className="w-full mt-10 grid grid-cols-1 lg:grid-cols-2 gap-y-8">
         <div className="xl:p-8 lg:p-5 ps-0 lg:border-b-2">
-          <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
+          <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center rounded-[8px]">
             <Image
               loader={customLoader}
               width={48}
@@ -57,7 +57,7 @@ const DevelopmentConsultingStrategies = () => {
           </p>
         </div>
         <div className="lg:border-s-2 lg:p-5 xl:p-8 lg:border-b-2">
-          <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
+          <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center rounded-[8px]">
             <Image
               loader={customLoader}
               width={48}
@@ -86,7 +86,7 @@ const DevelopmentConsultingStrategies = () => {
         </div>
       </div>
       <div className="py-8 lg:p-6 xl:p-8 lg:border-b-2 mt-6 lg:mt-0">
-        <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center">
+        <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center rounded-[8px]">
           <Image
             loader={customLoader}
             width={48}
