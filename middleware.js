@@ -131,6 +131,14 @@ export function middleware(request) {
       oldPath: "/sitemap.xml",
       newPath: "/sitemap_index.xml",
     },
+    {
+      oldPath: "/web-development",
+      newPath: "/services/web-application-development-services",
+    },
+    {
+      oldPath: "/mobile-development",
+      newPath: "/services/mobile-app-development-services",
+    },
   ];
 
   // Find the redirect that matches the current pathname
