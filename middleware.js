@@ -127,6 +127,10 @@ export function middleware(request) {
       oldPath: "/services/ios-app-development",
       newPath: "/lp/ios-app-development",
     },
+    {
+      oldPath: "/sitemap.xml",
+      newPath: "/sitemap_index.xml",
+    },
   ];
 
   // Find the redirect that matches the current pathname
