@@ -11,9 +11,7 @@ const WhyDigniteStudios = () => {
   return (
     <section className="w-full global-padding-horizontal py-12 grid grid-cols-1 xl:grid-cols-3 gap-10">
       <div className="w-full col-span-3 xl:col-span-1 flex flex-col items-start gap-4">
-        <h2
-          className={`headings-size group`}
-        >
+        <h2 className={`headings-size group`}>
           <span className="text-[#8F8F8F] group-hover:text-[#F15C20]">Why</span>
           <br />
           Dignite Studios
@@ -36,7 +34,8 @@ const WhyDigniteStudios = () => {
 
       <div className="w-full col-span-3 xl:col-span-2">
         <div className="w-full flex flex-col items-start gap-2">
-          <img
+          <Image
+            loader={customLoader}
             src={"/powerful-business-handling-icon.webp"}
             width={36}
             height={36}
@@ -60,7 +59,8 @@ const WhyDigniteStudios = () => {
 
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 mt-6 lg:mt-10">
           <div className="w-full flex flex-col items-start gap-2">
-            <img
+            <Image
+              loader={customLoader}
               src={"/intuitive-user-experience-icon.webp"}
               width={36}
               height={36}
@@ -81,7 +81,8 @@ const WhyDigniteStudios = () => {
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-2">
-            <img
+            <Image
+              loader={customLoader}
               width={36}
               height={36}
               src={"/scalable-app-compliance-icon.webp"}
@@ -103,7 +104,8 @@ const WhyDigniteStudios = () => {
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-2">
-            <img
+            <Image
+              loader={customLoader}
               src={"/impeccable-security-measures-icon.webp"}
               width={36}
               height={36}
@@ -124,7 +126,8 @@ const WhyDigniteStudios = () => {
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-2">
-            <img
+            <Image
+              loader={customLoader}
               width={36}
               height={36}
               src={"/Translucent-environment-icon.webp"}

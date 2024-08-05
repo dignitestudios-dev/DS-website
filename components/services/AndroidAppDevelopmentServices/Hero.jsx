@@ -1,6 +1,8 @@
 "use client";
 import Navbar from "@/components/global/Navbar";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import React, { useContext } from "react";
 
 const Hero = () => {
@@ -42,7 +44,7 @@ const Hero = () => {
             <span className="high-powered">
               <span>High-Powered</span>
             </span>
-            <span className="text-[#F15C20]">Android App</span> 
+            <span className="text-[#F15C20]">Android App</span>
             Development Services
           </h2>
 
@@ -51,19 +53,28 @@ const Hero = () => {
           </h3>
         </div>
 
-        <img
+        <Image
+          width={150}
+          height={150}
+          loader={customLoader}
           src="/tailwind-icon-2.png"
           alt="firebase-icon"
           title="firebase-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[4%] animated-icon z-0"
         />
-        <img
+        <Image
+          width={150}
+          height={150}
+          loader={customLoader}
           src="/java-icon-2.png"
           alt="java-icon"
           title="java-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[15%] top-[35%] animated-icon-2"
         />
-        <img
+        <Image
+          width={150}
+          height={150}
+          loader={customLoader}
           src="/flutter-icon-2.png"
           alt="flutter-icon"
           title="flutter-icon"
@@ -71,19 +82,28 @@ const Hero = () => {
         />
 
         {/* right side icons */}
-        <img
+        <Image
+          width={150}
+          height={150}
+          loader={customLoader}
           src="/firebase-icon-2.png"
           alt="firebase-icon"
           title="firebase-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[4%] top-[15%] animated-icon-3"
         />
-        <img
+        <Image
+          width={150}
+          height={150}
+          loader={customLoader}
           src="/vs-icon.png"
           alt="vs-code-icon"
           title="vs-code-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[15%] top-[40%] animated-icon-3"
         />
-        <img
+        <Image
+          width={150}
+          height={150}
+          loader={customLoader}
           src="/react-icon-2.png"
           alt="react-icon"
           title="react-icon"
@@ -92,26 +112,77 @@ const Hero = () => {
 
         <div className="w-full lg:hidden grid grid-cols-3 gap-x-2 gap-y-4 px-4">
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/tailwind-icon.png" alt="tailwind-icon" title="tailwind-icon" className="w-full h-full" />
+            <Image
+              width={150}
+              height={150}
+              loader={customLoader}
+              src="/tailwind-icon.png"
+              alt="tailwind-icon"
+              title="tailwind-icon"
+              className="w-full h-full"
+            />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/java-icon.png" alt="java-icon" title="java-icon" className="w-full h-full" />
+            <Image
+              width={150}
+              height={150}
+              loader={customLoader}
+              src="/java-icon.png"
+              alt="java-icon"
+              title="java-icon"
+              className="w-full h-full"
+            />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/flutter-color.webp" alt="flutter-color" title="flutter-color" className="w-full h-full" />
+            <Image
+              width={150}
+              height={150}
+              loader={customLoader}
+              src="/flutter-color.webp"
+              alt="flutter-color"
+              title="flutter-color"
+              className="w-full h-full"
+            />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/firebase-icon.png" alt="firebase-icon" title="firebase-icon" className="w-full h-full" />
+            <Image
+              width={150}
+              height={150}
+              loader={customLoader}
+              src="/firebase-icon.png"
+              alt="firebase-icon"
+              title="firebase-icon"
+              className="w-full h-full"
+            />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/vscode-color.png" alt="vscode-color" title="vscode-color" className="w-full h-full" />
+            <Image
+              width={150}
+              height={150}
+              loader={customLoader}
+              src="/vscode-color.png"
+              alt="vscode-color"
+              title="vscode-color"
+              className="w-full h-full"
+            />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
-            <img src="/react-icon.png" alt="react-icon" title="react-icon" className="w-full h-full" />
+            <Image
+              width={150}
+              height={150}
+              loader={customLoader}
+              src="/react-icon.png"
+              alt="react-icon"
+              title="react-icon"
+              className="w-full h-full"
+            />
           </div>
         </div>
 
-        <img
+        <Image
+          width={1035}
+          height={750}
+          loader={customLoader}
           src={"/android-app-development-services.webp"}
           title="Android App Development Services"
           alt="The image shows three mobile screens with different Android app layouts, and multiple tech icons revolving around them"

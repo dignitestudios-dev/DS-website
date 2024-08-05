@@ -1,5 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import React, { useContext } from "react";
 
 const Technologies = () => {
@@ -8,9 +10,7 @@ const Technologies = () => {
   const logos2Classes = theme === "light" ? "logos2" : "logos2Dark";
   return (
     <section className="w-full global-padding-horizontal py-12">
-      <h2 className="headings-size text-center">
-        Technologies we are using
-      </h2>
+      <h2 className="headings-size text-center">Technologies we are using</h2>
       <div className={`w-full lg:w-[75%] mx-auto ${logosDard} flex`}>
         <dv className={`w-full logos-slide `}>
           <div
@@ -20,7 +20,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -36,7 +39,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/swift-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -52,7 +58,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/vue-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -68,7 +77,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/react-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -84,7 +96,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -100,7 +115,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -116,7 +134,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -132,7 +153,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/swift-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -148,7 +172,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/vue-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -164,7 +191,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/react-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -180,7 +210,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -196,7 +229,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -212,7 +248,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -228,7 +267,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/swift-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -244,7 +286,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/vue-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -260,7 +305,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/react-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -276,7 +324,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -292,7 +343,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -308,7 +362,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -324,7 +381,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/swift-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -340,7 +400,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/vue-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -356,7 +419,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/react-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -372,7 +438,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -388,7 +457,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -409,7 +481,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -425,7 +500,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/java-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -441,7 +519,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -457,7 +538,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/firebase-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -473,7 +557,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -489,7 +576,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -505,7 +595,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/java-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -521,7 +614,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -537,7 +633,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/firebase-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -553,7 +652,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -569,7 +671,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -585,7 +690,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/java-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -601,7 +709,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -617,7 +728,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/firebase-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -633,7 +747,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -649,7 +766,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -665,7 +785,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/java-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -681,7 +804,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -697,7 +823,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/firebase-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"
@@ -713,7 +842,10 @@ const Technologies = () => {
                 : "custom-light-shadow-dark"
             }`}
           >
-            <img
+            <Image
+              width={22}
+              height={22}
+              loader={customLoader}
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
               title="technology-icon"

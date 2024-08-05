@@ -21,10 +21,10 @@ const ReownedSection = () => {
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       >
-        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>Renowned</p>
-        <h2
-          className={`headings-size`}
-        >
+        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
+          Renowned
+        </p>
+        <h2 className={`headings-size`}>
           <span className="text-[#F15C20]">Android App</span> <br /> Development
           Company
         </h2>
@@ -48,8 +48,13 @@ const ReownedSection = () => {
           </Link>
         </div>
       </div>
-      <img
-        src={"/shows-two-mobile-devices-with-android-app-development-layouts.webp"}
+      <Image
+        width={684}
+        height={734}
+        loader={customLoader}
+        src={
+          "/shows-two-mobile-devices-with-android-app-development-layouts.webp"
+        }
         alt="The image shows two mobile devices with Android app development layouts"
         title="Android app development"
         className="md:w-[484px] md:h-[484px] md:mx-auto xl:w-[684.93px] xl:h-[734px] 2xl:w-[784.93px] lg:absolute lg:right-0 lg:top-36 xl:top-20 2xl:top-28"

@@ -1,5 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import React, { useContext } from "react";
 
 const LeadingSection = () => {
@@ -7,15 +9,16 @@ const LeadingSection = () => {
   return (
     <section className="w-full global-padding-horizontal mt-8 xl:mt-16">
       <p className={`text-xl font-bold text-[#F15C20] uppercase `}>leading</p>
-      <img
+      <Image
+        loader={customLoader}
+        width={86}
+        height={8}
         src="/leading-lines.png"
         alt="leading-lines"
         title="leading-lines"
         className="w-[86px] h-[8]"
       />
-      <h2
-        className={`headings-size`}
-      >
+      <h2 className={`headings-size`}>
         <span className="">Android App</span> <br /> Development Services
       </h2>
       <p

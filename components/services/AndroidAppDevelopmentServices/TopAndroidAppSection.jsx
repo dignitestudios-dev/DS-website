@@ -1,5 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import React, { useContext } from "react";
 
 const TopAndroidAppSection = () => {
@@ -11,10 +13,16 @@ const TopAndroidAppSection = () => {
       <p className={`text-xl font-bold text-[#F15C20] uppercase `}>
         top android application
       </p>
-      <img src="/lines-4.png" alt="leading-lines" title="leading-lines" className="w-[269px] h-[8]" />
-      <h2
-        className={`headings-size mt-4`}
-      >
+      <Image
+        width={269}
+        height={8}
+        loader={customLoader}
+        src="/lines-4.png"
+        alt="leading-lines"
+        title="leading-lines"
+        className="w-[269px] h-[8]"
+      />
+      <h2 className={`headings-size mt-4`}>
         <span className="">development services for</span> <br /> multiple
         platforms
       </h2>
@@ -33,13 +41,19 @@ const TopAndroidAppSection = () => {
         <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] hidden md:flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[380px] lg:h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
             <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-4.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-2.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
@@ -47,19 +61,28 @@ const TopAndroidAppSection = () => {
               />
             </div>
             <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1700ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-3.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-4.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-5.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
@@ -67,19 +90,28 @@ const TopAndroidAppSection = () => {
               />
             </div>
             <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition-all duration-[1700ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-2.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-3.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-2.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
@@ -92,13 +124,19 @@ const TopAndroidAppSection = () => {
         <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] hidden md:flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
             <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-1.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-2.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
@@ -106,19 +144,28 @@ const TopAndroidAppSection = () => {
               />
             </div>
             <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1700ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-3.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-4.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-5.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
@@ -126,19 +173,28 @@ const TopAndroidAppSection = () => {
               />
             </div>
             <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition-all duration-[1700ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-6.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-7.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-2.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
@@ -195,13 +251,19 @@ const TopAndroidAppSection = () => {
         <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[380px] lg:h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
             <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-4.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-2.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
@@ -209,19 +271,28 @@ const TopAndroidAppSection = () => {
               />
             </div>
             <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1700ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-3.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-4.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-5.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
@@ -229,19 +300,28 @@ const TopAndroidAppSection = () => {
               />
             </div>
             <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition-all duration-[1700ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-2.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-3.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/top-android-2.png"
                 alt="The image shows multiple mock screens of native app development"
                 title="Native App Development"
@@ -269,13 +349,19 @@ const TopAndroidAppSection = () => {
         <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] mt-6 flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
             <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-1.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-2.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
@@ -283,19 +369,28 @@ const TopAndroidAppSection = () => {
               />
             </div>
             <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1700ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-3.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-4.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-5.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
@@ -303,19 +398,28 @@ const TopAndroidAppSection = () => {
               />
             </div>
             <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition-all duration-[1700ms]">
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-6.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-7.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
-              <img
+              <Image
+                width={137}
+                height={298}
+                loader={customLoader}
                 src="/hybrid-app-2.png"
                 title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"

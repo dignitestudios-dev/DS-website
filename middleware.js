@@ -139,6 +139,14 @@ export function middleware(request) {
       oldPath: "/mobile-development",
       newPath: "/services/mobile-app-development-services",
     },
+    {
+      oldPath: "/case-study-6",
+      newPath: "services/mobile-app-development-services",
+    },
+    {
+      oldPath: "/blog/is-getting-a-ccna-certification-worth-2023",
+      newPath: "/services/android-app-development-services",
+    },
   ];
 
   // Find the redirect that matches the current pathname
