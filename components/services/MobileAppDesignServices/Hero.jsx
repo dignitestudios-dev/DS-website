@@ -39,6 +39,7 @@ const Hero = () => {
         alt="two mockup screens show the mobile app design services, with multiple icon…"
         width={1046}
         height={883}
+        loader={customLoader}
         decoding="async"
         data-nimg="1"
         className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"
