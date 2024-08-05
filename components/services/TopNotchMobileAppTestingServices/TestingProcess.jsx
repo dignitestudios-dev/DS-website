@@ -1,6 +1,8 @@
-'use client'
+"use client";
 import { TESTING_PROCESS } from "@/constants/testingprocess";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import React, { useContext } from "react";
 
 const TestingProcess = () => {
@@ -13,10 +15,10 @@ const TestingProcess = () => {
         </p>
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
-            <h2
-              className={`headings-size group`}
-            >
-              <span className="text-[#8F8F8F] group-hover:text-[#F15C20] transition-all duration-200">Inevitable</span>
+            <h2 className={`headings-size group`}>
+              <span className="text-[#8F8F8F] group-hover:text-[#F15C20] transition-all duration-200">
+                Inevitable
+              </span>
               <br />
               Testing Process
             </h2>
@@ -42,9 +44,19 @@ const TestingProcess = () => {
         {TESTING_PROCESS.map((team, index) => {
           return (
             <div key={index} className={`flex flex-col items-start gap-4 `}>
-              <img src={team.icon_src} alt="team-icon" title="team-icon" className="w-9 h-9"/>
+              <Image
+                width={36}
+                height={36}
+                loader={customLoader}
+                src={team.icon_src}
+                alt="team-icon"
+                title="team-icon"
+                className="w-9 h-9"
+              />
               <h3 className="text-xl font-semibold">{team.title}</h3>
-              <p className="text-sm font-normal leading-[19.74px]">{team.desc}</p>
+              <p className="text-sm font-normal leading-[19.74px]">
+                {team.desc}
+              </p>
             </div>
           );
         })}

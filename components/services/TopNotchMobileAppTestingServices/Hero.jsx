@@ -1,3 +1,6 @@
+"use client";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -10,7 +13,10 @@ const Hero = () => {
       <p className="text-base font-medium mt-6 z-10">
         Mitigate your mobile app with risk-free innovative testing services
       </p>
-      <img
+      <Image
+        width={1400}
+        height={709}
+        loader={customLoader}
         src="/mobile-application-testing-services.webp"
         alt=" mobile application testing services"
         title="mobile application testing services"

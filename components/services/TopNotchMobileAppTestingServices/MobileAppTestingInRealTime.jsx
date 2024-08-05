@@ -1,5 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
 
@@ -31,23 +33,29 @@ const MobileAppTestingInRealTime = () => {
             digital landscape
           </p>
           <div>
-            <Link href={'/contact-us'} className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full">
+            <Link
+              href={"/contact-us"}
+              className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
+            >
               Let’s discuss your project
             </Link>
           </div>
         </div>
-        <img
+        <Image
+          width={530}
+          height={410}
+          loader={customLoader}
           src="/mobile-app-testing-services.webp"
           alt="the mock screen shows the job portal on the application testing"
           title="Mobile app testing services"
           className="md:h-[310px] lg:h-[370px] lg:w-[530px] xl:h-[410px] mx-auto"
           data-aos="slide-up"
-          data-aos-offset="100" 
+          data-aos-offset="100"
           data-aos-delay="0"
           data-aos-duration="700"
           data-aos-easing="ease-in"
           data-aos-mirror="false"
-          data-aos-once="false" 
+          data-aos-once="false"
           data-aos-anchor-placement="center-bottom"
         />
       </div>

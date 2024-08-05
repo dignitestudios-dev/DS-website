@@ -1,3 +1,6 @@
+"use client";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -14,7 +17,10 @@ const TestingServices = () => {
       </p>
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-10 border-b py-6 mt-5 lg:mt-10">
         <div className="order-2 lg:order-1 overflow-hidden mb-6 lg:mb-0 flex justify-center lg:justify-start">
-          <img
+          <Image
+            width={590}
+            height={380}
+            loader={customLoader}
             src="/mobile-software-functional-testing-services.webp"
             alt="two mobile mock screens shows the testing of streaming applications"
             title="Mobile software functional testing services"
@@ -104,7 +110,10 @@ const TestingServices = () => {
           </div>
         </div>
         <div className="flex md:justify-center lg:justify-end">
-          <img
+          <Image
+            width={590}
+            height={380}
+            loader={customLoader}
             src="/mobile-software-automated-testing-services.webp"
             alt=" two mobile mock screens shows the testing of application layout"
             title="Mobile software automated testing services"
@@ -123,7 +132,10 @@ const TestingServices = () => {
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 py-6">
         <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
-          <img
+          <Image
+            width={590}
+            height={380}
+            loader={customLoader}
             src="/mobile-software-data-testing-services.webp"
             alt="two mock screens shows the testing of application structure"
             title="mobile software data testing services"
@@ -141,12 +153,12 @@ const TestingServices = () => {
         <div
           className="flex flex-col items-start justify-center gap-5 order-1 lg:order-2 text-start"
           data-aos="slide-left"
-          data-aos-offset="100" 
-          data-aos-delay="0" 
+          data-aos-offset="100"
+          data-aos-delay="0"
           data-aos-duration="400"
           data-aos-easing="ease-in"
           data-aos-mirror="false"
-          data-aos-once="false" 
+          data-aos-once="false"
           data-aos-anchor-placement="center-bottom"
         >
           <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">

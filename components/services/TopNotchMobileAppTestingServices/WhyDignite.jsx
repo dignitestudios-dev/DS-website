@@ -1,5 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
+import customLoader from "@/lib/custom-loader";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
 
@@ -10,10 +12,10 @@ const WhyDignite = () => {
       <div className={`w-full`}>
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
-            <h2
-              className={`headings-size group`}
-            >
-              <span className="text-[#8F8F8F] group-hover:text-[#F15C20]">Why</span>
+            <h2 className={`headings-size group`}>
+              <span className="text-[#8F8F8F] group-hover:text-[#F15C20]">
+                Why
+              </span>
               <br />
               Dignite Studios
             </h2>
@@ -42,7 +44,10 @@ const WhyDignite = () => {
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             } rounded-xl p-6`}
           >
-            <img
+            <Image
+              width={40}
+              height={40}
+              loader={customLoader}
               src="/performance-testing.png"
               alt="performance-testing"
               title="performance-testing"
@@ -64,7 +69,10 @@ const WhyDignite = () => {
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             } rounded-xl p-6`}
           >
-            <img
+            <Image
+              width={40}
+              height={40}
+              loader={customLoader}
               src="/quality-assessement.png"
               alt="quality-assessement"
               title="quality-assessement-image"
@@ -85,7 +93,10 @@ const WhyDignite = () => {
               theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
             } rounded-xl p-6`}
           >
-            <img
+            <Image
+              width={40}
+              height={40}
+              loader={customLoader}
               src="/track-record.png"
               alt="track-record"
               title="track-record-image"
