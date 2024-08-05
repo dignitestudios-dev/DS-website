@@ -13,7 +13,6 @@ const OurValueExpeditionSection = () => {
           loader={customLoader}
           width={596}
           height={357.6}
-          priority="high"
           src="/our-value-expedition-mockup.webp"
           alt="our-value-expedition-mockup"
           title="our-value-expedition-mockup"

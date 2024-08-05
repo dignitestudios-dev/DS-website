@@ -108,7 +108,6 @@ const ConsultingStrategiesSection = () => {
         <div className="lg:w-[40%]">
           <Image
             loader={customLoader}
-            priority="high"
             width={614}
             height={391}
             src={headings[currentIndex]?.image_src}

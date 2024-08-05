@@ -1,4 +1,4 @@
-"use client";
+"use server";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
@@ -20,10 +20,7 @@ const DriveBusiness = () => {
             Schedule a call <HiMiniArrowUpRight className="text-2xl" />
           </Link>
         </div>
-        <Image
-          width={530}
-          height={504}
-          loader={customLoader}
+        <img
           src="/mobile-app-consultation-services.webp"
           alt="A person holding a laptop and providing mobile app consultation services"
           title="mobile app consultation services"
