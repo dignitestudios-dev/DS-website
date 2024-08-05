@@ -35,16 +35,18 @@ const Hero = () => {
         title="Mobile app design services"
         className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"
       /> */}
-      <img
+      <Image
         alt="two mockup screens show the mobile app design services, with multiple icon…"
-        width="1046"
-        height="883"
+        width={1046}
+        height={883}
         decoding="async"
         data-nimg="1"
+        loader={customLoader}
         className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"
         srcset="https://dignitestudios.com//Mobile-app-design-services.webp 1x, /Mobile-app-design-services.webp"
         src="/Mobile-app-design-services.webp"
-        style={{color: "transparent"}}
+        style={{ color: "transparent" }}
+        priority={"high"}
         title="Mobile app design services"
       />
     </main>
