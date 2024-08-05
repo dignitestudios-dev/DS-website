@@ -106,16 +106,22 @@ const InfluentialNavbar = ({ setIsOpen }) => {
               Android App Development Services
             </Link>
             <Link
-              href="/services/ios-app-development"
+              href="/services/ios-app-development-services"
               className={`hover:text-orange-600 `}
             >
-              IOS App Development
+              IOS App Development Services
             </Link>
             <Link
-              href="/services/web-app-development"
+              href="/services/web-app-development-services"
               className={`hover:text-orange-600 `}
             >
-              Web App Development
+              Web App Development Services
+            </Link>
+            <Link
+              href="/services/mobile-application-support-and-maintenance-services"
+              className={`hover:text-orange-600 cursor-pointer text-start`}
+            >
+              Mobile App Support And Maintenance Services
             </Link>
           </div>
         </button>

@@ -74,9 +74,10 @@ const MobileAppDesignWhyChooseUs = () => {
           </div>
         </div>
         <div className="w-full lg:w-[40%] flex justify-end lg:justify-end lg:pt-2">
-          <img
+          <Image
             width={453}
             height={583}
+            loader={customLoader}
             src="/UIUX-Mobile-app-design.webp"
             alt="Image shows the discussion of UI/UX Mobile app design team"
             title="UI/UX Mobile app design"
