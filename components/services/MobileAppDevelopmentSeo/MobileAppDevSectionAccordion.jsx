@@ -48,7 +48,7 @@ const MobileAppDevSectionAccordion = () => {
           <div
             className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4 `}
           >
-            <span className="font-medium text-base md:text-lg lg:text-[32px] text-[#B4B4B4]">
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               01.
             </span>
             <span className="font-medium text-base md:text-lg lg:text-[32px]">
@@ -106,7 +106,7 @@ const MobileAppDevSectionAccordion = () => {
           <div
             className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4 `}
           >
-            <span className="font-medium text-base md:text-lg lg:text-[32px] text-[#B4B4B4]">
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               02.
             </span>
             <span className="font-medium text-base md:text-lg lg:text-[32px]">
@@ -171,7 +171,7 @@ const MobileAppDevSectionAccordion = () => {
           <div
             className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4 `}
           >
-            <span className="font-medium text-base md:text-lg lg:text-[32px] text-[#B4B4B4]">
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               03.
             </span>
             <span className="font-medium text-base md:text-lg lg:text-[32px]">
@@ -237,7 +237,7 @@ const MobileAppDevSectionAccordion = () => {
           <div
             className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4 `}
           >
-            <span className="font-medium text-base md:text-lg lg:text-[32px] text-[#B4B4B4]">
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               04.
             </span>
             <span className="font-medium text-base md:text-lg lg:text-[32px]">
@@ -302,7 +302,7 @@ const MobileAppDevSectionAccordion = () => {
           <div
             className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
           >
-            <span className="font-medium text-base md:text-lg lg:text-[32px] text-[#B4B4B4]">
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               05.
             </span>
             <span className="font-medium text-base md:text-lg lg:text-[32px]">
@@ -366,7 +366,7 @@ const MobileAppDevSectionAccordion = () => {
           <div
             className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
           >
-            <span className="font-medium text-base md:text-lg lg:text-[32px] text-[#B4B4B4]">
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               06.
             </span>
             <span className="font-medium text-base md:text-lg lg:text-[32px]">
@@ -424,7 +424,7 @@ const MobileAppDevSectionAccordion = () => {
           <div
             className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
           >
-            <span className="font-medium text-base md:text-lg lg:text-[32px] text-[#B4B4B4]">
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               07.
             </span>
             <span className="font-medium text-base md:text-lg lg:text-[32px]">
@@ -488,7 +488,7 @@ const MobileAppDevSectionAccordion = () => {
           <div
             className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
           >
-            <span className="font-medium text-base md:text-lg lg:text-[32px] text-[#B4B4B4]">
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               08.
             </span>
             <span className="font-medium text-base md:text-lg lg:text-[32px]">
@@ -553,7 +553,7 @@ const MobileAppDevSectionAccordion = () => {
           <div
             className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
           >
-            <span className="font-medium text-base md:text-lg lg:text-[32px] text-[#B4B4B4]">
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               09.
             </span>
             <span className="font-medium text-base md:text-lg lg:text-[32px]">
