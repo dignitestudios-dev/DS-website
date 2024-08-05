@@ -11,7 +11,7 @@ const DigniteServiceScope = () => {
   return (
     <section
       id="dignite studios services scope"
-      className="w-full relative px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 mt-7 md:mt-12 lg:mt-16 xl:mt-28 pb-10 2xl:mt-32"
+      className="w-full relative px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 mt-7 md:mt-12 lg:mt-16 xl:mt-32 pb-10 2xl:mt-32"
       style={{ background: palette?.background }}
     >
       <div
@@ -42,7 +42,7 @@ const DigniteServiceScope = () => {
             <Link
               href="/contact-us"
               className="py-3 px-5 text-base xl:py-[28px] xl:px-[60px] float-end top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
-              style={{background:'#F15C20'}}
+              style={{ background: "#F15C20" }}
             >
               Schedule a call <FiArrowUpRight className="text-xl" />
             </Link>

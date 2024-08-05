@@ -42,7 +42,6 @@ const PlanOfActionSection = () => {
         </div>
         <Image
           loader={customLoader}
-          priority={"high"}
           width={712}
           height={1122}
           src="/plan-of-action.webp"

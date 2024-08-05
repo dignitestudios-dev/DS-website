@@ -41,7 +41,6 @@ const Hero = () => {
         height={883}
         decoding="async"
         data-nimg="1"
-        loader={customLoader}
         className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"
         srcset="https://dignitestudios.com//Mobile-app-design-services.webp 1x, /Mobile-app-design-services.webp"
         src="/Mobile-app-design-services.webp"
