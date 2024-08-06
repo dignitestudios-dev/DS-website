@@ -225,8 +225,8 @@ const TopRatedAppDevelopmentContactSection = () => {
                     borderBottom: "1px solid silver",
                     borderRadius: "0px",
                     background: "transparent",
-                    textAlign:'start',
-                    color:'black'
+                    textAlign: "start",
+                    color: "black",
                   }}
                   inputStyle={{
                     width: "90%",
@@ -283,13 +283,14 @@ const TopRatedAppDevelopmentContactSection = () => {
         </form>
 
         <div className="col-span-3 lg:col-span-1 hidden xl:flex items-center justify-center p-4 pt-0 lg:p-0">
-          <img
+          <Image
+            loader={customLoader}
             src="/top-mobile-app-development-company-latest-technologies.webp"
             width={402}
             height={361}
             decoding="async"
             data-nimg="1"
-            alt=" image shows one back cover of mobile device and another is the mock screen of the mobile app"
+            alt="image shows one back cover of mobile device and another is the mock screen of the mobile app"
             title="top mobile app development company latest technologies"
             className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"
           />
