@@ -11,18 +11,18 @@ const HeroAnimation = () => {
   useEffect(() => {
     if (showIcons) {
       setClassName("icon rotating-image");
-    //   const timer = setTimeout(() => {
-    //     setClassName("icons icon-1 rotating-image");
-    //   }, 1500);
+      //   const timer = setTimeout(() => {
+      //     setClassName("icons icon-1 rotating-image");
+      //   }, 1500);
 
-      
-    //   return () => clearTimeout(timer);
+      //   return () => clearTimeout(timer);
     }
   }, [showIcons]);
 
   const handleShowIcons = () => {
     setShowIcons(true);
   };
+
   return (
     <div className="w-full mt-60 lg:mt-20 flex">
       {showIcons && (
@@ -52,36 +52,57 @@ const HeroAnimation = () => {
             showIcons ? "" : "mt"
           }`}
         />
-        <img
-          src="/photos-icon.webp"
-          alt="photos-icon"
-          title="photos-icon"
-          className={`w-[63px] h-[63px] icons ${showIcons && 'icon-1'} z-0`}
-        />
-        <img
-          src="/itunes-icon.webp"
-          alt="itunes-icon"
-          title="itunes-icon"
-          className={`w-[63px] h-[63px] icons ${showIcons && "icon-2"} z-0`}
-        />
-        <img
-          src="/books_app_icon.webp"
-          alt="books_app_icon"
-          title="books_app_icon"
-          className={`w-[63px] h-[63px] icons ${showIcons && "icon-3"} z-0`}
-        />
-        <img
-          src="/messages_icon.webp"
-          alt="messages_icon"
-          title="messages_icon"
-          className={`w-[63px] h-[63px] icons ${showIcons && "icon-4"} z-0`}
-        />
-        <img
-          src="/app_store_icon.webp"
-          alt="app_store_icon"
-          title="app_store_icon"
-          className={`w-[63px] h-[63px] icons ${showIcons && "icon-5"} z-0`}
-        />
+        {showIcons && (
+          <img
+            id="icon-1"
+            src="/photos-icon.webp"
+            alt="photos-icon"
+            title="photos-icon"
+            className={`w-[63px] h-[63px] z-10 absolute top-1/2 left-1/2 ${
+              showIcons && "icon-1 icon-rotate"
+            } z-0`}
+          />
+        )}
+        {showIcons && (
+          <img
+            src="/itunes-icon.webp"
+            alt="itunes-icon"
+            title="itunes-icon"
+            className={`w-[63px] h-[63px] absolute top-1/2 left-1/2 ${
+              showIcons && "icon-2 icon-rotate"
+            } z-0`}
+          />
+        )}
+        {showIcons && (
+          <img
+            src="/books_app_icon.webp"
+            alt="books_app_icon"
+            title="books_app_icon"
+            className={`w-[63px] h-[63px] absolute top-1/2 left-1/2 ${
+              showIcons && "icon-3 icon-rotate"
+            } z-0`}
+          />
+        )}
+        {showIcons && (
+          <img
+            src="/messages_icon.webp"
+            alt="messages_icon"
+            title="messages_icon"
+            className={`w-[63px] h-[63px] absolute top-1/2 left-1/2 ${
+              showIcons && "icon-4 icon-rotate"
+            } z-0`}
+          />
+        )}
+        {showIcons && (
+          <img
+            src="/app_store_icon.webp"
+            alt="app_store_icon"
+            title="app_store_icon"
+            className={`w-[63px] h-[63px] absolute top-1/2 left-1/2 ${
+              showIcons && "icon-5 icon-rotate"
+            } z-0`}
+          />
+        )}
       </div>
 
       {showIcons && (

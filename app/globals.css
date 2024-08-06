@@ -1117,6 +1117,44 @@ image {
   }
 }
 
+/* Initial movement animation */
+.icon-animate {
+  animation: moveToTop 1s ease-in-out forwards;
+  animation-delay: 0s;
+}
+
+@keyframes moveToTop {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(20%, -230%);
+    opacity: 1;
+  }
+}
+
+/* Continuous rotation animation */
+.icon-rotate {
+  animation: rotate 2s ease-out infinite;
+  animation-delay: 1s; /* Matches the duration of moveToTop animation */
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(20%, -230%);
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: translate(20%, -230%);
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: translate(20%, -230%);
+    transform: rotate(0deg);
+  }
+}
+
 @keyframes moveIconRight {
   from {
     transform: translate(-50%, 100%);
@@ -1190,8 +1228,7 @@ image {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 100%);
-  opacity: 0;
+  /* transform: translate(-50%, 100%); */
 }
 
 .icon-1 {
@@ -1261,13 +1298,18 @@ image {
   top: -11px !important;
 }
 
+.rotate-new {
+  animation: rotate 1s ease-in-out;
+  animation-delay: 0.8s;
+}
+
 /* for rotating the icons */
 @keyframes rotate {
-  0% {
-    transform: rotate(0deg) translateX(0);
+  from {
+    transform: translate(20%, -230%) rotate(0deg);
   }
-  100% {
-    transform: rotate(20deg) translateX(20px); /* Adjust the translateX value as needed */
+  to {
+    transform: translate(20%, -230%) rotate(20deg); /* Adjust the translateX value as needed */
   }
 }
 
