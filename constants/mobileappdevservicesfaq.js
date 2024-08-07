@@ -15,7 +15,7 @@ export const faqData = {
       name: "What are the 3 types of mobile applications?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Native, Hybrid, and Web Apps.",
+        text: "Native, Hybrid and Web Apps.",
       },
     },
     {

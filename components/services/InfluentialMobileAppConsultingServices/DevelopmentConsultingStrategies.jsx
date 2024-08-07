@@ -9,22 +9,21 @@ const DevelopmentConsultingStrategies = () => {
   return (
     <section className="w-full global-padding-horizontal py-14">
       <h2 className="headings-size">
-        <span className="text-[#F15C20]">Development</span> Consulting
-        Strategies 
+        <span className="text-[#F15C20]">Top-Notch</span> Mobile Consulting
+        Services Of Dignite Studios
       </h2>
       <p
         className={`text-base 2xl:text-lg font-normal ${
           theme === "light" && "text-[#5C5C5C] leading-[20.81px]"
         } mt-6`}
       >
-        The charismatic architecture of your mobile creates a spectacular
-        element in your brand’s worth. Likewise, a mobile app strategy can
-        enhance user engagement and the credibility of your new app idea. Here,
-        the top-class mobile app consulting services of Dignite Studios, have
-        the privilege of accumulating the world’s renowned expert consultants,
-        specialists, designers, and professionals, who not only guide you latest
-        mobile strategy but also cede best practices for mobile application
-        development in the wide range of services for mobile progression. 
+        Leveraging top mobile app consulting specialists from years ago, we’ve
+        accomplished a successful long journey to provide a cluster of
+        first-class service to our partners and clients. Whether for initial
+        mobile app audit or mobile API development, we fabricate consummate
+        service options to deliver competitive apps. Therefore, our mobile
+        consulting team provides the best agile solutions for application
+        planning, designing, and development for an attractive mobile landscape.
       </p>
 
       <div className="w-full mt-10 grid grid-cols-1 lg:grid-cols-2 gap-y-8">
@@ -76,12 +75,13 @@ const DevelopmentConsultingStrategies = () => {
               theme === "light" && "#5C5C5C"
             }`}
           >
-            Audit plays a significant role in the development process of mobile
-            app, as it tests the security measures of the mobile apps, and also
-            analyzes the compliant policy and all rules and regulations. On the
-            other hand, it helps in detecting security threats that steer to
-            data breaches. At Dignite Studios, our product consulting provides
-            thorough guidance on the testing capabilities of our entire process.
+            The use of updated technologies and procedures is a mere need in
+            today’s world. Adapting and enhancing prevalent mobile project
+            implementation will attract more user engagement. Whereas, mobile
+            development initiatives must hold the smartest ways to craft a
+            newfangled strategy for further mobile development initiatives.
+            While processing new app we create state-of-the-art features to
+            build highly modernized mobile projects.
           </p>
         </div>
       </div>
