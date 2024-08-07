@@ -8,7 +8,7 @@ export const MOBILE_APP_TESTING_SERVICES_FAQ = [
         name: "What is a mobile app testing service?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "A It encompasses types of security testing while developing a mobile application such as compatibility, automation, regression, functionality, accessibility, and performance testing.",
+          text: "It encompasses types of security testing while developing a mobile application such as compatibility, automation, regression, functionality, accessibility, and performance testing.",
         },
       },
       {
