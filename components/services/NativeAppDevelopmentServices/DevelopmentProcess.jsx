@@ -1,26 +1,29 @@
 "use client";
+import { MAINTENANCE_PROCESS } from "@/constants/maintenanceprocess";
+import { NATIVE_APP_DEVELOPMENT_PROCESS } from "@/constants/NativeAppDevelopmentProcess";
+import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
-import { MAINTENANCE_PROCESS } from "@/constants/maintenanceprocess";
-import { GlobalContext } from "@/context/GlobalContext";
 
-const MaintenanceProcess = () => {
+const DevelopmentProcess = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <section className="w-full py-12 global-padding-horizontal">
       <section className="w-full grid grid-cols-1 lg:grid-cols-3 gap-y-6">
         <div className="col-span-3 lg:col-span-2">
           <p className="uppercase font-bold text-xl text-[#8F8F8F]">
-            Mobile Application
+            Seamless Native App
           </p>
           <h2 className="headings-size mt-2">
-            Maintenance <span className="text-[#F15C20]">Process</span>
+            Development <span className="text-[#F15C20]">Process</span>
           </h2>
           <p className="text-lg font-normal mt-4">
-            The top management of Dignite Studios characterizes each support and
-            maintenance step with beneficial processes to streamline the app's
-            performance and potency with clarity. 
+            We create accelerated methodologies to revolutionize native mobile
+            app development processes for more competent and adequate solutions
+            for apps. With sterling native mobile app frameworks we build a
+            sleek and tranquil process to refine and make development quicker
+            for Android apps and iOS devices.
           </p>
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-center lg:justify-end">
@@ -29,14 +32,14 @@ const MaintenanceProcess = () => {
               href={"/contact-us"}
               className="bg-[#F15C20] text-white w-[218px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
             >
-              Discuss Your Project <FiArrowUpRight className="text-2xl" />
+              Start Your Project <FiArrowUpRight className="text-2xl" />
             </Link>
           </div>
         </div>
       </section>
 
       <div className="w-full mt-6 lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 xl:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 xl:mt-10">
-        {MAINTENANCE_PROCESS.map((service, key) => {
+        {NATIVE_APP_DEVELOPMENT_PROCESS.map((service, key) => {
           return (
             <div
               key={key}
@@ -91,4 +94,4 @@ const MaintenanceProcess = () => {
   );
 };
 
-export default MaintenanceProcess;
+export default DevelopmentProcess;

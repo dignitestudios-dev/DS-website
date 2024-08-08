@@ -1,0 +1,42 @@
+export const WE_COMMIT_TO_DELIVER = [
+  {
+    orange_title: "Full Stack",
+    title: " Native App Development Services",
+    image_src: "/full-stack-native-app-development.png",
+    alt: "",
+    img_title: "",
+    text: "With years of dedicated experience, Dignite Studios has accompanied leading industries with powerful strategies to benchmark the title among large enterprises. Our native mobile app development services create platform-specific apps with modern features and smooth functionality to upgrade online existence. We adapt sharp-witted procedures in the production of mobile applications for both iOS and Android native apps to rank businesses to the fullest. ",
+  },
+  {
+    orange_title: "Tablet",
+    title: " App Development",
+    image_src: "/tablet-app-development-mockup.png",
+    alt: "",
+    title: "",
+    text: "Tablet Native apps can also be built for multiple Apple devices such as tablets and iPads. In the modern technology upgradation tablets developing applications are still in immense demand. With years of successful experience the native app development company Dignite Studios has provided comprehensive native app development services for tablets for various industries, including startups and major corporations. ",
+  },
+  {
+    orange_title: "iOS",
+    title: " App Development",
+    image_src: "/ios-app-development-mockup.png",
+    alt: "",
+    title: "",
+    text: "Apple’s ecosystem has raised a 1.56 billion iPhone-user base with gilt-edged iOS native applications. Enable the fastest software development process for iOS apps with two Apple programming languages by which you can build a smooth application architecture to start the procedure smoothly and run the application on your mobile. Our native app services bestow the highest quality native app development frameworks to intricate iOS platforms with multitasking capabilities. Here, we leverage app functionality, under the diligent observation of React native engineers to develop error-free iOS native apps. ",
+  },
+  {
+    orange_title: "Android",
+    title: " App Development",
+    image_src: "/android-app-development-mockup.png",
+    alt: "",
+    title: "",
+    text: "Native apps for Android platforms are created using a streamlined, single-code development process. They form different approaches and specific Android programming languages i.e. Kotlin or Java. You can create native mobile apps for both mobile and desktop. When your app reaches the final development phase, you’ll simply submit it to the Google Play Store. Dignite’s highly skillful Native App developers foster unique mechanisms with Android software development kits, command tools, and Android Jetpack to attain tremendous probability among other mobile apps. We also develop personalized native features for apps with the help of the Android operating system under minimum development time",
+  },
+  {
+    orange_title: "iPad",
+    title: " App Development",
+    image_src: "/ipad-app-mockup.png",
+    alt: "",
+    title: "",
+    text: "When you’re establishing a native app for iPads, the mere supremacy lies with its immersive layouts. Here, you just have to take a large canvas to create more complex apps under split-screen functionality. Additionally, a major advantage is that you only need to develop one app that works seamlessly on both iPhones and iPads. With years of expertise in the field of native mobile app development, we provide flawless services to leverage businesses globally. ",
+  },
+];

@@ -691,6 +691,10 @@ input:hover {
   height: 100%;
 }
 
+.swiper-wrapper {
+  display: flex !important;
+}
+
 .swiper-vertical {
   overflow: visible;
 }
@@ -1543,4 +1547,38 @@ image {
 
 .animated-bar-chart {
   z-index: 4000000 !important;
+}
+
+@keyframes apple-animated-icon {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(80px, -160px); /* Move down-left */
+  }
+  100% {
+    transform: translate(0, 0); /* Move back to original position */
+  }
+}
+
+.apple-icon-animate {
+  animation: apple-animated-icon 7s infinite;
+  animation-delay: 0s;
+}
+
+@keyframes android-animated-icon {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-190px, -160px); /* Move down-left */
+  }
+  100% {
+    transform: translate(0, 0); /* Move back to original position */
+  }
+}
+
+.android-icon-animate {
+  animation: android-animated-icon 7s infinite;
+  animation-delay: 0s;
 }
