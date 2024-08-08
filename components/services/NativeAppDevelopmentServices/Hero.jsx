@@ -52,12 +52,12 @@ const Hero = () => {
         <img
           src="/native-app-dev-andoid-icon.webp"
           alt="native-app-dev-andoid-icon"
-          className="w-[141.4px] h-[141.4px] z-10 right-0 lg:right-[20%] hidden lg:absolute top-0 android-icon-animate"
+          className="w-[141.4px] h-[141.4px] z-10 right-0 lg:right-[20%] hidden absolute lg:block top-0 android-icon-animate"
         />
         <img
           src="/native-app-dev-apple-icon.webp"
           alt="native-app-dev-apple-icon"
-          className="w-[141.4px] h-[141.4px] z-10 hidden lg:absolute left-[18%] top-[44%] apple-icon-animate"
+          className="w-[141.4px] h-[141.4px] z-10 hidden lg:block absolute left-[18%] top-[44%] apple-icon-animate"
         />
         <img
           src="/native-app-hero-orange-shadow.webp"
