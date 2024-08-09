@@ -83,25 +83,25 @@ const EmpowerIndustries = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/healthcare-industry.webp"
-            alt=""
-            title=""
+            src="/Native-app-development-in-travel-and-hospitality-industry.webp"
+            alt="Native app development in travel and hospitality industry image shows the window of aircraft views aesthetically pleasing sky"
+            title="Native app development in travel and hospitality industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/ecommerce-industry.webp"
-            alt=""
-            title=""
+            src="/Native-app-development-in-insurance-industry.webp"
+            alt="Native app development in insurance industry image shows a person is writing something on a paper"
+            title="Native app development in insurance industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/real-state-industry.webp"
-            alt=""
-            title=""
+            src="/Native-app-development-in-banking-industry.webp"
+            alt="Native app development in banking industry image shows currency note"
+            title="Native app development in banking industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>

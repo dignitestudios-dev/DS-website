@@ -12,7 +12,7 @@ const TopNotchBenefits = () => {
       <p className="text-xl font-bold text-[#F15C20] uppercase">
         dignite studios
       </p>
-      <img src="/lines.png" alt="lines" title="lines" />
+      <img src="/lines.png" alt="lines" title="lines" width={170} height={24} />
 
       <h2 className="headings-size mt-3 text-center mx-auto mb-2">
         top-Notch Benefits

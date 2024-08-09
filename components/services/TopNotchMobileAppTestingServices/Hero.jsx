@@ -17,6 +17,7 @@ const Hero = () => {
         width={1400}
         height={709}
         loader={customLoader}
+        priority="high"
         src="/mobile-application-testing-services.webp"
         alt=" mobile application testing services"
         title="mobile application testing services"

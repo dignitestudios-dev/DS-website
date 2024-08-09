@@ -13,7 +13,7 @@ import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopmen
 import WhyChooseUs from "./WhyChooseUs";
 
 const NativeAppDevelopmentServicesPage = () => {
-  const { palette, setIsSidebarOpen } = useContext(GlobalContext);
+  const { setIsSidebarOpen } = useContext(GlobalContext);
   return (
     <div className="w-full h-auto overflow-x-hidden ">
       <Navbar setIsOpen={setIsSidebarOpen} />

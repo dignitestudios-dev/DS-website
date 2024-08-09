@@ -82,6 +82,12 @@ const page = () => {
           content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp"
         />
         <meta name="twitter:image:alt" content="Mobile App Testing Services" />
+
+        <link
+          rel="preload"
+          as="image"
+          href="/mobile-application-testing-services.webp"
+        ></link>
       </head>
       <ServicesLayout page={<TopNotchMobileAppTestingServices />} />
 
