@@ -1,8 +1,6 @@
 import Link from "next/link";
 import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
-import WeCommitToDeliverCard from "./WeCommitToDeliverCard";
-import { WE_COMMIT_TO_DELIVER } from "@/constants/WeCommitToDeliver";
 import { GlobalContext } from "@/context/GlobalContext";
 
 const WeCommitToDeliver = () => {
@@ -60,12 +58,12 @@ const WeCommitToDeliver = () => {
             }
           >
             With years of dedicated experience, Dignite Studios has accompanied
-            leading industries with powerful strategies to benchmark the title
-            among large enterprises. Our native mobile app development services
-            create platform-specific apps with modern features and smooth
-            functionality to upgrade digital presence. We adapt sharp-witted
-            procedures in the production of mobile applications for both iOS and
-            Android native apps to rank businesses up to the highest level.
+            leading industries with powerful strategies to rank the title among
+            large enterprises. Our native mobile app development services create
+            platform-specific apps with modern features and smooth functionality
+            to upgrade digital presence. We adapt sharp-witted procedures in the
+            production of mobile applications for both iOS and Android native
+            apps to rank businesses up to the highest level.
           </p>
         </div>
         <div className="col-span-3 lg:col-span-2 h-full">
@@ -123,11 +121,11 @@ const WeCommitToDeliver = () => {
             } text-[#666666] text-xs leading-[15.6px] mt-3 tracking-[-0.41%]`}
           >
             Apple’s ecosystem has raised a 1.56 billion iPhone-user base with
-            gilt-edged iOS native applications. Enable the fastest software
+            gilt-edged iOS native applications. It enables the fastest software
             development process for iOS apps with two Apple programming
             languages by which you can build a smooth application architecture
             for your mobile app. Our native app services bestow the highest
-            quality native app development frameworks to intricate iOS platforms
+            quality native app development frameworks to enhance iOS platforms
             with multitasking capabilities. Here, we leverage app functionality,
             under the diligent observation of React native engineers to develop
             error-free iOS native apps.
@@ -163,7 +161,7 @@ const WeCommitToDeliver = () => {
             Google Play Store. <br />
             Dignite’s highly skillful Native App developers foster unique
             mechanisms with Android software development kits, command tools,
-            and Android Jetpack to attain tremendous probability among other
+            and Android Jetpack to attain tremendous recognition among other
             mobile apps. We also develop personalized native features for apps
             with the help of the Android operating system under minimum
             development time.
@@ -197,7 +195,7 @@ const WeCommitToDeliver = () => {
             Additionally, a major advantage is that you only need to develop one
             app that works seamlessly on both iPhones and iPads. With years of
             expertise in the field of native mobile app development, we provide
-            flawless services to leverage businesses globally. 
+            flawless services to leverage businesses globally.
           </p>
         </div>
       </div>

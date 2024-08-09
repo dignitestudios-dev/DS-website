@@ -24,12 +24,13 @@ const WhyChooseUs = () => {
       </h2>
 
       <p className="text-base lg:leading-[21.76px] lg:w-[50%] mx-auto lg:text-center mb-6">
-        In the modern times of technological enhancement software mobile app
-        support and maintenance is as necessary as a penny, to keep the IT
-        environment healthy and viable. So, are you wondering about hiring app
-        support and maintenance partners? At Dignite Studios, we not only update
-        mobile applications but also discover and implement new launch processes
-        to scale apps in a split second.
+        Since Dignite Studios stepped into the world of digitalization, it has
+        been marking a prestigious reputation in the leading industry of mobile
+        apps. Prevailing a dominance with unmatchable expertise, our mobile app
+        development dispenses top-notch native apps that follow the latest
+        trends and development tools. Throughout the process of native app
+        development, we capture growth advantages and resolve rising business
+        challenges.
       </p>
 
       <div className="mt-7 py-2 grid grid-cols-1 gap-2  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-2 2xl:gap-6">

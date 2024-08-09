@@ -37,12 +37,10 @@ const EmpowerIndustries = () => {
         State-Of-The-Art Solutions
       </h2>
       <p className="text-lg font-normal mt-4 lg:w-[87%]">
-        Among premier mobile app development companies, we batten exceptional
-        assistance on a wider scale to flourish Android and iOS devices
-        internationally. From a full-cycle of mobile development, we construct
-        and refine the design and performance of the app productively. As a
-        reputable provider of native mobile app development services we strive
-        to meet the exigencies of our valuable consumers.
+        Dignite is revolutionizing innovative solutions across multiple
+        international platforms. We are actively developing cutting-edge
+        footprints for renowned brands and businesses. Here we mark global
+        recognition to boost industries' persona in mobile app development.
       </p>
 
       <Swiper
@@ -51,6 +49,8 @@ const EmpowerIndustries = () => {
       >
         <SwiperSlide>
           <img
+            width={280}
+            height={320}
             src="/Native-app-development-education-industry-app.webp"
             alt="the image shows multiple color pencils to showcase the education industry"
             title="Native app development education industry app"
@@ -59,6 +59,8 @@ const EmpowerIndustries = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
+            width={280}
+            height={320}
             src="/Native-app-development-in-Healthcare-Industry.webp"
             alt="Native app development in Healthcare Industry image shows a doctor is holding a stethoscope"
             title="Native app development in Healthcare Industry"
@@ -67,6 +69,8 @@ const EmpowerIndustries = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
+            width={280}
+            height={320}
             src="/Native-app-development-in-ecommerce-Industry.webp"
             alt="Native app development in E-commerce Industry image shows three bottles kept over the table"
             title="Native app development in E-commerce Industry"
@@ -75,6 +79,8 @@ const EmpowerIndustries = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
+            width={280}
+            height={320}
             src="/Native-app-development-in-Real-Estate-Industry.webp"
             alt="Native app development in Real Estate Industry image shows under-construction building"
             title="Native app development in Real Estate Industry"
@@ -83,6 +89,8 @@ const EmpowerIndustries = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
+            width={280}
+            height={320}
             src="/Native-app-development-in-travel-and-hospitality-industry.webp"
             alt="Native app development in travel and hospitality industry image shows the window of aircraft views aesthetically pleasing sky"
             title="Native app development in travel and hospitality industry"
@@ -91,6 +99,8 @@ const EmpowerIndustries = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
+            width={280}
+            height={320}
             src="/Native-app-development-in-insurance-industry.webp"
             alt="Native app development in insurance industry image shows a person is writing something on a paper"
             title="Native app development in insurance industry"
@@ -99,6 +109,8 @@ const EmpowerIndustries = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
+            width={280}
+            height={320}
             src="/Native-app-development-in-banking-industry.webp"
             alt="Native app development in banking industry image shows currency note"
             title="Native app development in banking industry"

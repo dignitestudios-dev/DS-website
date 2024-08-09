@@ -1,5 +1,5 @@
 "use client";
-import { VALUE_PROPOSITION } from "@/constants/valueproposition";
+import { DIGNITE_KNACK_SKILLS } from "@/constants/DigniteKnackSkills";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -45,14 +45,13 @@ const DigniteKnackSkills = () => {
             <p className="text-lg font-normal mt-4">
               Over the past several years there has been a significant increase
               in the usage of smartphones, where people typically have become
-              more dependent on technology. So, the top benefits of native
-              applications are accompanied by Dignite’s dedicated software
-              development team in wavering absolute mobile app solutions for iOS
-              and Android platforms. We offer services to expedite small and
-              large enterprises with our native mobile applications and
-              non-native apps. Our user-centric native applications will turn
-              your business into the next-level spectrum with our thriving ideas
-              and best practices.
+              more dependent on technology. Here, Dignite’s dedicated software
+              development team provides the top benefits of native applications
+              to bestow absolute mobile app solutions for iOS and Android
+              platforms. We offer services to expedite small and large
+              enterprises for native mobile applications and non-native apps.
+              Our user-centric native applications will skyrocket your business
+              to the next level with our thriving ideas and best practices.
             </p>
           </div>
           <div className="w-full lg:w-[25%] flex justify-center items-center lg:justify-end">
@@ -68,7 +67,7 @@ const DigniteKnackSkills = () => {
         </section>
 
         <Swiper {...sliderSettings} className="mt-10 z-10">
-          {VALUE_PROPOSITION.map((card, i) => {
+          {DIGNITE_KNACK_SKILLS.map((card, i) => {
             return (
               <SwiperSlide key={i} className="">
                 <div

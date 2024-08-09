@@ -17,12 +17,12 @@ export const NATIVE_APP_DEVELOPMENT_PROCESS = [
   {
     count: "04",
     title: "Development",
-    desc: "As per the client's approval, we start the development process of the native app. Here, we deliver strong outcomes under the timeframe committed by our team. ",
+    desc: "As per the client's approval, we start the development process of the native app. Here, we deliver strong outcomes under the timeframe committed by our team.",
   },
   {
     count: "05",
     title: "Deployment",
-    desc: "Final deployment on the App Store takes place after the rigorous testing and development of the entire native app. Our assurance services perform powerful front-end and back-end development to launch the app with strong evaluation and interpretation. We can turn your native deployment of the apps with the fastest-growing profitable methodologies to lift app development measures in billions.",
+    desc: "Final deployment on the App Store takes place after the rigorous testing and development of the entire native app. Our assurance services perform powerful front-end and back-end development to launch the app after strong evaluation and interpretation. We conduct native deployment of the apps with the fastest-growing profitable methodologies to gain more revenue generation.",
   },
   {
     count: "06",

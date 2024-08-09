@@ -1,5 +1,5 @@
 "use client";
-import { MOBILE_APP_MAINTENANCE_FAQS } from "@/constants/MobileAppMaintenanceFaqs";
+import { NATIVE_APP_DEV_SERVICES_FAQS } from "@/constants/NativeAppDevServicesFaqs";
 import { GlobalContext } from "@/context/GlobalContext";
 import Script from "next/script";
 import React, { useContext, useState } from "react";
@@ -33,7 +33,7 @@ const Faqs = () => {
           data-accordion="collapse"
           className="w-full xl:w-[70%] mx-auto"
         >
-          {MOBILE_APP_MAINTENANCE_FAQS.map((faq, index) => {
+          {NATIVE_APP_DEV_SERVICES_FAQS.map((faq, index) => {
             return (
               <div
                 type="button"

@@ -34,7 +34,7 @@ export const NATIVE_APP_DEVELOPMENT_CHOOSE_US = [
   {
     title: "Enhanced User Experience",
     description:
-      "Native apps hold device-centric features to enhance the user experience of an app. Whereas, native apps are built using a software developmental kit to maintain credibility, functionality, and offline availability of the application.",
+      "Native apps hold device-centric features to enhance the user experience of an app. Whereas, native apps are built using a software development kit to maintain credibility, functionality, and offline availability of the application.",
     icon: "/Native-app-development-enhance-user-experience-icon.webp",
     alt: "Native ap development enhance user experience icon",
     image_title: "Enhanced User Experience icon",
