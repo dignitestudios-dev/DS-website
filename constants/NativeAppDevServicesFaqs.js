@@ -9,11 +9,11 @@ export const NATIVE_APP_DEV_SERVICES_FAQS = [
     answer:
       "Native apps are more responsive and highly performing apps as compared to hybrid apps. Native mobile app development is also budget-friendly and can be accessed offline.",
   },
-  //   {
-  //     question: "What is the difference between a mobile app and a native app?",
-  //     answer:
-  //       "Both the terms are used interchangeably to describe native mobile apps. These apps can be downloaded on your mobile devices to experience a unique iOS or Android framework seamlessly.",
-  //   },
+  {
+    question: "What is the difference between native app and hybrid app?",
+    answer:
+      "Native applications are designed for a specific platform or device. It imparts fastest and reliable experience to the users. On the other hand, Hybrid apps contain single codebase to run on both platforms i.e iOS and Android. The maintenance and development procedure of hybrid apps are simple and easy.",
+  },
   {
     question: "What is the advantage of a native app?",
     answer:
