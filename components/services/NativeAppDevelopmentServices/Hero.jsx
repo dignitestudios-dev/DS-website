@@ -48,16 +48,16 @@ const Hero = () => {
         </Link>
       </div>
 
-      <div className="w-full relative flex justify-center items-start gap-x-4 md:gap-x-12 mt-16 lg:my-16">
+      <div className="w-full relative flex justify-center items-start gap-x-4 md:gap-x-10 mt-16 lg:my-16">
         <img
           src="/native-app-dev-andoid-icon.webp"
           alt="native-app-dev-andoid-icon"
-          className="w-[141.4px] h-[141.4px] z-10 right-0 lg:right-[20%] hidden absolute lg:block top-0 android-icon-animate"
+          className="w-[141.4px] h-[141.4px] z-10 right-0 lg:right-[20%] 2xl:right-[26%] hidden absolute lg:block top-0 android-icon-animate"
         />
         <img
           src="/native-app-dev-apple-icon.webp"
           alt="native-app-dev-apple-icon"
-          className="w-[141.4px] h-[141.4px] z-10 hidden lg:block absolute left-[18%] top-[44%] apple-icon-animate"
+          className="w-[141.4px] h-[141.4px] z-10 hidden lg:block absolute left-[18%] 2xl:left-[24%] top-[44%] apple-icon-animate"
         />
         <img
           src="/native-app-hero-orange-shadow.webp"
@@ -77,12 +77,12 @@ const Hero = () => {
         <img
           src="/native-app-development-mockup-1.webp"
           alt="native-app-development-mockup-1"
-          className="w-[130px] md:w-[236.17px] h-[263px] md:h-[512.83px] hover:-rotate-12 transition-all duration-700 z-20 relative -top-10"
+          className="w-[130px] md:w-[236.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:-rotate-12 transition-all duration-700 z-20 relative -top-4 2xl:-top-0"
         />
         <img
           src="/native-app-development-mockup-2.webp"
           alt="native-app-development-mockup-1"
-          className="w-[130px] md:w-[236.17px] h-[263px] md:h-[512.83px] hover:rotate-12 transition-all duration-700 z-20 relative -top-10"
+          className="w-[130px] md:w-[236.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:rotate-12 transition-all duration-700 z-20 relative top-6 2xl:top-8"
         />
       </div>
     </div>
