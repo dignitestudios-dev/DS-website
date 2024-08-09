@@ -8,7 +8,7 @@ import { Swiper } from "swiper/react";
 import { SwiperSlide } from "swiper/react";
 
 export const sliderSettings = {
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 20,
   breakpoints: {
     480: {
