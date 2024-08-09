@@ -20,7 +20,7 @@ const TechStackSection = () => {
       <h2 className="headings-size text-center my-4">
         Tech Stack that Drives <br /> Your Success
       </h2>
-      <p className={`txt-[15px] font-normal text-center lg:w-[50%] mx-auto`}>
+      <p className={`text-[15px] font-normal text-center lg:w-[55%] mx-auto`}>
         Our company provides a proven technology stack and scalable native
         mobile app development services to build outstanding and secure app
         platforms. Our innovative approach ensures a strong foundation for your

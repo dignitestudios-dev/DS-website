@@ -112,6 +112,12 @@ const InfluentialNavbar = ({ setIsOpen }) => {
               IOS App Development Services
             </Link>
             <Link
+              href="/services/native-app-development-services"
+              className={`hover:text-orange-600 `}
+            >
+              Native App Development Services
+            </Link>
+            <Link
               href="/services/web-application-development-services"
               className={`hover:text-orange-600 `}
             >

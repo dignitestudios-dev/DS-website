@@ -45,10 +45,10 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
     >
       <div
         ref={sidebarRef}
-        className="w-[70%] md:w-1/2 lg:w-1/3  h-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col justify-start items-start py-6 px-10  "
+        className="w-[70%] md:w-1/2 lg:w-1/3  h-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col justify-start items-start py-6   "
         style={{ background: palette?.background }}
       >
-        <div className="w-full flex gap-3 justify-start items-center">
+        <div className="w-full flex gap-3 justify-start items-center px-10">
           <Link href="/">
             <Image
               alt="Dignite Studios Logo"
@@ -62,7 +62,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           </Link>
         </div>
 
-        <div className="w-full h-auto flex flex-col justify-start items-start gap-4 mt-12">
+        <div className="w-full h-auto flex flex-col justify-start items-start gap-4 mt-12 px-10 overflow-y-scroll">
           <button
             onClick={() => navigateTo("/")}
             className={`text-[14px] h-8 font-medium hover:text-orange-600
@@ -71,14 +71,14 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             Home
           </button>
           <button
-            className={`w-full group text-[14px] hover:text-orange-600 relative gap-4 h-auto font-medium flex flex-col    bg-transparent  outline-none`}
+            className={`w-full group text-[14px] hover:text-orange-600 relative gap-4 h-auto font-medium flex flex-col bg-transparent outline-none`}
           >
             <div className="w-full flex  justify-between items-center">
               <span>Services</span>
               <IoIosArrowDown className="text-md group-hover:rotate-180" />
             </div>
             <div
-              className={`w-full h-auto px-2  rounded-2xl text-md hidden transition-all duration-150 group-hover:flex  flex-col gap-4 justify-start items-start  `}
+              className={`w-full h-auto pl-2  rounded-2xl text-md hidden transition-all duration-150 group-hover:flex  flex-col gap-4 justify-start items-start text-start`}
               style={{ color: palette?.color }}
             >
               <Link
@@ -110,6 +110,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 className={`hover:text-orange-600 `}
               >
                 IOS App Development Services
+              </Link>
+              <Link
+                href="/services/native-app-development-services"
+                className={`hover:text-orange-600 `}
+              >
+                Native App Development Services
               </Link>
               <Link
                 href="/services/android-app-development-services"
