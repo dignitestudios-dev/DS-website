@@ -12,15 +12,15 @@ const WeCommitToDeliver = () => {
       <section className="w-full grid grid-cols-1 lg:grid-cols-3 gap-y-6">
         <div className="col-span-3 lg:col-span-2">
           <h2 className="headings-size mt-2">
-            <span className="text-[#F15C20]">we</span> We Commit To Deliver
+            <span className="text-[#F15C20]">we</span> Commit To Deliver
           </h2>
           <p className="text-lg font-normal mt-4">
             Among premier mobile app development companies, we batten
             exceptional assistance on a wider scale to flourish Android and iOS
-            devices internationally. From a full-cycle of mobile development, we
-            construct and refine the design and performance of the app
-            productively. As a reputable provider of native mobile app
-            development services we strive to meet the exigencies of our
+            devices internationally. From the start to the launch of mobile
+            development, we construct and refine the design and performance of
+            the app productively. As a reputable provider of native mobile app
+            development services, we strive to meet the exigencies of our
             valuable consumers.
           </p>
         </div>
@@ -48,9 +48,9 @@ const WeCommitToDeliver = () => {
               Development Services
             </h3>
             <img
-              src="/full-stack-native-app-mockup.webp"
-              alt="full-stack-native-app-mockup"
-              title="full-stack-native-app-mockup"
+              src="/Full-Stack-Native-App-Development-Services.webp"
+              alt="Full Stack Native App Development Services"
+              title="Full Stack Native App Development Services"
               className="h-[311px] lg:h-[411px] mx-auto"
             />
           </div>
@@ -63,9 +63,9 @@ const WeCommitToDeliver = () => {
             leading industries with powerful strategies to benchmark the title
             among large enterprises. Our native mobile app development services
             create platform-specific apps with modern features and smooth
-            functionality to upgrade online existence. We adapt sharp-witted
+            functionality to upgrade digital presence. We adapt sharp-witted
             procedures in the production of mobile applications for both iOS and
-            Android native apps to rank businesses to the fullest. 
+            Android native apps to rank businesses up to the highest level.
           </p>
         </div>
         <div className="col-span-3 lg:col-span-2 h-full">
@@ -79,9 +79,9 @@ const WeCommitToDeliver = () => {
               Services
             </h3>
             <img
-              src="/tablet-app-development-mockup.webp"
-              alt=""
-              title=""
+              src="/Tablet-app-development-services.webp"
+              alt="Tablet app development services page shows mock screen of tablet application"
+              title="Tablet app development services"
               className="h-[300px] lg:h-[424px] mx-auto w-full absolute bottom-0"
             />
           </div>
@@ -91,12 +91,11 @@ const WeCommitToDeliver = () => {
             }
           >
             Tablet Native apps can also be built for multiple Apple devices such
-            as tablets and iPads. In the modern technology upgradation tablets
-            developing applications are still in immense demand. With years of
-            successful experience the native app development company Dignite
-            Studios has provided comprehensive native app development services
-            for tablets for various industries, including startups and major
-            corporations.
+            as tablets and iPads. In modern technology, developing tablet apps
+            are still in immense demand. With years of successful experience the
+            native app development company Dignite Studios has provided
+            comprehensive native app development services for tablets for
+            various industries, including startups and major corporations.
           </p>
         </div>
       </div>
@@ -112,9 +111,9 @@ const WeCommitToDeliver = () => {
               <span className="text-[#f15c20]">iOS</span> App <br /> Development
             </h3>
             <img
-              src="/ios-app-development-mockup.webp"
-              alt=""
-              title=""
+              src="/Native-app-development-services.webp"
+              alt="Native app development services page shows iOS app development mockup screens"
+              title="Native app development services"
               className="h-[318px] lg:h-[411px] mx-auto"
             />
           </div>
@@ -127,10 +126,9 @@ const WeCommitToDeliver = () => {
             gilt-edged iOS native applications. Enable the fastest software
             development process for iOS apps with two Apple programming
             languages by which you can build a smooth application architecture
-            to start the procedure smoothly and run the application on your
-            mobile. Our native app services bestow the highest quality native
-            app development frameworks to intricate iOS platforms with
-            multitasking capabilities. Here, we leverage app functionality,
+            for your mobile app. Our native app services bestow the highest
+            quality native app development frameworks to intricate iOS platforms
+            with multitasking capabilities. Here, we leverage app functionality,
             under the diligent observation of React native engineers to develop
             error-free iOS native apps.
           </p>
@@ -146,9 +144,9 @@ const WeCommitToDeliver = () => {
               Development Services
             </h3>
             <img
-              src="/android-app-development-mockup.webp"
-              alt="full-stack-native-app-mockup"
-              title="full-stack-native-app-mockup"
+              src="/native-android-app-development-services.webp"
+              alt="Android app development services page shows mockup screen of Android application"
+              title="Android app development services"
               className="h-[318px] lg:h-[411px] mx-auto"
             />
           </div>
@@ -182,9 +180,9 @@ const WeCommitToDeliver = () => {
               Development Services
             </h3>
             <img
-              src="/ipad-app-mockup.webp"
-              alt="full-stack-native-app-mockup"
-              title="full-stack-native-app-mockup"
+              src="/iPad-app-development-services.webp"
+              alt=" iPad app development services page shows mockscreeen of Android application on the mobile device"
+              title="iPad app development services"
               className="h-[318px] lg:h-[411px] mx-auto"
             />
           </div>

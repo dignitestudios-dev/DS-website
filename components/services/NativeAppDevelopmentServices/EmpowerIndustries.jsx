@@ -51,50 +51,57 @@ const EmpowerIndustries = () => {
       >
         <SwiperSlide>
           <img
-            src="/education-industry.png"
-            alt=""
+            src="/Native-app-development-education-industry-app.webp"
+            alt="the image shows multiple color pencils to showcase the education industry"
+            title="Native app development education industry app"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/healthcare-industry.png"
-            alt=""
+            src="/Native-app-development-in-Healthcare-Industry.webp"
+            alt="Native app development in Healthcare Industry image shows a doctor is holding a stethoscope"
+            title="Native app development in Healthcare Industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/ecommerce-industry.png"
-            alt=""
+            src="/Native-app-development-in-ecommerce-Industry.webp"
+            alt="Native app development in E-commerce Industry image shows three bottles kept over the table"
+            title="Native app development in E-commerce Industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/real-state-industry.png"
-            alt=""
+            src="/Native-app-development-in-Real-Estate-Industry.webp"
+            alt="Native app development in Real Estate Industry image shows under-construction building"
+            title="Native app development in Real Estate Industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/healthcare-industry.png"
+            src="/healthcare-industry.webp"
             alt=""
+            title=""
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/ecommerce-industry.png"
+            src="/ecommerce-industry.webp"
             alt=""
+            title=""
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/real-state-industry.png"
+            src="/real-state-industry.webp"
             alt=""
+            title=""
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
