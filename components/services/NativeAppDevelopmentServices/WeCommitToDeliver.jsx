@@ -8,7 +8,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 const WeCommitToDeliver = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full pb-12 pt-44 global-padding-horizontal">
+    <section className="w-full pb-12 pt-28 md:pt-44 global-padding-horizontal">
       <section className="w-full grid grid-cols-1 lg:grid-cols-3 gap-y-6">
         <div className="col-span-3 lg:col-span-2">
           <h2 className="headings-size mt-2">
@@ -82,7 +82,7 @@ const WeCommitToDeliver = () => {
               src="/tablet-app-development-mockup.webp"
               alt=""
               title=""
-              className="h-[318px] lg:h-[424px] mx-auto w-full absolute bottom-0"
+              className="h-[300px] lg:h-[424px] mx-auto w-full absolute bottom-0"
             />
           </div>
           <p

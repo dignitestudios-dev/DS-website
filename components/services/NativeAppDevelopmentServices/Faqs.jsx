@@ -20,7 +20,7 @@ const Faqs = () => {
   };
   return (
     <section
-      className={`w-full my-14 global-padding-horizontal flex justify-center items-start mx-auto h-auto`}
+      className={`w-full my-14 xl:my-16 global-padding-horizontal flex justify-center items-start mx-auto h-auto`}
     >
       <div className="w-full h-auto flex flex-col gap-3 justify-start items-center">
         <h2

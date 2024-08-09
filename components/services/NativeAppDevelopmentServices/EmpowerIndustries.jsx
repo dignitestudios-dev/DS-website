@@ -12,11 +12,11 @@ export const sliderSettings = {
     480: {
       slidesPerView: 1,
     },
-    600: {
+    540: {
       slidesPerView: 1,
     },
 
-    850: {
+    650: {
       slidesPerView: 2,
     },
 

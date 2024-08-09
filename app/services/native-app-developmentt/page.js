@@ -2,6 +2,11 @@ import NativeAppDevelopmentServicesPage from "@/components/services/NativeAppDev
 import ServicesLayout from "@/layout/ServiceLayout";
 import React from "react";
 
+// export const metadata = {
+//   title: "Native App Development Company | Dignite Studios",
+//   description: "",
+// };
+
 const page = () => {
   return (
     <div>

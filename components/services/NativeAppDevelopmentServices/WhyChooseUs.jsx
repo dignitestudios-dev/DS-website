@@ -47,14 +47,14 @@ const WhyChooseUs = () => {
         })}
       </div>
 
-      <div className="w-full flex justify-center">
+      {/* <div className="w-full flex justify-center">
         <Link
           href="/contact-us"
           className="py-5 px-6 text-base xl:py-7 mt-8 mb-14 mx-auto text-center xl:px-8 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
         >
           Start Your Project <FiArrowUpRight className="text-2xl" />
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };
