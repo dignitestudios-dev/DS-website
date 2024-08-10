@@ -109,8 +109,11 @@ export function middleware(request) {
       oldPath: "/blog/is-getting-a-ccna-certification-worth-2023/feed",
       newPath: "/",
     },
+    // {
+    //   oldPath: "/blog/is-getting-a-ccna-certification-worth-2023/",
+    //   newPath: "/services/mobile-app-development-services",
+    // },
     { oldPath: "/blog/2022/11/19", newPath: "/" },
-
     {
       oldPath: "/services/android-app-development",
       newPath: "/lp/android-app-development",
@@ -145,7 +148,7 @@ export function middleware(request) {
     },
     {
       oldPath: "/blog/is-getting-a-ccna-certification-worth-2023",
-      newPath: "/services/android-app-development-services",
+      newPath: "/services/mobile-app-development-services",
     },
   ];
 
