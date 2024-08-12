@@ -51,8 +51,8 @@ const MobileAppDevSectionAccordion = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               01.
             </span>
-            <span className="font-medium text-base md:text-lg lg:text-[32px]">
-              Product Market Research
+            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+              Custom iOS App Development
             </span>
           </div>
           {openAccordion === 1 ? (
@@ -75,10 +75,19 @@ const MobileAppDevSectionAccordion = () => {
                 color: palette?.dark_contrast_color,
               }}
             >
-              We conduct in-depth product market research for your target market
-              to accumulate all the information required by your consumer. Thus,
-              it will help to evaluate the precise idea of the mobile app
-              roadmap and its effectiveness in the long run.
+              Apple’s business is burgeoning expeditiously on a wider scale.
+              Despite having a 75% market share of Android users, iOS apps still
+              provide the best service with a wide base of paying app consumers
+              at competitive rates. Dignite’s professional iOS experts provide
+              premium iOS solutions for their custom{" "}
+              <Link
+                href="/services/ios-app-development-services"
+                className="text-orange-600"
+              >
+                iOS app development services
+              </Link>{" "}
+              to contribute extraordinarily to leveraging industries,
+              development structure, and growth.
             </p>
           </div>
         </div>
@@ -109,8 +118,8 @@ const MobileAppDevSectionAccordion = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               02.
             </span>
-            <span className="font-medium text-base md:text-lg lg:text-[32px]">
-              Mobile App Consulting
+            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+              iPhone App Designing
             </span>
           </div>
           {openAccordion === 2 ? (
@@ -133,17 +142,13 @@ const MobileAppDevSectionAccordion = () => {
                 color: palette?.dark_contrast_color,
               }}
             >
-              Our professional development provides free{" "}
-              <Link
-                href={"/services/mobile-app-consulting-services"}
-                className="text-orange-600"
-              >
-                mobile app consulting services
-              </Link>{" "}
-              to advise pragmatic measures in the process of mobile app
-              development and bring forth the cost of mobile apps swiftly. They
-              have supreme knowledge of mobile learning and serve consumers with
-              appropriate mobile app solutions.
+              Multiple fastest and most collaborative tools have robust iOS apps
+              for creating UI\UX designs for websites and mobile apps. With an
+              attractive user interface, designers can easily build prototypes,
+              animations, and wireframes for ultimate iOS apps. Here, our
+              ingenious iOS app developers leverage in crafting tailored
+              high-quality iOS apps for any device. We create seamless user
+              interfaces while developing mobile apps.
             </p>
           </div>
         </div>
@@ -174,8 +179,8 @@ const MobileAppDevSectionAccordion = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               03.
             </span>
-            <span className="font-medium text-base md:text-lg lg:text-[32px]">
-              Mobile App Development
+            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+              Integration Services
             </span>
           </div>
           {openAccordion === 3 ? (
@@ -198,18 +203,13 @@ const MobileAppDevSectionAccordion = () => {
                 color: palette?.dark_contrast_color,
               }}
             >
-              Dignite Studios bestows highly interactive end-to-end development
-              of your{" "}
-              <Link
-                href={"/services/mobile-app-development-services"}
-                className="text-orange-600"
-              >
-                mobile application
-              </Link>{" "}
-              and deploys your apps in no time. Whereas, our fastest and
-              high-performing app will lead you to the next level of app
-              success. So, Hire mobile app developers services from the leading
-              company of mobile solution.
+              Do you want to drive more operational expertise to your iOS apps?
+              Let’s integrate your app idea with various third-party services.
+              We can closely monitor your API’s Integration to secure data
+              exchange. Also we construct attractive app features to engage
+              higher engagement rates. You can add payment gateways, chatbots,
+              social media platforms, or biometric authentication for your
+              iPhone app development.
             </p>
           </div>
         </div>
@@ -240,8 +240,8 @@ const MobileAppDevSectionAccordion = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               04.
             </span>
-            <span className="font-medium text-base md:text-lg lg:text-[32px]">
-              Mobile App design
+            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+              App Migration and Upgrades
             </span>
           </div>
           {openAccordion === 4 ? (
@@ -264,17 +264,13 @@ const MobileAppDevSectionAccordion = () => {
                 color: palette?.dark_contrast_color,
               }}
             >
-              We provide unique{" "}
-              <Link
-                href={"/services/mobile-app-design-services"}
-                className="text-orange-600"
-              >
-                mobile app design services
-              </Link>{" "}
-              to create addictive mobile features and a full cycle of
-              application design which includes UX/UI interface effectively and
-              conveniently. Design and development of mobile applications play a
-              vital role in the conversion of products.
+              It is a process of transforming and extracting data from one
+              operating system to another. At Dignite Studios, we transition the
+              framework of your app intuitively to maintain its functionalities,
+              performance, and vigorous quality underlying smooth procedures. To
+              keep your app functional and compatible we use the latest tools
+              and technologies to update your app under minimal iOS app
+              development costs.
             </p>
           </div>
         </div>
@@ -305,8 +301,8 @@ const MobileAppDevSectionAccordion = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               05.
             </span>
-            <span className="font-medium text-base md:text-lg lg:text-[32px]">
-              Web Development
+            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+              Apple TV App Development
             </span>
           </div>
           {openAccordion === 5 ? (
@@ -329,260 +325,13 @@ const MobileAppDevSectionAccordion = () => {
                 color: palette?.dark_contrast_color,
               }}
             >
-              Here at Dignite Studios, we offer you complete{" "}
-              <Link
-                href={"/services/web-application-development-services"}
-                className="text-orange-600"
-              >
-                development of web{" "}
-              </Link>
-              and mobile applications that possess coding, scripting, CMS
-              development, and network configuration. Also, we create highly
-              favorable web portals, SaaS, or online stores for more engagement.
-            </p>
-          </div>
-        </div>
-      </div>
-      {/* 6 */}
-      <div
-        type="button"
-        onClick={() => handleAccordionClick(6)}
-        className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
-        } outline-none hover:opacity-95 `}
-        style={{
-          borderBottom: `2px solid ${palette?.light_contrast_background}`,
-        }}
-        data-accordion-target="#accordion-collapse-body-1"
-      >
-        <button
-          name="faq-question"
-          className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
-            openAccordion === 6
-              ? "text-[#F15C20]"
-              : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-          } gap-3`}
-        >
-          <div
-            className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
-          >
-            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
-              06.
-            </span>
-            <span className="font-medium text-base md:text-lg lg:text-[32px]">
-              Mobile App Integration
-            </span>
-          </div>
-          {openAccordion === 6 ? (
-            <FiMinus className="text-2xl" />
-          ) : (
-            <FiPlus className="text-2xl" />
-          )}
-        </button>
-
-        <div
-          id="accordion-1"
-          className={`transition-all duration-200 ${
-            openAccordion === 6 ? "" : "hidden"
-          }`}
-        >
-          <div className="py-1 rounded-md mt-3">
-            <p
-              className="mb-2  text-xs lg:text-[16px] leading-normal "
-              style={{
-                color: palette?.dark_contrast_color,
-              }}
-            >
-              We cater world-class mobile app solutions, and third-party
-              services to construct personalized CRM or HR back-end
-              applications, full-cycle mobile app implementation, and optimizing
-              device bandwidth as per your requirements.
-            </p>
-          </div>
-        </div>
-      </div>
-      {/* 7 */}
-      <div
-        type="button"
-        onClick={() => handleAccordionClick(7)}
-        className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
-        } outline-none hover:opacity-95 `}
-        style={{
-          borderBottom: `2px solid ${palette?.light_contrast_background}`,
-        }}
-        data-accordion-target="#accordion-collapse-body-1"
-      >
-        <button
-          name="faq-question"
-          className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
-            openAccordion === 7
-              ? "text-[#F15C20]"
-              : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-          } gap-3`}
-        >
-          <div
-            className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
-          >
-            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
-              07.
-            </span>
-            <span className="font-medium text-base md:text-lg lg:text-[32px]">
-              Testing App Functionality
-            </span>
-          </div>
-          {openAccordion === 7 ? (
-            <FiMinus className="text-2xl" />
-          ) : (
-            <FiPlus className="text-2xl" />
-          )}
-        </button>
-
-        <div
-          id="accordion-1"
-          className={`transition-all duration-200 ${
-            openAccordion === 7 ? "" : "hidden"
-          }`}
-        >
-          <div className="py-1 rounded-md mt-3">
-            <p
-              className="mb-2  text-xs lg:text-[16px] leading-normal "
-              style={{
-                color: palette?.dark_contrast_color,
-              }}
-            >
-              At the step of our renowned mobile app development platform, we
-              implement constructive{" "}
-              <Link
-                href={"/services/mobile-app-testing-services"}
-                className="text-orange-600"
-              >
-                mobile application testing services
-              </Link>{" "}
-              to ensure the performance, design, features, accessibility, and
-              security of mobile.
-            </p>
-          </div>
-        </div>
-      </div>
-      {/* 8 */}
-      <div
-        type="button"
-        onClick={() => handleAccordionClick(8)}
-        className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
-        } outline-none hover:opacity-95 `}
-        style={{
-          borderBottom: `2px solid ${palette?.light_contrast_background}`,
-        }}
-        data-accordion-target="#accordion-collapse-body-1"
-      >
-        <button
-          name="faq-question"
-          className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
-            openAccordion === 8
-              ? "text-[#F15C20]"
-              : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-          } gap-3`}
-        >
-          <div
-            className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
-          >
-            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
-              08.
-            </span>
-            <span className="font-medium text-base md:text-lg lg:text-[32px]">
-              Mobile App Support and Maintenance Services
-            </span>
-          </div>
-          {openAccordion === 8 ? (
-            <FiMinus className="text-2xl" />
-          ) : (
-            <FiPlus className="text-2xl" />
-          )}
-        </button>
-
-        <div
-          id="accordion-1"
-          className={`transition-all duration-200 ${
-            openAccordion === 8 ? "" : "hidden"
-          }`}
-        >
-          <div className="py-1 rounded-md mt-3">
-            <p
-              className="mb-2  text-xs lg:text-[16px] leading-normal "
-              style={{
-                color: palette?.dark_contrast_color,
-              }}
-            >
-              Our team proposes complimentary two months of{" "}
-              <Link
-                href={
-                  "/services/mobile-application-support-and-maintenance-services"
-                }
-                className="text-orange-600"
-              >
-                support and maintenance
-              </Link>{" "}
-              on your mobile app projects from the day of launch regardless of
-              the app type whether simple app or enterprise app.
-            </p>
-          </div>
-        </div>
-      </div>
-      {/* 9 */}
-      <div
-        type="button"
-        onClick={() => handleAccordionClick(9)}
-        className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
-        } outline-none hover:opacity-95 `}
-        style={{
-          borderBottom: `2px solid ${palette?.light_contrast_background}`,
-        }}
-        data-accordion-target="#accordion-collapse-body-1"
-      >
-        <button
-          name="faq-question"
-          className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
-            openAccordion === 9
-              ? "text-[#F15C20]"
-              : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
-          } gap-3`}
-        >
-          <div
-            className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
-          >
-            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
-              09.
-            </span>
-            <span className="font-medium text-base md:text-lg lg:text-[32px]">
-              Mobile App Modernization
-            </span>
-          </div>
-          {openAccordion === 9 ? (
-            <FiMinus className="text-2xl" />
-          ) : (
-            <FiPlus className="text-2xl" />
-          )}
-        </button>
-
-        <div
-          id="accordion-1"
-          className={`transition-all duration-200 ${
-            openAccordion === 9 ? "" : "hidden"
-          }`}
-        >
-          <div className="py-1 rounded-md mt-3">
-            <p
-              className="mb-2  text-xs lg:text-[16px] leading-normal "
-              style={{
-                color: palette?.dark_contrast_color,
-              }}
-            >
-              The architecture of the latest app evolution appeals more to the
-              digital world. Therefore, the team of Dignite Studios is all set
-              to produce scalable mobile applications for their clients.
+              iPhone plays a significant role in capturing Tech-Savvy audiences
+              to enhance its reach to the fullest. However, iPhone app
+              development companies design multiple iOS applications for Apple
+              devices such as TVs, Watches, and wearables to enhance brand
+              recognition innovatively. At Dignite Studios, our full-scope
+              service creates a strong iOS development process for Apple TVs to
+              leave a persisting sway in Apple TV app development among others.
             </p>
           </div>
         </div>
