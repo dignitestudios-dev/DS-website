@@ -33,11 +33,12 @@ const ReownedSection = () => {
             theme === "light" && "text-[#2A2A2A]"
           }`}
         >
-          Unveiling a world-class company Dignite Studios, to thrive your way
-          with exceptional sleek design, outstanding features, highly optimized
-          app development process, and firm compliance with top programming
-          protocols. Dignite’s goal-oriented team aims to deliver quality-driven
-          UI/UX design in a snap.
+          For years ago, Dignite Studios meticulously led with bizarre Android
+          app development solutions internationally. Our team of professional
+          Android developers robust your business dynamics with unrivaled custom
+          Android apps, exceptional designs, and phenomenal app
+          conceptualization. We believe in providing spectacular and reliable
+          service set to achieve industry goals and agitation.
         </p>
         <div className="w-full lg:w-auto lg:block">
           <Link

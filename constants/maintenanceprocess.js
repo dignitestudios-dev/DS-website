@@ -2,7 +2,7 @@ export const MAINTENANCE_PROCESS = [
   {
     count: "01",
     title: "Leading Valuation",
-    desc: "It refers to the evaluation process for the mobile app idea that leverages flawless UX design, navigation, and development that enhance your app's user retention to make it more effective. By 2025, the number of smartphone users will likely cross 311 million, presenting an enormous opportunity for developers. The well-established service of Dignite Studios creates strong evaluations of your app’s worthiness with proper mobile app maintenance framework and budgeting before eloquent towards the development phase.",
+    desc: "It refers to the evaluation process for the mobile app idea that leverages flawless UX design, navigation, and development that enhance your app's user retention to make it more effective. By 2025, the number of smartphone users will likely cross 311 million, presenting an enormous opportunity for developers. We pursue a strong evaluation process to identify the significance of the app under a rigorous mobile app maintenance framework before the development phase.",
   },
   {
     count: "02",

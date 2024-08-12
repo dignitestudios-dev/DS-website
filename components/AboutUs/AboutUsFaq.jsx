@@ -64,7 +64,7 @@ const AboutUsFaq = () => {
                 className="mb-2 xl:text-[18px] font-light"
                 style={{ color: palette?.color }}
               >
-                "The history began in 2020 with muddled and ambiguous feelings
+                The history began in 2020 with muddled and ambiguous feelings
                 among accord enthusiasts. We were overwhelmed with building a
                 start-up business, but in all of our haste, we bumped into the
                 fact that the aggregation of sales was swamping us away. So, we

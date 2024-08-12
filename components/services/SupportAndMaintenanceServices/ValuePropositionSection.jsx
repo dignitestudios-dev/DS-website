@@ -52,6 +52,11 @@ export default function ValuePropositionSection() {
           <h2 className="text-3xl mt-3 md:text-4xl lg:text-[58px] xl:text-[68px] 2xl:text-[80px] lg:leading-[57px] font-bold uppercase tracking-tighter">
             dignite studios
           </h2>
+          <p className="text-[15px] font-normal text-[#2A2A2A] lg:w-[44%] mt-3 leading-[20.4px]">
+            Harnessing productive measures to provision adequate mobile app
+            evolution roadmap for the partners and clients to bystander sterling
+            mobile app re-architecting from our top-notch support activities. 
+          </p>
         </div>
 
         <Swiper {...sliderSettings} className=" z-10">

@@ -15,21 +15,17 @@ const Process = () => {
           <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
             mobile app development
           </p>
-          <h2
-            className={`headings-size`}
-          >
-            process
-          </h2>
+          <h2 className={`headings-size`}>process</h2>
           <p
             className={`text-[15px] my-4 font-normal ${
               theme === "light" && "text-[#2A2A2A]"
             }`}
           >
-            The dynamic mobile app development company Dignite Studios
-            fabricates compelling custom Android app development services to
-            encumber a vigorous approach to frame practical Android app
-            development solutions and to build highly fortified custom Android
-            apps for your rapid business elevation.
+            Dignite Studios, a top-notch mobile app development company, crafts
+            compelling custom Android app development services to encumber a
+            vigorous approach in framing practical solutions for custom Android
+            apps. Our specialized team of developers elevates rapid business
+            growth with a high-end Android app development process.
           </p>
         </div>
         <div className="mb-8 lg:mb-0">
