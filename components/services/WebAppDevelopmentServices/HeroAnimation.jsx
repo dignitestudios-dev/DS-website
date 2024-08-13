@@ -5,7 +5,7 @@ import AnimatedBarChart from "./AnimatedBarChart";
 
 const HeroAnimation = () => {
   return (
-    <div className="w-full mt-6 md:mt-0 relative lg:h-[60vh] xl:h-[79vh] flex items-center justify-start overflow-y-visible">
+    <div className="w-full mt-6 md:mt-0 relative lg:h-[60vh] xl:h-[79vh] flex items-center justify-start overflow-visible">
       {/* <img
         src="/Web-Application-Development-Services-Left.png"
         alt="Web Application Development Services page shows web mock screens which presents application layout"
@@ -58,7 +58,7 @@ const HeroAnimation = () => {
         src="/Web-Application-Development-Services.webp"
         title="Web Application Development Services"
         alt="Web Application Development Services page shows web mock screens which presents application layout"
-        className="w-[90%] xl:w-[834px] lg:w-[60%] lg:h-[350px] xl:h-[520px] 2xl:w-[1034px] 2xl:h-[690px] relative mx-auto border web-app-dev-hero-mockup z-10 rounded-2xl animated-shadow"
+        className="w-[90%] xl:w-[834px] lg:w-[60%] lg:h-[350px] xl:h-[520px] 2xl:w-[1034px] 2xl:h-[690px] relative mx-auto web-app-dev-hero-mockup z-10 rounded-2xl animated-shadow"
       />
       <img
         src="/Web-Application-Development-Services-Right.webp"
