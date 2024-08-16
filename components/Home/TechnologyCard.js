@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useContext, useState } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
 import Image from "next/image";
