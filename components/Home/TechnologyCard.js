@@ -22,9 +22,8 @@ const TechnologyCard = ({ technology }) => {
         theme == "dark" ? "bg-[#e7e7e7]/[0.2]" : "bg-[#e7e7e7]/[0.2]"
       } p-6`}
     >
-      <img
-        // loader={customLoader}
-        // srcSet=""
+      <Image
+        loader={customLoader}
         width={98}
         height={88}
         src={image}
