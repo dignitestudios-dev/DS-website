@@ -93,6 +93,60 @@ const AndroidFaqs = ({ faqs }) => {
           })}
         </div>
       </div>
+
+      <Script
+        type="application/ld+json"
+        id="faq-schema"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Who designs Android mobile apps?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A mobile app designer is assigned to craft the entire layout and architecture of the app including user interfaces, visually appealing elements, and high-end features.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the difference between an Android app developer and an Android app designer?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Android app designers brainstorm the idea of the client and generate effective application methodologies related to services to craft navigation paths, design mockups, test, review and further collaborate coding with app developers for the development process. Also, we transfigure the application structure into a functional app appropriately.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What does an Android mobile app designer do?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Android designers create sleek designs for your Android apps to make them unique and attractive.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the difference between Android app design vs iOS app design?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The design layout related to Android mobile apps is known as Android app design, and vice versa.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does it cost to design an Android app?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It depends on the complexity of the app, however, to know the absolute amount, fill out the form below.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </section>
   );
 };
