@@ -1582,3 +1582,114 @@ image {
   animation: android-animated-icon 7s infinite;
   animation-delay: 0s;
 }
+
+/* android mobile app design page start */
+.zero-one {
+  transform: translateX(100px);
+  z-index: 30;
+  /* background: #fff; */
+}
+.zero-two {
+  transform: translateX(170px);
+  /* background: #fff; */
+  z-index: 20;
+}
+.zero-three {
+  transform: translateX(215px);
+  /* background: #fff; */
+  z-index: 10;
+}
+.zero-minus-one {
+  transform: translateX(-100px);
+  /* background: #fff; */
+  z-index: 30;
+}
+.zero-minus-two {
+  transform: translateX(-170px);
+  /* background: #fff; */
+  z-index: 20;
+}
+.zero-minus-three {
+  transform: translateX(-215px);
+  /* background: #fff; */
+  z-index: 10;
+}
+
+.loaded-1 {
+  animation: reTransformIcon1 1s linear 1 forwards;
+}
+@keyframes reTransformIcon1 {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.loaded-2 {
+  animation: reTransformIcon2 1s linear 1 forwards;
+}
+@keyframes reTransformIcon2 {
+  from {
+    transform: translateX(170px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.loaded-3 {
+  animation: reTransformIcon3 1s linear 1 forwards;
+}
+@keyframes reTransformIcon3 {
+  from {
+    transform: translateX(215px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.loaded-minus-1 {
+  animation: reTransformIconMinus1 1s linear 1 forwards;
+}
+@keyframes reTransformIconMinus1 {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.loaded-minus-2 {
+  animation: reTransformIconMinus2 1s linear 1 forwards;
+}
+@keyframes reTransformIconMinus2 {
+  from {
+    transform: translateX(-170px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.loaded-minus-3 {
+  animation: reTransformIconMinus3 1s linear 1 forwards;
+}
+@keyframes reTransformIconMinus3 {
+  from {
+    transform: translateX(-215px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+/* .slide-up-icon:hover {
+  transform: translateY(-30px);
+  transition: transform 0.5s ease-in-out;
+} */
+
+/* android mobile app design page end */
