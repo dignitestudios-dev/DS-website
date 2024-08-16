@@ -387,7 +387,12 @@ const ContactUsPage = () => {
           </form>
         </div>
         <div className="w-full h-full lg:col-span-2">
-          <img src={"/contact-us-main.png"} className="w-full h-full " />
+          <img
+            src={"/dignite-studios-contact-us-image.png"}
+            className="w-full h-full"
+            title="Contact US | Dignite Studios: Mobile App Development Company"
+            alt="the image shows connecting people from all over the world"
+          />
         </div>
       </div>
 
