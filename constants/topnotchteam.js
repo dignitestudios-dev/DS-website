@@ -8,7 +8,7 @@ export const TOP_NOTCH_TEAM = [
       "Want to know how smoothly Dignite Studios builds a world-class project flow for software? Here are some keys to showcase Dignite’s talent. Our qualified consultants help partner businesses build an effective plan of action that generates more conversions and engages audiences on a broader perspective which results in business sustainability.",
   },
   {
-    icon_src: "/mobile-app-design-uiux-research-services-icon.webp",
+    icon_src: "/mobile-app-design-uiux-research-services-icon-1.webp",
     title: "UI/UX Research & Strategy",
     img_title: "Mobile app design UI/UX research and strategy services",
     alt_text: "Mobile app design UI/UX research services icon",
