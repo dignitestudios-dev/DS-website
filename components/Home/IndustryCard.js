@@ -12,12 +12,12 @@ const IndustryCard = ({ industry }) => {
       style={{ background: industry?.bgColor }}
       className={`group flex flex-col justify-center items-start gap-4    rounded-2xl py-6 px-8`}
     >
-      <Image
+      <img
         src={industry?.image}
         alt={industry?.alt}
         title={industry?.img_title}
         className=""
-        loader={customLoader}
+        // loader={customLoader}
         width={32}
         height={32}
       />

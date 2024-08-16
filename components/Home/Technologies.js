@@ -8,60 +8,60 @@ const Technologies = () => {
   const { palette, theme } = useContext(GlobalContext);
   const technologies = [
     {
-      color: "/Mobile-app-development-technology-Flutter-Icon-color.webp",
-      gray: "/Mobile-app-development-technology-Flutter-Icon-gray.webp",
+      color: "/mobile-app-development-technology-flutter-icon-color.webp",
+      gray: "/mobile-app-development-technology-flutter-icon-gray.webp",
       name: "Flutter",
-      alt:"Mobile app development technology Flutter Icon",
-      img_title:"Mobile app development technology Flutter Icon"
+      alt: "Mobile app development technology Flutter Icon",
+      img_title: "Mobile app development technology Flutter Icon",
     },
     {
-      color: "/Mobile-app-development-technology-Swift-Icon-color.webp",
-      gray: "/Mobile-app-development-technology-Swift-Icon-gray.webp",
+      color: "/mobile-app-development-technology-swift-icon-color.webp",
+      gray: "/mobile-app-development-technology-swift-icon-gray.webp",
       name: "Swift",
-      alt:"Mobile app development technology Swift Icon",
-      img_title:"Mobile app development technology Swift Icon"
+      alt: "Mobile app development technology Swift Icon",
+      img_title: "Mobile app development technology Swift Icon",
     },
     {
-      color: "/Mobile-app-development-technology-Vue-Icon-color.webp",
-      gray: "/Mobile-app-development-technology-Vue-Icon-gray.webp",
+      color: "/mobile-app-development-technology-vue-icon-color.webp",
+      gray: "/mobile-app-development-technology-vue-icon-gray.webp",
       name: "Vue",
-      alt:"Mobile app development technology Vue Icon",
-      img_title:"Mobile app development technology Vue Icon"
+      alt: "Mobile app development technology Vue Icon",
+      img_title: "Mobile app development technology Vue Icon",
     },
     {
-      color: "/Mobile-app-development-technology-react-Icon-color.webp",
-      gray: "/Mobile-app-development-technology-react-Icon-gray.webp",
+      color: "/mobile-app-development-technology-react-icon-color.webp",
+      gray: "/mobile-app-development-technology-react-icon-gray.webp",
       name: "React",
-      alt:"Mobile app development technology React Icon",
-      img_title:"Mobile app development technology React Icon"
+      alt: "Mobile app development technology React Icon",
+      img_title: "Mobile app development technology React Icon",
     },
     {
-      color: "/Mobile-app-development-technology-tailwind-Icon-color.webp",
-      gray: "/Mobile-app-development-technology-tailwind-Icon-gray.webp",
+      color: "/mobile-app-development-technology-tailwind-icon-color.webp",
+      gray: "/mobile-app-development-technology-tailwind-icon-gray.webp",
       name: "Tailwind",
-      alt:"Mobile app development technology Tailwind Icon",
-      img_title:"Mobile app development technology Tailwind Icon"
+      alt: "Mobile app development technology Tailwind Icon",
+      img_title: "Mobile app development technology Tailwind Icon",
     },
     {
-      color: "/Mobile-app-development-technology-Figma-Icon-color.webp",
-      gray: "/Mobile-app-development-technology-Figma-Icon-gray.webp",
+      color: "/mobile-app-development-technology-figma-icon-color.webp",
+      gray: "/mobile-app-development-technology-figma-icon-gray.webp",
       name: "Figma",
-      alt:"Mobile app development technology Figma Icon",
-      img_title:"Mobile app development technology Figma Icon"
+      alt: "Mobile app development technology Figma Icon",
+      img_title: "Mobile app development technology Figma Icon",
     },
     {
-      color: "/Mobile-app-development-technology-AI-Icon-color.webp",
-      gray: "/Mobile-app-development-technology-AI-Icon-gray.webp",
+      color: "/mobile-app-development-technology-ai-icon-color.webp",
+      gray: "/mobile-app-development-technology-ai-icon-gray.webp",
       name: "Adobe Illustrator",
-      alt:"Mobile app development technology AI Icon",
-      img_title:"Mobile app development technology AI Icon"
+      alt: "Mobile app development technology AI Icon",
+      img_title: "Mobile app development technology AI Icon",
     },
     {
-      color: "/Mobile-app-development-technology-PS-Icon-color.webp",
-      gray: "/Mobile-app-development-technology-PS-Icon-gray.webp",
+      color: "/mobile-app-development-technology-ps-icon-color.webp",
+      gray: "/mobile-app-development-technology-ps-icon-gray.webp",
       name: "Photoshop",
-      alt:"Mobile app development technology Photoshop Icon",
-      img_title:"Mobile app development technology Photoshop Icon"
+      alt: "Mobile app development technology Photoshop Icon",
+      img_title: "Mobile app development technology Photoshop Icon",
     },
   ];
   return (

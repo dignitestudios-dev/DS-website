@@ -46,8 +46,8 @@ const TopNotchTeam = () => {
         {TOP_NOTCH_TEAM.map((team, index) => {
           return (
             <div key={index} className="flex flex-col items-start gap-4">
-              <Image
-                loader={customLoader}
+              <img
+                // loader={customLoader}
                 width={33}
                 height={33}
                 src={team.icon_src}

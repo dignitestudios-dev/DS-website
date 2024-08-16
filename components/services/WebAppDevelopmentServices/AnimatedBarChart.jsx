@@ -6,7 +6,7 @@ const AnimatedBarChart = () => {
     <>
       <div className="w-[280px] h-[210px] 2xl:w-[350px] 2xl:h-[240px] rounded-[24px] p-6 xl:flex flex-col items-start justify-between shadow-2xl absolute left-[4%] top-20 2xl:top-52 hidden slide-right-on-load bg-white z-30">
         <div className="w-full flex items-center justify-between z-30">
-          <h1 className="text-[13.96px] font-bold">Users Activity</h1>
+          <h3 className="text-[13.96px] font-bold">Users Activity</h3>
           <p className="text-[#9197A0] text-[10px] flex items-center">
             This Week <MdOutlineArrowDropDown className="text-lg" />
           </p>
@@ -34,23 +34,22 @@ const AnimatedBarChart = () => {
           <div className="w-[8px] h-[95px] rounded-t-full overflow-hidden bg-[#FFD0BB] relative">
             <div className="w-[8px] h-[100px] bg-[#A851FF] rounded-t-full animated-bar2"></div>
           </div>
-         {/* bar 2 */}
-         <div className="w-[8px] h-[95px] rounded-t-full overflow-hidden bg-[#FFD0BB] relative">
+          {/* bar 2 */}
+          <div className="w-[8px] h-[95px] rounded-t-full overflow-hidden bg-[#FFD0BB] relative">
             <div className="w-[8px] h-[100px] bg-[#A851FF] rounded-t-full animated-bar2"></div>
           </div>
           {/* bar 5 */}
           <div className="w-[8px] h-[63px] rounded-t-full overflow-hidden bg-[#FFD0BB] relative">
             <div className="w-[8px] h-[60px] bg-[#A851FF] rounded-t-full animated-bar5"></div>
           </div>
-           {/* bar 3 */}
+          {/* bar 3 */}
           <div className="w-[8px] h-[45px] rounded-t-full overflow-hidden bg-[#FFD0BB] relative">
             <div className="w-[8px] h-[40px] bg-[#A851FF] rounded-t-full animated-bar3"></div>
           </div>
-         {/* bar 2 */}
-         <div className="w-[8px] h-[95px] rounded-t-full overflow-hidden bg-[#FFD0BB] relative">
+          {/* bar 2 */}
+          <div className="w-[8px] h-[95px] rounded-t-full overflow-hidden bg-[#FFD0BB] relative">
             <div className="w-[8px] h-[100px] bg-[#A851FF] rounded-t-full animated-bar2"></div>
           </div>
-         
         </div>
         <div className="w-full pt-1 z-30">
           <div className="w-[85%] float-end flex items-center justify-between pr-[14px] pl-[2px]">

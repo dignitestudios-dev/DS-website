@@ -5,7 +5,7 @@ import React from "react";
 export const metadata = {
   title: "Privacy Policy | Dignite Studios",
   description:
-    "Dignite Studios, the top mobile app development company in US, sets new standards in the digital venture of software solutions to lift your core business exclusively.",
+    "This Privacy Policy strictly implements to secure the shared data of our valuable clients by all means.",
 };
 
 const page = () => {

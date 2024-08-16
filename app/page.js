@@ -6,7 +6,7 @@ import React from "react";
 import RootLayout from "./layout";
 
 export const metadata = {
-  title: "Top Mobile App Development Company | Dignite Studios",
+  title: "Dignite Studios: Top Mobile App Development Company",
   description:
     "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
 };
@@ -85,170 +85,192 @@ const Page = () => {
         />
       </head>
       <GlobalLayout page={<HomePage />} />
+
       <Script
+        id="image-object-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ImageObject",
-            "url": "https://www.dignitestudios.com/logo.png"
-            }`,
+            url: "https://www.dignitestudios.com/logo.png",
+          }),
         }}
       />
+
       <Script
+        id="breadcrumb-list-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `
-          {
+          __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "BreadcrumbList",
-            "itemListElement": [
+            itemListElement: [
               {
                 "@type": "ListItem",
-                "position": 1,
-                "name": "Home Page",
-                "item": "https://www.dignitestudios.com/"
-                }
-                ]
-                }
-                `,
+                position: 1,
+                name: "Home Page",
+                item: "https://www.dignitestudios.com/",
+              },
+            ],
+          }),
         }}
       />
       <Script
+        id="web-page-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Top Mobile App Development Company | Dignite Studios",
-            "url": "https://www.dignitestudios.com/",
-            "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with a significant solution."
-            }`,
+            name: "Top Mobile App Development Company | Dignite Studios",
+            url: "https://www.dignitestudios.com/",
+            description:
+              "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with a significant solution.",
+          }),
         }}
       />
+
       <Script
+        id="website-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `
-          {
-            "@context":"http://schema.org",
-            "@type":"WebSite",
-            "url":"https://www.dignitestudios.com/",
-            "name":"Dignite Studios",
-            "description":"Top Mobile App Development Company",
-            "inLanguage":"en",
-            "publisher":
-            {
-              "@type":"Organization",
-              "url":"https://www.dignitestudios.com/",
-              "name":"Dignite Studios",
-              "logo":"https://www.dignitestudios.com/logo.png",
-              "sameAs": [
+          __html: JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            url: "https://www.dignitestudios.com/",
+            name: "Dignite Studios",
+            description: "Top Mobile App Development Company",
+            inLanguage: "en",
+            publisher: {
+              "@type": "Organization",
+              url: "https://www.dignitestudios.com/",
+              name: "Dignite Studios",
+              logo: "https://www.dignitestudios.com/logo.png",
+              sameAs: [
                 "https://facebook.com/dignitestudios",
                 "https://twitter.com/dignitestudios",
                 "https://www.instagram.com/dignitestudios/",
                 "https://www.linkedin.com/company/dignitestudios/",
                 "https://www.pinterest.com/dignitestudios/",
-                "https://g.page/r/CTqywDbEQFRNEBM"
-                ]
-                }
-                }
-                `,
+                "https://g.page/r/CTqywDbEQFRNEBM",
+              ],
+            },
+          }),
         }}
       />
+
       <Script
+        id="organization-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Dignite Studios",
-            "alternateName": "DS",
-            "url": "https://www.dignitestudios.com/",
-              "logo": "https://www.dignitestudios.com/logo.png",
-              "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
-              "email": "support@dignitestudios.com",
-              "telephone": "+1 877-714-1770",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+1 877-714-1770",
-                "contactType": "customer service",
-                "contactOption": "TollFree",
-                "email": "support@dignitestudios.com",
-                "availableLanguage": "en"
-                },
-                "sameAs": [
-                  "https://facebook.com/dignitestudios",
-                  "https://twitter.com/dignitestudios",
-                  "https://www.instagram.com/dignitestudios/",
-                  "https://www.linkedin.com/company/dignitestudios/",
-                  "https://www.pinterest.com/dignitestudios/"
-                  ]
-                  }
-                  `,
+            name: "Dignite Studios",
+            alternateName: "DS",
+            url: "https://www.dignitestudios.com/",
+            logo: "https://www.dignitestudios.com/logo.png",
+            description:
+              "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
+            email: "support@dignitestudios.com",
+            telephone: "+1 877-714-1770",
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+1 877-714-1770",
+              contactType: "customer service",
+              contactOption: "TollFree",
+              email: "support@dignitestudios.com",
+              availableLanguage: "en",
+            },
+            sameAs: [
+              "https://facebook.com/dignitestudios",
+              "https://twitter.com/dignitestudios",
+              "https://www.instagram.com/dignitestudios/",
+              "https://www.linkedin.com/company/dignitestudios/",
+              "https://www.pinterest.com/dignitestudios/",
+            ],
+          }),
         }}
       />
+
       <Script
+        id="product-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `
-          {
+          __html: JSON.stringify({
             "@context": "http://schema.org",
-            "@type": "Product", // Corrected type to "Product"
-            "name": "Mobile App Development Company",
-            "aggregateRating": {
+            "@type": "Product",
+            name: "Mobile App Development Company",
+            aggregateRating: {
               "@type": "AggregateRating",
-              "ratingValue": "4.8",
-              "worstRating": "1",
-              "bestRating": "5",
-              "reviewCount": "7"
-              }
-              }
-              `,
+              ratingValue: "4.8",
+              worstRating: "1",
+              bestRating: "5",
+              reviewCount: "7",
+            },
+          }),
         }}
       />
+
       <Script
+        id="local-business-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `
-          {
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Dignite Studios",
-            "image": "https://www.dignitestudios.com/logo.png",
-            "url": "https://www.dignitestudios.com/",
-            "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
-            "email": "support@dignitestudios.com",
-            "telephone": "+18777141770",
-            "priceRange": "$$$",
-            "address": {
+            name: "Dignite Studios",
+            image: "https://www.dignitestudios.com/logo.png",
+            url: "https://www.dignitestudios.com/",
+            description:
+              "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
+            email: "support@dignitestudios.com",
+            telephone: "+1 877-714-1770",
+            priceRange: "$$$",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "3505 Lake Lynda Dr #200",
-              "addressLocality": "Orlando",
-              "addressRegion": "FL",
-              "postalCode": "32817",
-              "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 28.598347,
-                "longitude": -81.207871
-                },
-                "openingHoursSpecification": [
-                  {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": [
-                      "Monday",
-                      "Tuesday",
-                      "Wednesday",
-                      "Thursday",
-                      "Friday"
-                      ],
-                      "opens": "09:00",
-                      "closes": "18:00"
-                      }
-                      ]
-                      }`,
+              streetAddress: "3505 Lake Lynda Dr #200",
+              addressLocality: "Orlando",
+              addressRegion: "FL",
+              postalCode: "32817",
+              addressCountry: "US",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 28.6008727,
+              longitude: -81.2219365,
+            },
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+1 877-714-1770",
+              contactType: "customer service",
+              contactOption: "TollFree",
+              email: "support@dignitestudios.com",
+              availableLanguage: "en",
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "00:00",
+              closes: "23:59",
+            },
+            sameAs: [
+              "https://facebook.com/dignitestudios",
+              "https://twitter.com/dignitestudios",
+              "https://www.instagram.com/dignitestudios/",
+              "https://www.linkedin.com/company/dignitestudios/",
+              "https://www.pinterest.com/dignitestudios/",
+            ],
+          }),
         }}
       />
     </>

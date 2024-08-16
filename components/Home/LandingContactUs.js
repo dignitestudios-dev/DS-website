@@ -95,12 +95,12 @@ const LandingContactUs = () => {
           />
         </div>
         <div className="w-full h-full flex px-8 py-10 flex-col justify-start items-start gap-8 relative">
-          <h1
+          <h2
             className="text-[32px] font-bold"
             style={{ color: palette?.color }}
           >
             Let’s start your project
-          </h1>
+          </h2>
           <form
             id="home-lead-form"
             onSubmit={handleSubmit}

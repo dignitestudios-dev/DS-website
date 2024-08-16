@@ -177,12 +177,12 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <Image
-              loader={customLoader}
+            <img
+              // loader={customLoader}
               loading="lazy"
               width={24}
               height={24}
-              src="/orange-Mobile-App-Development-Project-Documentation-Icon.webp"
+              src="/orange-mobile-app-development-project-documentation-icon.webp"
               alt="Mobile App Development Project Documentation Icon"
               title="Mobile App Development Project Documentation"
             />
@@ -245,12 +245,12 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <Image
-              loader={customLoader}
+            <img
+              // loader={customLoader}
               loading="lazy"
               width={24}
               height={24}
-              src="/orange-Mobile-App-Development-Service-Post-launch-Icon.png"
+              src="/orange-mobile-app-development-service-post-launch-icon.png"
               alt="Mobile App Development Service Post-launch Icon"
               title="Mobile App Development Service Post-launch"
             />

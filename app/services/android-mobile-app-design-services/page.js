@@ -90,7 +90,6 @@ const page = () => {
       </head>
       <ServicesLayout page={<AndroidMobileAppDesignServicesPage />} />
 
-      {/* WebPage Schema */}
       <Script
         type="application/ld+json"
         id="webpage-schema"
@@ -107,7 +106,6 @@ const page = () => {
         }}
       />
 
-      {/* BreadcrumbList Schema */}
       <Script
         type="application/ld+json"
         id="breadcrumb-schema"
@@ -140,7 +138,6 @@ const page = () => {
         }}
       />
 
-      {/* Product Schema */}
       <Script
         type="application/ld+json"
         id="product-schema"

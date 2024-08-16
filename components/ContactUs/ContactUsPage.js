@@ -171,13 +171,13 @@ const ContactUsPage = () => {
         className={`w-full h-auto my-12 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-3xl `}
       >
         <div className="w-full h-full flex flex-col lg:col-span-1 justify-start items-start gap-8 relative">
-          <h1
+          <h2
             className="text-[39px] xl:text-[40px] font-extrabold lg:text-[45px] leading-tight lg:font-bold"
             style={{ color: palette?.color }}
           >
             Let’s discuss your <br />{" "}
             <span style={{ color: palette?.brandOrange }}> project</span>
-          </h1>
+          </h2>
           <form
             id="contact-lead-form"
             onSubmit={handleSubmit}

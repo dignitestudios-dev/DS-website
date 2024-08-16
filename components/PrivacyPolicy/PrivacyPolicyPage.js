@@ -13,6 +13,12 @@ const PrivacyPolicyPage = () => {
         color: palette?.color,
       }}
     >
+      <head>
+        <link
+          rel="canonical"
+          href="https://www.dignitestudios.com/privacy-policy"
+        />
+      </head>
       <h1 className="text-[45px] font-extrabold lg:text-[55px]  lg:font-bold uppercase">
         Privacy Policy
       </h1>
@@ -546,13 +552,16 @@ const PrivacyPolicyPage = () => {
           its Privacy Policy.
         </p>
 
-        <h3 className="text-xl font-bold mt-5">
-          Google Analytics
-
-        </h3>
+        <h3 className="text-xl font-bold mt-5">Google Analytics</h3>
         <p className="text-md font-medium mt-3">
-
-          Google Analytics 4 is an analytics tool that collects both website and app data to better understand the customer journey. It is used to measure the effectiveness of advertising campaigns and identify the actions users take on website/app. GA4 includes privacy controls such as cookieless measurement, and behavioral and key event modeling. Google Analytics 4 may collect information from your device when you use the service. Google Analytics 4 collects information that is held in accordance with its Privacy Policy.
+          Google Analytics 4 is an analytics tool that collects both website and
+          app data to better understand the customer journey. It is used to
+          measure the effectiveness of advertising campaigns and identify the
+          actions users take on website/app. GA4 includes privacy controls such
+          as cookieless measurement, and behavioral and key event modeling.
+          Google Analytics 4 may collect information from your device when you
+          use the service. Google Analytics 4 collects information that is held
+          in accordance with its Privacy Policy.
         </p>
         <h3 className="text-xl font-bold mt-5">
           <span>Tracking Technologies</span>
@@ -583,7 +592,9 @@ const PrivacyPolicyPage = () => {
           </li>
           <li>
             Via Phone Number:{" "}
-            <Link href={"tel:877-714-1770"} target="_blank">877-714-1770</Link>
+            <Link href={"tel:877-714-1770"} target="_blank">
+              877-714-1770
+            </Link>
           </li>
           <li>
             Via this Link:{" "}
