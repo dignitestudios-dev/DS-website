@@ -124,6 +124,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 Android App Development-services
               </Link>
               <Link
+                href="/services/android-mobile-app-design-services"
+                className={`hover:text-orange-600 text-start`}
+              >
+                Android Mobile App Design-services
+              </Link>
+              <Link
                 href="/services/web-application-development-services"
                 className={`hover:text-orange-600 `}
               >

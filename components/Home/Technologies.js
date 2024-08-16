@@ -8,8 +8,8 @@ const Technologies = () => {
   const { palette, theme } = useContext(GlobalContext);
   const technologies = [
     {
-      color: "/mobile-app-development-technology-flutter-icon-color.webp",
-      gray: "/mobile-app-development-technology-flutter-icon-gray.webp",
+      color: "/mobile-app-development-technology-flutter-icon-color-1.webp",
+      gray: "/mobile-app-development-technology-flutter-icon-gray-1.webp",
       name: "Flutter",
       alt: "Mobile app development technology Flutter Icon",
       img_title: "Mobile app development technology Flutter Icon",

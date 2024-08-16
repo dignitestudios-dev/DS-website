@@ -12,7 +12,7 @@ const Hero = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoaded(true);
-    }, 1500);
+    }, 300);
   }, []);
 
   return (
