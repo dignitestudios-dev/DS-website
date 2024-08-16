@@ -1,6 +1,6 @@
 export const TOP_NOTCH_TEAM = [
   {
-    icon_src: "/mobile-app-design-consultation-service-icon.webp",
+    icon_src: "/mobile-app-design-consultation-service-icon-1.webp",
     title: "Strategic Free Consultation",
     img_title: "Mobile app design consultation services",
     alt_text: "Mobile app design consultation service icon",
@@ -16,7 +16,7 @@ export const TOP_NOTCH_TEAM = [
       "A well-driven research process includes interviews, usability, testing, surveys, and analytics through which we analyze user behavior covering all aspects. Here, our top-ranked mobile app designing services perform the best suitable approach to monitor and evaluate the idea of the consumer.",
   },
   {
-    icon_src: "/mobile-app-design-architectural-layout-services-icon.webp",
+    icon_src: "/mobile-app-design-architectural-layout-services-icon-1.webp",
     title: "Informative Architectural Layout",
     img_title: "Mobile app design architectural layout services",
     alt_text: "Mobile app design architectural layout services icon",
