@@ -48,7 +48,7 @@ export const VALUE_ADDED_OUTSOURCING = [
     img_title: "iOS app latest technologies",
   },
   {
-    icon_src: "/Mobile-app-design-UIUX-research-services-icon.webp",
+    icon_src: "/ios-mobile-app-development-services-ui-ux-icon.png",
     title: "One-Stop Shop",
     description:
       "The valuable iOS development company Dignite Studios bestows the best user experience, conversion rates, and wide engagements through award-winning services like UX/UI design, consulting, testing, and front-end development services.",

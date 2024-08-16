@@ -6,6 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { headings, paragraphs } from "@/constants/mobileappdevsection";
 import MobileAppDevSectionAccordion from "./MobileAppDevSectionAccordion";
 import { items } from "@/constants/mobileappdevsectionaccordion";
+import MobileAppDevelopmentServicesSection from "./MobileAppDevelopmentServicesSection";
 
 const MobileAppDevSection = () => {
   const { theme } = useContext(GlobalContext);
@@ -26,7 +27,7 @@ const MobileAppDevSection = () => {
         <span className="text-[#F15C20]">mobile app</span> <br /> development
         services
       </h2>
-      <MobileAppDevSectionAccordion />
+      <MobileAppDevelopmentServicesSection />
     </section>
   );
 };
