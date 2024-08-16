@@ -25,6 +25,7 @@ const TechnologyCard = ({ technology }) => {
     >
       <img
         // loader={customLoader}
+        // srcSet=""
         width={98}
         height={88}
         src={image}
