@@ -26,9 +26,16 @@ const PlanOfActionSection = () => {
           >
             Unveiling a world-class company Dignite Studios, to thrive your way
             with exceptional sleek design, outstanding features, highly
-            optimized app development process, and firm compliance with top
-            programming protocols. Dignite’s goal-oriented team aims to deliver
-            quality-driven UI/UX design in a snap.
+            optimized{" "}
+            <Link
+              href={"/services/mobile-app-development-services"}
+              className="text-[#F15C20]"
+            >
+              mobile app development process
+            </Link>
+            , and firm compliance with top programming protocols. Dignite’s
+            goal-oriented team aims to deliver quality-driven UI/UX design in a
+            snap.
           </p>
           <div className="w-full lg:w-auto lg:block">
             <Link

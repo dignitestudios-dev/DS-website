@@ -54,8 +54,7 @@ const ConsultingStrategiesSection = () => {
       image_title: "Mobile App Consulting maintenance and support",
       image_alt:
         "a team member is providing quality support to their consumers of Mobile App Consulting maintenance",
-      paragrap1:
-        "After the mobile application development process, it is very important to update the longevity and cogency of your mobile app. It not only helps in fixing bugs but also eradicates the errors interrupting the performance of your mobile. At Dignite Studios, you’ll get free mobile app maintenance and support from our incredible team for up to 2 months. Also, you’ll witness next-level mobile app consulting dispensations throughout the process.",
+      paragrap1: `After the mobile application development process, it is very important to update the longevity and cogency of your mobile app. It not only helps in fixing bugs but also eradicates the errors interrupting the performance of your mobile. At Dignite Studios, you’ll get free mobile app maintenance and support from our incredible team for up to 2 months. Also, you’ll witness next-level mobile app consulting dispensations throughout the process.`,
     },
   ];
   const [selectedHeading, setSelectedHeading] = useState(

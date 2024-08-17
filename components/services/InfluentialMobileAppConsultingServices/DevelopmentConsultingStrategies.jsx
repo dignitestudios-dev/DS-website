@@ -2,6 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useContext } from "react";
 
 const DevelopmentConsultingStrategies = () => {
@@ -47,9 +48,15 @@ const DevelopmentConsultingStrategies = () => {
               theme === "light" && "#5C5C5C"
             }`}
           >
-            In the era of digitalization, mobile design holds specific
-            importance in the field of multiple mobile app types. It carries a
-            wide range of uses, that catalyze fascinating features,
+            In the era of digitalization,{" "}
+            <Link
+              href={"/services/mobile-app-design-services"}
+              className="text-[#F15C20]"
+            >
+              mobile app design
+            </Link>{" "}
+            holds specific importance in the field of multiple mobile app types.
+            It carries a wide range of uses, that catalyze fascinating features,
             user-accessibility, engagement rate, and overall experience of the
             apps. We ensure cost-effective design modules for various mobile
             platforms either Native, hybrid, or cross-platform apps.

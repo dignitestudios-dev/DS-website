@@ -85,8 +85,14 @@ const InfluentialChooseUs = () => {
                 We believe in transparency of mobile application development and
                 so our mobile application consultation depends on the firm
                 objectives, and solutions to avoid any future obstacles in the
-                processes. Our expertise also lies in mobile app development of
-                B2B, B2C, and various custom-made mobile applications.
+                processes. Our expertise also lies in{" "}
+                <Link
+                  href={"/services/mobile-app-development-services"}
+                  className="text-[#F15C20]"
+                >
+                  mobile app development
+                </Link>{" "}
+                of B2B, B2C, and various custom-made mobile applications.
                 Therefore, you can request mobile consulting through our
                 application or web portal also, to experience a pure form of
                 professional body.

@@ -133,8 +133,14 @@ const MobileAppDevelopmentServicesSection = () => {
                 color: palette?.dark_contrast_color,
               }}
             >
-              Our professional development provides free mobile consulting
-              services to advise pragmatic measures in the process of mobile app
+              Our professional development provides free{" "}
+              <Link
+                href={"/services/mobile-app-consulting-services"}
+                className="text-[#F15C20]"
+              >
+                mobile app consulting services
+              </Link>{" "}
+              to advise pragmatic measures in the process of mobile app
               development and bring forth the cost of mobile apps swiftly. They
               have supreme knowledge of mobile learning and serve consumers with
               appropriate mobile app solutions.create seamless user interfaces
@@ -252,11 +258,17 @@ const MobileAppDevelopmentServicesSection = () => {
                 color: palette?.dark_contrast_color,
               }}
             >
-              We provide unique mobile app design services to create addictive
-              mobile features and a full cycle of application design which
-              includes UX/UI interface effectively and conveniently. Design and
-              development of mobile applications play a vital role in the
-              conversion of products.
+              We provide unique{" "}
+              <Link
+                href={"/services/mobile-app-design-services"}
+                className="text-[#F15C20]"
+              >
+                mobile app design services
+              </Link>{" "}
+              to create addictive mobile features and a full cycle of
+              application design which includes UX/UI interface effectively and
+              conveniently. Design and development of mobile applications play a
+              vital role in the conversion of products.
             </p>
           </div>
         </div>
@@ -311,7 +323,13 @@ const MobileAppDevelopmentServicesSection = () => {
                 color: palette?.dark_contrast_color,
               }}
             >
-              Here at Dignite Studios, we offer you complete development of web
+              Here at Dignite Studios, we offer you complete{" "}
+              <Link
+                href={"/services/web-application-development-services"}
+                className="text-[#F15C20]"
+              >
+                development of web
+              </Link>{" "}
               and mobile applications that possess coding, scripting, CMS
               development, and network configuration. Also, we create highly
               favorable web portals, SaaS, or online stores for more engagement.
@@ -428,8 +446,14 @@ const MobileAppDevelopmentServicesSection = () => {
               }}
             >
               At the step of our renowned mobile app development platform, we
-              implement constructive mobile application testing services to
-              ensure the performance, design, features, accessibility, and
+              implement constructive{" "}
+              <Link
+                href={"/services/mobile-app-testing-services"}
+                className="text-[#F15C20]"
+              >
+                mobile application testing services
+              </Link>{" "}
+              to ensure the performance, design, features, accessibility, and
               security of mobile.
             </p>
           </div>

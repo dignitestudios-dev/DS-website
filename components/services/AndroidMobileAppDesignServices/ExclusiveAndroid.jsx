@@ -58,23 +58,23 @@ const ExclusiveAndroid = () => {
             theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
           }`}
         >
-          <div className="w-full h-[272px] flex items-center justify-center gap-x-4 bg-[#F9FAFA] rounded-t-[24px]">
+          <div className="w-full h-[272px] flex items-center justify-center gap-x-4 bg-[#F9FAFA] rounded-t-[24px] overflow-hidden">
             <img
               src="/Android-UXUI-Design-image-1.webp"
               alt="three mock screens of Android UI\UX design"
-              className="w-[98px] h-[201px] z-0 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative animated-image-up"
+              className="w-[78px] h-[151px] md:w-[98px] md:h-[201px] z-0 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative animated-image-up"
               title="Android UX\UI Design image"
             />
             <img
               src="/Android-UXUI-Design-image-2.webp"
               alt="three mock screens of Android UI\UX design"
-              className="w-[98px] h-[201px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down2 hidden lg:block"
+              className="w-[78px] h-[151px] md:w-[98px] md:h-[201px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down2 hidden lg:block"
               title="Android UX\UI Design image"
             />
             <img
               src="/Android-UXUI-Design-image-3.webp"
               alt="three mock screens of Android UI\UX design"
-              className="w-[98px] h-[201px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down"
+              className="w-[78px] h-[151px] md:w-[98px] md:h-[201px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down"
               title="Android UX\UI Design image"
             />
           </div>
