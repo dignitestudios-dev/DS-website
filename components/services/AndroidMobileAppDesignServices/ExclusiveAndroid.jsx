@@ -103,10 +103,10 @@ const ExclusiveAndroid = () => {
           }`}
         >
           <img
-            src="/Android-Motion-Design-Services-image.gif"
-            className="w-full lg:w-[520px] h-[272px] pt-2 object-cover rounded-t-[24px]"
-            alt="Android Motion Design Services image"
-            title="Android Motion Design Services image"
+            src="/Android-App-Branding-Services-image.webp"
+            className="w-[520px] h-[272px] pt-2 object-cover rounded-t-[24px]"
+            alt="the image shows the resource material on the table for the branding framework"
+            title="Android App Branding Services image"
           />
           <h3 className="text-[18px] font-semibold">Branding</h3>
           <p className="font-normal text-sm leading-[19.74px]">
@@ -129,11 +129,12 @@ const ExclusiveAndroid = () => {
           }`}
         >
           <img
-            src="/Android-App-Branding-Services-image.webp"
-            className="w-[520px] h-[272px] pt-2 object-cover rounded-t-[24px]"
-            alt="the image shows the resource material on the table for the branding framework"
-            title="Android App Branding Services image"
+            src="/Android-Motion-Design-Services-image.gif"
+            className="w-full lg:w-[520px] h-[272px] pt-2 object-cover rounded-t-[24px]"
+            alt="Android Motion Design Services image"
+            title="Android Motion Design Services image"
           />
+
           <h3 className="text-[18px] font-semibold">Motion Design</h3>
           <p className="font-normal text-sm leading-[19.74px]">
             Adding some flavourful features and high-end specifications to
