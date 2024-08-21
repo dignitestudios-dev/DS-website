@@ -179,10 +179,10 @@ const BenefitsOfWorking = () => {
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <img
               // loader={customLoader}
-              loading="lazy"
-              width={24}
-              height={24}
-              src="/orange-mobile-app-development-project-documentation-icon.webp"
+              // loading="lazy"
+              width={19}
+              height={20}
+              src="/orange-mobile-app-development-project-documentation-icon-1.webp"
               alt="Mobile App Development Project Documentation Icon"
               title="Mobile App Development Project Documentation"
             />
@@ -247,10 +247,10 @@ const BenefitsOfWorking = () => {
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <img
               // loader={customLoader}
-              loading="lazy"
+              // loading="lazy"
               width={24}
               height={24}
-              src="/orange-mobile-app-development-service-post-launch-icon.webp"
+              src="/orange-mobile-app-development-service-post-launch-icon-1.webp"
               alt="Mobile App Development Service Post-launch Icon"
               title="Mobile App Development Service Post-launch"
             />
