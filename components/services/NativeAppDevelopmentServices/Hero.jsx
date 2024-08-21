@@ -52,6 +52,7 @@ const Hero = () => {
         <img
           src="/native-app-dev-andoid-icon.webp"
           alt="native-app-dev-andoid-icon"
+          title="Native app development company"
           className="w-[141.4px] h-[141.4px] z-10 right-0 lg:right-[5%] xl:right-[20%] 2xl:right-[26%] hidden absolute lg:block top-0 android-icon-animate"
         />
         <img
@@ -62,16 +63,19 @@ const Hero = () => {
         <img
           src="/native-app-hero-orange-shadow.webp"
           alt="native-app-hero-orange-shadow"
+          title="native-app-hero-yellow-shadow"
           className="w-full lg:w-[946px] lg:h-[446px] absolute fade-in"
         />
         <img
           src="/native-app-hero-yellow-shadow.webp"
           alt="native-app-hero-yellow-shadow"
+          title="native-app-hero-yellow-shadow"
           className="lg:w-[946px] lg:h-[446px] absolute fade-out"
         />
         <img
           src="/native-app-dev-hero-borders.webp"
           alt="native-app-dev-hero-borders"
+          title="Native app development company"
           className="absolute w-[918px] h-[350px] md:h-[783px] z-0 -top-32"
         />
         <img
