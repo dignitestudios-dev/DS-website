@@ -99,17 +99,17 @@ const page = () => {
 
       <Script
         type="application/ld+json"
-        async
         dangerouslySetInnerHTML={{
-          __html: `
-        {
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "Mobile App Development Services",
-          "url": "https://www.dignitestudios.com/services/mobile-app-development-services",
-          "description": "Let's delve into professional mobile app development services encompassing multiple app solutions for your tailored needs. Our high-ranking team crafts ingenious and state-of-the-art applications to stand out in your mobile services."
-        }
-      `,
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "Mobile App Development Services",
+            url: "https://www.dignitestudios.com/services/mobile-app-development-services",
+            description:
+              "Let's delve into professional mobile app development services encompassing multiple app solutions for your tailored needs. Our high-ranking team crafts ingenious and state-of-the-art applications to stand out in your mobile services.",
+            thumbnailUrl:
+              "https://www.dignitestudios.com/banner-cover-image-of-mobile-app-development-services.webp",
+          }),
         }}
       />
 
