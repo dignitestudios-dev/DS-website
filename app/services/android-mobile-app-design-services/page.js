@@ -92,7 +92,7 @@ const page = () => {
 
       <Script
         type="application/ld+json"
-        id="webpage-schema"
+        id="android-app-design-schema"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -102,6 +102,8 @@ const page = () => {
             url: "https://www.dignitestudios.com/services/android-mobile-app-design-services",
             description:
               "Our company bestows remarkable custom Android app design to develop modernized application services for our users.",
+            thumbnailUrl:
+              "https://www.dignitestudios.com/banner-cover-image-of-android-mobile-app-design-services.webp",
           }),
         }}
       />

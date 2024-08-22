@@ -17,9 +17,14 @@ const WeCommitToDeliver = () => {
             exceptional assistance on a wider scale to flourish Android and iOS
             devices internationally. From the start to the launch of mobile
             development, we construct and refine the design and performance of
-            the app productively. As a reputable provider of native mobile app
-            development services, we strive to meet the exigencies of our
-            valuable consumers.
+            the app productively. As a reputable provider of native{" "}
+            <Link
+              href={"/services/mobile-app-development-services"}
+              className="text-[#F15C20]"
+            >
+              mobile app development services
+            </Link>
+            , we strive to meet the exigencies of our valuable consumers.
           </p>
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-start lg:pt-6 lg:justify-end">

@@ -99,6 +99,7 @@ const page = () => {
 
       <Script
         type="application/ld+json"
+        id="mobile-app-development-services"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",

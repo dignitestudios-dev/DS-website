@@ -31,11 +31,11 @@ const PlanOfActionSection = () => {
               href={"/services/mobile-app-development-services"}
               className="text-[#F15C20]"
             >
-              mobile app development process
+              mobile app development{" "}
             </Link>
-            , and firm compliance with top programming protocols. Dignite’s
-            goal-oriented team aims to deliver quality-driven UI/UX design in a
-            snap.
+            process, and firm compliance with top programming protocols.
+            Dignite’s goal-oriented team aims to deliver quality-driven UI/UX
+            design in a snap.
           </p>
           <div className="w-full lg:w-auto lg:block">
             <Link

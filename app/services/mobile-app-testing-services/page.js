@@ -91,19 +91,18 @@ const page = () => {
       </head>
       <ServicesLayout page={<TopNotchMobileAppTestingServices />} />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            name: "Mobile App Testing Services | Dignite Studios",
-            url: "https://www.dignitestudios.com/services/mobile-app-testing-services",
-            description:
-              "Embarke top-tier mobile app testing services from our leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts.",
-          }),
-        }}
-      />
+      <Script type="application/ld+json" id="ld-json-mobile-app-testing">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          name: "Mobile App Testing Services | Dignite Studios",
+          url: "https://www.dignitestudios.com/services/mobile-app-testing-services",
+          description:
+            "Embark on top-tier mobile app testing services from our leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts.",
+          thumbnailUrl:
+            "https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp",
+        })}
+      </Script>
 
       <Script
         type="application/ld+json"

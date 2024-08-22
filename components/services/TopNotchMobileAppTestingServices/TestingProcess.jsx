@@ -3,6 +3,7 @@ import { TESTING_PROCESS } from "@/constants/testingprocess";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useContext } from "react";
 
 const TestingProcess = () => {
@@ -41,25 +42,132 @@ const TestingProcess = () => {
       </div>
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
-        {TESTING_PROCESS.map((team, index) => {
-          return (
-            <div key={index} className={`flex flex-col items-start gap-4 `}>
-              <Image
-                width={36}
-                height={36}
-                loader={customLoader}
-                src={team.icon_src}
-                alt="team-icon"
-                title="team-icon"
-                className="w-9 h-9"
-              />
-              <h3 className="text-xl font-semibold">{team.title}</h3>
-              <p className="text-sm font-normal leading-[19.74px]">
-                {team.desc}
-              </p>
-            </div>
-          );
-        })}
+        <div className={`flex flex-col items-start gap-4 `}>
+          <Image
+            width={36}
+            height={36}
+            loader={customLoader}
+            src={"/mobile-app-testing-requirement-analysis-icon.webp"}
+            alt="Mobile app testing requirement analysis icon"
+            title="Mobile app testing requirement analysis"
+            className="w-9 h-9"
+          />
+          <h3 className="text-xl font-semibold">Requirement Analysis</h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            Demonstrating the project scope, with a clear understanding of
+            requirements whether the clients need a functional app or a
+            non-functional app, proper research on the target audience, and
+            in-depth analysis of app type that will lead to the successful
+            software testing process. The top-ranked testing engineers of
+            Dignite Studios offer a systematic and productive approach to
+            leading the comprehensive mobile testing of a mobile app.
+          </p>
+        </div>
+        <div className={`flex flex-col items-start gap-4 `}>
+          <Image
+            width={36}
+            height={36}
+            loader={customLoader}
+            src={"/mobile-app-test-plan-creation-icon.webp"}
+            alt="Mobile app test plan creation icon"
+            title="Mobile app test Plan Creation"
+            className="w-9 h-9"
+          />
+          <h3 className="text-xl font-semibold">Test Plan Creation</h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            A well-driven research process includes interviews, usability,
+            testing, surveys, and analytics through which we analyze user
+            behavior covering all aspects. Here, our top-ranked{" "}
+            <Link
+              href={"/services/mobile-app-designing-services"}
+              className="text-[#F15C20]"
+            >
+              mobile app designing services
+            </Link>{" "}
+            perform the best suitable approach to monitor and evaluate the idea
+            of the consumer.
+          </p>
+        </div>
+        <div className={`flex flex-col items-start gap-4 `}>
+          <Image
+            width={36}
+            height={36}
+            loader={customLoader}
+            src={"/mobile-app-test-case-creation-icon.webp"}
+            alt="Mobile app test case creation icon"
+            title="Mobile app test case creation"
+            className="w-9 h-9"
+          />
+          <h3 className="text-xl font-semibold">Test Case Creation</h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            This phase involves detailed mobile testing services to verify the
+            software's viability and functionality. At Dignite Studios,
+            high-performing testing engineers conduct mobile functional testing
+            to ensure security testing types, mobile compatibility testing, and
+            in-depth performance analysis to make the app work productively
+            after the mobile usability testing phase.
+          </p>
+        </div>
+        <div className={`flex flex-col items-start gap-4 `}>
+          <Image
+            width={36}
+            height={36}
+            loader={customLoader}
+            src={"/mobile-test-automation-icon.webp"}
+            alt="mobile test automation icon"
+            title="Mobile app test automation"
+            className="w-9 h-9"
+          />
+          <h3 className="text-xl font-semibold">Mobile Test Automation</h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            It involves manual or automated test execution through real devices,
+            emulators, or simulators to identify the application's system
+            configuration and actual performance. Our top mobile testing team
+            creates reliable approaches to detect the performance of the mobile
+            app to generate positive testing results.
+          </p>
+        </div>
+        <div className={`flex flex-col items-start gap-4 `}>
+          <Image
+            width={36}
+            height={36}
+            loader={customLoader}
+            src={"/mobile-app-testing-defect-logging-icon.webp"}
+            alt="Mobile app testing defect logging icon"
+            title="Mobile app testing defect logging"
+            className="w-9 h-9"
+          />
+          <h3 className="text-xl font-semibold">Defect Logging</h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            Bug tracking is a structured process to identify, detect, and
+            monitor the issues that arise while testing projects. It helps to
+            identify multiple deformities in design flaws, and hardware
+            malfunctions, that impede the mobile accessibility testing. Here the
+            first-class testing specialists of Dignite Studios generate
+            standardized testing time to evaluate defect details, errors,
+            consistent steps, severity, and bugs in testing mobile apps to
+            disquisition the issues.
+          </p>
+        </div>
+        <div className={`flex flex-col items-start gap-4 `}>
+          <Image
+            width={36}
+            height={36}
+            loader={customLoader}
+            src={"/mobile-app-testing-fixing-and-accreditation-icon.webp"}
+            alt="Mobile app testing fixing and accreditation icon"
+            title="Mobile app testing fixing and accreditation"
+            className="w-9 h-9"
+          />
+          <h3 className="text-xl font-semibold">Fixing and Accreditation</h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            This phase allows the testing team to ensure whether defect-fixing
+            negatively impacts the compatibility and functionality of the app
+            during the bug removal. Further, our experts re-examine the
+            following areas to clinch the stability and reliability of mobile
+            applications.
+          </p>
+        </div>
       </div>
     </div>
   );

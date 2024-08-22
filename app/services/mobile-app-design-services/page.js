@@ -140,21 +140,18 @@ const page = () => {
       </head>
       <ServicesLayout page={<MobileAppDesignServicesPage />} />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            name: "Mobile app design services",
-            url: "https://www.dignitestudios.com/services/mobile-app-design-services",
-            description:
-              "Recruit top mobile app design services that flawlessly create innovative UI/UX designs, and deliver smooth UX wireframes that fit your match. A highly experienced suite of designing application services will elevate your app’s design at a pace of breakneck.",
-            thumbnailUrl:
-              "https://www.dignitestudios.com/banner-cover-image-of-mobile-app-design-services.webp",
-          }),
-        }}
-      />
+      <Script type="application/ld+json" id="ld-json-mobile-app-design">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          name: "Mobile app design services",
+          url: "https://www.dignitestudios.com/services/mobile-app-design-services",
+          description:
+            "Recruit top mobile app design services that flawlessly create innovative UI/UX designs, and deliver smooth UX wireframes that fit your match. A highly experienced suite of designing application services will elevate your app’s design at a pace of breakneck.",
+          thumbnailUrl:
+            "https://www.dignitestudios.com/banner-cover-image-of-mobile-app-design-services.webp",
+        })}
+      </Script>
 
       <Script
         type="application/ld+json"

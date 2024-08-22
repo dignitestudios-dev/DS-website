@@ -93,6 +93,8 @@ const page = () => {
 
       <Script
         type="application/ld+json"
+        id="mobile-app-maintenance-schema"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -101,6 +103,8 @@ const page = () => {
             url: "https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services",
             description:
               "Our mobile app support and maintenance services foster effective solutions and potent planning to thrive mobile applications.",
+            thumbnailUrl:
+              "https://www.dignitestudios.com/banner-cover-image-of-mobile-application-support-and-maintenance-services.webp",
           }),
         }}
       />

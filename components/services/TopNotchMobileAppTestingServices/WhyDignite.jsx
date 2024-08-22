@@ -56,7 +56,7 @@ const WhyDignite = () => {
             <h3 className="text-xl font-semibold">
               Innovative Mobile Performance Testing
             </h3>
-            <p className="text-xs font-normal">
+            <p className="text-xs font-normal leading-[16.32px]">
               The interpretive minds of Dignite’s mobile application testing
               specialists bestow cutting-edge solutions to produce effective
               in-house testing of mobile apps. We always tend to offer reliable
@@ -79,13 +79,20 @@ const WhyDignite = () => {
               className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
             />
             <h3 className="text-xl font-semibold">Quality Assessment</h3>
-            <p className="text-xs font-normal">
+            <p className="text-xs font-normal leading-[16.32px]">
               The rigorous mobile app functional testing ensures a modern
-              strategic approach in the development process with thorough mobile
-              security testing and mobile accessibility testing in a particular
-              testing time frame. Our remarkable testing team provides the best
-              solution for mobile testing portfolio and mobile testing specifics
-              to ensure the quality of the application. 
+              strategic approach in the{" "}
+              <Link
+                href={"/services/mobile-app-development-services"}
+                className="text-[#F15C20]"
+              >
+                mobile app development
+              </Link>{" "}
+              process with thorough mobile security testing and mobile
+              accessibility testing in a particular testing time frame. Our
+              remarkable testing team provides the best solution for mobile
+              testing portfolio and mobile testing specifics to ensure the
+              quality of the application. 
             </p>
           </div>
           <div
@@ -103,7 +110,7 @@ const WhyDignite = () => {
               className="w-10 h-10 scale-75 group-hover:scale-110 group-hover:rotate-90 transition-all duration-1000"
             />
             <h3 className="text-xl font-semibold">Proven Track Record</h3>
-            <p className="text-xs font-normal">
+            <p className="text-xs font-normal leading-[16.32px]">
               With our commitment to excellence, we take pride in delivering the
               best solutions to our clients and partners. Dignite’s reliability
               and loyalty can’t be ever judged. We always strive to produce the

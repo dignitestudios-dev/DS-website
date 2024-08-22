@@ -39,56 +39,215 @@ const DevelopmentProcess = () => {
       </section>
 
       <div className="w-full mt-6 lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 xl:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 xl:mt-10">
-        {NATIVE_APP_DEVELOPMENT_PROCESS.map((service, key) => {
-          return (
-            <div
-              key={key}
-              className={`group transition-all duration-300 border-[1px] ${
-                theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
-              } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
-                theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-              } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20]  transition-all duration-150 ${
-                key == 0
-                  ? "lg:border-b "
-                  : key == 1
-                  ? "lg:border-b lg:border-r-0 xl:border-r lg:border-l "
-                  : key == 2
-                  ? "lg:border-b lg:border-r xl:border-r-0"
-                  : key === 3
-                  ? ""
-                  : key == 4
-                  ? "lg:border-r lg:border-l-0 xl:border-l"
-                  : key == 5
-                  ? ""
-                  : ""
+        <div
+          className={`group transition-all duration-300 border-[1px] ${
+            theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
+          } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
+            theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-b lg:border-r transition-all duration-150`}
+        >
+          <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
+            <p className="text-[40px] font-extrabold text-[#B4B4B499]">01</p>
+            <h3
+              className={`font-bold text-[28px] ${
+                theme == "dark"
+                  ? "text-white group-hover:text-white"
+                  : "text-black group-hover:text-white"
               }`}
             >
-              <div className="w-full flex flex-col gap-2 md:gap-4 justify-start items-start">
-                <p className="text-[40px] font-extrabold text-[#B4B4B499]">
-                  {service.count}
-                </p>
-                <h3
-                  className={`font-bold text-[28px] ${
-                    theme == "dark"
-                      ? "text-white group-hover:text-white"
-                      : "text-black group-hover:text-white"
-                  }`}
-                >
-                  {service.title}
-                </h3>
-                <p
-                  className={`text-sm leading-[19.14px] ${
-                    theme == "dark"
-                      ? "text-gray-200 group-hover:text-gray-200"
-                      : "text-[#8f8f8f] group-hover:text-gray-200"
-                  }`}
-                >
-                  {service.desc}
-                </p>
-              </div>
-            </div>
-          );
-        })}
+              Product Analysis
+            </h3>
+            <p
+              className={`text-sm leading-[19.14px] ${
+                theme == "dark"
+                  ? "text-gray-200 group-hover:text-gray-200"
+                  : "text-[#8f8f8f] group-hover:text-gray-200"
+              }`}
+            >
+              To build highly intuitive native mobile applications we conduct
+              in-depth market research for better in-app experiences and
+              steadfast project flow.
+            </p>
+          </div>
+        </div>
+
+        <div
+          className={`group transition-all duration-300 border-[1px] ${
+            theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
+          } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
+            theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-b lg:border-r transition-all duration-150`}
+        >
+          <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
+            <p className="text-[40px] font-extrabold text-[#B4B4B499]">02</p>
+            <h3
+              className={`font-bold text-[28px] ${
+                theme == "dark"
+                  ? "text-white group-hover:text-white"
+                  : "text-black group-hover:text-white"
+              }`}
+            >
+              Wireframes & Mockups
+            </h3>
+            <p
+              className={`text-sm leading-[19.14px] ${
+                theme == "dark"
+                  ? "text-gray-200 group-hover:text-gray-200"
+                  : "text-[#8f8f8f] group-hover:text-gray-200"
+              }`}
+            >
+              The top-notch Android and iOS developers of Dignite Studios have
+              accompanied many clients to create interactive{" "}
+              <Link
+                href={"/services/mobile-app-design-services"}
+                className="text-[#F15C20] group-hover:text-white"
+              >
+                UI designs
+              </Link>{" "}
+              and wireframes to develop app-friendly and constructive apps.
+            </p>
+          </div>
+        </div>
+
+        <div
+          className={`group transition-all duration-300 border-[1px] ${
+            theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
+          } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
+            theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-b transition-all duration-150`}
+        >
+          <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
+            <p className="text-[40px] font-extrabold text-[#B4B4B499]">03</p>
+            <h3
+              className={`font-bold text-[28px] ${
+                theme == "dark"
+                  ? "text-white group-hover:text-white"
+                  : "text-black group-hover:text-white"
+              }`}
+            >
+              Prototype
+            </h3>
+            <p
+              className={`text-sm leading-[19.14px] ${
+                theme == "dark"
+                  ? "text-gray-200 group-hover:text-gray-200"
+                  : "text-[#8f8f8f] group-hover:text-gray-200"
+              }`}
+            >
+              After establishing wireframes we design a prototype of the app to
+              confirm its layout and architecture from the client to ensure its
+              reliability, performance, and functionality. Furthermore, we
+              perform changes provided by the partner to make our native mobile
+              app development error-free by all means.
+            </p>
+          </div>
+        </div>
+
+        <div
+          className={`group transition-all duration-300 border-[1px] ${
+            theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
+          } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
+            theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-r  transition-all duration-150`}
+        >
+          <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
+            <p className="text-[40px] font-extrabold text-[#B4B4B499]">04</p>
+            <h3
+              className={`font-bold text-[28px] ${
+                theme == "dark"
+                  ? "text-white group-hover:text-white"
+                  : "text-black group-hover:text-white"
+              }`}
+            >
+              Development
+            </h3>
+            <p
+              className={`text-sm leading-[19.14px] ${
+                theme == "dark"
+                  ? "text-gray-200 group-hover:text-gray-200"
+                  : "text-[#8f8f8f] group-hover:text-gray-200"
+              }`}
+            >
+              As per the client's approval, we start the development process of
+              the native app. Here, we deliver strong outcomes under the
+              timeframe committed by our team.
+            </p>
+          </div>
+        </div>
+
+        <div
+          className={`group transition-all duration-300 border-[1px] ${
+            theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
+          } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
+            theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-r transition-all duration-150`}
+        >
+          <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
+            <p className="text-[40px] font-extrabold text-[#B4B4B499]">05</p>
+            <h3
+              className={`font-bold text-[28px] ${
+                theme == "dark"
+                  ? "text-white group-hover:text-white"
+                  : "text-black group-hover:text-white"
+              }`}
+            >
+              Deployment
+            </h3>
+            <p
+              className={`text-sm leading-[19.14px] ${
+                theme == "dark"
+                  ? "text-gray-200 group-hover:text-gray-200"
+                  : "text-[#8f8f8f] group-hover:text-gray-200"
+              }`}
+            >
+              Final deployment on the App Store takes place after the rigorous{" "}
+              <Link
+                href={"/services/mobile-app-testing-services"}
+                className="text-[#F15C20] group-hover:text-white"
+              >
+                app testing
+              </Link>{" "}
+              and development of the entire native app. Our assurance services
+              perform powerful front-end and back-end development to launch the
+              app after strong evaluation and interpretation. We conduct native
+              deployment of the apps with the fastest-growing profitable
+              methodologies to gain more revenue generation
+            </p>
+          </div>
+        </div>
+
+        <div
+          className={`group transition-all duration-300 border-[1px] ${
+            theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
+          } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
+            theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] transition-all duration-150`}
+        >
+          <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
+            <p className="text-[40px] font-extrabold text-[#B4B4B499]">06</p>
+            <h3
+              className={`font-bold text-[28px] ${
+                theme == "dark"
+                  ? "text-white group-hover:text-white"
+                  : "text-black group-hover:text-white"
+              }`}
+            >
+              Support And Maintenance
+            </h3>
+            <p
+              className={`text-sm leading-[19.14px] ${
+                theme == "dark"
+                  ? "text-gray-200 group-hover:text-gray-200"
+                  : "text-[#8f8f8f] group-hover:text-gray-200"
+              }`}
+            >
+              After our native app development services, we establish
+              maintenance packages to update the app features and designs on
+              monthly or yearly terms and conditions. Experience modernized and
+              top-notch solutions for your apps to make it flawless and unique.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

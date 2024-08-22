@@ -94,16 +94,19 @@ const page = () => {
 
         <Script
           type="application/ld+json"
+          id="android-app-development-schema"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
-            __html: `
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Android app development services | Dignite Studios",
-      "url": "https://www.dignitestudios.com/services/android-app-development-services",
-      "description": "The first-class Android app development company Dignite Studios bequeath exceptional standards of mobile app development so that the agency can fulfill custom application solutions and other mobile projects adeptly."
-    }
-    `,
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              name: "Android app development services | Dignite Studios",
+              url: "https://www.dignitestudios.com/services/android-app-development-services",
+              description:
+                "The first-class Android app development company Dignite Studios bestows the best international development mobile app standards so that the agency can fulfill custom application solutions and other mobile projects.",
+              thumbnailUrl:
+                "https://www.dignitestudios.com/banner-cover-image-of-android-app-development-services.webp",
+            }),
           }}
         />
 

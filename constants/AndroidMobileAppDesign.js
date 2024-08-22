@@ -2,8 +2,8 @@ export const ANDROID_MOBILE_APP_DESIGN = [
   {
     image_src:
       "/Android-app-design-scalability-and-higher-user-engagement-icon.webp",
-    imagr_title: "",
-    image_alt: "",
+    imagr_title: "Scalability and higher user engagement icon",
+    image_alt: "Android app design scalability and higher user engagement icon",
     title: "Proven Expertise",
     text: "If you are working with our professional designers, you can accelerate the market share by enhancing the efficacy of the development process with our proven expertise in Android apps.",
   },

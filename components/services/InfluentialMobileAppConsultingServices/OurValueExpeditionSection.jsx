@@ -2,6 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useContext } from "react";
 
 const OurValueExpeditionSection = () => {
@@ -40,8 +41,14 @@ const OurValueExpeditionSection = () => {
           The world’s preeminent ensemble Dignite Studios, harnesses the power
           of sustainability, believability, and solution to empower business
           growth. We aim to bestow next-level expert guidance and innovative
-          solutions to deploy unique infrastructure to your mobile and web apps.
-          Also, you’ll experience multiple opportunities at each facet of your
+          solutions to deploy unique infrastructure to your mobile and{" "}
+          <Link
+            href={"/services/web-application-development-services"}
+            className="text-[#F15C20]"
+          >
+            web apps
+          </Link>
+          . Also, you’ll experience multiple opportunities at each facet of your
           application transformation. 
         </p>
       </div>

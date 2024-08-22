@@ -2,6 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 // import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useContext } from "react";
 import { FaCheck } from "react-icons/fa6";
 
@@ -57,7 +58,16 @@ const MobileAppDesignWhyChooseUs = () => {
               <div className="w-7 h-7 rounded-full bg-[#F15C20] p-1">
                 <FaCheck className="text-white w-full h-full" />
               </div>
-              <p className="text-xl font-medium">Specialized Consulting Team</p>
+              <p className="text-xl font-medium">
+                Specialized{" "}
+                <Link
+                  href={"/services/mobile-app-consulting-services"}
+                  className="text-[#F15C20]"
+                >
+                  Mobile App Consulting
+                </Link>{" "}
+                Team
+              </p>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-7 h-7 rounded-full bg-[#F15C20] p-1">

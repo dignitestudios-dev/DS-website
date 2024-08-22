@@ -92,6 +92,8 @@ const page = () => {
 
       <Script
         type="application/ld+json"
+        id="native-app-development-schema"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -100,6 +102,8 @@ const page = () => {
             url: "https://www.dignitestudios.com/services/native-app-development-services",
             description:
               "Expeditious native app development company Dignite Studios is set to deliver compelling custom mobile application services from highly qualified experts.",
+            thumbnailUrl:
+              "https://www.dignitestudios.com/banner-cover-image-of-native-app-development-services.webp",
           }),
         }}
       />

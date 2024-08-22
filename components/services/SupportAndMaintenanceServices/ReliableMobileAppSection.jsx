@@ -36,22 +36,114 @@ const ReliableMobileAppSection = () => {
       </section>
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 xl:gap-x-32 gap-y-6 mt-10">
-        {MAINTENANCE_SERVICES.map((service, index) => {
-          return (
-            <div
-              key={index}
-              className="flex flex-col items-start text-start gap-y-2.5"
+        <div className="flex flex-col items-start text-start gap-y-2.5">
+          <div className="w-[44px] h-[44px] flex justify-center items-center rounded-[12px] bg-[#F15C2014]">
+            <img
+              src={"/mobile-app-maintenance-bugs-conformance-icon.webp"}
+              alt={"mobile app maintenance bugs conformance icon"}
+              title={"Bugs Conformance"}
+              className="w-6 h-6"
+            />
+          </div>
+          <h3 className="font-semibold text-xl">Bugs Conformance</h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            Tracking bugs plays a crucial role in the serenity of the
+            operational functions of the system. So, developers can smoothly
+            track, manage, and perform their tasks throughout the development
+            cycle of apps. At Dignite Studios the support team efficiently
+            monitors support and maintenance procedures to imprint the tranquil
+            performance of the mobile application. We regularly make updates and
+            fix bugs if required.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-start text-start gap-y-2.5">
+          <div className="w-[44px] h-[44px] flex justify-center items-center rounded-[12px] bg-[#F15C2014]">
+            <img
+              src={"/mobile-app-maintenance-security-updates-icon.webp"}
+              alt={"mobile app maintenance security updates icon"}
+              title={"Security updates and maintenance"}
+              className="w-6 h-6"
+            />
+          </div>
+          <h3 className="font-semibold text-xl">
+            Security Updates and Maintenance
+          </h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            Security threats in the cyber world are as common as money. Mobile
+            app maintenance helps consumers to develop error-free mobile apps.
+            To keep them vigilantly tracked we use the latest tools and
+            technology to ensure security protocols round the clock. Dignite’s
+            management takes potential measures to update security threats.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-start text-start gap-y-2.5">
+          <div className="w-[44px] h-[44px] flex justify-center items-center rounded-[12px] bg-[#F15C2014]">
+            <img
+              src={"/mobile-app-maintenance-performance-optimization-icon.webp"}
+              alt={"mobile app maintenance performance optimization icon"}
+              title={"Performance optimization mobile app maintenance services"}
+              className="w-6 h-6"
+            />
+          </div>
+          <h3 className="font-semibold text-xl">Performance Optimization</h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            Optimization significantly impacts the mobile application
+            performance and its overall success. With strong and effectual
+            optimization of mobile apps, it improves user experience, battery
+            life, and reduces support and maintenance costs. The mobile experts
+            of Dignite Studios furnish accredited configuration settings
+            according to the app performance requirements. We also elevate app
+            code and database to increase the speed of the apps.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-start text-start gap-y-2.5">
+          <div className="w-[44px] h-[44px] flex justify-center items-center rounded-[12px] bg-[#F15C2014]">
+            <img
+              src={"/mobile-app-maintenance-mediator-integration-icon.webp"}
+              alt={"mobile app maintenance mediator integration icon"}
+              title={"Mediator Integration"}
+              className="w-6 h-6"
+            />
+          </div>
+          <h3 className="font-semibold text-xl">Mediator Integration</h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            It refers to the full-fledged services of an application such as app
+            monitoring, server configuration, app updates, code refactoring, and
+            implementing new features, to improve app performance. Dignite
+            Studios' reliable support and maintenance specialists facilitate the
+            integration of third-party services to enhance mobile app
+            functionality and expand the user experience capabilities of mobile
+            apps.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-start text-start gap-y-2.5">
+          <div className="w-[44px] h-[44px] flex justify-center items-center rounded-[12px] bg-[#F15C2014]">
+            <img
+              src={"/mobile-app-maintenance-user-support-and-training.webp"}
+              alt={"mobile app maintenance user support and training"}
+              title={"mobile app maintenance user support and training"}
+              className="w-6 h-6"
+            />
+          </div>
+          <h3 className="font-semibold text-xl">User Support and Training</h3>
+          <p className="text-sm font-normal leading-[19.74px]">
+            The support and maintenance services address various app technical
+            information, navigation performance, solving mobile app issues, and
+            providing necessary services around the clock. Dignite’s mobile app
+            maintenance service will blow the next-level app training and{" "}
+            <Link
+              href={"/services/mobile-app-consulting-services"}
+              className="text-[#F15C20]"
             >
-              <div className="w-[44px] h-[44px] flex justify-center items-center rounded-[12px] bg-[#F15C2014]">
-                <img src={service.image_src} alt={service.alt_tag} title={service.img_title} className="w-6 h-6"/>
-              </div>
-              <h3 className="font-semibold text-xl">{service.title}</h3>
-              <p className="text-sm font-normal leading-[19.74px]">
-                {service.text}
-              </p>
-            </div>
-          );
-        })}
+              app consulting{" "}
+            </Link>
+            to optimize end-user experience.
+          </p>
+        </div>
       </div>
     </section>
   );

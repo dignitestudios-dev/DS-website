@@ -92,8 +92,9 @@ const page = () => {
       <ServicesLayout page={<WebAppDevServicePage />} />
 
       <Script
-        id="webpage-json-ld"
         type="application/ld+json"
+        id="web-app-development-schema"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -102,9 +103,12 @@ const page = () => {
             url: "https://www.dignitestudios.com/services/web-application-development-services",
             description:
               "Dignite’s top experts fabricate stellar web app development services from custom applications to high-end optimization, our value-driven approach will make your company stand out among the utmost industries.",
+            thumbnailUrl:
+              "https://www.dignitestudios.com/banner-cover-image-of-web-application-development-services.webp",
           }),
         }}
       />
+
       <Script
         id="breadcrumblist-json-ld"
         type="application/ld+json"

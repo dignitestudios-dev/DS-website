@@ -12,7 +12,12 @@ const ExclusiveAndroid = () => {
         <span className="text-[#F15C20] text-[20px] font-bold uppercase">
           exclusive android
         </span>
-        <img src="/exclusive-android-lines.png" alt="" className="w-[203px]" />
+        <img
+          src="/exclusive-android-lines.png"
+          alt="android app design services"
+          title="android app design services"
+          className="w-[203px]"
+        />
       </div>
       <h2 className="headings-size text-center">
         Mobile App Design <br /> Services

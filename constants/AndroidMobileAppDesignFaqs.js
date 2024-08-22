@@ -19,7 +19,7 @@ export const ANDROID_MOBILE_APP_DESIGN_FAQS = [
     question:
       "What is the difference between Android app design vs iOS app design?",
     answer:
-      "The design layout related to Android mobile apps is known as Android app design, and vice versa.",
+      "Android app design provides more personalized user interfaces with a variety of widgets, icon layouts, dynamic themes, and user-centric experiences. Also, it is built with Kotlin or Java programming language. Whereas, iOS app design has a unified minimalistic structure due to its closed ecosystem. It has a rigid set of rules while developing design architecture.",
   },
   {
     question: "How much does it cost to design an Android app?",

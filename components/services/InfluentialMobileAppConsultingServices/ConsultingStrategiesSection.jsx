@@ -45,8 +45,20 @@ const ConsultingStrategiesSection = () => {
       image_title: "Mobile App testing and launch",
       image_alt:
         "man is holding a mobile device that appears mobile application layout",
-      paragrap1:
-        "Mobile testing refers to the proceeding of corroborating app functionality and usability before the mobile app launch phase of (Android or iOS) apps. Here, we provide the best mobile app consulting services while providing an intuitive user-friendly mobile app.",
+      paragrap1: (
+        <>
+          <Link
+            href={"/services/mobile-app-testing-services"}
+            className="text-[#F15C20]"
+          >
+            Mobile app testing
+          </Link>{" "}
+          refers to the proceeding of corroborating app functionality and
+          usability before the mobile app launch phase of (Android or iOS) apps.
+          Here, we provide the best mobile app consulting services while
+          providing an intuitive user-friendly mobile app.,
+        </>
+      ),
     },
     {
       heading: "Maintenance and Support",
@@ -54,7 +66,24 @@ const ConsultingStrategiesSection = () => {
       image_title: "Mobile App Consulting maintenance and support",
       image_alt:
         "a team member is providing quality support to their consumers of Mobile App Consulting maintenance",
-      paragrap1: `After the mobile application development process, it is very important to update the longevity and cogency of your mobile app. It not only helps in fixing bugs but also eradicates the errors interrupting the performance of your mobile. At Dignite Studios, you’ll get free mobile app maintenance and support from our incredible team for up to 2 months. Also, you’ll witness next-level mobile app consulting dispensations throughout the process.`,
+      paragrap1: (
+        <>
+          After the mobile application development process, it is very important
+          to update the longevity and cogency of your mobile app. It not only
+          helps in fixing bugs but also eradicates the errors interrupting the
+          performance of your mobile. At Dignite Studios, you’ll get free{" "}
+          <Link
+            href={
+              "/services/mobile-application-support-and-maintenance-services"
+            }
+            className="text-[#F15C20]"
+          >
+            mobile app maintenance and support
+          </Link>{" "}
+          from our incredible team for up to 2 months. Also, you’ll witness
+          next-level mobile app consulting dispensations throughout the process.
+        </>
+      ),
     },
   ];
   const [selectedHeading, setSelectedHeading] = useState(
@@ -96,11 +125,18 @@ const ConsultingStrategiesSection = () => {
         The charismatic architecture of your mobile creates a spectacular
         element in your brand’s worth. Likewise, a mobile app strategy can
         enhance user engagement and the credibility of your new app idea. Here,
-        the top-class mobile app consulting services of Dignite Studios, have
-        the privilege of accumulating the world’s renowned expert consultants,
-        specialists, designers, and professionals, who not only guide you latest
-        mobile strategy but also cede best practices for mobile application
-        development in the wide range of services for mobile progression. 
+        the top-class{" "}
+        <Link
+          href={"/services/mobile-app-consulting-services"}
+          className="text-[#F15C20]"
+        >
+          mobile app consulting services
+        </Link>{" "}
+        of Dignite Studios, have the privilege of accumulating the world’s
+        renowned expert consultants, specialists, designers, and professionals,
+        who not only guide you latest mobile strategy but also cede best
+        practices for mobile application development in the wide range of
+        services for mobile progression. 
       </p>
 
       <div className="w-full mt-8 flex flex-col lg:flex-row gap-y-6 items-start lg:items-center justify-between">
