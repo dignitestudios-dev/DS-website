@@ -1,5 +1,5 @@
 "use client";
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { BsFillBrightnessHighFill } from "react-icons/bs";
 import { IoMoon } from "react-icons/io5";
 import Link from "next/link";
@@ -8,10 +8,13 @@ import { IoIosArrowDown } from "react-icons/io";
 import { useParams, usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
+import { LuDot } from "react-icons/lu";
+import { GoDotFill } from "react-icons/go";
 
 const Navbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   const navigate = useRouter();
+  const [showDropdown, setShowDropdown] = useState(false);
   const pathname = usePathname();
   const handleClick = (id) => {
     if (pathname != "/") {
@@ -47,26 +50,35 @@ const Navbar = ({ setIsOpen }) => {
           className="h-[70px] w-[120px]"
         />
       </Link>
+
       <div
         style={{ color: palette?.color }}
         className={`w-auto mx-auto
-         hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8 `}
+         hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8`}
       >
         <Link
           aria-label="link"
           href={"/"}
           // onClick={() => navigateTo("/")}
-          className={`text-[14px] font-medium hover:text-orange-600
+          className={`text-[14px] font-medium hover:text-[#F15C20]
             } bg-transparent  outline-none`}
         >
           Home
         </Link>
         <button
-          className={`group text-[14px] hover:text-orange-600 relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
+          onClick={() => setShowDropdown(!showDropdown)}
+          className={`group text-[14px] ${
+            showDropdown && "text-[#F15C20]"
+          } relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
         >
           <span>Services</span>
-          <IoIosArrowDown className="text-md" />
-          <div
+          <IoIosArrowDown
+            className={`text-md ${
+              showDropdown ? "rotate-180 transition-all duration-300" : ""
+            }`}
+          />
+
+          {/* <div
             className={`w-80 h-auto p-6 z-20 rounded-2xl text-md scale-0 transition-all duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${
               theme == "dark"
                 ? "shadow-[0_3px_10px_rgb(230,230,230,0.2)]"
@@ -76,89 +88,193 @@ const Navbar = ({ setIsOpen }) => {
           >
             <Link
               href="/services/mobile-app-development-services"
-              className={`hover:text-orange-600 cursor-pointer `}
+              className={`hover:text-[#F15C20] cursor-pointer `}
             >
               Mobile App Development Services
             </Link>
             <Link
               href="/services/mobile-app-design-services"
-              className={`hover:text-orange-600 cursor-pointer `}
+              className={`hover:text-[#F15C20] cursor-pointer `}
             >
               Mobile App Design Services
             </Link>
             <Link
               href="/services/mobile-app-consulting-services"
-              className={`hover:text-orange-600 cursor-pointer `}
+              className={`hover:text-[#F15C20] cursor-pointer `}
             >
               Mobile App Consulting Services
             </Link>
             <Link
               href="/services/mobile-app-testing-services"
-              className={`hover:text-orange-600 cursor-pointer `}
+              className={`hover:text-[#F15C20] cursor-pointer `}
             >
               Mobile App Testing Services
             </Link>
 
             <Link
               href="/services/android-app-development-services"
-              className={`hover:text-orange-600 cursor-pointer `}
+              className={`hover:text-[#F15C20] cursor-pointer `}
             >
               Android App Development Services
             </Link>
             <Link
               href="/services/android-mobile-app-design-services"
-              className={`hover:text-orange-600 cursor-pointer text-start`}
+              className={`hover:text-[#F15C20] cursor-pointer text-start`}
             >
               Android Mobile App Design Services
             </Link>
             <Link
               href="/services/ios-app-development-services"
-              className={`hover:text-orange-600 cursor-pointer `}
+              className={`hover:text-[#F15C20] cursor-pointer `}
             >
               IOS App Development Services
             </Link>
             <Link
               href="/services/native-app-development-services"
-              className={`hover:text-orange-600 cursor-pointer `}
+              className={`hover:text-[#F15C20] cursor-pointer `}
             >
               Native App Development Services
             </Link>
             <Link
               href="/services/web-application-development-services"
-              className={`hover:text-orange-600 cursor-pointer `}
+              className={`hover:text-[#F15C20] cursor-pointer `}
             >
               Web App Development Services
             </Link>
-            {/* mobile-application-support-and-maintenance-services */}
             <Link
               href="/services/mobile-application-support-and-maintenance-services"
-              className={`hover:text-orange-600 cursor-pointer text-start`}
+              className={`hover:text-[#F15C20] cursor-pointer text-start`}
             >
               Mobile App Support And Maintenance Services
             </Link>
-          </div>
+          </div> */}
         </button>
         <button
           onClick={() => handleClick("case-studies")}
-          className={`text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`text-[14px] h-8 font-medium hover:text-[#F15C20] bg-transparent  outline-none`}
         >
           Case Studies
         </button>
         <Link
           href={"/about-us"}
           // onClick={() => navigateTo("/about-us")}
-          className={`text-[14px] font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`text-[14px] font-medium hover:text-[#F15C20] bg-transparent  outline-none`}
         >
           About us
         </Link>
         <Link
           href={"/contact-us"}
           // onClick={() => navigateTo("/contact-us")}
-          className={`text-[14px] font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`text-[14px] font-medium hover:text-[#F15C20] bg-transparent  outline-none`}
         >
           Contact
         </Link>
       </div>
+      {showDropdown && (
+        <div
+          onClick={() => setShowDropdown(false)}
+          className={`w-[100%] h-[369px] p-6 z-20 text-md transition-all duration-150 hidden lg:flex gap-2 justify-center lg:gap-x-8 xl:gap-x-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2  ${
+            theme == "dark" ? "shadow-xl" : "shadow-xl"
+          } -right-24`}
+          style={{ background: palette?.background, color: palette?.color }}
+        >
+          <div className="flex flex-col items-start gap-3">
+            <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">
+              Development
+            </h5>
+            <Link
+              href={"/services/mobile-app-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile
+              App Development Services
+            </Link>
+            <Link
+              href={"/services/android-app-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Android
+              App Development Services
+            </Link>
+            <Link
+              href={"/services/ios-app-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> iOS App
+              Development Services
+            </Link>
+            <Link
+              href={"/services/native-app-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Native
+              App Development Services
+            </Link>
+            <Link
+              href={"/services/web-application-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Web App
+              Development Services
+            </Link>
+          </div>
+          <div className="flex flex-col items-start gap-3">
+            <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">
+              Maintenance & Consulting
+            </h5>
+            <Link
+              href={
+                "/services/mobile-application-support-and-maintenance-services"
+              }
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              Mobile App Support & Maintenance Services
+            </Link>
+            <Link
+              href={"/services/mobile-app-consulting-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile
+              App Consulting Services
+            </Link>
+            <Link
+              href={"/services/mobile-app-testing-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile
+              App Testing Services
+            </Link>
+          </div>
+          <div className="flex flex-col items-start gap-3">
+            <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">
+              Design
+            </h5>
+            <Link
+              href={"/services/mobile-app-design-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              Mobile App Design Services
+            </Link>
+            <Link
+              href={"/services/android-mobile-app-design-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Android
+              App Design Services
+            </Link>
+            <Link
+              href={"/services/ios-app-design-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              iOS App Design Services
+            </Link>
+          </div>
+        </div>
+      )}
+
       <div className="w-auto flex gap-3 justify-start items-center">
         <button
           aria-label="button"

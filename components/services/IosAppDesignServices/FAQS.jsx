@@ -1,5 +1,6 @@
 "use client";
 import { ANDROID_APP_DEV_SERVICES_FAQS } from "@/constants/androidappdevelopmentserviesfaqs";
+import { IOS_APP_DESIGN_FAQS } from "@/constants/IosAppDesignFaqs";
 import { MOBILE_APP_CONSULTING_FAQS } from "@/constants/mobileappconsultingfaq";
 import { GlobalContext } from "@/context/GlobalContext";
 import Head from "next/head";
@@ -36,7 +37,7 @@ const FAQS = () => {
           data-accordion="collapse"
           className="w-full xl:w-[60%] mx-auto"
         >
-          {ANDROID_APP_DEV_SERVICES_FAQS.map((faq, index) => {
+          {IOS_APP_DESIGN_FAQS.map((faq, index) => {
             return (
               <div
                 type="button"

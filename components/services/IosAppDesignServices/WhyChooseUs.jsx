@@ -37,9 +37,11 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/mobile-app-maintenance-expert-developers-icon.webp"}
-            alt={"mobile app maintenance expert developers icon"}
-            title={"mobile app maintenance expert developers"}
+            src={
+              "/ios-app-development-service-multi-industry-discipline-icon.webp"
+            }
+            alt={"iOS app development service Multi-Industry Discipline icon"}
+            title={"Multi-Industry Discipline Icon"}
             className=""
             width="36px"
             height="36px"
@@ -56,10 +58,13 @@ const WhyChooseUs = () => {
               color: "#8F8F8F",
             }}
           >
-            The top-notch specialists of Dignite Studios dive deep into project
-            dimensions and the latest trends to provide reliable solutions to
-            their clients. Also, provide mobile app registration for the
-            businesses.
+            We build an ingenious iOS app design portfolio to boost businesses
+            across international industries. We craft tailored solutions for
+            your app idea and develop productive iPhone app designs holding a
+            powerful process with in-depth research, seamless user experience,
+            and constructive post-analysis to maintain the credibility of an
+            app. Dignite’s mobile app strategists perform every step to scale
+            your app's functions, operations, and performance.
           </p>
         </div>
 
@@ -71,14 +76,12 @@ const WhyChooseUs = () => {
         >
           <img
             src={
-              "/mobile-app-support-and-maintenance-track-record-of-bugs-fixing-icon.webp"
+              "/ios-app-development-service-embrace-app-builder-technology-icon.webp"
             }
             alt={
-              "mobile app support and maintenance track record of bugs fixing icon"
+              "iOS app development service embrace app builder technology icon"
             }
-            title={
-              "Track Record of bugs fixing of mobile app and support maintenance"
-            }
+            title={"Embrace App Builder Technology Icon"}
             className=""
             width="36px"
             height="36px"
@@ -87,7 +90,7 @@ const WhyChooseUs = () => {
             className="text-xl  font-semibold"
             style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}
           >
-            Track Record of Bug Fixing
+            Embrace App Builder Technology
           </h3>
           <p
             className="text-xs text-center font-normal leading-[16.14px] tracking-wider "
@@ -95,9 +98,10 @@ const WhyChooseUs = () => {
               color: "#8F8F8F",
             }}
           >
-            We formulate effective measures to identify errors and bugs
-            promptly. Our strategic approach secures data integration and
-            entails optimizing mobile app operations smoothly.
+            The leading iPhone app design company Dignite Studios, determines
+            the finest app-builder technology to construct coercive
+            infrastructure of your apps to make an effective communication path
+            for the users.
           </p>
         </div>
 
@@ -109,14 +113,10 @@ const WhyChooseUs = () => {
         >
           <img
             src={
-              "/mobile-app-and-support-maintenance-exceptional-performance-icon.webp"
+              "/ios-app-development-a-decade-of-scaling-design-heights-icon.webp"
             }
-            alt={
-              "mobile app and support maintenance exceptional performance icon"
-            }
-            title={
-              "Exceptional performance of mobile app and support maintenance"
-            }
+            alt={"ios-app-development-a-decade-of-scaling-design-heights-icon"}
+            title={"A decade of scaling design heights icon"}
             className=""
             width="36px"
             height="36px"
@@ -125,7 +125,7 @@ const WhyChooseUs = () => {
             className="text-xl  font-semibold"
             style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}
           >
-            Exceptional Performance
+            A Decade of Scaling Design Heights
           </h3>
           <p
             className="text-xs text-center font-normal leading-[16.14px] tracking-wider "
@@ -133,9 +133,13 @@ const WhyChooseUs = () => {
               color: "#8F8F8F",
             }}
           >
-            We prioritize user experience and optimization of performance
-            closely. Dignite’s reliable services will develop your mobile app
-            with the latest tools and technology to upgrade your software.
+            Designing an iPhone app for years has created an interactive
+            approach to bring industries with innovative app idea with
+            cutting-edge tools and technologies. We strive to make your goal in
+            a pre-eminent manner to make your brand categorized among
+            prestigious Apple award winners. The premium iPhone app UI\UX
+            designing company Diginte Studios embraces an app with advanced
+            features and compelling Apple structures.
           </p>
         </div>
 
@@ -146,11 +150,9 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/mobile-app-maintenance-proactive-and-preventive-icon.webp"}
-            alt={"mobile app maintenance proactive and preventive icon"}
-            title={
-              "Proactive and preventive of mobile app and support maintenance"
-            }
+            src={"/ios-app-development-primed-for-perfection-icon.webp"}
+            alt={"iOs app development primed for perfection icon"}
+            title={"Primed for Perfection Icon"}
             className=""
             width="36px"
             height="36px"
@@ -159,7 +161,7 @@ const WhyChooseUs = () => {
             className="text-xl  font-semibold"
             style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}
           >
-            Proactive & Preventive
+            Primed for Perfection
           </h3>
           <p
             className="text-xs text-center font-normal leading-[16.14px] tracking-wider "
@@ -167,91 +169,10 @@ const WhyChooseUs = () => {
               color: "#8F8F8F",
             }}
           >
-            The secret recipe of our services anticipates your potential
-            problems and ensures highly innovative{" "}
-            <Link
-              href={"/services/mobile-app-design-services"}
-              className="text-[#F15C20]"
-            >
-              mobile app design
-            </Link>{" "}
-            with a cutthroat edge.
-          </p>
-        </div>
-
-        <div
-          className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-3"
-          style={{
-            color: palette?.color,
-          }}
-        >
-          <img
-            src={
-              "/mobile-app-and-support-maintenance-flexibility-and-scalability-icon.webp"
-            }
-            alt={
-              "mobile app and support maintenanceFlexibility and scalability icon"
-            }
-            title={
-              "Flexibility and scalability of mobile app and support maintenance"
-            }
-            className=""
-            width="36px"
-            height="36px"
-          />
-          <h3
-            className="text-xl  font-semibold"
-            style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}
-          >
-            Flexibility & Scalability
-          </h3>
-          <p
-            className="text-xs text-center font-normal leading-[16.14px] tracking-wider "
-            style={{
-              color: "#8F8F8F",
-            }}
-          >
-            Our services endow flexible and unique services to meet the needs of
-            the valuable client or partner. We stand out in providing support
-            and maintenance services accurately and adequately.
-          </p>
-        </div>
-
-        <div
-          className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-3"
-          style={{
-            color: palette?.color,
-          }}
-        >
-          <img
-            src={
-              "/mobile-app-and-support-maintenance-transparency-processes-icon.webp"
-            }
-            alt={
-              "mobile app and support maintenance transparency processes icon"
-            }
-            title={
-              "Transparency processes of mobile app and support maintenance"
-            }
-            className=""
-            width="36px"
-            height="36px"
-          />
-          <h3
-            className="text-xl  font-semibold"
-            style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}
-          >
-            Transparency Processes
-          </h3>
-          <p
-            className="text-xs text-center font-normal leading-[16.14px] tracking-wider "
-            style={{
-              color: "#8F8F8F",
-            }}
-          >
-            You will experience a transparent process throughout the project
-            maintenance at Dignite Studios. With regular monitoring, we provide
-            progress reports to bring to your knowledge timely.
+            Dignite’s iOS app design services bestow the leading design
+            structure that undergoes in-house standards, meticulous
+            specifications, and tested monitoring system to forge a well-versed
+            validated approach that prevails myriad excellence.
           </p>
         </div>
       </div>

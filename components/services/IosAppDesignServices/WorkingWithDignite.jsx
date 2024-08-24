@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { GlobalContext } from "@/context/GlobalContext";
 import { VALUE_PROPOSITION } from "@/constants/valueproposition";
+import { IOS_APP_DESIGN_BENEFITS_OF_WORKING_WITH_DIGNITE } from "@/constants/IosBenefitsOfWorkingWithDignite";
 
 export const sliderSettings = {
   slidesPerView: 1,
@@ -58,11 +59,11 @@ export default function WorkingWithDignite() {
 
         <Swiper {...sliderSettings} className=" z-10">
           <SliderButtons />
-          {VALUE_PROPOSITION.map((card, i) => {
+          {IOS_APP_DESIGN_BENEFITS_OF_WORKING_WITH_DIGNITE.map((card, i) => {
             return (
               <SwiperSlide key={i} className="">
                 <div
-                  className={`h-[320px] lg:h-[360px] xl:h-[310px] 2xl:h-[340px] w-full rounded-[18px]
+                  className={`h-[320px] lg:h-[360px] xl:h-[280px] w-full rounded-[18px]
                    p-6 flex flex-col items-start gap-0 text-start group  ${
                      theme === "dark"
                        ? "bg-[#393939] hover:bg-[#F15C20] text-white transition-all duration-200"

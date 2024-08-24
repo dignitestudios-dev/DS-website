@@ -1687,9 +1687,26 @@ image {
   }
 }
 
-/* .slide-up-icon:hover {
-  transform: translateY(-30px);
-  transition: transform 0.5s ease-in-out;
-} */
-
 /* android mobile app design page end */
+
+.ios-app-design:hover {
+  background: linear-gradient(
+    90deg,
+    #ffb484 0%,
+    #ff88a4 33.6%,
+    #c47aff 68.6%,
+    #759bff 100%
+  );
+  transition: all 1s;
+}
+
+.ios-app-design-card:hover {
+  background: linear-gradient(
+    90deg,
+    #ffb484 0%,
+    #ff88a4 33.6%,
+    #c47aff 68.6%,
+    #759bff 100%
+  );
+  transition: all 1s;
+}

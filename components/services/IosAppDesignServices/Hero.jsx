@@ -9,11 +9,11 @@ import { IoMoon } from "react-icons/io5";
 
 const Hero = () => {
   const { theme } = useContext(GlobalContext);
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   return (
     <div className="w-full text-center relative pb-20 pt-2 md:pt-10 global-padding-horizontal flex flex-col items-center">
       <div
-        className={`flex items-center justify-center gap-1 rounded-full px-4 py-2 mb-6 ${
+        className={`flex items-center justify-center gap-1 hover:text-white rounded-full px-4 py-2 mb-6 ios-app-design ${
           theme === "light" ? "bg-[#F6F6F6]" : "bg-[#2d2d2d]"
         }`}
       >
@@ -44,27 +44,29 @@ const Hero = () => {
       <div className="w-full mt-20 flex items-start justify-center flex-wrap gap-10">
         <div
           className={`w-[380px] h-[667px] rounded-[60px] group flex flex-col items-center justify-start pt-12 gap-8 transition-all duration-300 ${
-            toggle ? "bg-[#F5F5F5]" : "bg-gray-900"
+            toggle
+              ? "bg-[#F5F5F5] ios-app-design-card"
+              : "bg-[#3A3A3C] ios-app-design-card"
           }`}
         >
           <h2
-            className={`text-[24px] font-semibold ${
+            className={`text-[24px] font-semibold group-hover:text-white ${
               toggle ? "text-black" : "text-white"
             }`}
           >
             iOS Mobile App
           </h2>
           <img
-            src="/ios-mobile-app-mockup.png"
-            title=""
-            alt=""
+            src="/ios-app-design-company.webp"
+            title="iOS App design company"
+            alt="iOS App design company shows three mockup screens of iOS app design"
             className="w-[256px] h-[522.38px]"
           />
         </div>
 
         <div
           className={`w-[380px] h-[667px] rounded-[60px] flex flex-col items-center justify-start pt-12 gap-8 ${
-            toggle ? "bg-[#F5F5F5]" : "bg-gray-900"
+            toggle ? "bg-[#F5F5F5]" : "bg-[#3A3A3C]"
           }`}
         >
           <h2
@@ -87,7 +89,7 @@ const Hero = () => {
               className={`h-[122px] w-[122px] text-xl text-white transition-all duration-300 rounded-full flex items-center justify-center ${
                 toggle
                   ? "translate-x-2 bg-white shadow-2xl"
-                  : "translate-x-[calc(100%-18%)] lg:translate-x-[calc(160%)] bg-gray-900"
+                  : "translate-x-[calc(100%-18%)] lg:translate-x-[calc(160%)] bg-[#3A3A3C]"
               } `}
             >
               {toggle ? (
@@ -101,11 +103,13 @@ const Hero = () => {
 
         <div
           className={`w-[380px] h-[667px] rounded-[60px] group flex flex-col items-center justify-start pt-12 gap-10 ${
-            toggle ? "bg-[#F5F5F5]" : "bg-gray-900"
+            toggle
+              ? "bg-[#F5F5F5] ios-app-design-card"
+              : "bg-[#3A3A3C] ios-app-design-card"
           }`}
         >
           <h2
-            className={`text-[24px] font-semibold ${
+            className={`text-[24px] font-semibold group-hover:text-white ${
               toggle ? "text-black" : "text-white"
             }`}
           >
@@ -113,51 +117,51 @@ const Hero = () => {
           </h2>
           <div className="w-full flex justify-around gap-10 flex-wrap px-10">
             <img
-              src="/ios-message-icon.png"
-              title=""
-              alt=""
+              src="/ios-message-icon.webp"
+              title="iOS App design company"
+              alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
-              src="/ios-clock-icon.png"
-              title=""
-              alt=""
+              src="/ios-clock-icon.webp"
+              title="iOS App design company"
+              alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
-              src="/ios-camera-icon.png"
-              title=""
-              alt=""
+              src="/ios-camera-icon.webp"
+              title="iOS App design company"
+              alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
-              src="/ios-music-icon.png"
-              title=""
-              alt=""
+              src="/ios-music-icon.webp"
+              title="iOS App design company"
+              alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
-              src="/ios-photos-icon.png"
-              title=""
-              alt=""
+              src="/ios-photos-icon.webp"
+              title="iOS App design company"
+              alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
-              src="/ios-safari-icon.png"
-              title=""
-              alt=""
+              src="/ios-safari-icon.webp"
+              title="iOS App design company"
+              alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
-              src="/ios-weather-icon.png"
-              title=""
-              alt=""
+              src="/ios-weather-icon.webp"
+              title="iOS App design company"
+              alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
-              src="/ios-video-call-icon.png"
-              title=""
-              alt=""
+              src="/ios-video-call-icon.webp"
+              title="iOS App design company"
+              alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
           </div>

@@ -1,5 +1,5 @@
 "use client";
-import { LEADING_MOBILE_APP_DESIGN_PROCESS } from "@/constants/LeadingMobileAppDesignProcess";
+import { IOS_APP_DESIGN_PROCESS } from "@/constants/IosAppDesignProcess";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -35,7 +35,7 @@ const DesignProcess = () => {
       </section>
 
       <div className="w-full mt-6 lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 xl:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 xl:mt-10">
-        {LEADING_MOBILE_APP_DESIGN_PROCESS.map((service, key) => {
+        {IOS_APP_DESIGN_PROCESS.map((service, key) => {
           return (
             <div
               key={key}

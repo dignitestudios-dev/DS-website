@@ -1,5 +1,6 @@
+"use client";
 import Navbar from "@/components/global/Navbar";
-import React from "react";
+import React, { useContext } from "react";
 import Hero from "./Hero";
 import DigitalTransformation from "./DigitalTransformation";
 import IosAppDesignServices from "./IosAppDesignServices";
@@ -8,11 +9,13 @@ import WorkingWithDignite from "./WorkingWithDignite";
 import WhyChooseUs from "./WhyChooseUs";
 import FAQS from "./FAQS";
 import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
+import { GlobalContext } from "@/context/GlobalContext";
 
 const IosAppDesignServicesPage = () => {
+  const { setIsSidebarOpen } = useContext(GlobalContext);
   return (
     <div className="w-full">
-      <Navbar />
+      <Navbar setIsOpen={setIsSidebarOpen} />
       <Hero />
       <DigitalTransformation />
       <IosAppDesignServices />
