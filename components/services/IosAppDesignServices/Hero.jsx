@@ -13,8 +13,10 @@ const Hero = () => {
   return (
     <div className="w-full text-center relative pb-20 pt-2 md:pt-10 global-padding-horizontal flex flex-col items-center">
       <div
-        className={`flex items-center justify-center gap-1 hover:text-white rounded-full px-4 py-2 mb-6 ios-app-design ${
-          theme === "light" ? "bg-[#F6F6F6]" : "bg-[#2d2d2d]"
+        className={`flex items-center justify-center gap-1 rounded-full px-4 py-2 mb-6 ${
+          theme === "light"
+            ? "bg-[#F6F6F6] ios-app-design"
+            : "bg-[#2d2d2d] ios-app-design"
         }`}
       >
         <FaApple className="w-[39px] h-[36px]" />{" "}
@@ -44,9 +46,7 @@ const Hero = () => {
       <div className="w-full mt-20 flex items-start justify-center flex-wrap gap-10">
         <div
           className={`w-[380px] h-[667px] rounded-[60px] group flex flex-col items-center justify-start pt-12 gap-8 transition-all duration-300 ${
-            toggle
-              ? "bg-[#F5F5F5] ios-app-design-card"
-              : "bg-[#3A3A3C] ios-app-design-card"
+            toggle ? "bg-[#F5F5F5] ios-app-design-card" : "bg-[#3A3A3C]"
           }`}
         >
           <h2
@@ -56,12 +56,21 @@ const Hero = () => {
           >
             iOS Mobile App
           </h2>
-          <img
-            src="/ios-app-design-company.webp"
-            title="iOS App design company"
-            alt="iOS App design company shows three mockup screens of iOS app design"
-            className="w-[256px] h-[522.38px]"
-          />
+          {toggle ? (
+            <img
+              src="/ios-app-design-company.webp"
+              title="iOS App design company"
+              alt="iOS App design company shows three mockup screens of iOS app design"
+              className="w-[256px] h-[522.38px]"
+            />
+          ) : (
+            <img
+              src="/ios-app-design-company-dark.webp"
+              title="iOS App design company"
+              alt="iOS App design company shows three mockup screens of iOS app design"
+              className="w-[256px] h-[522.38px]"
+            />
+          )}
         </div>
 
         <div
@@ -103,9 +112,7 @@ const Hero = () => {
 
         <div
           className={`w-[380px] h-[667px] rounded-[60px] group flex flex-col items-center justify-start pt-12 gap-10 ${
-            toggle
-              ? "bg-[#F5F5F5] ios-app-design-card"
-              : "bg-[#3A3A3C] ios-app-design-card"
+            toggle ? "bg-[#F5F5F5] ios-app-design-card" : "bg-[#3A3A3C]"
           }`}
         >
           <h2
