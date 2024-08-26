@@ -5,7 +5,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const DigitalTransformation = () => {
   return (
     <div className="w-full global-padding-horizontal py-10 lg:py-20">
-      <div className="w-full flex flex-wrap">
+      <div className="w-full flex flex-wrap gap-y-10">
         <div className="w-full lg:w-[60%]">
           <div className="flex flex-col">
             <span className="text-[#F15C20] text-[20px] font-bold uppercase">
@@ -32,14 +32,36 @@ const DigitalTransformation = () => {
             Start Your Project <FiArrowUpRight className="text-lg" />
           </Link>
         </div>
-        <div className="w-full lg:w-[40%]">
-          <img
-            src="/transformation-agency-mockup.png"
-            alt=""
+        <div className="w-full lg:w-[40%] flex justify-center">
+          {/* <video
+            className="bg-transparent"
             width={295}
             height={399}
-            className="mx-auto h-[539px] object-contain"
-          />
+            autoPlay
+            loop
+            muted
+          >
+            <source src="/ios-app-design-animation.mp4" type="video/mp4" />
+          </video> */}
+          <div className="w-[295px] h-[539px] relative">
+            <img
+              src="/ios-app-mobile-sketch.png"
+              alt=""
+              width={295}
+              height={399}
+              className="mx-auto h-[539px] object-contain absolute inset-0 z-20 overflow-hidden"
+            />
+            <video
+              className="bg-transparent absolute inset-0 h-[97%] z-10 top-2"
+              width={295}
+              height={399}
+              autoPlay
+              loop
+              muted
+            >
+              <source src="/final-web-vid.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
       </div>
     </div>

@@ -1711,3 +1711,7 @@ image {
   );
   transition: all 1s;
 }
+
+video {
+  border-radius: 67px !important;
+}

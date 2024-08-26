@@ -1,9 +1,6 @@
 "use client";
-import { ANDROID_APP_DEV_SERVICES_FAQS } from "@/constants/androidappdevelopmentserviesfaqs";
 import { IOS_APP_DESIGN_FAQS } from "@/constants/IosAppDesignFaqs";
-import { MOBILE_APP_CONSULTING_FAQS } from "@/constants/mobileappconsultingfaq";
 import { GlobalContext } from "@/context/GlobalContext";
-import Head from "next/head";
 import Script from "next/script";
 import React, { useContext, useState } from "react";
 import { FiMinus, FiPlus } from "react-icons/fi";
@@ -97,6 +94,60 @@ const FAQS = () => {
           })}
         </div>
       </div>
+
+      <Script
+        type="application/ld+json"
+        id="faq-schema"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is iOS UI design?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It refers to the guidelines provided by Apple for designing compelling user interfaces for iOS apps. This includes cover layout, color, and navigation of the application.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How to design an iOS mobile app?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "iOS provides users with a quality experience and compiles a list of guidelines to design an application. Here, designing an iPhone app is not complicated if followed as prescribed. The finest app design agency Dignite Studios, builds a captivating process to develop high-end apps.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Why do developers prefer iOS?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Decentralization in iOS software systems allows developers to impart a diverse user base that includes preferences, needs, and budgets. By supporting multiple devices developers can reach a larger market share and attract users efficiently.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does it cost to design an iOS app?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "To know the accurate cost of designing apps, please fill out the below form and get the required quotation.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the future scope of iOS app development?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "As per the stats of 2024, there will be a dramatic rise in personalized user experiences of mobile app design. It will leverage AI technologies to analyze the rise of more intelligent and personalized user experiences. Apps will leverage AI technologies to evaluate data and deliver tailored recommendations.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </section>
   );
 };
