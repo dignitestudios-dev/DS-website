@@ -23,7 +23,6 @@ const DriveBusiness = () => {
         <img
           src="/mobile-app-consultation-services.webp"
           alt="A person holding a laptop and providing mobile app consultation services"
-          title="mobile app consultation services"
           className="w-[90%] md:w-[45%] lg:w-[40%] ms-3 xl:w-[530px] xl:h-[504px] 2xl:w-[600px] 2xl:h-[584px] md:absolute bottom-0 md:right-4"
         />
       </div>

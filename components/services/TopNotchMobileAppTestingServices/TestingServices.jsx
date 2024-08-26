@@ -23,7 +23,6 @@ const TestingServices = () => {
             loader={customLoader}
             src="/mobile-software-functional-testing-services.webp"
             alt="two mobile mock screens shows the testing of streaming applications"
-            title="Mobile software functional testing services"
             className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-right"
             data-aos-offset="100" // Adjusted offset to trigger animation earlier
@@ -116,7 +115,6 @@ const TestingServices = () => {
             loader={customLoader}
             src="/mobile-software-automated-testing-services.webp"
             alt=" two mobile mock screens shows the testing of application layout"
-            title="Mobile software automated testing services"
             className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-left"
             data-aos-offset="100" // Adjusted offset to trigger animation earlier
@@ -138,7 +136,6 @@ const TestingServices = () => {
             loader={customLoader}
             src="/mobile-software-data-testing-services.webp"
             alt="two mock screens shows the testing of application structure"
-            title="mobile software data testing services"
             className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-right"
             data-aos-offset="100" // Adjusted offset to trigger animation earlier

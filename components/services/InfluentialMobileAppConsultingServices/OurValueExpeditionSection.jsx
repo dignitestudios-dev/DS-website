@@ -16,7 +16,6 @@ const OurValueExpeditionSection = () => {
           height={357.6}
           src="/our-value-expedition-mockup.webp"
           alt="our-value-expedition-mockup"
-          title="our-value-expedition-mockup"
           className="md:w-[496px] md:h-[300px] mx-auto lg:h-[250px] 2xl:w-[606px] xl:h-[300px] 2xl:h-[340px]"
         />
       </div>

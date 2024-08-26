@@ -55,7 +55,6 @@ const BenefitsOfWorking = () => {
               height={24}
               src="/orange-mobile-app-development-project-outlook-icon.webp"
               alt="Mobile App Development Service Project Outlook Icon"
-              title="Mobile App Development Service Project Outlook"
             />
           </div>
           <p className={`text-3xl font-semibold`}>Project Outlook</p>
@@ -88,7 +87,6 @@ const BenefitsOfWorking = () => {
               height={24}
               src="/orange-mobile-app-development-collaboration-icon.webp"
               alt="Mobile App Development Service collaboration icon"
-              title="Mobile App Development Service collaboration"
             />
           </div>
           <p className={`text-3xl font-semibold`}>Collaboration</p>
@@ -118,7 +116,6 @@ const BenefitsOfWorking = () => {
               height={24}
               src="/orange-mobile-app-development-cost-estimation-icon.webp"
               alt="Mobile App Development Service Cost estimation App Icon"
-              title="Mobile App Development Service Cost Estimation"
             />
           </div>
           <p className={`text-3xl font-semibold`}>Cost Estimation</p>
@@ -151,7 +148,6 @@ const BenefitsOfWorking = () => {
               height={24}
               src="/orange-mobile-app-development-service-risk-management-icon.webp"
               alt="Mobile App Development Service Risk Management Icon"
-              title="Mobile App Development Service Risk Management"
             />
           </div>
           <p className={`text-3xl font-semibold`}>Risk Management</p>
@@ -184,7 +180,6 @@ const BenefitsOfWorking = () => {
               height={20}
               src="/orange-mobile-app-development-project-documentation-icon-1.webp"
               alt="Mobile App Development Project Documentation Icon"
-              title="Mobile App Development Project Documentation"
             />
           </div>
 
@@ -220,7 +215,6 @@ const BenefitsOfWorking = () => {
               height={24}
               src="/orange-mobile-app-development-service-reporting-icon.webp"
               alt="Mobile App Development Service Reporting Icon"
-              title="Mobile App Development Service Reporting"
             />
           </div>
           <p className={`text-3xl font-semibold`}>Reporting</p>
@@ -252,7 +246,6 @@ const BenefitsOfWorking = () => {
               height={24}
               src="/orange-mobile-app-development-service-post-launch-icon-1.webp"
               alt="Mobile App Development Service Post-launch Icon"
-              title="Mobile App Development Service Post-launch"
             />
           </div>
           <p className={`text-3xl font-semibold`}>Post Launch</p>
@@ -281,7 +274,6 @@ const BenefitsOfWorking = () => {
               width={24}
               height={24}
               src="/orange-mobile-app-development-change-request-management-icon.webp"
-              title="Mobile App Development Change Request Management"
               alt="mobile app development change request management icon"
             />
           </div>

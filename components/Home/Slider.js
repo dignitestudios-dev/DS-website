@@ -9,7 +9,6 @@ const Slider = () => {
     <div className="scroller__inner w-screen my-8 flex items-center gap-4 justify-start  md:h-[250px] lg:h-[354px] ">
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         src={"/top-mobile-app-development-company-1.webp"}
@@ -19,7 +18,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         src={"/top-mobile-app-development-company-2.webp"}
@@ -29,7 +27,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         src={"/top-mobile-app-development-company-3.webp"}
@@ -40,7 +37,6 @@ const Slider = () => {
       <Image
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         loading="lazy"
@@ -51,7 +47,6 @@ const Slider = () => {
       <Image
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         loading="lazy"
@@ -61,7 +56,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         src={"/top-mobile-app-development-company-3.webp"}
@@ -73,7 +67,6 @@ const Slider = () => {
       <Image
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         loading="lazy"
@@ -84,7 +77,6 @@ const Slider = () => {
       <Image
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         loading="lazy"
@@ -95,7 +87,6 @@ const Slider = () => {
       <Image
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         loading="lazy"
@@ -106,7 +97,6 @@ const Slider = () => {
       <Image
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         loading="lazy"
@@ -117,7 +107,6 @@ const Slider = () => {
       <Image
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         loading="lazy"
@@ -128,7 +117,6 @@ const Slider = () => {
       <Image
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         loading="lazy"
@@ -138,7 +126,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -149,7 +136,6 @@ const Slider = () => {
 
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -159,7 +145,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -169,7 +154,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -179,7 +163,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -190,7 +173,6 @@ const Slider = () => {
 
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -200,7 +182,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -210,7 +191,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -220,7 +200,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -231,7 +210,6 @@ const Slider = () => {
 
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -241,7 +219,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority
@@ -251,7 +228,6 @@ const Slider = () => {
       />
       <Image
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        title="top mobile app development company"
         width={510}
         height={324}
         priority

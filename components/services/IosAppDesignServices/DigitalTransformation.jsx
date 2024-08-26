@@ -37,7 +37,6 @@ const DigitalTransformation = () => {
             <img
               src="/ios-app-mobile-sketch.png"
               alt="ios app mobile sketch"
-              title="ios app mobile sketch"
               width={295}
               height={399}
               className="mx-auto h-[539px] object-contain absolute inset-0 z-20 overflow-hidden"

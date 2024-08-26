@@ -9,10 +9,8 @@ const TechnologiesWeAreUsing = () => {
   return (
     <section className="w-full global-padding-horizontal py-12">
       <div className="w-full flex flex-col items-center justify-center">
-        <p className="text-[#F15C20] text-xl font-bold uppercase">
-          exlcusive
-        </p>
-        <img src="/lines.png" alt="lines" title="lines" className="w-[101px] h-[8px]" />
+        <p className="text-[#F15C20] text-xl font-bold uppercase">exlcusive</p>
+        <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
       </div>
       <h2 className="headings-size text-center my-4">
         Testing Tools and <br /> Technologies
@@ -35,7 +33,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -51,7 +48,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/swift-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -67,7 +63,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/vue-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -83,7 +78,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/react-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -99,7 +93,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -115,7 +108,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -131,7 +123,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -147,7 +138,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/swift-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -163,7 +153,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/vue-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -179,7 +168,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/react-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -195,7 +183,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -211,7 +198,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -227,7 +213,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -243,7 +228,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/swift-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -259,7 +243,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/vue-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -275,7 +258,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/react-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -291,7 +273,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -307,7 +288,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -323,7 +303,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -339,7 +318,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/swift-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -355,7 +333,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/vue-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -371,7 +348,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/react-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -387,7 +363,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -403,7 +378,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -424,7 +398,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -440,7 +413,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/java-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -456,7 +428,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -472,7 +443,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/firebase-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -488,7 +458,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -504,7 +473,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -520,7 +488,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/java-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -536,7 +503,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -552,7 +518,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/firebase-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -568,7 +533,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -584,7 +548,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -600,7 +563,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/java-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -616,7 +578,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -632,7 +593,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/firebase-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -648,7 +608,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -664,7 +623,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -680,7 +638,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/java-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -696,7 +653,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -712,7 +668,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/firebase-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -728,7 +683,6 @@ const TechnologiesWeAreUsing = () => {
             <img
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />

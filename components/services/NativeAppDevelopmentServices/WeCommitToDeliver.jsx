@@ -53,7 +53,6 @@ const WeCommitToDeliver = () => {
             <img
               src="/Full-Stack-Native-App-Development-Services.webp"
               alt="Full Stack Native App Development Services"
-              title="Full Stack Native App Development Services"
               className="h-[311px] lg:h-[411px] mx-auto"
             />
           </div>
@@ -84,7 +83,6 @@ const WeCommitToDeliver = () => {
             <img
               src="/Tablet-app-development-services.webp"
               alt="Tablet app development services page shows mock screen of tablet application"
-              title="Tablet app development services"
               className="h-[300px] lg:h-[424px] mx-auto w-full absolute bottom-0"
             />
           </div>
@@ -116,7 +114,6 @@ const WeCommitToDeliver = () => {
             <img
               src="/Native-app-development-services.webp"
               alt="Native app development services page shows iOS app development mockup screens"
-              title="Native app development services"
               className="h-[318px] lg:h-[411px] mx-auto"
             />
           </div>
@@ -149,7 +146,6 @@ const WeCommitToDeliver = () => {
             <img
               src="/native-android-app-development-services.webp"
               alt="Android app development services page shows mockup screen of Android application"
-              title="Android app development services"
               className="h-[318px] lg:h-[411px] mx-auto"
             />
           </div>
@@ -185,7 +181,6 @@ const WeCommitToDeliver = () => {
             <img
               src="/iPad-app-development-services.webp"
               alt=" iPad app development services page shows mockscreeen of Android application on the mobile device"
-              title="iPad app development services"
               className="h-[318px] lg:h-[411px] mx-auto"
             />
           </div>

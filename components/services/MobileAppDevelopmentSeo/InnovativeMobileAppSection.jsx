@@ -46,7 +46,6 @@ const InnovativeMobileAppSection = () => {
           height={557.42}
           src="/dignite-service-scope-mockup.webp"
           alt="dignite-service-scope-mockup"
-          title="dignite-service-scope-mockup"
           className="md:absolute md:bottom-0 md:right-0 md:h-[300px] md:w-[50%] lg:h-[360px] xl:h-[557.42px] xl:w-[544.12px]"
         />
       </div>

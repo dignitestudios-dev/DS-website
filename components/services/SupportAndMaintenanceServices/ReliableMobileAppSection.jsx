@@ -41,7 +41,6 @@ const ReliableMobileAppSection = () => {
             <img
               src={"/mobile-app-maintenance-bugs-conformance-icon.webp"}
               alt={"mobile app maintenance bugs conformance icon"}
-              title={"Bugs Conformance"}
               className="w-6 h-6"
             />
           </div>
@@ -62,7 +61,6 @@ const ReliableMobileAppSection = () => {
             <img
               src={"/mobile-app-maintenance-security-updates-icon.webp"}
               alt={"mobile app maintenance security updates icon"}
-              title={"Security updates and maintenance"}
               className="w-6 h-6"
             />
           </div>
@@ -83,7 +81,6 @@ const ReliableMobileAppSection = () => {
             <img
               src={"/mobile-app-maintenance-performance-optimization-icon.webp"}
               alt={"mobile app maintenance performance optimization icon"}
-              title={"Performance optimization mobile app maintenance services"}
               className="w-6 h-6"
             />
           </div>
@@ -104,7 +101,6 @@ const ReliableMobileAppSection = () => {
             <img
               src={"/mobile-app-maintenance-mediator-integration-icon.webp"}
               alt={"mobile app maintenance mediator integration icon"}
-              title={"Mediator Integration"}
               className="w-6 h-6"
             />
           </div>
@@ -125,7 +121,6 @@ const ReliableMobileAppSection = () => {
             <img
               src={"/mobile-app-maintenance-user-support-and-training.webp"}
               alt={"mobile app maintenance user support and training"}
-              title={"mobile app maintenance user support and training"}
               className="w-6 h-6"
             />
           </div>

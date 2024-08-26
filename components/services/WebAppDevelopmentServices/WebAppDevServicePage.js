@@ -18,15 +18,15 @@ const WebAppDevServicePage = () => {
   return (
     <div className="w-full overflow-y-auto overflow-x-hidden">
       <Navbar setIsOpen={setIsSidebarOpen} />
-      <Hero/>
-      <UnrivaledSection/>
-      <CustomWebAppDevSection/>
-      <WebAppProcess/>
-      <IndustryProtocols/>
-      <BenefitsOfWebAppDev/>
-      <TechnologiesAndTools/>
-      <WhyChooseUs/>
-      <Faqs/>
+      <Hero />
+      <UnrivaledSection />
+      <CustomWebAppDevSection />
+      <WebAppProcess />
+      <IndustryProtocols />
+      <BenefitsOfWebAppDev />
+      <TechnologiesAndTools />
+      <WhyChooseUs />
+      <Faqs />
       <TopRatedAppDevelopmentContactSection />
     </div>
   );

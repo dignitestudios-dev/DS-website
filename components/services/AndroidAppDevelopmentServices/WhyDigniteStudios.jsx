@@ -40,7 +40,6 @@ const WhyDigniteStudios = () => {
             width={36}
             height={36}
             alt="Powerful business handling icon"
-            title="Powerful Business Handling"
           />
           <h3 className="text-[18px] font-semibold">
             Powerful Business Handling
@@ -65,7 +64,6 @@ const WhyDigniteStudios = () => {
               width={36}
               height={36}
               alt="Intuitive user experience icon"
-              title="Intuitive User Experience"
             />
             <h3 className="text-[18px] font-semibold">
               Intuitive User Experience
@@ -87,7 +85,6 @@ const WhyDigniteStudios = () => {
               height={36}
               src={"/scalable-app-compliance-icon.webp"}
               alt="scalable app compliance icon"
-              title="Scalable App Compliance"
             />
             <h3 className="text-[18px] font-semibold">
               Scalable App Compliance
@@ -110,7 +107,6 @@ const WhyDigniteStudios = () => {
               width={36}
               height={36}
               alt="impeccable security measures icon"
-              title="Impeccable security measures"
             />
             <h3 className="text-[18px] font-semibold">
               Impeccable Security Measures
@@ -132,7 +128,6 @@ const WhyDigniteStudios = () => {
               height={36}
               src={"/Translucent-environment-icon.webp"}
               alt="Translucent environment icon"
-              title="Translucent Environment"
             />
             <h3 className="text-[18px] font-semibold">
               Translucent Environment

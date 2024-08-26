@@ -21,7 +21,6 @@ const TopRatedPageOurOffices = () => {
             <img
               src={"/Dignite-Studios-Florida-Office.webp"}
               alt="Dignite Studios Mobile App Development Company Florida Office"
-              title="Dignite Studios Florida Office"
               className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
             />
           </div>
@@ -36,7 +35,6 @@ const TopRatedPageOurOffices = () => {
             <img
               src={"/Dignite-Studios-Dubai-Office.webp"}
               alt="Dignite Studios Mobile App Development Company Dubai Office"
-              title="Dignite Studios Dubai Office"
               className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
             />
           </div>
@@ -52,7 +50,6 @@ const TopRatedPageOurOffices = () => {
             <img
               src={"/Dignite-Studios-Wyoming-Office.webp"}
               alt="Dignite Studios Mobile App Development Company Wyoming Office"
-              title="Dignite Studios Wyoming Office"
               className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
             />
           </div>
@@ -67,7 +64,6 @@ const TopRatedPageOurOffices = () => {
             <img
               src={"/Dignite-Studios-Pakistan-Office.webp"}
               alt="Dignite Studios Mobile App Development Company Pakistan Office"
-              title="Dignite Studios Pakistan Office"
               className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
             />
           </div>

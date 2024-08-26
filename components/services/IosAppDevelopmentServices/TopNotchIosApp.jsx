@@ -20,7 +20,11 @@ const TopNotchIosApp = () => {
             <p className="text-[#F15C20] font-bold text-xl uppercase">
               top-notch ios application
             </p>
-            <img src="/wide-lines.png" alt="lines" title="lines" className="w-40 h-2 md:w-[289px]"/>
+            <img
+              src="/wide-lines.png"
+              alt="lines"
+              className="w-40 h-2 md:w-[289px]"
+            />
           </div>
           <h2 className="text-3xl lg:text-[48px] xl:text-[68px] 2xl:text-[72px] font-bold lg:leading-[64.94px] tracking-tighter">
             Development <br /> Company
@@ -48,9 +52,8 @@ const TopNotchIosApp = () => {
         <img
           src="/ios-application-development-company.webp"
           width={310}
-          height={488}  
+          height={488}
           alt="iOS app development company shows two mock screens of iOS applications"
-          title="ios-application-development-company"
           className="h-[390px] w-[220px] md:h-[310px] lg:h-[370px] lg:w-[254px] xl:h-[488px] mx-auto"
           data-aos="slide-up"
           data-aos-offset="100"

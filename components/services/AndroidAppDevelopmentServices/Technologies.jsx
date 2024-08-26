@@ -26,7 +26,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -45,7 +44,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/swift-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -64,7 +62,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/vue-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -83,7 +80,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/react-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -102,7 +98,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -121,7 +116,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -140,7 +134,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -159,7 +152,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/swift-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -178,7 +170,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/vue-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -197,7 +188,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/react-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -216,7 +206,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -235,7 +224,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -254,7 +242,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -273,7 +260,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/swift-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -292,7 +278,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/vue-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -311,7 +296,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/react-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -330,7 +314,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -349,7 +332,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -368,7 +350,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/flutter-icon.webp"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -387,7 +368,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/swift-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -406,7 +386,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/vue-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -425,7 +404,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/react-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -444,7 +422,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/illustrator-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -463,7 +440,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/tailwind-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -487,7 +463,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -506,7 +481,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/java-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -525,7 +499,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -544,7 +517,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/firebase-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -563,7 +535,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -582,7 +553,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -601,7 +571,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/java-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -620,7 +589,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -639,7 +607,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/firebase-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -658,7 +625,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -677,7 +643,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -696,7 +661,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/java-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -715,7 +679,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -734,7 +697,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/firebase-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -753,7 +715,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -772,7 +733,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/photoshop-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
             />
@@ -791,7 +751,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/java-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -810,7 +769,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/kotlin-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -829,7 +787,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/firebase-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />
@@ -848,7 +805,6 @@ const Technologies = () => {
               loader={customLoader}
               src="/visual-studio-icon.png"
               alt="tehcnology-icon"
-              title="technology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
             />

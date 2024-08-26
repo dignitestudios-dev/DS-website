@@ -47,7 +47,6 @@ const MobileAppTestingInRealTime = () => {
           loader={customLoader}
           src="/mobile-app-testing-services.webp"
           alt="the mock screen shows the job portal on the application testing"
-          title="Mobile app testing services"
           className="md:h-[310px] lg:h-[370px] lg:w-[530px] xl:h-[410px] mx-auto"
           data-aos="slide-up"
           data-aos-offset="100"

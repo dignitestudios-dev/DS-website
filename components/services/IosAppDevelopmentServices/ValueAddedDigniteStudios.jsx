@@ -49,7 +49,6 @@ const ValueAddedDigniteStudios = () => {
                 height={33}
                 src={team.icon_src}
                 alt={team.alt_text}
-                title={team.img_title}
                 className=""
               />
               <h3 className="text-xl font-semibold">{team.title}</h3>

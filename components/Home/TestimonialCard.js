@@ -1,11 +1,19 @@
-'use client'
+"use client";
 
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext } from "react";
 
-const IMAGE_LIST = ["/testimonial-7.webp","/testimonial-8.webp", "/testimonial-1.webp", "/testimonial-6.webp", "/testimonial-4.webp", "/testimonial-5.webp", "/testimonial-9.webp"]
+const IMAGE_LIST = [
+  "/testimonial-7.webp",
+  "/testimonial-8.webp",
+  "/testimonial-1.webp",
+  "/testimonial-6.webp",
+  "/testimonial-4.webp",
+  "/testimonial-5.webp",
+  "/testimonial-9.webp",
+];
 
 const TestimonialCard = ({ reviewBody, authorName, jobtitle, index }) => {
   const { palette } = useContext(GlobalContext);
@@ -22,11 +30,21 @@ const TestimonialCard = ({ reviewBody, authorName, jobtitle, index }) => {
           color: palette?.light_contrast_color,
         }}
       >
-        {reviewBody.length > 340 ? reviewBody?.slice(0, 340) + "..." : reviewBody}
+        {reviewBody.length > 340
+          ? reviewBody?.slice(0, 340) + "..."
+          : reviewBody}
         {/* {reviewBody} */}
       </p>
       <div className="w-auto h-[20%] absolute bottom-0 left-0 flex gap-2 justify-start items-center">
-        <Image loading="lazy" src={IMAGE_LIST[index]} loader={customLoader} alt="client image" title="client image" className="rounded-full w-14 h-14" width={56} height={56} />
+        <Image
+          loading="lazy"
+          src={IMAGE_LIST[index]}
+          loader={customLoader}
+          alt="client image"
+          className="rounded-full w-14 h-14"
+          width={56}
+          height={56}
+        />
         <div className="flex flex-col justify-start items-start">
           <p className="text-base font-semibold">{authorName}</p>
           <p
@@ -39,7 +57,6 @@ const TestimonialCard = ({ reviewBody, authorName, jobtitle, index }) => {
           </p>
         </div>
       </div>
-
     </div>
   );
 };

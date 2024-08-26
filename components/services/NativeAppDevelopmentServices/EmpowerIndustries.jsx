@@ -53,7 +53,6 @@ const EmpowerIndustries = () => {
             height={320}
             src="/Native-app-development-education-industry-app.webp"
             alt="the image shows multiple color pencils to showcase the education industry"
-            title="Native app development education industry app"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
@@ -63,7 +62,6 @@ const EmpowerIndustries = () => {
             height={320}
             src="/Native-app-development-in-Healthcare-Industry.webp"
             alt="Native app development in Healthcare Industry image shows a doctor is holding a stethoscope"
-            title="Native app development in Healthcare Industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
@@ -73,7 +71,6 @@ const EmpowerIndustries = () => {
             height={320}
             src="/Native-app-development-in-ecommerce-Industry.webp"
             alt="Native app development in E-commerce Industry image shows three bottles kept over the table"
-            title="Native app development in E-commerce Industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
@@ -83,7 +80,6 @@ const EmpowerIndustries = () => {
             height={320}
             src="/Native-app-development-in-Real-Estate-Industry.webp"
             alt="Native app development in Real Estate Industry image shows under-construction building"
-            title="Native app development in Real Estate Industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
@@ -93,7 +89,6 @@ const EmpowerIndustries = () => {
             height={320}
             src="/Native-app-development-in-travel-and-hospitality-industry.webp"
             alt="Native app development in travel and hospitality industry image shows the window of aircraft views aesthetically pleasing sky"
-            title="Native app development in travel and hospitality industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
@@ -103,7 +98,6 @@ const EmpowerIndustries = () => {
             height={320}
             src="/Native-app-development-in-insurance-industry.webp"
             alt="Native app development in insurance industry image shows a person is writing something on a paper"
-            title="Native app development in insurance industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>
@@ -113,7 +107,6 @@ const EmpowerIndustries = () => {
             height={320}
             src="/Native-app-development-in-banking-industry.webp"
             alt="Native app development in banking industry image shows currency note"
-            title="Native app development in banking industry"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>

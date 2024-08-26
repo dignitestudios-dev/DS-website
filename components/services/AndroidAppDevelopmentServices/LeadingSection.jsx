@@ -15,7 +15,6 @@ const LeadingSection = () => {
         height={8}
         src="/leading-lines.png"
         alt="leading-lines"
-        title="leading-lines"
         className="w-[86px] h-[8]"
       />
       <h2 className={`headings-size`}>
@@ -39,7 +38,6 @@ const LeadingSection = () => {
             height={36}
             src={"/custom-android-app-development-services.webp"}
             alt="Custom Android app development services icon"
-            title="Custom Android app development services"
             className="w-[36px] h-[33px]"
           />
           <p className="text-[20px] font-semibold mt-2">
@@ -61,7 +59,6 @@ const LeadingSection = () => {
             height={33}
             src={"/Android-tv-app-development-services-icon.webp"}
             alt="Android TV App Development services icon"
-            title="Android TV App Development services"
             className="w-[36px] h-[33px]"
           />
           <p className="text-[20px] font-semibold mt-2">
@@ -85,7 +82,6 @@ const LeadingSection = () => {
             height={33}
             src={"/android-mobile-app-development-services-icon.webp"}
             alt="Android Mobile App Development Services icon"
-            title="Android Mobile App Development Services"
             className="w-[36px] h-[33px]"
           />
           <p className="text-[20px] font-semibold mt-2">
@@ -107,7 +103,6 @@ const LeadingSection = () => {
             height={33}
             src={"/android-tablet-app-development-services-icon.webp"}
             alt="Android Tablet App Development Services icon"
-            title="Android Tablet App Development Services"
             className="w-[36px] h-[33px]"
           />
           <p className="text-[20px] font-semibold mt-2">

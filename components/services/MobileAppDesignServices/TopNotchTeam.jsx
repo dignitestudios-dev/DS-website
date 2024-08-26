@@ -52,7 +52,6 @@ const TopNotchTeam = () => {
                 height={33}
                 src={team.icon_src}
                 alt={team.alt_text}
-                title={team.img_title}
                 className=""
               />
               <p className="text-xl font-semibold">{team.title}</p>

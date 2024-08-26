@@ -32,14 +32,12 @@ const MobileAwardsRecognition = () => {
             src="/Horizon-Interactive-Awards.webp"
             className=""
             alt="Horizon Interactive Awards"
-            title="Horizon Interactive Awards"
           />
         </div>
         <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
           <img
             src="/WEB-EXCELLENCE-AWARDS.webp"
             className=""
-            title="WEB EXCELLENCE AWARDS"
             alt="WEB EXCELLENCE AWARDS"
           />
         </div>
@@ -47,7 +45,6 @@ const MobileAwardsRecognition = () => {
           <img
             src="/rank-watch-awards.webp"
             className=""
-            title="rank watch Awards"
             alt="rank watch Awards"
           />
         </div>
@@ -55,7 +52,6 @@ const MobileAwardsRecognition = () => {
           <img
             src="/clutch-top-developer-awards.webp"
             className=""
-            title="Clutch Top Developer Awards"
             alt="Clutch Top Developer Awards"
           />
         </div>
@@ -63,17 +59,11 @@ const MobileAwardsRecognition = () => {
           <img
             src="/top-eveloper-awards.webp"
             className=""
-            title="top developer awards"
             alt="top developer Awards"
           />
         </div>
         <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-          <img
-            src="/dotcomm-awards.webp"
-            className=""
-            title="dotCOMM Awards"
-            alt="dotCOMM Awards"
-          />
+          <img src="/dotcomm-awards.webp" className="" alt="dotCOMM Awards" />
         </div>
       </div>
     </div>

@@ -49,7 +49,6 @@ const TestingProcess = () => {
             loader={customLoader}
             src={"/mobile-app-testing-requirement-analysis-icon.webp"}
             alt="Mobile app testing requirement analysis icon"
-            title="Mobile app testing requirement analysis"
             className="w-9 h-9"
           />
           <h3 className="text-xl font-semibold">Requirement Analysis</h3>
@@ -70,7 +69,6 @@ const TestingProcess = () => {
             loader={customLoader}
             src={"/mobile-app-test-plan-creation-icon.webp"}
             alt="Mobile app test plan creation icon"
-            title="Mobile app test Plan Creation"
             className="w-9 h-9"
           />
           <h3 className="text-xl font-semibold">Test Plan Creation</h3>
@@ -95,7 +93,6 @@ const TestingProcess = () => {
             loader={customLoader}
             src={"/mobile-app-test-case-creation-icon.webp"}
             alt="Mobile app test case creation icon"
-            title="Mobile app test case creation"
             className="w-9 h-9"
           />
           <h3 className="text-xl font-semibold">Test Case Creation</h3>
@@ -115,7 +112,6 @@ const TestingProcess = () => {
             loader={customLoader}
             src={"/mobile-test-automation-icon.webp"}
             alt="mobile test automation icon"
-            title="Mobile app test automation"
             className="w-9 h-9"
           />
           <h3 className="text-xl font-semibold">Mobile Test Automation</h3>
@@ -134,7 +130,6 @@ const TestingProcess = () => {
             loader={customLoader}
             src={"/mobile-app-testing-defect-logging-icon.webp"}
             alt="Mobile app testing defect logging icon"
-            title="Mobile app testing defect logging"
             className="w-9 h-9"
           />
           <h3 className="text-xl font-semibold">Defect Logging</h3>
@@ -156,7 +151,6 @@ const TestingProcess = () => {
             loader={customLoader}
             src={"/mobile-app-testing-fixing-and-accreditation-icon.webp"}
             alt="Mobile app testing fixing and accreditation icon"
-            title="Mobile app testing fixing and accreditation"
             className="w-9 h-9"
           />
           <h3 className="text-xl font-semibold">Fixing and Accreditation</h3>

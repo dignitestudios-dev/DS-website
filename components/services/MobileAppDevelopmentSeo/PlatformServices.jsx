@@ -50,7 +50,6 @@ const PlatformServices = () => {
                 height={21}
                 src="/android-mobile-app-mockup.png"
                 alt="android-app-icon"
-                title="android-app-icon"
                 className="w-[21px] h-[21px]"
               />
               <h3 className="text-xl font-semibold">Android App Development</h3>
@@ -76,7 +75,6 @@ const PlatformServices = () => {
                 height={21}
                 src="/ios-mockup.png"
                 alt="ios-app-icon"
-                title="ios-app-icon"
                 className="w-[21px] h-[21px]"
               />
               <h3 className="text-xl font-semibold">iOS App Development</h3>
@@ -104,7 +102,6 @@ const PlatformServices = () => {
             width={596}
             height={557}
             src="/telehealth-mobile-app-development.webp"
-            title="Mobile app development services"
             alt="mockup screen shows icons of multiple mobile app development service platforms"
             className="xl:h-[557.13px] xl:w-[596.13px]"
           />

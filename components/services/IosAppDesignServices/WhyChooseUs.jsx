@@ -3,6 +3,8 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
+import { GrShieldSecurity } from "react-icons/gr";
+import { MdOutlineSecurity } from "react-icons/md";
 
 const WhyChooseUs = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -140,6 +142,73 @@ const WhyChooseUs = () => {
             prestigious Apple award winners. The premium iPhone app UI\UX
             designing company Diginte Studios embraces an app with advanced
             features and compelling Apple structures.
+          </p>
+        </div>
+
+        <div
+          className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-3"
+          style={{
+            color: palette?.color,
+          }}
+        >
+          <img
+            src={"/ios-apps-establish-upgraded-strategies-and-tools-icon.webp"}
+            alt={"iOs app development primed for perfection icon"}
+            title={"Primed for Perfection Icon"}
+            className=""
+            width="36px"
+            height="36px"
+          />
+          <h3
+            className="text-xl  font-semibold"
+            style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}
+          >
+            Monetization Opportunities
+          </h3>
+          <p
+            className="text-xs text-center font-normal leading-[16.14px] tracking-wider "
+            style={{
+              color: "#8F8F8F",
+            }}
+          >
+            Prevailing a well-designed and functional app can provide your
+            business with a competitive edge in the marketplace. Here, you can
+            avail better monetization opportunities to robust your business
+            leads and generate revenue through our profitable strategies.
+          </p>
+        </div>
+
+        <div
+          className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-3"
+          style={{
+            color: palette?.color,
+          }}
+        >
+          {/* <img
+            src={"/ios-app-development-primed-for-perfection-icon.webp"}
+            alt={"iOs app development primed for perfection icon"}
+            title={"Primed for Perfection Icon"}
+            className=""
+            width="36px"
+            height="36px"
+          /> */}
+          <MdOutlineSecurity className="w-[40px] h-[40px] text-[#F15C20]" />
+          <h3
+            className="text-xl  font-semibold"
+            style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}
+          >
+            Enhanced Security
+          </h3>
+          <p
+            className="text-xs text-center font-normal leading-[16.14px] tracking-wider "
+            style={{
+              color: "#8F8F8F",
+            }}
+          >
+            Security is a top priority, especially when dealing with sensitive
+            customer data. We furnish a safe and secure app development
+            environment with advanced security protocols that include data
+            encryption for our users.
           </p>
         </div>
 

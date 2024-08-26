@@ -291,7 +291,6 @@ const TopRatedAppDevelopmentContactSection = () => {
             decoding="async"
             data-nimg="1"
             alt="image shows one back cover of mobile device and another is the mock screen of the mobile app"
-            title="top mobile app development company latest technologies"
             className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"
           />
         </div>

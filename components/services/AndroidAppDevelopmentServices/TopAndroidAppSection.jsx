@@ -19,7 +19,6 @@ const TopAndroidAppSection = () => {
         // loader={customLoader}
         src="/lines-4.webp"
         alt="leading-lines"
-        title="leading-lines"
         className="w-[269px] h-[8]"
       />
       <h2 className={`headings-size mt-4`}>
@@ -47,7 +46,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-4.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
               <img
@@ -56,7 +54,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-2.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
@@ -67,7 +64,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-3.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
               <img
@@ -76,7 +72,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-4.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
               <img
@@ -85,7 +80,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-5.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
@@ -96,7 +90,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-2.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
               <img
@@ -105,7 +98,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-3.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
               <img
@@ -114,7 +106,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-2.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
@@ -129,7 +120,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-1.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -138,7 +128,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-2.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -149,7 +138,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-3.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -158,7 +146,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-4.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -167,7 +154,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-5.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -178,7 +164,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-6.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -187,7 +172,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-7.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -196,7 +180,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-2.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -256,7 +239,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-4.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
               <img
@@ -265,7 +247,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-2.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
@@ -276,7 +257,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-3.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
               <img
@@ -285,7 +265,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-4.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
               <img
@@ -294,7 +273,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-5.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
@@ -305,7 +283,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-2.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
               <img
@@ -314,7 +291,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-3.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
               <img
@@ -323,7 +299,6 @@ const TopAndroidAppSection = () => {
                 // loader={customLoader}
                 src="/top-android-2.webp"
                 alt="The image shows multiple mock screens of native app development"
-                title="Native App Development"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
@@ -353,7 +328,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-1.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -362,7 +336,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-2.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -373,7 +346,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-3.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -382,7 +354,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-4.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -391,7 +362,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-5.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -402,7 +372,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-6.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -411,7 +380,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-7.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
@@ -420,7 +388,6 @@ const TopAndroidAppSection = () => {
                 height={298}
                 // loader={customLoader}
                 src="/hybrid-app-2.webp"
-                title="Hybrid Android App Development"
                 alt="image shows multiple mockup screens of hybrid Android application"
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />

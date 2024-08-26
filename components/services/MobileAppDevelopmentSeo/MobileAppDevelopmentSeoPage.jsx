@@ -46,7 +46,6 @@ const MobileAppDevelopmentSeoPage = () => {
               width={1440}
               height={545}
               src="/Mobile-App-Development-Service-Technologies-dark.png"
-              title="Mobile App Development Service Technologies"
               alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
               className="w-full z-10 h-full md:h-[340px] lg:h-full absolute bottom-0"
             />
@@ -57,7 +56,6 @@ const MobileAppDevelopmentSeoPage = () => {
               width={1440}
               height={545}
               src="/Mobile-App-Development-Service-Technologies-dark-light.webp"
-              title="Mobile App Development Service Technologies"
               alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
               className="w-full z-10 h-full md:h-[340px] lg:h-full absolute bottom-0"
             />

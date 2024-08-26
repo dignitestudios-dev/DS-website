@@ -95,7 +95,6 @@ const MobileAppWeDevelopSwiper = () => {
               src="/socia-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
-              title="Social Media Mobile App Development"
               alt="Two mockup screens show social media mobile app development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
             />
@@ -121,7 +120,6 @@ const MobileAppWeDevelopSwiper = () => {
               src="/ticketing-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
-              title="Ticketing Mobile App Development"
               alt="two mockup screens show the ticketing mobile app development"
               class="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
             />
@@ -147,7 +145,6 @@ const MobileAppWeDevelopSwiper = () => {
               src="/commuincation-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
-              title="Communication Mobile App Development"
               alt="two mockup screens show the dating mobile app development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
             />
@@ -173,7 +170,6 @@ const MobileAppWeDevelopSwiper = () => {
               src="/marketplace-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
-              title="Marketplace mobile app development"
               alt="two mockup screens show the telehealth mobile app development"
               className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
             />

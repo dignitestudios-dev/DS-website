@@ -50,7 +50,6 @@ const WhyDignite = () => {
               loader={customLoader}
               src="/performance-testing.png"
               alt="performance-testing"
-              title="performance-testing"
               className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
             />
             <h3 className="text-xl font-semibold">
@@ -75,7 +74,6 @@ const WhyDignite = () => {
               loader={customLoader}
               src="/quality-assessement.png"
               alt="quality-assessement"
-              title="quality-assessement-image"
               className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
             />
             <h3 className="text-xl font-semibold">Quality Assessment</h3>
@@ -106,7 +104,6 @@ const WhyDignite = () => {
               loader={customLoader}
               src="/track-record.png"
               alt="track-record"
-              title="track-record-image"
               className="w-10 h-10 scale-75 group-hover:scale-110 group-hover:rotate-90 transition-all duration-1000"
             />
             <h3 className="text-xl font-semibold">Proven Track Record</h3>

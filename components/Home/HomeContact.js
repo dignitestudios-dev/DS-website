@@ -288,8 +288,7 @@ const TopRatedAppDevelopmentContactSection = () => {
             src="/top-mobile-app-development-company-latest-technologies.webp"
             width={402}
             height={361}
-            alt=" image shows one back cover of mobile device and another is the mock screen of the mobile app"
-            title="top mobile app development company latest technologies"
+            alt="image shows one back cover of mobile device and another is the mock screen of the mobile app"
             className="lg:w-[402px] lg:h-[361px] 2xl:h-[400px] 2xl:w-full"
           />
         </div>

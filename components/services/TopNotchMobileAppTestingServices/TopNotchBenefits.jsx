@@ -12,7 +12,7 @@ const TopNotchBenefits = () => {
       <p className="text-xl font-bold text-[#F15C20] uppercase">
         dignite studios
       </p>
-      <img src="/lines.png" alt="lines" title="lines" width={170} height={24} />
+      <img src="/lines.png" alt="lines" width={170} height={24} />
 
       <h2 className="headings-size mt-3 text-center mx-auto mb-2">
         top-Notch Benefits
@@ -70,7 +70,6 @@ const TopNotchBenefits = () => {
               loader={customLoader}
               src="/mobile-app-testing-exclusive-error-detection.webp"
               alt="mock screen shows the mobile app testing of login layout"
-              title="Mobile app testing exclusive error detection"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
@@ -98,7 +97,6 @@ const TopNotchBenefits = () => {
               loader={customLoader}
               src="/mobile-app-testing-quality-assurance.webp"
               alt="the mock screen shows the quality detection of mobile app testing tool"
-              title="Mobile app testing quality assurance"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
@@ -191,7 +189,6 @@ const TopNotchBenefits = () => {
               loader={customLoader}
               src="/mobile-app-testing-security-prevalence.webp"
               alt="mock up screen shows olivia james profile"
-              title="Mobile app testing security prevalence"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier
@@ -219,7 +216,6 @@ const TopNotchBenefits = () => {
               loader={customLoader}
               src="/mobile-app-testing-fast-development.webp"
               alt="mockup screen shows the testing of people you know the layout of the application"
-              title="Mobile app testing fast development"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
               data-aos-offset="100" // Adjusted offset to trigger animation earlier

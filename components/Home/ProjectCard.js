@@ -36,7 +36,7 @@ const ProjectCard = ({
           // width={200}
           // height={200}
           // loader={customLoader}
-          title="app-logo"
+          // title="app-logo"
         />
       </div>
       <div className="w-full lg:w-[65%] h-full flex flex-col justify-start relative gap-6 my-1 items-start md:px-2">
@@ -47,7 +47,7 @@ const ProjectCard = ({
             width={65}
             loader={customLoader}
             height={65}
-            title="case study image"
+            // title="case study image"
 
             // className="w-[32px] h-[32px] lg:w-[45px] xl:w-[65px] lg:h-[45px] xl:h-[65px]"
           />
@@ -72,7 +72,7 @@ const ProjectCard = ({
                 src="/google_play_btn.png"
                 className="h-[40.62px]"
                 alt="google_play_button"
-                title="google_play_button"
+                // title="google_play_button"
               />
             </Link>
           )}
@@ -85,7 +85,7 @@ const ProjectCard = ({
                 src="/apple_store_btn.png"
                 className="h-[40.62px]"
                 alt="app_store_button"
-                title="app_store_button"
+                // title="app_store_button"
               />
             </Link>
           )}
@@ -98,7 +98,7 @@ const ProjectCard = ({
                 src="/website_btn.png"
                 className="h-[40.62px]"
                 alt="Website btn play icon"
-                title="Website btn play icon"
+                // title="Website btn play icon"
               />
             </Link>
           )}

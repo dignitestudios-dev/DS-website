@@ -15,7 +15,6 @@ const IndustryCard = ({ industry }) => {
       <img
         src={industry?.image}
         alt={industry?.alt}
-        title={industry?.img_title}
         className=""
         // loader={customLoader}
         width={32}

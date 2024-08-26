@@ -31,7 +31,6 @@ const IndustryLeading = () => {
       <div className="flex justify-center lg:justify-end">
         <img
           src="/mobile-app-support-and-maintenance-company.webp"
-          title="mobile app support and maintenance company"
           alt="mobile app support and maintenance company image shows two mock screens, one is of laptop and other mobile device, both are presenting application layout"
           className="w-[437px] h-[471px]"
         />

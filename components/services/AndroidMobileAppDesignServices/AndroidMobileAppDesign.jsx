@@ -41,7 +41,6 @@ const AndroidMobileAppDesign = () => {
                 <img
                   src={android.image_src}
                   alt={android.image_alt}
-                  title={android.imagr_title}
                   className="w-[24px] h-[24px]"
                 />
               </div>

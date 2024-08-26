@@ -66,14 +66,12 @@ const Hero = () => {
           {toggle ? (
             <img
               src="/ios-app-design-company.webp"
-              title="iOS App design company"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[256px] h-[522.38px]"
             />
           ) : (
             <img
               src="/ios-app-design-company-dark.webp"
-              title="iOS App design company"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[256px] h-[522.38px]"
             />
@@ -154,49 +152,41 @@ const Hero = () => {
           <div className="w-full flex justify-around gap-10 flex-wrap px-10 z-10">
             <img
               src="/ios-message-icon.webp"
-              title="iOS App design company"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
               src="/ios-clock-icon.webp"
-              title="iOS App design company"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
               src="/ios-camera-icon.webp"
-              title="iOS App design company"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
               src="/ios-music-icon.webp"
-              title="iOS App design company"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
               src="/ios-photos-icon.webp"
-              title="iOS App design company"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
               src="/ios-safari-icon.webp"
-              title="iOS App design company"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
               src="/ios-weather-icon.webp"
-              title="iOS App design company"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />
             <img
               src="/ios-video-call-icon.webp"
-              title="iOS App design company"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
             />

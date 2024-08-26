@@ -14,7 +14,6 @@ const IosAppDesignServices = () => {
         <img
           src="/exclusive-android-lines.png"
           alt="android app design services"
-          title="android app design services"
           className="w-[203px]"
         />
       </div>
@@ -38,7 +37,6 @@ const IosAppDesignServices = () => {
             src="/Android-Mobile-App-Design-Consultancy-image.webp"
             className="w-full lg:w-[520px] h-[272px] pt-2 object-cover rounded-t-[24px]"
             alt="Android Mobile App Design page shows a person’s hand writing on a paper to conduct Android mobile app consultancy"
-            title="Android Mobile App Design Consultancy image"
           />
           <h3 className="text-[18px] font-semibold">
             Modernized Design Consultancy
@@ -72,19 +70,16 @@ const IosAppDesignServices = () => {
               src="/Android-UXUI-Design-image-1.webp"
               alt="three mock screens of Android UI\UX design"
               className="w-[78px] h-[151px] md:w-[98px] md:h-[201px] z-0 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative animated-image-up"
-              title="Android UX\UI Design image"
             />
             <img
               src="/Android-UXUI-Design-image-2.webp"
               alt="three mock screens of Android UI\UX design"
               className="w-[78px] h-[151px] md:w-[98px] md:h-[201px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down2 hidden lg:block"
-              title="Android UX\UI Design image"
             />
             <img
               src="/Android-UXUI-Design-image-3.webp"
               alt="three mock screens of Android UI\UX design"
               className="w-[78px] h-[151px] md:w-[98px] md:h-[201px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down"
-              title="Android UX\UI Design image"
             />
           </div>
           <h3 className="text-[18px] font-semibold">High-End UX/UI Design</h3>

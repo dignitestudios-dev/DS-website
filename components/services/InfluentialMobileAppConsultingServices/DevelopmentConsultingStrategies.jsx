@@ -36,7 +36,6 @@ const DevelopmentConsultingStrategies = () => {
               height={55}
               src="/mobile-app-consulting-design-icon.webp"
               alt="mobile app consulting design icon"
-              title="mobile app consulting design"
               className=""
             />
           </div>
@@ -70,7 +69,6 @@ const DevelopmentConsultingStrategies = () => {
               height={55}
               src="/mobile-app-consulting-modernization-icon.webp"
               alt="Mobile app consulting modernization icon"
-              title="Mobile app consulting modernization"
               className=""
             />
           </div>
@@ -100,7 +98,6 @@ const DevelopmentConsultingStrategies = () => {
             height={55}
             src="/Mobile-app-consulting-optimization-and-audit-icon.webp"
             alt="Mobile app consulting optimization and audit icon"
-            title="Mobile app consulting optimization and audit"
             className=""
           />
         </div>

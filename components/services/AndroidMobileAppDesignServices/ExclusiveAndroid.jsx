@@ -15,7 +15,6 @@ const ExclusiveAndroid = () => {
         <img
           src="/exclusive-android-lines.png"
           alt="android app design services"
-          title="android app design services"
           className="w-[203px]"
         />
       </div>
@@ -39,7 +38,6 @@ const ExclusiveAndroid = () => {
             src="/Android-Mobile-App-Design-Consultancy-image.webp"
             className="w-full lg:w-[520px] h-[272px] pt-2 object-cover rounded-t-[24px]"
             alt="Android Mobile App Design page shows a person’s hand writing on a paper to conduct Android mobile app consultancy"
-            title="Android Mobile App Design Consultancy image"
           />
           <h3 className="text-[18px] font-semibold">Design Consultancy</h3>
           <p className="font-normal text-sm leading-[19.74px]">
@@ -68,19 +66,16 @@ const ExclusiveAndroid = () => {
               src="/Android-UXUI-Design-image-1.webp"
               alt="three mock screens of Android UI\UX design"
               className="w-[78px] h-[151px] md:w-[98px] md:h-[201px] z-0 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative animated-image-up"
-              title="Android UX\UI Design image"
             />
             <img
               src="/Android-UXUI-Design-image-2.webp"
               alt="three mock screens of Android UI\UX design"
               className="w-[78px] h-[151px] md:w-[98px] md:h-[201px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down2 hidden lg:block"
-              title="Android UX\UI Design image"
             />
             <img
               src="/Android-UXUI-Design-image-3.webp"
               alt="three mock screens of Android UI\UX design"
               className="w-[78px] h-[151px] md:w-[98px] md:h-[201px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down"
-              title="Android UX\UI Design image"
             />
           </div>
           <h3 className="text-[18px] font-semibold">UX/UI Design</h3>
@@ -111,7 +106,6 @@ const ExclusiveAndroid = () => {
             src="/Android-App-Branding-Services-image.webp"
             className="w-[520px] h-[272px] pt-2 object-cover rounded-t-[24px]"
             alt="the image shows the resource material on the table for the branding framework"
-            title="Android App Branding Services image"
           />
           <h3 className="text-[18px] font-semibold">Branding</h3>
           <p className="font-normal text-sm leading-[19.74px]">
@@ -137,7 +131,6 @@ const ExclusiveAndroid = () => {
             src="/Android-Motion-Design-Services-image.gif"
             className="w-full lg:w-[520px] h-[272px] pt-2 object-cover rounded-t-[24px]"
             alt="Android Motion Design Services image"
-            title="Android Motion Design Services image"
           />
 
           <h3 className="text-[18px] font-semibold">Motion Design</h3>

@@ -31,7 +31,6 @@ const CustomWebAppDevSection = () => {
                   <img
                     src={service.image_src}
                     alt={service.alt_tag}
-                    title={service.img_title}
                     className="w-6 h-6"
                   />
                 </div>

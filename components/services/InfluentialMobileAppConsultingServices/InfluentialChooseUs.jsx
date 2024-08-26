@@ -48,7 +48,6 @@ const InfluentialChooseUs = () => {
           height={669.56}
           src="/why-choose-us-borders.png"
           alt="why-choose-us-borders"
-          title="why-choose-us-borders"
           className="w-full absolute top-0 lg:-top-28 xl:top-0 left-0 z-0 hidden lg:block"
         />
 
@@ -71,7 +70,6 @@ const InfluentialChooseUs = () => {
                     height={33}
                     src="/transparent-process-icon.png"
                     alt="transparent-process-icon"
-                    title="transparent-process-icon"
                     className="w-[40px] h-[33px]"
                   />
                 </div>
@@ -118,7 +116,6 @@ const InfluentialChooseUs = () => {
                     height={41}
                     src="/focused-strategies.png"
                     alt="focused-strategies-icon"
-                    title="focused-strategies-icon"
                     className="w-[32px] h-[41px]"
                   />
                 </div>
@@ -154,7 +151,6 @@ const InfluentialChooseUs = () => {
                     height={41}
                     src="/business-growth-icon.png"
                     alt="business-growth-icon"
-                    title="business-growth-icon"
                     className="w-[37px] h-[41px]"
                   />
                 </div>

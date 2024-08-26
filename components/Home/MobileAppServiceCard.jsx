@@ -221,7 +221,6 @@ const MobileAppServiceCard = () => {
           width={300}
           height={200}
           src="/top-mobile-app-development-services.webp"
-          title="top mobile app development services"
           alt="image shows man is holding a mobile device that appears top mobile app development layout"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
@@ -260,7 +259,6 @@ const MobileAppServiceCard = () => {
           height={200}
           src="/top-ios-app-development-services.webp"
           alt="Top iOS App Development Services"
-          title="Top iOS App Development Services"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
@@ -298,7 +296,6 @@ const MobileAppServiceCard = () => {
           height={200}
           src="/top-android-app-development-services.webp"
           alt="Top iOS App Development Services"
-          title="Top iOS App Development Services"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
@@ -336,7 +333,6 @@ const MobileAppServiceCard = () => {
           height={200}
           src="/top-webp-app-development-services.webp"
           alt="Top iOS App Development Services"
-          title="Top iOS App Development Services"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
@@ -373,7 +369,6 @@ const MobileAppServiceCard = () => {
           width={300}
           height={200}
           src="/top-mobile-app-design-services.webp"
-          title="top mobile app design services"
           alt="image shows man is holding a mobile device that appears top mobile app design interface"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
@@ -411,7 +406,6 @@ const MobileAppServiceCard = () => {
           width={300}
           height={200}
           src="/top-mobile-app-development-testing-services.webp"
-          title="top mobile app development testing services"
           alt="image shows man is holding a mobile device that appears top mobile app testing screen"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
@@ -449,7 +443,6 @@ const MobileAppServiceCard = () => {
           width={300}
           height={200}
           src="/top-mobile-app-development-consulting-services.webp"
-          title="top mobile app development consulting services"
           alt="image shows a mobile app consulting discussion between consultant and client"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />

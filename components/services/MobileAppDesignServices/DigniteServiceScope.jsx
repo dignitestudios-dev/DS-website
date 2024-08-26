@@ -30,7 +30,6 @@ const DigniteServiceScope = () => {
               height={8}
               src="/lines.png"
               alt="design-lines"
-              title="lines"
             />
           </div>
 
@@ -54,7 +53,6 @@ const DigniteServiceScope = () => {
           height={557.42}
           src="/dignite-service-scope-mockup.webp"
           alt="dignite-service-scope-mockup"
-          title="dignite-service-scope-mockup"
           className="md:absolute md:bottom-0 md:right-7 ml-7 md:ml-0 md:w-[320px] md:h-[320px] xl:h-[557.42px] xl:w-[544.12px]"
         />
       </div>

@@ -390,7 +390,6 @@ const ContactUsPage = () => {
           <img
             src={"/dignite-studios-contact-us-image.png"}
             className="w-full h-full"
-            title="Contact US | Dignite Studios: Mobile App Development Company"
             alt="the image shows connecting people from all over the world"
           />
         </div>

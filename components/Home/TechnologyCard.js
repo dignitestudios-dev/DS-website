@@ -28,7 +28,6 @@ const TechnologyCard = ({ technology }) => {
         height={88}
         src={image}
         alt={technology?.alt}
-        title={technology?.img_title}
         className="md:h-auto"
       />
     </div>
