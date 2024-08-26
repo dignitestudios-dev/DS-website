@@ -1,5 +1,5 @@
 "use client";
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { BsFillBrightnessHighFill } from "react-icons/bs";
 import { IoMoon } from "react-icons/io5";
 import Link from "next/link";
@@ -9,15 +9,17 @@ import { useParams, usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
 import { BiMenuAltRight } from "react-icons/bi";
+import { GoDotFill } from "react-icons/go";
 
 const InfluentialNavbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   const navigate = useRouter();
   const pathname = usePathname();
+  const [showDropdown, setShowDropdown] = useState(false);
 
   const handleClick = (id) => {
     if (pathname != "/") {
-      navigate.push("/");
+      // navigate.push("/");
       setTimeout(() => {
         const element = document.getElementById(id);
         if (element) {
@@ -63,11 +65,12 @@ const InfluentialNavbar = ({ setIsOpen }) => {
           Home
         </button>
         <button
+          onMouseEnter={() => setShowDropdown(true)}
           className={`group text-[14px] text-white hover:text-orange-600 relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
         >
           <span>Services</span>
           <IoIosArrowDown className="text-md" />
-          <div
+          {/* <div
             className={`w-72 h-auto p-6 z-20 rounded-2xl text-md scale-0 transition-all duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${
               theme == "dark"
                 ? "shadow-[0_3px_10px_rgb(230,230,230,0.2)]"
@@ -129,7 +132,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
             >
               Mobile App Support And Maintenance Services
             </Link>
-          </div>
+          </div> */}
         </button>
         <button
           onClick={() => handleClick("case-studies")}
@@ -150,6 +153,110 @@ const InfluentialNavbar = ({ setIsOpen }) => {
           Contact
         </button>
       </div>
+      {showDropdown && (
+        <div
+          onMouseLeave={() => setShowDropdown(false)}
+          className={`w-[100%] h-[369px] p-6 z-20 text-md transition-all duration-150 hidden lg:flex gap-2 justify-center lg:gap-x-8 xl:gap-x-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2  ${
+            theme == "dark" ? "shadow-xl" : "shadow-xl"
+          } -right-24`}
+          style={{ background: palette?.background, color: palette?.color }}
+        >
+          <div className="flex flex-col items-start gap-3">
+            <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">
+              Development
+            </h5>
+            <Link
+              href={"/services/mobile-app-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile
+              App Development Services
+            </Link>
+            <Link
+              href={"/services/android-app-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Android
+              App Development Services
+            </Link>
+            <Link
+              href={"/services/ios-app-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> iOS App
+              Development Services
+            </Link>
+            <Link
+              href={"/services/native-app-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Native
+              App Development Services
+            </Link>
+            <Link
+              href={"/services/web-application-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Web App
+              Development Services
+            </Link>
+          </div>
+          <div className="flex flex-col items-start gap-3">
+            <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">
+              Maintenance & Consulting
+            </h5>
+            <Link
+              href={
+                "/services/mobile-application-support-and-maintenance-services"
+              }
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              Mobile App Support & Maintenance Services
+            </Link>
+            <Link
+              href={"/services/mobile-app-consulting-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile
+              App Consulting Services
+            </Link>
+            <Link
+              href={"/services/mobile-app-testing-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile
+              App Testing Services
+            </Link>
+          </div>
+          <div className="flex flex-col items-start gap-3">
+            <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">
+              Design
+            </h5>
+            <Link
+              href={"/services/mobile-app-design-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              Mobile App Design Services
+            </Link>
+            <Link
+              href={"/services/android-mobile-app-design-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Android
+              App Design Services
+            </Link>
+            <Link
+              href={"/services/ios-app-design-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              iOS App Design Services
+            </Link>
+          </div>
+        </div>
+      )}
       <div className="w-auto flex gap-3 justify-start items-center z-20">
         <button
           aria-label="button"
