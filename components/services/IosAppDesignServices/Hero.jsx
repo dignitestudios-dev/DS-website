@@ -47,8 +47,10 @@ const Hero = () => {
           className={`w-[320px] xl:w-[380px] h-[667px] rounded-[60px] group flex flex-col items-center justify-start pt-12 gap-8 transition-all duration-300 ${
             toggle
               ? `${
-                  theme === "light" ? "bg-[#F5F5F5]" : "bg-[#2d2d2d]"
-                } ios-app-design-card`
+                  theme === "light"
+                    ? "bg-[#F5F5F5] ios-app-design-card"
+                    : "bg-[#2d2d2d]"
+                } `
               : "bg-[#3A3A3C]"
           }`}
         >
@@ -127,18 +129,18 @@ const Hero = () => {
         <div
           className={`w-[320px] xl:w-[380px] h-[667px] group rounded-[60px] group relative flex flex-col items-center justify-start pt-12 gap-10 ${
             toggle
-              ? `${
-                  theme === "light" ? "bg-[#F5F5F5]" : "bg-[#2d2d2d]"
-                } ios-app-design-card`
+              ? `${theme === "light" ? "bg-[#F5F5F5]" : "bg-[#2d2d2d]"} `
               : `bg-[#3A3A3C]`
           }`}
         >
-          {toggle && (
+          {toggle && theme === "light" ? (
             <img
               src="/ios-app-design-services-gradient-img.png"
               alt=""
               className="absolute w-full h-full inset-0 z-0 invisible group-hover:visible transition-all duration-300 rounded-[60px]"
             />
+          ) : (
+            <></>
           )}
           <h2
             className={`text-[24px] font-semibold group-hover:text-white z-10 ${

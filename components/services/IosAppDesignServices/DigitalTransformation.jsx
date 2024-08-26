@@ -33,20 +33,11 @@ const DigitalTransformation = () => {
           </Link>
         </div>
         <div className="w-full lg:w-[40%] flex justify-center">
-          {/* <video
-            className="bg-transparent"
-            width={295}
-            height={399}
-            autoPlay
-            loop
-            muted
-          >
-            <source src="/ios-app-design-animation.mp4" type="video/mp4" />
-          </video> */}
           <div className="w-[295px] h-[539px] relative">
             <img
               src="/ios-app-mobile-sketch.png"
-              alt=""
+              alt="ios app mobile sketch"
+              title="ios app mobile sketch"
               width={295}
               height={399}
               className="mx-auto h-[539px] object-contain absolute inset-0 z-20 overflow-hidden"
