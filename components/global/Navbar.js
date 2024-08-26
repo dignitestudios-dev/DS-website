@@ -66,7 +66,7 @@ const Navbar = ({ setIsOpen }) => {
           Home
         </Link>
         <button
-          onClick={() => setShowDropdown(!showDropdown)}
+          onMouseEnter={() => setShowDropdown(true)}
           className={`group text-[14px] ${
             showDropdown && "text-[#F15C20]"
           } relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
@@ -172,7 +172,7 @@ const Navbar = ({ setIsOpen }) => {
       </div>
       {showDropdown && (
         <div
-          onClick={() => setShowDropdown(false)}
+          onMouseLeave={() => setShowDropdown(false)}
           className={`w-[100%] h-[369px] p-6 z-20 text-md transition-all duration-150 hidden lg:flex gap-2 justify-center lg:gap-x-8 xl:gap-x-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2  ${
             theme == "dark" ? "shadow-xl" : "shadow-xl"
           } -right-24`}

@@ -19,7 +19,7 @@ const TopRatedNavbar = ({ setIsOpen }) => {
 
   const handleClick = (id) => {
     if (pathname != "/") {
-      navigate.push("/");
+      // navigate.push("/");
       setTimeout(() => {
         const element = document.getElementById(id);
         if (element) {
@@ -58,13 +58,17 @@ const TopRatedNavbar = ({ setIsOpen }) => {
         <button
           aria-label="button"
           onClick={() => navigateTo("/")}
-          className={`${theme === "light" ? 'text-black': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600
+          className={`${
+            theme === "light" ? "text-black" : "text-white"
+          } text-[14px] h-8 font-medium hover:text-orange-600
             } bg-transparent  outline-none`}
         >
           Home
         </button>
         <button
-          className={`${theme === "light" ? 'text-black': 'text-white'} group text-[14px] hover:text-orange-600 relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
+          className={`${
+            theme === "light" ? "text-black" : "text-white"
+          } group text-[14px] hover:text-orange-600 relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
         >
           <span>Services</span>
           <IoIosArrowDown className="text-md" />
@@ -104,23 +108,30 @@ const TopRatedNavbar = ({ setIsOpen }) => {
         </button>
         <button
           onClick={() => handleClick("case-studies")}
-          className={`${theme === "light" ? 'text-black': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`${
+            theme === "light" ? "text-black" : "text-white"
+          } text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
         >
           Case Studies
         </button>
         <button
           onClick={() => navigateTo("/about-us")}
-          className={`${theme === "light" ? 'text-black': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          className={`${
+            theme === "light" ? "text-black" : "text-white"
+          } text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
         >
           Our Process
         </button>
         <button
-          onClick={() => navigateTo("/contact-us")}
-          className={`${theme === "light" ? 'text-black': 'text-white'} text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          onClick={() => handleClick("mobileappdevfaqs")}
+          className={`${
+            theme === "light" ? "text-black" : "text-white"
+          } text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
         >
           FAQs
         </button>
-        <Link href={'tel:877714-1770'}
+        <Link
+          href={"tel:877714-1770"}
           // onClick={() => navigateTo("/contact-us")}
           className={`text-[14px] h-8 font-medium text-orange-600 bg-transparent  outline-none flex items-center justify-center gap-1`}
         >
@@ -163,10 +174,12 @@ const TopRatedNavbar = ({ setIsOpen }) => {
           type="button"
           name="menu-toggle"
           onClick={() => setIsOpen(true)}
-          className={`flex lg:hidden ${theme === 'light' ? 'text-black': 'text-white'}`}
+          className={`flex lg:hidden ${
+            theme === "light" ? "text-black" : "text-white"
+          }`}
         >
           {/* <img src={"/menu-dark.webp"} className="h-full" /> */}
-          <BiMenuAltRight className="text-3xl"/>
+          <BiMenuAltRight className="text-3xl" />
         </button>
       </div>
     </div>
