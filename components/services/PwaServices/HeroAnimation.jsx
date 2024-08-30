@@ -426,7 +426,7 @@ const HeroAnimation = () => {
                 />
               </div>
 
-              <div className="rounded-full bg-[#7D70F8] w-[44px] h-[37px] md:h-[44px] flex items-center justify-center">
+              <div className="rounded-full bg-[#7D70F8] w-[44px] h-[37px] md:h-[38px] flex items-center justify-center">
                 <img
                   src="/send-message-icon.png"
                   alt=""
