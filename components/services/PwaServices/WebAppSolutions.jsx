@@ -37,7 +37,7 @@ export const sliderSettings = {
 export default function WebAppSolutions() {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full relative overflow-hidden global-padding-horizontal py-10">
+    <section className="w-full relative overflow-hidden global-padding-horizontal py-10 xl:py-20">
       <div className="w-full relative overflow-hidden">
         <div className="flex flex-col gap-2 mb-12">
           <div className="flex flex-col items-start">

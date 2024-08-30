@@ -8,7 +8,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const ProgressiveWebAppServices = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="w-full global-padding-horizontal py-10 lg:py-20">
+    <div className="w-full global-padding-horizontal py-10 lg:py-20 2xl:py-28">
       <div className="w-full flex flex-wrap gap-y-10">
         <div className="w-full lg:w-[65%]">
           <div className="flex flex-col">

@@ -7,7 +7,7 @@ const WebAppTechnologies = () => {
   const logosDard = theme === "light" ? "logos" : "logosDark";
   const logos2Classes = theme === "light" ? "logos2" : "logos2Dark";
   return (
-    <section className="w-full global-padding-horizontal py-12">
+    <section className="w-full global-padding-horizontal py-12 lg:py-20">
       <div className="w-full flex flex-col items-center justify-center">
         <p className="text-[#F15C20] text-xl font-bold uppercase">advance</p>
         <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
