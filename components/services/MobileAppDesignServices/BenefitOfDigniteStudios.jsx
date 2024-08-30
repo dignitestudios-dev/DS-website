@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export const sliderSettings = {
   slidesPerView: 1,
-  spaceBetween: 50,
+  spaceBetween: 30,
   breakpoints: {
     480: {
       slidesPerView: 1,

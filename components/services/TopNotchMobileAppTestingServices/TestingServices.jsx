@@ -6,7 +6,7 @@ import React from "react";
 
 const TestingServices = () => {
   return (
-    <div className="text-center pt-10 lg:py-10 global-padding-horizontal">
+    <div className="text-center pt-10 lg:py-10 2xl:py-32 global-padding-horizontal">
       <h2 className="headings-size">
         <span className="text-[#F15C20]">Mobile App</span> Testing Services
       </h2>

@@ -35,9 +35,9 @@ const MobileAppDevelopmentSeoPage = () => {
         <div
           className={`w-full relative ${
             theme === "light" && "bg-[#F9F9F9]"
-          } h-[170px] md:h-[345px] lg:h-[405px] xl:h-[545px] overflow-hidden`}
+          } h-[170px] md:h-[345px] lg:h-[405px] xl:h-[585px] 2xl:h-[770px] overflow-hidden`}
         >
-          <h2 className="uppercase font-bold text-sm w-full md:text-3xl lg:text-[48px] z-20 absolute top-[10%] 2xl:top-32 left-1/2 transform -translate-x-1/2 text-center mx-auto">
+          <h2 className="uppercase font-bold text-sm w-full md:text-3xl lg:text-[48px] 2xl:text-[58px] z-20 absolute top-[10%] 2xl:top-20 left-1/2 transform -translate-x-1/2 text-center mx-auto">
             <span className="text-[#F15C20]">technologies</span> we’re using
           </h2>
           {theme === "dark" ? (

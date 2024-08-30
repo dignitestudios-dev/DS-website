@@ -9,9 +9,11 @@ import { FiArrowUpRight } from "react-icons/fi";
 const WhyDigniteStudios = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full global-padding-horizontal py-12 grid grid-cols-1 xl:grid-cols-3 gap-10">
+    <section className="w-full global-padding-horizontal py-12 lg:py-24 2xl:py-28 grid grid-cols-1 xl:grid-cols-3 gap-10">
       <div className="w-full col-span-3 xl:col-span-1 flex flex-col items-start gap-4">
-        <h2 className={`headings-size group`}>
+        <h2
+          className={`font-bold uppercase lg:font-extrabold text-4xl lg:text-5xl xl:text-[50px] 2xl:text-[60px] tracking-tighter xl:font-bold group`}
+        >
           <span className="text-[#8F8F8F] group-hover:text-[#F15C20]">Why</span>
           <br />
           Dignite Studios

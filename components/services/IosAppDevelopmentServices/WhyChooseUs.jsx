@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
   const { palette, theme } = useContext(GlobalContext);
   return (
     <div
-      className={`my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  text-center`}
+      className={`my-14 xl:my-20 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  text-center`}
     >
       <h2
         style={{

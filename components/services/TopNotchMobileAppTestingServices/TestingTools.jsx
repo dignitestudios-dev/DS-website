@@ -7,7 +7,7 @@ const TestingTools = () => {
   const logosDard = theme === "light" ? "logos" : "logosDark";
   const logos2Classes = theme === "light" ? "logos2" : "logos2Dark";
   return (
-    <div className="w-full py-10 global-padding-horizontal flex flex-col items-center text-center">
+    <div className="w-full py-10 lg:py-20 global-padding-horizontal flex flex-col items-center text-center">
       <p className="text-xl font-bold text-[#F15C20] uppercase">exlcusive</p>
       <img src="/lines.png" alt="lines" />
 

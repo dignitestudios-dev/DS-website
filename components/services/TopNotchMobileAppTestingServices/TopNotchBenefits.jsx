@@ -8,7 +8,7 @@ import React, { useContext } from "react";
 const TopNotchBenefits = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="py-10 global-padding-horizontal flex flex-col items-center">
+    <div className="py-10 lg:py-20 global-padding-horizontal flex flex-col items-center">
       <p className="text-xl font-bold text-[#F15C20] uppercase">
         dignite studios
       </p>
@@ -23,7 +23,7 @@ const TopNotchBenefits = () => {
         user expectations to ensure refined customized solutions for your apps. 
       </p>
 
-      <div className="w-full mt-10 lg:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="w-full mt-10 lg:mt-20 2xl:mt-28 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div
           className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
           data-aos="slide-up"
@@ -84,7 +84,7 @@ const TopNotchBenefits = () => {
         </div>
       </div>
 
-      <div className="w-full mt-10 lg:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="w-full mt-10 lg:mt-20 2xl:mt-28 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex justify-center order-2 lg:order-1">
           <div
             className={`w-full lg:w-[420px] overflow-hidden h-[379px] lg:h-[479px] rounded-3xl flex justify-center items-end ${
@@ -141,7 +141,7 @@ const TopNotchBenefits = () => {
         </div>
       </div>
 
-      <div className="w-full mt-20 lg:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="w-full mt-10 lg:mt-20 2xl:mt-28 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div
           className="flex flex-col items-start text-start gap-5 lg:pt-6 overflow-hidden"
           data-aos="slide-up"
@@ -203,7 +203,7 @@ const TopNotchBenefits = () => {
         </div>
       </div>
 
-      <div className="w-full mt-10 lg:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="w-full mt-10 lg:mt-20 2xl:mt-28 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex justify-center order-2 lg:order-1">
           <div
             className={`w-full lg:w-[420px] overflow-hidden h-[379px] lg:h-[479px] rounded-3xl flex justify-center items-end ${

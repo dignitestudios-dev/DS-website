@@ -8,7 +8,7 @@ const ValueAddedDigniteStudios = () => {
   return (
     <section
       id="top-notch-team-ofdignite-studios"
-      className="w-full py-12 px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48"
+      className="w-full py-12 lg:py-20 px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48"
       style={{ background: palette?.background }}
     >
       <div className={`w-full`}>

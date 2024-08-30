@@ -11,7 +11,7 @@ import customLoader from "@/lib/custom-loader";
 
 export const sliderSettings = {
   slidesPerView: 1,
-  spaceBetween: 70,
+  spaceBetween: 40,
   breakpoints: {
     480: {
       slidesPerView: 1,
@@ -36,7 +36,7 @@ const MobileAppWeDevelopSwiper = () => {
       <Swiper {...sliderSettings} className="z-10">
         <SliderButtons />
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#AE0843] rounded-[24px] p-10 relative h-[400px] xl:h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#AE0843] rounded-[24px] p-10 relative h-[400px] xl:h-[445px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
               Lending Apps
             </p>
@@ -56,7 +56,7 @@ const MobileAppWeDevelopSwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#4C7BFC] rounded-[24px] p-10 relative h-[400px] xl:h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#4C7BFC] rounded-[24px] p-10 relative h-[400px] xl:h-[445px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
               Booking Apps
             </p>
@@ -82,7 +82,7 @@ const MobileAppWeDevelopSwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#9143F4] rounded-[24px] p-10 relative h-[400px] xl:h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#9143F4] rounded-[24px] p-10 relative h-[400px] xl:h-[445px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
               Social Media Apps
             </p>
@@ -107,7 +107,7 @@ const MobileAppWeDevelopSwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#117E77] rounded-[24px] p-10 relative h-[400px] xl:h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#117E77] rounded-[24px] p-10 relative h-[400px] xl:h-[445px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
               Ticketing Apps
             </p>
@@ -132,7 +132,7 @@ const MobileAppWeDevelopSwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#3A7DFF] rounded-[24px] p-10 relative h-[400px] xl:h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#3A7DFF] rounded-[24px] p-10 relative h-[400px] xl:h-[445px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
               Communication Apps
             </p>
@@ -157,7 +157,7 @@ const MobileAppWeDevelopSwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
-          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#F8B84E] rounded-[24px] p-10 relative h-[400px] xl:h-[425px] group">
+          <div className="w-full 2xl:w-[400px] overflow-hidden bg-[#F8B84E] rounded-[24px] p-10 relative h-[400px] xl:h-[445px] group">
             <p className="text-white text-[22px] font-bold z-30 float-start">
               Marketplace Apps
             </p>

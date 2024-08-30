@@ -23,7 +23,7 @@ const FAQS = () => {
 
   return (
     <section
-      className={`w-full mt-14 global-padding-horizontal flex justify-center items-start mx-auto h-auto`}
+      className={`w-full py-14 2xl:py-20 global-padding-horizontal flex justify-center items-start mx-auto h-auto`}
     >
       <div className="w-full h-auto flex flex-col gap-3 justify-start items-center">
         <h2

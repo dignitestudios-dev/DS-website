@@ -264,7 +264,7 @@ const Process = () => {
             theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
           } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20]  transition-all duration-150 lg:border-r lg:border-b`}
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20]  transition-all duration-150 lg:border-r`}
         >
           <div className="w-full flex flex-col gap-2 md:gap-4 justify-start items-start">
             <p className="text-[40px] font-extrabold text-[#B4B4B499]">07</p>

@@ -8,7 +8,7 @@ const PhenomenalSection = () => {
   const { theme } = useContext(GlobalContext);
 
   return (
-    <section className="w-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 py-12">
+    <section className="w-full px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 py-12 lg:py-20">
       <div className="flex flex-col items-center mb-5">
         <p className="text-[#F15C20] text-xl font-bold uppercase">Phenomenal</p>
         <img src="/lines.png" alt="lines" className="" />

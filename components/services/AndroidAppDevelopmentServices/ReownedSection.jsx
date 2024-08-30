@@ -9,7 +9,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const ReownedSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full global-padding-horizontal relative lg:h-screen 2xl:h-[70vh] pt-16 lg:pt-36 2xl:pt-52">
+    <section className="w-full global-padding-horizontal relative lg:h-screen 2xl:h-[70vh] pt-16 lg:pt-36 2xl:pt-60">
       <div
         className="w-full xl:w-[70%]"
         data-aos="fade-in"
@@ -24,7 +24,7 @@ const ReownedSection = () => {
         <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
           Renowned
         </p>
-        <h2 className={`headings-size`}>
+        <h2 className={`headings-size my-2 2xl:mt-4 2xl:mb-5`}>
           <span className="text-[#F15C20]">Android App</span> <br /> Development
           Company
         </h2>
@@ -40,7 +40,7 @@ const ReownedSection = () => {
           conceptualization. We believe in providing spectacular and reliable
           service set to achieve industry goals and agitation.
         </p>
-        <div className="w-full lg:w-auto lg:block">
+        <div className="w-full lg:w-auto lg:block mt-7 2xl:mt-8">
           <Link
             href="/contact-us"
             className="py-5 px-5 text-base lg:py-7 lg:px-10 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
@@ -57,7 +57,7 @@ const ReownedSection = () => {
           "/shows-two-mobile-devices-with-android-app-development-layouts.webp"
         }
         alt="The image shows two mobile devices with Android app development layouts"
-        className="md:w-[484px] md:h-[484px] md:mx-auto xl:w-[684.93px] xl:h-[734px] 2xl:w-[784.93px] lg:absolute lg:right-0 lg:top-36 xl:top-20 2xl:top-28"
+        className="md:w-[484px] md:h-[484px] md:mx-auto xl:w-[684.93px] xl:h-[734px] 2xl:w-[784.93px] lg:absolute lg:right-0 lg:top-36 xl:top-20 2xl:top-40"
         data-aos="slide-left"
         data-aos-offset="50"
         data-aos-delay="50"

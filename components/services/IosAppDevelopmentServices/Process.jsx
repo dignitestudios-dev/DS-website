@@ -9,7 +9,7 @@ import { IOS_APP_DEVELOPMENT_PROCESS } from "@/constants/iosappdevelopmentproces
 const Process = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full py-12 global-padding-horizontal lg:mt-0">
+    <section className="w-full py-12 lg:py-20 global-padding-horizontal lg:mt-0">
       <div className="w-full flex flex-col xl:flex-row items-start justify-between gap-0 md:gap-6">
         <div className="w-full xl:w-[70%]">
           <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>

@@ -8,13 +8,13 @@ import React, { useContext } from "react";
 const MobileAppTestingInRealTime = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="w-full py-6 lg:py-12 global-padding-horizontal">
+    <div className="w-full py-6 global-padding-horizontal">
       <div
         className={`w-full rounded-3xl flex flex-col xl:flex-row items-end overflow-y-hidden  relative ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#1c1c1c]"
         }`}
       >
-        <div className="flex flex-col items-start gap-5 w-full xl:w-[55%] p-6 lg:p-14">
+        <div className="flex flex-col items-start gap-5 w-full xl:w-[55%] p-6 lg:p-14 2xl:p-24">
           <h2 className="text-2xl lg:text-[48px] font-bold lg:leading-[54.94px] tracking-tighter">
             <span className="text-[#F15C20]">Mobile App</span> Testing In <br />{" "}
             Real Time
@@ -32,7 +32,7 @@ const MobileAppTestingInRealTime = () => {
             risk-free compatibility, and innovative solutions to burgeon in the
             digital landscape
           </p>
-          <div>
+          <div className="mt-4">
             <Link
               href={"/contact-us"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
