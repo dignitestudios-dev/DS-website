@@ -10,6 +10,7 @@ import AndroidMobileAppDesign from "./AndroidMobileAppDesign";
 import WhyChooseUs from "./WhyChooseUs";
 import AndroidFaqs from "./AndroidFaqs";
 import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
+import NewContactForm from "@/components/global/NewContactForm";
 
 const AndroidMobileAppDesignServicesPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -23,7 +24,7 @@ const AndroidMobileAppDesignServicesPage = () => {
       <AndroidMobileAppDesign />
       <WhyChooseUs />
       <AndroidFaqs />
-      <TopRatedAppDevelopmentContactSection />
+      <NewContactForm />
     </div>
   );
 };

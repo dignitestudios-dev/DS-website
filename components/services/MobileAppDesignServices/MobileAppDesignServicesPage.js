@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useContext } from "react";
 import Hero from "./Hero";
 import Navbar from "@/components/global/Navbar";
@@ -13,14 +13,15 @@ import BenefitOfDigniteStudios from "./BenefitOfDigniteStudios";
 import PlanOfActionSection from "./PlanOfActionSection";
 import { GlobalContext } from "@/context/GlobalContext";
 import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
+import NewContactForm from "@/components/global/NewContactForm";
 
 const MobileAppDesignServicesPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
   return (
     <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
-      <Navbar setIsOpen={setIsSidebarOpen}/>
+      <Navbar setIsOpen={setIsSidebarOpen} />
       <Hero />
-      <PlanOfActionSection/>
+      <PlanOfActionSection />
       <MobileAppDesignCaseStudies />
       <MobileAppDesignWhyChooseUs />
       <TopNotchTeam />
@@ -28,7 +29,7 @@ const MobileAppDesignServicesPage = () => {
       <BenefitOfDigniteStudios />
       <DigniteServiceScope />
       <FAQS />
-      <TopRatedAppDevelopmentContactSection />
+      <NewContactForm />
     </div>
   );
 };

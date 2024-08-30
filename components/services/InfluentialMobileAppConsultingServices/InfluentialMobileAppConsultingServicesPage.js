@@ -8,6 +8,7 @@ import DriveBusiness from "./DriveBusiness";
 import InfluentialFaqs from "./InfluentialFaqs";
 import InfluentialChooseUs from "./InfluentialChooseUs";
 import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
+import NewContactForm from "@/components/global/NewContactForm";
 
 const InfluentialMobileAppConsultingServicesPage = () => {
   return (
@@ -17,10 +18,10 @@ const InfluentialMobileAppConsultingServicesPage = () => {
       <ConsultingStrategiesSection />
       <DevelopmentConsultingStrategies />
       <MobileAppDesignCaseStudies />
-      <InfluentialChooseUs/>
+      <InfluentialChooseUs />
       <DriveBusiness />
       <InfluentialFaqs />
-      <TopRatedAppDevelopmentContactSection />
+      <NewContactForm />
     </div>
   );
 };

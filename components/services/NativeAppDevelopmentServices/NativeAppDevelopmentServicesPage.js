@@ -11,6 +11,7 @@ import DigniteKnackSkills from "./DigniteKnackSkills";
 import Faqs from "./Faqs";
 import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 import WhyChooseUs from "./WhyChooseUs";
+import NewContactForm from "@/components/global/NewContactForm";
 
 const NativeAppDevelopmentServicesPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -25,7 +26,7 @@ const NativeAppDevelopmentServicesPage = () => {
       <DigniteKnackSkills />
       <WhyChooseUs />
       <Faqs />
-      <TopRatedAppDevelopmentContactSection />
+      <NewContactForm />
     </div>
   );
 };

@@ -9,6 +9,7 @@ import EdgeOfDigniteStudios from "./EdgeofWorkingWithDignite";
 import FAQS from "./FAQS";
 import WhyDigniteStudios from "./WhyDigniteStudios";
 import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
+import NewContactForm from "@/components/global/NewContactForm";
 
 const AndroidAppDevelopmentServicesPage = () => {
   return (
@@ -18,11 +19,11 @@ const AndroidAppDevelopmentServicesPage = () => {
       <LeadingSection />
       <TopAndroidAppSection />
       <Process />
-      <Technologies/>
-      <EdgeOfDigniteStudios/>
-      <WhyDigniteStudios/>
-      <FAQS/>
-      <TopRatedAppDevelopmentContactSection />
+      <Technologies />
+      <EdgeOfDigniteStudios />
+      <WhyDigniteStudios />
+      <FAQS />
+      <NewContactForm />
     </div>
   );
 };

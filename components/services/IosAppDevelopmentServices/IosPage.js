@@ -12,6 +12,7 @@ import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopmen
 import { IOS_SERVICES_FAQS } from "@/constants/iosservicesfaqs";
 import VariousIndustriesSection from "./VariousIndustriesSection";
 import Faqs from "./Faqs";
+import NewContactForm from "@/components/global/NewContactForm";
 
 const IosPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -22,11 +23,11 @@ const IosPage = () => {
       <TopNotchIosApp />
       <PhenomenalSection />
       <Process />
-      <VariousIndustriesSection/>
+      <VariousIndustriesSection />
       <ValueAddedDigniteStudios />
       <WhyChooseUs />
       <Faqs faqs={IOS_SERVICES_FAQS} />
-      <TopRatedAppDevelopmentContactSection />
+      <NewContactForm />
     </div>
   );
 };

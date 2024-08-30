@@ -22,6 +22,7 @@ import HomeContact from "./HomeContact";
 import AreaOfExpertise from "./AreaOfExpertise";
 import Head from "next/head";
 import Script from "next/script";
+import NewContactForm from "../global/NewContactForm";
 
 export default function HomePage() {
   const { palette } = useContext(GlobalContext);
@@ -155,7 +156,8 @@ export default function HomePage() {
       <IndustriesSection />
       <Testimonials />
       <Faq />
-      <HomeContact />
+      {/* <HomeContact /> */}
+      <NewContactForm />
       {/* <FindOurOfficesSection /> */}
       <TopRatedPageOurOffices />
     </div>

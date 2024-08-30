@@ -12,13 +12,14 @@ import TopNotchFaqs from "./TopNotchFaqs";
 import "aos/dist/aos.css";
 import { GlobalContext } from "@/context/GlobalContext";
 import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
+import NewContactForm from "@/components/global/NewContactForm";
 
 const TopNotchMobileAppTestingServices = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
 
   return (
     <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
-      <Navbar setIsOpen={setIsSidebarOpen}/>
+      <Navbar setIsOpen={setIsSidebarOpen} />
       <Hero />
       <MobileAppTestingInRealTime />
       <TestingServices />
@@ -27,7 +28,7 @@ const TopNotchMobileAppTestingServices = () => {
       <TestingTools />
       <WhyDignite />
       <TopNotchFaqs />
-      <TopRatedAppDevelopmentContactSection />
+      <NewContactForm />
     </div>
   );
 };
