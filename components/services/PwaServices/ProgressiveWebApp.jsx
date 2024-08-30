@@ -36,15 +36,15 @@ const ProgressiveWebApp = () => {
 
         <div className="w-full lg:w-[35%] flex justify-center lg:pt-28 relative">
           <div
-            className={`w-[208px] h-[54px] hidden md:flex items-end gap-2 absolute left-[20px] lg:-left-[150px] lg:top-[42%] xl:-left-[85px] xl:top-[52%]`}
-            data-aos="fade-up"
-            data-aos-offset="0"
-            data-aos-delay="0"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-center"
+            className={`w-[208px] h-[54px] hidden md:flex items-end gap-2 absolute left-[20px] lg:-left-[150px] lg:top-[42%] xl:-left-[85px] xl:top-[52%] 2xl:-left-[35px]`}
+            // data-aos="fade-up"
+            // data-aos-offset="0"
+            // data-aos-delay="0"
+            // data-aos-duration="500"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="true"
+            // data-aos-anchor-placement="top-center"
           >
             <div className="relative">
               <div className="flex items-center justify-between bg-[#ffdfdf] rounded-full w-[42px] h-[42px] relative">
@@ -171,7 +171,7 @@ const ProgressiveWebApp = () => {
           </div>
 
           <div
-            className="w-[232px] h-[54px] hidden md:flex items-end gap-2 absolute right-2 lg:-right-32 lg:bottom-[36%] xl:-right-14 xl:bottom-[19%]"
+            className="w-[232px] h-[54px] hidden md:flex items-end gap-2 absolute right-2 lg:-right-32 lg:bottom-[36%] xl:-right-14 xl:bottom-[19%] 2xl:bottom-[16%]"
             data-aos="fade-up"
             data-aos-offset="0"
             data-aos-delay="0"
