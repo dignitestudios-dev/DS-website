@@ -7,6 +7,8 @@ import { HiOutlineEmojiHappy } from "react-icons/hi";
 const HeroAnimation = () => {
   const [toggle, setToggle] = useState(true);
   const { theme } = useContext(GlobalContext);
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   return (
     <div
@@ -185,57 +187,83 @@ const HeroAnimation = () => {
 
           <div className="w-full mt-5 flex flex-col gap-4">
             <div
-              className={`w-full h-[55px] ${
-                toggle ? "bg-[#FAFAFC]" : "bg-[#5E5E5E]"
-              } rounded-[200px] px-5 flex items-center justify-between`}
-              data-aos="fade-up"
-              data-aos-offset="0"
-              data-aos-delay="0"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="false"
-              data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              className="w-full"
+              ref={ref}
+              style={{
+                transform: isInView ? "none" : "translateY(20px)",
+                opacity: isInView ? 1 : 0,
+                transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+              }}
             >
-              <div className="flex items-center gap-1">
-                <img
-                  src="/profile-icon-1.png"
-                  alt=""
-                  className="w-[32px] h-[32px]"
-                />
-                <img
-                  src="/profile-icon-2.png"
-                  alt=""
-                  className="w-[32px] h-[32px]"
-                />
-                <img
-                  src="/profile-icon-3.png"
-                  alt=""
-                  className="w-[32px] h-[32px]"
-                />
-                <p
-                  className={`text-[13px] font-normal hidden md:block ${
-                    toggle ? "text-black" : "text-white"
+              <div
+                className={`w-full h-[55px] rounded-[200px] flex items-center justify-between`}
+              >
+                <div
+                  className={`w-full h-full px-4 rounded-l-full flex items-center gap-1 ${
+                    toggle ? "bg-[#FAFAFC]" : "bg-[#5E5E5E]"
                   }`}
                 >
-                  Your friends are joining{" "}
-                  <span className="font-semibold">
-                    “How to Become a UI UX Designer”
-                  </span>
-                  meeting
-                </p>
-              </div>
-              <div className="bg-[#25D06A] w-[72px] py-2 text-center text-white text-xs font-medium rounded-[200px]">
-                Join room
+                  <img
+                    src="/profile-icon-1.png"
+                    alt=""
+                    className="w-[32px] h-[32px]"
+                  />
+                  <img
+                    src="/profile-icon-2.png"
+                    alt=""
+                    className="w-[32px] h-[32px]"
+                  />
+                  <img
+                    src="/profile-icon-3.png"
+                    alt=""
+                    className="w-[32px] h-[32px]"
+                  />
+                  <p
+                    className={`text-[13px] font-normal hidden md:block ${
+                      toggle ? "text-black" : "text-white"
+                    }`}
+                  >
+                    Your friends are joining{" "}
+                    <span className="font-semibold">
+                      “How to Become a UI UX Designer”
+                    </span>
+                    meeting
+                  </p>
+                </div>
+                <div
+                  className={`h-full ${
+                    toggle ? "bg-[#FAFAFC]" : "bg-[#5E5E5E]"
+                  } flex items-center pr-4 rounded-r-full`}
+                >
+                  <div
+                    className={`bg-[#25D06A] w-[72px] py-2 text-center text-white text-xs font-medium rounded-[200px] `}
+                  >
+                    Join room
+                  </div>
+                </div>
               </div>
             </div>
 
             <div
-              className={`${
-                toggle ? "bg-[#FAFAFC] text-black" : "bg-[#5E5E5E] text-white"
-              } px-2 py-2 rounded-full text-xs font-medium w-[54px] mx-auto mt-6 md:mt-0`}
+              className="w-full"
+              ref={ref}
+              style={{
+                transform: isInView ? "none" : "translateY(20px)",
+                opacity: isInView ? 1 : 0,
+                transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+              }}
             >
-              Today
+              <div className="w-full mt-6 md:mt-0">
+                <div
+                  className={`${
+                    toggle
+                      ? "bg-[#FAFAFC] text-black"
+                      : "bg-[#5E5E5E] text-white"
+                  } px-2 py-2 rounded-full text-xs font-medium w-[54px] mx-auto`}
+                >
+                  Today
+                </div>
+              </div>
             </div>
 
             <div
