@@ -251,7 +251,7 @@ const Footer = () => {
             href="/services/ios-app-development-services"
             className="hover:text-orange-500"
           >
-            IOS App Development Services
+            IOS App Development <br /> Services
           </Link>
           <Link
             href="/services/ios-app-design-services"
@@ -263,7 +263,7 @@ const Footer = () => {
             href="/services/web-application-development-services"
             className="hover:text-orange-500"
           >
-            Web App Development Services
+            Web App Development <br /> Services
           </Link>
           <Link
             href="/services/mobile-application-support-and-maintenance-services"
@@ -283,7 +283,7 @@ const Footer = () => {
             href="/services/mobile-app-consulting-services"
             className="hover:text-orange-500"
           >
-            Mobile App Consulting Services
+            Mobile App Consulting <br /> Services
           </Link>
           <Link
             href="/services/mobile-app-design-services"
