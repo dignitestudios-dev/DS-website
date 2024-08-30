@@ -105,7 +105,7 @@ const HeroAnimation = () => {
                   key={index}
                   className={`flex items-start justify-between mb-1 py-5 px-4 rounded-[16px] ${
                     index === 0 && "bg-[#7D70F80A]"
-                  }`}
+                  } ${!toggle && index === 0 ? "bg-[#5E5E5E]" : ""}`}
                 >
                   <div className="flex items-center justify-start gap-3">
                     <div
@@ -232,16 +232,8 @@ const HeroAnimation = () => {
 
             <div
               className={`${
-                toggle ? "bg-[#FAFAFC]" : "bg-[#5E5E5E] text-white"
+                toggle ? "bg-[#FAFAFC] text-black" : "bg-[#5E5E5E] text-white"
               } px-2 py-2 rounded-full text-xs font-medium w-[54px] mx-auto mt-6 md:mt-0`}
-              data-aos="fade-up"
-              data-aos-offset="0"
-              data-aos-delay="0"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="true"
-              data-aos-anchor-placement="top-center"
             >
               Today
             </div>
@@ -264,10 +256,12 @@ const HeroAnimation = () => {
               <div className="flex flex-col items-start gap-1">
                 <div
                   className={`${
-                    toggle ? "bg-[#FAFAFC]" : "bg-[#5E5E5E] text-white"
-                  } p-3 rounded-tl-[20px] rounded-r-[20px] text-start`}
+                    toggle
+                      ? "bg-[#FAFAFC] text-black"
+                      : "bg-[#5E5E5E] text-white"
+                  } p-3 rounded-tl-[20px] rounded-r-[20px] text-start `}
                 >
-                  <span className="text-[13px] font-normal leading-[19.27px]">
+                  <span className={`text-[13px] font-normal leading-[19.27px]`}>
                     Hi everyone, I have over 4 years of experience in Figma. If
                     you guys need <br /> any help feel free to message me.
                   </span>
@@ -300,7 +294,9 @@ const HeroAnimation = () => {
               <div className="flex flex-col items-start gap-1">
                 <div
                   className={`${
-                    toggle ? "bg-[#FAFAFC]" : "bg-[#5E5E5E] text-white"
+                    toggle
+                      ? "bg-[#FAFAFC] text-black"
+                      : "bg-[#5E5E5E] text-white"
                   } p-3 rounded-tl-[20px] rounded-r-[20px] text-start`}
                 >
                   <span className="text-[13px] font-normal leading-[19.27px]">
@@ -335,7 +331,9 @@ const HeroAnimation = () => {
               <div className="flex flex-col items-start gap-1">
                 <div
                   className={`${
-                    toggle ? "bg-[#FAFAFC]" : "bg-[#5E5E5E] text-white"
+                    toggle
+                      ? "bg-[#FAFAFC] text-black"
+                      : "bg-[#5E5E5E] text-white"
                   } p-3 rounded-tl-[20px] rounded-r-[20px] text-start`}
                 >
                   <span className="text-[13px] font-normal leading-[19.27px]">

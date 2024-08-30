@@ -217,6 +217,13 @@ const Navbar = ({ setIsOpen }) => {
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Web App
               Development Services
             </Link>
+            <Link
+              href={"/services/pwa-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              PWA Development Services
+            </Link>
           </div>
           <div className="flex flex-col items-start gap-3">
             <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">

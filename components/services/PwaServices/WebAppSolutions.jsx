@@ -48,7 +48,11 @@ export default function WebAppSolutions() {
           <h2 className="headings-size">
             web app <span className="text-[#F15C20]">solutions</span>
           </h2>
-          <p className="text-[15px] md:text-[18px] font-normal text-[#2A2A2A] lg:w-[64%] mt-3 leading-[26.46px]">
+          <p
+            className={`text-[15px] md:text-[18px] font-normal ${
+              theme === "light" && "text-[#2A2A2A]"
+            } lg:w-[64%] mt-3 leading-[26.46px]`}
+          >
             Our progressive web app development services craft an aesthetic
             landscape of progressive web apps with the latest PWA technology to
             make your app stand among leading PWA development companies.
