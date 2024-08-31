@@ -10,7 +10,6 @@ import PwaDevelopmentProcess from "./PwaDevelopmentProcess";
 import WebAppSolutions from "./WebAppSolutions";
 import WhyChooseUs from "./WhyChooseUs";
 import FAQS from "./FAQS";
-import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 import NewContactForm from "@/components/global/NewContactForm";
 
 const PwaServicesPage = () => {

@@ -266,6 +266,12 @@ const Footer = () => {
             Web App Development <br /> Services
           </Link>
           <Link
+            href="/services/pwa-development-services"
+            className="hover:text-orange-500"
+          >
+            PWA Development Services
+          </Link>
+          <Link
             href="/services/mobile-application-support-and-maintenance-services"
             className="hover:text-orange-500"
           >

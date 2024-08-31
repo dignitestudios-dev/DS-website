@@ -37,9 +37,12 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/diversified-experience.png"}
-            alt={"iOS app development service Multi-Industry Discipline icon"}
-            title={"Multi-Industry Discipline Icon"}
+            src={
+              "/diversified-experience-of-progressive-web-app-development-icon.webp"
+            }
+            alt={
+              "diversified experience of progressive web app development icon"
+            }
             className=""
             width="36px"
             height="36px"
@@ -71,11 +74,8 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/multi-module-approach.png"}
-            alt={
-              "iOS app development service embrace app builder technology icon"
-            }
-            title={"Embrace App Builder Technology Icon"}
+            src={"/multi-module-approach-icon.webp"}
+            alt={"multi module approach icon"}
             className=""
             width="36px"
             height="36px"
@@ -106,9 +106,8 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/customer-centered-policy.png"}
-            alt={"ios-app-development-a-decade-of-scaling-design-heights-icon"}
-            title={"A decade of scaling design heights icon"}
+            src={"/customer-centered-policy-icon.webp"}
+            alt={"customer centered policy icon"}
             className=""
             width="36px"
             height="36px"
@@ -139,9 +138,8 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/strategic-focus.png"}
-            alt={"iOs app development primed for perfection icon"}
-            title={"Primed for Perfection Icon"}
+            src={"/strategic-focus-icon.webp"}
+            alt={"strategic focus icon"}
             className=""
             width="36px"
             height="36px"
@@ -172,9 +170,8 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/tech-mastery.png"}
-            alt={"iOs app development primed for perfection icon"}
-            title={"Primed for Perfection Icon"}
+            src={"/tech-mastery-icon.webp"}
+            alt={"tech mastery icon"}
             className=""
             width="36px"
             height="36px"
@@ -204,9 +201,8 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/design-excellence.png"}
-            alt={"iOs app development primed for perfection icon"}
-            title={"Primed for Perfection Icon"}
+            src={"/ui-ux-design-excellence-icon.webp"}
+            alt={"UI/UX design excellence icon"}
             className=""
             width="36px"
             height="36px"

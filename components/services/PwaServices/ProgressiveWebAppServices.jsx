@@ -43,7 +43,7 @@ const ProgressiveWebAppServices = () => {
               <div className="w-[48px] h-[48px] bg-[#F15C2014] rounded-[12px] flex items-center justify-center">
                 <img
                   src={service.image_src}
-                  alt=""
+                  alt={service.alt_tag}
                   key={index}
                   className="w-[24px] h-[24px]"
                 />
