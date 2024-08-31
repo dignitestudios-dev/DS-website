@@ -389,7 +389,7 @@ const HeroAnimation = () => {
               data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
-              <div className="w-[370px] h-[43px] flex items-center justify-center bg-[#7D70F8] rounded-l-[20px] rounded-tr-[20px]">
+              <div className="w-[370px] md:w-[390px] h-[47px] md:h-[43px] flex items-center justify-start text-start px-4 md:py-0 bg-[#7D70F8] rounded-l-[20px] rounded-tr-[20px]">
                 <span className="text-[13px] font-normal text-white">
                   Yes. I need some help in figma components and variants.
                 </span>
