@@ -13,5 +13,5 @@ Disallow: /case-studies/carter-boating
 Disallow: /blog/is-getting-a-ccna-certification-worth-2023/feed/
 Disallow: /blog/2022/11/19/
 
-Sitemap: https://dignitestudios.com/sitemap.xml
-Sitemap: https://www.dignitestudios.com/sitemap-image.xml
+Sitemap: https://www.dignitestudios.com/sitemap_index.xml
+Sitemap: https://www.dignitestudios.com/sitemap_image.xml
