@@ -112,6 +112,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 IOS App Development Services
               </Link>
               <Link
+                href="/services/ios-app-design-services"
+                className={`hover:text-orange-600 `}
+              >
+                IOS App Design Services
+              </Link>
+              <Link
                 href="/services/native-app-development-services"
                 className={`hover:text-orange-600 `}
               >
