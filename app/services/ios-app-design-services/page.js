@@ -3,6 +3,12 @@ import ServicesLayout from "@/layout/ServiceLayout";
 import Script from "next/script";
 import React from "react";
 
+export const metadata = {
+  title: "iOS app design company | Dignite Studios",
+  description:
+    "We ensure vision-oriented iOS app design services with innovative UI/UX design features for custom iPhone applications.",
+};
+
 const page = () => {
   return (
     <div>
