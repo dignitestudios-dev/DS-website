@@ -188,14 +188,14 @@ const ProgressiveWebApp = () => {
               </div>
             </div>
             <div
-              className={`w-[179px] pl-2 h-[54px] font-normal flex items-center justify-center rounded-tl-[20px] rounded-r-[20px] ${
+              className={`w-[189px] pl-2 h-[69px] font-normal flex items-center justify-center rounded-tl-[20px] rounded-r-[20px] ${
                 theme === "light"
                   ? "bg-[#FAFAFC] text-black"
                   : "bg-[#2d2d2d] text-white"
               }`}
             >
               <span className="text-xs">
-                I have done course. Anybody need help?
+                I’ve completed a course on PWAs. Does anyone need help?
               </span>
             </div>
           </div>

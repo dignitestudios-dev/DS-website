@@ -163,7 +163,7 @@ const HeroAnimation = () => {
                     toggle ? "text-black" : "text-white"
                   }`}
                 >
-                  Dribbble Designs
+                  PWA Developers Hub
                 </p>
                 <p
                   className={`font-normal text-xs ${
@@ -225,8 +225,8 @@ const HeroAnimation = () => {
                   >
                     Your friends are joining{" "}
                     <span className="font-semibold">
-                      “How to Become a UI UX Designer”
-                    </span>
+                      “The Ultimate PWA Workshop”
+                    </span>{" "}
                     meeting
                   </p>
                 </div>
@@ -290,8 +290,10 @@ const HeroAnimation = () => {
                   } p-3 rounded-tl-[20px] rounded-r-[20px] text-start `}
                 >
                   <span className={`text-[13px] font-normal leading-[19.27px]`}>
-                    Hi everyone, I have over 4 years of experience in Figma. If
-                    you guys need <br /> any help feel free to message me.
+                    Hi everyone, I have over 4 years of experience in developing{" "}
+                    <br />
+                    Progressive Web Applications (PWAs). If you need any help,
+                    feel free to message me.
                   </span>
                 </div>
                 <p
@@ -342,7 +344,7 @@ const HeroAnimation = () => {
             </div>
 
             <div
-              className="w-full lg:w-[443px] h-[77px] flex items-end gap-2 relative"
+              className="w-full lg:w-[443px] h-[77px] flex items-end gap-2 relative mt-2"
               data-aos="fade-up"
               data-aos-offset="0"
               data-aos-delay="0"
@@ -365,7 +367,8 @@ const HeroAnimation = () => {
                   } p-3 rounded-tl-[20px] rounded-r-[20px] text-start`}
                 >
                   <span className="text-[13px] font-normal leading-[19.27px]">
-                    I have done figma components course. Anybody need help?
+                    I’ve completed a course on PWA components and best
+                    practices. Anybody need help?
                   </span>
                 </div>
                 <p
@@ -391,7 +394,8 @@ const HeroAnimation = () => {
             >
               <div className="w-[370px] md:w-[390px] h-[47px] md:h-[43px] flex items-center justify-start text-start px-4 md:py-0 bg-[#7D70F8] rounded-l-[20px] rounded-tr-[20px]">
                 <span className="text-[13px] font-normal text-white">
-                  Yes. I need some help in figma components and variants.
+                  Yes, I need some help with PWA components and service worker
+                  configurations.
                 </span>
               </div>
             </div>
@@ -453,9 +457,9 @@ const chatList = [
     bgColor: "bg-[#E2FFE9]",
   },
   {
-    image: "/mike-smith.png",
-    name: "Mike Smith",
-    message: "Hey, your design is ready!",
+    image: "/ball-img.png",
+    name: "PWA Developers Hub",
+    message: "Yes, I need some help with...",
     messages: 0,
     typing: false,
     bgColor: "bg-[#f1e2b9]",

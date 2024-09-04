@@ -9,7 +9,7 @@ const WebAppTechnologies = () => {
   return (
     <section className="w-full global-padding-horizontal py-12 lg:py-20">
       <div className="w-full flex flex-col items-center justify-center">
-        <p className="text-[#F15C20] text-xl font-bold uppercase">advance</p>
+        <p className="text-[#F15C20] text-xl font-bold uppercase">advanced</p>
         <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
       </div>
       <h2 className="headings-size text-center my-4">Web App Technologies</h2>
