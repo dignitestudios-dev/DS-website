@@ -48,7 +48,7 @@ const ProgressiveWebApp = () => {
           >
             <div className="relative">
               <div className="flex items-center justify-between bg-[#ffdfdf] rounded-full w-[42px] h-[42px] relative">
-                <img src="/hardy-smith.png" alt="" />
+                <img src="/hardy-smith.webp" alt="" />
                 <div className="w-[8px] h-[8px] rounded-full bg-[#35E15B] absolute bottom-1 right-0" />
               </div>
             </div>
@@ -87,7 +87,7 @@ const ProgressiveWebApp = () => {
                   <div
                     className={`w-[54px] h-[54px] rounded-full flex items-center justify-center bg-[#E2FFE9]`}
                   >
-                    <img src="/ronald-richard.png" alt="" />
+                    <img src="/ronald-richard.webp" alt="" />
                   </div>
                   <div className="flex flex-col items-start gap-1">
                     <span
@@ -119,7 +119,7 @@ const ProgressiveWebApp = () => {
                   <div
                     className={`w-[54px] h-[54px] rounded-full flex items-center justify-center bg-[#E2FFE9]`}
                   >
-                    <img src="/mike-smith.png" alt="" />
+                    <img src="/mike-smith.webp" alt="" />
                   </div>
                   <div className="flex flex-col items-start gap-1">
                     <span
@@ -147,7 +147,7 @@ const ProgressiveWebApp = () => {
                   <div
                     className={`w-[54px] h-[54px] rounded-full flex items-center justify-center bg-[#E2FFE9]`}
                   >
-                    <img src="/david-james.png" alt="" />
+                    <img src="/david-james.webp" alt="" />
                   </div>
                   <div className="flex flex-col items-start gap-1">
                     <span
@@ -183,7 +183,7 @@ const ProgressiveWebApp = () => {
           >
             <div className="relative">
               <div className="flex items-center justify-between bg-[#ffdfdf] rounded-full w-[42px] h-[42px] relative">
-                <img src="/hardy-smith.png" alt="" />
+                <img src="/hardy-smith.webp" alt="" />
                 <div className="w-[8px] h-[8px] rounded-full bg-[#35E15B] absolute bottom-1 right-0" />
               </div>
             </div>

@@ -364,6 +364,29 @@ const Page = () => {
           }),
         }}
       />
+
+      <Script
+        id="person-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Person",
+            name: "Dignite Studios",
+            url: "https://www.dignitestudios.com/",
+            description:
+              "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with a significant solution.",
+            image: "https://www.dignitestudios.com/logo.webp",
+            sameAs: [
+              "https://facebook.com/dignitestudios",
+              "https://twitter.com/dignitestudios",
+              "https://www.instagram.com/dignitestudios/",
+              "https://www.linkedin.com/company/dignitestudios/",
+              "https://www.pinterest.com/dignitestudios/",
+            ],
+          }),
+        }}
+      />
     </>
   );
 };

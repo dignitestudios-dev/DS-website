@@ -12,8 +12,8 @@ const DigitalTransformation = () => {
               digital
             </span>
             <img
-              src="/digital-lines.png"
-              alt=""
+              src="/digital-lines.webp"
+              alt="lines"
               width={"81px"}
               height={"auto"}
             />

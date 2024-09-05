@@ -244,7 +244,7 @@ const BenefitsOfWorking = () => {
               // loading="lazy"
               width={24}
               height={24}
-              src="/orange-mobile-app-development-service-post-launch-icon-1.webp"
+              src="/orange-mobile-app-development-service-post-launch-icon.webp"
               alt="Mobile App Development Service Post-launch Icon"
             />
           </div>

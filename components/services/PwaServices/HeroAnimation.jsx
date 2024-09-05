@@ -29,7 +29,11 @@ const HeroAnimation = () => {
               toggle ? "bg-[#7D70F814]" : "bg-[#616161]"
             } flex items-center justify-center rounded-full`}
           >
-            <img src="/face-icon.png" alt="" className="w-[39px] h-[39px]" />
+            <img
+              src="/face-icon.webp"
+              alt="face-icon"
+              className="w-[39px] h-[39px]"
+            />
           </div>
           <div className="flex flex-col items-start">
             <p
@@ -90,7 +94,11 @@ const HeroAnimation = () => {
               toggle ? "bg-[#FAFAFC]" : "bg-[#5E5E5E]"
             }`}
           >
-            <img src="/search-icon.png" alt="" className="w-[20px] h-[20px]" />
+            <img
+              src="/search-icon.webp"
+              alt="search-icon"
+              className="w-[20px] h-[20px]"
+            />
             <span
               className={`text-xs font-normal ${
                 toggle ? "text-[#979797]" : "text-[#C8C8C8]"
@@ -113,7 +121,7 @@ const HeroAnimation = () => {
                     <div
                       className={`w-[54px] h-[54px] rounded-full flex items-center justify-center ${chat.bgColor}`}
                     >
-                      <img src={chat.image} alt="" />
+                      <img src={chat.image} alt={chat.alt_tag} />
                     </div>
                     <div className="flex flex-col items-start gap-1">
                       <span
@@ -156,7 +164,11 @@ const HeroAnimation = () => {
         >
           <div className="w-full flex flex-col md:flex-row gap-y-4 items-start md:items-center justify-between border-b pb-4">
             <div className="flex items-center justify-start gap-2">
-              <img src="/ball-img.png" alt="" className="w-[41px] h-[41px]" />
+              <img
+                src="/ball-img.webp"
+                alt="ball-img"
+                className="w-[41px] h-[41px]"
+              />
               <div className="flex flex-col items-start">
                 <p
                   className={`font-semibold text-base ${
@@ -204,18 +216,18 @@ const HeroAnimation = () => {
                   }`}
                 >
                   <img
-                    src="/profile-icon-1.png"
-                    alt=""
+                    src="/profile-icon-1.webp"
+                    alt="profile-icon-1"
                     className="w-[32px] h-[32px]"
                   />
                   <img
-                    src="/profile-icon-2.png"
-                    alt=""
+                    src="/profile-icon-2.webp"
+                    alt="profile-icon-2"
                     className="w-[32px] h-[32px]"
                   />
                   <img
-                    src="/profile-icon-3.png"
-                    alt=""
+                    src="/profile-icon-3.webp"
+                    alt="profile-icon-3"
                     className="w-[32px] h-[32px]"
                   />
                   <p
@@ -278,7 +290,7 @@ const HeroAnimation = () => {
               data-aos-anchor-placement="top-center"
             >
               <div className="bg-[#ffefc3] rounded-full w-[70px] h-[30px] md:w-[42px] md:h-[42px] flex items-center justify-center">
-                <img src="/mike-smith.png" alt="" className="" />
+                <img src="/mike-smith.webp" alt="mike-smith" className="" />
               </div>
               <div className="w-[8px] h-[8px] rounded-full bg-[#35E15B] absolute left-[9%] md:left-[5%] lg:left-[4.4%] xl:left-[3.8%] bottom-0" />
               <div className="flex flex-col items-start gap-1">
@@ -318,7 +330,7 @@ const HeroAnimation = () => {
               data-aos-anchor-placement="top-center"
             >
               <div className="bg-[#E7DFF8] rounded-full w-[35px] h-[30px] md:w-[42px] md:h-[42px] flex items-center justify-center">
-                <img src="/david-james.png" alt="" className="" />
+                <img src="/david-james.webp" alt="david-james" className="" />
               </div>
               <div className="w-[8px] h-[8px] rounded-full bg-[#35E15B] absolute left-[9%] md:left-[5%] lg:left-[10%] bottom-0" />
               <div className="flex flex-col items-start gap-1">
@@ -355,7 +367,7 @@ const HeroAnimation = () => {
               data-aos-anchor-placement="top-center"
             >
               <div className="bg-[#FFDFDF] rounded-full w-[55px] h-[30px] p-1 md:w-[42px] md:h-[42px] flex items-center justify-center">
-                <img src="/hardy-smith.png" alt="" className="" />
+                <img src="/hardy-smith.webp" alt="hardy-smith" className="" />
               </div>
               <div className="w-[8px] h-[8px] rounded-full bg-[#35E15B] absolute left-[9%] md:left-[5%] lg:left-[6.7%] bottom-0" />
               <div className="flex flex-col items-start gap-1">
@@ -432,8 +444,8 @@ const HeroAnimation = () => {
 
               <div className="rounded-full bg-[#7D70F8] w-[44px] h-[37px] md:h-[38px] flex items-center justify-center">
                 <img
-                  src="/send-message-icon.png"
-                  alt=""
+                  src="/send-message-icon.webp"
+                  alt="send-message-icon"
                   className="w-[20px] h-[20px]"
                 />
               </div>
@@ -449,7 +461,8 @@ export default HeroAnimation;
 
 const chatList = [
   {
-    image: "/ronald-richard.png",
+    image: "/ronald-richard.webp",
+    alt_tag: "ronald-richard",
     name: "Ronald Richard",
     message: "Thank you.",
     messages: 2,
@@ -457,7 +470,8 @@ const chatList = [
     bgColor: "bg-[#E2FFE9]",
   },
   {
-    image: "/ball-img.png",
+    image: "/ball-img.webp",
+    alt_tag: "ball-img",
     name: "PWA Developers Hub",
     message: "Yes, I need some help with...",
     messages: 0,
@@ -465,7 +479,8 @@ const chatList = [
     bgColor: "bg-[#f1e2b9]",
   },
   {
-    image: "/david-james.png",
+    image: "/david-james.webp",
+    alt_tag: "david-james",
     name: "David James",
     message: "Let’s schedule a meeting.",
     messages: 0,
@@ -473,7 +488,8 @@ const chatList = [
     bgColor: "bg-[#EEE5FF]",
   },
   {
-    image: "/hardy-smith.png",
+    image: "/hardy-smith.webp",
+    alt_tag: "hardy-smith",
     name: "Hardy Smith",
     message: "Typing...",
     messages: 0,
@@ -481,7 +497,8 @@ const chatList = [
     bgColor: "bg-[#ffdfdf]",
   },
   {
-    image: "/jack-mario.png",
+    image: "/jack-mario.webp",
+    alt_tag: "jack-mario",
     name: "Jack Mario",
     message: "Sounds good!",
     messages: 0,

@@ -45,7 +45,9 @@ const Hero = () => {
       <div className="w-full mt-20 flex items-start justify-center flex-wrap gap-10">
         <div
           className={`w-[320px] xl:w-[380px] h-[667px] rounded-[60px] group flex flex-col items-center justify-start pt-12 gap-8 transition-all duration-300 ${
-            toggle ? `bg-[#F5F5F5] ios-app-design-card` : "bg-[#3A3A3C]"
+            toggle
+              ? `bg-[#F5F5F5] ios-app-design-card`
+              : "bg-[#3A3A3C] ios-app-design-card"
           }`}
         >
           <h2
@@ -113,13 +115,13 @@ const Hero = () => {
             toggle ? `bg-[#F5F5F5]` : `bg-[#3A3A3C]`
           }`}
         >
-          {toggle && (
-            <img
-              src="/ios-app-design-services-gradient-img.png"
-              alt=""
-              className="absolute w-full h-full inset-0 z-0 invisible group-hover:visible transition-all duration-300 rounded-[60px]"
-            />
-          )}
+          {/* {toggle && ( */}
+          <img
+            src="/ios-app-design-services-gradient-img.webp"
+            alt="ios app design services img"
+            className="absolute w-full h-full inset-0 z-0 invisible group-hover:visible transition-all duration-300 rounded-[60px]"
+          />
+          {/* )} */}
           <h2
             className={`text-[24px] font-semibold group-hover:text-white z-10 ${
               toggle ? `text-black` : "text-white"
