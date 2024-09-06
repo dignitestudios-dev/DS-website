@@ -1,5 +1,5 @@
 import { GlobalContext } from "@/context/GlobalContext";
-import React, { useContext, useRef } from "react";
+import React, { useContext, useRef, useState } from "react";
 import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
 import { usePathname, useRouter } from "next/navigation";
@@ -10,6 +10,12 @@ import customLoader from "@/lib/custom-loader";
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
   const sidebarRef = useRef();
+  const [openDropdown, setOpendropdown] = useState(false);
+
+  const handleDropdown = () => {
+    setOpendropdown(!openDropdown);
+  };
+
   const toggleModal = (e) => {
     if (sidebarRef.current && !sidebarRef.current.contains(e.target)) {
       setIsOpen(false);
@@ -71,6 +77,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             Home
           </button>
           <button
+            onClick={handleDropdown}
             className={`w-full group text-[14px] hover:text-orange-600 relative gap-4 h-auto font-medium flex flex-col bg-transparent outline-none`}
           >
             <div className="w-full flex  justify-between items-center">
@@ -78,7 +85,11 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               <IoIosArrowDown className="text-md group-hover:rotate-180" />
             </div>
             <div
-              className={`w-full h-auto pl-2  rounded-2xl text-md hidden transition-all duration-150 group-hover:flex  flex-col gap-4 justify-start items-start text-start`}
+              className={`w-full h-auto pl-2  rounded-2xl text-md ${
+                openDropdown
+                  ? "flex  flex-col gap-4 justify-start items-start"
+                  : "hidden"
+              } text-start transition-all duration-150`}
               style={{ color: palette?.color }}
             >
               <Link
