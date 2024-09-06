@@ -8,6 +8,8 @@ import WhyChooseUs from "./WhyChooseUs";
 import FAQS from "./FAQS";
 import NewContactForm from "@/components/global/NewContactForm";
 import HeroAnimation from "./HeroAnimation";
+import DevelopmentProcess from "./DevelopmentProcess";
+import HowToHireAppDevelopers from "./HowToHireAppDevelopers";
 
 const HireMobileAppDevelopersPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -17,6 +19,8 @@ const HireMobileAppDevelopersPage = () => {
       <Hero />
       {/* <HeroAnimation /> */}
       <HireMobileAppDevCompany />
+      <DevelopmentProcess />
+      <HowToHireAppDevelopers />
       <WhyChooseUs />
       <FAQS />
       <NewContactForm />
