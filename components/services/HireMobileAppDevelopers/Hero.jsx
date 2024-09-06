@@ -5,12 +5,13 @@ import React, { useContext, useState } from "react";
 import { FaApple } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoMoon } from "react-icons/io5";
+import HeroAnimation from "./HeroAnimation";
 
 const Hero = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div className="w-full relative">
-      <div className="w-full text-center relative pb-20 pt-2 md:pt-10 global-padding-horizontal flex flex-col items-center">
+      <div className="w-full text-center relative md:pb-20 pt-2 md:pt-10 global-padding-horizontal flex flex-col items-center">
         <h1 className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px] z-10">
           <span className="text-[#F15C20]">Hire</span> Mobile App <br />
           Developers
@@ -33,7 +34,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full z-0 relative xl:w-[70%] mx-auto h-screen lg:h-[115vh] xl:h-screen 2xl:h-[70vh] -top-56">
+      <div className="w-full hidden lg:block z-0 relative xl:w-[70%] mx-auto h-screen lg:h-[115vh] xl:h-screen 2xl:h-[70vh] -top-56">
         <img
           src="/hire-mobile-app-dev-hero-animation-mockup-0.png"
           alt=""
@@ -75,6 +76,7 @@ const Hero = () => {
           className="h-[370px] w-[192px] absolute left-[30%] 2xl:left-[33%] rocket-animation top-[30%] transform -translate-x-1/2 -translate-y-1/2"
         />
       </div>
+      <HeroAnimation />
     </div>
   );
 };
