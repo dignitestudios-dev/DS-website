@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroAnimation = () => {
   return (
-    <section className="w-full global-padding-horizontal relative -top-28">
+    <section className="w-full global-padding-horizontal relative -top-28 lg:hidden">
       <div className="w-full relative lg:w-[80%] mx-auto h-[70vh]">
         <img
           src="/hire-mobile-app-dev-hero-animation-mockup-0.png"
