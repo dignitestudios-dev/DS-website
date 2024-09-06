@@ -21,7 +21,7 @@ const HeroAnimation = () => {
       <div
         className={`w-full ${
           toggle ? "bg-white" : "bg-[#494949]"
-        } rounded-[28px] p-6 flex flex-col items-start md:flex-row md:items-center justify-between gap-y-4`}
+        } rounded-[28px] p-6 flex items-start md:flex-row md:items-center justify-between gap-y-4`}
       >
         <div className="flex items-center justify-start gap-2">
           <div
@@ -37,7 +37,7 @@ const HeroAnimation = () => {
           </div>
           <div className="flex flex-col items-start">
             <p
-              className={`text-[18px] font-semibold ${
+              className={`text-[18px] md:text-[18px] font-semibold ${
                 toggle ? "text-black" : "text-white"
               }`}
             >
@@ -46,9 +46,9 @@ const HeroAnimation = () => {
             <p className={`text-sm font-medium text-[#7D70F8]`}>View Profile</p>
           </div>
         </div>
-        <div className="flex items-center justify-end gap-3 float-end w-full md:w-auto">
+        <div className="flex items-center justify-end gap-3 float-end md:w-auto">
           <p
-            className={`text-sm ${
+            className={`text-sm hidden md:block ${
               toggle ? "text-[#0C0C0C99]" : "text-[#FFFFFF99]"
             }`}
           >
@@ -197,7 +197,7 @@ const HeroAnimation = () => {
             </div>
           </div>
 
-          <div className="w-full mt-5 flex flex-col gap-4">
+          <div className="w-full mt-5 flex flex-col gap-4 md:gap-4">
             <div
               className="w-full"
               ref={ref}
@@ -301,7 +301,9 @@ const HeroAnimation = () => {
                       : "bg-[#5E5E5E] text-white"
                   } p-3 rounded-tl-[20px] rounded-r-[20px] text-start `}
                 >
-                  <span className={`text-[13px] font-normal leading-[19.27px]`}>
+                  <span
+                    className={`text-xs md:text-[13px] font-normal md:leading-[19.27px]`}
+                  >
                     Hi everyone, I have over 4 years of experience in developing{" "}
                     <br />
                     Progressive Web Applications (PWAs). If you need any help,
@@ -341,7 +343,7 @@ const HeroAnimation = () => {
                       : "bg-[#5E5E5E] text-white"
                   } p-3 rounded-tl-[20px] rounded-r-[20px] text-start`}
                 >
-                  <span className="text-[13px] font-normal leading-[19.27px]">
+                  <span className="text-xs md:text-[13px] font-normal md:leading-[19.27px]">
                     Hey, can you help me out please?
                   </span>
                 </div>
@@ -356,7 +358,7 @@ const HeroAnimation = () => {
             </div>
 
             <div
-              className="w-full lg:w-[443px] h-[77px] flex items-end gap-2 relative mt-2"
+              className="w-full lg:w-[443px] h-[77px] flex items-end gap-2 relative mt-10 md:mt-4"
               data-aos="fade-up"
               data-aos-offset="0"
               data-aos-delay="0"
@@ -378,7 +380,7 @@ const HeroAnimation = () => {
                       : "bg-[#5E5E5E] text-white"
                   } p-3 rounded-tl-[20px] rounded-r-[20px] text-start`}
                 >
-                  <span className="text-[13px] font-normal leading-[19.27px]">
+                  <span className="text-xs md:text-[13px] font-normal md:leading-[19.27px]">
                     I’ve completed a course on PWA components and best
                     practices. Anybody need help?
                   </span>
@@ -404,8 +406,8 @@ const HeroAnimation = () => {
               data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
-              <div className="w-[370px] md:w-[390px] h-[47px] md:h-[43px] flex items-center justify-start text-start px-4 md:py-0 bg-[#7D70F8] rounded-l-[20px] rounded-tr-[20px]">
-                <span className="text-[13px] font-normal text-white">
+              <div className="w-[350px] md:w-[390px] h-[55px] md:h-[43px] flex items-center justify-start text-start px-4 md:py-0 bg-[#7D70F8] rounded-l-[20px] rounded-tr-[20px]">
+                <span className="text-xs md:text-[13px] font-normal text-white">
                   Yes, I need some help with PWA components and service worker
                   configurations.
                 </span>
