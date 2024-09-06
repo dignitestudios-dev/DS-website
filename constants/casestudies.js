@@ -25,8 +25,9 @@ export const casestudies = [
     projectLink: "/case-studies/nykn",
     logo: "/nykn-logo-new.webp",
     webLink: "https://www.nowyouknownashville.com/",
-    googleLink: null,
-    appLink: null,
+    googleLink:
+      "https://play.google.com/store/apps/details?id=com.dignitestudios.nykn&pli=1",
+    appLink: "https://apps.apple.com/us/app/nykn/id6505112380",
   },
   {
     title: "My Medical Journal",

@@ -29,7 +29,7 @@ const IosAppDesignServices = () => {
 
       <div className="w-full flex flex-col md:flex-row justify-center items-start gap-x-10 gap-y-6">
         <div
-          className={`w-full lg:w-[520px] h-[592px] rounded-[24px] flex flex-col gap-2 shadow-xl p-3 ${
+          className={`w-full lg:w-[520px] h-auto md:h-[592px] rounded-[24px] flex flex-col gap-2 shadow-xl p-3 ${
             theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
           }`}
         >
@@ -61,7 +61,7 @@ const IosAppDesignServices = () => {
           </Link>
         </div>
         <div
-          className={`w-full lg:w-[520px] h-[592px] rounded-[24px] flex flex-col gap-2 shadow-xl p-3 relative ${
+          className={`w-full lg:w-[520px] h-auto md:h-[592px] rounded-[24px] flex flex-col gap-2 shadow-xl p-3 relative ${
             theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
           }`}
         >
@@ -94,7 +94,7 @@ const IosAppDesignServices = () => {
           </p>
           <Link
             href={"/contact-us"}
-            className="bg-[#F15C20] w-full lg:w-[480px] text-center py-3.5 absolute bottom-6 rounded-[16px] font[700] text-[16px] text-white"
+            className="bg-[#F15C20] w-full mx-auto block lg:w-[480px] text-center py-3.5 static md:absolute bottom-6 rounded-[16px] font[700] text-[16px] text-white"
           >
             Start your project
           </Link>
@@ -127,13 +127,13 @@ const IosAppDesignServices = () => {
           </p>
           <Link
             href={"/contact-us"}
-            className="bg-[#F15C20] w-full lg:w-[480px] text-center py-3.5 mt-1 rounded-[16px] font[700] text-[16px] text-white absolute bottom-6"
+            className="bg-[#F15C20] w-full block mx-auto lg:w-[480px] text-center py-3.5 mt-1 rounded-[16px] font[700] text-[16px] text-white static md:absolute bottom-6"
           >
             Start your project
           </Link>
         </div>
         <div
-          className={`w-full lg:w-[520px] h-[592px] relative rounded-[24px] flex flex-col gap-2 shadow-xl p-3 ${
+          className={`w-full lg:w-[520px] h-auto md:h-[592px] relative rounded-[24px] flex flex-col gap-2 shadow-xl p-3 ${
             theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
           }`}
         >
@@ -154,7 +154,7 @@ const IosAppDesignServices = () => {
           </p>
           <Link
             href={"/contact-us"}
-            className="bg-[#F15C20] w-full lg:w-[480px] text-center py-3.5 absolute bottom-6 rounded-[16px] font[700] text-[16px] text-white"
+            className="bg-[#F15C20] w-full block mx-auto lg:w-[480px] text-center py-3.5 mt-1 rounded-[16px] font[700] text-[16px] text-white static md:absolute bottom-6"
           >
             Start your project
           </Link>

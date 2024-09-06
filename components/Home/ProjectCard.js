@@ -24,7 +24,7 @@ const ProjectCard = ({
   return (
     <Link
       href={projectLink}
-      className={`group w-full h-[240px] lg:h-[326px]  hover:bg-[#F15C20] transition-all duration-500 pt-[6px] pb-[8px] px-[14px] lg:py-[28px] lg:px-[20px] flex flex-col lg:flex-row justify-start  items-start gap-2 lg:mb-6 relative ${
+      className={`group w-full h-[250px] lg:h-[326px]  hover:bg-[#F15C20] transition-all duration-500 pt-[6px] pb-[8px] px-[14px] lg:py-[28px] lg:px-[20px] flex flex-col lg:flex-row justify-start  items-start gap-2 lg:mb-6 relative ${
         theme == "dark" ? "bg-[#1c1c1c]" : "bg-[#f9f9f9]"
       } rounded-[32px] `}
     >
@@ -51,12 +51,12 @@ const ProjectCard = ({
 
             // className="w-[32px] h-[32px] lg:w-[45px] xl:w-[65px] lg:h-[45px] xl:h-[65px]"
           />
-          <p className="text-lg md:text-sm lg:text-2xl xl:text-[22px] font-semibold group-hover:text-white">
+          <p className="text-lg md:text-sm lg:text-2xl xl:text-[22px] font-semibold group-hover:text-white w-[50%]">
             {title}
           </p>
         </div>
         <p
-          className={`text-xs md:text-[10px] w-[70%] md:w-[60%] lg:w-[85%] lg:text-sm xl:text-[16px] ${
+          className={`text-xs md:text-[10px] w-[65%] md:w-[60%] lg:w-[85%] lg:text-sm xl:text-[16px] ${
             theme == "dark" ? "text-[#b4b4b4]" : "text-[#5c5c5c]"
           } group-hover:text-gray-100 font-normal `}
         >
@@ -70,7 +70,7 @@ const ProjectCard = ({
                 // width={134}
                 // height={40}
                 src="/google_play_btn.png"
-                className="h-[40.62px]"
+                className="h-[32px] md:h-[40.62px]"
                 alt="google_play_button"
                 // title="google_play_button"
               />
@@ -83,7 +83,7 @@ const ProjectCard = ({
                 // width={134}
                 // height={40}
                 src="/apple_store_btn.png"
-                className="h-[40.62px]"
+                className="h-[32px] md:h-[40.62px]"
                 alt="app_store_button"
                 // title="app_store_button"
               />
@@ -96,7 +96,7 @@ const ProjectCard = ({
                 // width={134}
                 // height={40}
                 src="/website_btn.png"
-                className="h-[40.62px]"
+                className="h-[32px] md:h-[40.62px]"
                 alt="Website btn play icon"
                 // title="Website btn play icon"
               />
