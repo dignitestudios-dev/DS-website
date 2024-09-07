@@ -38,11 +38,9 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={
-              "/ios-app-development-service-multi-industry-discipline-icon.webp"
-            }
-            alt={"iOS app development service Multi-Industry Discipline icon"}
-            title={"Multi-Industry Discipline Icon"}
+            src={"/hire-mobile-app-developers-handpicked-talent-icon.webp"}
+            alt={"hire mobile app developers handpicked talent icon"}
+            title={"hire mobile app developers handpicked talent"}
             className=""
             width="36px"
             height="36px"
@@ -72,13 +70,9 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={
-              "/ios-app-development-service-embrace-app-builder-technology-icon.webp"
-            }
-            alt={
-              "iOS app development service embrace app builder technology icon"
-            }
-            title={"Embrace App Builder Technology Icon"}
+            src={"/hire-mobile-app-developers-powerful-collaboration-icon.webp"}
+            alt={"hire mobile app developers powerful collaboration icon"}
+            title={"hire mobile app developers powerful collaboration"}
             className=""
             width="36px"
             height="36px"
@@ -111,11 +105,9 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={
-              "/ios-app-development-a-decade-of-scaling-design-heights-icon.webp"
-            }
-            alt={"ios-app-development-a-decade-of-scaling-design-heights-icon"}
-            title={"A decade of scaling design heights icon"}
+            src={"/hire-mobile-app-developers-vigorous-strategies-icon.webp"}
+            alt={"hire mobile app developers vigorous strategies icon"}
+            title={"Title hire mobile app developers vigorous strategies"}
             className=""
             width="36px"
             height="36px"
@@ -147,9 +139,9 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/ios-apps-establish-upgraded-strategies-and-tools-icon.webp"}
-            alt={"iOs app development primed for perfection icon"}
-            title={"Primed for Perfection Icon"}
+            src={"/hire-mobile-app-developers-cost-effective-models-icon.webp"}
+            alt={"hire mobile app developers cost-effective models icon"}
+            title={"hire mobile app developers cost-effective models"}
             className=""
             width="36px"
             height="36px"
@@ -179,15 +171,14 @@ const WhyChooseUs = () => {
             color: palette?.color,
           }}
         >
-          {/* <img
-            src={"/ios-app-development-primed-for-perfection-icon.webp"}
-            alt={"iOs app development primed for perfection icon"}
-            title={"Primed for Perfection Icon"}
+          <img
+            src={"/hire-mobile-app-developers-dedicated-resources-icon.webp"}
+            alt={"hire mobile app developers dedicated resources icon"}
+            title={"hire mobile app developers dedicated resources"}
             className=""
             width="36px"
             height="36px"
-          /> */}
-          <MdOutlineSecurity className="w-[40px] h-[40px] text-[#F15C20]" />
+          />
           <h3
             className="text-xl  font-semibold"
             style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}
@@ -215,9 +206,9 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/ios-app-development-primed-for-perfection-icon.webp"}
-            alt={"iOs app development primed for perfection icon"}
-            title={"Primed for Perfection Icon"}
+            src={"/hire-mobile-app-developers-vast-experience-icon.webp"}
+            alt={"hire mobile app developers vast experience icon"}
+            title={"hire mobile app developers vast experience"}
             className=""
             width="36px"
             height="36px"

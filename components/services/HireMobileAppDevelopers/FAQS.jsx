@@ -94,6 +94,58 @@ const FAQS = () => {
           })}
         </div>
       </div>
+
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Why should you hire Android Developers for your business App?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Developers offer top-notch flexibility and scalability to launch versatile application. It can drive growth and higher ROI to enterprises and organizations.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does an Android developer cost?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "It depends on the complexities and time duration to build Android apps.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does it cost to build an Android app?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "To know your desired quotation to craft an Android app, fill out the below form to get the details.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How long does it take to develop an Android app?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The exact time frame cannot be evaluated until you discuss your project details with our Android app experts.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can I hire Android developers for hourly or project-based tasks?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, definitely you can hire an expert to build your Android apps.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </section>
   );
 };

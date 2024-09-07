@@ -36,43 +36,43 @@ const Hero = () => {
       </div>
       <div className="w-full hidden lg:block z-0 relative xl:w-[70%] mx-auto h-screen lg:h-[115vh] xl:h-screen 2xl:h-[70vh] -top-56">
         <img
-          src="/hire-mobile-app-dev-hero-animation-mockup-0.png"
-          alt=""
+          src="/hire-mobile-app-dev-hero-animation-mockup-0.webp"
+          alt="hire mobile app developers shows visual animation representing mobile app developers"
           className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[217.76px] h-[286.22px]"
         />
         <img
-          src="/hire-mobile-app-dev-hero-animation-mockup-1.png"
-          alt=""
+          src="/hire-mobile-app-dev-hero-animation-mockup-1.webp"
+          alt="hire mobile app developers shows visual animation representing mobile app developers"
           className="absolute top-52 left-36 2xl:left-56 w-[225.81px] h-[311.92px] slide-right-on-load"
         />
         <img
-          src="/hire-mobile-app-dev-hero-animation-mockup-2.png"
-          alt=""
+          src="/hire-mobile-app-dev-hero-animation-mockup-2.webp"
+          alt="hire mobile app developers shows visual animation representing mobile app developers"
           className="absolute bottom-20 left-[19.5%] 2xl:left-[23%] w-[239.89px] h-[261.3px] slide-right-on-load"
         />
         <img
-          src="/hire-mobile-app-dev-hero-animation-mockup-3.png"
-          alt=""
-          className="absolute left-[48%] bottom-4 transform -translate-x-1/2 w-[282.65px] h-[216.39px] slide-up-on-load"
+          src="/hire-mobile-app-dev-hero-animation-mockup-3.webp"
+          alt="hire mobile app developers shows visual animation representing mobile app developers"
+          className="absolute left-[35%] bottom-4 transform w-[282.65px] h-[216.39px] slide-up-on-load"
         />
         <img
-          src="/hire-mobile-app-dev-hero-animation-mockup-4.png"
-          alt=""
-          className="absolute bottom-6 2xl:bottom-10 right-20 2xl:right-40 slide-left-on-load w-[342.88px] h-[261.54px]"
+          src="/hire-mobile-app-dev-hero-animation-mockup-4.webp"
+          alt="hire mobile app developers shows visual animation representing mobile app developers"
+          className="absolute bottom-6 2xl:bottom-10 right-16 2xl:right-40 slide-left-on-load w-[342.88px] h-[261.54px]"
         />
         <img
-          src="/hire-mobile-app-dev-hero-animation-mockup-5.png"
-          alt=""
+          src="/hire-mobile-app-dev-hero-animation-mockup-5.webp"
+          alt="hire mobile app developers shows visual animation representing mobile app developers"
           className="absolute lg:right-[23.5%] xl:right-[24%] 2xl:right-[27.5%] lg:top-[58%] xl:top-[58%] transform -translate-y-1/2 w-[186.41px] h-[278.8px]"
         />
         <img
-          src="/hire-mobile-app-dev-hero-animation-mockup-6.png"
-          alt=""
+          src="/hire-mobile-app-dev-hero-animation-mockup-6.webp"
+          alt="hire mobile app developers shows visual animation representing mobile app developers"
           className="absolute top-32 right-24 2xl:right-48 w-[227.13px] h-[346.94px] slide-left-on-load"
         />
         <img
-          src="/hire-mobile-app-dev-rocket-img.png"
-          alt=""
+          src="/hire-mobile-app-dev-rocket-img.webp"
+          alt="hire mobile app developers shows visual animation representing mobile app developers"
           className="h-[370px] w-[192px] absolute left-[30%] 2xl:left-[33%] rocket-animation top-[30%] transform -translate-x-1/2 -translate-y-1/2"
         />
       </div>

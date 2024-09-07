@@ -1,13 +1,13 @@
 export const HIRE_MOBILE_APP_DEV_PROCESS = [
   {
-    image_src: "/hire-android-developers-icon.png",
+    image_src: "/hire-android-developers-icon.webp",
     title: "Android Developers",
     text: "Android mobile application developer builds and optimizes Android devices with Java and Kotlin programming languages and tools that include Android Studio. Hire app programmer of Dignite Studios to acquaintance phenomenal applications to stand out among leading industries.",
     alt_tag: "",
     img_title: "",
   },
   {
-    image_src: "/hire-ios-developers-icon.png",
+    image_src: "/hire-ios-developers-icon.webp",
     title: "iOS Developers",
     text: "A team of expert developers creates applications for Apple devices like iPhones and iPads. They integrate iOS applications by using programming languages like Swift. Hire a mobile app developer to streamline your project's development procedures effectively.",
     alt_tag: "",
@@ -35,7 +35,7 @@ export const HIRE_MOBILE_APP_DEV_PROCESS = [
     img_title: "",
   },
   {
-    image_src: "/hire-app-programmers.png",
+    image_src: "/hire-app-programmers.webp",
     title: "Hire App Programmers",
     text: "The programmer is responsible for maintaining and developing programs for the operating systems. The application programmer is responsible for developing and maintaining application programs. Hire mobile application developers to build, test, and deliver top programs that run on the user's mainstream. ",
     alt_tag: "",

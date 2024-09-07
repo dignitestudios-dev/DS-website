@@ -7,27 +7,33 @@ import { FiArrowUpRight } from "react-icons/fi";
 const apps = [
   {
     title: "Home",
-    image_src: "/hire-mobile-app-dev-company-mockup-1.png",
+    image_src: "/hire-mobile-app-dev-company-mockup-1.webp",
+    alt: "Hire mobile app development company shows six mock screens of mobile applications",
   },
   {
     title: "Add to cart",
-    image_src: "/hire-mobile-app-dev-company-mockup-2.png",
+    image_src: "/hire-mobile-app-dev-company-mockup-2.webp",
+    alt: "Hire mobile app development company shows six mock screens of mobile applications",
   },
   {
     title: "View cart",
-    image_src: "/hire-mobile-app-dev-company-mockup-3.png",
+    image_src: "/hire-mobile-app-dev-company-mockup-3.webp",
+    alt: "Hire mobile app development company shows six mock screens of mobile applications",
   },
   {
     title: "Cart",
-    image_src: "/hire-mobile-app-dev-company-mockup-4.png",
+    image_src: "/hire-mobile-app-dev-company-mockup-4.webp",
+    alt: "Hire mobile app development company shows six mock screens of mobile applications",
   },
   {
     title: "Proceed to checkout",
-    image_src: "/hire-mobile-app-dev-company-mockup-5.png",
+    image_src: "/hire-mobile-app-dev-company-mockup-5.webp",
+    alt: "Hire mobile app development company shows six mock screens of mobile applications",
   },
   {
     title: "Order placed",
-    image_src: "/hire-mobile-app-dev-company-mockup-6.png",
+    image_src: "/hire-mobile-app-dev-company-mockup-6.webp",
+    alt: "Hire mobile app development company shows six mock screens of mobile applications",
   },
 ];
 
@@ -75,7 +81,7 @@ const HireMobileAppDevCompany = () => {
                 <p className="text-sm font-semibold">{app.title}</p>
                 <img
                   src={app.image_src}
-                  alt=""
+                  alt={app.alt}
                   className="h-[476.37px] w-[220px]"
                 />
               </div>
