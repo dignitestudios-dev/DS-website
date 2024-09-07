@@ -7,7 +7,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 const ExclusiveAndroid = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full py-16 lg:py-20 flex flex-col items-center gap-4 global-padding-horizontal">
+    <section className="w-full pb-16 lg:py-20 flex flex-col items-center gap-4 global-padding-horizontal">
       <div className="flex flex-col items-center">
         <span className="text-[#F15C20] text-[20px] font-bold uppercase">
           exclusive android
