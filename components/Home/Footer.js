@@ -309,6 +309,12 @@ const Footer = () => {
           >
             Native App Development Services
           </Link>
+          <Link
+            href="/services/hire-mobile-app-developers"
+            className="hover:text-orange-500"
+          >
+            Hire Mobile App Developers
+          </Link>
         </div>
       </div>
 

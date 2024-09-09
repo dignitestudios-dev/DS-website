@@ -58,17 +58,17 @@ const Hero = () => {
         <img
           src="/hire-mobile-app-dev-hero-animation-mockup-4.webp"
           alt="hire mobile app developers shows visual animation representing mobile app developers"
-          className="absolute bottom-6 2xl:bottom-10 right-16 2xl:right-40 slide-left-on-load w-[342.88px] h-[261.54px]"
+          className="absolute bottom-6 2xl:bottom-10 right-16 2xl:right-56 slide-left-on-load w-[342.88px] h-[261.54px]"
         />
         <img
           src="/hire-mobile-app-dev-hero-animation-mockup-5.webp"
           alt="hire mobile app developers shows visual animation representing mobile app developers"
-          className="absolute lg:right-[23.5%] xl:right-[24%] 2xl:right-[27.5%] lg:top-[58%] xl:top-[58%] transform -translate-y-1/2 w-[186.41px] h-[278.8px]"
+          className="absolute lg:right-[23.5%] xl:right-[24%] 2xl:right-[29.5%] lg:top-[58%] xl:top-[58%] 2xl:top-[56%] transform -translate-y-1/2 w-[186.41px] h-[278.8px]"
         />
         <img
           src="/hire-mobile-app-dev-hero-animation-mockup-6.webp"
           alt="hire mobile app developers shows visual animation representing mobile app developers"
-          className="absolute top-32 right-24 2xl:right-48 w-[227.13px] h-[346.94px] slide-left-on-load"
+          className="absolute top-32 right-24 2xl:right-56 w-[227.13px] h-[346.94px] slide-left-on-load"
         />
         <img
           src="/hire-mobile-app-dev-rocket-img.webp"
