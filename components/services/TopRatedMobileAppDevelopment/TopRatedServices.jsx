@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import TopRatedServiceCard from "./TopRatedServiceCard";
@@ -16,16 +16,16 @@ const TopRatedServices = () => {
             Our mobile app development
           </p>
           {/* <div className={`w-full px-0 flex justify-between items-center`}> */}
-            <h1
-              className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold mx-auto md:mx-0`}
-            >
-              services
-            </h1>
+          <h1
+            className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold mx-auto md:mx-0`}
+          >
+            services
+          </h1>
           {/* </div> */}
         </div>
         <div className="w-full lg:w-auto hidden lg:block">
           <Link
-            href="/contact-us"
+            href="/lp/contact-us"
             className="py-3 px-5 text-base lg:py-7 lg:px-14 float-end bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
           >
             Get in Touch <FiArrowUpRight className="text-xl" />
@@ -54,13 +54,13 @@ const TopRatedServices = () => {
         })}
       </div>
       <div className="w-full lg:w-auto block lg:hidden my-4">
-          <Link
-            href="/contact-us"
-            className="py-5 px-5 text-base lg:py-7 lg:px-14 mx-auto bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300 w-[206px]"
-          >
-            Get in Touch <FiArrowUpRight className="text-xl" />
-          </Link>
-        </div>
+        <Link
+          href="/contact-us"
+          className="py-5 px-5 text-base lg:py-7 lg:px-14 mx-auto bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300 w-[206px]"
+        >
+          Get in Touch <FiArrowUpRight className="text-xl" />
+        </Link>
+      </div>
     </div>
   );
 };

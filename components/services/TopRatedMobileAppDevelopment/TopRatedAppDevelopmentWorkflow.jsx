@@ -24,7 +24,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
           </div>
         </div>
         <Link
-          href={"/contact-us"}
+          href={"/lp/contact-us"}
           className="py-3 px-5 lg:py-7 lg:px-14 bg-[#F15C20] rounded-full text-white top-rated-btn-shadow text-base lg:text-xl font-semibold hidden lg:flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
         >
           Let's Talk <FiArrowUpRight className="text-xl" />
