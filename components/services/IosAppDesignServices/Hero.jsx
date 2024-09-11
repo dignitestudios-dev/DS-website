@@ -9,16 +9,16 @@ import { IoMoon } from "react-icons/io5";
 const Hero = () => {
   const { theme } = useContext(GlobalContext);
   const [toggle, setToggle] = useState(true);
+  const [toggleImg, setToggleImg] = useState(false);
+
   return (
     <div className="w-full text-center relative pb-20 pt-2 md:pt-10 global-padding-horizontal flex flex-col items-center">
       <div
         className={`flex items-center justify-center gap-1 rounded-full px-4 py-2 mb-6 ${
-          theme === "light"
-            ? "bg-[#F6F6F6] ios-app-design"
-            : "bg-[#2d2d2d] ios-app-design"
-        }`}
+          theme === "light" ? "bg-[#F6F6F6]" : "bg-[#2d2d2d]"
+        } hover:bg-gradient-to-r hover:from-[#ffb484] hover:via-[#ff88a4] hover:to-[#759bff] hover:text-white transition-all duration-500 `}
       >
-        <FaApple className="w-[39px] h-[36px]" />{" "}
+        <FaApple className="w-[22px] h-[24px]" />{" "}
         <span className="text-sm font-medium">iOS App Design Company</span>
       </div>
       <h1 className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px] z-10">
@@ -44,11 +44,9 @@ const Hero = () => {
 
       <div className="w-full mt-20 flex items-start justify-center flex-wrap gap-10">
         <div
-          className={`w-[320px] xl:w-[380px] h-[667px] rounded-[60px] group flex flex-col items-center justify-start pt-12 gap-8 transition-all duration-300 ${
-            toggle
-              ? `bg-[#F5F5F5] ios-app-design-card`
-              : "bg-[#3A3A3C] ios-app-design-card"
-          }`}
+          className={`w-[320px] xl:w-[380px] h-[667px] rounded-[60px] group flex flex-col items-center justify-start pt-12 gap-8 ${
+            toggle ? `bg-[#F5F5F5]` : "bg-[#3A3A3C]"
+          } `}
         >
           <h2
             className={`text-[24px] font-semibold group-hover:text-white ${
@@ -111,19 +109,21 @@ const Hero = () => {
         </div>
 
         <div
-          className={`w-[320px] xl:w-[380px] h-[667px] group rounded-[60px] group relative flex flex-col items-center justify-start pt-12 gap-10 ${
+          className={`w-[320px] xl:w-[380px] h-[667px] group rounded-[60px] relative flex flex-col items-center justify-start pt-12 gap-10 ${
             toggle ? `bg-[#F5F5F5]` : `bg-[#3A3A3C]`
           }`}
+          onMouseEnter={() => setToggleImg(true)}
+          onMouseLeave={() => setToggleImg(false)}
         >
-          {/* {toggle && ( */}
           <img
             src="/ios-app-design-services-gradient-img.webp"
             alt="ios app design services img"
-            className="absolute w-full h-full inset-0 z-0 invisible group-hover:visible transition-all duration-300 rounded-[60px]"
+            className={`absolute w-full h-full inset-0 z-0 rounded-[60px] transition-opacity duration-1000 ${
+              toggleImg ? "opacity-100" : "opacity-0"
+            }`}
           />
-          {/* )} */}
           <h2
-            className={`text-[24px] font-semibold group-hover:text-white z-10 ${
+            className={`text-[24px] font-semibold group-hover:text-white transition-all duration-500 z-10 ${
               toggle ? `text-black` : "text-white"
             }`}
           >

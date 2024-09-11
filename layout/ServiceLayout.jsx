@@ -30,7 +30,7 @@ const ServicesLayout = ({ page }) => {
   const [showModal, setShowModal] = useState(false);
   const [counter, setCounter] = useState(0);
   const pathname = usePathname();
-  console.log("pathname >> ", pathname)
+  console.log("pathname >> ", pathname);
 
   useEffect(() => {
     const handleMouseLeave = (e) => {
@@ -83,7 +83,7 @@ const ServicesLayout = ({ page }) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   };
-  
+
   const formatPhoneNumber = (phoneNumber) => {
     const formattedNumber = phoneNumber.replace(
       /^(\d{3})(\d{3})(\d{4})$/,
@@ -103,10 +103,10 @@ const ServicesLayout = ({ page }) => {
     // Validate the phone number
     if (!value.startsWith(`+${country.dialCode}`)) {
       setIsValid(false);
-      console.log("phone >> ", phone)
+      console.log("phone >> ", phone);
     } else {
       setIsValid(true);
-      console.log("phone >> ", phone)
+      console.log("phone >> ", phone);
     }
   };
 
@@ -150,7 +150,7 @@ const ServicesLayout = ({ page }) => {
       data1.append("entry.39421230", email); // Email field
       data1.append("entry.769267793", phone); // Phone field
       data1.append("entry.1280467825", message); // Message field
-      data1.append("entry.764492805", "Popup Form"); // Page field
+      data1.append("entry.764492805", `Popup Form - ${pathname}`); // Page field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
@@ -174,14 +174,27 @@ const ServicesLayout = ({ page }) => {
       }}
     >
       <Cursor />
-      <ScrollToTopButton/>
+      <ScrollToTopButton />
       <div
         onClick={handleCloseModal}
         className={`screen-form ${showModal ? "show" : "hide"}`}
       >
-        <form onSubmit={handleSubmit} ref={formRef} className="container-form">
+        <form
+          onSubmit={handleSubmit}
+          ref={formRef}
+          className="container-form"
+          id="popup-form"
+        >
           <div className="side-promo">
-            <Image loader={customLoader} width={400} height={540} src="/form-promo3.webp" alt="popup form image" title="popup form image" className="" />
+            <Image
+              loader={customLoader}
+              width={400}
+              height={540}
+              src="/form-promo3.webp"
+              alt="popup form image"
+              title="popup form image"
+              className=""
+            />
           </div>
           <div className="main-promo">
             <div className="promo2">
@@ -196,88 +209,92 @@ const ServicesLayout = ({ page }) => {
             </span>
 
             <div className="input_field">
-                <label className="label_field">Name</label>
-                <button type="button" className="input_flex">
-                  <span className="input_span">
-                    <FaUser
-                      className={`${
-                        isFocused1 ? "text-orange-500" : "text-gray-400"
-                      }`}
-                    />
-                  </span>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={name}
-                    onChange={(e)=> setName(e.target.value)}
-                    onFocus={() => setIsFocused1(true)}
-                    onBlur={() => setIsFocused1(false)}
-                    className="input_box text-black"
-                    placeholder="e.g. Mike Smith"
+              <label className="label_field">Name</label>
+              <button type="button" className="input_flex">
+                <span className="input_span">
+                  <FaUser
+                    className={`${
+                      isFocused1 ? "text-orange-500" : "text-gray-400"
+                    }`}
                   />
-                </button>
-                {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
-              </div>
-              <div className="input_field">
-                <label className="label_field">Email Address</label>
-                <button type="button" className="input_flex">
-                  <span className="input_span">
-                    <MdMail
-                      className={`${
-                        isFocused2 ? "text-orange-500" : "text-gray-400"
-                      }`}
-                    />
-                  </span>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    onFocus={() => setIsFocused2(true)}
-                    onBlur={() => setIsFocused2(false)}
-                    className="input_box text-black"
-                    placeholder="Type your email here"
+                </span>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  onFocus={() => setIsFocused1(true)}
+                  onBlur={() => setIsFocused1(false)}
+                  className="input_box text-black"
+                  placeholder="e.g. Mike Smith"
+                />
+              </button>
+              {errors.name && (
+                <span className="text-red-500 text-sm">{errors.name}</span>
+              )}
+            </div>
+            <div className="input_field">
+              <label className="label_field">Email Address</label>
+              <button type="button" className="input_flex">
+                <span className="input_span">
+                  <MdMail
+                    className={`${
+                      isFocused2 ? "text-orange-500" : "text-gray-400"
+                    }`}
                   />
-                </button>
-                {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
-              </div>
-              <div className="input_field">
-                <label className="label_field">Phone Number</label>
-                <button type="button" className="input_flex">
-                  {/* <span className="input_span">
+                </span>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  onFocus={() => setIsFocused2(true)}
+                  onBlur={() => setIsFocused2(false)}
+                  className="input_box text-black"
+                  placeholder="Type your email here"
+                />
+              </button>
+              {errors.email && (
+                <span className="text-red-500 text-sm">{errors.email}</span>
+              )}
+            </div>
+            <div className="input_field">
+              <label className="label_field">Phone Number</label>
+              <button type="button" className="input_flex">
+                {/* <span className="input_span">
                     <BsTelephoneFill
                       className={`${
                         isFocused3 ? "text-orange-500" : "text-gray-400"
                       }`}
                     />
                   </span> */}
-                  <PhoneInput
+                <PhoneInput
                   country={"us"}
                   value={phone}
                   name="phone"
                   onChange={handlePhoneChange}
                   onFocus={() => setIsFocused3(true)}
-                    onBlur={() => setIsFocused3(false)}
+                  onBlur={() => setIsFocused3(false)}
                   containerStyle={{
-                    width: '100%',
-                    paddingRight: '0px',
-                    fontSize: '16px',
-                    border: 'none',
-                    borderRadius: '0px',
-                    background:"transparent"
+                    width: "100%",
+                    paddingRight: "0px",
+                    fontSize: "16px",
+                    border: "none",
+                    borderRadius: "0px",
+                    background: "transparent",
                   }}
                   inputStyle={{
-                    width: '90%',
-                    height: '100%',
-                    outline: 'none',
-                    border: 'none',
-                    fontSize: '14px',
-                    color:"gray",
-                    padding: '10px 30px',
-                    margin: '0',
-                    background:'transparent'
+                    width: "90%",
+                    height: "100%",
+                    outline: "none",
+                    border: "none",
+                    fontSize: "14px",
+                    color: "gray",
+                    padding: "10px 30px",
+                    margin: "0",
+                    background: "transparent",
                   }}
                   className="text-sm font-normal outline-none py-0 px-1 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
                 />
@@ -286,7 +303,7 @@ const ServicesLayout = ({ page }) => {
                     border: none !important;
                   }
                 `}</style>
-                  {/* <input
+                {/* <input
                     type="number"
                     maxLength="11"
                     id="phone"
@@ -298,24 +315,28 @@ const ServicesLayout = ({ page }) => {
                     className="input_box text-black"
                     placeholder="e.g +1 491 570 156"
                   /> */}
-                </button>
-                {errors.phone && <span className="text-red-500 text-sm">{errors.phone}</span>}
-              </div>
-              <div className="input_field">
-                <label className="label_field">Message</label>
-                <button type="button" className="input_flex2">
-                  <textarea
-                    type="text"
-                    className="input_box2 text-black"
-                    id="message"
-                    value={message}
-                    onChange={(e)=> setMessage(e.target.value)}
-                    name="message"
-                    placeholder="Type your message here."
-                  ></textarea>
-                </button>
-                {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>}
-              </div>
+              </button>
+              {errors.phone && (
+                <span className="text-red-500 text-sm">{errors.phone}</span>
+              )}
+            </div>
+            <div className="input_field">
+              <label className="label_field">Message</label>
+              <button type="button" className="input_flex2">
+                <textarea
+                  type="text"
+                  className="input_box2 text-black"
+                  id="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  name="message"
+                  placeholder="Type your message here."
+                ></textarea>
+              </button>
+              {errors.message && (
+                <span className="text-red-500 text-sm">{errors.message}</span>
+              )}
+            </div>
 
             <button type="submit" className="sub_button">
               Submit
