@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
@@ -22,7 +23,7 @@ const BenefitsOfWorking = () => {
           benefits of working with <br /> dignite studios
         </h2>
         <div className="hidden xl:block">
-          <Link
+          {/* <Link
             href={{
               pathname: "/contact-us",
             }}
@@ -31,7 +32,8 @@ const BenefitsOfWorking = () => {
             } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
           >
             Let's Start Your Project
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>
 

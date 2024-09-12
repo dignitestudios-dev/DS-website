@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import ProjectCard from "@/components/Home/ProjectCard";
 import { casestudies } from "@/constants/casestudies";
 import { GlobalContext } from "@/context/GlobalContext";
@@ -43,7 +44,7 @@ const OurProjectsSection = () => {
             our projects
           </h2>
           <div className="hidden lg:block">
-            <Link
+            {/* <Link
               href={{
                 pathname: "/contact-us",
               }}
@@ -52,7 +53,8 @@ const OurProjectsSection = () => {
               } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
             >
               Start Your Project
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
           </div>
         </div>
 

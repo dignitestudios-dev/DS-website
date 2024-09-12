@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
@@ -37,8 +38,7 @@ const DiscoverOurHistory = () => {
             technology and software.
           </p>
           <div className="mt-5">
-            <Link
-              // href={"/contact-us"}
+            {/* <Link
               href={{
                 pathname: "/contact-us",
               }}
@@ -48,7 +48,8 @@ const DiscoverOurHistory = () => {
               } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
             >
               Start Your Project
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
           </div>
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center lg:justify-end">

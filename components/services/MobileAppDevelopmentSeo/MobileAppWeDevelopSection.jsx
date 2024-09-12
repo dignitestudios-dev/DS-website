@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useContext } from "react";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import MobileAppWeDevelopSwiper from "./MobileAppWeDevelopSwiper";
+import ContactButton from "@/components/global/ContactButton";
 
 const MobileAppWeDevelopSection = () => {
   const { theme } = useContext(GlobalContext);
@@ -36,7 +37,7 @@ const MobileAppWeDevelopSection = () => {
 
         <div className="flex flex-col gap-y-32 mt-4 lg:mt-0">
           <div className="mt-7">
-            <Link
+            {/* <Link
               href={{
                 pathname: "/contact-us",
               }}
@@ -45,7 +46,8 @@ const MobileAppWeDevelopSection = () => {
               } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
             >
               Get In Touch
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Get In Touch"} text2={"Let's talk"} />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { lifecycle } from "@/constants/lifecycle";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
@@ -19,14 +20,15 @@ const Lifecycle = () => {
           up-to-the-minute
         </h2>
         <div className="hidden lg:block">
-          <Link
+          {/* <Link
           href={{
             pathname: '/contact-us',
           }}
             className={`px-6 py-5 xl:py-8 xl:px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
           >
             Let's Start Your Project
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>
 
@@ -66,15 +68,15 @@ const Lifecycle = () => {
       </div>
 
       <div className="lg:hidden mt-6 w-full flex justify-center">
-          <Link
-            href={{
-              pathname: '/contact-us',
-            }}
-            className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
-          >
-            Let's Start Your Project
-          </Link>
-        </div>
+        <Link
+          href={{
+            pathname: "/contact-us",
+          }}
+          className="py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium"
+        >
+          Let's Start Your Project
+        </Link>
+      </div>
     </section>
   );
 };

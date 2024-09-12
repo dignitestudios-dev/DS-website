@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -23,7 +24,7 @@ const TopRankedCategoriesSection = () => {
           top ranked categories of app development
         </h2>
         <div className="hidden lg:block">
-          <Link
+          {/* <Link
             href={{
               pathname: "/contact-us",
             }}
@@ -32,7 +33,8 @@ const TopRankedCategoriesSection = () => {
             } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
           >
             Let's Start Your Project
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>
 
@@ -48,7 +50,9 @@ const TopRankedCategoriesSection = () => {
             theme === "light" ? "bg-[#F9F9F9] hover:text-white" : "bg-[#2d2d2d]"
           } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
         >
-          <h3 className={` text-xl font-semibold`}>Native Mobile App Development</h3>
+          <h3 className={` text-xl font-semibold`}>
+            Native Mobile App Development
+          </h3>
           <p className={``}>
             We ensure to build highly effective and productive native mobile
             apps for Android and IOS systems that will be based on your security
@@ -75,7 +79,9 @@ const TopRankedCategoriesSection = () => {
             theme === "light" ? "bg-[#F9F9F9] hover:text-white" : "bg-[#2d2d2d]"
           } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
         >
-          <h3 className={`text-xl font-semibold`}>Cross-Platform App Development</h3>
+          <h3 className={`text-xl font-semibold`}>
+            Cross-Platform App Development
+          </h3>
           <p className={``}>
             React Native, Xamarin, and Flutter are the most popular languages to
             increase a project's versatility, efficiency, and speed. Thus, that
@@ -108,7 +114,6 @@ const TopRankedCategoriesSection = () => {
           Let's Start Your Project
         </Link>
       </div>
-
     </section>
   );
 };
