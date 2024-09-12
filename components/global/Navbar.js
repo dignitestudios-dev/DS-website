@@ -173,7 +173,7 @@ const Navbar = ({ setIsOpen }) => {
       {showDropdown && (
         <div
           onMouseLeave={() => setShowDropdown(false)}
-          className={`w-[100%] h-[369px] p-6 z-20 text-md transition-all duration-150 hidden lg:flex gap-2 justify-center lg:gap-x-8 xl:gap-x-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2  ${
+          className={`w-[100%] min-h-[369px] p-6 z-20 text-md transition-all duration-150 hidden lg:flex gap-2 justify-center lg:gap-x-8 xl:gap-x-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2  ${
             theme == "dark" ? "shadow-xl" : "shadow-xl"
           } -right-24`}
           style={{ background: palette?.background, color: palette?.color }}
@@ -230,6 +230,13 @@ const Navbar = ({ setIsOpen }) => {
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
               Hire Mobile App Developers
+            </Link>
+            <Link
+              href={"/services/hire-android-developers"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              Hire Android App Developers
             </Link>
           </div>
           <div className="flex flex-col items-start gap-3">
