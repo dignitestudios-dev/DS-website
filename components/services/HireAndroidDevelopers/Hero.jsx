@@ -28,14 +28,16 @@ const Hero = () => {
         <div className="w-4 h-4 rounded-full bg-[#D3D3D3] absolute right-0 -top-1" />
         <img
           src="/rounded-border-image.png"
-          alt=""
+          alt="the image shows multiple pictures of different developers"
+          title="hire Android App Developers"
           className="w-full absolute top-0 z-0"
         />
 
         <div className="w-[50px] md:w-[80px] h-auto z-10 relative top-2 md:top-6 lg:top-5 group hover:top-0 transition-all duration-300">
           <img
             src="/hire-android-dev-hero-img-1.png"
-            alt=""
+            alt="the image shows multiple pictures of different developers"
+            title="hire Android App Developers"
             className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] rounded-[14px] "
           />
           <span className="text-[#F15C20] font-medium text-xs opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -46,7 +48,8 @@ const Hero = () => {
         <div className="w-[50px] md:w-[82px] h-auto  z-10 relative top-6 md:top-14 lg:top-12 group hover:top-5 transition-all duration-300">
           <img
             src="/hire-android-dev-hero-img-2.png"
-            alt=""
+            alt="the image shows multiple pictures of different developers"
+            title="hire Android App Developers"
             className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] rounded-[14px]"
           />
           <span className="text-[#F15C20] font-medium text-xs opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -57,7 +60,8 @@ const Hero = () => {
         <div className="w-[50px] md:w-[80px] h-auto z-10 relative top-10 md:top-[77px] lg:top-[67px] group hover:top-8 transition-all duration-300">
           <img
             src="/hire-android-dev-hero-img-3.png"
-            alt=""
+            alt="the image shows multiple pictures of different developers"
+            title="hire Android App Developers"
             className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] rounded-[14px] "
           />
           <span className="text-[#F15C20] font-medium text-xs opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -68,7 +72,8 @@ const Hero = () => {
         <div className="w-[50px] md:w-[80px] h-auto z-10 relative top-6 md:top-14 lg:top-12 group hover:top-5 transition-all duration-300">
           <img
             src="/hire-android-dev-hero-img-4.png"
-            alt=""
+            alt="the image shows multiple pictures of different developers"
+            title="hire Android App Developers"
             className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] rounded-[14px] "
           />
           <span className="text-[#F15C20] font-medium text-xs opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -79,7 +84,8 @@ const Hero = () => {
         <div className="w-[50px] md:w-[80px] h-auto z-10 relative top-2 md:top-6 lg:top-5 group hover:top-0 transition-all duration-300">
           <img
             src="/hire-android-dev-hero-img-5.png"
-            alt=""
+            alt="the image shows multiple pictures of different developers"
+            title="hire Android App Developers"
             className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] rounded-[14px]"
           />
           <span className="text-[#F15C20] font-medium text-xs opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -90,34 +96,40 @@ const Hero = () => {
 
       <img
         src="/hire-android-kotlin-icon.png"
-        alt=""
+        title="hire Android App Developers"
+        alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute left-[7%] top-[10%] hover:rotate-12 transition-all duration-300"
       />
       <img
         src="/hire-android-flutter-icon.png"
-        alt=""
+        title="hire Android App Developers"
+        alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute left-[17%] top-[40%] hover:rotate-12 transition-all duration-300"
       />
       <img
         src="/hire-android-vscode-icon.png"
-        alt=""
+        title="hire Android App Developers"
+        alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute left-[7%] bottom-[10%] hover:-rotate-12 transition-all duration-300"
       />
 
       {/* right icons */}
       <img
         src="/hire-android-icon.png"
-        alt=""
+        title="hire Android App Developers"
+        alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute right-[17%] top-[30%] hover:rotate-12 transition-all duration-300"
       />
       <img
         src="/hire-android-react-icon.png"
-        alt=""
+        title="hire Android App Developers"
+        alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute right-[7%] bottom-[20%] hover:-rotate-12 transition-all duration-300"
       />
       <img
         src="/hire-android-firebase-icon.png"
-        alt=""
+        title="hire Android App Developers"
+        alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute right-[31%] bottom-[2%] hover:-rotate-12 transition-all duration-300"
       />
     </div>

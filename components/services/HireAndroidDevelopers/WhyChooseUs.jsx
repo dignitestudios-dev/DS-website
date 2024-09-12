@@ -32,8 +32,10 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/android-framework-icon.png"}
-            alt={""}
+            src={
+              "/hire-android-app-developer-rigorous-vetting-process-icon.webp"
+            }
+            alt={"hire android app developer rigorous vetting process icon"}
             title={""}
             className=""
             width="36px"
@@ -66,8 +68,8 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/app-customization-icon.png"}
-            alt={""}
+            src={"/android-app-developer-application-customization-icon.webp"}
+            alt={"android app developer application customization icon"}
             title={""}
             className=""
             width="36px"
@@ -99,8 +101,8 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/uniform-hiring-process.png"}
-            alt={""}
+            src={"/android-app-developer-uniform-hiring-process-icon.webp"}
+            alt={"android app developer uniform hiring process icon"}
             title={""}
             className=""
             width="36px"
@@ -132,8 +134,8 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/engagement-models-icon.png"}
-            alt={""}
+            src={"/flexible-android-app-developer-engagement-models-icon.webp"}
+            alt={"flexible android app developer engagement models icon"}
             title={""}
             className=""
             width="36px"
@@ -167,8 +169,8 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/cost-effective-icon.png"}
-            alt={""}
+            src={"/cost-effective-android-app-solutions-icon.webp"}
+            alt={"cost effective android app solutions icon"}
             title={""}
             className=""
             width="36px"
@@ -201,8 +203,8 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/app-support-icon.png"}
-            alt={""}
+            src={"/android-app-developer-tremendous-app-support-icon.webp"}
+            alt={"android app developer tremendous app support icon"}
             title={""}
             className=""
             width="36px"

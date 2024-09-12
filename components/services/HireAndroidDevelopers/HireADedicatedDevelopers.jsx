@@ -29,7 +29,8 @@ const HireADedicatedDevelopers = () => {
         </div>
       </div>
       <img
-        src={"/hire-android-developers-mockup.png"}
+        src={"/hire-a-dedicated-mobile-app-developer.webp"}
+        alt="the image shows one mock screen of an application"
         className="lg:h-[569px]"
       />
     </section>

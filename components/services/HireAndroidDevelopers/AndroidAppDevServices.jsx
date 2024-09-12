@@ -80,7 +80,7 @@ export default function AndroidAppDevServices() {
                 >
                   <img
                     src={card.icon_src}
-                    alt=""
+                    alt={card.icon_alt}
                     className="w-[40px] h-[40px]"
                   />
                   <h2
