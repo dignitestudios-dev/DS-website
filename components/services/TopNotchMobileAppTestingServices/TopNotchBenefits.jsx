@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
@@ -50,12 +51,13 @@ const TopNotchBenefits = () => {
             generation from your mobile apps.
           </p>
           <div className="mt-4 pb-6">
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
             >
               Let’s discuss your project
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Discuss you project"} text2={"Let's talk"} />
           </div>
         </div>
         <div className="flex justify-center">
@@ -131,12 +133,13 @@ const TopNotchBenefits = () => {
             meet the success of the mobile performance testing of the app. 
           </p>
           <div className="mt-4 pb-6">
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
             >
               Let’s discuss your project
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Discuss you project"} text2={"Let's talk"} />
           </div>
         </div>
       </div>
@@ -169,12 +172,13 @@ const TopNotchBenefits = () => {
             encryption methods, and shielded transmission of data.
           </p>
           <div className="mt-4 pb-6">
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
             >
               Let’s discuss your project
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Discuss you project"} text2={"Let's talk"} />
           </div>
         </div>
         <div className="flex justify-center">
@@ -253,12 +257,13 @@ const TopNotchBenefits = () => {
             programs, and updating new feeds at a similar speed.
           </p>
           <div className="mt-4 pb-6">
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
             >
               Let’s discuss your project
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Discuss you project"} text2={"Let's talk"} />
           </div>
         </div>
       </div>

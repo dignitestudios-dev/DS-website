@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { LEADING_MOBILE_APP_DESIGN_PROCESS } from "@/constants/LeadingMobileAppDesignProcess";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
@@ -27,12 +28,13 @@ const OurLeadingMobileAppDesignProcess = () => {
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-center lg:justify-end">
           <div className="lg:mt-6">
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="bg-[#F15C20] text-white w-[218px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
             >
               Start Your Project <FiArrowUpRight className="text-2xl" />
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
           </div>
         </div>
       </section>

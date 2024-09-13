@@ -1,3 +1,4 @@
+import ContactButton from "@/components/global/ContactButton";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -21,12 +22,13 @@ const TopOfTheLine = () => {
           identity.
         </p>
         <div className="relative z-20 mt-3">
-          <Link
+          {/* <Link
             href={"/contact-us"}
             className="bg-[#F15C20] z-20 relative text-white w-[218px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
           >
             Start Your Project <FiArrowUpRight className="text-2xl" />
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Start your project"} text2={"Let's talk"} />
         </div>
       </div>
 

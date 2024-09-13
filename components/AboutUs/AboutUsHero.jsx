@@ -2,6 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
+import ContactButton from "../global/ContactButton";
 
 const AboutUsHero = () => {
   const { palette } = useContext(GlobalContext);
@@ -32,7 +33,7 @@ const AboutUsHero = () => {
           vision into the realm of modern technology.
         </span>
         <div className="w-auto flex gap-4 justify-start items-center">
-          <Link
+          {/* <Link
             href={"/contact-us"}
             name="schedule-a-meeting"
             style={{
@@ -42,7 +43,8 @@ const AboutUsHero = () => {
             className="orange w-[150px] lg:w-[151px] h-14 lg:h-[59px] rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
           >
             Get Started
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Get Started"} text2={"Let's talk"} />
         </div>
       </div>
       <div className="w-screen h-[30rem]  about-bg"></div>

@@ -1,10 +1,6 @@
 "use server";
 import ContactButton from "@/components/global/ContactButton";
-import customLoader from "@/lib/custom-loader";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-import { HiMiniArrowUpRight } from "react-icons/hi2";
 
 const DriveBusiness = () => {
   return (

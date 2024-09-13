@@ -5,26 +5,27 @@ import { GlobalContext } from "../../context/GlobalContext";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import ProcessContainer from "./ProcessContainer";
 import Link from "next/link";
+import ContactButton from "../global/ContactButton";
 
 const Process = () => {
-  const [currentTab, setCurrentTab] = useState("Agile")
+  const [currentTab, setCurrentTab] = useState("Agile");
   const { palette, theme } = useContext(GlobalContext);
   const [openedTab, setOpenedTab] = useState(1);
 
-  const handleAgileClick = ()=>{
+  const handleAgileClick = () => {
     setOpenedTab(1);
-    setCurrentTab("Agile")
-  }
+    setCurrentTab("Agile");
+  };
 
-  const handleWaterfallClick = ()=>{
+  const handleWaterfallClick = () => {
     setOpenedTab(2);
-    setCurrentTab("Waterfall")
-  }
+    setCurrentTab("Waterfall");
+  };
 
-  const handleHybridClick = ()=>{
+  const handleHybridClick = () => {
     setOpenedTab(3);
-    setCurrentTab("Hybrid")
-  }
+    setCurrentTab("Hybrid");
+  };
 
   return (
     <div

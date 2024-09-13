@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext, useEffect, useState } from "react";
@@ -41,12 +42,13 @@ const Hero = () => {
           We commit to Excel Android designs
         </h2>
         <div>
-          <Link
+          {/* <Link
             href={"/contact-us"}
             className="bg-[#F15C20] text-white w-[164px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
           >
             Get A Quote <FiArrowUpRight className="text-2xl" />
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Get A Quote"} text2={"Let's talk"} />
         </div>
       </div>
       <div className="w-full flex items-center justify-center gap-0 relative mt-10 lg:mt-0">

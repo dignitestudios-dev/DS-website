@@ -1,3 +1,4 @@
+import ContactButton from "@/components/global/ContactButton";
 import { ANDROID_MOBILE_APP_DESIGN } from "@/constants/AndroidMobileAppDesign";
 import Link from "next/link";
 import React from "react";
@@ -24,12 +25,13 @@ const AndroidMobileAppDesign = () => {
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-start lg:pt-4 lg:justify-end">
           <div className="lg:mt-6">
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="bg-[#F15C20] text-white w-[218px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
             >
               Start Your Project <FiArrowUpRight className="text-2xl" />
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
           </div>
         </div>
       </div>

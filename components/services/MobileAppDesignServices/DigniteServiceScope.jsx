@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
@@ -38,13 +39,14 @@ const DigniteServiceScope = () => {
           </h2>
 
           <div className="w-full lg:w-auto flex justify-start">
-            <Link
+            {/* <Link
               href="/contact-us"
               className="py-3 px-5 text-base xl:py-[28px] xl:px-[60px] float-end top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
               style={{ background: "#F15C20" }}
             >
               Schedule a call <FiArrowUpRight className="text-xl" />
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
           </div>
         </div>
         <Image

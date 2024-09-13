@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
@@ -28,12 +29,13 @@ const WhyDignite = () => {
               partners and customers.
             </p>
             <div className="mt-4">
-              <Link
+              {/* <Link
                 href={"/contact-us"}
                 className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
               >
                 Start your project
-              </Link>
+              </Link> */}
+              <ContactButton text1={"Start you project"} text2={"Let's talk"} />
             </div>
           </div>
         </div>

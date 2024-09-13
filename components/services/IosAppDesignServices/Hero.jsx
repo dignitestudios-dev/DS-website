@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext, useState } from "react";
@@ -34,12 +35,13 @@ const Hero = () => {
       </p>
 
       <div className="mt-10">
-        <Link
+        {/* <Link
           href={"/contact-us"}
           className="bg-[#F15C20] px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
         >
           Get a quote <FiArrowUpRight className="text-lg" />
-        </Link>
+        </Link> */}
+        <ContactButton text1={"Get a quote"} text2={"Let's talk"} />
       </div>
 
       <div className="w-full mt-20 flex items-start justify-center flex-wrap gap-10">

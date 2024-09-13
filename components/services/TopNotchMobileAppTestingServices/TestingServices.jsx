@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
@@ -62,12 +63,13 @@ const TestingServices = () => {
             mobile testing.
           </p>
           <div>
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
             >
               Get in touch
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Get in touch"} text2={"Let's talk"} />
           </div>
         </div>
       </div>
@@ -100,12 +102,13 @@ const TestingServices = () => {
             testing.
           </p>
           <div>
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
             >
               Get in touch
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Get in touch"} text2={"Let's talk"} />
           </div>
         </div>
         <div className="flex md:justify-center lg:justify-end">
@@ -173,12 +176,13 @@ const TestingServices = () => {
             satisfy clients by all means.
           </p>
           <div>
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
             >
               Get in touch
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Get in touch"} text2={"Let's talk"} />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
@@ -33,12 +34,16 @@ const MobileAppTestingInRealTime = () => {
             digital landscape
           </p>
           <div className="mt-4">
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
             >
               Let’s discuss your project
-            </Link>
+            </Link> */}
+            <ContactButton
+              text1={"Discuss your project"}
+              text2={"Let's talk"}
+            />
           </div>
         </div>
         <Image

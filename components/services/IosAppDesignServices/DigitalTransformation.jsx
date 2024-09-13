@@ -1,3 +1,4 @@
+import ContactButton from "@/components/global/ContactButton";
 import Link from "next/link";
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
@@ -25,12 +26,15 @@ const DigitalTransformation = () => {
             credibility, believability, and innovation in your application for
             prevailing modernized tools and technologies.
           </p>
-          <Link
+          {/* <Link
             href={"/contact-us"}
             className="bg-[#F15C20] w-[198px] mt-8 px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
           >
             Start Your Project <FiArrowUpRight className="text-lg" />
-          </Link>
+          </Link> */}
+          <div className="mt-5">
+            <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
+          </div>
         </div>
         <div className="w-full lg:w-[40%] flex justify-center">
           <div className="w-[295px] h-[539px] relative">
