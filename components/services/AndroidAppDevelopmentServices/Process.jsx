@@ -5,6 +5,7 @@ import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import ProcessCard from "./ProcessCard";
 import { process } from "@/constants/mobileappdevelopmentprocess";
+import ContactButton from "@/components/global/ContactButton";
 
 const Process = () => {
   const { theme } = useContext(GlobalContext);
@@ -29,12 +30,13 @@ const Process = () => {
           </p>
         </div>
         <div className="mb-8 lg:mb-0">
-          <Link
+          {/* <Link
             href="/contact-us"
             className="py-5 px-6 text-base xl:py-7 xl:px-14 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
           >
             Schedule a call <FiArrowUpRight className="text-xl" />
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
         </div>
       </div>
 

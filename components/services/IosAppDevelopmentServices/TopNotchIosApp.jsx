@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
@@ -41,12 +42,16 @@ const TopNotchIosApp = () => {
             advanced with current functionalities and operations.
           </p>
           <div className="mt-3">
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="py-4 px-[20px] bg-[#F15C20] text-white text-base font-semibold rounded-full flex items-center gap-1"
             >
               Let’s Start the Project <FiArrowUpRight className="text-xl" />
-            </Link>
+            </Link> */}
+            <ContactButton
+              text1={"Let's Start Your Project"}
+              text2={"Let's talk"}
+            />
           </div>
         </div>
         <img

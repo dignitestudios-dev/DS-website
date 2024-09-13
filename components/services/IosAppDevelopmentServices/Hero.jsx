@@ -6,6 +6,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import HeroAnimation from "./HeroAnimation";
+import ContactButton from "@/components/global/ContactButton";
 
 const Hero = () => {
   const { palette } = useContext(GlobalContext);
@@ -23,12 +24,13 @@ const Hero = () => {
       </h1>
       <p>Transform your business with highly optimized custom apps.</p>
       <div>
-        <Link
+        {/* <Link
           href={"/contact-us"}
           className="flex items-center gap-2 px-5 py-5 text-sm font-bold rounded-full text-white bg-[#F15C20]"
         >
           Discuss Your Project <FiArrowUpRight className="text-xl" />
-        </Link>
+        </Link> */}
+        <ContactButton text1={"Discuss Your Project"} text2={"Let's talk"} />
       </div>
       <HeroAnimation />
     </main>

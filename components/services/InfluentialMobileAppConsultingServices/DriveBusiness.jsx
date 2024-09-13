@@ -1,4 +1,5 @@
 "use server";
+import ContactButton from "@/components/global/ContactButton";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,12 +14,15 @@ const DriveBusiness = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] font-bold lg:leading-[57px] xl:leading-[72.45px] 2xl:leading-[77.45px] tracking-tighter">
             Let’s Talk and Drive <br /> Business Together
           </h2>
-          <Link
+          {/* <Link
             href={"/contact-us"}
             className="bg-[#F15C20] font-semibold text-base lg:text-xl text-white rounded-full py-4 px-8 lg:py-[20px] lg:px-[30px] xl:py-[28px] xl:px-[60px] flex items-center justify-center gap-2 hover:opacity-[.75] transition-all duration-300 top-rated-btn-shadow"
           >
             Schedule a call <HiMiniArrowUpRight className="text-2xl" />
-          </Link>
+          </Link> */}
+          <div className="">
+            <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
+          </div>
         </div>
         <img
           src="/mobile-app-consultation-services.webp"

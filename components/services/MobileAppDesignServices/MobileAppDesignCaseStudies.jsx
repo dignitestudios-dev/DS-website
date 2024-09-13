@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import ProjectCard from "@/components/Home/ProjectCard";
 import { casestudies } from "@/constants/casestudies";
 import { GlobalContext } from "@/context/GlobalContext";
@@ -48,13 +49,14 @@ const MobileAppDesignCaseStudies = () => {
             </div>
           </div>
           <div className="w-full lg:w-auto hidden lg:block">
-            <Link
+            {/* <Link
               href="/contact-us"
               className="py-3 px-5 lg:py-6 lg:px-7 text-base xl:py-7 xl:px-14 float-end top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
               style={{ background: "#F15C20" }}
             >
               Get in Touch <FiArrowUpRight className="text-xl" />
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Get in Touch"} text2={"Let's talk"} />
           </div>
         </div>
 

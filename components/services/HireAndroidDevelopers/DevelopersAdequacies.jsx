@@ -36,7 +36,9 @@ const DevelopersAdequacies = () => {
           return (
             <div
               key={i}
-              className="flex flex-col items-center text-center p-10 gap-4 border border-[#ECECEC] rounded-[24px]"
+              className={`flex flex-col items-center text-center p-10 gap-4 border border-[#ECECEC] rounded-[24px] ${
+                theme === "dark" ? "border-[#4f4f4f]" : "border-[#ECECEC]"
+              }`}
             >
               <div className="w-[50px] h-[50px] rounded-[12px] bg-[#F15C2014] flex items-center justify-center">
                 <img src={card.icon_src} alt="" className="w-[28px] h-[28px]" />

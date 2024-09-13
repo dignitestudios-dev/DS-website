@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -34,8 +35,8 @@ const Hero = () => {
       >
         Harness top native app features to mark business metrics
       </span>
-      <div className="w-auto flex gap-4 justify-center items-center">
-        <Link
+      <div className="w-auto flex gap-4 justify-center items-center z-10">
+        {/* <Link
           href={"/contact-us"}
           name="schedule-a-meeting"
           style={{
@@ -45,7 +46,8 @@ const Hero = () => {
           className="orange w-[150px] lg:w-[164px] 2xl:w-[246px] h-14 lg:h-16 2xl:h-[5rem] rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md 2xl:text-lg font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center gap-1 z-20"
         >
           Get a quote <FiArrowUpRight className="text-xl" />
-        </Link>
+        </Link> */}
+        <ContactButton text1={"Get A Quote"} text2={"Let's talk"} />
       </div>
 
       <div className="w-full relative flex justify-center items-start gap-x-4 md:gap-x-10 mt-16 lg:my-16">

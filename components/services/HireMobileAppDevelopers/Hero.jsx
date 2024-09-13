@@ -6,6 +6,7 @@ import { FaApple } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoMoon } from "react-icons/io5";
 import HeroAnimation from "./HeroAnimation";
+import ContactButton from "@/components/global/ContactButton";
 
 const Hero = () => {
   const { theme } = useContext(GlobalContext);
@@ -26,14 +27,10 @@ const Hero = () => {
         </p>
 
         <div className="mt-10 z-20">
-          <Link
-            href={"/contact-us"}
-            className="bg-[#F15C20] px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
-          >
-            Get a quote <FiArrowUpRight className="text-lg" />
-          </Link>
+          <ContactButton text1={"Get A Quote"} text2={"Let's talk"} />
         </div>
       </div>
+
       <div className="w-full hidden lg:block z-0 relative xl:w-[70%] mx-auto h-screen lg:h-[115vh] xl:h-screen 2xl:h-[70vh] -top-56">
         <img
           src="/hire-mobile-app-dev-hero-animation-mockup-0.webp"

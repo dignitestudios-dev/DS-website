@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { HIRE_MOBILE_APP_DEV_TEAM } from "@/constants/HireMobileAppDevTeam";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
@@ -27,12 +28,16 @@ const HowToHireAppDevelopers = () => {
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-center lg:justify-end">
           <div className="lg:mt-6">
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="bg-[#F15C20] text-white px-7 py-6 rounded-full text-center flex items-center gap-1 justify-center font-semibold"
             >
               Hire best app developer <FiArrowUpRight className="text-2xl" />
-            </Link>
+            </Link> */}
+            <ContactButton
+              text1={"Hire best app developer"}
+              text2={"Let's talk"}
+            />
           </div>
         </div>
       </section>

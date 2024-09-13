@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
@@ -33,12 +34,15 @@ const InfluentialChooseUs = () => {
           businesses with modernized strategies and produce super easiest
           formulas to drive growth and progress in mobile and web development. 
         </p>
-        <Link
+        {/* <Link
           href={"/contact-us"}
           className="px-6 py-5 lg:w-[206px] lg:h-[80px] top-rated-btn-shadow hover:opacity-[.75] transition-all duration-300 rounded-full text-xl font-semibold text-white bg-[#F15C20] flex items-center justify-center gap-2"
         >
           Contact Us <RiArrowRightUpLine className="text-2xl" />
-        </Link>
+        </Link> */}
+        <div className="mt-6">
+          <ContactButton text1={"Contact Us"} text2={"Let's talk"} />
+        </div>
       </div>
 
       <div className="relative w-full">

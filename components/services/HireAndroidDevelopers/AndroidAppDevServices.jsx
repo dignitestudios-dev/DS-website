@@ -74,7 +74,7 @@ export default function AndroidAppDevServices() {
                   className={`h-[320px] lg:h-[360px] xl:h-[280px] w-full rounded-[18px]
                    p-7 flex flex-col items-start justify-start gap-3 text-start group border ${
                      theme === "dark"
-                       ? " text-white transition-all duration-200"
+                       ? " text-white transition-all duration-200 border-[#4f4f4f]"
                        : " text-white transition-all duration-200"
                    }`}
                 >

@@ -1,3 +1,4 @@
+import ContactButton from "@/components/global/ContactButton";
 import Link from "next/link";
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
@@ -21,12 +22,13 @@ const UnrivaledSection = () => {
           depends on perfect app strategies and monitoring of the app.
         </p>
         <div className="mt-6">
-          <Link
+          {/* <Link
             href={"/contact-us"}
             className="bg-[#F15C20] text-white w-[199px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
           >
             Start Your Project <FiArrowUpRight className="text-2xl" />
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>
       <img

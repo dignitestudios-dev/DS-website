@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -11,7 +12,7 @@ const IndustryProtocols = () => {
       <div className="w-full flex flex-col xl:flex-row items-start justify-between gap-0 md:gap-6">
         <div className="w-full xl:w-[70%]">
           <p className={`text-xl font-bold text-[#8F8F8F] uppercase mb-4`}>
-          Wide Range of
+            Wide Range of
           </p>
           <h2 className={`headings-size`}>Industry Protocols</h2>
           <p
@@ -19,16 +20,19 @@ const IndustryProtocols = () => {
               theme === "light" && "text-[#2A2A2A]"
             }`}
           >
-            As a renowned company, we procure scrupulous services to adhere to a wide range of industries. Here, we’ve assisted many large and small enterprises of several industries to go beyond expectations.
+            As a renowned company, we procure scrupulous services to adhere to a
+            wide range of industries. Here, we’ve assisted many large and small
+            enterprises of several industries to go beyond expectations.
           </p>
         </div>
         <div className="mb-8 lg:mb-0">
-          <Link
+          {/* <Link
             href="/contact-us"
             className="py-5 px-6 text-base xl:py-7 xl:px-8 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
           >
             Start Your Project <FiArrowUpRight className="text-xl" />
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>
 

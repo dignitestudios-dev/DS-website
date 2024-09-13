@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { PROGRESSIVE_WEB_APP_SERVICES } from "@/constants/ProgressiveWebAppServices";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
@@ -28,14 +29,16 @@ const ProgressiveWebAppServices = () => {
           </p>
         </div>
         <div className="w-full lg:w-[35%] flex justify-end items-start lg:pt-14">
-          <Link
+          {/* <Link
             href={"/contact-us"}
             className="bg-[#F15C20] w-[198px] px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
           >
             Start Your Project <FiArrowUpRight className="text-lg" />
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>
+
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-x-20 lg:gap-y-12 mt-10">
         {PROGRESSIVE_WEB_APP_SERVICES.map((service, index) => {
           return (

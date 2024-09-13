@@ -49,12 +49,12 @@ export default function TypesOfAndroidDevelopers() {
               className={`h-auto relative w-full rounded-[18px]
                    p-7 pt-12 flex flex-col items-start justify-start gap-3 text-start group border ${
                      theme === "dark"
-                       ? " text-white transition-all duration-200"
+                       ? " text-white transition-all duration-200 border-[#4f4f4f]"
                        : " text-white transition-all duration-200"
                    }`}
             >
               <div
-                className={`min-w-[182px] px-4 rounded-full absolute -top-6 left-0 h-[48px] flex items-center justify-center gap-1 ${card.bg_color} hover:-rotate-6 transition-all duration-300`}
+                className={`min-w-[182px] px-4 rounded-full absolute -top-6 left-0 h-[48px] flex items-center justify-center gap-1 ${card.bg_color} group-hover:-rotate-6 transition-all duration-300`}
               >
                 <img
                   src="/star-icon.png"

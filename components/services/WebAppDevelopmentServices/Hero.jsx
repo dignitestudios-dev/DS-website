@@ -6,6 +6,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import HeroAnimation from "./HeroAnimation";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import AnimatedBarChart from "./AnimatedBarChart";
+import ContactButton from "@/components/global/ContactButton";
 
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -32,12 +33,13 @@ const Hero = () => {
           Your idea, our solution.
         </h2>
         <div>
-          <Link
+          {/* <Link
             href={"/contact-us"}
             className="bg-[#F15C20] text-white w-[164px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
           >
             Get A Quote <FiArrowUpRight className="text-2xl" />
-          </Link>
+          </Link> */}
+          <ContactButton text1={"Get A Quote"} text2={"Let's talk"} />
         </div>
       </div>
 

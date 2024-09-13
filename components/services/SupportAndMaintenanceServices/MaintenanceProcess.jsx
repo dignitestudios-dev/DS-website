@@ -4,6 +4,7 @@ import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import { MAINTENANCE_PROCESS } from "@/constants/maintenanceprocess";
 import { GlobalContext } from "@/context/GlobalContext";
+import ContactButton from "@/components/global/ContactButton";
 
 const MaintenanceProcess = () => {
   const { theme } = useContext(GlobalContext);
@@ -25,12 +26,13 @@ const MaintenanceProcess = () => {
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-center lg:justify-end">
           <div className="lg:mt-6">
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="bg-[#F15C20] text-white w-[218px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
             >
               Discuss Your Project <FiArrowUpRight className="text-2xl" />
-            </Link>
+            </Link> */}
+            <ContactButton text1={"Dicuss Your Project"} text2={"Let's talk"} />
           </div>
         </div>
       </section>

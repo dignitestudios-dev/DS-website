@@ -3,6 +3,7 @@ import React, { useContext } from "react";
 import InfluentialNavbar from "./InfluentialNavbar";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
+import ContactButton from "@/components/global/ContactButton";
 
 const InfluentialHero = () => {
   const { theme, setIsSidebarOpen } = useContext(GlobalContext);
@@ -31,12 +32,15 @@ const InfluentialHero = () => {
           Get a chance to experience top-notch free consultancy from a <br />
           leading mobile platform.
         </p>
-        <Link
+        {/* <Link
           href={"/contact-us"}
           className="py-[19px] px-[28px] bg-[#F15C20] text-white rounded-full text-center text-base font-semibold"
         >
           Contact Us
-        </Link>
+        </Link> */}
+        <div className="">
+          <ContactButton text1={"Contact Us"} text2={"Let's talk"} />
+        </div>
       </div>
     </main>
   );

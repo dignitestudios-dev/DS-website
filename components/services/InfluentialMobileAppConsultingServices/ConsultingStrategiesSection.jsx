@@ -7,6 +7,7 @@ import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import { headings, paragraphs } from "@/constants/mobileappdevsection";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
+import ContactButton from "@/components/global/ContactButton";
 
 const ConsultingStrategiesSection = () => {
   const { theme } = useContext(GlobalContext);
@@ -109,12 +110,13 @@ const ConsultingStrategiesSection = () => {
           <span className="text-[#F15C20]">Mobile App</span> Development
           Consulting Strategies 
         </h2>
-        <Link
+        {/* <Link
           href={"/contact-us"}
           className="px-6 py-5 lg:w-[270px] lg:h-[80px] top-rated-btn-shadow hover:opacity-[.75] transition-all duration-300 rounded-full text-xl font-semibold text-[#ffff] bg-[#F15C20] flex items-center justify-center gap-2 xl:mt-2"
         >
           Contact Us <RiArrowRightUpLine className="text-2xl" />
-        </Link>
+        </Link> */}
+        <ContactButton text1={"Contact Us"} text2={"Let's talk"} />
       </div>
 
       <p

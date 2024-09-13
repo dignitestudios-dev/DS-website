@@ -1,4 +1,5 @@
 "use client";
+import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -64,12 +65,18 @@ const HireMobileAppDevCompany = () => {
               app development company Dignite Studios to secure and maintain
               your app with top-notch solutions.
             </p>
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="bg-[#F15C20] w-[198px] mt-8 px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
             >
               Start Your Project <FiArrowUpRight className="text-lg" />
-            </Link>
+            </Link> */}
+            <div className="mt-5">
+              <ContactButton
+                text1={"Start Your Project"}
+                text2={"Let's talk"}
+              />
+            </div>
           </div>
           <div></div>
         </div>

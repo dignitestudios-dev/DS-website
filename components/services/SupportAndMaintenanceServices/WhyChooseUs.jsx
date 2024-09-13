@@ -6,6 +6,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import Link from "next/link";
 import WhyChooseUsCard from "../IosAppDevelopmentServices/WhyChooseUsCard";
 import { MOBILE_APP_MAINTENANCE_CHOOSE_US } from "@/constants/MobileAppMaintenanceChooseUs";
+import ContactButton from "@/components/global/ContactButton";
 
 const WhyChooseUs = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -270,13 +271,14 @@ const WhyChooseUs = () => {
         </div>
       </div>
 
-      <div className="w-full flex justify-center">
-        <Link
+      <div className="w-full flex justify-center mt-10 pb-20">
+        {/* <Link
           href="/contact-us"
           className="py-5 px-6 text-base xl:py-7 mt-8 mb-14 mx-auto text-center xl:px-8 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
         >
           Start Your Project <FiArrowUpRight className="text-2xl" />
-        </Link>
+        </Link> */}
+        <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
       </div>
     </div>
   );
