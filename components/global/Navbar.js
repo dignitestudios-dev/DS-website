@@ -59,7 +59,6 @@ const Navbar = ({ setIsOpen }) => {
         <Link
           aria-label="link"
           href={"/"}
-          // onClick={() => navigateTo("/")}
           className={`text-[14px] font-medium hover:text-[#F15C20]
             } bg-transparent  outline-none`}
         >
@@ -77,77 +76,6 @@ const Navbar = ({ setIsOpen }) => {
               showDropdown ? "rotate-180 transition-all duration-300" : ""
             }`}
           />
-
-          {/* <div
-            className={`w-80 h-auto p-6 z-20 rounded-2xl text-md scale-0 transition-all duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${
-              theme == "dark"
-                ? "shadow-[0_3px_10px_rgb(230,230,230,0.2)]"
-                : "shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-            } -right-24`}
-            style={{ background: palette?.background, color: palette?.color }}
-          >
-            <Link
-              href="/services/mobile-app-development-services"
-              className={`hover:text-[#F15C20] cursor-pointer `}
-            >
-              Mobile App Development Services
-            </Link>
-            <Link
-              href="/services/mobile-app-design-services"
-              className={`hover:text-[#F15C20] cursor-pointer `}
-            >
-              Mobile App Design Services
-            </Link>
-            <Link
-              href="/services/mobile-app-consulting-services"
-              className={`hover:text-[#F15C20] cursor-pointer `}
-            >
-              Mobile App Consulting Services
-            </Link>
-            <Link
-              href="/services/mobile-app-testing-services"
-              className={`hover:text-[#F15C20] cursor-pointer `}
-            >
-              Mobile App Testing Services
-            </Link>
-
-            <Link
-              href="/services/android-app-development-services"
-              className={`hover:text-[#F15C20] cursor-pointer `}
-            >
-              Android App Development Services
-            </Link>
-            <Link
-              href="/services/android-mobile-app-design-services"
-              className={`hover:text-[#F15C20] cursor-pointer text-start`}
-            >
-              Android Mobile App Design Services
-            </Link>
-            <Link
-              href="/services/ios-app-development-services"
-              className={`hover:text-[#F15C20] cursor-pointer `}
-            >
-              IOS App Development Services
-            </Link>
-            <Link
-              href="/services/native-app-development-services"
-              className={`hover:text-[#F15C20] cursor-pointer `}
-            >
-              Native App Development Services
-            </Link>
-            <Link
-              href="/services/web-application-development-services"
-              className={`hover:text-[#F15C20] cursor-pointer `}
-            >
-              Web App Development Services
-            </Link>
-            <Link
-              href="/services/mobile-application-support-and-maintenance-services"
-              className={`hover:text-[#F15C20] cursor-pointer text-start`}
-            >
-              Mobile App Support And Maintenance Services
-            </Link>
-          </div> */}
         </button>
         <button
           onClick={() => handleClick("case-studies")}
@@ -157,14 +85,12 @@ const Navbar = ({ setIsOpen }) => {
         </button>
         <Link
           href={"/about-us"}
-          // onClick={() => navigateTo("/about-us")}
           className={`text-[14px] font-medium hover:text-[#F15C20] bg-transparent  outline-none`}
         >
           About us
         </Link>
         <Link
           href={"/contact-us"}
-          // onClick={() => navigateTo("/contact-us")}
           className={`text-[14px] font-medium hover:text-[#F15C20] bg-transparent  outline-none`}
         >
           Contact

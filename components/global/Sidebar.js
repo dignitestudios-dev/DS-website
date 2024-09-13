@@ -1,5 +1,5 @@
 import { GlobalContext } from "@/context/GlobalContext";
-import React, { useContext, useRef } from "react";
+import React, { useContext, useRef, useState } from "react";
 import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
 import { usePathname, useRouter } from "next/navigation";
@@ -33,9 +33,17 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
+
   const navigateTo = (link) => {
     navigate.push(link);
   };
+
+  const [state, setState] = useState(false);
+
+  const handleState = () => {
+    setState(!state);
+  };
+
   return (
     <div
       onClick={(e) => toggleModal(e)}
@@ -73,99 +81,108 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           <button
             className={`w-full group text-[14px] hover:text-orange-600 relative gap-4 h-auto font-medium flex flex-col bg-transparent outline-none`}
           >
-            <div className="w-full flex  justify-between items-center">
-              <span>Services</span>
-              <IoIosArrowDown className="text-md group-hover:rotate-180" />
-            </div>
             <div
-              className={`w-full h-auto pl-2  rounded-2xl text-md hidden transition-all duration-150 group-hover:flex  flex-col gap-4 justify-start items-start text-start`}
-              style={{ color: palette?.color }}
+              className="w-full flex justify-between items-center"
+              onClick={handleState}
             >
-              <Link
-                href="/services/mobile-app-development-services"
-                className={`hover:text-orange-600 `}
-              >
-                Mobile App Development Services
-              </Link>
-              <Link
-                href="/services/mobile-app-design-services"
-                className={`hover:text-orange-600 `}
-              >
-                Mobile App Design Services
-              </Link>
-              <Link
-                href="/services/mobile-app-consulting-services"
-                className={`hover:text-orange-600 `}
-              >
-                Mobile App Consulting Services
-              </Link>
-              <Link
-                href="/services/mobile-app-testing-services"
-                className={`hover:text-orange-600 `}
-              >
-                Mobile App Testing Services
-              </Link>
-              <Link
-                href="/services/ios-app-development-services"
-                className={`hover:text-orange-600 `}
-              >
-                IOS App Development Services
-              </Link>
-              <Link
-                href="/services/ios-app-design-services"
-                className={`hover:text-orange-600 `}
-              >
-                IOS App Design Services
-              </Link>
-              <Link
-                href="/services/native-app-development-services"
-                className={`hover:text-orange-600 `}
-              >
-                Native App Development Services
-              </Link>
-              <Link
-                href="/services/android-app-development-services"
-                className={`hover:text-orange-600 `}
-              >
-                Android App Development-services
-              </Link>
-              <Link
-                href="/services/android-mobile-app-design-services"
-                className={`hover:text-orange-600 text-start`}
-              >
-                Android Mobile App Design-services
-              </Link>
-              <Link
-                href="/services/hire-mobile-app-developers"
-                className={`hover:text-orange-600 text-start`}
-              >
-                Hire Mobile App Developers
-              </Link>
-              <Link
-                href="/services/hire-android-developers"
-                className={`hover:text-orange-600 text-start`}
-              >
-                Hire Android App Developers
-              </Link>
-              <Link
-                href="/services/web-application-development-services"
-                className={`hover:text-orange-600 `}
-              >
-                Web App Development Services
-              </Link>
-              <Link
-                href="/services/pwa-development-services"
-                className={`hover:text-orange-600 `}
-              >
-                PWA Development Services
-              </Link>
-              <Link
-                href="/services/mobile-application-support-and-maintenance-services"
-                className={`hover:text-orange-600 text-start`}
-              >
-                Mobile App Support And Maintenance Services
-              </Link>
+              <span>Services</span>
+              <IoIosArrowDown
+                className={`text-md ${
+                  state ? "rotate-180" : "rotate-0"
+                } transition-all duration-500`}
+              />
             </div>
+            {state && (
+              <div
+                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition-all duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
+                style={{ color: palette?.color }}
+              >
+                <Link
+                  href="/services/mobile-app-development-services"
+                  className={`hover:text-orange-600 `}
+                >
+                  Mobile App Development Services
+                </Link>
+                <Link
+                  href="/services/mobile-app-design-services"
+                  className={`hover:text-orange-600 `}
+                >
+                  Mobile App Design Services
+                </Link>
+                <Link
+                  href="/services/mobile-app-consulting-services"
+                  className={`hover:text-orange-600 `}
+                >
+                  Mobile App Consulting Services
+                </Link>
+                <Link
+                  href="/services/mobile-app-testing-services"
+                  className={`hover:text-orange-600 `}
+                >
+                  Mobile App Testing Services
+                </Link>
+                <Link
+                  href="/services/ios-app-development-services"
+                  className={`hover:text-orange-600 `}
+                >
+                  IOS App Development Services
+                </Link>
+                <Link
+                  href="/services/ios-app-design-services"
+                  className={`hover:text-orange-600 `}
+                >
+                  IOS App Design Services
+                </Link>
+                <Link
+                  href="/services/native-app-development-services"
+                  className={`hover:text-orange-600 `}
+                >
+                  Native App Development Services
+                </Link>
+                <Link
+                  href="/services/android-app-development-services"
+                  className={`hover:text-orange-600 `}
+                >
+                  Android App Development-services
+                </Link>
+                <Link
+                  href="/services/android-mobile-app-design-services"
+                  className={`hover:text-orange-600 text-start`}
+                >
+                  Android Mobile App Design-services
+                </Link>
+                <Link
+                  href="/services/hire-mobile-app-developers"
+                  className={`hover:text-orange-600 text-start`}
+                >
+                  Hire Mobile App Developers
+                </Link>
+                <Link
+                  href="/services/hire-android-developers"
+                  className={`hover:text-orange-600 text-start`}
+                >
+                  Hire Android App Developers
+                </Link>
+                <Link
+                  href="/services/web-application-development-services"
+                  className={`hover:text-orange-600 `}
+                >
+                  Web App Development Services
+                </Link>
+                <Link
+                  href="/services/pwa-development-services"
+                  className={`hover:text-orange-600 `}
+                >
+                  PWA Development Services
+                </Link>
+                <Link
+                  href="/services/mobile-application-support-and-maintenance-services"
+                  className={`hover:text-orange-600 text-start`}
+                >
+                  Mobile App Support And Maintenance Services
+                </Link>
+              </div>
+            )}
           </button>
 
           <button

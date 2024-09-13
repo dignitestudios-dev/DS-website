@@ -121,7 +121,7 @@ const Process = () => {
         </div>
 
         <ProcessContainer openedTab={openedTab} />
-        <Link
+        {/* <Link
           href="/contact-us"
           name="start-your-project"
           style={{
@@ -131,7 +131,8 @@ const Process = () => {
           className="orange w-[150px] lg:w-[206px] xl:w-[312px] h-14 lg:h-20 xl:h-[104px] rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-lg font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
         >
           Start Your Project
-        </Link>
+        </Link> */}
+        <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
       </div>
     </div>
   );
