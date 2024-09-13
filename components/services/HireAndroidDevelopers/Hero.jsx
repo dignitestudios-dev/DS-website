@@ -16,7 +16,7 @@ const Hero = () => {
           theme === "light" && "text-[#5c5c5c]"
         }`}
       >
-        Amplify your applications with our dedicated <br /> Android developer.
+        Amplify your applications with our dedicated <br /> Android developers.
       </p>
 
       <div className="mt-10 z-0">
