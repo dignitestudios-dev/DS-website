@@ -52,7 +52,20 @@ const MobileAppDevSeoHero = () => {
               >
                 Free Consultation
               </Link> */}
-              <ContactButton text1={"Free Consultation"} text2={"Let's talk"} />
+              <Link
+                href="/contact-us"
+                className="bg-[#F15C20] text-white rounded-[12px] text-center py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden"
+              >
+                {/* First text */}
+                <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
+                  Free Consultation
+                </span>
+
+                {/* Second text */}
+                <span className="block absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                  Let's talk
+                </span>
+              </Link>
               {/* <Link
                 href={"/contact-us"}
                 className={`px-6 py-4 rounded-full text-base font-normal ${
@@ -66,7 +79,7 @@ const MobileAppDevSeoHero = () => {
                 href="/contact-us"
                 className={`${
                   theme === "dark" ? "bg-[#FFFFFF66]" : "bg-[#0c0c0c66]"
-                } text-white rounded-[12px] text-center py-8 px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden`}
+                } text-white rounded-[12px] text-center py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden`}
               >
                 {/* First text */}
                 <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">

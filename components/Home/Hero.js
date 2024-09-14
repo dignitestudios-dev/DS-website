@@ -84,7 +84,7 @@ const Hero = () => {
         <br className="hidden lg:block" /> into exceptional mobile app
         solutions.
       </span>
-      <div className="w-auto flex gap-4 justify-center items-center">
+      <div className="w-auto flex gap-2 md:gap-4 justify-center items-center">
         {/* <Link
           href={"/contact-us"}
           name="schedule-a-meeting"
@@ -112,7 +112,7 @@ const Hero = () => {
 
         <Link
           href="/contact-us"
-          className="bg-[#F15C20] orange text-white rounded-full text-center hover:opacity-90  shadow-xl shadow-[#F15C20]/[0.3] py-8 px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden"
+          className="bg-[#F15C20] orange text-white rounded-full text-center hover:opacity-90  shadow-xl shadow-[#F15C20]/[0.3] py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden text-sm md:text-[15px]"
         >
           {/* First text */}
           <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
@@ -128,7 +128,7 @@ const Hero = () => {
         <a
           href={"tel:+18777141770"}
           name="call-us"
-          className="bg-transparent text-[#F15C20] border-2 border-[#F15C20] hover:border-black hover:text-white text-[15px font-semibold] text-center py-8 px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden rounded-full "
+          className="bg-transparent text-[#F15C20] border-2 border-[#F15C20] hover:border-black hover:text-white text-sm md:text-[15px] font-semibold text-center py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden rounded-full "
         >
           {/* First text */}
           <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
