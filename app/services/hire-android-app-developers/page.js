@@ -4,8 +4,9 @@ import Script from "next/script";
 import React from "react";
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Hire Android Developers | Dignite Studios",
+  description:
+    "Hire Android app Developers of Dignite Studios. Our platform conducts top Android app developers for hire with dedicated strong expertise.",
 };
 
 const page = () => {
