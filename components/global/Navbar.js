@@ -158,7 +158,7 @@ const Navbar = ({ setIsOpen }) => {
               Hire Mobile App Developers
             </Link>
             <Link
-              href={"/services/hire-android-developers"}
+              href={"/services/hire-android-app-developers"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />

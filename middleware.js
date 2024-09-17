@@ -21,6 +21,10 @@ export function middleware(request) {
       oldPath: "/web-designing",
       newPath: "/services/mobile-app-design-services",
     },
+    {
+      oldPath: "/services/hire-android-developers",
+      newPath: "/services/hire-android-app-developers",
+    },
     // New redirects
     { oldPath: "/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2", newPath: "/" },
     { oldPath: "/case-study-4", newPath: "/" },

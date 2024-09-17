@@ -316,7 +316,7 @@ const Footer = () => {
             Hire Mobile App Developers
           </Link>
           <Link
-            href="/services/hire-android-developers"
+            href="/services/hire-android-app-developers"
             className="hover:text-orange-500"
           >
             Hire Android App Developers

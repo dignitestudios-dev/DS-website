@@ -158,7 +158,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Hire Mobile App Developers
                 </Link>
                 <Link
-                  href="/services/hire-android-developers"
+                  href="/services/hire-android-app-developers"
                   className={`hover:text-orange-600 text-start`}
                 >
                   Hire Android App Developers
