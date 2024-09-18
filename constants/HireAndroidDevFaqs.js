@@ -7,22 +7,22 @@ export const HIRE_ANDROID_DEV_FAQS = [
   {
     question: "How much does an Android developer cost?",
     answer:
-      "It depends on the complexities and time duration to build Android apps.",
+      "It depends on the complexities and time duration to build Android apps. Schedule a call with us to learn more about this.",
   },
   {
     question: "How much does it cost to build an Android app?",
     answer:
-      "To know your desired quotation to craft an Android apps, fill out the below form to get the details.",
+      "To know your desired quotation to craft an Android app, fill out the form below to get more details.",
   },
   {
     question: "How long does it take to develop an Android app?",
     answer:
-      "The exact time frame cannot be evaluated until you discuss your project details with our Android app experts.",
+      "The exact time frame cannot be evaluated until you discuss your project details with our Android app experts. Let's schedule a call to discuss this in greater depth.",
   },
   {
     question:
       "Can I hire Android developers for hourly or project-based tasks?",
     answer:
-      "Yes, definitely you can hire an expert to build your Android apps.",
+      "Yes, you can definitely hire an expert from Dignite Studios to build your dream project.",
   },
 ];
