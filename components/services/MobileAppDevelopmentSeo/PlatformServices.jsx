@@ -2,6 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useContext } from "react";
 
 const PlatformServices = () => {
@@ -59,9 +60,15 @@ const PlatformServices = () => {
                 theme === "light" ? "text-[#5F5F5F]" : "text-white"
               }`}
             >
-              Struggling to find an innovative partner for your mobile app
-              development? Here we offer the best mobile app solutions to propel
-              your business in the world of the mobile stratosphere with our
+              Struggling to find an innovative partner for your{" "}
+              <Link
+                href={"/services/android-app-development-services"}
+                className="text-orange-600"
+              >
+                android mobile app development?
+              </Link>{" "}
+              Here we offer the best mobile app solutions to propel your
+              business in the world of the mobile stratosphere with our
               eccentric development approach. Whereas, Android apps are the
               cornerstone of the transformative development process.   
             </p>
@@ -84,14 +91,19 @@ const PlatformServices = () => {
                 theme === "light" ? "text-[#5F5F5F]" : "text-white"
               }`}
             >
-              Turn your illustrations into an unprecedented model that robust
-              iOS mobile applications in an exclusive manner. From code to
-              launch, the top-notch developers of Dignite Studios will transform
-              your entire mobile app with eminent methodologies of mobile
-              development to make your app version highly functional, optimized,
-              systemized, and scalable on any platform. We take pride in our
-              development efforts to help businesses achieve their rapid ROIs
-              and conversions.
+              Turn your illustrations into an unprecedented model that robust{" "}
+              <Link
+                href={"/services/ios-app-development-services"}
+                className="text-orange-600"
+              >
+                iOS mobile applications
+              </Link>{" "}
+              in an exclusive manner. From code to launch, the top-notch
+              developers of Dignite Studios will transform your entire mobile
+              app with eminent methodologies of mobile development to make your
+              app version highly functional, optimized, systemized, and scalable
+              on any platform. We take pride in our development efforts to help
+              businesses achieve their rapid ROIs and conversions.
             </p>
           </div>
         </div>

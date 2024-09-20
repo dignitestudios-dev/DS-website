@@ -147,8 +147,15 @@ const MobileAppDevSectionAccordion = () => {
               attractive user interface, designers can easily build prototypes,
               animations, and wireframes for ultimate iOS apps. Here, our
               ingenious iOS app developers leverage in crafting tailored
-              high-quality iOS apps for any device. We create seamless user
-              interfaces while developing mobile apps.
+              high-quality{" "}
+              <Link
+                href={"/services/ios-app-design-services"}
+                className="text-orange-600"
+              >
+                iOS mobile app design services
+              </Link>{" "}
+              for any device. We create seamless user interfaces while
+              developing mobile apps.
             </p>
           </div>
         </div>

@@ -22,12 +22,15 @@ const VariousIndustriesSection = () => {
           >
             Dignite Studios crafts seamless experiences and exceptional
             optimization in iOS app development for its users and trusted
-            partners. We strive to be a full-scale mobile app development
-            company across the globe for multiple industries. Also, to bestow
-            unique code and launch process our top-notch team bestows unique
-            code to launch iOS process for leading outcomes for businesses and
-            brands. Here we believe in harnessing modified technologies and
-            innovative iOS design practices as per the exigencies of the iOS app
+            partners. We strive to be a full-scale{" "}
+            <Link href={"/"} className="text-orange-600">
+              mobile app development company
+            </Link>{" "}
+            across the globe for multiple industries. Also, to bestow unique
+            code and launch process our top-notch team bestows unique code to
+            launch iOS process for leading outcomes for businesses and brands.
+            Here we believe in harnessing modified technologies and innovative
+            iOS design practices as per the exigencies of the iOS app
             development frameworks. Following are the industries we have gained
             pre-eminent recognition.
           </p>

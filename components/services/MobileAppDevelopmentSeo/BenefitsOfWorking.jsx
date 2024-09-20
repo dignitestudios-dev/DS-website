@@ -129,12 +129,17 @@ const BenefitsOfWorking = () => {
             }`}
           >
             Explore a wide range of factors that include creating mobile
-            development effectively and under time constraints with our mobile
-            developers. Therefore, development costs vary from project to
-            project, however clear and precise project estimation can help to
-            build accurate mobile project planning by covering all its
-            variables. We also analyze various complexities of the apps before
-            moving it further.  
+            development effectively and under time constraints with our{" "}
+            <Link
+              href={"/services/hire-mobile-app-developers"}
+              className="text-orange-600"
+            >
+              mobile app developers.
+            </Link>{" "}
+            Therefore, development costs vary from project to project, however
+            clear and precise project estimation can help to build accurate
+            mobile project planning by covering all its variables. We also
+            analyze various complexities of the apps before moving it further.  
           </p>
         </div>
         <div
@@ -287,9 +292,17 @@ const BenefitsOfWorking = () => {
                 : "text-white leading-[19.74px]"
             }`}
           >
-            Our mobile app development services offer full-time app maintenance
-            and support to improve and update software according to your mobile
-            app.
+            Our mobile app development services offer full-time{" "}
+            <Link
+              href={
+                "/services/mobile-application-support-and-maintenance-services"
+              }
+              className="text-orange-600"
+            >
+              {" "}
+              mobile app maintenance and support
+            </Link>{" "}
+            to improve and update software according to your mobile app.
           </p>
         </div>
       </div>

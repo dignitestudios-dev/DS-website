@@ -20,10 +20,16 @@ const WhyDigniteStudios = () => {
           Dignite Studios
         </h2>
         <p className={`text-[13px] md:leading-[17.68px]`}>
-          The top-class mobile app testing services of Dignite Studios
-          streamline highly effective testing methodology to prevent disasters
-          and provide the most reliable solutions to their partners and
-          customers.
+          The top-class{" "}
+          <Link
+            href={"/services/mobile-app-testing-services"}
+            className="text-orange-600"
+          >
+            mobile app testing services
+          </Link>{" "}
+          of Dignite Studios streamline highly effective testing methodology to
+          prevent disasters and provide the most reliable solutions to their
+          partners and customers.
         </p>
         <div className="mt-3">
           {/* <Link

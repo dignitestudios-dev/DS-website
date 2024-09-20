@@ -10,15 +10,15 @@ const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
   return (
     <div className="w-full  flex flex-col pt-2 md:pt-10  gap-4 justify-start items-center">
-      <h1
+      <h2
         className="capitalize text-center text-[16px] 2xl:text-[20px] font-medium "
         style={{
           color: theme == "dark" ? "#B4B4B4" : "#8F8F8F",
         }}
       >
         Build a Thriving Mobile Application Today
-      </h1>
-      <h2
+      </h2>
+      <h1
         style={{
           color: palette?.color,
         }}
@@ -26,7 +26,7 @@ const Hero = () => {
       >
         <span className="text-[#f15c20]">Native</span> App Development <br />{" "}
         Company
-      </h2>
+      </h1>
       <span
         style={{
           color: theme == "dark" ? "#B4B4B4" : "#5c5c5c",

@@ -2,6 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useContext } from "react";
 
 const LeadingSection = () => {
@@ -27,8 +28,15 @@ const LeadingSection = () => {
       >
         The industry-leading Android app development company Dignite Studios
         replenishes viable service apps to expedite businesses with
-        complementary services, app maintenance, and application monitoring in
-        occurrence to secure harmful errors and bugs.
+        complementary services,{" "}
+        <Link
+          href={"/services/mobile-application-support-and-maintenance-services"}
+          className="text-orange-600"
+        >
+          app maintenance
+        </Link>
+        , and application monitoring in occurrence to secure harmful errors and
+        bugs.
       </p>
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 lg:gap-y-16 mt-12">
@@ -92,9 +100,15 @@ const LeadingSection = () => {
               theme === "light" && "text-[#424242]"
             } text-sm leading-[19.74px]`}
           >
-            Whether it's a game, wallet, or business application, our Android
-            developers are fully equipped with all the knowledge, skills, and
-            services required to execute any type of mobile application project.
+            Whether it's a game, wallet, or business application, our{" "}
+            <Link
+              href={"/services/hire-android-app-developers"}
+              className="text-orange-600"
+            >
+              Android app developers
+            </Link>{" "}
+            are fully equipped with all the knowledge, skills, and services
+            required to execute any type of mobile application project.
           </p>
         </div>
         <div className="flex flex-col gap-2">

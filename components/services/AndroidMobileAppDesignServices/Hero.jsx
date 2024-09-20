@@ -20,11 +20,11 @@ const Hero = () => {
     <main className="w-full ">
       <div className="w-full global-padding-horizontal flex flex-col pt-2 md:py-10 relative gap-4 justify-start items-center">
         <div className="mx-auto w-[217px] h-[37px] rounded-full flex items-center justify-center border border-[#4EDA75]">
-          <span className="text-[#4EDA75] text-sm font-medium">
+          <h1 className="text-[#4EDA75] text-sm font-medium">
             Android app design services
-          </span>
+          </h1>
         </div>
-        <h1
+        <h2
           style={{
             color: palette?.color,
           }}
@@ -33,7 +33,7 @@ const Hero = () => {
           <span className="text-[#F15C20]">Transform</span> Your Idea To Feature{" "}
           <br />
           Striking Mobile Design
-        </h1>
+        </h2>
         <h2
           className={`text-base font-normal text-center ${
             theme === "light" ? "text-[#5C5C5C]" : "text-[#8F8F8F]"

@@ -20,12 +20,12 @@ const Hero = () => {
         } hover:bg-gradient-to-r hover:from-[#ffb484] hover:via-[#ff88a4] hover:to-[#759bff] hover:text-white transition-all duration-500 `}
       >
         <FaApple className="w-[22px] h-[24px]" />{" "}
-        <span className="text-sm font-medium">iOS App Design Company</span>
+        <h1 className="text-sm font-medium">iOS App Design Company</h1>
       </div>
-      <h1 className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px] z-10">
+      <h2 className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px] z-10">
         <span className="text-[#F15C20]">Thrive</span> Your Idea With <br />
         Perfection
-      </h1>
+      </h2>
       <p
         className={`text-base font-medium mt-6 z-10 ${
           theme === "light" && "text-[#5c5c5c]"

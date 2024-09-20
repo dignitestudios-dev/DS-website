@@ -48,14 +48,20 @@ const TopRankedCategoriesSection = () => {
         <div
           className={`w-full rounded-[24px] p-6 flex flex-col items-start gap-3 ${
             theme === "light" ? "bg-[#F9F9F9] hover:text-white" : "bg-[#2d2d2d]"
-          } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
+          } hover:bg-[#F15C20] hover:text-white transition-all duration-300 group`}
         >
           <h3 className={` text-xl font-semibold`}>
             Native Mobile App Development
           </h3>
           <p className={``}>
-            We ensure to build highly effective and productive native mobile
-            apps for Android and IOS systems that will be based on your security
+            We ensure to build highly effective and productive{" "}
+            <Link
+              href={"/services/native-mobile-app-development"}
+              className="text-orange-600 group-hover:text-white"
+            >
+              native mobile apps
+            </Link>{" "}
+            for Android and IOS systems that will be based on your security
             requirements. 
           </p>
         </div>
@@ -97,7 +103,13 @@ const TopRankedCategoriesSection = () => {
             Progressive Web App Development
           </h3>
           <p className={``}>
-            You can easily communicate with anyone with our exclusive app
+            You can easily communicate with anyone with our exclusive{" "}
+            <Link
+              href={"/services/pwa-development-services"}
+              className="text-orange-600 group-hover:text-white"
+            >
+              progressive web app
+            </Link>{" "}
             functionality, which is similar to native-like potential and
             competency. 
           </p>

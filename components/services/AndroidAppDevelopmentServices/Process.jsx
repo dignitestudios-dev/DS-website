@@ -22,11 +22,15 @@ const Process = () => {
               theme === "light" && "text-[#2A2A2A]"
             }`}
           >
-            Dignite Studios, a top-notch mobile app development company, crafts
-            compelling custom Android app development services to encumber a
-            vigorous approach in framing practical solutions for custom Android
-            apps. Our specialized team of developers elevates rapid business
-            growth with a high-end Android app development process.
+            Dignite Studios, a top-notch{" "}
+            <Link href={"/"} className="text-orange-600">
+              mobile app development company
+            </Link>
+            , crafts compelling custom Android app development services to
+            encumber a vigorous approach in framing practical solutions for
+            custom Android apps. Our specialized team of developers elevates
+            rapid business growth with a high-end Android app development
+            process.
           </p>
         </div>
         <div className="mb-8 lg:mb-0">
@@ -71,9 +75,14 @@ const Process = () => {
               working on a huge project, you must ensure its dimensions,
               layouts, frameworks, and development process. Our top-notch custom
               Android app development company will make your idea with strong
-              palpability. Where you can spontaneously start your mobile app
-              development process with adequate guidelines and thorough
-              assessment.
+              palpability. Where you can spontaneously start your{" "}
+              <Link
+                href={"/services/mobile-app-development-services"}
+                className="text-orange-600"
+              >
+                mobile app development
+              </Link>{" "}
+              process with adequate guidelines and thorough assessment.
             </p>
           </div>
         </div>
