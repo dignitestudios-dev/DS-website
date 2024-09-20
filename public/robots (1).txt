@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+Disallow: /lp/mobile-app-development
+Disallow: /lp/android-app-development
+Disallow: /lp/ios-app-development
+Disallow: /lp/web-app-development
+Disallow: /thank-you
+Disallow: /gmb/contact-us
+Disallow: /case-studies/mymedicaljournal
+Disallow: /case-studies/nykn
+Disallow: /case-studies/maidsimpl
+Disallow: /case-studies/carter-boating
+Disallow: /blog/is-getting-a-ccna-certification-worth-2023/feed/
+Disallow: /blog/2022/11/19/
+
+Sitemap: https://www.dignitestudios.com/sitemap_index.xml
+Sitemap: https://www.dignitestudios.com/sitemap_image.xml
