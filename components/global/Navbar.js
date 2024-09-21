@@ -157,12 +157,20 @@ const Navbar = ({ setIsOpen }) => {
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
               Hire Mobile App Developers
             </Link>
+
             <Link
               href={"/services/hire-android-app-developers"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
               Hire Android App Developers
+            </Link>
+            <Link
+              href={"/services/hire-ios-app-developers"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              Hire Ios App Developers
             </Link>
           </div>
           <div className="flex flex-col items-start gap-3">

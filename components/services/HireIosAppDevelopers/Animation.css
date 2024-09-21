@@ -1,0 +1,206 @@
+.move {
+  animation: moveCircle 4.5s linear infinite;
+}
+
+@keyframes moveCircle {
+  0% {
+    transform: translate(-30px, 0);
+  }
+  25% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(30px, 0);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-30px, 0);
+  }
+}
+
+.move-y {
+  animation: moveY 4.5s linear infinite;
+}
+
+@keyframes moveY {
+  0% {
+    transform: translate(-15px, -30px);
+  }
+  25% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(10px, 30px);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-15px, -30px);
+  }
+}
+
+.move-xy {
+  animation: moveXY 4.5s linear infinite;
+}
+
+@keyframes moveXY {
+  0% {
+    transform: translate(30px, -30px);
+  }
+
+  50% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(30px, -30px);
+  }
+}
+
+.move-yx {
+  animation: moveYX 4.5s linear infinite;
+}
+
+@keyframes moveYX {
+  0% {
+    transform: translate(30px, 30px);
+  }
+
+  50% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(30px, 30px);
+  }
+}
+
+.move-z {
+  animation: moveZ 4.5s linear infinite;
+}
+
+@keyframes moveZ {
+  0% {
+    transform: translate(-10px, 30px);
+  }
+  25% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(10px, -30px);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-10px, 30px);
+  }
+}
+
+.apple-logo-animation {
+  animation: changeColor 4.5s linear infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    color: #ffb484;
+  }
+  /* 25% {
+    color: red;
+  } */
+  50% {
+    color: #ff88a4;
+  }
+  75% {
+    color: #c47aff;
+  }
+  100% {
+    color: #759bff;
+  }
+}
+
+.shadow-animation {
+  animation: shadowAnimate 6s linear infinite;
+}
+
+@keyframes shadowAnimate {
+  0% {
+    box-shadow: 0 0 160px 5px #c47aff;
+  }
+  35% {
+    box-shadow: 0 0 160px 5px #ffb484;
+  }
+  70% {
+    box-shadow: 0 0 160px 5px #ff88a4;
+  }
+  100% {
+    box-shadow: 0 0 160px 5px #759bff;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.image {
+  opacity: 0;
+}
+
+.image-enter-left {
+  animation: slideInLeft 1.5s forwards;
+}
+
+.image-enter-right {
+  animation: slideInRight 1.5s forwards;
+}
+
+.image-enter-down {
+  animation: slideDown 1.5s forwards;
+}
+
+.image-enter-up {
+  animation: slideUp 1.5s forwards;
+}
