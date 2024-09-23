@@ -83,6 +83,7 @@ const Page = () => {
           name="twitter:image:alt"
           content="Top Mobile App Development Company"
         />
+        <meta name="msvalidate.01" content="94BB860CACBBFCA50505F40D3B4C33CC" />
       </head>
       <GlobalLayout page={<HomePage />} />
 
