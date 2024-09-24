@@ -1,5 +1,6 @@
 import ContactButton from "@/components/global/ContactButton";
 import Link from "next/link";
+import Script from "next/script";
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 
@@ -58,6 +59,24 @@ const DigitalTransformation = () => {
           </div>
         </div>
       </div>
+      <Script
+        type="application/ld+json"
+        id="video-schema-ios"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            name: "ios mobile app call receiving",
+            description: "ios mobile app call receiving transaction video",
+            thumbnailUrl:
+              "https://www.dignitestudios.com/ios-mobile-app-mobile-video-thumbnail.webp",
+            uploadDate: "2024-09-01",
+            duration: "PT0M14S",
+            contentUrl: "https://www.dignitestudios.com/final-web-vid.mp4",
+          }),
+        }}
+      />
     </div>
   );
 };
