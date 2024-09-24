@@ -16,27 +16,27 @@ const page = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
           rel="canonical"
-          href="https://www.dignitestudios.com/services/hire-ios-app-developer"
+          href="https://www.dignitestudios.com/services/hire-ios-app-developers"
         />
         <link
           rel="alternate"
           hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/hire-ios-app-developer"
+          href="https://www.dignitestudios.com/services/hire-ios-app-developers"
         />
         <link
           rel="alternate"
           hreflang="en-us"
-          href="https://www.dignitestudios.com/services/hire-ios-app-developer"
+          href="https://www.dignitestudios.com/services/hire-ios-app-developers"
         />
         <link
           rel="alternate"
           hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/hire-ios-app-developer"
+          href="https://www.dignitestudios.com/services/hire-ios-app-developers"
         />
         <link
           rel="alternate"
           hreflang="x-default"
-          href="https://www.dignitestudios.com/services/hire-ios-app-developer"
+          href="https://www.dignitestudios.com/services/hire-ios-app-developers"
         />
         <meta http-equiv="content-language" content="en-us" />
         <meta http-equiv="content-language" content="en-ca" />
@@ -56,11 +56,11 @@ const page = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dignitestudios.com/services/hire-ios-app-developer"
+          content="https://www.dignitestudios.com/services/hire-ios-app-developers"
         />
         <meta
           property="og:image"
-          content="https://www.dignitestudios.com/banner-cover-image-of-hire-ios-app-developer.webp"
+          content="https://www.dignitestudios.com/banner-cover-image-of-hire-ios-app-developers.webp"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -78,10 +78,11 @@ const page = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.dignitestudios.com/banner-cover-image-of-hire-ios-app-developer.webp"
+          content="https://www.dignitestudios.com/banner-cover-image-of-hire-ios-app-developers.webp"
         />
         <meta name="twitter:image:alt" content="Hire iOS App Developers" />
       </head>
+
       <ServicesLayout page={<HireIosAppDevelopersPage />} />
 
       <Script
@@ -93,11 +94,11 @@ const page = () => {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "Hire iOS App Developers | Dignite Studios",
-            url: "https://www.dignitestudios.com/services/hire-ios-app-developer",
+            url: "https://www.dignitestudios.com/services/hire-ios-app-developers",
             description:
               "iPhone app developers can develop applications in a mere time so hire an iOS app developer to reduce the risk patterns.",
             thumbnailUrl:
-              "https://www.dignitestudios.com/banner-cover-image-of-hire-ios-app-developer.webp",
+              "https://www.dignitestudios.com/banner-cover-image-of-hire-ios-app-developers.webp",
           }),
         }}
       />
@@ -121,19 +122,19 @@ const page = () => {
                 "@type": "ListItem",
                 position: 2,
                 name: "iOS App Development Services",
-                item: "https://www.dignitestudios.com/services/android-app-development-services",
+                item: "https://www.dignitestudios.com/services/ios-app-development-services",
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "iOS App Design Services",
-                item: "https://www.dignitestudios.com/services/android-mobile-app-design-services",
+                item: "https://www.dignitestudios.com/services/ios-app-design-services",
               },
               {
                 "@type": "ListItem",
                 position: 4,
                 name: "Hire iOS App Developers",
-                item: "https://www.dignitestudios.com/services/hire-ios-app-developer",
+                item: "https://www.dignitestudios.com/services/hire-ios-app-developers",
               },
             ],
           }),
