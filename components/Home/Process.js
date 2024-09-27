@@ -40,12 +40,12 @@ const Process = () => {
           className={`w-full px-0 flex flex-col justify-between items-start`}
         >
           <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
-            6 step {currentTab} process
+            6 step {currentTab}
           </p>
           <h2
             className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold`}
           >
-            our process
+            mobile app development <br /> process
           </h2>
         </div>
         <div className="w-full h-auto mt-6 lg:my-6 grid grid-cols-3 grid-rows-1">

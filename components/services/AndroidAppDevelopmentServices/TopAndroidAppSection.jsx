@@ -8,20 +8,24 @@ const TopAndroidAppSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <section
-      className={`w-full global-padding-horizontal flex flex-col items-center text-center py-20 xl:py-32 2xl:py-36`}
+      className={`w-full global-padding-horizontal flex flex-col items-center text-center py-20 xl:py-24 2xl:py-36`}
     >
-      <p className={`text-xl font-bold text-[#F15C20] uppercase `}>
-        top android application
-      </p>
-      <img
-        width={269}
-        height={8}
-        // loader={customLoader}
-        src="/lines-4.webp"
-        alt="leading-lines"
-        className="w-[269px] h-[8]"
-      />
-      <h2 className={`headings-size mt-4`}>
+      <h2 className={`headings-size`}>
+        <div className="flex flex-col items-center gap-1 mb-5">
+          <span
+            className={`text-xl font-bold text-[#F15C20] uppercase tracking-normal`}
+          >
+            top android application
+          </span>
+          <img
+            width={269}
+            height={8}
+            // loader={customLoader}
+            src="/lines-4.webp"
+            alt="leading-lines"
+            className="w-[269px] h-[8]"
+          />
+        </div>
         <span className="">development services for</span> <br /> multiple
         platforms
       </h2>

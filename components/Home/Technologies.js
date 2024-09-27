@@ -71,12 +71,12 @@ const Technologies = () => {
       }}
       className="w-full h-auto mt-5 mb-12 px-2 flex flex-col gap-y-4 gap-3 justify-start items-center"
     >
-      <h3
+      <h2
         className="text-[24px] 2xl:text-[30px] font-bold"
         style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}
       >
         Technologies we’re using
-      </h3>
+      </h2>
       <div className="w-full lg:w-[80%] xl:w-[60%] 2xl:w-[50%] h-auto grid grid-cols-4 md:grid-cols-8 lg:grid-cols-8 justify-center gap-4 items-center ">
         {technologies?.map((technology, key) => {
           return <TechnologyCard technology={technology} key={key} />;

@@ -31,12 +31,7 @@ const ProgressiveWebApp = () => {
             reliable, and engaging development process to meet the needs of the
             users.
           </p>
-          {/* <Link
-            href={"/contact-us"}
-            className="bg-[#F15C20] w-[198px] mt-8 px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
-          >
-            Start Your Project <FiArrowUpRight className="text-lg" />
-          </Link> */}
+
           <div className="mt-8">
             <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
           </div>

@@ -10,7 +10,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const ReownedSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <section className="w-full global-padding-horizontal relative lg:h-screen 2xl:h-[70vh] pt-16 lg:pt-36 2xl:pt-60">
+    <section className="w-full global-padding-horizontal relative lg:h-screen 2xl:h-[70vh] pt-16 2xl:pt-60">
       <div
         className="w-full xl:w-[70%]"
         data-aos="fade-in"
@@ -22,10 +22,14 @@ const ReownedSection = () => {
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       >
-        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
-          Renowned
-        </p>
         <h2 className={`headings-size my-2 2xl:mt-4 2xl:mb-5`}>
+          <div>
+            <span
+              className={`text-xl font-bold text-[#8F8F8F] uppercase tracking-normal`}
+            >
+              Renowned
+            </span>
+          </div>
           <span className="text-[#F15C20]">Android App</span> <br /> Development
           Company
         </h2>
@@ -42,12 +46,6 @@ const ReownedSection = () => {
           service set to achieve industry goals and agitation.
         </p>
         <div className="w-full lg:w-auto lg:block mt-7 2xl:mt-8">
-          {/* <Link
-            href="/contact-us"
-            className="py-5 px-5 text-base lg:py-7 lg:px-10 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
-          >
-            Start Your Project <FiArrowUpRight className="text-xl" />
-          </Link> */}
           <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>

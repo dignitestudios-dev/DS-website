@@ -12,27 +12,18 @@ const OptimizedProcess = () => {
     >
       <div className="w-full flex justify-between items-center">
         <div className="flex flex-col">
-          <p className="uppercase font-bold text-xl text-[#8F8F8F]">
-            we impact highly
-          </p>
           <h2
             className={`${
               theme === "dark" ? "text-white" : "text-black"
-            } text-start headings-size`}
+            } text-start headings-size flex flex-col gap-3`}
           >
+            <span className="uppercase font-bold text-xl text-[#8F8F8F] tracking-normal">
+              we impact highly
+            </span>
             optimized process
           </h2>
         </div>
         <div className="hidden lg:block">
-          {/* <Link
-            // href={"/contact-us"}
-            href={{
-              pathname: "/contact-us",
-            }}
-            className={`px-6 py-5 xl:py-8 xl:px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
-          >
-            Let's Start Your Project
-          </Link> */}
           <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>

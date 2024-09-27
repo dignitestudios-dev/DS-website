@@ -9,16 +9,22 @@ const LeadingSection = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <section className="w-full global-padding-horizontal mt-8 xl:mt-16 lg:py-10 2xl:py-20">
-      <p className={`text-xl font-bold text-[#F15C20] uppercase `}>leading</p>
-      <Image
-        loader={customLoader}
-        width={86}
-        height={8}
-        src="/leading-lines.png"
-        alt="leading-lines"
-        className="w-[86px] h-[8]"
-      />
-      <h2 className={`headings-size mt-3`}>
+      <h2 className={`headings-size`}>
+        <div className="mb-4">
+          <span
+            className={`text-xl font-bold text-[#F15C20] uppercase tracking-normal`}
+          >
+            leading
+          </span>
+          <Image
+            loader={customLoader}
+            width={86}
+            height={8}
+            src="/leading-lines.png"
+            alt="leading-lines"
+            className="w-[86px] h-[8]"
+          />
+        </div>
         <span className="">Android App</span> <br /> Development Services
       </h2>
       <p

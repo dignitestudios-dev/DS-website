@@ -13,9 +13,9 @@ const Process = () => {
     <section className="w-full lg:py-12 global-padding-horizontal lg:mt-0">
       <div className="w-full flex flex-col xl:flex-row items-start justify-between gap-0 md:gap-6">
         <div className="w-full xl:w-[70%]">
-          <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
+          <span className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
             mobile app development
-          </p>
+          </span>
           <h2 className={`headings-size`}>process</h2>
           <p
             className={`text-[15px] my-4 font-normal ${
@@ -34,12 +34,6 @@ const Process = () => {
           </p>
         </div>
         <div className="mb-8 lg:mb-0">
-          {/* <Link
-            href="/contact-us"
-            className="py-5 px-6 text-base xl:py-7 xl:px-14 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
-          >
-            Schedule a call <FiArrowUpRight className="text-xl" />
-          </Link> */}
           <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
         </div>
       </div>

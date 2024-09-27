@@ -20,13 +20,12 @@ const InnovativeMobileAppSection = () => {
         } rounded-[28px] flex flex-col md:flex-row items-start md::items-center justify-between h-auto md:h-[220px] lg:h-auto xl:h-[443px] relative`}
       >
         <div className="py-7 px-6 xl:px-16 flex flex-col items-start gap-4 lg:gap-6">
-          <div className="flex flex-col items-center">
-            <h3 className="text-xl font-bold text-[#8F8F8F] uppercase">
-              Empower Your Vision
-            </h3>
-          </div>
-
           <h2 className="font-extrabold text-3xl lg:text-4xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[47px] xl:leading-[77.45px] 2xl:leading-[87.45px]">
+            <div className="flex flex-col items-start mb-4">
+              <h3 className="text-xl font-bold text-[#8F8F8F] uppercase tracking-normal">
+                Empower Your Vision
+              </h3>
+            </div>
             into an Innovative <br /> Mobile App. 
           </h2>
 

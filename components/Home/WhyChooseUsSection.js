@@ -12,18 +12,18 @@ const WhyChooseUsSection = () => {
     <div
       className={`my-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  text-center`}
     >
-      <div className="w-full flex flex-col items-center mb-6">
-        <p className="text-[#F15C20] text-[20px] uppercase font-bold">
-          value proposition of
-        </p>
-        <img src="/lines2.png" alt="lines2" />
-      </div>
       <h2
         style={{
           color: theme == "dark" ? "#fff" : "#0c0c0c",
         }}
-        className={`uppercase font-extrabold   text-4xl lg:text-5xl xl:text-[58px] 2xl:text-[74px] tracking-tighter lg:font-bold mb-2 lg:mb-8`}
+        className={`uppercase font-extrabold text-4xl lg:text-5xl xl:text-[58px] 2xl:text-[74px] tracking-tighter lg:font-bold mb-2 lg:mb-8`}
       >
+        <div className="w-full flex flex-col items-center mb-6">
+          <p className="text-[#F15C20] text-[20px] uppercase font-bold tracking-normal mb-1">
+            value proposition of
+          </p>
+          <img src="/lines2.png" alt="lines2" />
+        </div>
         Dignite Studios
       </h2>
 
