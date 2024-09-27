@@ -5,10 +5,12 @@ const HireADedicatedDevelopers = () => {
   return (
     <section className="w-full py-12 lg:py-20 flex flex-col lg:flex-row items-start justify-between global-padding-horizontal">
       <div className="w-full lg:w-[65%] ">
-        <span className="text-[#8F8F8F] text-[20px] font-bold uppercase">
-          Hire A Dedicated
-        </span>
-        <h2 className="headings-size my-4">mobile app developer</h2>
+        <h2 className="headings-size mb-4 flex flex-col items-start">
+          <span className="text-[#8F8F8F] text-[20px] font-bold uppercase tracking-normal">
+            Hire A Dedicated
+          </span>
+          <span>mobile app developer</span>
+        </h2>
         <p className="text-sm md:text-[18px] font-normal leading-[26.46px] lg:w-4/5">
           Make your Android app with strikingly enticing modern features and
           design elements. Our team of skilled developers thrive to produce

@@ -43,12 +43,14 @@ export default function AndroidAppDevServices() {
       <div className="w-full relative overflow-hidden">
         <div className="w-full flex">
           <div className="flex flex-col gap-2 mb-12">
-            <div className="flex flex-col items-start">
-              <p className="text-[#8F8F8F] text-xl font-bold uppercase">
-                Premium Android App
-              </p>
-            </div>
-            <h2 className="headings-size">development services</h2>
+            <h2 className="headings-size">
+              <div className="flex flex-col items-start">
+                <span className="text-[#8F8F8F] text-xl font-bold uppercase tracking-normal mb-3">
+                  Premium Android App
+                </span>
+              </div>
+              development services
+            </h2>
             <p
               className={`text-[15px] md:text-[18px] font-normal ${
                 theme === "light" && "text-[#2A2A2A]"
@@ -83,13 +85,13 @@ export default function AndroidAppDevServices() {
                     alt={card.icon_alt}
                     className="w-[40px] h-[40px]"
                   />
-                  <h2
+                  <h3
                     className={`font-bold text-xl ${
                       theme === "light" ? "text-[#424242]" : ""
                     }`}
                   >
                     {card?.title}
-                  </h2>
+                  </h3>
                   <p
                     className={`${
                       theme === "dark" ? "text-gray-300 " : "text-[#424242]"

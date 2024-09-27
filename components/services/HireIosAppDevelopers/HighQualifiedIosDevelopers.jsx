@@ -55,47 +55,47 @@ const HighQualifiedIosDevelopers = () => {
           ref={ref}
         >
           <img
-            src="/hire-ios-developer-mockup-1.png"
+            src="/hire-ios-developer-mockup-1.webp"
             alt="the image shows multiple screens to hire iOS developers"
             className="w-[340px] md:w-[396px] h-[428.77px] md:h-[528.77px] relative -left-4 top-5"
           />
           <img
-            src="/hire-ios-developer-mockup-2.png"
+            src="/hire-ios-developer-mockup-2.webp"
             alt="the image shows multiple screens to hire iOS developers"
             className={`w-[200px] md:w-[246px] h-[308px] md:h-[358.77px] absolute -right-4 top-0 object-contain ${
               isInView && "image-enter-right"
             }`}
           />
           <img
-            src="/hire-ios-developer-mockup-3.png"
+            src="/hire-ios-developer-mockup-3.webp"
             alt="the image shows multiple screens to hire iOS developers"
             className={`w-[] md:w-[136px] h-[308px] md:h-[308.77px] absolute -right-4 bottom-0 object-contain ${
               isInView && "image-enter-right"
             }`}
           />
           <img
-            src="/hire-ios-developer-mockup-4.png"
+            src="/hire-ios-developer-mockup-4.webp"
             alt="the image shows multiple screens to hire iOS developers"
             className={`w-[180px] md:w-[250.58px] h-[378.18px] object-contain absolute -top-32 -left-1 ${
               isInView && "image-enter-down"
             }`}
           />
           <img
-            src="/hire-ios-developer-mockup-5.png"
+            src="/hire-ios-developer-mockup-5.webp"
             alt="the image shows multiple screens to hire iOS developers"
             className={`absolute -bottom-28 md:-bottom-24 -right-4 md:-right-2 w-[230px] md:w-[280.58px] h-[325.18px] object-contain ${
               isInView && "image-enter-up"
             }`}
           />
           <img
-            src="/hire-ios-developer-mockup-6.png"
+            src="/hire-ios-developer-mockup-6.webp"
             alt="the image shows multiple screens to hire iOS developers"
             className={`absolute -left-4 -bottom-20 md:-bottom-12 w-[226px] md:w-[286px] h-[448.77px] object-contain ${
               isInView && "image-enter-left"
             }`}
           />
           <img
-            src="/hire-ios-developer-mockup-7.png"
+            src="/hire-ios-developer-mockup-7.webp"
             alt="the image shows multiple screens to hire iOS developers"
             className={`absolute -left-14 -top-10 w-[130px] md:w-[200.58px] h-[378.18px] object-contain ${
               isInView && "image-enter-left"

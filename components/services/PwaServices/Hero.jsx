@@ -34,12 +34,6 @@ const Hero = () => {
       </p>
 
       <div className="mt-10">
-        {/* <Link
-          href={"/contact-us"}
-          className="bg-[#F15C20] px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
-        >
-          Get A Quote <FiArrowUpRight className="text-lg" />
-        </Link> */}
         <ContactButton text1={"Get A Quote"} text2={"Let's talk"} />
       </div>
 

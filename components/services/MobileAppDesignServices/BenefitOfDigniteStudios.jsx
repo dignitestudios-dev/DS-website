@@ -39,10 +39,10 @@ export default function BenefitOfDigniteStudios() {
     <section className="w-full relative overflow-hidden px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 py-10">
       <div className="w-full relative overflow-hidden">
         <div className="flex flex-col gap-2 mb-12">
-          <span className="text-[#F15C20] text-2xl font-bold uppercase">
-            top-tier
-          </span>
           <h2 className="text-3xl md:text-4xl lg:text-[58px] xl:text-[68px] 2xl:text-[80px] lg:leading-[57px] font-bold uppercase tracking-tighter">
+            <span className="text-[#F15C20] text-2xl font-bold uppercase tracking-normal block mb-3">
+              top-tier
+            </span>
             benefits of dignite studios
           </h2>
         </div>

@@ -39,12 +39,10 @@ export default function WorkingWithDignite() {
     <section className="w-full relative overflow-hidden global-padding-horizontal py-10">
       <div className="w-full relative overflow-hidden">
         <div className="flex flex-col gap-2 mb-12">
-          <div className="flex flex-col items-start">
-            <p className="text-[#8F8F8F] text-xl font-bold uppercase">
-              Benefits of
-            </p>
-          </div>
           <h2 className="headings-size">
+            <span className="text-[#8F8F8F] text-xl font-bold uppercase block tracking-normal mb-3">
+              Benefits of
+            </span>
             working with <br />{" "}
             <span className="text-[#F15C20]">dignite studios</span>
           </h2>
@@ -70,7 +68,7 @@ export default function WorkingWithDignite() {
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h2
+                  <h3
                     className={`font-bold text-xl md:mb-2 ${
                       theme === "light"
                         ? "text-[#424242] group-hover:text-white"
@@ -78,7 +76,7 @@ export default function WorkingWithDignite() {
                     }`}
                   >
                     {card?.title}
-                  </h2>
+                  </h3>
                   <p
                     className={`${
                       theme === "dark"

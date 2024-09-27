@@ -63,12 +63,6 @@ const TestingServices = () => {
             mobile testing.
           </p>
           <div>
-            {/* <Link
-              href={"/contact-us"}
-              className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
-            >
-              Get in touch
-            </Link> */}
             <ContactButton text1={"Get in touch"} text2={"Let's talk"} />
           </div>
         </div>
@@ -78,12 +72,12 @@ const TestingServices = () => {
         <div
           className="flex flex-col items-start justify-center gap-5 text-start"
           data-aos="slide-right"
-          data-aos-offset="100" // Adjusted offset to trigger animation earlier
-          data-aos-delay="0" // No delay for immediate animation start
+          data-aos-offset="100"
+          data-aos-delay="0"
           data-aos-duration="400"
           data-aos-easing="ease-in"
           data-aos-mirror="false"
-          data-aos-once="false" // Set to false to repeat animation on scroll up
+          data-aos-once="false"
           data-aos-anchor-placement="center-bottom"
         >
           <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
@@ -102,12 +96,6 @@ const TestingServices = () => {
             testing.
           </p>
           <div>
-            {/* <Link
-              href={"/contact-us"}
-              className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
-            >
-              Get in touch
-            </Link> */}
             <ContactButton text1={"Get in touch"} text2={"Let's talk"} />
           </div>
         </div>
@@ -120,12 +108,12 @@ const TestingServices = () => {
             alt=" two mobile mock screens shows the testing of application layout"
             className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-left"
-            data-aos-offset="100" // Adjusted offset to trigger animation earlier
-            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-offset="100"
+            data-aos-delay="0"
             data-aos-duration="400"
             data-aos-easing="ease-in"
             data-aos-mirror="false"
-            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-once="false"
             data-aos-anchor-placement="center-bottom"
           />
         </div>
@@ -141,12 +129,12 @@ const TestingServices = () => {
             alt="two mock screens shows the testing of application structure"
             className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-right"
-            data-aos-offset="100" // Adjusted offset to trigger animation earlier
-            data-aos-delay="0" // No delay for immediate animation start
+            data-aos-offset="100"
+            data-aos-delay="0"
             data-aos-duration="400"
             data-aos-easing="ease-in"
             data-aos-mirror="false"
-            data-aos-once="false" // Set to false to repeat animation on scroll up
+            data-aos-once="false"
             data-aos-anchor-placement="center-bottom"
           />
         </div>
@@ -176,12 +164,6 @@ const TestingServices = () => {
             satisfy clients by all means.
           </p>
           <div>
-            {/* <Link
-              href={"/contact-us"}
-              className="py-4 px-[18px] bg-[#F15C20] text-white text-base font-semibold rounded-full"
-            >
-              Get in touch
-            </Link> */}
             <ContactButton text1={"Get in touch"} text2={"Let's talk"} />
           </div>
         </div>

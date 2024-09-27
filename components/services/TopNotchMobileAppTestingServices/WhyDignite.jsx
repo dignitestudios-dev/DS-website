@@ -29,12 +29,6 @@ const WhyDignite = () => {
               partners and customers.
             </p>
             <div className="mt-4">
-              {/* <Link
-                href={"/contact-us"}
-                className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
-              >
-                Start your project
-              </Link> */}
               <ContactButton text1={"Start you project"} text2={"Let's talk"} />
             </div>
           </div>

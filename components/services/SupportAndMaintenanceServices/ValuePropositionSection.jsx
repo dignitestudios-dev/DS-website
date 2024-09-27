@@ -38,17 +38,17 @@ export default function ValuePropositionSection() {
     <section className="w-full relative overflow-hidden global-padding-horizontal py-10">
       <div className="w-full relative overflow-hidden">
         <div className="flex flex-col gap-2 mb-12">
-          <div className="flex flex-col items-start">
-            <p className="text-[#F15C20] text-xl font-bold uppercase">
-              Value Proposition of
-            </p>
-            <img
-              src="/value-proposition-lines.png"
-              alt="lines"
-              className="w-[227px] h-[8px]"
-            />
-          </div>
           <h2 className="text-3xl mt-3 md:text-4xl lg:text-[58px] xl:text-[68px] 2xl:text-[80px] lg:leading-[57px] font-bold uppercase tracking-tighter">
+            <div className="flex flex-col items-start mb-5">
+              <span className="text-[#F15C20] text-xl font-bold uppercase tracking-normal">
+                Value Proposition of
+              </span>
+              <img
+                src="/value-proposition-lines.png"
+                alt="lines"
+                className="w-[227px] h-[8px]"
+              />
+            </div>
             dignite studios
           </h2>
           <p className="text-[15px] font-normal text-[#2A2A2A] lg:w-[44%] mt-3 leading-[20.4px]">
@@ -71,10 +71,10 @@ export default function ValuePropositionSection() {
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h3 className="text-[#B8B8B8] text-[20px] md:text-[40px] font-bold">
+                  <span className="text-[#B8B8B8] text-[20px] md:text-[40px] font-bold">
                     {card?.count}
-                  </h3>
-                  <h2
+                  </span>
+                  <h3
                     className={`font-semibold text-xl md:mb-2 ${
                       theme === "light"
                         ? "text-[#424242] group-hover:text-white"
@@ -82,7 +82,7 @@ export default function ValuePropositionSection() {
                     }`}
                   >
                     {card?.title}
-                  </h2>
+                  </h3>
                   <p
                     className={`${
                       theme === "dark"

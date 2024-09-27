@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/hire-ios-developer-expertise-and-experience-icon.png"}
+            src={"/hire-ios-developer-expertise-and-experience-icon.webp"}
             alt={"Hire iOS developer expertise and experience icon"}
             title={"Hire iOS developer expertise and experience"}
             className=""
@@ -74,7 +74,7 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/hire-ios-developer-customization-and-quality-icon.png"}
+            src={"/hire-ios-developer-customization-and-quality-icon.webp"}
             alt={"hire iOS developer Customization and Quality"}
             title={"Hire iOS developer Customization and Quality icon"}
             className=""
@@ -109,7 +109,7 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/hire-ios-developer-efficiency-and-time-saving-icon.png"}
+            src={"/hire-ios-developer-efficiency-and-time-saving-icon.webp"}
             alt={"Hire iOS developer Efficiency and time-saving icon"}
             title={"hire iOS developer Efficiency and time-saving"}
             className=""
@@ -142,7 +142,7 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/hire-ios-developer-focus-on-core-competencies-icon.png"}
+            src={"/hire-ios-developer-focus-on-core-competencies-icon.webp"}
             alt={"Hire iOS developer Focus on core competencies icon"}
             title={"hire iOS developer Focus on core competencies"}
             className=""
@@ -179,7 +179,7 @@ const WhyChooseUs = () => {
         >
           <img
             src={
-              "/hire-ios-developer-advanced-features-and-integrations-icon.png"
+              "/hire-ios-developer-advanced-features-and-integrations-icon.webp"
             }
             alt={"Hire iOS developer Advanced features and integrations icon"}
             title={"Hire iOS developer Advanced features and integrations"}

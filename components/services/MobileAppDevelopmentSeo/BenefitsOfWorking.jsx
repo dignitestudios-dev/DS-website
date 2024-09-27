@@ -23,16 +23,6 @@ const BenefitsOfWorking = () => {
           benefits of working with <br /> dignite studios
         </h2>
         <div className="hidden xl:block">
-          {/* <Link
-            href={{
-              pathname: "/contact-us",
-            }}
-            className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
-              theme === "light" ? "bg-[#F9F9F9]" : "bg-[#222222]"
-            } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
-          >
-            Let's Start Your Project
-          </Link> */}
           <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>
@@ -251,7 +241,7 @@ const BenefitsOfWorking = () => {
               // loading="lazy"
               width={24}
               height={24}
-              src="/orange-mobile-app-development-service-post-launch-icon.webp"
+              src="/orange-mobile-app-development-service-post-launch-icon-1.webp"
               alt="Mobile App Development Service Post-launch Icon"
             />
           </div>

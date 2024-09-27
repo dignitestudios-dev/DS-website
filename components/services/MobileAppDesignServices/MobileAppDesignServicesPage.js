@@ -2,7 +2,6 @@
 import React, { useContext } from "react";
 import Hero from "./Hero";
 import Navbar from "@/components/global/Navbar";
-// import MobileAppDevCaseStudies from "../MobileAppDevelopment/MobileAppDevCaseStudies";
 import MobileAppDesignCaseStudies from "./MobileAppDesignCaseStudies";
 import MobileAppDesignWhyChooseUs from "./MobileAppDesignWhyChooseUs";
 import TopNotchTeam from "./TopNotchTeam";
@@ -12,7 +11,6 @@ import FAQS from "./FAQS";
 import BenefitOfDigniteStudios from "./BenefitOfDigniteStudios";
 import PlanOfActionSection from "./PlanOfActionSection";
 import { GlobalContext } from "@/context/GlobalContext";
-import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 import NewContactForm from "@/components/global/NewContactForm";
 
 const MobileAppDesignServicesPage = () => {

@@ -21,42 +21,72 @@ const DevelopersHiringProcess = () => {
 
       <div className="w-full mt-8">
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-5">
-          <div>
+          <div className="relative">
             <img
-              src="/developers-hiring-process-img-1.png"
-              alt=""
-              className="h-[300px] w-full object-cover rounded-[18px]"
+              src="/pen-down-your-projects-requirements-for-android-app-developer-image.jfif"
+              alt="Pen down your projects requirements for android app developer image"
+              className="h-[300px] w-full object-cover rounded-[18px] brightness-90"
             />
+            <div className="absolute inset-0 w-full h-full z-10 flex flex-col justify-end p-6 text-white">
+              <span className="text-[18px] font-medium my-3 block">/01</span>
+              <h3 className="text-xl md:text-[28px] font-bold">
+                Pen down your projects <br /> requirements
+              </h3>
+            </div>
           </div>
-          <div>
+          <div className="relative">
             <img
-              src="/developers-hiring-process-img-2.png"
-              alt=""
-              className="h-[300px] w-full object-cover rounded-[18px]"
+              src="/identify-skillful-android-app-developer-image.jfif"
+              alt="Identify Skillful Android App Developer image"
+              className="h-[300px] w-full object-cover rounded-[18px] brightness-90"
             />
+            <div className="absolute inset-0 w-full h-full z-10 flex flex-col justify-end p-6 text-white">
+              <span className="text-[18px] font-medium my-3 block">/02</span>
+              <h3 className="text-xl md:text-[28px] font-bold">
+                Identify Skillful Android <br /> App Developer
+              </h3>
+            </div>
           </div>
         </div>
         <div className="w-full grid grid-cols-1 lg:grid-cols-3 mt-5 gap-5">
-          <div>
+          <div className="relative">
             <img
-              src="/developers-hiring-process-img-3.png"
-              alt=""
-              className="h-[300px] w-full object-cover rounded-[18px]"
+              src="/conduct-interviews-of-android-app-developer-image.jfif"
+              alt="Conduct Interviews of Android App Developer image"
+              className="h-[300px] w-full object-cover rounded-[18px] brightness-90"
             />
+            <div className="absolute inset-0 w-full h-full z-10 flex flex-col justify-end p-6 text-white">
+              <span className="text-[18px] font-medium my-3 block">/03</span>
+              <h3 className="text-xl md:text-[28px] font-bold">
+                Conduct interviews
+              </h3>
+            </div>
           </div>
-          <div>
+          <div className="relative">
             <img
-              src="/developers-hiring-process-img-4.png"
-              alt=""
-              className="h-[300px] w-full object-cover rounded-[18px]"
+              src="/start-a-free-trial-of-android-app-image.jfif"
+              alt="Start a Free Trial of Android App image"
+              className="h-[300px] w-full object-cover rounded-[18px] brightness-90"
             />
+            <div className="absolute inset-0 w-full h-full z-10 flex flex-col justify-end p-6 text-white">
+              <span className="text-[18px] font-medium my-3 block">/04</span>
+              <h3 className="text-xl md:text-[28px] font-bold">
+                Start A Free Trial
+              </h3>
+            </div>
           </div>
-          <div>
+          <div className="relative">
             <img
-              src="/developers-hiring-process-img-5.png"
-              alt=""
-              className="h-[300px] w-full object-cover rounded-[18px]"
+              src="/hire-android-application-developer-image.jfif"
+              alt="Hire Android Application Developer image"
+              className="h-[300px] w-full object-cover rounded-[18px] brightness-90"
             />
+            <div className="absolute inset-0 w-full h-full z-10 flex flex-col justify-end p-6 text-white">
+              <span className="text-[18px] font-medium my-3 block">/05</span>
+              <h3 className="text-xl md:text-[28px] font-bold">
+                Hire Android <br /> Application Developer
+              </h3>
+            </div>
           </div>
         </div>
       </div>

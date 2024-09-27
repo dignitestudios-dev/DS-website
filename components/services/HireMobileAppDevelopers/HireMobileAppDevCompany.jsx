@@ -49,12 +49,12 @@ const HireMobileAppDevCompany = () => {
       >
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6">
           <div>
-            <div className="flex flex-col">
+            <h2 className="flex flex-col">
               <span className="text-[#8F8F8F] text-[20px] font-bold uppercase">
                 hire mobile app
               </span>
-            </div>
-            <h2 className="headings-size mt-4">development company</h2>
+              <span className="headings-size mt-4">development company</span>
+            </h2>
           </div>
           <div className="">
             <p className="text-sm md:text-[18px] font-normal leading-[26.46px]">
@@ -65,12 +65,7 @@ const HireMobileAppDevCompany = () => {
               app development company Dignite Studios to secure and maintain
               your app with top-notch solutions.
             </p>
-            {/* <Link
-              href={"/contact-us"}
-              className="bg-[#F15C20] w-[198px] mt-8 px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
-            >
-              Start Your Project <FiArrowUpRight className="text-lg" />
-            </Link> */}
+
             <div className="mt-5">
               <ContactButton
                 text1={"Start Your Project"}

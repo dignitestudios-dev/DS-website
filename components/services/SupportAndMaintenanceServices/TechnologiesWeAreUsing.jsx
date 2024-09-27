@@ -8,11 +8,13 @@ const TechnologiesWeAreUsing = () => {
   const logos2Classes = theme === "light" ? "logos2" : "logos2Dark";
   return (
     <section className="w-full global-padding-horizontal py-12">
-      <div className="w-full flex flex-col items-center justify-center">
-        <p className="text-[#F15C20] text-xl font-bold uppercase">exlcusive</p>
-        <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
-      </div>
-      <h2 className="headings-size text-center my-4">
+      <h2 className="headings-size text-center mb-4">
+        <div className="w-full flex flex-col items-center justify-center mb-3">
+          <span className="text-[#F15C20] text-xl font-bold uppercase tracking-normal">
+            exlcusive
+          </span>
+          <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
+        </div>
         Testing Tools and <br /> Technologies
       </h2>
       <p className={`txt-[15px] font-normal text-center lg:w-[50%] mx-auto`}>

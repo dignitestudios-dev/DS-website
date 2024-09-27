@@ -1,17 +1,14 @@
 import ContactButton from "@/components/global/ContactButton";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-import { FiArrowUpRight } from "react-icons/fi";
 
 const TopOfTheLine = () => {
   return (
     <section className="w-full py-16 lg:pb-20 lg:pt-40 grid lg:grid-cols-3 gap-x-6 gap-y-10 global-padding-horizontal">
       <div className="col-span-3 xl:col-span-2 flex flex-col items-start gap-2">
-        <span className="text-[#8F8F8F] text-[20px] font-bold uppercase">
-          top-of-the-line
-        </span>
         <h2 className="headings-size">
+          <span className="text-[#8F8F8F] text-[20px] font-bold uppercase block tracking-normal">
+            top-of-the-line
+          </span>
           <span className="text-[#F15C20]">Android</span> Mobile App Design
           Company
         </h2>
@@ -22,12 +19,6 @@ const TopOfTheLine = () => {
           identity.
         </p>
         <div className="relative z-20 mt-3">
-          {/* <Link
-            href={"/contact-us"}
-            className="bg-[#F15C20] z-20 relative text-white w-[218px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
-          >
-            Start Your Project <FiArrowUpRight className="text-2xl" />
-          </Link> */}
           <ContactButton text1={"Start your project"} text2={"Let's talk"} />
         </div>
       </div>

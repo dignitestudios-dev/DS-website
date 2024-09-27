@@ -1,38 +1,33 @@
 import ContactButton from "@/components/global/ContactButton";
-import Link from "next/link";
 import Script from "next/script";
 import React from "react";
-import { FiArrowUpRight } from "react-icons/fi";
 
 const DigitalTransformation = () => {
   return (
     <div className="w-full global-padding-horizontal py-10 lg:py-20">
       <div className="w-full flex flex-wrap gap-y-10">
         <div className="w-full lg:w-[60%]">
-          <div className="flex flex-col">
-            <span className="text-[#F15C20] text-[20px] font-bold uppercase">
-              digital
-            </span>
-            <img
-              src="/digital-lines.webp"
-              alt="lines"
-              width={"81px"}
-              height={"auto"}
-            />
-          </div>
-          <h2 className="headings-size my-4">Transformation Agency</h2>
+          <h2 className="headings-size my-4">
+            <div className="flex flex-col leading-none mb-5">
+              <span className="text-[#F15C20] text-[20px] mb-1 tracking-normal font-bold uppercase">
+                digital
+              </span>
+              <img
+                src="/digital-lines.webp"
+                alt="lines"
+                width={"81px"}
+                height={"auto"}
+              />
+            </div>
+            Transformation Agency
+          </h2>
           <p className="text-sm md:text-[18px] font-normal leading-[26.46px]">
             With years of experience, our top-notch iOS app design services
             establish a well-organized platform for your app idea. We value
             credibility, believability, and innovation in your application for
             prevailing modernized tools and technologies.
           </p>
-          {/* <Link
-            href={"/contact-us"}
-            className="bg-[#F15C20] w-[198px] mt-8 px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
-          >
-            Start Your Project <FiArrowUpRight className="text-lg" />
-          </Link> */}
+
           <div className="mt-5">
             <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
           </div>

@@ -8,10 +8,13 @@ const TestingTools = () => {
   const logos2Classes = theme === "light" ? "logos2" : "logos2Dark";
   return (
     <div className="w-full py-10 lg:py-20 global-padding-horizontal flex flex-col items-center text-center">
-      <p className="text-xl font-bold text-[#F15C20] uppercase">exlcusive</p>
-      <img src="/lines.png" alt="lines" />
-
       <h2 className="headings-size uppercase my-6">
+        <div className="w-full flex flex-col items-center mb-5">
+          <p className="text-xl font-bold text-[#F15C20] uppercase tracking-normal">
+            exlcusive
+          </p>
+          <img src="/lines.png" alt="lines" />
+        </div>
         Testing Tools and <br /> Technologies
       </h2>
       <p className="lg:w-[666px] text-center text-[15px] leading-[20.4px]">

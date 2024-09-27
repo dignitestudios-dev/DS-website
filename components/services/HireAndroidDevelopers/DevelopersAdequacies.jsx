@@ -8,17 +8,19 @@ const DevelopersAdequacies = () => {
   return (
     <section className="w-full py-12 lg:py-20 global-padding-horizontal">
       <div className="flex flex-col items-center text-center gap-5 mb-12">
-        <div className="flex flex-col items-center">
-          <p className="text-[#F15C20] text-xl font-bold uppercase">
-            Dignite’s Android App
-          </p>
-          <img
-            src="/hire-android-developers-lines.png"
-            alt=""
-            className="w-[96px] h-[8px]"
-          />
-        </div>
-        <h2 className="headings-size">Developers Adequacies</h2>
+        <h2 className="headings-size">
+          <div className="flex flex-col items-center mb-4">
+            <p className="text-[#F15C20] text-xl font-bold uppercase tracking-normal">
+              Dignite’s Android App
+            </p>
+            <img
+              src="/hire-android-developers-lines.png"
+              alt=""
+              className="w-[96px] h-[8px]"
+            />
+          </div>
+          <span> Developers Adequacies</span>
+        </h2>
         <p
           className={`text-[15px] md:text-[15px] font-normal ${
             theme === "light" && "text-[#2A2A2A]"
@@ -41,7 +43,11 @@ const DevelopersAdequacies = () => {
               }`}
             >
               <div className="w-[50px] h-[50px] rounded-[12px] bg-[#F15C2014] flex items-center justify-center">
-                <img src={card.icon_src} alt="" className="w-[28px] h-[28px]" />
+                <img
+                  src={card.icon_src}
+                  alt={card.alt_tag}
+                  className="w-[28px] h-[28px]"
+                />
               </div>
               <h3 className="text-[18px] font-semibold">{card.title}</h3>
               <p className="text-xs text-[#8F8F8F] leading-[16.14px] font-[400]">

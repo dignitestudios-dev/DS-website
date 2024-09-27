@@ -39,9 +39,9 @@ const DevelopmentConsultingStrategies = () => {
               className=""
             />
           </div>
-          <p className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
+          <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
             Mobile App Design
-          </p>
+          </h3>
           <p
             className={`text-base 2xl:text-lg font-normal leading-[20.81px] ${
               theme === "light" && "#5C5C5C"
@@ -72,9 +72,9 @@ const DevelopmentConsultingStrategies = () => {
               className=""
             />
           </div>
-          <p className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
+          <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
             Mobile App Modernization 
-          </p>
+          </h3>
           <p
             className={`text-base 2xl:text-lg font-normal leading-[20.81px] ${
               theme === "light" && "#5C5C5C"
@@ -101,9 +101,9 @@ const DevelopmentConsultingStrategies = () => {
             className=""
           />
         </div>
-        <p className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
+        <h3 className="text-[24px] 2xl:text-[28px] font-semibold my-3 tracking-tight">
           Mobile App Optimization and Audit
-        </p>
+        </h3>
         <p
           className={`text-base 2xl:text-lg font-normal leading-[20.81px] ${
             theme === "light" && "#5C5C5C"

@@ -1,11 +1,8 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-// import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
-import Link from "next/link";
 import React, { useContext } from "react";
-import { FiArrowUpRight } from "react-icons/fi";
 
 const customLoader = ({ src, width, quality }) => {
   return `${src}?w=${width}&q=${quality || 75}&blur=10`;
@@ -16,22 +13,22 @@ const SpecialistPlatform = () => {
   return (
     <section
       id="SpecialistPlatform"
-      className="w-full py-10 px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 flex flex-col items-center text-center gap-6"
+      className="w-full py-10 lg:py-20 px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 flex flex-col items-center text-center gap-6"
       style={{ background: palette?.background }}
     >
-      <div className="w-full flex flex-col items-center justify-start">
-        <p className="uppercase text-xl font-bold text-[#F15C20]">
-          hire on demand
-        </p>
-        <Image
-          loader={customLoader}
-          width={141}
-          height={8}
-          src="/hire-on-demand.png"
-          alt="hire-on-demand"
-        />
-      </div>
       <h2 className="font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold uppercase lg:leading-[77.45px]">
+        <div className="w-full flex flex-col items-center justify-start mb-5">
+          <span className="uppercase text-xl font-bold text-[#F15C20] tracking-normal">
+            hire on demand
+          </span>
+          <Image
+            loader={customLoader}
+            width={141}
+            height={8}
+            src="/hire-on-demand.png"
+            alt="hire-on-demand"
+          />
+        </div>
         Specialists for Platforms
       </h2>
       <p className="text-[15px] leading-[20.4px] lg:w-[705px]">
@@ -47,9 +44,9 @@ const SpecialistPlatform = () => {
             theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
           } h-[517px] rounded-3xl px-6 pt-8 overflow-hidden group relative text-center flex flex-col items-center justify-start`}
         >
-          <p className="text-2xl font-bold">
+          <h3 className="text-2xl font-bold">
             <span className="text-[#F15C20]">Native</span> Mobile App Design
-          </p>
+          </h3>
           <p className="text-xs font-normal mt-4">
             Native apps are designed for specific mobile operating systems which
             cannot be used on any other platform. Like iOS and Android apps, the
@@ -72,10 +69,10 @@ const SpecialistPlatform = () => {
             theme === "dark" ? "bg-[#1c1c1c]" : "bg-[#FAFAFA]"
           } h-[517px] rounded-3xl px-6 pt-8 overflow-hidden group relative text-center flex flex-col items-center justify-start`}
         >
-          <p className="text-2xl font-bold">
+          <h3 className="text-2xl font-bold">
             <span className="text-[#F15C20]">Cross-Platform</span> Mobile App
             Design
-          </p>
+          </h3>
           <p className="text-xs font-normal mt-4">
             Cross-platform apps are originated to function on multiple platforms
             like iOS or Android operating systems, they conduct a single code
@@ -93,14 +90,6 @@ const SpecialistPlatform = () => {
       </div>
 
       <div className="w-full flex justify-center mt-6">
-        {/* <Link
-          href="/contact-us"
-          id="mobile-app-design-services/top-notch-team"
-          className="py-3 px-5 lg:py-6 lg:px-7 text-base xl:py-7 xl:px-14 float-start top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
-          style={{ background: "#F15C20" }}
-        >
-          Get in Touch <FiArrowUpRight className="text-xl" />
-        </Link> */}
         <ContactButton text1={"Get in Touch"} text2={"Let's talk"} />
       </div>
     </section>
@@ -108,4 +97,3 @@ const SpecialistPlatform = () => {
 };
 
 export default SpecialistPlatform;
-// bg-[#1c1c1c]

@@ -11,11 +11,11 @@ const TestingProcess = () => {
   return (
     <div className="py-10 global-padding-horizontal">
       <div className={`w-full`}>
-        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
-          exclusive design services by
-        </p>
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
+            <p className={`text-xl font-bold text-[#8F8F8F] uppercase mb-4`}>
+              exclusive design services by
+            </p>
             <h2 className={`headings-size group`}>
               <span className="text-[#8F8F8F] group-hover:text-[#F15C20] transition-all duration-200">
                 Inevitable

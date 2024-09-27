@@ -7,17 +7,17 @@ const IosAppDesignServices = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <section className="w-full py-16 lg:py-20 flex flex-col items-center gap-4 global-padding-horizontal">
-      <div className="flex flex-col items-center">
-        <span className="text-[#F15C20] text-[20px] font-bold uppercase">
-          State-Of-The-Art
-        </span>
-        <img
-          src="/exclusive-android-lines.png"
-          alt="android app design services"
-          className="w-[203px]"
-        />
-      </div>
       <h2 className="headings-size text-center">
+        <div className="flex flex-col items-center leading-none mb-5">
+          <span className="text-[#F15C20] text-[20px] font-bold uppercase tracking-normal">
+            State-Of-The-Art
+          </span>
+          <img
+            src="/exclusive-android-lines.png"
+            alt="android app design services"
+            className="w-[203px]"
+          />
+        </div>
         iOS App Design <br /> Services
       </h2>
       <p className="text-[18px] leading-[26.46px] tracking-[-1.8%] lg:w-[55%] text-center">

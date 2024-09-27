@@ -13,17 +13,19 @@ export default function TypesOfAndroidDevelopers() {
     <section className="w-full relative overflow-hidden global-padding-horizontal py-10 xl:py-20">
       <div className="w-full relative overflow-hidden flex flex-col lg:flex-row">
         <div className="flex flex-col gap-2 mb-12">
-          <div className="flex flex-col items-start">
-            <p className="text-[#F15C20] text-xl font-bold uppercase">
-              types of
-            </p>
-            <img
-              src="/hire-android-developers-lines.png"
-              alt=""
-              className="w-[96px] h-[8px]"
-            />
-          </div>
-          <h2 className="headings-size">Android Developers</h2>
+          <h2 className="headings-size">
+            <div className="flex flex-col items-start mb-3">
+              <p className="text-[#F15C20] text-xl font-bold uppercase tracking-normal">
+                types of
+              </p>
+              <img
+                src="/hire-android-developers-lines.png"
+                alt=""
+                className="w-[96px] h-[8px]"
+              />
+            </div>
+            <span>Android Developers</span>
+          </h2>
           <p
             className={`text-[15px] md:text-[18px] font-normal ${
               theme === "light" && "text-[#2A2A2A]"
@@ -61,13 +63,13 @@ export default function TypesOfAndroidDevelopers() {
                   alt=""
                   className="w-[24px] h-[24px]"
                 />
-                <h2
+                <h3
                   className={`font-bold text-base ${
                     theme === "light" ? "text-white" : ""
                   }`}
                 >
                   {card?.title}
-                </h2>
+                </h3>
               </div>
               <p
                 className={`${

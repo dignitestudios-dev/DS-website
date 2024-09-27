@@ -1,18 +1,16 @@
 import ContactButton from "@/components/global/ContactButton";
-import { MAINTENANCE_SERVICES } from "@/constants/maintenanceservices";
 import Link from "next/link";
 import React from "react";
-import { FiArrowUpRight } from "react-icons/fi";
 
 const ReliableMobileAppSection = () => {
   return (
-    <section className="w-full py-12 lg:py-20 global-padding-horizontal">
+    <section className="w-full py-12 lg:py-24 global-padding-horizontal">
       <section className="w-full grid grid-cols-1 lg:grid-cols-3 gap-y-6">
         <div className="col-span-3 lg:col-span-2">
-          <p className="uppercase font-bold text-xl text-[#8F8F8F]">
-            Reliable mobile app
-          </p>
-          <h2 className="headings-size mt-2">
+          <h2 className="headings-size">
+            <p className="uppercase font-bold mb-2 text-xl text-[#8F8F8F] tracking-normal">
+              Reliable mobile app
+            </p>
             Support and Maintenance Services
           </h2>
           <p className="text-lg font-normal mt-4">
@@ -26,12 +24,6 @@ const ReliableMobileAppSection = () => {
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-center lg:justify-end">
           <div className="mt-6">
-            {/* <Link
-              href={"/contact-us"}
-              className="bg-[#F15C20] text-white w-[199px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
-            >
-              Start Your Project <FiArrowUpRight className="text-2xl" />
-            </Link> */}
             <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
           </div>
         </div>

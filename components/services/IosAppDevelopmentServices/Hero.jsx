@@ -19,8 +19,7 @@ const Hero = () => {
         }}
         className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px]"
       >
-        <span className="text-[#F15C20]">Renowned</span> iOS App <br />{" "}
-        Development Services
+        iOS App <br /> Development Services
       </h1>
       <p>Transform your business with highly optimized custom apps.</p>
       <div>

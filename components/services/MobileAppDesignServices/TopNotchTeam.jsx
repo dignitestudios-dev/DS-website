@@ -14,14 +14,16 @@ const TopNotchTeam = () => {
       style={{ background: palette?.background }}
     >
       <div className={`w-full`}>
-        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
-          exclusive design services by
-        </p>
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6 mt-3">
           <div>
             <h2
               className={`font-extrabold text-3xl lg:text-5xl xl:text-[64px] 2xl:text-[74px] tracking-tighter xl:font-bold uppercase lg:leading-[57px] xl:leading-[77.45px]`}
             >
+              <span
+                className={`text-xl font-bold text-[#8F8F8F] uppercase tracking-normal mb-3 block`}
+              >
+                exclusive design services by
+              </span>
               <span className="text-[#F15C20]">Top-Notch</span> team <br /> of
               Dignite Studios
             </h2>
@@ -54,7 +56,7 @@ const TopNotchTeam = () => {
                 alt={team.alt_text}
                 className=""
               />
-              <p className="text-xl font-semibold">{team.title}</p>
+              <h3 className="text-xl font-semibold">{team.title}</h3>
               <p className="text-sm font-normal leading-[19.74px]">
                 {team.description}
               </p>

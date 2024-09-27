@@ -42,12 +42,6 @@ const Hero = () => {
           We commit to Excel Android designs
         </h2>
         <div>
-          {/* <Link
-            href={"/contact-us"}
-            className="bg-[#F15C20] text-white w-[164px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
-          >
-            Get A Quote <FiArrowUpRight className="text-2xl" />
-          </Link> */}
           <ContactButton text1={"Get A Quote"} text2={"Let's talk"} />
         </div>
       </div>
@@ -110,10 +104,10 @@ const Hero = () => {
         </div>
 
         <div
-          className={`w-[117px] h-[117px] lg:w-[217px] lg:h-[217px] bg-[#4EDA75] z-[100] relative  shadow-xl rounded-[48px] flex items-center justify-center hover:translate-y-[-30px] transition-all duration-500`}
+          className={`w-[117px] h-[117px] lg:w-[217px] lg:h-[217px] bg-[#4EDA75] z-40 relative  shadow-xl rounded-[48px] flex items-center justify-center hover:translate-y-[-30px] transition-all duration-500`}
         >
           <img
-            src="/Android-app-design-services-android-image.webp"
+            src="/android-app-icon.png"
             alt="Android app design service page shows technology icons"
             title="Android app design services image"
             className="w-[74px] h-[74px] lg:w-[116.95px] lg:h-[116.95px]"

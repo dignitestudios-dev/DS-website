@@ -7,7 +7,6 @@ import HireMobileAppDevCompany from "./HireMobileAppDevCompany";
 import WhyChooseUs from "./WhyChooseUs";
 import FAQS from "./FAQS";
 import NewContactForm from "@/components/global/NewContactForm";
-import HeroAnimation from "./HeroAnimation";
 import DevelopmentProcess from "./DevelopmentProcess";
 import HowToHireAppDevelopers from "./HowToHireAppDevelopers";
 
@@ -17,7 +16,6 @@ const HireMobileAppDevelopersPage = () => {
     <div className="w-full">
       <Navbar setIsOpen={setIsSidebarOpen} />
       <Hero />
-      {/* <HeroAnimation /> */}
       <HireMobileAppDevCompany />
       <DevelopmentProcess />
       <HowToHireAppDevelopers />

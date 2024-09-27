@@ -13,12 +13,17 @@ const DevelopmentProcess = () => {
     <div className="w-full global-padding-horizontal py-10 lg:py-20 2xl:py-28">
       <div className="w-full flex flex-wrap gap-y-10">
         <div className="w-full lg:w-[65%]">
-          <div className="flex flex-col">
+          {/* <div className="flex flex-col">
             <span className="text-[#8F8F8F] text-[20px] font-bold uppercase">
               Multiple Types Of Developers To Foster Your
             </span>
-          </div>
-          <h2 className="headings-size my-4">
+          </div> */}
+          <h2 className="headings-size mb-4">
+            <div className="flex flex-col">
+              <span className="text-[#8F8F8F] text-[20px] font-bold uppercase tracking-normal">
+                Multiple Types Of Developers To Foster Your
+              </span>
+            </div>
             <span className="text-[#F15C20]">Development</span> Process
           </h2>
           <p className="text-sm md:text-[18px] font-normal leading-[26.46px]">
@@ -29,12 +34,6 @@ const DevelopmentProcess = () => {
           </p>
         </div>
         <div className="w-full lg:w-[35%] flex justify-end items-start lg:pt-14">
-          {/* <Link
-            href={"/contact-us"}
-            className="bg-[#F15C20] px-7 py-6 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
-          >
-            Hire application developer <FiArrowUpRight className="text-lg" />
-          </Link> */}
           <ContactButton
             text1={"Hire Application Developer"}
             text2={"Let's talk"}

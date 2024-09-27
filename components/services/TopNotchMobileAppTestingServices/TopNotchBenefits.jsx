@@ -3,19 +3,19 @@ import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
-import Link from "next/link";
 import React, { useContext } from "react";
 
 const TopNotchBenefits = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div className="py-10 lg:py-20 global-padding-horizontal flex flex-col items-center">
-      <p className="text-xl font-bold text-[#F15C20] uppercase">
-        dignite studios
-      </p>
-      <img src="/lines.png" alt="lines" width={170} height={24} />
-
       <h2 className="headings-size mt-3 text-center mx-auto mb-2">
+        <div className="flex flex-col items-center mb-4">
+          <p className="text-xl font-bold text-[#F15C20] uppercase tracking-normal">
+            dignite studios
+          </p>
+          <img src="/lines.png" alt="lines" width={170} height={24} />
+        </div>
         top-Notch Benefits
       </h2>
       <p className="lg:w-[666px] text-center text-[15px] leading-[20.4px]">
@@ -51,12 +51,6 @@ const TopNotchBenefits = () => {
             generation from your mobile apps.
           </p>
           <div className="mt-4 pb-6">
-            {/* <Link
-              href={"/contact-us"}
-              className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
-            >
-              Let’s discuss your project
-            </Link> */}
             <ContactButton text1={"Discuss you project"} text2={"Let's talk"} />
           </div>
         </div>
@@ -74,12 +68,12 @@ const TopNotchBenefits = () => {
               alt="mock screen shows the mobile app testing of login layout"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
-              data-aos-offset="100" // Adjusted offset to trigger animation earlier
-              data-aos-delay="0" // No delay for immediate animation start
+              data-aos-offset="100"
+              data-aos-delay="0"
               data-aos-duration="600"
               data-aos-easing="ease-in"
               data-aos-mirror="false"
-              data-aos-once="false" // Set to false to repeat animation on scroll up
+              data-aos-once="false"
               data-aos-anchor-placement="center-bottom"
             />
           </div>
@@ -101,12 +95,12 @@ const TopNotchBenefits = () => {
               alt="the mock screen shows the quality detection of mobile app testing tool"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
-              data-aos-offset="100" // Adjusted offset to trigger animation earlier
-              data-aos-delay="0" // No delay for immediate animation start
+              data-aos-offset="100"
+              data-aos-delay="0"
               data-aos-duration="600"
               data-aos-easing="ease-in"
               data-aos-mirror="false"
-              data-aos-once="false" // Set to false to repeat animation on scroll up
+              data-aos-once="false"
               data-aos-anchor-placement="center-bottom"
             />
           </div>
@@ -133,12 +127,6 @@ const TopNotchBenefits = () => {
             meet the success of the mobile performance testing of the app. 
           </p>
           <div className="mt-4 pb-6">
-            {/* <Link
-              href={"/contact-us"}
-              className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
-            >
-              Let’s discuss your project
-            </Link> */}
             <ContactButton text1={"Discuss you project"} text2={"Let's talk"} />
           </div>
         </div>
@@ -172,12 +160,6 @@ const TopNotchBenefits = () => {
             encryption methods, and shielded transmission of data.
           </p>
           <div className="mt-4 pb-6">
-            {/* <Link
-              href={"/contact-us"}
-              className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
-            >
-              Let’s discuss your project
-            </Link> */}
             <ContactButton text1={"Discuss you project"} text2={"Let's talk"} />
           </div>
         </div>
@@ -195,12 +177,12 @@ const TopNotchBenefits = () => {
               alt="mock up screen shows olivia james profile"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
-              data-aos-offset="100" // Adjusted offset to trigger animation earlier
-              data-aos-delay="0" // No delay for immediate animation start
+              data-aos-offset="100"
+              data-aos-delay="0"
               data-aos-duration="600"
               data-aos-easing="ease-in"
               data-aos-mirror="false"
-              data-aos-once="false" // Set to false to repeat animation on scroll up
+              data-aos-once="false"
               data-aos-anchor-placement="center-bottom"
             />
           </div>
@@ -222,12 +204,12 @@ const TopNotchBenefits = () => {
               alt="mockup screen shows the testing of people you know the layout of the application"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
-              data-aos-offset="100" // Adjusted offset to trigger animation earlier
-              data-aos-delay="0" // No delay for immediate animation start
+              data-aos-offset="100"
+              data-aos-delay="0"
               data-aos-duration="600"
               data-aos-easing="ease-in"
               data-aos-mirror="false"
-              data-aos-once="false" // Set to false to repeat animation on scroll up
+              data-aos-once="false"
               data-aos-anchor-placement="center-bottom"
             />
           </div>
@@ -257,12 +239,6 @@ const TopNotchBenefits = () => {
             programs, and updating new feeds at a similar speed.
           </p>
           <div className="mt-4 pb-6">
-            {/* <Link
-              href={"/contact-us"}
-              className="py-[16px] px-[18px] rounded-full text-white bg-[#F15C20] text-base font-semibold"
-            >
-              Let’s discuss your project
-            </Link> */}
             <ContactButton text1={"Discuss you project"} text2={"Let's talk"} />
           </div>
         </div>

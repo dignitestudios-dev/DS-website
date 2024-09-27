@@ -24,16 +24,6 @@ const TopRankedCategoriesSection = () => {
           top ranked categories of app development
         </h2>
         <div className="hidden lg:block">
-          {/* <Link
-            href={{
-              pathname: "/contact-us",
-            }}
-            className={`px-6 py-5 xl:py-8 xl:px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
-              theme === "light" ? "bg-white" : "bg-[#222222]"
-            } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
-          >
-            Let's Start Your Project
-          </Link> */}
           <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>
@@ -56,7 +46,7 @@ const TopRankedCategoriesSection = () => {
           <p className={``}>
             We ensure to build highly effective and productive{" "}
             <Link
-              href={"/services/native-mobile-app-development"}
+              href={"/services/native-app-development-services"}
               className="text-orange-600 group-hover:text-white"
             >
               native mobile apps

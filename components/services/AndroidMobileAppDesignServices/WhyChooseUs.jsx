@@ -1,9 +1,6 @@
 "use client";
-
 import React, { useContext } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
-import Link from "next/link";
-import { FiArrowUpRight } from "react-icons/fi";
 import { ANDROID_APP_DESIGN_CHOOSE_US } from "@/constants/AndroidAppDesignChooseUs";
 import WhyChooseUsCard from "../IosAppDevelopmentServices/WhyChooseUsCard";
 
