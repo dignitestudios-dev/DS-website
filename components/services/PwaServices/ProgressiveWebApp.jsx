@@ -11,12 +11,16 @@ const ProgressiveWebApp = () => {
     <div className="w-full global-padding-horizontal py-10 lg:py-20">
       <div className="w-full flex flex-wrap gap-y-10">
         <div className="w-full lg:w-[65%]">
-          <div className="flex flex-col">
+          {/* <div className="flex flex-col">
             <span className="text-[#8F8F8F] text-[20px] font-bold uppercase">
               Progressive
             </span>
-          </div>
+          </div> */}
           <h2 className="headings-size my-4">
+            <span className="text-[#8F8F8F] text-[20px] font-bold uppercase tracking-wide">
+              Progressive
+            </span>{" "}
+            <br />
             <span className="text-[#F15C20]">Web App</span> Development Company
           </h2>
           <p className="text-sm md:text-[18px] font-normal leading-[26.46px] lg:w-2/3">

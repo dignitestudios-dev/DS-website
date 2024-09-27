@@ -1742,3 +1742,27 @@ video {
 .rocket-animation {
   animation: moveUpDown 2s ease-in-out infinite;
 }
+
+.flag-dropdown {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.selected-flag:hover {
+  background-color: transparent !important;
+}
+
+.selected-flag:focus {
+  background-color: transparent !important;
+}
+
+.selected-flag:focus-visible {
+  background-color: transparent !important;
+}
+.selected-flag:focus-within {
+  background-color: transparent !important;
+}
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+}

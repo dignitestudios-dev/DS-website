@@ -231,7 +231,7 @@ const ContactForm = () => {
                   margin: "0",
                   background: theme === "light" ? "#FAFAFA" : "#2d2d2d",
                 }}
-                className="text-sm font-normal outline-none w-full py-2 2xl:py-6 px-6 rounded-full bg-[#FAFAFA]"
+                className="text-sm font-normal outline-none w-full py-2 2xl:py-6 px-6 rounded-full "
               />
               <style jsx>{`
                 .invalid input {
