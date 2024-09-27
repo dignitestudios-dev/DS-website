@@ -30,12 +30,6 @@ const WeCommitToDeliver = () => {
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-start lg:pt-6 lg:justify-end">
           <div className="relative z-20">
-            {/* <Link
-              href={"/contact-us"}
-              className="bg-[#F15C20] z-20 relative text-white w-[218px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
-            >
-              Start Your Project <FiArrowUpRight className="text-2xl" />
-            </Link> */}
             <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
           </div>
         </div>

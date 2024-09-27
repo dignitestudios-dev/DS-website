@@ -13,10 +13,10 @@ const DevelopmentProcess = () => {
     <section className="w-full py-12 global-padding-horizontal">
       <section className="w-full grid grid-cols-1 lg:grid-cols-3 gap-y-6">
         <div className="col-span-3 lg:col-span-2">
-          <p className="uppercase font-bold text-xl text-[#8F8F8F]">
-            Seamless Native App
-          </p>
-          <h2 className="headings-size mt-2">
+          <h2 className="headings-size mb-4">
+            <p className="uppercase font-bold text-xl text-[#8F8F8F] tracking-normal">
+              Seamless Native App
+            </p>
             Development <span className="text-[#F15C20]">Process</span>
           </h2>
           <p className="text-lg font-normal mt-4">
@@ -29,12 +29,6 @@ const DevelopmentProcess = () => {
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-center lg:justify-end">
           <div className="lg:mt-6">
-            {/* <Link
-              href={"/contact-us"}
-              className="bg-[#F15C20] text-white w-[218px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
-            >
-              Start Your Project <FiArrowUpRight className="text-2xl" />
-            </Link> */}
             <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
           </div>
         </div>

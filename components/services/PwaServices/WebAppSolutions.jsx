@@ -6,8 +6,6 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { GlobalContext } from "@/context/GlobalContext";
-import { VALUE_PROPOSITION } from "@/constants/valueproposition";
-import { IOS_APP_DESIGN_BENEFITS_OF_WORKING_WITH_DIGNITE } from "@/constants/IosBenefitsOfWorkingWithDignite";
 import { PWA_WEB_APP_SOLUTIONS } from "@/constants/PwaWebAppSolutions";
 
 export const sliderSettings = {
@@ -40,12 +38,12 @@ export default function WebAppSolutions() {
     <section className="w-full relative overflow-hidden global-padding-horizontal py-10 xl:py-20">
       <div className="w-full relative overflow-hidden">
         <div className="flex flex-col gap-2 mb-12">
-          <div className="flex flex-col items-start">
-            <p className="text-[#8F8F8F] text-xl font-bold uppercase">
-              We Deliver Top-Notch Progressive
-            </p>
-          </div>
           <h2 className="headings-size">
+            <div className="flex flex-col items-start">
+              <p className="text-[#8F8F8F] text-xl font-bold uppercase tracking-normal">
+                We Deliver Top-Notch Progressive
+              </p>
+            </div>
             web app <span className="text-[#F15C20]">solutions</span>
           </h2>
           <p
@@ -72,7 +70,7 @@ export default function WebAppSolutions() {
                        : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
                    }`}
                 >
-                  <h2
+                  <h3
                     className={`font-bold text-xl md:mb-2 ${
                       theme === "light"
                         ? "text-[#424242] group-hover:text-white"
@@ -80,7 +78,7 @@ export default function WebAppSolutions() {
                     }`}
                   >
                     {card?.title}
-                  </h2>
+                  </h3>
                   <p
                     className={`${
                       theme === "dark"

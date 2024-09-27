@@ -8,11 +8,15 @@ const WebAppTechnologies = () => {
   const logos2Classes = theme === "light" ? "logos2" : "logos2Dark";
   return (
     <section className="w-full global-padding-horizontal py-12 lg:py-20">
-      <div className="w-full flex flex-col items-center justify-center">
-        <p className="text-[#F15C20] text-xl font-bold uppercase">advanced</p>
-        <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
-      </div>
-      <h2 className="headings-size text-center my-4">Web App Technologies</h2>
+      <h2 className="headings-size text-center mb-4">
+        <div className="w-full flex flex-col items-center justify-center mb-4">
+          <p className="text-[#F15C20] text-xl font-bold uppercase tracking-normal">
+            advanced
+          </p>
+          <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
+        </div>
+        Web App Technologies
+      </h2>
       <p className={`text-[15px] font-normal text-center lg:w-[55%] mx-auto`}>
         Leverage your progressive web applications with modern tools and tech
         stack that propel your business to new heights and witness world-class

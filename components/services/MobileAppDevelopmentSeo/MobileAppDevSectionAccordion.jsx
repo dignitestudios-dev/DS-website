@@ -51,9 +51,9 @@ const MobileAppDevSectionAccordion = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               01.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               Custom iOS App Development
-            </span>
+            </h3>
           </div>
           {openAccordion === 1 ? (
             <FiMinus className="text-2xl" />
@@ -118,9 +118,9 @@ const MobileAppDevSectionAccordion = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               02.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               iPhone App Designing
-            </span>
+            </h3>
           </div>
           {openAccordion === 2 ? (
             <FiMinus className="text-2xl" />
@@ -186,9 +186,9 @@ const MobileAppDevSectionAccordion = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               03.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               Integration Services
-            </span>
+            </h3>
           </div>
           {openAccordion === 3 ? (
             <FiMinus className="text-2xl" />
@@ -247,9 +247,9 @@ const MobileAppDevSectionAccordion = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               04.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               App Migration and Upgrades
-            </span>
+            </h3>
           </div>
           {openAccordion === 4 ? (
             <FiMinus className="text-2xl" />
@@ -308,9 +308,9 @@ const MobileAppDevSectionAccordion = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               05.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               Apple TV App Development
-            </span>
+            </h3>
           </div>
           {openAccordion === 5 ? (
             <FiMinus className="text-2xl" />

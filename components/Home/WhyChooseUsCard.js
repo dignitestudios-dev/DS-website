@@ -23,12 +23,12 @@ const WhyChooseUsCard = ({ title, description, icon, alt, image_title }) => {
         width={36}
         height={36}
       />
-      <h2
+      <h3
         className="text-xl  font-semibold"
         style={{ color: theme == "dark" ? "#fff" : "#0c0c0c" }}
       >
         {title}
-      </h2>
+      </h3>
       <p
         className="text-sm text-center font-normal leading-[16.14px] tracking-wider "
         style={{

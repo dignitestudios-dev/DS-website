@@ -14,12 +14,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               01.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Analysis
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Planning & Research
-            </h3>
+            </h5>
 
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
@@ -35,12 +35,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               03.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               UI Designing
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               User Interface Design
-            </h3>
+            </h5>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
@@ -57,12 +57,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Evaluation
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Testing & Evaluation
-            </h3>
+            </h5>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
@@ -228,12 +228,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               02.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Wireframes
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Foundation & UX
-            </h3>
+            </h5>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
@@ -254,12 +254,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               04.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Coding
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px]  ont-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px]  ont-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Development
-            </h3>
+            </h5>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
@@ -277,12 +277,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               06.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Deployment
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Go Live
-            </h3>
+            </h5>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
@@ -305,12 +305,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               01.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Analysis
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Planning & Research
-            </h3>
+            </h5>
 
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
@@ -326,12 +326,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               02.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Wireframes
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Doundation & UX
-            </h3>
+            </h5>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
@@ -352,12 +352,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               03.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               UI Designing
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               User Interface Design
-            </h3>
+            </h5>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
@@ -439,12 +439,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               04.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Coding
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Development
-            </h3>
+            </h5>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
@@ -462,12 +462,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               05.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Evaluation
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Testing & Evaluation
-            </h3>
+            </h5>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}
@@ -485,12 +485,12 @@ const HybridProcess = () => {
             <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] group-hover:text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               06.
             </p>
-            <p className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
+            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
               Deployment
-            </p>
-            <h3 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Go Live
-            </h3>
+            </h5>
             <p
               className="text-[14px] font-normal  2xl:text-[18px] "
               style={{ color: palette?.light_contrast_color }}

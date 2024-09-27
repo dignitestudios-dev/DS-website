@@ -8,11 +8,13 @@ const TechStackSection = () => {
   const logos2Classes = theme === "light" ? "logos2" : "logos2Dark";
   return (
     <section className="w-full global-padding-horizontal py-12">
-      <div className="w-full flex flex-col items-center justify-center">
-        <p className="text-[#F15C20] text-xl font-bold uppercase">High-End</p>
-        <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
-      </div>
-      <h2 className="headings-size text-center my-4">
+      <h2 className="headings-size text-center mb-4">
+        <div className="w-full flex flex-col items-center justify-center mb-4">
+          <p className="text-[#F15C20] text-xl font-bold uppercase tracking-normal">
+            High-End
+          </p>
+          <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
+        </div>
         Tech Stack that Drives <br /> Your Success
       </h2>
       <p className={`text-[15px] font-normal text-center lg:w-[55%] mx-auto`}>

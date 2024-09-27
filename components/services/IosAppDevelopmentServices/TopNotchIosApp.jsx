@@ -1,11 +1,7 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
-import Image from "next/image";
-import Link from "next/link";
 import React, { useContext } from "react";
-import { FiArrowUpRight } from "react-icons/fi";
 
 const TopNotchIosApp = () => {
   const { theme } = useContext(GlobalContext);
@@ -17,17 +13,17 @@ const TopNotchIosApp = () => {
         }`}
       >
         <div className="flex flex-col items-start gap-5 w-full xl:w-[55%] p-6 lg:p-14">
-          <div className="flex flex-col items-start">
-            <p className="text-[#F15C20] font-bold text-xl uppercase">
-              top-notch ios application
-            </p>
-            <img
-              src="/wide-lines.png"
-              alt="lines"
-              className="w-40 h-2 md:w-[289px]"
-            />
-          </div>
           <h2 className="text-3xl lg:text-[48px] xl:text-[68px] 2xl:text-[72px] font-bold lg:leading-[64.94px] tracking-tighter">
+            <div className="flex flex-col items-start mb-5">
+              <p className="text-[#F15C20] font-bold text-xl uppercase tracking-normal">
+                top-notch ios application
+              </p>
+              <img
+                src="/wide-lines.png"
+                alt="lines"
+                className="w-40 h-2 md:w-[289px]"
+              />
+            </div>
             Development <br /> Company
           </h2>
           <p

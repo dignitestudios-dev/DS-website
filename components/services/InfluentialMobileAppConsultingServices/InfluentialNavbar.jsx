@@ -70,69 +70,6 @@ const InfluentialNavbar = ({ setIsOpen }) => {
         >
           <span>Services</span>
           <IoIosArrowDown className="text-md" />
-          {/* <div
-            className={`w-72 h-auto p-6 z-20 rounded-2xl text-md scale-0 transition-all duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${
-              theme == "dark"
-                ? "shadow-[0_3px_10px_rgb(230,230,230,0.2)]"
-                : "shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-            } -right-24`}
-            style={{ background: palette?.background, color: palette?.color }}
-          >
-            <Link
-              href="/services/mobile-app-development-services"
-              className={`hover:text-orange-600 `}
-            >
-              Mobile App Development Services
-            </Link>
-            <Link
-              href="/services/mobile-app-design-services"
-              className={`hover:text-orange-600 `}
-            >
-              Mobile App Design Services
-            </Link>
-            <Link
-              href="/services/mobile-app-consulting-services"
-              className={`hover:text-orange-600 `}
-            >
-              Mobile App Consulting Services
-            </Link>
-            <Link
-              href="/services/mobile-app-testing-services"
-              className={`hover:text-orange-600 `}
-            >
-              Mobile App Testing Services
-            </Link>
-            <Link
-              href="/services/android-app-development-services"
-              className={`hover:text-orange-600 `}
-            >
-              Android App Development Services
-            </Link>
-            <Link
-              href="/services/ios-app-development-services"
-              className={`hover:text-orange-600 `}
-            >
-              IOS App Development Services
-            </Link>
-            <Link
-              href="/services/native-app-development-services"
-              className={`hover:text-orange-600 `}
-            >
-              Native App Development Services
-            </Link>
-            <Link
-              href="/services/web-application-development-services"
-              className={`hover:text-orange-600 `}
-            >
-              Web App Development Services
-            </Link>
-            <Link
-              href="/services/mobile-application-support-and-maintenance-services"
-              className={`hover:text-orange-600 cursor-pointer text-start`}
-            >
-              Mobile App Support And Maintenance Services
-            </Link>
-          </div> */}
         </button>
         <button
           onClick={() => handleClick("case-studies")}
@@ -156,7 +93,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
       {showDropdown && (
         <div
           onMouseLeave={() => setShowDropdown(false)}
-          className={`w-[100%] h-[369px] p-6 z-20 text-md transition-all duration-150 hidden lg:flex gap-2 justify-center lg:gap-x-8 xl:gap-x-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2  ${
+          className={`w-[100%] min-h-[369px] p-6 z-20 text-md transition-all duration-150 hidden lg:flex gap-2 justify-center lg:gap-x-8 xl:gap-x-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2  ${
             theme == "dark" ? "shadow-xl" : "shadow-xl"
           } -right-24`}
           style={{ background: palette?.background, color: palette?.color }}
@@ -200,6 +137,42 @@ const InfluentialNavbar = ({ setIsOpen }) => {
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Web App
               Development Services
             </Link>
+            <Link
+              href={"/services/pwa-development-services"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              PWA Development Services
+            </Link>
+            <Link
+              href={"/services/hire-mobile-app-developers"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              Hire Mobile App Developers
+            </Link>
+
+            <Link
+              href={"/services/hire-android-app-developers"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              Hire Android App Developers
+            </Link>
+            <Link
+              href={"/services/hire-ios-app-developers"}
+              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+            >
+              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+              Hire iOS App Developers
+            </Link>
+            {/* <Link
+           href={"/services/hybrid-app-development-services"}
+           className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
+         >
+           <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
+           Hybrid App Development Services
+         </Link> */}
           </div>
           <div className="flex flex-col items-start gap-3">
             <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">

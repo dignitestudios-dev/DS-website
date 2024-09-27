@@ -13,10 +13,15 @@ const Process = () => {
     <section className="w-full lg:py-12 global-padding-horizontal lg:mt-0">
       <div className="w-full flex flex-col xl:flex-row items-start justify-between gap-0 md:gap-6">
         <div className="w-full xl:w-[70%]">
-          <span className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
-            mobile app development
-          </span>
-          <h2 className={`headings-size`}>process</h2>
+          <h2 className={`headings-size flex flex-col items-start gap-4`}>
+            {" "}
+            <span
+              className={`text-xl font-bold text-[#8F8F8F] uppercase tracking-normal`}
+            >
+              mobile app development
+            </span>{" "}
+            process
+          </h2>
           <p
             className={`text-[15px] my-4 font-normal ${
               theme === "light" && "text-[#2A2A2A]"

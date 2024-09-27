@@ -54,9 +54,9 @@ const LeadingSection = () => {
             alt="Custom Android app development services icon"
             className="w-[36px] h-[33px]"
           />
-          <p className="text-[20px] font-semibold mt-2">
+          <h3 className="text-[20px] font-semibold mt-2">
             Custom Android App Development
-          </p>
+          </h3>
           <p
             className={`${
               theme === "light" && "text-[#424242]"
@@ -75,9 +75,9 @@ const LeadingSection = () => {
             alt="Android TV App Development services icon"
             className="w-[36px] h-[33px]"
           />
-          <p className="text-[20px] font-semibold mt-2">
+          <h3 className="text-[20px] font-semibold mt-2">
             Android TV App Development
-          </p>
+          </h3>
           <p
             className={`${
               theme === "light" && "text-[#424242]"
@@ -98,9 +98,9 @@ const LeadingSection = () => {
             alt="Android Mobile App Development Services icon"
             className="w-[36px] h-[33px]"
           />
-          <p className="text-[20px] font-semibold mt-2">
+          <h3 className="text-[20px] font-semibold mt-2">
             Android Mobile App Development
-          </p>
+          </h3>
           <p
             className={`${
               theme === "light" && "text-[#424242]"
@@ -125,9 +125,9 @@ const LeadingSection = () => {
             alt="Android Tablet App Development Services icon"
             className="w-[36px] h-[33px]"
           />
-          <p className="text-[20px] font-semibold mt-2">
+          <h3 className="text-[20px] font-semibold mt-2">
             Android Tablet App Development
-          </p>
+          </h3>
           <p
             className={`${
               theme === "light" && "text-[#424242]"

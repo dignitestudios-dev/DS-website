@@ -8,10 +8,12 @@ const BenefitsOfWebAppDev = () => {
   return (
     <section className="w-full py-12 global-padding-horizontal lg:mt-0">
       <div className="w-full flex flex-col items-start text-start gap-3">
-        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
-          Benefits of
-        </p>
         <h2 className={`headings-size`}>
+          <p
+            className={`text-xl font-bold text-[#8F8F8F] uppercase tracking-normal mb-3`}
+          >
+            Benefits of
+          </p>
           Web App Development <br /> with Dignite Studios
         </h2>
         <p

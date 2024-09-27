@@ -8,7 +8,6 @@ import Technologies from "./Technologies";
 import EdgeOfDigniteStudios from "./EdgeofWorkingWithDignite";
 import FAQS from "./FAQS";
 import WhyDigniteStudios from "./WhyDigniteStudios";
-import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 import NewContactForm from "@/components/global/NewContactForm";
 
 const AndroidAppDevelopmentServicesPage = () => {

@@ -1,14 +1,14 @@
 import ContactButton from "@/components/global/ContactButton";
-import Link from "next/link";
 import React from "react";
-import { FiArrowUpRight } from "react-icons/fi";
 
 const UnrivaledSection = () => {
   return (
     <section className="w-full py-12 xl:pt-32 flex items-end flex-col lg:flex-row gap-y-6">
       <div className="flex global-padding-horizontal flex-col items-start text-start gap-y-3">
-        <p className="text-xl font-bold text-[#8F8F8F] uppercase">Unrivaled</p>
         <h2 className="headings-size">
+          <p className="text-xl font-bold text-[#8F8F8F] uppercase tracking-normal mb-2">
+            Unrivaled
+          </p>
           <span className="text-[#F15C20]">Web App</span> Development Company
         </h2>
         <p className="text-[18px] leading-[26.46px]">
@@ -22,12 +22,6 @@ const UnrivaledSection = () => {
           depends on perfect app strategies and monitoring of the app.
         </p>
         <div className="mt-6">
-          {/* <Link
-            href={"/contact-us"}
-            className="bg-[#F15C20] text-white w-[199px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
-          >
-            Start Your Project <FiArrowUpRight className="text-2xl" />
-          </Link> */}
           <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>

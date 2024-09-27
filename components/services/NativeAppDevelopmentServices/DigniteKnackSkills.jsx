@@ -39,10 +39,12 @@ const DigniteKnackSkills = () => {
       <div className="w-full relative overflow-hidden">
         <section className="w-full flex flex-col lg:flex-row items-start gap-y-6">
           <div className="w-full lg:w-[75%]">
-            <p className="uppercase font-bold text-xl text-[#8F8F8F]">
-              experience true digitalization with
-            </p>
-            <h2 className="headings-size mt-2">Dignite’s Knack Of Skills</h2>
+            <h2 className="headings-size mt-2">
+              <p className="uppercase font-bold text-xl text-[#8F8F8F] tracking-normal mb-3">
+                experience true digitalization with
+              </p>
+              Dignite’s Knack Of Skills
+            </h2>
             <p className="text-lg font-normal mt-4">
               Over the past several years there has been a significant increase
               in the usage of smartphones, where people typically have become
@@ -57,12 +59,6 @@ const DigniteKnackSkills = () => {
           </div>
           <div className="w-full lg:w-[25%] flex justify-center items-center lg:justify-end">
             <div className="lg:mt-6">
-              {/* <Link
-                href={"/contact-us"}
-                className="bg-[#F15C20] text-white w-[218px] h-[64px] rounded-full text-center flex items-center gap-1 justify-center font-semibold"
-              >
-                Start Your Project <FiArrowUpRight className="text-2xl" />
-              </Link> */}
               <ContactButton
                 text1={"Start Your Project"}
                 text2={"Let's talk"}
@@ -86,7 +82,7 @@ const DigniteKnackSkills = () => {
                   {/* <h3 className="text-[#B8B8B8] text-[20px] md:text-[40px] font-bold">
                     {card?.count}
                   </h3> */}
-                  <h2
+                  <h3
                     className={`font-semibold text-xl md:mb-2 ${
                       theme === "light"
                         ? "text-[#424242] group-hover:text-white"
@@ -94,7 +90,7 @@ const DigniteKnackSkills = () => {
                     }`}
                   >
                     {card?.title}
-                  </h2>
+                  </h3>
                   <p
                     className={`${
                       theme === "dark"

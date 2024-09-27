@@ -36,18 +36,25 @@ export default function EdgeOfDigniteStudios() {
     <section className="w-full relative overflow-hidden px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 lg:py-10">
       <div className="w-full relative overflow-hidden">
         <div className="flex flex-col gap-2 mb-12">
-          <span className="text-[#8F8F8F] text-2xl font-bold uppercase">
-            Edge of
-          </span>
-          <h2 className="headings-size">
+          <h2 className="headings-size flex flex-col items-start gap-4">
+            <span className="text-[#8F8F8F] text-2xl font-bold uppercase tracking-normal">
+              Edge of
+            </span>
             working with dignite studios
           </h2>
         </div>
         <p className="text-[18px] leading-[23.41px] font-normal lg:w-[70%] mb-10">
-        Android has taken a large slice of services in the open market globally. The competition among operating systems is fierce, therefore our service nestled an extensive selection of mobile application development with super features and friendly user interfaces.
+          Android has taken a large slice of services in the open market
+          globally. The competition among operating systems is fierce, therefore
+          our service nestled an extensive selection of mobile application
+          development with super features and friendly user interfaces.
         </p>
 
-        <div className={`w-full border ${theme === 'dark' && 'border-gray-400'} mb-6`}/>
+        <div
+          className={`w-full border ${
+            theme === "dark" && "border-gray-400"
+          } mb-6`}
+        />
 
         <Swiper {...sliderSettings} className=" z-10">
           <SliderButtons />

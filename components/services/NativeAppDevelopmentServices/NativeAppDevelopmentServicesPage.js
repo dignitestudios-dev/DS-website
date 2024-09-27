@@ -9,7 +9,6 @@ import DevelopmentProcess from "./DevelopmentProcess";
 import TechStackSection from "./TechStackSection";
 import DigniteKnackSkills from "./DigniteKnackSkills";
 import Faqs from "./Faqs";
-import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 import WhyChooseUs from "./WhyChooseUs";
 import NewContactForm from "@/components/global/NewContactForm";
 

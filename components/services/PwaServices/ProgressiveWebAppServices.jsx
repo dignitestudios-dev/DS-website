@@ -2,9 +2,7 @@
 import ContactButton from "@/components/global/ContactButton";
 import { PROGRESSIVE_WEB_APP_SERVICES } from "@/constants/ProgressiveWebAppServices";
 import { GlobalContext } from "@/context/GlobalContext";
-import Link from "next/link";
 import React, { useContext } from "react";
-import { FiArrowUpRight } from "react-icons/fi";
 
 const ProgressiveWebAppServices = () => {
   const { theme } = useContext(GlobalContext);
@@ -12,12 +10,12 @@ const ProgressiveWebAppServices = () => {
     <div className="w-full global-padding-horizontal py-10 lg:py-20 2xl:py-28">
       <div className="w-full flex flex-wrap gap-y-10">
         <div className="w-full lg:w-[65%]">
-          <div className="flex flex-col">
-            <span className="text-[#8F8F8F] text-[20px] font-bold uppercase">
-              Progressive
-            </span>
-          </div>
           <h2 className="headings-size my-4">
+            <div className="flex flex-col">
+              <span className="text-[#8F8F8F] text-[20px] font-bold uppercase tracking-normal">
+                Progressive
+              </span>
+            </div>
             <span className="text-[#F15C20]">Web App</span> Development Services
           </h2>
           <p className="text-sm md:text-[18px] font-normal leading-[26.46px]">
@@ -29,12 +27,6 @@ const ProgressiveWebAppServices = () => {
           </p>
         </div>
         <div className="w-full lg:w-[35%] flex justify-end items-start lg:pt-14">
-          {/* <Link
-            href={"/contact-us"}
-            className="bg-[#F15C20] w-[198px] px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
-          >
-            Start Your Project <FiArrowUpRight className="text-lg" />
-          </Link> */}
           <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>

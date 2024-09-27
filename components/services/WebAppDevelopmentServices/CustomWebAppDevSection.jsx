@@ -6,8 +6,10 @@ const CustomWebAppDevSection = () => {
   return (
     <section className="w-full global-padding-horizontal py-12">
       <div className="flex flex-col items-start text-start gap-y-3">
-        <p className="text-xl font-bold text-[#8F8F8F] uppercase">custom</p>
         <h2 className="headings-size">
+          <p className="text-xl font-bold text-[#8F8F8F] uppercase tracking-normal mb-2">
+            custom
+          </p>
           <span className="text-[#F15C20]">
             Web Application <br />
           </span>{" "}

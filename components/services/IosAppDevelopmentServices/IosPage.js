@@ -8,7 +8,6 @@ import PhenomenalSection from "./PhenomenalSection";
 import Process from "./Process";
 import ValueAddedDigniteStudios from "./ValueAddedDigniteStudios";
 import WhyChooseUs from "./WhyChooseUs";
-import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 import { IOS_SERVICES_FAQS } from "@/constants/iosservicesfaqs";
 import VariousIndustriesSection from "./VariousIndustriesSection";
 import Faqs from "./Faqs";

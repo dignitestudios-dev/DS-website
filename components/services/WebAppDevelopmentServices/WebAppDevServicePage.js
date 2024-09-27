@@ -11,7 +11,6 @@ import BenefitsOfWebAppDev from "./BenefitsOfWebAppDev";
 import TechnologiesAndTools from "./TechnologiesAndTools";
 import WhyChooseUs from "./WhyChooseUs";
 import Faqs from "./Faqs";
-import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 import NewContactForm from "@/components/global/NewContactForm";
 
 const WebAppDevServicePage = () => {
