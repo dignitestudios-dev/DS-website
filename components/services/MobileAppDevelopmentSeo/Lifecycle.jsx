@@ -20,14 +20,6 @@ const Lifecycle = () => {
           up-to-the-minute
         </h2>
         <div className="hidden lg:block">
-          {/* <Link
-          href={{
-            pathname: '/contact-us',
-          }}
-            className={`px-6 py-5 xl:py-8 xl:px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${theme === 'light' ? 'bg-white': 'bg-[#222222]'} hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
-          >
-            Let's Start Your Project
-          </Link> */}
           <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
       </div>
@@ -57,7 +49,7 @@ const Lifecycle = () => {
                 </p>
               </div>
               <div className="w-[91%] lg:w-[90%] xl:w-[93%] flex flex-col gap-2">
-                <p className="text-2xl font-semibold">{step.title}</p>
+                <h3 className="text-2xl font-semibold">{step.title}</h3>
                 <p className="text-[15px] font-normal leading-[20.4px]">
                   {step.desc}
                 </p>

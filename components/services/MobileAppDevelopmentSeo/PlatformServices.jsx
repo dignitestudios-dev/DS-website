@@ -12,7 +12,7 @@ const PlatformServices = () => {
       <h2
         className={`${
           theme === "dark" ? "text-white" : "text-black"
-        } text-start text-3xl md:text-5xl xl:text-[64px] font-bold lg:tracking-tighter lg:leading-[72px] hidden xl:block`}
+        } text-start text-3xl md:text-5xl xl:text-[64px] font-bold lg:tracking-tighter lg:leading-[72px] block`}
       >
         <span className="uppercase">
           {" "}
@@ -20,14 +20,7 @@ const PlatformServices = () => {
         </span>{" "}
         <span className="text-[#F15C20]">iOS & ANDROID</span>
       </h2>
-      <h2
-        className={`${
-          theme === "dark" ? "text-white" : "text-black"
-        } text-start text-3xl md:text-5xl xl:text-[64px] font-bold uppercase lg:tracking-tighter xl:hidden`}
-      >
-        mobile app development services for{" "}
-        <span className="text-[#F15C20]">iOS & ANDROID</span>
-      </h2>
+
       <p
         className={`text-base font-normal text-start lg:w-[60%] ${
           theme === "light" ? "text-[#2A2A2A]" : "text-white"

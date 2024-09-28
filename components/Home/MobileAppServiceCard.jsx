@@ -21,6 +21,8 @@ const MobileAppServiceCard = () => {
   const [showMore13, setShowMore13] = useState(false);
   const [showMore14, setShowMore14] = useState(false);
   const [showMore15, setShowMore15] = useState(false);
+  const [showMore16, setShowMore16] = useState(false);
+  const [showMore17, setShowMore17] = useState(false);
 
   const handleShowMore = () => {
     setShowMore(!showMore);
@@ -66,6 +68,12 @@ const MobileAppServiceCard = () => {
   };
   const handleShowMore15 = () => {
     setShowMore15(!showMore15);
+  };
+  const handleShowMore16 = () => {
+    setShowMore16(!showMore16);
+  };
+  const handleShowMore17 = () => {
+    setShowMore17(!showMore17);
   };
 
   const paragraphFull = (
@@ -399,6 +407,42 @@ const MobileAppServiceCard = () => {
       170
     ) + "...";
 
+  const paragraphFull16 = (
+    <>
+      To expand your business and run a smooth architectural approach like the
+      App Shell Model, our developers serve the best app service model to create
+      the effectiveness of your application through progressive web app
+      development services.
+    </>
+  );
+
+  const paragraphShort16 =
+    "To expand your business and run a smooth architectural approach like the App Shell Model, our developers serve the best app service model to create the effectiveness of your application through progressive web app development services...".substring(
+      0,
+      170
+    ) + "...";
+
+  const paragraphFull17 = (
+    <>
+      We cater to specific mobile operating systems e.g. Apple, IO, S, and
+      Android to produce native device features. Our skillful{" "}
+      <Link
+        href={"/services/native-app-development-services"}
+        className="text-orange-600"
+      >
+        native app development services
+      </Link>{" "}
+      can build a proper ecosystem to create easier observance with the Google
+      Play Store and Apple App Store.
+    </>
+  );
+
+  const paragraphShort17 =
+    "We cater to specific mobile operating systems e.g. Apple, IO, S, and Android) to produce native device features. Our skillful native app development services can build a proper ecosystem to create easier observance with the Google Play Store and Apple App Store...".substring(
+      0,
+      170
+    ) + "...";
+
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-6">
       <div
@@ -519,6 +563,80 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/native-app-development-services.png"
+          alt="image shows hiring of top android app developers"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">Native App Development</h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore17 ? paragraphFull17 : paragraphShort17}
+            </p>
+            <button
+              onClick={handleShowMore17}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore17 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/top-pwa-development-services.png"
+          alt="image shows hiring of top android app developers"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">PWA Development Services</h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore16 ? paragraphFull16 : paragraphShort16}
+            </p>
+            <button
+              onClick={handleShowMore16}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore16 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
         <Image
           loader={customLoader}
           width={300}
@@ -581,6 +699,80 @@ const MobileAppServiceCard = () => {
               }`}
             >
               {showMore5 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/top-ios-app-design-services.png"
+          alt="image shows a mobile app consulting discussion between consultant and client"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">iOS App Design</h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore10 ? paragraphFull10 : paragraphShort10}
+            </p>
+            <button
+              onClick={handleShowMore10}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore10 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/top-android-app-design-services.png"
+          alt="image shows a mobile app consulting discussion between consultant and client"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">Android App design</h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore12 ? paragraphFull12 : paragraphShort12}
+            </p>
+            <button
+              onClick={handleShowMore12}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore12 ? "Show less" : "Show more"}
             </button>
           </div>
         </div>
@@ -749,43 +941,6 @@ const MobileAppServiceCard = () => {
           loader={customLoader}
           width={300}
           height={200}
-          src="/top-ios-app-design-services.png"
-          alt="image shows a mobile app consulting discussion between consultant and client"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
-        />
-        <div className="flex flex-col items-start text-start gap-1 pt-3">
-          <h3 className="text-base font-semibold">iOS App Design</h3>
-          <div className="flex flex-wrap gap-1">
-            <p
-              className={`text-[13px] ${
-                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
-              }`}
-            >
-              {showMore10 ? paragraphFull10 : paragraphShort10}
-            </p>
-            <button
-              onClick={handleShowMore10}
-              className={`text-[13px] font-semibold ${
-                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
-              }`}
-            >
-              {showMore10 ? "Show less" : "Show more"}
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className={`w-full min-h-[329px] rounded-xl p-3 ${
-          theme === "light"
-            ? "border border-[#E7E7E7]"
-            : "border border-[#7c7c7c]"
-        }`}
-      >
-        <img
-          loader={customLoader}
-          width={300}
-          height={200}
           src="/hire-top-ios-app-developers.png"
           alt="image shows a mobile app consulting discussion between consultant and client"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
@@ -823,43 +978,6 @@ const MobileAppServiceCard = () => {
           loader={customLoader}
           width={300}
           height={200}
-          src="/top-android-app-design-services.png"
-          alt="image shows a mobile app consulting discussion between consultant and client"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
-        />
-        <div className="flex flex-col items-start text-start gap-1 pt-3">
-          <h3 className="text-base font-semibold">Android App design</h3>
-          <div className="flex flex-wrap gap-1">
-            <p
-              className={`text-[13px] ${
-                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
-              }`}
-            >
-              {showMore12 ? paragraphFull12 : paragraphShort12}
-            </p>
-            <button
-              onClick={handleShowMore12}
-              className={`text-[13px] font-semibold ${
-                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
-              }`}
-            >
-              {showMore12 ? "Show less" : "Show more"}
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className={`w-full min-h-[329px] rounded-xl p-3 ${
-          theme === "light"
-            ? "border border-[#E7E7E7]"
-            : "border border-[#7c7c7c]"
-        }`}
-      >
-        <img
-          loader={customLoader}
-          width={300}
-          height={200}
           src="/hire-top-android-app-developers.png"
           alt="image shows hiring of top android app developers"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
@@ -881,43 +999,6 @@ const MobileAppServiceCard = () => {
               }`}
             >
               {showMore13 ? "Show less" : "Show more"}
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className={`w-full min-h-[329px] rounded-xl p-3 ${
-          theme === "light"
-            ? "border border-[#E7E7E7]"
-            : "border border-[#7c7c7c]"
-        }`}
-      >
-        <img
-          loader={customLoader}
-          width={300}
-          height={200}
-          src="/top-native-app-development-services.png"
-          alt="image shows hiring of top android app developers"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
-        />
-        <div className="flex flex-col items-start text-start gap-1 pt-3">
-          <h3 className="text-base font-semibold">Native App Development</h3>
-          <div className="flex flex-wrap gap-1">
-            <p
-              className={`text-[13px] ${
-                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
-              }`}
-            >
-              {showMore15 ? paragraphFull15 : paragraphShort15}
-            </p>
-            <button
-              onClick={handleShowMore15}
-              className={`text-[13px] font-semibold ${
-                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
-              }`}
-            >
-              {showMore15 ? "Show less" : "Show more"}
             </button>
           </div>
         </div>

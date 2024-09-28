@@ -49,7 +49,7 @@ const BenefitsOfWorking = () => {
               alt="Mobile App Development Service Project Outlook Icon"
             />
           </div>
-          <p className={`text-3xl font-semibold`}>Project Outlook</p>
+          <h3 className={`text-3xl font-semibold`}>Project Outlook</h3>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -81,7 +81,7 @@ const BenefitsOfWorking = () => {
               alt="Mobile App Development Service collaboration icon"
             />
           </div>
-          <p className={`text-3xl font-semibold`}>Collaboration</p>
+          <h3 className={`text-3xl font-semibold`}>Collaboration</h3>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -110,7 +110,7 @@ const BenefitsOfWorking = () => {
               alt="Mobile App Development Service Cost estimation App Icon"
             />
           </div>
-          <p className={`text-3xl font-semibold`}>Cost Estimation</p>
+          <h3 className={`text-3xl font-semibold`}>Cost Estimation</h3>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -147,7 +147,7 @@ const BenefitsOfWorking = () => {
               alt="Mobile App Development Service Risk Management Icon"
             />
           </div>
-          <p className={`text-3xl font-semibold`}>Risk Management</p>
+          <h3 className={`text-3xl font-semibold`}>Risk Management</h3>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -180,7 +180,7 @@ const BenefitsOfWorking = () => {
             />
           </div>
 
-          <p className={`text-3xl font-semibold`}>Project Documentation</p>
+          <h3 className={`text-3xl font-semibold`}>Project Documentation</h3>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -214,7 +214,7 @@ const BenefitsOfWorking = () => {
               alt="Mobile App Development Service Reporting Icon"
             />
           </div>
-          <p className={`text-3xl font-semibold`}>Reporting</p>
+          <h3 className={`text-3xl font-semibold`}>Reporting</h3>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -245,7 +245,7 @@ const BenefitsOfWorking = () => {
               alt="Mobile App Development Service Post-launch Icon"
             />
           </div>
-          <p className={`text-3xl font-semibold`}>Post Launch</p>
+          <h3 className={`text-3xl font-semibold`}>Post Launch</h3>
           <p
             className={`text-sm font-normal ${
               theme === "light"
@@ -274,7 +274,9 @@ const BenefitsOfWorking = () => {
               alt="mobile app development change request management icon"
             />
           </div>
-          <p className={`text-3xl font-semibold`}>Change Request Management</p>
+          <h3 className={`text-3xl font-semibold`}>
+            Change Request Management
+          </h3>
           <p
             className={`text-sm font-normal ${
               theme === "light"
