@@ -11,6 +11,7 @@ const Hero = () => {
   const { theme } = useContext(GlobalContext);
   const [toggle, setToggle] = useState(true);
   const [toggleImg, setToggleImg] = useState(false);
+  const [toggleImg2, setToggleImg2] = useState(false);
 
   return (
     <div className="w-full text-center relative pb-20 pt-2 md:pt-10 global-padding-horizontal flex flex-col items-center">
@@ -35,12 +36,6 @@ const Hero = () => {
       </p>
 
       <div className="mt-10">
-        {/* <Link
-          href={"/contact-us"}
-          className="bg-[#F15C20] px-7 py-5 rounded-full text-white text-sm font-semibold flex items-center justify-center gap-1"
-        >
-          Get a quote <FiArrowUpRight className="text-lg" />
-        </Link> */}
         <ContactButton text1={"Get a quote"} text2={"Let's talk"} />
       </div>
 
@@ -48,10 +43,17 @@ const Hero = () => {
         <div
           className={`w-[320px] xl:w-[380px] h-[667px] rounded-[60px] group flex flex-col items-center justify-start pt-12 gap-8 ${
             toggle ? `bg-[#F5F5F5]` : "bg-[#3A3A3C]"
-          } `}
+          } relative`}
+          onMouseEnter={() => setToggleImg2(true)}
+          onMouseLeave={() => setToggleImg2(false)}
         >
+          <div
+            className={`absolute w-full h-full inset-0 z-0 rounded-[60px] transition-opacity duration-1000 ios-app-design-hero ${
+              toggleImg2 ? "opacity-100" : "opacity-0"
+            }`}
+          />
           <h2
-            className={`text-[24px] font-semibold group-hover:text-white ${
+            className={`text-[24px] font-semibold group-hover:text-white z-20 ${
               toggle ? "text-black" : "text-white"
             }`}
           >
@@ -61,13 +63,13 @@ const Hero = () => {
             <img
               src="/ios-app-design-company.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
-              className="w-[256px] h-[522.38px]"
+              className="w-[256px] h-[522.38px] z-20"
             />
           ) : (
             <img
               src="/ios-app-design-company-dark.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
-              className="w-[256px] h-[522.38px]"
+              className="w-[256px] h-[522.38px] z-20"
             />
           )}
         </div>

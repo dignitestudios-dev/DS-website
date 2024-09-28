@@ -1766,3 +1766,13 @@ video {
 .react-tel-input .selected-flag:focus {
   background-color: transparent !important;
 }
+
+.ios-app-design-hero {
+  background: linear-gradient(
+    161.57deg,
+    #ffb484 0%,
+    #ff88a4 33.6%,
+    #c47aff 68.6%,
+    #759bff 100%
+  );
+}

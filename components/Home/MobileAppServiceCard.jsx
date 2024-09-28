@@ -13,6 +13,14 @@ const MobileAppServiceCard = () => {
   const [showMore5, setShowMore5] = useState(false);
   const [showMore6, setShowMore6] = useState(false);
   const [showMore7, setShowMore7] = useState(false);
+  const [showMore8, setShowMore8] = useState(false);
+  const [showMore9, setShowMore9] = useState(false);
+  const [showMore10, setShowMore10] = useState(false);
+  const [showMore11, setShowMore11] = useState(false);
+  const [showMore12, setShowMore12] = useState(false);
+  const [showMore13, setShowMore13] = useState(false);
+  const [showMore14, setShowMore14] = useState(false);
+  const [showMore15, setShowMore15] = useState(false);
 
   const handleShowMore = () => {
     setShowMore(!showMore);
@@ -34,6 +42,30 @@ const MobileAppServiceCard = () => {
   };
   const handleShowMore7 = () => {
     setShowMore7(!showMore7);
+  };
+  const handleShowMore8 = () => {
+    setShowMore8(!showMore8);
+  };
+  const handleShowMore9 = () => {
+    setShowMore9(!showMore9);
+  };
+  const handleShowMore10 = () => {
+    setShowMore10(!showMore10);
+  };
+  const handleShowMore11 = () => {
+    setShowMore11(!showMore11);
+  };
+  const handleShowMore12 = () => {
+    setShowMore12(!showMore12);
+  };
+  const handleShowMore13 = () => {
+    setShowMore13(!showMore13);
+  };
+  const handleShowMore14 = () => {
+    setShowMore14(!showMore14);
+  };
+  const handleShowMore15 = () => {
+    setShowMore15(!showMore15);
   };
 
   const paragraphFull = (
@@ -203,6 +235,166 @@ const MobileAppServiceCard = () => {
 
   const paragraphShort7 =
     "Forming a mobile application is a great way for business owners to improve their marketing strategy, service optimization, and cost-effectiveness. It can systematically increase your revenue and click-through rate by consulting it with reliable mobile app developers. Therefore, each mobile app has its aspects and functionality in terms of target audience, design, monetization, security, and privacy. However, it needs to be evaluated foremost from a better platform. So, at the door of Dignite Studios, you can avail the best mobile consulting services to provide you with free consultation on your mobile app development. Also, our experts are available 24/7 to assist you on call. So, don’t wait and upgrade your mobile devices....".substring(
+      0,
+      170
+    ) + "...";
+
+  const paragraphFull8 = (
+    <>
+      In the ever-evolving digital landscape, our mobile app company services
+      ensure your app is functional, secure, and competitive. Our mobile
+      application development agency set the seal to provide you with free
+      maintenance for 2 months from the deployment of your app. It will include
+      bug fixing, troubleshooting, performance monitoring, security updates,
+      feature enhancement, upgrade versions, and compatibility testing.
+      Therefore,{" "}
+      <Link
+        className="text-orange-600"
+        href={"/services/mobile-application-support-and-maintenance-services"}
+      >
+        mobile app support and maintenance services
+      </Link>{" "}
+      will help you to enhance user experience and update app versions
+      accordingly to your mobile app development.
+    </>
+  );
+
+  const paragraphShort8 =
+    "In the ever-evolving digital landscape, our mobile app company services ensure your app is functional, secure, and competitive. Our mobile application development agency set the seal to provide you with free maintenance for 2 months from the deployment of your app. It will include bug fixing, troubleshooting, performance monitoring, security updates, feature enhancement, upgrade versions, and compatibility testing. Therefore, mobile app support and maintenance services will help you to enhance user experience and update app versions accordingly to your mobile app development.....".substring(
+      0,
+      170
+    ) + "...";
+
+  const paragraphFull9 = (
+    <>
+      Here at Dignite Studios, we bestow the best mobile-powered project, to
+      create effective APIs, automate workflows, monitor high levels of coding
+      systems, integrate tools, and evaluate security performance
+      constructively. Our mobile app company can save you time and money to
+      accomplish your project instantly. The mobile application development
+      process plays a notable role in acquiring business needs.{" "}
+      <Link
+        href={"/services/hire-mobile-app-developers"}
+        className="text-orange-600"
+      >
+        Hire mobile app developer
+      </Link>{" "}
+      services from a renowned group of experienced developers.
+    </>
+  );
+
+  const paragraphShort9 =
+    "Here at Dignite Studios, we bestow the best mobile-powered project, to create effective APIs, automate workflows, monitor high levels of coding systems, integrate tools, and evaluate security performance constructively. Our mobile app company can save you time and money to accomplish your project instantly. The mobile application development process plays a notable role in acquiring business needs. Hire mobile app developer services from a renowned group of experienced developers.....".substring(
+      0,
+      170
+    ) + "...";
+
+  const paragraphFull10 = (
+    <>
+      Our{" "}
+      <Link
+        href={"/services/ios-app-design-services"}
+        className="text-orange-600"
+      >
+        iOS App design services
+      </Link>{" "}
+      have vast experience in generating thousands of IOS apps, our agency
+      follows Apple's human interface design principles that focus on san serif
+      typography, minimalist icons, and a limited color palette for users to
+      maintain a clear hierarchy as required.
+    </>
+  );
+
+  const paragraphShort10 =
+    "Our iOS App design services have vast experience in generating thousands of IOS apps, our agency follows Apple's human interface design principles that focus on san serif typography, minimalist icons, and a limited color palette for users to maintain a clear hierarchy as required...".substring(
+      0,
+      170
+    ) + "...";
+
+  const paragraphFull11 = (
+    <>
+      Here at Dignite Studios,{" "}
+      <Link
+        href={"/services/hire-ios-app-developers"}
+        className="text-orange-600"
+      >
+        hire iOS developers
+      </Link>{" "}
+      services to acquire captivating IOS designs, and features of IOS
+      applications. Our expert developers not only engage with large enterprises
+      but also cooperate with small and medium start-ups to boost their
+      development journey.
+    </>
+  );
+
+  const paragraphShort11 =
+    "Here at Dignite Studios, hire iOS developers services to acquire captivating IOS designs, and features of IOS applications. Our expert developers not only engage with large enterprises but also cooperate with small and medium start-ups to boost their development journey....".substring(
+      0,
+      170
+    ) + "...";
+
+  const paragraphFull12 = (
+    <>
+      To maintain the efficacy of your mobile application, we furnish material
+      design guidelines, shadow effects, bold colors, and unique layouts for
+      your application. Also, our team of{" "}
+      <Link
+        href={"/services/android-mobile-app-design-services"}
+        className="text-orange-600"
+      >
+        Android app design services
+      </Link>{" "}
+      possesses easy and readable fonts for various screen sizes of mobile app
+      development.
+    </>
+  );
+
+  const paragraphShort12 =
+    "To maintain the efficacy of your mobile application, we furnish material design guidelines, shadow effects, bold colors, and unique layouts for your application. Also, our team of Android app design services possesses easy and readable fonts for various screen sizes of mobile app development...".substring(
+      0,
+      170
+    ) + "...";
+
+  const paragraphFull13 = (
+    <>
+      Do you want to expand your reach and generate more revenue through Android
+      mobile apps? Here you are at the right place,{" "}
+      <Link
+        href={"/services/hire-android-app-developers"}
+        className="text-orange-600"
+      >
+        hire android mobile app developers
+      </Link>{" "}
+      services from a top mobile application company to boost your brand
+      awareness, and customer engagement, and drive the highest revenues in the
+      market. However, to create a high-quality Android app a growing business
+      must hire Android developers services from our platform.
+    </>
+  );
+
+  const paragraphShort13 =
+    "Do you want to expand your reach and generate more revenue through Android mobile apps? Here you are at the right place, hire mobile app developers services from a top mobile application company to boost your brand awareness, and customer engagement, and drive the highest revenues in the market. However, to create a high-quality Android app a growing business must hire Android developers services from our platform...".substring(
+      0,
+      170
+    ) + "...";
+
+  const paragraphFull15 = (
+    <>
+      We cater to specific mobile operating systems e.g. Apple, IO, S, and
+      Android to produce native device features. Our skillful{" "}
+      <Link
+        href={"/services/native-app-development-services"}
+        className="text-orange-600"
+      >
+        native app development services
+      </Link>{" "}
+      can build a proper ecosystem to create easier observance with the Google
+      Play Store and Apple App Store.
+    </>
+  );
+
+  const paragraphShort15 =
+    "We cater to specific mobile operating systems e.g. Apple, IO, S, and Android) to produce native device features. Our skillful native app development services can build a proper ecosystem to create easier observance with the Google Play Store and Apple App Store...".substring(
       0,
       170
     ) + "...";
@@ -463,6 +655,269 @@ const MobileAppServiceCard = () => {
               }`}
             >
               {showMore7 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/top-mobile-app-support-and-maintenance-services.png"
+          alt="image shows a mobile app support and maintenance services"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">
+            Mobile App Support and Maintenance
+          </h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore8 ? paragraphFull8 : paragraphShort8}
+            </p>
+            <button
+              onClick={handleShowMore8}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore8 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/hire-top-mobile-app-developers.png"
+          alt="image shows a mobile app consulting discussion between consultant and client"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">
+            Hire Mobile App Developers
+          </h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore9 ? paragraphFull9 : paragraphShort9}
+            </p>
+            <button
+              onClick={handleShowMore9}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore9 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/top-ios-app-design-services.png"
+          alt="image shows a mobile app consulting discussion between consultant and client"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">iOS App Design</h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore10 ? paragraphFull10 : paragraphShort10}
+            </p>
+            <button
+              onClick={handleShowMore10}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore10 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/hire-top-ios-app-developers.png"
+          alt="image shows a mobile app consulting discussion between consultant and client"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">Hire iOS Developers</h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore11 ? paragraphFull11 : paragraphShort11}
+            </p>
+            <button
+              onClick={handleShowMore11}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore11 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/top-android-app-design-services.png"
+          alt="image shows a mobile app consulting discussion between consultant and client"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">Android App design</h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore12 ? paragraphFull12 : paragraphShort12}
+            </p>
+            <button
+              onClick={handleShowMore12}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore12 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/hire-top-android-app-developers.png"
+          alt="image shows hiring of top android app developers"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">Hire Android Developers</h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore13 ? paragraphFull13 : paragraphShort13}
+            </p>
+            <button
+              onClick={handleShowMore13}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore13 ? "Show less" : "Show more"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full min-h-[329px] rounded-xl p-3 ${
+          theme === "light"
+            ? "border border-[#E7E7E7]"
+            : "border border-[#7c7c7c]"
+        }`}
+      >
+        <img
+          loader={customLoader}
+          width={300}
+          height={200}
+          src="/top-native-app-development-services.png"
+          alt="image shows hiring of top android app developers"
+          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+        />
+        <div className="flex flex-col items-start text-start gap-1 pt-3">
+          <h3 className="text-base font-semibold">Native App Development</h3>
+          <div className="flex flex-wrap gap-1">
+            <p
+              className={`text-[13px] ${
+                theme === "light" ? "text-[#5C5C5C]" : "text-[#9d9d9d]"
+              }`}
+            >
+              {showMore15 ? paragraphFull15 : paragraphShort15}
+            </p>
+            <button
+              onClick={handleShowMore15}
+              className={`text-[13px] font-semibold ${
+                theme === "light" ? "text-[#F15C20]" : "text-[#F15C20]"
+              }`}
+            >
+              {showMore15 ? "Show less" : "Show more"}
             </button>
           </div>
         </div>

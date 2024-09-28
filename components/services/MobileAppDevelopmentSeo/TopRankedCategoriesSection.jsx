@@ -12,17 +12,11 @@ const TopRankedCategoriesSection = () => {
         <h2
           className={`${
             theme === "dark" ? "text-white" : "text-black"
-          } text-start text-4xl lg:text-5xl xl:text-[67px] font-bold uppercase hidden lg:w-[60%] xl:w-[70%] lg:block tracking-tighter xl:leading-[72px]`}
+          } text-start text-4xl lg:text-5xl xl:text-[67px] font-bold uppercase lg:w-[60%] xl:w-[70%] block tracking-tighter xl:leading-[72px]`}
         >
           Top Ranked Solutions for Multiple Platforms 
         </h2>
-        <h2
-          className={`${
-            theme === "dark" ? "text-white" : "text-black"
-          } text-start text-3xl lg:text-5xl xl:text-[64px] font-bold uppercase block lg:hidden`}
-        >
-          top ranked categories of app development
-        </h2>
+
         <div className="hidden lg:block">
           <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
         </div>
@@ -85,7 +79,7 @@ const TopRankedCategoriesSection = () => {
           </p>
         </div>
         <div
-          className={`w-full rounded-[24px] p-6 flex flex-col items-start gap-3 ${
+          className={`w-full rounded-[24px] p-6 flex flex-col items-start gap-3 group ${
             theme === "light" ? "bg-[#F9F9F9] hover:text-white" : "bg-[#2d2d2d]"
           } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
         >
