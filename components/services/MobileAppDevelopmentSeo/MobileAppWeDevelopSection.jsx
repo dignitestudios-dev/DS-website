@@ -37,16 +37,6 @@ const MobileAppWeDevelopSection = () => {
 
         <div className="flex flex-col gap-y-32 mt-4 lg:mt-0">
           <div className="mt-7">
-            {/* <Link
-              href={{
-                pathname: "/contact-us",
-              }}
-              className={`px-6 py-5 xl:px-8 xl:py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] ${
-                theme === "light" ? "bg-white" : "bg-[#222222]"
-              } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
-            >
-              Get In Touch
-            </Link> */}
             <ContactButton text1={"Get In Touch"} text2={"Let's talk"} />
           </div>
         </div>

@@ -51,9 +51,9 @@ const MobileAppDevelopmentServicesSection = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               01.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               Product Market Research
-            </span>
+            </h3>
           </div>
           {openAccordion === 1 ? (
             <FiMinus className="text-2xl" />
@@ -109,9 +109,9 @@ const MobileAppDevelopmentServicesSection = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               02.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               Mobile App Consulting
-            </span>
+            </h3>
           </div>
           {openAccordion === 2 ? (
             <FiMinus className="text-2xl" />
@@ -175,9 +175,9 @@ const MobileAppDevelopmentServicesSection = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               03.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               Mobile App Development
-            </span>
+            </h3>
           </div>
           {openAccordion === 3 ? (
             <FiMinus className="text-2xl" />
@@ -234,9 +234,9 @@ const MobileAppDevelopmentServicesSection = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               04.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               Mobile App design
-            </span>
+            </h3>
           </div>
           {openAccordion === 4 ? (
             <FiMinus className="text-2xl" />
@@ -299,9 +299,9 @@ const MobileAppDevelopmentServicesSection = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               05.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               Web Development
-            </span>
+            </h3>
           </div>
           {openAccordion === 5 ? (
             <FiMinus className="text-2xl" />
@@ -363,9 +363,9 @@ const MobileAppDevelopmentServicesSection = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               06.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               Mobile App Integration
-            </span>
+            </h3>
           </div>
           {openAccordion === 6 ? (
             <FiMinus className="text-2xl" />
@@ -421,9 +421,9 @@ const MobileAppDevelopmentServicesSection = () => {
             <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
               07.
             </span>
-            <span className="font-semibold text-base md:text-lg lg:text-[32px]">
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
               Testing App Functionality
-            </span>
+            </h3>
           </div>
           {openAccordion === 7 ? (
             <FiMinus className="text-2xl" />
