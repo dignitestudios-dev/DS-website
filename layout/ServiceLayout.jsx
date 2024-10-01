@@ -203,11 +203,24 @@ const ServicesLayout = ({ page }) => {
               <span className="box_promo2">Upto 25% OFF</span>
             </div>
             {error && <ContactUsAlert />}
-
             <span onClick={() => setShowModal(false)} className="close_icon">
               <RxCross2 />
             </span>
-
+            <span className="hidden">Name:</span>{" "}
+            <input type="text" name="name" className="hidden" />
+            <input
+              type="hidden"
+              id="gclid_field"
+              name="gclid_field"
+              value=""
+              className="hidden"
+            />
+            <input
+              type="submit"
+              value="Submit Form"
+              name="btnSubmit"
+              className="hidden"
+            />
             <div className="input_field">
               <label className="label_field">Name</label>
               <button type="button" className="input_flex">
@@ -337,7 +350,6 @@ const ServicesLayout = ({ page }) => {
                 <span className="text-red-500 text-sm">{errors.message}</span>
               )}
             </div>
-
             <button type="submit" className="sub_button">
               Submit
             </button>

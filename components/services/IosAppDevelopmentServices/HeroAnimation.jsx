@@ -11,11 +11,6 @@ const HeroAnimation = () => {
   useEffect(() => {
     if (showIcons) {
       setClassName("icon rotating-image");
-      //   const timer = setTimeout(() => {
-      //     setClassName("icons icon-1 rotating-image");
-      //   }, 1500);
-
-      //   return () => clearTimeout(timer);
     }
   }, [showIcons]);
 
