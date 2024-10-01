@@ -1110,7 +1110,7 @@ image {
   }
 }
 
-@keyframes moveIconTop {
+/* @keyframes moveIconTop {
   from {
     transform: translate(-50%, 100%);
     opacity: 0;
@@ -1119,7 +1119,7 @@ image {
     transform: translate(20%, -230%);
     opacity: 1;
   }
-}
+} */
 
 /* Initial movement animation */
 .icon-animate {
@@ -1139,10 +1139,10 @@ image {
 }
 
 /* Continuous rotation animation */
-.icon-rotate {
+/* .icon-rotate {
   animation: rotate 2s ease-out infinite;
-  animation-delay: 1s; /* Matches the duration of moveToTop animation */
-}
+  animation-delay: 1s; 
+} */
 
 @keyframes rotate {
   0% {

@@ -1,0 +1,188 @@
+.object_card {
+  animation: rotate 1s alternate-reverse infinite;
+  animation-delay: 0s;
+}
+.object_card1 {
+  animation: rotate1 1s alternate-reverse infinite;
+  animation-delay: 0s;
+}
+
+.object_card2 {
+  animation: rotate2 1s alternate-reverse infinite;
+  animation-delay: 0s;
+}
+.object_card3 {
+  animation: rotate3 1s alternate-reverse infinite;
+  animation-delay: 0s;
+}
+.object_card4 {
+  animation: rotate4 1s alternate-reverse infinite;
+  animation-delay: 0s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(16%, -230%) rotate(10deg);
+  }
+  100% {
+    transform: translate(20%, -230%) rotate(26deg);
+  }
+}
+
+@keyframes rotate1 {
+  0% {
+    transform: translate(238%, -82%) rotate(20deg);
+  }
+  100% {
+    transform: translate(243%, -78%) rotate(-26deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: translate(176%, 146%) rotate(20deg);
+  }
+  100% {
+    transform: translate(180%, 150%) rotate(26deg);
+  }
+}
+
+@keyframes rotate3 {
+  0% {
+    transform: translate(-150%, 150%) rotate(20deg);
+  }
+  100% {
+    transform: translate(-156%, 156%) rotate(26deg);
+  }
+}
+
+@keyframes rotate4 {
+  0% {
+    transform: translate(-226%, -66%) rotate(20deg);
+  }
+  100% {
+    transform: translate(-230%, -70%) rotate(26deg);
+  }
+}
+
+.object_card {
+  animation: rotate 1s alternate-reverse infinite;
+  animation-delay: 0s;
+}
+.object_card1 {
+  animation: rotate1 1s alternate-reverse infinite;
+  animation-delay: 0s;
+}
+
+.object_card2 {
+  animation: rotate2 1s alternate-reverse infinite;
+  animation-delay: 0s;
+}
+.object_card3 {
+  animation: rotate3 1s alternate-reverse infinite;
+  animation-delay: 0s;
+}
+.object_card4 {
+  animation: rotate4 1s alternate-reverse infinite;
+  animation-delay: 0s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(16%, -230%) rotate(10deg);
+  }
+  100% {
+    transform: translate(20%, -230%) rotate(16deg);
+  }
+}
+
+@keyframes rotate1 {
+  0% {
+    transform: translate(238%, -82%) rotate(10deg);
+  }
+  100% {
+    transform: translate(243%, -78%) rotate(16deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: translate(176%, 146%) rotate(10deg);
+  }
+  100% {
+    transform: translate(180%, 150%) rotate(16deg);
+  }
+}
+
+@keyframes rotate3 {
+  0% {
+    transform: translate(-150%, 150%) rotate(10deg);
+  }
+  100% {
+    transform: translate(-156%, 156%) rotate(16deg);
+  }
+}
+
+@keyframes rotate4 {
+  0% {
+    transform: translate(-226%, -66%) rotate(10deg);
+  }
+  100% {
+    transform: translate(-230%, -70%) rotate(16deg);
+  }
+}
+
+@keyframes moveIconTop {
+  from {
+    transform: translate(-50%, 100%) rotate(10deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate(20%, -230%) rotate(16deg);
+    opacity: 1;
+  }
+}
+
+@keyframes moveIconRight {
+  from {
+    transform: translate(-50%, 100%) rotate(10deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate(240%, -80%) rotate(16deg);
+    opacity: 1;
+  }
+}
+
+@keyframes moveIconBottom {
+  from {
+    transform: translate(-50%, 100%) rotate(10deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate(180%, 150%) rotate(16deg);
+    opacity: 1;
+  }
+}
+
+@keyframes moveIconLeft {
+  from {
+    transform: translate(-50%, 100%) rotate(10deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-160%, 160%) rotate(16deg);
+    opacity: 1;
+  }
+}
+
+@keyframes moveIconTopRight {
+  from {
+    transform: translate(-50%, 100%) rotate(10deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-230%, -70%) rotate(16deg);
+    opacity: 1;
+  }
+}
