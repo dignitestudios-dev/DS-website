@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
 
         {/* <!-- Clarity tracking code for https://www.dignitestudios.com/ --> */}
         <script>
-          (function(c,l,a,r,i,t,y)
+          (function(c, l, a, r, i, t, y){" "}
           {
             (c[a] =
               c[a] ||
@@ -44,8 +44,9 @@ export default function RootLayout({ children }) {
                 (c[a].q = c[a].q || []).push(arguments);
               })
           }
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          t = l.createElement(r); t.async = 1; t.src =
+          "https://www.clarity.ms/tag/" + i + "?ref=bwt"; y =
+          l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
           )(window, document, "clarity", "script", "ocfggtesda");
         </script>
       </head>
