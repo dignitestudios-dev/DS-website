@@ -206,7 +206,7 @@ const ServicesLayout = ({ page }) => {
             <span onClick={() => setShowModal(false)} className="close_icon">
               <RxCross2 />
             </span>
-            <span className="hidden">Name:</span>{" "}
+            {/* <span className="hidden">Name:</span>{" "}
             <input type="text" name="name" className="hidden" />
             <input
               type="hidden"
@@ -220,7 +220,7 @@ const ServicesLayout = ({ page }) => {
               value="Submit Form"
               name="btnSubmit"
               className="hidden"
-            />
+            /> */}
             <div className="input_field">
               <label className="label_field">Name</label>
               <button type="button" className="input_flex">
