@@ -388,7 +388,7 @@ const ContactUsPage = () => {
         </div>
         <div className="w-full h-full lg:col-span-2">
           <img
-            src={"/dignite-studios-contact-us-image.png"}
+            src={"/dignite-studios-contact-us-image.webp"}
             className="w-full h-full"
             alt="the image shows connecting people from all over the world"
           />

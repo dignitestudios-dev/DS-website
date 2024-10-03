@@ -43,7 +43,7 @@ const Hero = () => {
         />
         <div className="w-full flex items-center justify-center z-10 mt-10 gap-3 md:gap-6 relative">
           <img
-            src="/maintenance-hero-left-icon.png"
+            src="/maintenance-hero-left-icon.webp"
             alt="app-service-icon"
             title="app-service-icon"
             className="w-[157.05px] h-[100px] hidden lg:block absolute top-9 -left-20 xl:left-16 2xl:left-28 z-20 maintenance-animated-icon"
@@ -67,7 +67,7 @@ const Hero = () => {
             title="Mobile application support and maintenance services"
           />
           <img
-            src="/app-maintenance-icon.png"
+            src="/app-maintenance-icon.webp"
             alt="app-service-icon"
             title="app-service-icon"
             className="w-[187.05px] h-[107px] hidden lg:block absolute bottom-16 -right-28 xl:right-12 2xl:right-24 2xl:bottom-24 z-20 maintanence-animated-icon-2"

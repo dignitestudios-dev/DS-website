@@ -47,6 +47,14 @@ const Process = () => {
           >
             mobile app development <br /> process
           </h2>
+          <p
+            className={`text-sm lg:text-[16px] my-3 lg:leading-[24.48px] font-[400] lg:w-[35%] ${
+              theme === "light" && "text-[#2A2A2A]"
+            }`}
+          >
+            Our mobile app development agency articulates the brand’s voice and
+            values through a systematic approach below:
+          </p>
         </div>
         <div className="w-full h-auto mt-6 lg:my-6 grid grid-cols-3 grid-rows-1">
           <button

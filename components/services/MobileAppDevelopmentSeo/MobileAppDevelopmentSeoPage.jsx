@@ -41,22 +41,22 @@ const MobileAppDevelopmentSeoPage = () => {
             <span className="text-[#F15C20]">technologies</span> we’re using
           </h2>
           {theme === "dark" ? (
-            <Image
+            <img
               loading="lazy"
               loader={customLoader}
               width={1440}
               height={545}
-              src="/Mobile-App-Development-Service-Technologies-dark.png"
+              src="/mobile-mpp-development-service-technologies-dark.png"
               alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
               className="w-full z-10 h-full md:h-[340px] lg:h-full absolute bottom-0"
             />
           ) : (
-            <Image
+            <img
               loading="lazy"
               loader={customLoader}
               width={1440}
               height={545}
-              src="/Mobile-App-Development-Service-Technologies-dark-light.webp"
+              src="/mobile-app-development-service-technologies-dark-light.webp"
               alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
               className="w-full z-10 h-full md:h-[340px] lg:h-full absolute bottom-0"
             />

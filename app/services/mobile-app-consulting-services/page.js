@@ -7,7 +7,7 @@ import React from "react";
 export const metadata = {
   title: "Mobile app consulting services | Dignite Studios",
   description:
-    "Explore professional mobile application consulting services with our expert agency to thrive your innovative application solutions. Here, you’ll experience modern mobile application development strategies to make your company bulge out. ",
+    "Our top mobile app development company in US, sets new standards in the digital venture of software solutions to lift your core business exclusively.",
 };
 
 const breadcrumbData = {

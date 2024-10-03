@@ -26,7 +26,7 @@ const UnrivaledSection = () => {
         </div>
       </div>
       <img
-        src="/Web-app-development-company.png"
+        src="/web-app-development-company.webp"
         alt="Web app development company page shows web mock screen of app development"
         className="lg:w-[826px] lg:h-[573px] float-end slide-left-on-load"
         data-aos="slide-left"

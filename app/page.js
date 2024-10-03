@@ -8,7 +8,7 @@ import RootLayout from "./layout";
 export const metadata = {
   title: "Dignite Studios: Top Mobile App Development Company in US",
   description:
-    "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
+    "Among top mobile app development companies. Our agency fabricates your mobile app & software application process effectively with significant solution.",
 };
 
 const Page = () => {

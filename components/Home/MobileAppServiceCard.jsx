@@ -411,8 +411,13 @@ const MobileAppServiceCard = () => {
     <>
       To expand your business and run a smooth architectural approach like the
       App Shell Model, our developers serve the best app service model to create
-      the effectiveness of your application through progressive web app
-      development services.
+      the effectiveness of your application through{" "}
+      <Link
+        href={"/services/pwa-development-services"}
+        className="text-orange-600"
+      >
+        progressive web app development services.
+      </Link>
     </>
   );
 
@@ -567,7 +572,7 @@ const MobileAppServiceCard = () => {
           loader={customLoader}
           width={300}
           height={200}
-          src="/native-app-development-services.png"
+          src="/top-native-app-development-services.webp"
           alt="image shows hiring of top android app developers"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
@@ -604,7 +609,7 @@ const MobileAppServiceCard = () => {
           loader={customLoader}
           width={300}
           height={200}
-          src="/top-pwa-development-services.png"
+          src="/top-pwa-development-services.webp"
           alt="image shows hiring of top android app developers"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
@@ -715,7 +720,7 @@ const MobileAppServiceCard = () => {
           loader={customLoader}
           width={300}
           height={200}
-          src="/top-ios-app-design-services.png"
+          src="/top-ios-app-design-services.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
@@ -752,7 +757,7 @@ const MobileAppServiceCard = () => {
           loader={customLoader}
           width={300}
           height={200}
-          src="/top-android-app-design-services.png"
+          src="/top-android-app-design-services.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
@@ -863,7 +868,7 @@ const MobileAppServiceCard = () => {
           loader={customLoader}
           width={300}
           height={200}
-          src="/top-mobile-app-support-and-maintenance-services.png"
+          src="/top-mobile-app-support-and-maintenance-services.webp"
           alt="image shows a mobile app support and maintenance services"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
@@ -902,7 +907,7 @@ const MobileAppServiceCard = () => {
           loader={customLoader}
           width={300}
           height={200}
-          src="/hire-top-mobile-app-developers.png"
+          src="/hire-top-mobile-app-developers.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
@@ -941,7 +946,7 @@ const MobileAppServiceCard = () => {
           loader={customLoader}
           width={300}
           height={200}
-          src="/hire-top-ios-app-developers.png"
+          src="/hire-top-ios-app-developers.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />
@@ -978,7 +983,7 @@ const MobileAppServiceCard = () => {
           loader={customLoader}
           width={300}
           height={200}
-          src="/hire-top-android-app-developers.png"
+          src="/hire-top-android-app-developers.webp"
           alt="image shows hiring of top android app developers"
           className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
         />

@@ -7,7 +7,7 @@ import React from "react";
 export const metadata = {
   title: "Mobile app design services | Dignite Studios",
   description:
-    "Recruit top mobile app design services that flawlessly create innovative UI/UX designs, and deliver smooth UX wireframes that fit your match. A highly experienced suite of designing application services will elevate your app’s design at a pace of breakneck.",
+    "Mobile app design services that create innovative UI/UX designs, and deliver UX wireframes. Designing application services will elevate your app’s design.",
 };
 
 const webPageData = {
