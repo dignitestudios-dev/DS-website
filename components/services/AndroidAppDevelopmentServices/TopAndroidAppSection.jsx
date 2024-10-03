@@ -202,11 +202,12 @@ const TopAndroidAppSection = () => {
               theme === "light" ? "text-[#666666]" : "text-gray-200"
             } text-[13px] mt-2`}
           >
-            Native apps are designed for specific mobile operating systems which
-            cannot be used on any other platform. Like iOS and Android apps, the
-            design can only be pre-owned by any one of them. So, our exceptional
-            mobile application design services create an enticing UX design
-            stage to attract consumers rapidly.
+            Native Android development provide highly riched app features and
+            exceptional mobile functions to scale your consumer app on a wider
+            landscape. The best app development company Dignite Studios will
+            build your native app with peculiar programming languages and tools
+            to make your mobile apps unique and competent to burgeon your
+            business production.
           </p>
         </div>
         <div className="text-start pt-4">
@@ -317,11 +318,12 @@ const TopAndroidAppSection = () => {
               theme === "light" ? "text-[#666666]" : "text-gray-200"
             } text-[13px] mt-2`}
           >
-            Native apps are designed for specific mobile operating systems which
-            cannot be used on any other platform. Like iOS and Android apps, the
-            design can only be pre-owned by any one of them. So, our exceptional
-            mobile application design services create an enticing UX design
-            stage to attract consumers rapidly.
+            Native Android development provide highly riched app features and
+            exceptional mobile functions to scale your consumer app on a wider
+            landscape. The best app development company Dignite Studios will
+            build your native app with peculiar programming languages and tools
+            to make your mobile apps unique and competent to burgeon your
+            business production.
           </p>
         </div>
         <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] mt-6 flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
