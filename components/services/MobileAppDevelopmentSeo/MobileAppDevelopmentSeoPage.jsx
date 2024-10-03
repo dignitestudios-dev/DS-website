@@ -42,8 +42,8 @@ const MobileAppDevelopmentSeoPage = () => {
           </h2>
           {theme === "dark" ? (
             <img
-              loading="lazy"
-              loader={customLoader}
+              // loading="lazy"
+              // loader={customLoader}
               width={1440}
               height={545}
               src="/mobile-mpp-development-service-technologies-dark.png"
@@ -52,8 +52,8 @@ const MobileAppDevelopmentSeoPage = () => {
             />
           ) : (
             <img
-              loading="lazy"
-              loader={customLoader}
+              // loading="lazy"
+              // loader={customLoader}
               width={1440}
               height={545}
               src="/mobile-app-development-service-technologies-dark-light.webp"
