@@ -463,7 +463,7 @@ const MobileAppServiceCard = () => {
           height={200}
           src="/top-mobile-app-development-services.webp"
           alt="image shows man is holding a mobile device that appears top mobile app development layout"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">Mobile App Development</h3>
@@ -500,7 +500,7 @@ const MobileAppServiceCard = () => {
           height={200}
           src="/top-ios-app-development-services.webp"
           alt="Top iOS App Development Services"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">iOS App Development</h3>
@@ -537,7 +537,7 @@ const MobileAppServiceCard = () => {
           height={200}
           src="/top-android-app-development-services.webp"
           alt="Top iOS App Development Services"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">Android App Development</h3>
@@ -568,13 +568,13 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
           loader={customLoader}
           width={300}
           height={200}
           src="/top-native-app-development-services.webp"
           alt="image shows hiring of top android app developers"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">Native App Development</h3>
@@ -605,13 +605,13 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
           loader={customLoader}
           width={300}
           height={200}
           src="/top-pwa-development-services.webp"
           alt="image shows hiring of top android app developers"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">PWA Development Services</h3>
@@ -648,7 +648,7 @@ const MobileAppServiceCard = () => {
           height={200}
           src="/top-webp-app-development-services.webp"
           alt="Top iOS App Development Services"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">Web App Development</h3>
@@ -685,7 +685,7 @@ const MobileAppServiceCard = () => {
           height={200}
           src="/top-mobile-app-design-services.webp"
           alt="image shows man is holding a mobile device that appears top mobile app design interface"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">Mobile App Design</h3>
@@ -716,13 +716,13 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
           loader={customLoader}
           width={300}
           height={200}
           src="/top-ios-app-design-services.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">iOS App Design</h3>
@@ -753,13 +753,13 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
           loader={customLoader}
           width={300}
           height={200}
           src="/top-android-app-design-services.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">Android App design</h3>
@@ -796,7 +796,7 @@ const MobileAppServiceCard = () => {
           height={200}
           src="/top-mobile-app-development-testing-services.webp"
           alt="image shows man is holding a mobile device that appears top mobile app testing screen"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">Mobile App Testing</h3>
@@ -833,7 +833,7 @@ const MobileAppServiceCard = () => {
           height={200}
           src="/top-mobile-app-development-consulting-services.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">Mobile App Consulting</h3>
@@ -864,13 +864,13 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
           loader={customLoader}
           width={300}
           height={200}
           src="/top-mobile-app-support-and-maintenance-services.webp"
           alt="image shows a mobile app support and maintenance services"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">
@@ -903,13 +903,13 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
           loader={customLoader}
           width={300}
           height={200}
           src="/hire-top-mobile-app-developers.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">
@@ -942,13 +942,13 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
           loader={customLoader}
           width={300}
           height={200}
           src="/hire-top-ios-app-developers.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">Hire iOS Developers</h3>
@@ -979,13 +979,13 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <img
+        <Image
           loader={customLoader}
           width={300}
           height={200}
           src="/hire-top-android-app-developers.webp"
           alt="image shows hiring of top android app developers"
-          className="w-full h-[200px] 2xl:h-[250px] object-cover rounded-xl"
+          className="w-full object-cover rounded-xl"
         />
         <div className="flex flex-col items-start text-start gap-1 pt-3">
           <h3 className="text-base font-semibold">Hire Android Developers</h3>
