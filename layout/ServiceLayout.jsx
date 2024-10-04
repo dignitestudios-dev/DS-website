@@ -32,7 +32,7 @@ const ServicesLayout = ({ page }) => {
   const [showModal, setShowModal] = useState(false);
   const [counter, setCounter] = useState(0);
   const pathname = usePathname();
-  console.log("pathname >> ", pathname);
+  // console.log("pathname >> ", pathname);
   const deviceType = useDeviceType();
   // const router = useRouter();
   // const { gclid, campaignid, adgroupid, placement, device } = router.query;
@@ -130,17 +130,17 @@ const ServicesLayout = ({ page }) => {
   const [isValid, setIsValid] = useState(true);
 
   const handlePhoneChange = (value, country) => {
-    console.log("ya ha phone :::::::::", value);
+    // console.log("ya ha phone :::::::::", value);
     setPhone(value);
     setCountryCode(country.dialCode);
 
     // Validate the phone number
     if (!value.startsWith(`+${country.dialCode}`)) {
       setIsValid(false);
-      console.log("phone >> ", phone);
+      // console.log("phone >> ", phone);
     } else {
       setIsValid(true);
-      console.log("phone >> ", phone);
+      // console.log("phone >> ", phone);
     }
   };
 

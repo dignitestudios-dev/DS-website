@@ -5,10 +5,7 @@ import { IoMoon } from "react-icons/io5";
 import Link from "next/link";
 import { GlobalContext } from "@/context/GlobalContext";
 import { IoIosArrowDown } from "react-icons/io";
-import { useParams, usePathname, useRouter } from "next/navigation";
-import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-import { LuDot } from "react-icons/lu";
+import { usePathname, useRouter } from "next/navigation";
 import { GoDotFill } from "react-icons/go";
 
 const Navbar = ({ setIsOpen }) => {
