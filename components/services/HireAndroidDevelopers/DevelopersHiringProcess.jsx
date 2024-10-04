@@ -23,7 +23,7 @@ const DevelopersHiringProcess = () => {
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-5">
           <div className="relative">
             <img
-              src="/pen-down-your-projects-requirements-for-android-app-developer-image.jfif"
+              src="/pen-down-your-projects-requirements-for-android-app-developer-image.webp"
               alt="Pen down your projects requirements for android app developer image"
               className="h-[300px] w-full object-cover rounded-[18px] brightness-90"
             />
@@ -36,7 +36,7 @@ const DevelopersHiringProcess = () => {
           </div>
           <div className="relative">
             <img
-              src="/identify-skillful-android-app-developer-image.jfif"
+              src="/identify-skillful-android-app-developer-image.webp"
               alt="Identify Skillful Android App Developer image"
               className="h-[300px] w-full object-cover rounded-[18px] brightness-90"
             />
@@ -51,7 +51,7 @@ const DevelopersHiringProcess = () => {
         <div className="w-full grid grid-cols-1 lg:grid-cols-3 mt-5 gap-5">
           <div className="relative">
             <img
-              src="/conduct-interviews-of-android-app-developer-image.jfif"
+              src="/conduct-interviews-of-android-app-developer-image.webp"
               alt="Conduct Interviews of Android App Developer image"
               className="h-[300px] w-full object-cover rounded-[18px] brightness-90"
             />
@@ -64,7 +64,7 @@ const DevelopersHiringProcess = () => {
           </div>
           <div className="relative">
             <img
-              src="/start-a-free-trial-of-android-app-image.jfif"
+              src="/start-a-free-trial-of-android-app-image.webp"
               alt="Start a Free Trial of Android App image"
               className="h-[300px] w-full object-cover rounded-[18px] brightness-90"
             />
@@ -77,7 +77,7 @@ const DevelopersHiringProcess = () => {
           </div>
           <div className="relative">
             <img
-              src="/hire-android-application-developer-image.jfif"
+              src="/hire-android-application-developer-image.webp"
               alt="Hire Android Application Developer image"
               className="h-[300px] w-full object-cover rounded-[18px] brightness-90"
             />

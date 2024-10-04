@@ -19,6 +19,7 @@ import "react-phone-input-2/lib/style.css";
 import classNames from "classnames";
 import { usePathname } from "next/navigation";
 import useDeviceType from "@/components/global/DeviceTypeFunction";
+import { useRouter } from "next/router";
 
 const ServicesLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -33,6 +34,37 @@ const ServicesLayout = ({ page }) => {
   const pathname = usePathname();
   console.log("pathname >> ", pathname);
   const deviceType = useDeviceType();
+  // const router = useRouter();
+  // const { gclid, campaignid, adgroupid, placement, device } = router.query;
+  // const [isMounted, setIsMounted] = useState(false);
+
+  // const checkParams = () => {
+  //   if (gclid && campaignid && adgroupid && placement && device) {
+  //     return true;
+  //   }
+  //   return false;
+  // };
+
+  // useEffect(() => {
+  //   setIsMounted(true); // Set to true once the component has mounted
+  // }, []);
+
+  // useEffect(() => {
+  //   if (isMounted && checkParams()) {
+  //     const gclid = gclid || ""; // Default to an empty string if undefined
+  //     const campaignId = campaignid || "";
+  //     const adgroupId = adgroupid || "";
+  //     const placement = placement || "";
+  //     const device = device || "";
+
+  //     // Log or use the parameter values
+  //     console.log("GCLID:", gclid);
+  //     console.log("Campaign ID:", campaignId);
+  //     console.log("Ad Group ID:", adgroupId);
+  //     console.log("Placement:", placement);
+  //     console.log("Device:", device);
+  //   }
+  // }, [isMounted, queryParams]);
 
   useEffect(() => {
     const handleMouseLeave = (e) => {
