@@ -49,6 +49,7 @@ const DigitalTransformation = () => {
               loop
               muted
               playsInline
+              disablePictureInPicture
             >
               <source src="/final-web-vid.mp4" type="video/mp4" />
             </video>
