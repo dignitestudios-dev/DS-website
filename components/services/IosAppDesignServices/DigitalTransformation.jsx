@@ -48,6 +48,7 @@ const DigitalTransformation = () => {
               autoPlay
               loop
               muted
+              playsInline
             >
               <source src="/final-web-vid.mp4" type="video/mp4" />
             </video>
