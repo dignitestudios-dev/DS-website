@@ -76,7 +76,7 @@ const page = () => {
         <meta name="twitter:image:alt" content="Contact Us - Dignite Studios" />
       </head>
       <div>
-        <GlobalLayout page={<ContactUsPage />} />;
+        <GlobalLayout page={<ContactUsPage />} />
       </div>
     </>
   );
