@@ -18,6 +18,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import classNames from "classnames";
 import { usePathname } from "next/navigation";
+import useDeviceType from "@/components/global/DeviceTypeFunction";
 
 const ServicesLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -31,6 +32,7 @@ const ServicesLayout = ({ page }) => {
   const [counter, setCounter] = useState(0);
   const pathname = usePathname();
   console.log("pathname >> ", pathname);
+  const deviceType = useDeviceType();
 
   useEffect(() => {
     const handleMouseLeave = (e) => {
@@ -151,6 +153,8 @@ const ServicesLayout = ({ page }) => {
       data1.append("entry.769267793", phone); // Phone field
       data1.append("entry.1280467825", message); // Message field
       data1.append("entry.764492805", `Popup Form - ${pathname}`); // Page field
+      data1.append("entry.1359192276", `Device Type - ${deviceType}`); // Device type field
+      data1.append("entry.357568185", `URL Parameter - _blank`); // URL Parameter field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",

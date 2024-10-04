@@ -5,6 +5,7 @@ import React, { useContext, useState, useEffect } from "react";
 import Alert from "../global/Alert";
 import ContactUsAlert from "../global/ContactUsAlert";
 import PhoneInput from "react-phone-input-2";
+import useDeviceType from "../global/DeviceTypeFunction";
 
 const ContactUsPage = () => {
   const { palette, theme, setError, error } = useContext(GlobalContext);
@@ -17,7 +18,7 @@ const ContactUsPage = () => {
   const [countryCode, setCountryCode] = useState("");
   const [isValid, setIsValid] = useState(true);
   const pathname = usePathname();
-  console.log("pathname >> ", pathname);
+  const deviceType = useDeviceType();
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -65,6 +66,8 @@ const ContactUsPage = () => {
       data1.append("entry.769267793", phone); // Phone field
       data1.append("entry.1280467825", message); // Message field
       data1.append("entry.764492805", pathname); // Page field
+      data1.append("entry.1359192276", `Device Type - ${deviceType}`); // Device type field
+      data1.append("entry.357568185", `URL Parameter - _blank`); // URL Parameter field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
