@@ -26,13 +26,11 @@ const MobileAppDevSeoHero = () => {
               }}
               className={`block text-3xl md:text-4xl font-extrabold lg:text-[60px] xl:text-[70px] md:leading-[70px] xl:leading-[72.8px] lg:font-bold xl:font-semibold lg:tracking-[-2.8px] z-10 `}
             >
-              <span style={{ color: palette?.brandOrange }}>Execute</span>{" "}
               <span
                 className={`${theme === "light" ? "text-black" : "text-white"}`}
               >
-                Astounding Mobile
-                <br />
-                App Development Services
+                Mobile App <br />
+                Development Services
               </span>
             </h1>
 

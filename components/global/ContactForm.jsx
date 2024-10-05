@@ -20,7 +20,6 @@ const ContactForm = () => {
   const [countryCode, setCountryCode] = useState("");
   const [isValid, setIsValid] = useState(true);
   const pathname = usePathname();
-  console.log("pathname >> ", pathname);
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

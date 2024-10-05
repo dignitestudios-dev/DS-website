@@ -459,6 +459,128 @@ const MobileAppDevelopmentServicesSection = () => {
           </div>
         </div>
       </div>
+      {/* 8 */}
+      <div
+        type="button"
+        onClick={() => handleAccordionClick(8)}
+        className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+        } outline-none hover:opacity-95 `}
+        style={{
+          borderBottom: `2px solid ${palette?.light_contrast_background}`,
+        }}
+        data-accordion-target="#accordion-collapse-body-1"
+      >
+        <button
+          name="faq-question"
+          className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
+            openAccordion === 8
+              ? "text-[#F15C20]"
+              : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
+          } gap-3`}
+        >
+          <div
+            className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
+          >
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
+              07.
+            </span>
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
+              Mobile App Support and Maintenance Services
+            </h3>
+          </div>
+          {openAccordion === 8 ? (
+            <FiMinus className="text-2xl" />
+          ) : (
+            <FiPlus className="text-2xl" />
+          )}
+        </button>
+
+        <div
+          id="accordion-1"
+          className={`transition-all duration-200 ${
+            openAccordion === 8 ? "" : "hidden"
+          }`}
+        >
+          <div className="py-1 rounded-md mt-3 ">
+            <p
+              className="mb-2  text-xs lg:text-[16px] leading-normal "
+              style={{
+                color: palette?.dark_contrast_color,
+              }}
+            >
+              Our team proposes complimentary two months of{" "}
+              <Link
+                href={
+                  "/services/mobile-application-support-and-maintenance-services"
+                }
+                className="text-[#F15C20]"
+              >
+                support and maintenance
+              </Link>{" "}
+              on your mobile app projects from the day of launch regardless of
+              the app type whether simple app or enterprise app.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* 9 */}
+      <div
+        type="button"
+        onClick={() => handleAccordionClick(9)}
+        className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+        } outline-none hover:opacity-95 `}
+        style={{
+          borderBottom: `2px solid ${palette?.light_contrast_background}`,
+        }}
+        data-accordion-target="#accordion-collapse-body-1"
+      >
+        <button
+          name="faq-question"
+          className={`flex  items-center justify-between w-full  font-medium rtl:text-right  outline-none hover:opacity-95 ${
+            openAccordion === 9
+              ? "text-[#F15C20]"
+              : `${theme == "dark" ? "text-[#e7e7e7]" : "text-black"}`
+          } gap-3`}
+        >
+          <div
+            className={`w-auto flex justify-start items-center text-xs md:text-sm lg:text-xl text-left gap-4`}
+          >
+            <span className="text-base md:text-lg lg:text-[20px] font-bold text-[#B4B4B4]">
+              08.
+            </span>
+            <h3 className="font-semibold text-base md:text-lg lg:text-[32px]">
+              Mobile App Modernization
+            </h3>
+          </div>
+          {openAccordion === 9 ? (
+            <FiMinus className="text-2xl" />
+          ) : (
+            <FiPlus className="text-2xl" />
+          )}
+        </button>
+
+        <div
+          id="accordion-1"
+          className={`transition-all duration-200 ${
+            openAccordion === 9 ? "" : "hidden"
+          }`}
+        >
+          <div className="py-1 rounded-md mt-3 ">
+            <p
+              className="mb-2  text-xs lg:text-[16px] leading-normal "
+              style={{
+                color: palette?.dark_contrast_color,
+              }}
+            >
+              The architecture of the latest app evolution appeals more to the
+              digital world. Therefore, the team of Dignite Studios is all set
+              to produce scalable mobile applications for their clients.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

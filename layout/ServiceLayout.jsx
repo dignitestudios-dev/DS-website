@@ -18,6 +18,8 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import classNames from "classnames";
 import { usePathname } from "next/navigation";
+import useDeviceType from "@/components/global/DeviceTypeFunction";
+import { useRouter } from "next/router";
 
 const ServicesLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -30,7 +32,39 @@ const ServicesLayout = ({ page }) => {
   const [showModal, setShowModal] = useState(false);
   const [counter, setCounter] = useState(0);
   const pathname = usePathname();
-  console.log("pathname >> ", pathname);
+  // console.log("pathname >> ", pathname);
+  const deviceType = useDeviceType();
+  // const router = useRouter();
+  // const { gclid, campaignid, adgroupid, placement, device } = router.query;
+  // const [isMounted, setIsMounted] = useState(false);
+
+  // const checkParams = () => {
+  //   if (gclid && campaignid && adgroupid && placement && device) {
+  //     return true;
+  //   }
+  //   return false;
+  // };
+
+  // useEffect(() => {
+  //   setIsMounted(true); // Set to true once the component has mounted
+  // }, []);
+
+  // useEffect(() => {
+  //   if (isMounted && checkParams()) {
+  //     const gclid = gclid || ""; // Default to an empty string if undefined
+  //     const campaignId = campaignid || "";
+  //     const adgroupId = adgroupid || "";
+  //     const placement = placement || "";
+  //     const device = device || "";
+
+  //     // Log or use the parameter values
+  //     console.log("GCLID:", gclid);
+  //     console.log("Campaign ID:", campaignId);
+  //     console.log("Ad Group ID:", adgroupId);
+  //     console.log("Placement:", placement);
+  //     console.log("Device:", device);
+  //   }
+  // }, [isMounted, queryParams]);
 
   useEffect(() => {
     const handleMouseLeave = (e) => {
@@ -96,17 +130,17 @@ const ServicesLayout = ({ page }) => {
   const [isValid, setIsValid] = useState(true);
 
   const handlePhoneChange = (value, country) => {
-    console.log("ya ha phone :::::::::", value);
+    // console.log("ya ha phone :::::::::", value);
     setPhone(value);
     setCountryCode(country.dialCode);
 
     // Validate the phone number
     if (!value.startsWith(`+${country.dialCode}`)) {
       setIsValid(false);
-      console.log("phone >> ", phone);
+      // console.log("phone >> ", phone);
     } else {
       setIsValid(true);
-      console.log("phone >> ", phone);
+      // console.log("phone >> ", phone);
     }
   };
 
@@ -151,6 +185,8 @@ const ServicesLayout = ({ page }) => {
       data1.append("entry.769267793", phone); // Phone field
       data1.append("entry.1280467825", message); // Message field
       data1.append("entry.764492805", `Popup Form - ${pathname}`); // Page field
+      data1.append("entry.1359192276", `Device Type - ${deviceType}`); // Device type field
+      data1.append("entry.357568185", `URL Parameter - _blank`); // URL Parameter field
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",

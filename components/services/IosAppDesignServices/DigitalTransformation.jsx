@@ -48,6 +48,10 @@ const DigitalTransformation = () => {
               autoPlay
               loop
               muted
+              playsInline
+              disablePictureInPicture
+              preload="auto"
+              poster="/ios-mobile-app-mobile-video-thumbnail.webp"
             >
               <source src="/final-web-vid.mp4" type="video/mp4" />
             </video>

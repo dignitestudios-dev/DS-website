@@ -36,17 +36,6 @@ const Hero = () => {
         Harness top native app features to mark business metrics
       </span>
       <div className="w-auto flex gap-4 justify-center items-center z-10">
-        {/* <Link
-          href={"/contact-us"}
-          name="schedule-a-meeting"
-          style={{
-            background: palette?.brandOrange,
-            color: "white",
-          }}
-          className="orange w-[150px] lg:w-[164px] 2xl:w-[246px] h-14 lg:h-16 2xl:h-[5rem] rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md 2xl:text-lg font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center gap-1 z-20"
-        >
-          Get a quote <FiArrowUpRight className="text-xl" />
-        </Link> */}
         <ContactButton text1={"Get A Quote"} text2={"Let's talk"} />
       </div>
 
@@ -77,13 +66,13 @@ const Hero = () => {
           className="absolute w-[918px] h-[350px] md:h-[783px] z-0 -top-32"
         />
         <img
-          src="/Native app development company1.webp"
+          src="/native-app-development-company1.webp"
           alt="Native app development company page shows two mobile screens that appear as mockup screens of native applications with revolving tech logos"
           title="Native app development company"
           className="w-[130px] md:w-[256.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:-rotate-12 transition-all duration-700 z-20 relative -top-4 2xl:-top-0"
         />
         <img
-          src="/Native app development company2.webp"
+          src="/native-app-development-company2.webp"
           alt="Native app development company page shows two mobile screens that appear as mockup screens of native applications with revolving tech logos"
           title="Native app development company"
           className="w-[130px] md:w-[256.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:rotate-12 transition-all duration-700 z-20 relative top-6 2xl:top-8"

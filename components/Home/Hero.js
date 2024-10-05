@@ -85,42 +85,17 @@ const Hero = () => {
         solutions.
       </span>
       <div className="w-auto flex gap-2 md:gap-4 justify-center items-center">
-        {/* <Link
-          href={"/contact-us"}
-          name="schedule-a-meeting"
-          style={{
-            background: palette?.brandOrange,
-            color: "white",
-          }}
-          className="orange w-[150px] lg:w-[206px] 2xl:w-[246px] h-14 lg:h-16 2xl:h-[5rem] rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md 2xl:text-lg font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
-        >
-          Schedule a meeting
-        </Link> */}
-        {/* <ContactButton text1={"Schedule a meeting"} text2={"Let's"} /> */}
-        {/* <a
-          href={"tel:+18777141770"}
-          name="call-us"
-          style={{
-            border: `2px solid ${palette?.brandOrange}`,
-            color: palette?.brandOrange,
-          }}
-          className="w-[150px] lg:w-[206px]  2xl:w-[246px] h-14 lg:h-16 2xl:h-[5rem] rounded-full  transition-all duration-100 hover:scale-105 text-sm lg:text-md 2xl:text-lg font-medium  flex items-center justify-center gap-2"
-        >
-          <BsFillTelephoneFill />
-          <span>+1 877 714 1770</span>
-        </a> */}
-
         <Link
           href="/contact-us"
-          className="bg-[#F15C20] orange text-white rounded-full text-center hover:opacity-90  shadow-xl shadow-[#F15C20]/[0.3] py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden text-sm md:text-[15px]"
+          className="bg-[#F15C20] orange text-white rounded-[14px] text-center hover:opacity-90  shadow-xl shadow-[#F15C20]/[0.3] py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden text-sm md:text-[15px]"
         >
           {/* First text */}
-          <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
+          <span className="absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
             Schedule a meeting
           </span>
 
           {/* Second text */}
-          <span className="block absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+          <span className="absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
             Let's talk
           </span>
         </Link>
@@ -128,15 +103,19 @@ const Hero = () => {
         <a
           href={"tel:+18777141770"}
           name="call-us"
-          className="bg-transparent text-[#F15C20] border-2 border-[#F15C20] hover:border-black hover:text-white text-sm md:text-[15px] font-semibold text-center py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden rounded-full "
+          className={`${
+            theme === "light"
+              ? "bg-[#0C0C0C14] text-[#000]"
+              : "bg-[#2d2d2d] text-white"
+          }  hover:text-white text-sm md:text-[15px] font-semibold text-center py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden rounded-[14px]`}
         >
           {/* First text */}
-          <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
-            +1 877 714 1770
+          <span className="absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
+            Get a free quote
           </span>
 
           {/* Second text */}
-          <span className="block absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+          <span className="absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
             Let's talk
           </span>
         </a>

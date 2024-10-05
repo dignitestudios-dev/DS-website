@@ -45,7 +45,7 @@ const ProjectCard = ({
             src={logo}
             alt="case-study-image"
             width={65}
-            loader={customLoader}
+            // loader={customLoader}
             height={65}
             // title="case study image"
 

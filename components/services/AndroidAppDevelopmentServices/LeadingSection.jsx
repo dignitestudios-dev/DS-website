@@ -85,9 +85,8 @@ const LeadingSection = () => {
           >
             Our professional Android team can create a highly optimized
             fascinating custom Android app framework that will boost the entire
-            layout of the TV application at once. Also, tend to produce the
-            bizzare Android app development solutions to satisfy clients'
-            requirements.
+            layout of the TV application at once. Also, tend to produce bizarre
+            Android app development solutions to satisfy clients' requirements.
           </p>
         </div>
         <div className="flex flex-col gap-2">

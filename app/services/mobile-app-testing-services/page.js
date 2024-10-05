@@ -7,7 +7,7 @@ import React from "react";
 export const metadata = {
   title: "Mobile app testing services | Dignite Studios",
   description:
-    "Embarke top-tier mobile app testing services from the leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts.",
+    "Mobile app testing services from the leading company. We provide application solutions to ensure optimal performance by industry testing experts.",
 };
 
 const page = () => {

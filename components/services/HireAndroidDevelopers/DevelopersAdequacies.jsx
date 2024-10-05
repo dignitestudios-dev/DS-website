@@ -15,7 +15,7 @@ const DevelopersAdequacies = () => {
             </p>
             <img
               src="/hire-android-developers-lines.png"
-              alt=""
+              alt="hire-android-app-developers-lines"
               className="w-[96px] h-[8px]"
             />
           </div>

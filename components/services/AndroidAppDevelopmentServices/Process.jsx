@@ -285,7 +285,7 @@ const Process = () => {
                   : "text-black group-hover:text-white"
               }`}
             >
-              App Vision
+              Release
             </h3>
             <p
               className={`text-sm leading-[19.14px] ${
@@ -295,24 +295,13 @@ const Process = () => {
               }`}
             >
               Once your custom Android app development and testing is completed,
-              your Android app is ready for market. Our top custom Android app
-              development includes your app launch from weeks to months that
-              follow. We closely monitor the mobile applications we build to
-              make any final adjustments if needed in the apps.
+              your Android app is ready to market. Our top custom Android app
+              development includes the entire app development to launch process.
+              We closely monitor the mobile applications we build to make any
+              final adjustments if needed in the apps.
             </p>
           </div>
         </div>
-        {/* {process.map((s, key) => {
-          return (
-            <ProcessCard
-              key={key}
-              count={key}
-              num={s.count}
-              title={s.title}
-              desc={s.desc}
-            />
-          );
-        })} */}
       </div>
     </section>
   );
