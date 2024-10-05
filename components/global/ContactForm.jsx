@@ -139,6 +139,8 @@ const ContactForm = () => {
       setIsValid(true);
     }
   };
+  console.log(theme,"them");
+  
 
   return (
     <div className="flex flex-col gap-4 justify-start items-start w-full">
@@ -174,7 +176,7 @@ const ContactForm = () => {
                 value={name}
                 onChange={handleNameChange}
                 className={`text-sm font-normal outline-none w-full py-4 2xl:py-6 px-6 rounded-full ${
-                  theme === "light" ? "bg-[#FAFAFA]" : "bg-[#2d2d2d]"
+                  theme === "light" ? "bg-[#FAFAFA]" : "bg-[#1c1c1c]"
                 }`}
               />
               {errors.name && (
@@ -191,7 +193,7 @@ const ContactForm = () => {
                 value={email}
                 onChange={handleEmailChange}
                 className={`text-sm font-normal outline-none w-full py-4 2xl:py-6 px-6 rounded-full ${
-                  theme === "light" ? "bg-[#FAFAFA]" : "bg-[#2d2d2d]"
+                  theme === "light" ? "bg-[#FAFAFA]" : "bg-[#1c1c1c]"
                 }`}
               />
               {errors.email && (
@@ -215,7 +217,7 @@ const ContactForm = () => {
                   fontSize: "16px",
                   border: "none",
                   borderRadius: "200px",
-                  background: theme === "light" ? "#FAFAFA" : "#2d2d2d",
+                  background: theme === "light" ? "#FAFAFA" : "#1c1c1c",
                   textAlign: "start",
                   color: "black",
                 }}
@@ -228,7 +230,7 @@ const ContactForm = () => {
                   color: "gray",
                   padding: "10px 50px",
                   margin: "0",
-                  background: theme === "light" ? "#FAFAFA" : "#2d2d2d",
+                  background: theme === "light" ? "#FAFAFA" : "#1c1c1c",
                 }}
                 className="text-sm font-normal outline-none w-full py-2 2xl:py-6 px-6 rounded-full "
               />
@@ -252,7 +254,7 @@ const ContactForm = () => {
               value={message}
               onChange={handleMessageChange}
               className={`text-sm font-normal outline-none w-full py-3 2xl:py-6 px-4 rounded-[16px] h-[148px] ${
-                theme === "light" ? "bg-[#FAFAFA]" : "bg-[#2d2d2d]"
+                theme === "light" ? "bg-[#FAFAFA]" : "bg-[#1c1c1c]"
               }`}
               style={{ resize: "none" }}
             ></textarea>

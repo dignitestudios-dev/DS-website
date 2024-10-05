@@ -187,6 +187,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 >
                   Mobile App Support And Maintenance Services
                 </Link>
+                <Link
+                  href="/services/hybrid-app-development-services"
+                  className={`hover:text-orange-600 text-start`}
+                >
+                  Hybrid App Development Services
+                </Link>
               </div>
             )}
           </button>
