@@ -18,8 +18,7 @@ const HighQualifiedIosDevelopers = () => {
       className="w-full py-12 lg:py-20 global-padding-horizontal flex flex-col lg:flex-row items-center gap-6"
       ref={ref}
     >
-      <div
-        className={`w-full border-[12px] ${
+      <div  className={`w-full border-[12px] ${
           theme === "light"
             ? "border-[#FAFAFA] bg-white"
             : "border-[#2d2d2d] bg-[#1c1c1c]"

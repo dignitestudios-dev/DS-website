@@ -25,3 +25,5 @@ export const HIRE_MOBILE_APP_DEV_FAQS = [
       "Analyze the experience and expertise of dedicated mobile developers to build transparent applications with quality assurance and post-launch support. Also, check whether the dedicated app developer is fulfilling all the required mobile app developer's duties efficiently or not.",
   },
 ];
+
+

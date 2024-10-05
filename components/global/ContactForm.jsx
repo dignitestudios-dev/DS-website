@@ -272,10 +272,15 @@ const ContactForm = () => {
             <button
               type="submit"
               name="form-submit-button"
-              className=" text-white text-[16px] font-semibold px-8 py-4 w-full rounded-full flex justify-center gap-1 hover:opacity-[.75] transition-all duration-300"
+              className="bg-[#F15C20] text-white rounded-[12px] text-center py-8 px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden text-white text-[16px] font-semibold px-8 py-4 w-full rounded-full flex justify-center gap-1 transition-all duration-300 hover:opacity-[1] "
               style={{ background: "#F15C20" }}
             >
-              Send Message <LuArrowUpRight className="text-white text-xl" />
+              <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
+        Send Message <LuArrowUpRight className="text-white text-xl" />
+      </span>
+      <span className="block absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+       Contact Us  <LuArrowUpRight className="text-white text-xl" />
+      </span>              
             </button>
           </div>
           {error && <Alert />}

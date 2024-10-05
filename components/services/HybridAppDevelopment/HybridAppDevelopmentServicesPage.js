@@ -5,6 +5,11 @@ import React, { useContext } from "react";
 import Hero from "./Hero";
 import WellKnownAppDevCompany from "./WellKnownAppDevCompany";
 import DevelopmentProcess from "./DevelopmentProcess";
+import BenefitsOfWorking from "./BenefitsOfWorking";
+import WhyChooseUs from "./WhyChooseUs";
+import WorkWithDegnite from "./working-with-degnite";
+import FAQS from "./FAQS";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const HybridAppDevelopmentServicesPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -13,7 +18,12 @@ const HybridAppDevelopmentServicesPage = () => {
       <Navbar setIsOpen={setIsSidebarOpen} />
       <Hero />
       <WellKnownAppDevCompany />
+      <BenefitsOfWorking/>
       <DevelopmentProcess />
+      <WorkWithDegnite/>
+      <WhyChooseUs/>
+      <FAQS/> 
+      <HybridAppContactForm/>
     </div>
   );
 };

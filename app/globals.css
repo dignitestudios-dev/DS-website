@@ -508,7 +508,21 @@ input:hover {
     justify-content: start;
     align-items: start;
   }
+  .custom-media-query{
+    margin-left:-30px !important ;
+  }
 }
+
+@media (max-width:425px) {
+.custom-media-query-cut-img{
+  display: none !important;
+}
+.custom-media-query{
+  margin-left:30px !important ;
+
+}
+}
+
 .input_field {
   display: flex;
   flex-direction: column;
@@ -1775,4 +1789,37 @@ video {
     #c47aff 68.6%,
     #759bff 100%
   );
+}
+
+.hybrid-app-development-services-curve{
+  background-image: url('/hybrid-app-development-services-curve-lines.webp');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position:right;
+}
+
+
+.bounce-img-1-hero{
+  animation: bounce1-img 1s alternate-reverse infinite;
+}
+.bounce-img-2-hero{
+  animation: bounce2-img 1s alternate-reverse infinite;
+  animation-delay: 1;
+}
+
+@keyframes bounce1-img{
+  0%{
+    transform: translate(0%,5%);
+  }
+  100%{
+    transform: translate(0%,10%);
+  }
+}
+@keyframes bounce2-img{
+  0%{
+    transform: translate(0%,10%);
+  }
+  100%{
+    transform: translate(0%,5%);
+  }
 }
