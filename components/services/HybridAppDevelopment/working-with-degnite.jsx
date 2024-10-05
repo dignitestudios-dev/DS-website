@@ -28,9 +28,9 @@ const WorkWithDegnite = () => {
       development projects for our valuable clients and partners.
       </p>
 
-      <div className="mt-7 py-2 grid grid-cols-1 gap-2  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-2 2xl:gap-6">
+      <div className="mt-7 py-2 grid grid-cols-1 gap-2  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-5 2xl:gap-6">
         <div
-          className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-3"
+          className="border  rounded-[18px]  flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-8"
           style={{
             color: palette?.color,
           }}
@@ -64,7 +64,7 @@ const WorkWithDegnite = () => {
         </div>
 
         <div
-          className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-3"
+          className="border  rounded-[18px]  flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-8"
           style={{
             color: palette?.color,
           }}
@@ -97,7 +97,7 @@ const WorkWithDegnite = () => {
         </div>
 
         <div
-          className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-3"
+          className="border  rounded-[18px]  flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-8"
           style={{
             color: palette?.color,
           }}
@@ -132,7 +132,7 @@ const WorkWithDegnite = () => {
         </div>
 
         <div
-          className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-3"
+          className="border  rounded-[18px]  flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-8"
           style={{
             color: palette?.color,
           }}
@@ -166,7 +166,7 @@ const WorkWithDegnite = () => {
         </div>
 
         <div
-          className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-3"
+          className="border  rounded-[18px]  flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-8"
           style={{
             color: palette?.color,
           }}
@@ -201,7 +201,7 @@ const WorkWithDegnite = () => {
         </div>
 
         <div
-          className="border lg:border-none border-[#F15C20]  rounded-3xl lg:rounded-none flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-3"
+          className="border  rounded-[18px]  flex flex-col justify-start items-center gap-y-4 p-4 md:px-4 lg:px-8 md:py-8"
           style={{
             color: palette?.color,
           }}
