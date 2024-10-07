@@ -6,7 +6,7 @@ import React, { useContext } from "react";
 const WellKnownAppDevCompany = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <div className="w-full global-padding-horizontal"  >
+    <div className="w-full global-padding-horizontal mt-28 mb-28   "  >
     <div
       className={`${
         theme === "light" ? "bg-[#FAFAFA]" : "bg-[#2d2d2d]"
@@ -32,46 +32,46 @@ const WellKnownAppDevCompany = () => {
         </div>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  w-full">
-   <div className="grid  custom-media-query lg:ml-[50px]">
+   <div className="flex flex-col justify-between items-center custom-media-query lg:ml-[50px]">
     <div className="">
       <img
-        className="h-auto max-w-[250px]" 
+        className="h-auto max-w-[200px] md:max-w-[240px]" 
         src="/hybrid-app-development-services-screen-2-3.webp"
         alt="Hybrid app development service screen 2-3"
       />
     </div>
     <div className="">
       <img
-        className="h-auto max-w-[250px]  lg:-mt-[8px]" 
+        className="h-auto max-w-[200px] md:max-w-[240px]  lg:-mt-[8px]" 
         src="/hybrid-app-development-services-screen-2.webp"
         alt="Hybrid app development service screen 2"
       />
     </div>
   </div>
-  <div className="grid custom-media-query-cut-img lg:ml-[50px]">
+  <div className="flex flex-col justify-between  -ml-[15px] lg:ml-[60px]">
     <div className="" >
       <img
-        className="h-auto max-w-[260px] "
+        className="h-auto max-w-[200px] md:max-w-[240px] "
         src="/hybrid-app-development-services-screen-2-2.webp"
         alt=""
       />
     </div>
     <div className={""} >
       <img
-        className="h-auto lg:-mt-[40px] max-w-[260px] "
+        className="h-auto max-w-[200px] md:max-w-[240px] lg:-mt-[40px]"
         src="/hybrid-app-development-services-screen-1.webp"
         alt=""
       />
     </div>
     <div className={" "} >
       <img
-        className="h-auto lg:mt-[-35px] max-w-[260px]  "
+        className="h-auto max-w-[200px] md:max-w-[240px] lg:mt-[-35px]"
         src="/hybrid-app-development-services-screen-2-1.webp"
         alt=""
       />
     </div>
   </div>
-  <div className="hidden  xl:grid  xl:ml-[50px]">
+  <div className="hidden  xl:flex flex-col items-end  ">
     <div>
       <img
         className="h-auto max-w-[260px] "

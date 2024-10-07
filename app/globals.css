@@ -515,10 +515,10 @@ input:hover {
 
 @media (max-width:425px) {
 .custom-media-query-cut-img{
-  display: none !important;
+  /* display: none !important; */
 }
 .custom-media-query{
-  margin-left:30px !important ;
+  margin-left:-30px !important ;
 
 }
 }

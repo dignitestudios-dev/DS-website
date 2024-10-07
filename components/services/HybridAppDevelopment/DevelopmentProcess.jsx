@@ -10,12 +10,10 @@ const DevelopmentProcess = () => {
     <section className="w-full py-16 lg:py-20 global-padding-horizontal">
       <section className="w-full grid grid-cols-1 lg:grid-cols-3 gap-y-6">
         <div className="col-span-3 lg:col-span-2">
-          <h2 className="text-[#8F8F8F] font-[700] text-[20px]" >Agile Hybrid</h2>
-          <h1 className="text-4xl lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-start lg:leading-[71.93px] 2xl:leading-[99px] z-10">
-            {/* <span className="text-[#F15C20]"> Hybrid App</span> */}
-          </h1>
-          <h2 className="font-bold lg:font-extrabold text-4xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold lg:leading-[77px]">
-            Development <br /> Process
+         
+          <h2 >
+          <span className="text-[#8F8F8F] text-[20px] font-[700] " >Agile Hybrid</span><br />
+            <span className="font-bold lg:font-extrabold text-4xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold lg:leading-[77px]" > Development <br /> Process</span>
           </h2>
           <p className="text-lg font-normal mt-4">
           Dignite’s experienced hybrid app developers conduct pre-eminent
