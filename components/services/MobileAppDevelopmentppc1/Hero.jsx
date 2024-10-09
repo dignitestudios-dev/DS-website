@@ -10,8 +10,10 @@ import ContactButtonBlackBg from "@/components/global/ContactButtonBlackBg";
 const Hero = () => {
   const { theme,setIsSidebarOpen } = useContext(GlobalContext);
   return (
+
     <main className="w-full relative lg:h-[100vh] overflow-hidden 2xl:h-auto  md:mb-20  ">
             <Navbar setIsOpen={setIsSidebarOpen} />
+            
       <div className="w-full global-padding-horizontal relative flex flex-col  items-center gap-x-6 gap-y-16 pt-20">
         <div className="w-full text-start relative md:pb-20  flex flex-col items-center">      
           <AwardsRecognition/>
