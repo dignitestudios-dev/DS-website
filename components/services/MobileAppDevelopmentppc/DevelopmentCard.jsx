@@ -23,7 +23,7 @@ export default function DevelopmentCard() {
                     <h3 className="text-[28px] font-semibold leading-tight">
                     Android App Development
                     </h3>
-                    <p className="text-xs font-normal w-[100%]  lg:w-[80%] text-start mb-3">
+                    <p className="text-sm font-normal w-[100%]  lg:w-[80%] text-start mb-3">
                     Looking to reach the vast Android user base? Our team specializes in creating high-quality 
                     Android apps that are both functional and visually appealing. From simple utility apps to
                      complex enterprise solutions, we'll work closely with you to develop an app that meets
@@ -90,7 +90,7 @@ export default function DevelopmentCard() {
                     <h3 className="text-[28px] font-semibold leading-tight">
                         iOS app development
                     </h3>
-                    <p className="text-xs w-[100%]  lg:w-[80%] font-normal text-start mb-3">
+                    <p className="text-sm w-[100%]  lg:w-[80%] font-normal text-start mb-3">
                     Want to tap into the vibrant iOS ecosystem? Our experienced developers can
                      create stunning and intuitive iOS apps that showcase your brand and engage 
                      your audience. From sleek design to seamless performance, we'll deliver a 
@@ -122,7 +122,7 @@ export default function DevelopmentCard() {
                     <h3 className="text-[28px] font-semibold leading-tight">
                         Cross-platform
                     </h3>
-                    <p className="text-xs w-[100%]  lg:w-[80%] font-normal text-start mb-3">
+                    <p className="text-sm w-[100%]  lg:w-[80%] font-normal text-start mb-3">
                     Want to reach users on both iOS and Android without breaking 
                     the bank? Our cross-platform app development services allow 
                     us to create a single codebase that can be deployed to 
