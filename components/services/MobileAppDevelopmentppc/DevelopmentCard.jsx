@@ -60,7 +60,7 @@ export default function DevelopmentCard() {
                         width={330}
                         height={380}
                         loader={customLoader}
-                        src="/hybrid-app-development-services-screen-1.webp"
+                        src="/hybrid-app-development-company4.webp"
                         alt=" two mobile mock screens shows the testing of application layout"
                         className="md:h-[350px] lg:h-[380px] xl:h-auto"
                         data-aos="slide-right"
