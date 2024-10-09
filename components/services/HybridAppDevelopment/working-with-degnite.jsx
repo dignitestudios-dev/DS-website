@@ -37,9 +37,9 @@ const WorkWithDegnite = () => {
         >
           <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
           <img
-            src={"/work-with-degnite6.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/unified-user-experience.webp"}
+            alt={"unified user experience icon"}
+            title={" unified user experience"}
             className=""
            
           />
@@ -71,9 +71,9 @@ const WorkWithDegnite = () => {
         >
            <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
           <img
-            src={"/work-with-degnite5.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/faster-time-to-market.webp"}
+            alt={"faster time to market icon"}
+            title={"faster time to market"}
             className=""
            
           />
@@ -104,9 +104,9 @@ const WorkWithDegnite = () => {
         >
           <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
           <img
-            src={"/work-with-degnite4.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/up-to-date-maintenance.webp"}
+            alt={"Up-to-date maintenance icon"}
+            title={"Up-to-date maintenance"}
             className=""
            
           />
@@ -139,9 +139,9 @@ const WorkWithDegnite = () => {
         >
            <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
           <img
-            src={"/work-with-degnite1.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/access-to-native-features.webp"}
+            alt={"access-to-native-features-icon"}
+            title={"access to native features"}
             className=""
            
           />
@@ -173,9 +173,9 @@ const WorkWithDegnite = () => {
         >
           <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
           <img
-            src={"/work-with-degnite2.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/broader-reach.webp"}
+            alt={"broader reach icon"}
+            title={"broader reach"}
             className=""
            
           />
@@ -208,9 +208,9 @@ const WorkWithDegnite = () => {
         >
            <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
           <img
-            src={"/work-with-degnite3.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/cost-effective-development.webp"}
+            alt={"cost effective development icon"}
+            title={"cost effective development"}
             className=""
            
           />

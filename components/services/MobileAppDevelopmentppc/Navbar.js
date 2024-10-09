@@ -14,15 +14,6 @@ const Navbar = ({ setIsOpen }) => {
   const [showDropdown, setShowDropdown] = useState(false);
   const pathname = usePathname();
   const handleClick = (id) => {
-    if (pathname != "/") {
-      navigate.push("/");
-      setTimeout(() => {
-        const element = document.getElementById(id);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      }, 500);
-    }
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -75,7 +66,7 @@ const Navbar = ({ setIsOpen }) => {
           />
         </button>
         <button
-          onClick={() => handleClick("case-studies")}
+          onClick={() => handleClick("recentShowCase")}
           className={`text-[14px] h-8 font-medium hover:text-[#F15C20] bg-transparent  outline-none`}
         >
           Case Studies

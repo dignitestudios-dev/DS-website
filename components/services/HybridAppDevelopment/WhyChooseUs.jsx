@@ -33,9 +33,9 @@ const WhyChooseUs = () => {
         >
           <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
           <img
-            src={"/why-choose-us1.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/single-code-base-hybrid-app.webp"}
+            alt={"single code base hybrid app icon"}
+            title={"single code base hybrid app"}
             className=""
            
           />
@@ -68,9 +68,9 @@ const WhyChooseUs = () => {
         >
            <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
           <img
-            src={"/why-choose-us-2.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/enhanced-user-experience.webp"}
+            alt={"enhanced user experience icon"}
+            title={"enhanced user experience"}
             className=""
            
           />
@@ -102,9 +102,9 @@ const WhyChooseUs = () => {
         >
           <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
           <img
-            src={"/why-choose-us3.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/seamless-integration.webp"}
+            alt={"seamless integration icon"}
+            title={"seamless integration"}
             className=""
            
           />
@@ -134,10 +134,10 @@ const WhyChooseUs = () => {
           }}
         >
            <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
-          <img
-            src={"/why-choose-us-4.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+           <img
+            src={"/scalable-hybrid-frameworks.webp"}
+            alt={"scalable hybrid frameworks icon"}
+            title={"scalable hybrid frameworks"}
             className=""
            
           />
@@ -168,10 +168,11 @@ const WhyChooseUs = () => {
           }}
         >
           <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
+          
           <img
-            src={"/why-choose-us5.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/save-resources-with-hybrid-solutions.webp"}
+            alt={"Save resources with hybrid solutions icon"}
+            title={"Save resources with hybrid solutions"}
             className=""
            
           />
@@ -202,9 +203,9 @@ const WhyChooseUs = () => {
         >
            <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
           <img
-            src={"/why-choose-us6.webp"}
-            alt={"Hire iOS developer expertise and experience icon"}
-            title={"Hire iOS developer expertise and experience"}
+            src={"/speed-up-your-launch-process.webp"}
+            alt={"Speed up your launch process icon"}
+            title={"Speed up your launch process"}
             className=""
            
           />

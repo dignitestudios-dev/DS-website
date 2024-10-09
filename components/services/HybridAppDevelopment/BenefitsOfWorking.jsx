@@ -46,13 +46,11 @@ const BenefitsOfWorking = () => {
             } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
-            <Image
-              loader={customLoader}
-              loading="lazy"
+            <img             
               width={24}
               height={24}
-              src="/progressive-web-app-development-services-icon.png"
-              alt="Mobile App Development Service Hybrid App Design Icon"
+              src="/hybrid-app-design.png"
+              alt="Hybrid app design icon"
             />
           </div>
           <h3 className={`text-3xl font-semibold`}>Hybrid App Design</h3>
@@ -77,13 +75,11 @@ const BenefitsOfWorking = () => {
             } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
-            <Image
-              loader={customLoader}
-              loading="lazy"
+            <img             
               width={24}
               height={24}
-              src="/application-shell-architecture.png"
-              alt="Mobile App Development Service collaboration icon"
+              src="/migration-and-upgrade.png"
+              alt="Migration and upgrade icon"
             />
           </div>
           <h3 className={`text-3xl font-semibold`}>Migration and Upgrade</h3>
@@ -107,13 +103,11 @@ const BenefitsOfWorking = () => {
             } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
-            <Image
-              loader={customLoader}
-              loading="lazy"
+            <img
               width={24}
               height={24}
-              src="/progressive-pwa-migration-icon.png"
-              alt="Mobile App Development Service Cost estimation App Icon"
+              src="/hybrid-application-testing.png"
+              alt="Hybrid Application Testing"
             />
           </div>
           <h3 className={`text-3xl font-semibold`}>Hybrid Application Testing</h3>
@@ -136,13 +130,11 @@ const BenefitsOfWorking = () => {
             } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C2014] rounded-xl  flex items-center justify-center">
-            <Image
-              loader={customLoader}
-              loading="lazy"
+            <img
               width={24}
               height={24}
-              src="/web-app-consultation.png"
-              alt="Mobile App Development Service Risk Management Icon"
+              src="/quick-support.png"
+              alt="Quick Support Icon"
             />
           </div>
           <h3 className={`text-3xl font-semibold`}>Quick Support</h3>

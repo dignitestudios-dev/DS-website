@@ -853,7 +853,16 @@ input:hover {
   background: linear-gradient(to right, rgba(40, 39, 39, 0), rgb(33, 32, 32));
 }
 
+@media screen and (min-width: 1024px) {
+  .margin-right-auto{
+    margin: 0px 0px 0px auto;
+  }
+}
+
 @media screen and (max-width: 1020px) {
+  .margin-right-auto{
+    margin: 0px 0px 0px auto;
+  }
   .logos-slide div {
     padding: 20px 30px;
     margin: 0 10px;
@@ -1792,12 +1801,26 @@ video {
 }
 
 .hybrid-app-development-services-curve{
-  background-image: url('/hybrid-app-development-services-curve-lines.webp');
+  background-image: url('/hybrid-app-development-services3.webp');
   background-repeat: no-repeat;
   background-size: auto;
   background-position:right;
 }
 
+.shadow-box{
+  box-shadow: 23px 26px 43.3px 12px #0000001F;
+  
+}
+
+.padding-left-0{
+  padding-left: 0px !important;
+}
+
+
+
+.margin-right-auto>div>div form{
+  padding: 20px;
+}
 
 .bounce-img-1-hero{
   animation: bounce1-img 1s alternate-reverse infinite;
@@ -1822,4 +1845,38 @@ video {
   100%{
     transform: translate(0%,5%);
   }
+}
+
+.blur-shadow{
+  backdrop-filter: blur(18px);
+}
+
+
+.bg-linear{
+  background: linear-gradient(180deg, #E8FAFF 0%, rgba(232, 250, 255, 0.24) 100%);
+}
+.bg-linear-green{
+  background: linear-gradient(180deg, #E8FFF0 0%, rgba(232, 255, 240, 0.24) 100%);
+}
+.bg-linear-ice{
+  background: linear-gradient(180deg, #E8F5FF 0%, rgba(232, 245, 255, 0.24) 100%);
+}
+
+.bg-red-img{
+  background-image: url('/bg-cover2.png');
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg-purple-img{
+  background-image: url('/bg-cover1.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg-gray-img{
+  background-image: url('/bg-cover.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }

@@ -36,15 +36,15 @@ const WellKnownAppDevCompany = () => {
     <div className="">
       <img
         className="h-auto max-w-[200px] md:max-w-[240px]" 
-        src="/hybrid-app-development-services-screen-2-3.webp"
-        alt="Hybrid app development service screen 2-3"
+        src="/hybrid-app-development-company1.webp"
+        alt="he image shows multiple screens of applications."
       />
     </div>
     <div className="">
       <img
         className="h-auto max-w-[200px] md:max-w-[240px]  lg:-mt-[8px]" 
-        src="/hybrid-app-development-services-screen-2.webp"
-        alt="Hybrid app development service screen 2"
+        src="/hybrid-app-development-company2.webp"
+        alt="he image shows multiple screens of applications."
       />
     </div>
   </div>
@@ -52,22 +52,22 @@ const WellKnownAppDevCompany = () => {
     <div className="" >
       <img
         className="h-auto max-w-[200px] md:max-w-[240px] "
-        src="/hybrid-app-development-services-screen-2-2.webp"
-        alt=""
+        src="/hybrid-app-development-company3.webp"
+        alt="he image shows multiple screens of applications."
       />
     </div>
     <div className={""} >
       <img
         className="h-auto max-w-[200px] md:max-w-[240px] lg:-mt-[40px]"
-        src="/hybrid-app-development-services-screen-1.webp"
-        alt=""
+        src="/hybrid-app-development-company4.webp"
+        alt="he image shows multiple screens of applications."
       />
     </div>
     <div className={" "} >
       <img
         className="h-auto max-w-[200px] md:max-w-[240px] lg:mt-[-35px]"
-        src="/hybrid-app-development-services-screen-2-1.webp"
-        alt=""
+        src="/hybrid-app-development-company5.webp"
+        alt="he image shows multiple screens of applications."
       />
     </div>
   </div>
@@ -75,15 +75,15 @@ const WellKnownAppDevCompany = () => {
     <div>
       <img
         className="h-auto max-w-[260px] "
-        src="/hybrid-app-development-services-screen-1-1.webp"
-        alt=""
+        src="/hybrid-app-development-company6.webp"
+        alt="he image shows multiple screens of applications."
       />
     </div>
     <div className={''} >
       <img
         className="lg:-mt-[80px] "
-        src="/hybrid-app-development-services-screen-2 (2).webp"
-        alt=""
+        src="/hybrid-app-development-company7.webp"
+        alt="he image shows multiple screens of applications."
       />
     </div>   
   </div>

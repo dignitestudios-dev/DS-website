@@ -30,10 +30,10 @@ const Hero = () => {
         <div className="w-full lg:w-[90%] md:pb-20 sm:pb-20 relative hybrid-app-development-services-curve flex items-baseline ">          
           <div className="w-[320px]  h-[300px] mx-auto md:w-[499.69px] md:h-[475.53px]   relative flex items-center  gap-5">
             <div className="left-side-img">
-              <img src="/hybrid-app-development-services-hero-left-side.webp" className="bounce-img-1-hero" width={200} alt="" />
+              <img src="/hybrid-app-development-services1.webp" className="bounce-img-1-hero" width={200} alt="the image shows two mock screens of the application" />
             </div>
             <div className="right-side-img">
-              <img src="/hybrid-app-development-services-right-side.webp" className="bounce-img-2-hero" width={200} alt="" />
+              <img src="/hybrid-app-development-services2.webp" className="bounce-img-2-hero" width={200} alt="the image shows two mock screens of the application" />
             </div>
           </div>
         </div>

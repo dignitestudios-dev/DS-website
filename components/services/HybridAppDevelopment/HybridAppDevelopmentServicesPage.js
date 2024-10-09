@@ -22,8 +22,8 @@ const HybridAppDevelopmentServicesPage = () => {
       <DevelopmentProcess />
       <WorkWithDegnite/>
       <WhyChooseUs/>
-      <FAQS/> 
-      <HybridAppContactForm/>
+      <FAQS /> 
+      <HybridAppContactForm />
     </div>
   );
 };
