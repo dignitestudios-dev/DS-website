@@ -2,7 +2,7 @@
 import React, { useContext } from "react";
 import WhyChooseUsCard from "./WhyChooseUsCard";
 import { GlobalContext } from "@/context/GlobalContext";
-import { chooseus } from "@/constants/whychooseus";
+import { chooseusPPC } from "@/constants/whychooseusppc";
 
 const WhyChooseUsSection = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -20,14 +20,14 @@ const WhyChooseUsSection = () => {
       </h2>
 
       <p className="text-base lg:leading-[21.76px] lg:w-[50%] mx-auto lg:text-center mb-6">
-      Our revolutionary hybrid app development services bestow a well-organized structure
-       to build entirely customized hybrid mobile apps that are highly compatible with 
-       various devices. Dignite’s hybrid mobile app developers construct high-powered 
-       hybrid software that suits business needs.
+      We ensure brand visibility, credibility and reliability to satisfy users and partners. 
+      Our mobile app development services streamline operations by automating processes 
+      to provide a convenient platform for customers. 
+
       </p>
 
       <div className="py-2 grid grid-cols-1 gap-2  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-5 2xl:gap-6">
-        {chooseus.map((c, index) => {
+        {chooseusPPC.map((c, index) => {
           return (
             <WhyChooseUsCard
               title={c.title}

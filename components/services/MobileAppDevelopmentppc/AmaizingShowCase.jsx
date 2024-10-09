@@ -24,16 +24,17 @@ const AmaizingShowCase = () => {
               <img src="/mainUnder.png" className='w-100 h-100' alt="" srcset="" />
             </span>
            
-            <div className='mt-[15px]' > design show case</div>
+            <div className='mt-[15px]' >Mobile App Design Showcase</div>
           </h2>
           <p
             className={`text-base w-[100%] lg:w-[65%] font-normal mt-2 text-start ${theme === "light" && "text-[#2A2A2A]"
               }`}
           >
-            Our revolutionary hybrid app development services bestow a well-organized
-            structure to build entirely customized hybrid mobile apps that are highly
-            compatible with various devices. Dignite’s hybrid mobile app developers
-            construct high-powered hybrid software that suits business needs.
+          Our team of skilled designers and developers specializes in 
+          creating stunning, user-friendly mobile apps that captivate 
+          your audience. From concept to launch, we'll work closely 
+          with you to transform your vision into a reality. Let's 
+          build something amazing together!
           </p>
         </div>
 

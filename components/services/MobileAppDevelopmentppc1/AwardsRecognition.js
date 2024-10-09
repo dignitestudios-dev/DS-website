@@ -5,7 +5,7 @@ import React, { useContext } from "react";
 const AwardsRecognition = () => {
   const { theme,setIsSidebarOpen } = useContext(GlobalContext);
   return (
-    <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-3 justify-start items-start w-full padding-left-0">
+    <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-3 justify-start items-start w-full">
       <div className='w-full flex items-center justify-center'>
       <p
             className={` font-[600] text-sm z-10 ${

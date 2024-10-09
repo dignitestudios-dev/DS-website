@@ -11,8 +11,8 @@ const RecentShowCase = () => {
 
   return (
     <section id="recentShowCase" className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-center w-full mt-6 mb-10 md:my-12 lg:mt-16 lg:mb-20  ">
-      <div className="w-full flex flex-col lg:flex-row items-start justify-between">
-        <div className="lg:w-[70%] xl:w-[80%] flex flex-col gap-y-6 lg:gap-y-2">
+      <div className="w-full flex flex-col  2xl:mb-6 lg:flex-row items-start justify-between">
+        <div className="lg:w-[70%] xl:w-[80%]  flex flex-col gap-y-6 lg:gap-y-2">
           <h2
             className={`${theme === "dark" ? "text-white" : "text-black"
               } text-5xl capitalize font-[600]`}
@@ -21,17 +21,20 @@ const RecentShowCase = () => {
               <img src="/mainUnder.png" className='' alt="" srcset="" />
             </span>
             <div className='mt-5' >
-            design showcase
+              Case Studies
             </div>
           </h2>
           <p
             className={`text-base font-normal text-start mt-3 ${theme === "light" && "text-[#2A2A2A]"
               }`}
           >
-           Our revolutionary hybrid app development services bestow a well-organized
-            structure to build entirely customized hybrid mobile apps that are highly
-             compatible with various devices. Dignite’s hybrid mobile app developers 
-             construct high-powered hybrid software that suits business needs.
+            Curious to see our work in action? Check out our latest case
+            studies to learn how we've helped businesses of all size
+            achieve their mobile app goals. From successful launches
+            to measurable results, our portfolio showcases the power
+            of innovative app development. Discover how we can transform
+            your business with a custom mobile app.
+
           </p>
         </div>
 
@@ -41,7 +44,7 @@ const RecentShowCase = () => {
           </div>
         </div>
       </div>
-     
+
       <RecentDesignShowCase />
     </section>
   );

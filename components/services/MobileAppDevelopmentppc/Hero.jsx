@@ -2,9 +2,9 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 import ContactButton from "@/components/global/ContactButton";
-import ContactForm from "@/components/global/ContactForm";
 import AwardsRecognition from "./AwardsRecognition";
 import Navbar from "./Navbar";
+import ContactFormPPPC from "./ContactFormPPPC";
 
 const Hero = () => {
   const { theme,setIsSidebarOpen } = useContext(GlobalContext);
@@ -20,20 +20,21 @@ const Hero = () => {
           >Awards & Recognition</p>
           <AwardsRecognition/>
           <h1 className="text-4xl mt-7 lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-start lg:leading-[71.93px] 2xl:leading-[99px] z-10">
-         <span> Award Winning Mobile 
+         <span> Top-Notch Mobile  
           <img src="/ppc_border.webp" className='relative left-10 -top-4' alt="" srcset="" />
           </span>
-         <span className='relative -top-4' >App Development</span>          
+         <span className='relative -top-4' >App Development </span>          
             <br />
-            <span> Agency</span>
+            <span> Service</span>
           </h1>
           <p
             className={` font-normal text-lg mt-6 z-10 ${
               theme === "light" && "text-[#5c5c5c]"
             }`}
           >
-            Creating seamless app experiences. Transforming your ideas
-            into exceptional mobile app solutions.
+           Creating seamless app experiences. Transforming your ideas 
+           into exceptional mobile app solutions. 
+
           </p>
 
           <div className="mt-10 z-10">
@@ -47,7 +48,7 @@ const Hero = () => {
           <div className={`${
         theme === "light" ? "bg-[#FFFFFF]" : "bg-[#2d2d2d]"
       }   w-[100%] xl:w-[85%] rounded-xl top-20 p-5 shadow-box relative margin-right-auto lg:-top-12  z-2`} >
-             <ContactForm/>
+             <ContactFormPPPC/>
           </div>
         </div>
       </div>

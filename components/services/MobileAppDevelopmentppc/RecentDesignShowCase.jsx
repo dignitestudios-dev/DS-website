@@ -75,20 +75,20 @@ const RecentDesignShowCase = () => {
                 and track symptoms for optimal well-being.</p>
               <div>
                 <div className="w-full absolute bottom-5 left-2  mt-auto flex justify-start gap-2 items-center pr-1">
-                  <Link href={""} >
+                  <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.mymedicaljournal"} >
                     <img
                       src="/white-bg-google.png"
                       className=""
                       alt="google_play_button"
                     />
                   </Link>
-                  <Link href={""}>
+                  <Link href={"https://apps.apple.com/us/app/my-medical-journal-app/id6502008545"}>
                     <img
                       src="/whitebg-app.png"
                       className="h-[32px] md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
-                  <Link href={""}>
+                  <Link href={"/case-studies/mymedicaljournal"}>
                     <img
                       src="/white-bg-web.png"
                       className="h-[32px] md:h-[40.62px]"
@@ -115,7 +115,7 @@ const RecentDesignShowCase = () => {
             <div className="w-[100%] absolute bottom-[0px] bg-[#C9D7E273] blur-shadow  h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
-                <img src="/carter-logo.png" width="30px" height="30px" alt="" />
+                <img src="/nykn-logo-new.png" width="30px" height="30px" alt="" />
                 <h2 className='ml-2 text-[#181818] capitalize'>NYKN</h2>
               </div>
               <p className='w-[100%] lg:w-[50%] text-start text-[12px] mt-3 text-[#5C5C5C] font-normal' >
@@ -125,20 +125,20 @@ const RecentDesignShowCase = () => {
               explore the heart of the city with just a click.</p>
               <div>
                 <div className="w-full absolute bottom-5 left-2  mt-auto flex justify-start gap-2 items-center pr-1">
-                  <Link href={""} >
+                  <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.nykn&pli=1"} >
                     <img
                       src="/white-bg-google.png"
                       className=""
                       alt="google_play_button"
                     />
                   </Link>
-                  <Link href={""}>
+                  <Link href={"https://apps.apple.com/us/app/now-you-know-nashville/id6505112380"}>
                     <img
                       src="/whitebg-app.png"
                       className="h-[32px] md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
-                  <Link href={""}>
+                  <Link href={"/case-studies/nykn"}>
                     <img
                       src="/white-bg-web.png"
                       className="h-[32px] md:h-[40.62px]"
@@ -171,20 +171,20 @@ const RecentDesignShowCase = () => {
                tasks with precision and ease.</p>
               <div>
                 <div className="w-full absolute bottom-5 left-2  mt-auto flex justify-start gap-2 items-center pr-1">
-                  <Link href={""} >
+                  <Link href={"https://play.google.com/store/apps/details?id=com.maidsimpl.maidsimpl&hl=en&gl=US"} >
                     <img
                       src="/white-bg-google.png"
                       className=""
                       alt="google_play_button"
                     />
                   </Link>
-                  <Link href={""}>
+                  <Link href={"https://apps.apple.com/us/app/maidsimpl/id6478665215"}>
                     <img
                       src="/whitebg-app.png"
                       className="h-[32px] md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
-                  <Link href={""}>
+                  <Link href={"https://www.maidsimpl.com/"}>
                     <img
                       src="/white-bg-web.png"
                       className="h-[32px] md:h-[40.62px]"
@@ -227,20 +227,8 @@ const RecentDesignShowCase = () => {
               rental hassle-free.</p>
               <div>
                 <div className="w-full absolute bottom-5 left-2  mt-auto flex justify-start gap-2 items-center pr-1">
-                  <Link href={""} >
-                    <img
-                      src="/white-bg-google.png"
-                      className=""
-                      alt="google_play_button"
-                    />
-                  </Link>
-                  <Link href={""}>
-                    <img
-                      src="/whitebg-app.png"
-                      className="h-[32px] md:h-[40.62px]"
-                      alt="app_store_button" />
-                  </Link>
-                  <Link href={""}>
+               
+                  <Link href={"https://www.carterboating.com/"}>
                     <img
                       src="/white-bg-web.png"
                       className="h-[32px] md:h-[40.62px]"

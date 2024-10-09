@@ -1880,3 +1880,36 @@ video {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+
+.bg-purple1-img{
+  background-image: url('/bg-cover1.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.schedule-img-left{
+  transform: translateX(50%);
+  z-index: 1;
+  position: relative;
+}
+.plan-img-right{
+  transform: translateX(-65%);
+  position: relative;
+  z-index: 3;
+}
+.health-feed-center{
+  position: relative;
+  z-index: 2;
+}
+
+[data-aos="translate-left"].aos-animate{
+  transform: translateX(40%) rotate(-5deg);
+}
+[data-aos="translate-center"].aos-animate{
+  transform:rotate(8deg);
+}
+[data-aos="translate-right"].aos-animate{
+  transform:translateX(-40%) rotate(10deg);
+}

@@ -13,11 +13,13 @@ const OurOffices = () => {
         Our offices
       </h2>
       <p className='w-[50%] font-[300] text-sm mt-3' >
-        Our revolutionary hybrid app development services bestow 
-        a well-organized structure to build entirely customized 
-        hybrid mobile apps that are highly compatible with various 
-        devices. Dignite’s hybrid mobile app developers construct
-         high-powered hybrid software that suits business needs.
+      Our office is located at the heart of four beautiful countries where
+       means of transportation are a bit convenient and accessible. 
+       The environment around is much friendlier to foster creativity 
+       and features modern amenities to ensure a productive experience.
+        We always welcome our clients and partners to feel free and
+           schedule an appointment to discuss your thriving ideas. 
+
          </p>
 </div>
  <div className="hidden xl:block">

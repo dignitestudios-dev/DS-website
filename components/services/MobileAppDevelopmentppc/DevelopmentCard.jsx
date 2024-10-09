@@ -21,14 +21,14 @@ export default function DevelopmentCard() {
                         <img src="/andriod_icon.png" alt="" srcset="" />
                     </div>
                     <h3 className="text-[28px] font-semibold leading-tight">
-                        Andorid App Development
+                    Android App Development
                     </h3>
                     <p className="text-xs font-normal w-[100%]  lg:w-[80%] text-start mb-3">
-                        Struggling to find an innovative partner for your mobile
-                        app development? Here we offer the best mobile app solutions
-                        to propel your business in the world of the mobile stratosphere
-                        with our eccentric development approach. Whereas, Android apps
-                        are the cornerstone of the transformative development process.
+                    Looking to reach the vast Android user base? Our team specializes in creating high-quality 
+                    Android apps that are both functional and visually appealing. From simple utility apps to
+                     complex enterprise solutions, we'll work closely with you to develop an app that meets
+                      your unique needs and exceeds your expectations.
+
                     </p>
                     <div>
                         <ContactButton text1={"Start your project"} text2={"Let's talk"} />
@@ -91,11 +91,11 @@ export default function DevelopmentCard() {
                         iOS app development
                     </h3>
                     <p className="text-xs w-[100%]  lg:w-[80%] font-normal text-start mb-3">
-                        Have you ever heard that an IOS application is running very slowly? Yes,
-                        you’ve been familiar with the term, as our experts built powerful, stable,
-                        highly functional, operational, and systemized app versions of the IOS mobile
-                        applications to satisfy their clients in the process of mobile development.
-                        And that’s how our development efforts create rapid mobile app conversions in no time.
+                    Want to tap into the vibrant iOS ecosystem? Our experienced developers can
+                     create stunning and intuitive iOS apps that showcase your brand and engage 
+                     your audience. From sleek design to seamless performance, we'll deliver a 
+                     top-notch app that's optimized for Apple devices.
+
                     </p>
                     <div>
                         <ContactButton text1={"Start your project"} text2={"Let's talk"} />
@@ -103,7 +103,6 @@ export default function DevelopmentCard() {
                 </div>
             </div>
             <div className="w-full grid px-20 grid-cols-1 p-10 lg:grid-cols-2 gap-6 py-6  ">
-
                 <div
                     className="flex flex-col items-start justify-center gap-5 order-1 lg:order-1 text-start"
                     data-aos="slide-up"
@@ -124,10 +123,13 @@ export default function DevelopmentCard() {
                         Cross-platform
                     </h3>
                     <p className="text-xs w-[100%]  lg:w-[80%] font-normal text-start mb-3">
-                        React Native, Xamarin, and Flutter are the most popular
-                        languages to increase a project's versatility, efficiency,
-                        and speed. Thus, that can be delivered promptly through
-                        our mobile application services.
+                    Want to reach users on both iOS and Android without breaking 
+                    the bank? Our cross-platform app development services allow 
+                    us to create a single codebase that can be deployed to 
+                    multiple platforms, saving you time and money. Enjoy the 
+                    benefits of a native-like experience across devices with 
+                    our efficient and cost-effective solutions.
+
                     </p>
                     <div>
                         <ContactButton text1={"Start your project"} text2={"Let's talk"} />

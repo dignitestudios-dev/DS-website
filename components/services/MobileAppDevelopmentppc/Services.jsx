@@ -26,10 +26,11 @@ const Services = () => {
             Services
           </h2>
           <p className={`w-[100%] lg:w-[55%] mt-3 text-sm ${theme === "dark" ? "text-white" : "text-[#2A2A2A]"
-            }  `}>Our revolutionary hybrid app development services bestow a well-organized
-            structure to build entirely customized hybrid mobile apps that are highly
-            compatible with various devices. Dignite’s hybrid mobile app developers
-            construct high-powered hybrid software that suits business needs.</p>
+            }  `}>Our app-building service typically includes initial concept, 
+            designing UI/UX interfaces, integration and ongoing support. 
+            Our expert mobile app developers ensure visually appealing 
+            functional layouts and app optimization processes.
+</p>
         </div>
         <div className="hidden xl:block">
           <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />

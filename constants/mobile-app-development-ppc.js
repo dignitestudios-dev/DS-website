@@ -1,23 +1,28 @@
 export const MobileAppDevelopmentPpcFaq = [
   {
-    question: "What services does your agency offers?",
+    question: "What services does your company offer?",
     answer:
-      "Hybrid applications consist of a single codebase app that can be installed on multiple devices like Android and iOS. It consumes limited time with cost-effective procedures.",
+      "Our mobile app development services facilitate android app development, iOS app development, web app development, native app development & progressive web app development services.",
   },
   {
-    question: "How can your agency help my business?",
+    question: "How can your company help my business?",
     answer:
-      "To know the exact hybrid mobile app development cost, please fill out the below form to get your desired quote.",
+      "With a strong evaluation process and building profound strategies can make your brand visible and profitable. ",
   },
   {
     question: "What is your pricing structure?",
     answer:
-      "One of the biggest advantages is that it can be operated on multiple mobile devices under a single codebase. It is cheaper and has a better UI/UX design structure to attract an audience on a large scale.",
+      "The pricing structure of mobile app development depends on the complexity of the app.",
   },
   {
-    question: "Is it possible to request refund?",
+    question: "What are the requirements for developing an app from scratch?",
     answer:
-      "It depends on the complexity of an app. If it contains a smaller version of an app then a hybrid developer can create it in less time frame.",
+      "First, you have to define the goal of your project, analyze the problem statement, evaluate in-depth market research of your competitors, choose an appropriate app template, app code, customize app features, and analyze the cost-effective launch platform. That’s how you will build constructive apps for your consumers.",
+  },
+  {
+    question: "How do you keep my app and data secure?",
+    answer:
+      "Following cyber essential guidelines to ensure the privacy and security of the app. Our professional experts of mobile app development impart best practices to secure business data adequately.",
   },
   
 ];
