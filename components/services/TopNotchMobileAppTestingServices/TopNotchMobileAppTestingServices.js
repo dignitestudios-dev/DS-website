@@ -11,7 +11,7 @@ import WhyDignite from "./WhyDignite";
 import TopNotchFaqs from "./TopNotchFaqs";
 import "aos/dist/aos.css";
 import { GlobalContext } from "@/context/GlobalContext";
-import NewContactForm from "@/components/global/NewContactForm";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const TopNotchMobileAppTestingServices = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -27,7 +27,7 @@ const TopNotchMobileAppTestingServices = () => {
       <TestingTools />
       <WhyDignite />
       <TopNotchFaqs />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

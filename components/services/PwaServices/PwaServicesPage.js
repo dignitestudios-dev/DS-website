@@ -10,7 +10,7 @@ import PwaDevelopmentProcess from "./PwaDevelopmentProcess";
 import WebAppSolutions from "./WebAppSolutions";
 import WhyChooseUs from "./WhyChooseUs";
 import FAQS from "./FAQS";
-import NewContactForm from "@/components/global/NewContactForm";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const PwaServicesPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -25,7 +25,7 @@ const PwaServicesPage = () => {
       <WebAppSolutions />
       <WhyChooseUs />
       <FAQS />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

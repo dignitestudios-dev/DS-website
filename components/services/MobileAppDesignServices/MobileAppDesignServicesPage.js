@@ -11,7 +11,7 @@ import FAQS from "./FAQS";
 import BenefitOfDigniteStudios from "./BenefitOfDigniteStudios";
 import PlanOfActionSection from "./PlanOfActionSection";
 import { GlobalContext } from "@/context/GlobalContext";
-import NewContactForm from "@/components/global/NewContactForm";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const MobileAppDesignServicesPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -27,7 +27,7 @@ const MobileAppDesignServicesPage = () => {
       <BenefitOfDigniteStudios />
       <DigniteServiceScope />
       <FAQS />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

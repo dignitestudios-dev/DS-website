@@ -15,9 +15,9 @@ const RecentShowCase = () => {
         <div className="lg:w-[70%] xl:w-[80%]  flex flex-col gap-y-6 lg:gap-y-2">
           <h2
             className={`${theme === "dark" ? "text-white" : "text-black"
-              } text-5xl capitalize font-[600]`}
+              } headings-size capitalize font-[600]`}
           >
-            <span className="text-[#F15C20] text-[20px] font-[700] upper">Recent
+            <span className="text-[#F15C20] text-[20px] font-[700] tracking-wide leading-[28px] upper">Recent
               <img src="/mainUnder.png" className='' alt="" srcset="" />
             </span>
             <div className='mt-5' >

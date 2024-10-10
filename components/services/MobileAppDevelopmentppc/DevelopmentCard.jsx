@@ -20,7 +20,7 @@ export default function DevelopmentCard() {
                     <div className="">
                         <img src="/andriod_icon.png" alt="" srcset="" />
                     </div>
-                    <h3 className="text-[28px] font-semibold leading-tight">
+                    <h3 className="text-[35px] font-semibold leading-tight">
                     Android App Development
                     </h3>
                     <p className="text-sm font-normal w-[100%]  lg:w-[80%] text-start mb-3">
@@ -55,7 +55,7 @@ export default function DevelopmentCard() {
             </div>
             <div className="w-full grid md:px-20 grid-cols-1 md:p-10 lg:grid-cols-2 gap-6  py-6">
 
-                <div className="flex md:justify-center p-10 lg:justify-center bg-purple-img">
+                <div className="flex order-2 lg:order-1 md:justify-center p-10 lg:justify-center bg-purple-img">
                     <Image
                         width={330}
                         height={380}
@@ -74,7 +74,7 @@ export default function DevelopmentCard() {
                     />
                 </div>
                 <div
-                    className="flex flex-col items-start relative md:left-[40px] justify-center gap-5 text-start"
+                    className="flex flex-col order-1 lg:order-2 items-start relative md:left-[40px] justify-center gap-5 text-start"
                     data-aos="slide-up"
                     data-aos-offset="100"
                     data-aos-delay="0"
@@ -87,7 +87,7 @@ export default function DevelopmentCard() {
                     <div>
                         <img src="/apple-icon-bg.png" />
                     </div>
-                    <h3 className="text-[28px] font-semibold leading-tight">
+                    <h3 className="text-[35px] font-semibold leading-tight">
                         iOS app development
                     </h3>
                     <p className="text-sm w-[100%]  lg:w-[80%] font-normal text-start mb-3">
@@ -102,7 +102,7 @@ export default function DevelopmentCard() {
                     </div>
                 </div>
             </div>
-            <div className="w-full grid md:px-20 grid-cols-1 md:p-10 lg:grid-cols-2 gap-6 py-6  ">
+            <div className="w-full  grid md:px-20 grid-cols-1 md:p-10 lg:grid-cols-2 gap-6 py-6  ">
                 <div
                     className="flex flex-col items-start justify-center gap-5 order-1 lg:order-1 text-start"
                     data-aos="slide-up"
@@ -119,7 +119,7 @@ export default function DevelopmentCard() {
                         <img src="/react-bg.png" alt="" className='ml-3' srcset="" />
                         <img src="/slide-bg.png" alt="" className='ml-3' srcset="" />
                     </div>
-                    <h3 className="text-[28px] font-semibold leading-tight">
+                    <h3 className="text-[35px] font-semibold leading-tight">
                         Cross-platform
                     </h3>
                     <p className="text-sm w-[100%]  lg:w-[80%] font-normal text-start mb-3">

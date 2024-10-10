@@ -35,6 +35,8 @@ const RecentDesignShowCase = () => {
       <Swiper {...sliderSettings} className="z-10">
         <SliderButtons />
         <SwiperSlide className='bg-[#232323] overflow-hidden relative rounded-3xl' style={{ height: '580px' }} >
+        <Link
+          href={"/case-studies/mymedicaljournal"}>
           <div className="h-100 w-100 flex items-center justify-center" style={{}} >
             <img src="/bg-shade.png" alt="" srcset="" />
           </div>
@@ -100,8 +102,11 @@ const RecentDesignShowCase = () => {
             </div>
 
           </div>
+          </Link>
         </SwiperSlide>
         <SwiperSlide className='bg-linear overflow-hidden relative rounded-3xl' style={{ height: '580px' }} >
+        <Link
+          href={"/case-studies/nykn"}>
           <div className="h-100 w-100 flex items-center justify-center" style={{}} >
             <img src="/sky-blue-circle.png" alt="" srcset="" />
           </div>
@@ -150,8 +155,11 @@ const RecentDesignShowCase = () => {
             </div>
 
           </div>
+          </Link>
         </SwiperSlide>
         <SwiperSlide className='bg-linear-green overflow-hidden relative rounded-3xl' style={{ height: '580px' }} >         
+        <Link
+          href={"/case-studies/maidsimpl"}>
           <div className="grid h-[65%] grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  w-full  absolute z-2 top-0">
             <div className="flex justify-center items-end h-100 custom-media-query">
                 <img src="/mad-clean-1.png" className='h-100 relative left-[80px] max-w-[300px] ' alt="" />
@@ -196,8 +204,11 @@ const RecentDesignShowCase = () => {
             </div>
 
           </div>
+          </Link>
         </SwiperSlide>
         <SwiperSlide className='bg-linear-ice overflow-hidden relative rounded-3xl' style={{ height: '580px' }} >         
+        <Link
+          href={"/case-studies/carter-boating"}>
         <div className="h-[100%] w-100 flex items-center justify-center" style={{}} >
             <img src="/gray-ice-center.png" alt="" srcset="" />
           </div>
@@ -240,6 +251,7 @@ const RecentDesignShowCase = () => {
             </div>
 
           </div>
+          </Link>
         </SwiperSlide>
       </Swiper>
     </>

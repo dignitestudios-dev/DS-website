@@ -16,10 +16,10 @@ const Hero = () => {
       <div className="w-full global-padding-horizontal relative flex flex-col  gap-x-6 gap-y-16 pt-20">
         <div className="w-full text-start relative md:pb-20  flex flex-col items-center">      
           <AwardsRecognition/>
-          <h1 className="text-4xl mt-7 lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-center lg:leading-[71.93px] 2xl:leading-[99px] z-10">
+          <h1 className=" mt-7 headings-size text-center z-10">
          <span> Top-Notch Mobile 
 
-          <img src="/ppc_border.webp" className='relative md:left-10 -top-4' alt="" srcset="" />
+          <img src="/ppc_border.webp" className='relative md:left-[15%] -top-4' alt="" srcset="" />
           </span>
          <span className='relative -top-4' >App Development Service</span>          
           </h1>

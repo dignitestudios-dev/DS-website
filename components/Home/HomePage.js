@@ -13,7 +13,7 @@ import WhyChooseUsSection from "@/components/Home/WhyChooseUsSection";
 import TopRatedPageOurOffices from "../services/TopRatedMobileAppDevelopment/TopRatedPageOurOffices";
 import ConvenientMobileAppDevelopment from "./ConvenientMobileAppDevelopment";
 import AreaOfExpertise from "./AreaOfExpertise";
-import NewContactForm from "../global/NewContactForm";
+import HybridAppContactForm from "../global/HybridAppContactForm";
 
 export default function HomePage() {
   const { palette } = useContext(GlobalContext);
@@ -39,7 +39,7 @@ export default function HomePage() {
       <IndustriesSection />
       <Testimonials />
       <Faq />
-      <NewContactForm />
+      <HybridAppContactForm />
       <TopRatedPageOurOffices />
     </div>
   );

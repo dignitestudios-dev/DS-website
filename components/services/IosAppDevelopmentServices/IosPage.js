@@ -11,7 +11,7 @@ import WhyChooseUs from "./WhyChooseUs";
 import { IOS_SERVICES_FAQS } from "@/constants/iosservicesfaqs";
 import VariousIndustriesSection from "./VariousIndustriesSection";
 import Faqs from "./Faqs";
-import NewContactForm from "@/components/global/NewContactForm";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const IosPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -26,7 +26,7 @@ const IosPage = () => {
       <ValueAddedDigniteStudios />
       <WhyChooseUs />
       <Faqs faqs={IOS_SERVICES_FAQS} />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

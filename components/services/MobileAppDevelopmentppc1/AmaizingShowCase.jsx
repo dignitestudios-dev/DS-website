@@ -17,17 +17,17 @@ const AmaizingShowCase = () => {
         <div className="lg:w-[100%] xl:w-[100%] flex flex-col items-center gap-y-6 lg:gap-y-2">
           <h2
             className={`${theme === "dark" ? "text-white" : "text-black"
-              } text-5xl capitalize font-[600] text-center`}
+              } headings-size text-center`}
           >
-            <span className="text-[#F15C20] text-[20px] font-[700] upper flex flex-col items-center">
+            <span className="text-[#F15C20] flex flex-col items-center text-[20px] font-[700] tracking-wide leading-[28px] upper">
               Amazing
               <img src="/mainUnder.png" className='w-100 h-100' alt="" srcset="" />
             </span>
            
-            <div className='mt-[15px]' > Mobile App Design Showcase</div>
+            <div className='mt-[15px]' > Mobile App Design <br></br> Showcase</div>
           </h2>
           <p
-            className={`text-base w-[100%] lg:w-[65%] text-center font-normal mt-2 text-start ${theme === "light" && "text-[#2A2A2A]"
+            className={`text-base w-[100%] lg:w-[65%] text-center font-normal mt-2  ${theme === "light" && "text-[#2A2A2A]"
               }`}
           >
            Our team of skilled designers and developers specializes in creating stunning, 

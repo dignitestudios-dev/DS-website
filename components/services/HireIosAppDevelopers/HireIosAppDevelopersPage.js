@@ -7,8 +7,8 @@ import HighQualifiedIosDevelopers from "./HighQualifiedIosDevelopers";
 import IosAppDevelopersForHire from "./IosAppDevelopersForHire";
 import WhyChooseUs from "./WhyChooseUs";
 import FAQS from "./FAQS";
-import NewContactForm from "@/components/global/NewContactForm";
 import HiringAnIosDeveloper from "./HiringAnIosDeveloper";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const HireIosAppDevelopersPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -21,7 +21,7 @@ const HireIosAppDevelopersPage = () => {
       <HiringAnIosDeveloper />
       <WhyChooseUs />
       <FAQS />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

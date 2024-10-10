@@ -11,7 +11,7 @@ import BenefitsOfWebAppDev from "./BenefitsOfWebAppDev";
 import TechnologiesAndTools from "./TechnologiesAndTools";
 import WhyChooseUs from "./WhyChooseUs";
 import Faqs from "./Faqs";
-import NewContactForm from "@/components/global/NewContactForm";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const WebAppDevServicePage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -27,7 +27,7 @@ const WebAppDevServicePage = () => {
       <TechnologiesAndTools />
       <WhyChooseUs />
       <Faqs />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

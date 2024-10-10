@@ -56,7 +56,7 @@ const Testimonials = () => {
         </p>
 
         <h2
-          className={`lg:font-bold mt-3 uppercase font-extrabold text-4xl  xl:text-4xl 2xl:text-[54px] 2xl:mt-5  tracking-tighter`}
+          className={` mt-3 uppercase  2xl:mt-5 headings-size  tracking-tighter`}
         >
           our clients
         </h2>

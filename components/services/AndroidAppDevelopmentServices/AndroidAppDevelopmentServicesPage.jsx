@@ -8,7 +8,7 @@ import Technologies from "./Technologies";
 import EdgeOfDigniteStudios from "./EdgeofWorkingWithDignite";
 import FAQS from "./FAQS";
 import WhyDigniteStudios from "./WhyDigniteStudios";
-import NewContactForm from "@/components/global/NewContactForm";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const AndroidAppDevelopmentServicesPage = () => {
   return (
@@ -22,7 +22,7 @@ const AndroidAppDevelopmentServicesPage = () => {
       <EdgeOfDigniteStudios />
       <WhyDigniteStudios />
       <FAQS />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

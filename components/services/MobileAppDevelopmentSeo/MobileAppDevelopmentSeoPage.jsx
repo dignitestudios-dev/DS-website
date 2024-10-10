@@ -16,7 +16,7 @@ import customLoader from "@/lib/custom-loader";
 import { GlobalContext } from "@/context/GlobalContext";
 import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 import InnovativeMobileAppSection from "./InnovativeMobileAppSection";
-import NewContactForm from "@/components/global/NewContactForm";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const MobileAppDevelopmentSeoPage = () => {
   const { theme } = useContext(GlobalContext);
@@ -66,7 +66,7 @@ const MobileAppDevelopmentSeoPage = () => {
       <Lifecycle />
       <InnovativeMobileAppSection />
       <TopRatedAppDevFaq />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

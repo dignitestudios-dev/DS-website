@@ -7,7 +7,7 @@ import MobileAppDesignCaseStudies from "../MobileAppDesignServices/MobileAppDesi
 import DriveBusiness from "./DriveBusiness";
 import InfluentialFaqs from "./InfluentialFaqs";
 import InfluentialChooseUs from "./InfluentialChooseUs";
-import NewContactForm from "@/components/global/NewContactForm";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const InfluentialMobileAppConsultingServicesPage = () => {
   return (
@@ -20,7 +20,7 @@ const InfluentialMobileAppConsultingServicesPage = () => {
       <InfluentialChooseUs />
       <DriveBusiness />
       <InfluentialFaqs />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

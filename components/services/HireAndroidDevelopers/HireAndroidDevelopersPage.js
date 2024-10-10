@@ -10,7 +10,7 @@ import DevelopersAdequacies from "./DevelopersAdequacies";
 import DevelopersHiringProcess from "./DevelopersHiringProcess";
 import WhyChooseUs from "./WhyChooseUs";
 import FAQS from "./FAQS";
-import NewContactForm from "@/components/global/NewContactForm";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const HireAndroidDevelopersPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -25,7 +25,7 @@ const HireAndroidDevelopersPage = () => {
       <DevelopersHiringProcess />
       <WhyChooseUs />
       <FAQS />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

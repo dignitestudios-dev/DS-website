@@ -10,7 +10,7 @@ import WhyChooseUs from "./WhyChooseUs";
 import FAQS from "./FAQS";
 import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 import { GlobalContext } from "@/context/GlobalContext";
-import NewContactForm from "@/components/global/NewContactForm";
+import HybridAppContactForm from "@/components/global/HybridAppContactForm";
 
 const IosAppDesignServicesPage = () => {
   const { setIsSidebarOpen } = useContext(GlobalContext);
@@ -24,7 +24,7 @@ const IosAppDesignServicesPage = () => {
       <WorkingWithDignite />
       <WhyChooseUs />
       <FAQS />
-      <NewContactForm />
+      <HybridAppContactForm />
     </div>
   );
 };

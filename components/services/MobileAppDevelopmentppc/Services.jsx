@@ -20,12 +20,12 @@ const Services = () => {
         <div>
           <h2
             className={`${theme === "dark" ? "text-white" : "text-black"
-              } text-4xl font-[600] xl:w-[75%]`}
+              } headings-size leading-[60px] font-[600] xl:w-[75%]`}
           >
-            <span className='font-[700] text-[20px] text-[#8F8F8F] uppercase' >Our mobile app development</span><br />
+            <span className='font-[700] tracking-wide text-[20px] text-[#8F8F8F] leading-[50px] uppercase' >Our mobile app development</span><br />
             Services
           </h2>
-          <p className={`w-[100%] lg:w-[55%] mt-3 text-sm ${theme === "dark" ? "text-white" : "text-[#2A2A2A]"
+          <p className={`w-[100%] lg:w-[55%] mt-2 text-sm ${theme === "dark" ? "text-white" : "text-[#2A2A2A]"
             }  `}>Our app-building service typically includes initial concept, 
             designing UI/UX interfaces, integration and ongoing support. 
             Our expert mobile app developers ensure visually appealing 
