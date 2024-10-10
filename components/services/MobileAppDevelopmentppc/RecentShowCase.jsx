@@ -3,8 +3,8 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
-import ContactButton from "@/components/global/ContactButton";
 import RecentDesignShowCase from "./RecentDesignShowCase";
+import ContactButtonPPC from "@/components/global/ContactButtonPPC";
 
 const RecentShowCase = () => {
   const { theme } = useContext(GlobalContext);
@@ -40,7 +40,7 @@ const RecentShowCase = () => {
 
         <div className="flex flex-col gap-y-32 mt-4 lg:mt-0">
           <div className="mt-7">
-            <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
+            <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
           </div>
         </div>
       </div>

@@ -13,8 +13,8 @@ import Head from "next/head";
 import Script from "next/script";
 
 export const sliderSettings = {
-  slidesPerView: 2,
-  spaceBetween: 20,
+  slidesPerView: 1,
+  spaceBetween: 40,
   centeredSlides: true,
   autoplay: {
     delay: 3000,
@@ -29,7 +29,7 @@ export const sliderSettings = {
     },
 
     750: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
 
     900: {

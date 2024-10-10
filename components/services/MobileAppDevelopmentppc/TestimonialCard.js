@@ -29,7 +29,7 @@ const TestimonialCard = ({ reviewBody, authorName, jobtitle, index }) => {
       <img src={'/qoute1.png'} className='ml-2' />
       </div>
       <p
-        className="text-base h-[80%]"
+        className="text-base h-[80%] mb-28 md:mb-0"
         style={{
           color: palette?.light_contrast_color,
         }}
@@ -39,7 +39,7 @@ const TestimonialCard = ({ reviewBody, authorName, jobtitle, index }) => {
           : reviewBody}
         {/* {reviewBody} */}
       </p>
-      <div className="w-auto h-[20%] absolute bottom-0 left-0 flex gap-2 justify-start items-center">
+      <div className="w-auto h-[20%]  absolute bottom-0 left-0 flex gap-2 justify-start items-center">
         <Image
           loading="lazy"
           src={IMAGE_LIST[index]}

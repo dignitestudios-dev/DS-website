@@ -63,7 +63,7 @@ const RecentDesignShowCase = () => {
             </div>
 
           </div>
-          <div className="w-[100%] absolute bottom-[0px] bg-[#82888C73] blur-shadow  h-[200px]" >
+          <div className="w-[100%] absolute bottom-[0px] bg-[#82888C73] blur-shadow  h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
                 <img src="/medical-general.png" width="30px" height="30px" alt="" />
@@ -74,7 +74,7 @@ const RecentDesignShowCase = () => {
                 visualization tool. Effortlessly navigate, interact,
                 and track symptoms for optimal well-being.</p>
               <div>
-                <div className="w-full absolute bottom-5 left-2  mt-auto flex justify-start gap-2 items-center pr-1">
+                <div className="w-full absolute bottom-5 left-2  mt-auto flex flex-wrap justify-start flex-wrap gap-2 items-center pr-1">
                   <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.mymedicaljournal"} >
                     <img
                       src="/white-bg-google.png"
@@ -85,13 +85,13 @@ const RecentDesignShowCase = () => {
                   <Link href={"https://apps.apple.com/us/app/my-medical-journal-app/id6502008545"}>
                     <img
                       src="/whitebg-app.png"
-                      className="h-[32px] md:h-[40.62px]"
+                      className=" md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
                   <Link href={"/case-studies/mymedicaljournal"}>
                     <img
                       src="/white-bg-web.png"
-                      className="h-[32px] md:h-[40.62px]"
+                      className=" md:h-[40.62px]"
                       alt="Website btn play icon"
                     />
                   </Link>
@@ -112,7 +112,7 @@ const RecentDesignShowCase = () => {
                 <img src="/showcase_right.webp" className='h-100 max-w-[200px] relative top-16' alt="" />
             </div>          
           </div>
-            <div className="w-[100%] absolute bottom-[0px] bg-[#C9D7E273] blur-shadow  h-[200px]" >
+            <div className="w-[100%] absolute bottom-[0px] bg-[#C9D7E273] blur-shadow  h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
                 <img src="/nykn-logo-new.png" width="30px" height="30px" alt="" />
@@ -124,7 +124,7 @@ const RecentDesignShowCase = () => {
               From iconic landmarks to hidden gems, 
               explore the heart of the city with just a click.</p>
               <div>
-                <div className="w-full absolute bottom-5 left-2  mt-auto flex justify-start gap-2 items-center pr-1">
+                <div className="w-full absolute bottom-5 left-2  mt-auto flex flex-wrap justify-start gap-2 items-center pr-1">
                   <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.nykn&pli=1"} >
                     <img
                       src="/white-bg-google.png"
@@ -135,13 +135,13 @@ const RecentDesignShowCase = () => {
                   <Link href={"https://apps.apple.com/us/app/now-you-know-nashville/id6505112380"}>
                     <img
                       src="/whitebg-app.png"
-                      className="h-[32px] md:h-[40.62px]"
+                      className=" md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
                   <Link href={"/case-studies/nykn"}>
                     <img
                       src="/white-bg-web.png"
-                      className="h-[32px] md:h-[40.62px]"
+                      className=" md:h-[40.62px]"
                       alt="Website btn play icon"
                     />
                   </Link>
@@ -159,7 +159,7 @@ const RecentDesignShowCase = () => {
                 <img src="/mad-clean-3.png" className='h-100 max-w-[300px] relative -left-[130px] ' alt="" />
             </div>          
           </div>
-          <div className="w-[100%] absolute bottom-[0px] bg-[#82888C73] blur-shadow  h-[200px]" >
+          <div className="w-[100%] absolute bottom-[0px] bg-[#82888C73] blur-shadow h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
                 <img src="/maidsimpl-logo.png" width="30px" height="30px" alt="" />
@@ -170,7 +170,7 @@ const RecentDesignShowCase = () => {
               From booking to monitoring, streamline your house cleaning
                tasks with precision and ease.</p>
               <div>
-                <div className="w-full absolute bottom-5 left-2  mt-auto flex justify-start gap-2 items-center pr-1">
+                <div className="w-full absolute bottom-5 left-2 flex-wrap mt-auto flex justify-start gap-2 items-center pr-1">
                   <Link href={"https://play.google.com/store/apps/details?id=com.maidsimpl.maidsimpl&hl=en&gl=US"} >
                     <img
                       src="/white-bg-google.png"
@@ -181,13 +181,13 @@ const RecentDesignShowCase = () => {
                   <Link href={"https://apps.apple.com/us/app/maidsimpl/id6478665215"}>
                     <img
                       src="/whitebg-app.png"
-                      className="h-[32px] md:h-[40.62px]"
+                      className=" md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
                   <Link href={"https://www.maidsimpl.com/"}>
                     <img
                       src="/white-bg-web.png"
-                      className="h-[32px] md:h-[40.62px]"
+                      className=" md:h-[40.62px]"
                       alt="Website btn play icon"
                     />
                   </Link>
@@ -214,7 +214,7 @@ const RecentDesignShowCase = () => {
               </div>
             </div>          
           </div>
-          <div className="w-[100%] absolute bottom-[0px] bg-[#B6D7C873] blur-shadow  h-[200px]" >
+          <div className="w-[100%] absolute bottom-[0px] bg-[#B6D7C873] blur-shadow  h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
                 <img src="/carter-logo.png" width="30px" height="30px" alt="" />
@@ -251,7 +251,7 @@ export default RecentDesignShowCase;
 const SliderButtons = () => {
   const swiper = useSwiper();
   return (
-    <div className="flex items-center justify-end gap-6 absolute -top-20 right-2 z-30">
+    <div className="flex items-center justify-end gap-6 absolute -top-16 md:-top-20 right-2 z-30">
       <button
         name="swipe left button"
         type="button"

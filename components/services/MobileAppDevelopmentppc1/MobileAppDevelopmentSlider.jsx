@@ -33,27 +33,27 @@ const MobileAppDevelopmentSlider = () => {
     <div className="w-full lg:w-[100%] mx-auto mt-6  flex flex-col items-center text-center">
       <div className={`w-full lg:w-[100%] mx-auto ${logosDard} flex`}>
         <div className={`w-full logos-slide flex items-center`}>
-          <div><h1 className="text-[48px] lg:text-[64px] capitalize font-[400] leading-[77px]" >UX Design</h1></div>
+          <div><h1 className="text-[30px] lg:text-[64px] capitalize font-[400] leading-[20px] lg:leading-[77px]" >UX Design</h1></div>
           <span
-        className={`border bg-[#F15C20] p-[19px] h-[40px]  rounded-full  `}
+        className={`border bg-[#F15C20] p-[16px] lg:p-[19px] h-[20px] lg:h-[40px]  rounded-full  `}
       />
-          <div><h1 className="text-[48px] lg:text-[64px] capitalize font-[400] leading-[77px]" >mobile app development</h1></div>
+          <div><h1 className="text-[30px] lg:text-[64px] capitalize font-[400] leading-[20px] lg:leading-[77px]" >mobile app development</h1></div>
           <span
-        className={`border bg-[#F15C20] p-[19px] h-[40px]  rounded-full  `}
+        className={`border bg-[#F15C20] p-[16px] lg:p-[19px] h-[20px] lg:h-[40px]  rounded-full  `}
       />
-          <div><h1 className="text-[48px] lg:text-[64px] capitalize font-[400] leading-[77px]" >iOS</h1></div>
+          <div><h1 className="text-[30px] lg:text-[64px] capitalize font-[400] leading-[20px] lg:leading-[77px]" >iOS</h1></div>
           <span
-        className={`border bg-[#F15C20] p-[19px] h-[40px]  rounded-full  `}
+        className={`border bg-[#F15C20] p-[16px] lg:p-[19px] h-[20px] lg:h-[40px]  rounded-full  `}
       />
-          <div><h1 className="text-[48px] lg:text-[64px] capitalize font-[400] leading-[77px]" >UX Design</h1></div>
+          <div><h1 className="text-[30px] lg:text-[64px] capitalize font-[400] leading-[20px] lg:leading-[77px]" >UX Design</h1></div>
           <span
-        className={`border bg-[#F15C20] p-[19px] h-[40px]  rounded-full  `}
+        className={`border bg-[#F15C20] p-[16px] lg:p-[19px] h-[20px] lg:h-[40px]  rounded-full  `}
       />
-          <div><h1 className="text-[48px] lg:text-[64px] capitalize font-[400] leading-[77px]" >mobile app development</h1></div>
+          <div><h1 className="text-[30px] lg:text-[64px] capitalize font-[400] leading-[20px] lg:leading-[77px]" >mobile app development</h1></div>
           <span
-        className={`border bg-[#F15C20] p-[19px] h-[40px]  rounded-full  `}
+        className={`border bg-[#F15C20] p-[16px] lg:p-[19px] h-[20px] lg:h-[40px]  rounded-full  `}
       />
-          <div><h1 className="text-[48px] lg:text-[64px] capitalize font-[400] leading-[77px]" >iOS</h1></div>
+          <div><h1 className="text-[30px] lg:text-[64px] capitalize font-[400] leading-[20px] lg:leading-[77px]" >iOS</h1></div>
           
         </div>
 

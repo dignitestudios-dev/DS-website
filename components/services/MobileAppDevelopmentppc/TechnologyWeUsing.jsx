@@ -1,8 +1,8 @@
 "use client";
-import ContactButton from "@/components/global/ContactButton";
 import React, { useContext } from "react";
 import TechnologySlider from "./TechnologySlider";
 import { GlobalContext } from "@/context/GlobalContext";
+import ContactButtonPPC from "@/components/global/ContactButtonPPC";
 
 const TechnologyWeUsing = () => {
   const { theme } = useContext(GlobalContext);
@@ -15,10 +15,10 @@ const TechnologyWeUsing = () => {
         </span>
 
         <div className={`${theme === "dark" ? "text-white" : "text-[#0C0C0C]"
-          }  text-[40px] leading-[48px] mt-6 font-[600] `}>Technologies We’re Using</div>
+          }  text-[22px] md:text-[40px] leading-[48px] mt-6 font-[600] `}>Technologies We’re Using</div>
       </h2>
       <div className='mt-6' >
-        <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
+        <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
       </div>
         <TechnologySlider />
     </div>

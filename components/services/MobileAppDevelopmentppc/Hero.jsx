@@ -1,10 +1,10 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
-import ContactButton from "@/components/global/ContactButton";
 import AwardsRecognition from "./AwardsRecognition";
 import Navbar from "./Navbar";
 import ContactFormPPPC from "./ContactFormPPPC";
+import ContactButtonPPC from "@/components/global/ContactButtonPPC";
 
 const Hero = () => {
   const { theme,setIsSidebarOpen } = useContext(GlobalContext);
@@ -21,7 +21,7 @@ const Hero = () => {
           <AwardsRecognition/>
           <h1 className="text-4xl mt-7 lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-start lg:leading-[71.93px] 2xl:leading-[99px] z-10">
          <span> Top-Notch Mobile  
-          <img src="/ppc_border.webp" className='relative left-10 -top-4' alt="" srcset="" />
+          <img src="/ppc_border.webp" className='relative  md:left-10 -top-4' alt="" srcset="" />
           </span>
          <span className='relative -top-4' >App Development </span>          
             <br />
@@ -38,10 +38,10 @@ const Hero = () => {
           </p>
 
           <div className="mt-10 z-10">
-            <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
+            <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
           </div>
         </div>
-        <div className="w-full lg:w-[80%] md:pb-20 sm:pb-20 mt-7 ppp2-bg-contact flex items-baseline ">          
+        <div className="w-full lg:w-[80%] pb-28 md:pb-20 sm:pb-20 mt-7 ppp2-bg-contact flex items-baseline ">          
           <div className="w-[100%]  mx-auto md:w-[650.69px] h-[100%] absolute lg:-top-[80px] lg:right-[0px] z-0 gap-5">
               <img src="/contact_hero_bg.webp" className='h-full lg:h-[100%]'  alt="" srcset="" />
           </div>

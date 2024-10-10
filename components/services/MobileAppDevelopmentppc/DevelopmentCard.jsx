@@ -1,11 +1,11 @@
-import ContactButton from '@/components/global/ContactButton'
 import React from 'react'
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
+import ContactButtonPPC from '@/components/global/ContactButtonPPC';
 export default function DevelopmentCard() {
     return (
         <div className="global-padding-horizontal" >
-            <div className="w-full grid grid-cols-1 px-20 lg:grid-cols-2 gap-x-6 gap-y-10  py-6 mt-5 lg:mt-10">
+            <div className="w-full grid grid-cols-1 md:px-20 lg:grid-cols-2 gap-x-6 gap-y-10  py-6 mt-5 lg:mt-10">
                 <div
                     className="flex flex-col items-start text-start justify-center gap-5 order-1 lg:order-1 "
                     data-aos="slide-up"
@@ -31,7 +31,7 @@ export default function DevelopmentCard() {
 
                     </p>
                     <div>
-                        <ContactButton text1={"Start your project"} text2={"Let's talk"} />
+                        <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
                     </div>
                 </div>
                 <div className="order-2 lg:order-2 overflow-hidden mb-6 lg:mb-0 flex justify-center lg:justify-center bg-red-img ">
@@ -53,9 +53,9 @@ export default function DevelopmentCard() {
                     />
                 </div>
             </div>
-            <div className="w-full grid px-20 grid-cols-1 p-10 lg:grid-cols-2 gap-6  py-6">
+            <div className="w-full grid md:px-20 grid-cols-1 md:p-10 lg:grid-cols-2 gap-6  py-6">
 
-                <div className="flex md:justify-center lg:justify-center bg-purple-img">
+                <div className="flex md:justify-center p-10 lg:justify-center bg-purple-img">
                     <Image
                         width={330}
                         height={380}
@@ -74,7 +74,7 @@ export default function DevelopmentCard() {
                     />
                 </div>
                 <div
-                    className="flex flex-col items-start relative left-[40px] justify-center gap-5 text-start"
+                    className="flex flex-col items-start relative md:left-[40px] justify-center gap-5 text-start"
                     data-aos="slide-up"
                     data-aos-offset="100"
                     data-aos-delay="0"
@@ -98,11 +98,11 @@ export default function DevelopmentCard() {
 
                     </p>
                     <div>
-                        <ContactButton text1={"Start your project"} text2={"Let's talk"} />
+                        <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
                     </div>
                 </div>
             </div>
-            <div className="w-full grid px-20 grid-cols-1 p-10 lg:grid-cols-2 gap-6 py-6  ">
+            <div className="w-full grid md:px-20 grid-cols-1 md:p-10 lg:grid-cols-2 gap-6 py-6  ">
                 <div
                     className="flex flex-col items-start justify-center gap-5 order-1 lg:order-1 text-start"
                     data-aos="slide-up"
@@ -132,10 +132,10 @@ export default function DevelopmentCard() {
 
                     </p>
                     <div>
-                        <ContactButton text1={"Start your project"} text2={"Let's talk"} />
+                        <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
                     </div>
                 </div>
-                <div className="order-2 md:h-[350px] lg:h-[380px] xl:h-auto lg:order-2 flex justify-center bg-gray-img lg:justify-center"
+                <div className="order-2 md:h-[350px] lg:h-[380px] p-10 xl:h-auto lg:order-2 flex justify-center bg-gray-img lg:justify-center"
 
                 >
                     <div data-aos="slide-left"

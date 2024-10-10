@@ -58,7 +58,7 @@ export default DesingShowCase;
 const SliderButtons = () => {
   const swiper = useSwiper();
   return (
-    <div className="flex items-center justify-end gap-6 absolute -top-32 right-2 z-30">
+    <div className="flex items-center justify-end gap-6 absolute -top-[85px] md:-top-32 right-2 z-30">
       <button
         name="swipe left button"
         type="button"

@@ -1,32 +1,36 @@
 "use client";
 import React, { useContext } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
-import ContactButton from "@/components/global/ContactButton";
+import ContactButtonPPC from "@/components/global/ContactButtonPPC";
 
 const OurOffices = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-4 justify-start items-start w-full my-6 md:my-12 lg:mb-24">
-     <div className='flex items-center justify-between' >
-<div>
-      <h2 className="font-extrabold text-3xl lg:text-5xl xl:text-[40px] 2xl:text-[104px] tracking-tighter xl:font-bold ">
-        Our offices
-      </h2>
-      <p className='w-[50%] font-[300] text-sm mt-3' >
-      Our office is located at the heart of four beautiful countries where
-       means of transportation are a bit convenient and accessible. 
-       The environment around is much friendlier to foster creativity 
-       and features modern amenities to ensure a productive experience.
-        We always welcome our clients and partners to feel free and
-           schedule an appointment to discuss your thriving ideas. 
+      <div className='flex items-center justify-between' >
+        <div>
+          <div className='flex items-center justify-between'>
 
-         </p>
-</div>
- <div className="hidden xl:block">
-          <ContactButton text1={"Contact Us"} text2={"Let's talk"} />
+            <h2 className="lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter">
+              Our offices
+            </h2>
+            <div className="hidden xl:block">
+              <ContactButtonPPC text1={"Contact Us"} text2={"Let's Talk"} />
+            </div>
+          </div>
+          <p className='w-[100%] font-[300] text-base lg:leading-[21.76px] lg:w-[50%] mt-3  mb-6' >
+            Our office is located at the heart of four beautiful countries where
+            means of transportation are a bit convenient and accessible.
+            The environment around is much friendlier to foster creativity
+            and features modern amenities to ensure a productive experience.
+            We always welcome our clients and partners to feel free and
+            schedule an appointment to discuss your thriving ideas.
+
+          </p>
         </div>
-     
-     </div>
+
+
+      </div>
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 mt-4">
         <div className="w-full flex flex-col items-start gap-2 overflow-hidden">
           <div className="w-full h-auto lg:h-[260px] 2xl:h-[400px] overflow-hidden rounded-md">

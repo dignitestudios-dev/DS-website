@@ -1,11 +1,11 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
-import ContactButton from "@/components/global/ContactButton";
 import ContactForm from "@/components/global/ContactForm";
 import AwardsRecognition from "./AwardsRecognition";
 import Navbar from "./Navbar";
 import ContactButtonBlackBg from "@/components/global/ContactButtonBlackBg";
+import ContactButtonPPC from "@/components/global/ContactButtonPPC";
 
 const Hero = () => {
   const { theme,setIsSidebarOpen } = useContext(GlobalContext);
@@ -19,7 +19,7 @@ const Hero = () => {
           <h1 className="text-4xl mt-7 lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-center lg:leading-[71.93px] 2xl:leading-[99px] z-10">
          <span> Top-Notch Mobile 
 
-          <img src="/ppc_border.webp" className='relative left-10 -top-4' alt="" srcset="" />
+          <img src="/ppc_border.webp" className='relative md:left-10 -top-4' alt="" srcset="" />
           </span>
          <span className='relative -top-4' >App Development Service</span>          
           </h1>
@@ -33,7 +33,7 @@ const Hero = () => {
           </p>
 <div className='flex items-center justify-center' >
           <div className="mt-10 z-10">
-            <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
+            <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
           </div>
           <div className="mt-10 z-10 ml-3 ">
           <a
@@ -43,16 +43,16 @@ const Hero = () => {
             theme === "light"
               ? "bg-[#0C0C0C14] text-[#000]"
               : "bg-[#2d2d2d] text-white"
-          }  hover:text-white text-sm md:text-[15px] font-semibold text-center py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden rounded-[14px]`}
+          }  hover:text-white text-sm md:text-[15px] font-semibold text-center py-7 px-16 md:py-8  md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden rounded-[14px]`}
         >
           {/* First text */}
           <span className="absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
-            Get a free quote
+            Get a Free Quote
           </span>
 
           {/* Second text */}
           <span className="absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
-            Let's talk
+            Let's Talk
           </span>
         </a>
           </div>

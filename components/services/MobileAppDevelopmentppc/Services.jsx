@@ -1,5 +1,5 @@
 "use client";
-import ContactButton from "@/components/global/ContactButton";
+import ContactButtonPPC from "@/components/global/ContactButtonPPC";
 import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
@@ -33,7 +33,7 @@ const Services = () => {
 </p>
         </div>
         <div className="hidden xl:block">
-          <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
+          <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
         </div>
       </div>
 
@@ -224,13 +224,7 @@ const Services = () => {
       </div>
 
       <div className="xl:hidden mt-6 w-full flex justify-center">
-        <Link
-          href={"/contact-us"}
-          className={`px-6 py-5 xl:py-8 xl:px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#222222]"
-            } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
-        >
-          Let's Start Your Project
-        </Link>
+       <ContactButtonPPC  text1={"Schedule a Call"} text2={"Let's Talk"} />
       </div>
     </section>
   );

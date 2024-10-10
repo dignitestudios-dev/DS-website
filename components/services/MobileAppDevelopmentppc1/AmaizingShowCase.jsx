@@ -3,14 +3,14 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
-import ContactButton from "@/components/global/ContactButton";
 import DesingShowCase from "./DesignShowCase";
+import ContactButtonPPC from "@/components/global/ContactButtonPPC";
 
 const AmaizingShowCase = () => {
   const { theme } = useContext(GlobalContext);
 
   return (
-    <section className={`global-padding-horizontal py-10 lg:py-20  relative pb-[100px] ${
+    <section className={`global-padding-horizontal py-10 lg:py-20 mt-[40px] md:mt-[150px]  relative pb-[100px] ${
       theme === "light" ? "bg-[#FBFBFB]" : "bg-[#2d2d2d]"
     }  rounded-[80px] flex flex-col gap-4 justify-start items-center w-full mt-[200px]  lg:mt-20 `}>
       <div className="w-full flex flex-col lg:flex-row items-start justify-between">
@@ -38,7 +38,7 @@ const AmaizingShowCase = () => {
           
         <div className="flex flex-col gap-y-32 mt-4 lg:mt-0">
           <div className="mt-7">
-            <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
+            <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
           </div>
         </div>
         </div>
