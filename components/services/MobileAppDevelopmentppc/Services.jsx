@@ -103,12 +103,12 @@ const Services = () => {
           <div className="  rounded-xl  flex items-center ">
 
           {hoverColor === 3 ? ( 
-      <img src="/mobile-app-consultation-dark.png" alt="" />
+      <img src="/mobile-app-consultation-dark1.png"  alt="" />
     ) : (
               theme == "light" ? (
-                <img src="/mobile-app-consultation-light.png" alt="" />
+                <img src="/mobile-app-consultation-light.png"  alt="" />
               ) : (
-                <img src="/mobile-app-consultation-dark.png" alt="" />
+                <img src="/mobile-app-consultation-dark1.png" alt="" />
               ))
             }
           </div>
