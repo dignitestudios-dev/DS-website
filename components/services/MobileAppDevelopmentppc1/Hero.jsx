@@ -59,9 +59,9 @@ const Hero = () => {
 </div>
         </div>
         <div className="w-full bg-purple1-img flex items-center justify-center">          
-          <div><img src="/schedule.webp"  alt="" aos="translate-left"  data-aos="translate-left" data-aos-duration="1000" data-aos-delay="150" data-aos-easing="ease-in-sine" srcset="" className="schedule-img-left" /></div>
-          <div><img src="/health-feed.webp" alt="" aos="translate-center" data-aos="translate-center" data-aos-duration="1000" data-aos-delay="150" data-aos-easing="ease-in-sine" className='health-feed-center' /></div>
-          <div><img src="/plan.webp" alt="" aos="translate-right" data-aos="translate-right" data-aos-duration="1000" data-aos-delay="150" data-aos-easing="ease-in-sine" className="plan-img-right" /></div>
+          <div><img src="/schedule.webp"  alt="" aos="translate-left"  data-aos="translate-left" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-sine" srcset="" className="schedule-img-left" /></div>
+          <div><img src="/health-feed.webp" alt="" aos="translate-center" data-aos="translate-center" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-sine" className='health-feed-center' /></div>
+          <div><img src="/plan.webp" alt="" aos="translate-right" data-aos="translate-right" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-sine" className="plan-img-right" /></div>
          
         </div>
       </div>

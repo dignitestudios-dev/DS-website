@@ -10,7 +10,7 @@ export default function DevelopmentCard() {
                     className="flex flex-col items-start text-start justify-center gap-5 order-1 lg:order-1 "
                     data-aos="slide-up"
                     data-aos-offset="100"
-                    data-aos-delay="100"
+                    data-aos-delay="0"
                     data-aos-duration="400"
                     data-aos-easing="ease-in"
                     data-aos-mirror="false"
@@ -88,7 +88,7 @@ export default function DevelopmentCard() {
                         <img src="/apple-icon-bg.png" />
                     </div>
                     <h3 className="text-[35px] font-semibold leading-tight">
-                        iOS app development
+                        iOS App Development
                     </h3>
                     <p className="text-sm w-[100%]  lg:w-[80%] font-normal text-start mb-3">
                     Want to tap into the vibrant iOS ecosystem? Our experienced developers can
@@ -120,7 +120,7 @@ export default function DevelopmentCard() {
                         <img src="/slide-bg.png" alt="" className='ml-3' srcset="" />
                     </div>
                     <h3 className="text-[35px] font-semibold leading-tight">
-                        Cross-platform
+                        Cross-Platform
                     </h3>
                     <p className="text-sm w-[100%]  lg:w-[80%] font-normal text-start mb-3">
                     Want to reach users on both iOS and Android without breaking 

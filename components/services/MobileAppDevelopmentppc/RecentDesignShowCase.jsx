@@ -90,7 +90,7 @@ const RecentDesignShowCase = () => {
                       className=" md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
-                  <Link href={"/case-studies/mymedicaljournal"}>
+                  <Link href={"https://mymedicaljournal.app/"}>
                     <img
                       src="/white-bg-web.png"
                       className=" md:h-[40.62px]"
@@ -143,7 +143,7 @@ const RecentDesignShowCase = () => {
                       className=" md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
-                  <Link href={"/case-studies/nykn"}>
+                  <Link href={"https://www.nowyouknownashville.com/"}>
                     <img
                       src="/white-bg-web.png"
                       className=" md:h-[40.62px]"

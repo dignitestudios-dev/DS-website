@@ -13,7 +13,7 @@ const Services = () => {
   
   return (
     <section
-      className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full my-6 md:my-12 lg:my-20 ${theme === "light" ? "bg-[#fff]" : "bg-transparent"
+      className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full mt-6 md:mt-12 lg:mt-20 ${theme === "light" ? "bg-[#fff]" : "bg-transparent"
         } py-16`}
     >
       <div className="w-full flex items-center justify-between">
@@ -56,7 +56,7 @@ const Services = () => {
       )
     )}
   </div>
-  <h3 className={`text-xl font-[700] group-hover:text-white`}>Mobile App Development</h3>
+  <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App Development</h3>
   <p className={`text-sm font-normal group-hover:text-white ${theme === "light" ? "text-[#8F8F8F]" : "text-white leading-[19.74px]"}`}>
     Dignite Studios bestows highly interactive end-to-end development of your mobile application and deploys your apps in no time. Whereas, our fastest and high-performing app will lead you to the next level of app success. So, hire mobile app developers services from the leading company of mobile solutions.
   </p>
@@ -80,7 +80,7 @@ const Services = () => {
             }
 
           </div>
-          <h3 className={`text-xl font-[700] group-hover:text-white`}>Mobile App design</h3>
+          <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App design</h3>
           <p
             className={`text-sm font-normal group-hover:text-white ${theme === "light"
                 ? "text-[#8F8F8F]"
@@ -112,7 +112,7 @@ const Services = () => {
               ))
             }
           </div>
-          <h3 className={`text-xl font-[700] group-hover:text-white`}>Mobile App consultation</h3>
+          <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App consultation</h3>
           <p
             className={`text-sm font-normal group-hover:text-white ${theme === "light"
                 ? "text-[#8F8F8F]"
@@ -146,7 +146,7 @@ const Services = () => {
             }
 
           </div>
-          <h3 className={`text-xl font-[700] group-hover:text-white`}>Mobile App Prototyping</h3>
+          <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App Prototyping</h3>
           <p
             className={`text-sm font-normal group-hover:text-white ${theme === "light"
                 ? "text-[#8F8F8F]"
@@ -179,7 +179,7 @@ const Services = () => {
             }
 
           </div>
-          <h3 className={`text-xl font-[700] group-hover:text-white`}>Mobile App maintenance</h3>
+          <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App maintenance</h3>
           <p
             className={`text-sm font-normal group-hover:text-white ${theme === "light"
                 ? "text-[#8F8F8F]"
@@ -208,7 +208,7 @@ const Services = () => {
               ))
             }
           </div>
-          <h3 className={`text-xl font-[700] group-hover:text-white`}>Mobile App Integration</h3>
+          <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App Integration</h3>
           <p
             className={`text-sm font-normal group-hover:text-white ${theme === "light"
                 ? "text-[#8F8F8F]"

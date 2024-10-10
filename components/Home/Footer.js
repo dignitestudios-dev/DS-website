@@ -248,6 +248,12 @@ const Footer = () => {
             Android App Development Services
           </Link>
           <Link
+            href="/services/android-mobile-app-design-services"
+            className="hover:text-orange-500"
+          >
+            Android App Design Services
+          </Link>
+          <Link
             href="/services/ios-app-development-services"
             className="hover:text-orange-500"
           >
