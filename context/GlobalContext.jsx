@@ -6,7 +6,7 @@ export const GlobalContext = createContext();
 export const GlobalContextProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
+  const [userIp, setUperIp] = useState("");
 
   const mouseCursor = (text, e) => {
     const cursor = document.querySelector("#cursor");
@@ -89,7 +89,9 @@ export const GlobalContextProvider = ({ children }) => {
         subscribeError,
         setSubscribeError,
         isSidebarOpen,
-        setIsSidebarOpen
+        setIsSidebarOpen,
+        userIp,
+        setUperIp,
       }}
     >
       {children}

@@ -1,6 +1,11 @@
 import { NextResponse } from "next/server";
 
 export function middleware(request) {
+  const forwarded = request.headers.get("x-forwarded-for");
+  const ip = forwarded ? forwarded.split(",")[0] : request.ip || "IP not found";
+
+  console.log("Visitor IP:", ip);
+
   const { pathname } = request.nextUrl;
 
   // Define an array of paths that should be redirected
