@@ -1,112 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
-  <loc>https://www.dignitestudios.com/</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://www.dignitestudios.com/</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/about-us</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/about-us</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/contact-us</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/contact-us</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/terms-and-conditions</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/terms-and-conditions</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/privacy-policy</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/privacy-policy</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/android-app-development-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/android-app-development-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/ios-app-development-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/android-mobile-app-design-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/ios-app-design-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/ios-app-development-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/web-application-development-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/ios-app-design-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/pwa-development-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/web-application-development-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/pwa-development-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/mobile-app-development-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/mobile-app-consulting-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/hybrid-app-development-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/mobile-app-design-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/mobile-app-development-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/mobile-app-testing-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/mobile-app-consulting-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/native-app-development-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/mobile-app-design-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/hire-mobile-app-developers</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/mobile-app-testing-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/hire-android-app-developers</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/native-app-development-services</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/hire-ios-app-developers</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.dignitestudios.com/services/hire-mobile-app-developers</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dignitestudios.com/services/android-mobile-app-design-services</loc>
-  <lastmod>2024-09-27T23:26:40+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.dignitestudios.com/services/hire-android-app-developers</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
-
+<url>
+<loc>https://www.dignitestudios.com/services/hire-ios-app-developers</loc>
+<lastmod>2024-10-11T17:39:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
 </urlset>
