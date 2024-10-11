@@ -61,7 +61,6 @@ const ContactForm = () => {
 
     if (Object.keys(newErrors).length === 0) {
       const data1 = new URLSearchParams();
-      //Using entry ids from Google forms config
       data1.append("entry.1883330900", name); // Name field
       data1.append("entry.39421230", email); // Email field
       data1.append("entry.769267793", phone); // Phone field

@@ -4,13 +4,12 @@ import { GlobalContext } from "@/context/GlobalContext";
 import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useContext,useState } from "react";
+import React, { useContext, useState } from "react";
 import { LuShoppingCart } from "react-icons/lu";
 const Services = () => {
   const { theme } = useContext(GlobalContext);
-  const [hoverColor,setHoverColor]=useState("");
+  const [hoverColor, setHoverColor] = useState("");
 
-  
   return (
     <section
       className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col gap-6 justify-start items-start w-full mt-6 md:mt-12 lg:mt-20 ${theme === "light" ? "bg-[#fff]" : "bg-transparent"
@@ -26,52 +25,49 @@ const Services = () => {
             Services
           </h2>
           <p className={`w-[100%] lg:w-[55%] mt-2 text-sm ${theme === "dark" ? "text-white" : "text-[#2A2A2A]"
-            }  `}>Our app-building service typically includes initial concept, 
-            designing UI/UX interfaces, integration and ongoing support. 
-            Our expert mobile app developers ensure visually appealing 
+            }  `}>Our app-building service typically includes initial concept,
+            designing UI/UX interfaces, integration and ongoing support.
+            Our expert mobile app developers ensure visually appealing
             functional layouts and app optimization processes.
-</p>
+          </p>
         </div>
         <div className="hidden xl:block">
           <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
         </div>
       </div>
-
-      
-
       <div className="w-full my-4 grid grid-cols-1 md:grid-cols-3 gap-6 ">
-      <div
-  className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"} p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
-  onMouseOver={() => setHoverColor(1)}
-  onMouseOut={() => setHoverColor(0)}
->
-  <div className="rounded-xl flex items-center">
-    {hoverColor === 1 ? ( 
-      <img src="/mobile-app-dev-dark.png" alt="" />
-    ) : (
-      theme === "light" ? ( 
-        <img src="/mobile-app-dev-light.png" alt="" />
-      ) : (
-        <img src="/mobile-app-dev-dark.png" alt="" />
-      )
-    )}
-  </div>
-  <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App Development</h3>
-  <p className={`text-sm font-normal group-hover:text-white ${theme === "light" ? "text-[#8F8F8F]" : "text-white leading-[19.74px]"}`}>
-    Dignite Studios bestows highly interactive end-to-end development of your mobile application and deploys your apps in no time. Whereas, our fastest and high-performing app will lead you to the next level of app success. So, hire mobile app developers services from the leading company of mobile solutions.
-  </p>
-</div>
+        <div
+          className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"} p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
+          onMouseOver={() => setHoverColor(1)}
+          onMouseOut={() => setHoverColor(0)}
+        >
+          <div className="rounded-xl flex items-center">
+            {hoverColor === 1 ? (
+              <img src="/mobile-app-dev-dark.png" alt="" />
+            ) : (
+              theme === "light" ? (
+                <img src="/mobile-app-dev-light.png" alt="" />
+              ) : (
+                <img src="/mobile-app-dev-dark.png" alt="" />
+              )
+            )}
+          </div>
+          <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App Development</h3>
+          <p className={`text-sm font-normal group-hover:text-white ${theme === "light" ? "text-[#8F8F8F]" : "text-white leading-[19.74px]"}`}>
+            Dignite Studios bestows highly interactive end-to-end development of your mobile application and deploys your apps in no time. Whereas, our fastest and high-performing app will lead you to the next level of app success. So, hire mobile app developers services from the leading company of mobile solutions.
+          </p>
+        </div>
 
         <div
           className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"
             } p-6 rounded-3xl flex flex-col items-start gap-4 group hover:bg-[#F15C20] transition-all duration-500 `}
-            onMouseOver={() => setHoverColor(2)}
-            onMouseOut={() => setHoverColor(0)}
+          onMouseOver={() => setHoverColor(2)}
+          onMouseOut={() => setHoverColor(0)}
         >
           <div className="  rounded-xl  flex items-center ">
-          {hoverColor === 2 ? ( 
-      <img src="/mobile-app-design-light.png" alt="" />
-    ) : (
+            {hoverColor === 2 ? (
+              <img src="/mobile-app-design-light.png" alt="" />
+            ) : (
               theme == "light" ? (
                 <img src="/mobile-app-design.png" alt="" />
               ) : (
@@ -83,8 +79,8 @@ const Services = () => {
           <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App design</h3>
           <p
             className={`text-sm font-normal group-hover:text-white ${theme === "light"
-                ? "text-[#8F8F8F]"
-                : "text-white leading-[19.74px]"
+              ? "text-[#8F8F8F]"
+              : "text-white leading-[19.74px]"
               }`}
           >
             We provide unique mobile app design services to create addictive mobile
@@ -97,16 +93,16 @@ const Services = () => {
         <div
           className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"
             } p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
-            onMouseOver={() => setHoverColor(3)}
-            onMouseOut={() => setHoverColor(0)}
+          onMouseOver={() => setHoverColor(3)}
+          onMouseOut={() => setHoverColor(0)}
         >
           <div className="  rounded-xl  flex items-center ">
 
-          {hoverColor === 3 ? ( 
-      <img src="/mobile-app-consultation-dark1.png"  alt="" />
-    ) : (
+            {hoverColor === 3 ? (
+              <img src="/mobile-app-consultation-dark1.png" alt="" />
+            ) : (
               theme == "light" ? (
-                <img src="/mobile-app-consultation-light.png"  alt="" />
+                <img src="/mobile-app-consultation-light.png" alt="" />
               ) : (
                 <img src="/mobile-app-consultation-dark1.png" alt="" />
               ))
@@ -115,8 +111,8 @@ const Services = () => {
           <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App consultation</h3>
           <p
             className={`text-sm font-normal group-hover:text-white ${theme === "light"
-                ? "text-[#8F8F8F]"
-                : "text-white leading-[19.74px]"
+              ? "text-[#8F8F8F]"
+              : "text-white leading-[19.74px]"
               }`}
           >
             Our professional development provides free mobile consulting services
@@ -131,13 +127,13 @@ const Services = () => {
         <div
           className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"
             } p-6 rounded-3xl group flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
-            onMouseOver={() => setHoverColor(4)}
-            onMouseOut={() => setHoverColor(0)}
-       >
+          onMouseOver={() => setHoverColor(4)}
+          onMouseOut={() => setHoverColor(0)}
+        >
           <div className="  rounded-xl  flex items-center ">
-          {hoverColor === 4 ? ( 
-      <img src="/mobile-app-prtotyping-white.png" alt="" />
-    ) : (
+            {hoverColor === 4 ? (
+              <img src="/mobile-app-prtotyping-white.png" alt="" />
+            ) : (
               theme == "light" ? (
                 <img src="/mobile-app-prtotyping-light.png" alt="" />
               ) : (
@@ -149,8 +145,8 @@ const Services = () => {
           <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App Prototyping</h3>
           <p
             className={`text-sm font-normal group-hover:text-white ${theme === "light"
-                ? "text-[#8F8F8F]"
-                : "text-white leading-[19.74px]"
+              ? "text-[#8F8F8F]"
+              : "text-white leading-[19.74px]"
               }`}
           >
             In the arena of digital solutions, prototyping has transposed the entire
@@ -163,14 +159,14 @@ const Services = () => {
         <div
           className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"
             } p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
-            onMouseOver={() => setHoverColor(5)}
-            onMouseOut={() => setHoverColor(0)}
+          onMouseOver={() => setHoverColor(5)}
+          onMouseOut={() => setHoverColor(0)}
         >
           <div className="  rounded-xl  flex items-center ">
 
-          {hoverColor === 5 ? ( 
-      <img src="/mobile-app-maintenance-white.png" alt="" />
-    ) : (
+            {hoverColor === 5 ? (
+              <img src="/mobile-app-maintenance-white.png" alt="" />
+            ) : (
               theme == "light" ? (
                 <img src="/mobile-app-maintenance-light.png" alt="" />
               ) : (
@@ -182,8 +178,8 @@ const Services = () => {
           <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App maintenance</h3>
           <p
             className={`text-sm font-normal group-hover:text-white ${theme === "light"
-                ? "text-[#8F8F8F]"
-                : "text-white leading-[19.74px]"
+              ? "text-[#8F8F8F]"
+              : "text-white leading-[19.74px]"
               }`}
           >
             Our team proposes complimentary two months of maintenance
@@ -194,13 +190,13 @@ const Services = () => {
         <div
           className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"
             } p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
-            onMouseOver={() => setHoverColor(6)}
-            onMouseOut={() => setHoverColor(0)}
-       >
+          onMouseOver={() => setHoverColor(6)}
+          onMouseOut={() => setHoverColor(0)}
+        >
           <div className="  rounded-xl  flex items-center ">
-          {hoverColor === 6 ? ( 
-      <img src="/mobile-app-integration-white.png" alt="" />
-    ) : (
+            {hoverColor === 6 ? (
+              <img src="/mobile-app-integration-white.png" alt="" />
+            ) : (
               theme == "light" ? (
                 <img src="/mobile-app-integration-light.png" alt="" />
               ) : (
@@ -211,8 +207,8 @@ const Services = () => {
           <h3 className={`text-xl font-[700] group-hover:text-white capitalize	`}>Mobile App Integration</h3>
           <p
             className={`text-sm font-normal group-hover:text-white ${theme === "light"
-                ? "text-[#8F8F8F]"
-                : "text-white leading-[19.74px]"
+              ? "text-[#8F8F8F]"
+              : "text-white leading-[19.74px]"
               }`}
           >We cater world-class mobile app solutions,
             and third-party services to construct
@@ -224,7 +220,7 @@ const Services = () => {
       </div>
 
       <div className="xl:hidden mt-6 w-full flex justify-center">
-       <ContactButtonPPC  text1={"Schedule a Call"} text2={"Let's Talk"} />
+        <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
       </div>
     </section>
   );

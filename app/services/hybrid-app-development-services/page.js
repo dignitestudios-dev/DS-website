@@ -4,10 +4,16 @@ import Head from "next/head";
 import Script from "next/script";
 import React from "react";
 
+export const metadata = {
+  title: "Hybrid App Development Services | Dignite Studios",
+  description:
+    "Dignite Studios provides the finest custom hybrid mobile application development services for startup businesses or large company holders.",
+};
+
 const page = () => {
   return (
     <div>
- <Head>
+ <head>
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <link rel="canonical" href="https://www.dignitestudios.com/services/hybrid-app-development-services" />
       <link rel="alternate" hreflang="en-ca" href="https://www.dignitestudios.com/services/hybrid-app-development-services" />
@@ -36,7 +42,7 @@ const page = () => {
       <meta name="twitter:description" content="Dignite Studios provides the finest custom hybrid mobile application development services for startup businesses or large company holders." />
       <meta name="twitter:image" content="https://www.dignitestudios.com/banner-cover-image-of-hybrid-app-development-services.webp" />
       <meta name="twitter:image:alt" content="hybrid app development services" />
-    </Head>
+    </head>
       <ServicesLayout page={<HybridAppDevelopmentServicesPage />} />
 
 

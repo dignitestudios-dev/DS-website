@@ -69,7 +69,6 @@ const AgileProcess = () => {
             <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
               Testing & Evaluation
             </h5>
-
             <p
               className="text-[14px] font-normal  2xl:text-[18px]"
               style={{ color: palette?.light_contrast_color }}

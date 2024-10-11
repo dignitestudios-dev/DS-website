@@ -3,7 +3,6 @@ import React, { useContext } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
 import IndustryCard from "./IndustryCard";
 import { industries } from "@/constants/industries";
-
 const IndustriesSection = () => {
   const { palette } = useContext(GlobalContext);
   return (
