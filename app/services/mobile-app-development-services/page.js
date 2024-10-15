@@ -110,7 +110,7 @@ const page = () => {
 </Script>
 
 <Script type="application/ld+json" async>
-  {`
+  {
     {
       "@context": "https://schema.org/",
       "@type": "BreadcrumbList",
@@ -129,7 +129,7 @@ const page = () => {
         }
       ]
     }
-  `}
+  }
 </Script>
 
 <Script type="application/ld+json" async>
