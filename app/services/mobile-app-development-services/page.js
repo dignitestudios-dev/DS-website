@@ -96,66 +96,59 @@ const page = () => {
       </head>
       <ServicesLayout page={<MobileAppDevelopmentSeoPage />} />
 
-      <Script
-        type="application/ld+json"
-        id="mobile-app-development-services"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            name: "Mobile App Development Services",
-            url: "https://www.dignitestudios.com/services/mobile-app-development-services",
-            description:
-              "Let's delve into professional mobile app development services encompassing multiple app solutions for your tailored needs. Our high-ranking team crafts ingenious and state-of-the-art applications to stand out in your mobile services.",
-            thumbnailUrl:
-              "https://www.dignitestudios.com/banner-cover-image-of-mobile-app-development-services.webp",
-          }),
-        }}
-      />
+      <Script type="application/ld+json" id="mobile-app-development-services">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Mobile App Development Services",
+      "url": "https://www.dignitestudios.com/services/mobile-app-development-services",
+      "description": "Let's delve into professional mobile app development services encompassing multiple app solutions for your tailored needs. Our high-ranking team crafts ingenious and state-of-the-art applications to stand out in your mobile services.",
+      "thumbnailUrl": "https://www.dignitestudios.com/banner-cover-image-of-mobile-app-development-services.webp"
+    }
+  `}
+</Script>
 
-      <Script
-        type="application/ld+json"
-        async
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://www.dignitestudios.com/",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Mobile App Development Services",
-                item: "https://www.dignitestudios.com/services/mobile-app-development-services",
-              },
-            ],
-          }),
-        }}
-      />
+<Script type="application/ld+json" async>
+  {`
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.dignitestudios.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Mobile App Development Services",
+          "item": "https://www.dignitestudios.com/services/mobile-app-development-services"
+        }
+      ]
+    }
+  `}
+</Script>
 
-      <Script
-        type="application/ld+json"
-        async
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "http://schema.org",
-            "@type": "Product",
-            name: "Mobile App Development Services",
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: "4.8",
-              worstRating: "1",
-              bestRating: "5",
-              reviewCount: "37",
-            },
-          }),
-        }}
-      />
+<Script type="application/ld+json" async>
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Mobile App Development Services",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "worstRating": "1",
+        "bestRating": "5",
+        "reviewCount": "37"
+      }
+    }
+  `}
+</Script>
+
     </div>
   );
 };

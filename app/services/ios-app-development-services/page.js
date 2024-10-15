@@ -88,8 +88,22 @@ const page = () => {
       </head>
 
       <ServicesLayout page={<IosPage />} />
+      
+      <Script type="application/ld+json" id="ios-app-development-schema">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "ios app development services | Dignite Studios",
+      "url": "https://www.dignitestudios.com/services/ios-app-development-services",
+      "description": "Elevate your mobile landscape with our iOS application development services of custom iPhone apps with the company’s top experts.",
+      "thumbnailUrl": "https://www.dignitestudios.com/banner-cover-image-of-ios-app-development-services.webp"
+    }
+  `}
+</Script>
 
-      <Script
+
+      {/* <Script
         type="application/ld+json"
         id="ios-app-development-schema"
         strategy="afterInteractive"
@@ -105,7 +119,7 @@ const page = () => {
               "https://www.dignitestudios.com/banner-cover-image-of-ios-app-development-services.webp",
           }),
         }}
-      />
+      /> */}
 
       <Script type="application/ld+json" id="breadcrumb-json-ld">
         {`

@@ -91,53 +91,46 @@ const page = () => {
       <div>
         <ServicesLayout page={<AndroidAppDevelopmentServicesPage />} />
 
-        <Script
-          type="application/ld+json"
-          id="android-app-development-schema"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              name: "Android app development services | Dignite Studios",
-              url: "https://www.dignitestudios.com/services/android-app-development-services",
-              description:
-                "The first-class Android app development company Dignite Studios bestows the best international development mobile app standards so that the agency can fulfill custom application solutions and other mobile projects.",
-              thumbnailUrl:
-                "https://www.dignitestudios.com/banner-cover-image-of-android-app-development-services.webp",
-            }),
-          }}
-        />
+        <Script type="application/ld+json" id="android-app-development-schema">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Android app development services | Dignite Studios",
+      "url": "https://www.dignitestudios.com/services/android-app-development-services",
+      "description": "The first-class Android app development company Dignite Studios bestows the best international development mobile app standards so that the agency can fulfill custom application solutions and other mobile projects.",
+      "thumbnailUrl": "https://www.dignitestudios.com/banner-cover-image-of-android-app-development-services.webp"
+    }
+  `}
+</Script>
 
-        <Script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `
+<Script type="application/ld+json">
+  {`
     {
       "@context": "https://schema.org/",
       "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home Page",
-        "item": "https://www.dignitestudios.com/"
-      },{
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Android App Development Services",
-        "item": "https://www.dignitestudios.com/android-app-development-services"
-      }]
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home Page",
+          "item": "https://www.dignitestudios.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Android App Development Services",
+          "item": "https://www.dignitestudios.com/services/android-app-development-services"
+        }
+      ]
     }
-    `,
-          }}
-        />
+  `}
+</Script>
 
-        <Script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `
+<Script type="application/ld+json">
+  {`
     {
-      "@context": "http://schema.org",
+      "@context": "https://schema.org",
       "@type": "Product",
       "name": "Android app development services",
       "aggregateRating": {
@@ -148,9 +141,9 @@ const page = () => {
         "reviewCount": "37"
       }
     }
-    `,
-          }}
-        />
+  `}
+</Script>
+
       </div>
     </>
   );

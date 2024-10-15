@@ -90,63 +90,59 @@ const page = () => {
       </head>
       <ServicesLayout page={<PwaServicesPage />} />
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            name: "Progressive Web App Development Company | Dignite Studios",
-            url: "https://www.dignitestudios.com/services/pwa-development-services",
-            description:
-              "Acquaintance Dignite’s top-tier progressive web app development services to lift your company to new heights. Scale your applications with unique PWA development services.",
-            thumbnailUrl:
-              "https://www.dignitestudios.com/banner-cover-image-of-pwa-development-services.webp",
-          }),
-        }}
-      />
+      <Script type="application/ld+json">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Progressive Web App Development Company | Dignite Studios",
+      "url": "https://www.dignitestudios.com/services/pwa-development-services",
+      "description": "Acquaintance Dignite’s top-tier progressive web app development services to lift your company to new heights. Scale your applications with unique PWA development services.",
+      "thumbnailUrl": "https://www.dignitestudios.com/banner-cover-image-of-pwa-development-services.webp"
+    }
+  `}
+</Script>
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home Page",
-                item: "https://www.dignitestudios.com/",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Progressive Web App Development Company",
-                item: "https://www.dignitestudios.com/services/pwa-development-services",
-              },
-            ],
-          }),
-        }}
-      />
+<Script type="application/ld+json">
+  {`
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home Page",
+          "item": "https://www.dignitestudios.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Progressive Web App Development Company",
+          "item": "https://www.dignitestudios.com/services/pwa-development-services"
+        }
+      ]
+    }
+  `}
+</Script>
 
-      <Script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "http://schema.org",
-            "@type": "Product",
-            name: "Progressive Web App Development Company",
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: "4.8",
-              worstRating: "1",
-              bestRating: "5",
-              reviewCount: "37",
-            },
-          }),
-        }}
-      />
+<Script type="application/ld+json">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Progressive Web App Development Company",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "worstRating": "1",
+        "bestRating": "5",
+        "reviewCount": "37"
+      }
+    }
+  `}
+</Script>
+
     </div>
   );
 };
