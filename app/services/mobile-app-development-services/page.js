@@ -96,7 +96,7 @@ const page = () => {
       </head>
       <ServicesLayout page={<MobileAppDevelopmentSeoPage />} />
 
-      <Script type="application/ld+json" id="mobile-app-development-services">
+   <Script type="application/ld+json" id="mobile-app-development-services">
   {`
     {
       "@context": "https://schema.org",
@@ -110,7 +110,7 @@ const page = () => {
 </Script>
 
 <Script type="application/ld+json" async>
-  {
+  {`
     {
       "@context": "https://schema.org/",
       "@type": "BreadcrumbList",
@@ -129,7 +129,7 @@ const page = () => {
         }
       ]
     }
-  }
+  `}
 </Script>
 
 <Script type="application/ld+json" async>
