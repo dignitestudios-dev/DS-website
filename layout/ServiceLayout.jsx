@@ -295,7 +295,7 @@ const ServicesLayout = ({ page }) => {
                 </span>
                 <input
                   type="email"
-                  id="email"
+                  id="ppc_email"
                   name="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -323,6 +323,7 @@ const ServicesLayout = ({ page }) => {
                   country={"us"}
                   value={phone}
                   name="phone"
+                   id="ppc_phoneNumber"
                   onChange={handlePhoneChange}
                   onFocus={() => setIsFocused3(true)}
                   onBlur={() => setIsFocused3(false)}

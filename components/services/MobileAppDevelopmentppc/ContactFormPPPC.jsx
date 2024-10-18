@@ -190,6 +190,7 @@ const ContactFormPPPC = () => {
               <input
                 type="email"
                 name="email"
+                id="ppc_email"
                 value={email}
                 onChange={handleEmailChange}
                 className={`text-sm font-normal outline-none w-full py-4 2xl:py-6 px-6 rounded-full ${
@@ -210,6 +211,7 @@ const ContactFormPPPC = () => {
                 country={"us"}
                 value={phone}
                 name="phone"
+                id="ppc_phoneNumber"
                 onChange={handlePhoneChange}
                 containerStyle={{
                   width: "100%",
