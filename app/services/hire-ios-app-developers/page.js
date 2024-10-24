@@ -4,7 +4,7 @@ import Script from "next/script";
 import React from "react";
 
 export const metadata = {
-  title: "Hire iOS App Developers",
+  title: "Hire iOS App Developers | Dignite Studios",
   description:
     "iPhone app developers can develop applications in a mere time so hire an iOS app developer to reduce the risk patterns.",
 };

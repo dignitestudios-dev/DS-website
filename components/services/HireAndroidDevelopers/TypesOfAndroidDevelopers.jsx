@@ -60,7 +60,7 @@ export default function TypesOfAndroidDevelopers() {
               >
                 <img
                   src="/star-icon.png"
-                  alt=""
+                  alt="star-icon"
                   className="w-[24px] h-[24px]"
                 />
                 <h3

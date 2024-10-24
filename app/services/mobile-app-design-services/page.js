@@ -5,7 +5,7 @@ import Script from "next/script";
 import React from "react";
 
 export const metadata = {
-  title: "Mobile app design services | Dignite Studios",
+  title: "Mobile App Design Services | Dignite Studios",
   description:
     "Mobile app design services that create innovative UI/UX designs, and deliver UX wireframes. Designing application services will elevate your app’s design.",
 };

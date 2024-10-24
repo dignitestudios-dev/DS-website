@@ -30,7 +30,7 @@ const HybridAppContactForm = () => {
               Contact_Us_Location.map((item,i)=>(
                 <li className="flex items-center gap-2 mt-5 " key={i}>
                 <div className="h-12 w-12 bg-[#6C6C6C14] rounded-full  flex items-center justify-center">
-                  <img src="/Location.webp" alt="" />
+                  <img src="/Location.webp" alt="location icon" />
                </div>
                <div className={"w-full"}>
                  <h2 className="text-[14px] font-[500] leading-[16.94px] " >{item.title}</h2>

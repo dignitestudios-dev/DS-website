@@ -51,7 +51,7 @@ const ProgressiveWebApp = () => {
           >
             <div className="relative">
               <div className="flex items-center justify-between bg-[#ffdfdf] rounded-full w-[42px] h-[42px] relative">
-                <img src="/hardy-smith.webp" alt="" />
+                <img src="/hardy-smith.webp" alt="hardy-smith" />
                 <div className="w-[8px] h-[8px] rounded-full bg-[#35E15B] absolute bottom-1 right-0" />
               </div>
             </div>
@@ -90,7 +90,7 @@ const ProgressiveWebApp = () => {
                   <div
                     className={`w-[54px] h-[54px] rounded-full flex items-center justify-center bg-[#E2FFE9]`}
                   >
-                    <img src="/ronald-richard.webp" alt="" />
+                    <img src="/ronald-richard.webp" alt="ronald-richard" />
                   </div>
                   <div className="flex flex-col items-start gap-1">
                     <span
@@ -122,7 +122,7 @@ const ProgressiveWebApp = () => {
                   <div
                     className={`w-[54px] h-[54px] rounded-full flex items-center justify-center bg-[#E2FFE9]`}
                   >
-                    <img src="/mike-smith.webp" alt="" />
+                    <img src="/mike-smith.webp" alt="mike-smith" />
                   </div>
                   <div className="flex flex-col items-start gap-1">
                     <span
@@ -150,7 +150,7 @@ const ProgressiveWebApp = () => {
                   <div
                     className={`w-[54px] h-[54px] rounded-full flex items-center justify-center bg-[#E2FFE9]`}
                   >
-                    <img src="/david-james.webp" alt="" />
+                    <img src="/david-james.webp" alt="david-james icon" />
                   </div>
                   <div className="flex flex-col items-start gap-1">
                     <span
@@ -186,7 +186,7 @@ const ProgressiveWebApp = () => {
           >
             <div className="relative">
               <div className="flex items-center justify-between bg-[#ffdfdf] rounded-full w-[42px] h-[42px] relative">
-                <img src="/hardy-smith.webp" alt="" />
+                <img src="/hardy-smith.webp" alt="hardy-smith" />
                 <div className="w-[8px] h-[8px] rounded-full bg-[#35E15B] absolute bottom-1 right-0" />
               </div>
             </div>

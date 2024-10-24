@@ -4,7 +4,7 @@ import Script from "next/script";
 import React from "react";
 
 export const metadata = {
-  title: "Android app development services | Dignite Studios",
+  title: "Android App Development Services | Dignite Studios",
   description:
     "Android app development company bequeath exceptional standards of mobile app so your agency can fulfill custom application solutions projects adeptly.",
 };

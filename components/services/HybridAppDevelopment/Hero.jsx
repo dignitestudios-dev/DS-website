@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="w-full text-start relative md:pb-20 pt-2 md:pt-10 flex flex-col items-start">
           <h1 className="text-4xl lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-start lg:leading-[71.93px] 2xl:leading-[99px] z-10">
             Exclusive
-            <span className="text-[#F15C20]"> Hybrid App   <img src="/hybrid-app-arrow.webp"  className="absolute right-10 mt-4 hidden md:flex" width={50} alt="" /> </span> Development {" "}            
+            <span className="text-[#F15C20]"> Hybrid App   <img src="/hybrid-app-arrow.webp"  className="absolute right-10 mt-4 hidden md:flex" width={50} alt="hybrid-app-arrow" /> </span> Development {" "}            
             <br />
             Services
           </h1>

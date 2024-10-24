@@ -5,7 +5,7 @@ import React from "react";
 export const metadata = {
   title: "Contact Us | Dignite Studios",
   description:
-    "Get a quick consultation over your mobile app development idea with Dignite's aspiring team.",
+    "Get a quick consultation over your mobile app development idea with Dignite's aspiring team | Dignite Studios mobile app development company.",
 };
 
 const page = () => {

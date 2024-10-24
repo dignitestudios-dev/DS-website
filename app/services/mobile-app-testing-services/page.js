@@ -5,7 +5,7 @@ import Script from "next/script";
 import React from "react";
 
 export const metadata = {
-  title: "Mobile app testing services | Dignite Studios",
+  title: "Mobile App Testing Services | Dignite Studios",
   description:
     "Mobile app testing services from the leading company. We provide application solutions to ensure optimal performance by industry testing experts.",
 };
