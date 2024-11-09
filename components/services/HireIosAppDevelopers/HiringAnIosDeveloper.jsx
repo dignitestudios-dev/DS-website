@@ -17,7 +17,7 @@ const HiringAnIosDeveloper = () => {
   return (
     <div className="w-full py-12 lg:py-20 global-padding-horizontal">
       <section
-        className={`flex flex-col lg:flex-row gap-12 border-[14px] rounded-[40px] p-6 lg:p-14 ${
+        className={`flex flex-col lg:flex-row gap-12 border-[14px] rounded-[40px] p-3 lg:p-14 ${
           theme === "light"
             ? "border-[#F6F6F6]"
             : "border-[#2d2d2d] bg-[#1c1c1c]"
