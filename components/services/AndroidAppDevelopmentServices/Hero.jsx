@@ -179,14 +179,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <Image
-          width={1035}
-          height={750}
-          loader={customLoader}
-          src={"/android-app-development-services.webp"}
+        <img
+          src={"/android-app-development-1.png"}
           title="Android App Development Services"
           alt="The image shows three mobile screens with different Android app layouts, and multiple tech icons revolving around them"
-          className="mx-auto w-full lg:w-[1035px] 2xl:w-[1381px] lg:h-[750px] 2xl:h-[950px] relative -top-0 lg:-top-2 2xl:top-0"
+          className="mx-auto w-full lg:w-[1035px] 2xl:w-[981px] lg:h-[750px] 2xl:h-[800px] relative -top-0 lg:-top-2 2xl:top-0"
         />
       </main>
     </>
