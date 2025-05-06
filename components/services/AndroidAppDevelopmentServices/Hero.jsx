@@ -138,7 +138,7 @@ const Hero = () => {
               width={150}
               height={150}
               loader={customLoader}
-              src="/flutter-color.webp"
+              src="/flutter-icon.webp"
               alt="flutter-color"
               title="flutter-color"
               className="w-full h-full"
@@ -183,7 +183,7 @@ const Hero = () => {
           src={"/android-app-development-1.png"}
           title="Android App Development Services"
           alt="The image shows three mobile screens with different Android app layouts, and multiple tech icons revolving around them"
-          className="mx-auto w-full lg:w-[1035px] 2xl:w-[981px] lg:h-[750px] 2xl:h-[800px] relative -top-0 lg:-top-2 2xl:top-0"
+          className="mx-auto lg:w-[1035px] xl:w-[685px] xl:h-[482px] 2xl:w-[981px] lg:h-[750px] 2xl:h-[800px]  relative -top-0 lg:-top-2 2xl:top-0"
         />
       </main>
     </>
