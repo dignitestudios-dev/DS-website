@@ -20,6 +20,7 @@ import "react-phone-input-2/lib/style.css";
 import classNames from "classnames";
 import { usePathname } from "next/navigation";
 import useDeviceType from "@/components/global/DeviceTypeFunction";
+import Link from "next/link";
 
 const GlobalLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -68,6 +69,7 @@ const GlobalLayout = ({ page }) => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [isAgreed, setIsAgreed] = useState(false);
   const [errors, setErrors] = useState({});
 
   const validateName = (name) => {
@@ -112,6 +114,10 @@ const GlobalLayout = ({ page }) => {
     }
   };
 
+  const handleIsAgreedChange = (e) => {
+    setIsAgreed(e.target.checked);
+  };
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -139,6 +145,9 @@ const GlobalLayout = ({ page }) => {
     }
     if (message === "") {
       newErrors.message = "Message cannot be left empty.";
+    }
+    if (!isAgreed) {
+      newErrors.isAgreed = "Please check the box.";
     }
 
     setErrors(newErrors);
@@ -203,7 +212,7 @@ const GlobalLayout = ({ page }) => {
                 className=""
               />
             </div>
-            <div className="main-promo">
+            <div className="main-promo overflow-y-auto hide-scrollbar">
               <div className="promo2">
                 <h2 className="heading_promo2">before you leave</h2>
                 <span className="sub_promo2">Sign up now for a free quote</span>
@@ -281,7 +290,7 @@ const GlobalLayout = ({ page }) => {
                 )}
               </div>
               <div className="input_field">
-                <label className="label_field">Phone Number</label>
+                <label className="label_field">Phone Number 231</label>
                 <button type="button" className="input_flex">
                   {/* <span className="input_span">
                     <BsTelephoneFill
@@ -357,6 +366,49 @@ const GlobalLayout = ({ page }) => {
                   <span className="text-red-500 text-sm">{errors.message}</span>
                 )}
               </div>
+
+              <div>
+                <div className="flex items-start gap-2">
+                  <label
+                    htmlFor="agree"
+                    className="text-sm flex items-start gap-2"
+                  >
+                    <input
+                      type="checkbox"
+                      name="agree"
+                      id="agree"
+                      checked={isAgreed}
+                      onChange={handleIsAgreedChange}
+                      className="mt-1 text-base"
+                    />
+                    <p>
+                      By checking this box, I consent to receive SMS messages
+                      from Dignite Studios at the phone number I provided.
+                      Message and data rates may apply. Message frequency may
+                      vary. For assistance, reply HELP or email us at
+                      hello@dignitestudios.com. You may opt out at any time by
+                      replying STOP. See our{" "}
+                      <Link
+                        href="/terms-and-conditions"
+                        className="text-blue-600"
+                      >
+                        Terms & Conditions
+                      </Link>{" "}
+                      and{" "}
+                      <Link href="/privacy-policy" className="text-blue-600">
+                        Privacy Policy
+                      </Link>{" "}
+                      for more details.
+                    </p>
+                  </label>
+                </div>
+                {errors.isAgreed && (
+                  <span className="text-red-500 text-sm">
+                    {errors.isAgreed}
+                  </span>
+                )}
+              </div>
+
               <button type="submit" className="sub_button">
                 Submit
               </button>

@@ -6,6 +6,7 @@ import Alert from "../global/Alert";
 import ContactUsAlert from "../global/ContactUsAlert";
 import PhoneInput from "react-phone-input-2";
 import useDeviceType from "../global/DeviceTypeFunction";
+import Link from "next/link";
 
 const ContactUsPage = () => {
   const { palette, theme, setError, error } = useContext(GlobalContext);
@@ -14,6 +15,7 @@ const ContactUsPage = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [isAgreed, setIsAgreed] = useState(false);
   const [errors, setErrors] = useState({});
   const [countryCode, setCountryCode] = useState("");
   const [isValid, setIsValid] = useState(true);
@@ -54,6 +56,9 @@ const ContactUsPage = () => {
     }
     if (message === "") {
       newErrors.message = "Message cannot be left empty.";
+    }
+    if (!isAgreed) {
+      newErrors.isAgreed = "Please check the box.";
     }
 
     setErrors(newErrors);
@@ -151,6 +156,11 @@ const ContactUsPage = () => {
       setIsValid(true);
     }
   };
+
+  const handleIsAgreedChange = (e) => {
+    setIsAgreed(e.target.checked);
+  };
+
   return (
     <div
       className="w-full h-auto flex flex-col gap-4 justify-start items-start px-4 md:px-12 pt-6 lg:px-28 xl:px-[120px] 2xl:px-48"
@@ -376,6 +386,46 @@ const ContactUsPage = () => {
               />
               {errors.message && (
                 <span className="text-red-500 text-sm">{errors.message}</span>
+              )}
+            </div>
+
+            <div>
+              <div className="flex items-start gap-2">
+                <label
+                  htmlFor="agree"
+                  className="text-sm flex items-start gap-2"
+                >
+                  <input
+                    type="checkbox"
+                    name="agree"
+                    id="agree"
+                    checked={isAgreed}
+                    onChange={handleIsAgreedChange}
+                    className="mt-1 text-base"
+                  />
+                  <p>
+                    By checking this box, I consent to receive SMS messages from
+                    Dignite Studios at the phone number I provided. Message and
+                    data rates may apply. Message frequency may vary. For
+                    assistance, reply HELP or email us at
+                    hello@dignitestudios.com. You may opt out at any time by
+                    replying STOP. See our{" "}
+                    <Link
+                      href="/terms-and-conditions"
+                      className="text-blue-600"
+                    >
+                      Terms & Conditions
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="/privacy-policy" className="text-blue-600">
+                      Privacy Policy
+                    </Link>{" "}
+                    for more details.
+                  </p>
+                </label>
+              </div>
+              {errors.isAgreed && (
+                <span className="text-red-500 text-sm">{errors.isAgreed}</span>
               )}
             </div>
 
