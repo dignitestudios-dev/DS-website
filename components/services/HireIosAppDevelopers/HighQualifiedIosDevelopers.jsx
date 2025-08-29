@@ -18,11 +18,12 @@ const HighQualifiedIosDevelopers = () => {
       className="w-full py-12 lg:py-20 global-padding-horizontal flex flex-col lg:flex-row items-center gap-6"
       ref={ref}
     >
-      <div  className={`w-full border-[12px] ${
+      <div
+        className={`w-full border-[12px] ${
           theme === "light"
             ? "border-[#FAFAFA] bg-white"
             : "border-[#2d2d2d] bg-[#1c1c1c]"
-        } rounded-[34px] min-h-[610px] p-8`}
+        } rounded-[34px] min-h-[610px] p-4 lg:p-8`}
       >
         <h2 className="font-bold lg:font-extrabold text-4xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold lg:leading-[77px] my-4">
           Highly-Qualified <span className="text-[#F15C20]">iOS</span>{" "}

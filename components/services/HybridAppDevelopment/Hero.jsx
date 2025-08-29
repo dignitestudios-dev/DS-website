@@ -11,8 +11,17 @@ const Hero = () => {
         <div className="w-full text-start relative md:pb-20 pt-2 md:pt-10 flex flex-col items-start">
           <h1 className="text-4xl lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-start lg:leading-[71.93px] 2xl:leading-[99px] z-10">
             Exclusive
-            <span className="text-[#F15C20]"> Hybrid App   <img src="/hybrid-app-arrow.webp"  className="absolute right-10 mt-4 hidden md:flex" width={50} alt="hybrid-app-arrow" /> </span> Development {" "}            
-            <br />
+            <span className="text-[#F15C20]">
+              {" "}
+              Hybrid App{" "}
+              <img
+                src="/hybrid-app-arrow.webp"
+                className="absolute right-10 mt-4 hidden md:flex"
+                width={50}
+                alt="hybrid arrow icon"
+              />{" "}
+            </span>{" "}
+            Development <br />
             Services
           </h1>
           <p
@@ -27,13 +36,23 @@ const Hero = () => {
             <ContactButton text1={"Hire Now"} text2={"Let's talk"} />
           </div>
         </div>
-        <div className="w-full lg:w-[90%] md:pb-20 sm:pb-20 relative hybrid-app-development-services-curve flex items-baseline ">          
+        <div className="w-full lg:w-[90%] md:pb-20 sm:pb-20 relative hybrid-app-development-services-curve flex items-baseline ">
           <div className="w-[320px]  h-[300px] mx-auto md:w-[499.69px] md:h-[475.53px]   relative flex items-center  gap-5">
             <div className="left-side-img">
-              <img src="/hybrid-app-development-services1.webp" className="bounce-img-1-hero" width={200} alt="the image shows two mock screens of the application" />
+              <img
+                src="/hybrid-app-development-services1.webp"
+                className="bounce-img-1-hero"
+                width={200}
+                alt="the image shows two mock screens of the application"
+              />
             </div>
             <div className="right-side-img">
-              <img src="/hybrid-app-development-services2.webp" className="bounce-img-2-hero" width={200} alt="the image shows two mock screens of the application" />
+              <img
+                src="/hybrid-app-development-services2.webp"
+                className="bounce-img-2-hero"
+                width={200}
+                alt="the image shows two mock screens of the application"
+              />
             </div>
           </div>
         </div>

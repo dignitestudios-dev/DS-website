@@ -1,6 +1,6 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import { useContext } from "react";
+import { useContext, useState, useEffect } from "react";
 import CaseStudiesSection from "@/components/Home/CaseStudiesSection";
 import Faq from "@/components/Home/Faq";
 import Hero from "@/components/Home/Hero";

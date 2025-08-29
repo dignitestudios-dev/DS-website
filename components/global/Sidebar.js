@@ -47,13 +47,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
   return (
     <div
       onClick={(e) => toggleModal(e)}
-      className={`w-screen h-screen z-[10000]  transition-all duration-200 fixed top-0 left-0 flex  items-start justify-end  ${
+      className={`w-screen h-screen z-[10000]  transition-all duration-200 fixed top-0 left-0  flex  items-start justify-end  ${
         isOpen ? "translate-x-0 lg:translate-x-full" : "translate-x-full"
       }`}
     >
       <div
         ref={sidebarRef}
-        className="w-[70%] md:w-1/2 lg:w-1/3  h-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col justify-start items-start py-6   "
+        className="w-[70%] md:w-1/2 lg:w-1/3  h-full z-50 shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col justify-start items-start py-6   "
         style={{ background: palette?.background }}
       >
         <div className="w-full flex gap-3 justify-start items-center px-10">

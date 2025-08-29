@@ -7,232 +7,232 @@ import React from "react";
 const Slider = () => {
   return (
     <div className="scroller__inner w-screen my-8 flex items-center gap-4 justify-start  md:h-[250px] lg:h-[354px] ">
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
-        src={"/top-mobile-app-development-company-1.webp"}
+        src={"/mockup1.webp"}
         loading="lazy"
         loader={customLoader}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
-        src={"/top-mobile-app-development-company-2.webp"}
+        src={"/mockup2.webp"}
         loading="lazy"
         loader={customLoader}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
-        src={"/top-mobile-app-development-company-3.webp"}
+        src={"/mockup3.webp"}
         loading="lazy"
         loader={customLoader}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         loading="lazy"
         loader={customLoader}
-        src={"/top-mobile-app-development-company-4.webp"}
+        src={"/mockup4.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         loading="lazy"
         loader={customLoader}
-        src={"/top-mobile-app-development-company-2.webp"}
+        src={"/mockup2.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
-        src={"/top-mobile-app-development-company-3.webp"}
+        src={"/mockup3.webp"}
         loading="lazy"
         loader={customLoader}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
         aria-hidden="true"
       />
-      <Image
-        aria-hidden="true"
-        alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        width={510}
-        height={324}
-        loading="lazy"
-        loader={customLoader}
-        src={"/top-mobile-app-development-company-4.webp"}
-        className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
-      />
-      <Image
+      <img
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         loading="lazy"
         loader={customLoader}
-        src={"/top-mobile-app-development-company-2.webp"}
+        src={"/mockup4.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         loading="lazy"
         loader={customLoader}
-        src={"/top-mobile-app-development-company-3.webp"}
+        src={"/mockup2.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         loading="lazy"
         loader={customLoader}
-        src={"/top-mobile-app-development-company-4.webp"}
+        src={"/mockup3.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         loading="lazy"
         loader={customLoader}
-        src={"/top-mobile-app-development-company-2.webp"}
+        src={"/mockup4.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         aria-hidden="true"
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         loading="lazy"
         loader={customLoader}
-        src={"/top-mobile-app-development-company-3.webp"}
+        src={"/mockup2.webp"}
         className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
+        aria-hidden="true"
+        alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
+        width={510}
+        height={324}
+        loading="lazy"
+        loader={customLoader}
+        src={"/mockup3.webp"}
+        className="hidden md:block md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
+      />
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         priority
         loader={customLoader}
-        src={"/top-mobile-app-development-company-1m.webp"}
+        src={"/mockup1.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
 
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         priority
         loader={customLoader}
-        src={"/top-mobile-app-development-company-2m.webp"}
+        src={"/mockup2.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         priority
         loader={customLoader}
-        src={"/top-mobile-app-development-company-3m.webp"}
+        src={"/mockup3.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         priority
         loader={customLoader}
-        src={"/top-mobile-app-development-company-4m.webp"}
+        src={"/mockup4.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         priority
         loader={customLoader}
-        src={"/top-mobile-app-development-company-1m.webp"}
-        className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
-      />
-
-      <Image
-        alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        width={510}
-        height={324}
-        priority
-        loader={customLoader}
-        src={"/top-mobile-app-development-company-2m.webp"}
-        className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
-      />
-      <Image
-        alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        width={510}
-        height={324}
-        priority
-        loader={customLoader}
-        src={"/top-mobile-app-development-company-3m.webp"}
-        className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
-      />
-      <Image
-        alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        width={510}
-        height={324}
-        priority
-        loader={customLoader}
-        src={"/top-mobile-app-development-company-4m.webp"}
-        className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
-      />
-      <Image
-        alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
-        width={510}
-        height={324}
-        priority
-        loader={customLoader}
-        src={"/top-mobile-app-development-company-1m.webp"}
+        src={"/mockup1.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
 
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         priority
         loader={customLoader}
-        src={"/top-mobile-app-development-company-2m.webp"}
+        src={"/mockup2.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         priority
         loader={customLoader}
-        src={"/top-mobile-app-development-company-3m.webp"}
+        src={"/mockup3.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
-      <Image
+      <img
         alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
         width={510}
         height={324}
         priority
         loader={customLoader}
-        src={"/top-mobile-app-development-company-4m.webp"}
+        src={"/mockup4.webp"}
+        className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
+      />
+      <img
+        alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
+        width={510}
+        height={324}
+        priority
+        loader={customLoader}
+        src={"/mockup1.webp"}
+        className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
+      />
+
+      <img
+        alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
+        width={510}
+        height={324}
+        priority
+        loader={customLoader}
+        src={"/mockup2.webp"}
+        className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
+      />
+      <img
+        alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
+        width={510}
+        height={324}
+        priority
+        loader={customLoader}
+        src={"/mockup3.webp"}
+        className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
+      />
+      <img
+        alt="image shows a moving representation portfolio top mobile app development company of multiple mobile screens"
+        width={510}
+        height={324}
+        priority
+        loader={customLoader}
+        src={"/mockup4.webp"}
         className="block md:hidden md:w-[450px] lg:w-[510px] md:h-[250px] rounded-[12px] lg:h-[324px]"
       />
     </div>

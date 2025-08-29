@@ -40,7 +40,7 @@ const TopRatedPageOurOffices = () => {
           </div>
           <h3 className="font-semibold text-[20px]">Dubai, UAE</h3>
           <p className="text-[18px] font-normal">
-            Level 21, Al Habtoor Business Tower, King Salman Biz Abdul Aziz Al
+            Level 21, Al Habtoor Business Tower, King Salman Bin Abdul Aziz Al
             Saud St, Dubai Marina, Dubai, UAE
           </p>
         </div>

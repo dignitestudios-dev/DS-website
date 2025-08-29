@@ -12,7 +12,7 @@ export default function TypesOfAndroidDevelopers() {
   return (
     <section className="w-full relative overflow-hidden global-padding-horizontal py-10 xl:py-20">
       <div className="w-full relative overflow-hidden flex flex-col lg:flex-row">
-        <div className="flex flex-col gap-2 mb-12">
+        <div className="flex flex-col gap-2 mb-6 lg:mb-12">
           <h2 className="headings-size">
             <div className="flex flex-col items-start mb-3">
               <p className="text-[#F15C20] text-xl font-bold uppercase tracking-normal">
@@ -39,7 +39,7 @@ export default function TypesOfAndroidDevelopers() {
             challenges.
           </p>
         </div>
-        <div className="lg:pt-12">
+        <div className="lg:pt-12 mb-14 lg:mb-0">
           <ContactButton text1={"Hire Developer"} text2={"Let's talk"} />
         </div>
       </div>

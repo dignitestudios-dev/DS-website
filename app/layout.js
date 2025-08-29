@@ -4,6 +4,7 @@ import { GlobalContextProvider } from "@/context/GlobalContext";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
+import DisplayIp from "@/components/global/DisplayIp";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
           ></iframe>
         </noscript>
         <GoogleTagManager gtmId="GTM-WTVKC35B" />
+        {/* <DisplayIp /> */}
         <GoogleAnalytics gaId="G-0GWJVWYEKD" />
         <GlobalContextProvider>{children}</GlobalContextProvider>
         <Script
