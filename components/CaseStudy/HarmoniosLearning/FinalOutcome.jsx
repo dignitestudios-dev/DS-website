@@ -48,7 +48,7 @@ const FinalOutcome = () => {
 
         <div className="w-full">
       <Swiper
-        spaceBetween={0}
+        spaceBetween={20}
         slidesPerView={1}
         breakpoints={{
           768: { slidesPerView: 3 }, // show multiple on desktop
@@ -63,7 +63,7 @@ const FinalOutcome = () => {
 
          </SwiperSlide> */}
         {wireframes.map((frame, index) => (
-          <SwiperSlide key={frame.id} className="!flex !justify-center">
+          <SwiperSlide key={index} className="!flex !justify-center">
             <motion.div
               // initial={{ opacity: 1, scale: 1, x: +100 }}
               // whileHover={{ scale: 1.1 }}

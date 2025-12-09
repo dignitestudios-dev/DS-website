@@ -3,10 +3,10 @@ import React from "react";
 import { motion } from "framer-motion";
 const Hero = () => {
   return (
-    <section className=" max-w-screen-2xl mx-auto w-full md:w-[80%] md:p-20 p-4">
+    <section className=" max-w-screen-2xl mx-auto w-full   p-4">
       <div className="w-full gap-12 flex flex-col items-center ">
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
-          <h1 className="text-2xl md:text-5xl  text-wrap  font-bold  mb-6">
+          <h1 className="text-[24px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="text-[#000086]  ">Harmonious Learning:</span> A
             Calm, Creative Audio World For Kids
           </h1>
@@ -63,7 +63,7 @@ const Hero = () => {
         </div>
         <div className="w-full md:w-[80%] md:block hidden mx-auto h-[100px] bg-white bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 -mt-28" />
       </div>
-      <div className="bg-gradient-to-r  md:px-16 rounded-xl flex flex-wrap p-5 text-white justify-between from-[#000086] to-[#CEA3D8]">
+      <div className="bg-gradient-to-r  md:px-16 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#000086] to-[#CEA3D8]">
         <div className="">
           <h3 className="mb-4">Built After</h3>
           <h1 className="font-semibold">Six Turns Of The Calendar</h1>

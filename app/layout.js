@@ -1,3 +1,4 @@
+
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { GlobalContextProvider } from "@/context/GlobalContext";
@@ -10,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -35,7 +36,7 @@ export default function RootLayout({ children }) {
           content="width=device-width, initial-scale=1"
         ></meta>
       </head>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning>
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-WTVKC35B"

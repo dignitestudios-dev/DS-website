@@ -20,7 +20,7 @@ const TechStack = () => {
 
   return (
     <div className=" py-20 px-4">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         {/* Header */}
         <motion.div
           ref={containerRef}

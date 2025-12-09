@@ -32,7 +32,7 @@ const BrandIdentity = () => {
           <h1 className="text-3xl md:text-4xl font-bold mb-6">
             Brand <span className="text-purple-600">Identity</span>
           </h1>
-          <p className="text-gray-700 max-w-4xl mx-auto leading-relaxed ">
+          <p className="text-gray-700 max-w-5xl mx-auto leading-relaxed ">
            Building the brand identity was a bit challenging and needed to be considered properly before we start working on the logo and visual identity, there were a few things on our minds. The mobile app needed to be soft, light, and friendly for the kids, but at the same time, it needed to look clear and structured, so we went with a soft, calming color palette that instantly sets a comforting vibe, paired with friendly, rounded typography that works across both kid and parent screens. 
           </p>
         </motion.div>
@@ -111,7 +111,7 @@ const BrandIdentity = () => {
                   animate={rightInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
                   transition={{ 
                     duration: 0.5, 
-                    delay: 0.6 + index * 0.1,
+                    // delay: 0.6 + index * 0.1,
                     type: "spring",
                     stiffness: 100
                   }}

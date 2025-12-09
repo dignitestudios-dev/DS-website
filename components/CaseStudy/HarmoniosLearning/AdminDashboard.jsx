@@ -18,11 +18,11 @@ const AdminDashboard = () => {
   return (
     <div className="flex flex-col items-center justify-center py-16 overflow-hidden">
       {/* HEADER */}
-      <div className="text-center max-w-4xl mb-16 px-4">
+      <div className="text-center max-w-5xl mb-16 px-4">
         <h2 className="text-4xl font-bold mb-4">
           Admin <span className="text-purple-600">Dashboard</span>
         </h2>
-        <p className="opacity-70 leading-relaxed text-gray-700">
+        <p className="leading-relaxed text-gray-700">
           The Admin Dashboard serves as the central control system for managing all content within Harmonious Learning. It streamlines
           the organization of tracks, stories, categories, and community uploads through an intuitive moderation flow with clear approve or
           reject actions. Admins can monitor user interactions, track engagement metrics, and generate detailed reports on content

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const CTA = () => {
   return (
-    <div className="max-w-7xl  mx-auto relative rounded-3xl z-10 my-24 pt-10 text-white bg-gradient-to-r from-[#000086] to-[#CEA3D8]">
+    <div className="max-w-7xl  mx-auto relative overflow-hidden rounded-3xl z-10 my-24 pt-10 text-white bg-gradient-to-r from-[#000086] to-[#CEA3D8]">
       <img src="/hl-cta1.png" className="absolute top-0" />
       <div className="flex items-center justify-between">
         <div className="p-12 space-y-4 w-full md:w-[60%]">
@@ -36,7 +36,7 @@ const CTA = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true }}
         >
-          <img src="/hl-cta.png" alt="cta" className="rounded-br-3xl relative md:block hidden -z-10" />
+          <img src="/hl-cta.png" alt="cta" className="rounded-br-3xl relative md:block hidden -z-50" />
         </motion.div>
       </div>
     </div>
