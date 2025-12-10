@@ -3,7 +3,8 @@ import React from "react";
 import { motion } from "framer-motion";
 const Hero = () => {
   return (
-    <section className=" max-w-screen-2xl mx-auto w-full   p-4">
+    <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
+      <img src="/bioyap/hero.png" alt="hero" className="absolute w-screen -z-10" />
       <div className="w-full gap-12 flex flex-col items-center ">
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px] md:text-[48px] text-wrap  font-bold  mb-6">
@@ -41,22 +42,22 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="flex justify-center relative">
-          <div className="absolute top-[20%] text-[60px] md:text-[180px] font-bold text-gray-200 opacity-80 select-none blur-sm">
+        <div className="flex mb-8 justify-center relative">
+          {/* <div className="absolute top-[20%] text-[60px] md:text-[180px] font-bold text-gray-200 opacity-80 select-none blur-sm">
             MEDITATION
-          </div>
+          </div> */}
           <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
+            initial={{  opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{
               duration: 0.8,
               ease: "easeOut",
             }}
           >
             <img
-              src="/hl.png"
+              src="/bioyap/hero-bg.png"
               alt="App Preview"
-              className="w-[320px] md:w-[400px] drop-shadow-2xl"
+              className="w-[320px] md:w-[700px] drop-shadow-2xl"
             />
           </motion.div>
         </div>
