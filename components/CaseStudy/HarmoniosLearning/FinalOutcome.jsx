@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -8,7 +8,13 @@ import { IoArrowBack, IoArrowForward } from "react-icons/io5";
 // import { motion } from "framer-motion";
 const FinalOutcome = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+  const [swiperReady, setSwiperReady] = useState(false);
 
+  useEffect(() => {
+    setSwiperReady(true);
+  }, []);
   const wireframes = [
     { id: 1, rotation: -8, offset: -20 },
     { id: 2, rotation: -4, offset: -10 },
@@ -64,12 +70,14 @@ const FinalOutcome = () => {
             <div className="absolute md:block hidden w-[500px] top-[-250%] left-0 h-[1000px] bg-gradient-to-r from-white to-transparent z-30 pointer-events-none" />
             {/* FORWARD ARROW (TOP) */}
             <div
+            ref={prevRef}
               className="swiper-button-prev !z-50 custom-prev-btn !w-12 !h-12 !bg-gradient-to-t !from-[#CEA3D8] !to-[#000086] 
                  text-white flex items-center justify-center rounded-full cursor-pointer"
             >
               <IoArrowBack />
             </div>
             <div
+            ref={nextRef}
               className="swiper-button-next !z-50 custom-next-btn !w-12 !h-12 !bg-[#FAEFFF] 
                  !text-black !flex !items-center !justify-center !rounded-full !cursor-pointer"
             >
@@ -95,6 +103,10 @@ const FinalOutcome = () => {
               nextEl: ".custom-next-btn",
               prevEl: ".custom-prev-btn",
             }}
+             onBeforeInit={(swiper) => {
+            swiper.params.navigation.prevEl = prevRef.current;
+            swiper.params.navigation.nextEl = nextRef.current;
+          }}
             spaceBetween={20}
             slidesPerView={1}
             breakpoints={{
