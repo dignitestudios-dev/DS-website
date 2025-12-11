@@ -3,7 +3,7 @@ import React from 'react'
 import {motion} from "framer-motion"
 const Brand = () => {
   return (
-   <section className="w-full py-24  relative z-50">
+   <section className="w-full py-12 relative z-50">
       <img src="/bioyap/w-bg.png" alt="hero" className="absolute w-screen -z-10" />
       <div className="max-w-7xl mx-auto text-center">
         <motion.h2
@@ -23,12 +23,12 @@ const Brand = () => {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-gray-600 max-w-5xl mx-auto mb-12"
         >
-          The main challenge is to deliver the mobile app development services which created the safe, modern and reliable experience for pharmaceutical professionals while making sure that the platform remained simple, fluent and also trustworthy. To solve this, we also focused on the strong UI/UX design for the interactive mobile app interface which was supported by the insecure in app coin system making sure that every challenge was addressed through the fluent and dependable user flow.
+          The brand identity was built over decades of trust and community to align with the professional app visual identity standards. We also used a clean color palette of blues, whites, and greens, which worked well for pharmaceutical companies worldwide. The soft icons were made for the marketplace products, social actions, and the coin wallet. The visual language was kept quite modern, simple, and reliable to convey a stronger sense of professionalism.
         </motion.p>
-<div className='flex justify-between gap-12  items-center max-w-7xl mx-auto px-6 py-5'>
+<div className='flex md:flex-row flex-col justify-between gap-12  items-center max-w-7xl mx-auto px-6 py-5'>
   <img src='/bioyap/brand.png' alt='brand'  />
   
-  <div className='flex-1 text-start w-[50%] ml-12'>
+  <div className='flex-1 text-start w-full md:w-[50%] md:ml-12'>
     <h2 className='text-5xl  font-bold mb-8' >
       General Sans
     </h2>

@@ -11,15 +11,17 @@ const TechStack = () => {
   const iconsInView = useInView(iconsRef, { once: true, amount: 0.5 });
 
   const techIcons = [
-    { name: 'MongoDB', icon: '/mongo.png', color: '#4DB33D' },
+    // { name: 'MongoDB', icon: '/mongo.png', color: '#4DB33D' },
     { name: 'Flutter', icon: '/flutter.png', color: '#02569B' },
-    { name: 'React', icon: '/react.png', color: '#61DAFB' },
-    { name: 'Firebase', icon: '/firebase.png', color: '#FFCA28' },
-    { name: 'Node.js', icon: '/node.png', color: '#339933' }
+    { name: 'React', icon: '/bioyap/node.png', color: '#61DAFB' },
+    { name: 'Firebase', icon: '/bioyap/post.png', color: '#FFCA28' },
+    { name: 'Node.js', icon: '/bioyap/figma.png', color: '#339933' },
+    { name: 'Node.js', icon: '/bioyap/ps.png', color: '#339933' },
+    { name: 'Node.js', icon: '/bioyap/ai.png', color: '#339933' },
   ];
 
   return (
-    <div className=" py-20 px-4">
+    <div className=" py-20 ">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <motion.div
@@ -33,7 +35,7 @@ const TechStack = () => {
             Tech <span className="text-[#C0F765]">Stack</span>
           </h2>
           <p className="text-gray-700 max-w-5xl mx-auto leading-relaxed text-base">
-            During the development of Harmonious Learning, we used Flutter and React Native, supported by a Node.js backend with Firebase or MongoDB for secure data handling. A React.js admin dashboard manages content, while structured roles and permissions keep Parent, Kid, and Creator experiences safe and distinct.
+           The mobile app was developed using React Native for the frontend to ensure smooth, fast performance. The backend was built through Node.js, and the database used PostgreSQL. Secure the coin transactions were handled through an integrated payment gateway. Real-time updates for posts and marketplace activity were also supported through socket-based features. The stack also ensured strong performance and reliable scalability. 
           </p>
         </motion.div>
 
@@ -49,7 +51,7 @@ const TechStack = () => {
               animate={iconsInView ? { opacity: 1, scale: 1, y: 0 } : { opacity: 0, scale: 0.5, y: 20 }}
               transition={{
                 duration: 0.5,
-                delay: index * 0.1,
+                delay: 0.1,
                 type: "spring",
                 stiffness: 100
               }}

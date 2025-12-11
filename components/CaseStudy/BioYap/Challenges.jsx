@@ -6,16 +6,26 @@ const Challenges = () => {
   const [activeTab, setActiveTab] = useState('problem')
 
   const problemPoints = [
-    'Creating the secure and moderated social space which is limited only to verified the pharmaceutical professionals.',
-    'Designing the simple coin purchase and spending the flow which stayed quite smooth and also easy for the users.',
-    'Ensuring marketplace trust by reducing scams by removing the quality feelings and also to avoid the fake sellers.',
-    'Handling the mixed content types like the social feed marketplace items and also the global news inside the one interface.',
-    'Building the admin system to verify users which receive posts manage the coin activity and few monitor listings.',
-    'Making the platform feel the modern intuitive and with the smooth similar to mainstream social apps while keeping a professional tone'
-  ]
+  "Creating a secure and moderated social space limited only to verified pharmaceutical professionals.",
+  "Designing a simple coin purchase and spending flow that remained smooth and easy for users.",
+  "Ensuring marketplace trust by reducing scams, removing low-quality listings, and avoiding fake sellers.",
+  "Handling mixed content types like social feed posts, marketplace items, and global news within one interface.",
+  "Building an admin system to verify users, review posts, manage coin activity, and monitor listings.",
+  "Making the platform feel modern and intuitive, similar to mainstream social apps, while maintaining a professional tone."
+];
+
+const solutionPoints = [
+  "Built a verification-focused onboarding flow allowing only verified pharmaceutical professionals to join.",
+  "Developed a secure in-app coin system with wallet logs, transaction history, and a simple top-up method.",
+  "Implemented marketplace approval steps, reporting tools, and rating features to remove fake sellers and maintain trustworthy listings.",
+  "Designed a unified interface blending social feed, marketplace browsing, and pharma news for smooth navigation.",
+  "Added a coin donation feature so users could safely support colleagues within the community.",
+  "Created easy posting tools for images, pharma news, and product listings, ensuring scalability through a strong backend and clean API structure."
+];
+
 
   return (
-    <section className="w-full py-24 px-6 relative z-50">
+    <section className="w-full py-24  relative z-50">
       <img src="/bioyap/w-bg.png" alt="hero" className="absolute w-screen -z-10" />
       <div className="max-w-7xl mx-auto text-center">
         <motion.h2
@@ -79,7 +89,7 @@ const Challenges = () => {
           {/* Left - Problem/Solution Points */}
           <div className="bg-[#f5f5f0] rounded-[30px] p-10 px-12 text-left">
             {activeTab == "problem" && 
-            <div className='flex gap-8 items-center justify-between'>
+            <div className='flex gap-8 md:flex-row flex-col items-center justify-between'>
             <ul className="space-y-4">
               {problemPoints.map((point, index) => (
                 <motion.li
@@ -99,9 +109,9 @@ const Challenges = () => {
             </div>
             }
             {activeTab == "solution" && 
-            <div className='flex justify-between items-center'>
+            <div className='flex justify-between md:flex-row flex-col gap-8 items-center'>
             <ul className="space-y-4">
-              {problemPoints.map((point, index) => (
+              {solutionPoints.map((point, index) => (
                 <motion.li
                   key={index}
                   initial={{ opacity: 0, x: -20 }}

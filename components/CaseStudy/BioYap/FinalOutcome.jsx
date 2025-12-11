@@ -8,16 +8,16 @@ const FinalOutcome = () => {
     {
       id: 1,
       text: "Group Info",
-      labelPosition: "top-[12.3%] right-[25%]",
-      bigDotPosition: "top-[12.3%] right-[30%]",
-      lineStart: "top-[13%] right-[30%]",
-      lineWidth: "10%",
+      labelPosition: "top-[11.5%] right-[22%]",
+      bigDotPosition: "top-[12.3%] right-[29%]",
+      lineStart: "top-[13%] right-[29.5%]",
+      lineWidth: "12%",
       direction: "right",
     },
     {
       id: 2,
       text: "Group Join Status",
-      labelPosition: "top-[28%] left-[18%]",
+      labelPosition: "top-[28.5%] left-[18%]",
       bigDotPosition: "top-[29.5%] left-[28.7%]",
       lineStart: "top-[30%] left-[30%]",
       lineWidth: "13%",
@@ -26,7 +26,7 @@ const FinalOutcome = () => {
     {
       id: 3,
       text: "Write Something Input Field",
-      labelPosition: "top-[32%] right-[13%]",
+      labelPosition: "top-[32.5%] right-[13%]",
       bigDotPosition: "top-[33.5%] right-[29%]",
       lineStart: "top-[34%] right-[30%]",
       lineWidth: "11%",
@@ -35,7 +35,7 @@ const FinalOutcome = () => {
     {
       id: 4,
       text: "Category Tag",
-      labelPosition: "bottom-[34.5%] left-[17%]",
+      labelPosition: "bottom-[34%] left-[17%]",
       bigDotPosition: "bottom-[34.5%] left-[25%]",
       lineStart: "bottom-[35%] left-[26%]",
       lineWidth: "14%",
@@ -63,7 +63,7 @@ const FinalOutcome = () => {
     // "/bioyap/f8.png",
   ]
   return (
-    <section className="w-full py-24  relative z-50">
+    <section className="w-full py-8  relative z-50">
       <img
         src="/bioyap/w-bg.png"
         alt="hero"
@@ -85,16 +85,9 @@ const FinalOutcome = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-12"
+          className="text-gray-600 max-w-5xl mx-auto mb-12 px-4 md:px-0"
         >
-          The main challenge is to deliver the mobile app development services
-          which created the safe, modern and reliable experience for
-          pharmaceutical professionals while making sure that the platform
-          remained simple, fluent and also trustworthy. To solve this, we also
-          focused on the strong UI/UX design for the interactive mobile app
-          interface which was supported by the insecure in app coin system
-          making sure that every challenge was addressed through the fluent and
-          dependable user flow.
+         Bioyap became the complete platform that combined social interaction, the niche marketplace, and a community coin system. The mobile app development services also contributed to the creation of clear, engaging products for the pharmaceutical industry. The smooth flow of coins increased activity, as users purchased items and supported peers. The simple interface received strong feedback for its clarity and also trust in the focused layout. The marketplace became a safe space for buying and selling within the community. BioYap is now a substantial addition to our community-driven app portfolio, demonstrating that niche platforms can create value as well.
         </motion.p>
       </div>
       <div className="flex justify-center items-center max-w-screen-2xl mx-auto relative py-10 md:py-20 px-4">
@@ -153,24 +146,7 @@ const FinalOutcome = () => {
           ))}
         </div>
 
-        {/* Mobile/Tablet - Simple text labels below image */}
-        <div className="lg:hidden mt-8 w-full max-w-md">
-          <div className="grid grid-cols-1 gap-3">
-            {labels.map((label) => (
-              <motion.div
-                key={label.id}
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: label.id * 0.1, duration: 0.4 }}
-                className="flex items-center gap-3"
-              >
-                <div className="w-3 h-3 bg-[#C0F765] rounded-full flex-shrink-0"></div>
-                <span className="text-sm font-semibold">{label.text}</span>
-              </motion.div>
-            ))}
-          </div>
-        </div>
+      
       </div>
        <Marquee
        pauseOnHover={true}
