@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="w-full gap-12 flex flex-col items-center ">
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px] md:text-[48px] text-wrap  font-bold  mb-6">
-            <span className="text-[#C0F765]  ">A Social Marketplace App: </span> Built for Global Pharma Professionals
+            <span className="text-[#C0F765]  ">A Social Marketplace App: </span> Built for Global <br/> Pharma Professionals
           </h1>
 
           <p className="text-gray-600 text-sm md:text-lg mb-8 ">
@@ -41,9 +41,10 @@ const Hero = () => {
             }}
           >
             <img
-              src="/bioyap/hero-bg.png"
+              src="/bioyap/heero.png"
               alt="App Preview"
-              className="w-[320px] md:w-[700px] drop-shadow-2xl"
+              className="-my-[30%]"
+              // className="w-[320px] md:w-[700px] "
             />
           </motion.div>
         </div>

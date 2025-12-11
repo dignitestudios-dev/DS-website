@@ -5,33 +5,38 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation } from "swiper/modules";
 import { IoArrowBack, IoArrowForward } from "react-icons/io5";
-// import { motion } from "framer-motion";
+
 const FinalOutcome = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const prevRef = useRef(null);
   const nextRef = useRef(null);
-  const [swiperReady, setSwiperReady] = useState(false);
+  const [swiperInstance, setSwiperInstance] = useState(null);
 
-  useEffect(() => {
-    setSwiperReady(true);
-  }, []);
   const wireframes = [
     { id: 1, rotation: -8, offset: -20 },
     { id: 2, rotation: -4, offset: -10 },
     { id: 3, rotation: 0, offset: 0 },
     { id: 4, rotation: 4, offset: 10 },
     { id: 5, rotation: 8, offset: 20 },
-    { id: 5, rotation: 8, offset: 20 },
-    { id: 5, rotation: 8, offset: 20 },
-    { id: 5, rotation: 8, offset: 20 },
-    { id: 5, rotation: 8, offset: 20 },
-    { id: 5, rotation: 8, offset: 20 },
-    // { id: 5, rotation: 8, offset: 20 },
-    // { id: 5, rotation: 8, offset: 20 },
+    { id: 6, rotation: 8, offset: 20 },
+    { id: 7, rotation: 8, offset: 20 },
+    { id: 8, rotation: 8, offset: 20 },
+    { id: 9, rotation: 8, offset: 20 },
+    { id: 10, rotation: 8, offset: 20 },
   ];
 
+  // Update navigation after swiper initializes
+  useEffect(() => {
+    if (swiperInstance && prevRef.current && nextRef.current) {
+      swiperInstance.params.navigation.prevEl = prevRef.current;
+      swiperInstance.params.navigation.nextEl = nextRef.current;
+      swiperInstance.navigation.init();
+      swiperInstance.navigation.update();
+    }
+  }, [swiperInstance]);
+
   return (
-    <div className="py-16 ">
+    <div className="py-16">
       <div className="max-w-screen-2xl mx-auto">
         {/* Header */}
         <motion.div
@@ -49,7 +54,7 @@ const FinalOutcome = () => {
           >
             Final <span className="text-[#000086]">Outcome</span>
           </motion.h2>
-          <p className="text-gray-600 max-w-5xl mx-auto leading-relaxed">
+          <p className="text-gray-600 max-w-5xl mx-auto leading-relaxed px-4">
             Harmonious Learning successfully delivered a smooth, kid-friendly
             audio environment supported by clear and reliable parent controls.
             The redesigned experience made navigation effortless for children,
@@ -63,52 +68,40 @@ const FinalOutcome = () => {
             every flow.
           </p>
         </motion.div>
-        <div className="w-full py-12 overflow-hidden relative left-[0%] md:left-[30%] flex gap-2 items-center justify-center">
-          {/* ARROWS CONTAINER - LEFT SIDE */}
-          
-          <div className="w-full relative  flex flex-col pl-12 gap-3 z-50 ml-14">
-            <div className="absolute md:block hidden w-[500px] top-[-250%] left-0 h-[1000px] bg-gradient-to-r from-white to-transparent z-30 pointer-events-none" />
-            {/* FORWARD ARROW (TOP) */}
-            <div
-            ref={prevRef}
-              className="swiper-button-prev !z-50 custom-prev-btn !w-12 !h-12 !bg-gradient-to-t !from-[#CEA3D8] !to-[#000086] 
-                 text-white flex items-center justify-center rounded-full cursor-pointer"
-            >
-              <IoArrowBack />
-            </div>
-            <div
-            ref={nextRef}
-              className="swiper-button-next !z-50 custom-next-btn !w-12 !h-12 !bg-[#FAEFFF] 
-                 !text-black !flex !items-center !justify-center !rounded-full !cursor-pointer"
-            >
-              <IoArrowForward />
-            </div>
 
-            {/* BACKWARD ARROW (BOTTOM) */}
+        <div className="w-full py-12 overflow-hidden relative left-[20%] md:left-[30%] flex gap-2 items-center justify-center">
+          {/* GRADIENT OVERLAY */}
+          <div className="absolute md:block hidden w-[300px] top-0 left-0 h-full bg-gradient-to-r from-white to-transparent z-30 pointer-events-none" />
+          
+          {/* NAVIGATION ARROWS - LEFT SIDE */}
+          <div className="relative flex flex-col gap-3 z-50 ml-14">
+            {/* PREV ARROW (TOP) */}
+            <button
+              ref={prevRef}
+              className="w-12 h-12 bg-gradient-to-t from-[#CEA3D8] to-[#000086] text-white flex items-center justify-center rounded-full cursor-pointer hover:opacity-80 transition-opacity "
+              aria-label="Previous slide"
+            >
+              <IoArrowBack className="w-5 h-5" />
+            </button>
+
+            {/* NEXT ARROW (BOTTOM) */}
+            <button
+              ref={nextRef}
+              className="w-12 h-12 bg-[#FAEFFF] text-black flex items-center justify-center rounded-full cursor-pointer hover:bg-gray-100 transition-colors "
+              aria-label="Next slide"
+            >
+              <IoArrowForward className="w-5 h-5" />
+            </button>
           </div>
 
-          {/* RIGHT ARROW
-  <div
-    className="swiper-button-next custom-next-right z-50 absolute -right-12 top-[50%] -translate-y-1/2 
-               w-10 h-10 bg-[#FAEFFF] 
-               text-black flex items-center justify-center rounded-full cursor-pointer opacity-0"
-  >
-    <IoArrowForward />
-  </div> */}
-
           {/* SWIPER */}
-          {swiperReady && 
-          
           <Swiper
             modules={[Navigation]}
+            onSwiper={setSwiperInstance}
             navigation={{
-              nextEl: ".custom-next-btn",
-              prevEl: ".custom-prev-btn",
+              prevEl: prevRef.current,
+              nextEl: nextRef.current,
             }}
-             onBeforeInit={(swiper) => {
-            swiper.params.navigation.prevEl = prevRef.current;
-            swiper.params.navigation.nextEl = nextRef.current;
-          }}
             spaceBetween={20}
             slidesPerView={1}
             breakpoints={{
@@ -118,7 +111,7 @@ const FinalOutcome = () => {
             grabCursor={true}
             loop={true}
             loopedSlides={wireframes.length}
-            className="!w-[100%] wireframe-swiper-custom"
+            className="!w-full wireframe-swiper-custom"
           >
             {wireframes.map((frame, index) => (
               <SwiperSlide key={index} className="flex justify-center">
@@ -134,7 +127,7 @@ const FinalOutcome = () => {
                       src={`/ph${index + 1}.png`}
                       width={400}
                       height={400}
-                      alt="mob"
+                      alt={`Wireframe ${index + 1}`}
                       className="transition-all w-[50%] md:w-full ease-linear"
                     />
                   </motion.div>
@@ -142,15 +135,7 @@ const FinalOutcome = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-          }
         </div>
-
-        {/* <div className='flex md:hidden flex-wrap gap-4 justify-center' >
-          {wireframes.map((_,index)=>(
-            <img src={`/ph${index+1}.png`} width={150} height={150} alt='mob'  />
-          ))}
-
-        </div> */}
       </div>
     </div>
   );

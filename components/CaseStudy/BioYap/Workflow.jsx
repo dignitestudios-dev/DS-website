@@ -133,7 +133,7 @@ const Workflow = () => {
         <div className="flex flex-wrap gap-4 justify-center">
           {steps.map((s, idx) => (
             <div
-              className="bg-white relative z-50 rounded-2xl  p-4 text-black px-8 w-[340px]"
+              className="bg-white/70  relative z-50 rounded-2xl  p-4 text-black px-8 w-[340px]"
               key={idx}
             >
               <div className="flex items-center flex-col gap-2">

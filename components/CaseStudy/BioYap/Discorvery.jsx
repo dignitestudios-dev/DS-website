@@ -62,7 +62,7 @@ const Discorvery = () => {
           quite easy to use.
         </motion.p>
 
-        <div className="flex flex-wrap gap-3   justify-center items-center">
+        <div className="flex flex-wrap gap-3 relative z-50  justify-center items-center">
           {steps.map((s, idx) => (
             <div
               key={idx}

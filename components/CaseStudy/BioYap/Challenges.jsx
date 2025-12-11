@@ -54,11 +54,11 @@ const solutionPoints = [
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3, duration: 0.6 }}
-          className="flex justify-center   mb-12 bg-[#E6EAE2] w-fit mx-auto rounded-full"
+          className="flex justify-center p-1  mb-12 bg-[#E6EAE2] w-fit mx-auto rounded-full"
         >
           <button
             onClick={() => setActiveTab('problem')}
-            className={`px-12 py-3 rounded-full font-medium transition-all duration-300 ${
+            className={`px-12 py-4 rounded-full font-medium transition-all duration-300 ${
               activeTab === 'problem'
                 ? 'bg-[#C0F765] text-black'
                 : 'bg-[#E6EAE2] text-gray-600'

@@ -156,12 +156,12 @@ const FinalOutcome = () => {
         {final.map((frame, index) => (
           <div
             key={index}
-            className="transition-transform duration-300 mx-1 border-t rounded-3xl p-8 bg-gradient-to-t from-[#FBFFF6] to-[#F3FFE1] hover:scale-105 cursor-pointer"
+            className="transition-transform duration-300 mx-1 border-t rounded-3xl px-16 p-8 bg-gradient-to-t from-[#FBFFF6] to-[#F3FFE1] hover:scale-105 cursor-pointer"
           >
             <img
               src={frame}
               alt="mob"
-              className="w-48"
+            //   className="w-48"
             />
           </div>
         ))}

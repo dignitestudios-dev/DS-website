@@ -54,7 +54,7 @@ const Wireframes = () => {
             <img
               src={`/s${(index % wireframes.length) + 1}.png`}
               alt="mob"
-              className="w-48"
+           
             />
           </div>
         ))}

@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="text-[#000086]  ">Harmonious Learning:</span> A
-            Calm, Creative Audio World For Kids
+            Calm, Creative Audio <br/> World For Kids
           </h1>
 
           <p className="text-gray-600 text-sm md:text-lg mb-8 ">

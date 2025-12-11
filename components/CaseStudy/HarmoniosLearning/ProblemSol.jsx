@@ -76,7 +76,7 @@ const ProblemSol = () => {
         >
           {/* Left Icon */}
           <div className="relative hidden md:flex justify-start w-[40%]">
-            <img src={"/music.png"} alt="music " width={400} height={400} />
+            <img src={"/music.png"} alt="music " width={400} height={400} className="rounded-bl-3xl" />
           </div>
 
           <img src="/m-bg1.png" alt="bg" width={400} height={400} className="absolute top-0 left-0" />

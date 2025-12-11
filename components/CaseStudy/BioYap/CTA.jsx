@@ -4,9 +4,14 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <div className="bg-[#E6FFBC73] overflow-hidden">
+    <div className="bg-[#E6FFBC73] relative overflow-hidden">
+           <img
+        src="/bioyap/hero.png"
+        alt="hero"
+        className="absolute -top-24 w-screen  z-10"
+      />
       <div className="max-w-screen-2xl w-[90%] md:w-[80%] pt-16 md:pb-0 pb-16 mx-auto flex justify-between">
-        <div className="flex flex-col gap-4 items-start justify-center w-full  md:w-[60%]">
+        <div className="flex flex-col gap-4 items-start relative z-50 justify-center w-full  md:w-[60%]">
           <h1 className="text-2xl md:text-4xl capitalize">
            Ready to build your <span className="font-bold">mobile app</span> with <br /> <span className="font-bold">a community</span> focused experience? 
           </h1>
