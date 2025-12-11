@@ -4,6 +4,10 @@ import Workflow from './Workflow'
 import Discorvery from './Discorvery'
 import Challenges from './Challenges'
 import Wireframe from './Wireframe'
+import Brand from './Brand'
+import TechStack from './TechStack'
+import FinalOutcome from './FinalOutcome'
+import CTA from './CTA'
 
 const BioYap = () => {
   return (
@@ -13,6 +17,10 @@ const BioYap = () => {
     <Discorvery/>
     <Challenges/>
     <Wireframe/>
+    <Brand/>
+    <TechStack/>
+    <FinalOutcome/>
+    <CTA/>
    </div>
   )
 }

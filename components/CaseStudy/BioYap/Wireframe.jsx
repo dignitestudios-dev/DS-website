@@ -17,7 +17,14 @@ const Wireframe = () => {
     "/bioyap/w6.png",
     "/bioyap/w7.png",
     "/bioyap/w8.png",
-  ];
+    "/bioyap/w9.png",
+    "/bioyap/w10.png",
+    "/bioyap/w11.png",
+    "/bioyap/w12.png",
+    "/bioyap/w13.png",
+    "/bioyap/w14.png",
+    "/bioyap/w15.png",
+  ];9
 
   return (
     <section className="w-full py-24 px-6 relative z-50 ">
@@ -49,8 +56,18 @@ const Wireframe = () => {
           navigation, and account setup are intuitive.
         </motion.p>
         <div className="bg-gradient-to-b flex flex-wrap from-white to-[#F0FDDA]">
-          {wireframes.map((w, idx) => (
-            <div key={idx} className={`${idx %2 && "mt-2"}`}>
+          {wireframes.slice(0,5).map((w, idx) => (
+            <div key={idx} className={`${idx %2 && "mt-8"}`}>
+              <img src={w} alt="wireframe"  />
+            </div>
+          ))}
+          {wireframes.slice(5,10).map((w, idx) => (
+            <div key={idx} className={`${idx %2 && "mt-8"}`}>
+              <img src={w} alt="wireframe"  />
+            </div>
+          ))}
+          {wireframes.slice(10,15).map((w, idx) => (
+            <div key={idx} className={`${idx %2 && "mt-8"}`}>
               <img src={w} alt="wireframe"  />
             </div>
           ))}

@@ -12,21 +12,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-gray-600 text-sm md:text-lg mb-8 ">
-            When the world is full of chaotic, overstimulated applications that
-            lack parental control and are actually impacting children’s mental
-            health, we built an application that considered all these factors
-            before launching it.
-            <br />
-            After building multiple successful app projects, as shown in our
-            mobile app case study section, when the client came to us with an
-            app idea that fixes this gap, we gladly offered our mobile app
-            development services and built Harmonious Learning.
-            <br />
-            It’s a Spotify-style mobile app that is built for children’s
-            emotional wellness. We created a space for the kids and filled it
-            with meditation music, fun lip-sync activities, and creator-driven
-            bedtime stories. In contrast, offering proper parental control makes
-            it manageable and to protect children’s mental well-being.
+            BioYap is a platform specifically  for pharmaceutical experts. Our team at Dignite Studios delivered complete mobile app development services while building a mobile app case study digital space where users can share updates and stay informed through a trusted community feed. This app would allow users to post insights from industry discussions and follow global news in one place. BioYap also includes a coin-based marketplace where users can buy coins at simple rates, i.e, 100 coins for 20 dollars. You can use the coins to purchase several items and the supporting peers through donations . This approach brings social interaction, peer commerce, and community contributions for a fluent experience. The main goal was to help professionals and stay connected outside traditional office channels.  
           </p>
 
           <div className="flex items-center gap-4">
@@ -64,17 +50,17 @@ const Hero = () => {
       </div>
       <div className="bg-gradient-to-r md:w-[80%] mx-auto md:px-16 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#bff765b2] via-[#333333] to-[#333333]">
         <div className="">
-          <h3 className="mb-4">Built After</h3>
-          <h1 className="font-semibold">Six Turns Of The Calendar</h1>
+          <h3 className="mb-4">The Milestones</h3>
+          <h1 className="font-semibold">6 months of end to end of product development </h1>
         </div>
         <div className="">
           <h3 className="mb-4">The Sector</h3>
-          <h1 className="font-semibold">Children’s Learning & Mindfulness</h1>
+          <h1 className="font-semibold">Pharmaceutical community networking and peer marketplace </h1>
         </div>
         <div className="">
           <h3 className="mb-4">What We Did</h3>
           <h1 className="font-semibold">
-            Mobile App Development, UI/UX Design, Branding
+           Mobile App Development coin marketplace system branding UI and UX design. 
           </h1>
         </div>
       </div>
