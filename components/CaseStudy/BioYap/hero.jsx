@@ -49,7 +49,7 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-      <div className="bg-gradient-to-r md:w-[80%] mx-auto md:px-16 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#bff765b2] via-[#333333] to-[#333333]">
+      <div className="bg-gradient-to-r md:w-[80%] gap-16 mx-auto md:px-16 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#bff765b2] via-[#333333] to-[#333333]">
         <div className="">
           <h3 className="mb-4">The Milestones</h3>
           <h1 className="font-semibold">6 months of end to end of product development </h1>
