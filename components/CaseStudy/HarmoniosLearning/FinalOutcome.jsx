@@ -97,6 +97,8 @@ const FinalOutcome = () => {
   </div> */}
 
           {/* SWIPER */}
+          {swiperReady && 
+          
           <Swiper
             modules={[Navigation]}
             navigation={{
@@ -140,6 +142,7 @@ const FinalOutcome = () => {
               </SwiperSlide>
             ))}
           </Swiper>
+          }
         </div>
 
         {/* <div className='flex md:hidden flex-wrap gap-4 justify-center' >
