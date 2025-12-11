@@ -64,14 +64,14 @@ const FinalOutcome = () => {
             <div className="absolute md:block hidden w-[500px] top-[-250%] left-0 h-[1000px] bg-gradient-to-r from-white to-transparent z-30 pointer-events-none" />
             {/* FORWARD ARROW (TOP) */}
             <div
-              className="swiper-button-prev z-50 custom-prev w-12 h-12 bg-gradient-to-t from-[#CEA3D8] to-[#000086] 
+              className="swiper-button-prev !z-50 custom-prev !w-12 !h-12 !bg-gradient-to-t !from-[#CEA3D8] !to-[#000086] 
                  text-white flex items-center justify-center rounded-full cursor-pointer"
             >
               <IoArrowBack />
             </div>
             <div
-              className="swiper-button-next z-50 custom-next w-12 h-12 bg-[#FAEFFF] 
-                 text-black flex items-center justify-center rounded-full cursor-pointer"
+              className="swiper-button-next !z-50 custom-next !w-12 !h-12 !bg-[#FAEFFF] 
+                 !text-black !flex !items-center !justify-center !rounded-full !cursor-pointer"
             >
               <IoArrowForward />
             </div>
@@ -112,7 +112,7 @@ const FinalOutcome = () => {
                   <motion.div
                     className="cursor-pointer transition-all duration-300"
                     style={{
-                      opacity: isActive ? 0.6 : isPrev ? 0 : 1,
+                      opacity: isActive ? 1 : isPrev ? 0 : 1,
                       transform: isNext ? "scale(1.10)" : "scale(1)",
                     }}
                   >
