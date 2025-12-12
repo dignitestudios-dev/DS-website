@@ -6,32 +6,32 @@ const steps = [
   {
     title: "Branding",
     text: "Mobile app branding and design were our first step. We build an intuitive app interface and a user-friendly app design.",
-    position: { x: 30, y: 50 }
+    position: { x: 30, y: 50 },
   },
   {
     title: "Prototyping",
     text: "A preliminary visual mock-up containing mobile app UI design, structure, and purpose.",
-    position: { x: 230, y: 104 }
+    position: { x: 230, y: 114 },
   },
   {
     title: "Testing",
     text: "Testing at all stages ensures bugs are resolved and features stay aligned with requirements.",
-    position: { x: 400, y: 210 }
+    position: { x: 400, y: 200 },
   },
   {
     title: "Sprint Planning",
     text: "Developers determine the product roadmap and estimate overall execution time.",
-    position: { x: 620, y: 120 }
+    position: { x: 720, y: 170 },
   },
   {
     title: "Deployment",
     text: "We push the product live after all validations and optimizations.",
-    position: { x: 875, y: 270 }
+    position: { x: 875, y: 230 },
   },
   {
     title: "Iterations",
     text: "We refine the app continuously to improve stability and UX.",
-    position: { x: 1100, y: 259 }
+    position: { x: 1090, y: 229 },
   },
 ];
 
@@ -72,49 +72,47 @@ const Workflow = () => {
   }, []);
 
   return (
-    <section className="w-full py-20 relative overflow-hidden bg-gray-50">
+    <section className="w-full py-20 relative overflow-hidden ">
       <div className="max-w-7xl mx-auto px-4 relative">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center text-3xl md:text-4xl font-bold mb-16"
+          className="text-center text-3xl md:text-4xl font-bold mb-32"
         >
           Workflow <span className="text-[#5BAFEB]">Overview</span>
         </motion.h2>
 
         <div className="relative w-full h-[500px]">
           {/* Bird image at the end of the line */}
-          <motion.img 
-            src="/wing/bird.png" 
-            alt="bird" 
+          <motion.img
+            src="/wing/bird.png"
+            alt="bird"
             className="absolute object-contain z-20"
             style={{
               left: `${(1159.92 / 1191) * 100}%`,
               top: `${(197.262 / 485) * 100}%`,
               transform: "translate(-50%, -50%)",
             }}
-            initial={{ 
-  opacity: 0,
-  x: -80,
-  y: 40,
-  rotate: -10,
-  scale: 0.9
-}}
-
-whileInView={{ 
-  opacity: 1,
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1
-}}
-
+            initial={{
+              opacity: 0,
+              x: -80,
+              y: 40,
+              rotate: -10,
+              scale: 0.9,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              y: 0,
+              rotate: 0,
+              scale: 1,
+            }}
             viewport={{ once: true }}
             transition={{ delay: 2.5, duration: 1, stiffness: 200 }}
           />
-          
+
           <svg
             className="w-full h-full"
             viewBox="0 0 1161 315"
@@ -124,10 +122,22 @@ whileInView={{
           >
             <defs>
               {/* Shadow filter */}
-              <filter id="lineShadow" x="-50%" y="-50%" width="200%" height="200%">
-                <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#5BAFEB" floodOpacity="0.4"/>
+              <filter
+                id="lineShadow"
+                x="-50%"
+                y="-50%"
+                width="200%"
+                height="200%"
+              >
+                <feDropShadow
+                  dx="0"
+                  dy="2"
+                  // stdDeviation="3"
+                  floodColor="#5BAFEB"
+                  floodOpacity="1"
+                />
               </filter>
-              
+
               {/* Clipping path for the drawing animation */}
               <clipPath id="lineClip">
                 <motion.rect
@@ -181,7 +191,7 @@ whileInView={{
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true }}
-                    className="w-12 h-12 bg-white border-2 border-[#5BAFEB] rounded-full flex items-center justify-center font-semibold text-[#5BAFEB] shadow-lg relative z-10"
+                    className="w-12 h-12 bg-white border-8 shadow-inner border-[#5BAFEB] rounded-full flex items-center justify-center font-semibold text-[#5BAFEB]   relative z-10"
                   >
                     {i + 1}
                   </motion.div>
@@ -194,15 +204,30 @@ whileInView={{
                     whileInView="show"
                     viewport={{ once: true }}
                     className={`absolute ${
-                      isTop ? "bottom-full mb-4" : "top-full mt-4"
-                    } left-1/2 -translate-x-1/2 w-56 bg-white rounded-lg shadow-xl p-4 border border-gray-100`}
+                      isTop ? "bottom-full mb-4" : "top-full mt-8 ml-16"
+                    } ${i%2 ? "-right-12" :"left-1/2" } -translate-x-1/2 w-56  `}
                   >
-                    <div className="font-bold mb-2 text-[#5BAFEB] text-base">
-                      {s.title}
-                    </div>
-                    <div className="text-gray-600 text-sm leading-relaxed">
-                      {s.text}
-                    </div>
+                    {isTop ? (
+                      <>
+                        {/* TOP card: paragraph first, heading second */}
+                        <div className="text-gray-600 text-sm leading-relaxed mb-2">
+                          {s.text}
+                        </div>
+                        <div className="font-bold bg-[#5BAFEB] text-white p-3 rounded-full w-fit px-6 text-base">
+                          {s.title}
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        {/* BOTTOM card: heading first, paragraph second */}
+                        <div className="font-bold bg-[#5BAFEB] text-white p-3 rounded-full w-fit px-6 text-base">
+                          {s.title}
+                        </div>
+                        <div className="text-gray-600 text-sm leading-relaxed">
+                          {s.text}
+                        </div>
+                      </>
+                    )}
                   </motion.div>
                 </div>
               );
