@@ -66,7 +66,7 @@ const ProblemSol = () => {
               alt="cloud"
               className="absolute bottom-0 left-0 rounded-bl-[50px]"
             />
-            <div className="p-8 py-3 rounded-[60px] space-y-4 border border-white text-start bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-white/60 relative">
+            <div className="p-8 py-3 rounded-[60px] space-y-4 border border-white text-start bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-white/80 relative">
               <img
                 src="/wing/c-inner.png"
                 alt="cloud"
@@ -88,7 +88,7 @@ const ProblemSol = () => {
               alt="cloud"
               className="absolute bottom-0 left-0 rounded-bl-[50px]"
             />
-            <div className="p-8 py-3 rounded-[60px] space-y-4 border border-white text-start bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-white/60 relative">
+            <div className="p-8 py-3 rounded-[60px] space-y-4 border border-white text-start bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-white/80 relative">
               <img
                 src="/wing/c-inner.png"
                 alt="cloud"

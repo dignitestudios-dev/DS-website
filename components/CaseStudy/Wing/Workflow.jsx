@@ -73,6 +73,11 @@ const Workflow = () => {
 
   return (
     <section className="w-full py-20 relative overflow-hidden ">
+       <img
+        src="/wing/hearts.png"
+        alt="hero"
+        className="absolute w-screen z-10"
+      />
       <div className="max-w-7xl mx-auto px-4 relative">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -204,7 +209,7 @@ const Workflow = () => {
                     whileInView="show"
                     viewport={{ once: true }}
                     className={`absolute ${
-                      isTop ? "bottom-full mb-4" : "top-full mt-8 ml-16"
+                      isTop ? "bottom-full mb-4" : "top-full mt-12 ml-16"
                     } ${i%2 ? "-right-12" :"left-1/2" } -translate-x-1/2 w-56  `}
                   >
                     {isTop ? (
