@@ -1,0 +1,59 @@
+"use client"
+import React from 'react';
+import { motion, useInView } from 'framer-motion';
+import { useRef } from 'react';
+
+const BrandIdentity = () => {
+  const headerRef = useRef(null);
+  const leftColumnRef = useRef(null);
+  const rightColumnRef = useRef(null);
+  
+  const headerInView = useInView(headerRef, { once: true, amount: 0.3 });
+  const leftInView = useInView(leftColumnRef, { once: true, amount: 0.3 });
+  const rightInView = useInView(rightColumnRef, { once: true, amount: 0.3 });
+
+  const colors = [
+    { name: 'Deep Navy', hex: '#000084', light: '#A5A5D8' },
+    { name: 'Lavender', hex: '#CEABD8', light: '#CEABD8' },
+    { name: 'Ink Blue', hex: '#00010D', light: '#00010D' },
+    { name: 'Dark Gray', hex: '#282828', light: '#282828' }
+  ];
+
+  return (
+    <div className=" py-16">
+       <img
+        src="/wing/hearts.png"
+        alt="hero"
+        className="absolute w-screen z-10"
+      />
+      <div className="max-w-6xl mx-auto">
+        {/* Header */}
+        <motion.div
+         initial={{ opacity: 0, y: -30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-center mb-12"
+        >
+          <h1 className="text-3xl md:text-4xl font-bold mb-6">
+            Brand <span className="text-[#5BAFEB]">Identity</span>
+          </h1>
+          <p className="text-gray-700 max-w-5xl mx-auto leading-relaxed ">
+          Our team of skilled developers built the whole brand identity around connection, trust, and the modern way people form relationships. So, we chose a vibrant visual language. Tones like soft pinks, purples, or energetic neons signal emotion and energy, so we used this as our visual language to convey connection. Also, the rounded typography and friendly icons create a sense of warmth and approachability. Custom illustrations highlight shared connections, friendships, and real compatibility. Overall, the branding communicates safety, intention, and the promise of meaningful matches. 
+          </p>
+        </motion.div>
+        <div className='flex justify-center items-center' >
+<img src='/wing/brand-calibri.png' alt='brand' />
+       </div>
+       <div className='flex gap-8 md:flex-row flex-col items-center justify-center my-20' >
+        <img src='/wing/c1.png' alt='cc' />
+        <img src='/wing/c2.png' alt='cc' />
+        <img src='/wing/c3.png' alt='cc' />
+        <img src='/wing/c4.png' alt='cc' />
+       </div>
+
+      </div>
+    </div>
+  );
+};
+
+export default BrandIdentity;
