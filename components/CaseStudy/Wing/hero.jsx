@@ -27,7 +27,7 @@ const Hero = () => {
             />
           </div>
         </div>
-   <div className="flex mb-8 justify-center relative">
+   <div className="flex md:mb-8 mt-28 md:mt-0 justify-center relative">
   <img src="/wing/cloud.png" alt="cloud" className="-mb-24 relative z-20" />
 
   <motion.img

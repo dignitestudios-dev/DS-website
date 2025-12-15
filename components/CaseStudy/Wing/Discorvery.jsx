@@ -60,7 +60,7 @@ const Discorvery = () => {
             <div
               key={idx}
               // style={{ backgroundColor: s.bg }}
-              className={`rounded-[57px] text-start relative h-[350px]  p-8 py-10 w-[520px] ${s.bg} ${idx == 1 && "shadow-xl shadow-blue-50"}`}
+              className={`rounded-[57px] text-start relative h-[350px]  p-8 py-10 w-full md:w-[520px] ${s.bg} ${idx == 1 && "shadow-xl shadow-blue-50"}`}
             >
               <img src={s.shad} className="absolute top-0 right-0" />
               <h1 className="font-semibold mb-4 text-xl text-[#0095FF]">{s.title}</h1>

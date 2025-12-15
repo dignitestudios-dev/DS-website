@@ -59,8 +59,8 @@ const ProblemSol = () => {
           overcomplicating the product.
         </motion.p>
 
-        <div className="flex gap-4 justify-center ">
-          <div className="bg-[#f9d5d5] p-5 rounded-[60px] relative z-50 w-[500px]  ">
+        <div className="flex md:flex-row flex-col gap-4 justify-center ">
+          <div className="bg-[#f9d5d5] p-5 rounded-[60px] relative z-50   ">
             <img
               src="/wing/c-outer.png"
               alt="cloud"
@@ -82,7 +82,7 @@ const ProblemSol = () => {
               ))}
             </div>
           </div>
-          <div className="bg-[#5BAFEB]/50 p-5 rounded-[60px] relative z-50 w-[500px]  ">
+          <div className="bg-[#5BAFEB]/50 p-5 rounded-[60px] relative z-50  ">
             <img
               src="/wing/h-outer.png"
               alt="cloud"

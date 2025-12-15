@@ -10,7 +10,7 @@ import FinalOutcome from './FinalOutcome'
 
 const Wing = () => {
   return (
-   <div className="w-full flex flex-col gap-8 ">
+   <div className="w-full flex flex-col overflow-x-hidden gap-8 ">
     <Hero/>
     <Workflow/>
     <Discorvery/>

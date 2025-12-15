@@ -20,7 +20,7 @@ const BrandIdentity = () => {
   ];
 
   return (
-    <div className=" py-16">
+    <div className=" ">
        <img
         src="/wing/hearts.png"
         alt="hero"

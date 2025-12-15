@@ -19,7 +19,7 @@ const TechStack = () => {
     { name: 'Node.js', icon: '/bioyap/ai.png', color: '#339933' },
   ];
   return (
-    <div className=" py-20">
+    <div className=" ">
         <img
         src="/wing/hearts.png"
         alt="hero"

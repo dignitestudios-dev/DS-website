@@ -60,6 +60,16 @@ const textVariant = {
   }),
 };
 
+// Mobile card animation
+const mobileCardVariant = {
+  hidden: { opacity: 0, x: -20 },
+  show: (i) => ({
+    opacity: 1,
+    x: 0,
+    transition: { delay: i * 0.15, duration: 0.5 },
+  }),
+};
+
 const Workflow = () => {
   const pathRef = useRef(null);
   const [pathLength, setPathLength] = useState(0);
@@ -72,11 +82,11 @@ const Workflow = () => {
   }, []);
 
   return (
-    <section className="w-full py-20 relative overflow-hidden ">
-       <img
+    <section className="w-full py-20 relative overflow-hidden">
+      <img
         src="/wing/hearts.png"
         alt="hero"
-        className="absolute w-screen z-10"
+        className="absolute w-screen z-10 hidden md:block"
       />
       <div className="max-w-7xl mx-auto px-4 relative">
         <motion.h2
@@ -84,12 +94,13 @@ const Workflow = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center text-3xl md:text-4xl font-bold mb-32"
+          className="text-center text-3xl md:text-4xl font-bold mb-16 md:mb-32"
         >
           Workflow <span className="text-[#5BAFEB]">Overview</span>
         </motion.h2>
 
-        <div className="relative w-full h-[500px]">
+        {/* Desktop View - Curved Path */}
+        <div className="hidden md:block relative w-full h-[500px]">
           {/* Bird image at the end of the line */}
           <motion.img
             src="/wing/bird.png"
@@ -137,7 +148,6 @@ const Workflow = () => {
                 <feDropShadow
                   dx="0"
                   dy="2"
-                  // stdDeviation="3"
                   floodColor="#5BAFEB"
                   floodOpacity="1"
                 />
@@ -196,7 +206,7 @@ const Workflow = () => {
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true }}
-                    className="w-12 h-12 bg-white border-8 shadow-inner border-[#5BAFEB] rounded-full flex items-center justify-center font-semibold text-[#5BAFEB]   relative z-10"
+                    className="w-12 h-12 bg-white border-8 shadow-inner border-[#5BAFEB] rounded-full flex items-center justify-center font-semibold text-[#5BAFEB] relative z-10"
                   >
                     {i + 1}
                   </motion.div>
@@ -210,7 +220,7 @@ const Workflow = () => {
                     viewport={{ once: true }}
                     className={`absolute ${
                       isTop ? "bottom-full mb-4" : "top-full mt-12 ml-16"
-                    } ${i%2 ? "-right-12" :"left-1/2" } -translate-x-1/2 w-56  `}
+                    } ${i % 2 ? "-right-12" : "left-1/2"} -translate-x-1/2 w-56`}
                   >
                     {isTop ? (
                       <>
@@ -238,6 +248,76 @@ const Workflow = () => {
               );
             })}
           </div>
+        </div>
+
+        {/* Mobile View - Vertical Stack */}
+        <div className="md:hidden space-y-6">
+          {steps.map((step, i) => (
+            <motion.div
+              key={i}
+              variants={mobileCardVariant}
+              custom={i}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              className="relative"
+            >
+              {/* Connecting Line */}
+              {i < steps.length - 1 && (
+                <motion.div
+                  initial={{ height: 0 }}
+                  whileInView={{ height: "100%" }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.15 + 0.3, duration: 0.4 }}
+                  className="absolute left-6 top-12 w-0.5 bg-gradient-to-b from-[#5BAFEB] to-transparent"
+                  style={{ height: "calc(100% + 24px)" }}
+                />
+              )}
+
+              <div className="flex items-start gap-4 relative">
+                {/* Number Circle */}
+                <motion.div
+                  initial={{ scale: 0 }}
+                  whileInView={{ scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    delay: i * 0.15,
+                    type: "spring",
+                    stiffness: 200,
+                    damping: 12,
+                  }}
+                  className="flex-shrink-0 w-12 h-12 bg-white border-4 border-[#5BAFEB] rounded-full flex items-center justify-center font-bold text-[#5BAFEB] text-lg shadow-lg z-10"
+                >
+                  {i + 1}
+                </motion.div>
+
+                {/* Content Card */}
+                <div className="flex-1 bg-white rounded-xl p-4 shadow-md border border-gray-100">
+                  <div className="inline-block bg-[#5BAFEB] text-white px-4 py-2 rounded-full font-bold text-sm mb-3">
+                    {step.title}
+                  </div>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {step.text}
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+
+          {/* Mobile Bird Decoration */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8, y: 20 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.8, duration: 0.6 }}
+            className="flex justify-center pt-8"
+          >
+            <img
+              src="/wing/bird.png"
+              alt="bird"
+              className="w-24 h-24 object-contain"
+            />
+          </motion.div>
         </div>
       </div>
     </section>
