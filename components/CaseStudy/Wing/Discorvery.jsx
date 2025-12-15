@@ -32,7 +32,7 @@ const Discorvery = () => {
       <img
         src="/wing/hearts.png"
         alt="hero"
-        className="absolute w-screen z-10"
+        className="absolute w-screen top-16 z-10"
       />
       <div className="max-w-7xl mx-auto text-center">
         <motion.h2

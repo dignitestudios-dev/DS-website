@@ -208,7 +208,7 @@ const Workflow = () => {
                     viewport={{ once: true }}
                     className="w-12 h-12 bg-white border-8 shadow-inner border-[#5BAFEB] rounded-full flex items-center justify-center font-semibold text-[#5BAFEB] relative z-10"
                   >
-                    {i + 1}
+                    0{i + 1}
                   </motion.div>
 
                   {/* Text Card */}
@@ -219,26 +219,29 @@ const Workflow = () => {
                     whileInView="show"
                     viewport={{ once: true }}
                     className={`absolute ${
-                      isTop ? "bottom-full mb-4" : "top-full mt-12 ml-16"
-                    } ${i % 2 ? "-right-12" : "left-1/2"} -translate-x-1/2 w-56`}
+                      isTop ? "bottom-full mb-4" : "top-full mt-12 ml-14"
+                    } ${
+                      i % 2 ? "-right-12" : "left-1/2"
+                    } -translate-x-1/2 w-56`}
                   >
                     {isTop ? (
                       <>
                         {/* TOP card: paragraph first, heading second */}
-                        <div className="text-gray-600 text-sm leading-relaxed mb-2">
+                        <div className="text-[#0C0C0C] text-sm leading-relaxed mb-2">
                           {s.text}
                         </div>
-                        <div className="font-bold bg-[#5BAFEB] text-white p-3 rounded-full w-fit px-6 text-base">
+                        <div className="font-bold relative rounded-bl-none bg-[#5BAFEB] text-white p-3 rounded-full w-fit px-6 text-base">
                           {s.title}
+                          {/* <div className="w-4 h-4 bg-[#5BAFEB] absolute -bottom- left-0 rounded-full" /> */}
                         </div>
                       </>
                     ) : (
                       <>
                         {/* BOTTOM card: heading first, paragraph second */}
-                        <div className="font-bold bg-[#5BAFEB] text-white p-3 rounded-full w-fit px-6 text-base">
+                        <div className="font-bold -mt-6 rounded-tr-none bg-[#5BAFEB] text-white p-3 rounded-full w-fit px-6 text-base">
                           {s.title}
                         </div>
-                        <div className="text-gray-600 text-sm leading-relaxed">
+                        <div className="text-[#0C0C0C] mt-2 text-sm leading-relaxed">
                           {s.text}
                         </div>
                       </>
@@ -296,7 +299,7 @@ const Workflow = () => {
                   <div className="inline-block bg-[#5BAFEB] text-white px-4 py-2 rounded-full font-bold text-sm mb-3">
                     {step.title}
                   </div>
-                  <p className="text-gray-600 text-sm leading-relaxed">
+                  <p className="text-[#0C0C0C] text-sm leading-relaxed">
                     {step.text}
                   </p>
                 </div>

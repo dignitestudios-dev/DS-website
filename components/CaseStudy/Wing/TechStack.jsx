@@ -19,7 +19,7 @@ const TechStack = () => {
     { name: 'Node.js', icon: '/bioyap/ai.png', color: '#339933' },
   ];
   return (
-    <div className=" ">
+    <div className=" flex justify-center items-center ">
         <img
         src="/wing/hearts.png"
         alt="hero"
@@ -37,7 +37,7 @@ const TechStack = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Tech <span className="text-[#5BAFEB]">Stack</span>
           </h2>
-          <p className="text-gray-700 max-w-5xl mx-auto leading-relaxed text-base">
+          <p className="text-gray-700 max-w-5xl relative z-50 mx-auto leading-relaxed text-base">
           The mobile app was developed using React Native for the frontend to ensure smooth, fast performance. The backend was built through Node.js, and the database used PostgreSQL. Secure the coin transactions were handled through an integrated payment gateway. Real-time updates for posts and marketplace activity were also supported through socket-based features. The stack also ensured strong performance and reliable scalability.
           </p>
         </motion.div>

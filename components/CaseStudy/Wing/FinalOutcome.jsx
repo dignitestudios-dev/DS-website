@@ -71,7 +71,7 @@ const FinalOutcome = () => {
     // "/bioyap/f8.png",
   ];
   return (
-    <section className="w-full py-8 pb-24  relative z-50">
+    <section className="w-full py-24 pb-24  relative z-50">
       <div className="max-w-7xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

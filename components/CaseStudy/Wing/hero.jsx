@@ -3,11 +3,11 @@ import React from "react";
 import { motion } from "framer-motion";
 const Hero = () => {
   return (
-    <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
+    <section className=" max-w-screen-2xl mx-auto w-full relative z-20 ">
       <div className="w-full gap-12 flex flex-col items-center ">
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
-          <h1 className="text-[24px] md:text-[48px] text-wrap  font-bold  mb-6">
-            <span className="text-[#5BAFEB]  ">Wing:</span> Redefining Dating Through Friend<br/>-Powered Matchmaking
+          <h1 className="text-[24px] md:text-[48px] leading-tight text-wrap  font-bold  mb-6">
+            <span className="text-[#5BAFEB]  ">Wing:</span> Redefining Dating Through <br/>Friend-Powered Matchmaking
           </h1>
 
           <p className="text-gray-600 text-sm md:text-lg mb-8 ">
@@ -28,12 +28,12 @@ const Hero = () => {
           </div>
         </div>
    <div className="flex md:mb-8 mt-28 md:mt-0 justify-center relative">
-  <img src="/wing/cloud.png" alt="cloud" className="-mb-24 relative z-20" />
+  <img src="/wing/cloud.png" alt="cloud" className="-mb-24 w-screen scale-110 relative z-20" />
 
   <motion.img
     src="/wing/hero.png"
     alt="App Preview"
-    className="absolute -bottom-16"
+    className="absolute -bottom-28"
     initial={{ y: 150, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
     transition={{
@@ -45,17 +45,17 @@ const Hero = () => {
       </div>
       <div className="bg-gradient-to-r md:w-[80%] relative z-30 gap-16 mx-auto md:px-16 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#8FCCF8] to-[#5BAFEB]">
         <div className="">
-          <h3 className="mb-4">The Milestones</h3>
-          <h1 className="font-semibold">6 months of end to end of product development </h1>
+          <h3 className="mb-4">Built in</h3>
+          <h1 className="font-semibold">Six moon cycles</h1>
         </div>
         <div className="">
           <h3 className="mb-4">The Sector</h3>
-          <h1 className="font-semibold">Pharmaceutical community networking and peer marketplace </h1>
+          <h1 className="font-semibold"> Dating & Socialization App</h1>
         </div>
         <div className="">
           <h3 className="mb-4">What We Did</h3>
           <h1 className="font-semibold">
-           Mobile App Development coin marketplace system branding UI and UX design. 
+           Mobile App Development, Branding, UI/UX Design, Admin Panel
           </h1>
         </div>
       </div>
