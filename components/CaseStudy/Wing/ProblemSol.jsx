@@ -75,7 +75,7 @@ const ProblemSol = () => {
               />
               <h1 className="text-lg font-semibold mb-2">Challenges</h1>
               {challenges.map((c, idx) => (
-                <div className="flex gap-2 text-sm items-start">
+                <div className="flex gap-2 capitalize text-sm items-start">
                   <img src="/wing/r-heart.png" alt="heart" />
                   <h2>{c}</h2>
                 </div>
@@ -97,7 +97,7 @@ const ProblemSol = () => {
               />
               <h1 className="text-lg font-semibold mb-2">Solutions</h1>
               {solutions.map((c, idx) => (
-                <div className="flex gap-2 text-sm items-start">
+                <div className="flex gap-2 capitalize text-sm items-start">
                   <svg
                     width="33"
                     height="33"
