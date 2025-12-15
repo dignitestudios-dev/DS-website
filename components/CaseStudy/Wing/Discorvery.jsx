@@ -51,9 +51,9 @@ const Discorvery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-20"
+          className="text-gray-600 max-w-5xl relative z-50 mx-auto mb-20"
         >
-        When we built Wing, we made sure everything was aligned with the client’s vision. We chose an Agile workflow and built the whole application. We started with mobile app branding and early research to set the user expectations, the whole vibe. Once it was sorted, we went for sprint planning and the rest of the phases. 
+      Before building Wing, we dove deep into user behavior across dating apps like Tinder, Bumble, and Hinge. The research showed a clear pain point: people struggle to trust profiles, unsure if intentions are real. Data also highlighted that involving friends in the matchmaking process boosts trust and reduces bad matches, something no major app was doing. We learned users want transparency: clear profiles, shared interests, and social proof, all backed by social psychology insights. Subscription-based models emerged as a must-have, encouraging commitment while keeping spam and fake accounts at bay. Simplicity was key to clean navigation, fast matching, and frictionless communication.
         </motion.p>
 
         <div className="flex flex-wrap gap-3 relative z-50  justify-center items-center">

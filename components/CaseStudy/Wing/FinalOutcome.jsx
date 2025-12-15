@@ -90,16 +90,7 @@ const FinalOutcome = () => {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-gray-600 max-w-5xl mx-auto mb-12 px-4 md:px-0"
         >
-          When we started building Wing, we had many challenges to deal with.
-          The Challenges were different and a lot. People don’t trust online
-          dating, and the authenticity and safety are major concerns. The
-          “recommend a friend” feature had to be added, but we also had to make
-          sure that this feature doesn’t get misused. Our professional
-          developers faced all these challenges and still overcame them all.
-          Wing basically ended up being a unique space as a combination of
-          dating and social networking apps. And even we didn’t expect that
-          combining social proof and careful verification could create
-          meaningful, trustworthy connections in today’s mobile-first world.
+         When we started building Wing, we had many challenges to deal with. The Challenges were different and a lot. People don’t trust online dating, and the authenticity and safety are major concerns. The “recommend a friend” feature had to be added, but we also had to make sure that this feature doesn’t get misused. Our professional developers faced all these challenges and still overcame them all. Wing basically ended up being a unique space as a combination of dating and social networking apps. And even we didn’t expect that combining social proof and careful verification could create meaningful, trustworthy connections in today’s mobile-first world.
         </motion.p>
       </div>
 

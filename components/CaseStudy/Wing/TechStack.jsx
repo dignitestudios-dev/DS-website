@@ -38,7 +38,7 @@ const TechStack = () => {
             Tech <span className="text-[#5BAFEB]">Stack</span>
           </h2>
           <p className="text-gray-700 max-w-5xl relative z-50 mx-auto leading-relaxed text-base">
-          The mobile app was developed using React Native for the frontend to ensure smooth, fast performance. The backend was built through Node.js, and the database used PostgreSQL. Secure the coin transactions were handled through an integrated payment gateway. Real-time updates for posts and marketplace activity were also supported through socket-based features. The stack also ensured strong performance and reliable scalability.
+         The backend of Wing is built on Node.js or Laravel with clean REST APIs. Data lives safely in PostgreSQL or MongoDB, chat happens in real time via Socket.io or Firebase, and subscriptions flow smoothly through Stripe or in-app purchases. Everything’s wrapped in secure encryption to keep user data private and profiles safe. We made sure that the client is satisfied with our mobile app development services. 
           </p>
         </motion.div>
 

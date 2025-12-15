@@ -48,15 +48,7 @@ const ProblemSol = () => {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-gray-600 max-w-5xl relative z-50 mx-auto mb-20"
         >
-          This part of the build was all about figuring out what could go wrong
-          before it actually did. Wing isn’t a regular dating app; it mixes
-          personal matchmaking with friend involvement, so the problems were
-          layered. We had to solve trust issues, keep the UX stupid-simple,
-          prevent misuse, and still make the whole thing feel natural. Every
-          challenge pushed us to create solutions that were clean, scalable, and
-          aligned with how people actually date today. This section breaks down
-          exactly what we were up against and how we solved it without
-          overcomplicating the product.
+        Wing isn’t a regular dating app; it mixes personal matchmaking with friend involvement, so the problems were layered. We had to solve trust issues, keep the UX stupid-simple, prevent misuse, and still make the whole thing feel natural. Every challenge pushed us to create solutions that were clean, scalable, and aligned with how people actually date today.
         </motion.p>
 
         <div className="flex md:flex-row flex-col gap-4 justify-center ">

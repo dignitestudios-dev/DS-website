@@ -38,7 +38,7 @@ const BrandIdentity = () => {
             Brand <span className="text-[#5BAFEB]">Identity</span>
           </h1>
           <p className="text-gray-700 max-w-5xl relative z-50 mx-auto leading-relaxed ">
-          Our team of skilled developers built the whole brand identity around connection, trust, and the modern way people form relationships. So, we chose a vibrant visual language. Tones like soft pinks, purples, or energetic neons signal emotion and energy, so we used this as our visual language to convey connection. Also, the rounded typography and friendly icons create a sense of warmth and approachability. Custom illustrations highlight shared connections, friendships, and real compatibility. Overall, the branding communicates safety, intention, and the promise of meaningful matches. 
+       Our team of skilled designers built the whole brand identity around connection, trust, and the modern way people form relationships. Blue isn’t just calming; it symbolizes trust, reliability, and emotional security, qualities essential for a dating app where users seek genuine relationships. Also, the rounded typography and friendly icons create a sense of warmth and approachability. Custom illustrations highlight shared connections, friendships, and real compatibility. Overall, the branding communicates safety, intention, and the promise of meaningful matches.
           </p>
         </motion.div>
         <div className='flex justify-center items-center' >

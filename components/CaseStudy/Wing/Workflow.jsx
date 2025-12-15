@@ -1,11 +1,24 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const steps = [
   {
     title: "Branding",
-    text: "Mobile app branding and design were our first step. We build an intuitive app interface and a user-friendly app design.",
+      text: (
+    <>
+      Mobile app{" "}
+      <Link
+        href="/services/mobile-app-design-services"
+        className="text-primary relative z-50 underline font-medium"
+      >
+        branding and design
+      </Link>{" "}
+      were our first step. We build an intuitive app interface and a
+      user-friendly app design.
+    </>
+  ),
     position: { x: 30, y: 50 },
   },
   {
@@ -86,7 +99,7 @@ const Workflow = () => {
       <img
         src="/wing/hearts.png"
         alt="hero"
-        className="absolute w-screen z-10 hidden md:block"
+        className="absolute w-screen -z-10 hidden md:block"
       />
       <div className="max-w-7xl mx-auto px-4 relative">
         <motion.h2
@@ -182,7 +195,7 @@ const Workflow = () => {
           </svg>
 
           {/* STEP DOTS + TEXT */}
-          <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute inset-0 z-50 ">
             {steps.map((s, i) => {
               // Calculate position as percentage of viewBox
               const leftPercent = (s.position.x / 1161) * 100;
@@ -192,7 +205,7 @@ const Workflow = () => {
               return (
                 <div
                   key={i}
-                  className="absolute"
+                  className="absolute z-50"
                   style={{
                     left: `${leftPercent}%`,
                     top: `${topPercent}%`,
@@ -218,7 +231,7 @@ const Workflow = () => {
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true }}
-                    className={`absolute ${
+                    className={`absolute z-50 ${
                       isTop ? "bottom-full mb-4" : "top-full mt-12 ml-14"
                     } ${
                       i % 2 ? "-right-12" : "left-1/2"
@@ -227,10 +240,10 @@ const Workflow = () => {
                     {isTop ? (
                       <>
                         {/* TOP card: paragraph first, heading second */}
-                        <div className="text-[#0C0C0C] text-sm leading-relaxed mb-2">
+                        <div className="text-[#0C0C0C] relative z-50 text-sm leading-relaxed mb-2">
                           {s.text}
                         </div>
-                        <div className="font-bold relative rounded-bl-none bg-[#5BAFEB] text-white p-3 rounded-full w-fit px-6 text-base">
+                        <div className="font-bold relative z-50 rounded-bl-none bg-[#5BAFEB] text-white p-3 rounded-full w-fit px-6 text-base">
                           {s.title}
                           {/* <div className="w-4 h-4 bg-[#5BAFEB] absolute -bottom- left-0 rounded-full" /> */}
                         </div>
