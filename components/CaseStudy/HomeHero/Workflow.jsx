@@ -2,35 +2,45 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Wiper from "./icons/Wiper";
+import Hanger from "./icons/Hanger";
+import Mop from "./icons/Mop";
+import Shirt from "./icons/Shirt";
+import Soap from "./icons/Soap";
 
 const steps = [
   {
     step: "01",
     title: "Planning & Research",
+    icon:<Wiper/>,
     desc: "Mobile app branding and design laid the foundation for the app's identity. Our professional team also studied user expectations, tone, visual style, icons, and flows. The intense brand Clarity supports long-term trust and helps the product grow through the digital marketplace app portfolio.",
     position: "top",
   },
   {
     step: "02",
     title: "Prototyping",
+    icon:<Shirt/>,
     desc: "We built to showcase the app's look and direction. These early designs helped refine the entire experience and allowed the users to test the ideas before the coding.",
     position: "bottom",
   },
   {
     step: "03",
     title: "Iteration",
+    icon:<Hanger/>,
     desc: "We worked in small cycles to improve the feature design and performance. Each cycle used stakeholder feedback to move toward a smoother, much more reliable experience.",
     position: "top",
   },
   {
     step: "04",
     title: "Testing",
+    icon:<Soap/>,
     desc: "Testing was conducted at every stage to resolve issues and maintain app stability. Our team followed strict checks for quality, security & privacy, and smooth performance.  ",
     position: "bottom",
   },
   {
     step: "05",
     title: "Deployment",
+     icon:<Mop/>,
     desc: " Deployment involved preparing builds, configuring systems, and releasing updates for both iOS and Android. Our agency ensured new features and improvements were added smoothly through proven release steps. ",
     position: "top",
   },
@@ -106,7 +116,7 @@ const Workflow = () => {
         </motion.p>
 
         <div className="relative max-w-6xl mx-auto">
-          <div className="relative h-[600px]">
+          <div className="relative md:block hidden h-[600px]">
             <motion.div
               variants={lineVariant}
               initial="hidden"
@@ -131,8 +141,9 @@ const Workflow = () => {
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true }}
-                        className="bg-white/90 w-[357px] h-[177px] backdrop-blur-lg rounded-2xl p-5 shadow-lg text-center  mb-4"
+                        className="bg-white/90 w-[357px] relative h-[177px] backdrop-blur-lg rounded-[30px] p-5 shadow-lg text-center  mb-4"
                       >
+                         <div className="absolute right-2" >{item.icon}</div>
                         <h4 className="font-semibold text-lg mb-1 text-[#64486D]">
                           {item.title}
                         </h4>
@@ -211,8 +222,9 @@ const Workflow = () => {
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true }}
-                        className="bg-white/90 w-[357px] h-[177px] backdrop-blur-lg rounded-2xl p-5 shadow-lg text-center  mt-4"
+                        className="bg-white/90 relative w-[357px] h-[177px] backdrop-blur-lg rounded-[30px] p-5 shadow-lg text-center  mt-4"
                       >
+                        <div className="absolute right-2" >{item.icon}</div>
                         <h4 className="font-semibold text-lg mb-1 text-[#64486D]">
                           {item.title}
                         </h4>
@@ -226,6 +238,40 @@ const Workflow = () => {
               ))}
             </div>
           </div>
+            <div className="lg:hidden relative">
+          <div className="absolute left-1/2 top-0 w-[3px] h-full bg-gradient-to-b from-[#64486D] to-[#CEA3D8] -translate-x-1/2" />
+
+          <div className="flex flex-col gap-16">
+            {steps.map((item, i) => (
+              <div key={i} className="relative flex flex-col items-center">
+                <motion.div
+                  custom={i}
+                  variants={circleVariant}
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true }}
+                  className="w-12 h-12 rounded-full border-4 border-[#64486D] bg-white flex items-center justify-center font-bold text-[#64486D] z-10"
+                >
+                  {item.step}
+                </motion.div>
+
+                <motion.div
+                  custom={i}
+                  variants={stepVariant}
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true }}
+                  className="mt-6 bg-white/90 backdrop-blur rounded-2xl p-5 shadow-lg w-full max-w-md text-center"
+                >
+                  <h4 className="font-semibold text-[#64486D] mb-2">
+                    {item.title}
+                  </h4>
+                  <p className="text-sm text-gray-600">{item.desc}</p>
+                </motion.div>
+              </div>
+            ))}
+          </div>
+        </div>
         </div>
       </div>
     </section>

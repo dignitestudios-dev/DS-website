@@ -37,11 +37,11 @@ const BrandIdentity = () => {
           <h1 className="text-3xl md:text-4xl font-bold mb-6">
             Brand <span className="text-[#64486D]">Identity</span>
           </h1>
-          <p className=" max-w-5xl relative z-50 mx-auto leading-relaxed ">
+          <p className=" max-w-5xl px-2 relative z-50 mx-auto leading-relaxed ">
       The brand strategy focused on comfort. Consistency and trust. Calm neutrals, greens and soft blues have been used in the color palette to create a welcoming environment. For simple reading by all the groups, the typography was selected. Icon designs represented household tasks, care support, and quick actions. Every visual element worked well together to convey convenience and empowerment, supporting both sides of the marketplace.  
           </p>
         </motion.div>
-        <div className='flex h-[80vh] relative justify-center items-center' >
+        <div className='flex h-[40vh] md:h-[80vh] relative justify-center items-center' >
 <img src='/home-hero/satoshi.png' alt='brand' className='absolute ' />
        </div>
   

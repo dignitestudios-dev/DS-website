@@ -53,10 +53,11 @@ const Hero = () => {
             MEDITATION
           </div> */}
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 0 , y:100 }}
+            animate={{ opacity: 1 , y:0 }}
+            viewport={{once:true}}
             transition={{
-              duration: 0.8,
+              duration: 1,
               ease: "easeOut",
             }}
           >
@@ -68,7 +69,7 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-      <div className="bg-gradient-to-r md:w-[80%] mx-auto md:px-10 gap-12 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#D6B8F6]  to-[#7A5D88]">
+      <div className="bg-gradient-to-r relative z-50 md:w-[80%] mx-auto md:px-10 gap-12 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#D6B8F6]  to-[#7A5D88]">
         <div className="flex items-end gap-2 ">
           <div className="mb-2" >
           <Milestone />
