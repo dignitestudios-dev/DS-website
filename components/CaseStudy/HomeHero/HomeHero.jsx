@@ -13,7 +13,7 @@ const HomeHero = () => {
   return (
    <div className="w-full flex flex-col gap-8 ">
      <img src='/home-hero/hero-bg.png' alt='ellipse' className='fixed  top-0  w-screen h-screen' />
-     <img src='/home-hero/bg.png' alt='ellipse' className='fixed  top-[20%]  w-screen h-screen' />
+     <img src='/home-hero/bg.png' alt='ellipse' className='fixed  top-[20%]  w-screen ' />
     <Hero/>
     <Workflow/>
     <Discorvery/>
