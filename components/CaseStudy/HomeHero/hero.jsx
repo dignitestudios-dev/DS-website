@@ -1,18 +1,38 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Milestone from "./icons/Milestone";
+import Sector from "./icons/Sector";
+import Did from "./icons/Did";
 const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
-      <img src="/bioyap/hero.png" alt="hero" className="absolute w-screen -z-10" />
+      {/* <img src="/bioyap/hero.png" alt="hero" className="absolute w-screen -z-10" /> */}
       <div className="w-full gap-12 flex flex-col items-center ">
+        <img src="/home-hero/icon.png" alt="icon" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px] md:text-[48px] text-wrap  font-bold  mb-6">
-            <span className="text-[#62466B]  ">Home Hero: </span> Smarter Hiring for Everyday Home Needs
+            <span className="text-[#62466B]  ">Streamlined Marketplace </span>
+            for Hiring Trusted Home Services
           </h1>
 
-          <p className="text-gray-600 text-sm md:text-lg mb-8 ">
-            BioYap is a platform specifically  for pharmaceutical experts. Our team at Dignite Studios delivered complete mobile app development services while building a mobile app case study digital space where users can share updates and stay informed through a trusted community feed. This app would allow users to post insights from industry discussions and follow global news in one place. BioYap also includes a coin-based marketplace where users can buy coins at simple rates, i.e, 100 coins for 20 dollars. You can use the coins to purchase several items and the supporting peers through donations . This approach brings social interaction, peer commerce, and community contributions for a fluent experience. The main goal was to help professionals and stay connected outside traditional office channels.  
+          <p className="text-[#0C0C0C] text-sm md:text-lg mb-8 ">
+            The mobile device application called Home Hero was developed to make
+            the hiring quite easy and also stress free. Furthermore it also acts
+            as the digital marketplace which links households through the
+            reliable caregivers and also the odd jobs. Through the reliable
+            assistants, the users can also publish, get bids and also to
+            interact with homeowners. In order to establish their bids and to
+            develop a loyal customer base, users can also submit jobs, evaluate
+            the bids against their profiles, and select the best professional
+            service provider.
+            <br />
+            Furthermore, this program operates on the freemium alongside the
+            subscription model which grants user access in addition to boosts,
+            bidding that would be prioritized and the increased credibility.
+            Developing a safe, transparent and user-friendly eco system which
+            gives the advantage to both sides of the market and also maintains
+            dependable and safe transactions was the different goal.
           </p>
 
           <div className="flex items-center gap-4">
@@ -28,12 +48,12 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="flex mb-8 justify-center relative">
+        <div className="flex  justify-center relative">
           {/* <div className="absolute top-[20%] text-[60px] md:text-[180px] font-bold text-gray-200 opacity-80 select-none blur-sm">
             MEDITATION
           </div> */}
           <motion.div
-            initial={{  opacity: 0 }}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
               duration: 0.8,
@@ -41,27 +61,47 @@ const Hero = () => {
             }}
           >
             <img
-              src="/bioyap/hero-bg.png"
+              src="/home-hero/hero.png"
               alt="App Preview"
-              className="w-[320px] md:w-[700px] drop-shadow-2xl"
+              className=" drop-shadow-2xl"
             />
           </motion.div>
         </div>
       </div>
-      <div className="bg-gradient-to-r md:w-[80%] mx-auto md:px-16 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#D6B8F6]  to-[#7A5D88]">
-        <div className="">
-          <h3 className="mb-4">The Milestones</h3>
-          <h1 className="font-semibold">6 months of end to end of product development </h1>
+      <div className="bg-gradient-to-r md:w-[80%] mx-auto md:px-10 gap-12 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#D6B8F6]  to-[#7A5D88]">
+        <div className="flex items-end gap-2 ">
+          <div className="mb-2" >
+          <Milestone />
+          </div>
+          <div className="">
+            <h3 className="">The Milestones</h3>
+            <h1 className="font-semibold ">
+              {" "}
+              6 months of end to end of product development{" "}
+            </h1>
+          </div>
         </div>
-        <div className="">
-          <h3 className="mb-4">The Sector</h3>
-          <h1 className="font-semibold">Pharmaceutical community networking and peer marketplace </h1>
+        <div className="flex items-end gap-2 ">
+          <div className="mb-2" >
+          <Sector />
+          </div>
+          <div>
+            <h3 className="">The Sector</h3>
+            <h1 className="font-semibold ">
+              Odd Job Marketplace, Homer service Platform
+            </h1>
+          </div>
         </div>
-        <div className="">
-          <h3 className="mb-4">What We Did</h3>
-          <h1 className="font-semibold">
-           Mobile App Development coin marketplace system branding UI and UX design. 
-          </h1>
+        <div className="flex items-end gap-2 ">
+          <div className="mb-2" >
+          <Did />
+          </div>
+          <div>
+            <h3 className="">What We Did</h3>
+            <h1 className="font-semibold ">
+              Mobile App Development, Branding, UI UX Design, Admin Panel
+            </h1>
+          </div>
         </div>
       </div>
     </section>

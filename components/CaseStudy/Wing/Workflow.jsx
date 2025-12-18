@@ -197,6 +197,7 @@ const Workflow = () => {
           {/* STEP DOTS + TEXT */}
           <div className="absolute inset-0 z-50 ">
             {steps.map((s, i) => {
+
               // Calculate position as percentage of viewBox
               const leftPercent = (s.position.x / 1161) * 100;
               const topPercent = (s.position.y / 315) * 100;
