@@ -90,7 +90,7 @@ const Workflow = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold mb-4"
+          className="text-3xl md:text-[40px] font-bold mb-4"
         >
           Workflow <span className="text-[#64486D]">Overview</span>
         </motion.h2>

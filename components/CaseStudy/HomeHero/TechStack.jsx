@@ -19,7 +19,7 @@ const TechStack = () => {
     { name: 'Node.js', icon: '/bioyap/ai.png', color: '#339933' },
   ];
   return (
-    <div className=" flex justify-center items-center ">
+    <div className=" flex py-24 justify-center items-center ">
         {/* <img
         src="/wing/hearts.png"
         alt="hero"
@@ -33,7 +33,7 @@ const TechStack = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-[40px] font-bold mb-6">
             Tech <span className="text-[#64486D]">Stack</span>
           </h2>
           <p className=" max-w-5xl relative z-50 mx-auto leading-relaxed text-base">

@@ -79,7 +79,7 @@ const FinalOutcome = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold mb-4"
+          className="text-3xl md:text-[40px] font-bold mb-4"
         >
           Final <span className="text-[#64486D]">Outcome</span>
         </motion.h2>
@@ -92,15 +92,15 @@ const FinalOutcome = () => {
           className=" max-w-5xl mx-auto mb-12 px-4 md:px-0"
         >
    HomeHero was delivered as a smooth, two-sided mobile marketplace that helped homeowners hire trusted support for everyday and care jobs. Job posting became simple, which boosted engagement and repeated usage. Providers gained much greater visibility and more opportunities through transparent bidding and subscription features. 
-   <br/>
+
 The verification steps, review, and structured communication solved trust issues. The admin panel enabled the internal team to manage workflow moderation and disputes without technical support.
-<br/> 
+
 Home Hero grew into a modern alternative to high-cost platforms and opened new income opportunities for the service providers. 
 
         </motion.p>
       </div>
 <div  >
-  <div className="flex justify-start max-w-screen-2xl mx-auto w-[80%] mb-16">
+  <div className="flex justify-start max-w-screen-2xl mx-auto w-[80%]  mb-24 mt-36">
           {" "}
           <h1 className="bg-[#64486D] relative px-8 py-3 rounded-r-full  text-white flex items-center">
             Service Provider Interface
@@ -125,7 +125,7 @@ Home Hero grew into a modern alternative to high-cost platforms and opened new i
 </Marquee>
 </div>
 <div className="mt-16">
-   <div className="flex justify-end max-w-screen-2xl mx-auto w-[80%] mb-16">
+   <div className="flex justify-end max-w-screen-2xl mx-auto w-[80%] mt-36 mb-16">
           {" "}
           <h1 className="bg-[#64486D] relative px-8 py-3 rounded-l-full  text-white flex items-center">
             User Interface

@@ -428,7 +428,7 @@ const Challenges = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold mb-4 text-center"
+          className="text-3xl md:text-[40px] font-bold mb-4 text-center"
         >
           Challenges And <span className="text-[#64486D]">Solutions</span>
         </motion.h2>

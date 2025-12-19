@@ -20,7 +20,7 @@ const BrandIdentity = () => {
   ];
 
   return (
-    <div className=" ">
+    <div className=" py-24">
       <img
         src="/home-hero/ecc.png"
         alt="ecc"
@@ -34,7 +34,7 @@ const BrandIdentity = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h1 className="text-3xl md:text-4xl font-bold mb-6">
+          <h1 className="text-3xl md:text-[40px] font-bold mb-6">
             Brand <span className="text-[#64486D]">Identity</span>
           </h1>
           <p className=" max-w-5xl px-2 relative z-50 mx-auto leading-relaxed ">
