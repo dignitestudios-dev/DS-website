@@ -13,7 +13,7 @@ const steps = [
     step: "01",
     title: "Planning & Research",
     icon:<Wiper/>,
-    desc: "Mobile app branding and design laid the foundation for the app's identity. Our professional team also studied user expectations, tone, visual style, icons, and flows. The intense brand Clarity supports long-term trust and helps the product grow through the digital marketplace app portfolio.",
+    desc: "Mobile app branding and design laid the foundation for the app's identity. Our professional team also studied user expectations, tone, visual style, icons, and flows.",
     position: "top",
   },
   {
@@ -141,7 +141,7 @@ const Workflow = () => {
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true }}
-                        className="bg-white/90 w-[357px] relative h-[177px] backdrop-blur-lg rounded-[30px] p-5 shadow-lg text-center  mb-4"
+                        className="bg-white/90 w-[357px] flex flex-col justify-center relative h-[177px] backdrop-blur-lg rounded-[30px] p-5 shadow-lg text-center  mb-4"
                       >
                          <div className="absolute right-2" >{item.icon}</div>
                         <h4 className="font-semibold text-lg mb-1 text-[#64486D]">
@@ -178,7 +178,7 @@ const Workflow = () => {
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true }}
-                        className="w-12 h-12 rounded-full border-4 border-[#64486D] flex items-center justify-center text-lg font-bold text-[#64486D] bg-white shadow-lg"
+                        className="w-12 h-12 rounded-full border-8 border-[#64486D] flex items-center justify-center text-lg font-bold text-[#64486D] bg-white shadow-lg"
                       >
                         {item.step}
                       </motion.div>
@@ -191,7 +191,7 @@ const Workflow = () => {
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true }}
-                        className="w-12 h-12 rounded-full border-4 border-[#64486D] flex items-center justify-center text-lg font-bold text-[#64486D]  bg-white shadow-lg"
+                        className="w-12 h-12 rounded-full border-8 border-[#64486D] flex items-center justify-center text-lg font-bold text-[#64486D]  bg-white shadow-lg"
                       >
                         {item.step}
                       </motion.div>
@@ -222,7 +222,7 @@ const Workflow = () => {
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true }}
-                        className="bg-white/90 relative w-[357px] h-[177px] backdrop-blur-lg rounded-[30px] p-5 shadow-lg text-center  mt-4"
+                        className="bg-white/90 flex flex-col justify-center relative w-[357px] h-[177px] backdrop-blur-lg rounded-[30px] p-5 shadow-lg text-center  mt-3"
                       >
                         <div className="absolute right-2" >{item.icon}</div>
                         <h4 className="font-semibold text-lg mb-1 text-[#64486D]">

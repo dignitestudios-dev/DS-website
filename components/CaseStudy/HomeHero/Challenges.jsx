@@ -254,6 +254,45 @@ const Challenges = () => {
       title: "Visibility Control",
       desc: "Homeowners needed enough bids without feeling overloaded.",
     },
+    {
+      id: 6,
+      icon: (
+        <svg
+          width="59"
+          height="59"
+          viewBox="0 0 59 59"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="4.12402"
+            width="55"
+            height="55"
+            rx="27.5"
+            transform="rotate(4.3 4.12402 0)"
+            fill="#FF3730"
+          />
+          <path
+            d="M19.3662 31.5642L26.4669 32.0981L25.9294 39.2455L18.8288 38.7116L19.3662 31.5642Z"
+            fill="white"
+          />
+          <path
+            d="M30.6084 32.4094L37.709 32.9433L37.1716 40.0908L30.071 39.5569L30.6084 32.4094Z"
+            fill="white"
+          />
+          <path
+            d="M20.2168 20.2473L27.3174 20.7812L26.78 27.9286L19.6794 27.3947L20.2168 20.2473Z"
+            fill="white"
+          />
+          <path
+            d="M34.361 29.9878L29.7196 24.5563L35.121 19.88L39.7614 25.3114L34.361 29.9878Z"
+            fill="white"
+          />
+        </svg>
+      ),
+      title: "Real-time communication",
+      desc: "Smooth updates, chats, and notifications were required for secure mobile app development",
+    },
   ];
 
   const solutionPoints = [
@@ -411,6 +450,33 @@ const Challenges = () => {
       ),
       title: "Managing Job visibility",
       desc: "An intelligent matching system filters jobs and helpers by skills, location, and availability to keep results balanced.",
+    },
+    {
+      id: 6,
+      icon: (
+        <svg
+          width="59"
+          height="59"
+          viewBox="0 0 59 59"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="4.12402"
+            width="55"
+            height="55"
+            rx="27.5"
+            transform="rotate(4.3 4.12402 0)"
+            fill="#1EBF72"
+          />
+          <path
+            d="M38.4257 27.7583L37.3157 27.4877C37.2263 27.1377 37.1116 26.7896 36.975 26.4515L37.7083 25.5751C38.1663 25.0251 38.1602 24.2339 37.6937 23.6916L36.4467 22.2419C35.9802 21.6996 35.1968 21.5751 34.5864 21.9458L33.6102 22.5378C33.2982 22.3523 32.9711 22.1869 32.6364 22.0461L32.5349 20.9082C32.4671 20.1934 31.9032 19.638 31.1897 19.5843L29.2832 19.4409C28.5697 19.3873 27.9291 19.8522 27.7591 20.5472L27.4886 21.6571C27.1385 21.7465 26.7904 21.8611 26.4522 21.9977L25.5757 21.2645C25.0257 20.8065 24.2344 20.8126 23.6921 21.279L22.2423 22.5259C21.6999 22.9924 21.5755 23.7757 21.9462 24.386L22.5383 25.3621C22.3526 25.676 22.1872 26.003 22.0465 26.3358L20.9085 26.4373C20.1936 26.5051 19.6381 27.0689 19.5845 27.7823L19.4412 29.6887C19.3875 30.4021 19.8524 31.0427 20.5476 31.2126L21.6575 31.4831C21.7468 31.8351 21.8614 32.1831 21.9982 32.5194L21.2668 33.396C20.8088 33.9459 20.8149 34.7371 21.2814 35.2795L22.5284 36.7291C22.995 37.2714 23.7764 37.3958 24.3888 37.0252L25.3649 36.4332C25.6789 36.6188 26.0059 36.7842 26.3387 36.9249L26.4402 38.0628C26.5043 38.7754 27.0682 39.3309 27.7817 39.3845L29.6882 39.5279C30.4017 39.5815 31.0424 39.1167 31.2123 38.4216L31.4828 37.3117C31.8348 37.2225 32.1829 37.1078 32.5192 36.9711L33.3958 37.7024C33.9458 38.1604 34.7371 38.1543 35.2795 37.6879L36.7293 36.441C37.2716 35.9745 37.3961 35.1912 37.0254 34.5808L36.4333 33.6048C36.6188 33.2928 36.7842 32.9658 36.9251 32.6311L38.063 32.5296C38.7757 32.4655 39.3312 31.9017 39.3848 31.1883L39.5282 29.2819C39.5857 28.5688 39.1208 27.9282 38.4257 27.7583ZM29.847 24.6908C31.2223 24.7942 32.2563 25.9964 32.153 27.3714C32.0496 28.7465 30.8473 29.7805 29.4721 29.6771C28.0969 29.5737 27.0628 28.3715 27.1662 26.9965C27.2696 25.6214 28.4719 24.5874 29.847 24.6908ZM31.9831 35.5306C31.6865 35.653 31.376 35.755 31.0634 35.8337C30.5386 35.964 30.1319 36.3712 30.0034 36.8996L29.7362 37.9905L27.9678 37.8575L27.8667 36.739C27.8187 36.1973 27.4774 35.7338 26.9778 35.5284C26.6823 35.4059 26.3905 35.2586 26.1119 35.0911C25.6542 34.8156 25.0891 34.8155 24.6271 35.0855L24.6586 34.6655C24.7857 33.001 26.2417 31.7488 27.9046 31.8738L30.6934 32.0835C32.3563 32.2085 33.6086 33.6643 33.4836 35.3271L33.452 35.7471C33.0375 35.4112 32.4768 35.3267 31.9831 35.5306Z"
+            fill="white"
+          />
+        </svg>
+      ),
+      title: "Supporting real-time communication",
+      desc: "Push alerts and in-app updates ensure quick replies and smooth chats, along with precise progress tracking.",
     },
   ];
 
@@ -628,12 +694,12 @@ const Challenges = () => {
           {/* Floating Cards */}
           <div className="absolute inset-0 flex justify-between px-8 pointer-events-none">
             {/* LEFT */}
-            <div className="flex flex-col justify-between gap-6 pointer-events-auto">
-              {solutionPoints.slice(0, 2).map((point, index) => (
+            <div className="flex flex-col justify-center gap-6 pointer-events-auto">
+              {solutionPoints.slice(0, 3).map((point, index) => (
                 <motion.div
                   key={point.id}
-                  {...floatingAnimation}
-                  initial={{ rotate: leftTilts[index % leftTilts.length] }}
+                  // {...floatingAnimation}
+                  // initial={{ rotate: leftTilts[index % leftTilts.length] }}
                   whileHover={{ scale: 1.05, rotate: 0, y: -14 }}
                   className="flex bg-white/70  rounded-2xl relative h-[110px] ml-10 z-50 p-4 items-center gap-3 w-[400px]"
                 >
@@ -649,12 +715,12 @@ const Challenges = () => {
             </div>
 
             {/* RIGHT */}
-            <div className="flex flex-col  gap-6 pointer-events-auto">
-              {solutionPoints.slice(2).map((point, index) => (
+            <div className="flex flex-col justify-center gap-6 pointer-events-auto">
+              {solutionPoints.slice(3).map((point, index) => (
                 <motion.div
                   key={point.id}
-                  {...floatingAnimation}
-                  initial={{ rotate: rightTilts[index % rightTilts.length] }}
+                  // {...floatingAnimation}
+                  // initial={{ rotate: rightTilts[index % rightTilts.length] }}
                   whileHover={{ scale: 1.05, rotate: 0, y: -14 }}
                   className="flex items-center rounded-2xl p-4 h-[110px] relative z-50 mr-10  bg-white/70  gap-3 w-[400px] flex-row-reverse text-right"
                 >

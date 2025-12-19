@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full   p-4">
-      <div className="w-full gap-12 flex flex-col items-center ">
+      <div className="w-full gap-5 mt-14 flex flex-col items-center ">
+        <img src="/icon.png" alt="icon" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="text-[#000086]  ">Harmonious Learning:</span> A
