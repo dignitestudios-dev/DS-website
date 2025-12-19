@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
       {/* <img src="/bioyap/hero.png" alt="hero" className="absolute w-screen -z-10" /> */}
-      <div className="w-full gap-12 flex flex-col items-center ">
+      <div className="w-full gap-2 flex flex-col items-center ">
         <img src="/home-hero/icon.png" alt="icon" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px] md:text-[48px] text-wrap  font-bold  mb-6">

@@ -207,10 +207,10 @@ const Workflow = () => {
                             viewport={{ once: true }}
                             className={`${
                               dotIdx === 0
-                                ? "w-3 h-3 bg-[#64486D]"
+                                ? "w-1.5 h-1.5 bg-[#64486D]/40"
                                 : dotIdx === 1
                                 ? "w-2 h-2 bg-[#64486D]/70"
-                                : "w-1.5 h-1.5 bg-[#64486D]/40"
+                                : "w-3 h-3 bg-[#64486D]"
                             } rounded-full`}
                           />
                         ))}
