@@ -11,9 +11,9 @@ const Hero = () => {
       <div className="w-full gap-5 mt-14 flex flex-col items-center ">
         <img src="/crew/icon.png" alt="icon" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
-          <h1 className="text-[24px] text-[#1F222E] leading-[60px] md:text-[48px] text-wrap  font-bold  mb-6">
+          <h1 className="text-[24px] text-[#1F222E] capitalize md:leading-[60px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="text-[#36C0EF]  ">CrewRoomz </span>
-            Building a Trusted Global Stay <br/> for Cabin Crews
+            Building a Trusted Global Stay  for Cabin Crews
           </h1>
 
           <p className="text-[#0C0C0C] text-sm md:text-base  mb-8 ">
@@ -35,7 +35,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="flex  justify-center relative -my-40 ">
+        <div className="hidden md:flex  justify-center relative  -my-40 ">
           {/* <div className="absolute top-[20%] text-[60px] md:text-[180px] font-bold text-gray-200 opacity-80 select-none blur-sm">
             MEDITATION36
           </div> */}
@@ -51,6 +51,22 @@ const Hero = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.8, duration: 0.6 }} src="/crew/plane.png" className="absolute top-[30%]"   alt="plane" fill/>
       
+        </div>
+         <div className="relative w-full flex md:hidden justify-center mt-8 md:mt-0">
+          <img
+            src="/crew/hero.png"
+            alt="App Preview"
+            className="scale-[2] object-contain "
+          />
+          <motion.img
+            initial={{ opacity: 0, scale: 0.8, y: 70, x: -200 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.8, duration: 0.6 }}
+            src="/crew/plane.png"
+            className="absolute top-0 left-[0%] transform -translate-x-1/2 "
+            alt="plane"
+          />
         </div>
       </div>
       <div className="bg-gradient-to-r relative z-50 md:w-[80%] mx-auto md:px-10 gap-12 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#36C0EF]  to-[#29ABE2]">

@@ -70,7 +70,7 @@ const Workflow = () => {
         alt="background"
         className="absolute w-screen top-[-50%] hidden md:block"
       /> */}
-
+     {/* <img src="/crew/el.png" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 relative">
         <motion.h2
@@ -153,7 +153,7 @@ const Workflow = () => {
               </motion.div>
             ))}
           </div>
-          <div>
+          <div className="md:block hidden">
             <img src="/crew/phone.png" alt="phone" fill />
           </div>
         </div>
