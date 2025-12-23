@@ -37,7 +37,7 @@ const BrandIdentity = () => {
  The visual direction highlights the energy and the clarity needed for a strong gamer-focused web-based solution. The branding is energetic, modern, and gamer-focused, reflecting the speed, power, and tech genius of the custom web application. Bold RGB inspired the colors, futuristic typography, and high-contrast layouts, creating an advanced yet quite approachable identity for the web-based solution.   
           </p>
         </motion.div>
-        <div className='flex h-[40vh] md:h-[110vh] relative justify-center items-center' >
+        <div className='flex h-[40vh] md:h-[110vh] max-h-[1000px] relative justify-center items-center' >
 <img src='/gamesfun/brand.png' alt='brand' className='absolute ' />
        </div>
   

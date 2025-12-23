@@ -35,11 +35,11 @@ const Hero = () => {
             />
           </div>
         </div>
-            <div className="flex  w-screen h-full justify-center relative">
+            <div className="flex  w-screen max-h-[1000px] h-full justify-center relative">
                   {/* <div className="absolute top-[20%] text-[60px] md:text-[180px] font-bold text-gray-200 opacity-80 select-none blur-sm">
                     MEDITATION
                   </div> */}
-                  <img src="/gamesfun/grad.png" alt="grad" className="absolute md:top-[-60%] h-auto z-10 w-screen" />
+                  <img src="/gamesfun/grad.png" alt="grad" className="absolute 2xl:top-[-150%] md:top-[-80%] h-auto z-10 w-screen" />
                   <motion.div
                     initial={{  opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -49,7 +49,7 @@ const Hero = () => {
                     }}
                   >
                     <motion.div
-      className="absolute z-20 -left-40 md:left-[25%]  translate-x-[-50%] "
+      className="absolute z-20 -left-40 md:left-[25%] 2xl:left-[35%]  translate-x-[-50%] "
       animate={{ rotate: 360 }}
       transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
     >
