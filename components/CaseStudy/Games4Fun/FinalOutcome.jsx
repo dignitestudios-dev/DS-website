@@ -1,17 +1,18 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Autoplay } from "swiper/modules";
+import { Autoplay , EffectCoverflow } from "swiper/modules";
 import React from "react";
 
 const images = [
-  "/monitor-1.png",
-  "/monitor-2.png",
-  "/monitor-3.png",
-  "/monitor-4.png",
-  "/monitor-5.png",
-  "/monitor-6.png",
-  "/monitor-7.png",
+  "/gamesfun/monitor-1.png",
+  "/gamesfun/monitor-2.png",
+  "/gamesfun/monitor-3.png",
+  "/gamesfun/monitor-4.png",
+  "/gamesfun/monitor-5.png",
+  "/gamesfun/monitor-1.png",
+    "/gamesfun/monitor-2.png",
+
 ];
 
 const FinalOutcome = () => {
@@ -27,7 +28,7 @@ const FinalOutcome = () => {
         </p>
       </div>
 
-     <div className="relative w-screen h-[40vh] md:h-[400px] flex items-center justify-center overflow-hidden">
+     <div className="relative w-screen h-[50vh] md:h-[400px] flex items-center justify-center overflow-hidden">
   {/* Laptop Frame */}
   {/* <img
     src="/laptop.png"
@@ -35,35 +36,41 @@ const FinalOutcome = () => {
     className="absolute md:block hidden w-[240px] md:w-[600px] 2xl:w-[700px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-20"
   /> */}
 
-  {/* Slider inside Laptop Screen */}
-  <div className="absolute top-1/2 left-1/2 w-[160px]  md:w-[450px] 2xl:w-[500px] h-[90px] md:h-[300px] 2xl:h-[340px] -translate-x-1/2 -translate-y-1/2 z-10">
+  <div className="absolute top-1/2 left-1/2 w-[300px]  md:w-[450px] 2xl:w-[500px] h-[100px] md:h-[300px] 2xl:h-[340px] -translate-x-1/2 -translate-y-1/2 z-10">
     <Swiper
-      modules={[Autoplay]}
-      spaceBetween={5}
+      modules={[Autoplay  ,EffectCoverflow]}
+      spaceBetween={-50}
       slidesPerView={"auto"}
       loopedSlides={images.length}
       loopAdditionalSlides={2}
       centeredSlides={true}
       loop={true}
       speed={1000}
+        coverflowEffect={{
+    rotate: 0, // no rotation
+    stretch: 0, 
+    depth: 100,
+    modifier: 1,
+    scale: 1.5, // center slide scale
+  }}
       autoplay={{
         delay: 1000,
         disableOnInteraction: false,
       }}
-      className="overflow-visible !w-full !h-full !flex !justify-center gap-4 relative"
+      className="!overflow-visible !w-full !h-full !flex !justify-center relative"
     >
       {images.map((img, idx) => (
-        <SwiperSlide key={idx} className="!flex !justify-center !items-center">
+        <SwiperSlide key={idx} className="!flex !justify-center !w-full !items-center">
           {({ isActive }) => (
             <div
-              className={`transition-all duration-500 w-full ease-out cursor-pointer ${
-                isActive ? "scale-150 md:scale-100 2xl:scale-105 z-10" : "scale-90 opacity-90 rounded-xl"
+              className={`transition-all duration-500 !w-fit ease-out cursor-pointer ${
+                isActive ? "scale-[3] md:scale-110 2xl:scale-105 z-10" : "scale-100 opacity-90 rounded-xl"
               } w-full h-full`}
             >
               <img
                 src={img}
                 alt={`Dashboard view ${idx + 1}`}
-                className={`!w-fit !h-full object-contain ${!isActive && "rounded-xl"} `}
+                className={` !h-full object-contain ${!isActive && "rounded-xl"} `}
               />
             </div>
           )}
@@ -73,8 +80,8 @@ const FinalOutcome = () => {
   </div>
 
   {/* LEFT/RIGHT GRADIENT OVERLAYS */}
-  <div className="absolute left-0 w-10 md:w-32 h-full bg-gradient-to-r from-white to-transparent z-30 pointer-events-none" />
-  <div className="absolute right-0 w-10 md:w-32 h-full bg-gradient-to-l from-white to-transparent z-30 pointer-events-none" />
+  {/* <div className="absolute left-0 w-10 md:w-32 h-full bg-gradient-to-r from-white to-transparent z-30 pointer-events-none" />
+  <div className="absolute right-0 w-10 md:w-32 h-full bg-gradient-to-l from-white to-transparent z-30 pointer-events-none" /> */}
 </div>
 
 

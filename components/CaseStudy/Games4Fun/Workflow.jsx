@@ -88,7 +88,7 @@ const Workflow = () => {
         </motion.p>
       </div>
 
-<div className="flex justify-center flex-wrap md:flex-nowrap ">
+<div className="flex justify-center flex-wrap gap-14 md:gap-0 md:flex-nowrap ">
   {steps.map((step, idx) => (
     <motion.div
       key={idx}

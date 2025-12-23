@@ -29,7 +29,7 @@ const insights = [
 
 const Discovery = () => {
   return (
-    <section className="w-full py-16  relative overflow-hidden">
+    <section className="w-full py-16  relative ">
       {/* <img src="/crew/el.png" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
       <div className="max-w-7xl mx-auto text-center px-4">
         <motion.h2
@@ -52,7 +52,7 @@ const Discovery = () => {
           A focused research process that helped shape a clear and simple direction for the custom web application.
         </motion.p>
 
-  <div className="relative flex justify-center items-center w-full h-[340px]">
+  <div className="relative hidden md:flex justify-center items-center w-full h-[340px]">
   {insights.map((insight, idx) => {
     const positionStyles = [
       "-translate-x-[180%] scale-75 z-0 -70 hover:scale-110 hover:z-50", // far left (mostly hidden)
@@ -69,6 +69,43 @@ const Discovery = () => {
           absolute transition-all duration-500 ease-out
           w-[250px]  pb-4 rounded-2xl bg-white
           ${positionStyles[idx]}
+        `}
+      >
+        {/* Gradient bar */}
+        <div className="absolute top-0 w-full h-2 rounded-t-2xl bg-gradient-to-r from-[#C100FF] to-[#FFBE96]" />
+
+        {/* Image */}
+        <img
+          src={insight.image}
+          alt="insight"
+          className="w-full h-[200px] scale-125 object-cover rounded-t-2xl"
+        />
+
+        {/* Text */}
+        <p className="text-sm px-6 pt-4 text-[#0C0C0C] text-center">
+          {insight.desc}
+        </p>
+      </div>
+    );
+  })}
+</div>
+  <div className="relative flex-flex-col md:hidden justify-center items-center w-full h-full">
+  {insights.map((insight, idx) => {
+    const positionStyles = [
+      "-translate-x-[180%] scale-75 z-0 -70 hover:scale-110 hover:z-50", // far left (mostly hidden)
+      "-translate-x-[100%] scale-95 z-10 -80 hover:scale-110 hover:z-50", // left (half visible)
+      "scale-110 z-30 hover:scale-110 hover:z-50",                               // center (fully visible)
+      "translate-x-[100%] scale-95 z-10 -80 hover:scale-110 hover:z-50",  // right (half visible)
+      "translate-x-[180%] scale-75 z-0 -70 hover:scale-110 hover:z-50",  // far right (mostly hidden)
+    ];
+
+    return (
+      <div
+        key={idx}
+        className={`
+           transition-all flex flex-col items-center duration-500 ease-out
+          w-full h-[300px]  pb-4 rounded-2xl bg-white
+          
         `}
       >
         {/* Gradient bar */}
