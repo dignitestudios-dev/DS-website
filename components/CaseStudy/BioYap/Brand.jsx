@@ -21,7 +21,7 @@ const Brand = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-12"
+          className=" max-w-5xl mx-auto mb-12"
         >
           The brand identity was built over decades of trust and community to align with the professional app visual identity standards. We also used a clean color palette of blues, whites, and greens, which worked well for pharmaceutical companies worldwide. The soft icons were made for the marketplace products, social actions, and the coin wallet. The visual language was kept quite modern, simple, and reliable to convey a stronger sense of professionalism.
         </motion.p>

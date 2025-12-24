@@ -52,9 +52,9 @@ const FinalOutcome = () => {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-4xl font-bold mb-4"
           >
-            Final <span className="text-[#000086]">Outcome</span>
+            Final <span className=" dark:text-[#CEA3D8] text-[#000086]">Outcome</span>
           </motion.h2>
-          <p className="text-gray-600 max-w-5xl mx-auto leading-relaxed px-4">
+          <p className=" max-w-5xl mx-auto leading-relaxed px-4">
             Harmonious Learning successfully delivered a smooth, kid-friendly
             audio environment supported by clear and reliable parent controls.
             The redesigned experience made navigation effortless for children,
@@ -71,7 +71,7 @@ const FinalOutcome = () => {
 
         <div className="w-full py-12 overflow-hidden relative left-[20%] md:left-[30%] flex gap-2 items-center justify-center">
           {/* GRADIENT OVERLAY */}
-          <div className="absolute md:block hidden w-[300px] top-0 left-0 h-full bg-gradient-to-r from-white to-transparent z-30 pointer-events-none" />
+          <div className="absolute md:block hidden w-[300px] top-0 left-0 h-full bg-gradient-to-r dark:from-[#222222] from-white to-transparent z-30 pointer-events-none" />
           
           {/* NAVIGATION ARROWS - LEFT SIDE */}
           <div className="relative flex flex-col gap-3 z-50 ml-14">

@@ -46,7 +46,7 @@ const Wireframe = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600  max-w-5xl mx-auto mb-16 px-4 md:px-0"
+          className="  max-w-5xl mx-auto mb-16 px-4 md:px-0"
         >
           We started with low-fidelity wireframes that covered the whole journey
           from the home feed to the marketplace wallet notifications and the
@@ -56,7 +56,7 @@ const Wireframe = () => {
           levels of engagement and quite fluent app navigation, which yielded
           the best results.
         </motion.p>
-        <div className="bg-gradient-to-b from-white to-[#F0FDDA]">
+        <div className="dark:bg-none bg-gradient-to-b from-white to-[#F0FDDA]">
           <div className=" flex justify-center max-w-7xl mx-auto  flex-wrap ">
             {wireframes.slice(0, 5).map((w, idx) => (
               <div key={idx} className={`${idx % 2 && "mt-8"}`}>

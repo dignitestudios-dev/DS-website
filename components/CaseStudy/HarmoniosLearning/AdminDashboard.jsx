@@ -20,9 +20,9 @@ const AdminDashboard = () => {
       {/* HEADER */}
       <div className="text-center max-w-5xl mb-16 px-4">
         <h2 className="text-4xl font-bold mb-4">
-          Admin <span className="text-purple-600">Dashboard</span>
+          Admin <span className="dark:text-[#CEA3D8] text-purple-600">Dashboard</span>
         </h2>
-        <p className="leading-relaxed text-gray-700">
+        <p className="leading-relaxed ">
           The Admin Dashboard serves as the central control system for managing all content within Harmonious Learning. It streamlines
           the organization of tracks, stories, categories, and community uploads through an intuitive moderation flow with clear approve or
           reject actions. Admins can monitor user interactions, track engagement metrics, and generate detailed reports on content
@@ -78,8 +78,8 @@ const AdminDashboard = () => {
   </div>
 
   {/* LEFT/RIGHT GRADIENT OVERLAYS */}
-  <div className="absolute left-0 w-10 md:w-32 h-full bg-gradient-to-r from-white to-transparent z-30 pointer-events-none" />
-  <div className="absolute right-0 w-10 md:w-32 h-full bg-gradient-to-l from-white to-transparent z-30 pointer-events-none" />
+  <div className="absolute left-0 w-10 md:w-32 h-full bg-gradient-to-r dark:from-[#222222] from-white to-transparent z-30 pointer-events-none" />
+  <div className="absolute right-0 w-10 md:w-32 h-full bg-gradient-to-l dark:from-[#222222] from-white to-transparent z-30 pointer-events-none" />
 </div>
 
 

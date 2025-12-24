@@ -10,10 +10,10 @@ const Hero = () => {
       {/* <img src="/bioyap/hero.png" alt="hero" className="absolute w-screen -z-10" /> */}
       <div className="w-full gap-2 flex flex-col items-center ">
         <img src="/home-hero/icon.png" alt="icon" fill />
-        <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
+        <div className="flex flex-col items-center text-center w-[90%] md:w-[70%]">
           <h1 className="text-[24px] text-[#1F222E] leading-[60px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="text-[#62466B]  ">Streamlined Marketplace </span>
-            for Hiring  Trusted <br/> Home Services
+            for Hiring  Trusted  Home Services
           </h1>
 
           <p className="text-[#0C0C0C] text-sm md:text-base  mb-8 ">

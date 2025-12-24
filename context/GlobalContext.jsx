@@ -72,6 +72,11 @@ export const GlobalContextProvider = ({ children }) => {
       });
     }
   }, [theme]);
+
+  useEffect(() => {
+    // Toggle dark class on <html> whenever theme changes
+    document.documentElement.classList.toggle("dark", theme === "dark");
+  }, [theme]);
   return (
     <GlobalContext.Provider
       value={{

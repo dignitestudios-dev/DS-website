@@ -34,7 +34,7 @@ const TechStack = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Tech <span className="text-[#C0F765]">Stack</span>
           </h2>
-          <p className="text-gray-700 max-w-5xl mx-auto leading-relaxed text-base">
+          <p className=" max-w-5xl mx-auto leading-relaxed text-base">
            The mobile app was developed using React Native for the frontend to ensure smooth, fast performance. The backend was built through Node.js, and the database used PostgreSQL. Secure the coin transactions were handled through an integrated payment gateway. Real-time updates for posts and marketplace activity were also supported through socket-based features. The stack also ensured strong performance and reliable scalability. 
           </p>
         </motion.div>
@@ -60,7 +60,7 @@ const TechStack = () => {
             >
               <div className="relative">
                 {/* Icon Container */}
-                <div className="w-20 h-20 bg-white rounded-2xl shadow-xl shadow-[#C0F765]/70 flex items-center justify-center transition-all duration-300 group-hover:shadow-[#C0F765]/70 group-hover:shadow-xl">
+                <div className="w-20 h-20 dark:bg-transparent border-none dark:border-2 dark:border-[#c0f765] bg-white rounded-2xl shadow-xl shadow-[#C0F765]/70 flex items-center justify-center transition-all duration-300 group-hover:shadow-[#C0F765]/70 group-hover:shadow-xl">
                   <span className="text-4xl"><img src={tech.icon} alt='icon'  /></span>
                 </div>
                 

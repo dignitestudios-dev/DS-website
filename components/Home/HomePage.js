@@ -16,8 +16,10 @@ import AreaOfExpertise from "./AreaOfExpertise";
 import HybridAppContactForm from "../global/HybridAppContactForm";
 
 export default function HomePage() {
-  const { palette } = useContext(GlobalContext);
-
+  const { palette , theme } = useContext(GlobalContext);
+  useEffect(() => {
+  document.documentElement.classList.toggle("dark", theme === "dark")
+}, [theme])
   return (
     <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />

@@ -46,7 +46,7 @@ const ProblemSol = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl relative z-50 mx-auto mb-20"
+          className=" max-w-5xl relative z-50 mx-auto mb-20"
         >
         Wing isn’t a regular dating app; it mixes personal matchmaking with friend involvement, so the problems were layered. We had to solve trust issues, keep the UX stupid-simple, prevent misuse, and still make the whole thing feel natural. Every challenge pushed us to create solutions that were clean, scalable, and aligned with how people actually date today.
         </motion.p>
@@ -65,9 +65,9 @@ const ProblemSol = () => {
                 width={120}
                 className="absolute top-0 right-0 rounded-tr-[50px]"
               />
-              <h1 className="text-lg font-semibold mb-2">Challenges</h1>
+              <h1 className="text-lg font-semibold mb-2 text-black">Challenges</h1>
               {challenges.map((c, idx) => (
-                <div className="flex gap-2 capitalize text-sm items-start">
+                <div className="flex gap-2 text-black capitalize text-sm items-start">
                   <img src="/wing/r-heart.png" alt="heart" />
                   <h2>{c}</h2>
                 </div>
@@ -87,9 +87,9 @@ const ProblemSol = () => {
                 width={120}
                 className="absolute top-0 right-0 rounded-tr-[50px]"
               />
-              <h1 className="text-lg font-semibold mb-2">Solutions</h1>
+              <h1 className="text-lg font-semibold mb-2 text-black">Solutions</h1>
               {solutions.map((c, idx) => (
-                <div className="flex gap-2 capitalize text-sm items-start">
+                <div className="flex gap-2 text-black capitalize text-sm items-start">
                   <svg
                     width="33"
                     height="33"

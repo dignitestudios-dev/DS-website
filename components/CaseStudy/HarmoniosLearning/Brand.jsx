@@ -30,9 +30,9 @@ const BrandIdentity = () => {
           className="text-center mb-12"
         >
           <h1 className="text-3xl md:text-4xl font-bold mb-6">
-            Brand <span className="text-purple-600">Identity</span>
+            Brand <span className=" dark:text-[#CEA3D8] text-purple-600">Identity</span>
           </h1>
-          <p className="text-gray-700 max-w-5xl mx-auto leading-relaxed ">
+          <p className=" max-w-5xl mx-auto leading-relaxed ">
            Building the brand identity was a bit challenging and needed to be considered properly before we start working on the logo and visual identity, there were a few things on our minds. The mobile app needed to be soft, light, and friendly for the kids, but at the same time, it needed to look clear and structured, so we went with a soft, calming color palette that instantly sets a comforting vibe, paired with friendly, rounded typography that works across both kid and parent screens. 
           </p>
         </motion.div>
@@ -53,8 +53,8 @@ const BrandIdentity = () => {
               {/* Headline */}
               <div className="space-y-2">
                 <div className="flex justify-between items-center">
-                  <span className="text-sm font-semibold text-gray-700">Headline</span>
-                  <span className="text-xs text-gray-500">Font Size: 18px | Line Height: 100%</span>
+                  <span className="text-sm font-semibold ">Headline</span>
+                  <span className="text-xs ">Font Size: 18px | Line Height: 100%</span>
                 </div>
                 {/* <div className=" pt-2">
                   <p className="text-lg font-bold text-gray-900">Sample Headline Text</p>
@@ -64,11 +64,11 @@ const BrandIdentity = () => {
               {/* Title */}
               <div className="space-y-2">
                 <div className="flex justify-between items-center">
-                  <span className="text-sm font-semibold text-gray-700">Title</span>
-                  <span className="text-xs text-gray-500">Font Size: 14px | Line Height: 100%</span>
+                  <span className="text-sm font-semibold ">Title</span>
+                  <span className="text-xs ">Font Size: 14px | Line Height: 100%</span>
                 </div>
                 <div className=" pt-2">
-                  <h3 className="text-2xl font-bold text-gray-800 leading-tight">
+                  <h3 className="text-2xl font-bold  leading-tight">
                     Friendly Typography Shaping a<br />Calm, Child-Focused Identity
                   </h3>
                 </div>
@@ -77,11 +77,11 @@ const BrandIdentity = () => {
               {/* Body */}
               <div className="space-y-2">
                 <div className="flex justify-between items-center">
-                  <span className="text-sm font-semibold text-gray-700">Body</span>
-                  <span className="text-xs text-gray-500">Font Size: 12px | Line Height: 100%</span>
+                  <span className="text-sm font-semibold ">Body</span>
+                  <span className="text-xs ">Font Size: 12px | Line Height: 100%</span>
                 </div>
                 <div className=" pt-2">
-                  <p className="text-sm text-gray-600 leading-relaxed">
+                  <p className="text-sm  leading-relaxed">
                     We chose a clean, friendly type style to ensure a comfortable 
                     reading experience for both kids and parents. The consistent 
                     use of Manrope across all touch points, texts, and easy navigation, giving 

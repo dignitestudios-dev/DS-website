@@ -7,6 +7,7 @@ import { styles } from "../../styles/styles";
 import { GlobalContext } from "@/context/GlobalContext";
 import { casestudies } from "@/constants/casestudies";
 import ProjectCard from "./ProjectCard";
+import FlickCardStack from "./CaseStudiesCaraousel";
 
 const CaseStudiesSection = () => {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
@@ -44,10 +45,10 @@ const CaseStudiesSection = () => {
             borderBottom: `2px solid ${palette?.light_contrast_background}`,
           }}
         >
-          <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
+          <p className={`text-xl text-center font-bold text-[#8F8F8F] uppercase `}>
             recent
           </p>
-          <div className={`w-full px-0 flex justify-between items-center`}>
+          <div className={`w-full px-0 flex justify-center items-center`}>
             <h2
               className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold`}
             >
@@ -59,7 +60,7 @@ const CaseStudiesSection = () => {
           </div>
         </div>
 
-        <div
+        {/* <div
           className={`w-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  md:grid-rows-2 lg:grid-rows-2 pt-4 lg:pt-6 gap-6 md:gap-x-4 lg:gap-x-6 xl:gap-x-10 2xl:gap-x-16 gap-y-10 lg:gap-y-20 mt-10 lg:mt-24 `}
         >
           {casestudies.map((c, index) => {
@@ -79,7 +80,8 @@ const CaseStudiesSection = () => {
               />
             );
           })}
-        </div>
+        </div> */}
+        <FlickCardStack cards={casestudies} />
       </div>
     )
   );

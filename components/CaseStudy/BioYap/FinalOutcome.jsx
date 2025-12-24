@@ -85,7 +85,7 @@ const FinalOutcome = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-12 px-4 md:px-0"
+          className=" max-w-5xl mx-auto mb-12 px-4 md:px-0"
         >
          Bioyap became the complete platform that combined social interaction, the niche marketplace, and a community coin system. The mobile app development services also contributed to the creation of clear, engaging products for the pharmaceutical industry. The smooth flow of coins increased activity, as users purchased items and supported peers. The simple interface received strong feedback for its clarity and also trust in the focused layout. The marketplace became a safe space for buying and selling within the community. BioYap is now a substantial addition to our community-driven app portfolio, demonstrating that niche platforms can create value as well.
         </motion.p>
@@ -138,7 +138,7 @@ const FinalOutcome = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.3 + 0.9, duration: 0.4 }}
-                className={`absolute ${label.labelPosition} bg-white rounded-lg text-xs xl:text-sm font-semibold z-20 whitespace-nowrap px-2 py-1 xl:px-3 xl:py-1.5`}
+                className={`absolute ${label.labelPosition} bg-white dark:bg-transparent dark:text-white rounded-lg text-xs xl:text-sm font-semibold z-20 whitespace-nowrap px-2 py-1 xl:px-3 xl:py-1.5`}
               >
                 {label.text}
               </motion.div>
@@ -156,7 +156,7 @@ const FinalOutcome = () => {
         {final.map((frame, index) => (
           <div
             key={index}
-            className="transition-transform duration-300 mx-1 border-t rounded-3xl px-16 p-8 bg-gradient-to-t from-[#FBFFF6] to-[#F3FFE1] hover:scale-105 cursor-pointer"
+            className="transition-transform duration-300 mx-1 dark:border-[#C0F765] border-t rounded-3xl px-16 p-8 bg-gradient-to-t to-[#272924] from-[#C0F765] hover:scale-105 cursor-pointer"
           >
             <img
               src={frame}

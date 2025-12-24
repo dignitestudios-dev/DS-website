@@ -54,7 +54,7 @@ const Discorvery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-20"
+          className=" max-w-5xl mx-auto mb-20"
         >
           During the discovery phase we personalized the mobile app development
           services to align with real needs of users. This also helped us design
@@ -67,7 +67,7 @@ const Discorvery = () => {
             <div
               key={idx}
               style={{ backgroundColor: s.bg }}
-              className={`rounded-3xl text-start  h-[320px]  p-8 py-10 w-[370px]`}
+              className={`rounded-3xl text-start dark:text-black  h-[320px]  p-8 py-10 w-[370px]`}
             >
               <h1 className="font-semibold mb-4">{s.title}</h1>
               <ul className=" text-xs mb-2 space-y-3">

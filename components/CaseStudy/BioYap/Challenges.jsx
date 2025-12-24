@@ -43,7 +43,7 @@ const solutionPoints = [
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-12"
+          className=" max-w-5xl mx-auto mb-12"
         >
           The main challenge is to deliver the mobile app development services which created the safe, modern and reliable experience for pharmaceutical professionals while making sure that the platform remained simple, fluent and also trustworthy. To solve this, we also focused on the strong UI/UX design for the interactive mobile app interface which was supported by the insecure in app coin system making sure that every challenge was addressed through the fluent and dependable user flow.
         </motion.p>

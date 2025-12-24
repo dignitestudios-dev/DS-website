@@ -53,7 +53,7 @@ const ProblemSol = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl font-bold mb-4"
         >
-          Problems & <span className="text-[#000086]">Solutions</span>
+          Problems & <span className="dark:text-[#CEA3D8] text-[#000086]">Solutions</span>
         </motion.h2>
 
         <motion.p
@@ -61,7 +61,7 @@ const ProblemSol = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-20"
+          className=" max-w-5xl mx-auto mb-20"
         >
           Designing Harmonious Learning wasn’t a simple job, even though it looked easy. Designing something for kids isn’t very easy or simple. Building this app required the perfect balance between simplicity and empowering children. The main challenge was to build an application with two completely different journeys. 
         </motion.p>

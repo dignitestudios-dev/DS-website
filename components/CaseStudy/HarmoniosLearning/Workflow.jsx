@@ -121,7 +121,7 @@ const Workflow = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl font-bold mb-4"
         >
-          Workflow <span className="text-[#000086]">Overview</span>
+          Workflow <span className="dark:text-[#CEA3D8] text-[#000086]">Overview</span>
         </motion.h2>
 
         <motion.p
@@ -129,7 +129,7 @@ const Workflow = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-20"
+          className=" max-w-5xl mx-auto mb-20"
         >
           This application wasn’t built by following the usual step-by-step
           linear process we use for custom mobile apps. The whole application
@@ -155,7 +155,7 @@ const Workflow = () => {
                 className="flex flex-col items-center text-center w-[200px]"
               >
                 <div className="flex items-center relative justify-center py-4  gap-2 bg-white w-[170px] shadow-md border border-indigo-100 rounded-full">
-                  <span className="text-md font-semibold text-center  pr-12">
+                  <span className="text-md font-semibold text-black text-center  pr-12">
                     {step.title}
                   </span>
                   <div className="flex items-center absolute right-0 justify-center w-14 h-14 rounded-full bg-gradient-to-r from-[#000086] to-[#CEA3D8] text-white">
@@ -163,10 +163,10 @@ const Workflow = () => {
                   </div>
                 </div>
 
-                <div className="w-[3px] h-8 bg-gradient-to-t from-[#000086] to-white my-2 rounded-full" />
-                <div className="w-3 h-3 bg-[#000086] rounded-full mb-3" />
+                <div className="w-[3px] h-8 bg-gradient-to-t dark:from-[#CEA3D8] from-[#000086] to-white my-2 rounded-full" />
+                <div className="w-3 h-3 dark:bg-[#CEA3D8] bg-[#000086] rounded-full mb-3" />
 
-                <p className="text-sm text-gray-600 leading-snug">
+                <p className="text-sm  leading-snug">
                   {step.desc}
                 </p>
               </motion.div>

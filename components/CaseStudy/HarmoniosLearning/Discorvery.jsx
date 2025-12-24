@@ -33,7 +33,7 @@ const Discorvery = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl font-bold mb-4"
         >
-          Discovery & <span className="text-[#020287]">Overview</span>
+          Discovery & <span className=" dark:text-[#CEA3D8] text-[#020287]">Overview</span>
         </motion.h2>
 
         <motion.p
@@ -41,7 +41,7 @@ const Discorvery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-20"
+          className=" max-w-5xl mx-auto mb-20"
         >
           We didn’t just build everything on assumptions; we interviewed the
           parents who were concerned for their children’s safety and the kids
@@ -53,7 +53,7 @@ const Discorvery = () => {
         <div className="flex flex-wrap gap-3 font-semibold  justify-center items-center">
           {steps.map((s, idx) => (
             <div
-              className="rounded-[60px] relative transition-all ease-linear hover:scale-105 bg-gradient-to-b from-[#CEA3D8] to-white md:w-[23%] w-[90%]  "
+              className="rounded-[60px] text-black relative transition-all ease-linear hover:scale-105 bg-gradient-to-b from-[#CEA3D8] to-white md:w-[23%] w-[90%]  "
               key={idx}
             >
               <img src={`/hl${idx+1}.png`} width={300} height={300} className="absolute" />

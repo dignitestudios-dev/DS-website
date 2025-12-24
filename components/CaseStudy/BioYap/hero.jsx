@@ -12,7 +12,7 @@ const Hero = () => {
             <span className="text-[#C0F765]  ">A Social Marketplace App: </span> Built for Global <br/> Pharma Professionals
           </h1>
 
-          <p className="text-gray-600 text-sm md:text-lg mb-8 ">
+          <p className=" text-sm md:text-lg mb-8 ">
             BioYap is a platform specifically  for pharmaceutical experts. Our team at Dignite Studios delivered complete mobile app development services while building a mobile app case study digital space where users can share updates and stay informed through a trusted community feed. This app would allow users to post insights from industry discussions and follow global news in one place. BioYap also includes a coin-based marketplace where users can buy coins at simple rates, i.e, 100 coins for 20 dollars. You can use the coins to purchase several items and the supporting peers through donations . This approach brings social interaction, peer commerce, and community contributions for a fluent experience. The main goal was to help professionals and stay connected outside traditional office channels.  
           </p>
 

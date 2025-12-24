@@ -11,7 +11,7 @@ const steps = [
       "Involving friends in the process increases trust and reduces bad matches.",
       "No major app combines friend endorsements with match making support, leaving a clear market gap.",
     ],
-    bg: "bg-gradient-to-t from-[#F9FCFF] to-[#AEDDFF]",
+    bg: "bg-gradient-to-t dark:from-[#FFFFFF00] dark:to-[#5BAFEB] from-[#F9FCFF] to-[#AEDDFF]",
     shad:"/wing/d-shad.png"
   },
   {
@@ -22,7 +22,7 @@ const steps = [
       "Subscription-based models encourage commitment and reduce fake profiles.",
       "Simplicity is key: clean navigation, quick matching, and frictionless communication.",
     ],
-    bg: "bg-gradient-to-t from-[#F7F7F7] to-[#F9FCFF]",
+    bg: "bg-gradient-to-t dark:from-[#FFFFFF00] dark:to-[#5BAFEB] from-[#F7F7F7] to-[#F9FCFF]",
     shad:"/wing/r-shad.png"
   },
 ];
@@ -51,7 +51,7 @@ const Discorvery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl relative z-50 mx-auto mb-20"
+          className=" max-w-5xl relative z-50 mx-auto mb-20"
         >
       Before building Wing, we dove deep into user behavior across dating apps like Tinder, Bumble, and Hinge. The research showed a clear pain point: people struggle to trust profiles, unsure if intentions are real. Data also highlighted that involving friends in the matchmaking process boosts trust and reduces bad matches, something no major app was doing. We learned users want transparency: clear profiles, shared interests, and social proof, all backed by social psychology insights. Subscription-based models emerged as a must-have, encouraging commitment while keeping spam and fake accounts at bay. Simplicity was key to clean navigation, fast matching, and frictionless communication.
         </motion.p>
@@ -61,10 +61,10 @@ const Discorvery = () => {
             <div
               key={idx}
               // style={{ backgroundColor: s.bg }}
-              className={`rounded-[57px] text-start relative h-[350px]  p-8 py-10 w-full md:w-[520px] ${s.bg} ${idx == 1 && "shadow-xl shadow-blue-50"}`}
+              className={`rounded-[57px] text-start relative h-[350px]  p-8 py-10 w-full md:w-[520px] ${s.bg} ${idx == 1 && "dark:shadow-none shadow-xl shadow-blue-50"}`}
             >
-              <img src={s.shad} className="absolute top-0 right-0" />
-              <h1 className="font-semibold mb-4 text-xl text-[#0095FF]">{s.title}</h1>
+              <img src={s.shad} className="absolute top-0 right-0 rounded-tr-[57px]" />
+              <h1 className="font-semibold mb-4 text-xl dark:text-white text-[#0095FF]">{s.title}</h1>
               <p className="text-sm mb-5">{s.p}</p>
               <ul className=" text-sm mb-2 space-y-3">
                 {s.steps.map((st, indx) => (

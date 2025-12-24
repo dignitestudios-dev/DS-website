@@ -241,7 +241,7 @@ const Workflow = () => {
                     {isTop ? (
                       <>
                         {/* TOP card: paragraph first, heading second */}
-                        <div className="text-[#0C0C0C] relative z-50 text-sm leading-relaxed mb-2">
+                        <div className=" relative z-50 text-sm leading-relaxed mb-2">
                           {s.text}
                         </div>
                         <div className="font-bold relative z-50 rounded-bl-none bg-[#5BAFEB] text-white p-3 rounded-full w-fit px-6 text-base">
@@ -255,7 +255,7 @@ const Workflow = () => {
                         <div className="font-bold -mt-6 rounded-tr-none bg-[#5BAFEB] text-white p-3 rounded-full w-fit px-6 text-base">
                           {s.title}
                         </div>
-                        <div className="text-[#0C0C0C] mt-2 text-sm leading-relaxed">
+                        <div className=" mt-2 text-sm leading-relaxed">
                           {s.text}
                         </div>
                       </>
@@ -313,7 +313,7 @@ const Workflow = () => {
                   <div className="inline-block bg-[#5BAFEB] text-white px-4 py-2 rounded-full font-bold text-sm mb-3">
                     {step.title}
                   </div>
-                  <p className="text-[#0C0C0C] text-sm leading-relaxed">
+                  <p className=" text-sm leading-relaxed">
                     {step.text}
                   </p>
                 </div>

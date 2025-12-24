@@ -7,12 +7,12 @@ const Hero = () => {
       <div className="w-full gap-5 mt-14 flex flex-col items-center ">
         <img src="/icon.png" alt="icon" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
-          <h1 className="text-[24px] md:text-[48px] text-wrap  font-bold  mb-6">
-            <span className="text-[#000086]  ">Harmonious Learning:</span> A
+          <h1 className="text-[24px]  md:text-[48px] text-wrap  font-bold  mb-6">
+            <span className="dark:text-[#CEA3D8] text-[#000086]  ">Harmonious Learning:</span> A
             Calm, Creative Audio <br/> World For Kids
           </h1>
 
-          <p className="text-gray-600 text-sm md:text-lg mb-8 ">
+          <p className="text-sm md:text-lg mb-8 ">
             When the world is full of chaotic, overstimulated applications that
             lack parental control and are actually impacting children’s mental
             health, we built an application that considered all these factors

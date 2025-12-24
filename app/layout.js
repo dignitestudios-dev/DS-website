@@ -6,10 +6,13 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import DisplayIp from "@/components/global/DisplayIp";
+// import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
+
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>

@@ -11,7 +11,7 @@ const Hero = () => {
             <span className="text-[#5BAFEB]  ">Wing:</span> Redefining Dating Through <br/>Friend-Powered Matchmaking
           </h1>
 
-          <p className="text-gray-600 text-sm md:text-lg mb-8 ">
+          <p className=" text-sm md:text-lg mb-8 ">
             Wing is basically the dating app for people who are tired of the same old swipe chaos. We were glad to offer our mobile app development services when the client came to us with the idea of Wing. We made sure to do our research. So, instead of building just another traditional dating app, we introduced a friend-assisted matchmaking system. The friend-assisted matchmaking system lets your friends hype you up and match you with people they think actually fit.The app runs on a mandatory subscription model, which keeps the vibe clean, high-intent users, minimal spam, and way fewer “what am I even doing here?” profilesYou still get all the cool features like smart search, solid matching, friend endorsements, and real-time chat that feels natural. Plus, there’s a complete admin panel behind the scenes for moderation, analytics, user controls, and managing subscriptions. Basically, it’s dating but with actual trust built in. 
           </p>
 
