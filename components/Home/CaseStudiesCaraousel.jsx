@@ -6,12 +6,12 @@ import { useRef, useState } from "react";
 import { FaArrowCircleRight } from "react-icons/fa";
 
 const cards = [
-  { id: 1, title:"Harmonious learning", color:"#000086", link:"/case-studies/harmonious-learning", image: "/images/01.png" },
-  { id: 2, title:"BioYap", color:"#C0F765", link:"/case-studies/bioyap", image: "/images/02.png" },
-  { id: 3, title:"Wing", color:"#5BAFEB", link:"/case-studies/wing", image: "/images/03.png" },
-  { id: 4, title:"Home Hero", color:"#62466B", link:"/case-studies/home-hero", image: "/images/04.png" },
-  { id: 5, title:"Crew Roomz", color:"#36C0EF", link:"/case-studies/crew-roomz", image: "/images/05.png" },
-  { id: 6, title:"Games4Fun", color:"#440354", link:"/case-studies/games-4-fun", image: "/images/06.png" },
+  { id: 1, title:"Harmonious learning", color:"#000086", link:"/case-studies/harmonious-learning", image: "/images/01.webp" },
+  { id: 2, title:"BioYap", color:"#C0F765", link:"/case-studies/bioyap", image: "/images/02.webp" },
+  { id: 3, title:"Wing", color:"#5BAFEB", link:"/case-studies/wing", image: "/images/03.webp" },
+  { id: 4, title:"Home Hero", color:"#62466B", link:"/case-studies/home-hero", image: "/images/04.webp" },
+  { id: 5, title:"Crew Roomz", color:"#36C0EF", link:"/case-studies/crew-roomz", image: "/images/05.webp" },
+  { id: 6, title:"Games4Fun", color:"#440354", link:"/case-studies/games-4-fun", image: "/images/06.webp" },
   // { id: 7, image: "/images/07.png" },
 ];
 
