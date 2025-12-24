@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import React from "react";
 
 const CTA = () => {
@@ -19,9 +20,9 @@ const CTA = () => {
             Let our team give you a clean smooth market ready product according
             to your idea. 
           </p>
-          <button className="px-8 py-3 text-sm rounded-full border transition-all ease-linear hover:bg-black hover:text-white capitalize border-black">
+          <Link href={"/contact-us"} className="px-8 py-3 text-sm rounded-full border transition-all ease-linear hover:bg-black hover:text-white capitalize border-black">
             Reach out today
-          </button>
+          </Link>
         </div>
 
         <div className="md:block hidden">

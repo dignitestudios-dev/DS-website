@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import React from "react";
 
 const CTA = () => {
@@ -19,13 +20,13 @@ const CTA = () => {
           <p className=" text-lg">
              Our team builds scalable and user focused mobile app development services that help your product grow.
           </p>
-          <button className="px-8 py-5  flex items-center gap-3 rounded-full border transition-all ease-linear text-white capitalize bg-gradient-to-r from-[#C28BD3] to-[#64486D]">
+          <Link href={"/contact-us"} className="px-8 py-5   flex items-center gap-3 rounded-full border transition-all ease-linear text-white capitalize bg-gradient-to-r from-[#C28BD3] to-[#64486D]">
             Let us build it with you 
             <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.700195 4.4543C0.313596 4.4543 0.000195358 4.7677 0.000195324 5.1543C0.000195291 5.5409 0.313596 5.8543 0.700195 5.8543L0.700195 5.1543L0.700195 4.4543ZM17.1952 5.64927C17.4685 5.37591 17.4685 4.93269 17.1952 4.65932L12.7404 0.20455C12.467 -0.0688166 12.0238 -0.0688166 11.7504 0.20455C11.4771 0.477918 11.4771 0.921133 11.7504 1.1945L15.7102 5.1543L11.7504 9.1141C11.4771 9.38746 11.4771 9.83068 11.7504 10.104C12.0238 10.3774 12.467 10.3774 12.7404 10.104L17.1952 5.64927ZM0.700195 5.1543L0.700195 5.8543L16.7002 5.8543L16.7002 5.1543L16.7002 4.4543L0.700195 4.4543L0.700195 5.1543Z" fill="white"/>
 </svg>
 
-          </button>
+          </Link>
         </div>
 
         <div className="md:block hidden">
