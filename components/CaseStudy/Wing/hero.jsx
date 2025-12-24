@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 ">
@@ -16,16 +17,20 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center gap-4">
+            <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.wingapp&pli=1"} target="_blank">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
               alt="Google Play"
               className="h-12 cursor-pointer"
             />
+            </Link>
+            <Link href={"https://apps.apple.com/us/app/wingx-date-with-references/id6748954835"} target="_blank" >
             <img
               src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
               alt="App Store"
               className="h-12 cursor-pointer"
             />
+            </Link>
           </div>
         </div>
    <div className="flex md:mb-8 mt-28 md:mt-0 justify-center relative">

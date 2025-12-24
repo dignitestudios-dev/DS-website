@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Milestone from "./icons/Milestone";
 import Sector from "./icons/Sector";
 import Did from "./icons/Did";
+import Link from "next/link";
+import { IoGlobeOutline } from "react-icons/io5";
 const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
@@ -22,8 +24,8 @@ const Hero = () => {
         Games4fun is a web app for gaming fans. It helps them build and buy a custom gaming PC easily. Users of the platform are quite able to select their own parts or can use the guided AI PC builder. It also suggests the best PC build based on the games or the needs of the performance. Moreover, gamers can use the FPS Calculator to estimate how many frames per second their system can produce, it increases the reliability of their purchase decision. Additionally, the platform has an admin interface through managing users, items and PC build suggestions. This web-based solution provides a simple interface that reduces technical barriers while offering gamers complete control over their custom builds. Games4fun is a powerful example of Web Application Development Services that combine clarity, usability, and performance.  
           </p>
 
-          <div className="flex items-center gap-4">
-            <img
+          <div className="flex items-center relative z-50 gap-4">
+            {/* <img
               src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
               alt="Google Play"
               className="h-12 cursor-pointer"
@@ -32,8 +34,11 @@ const Hero = () => {
               src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
               alt="App Store"
               className="h-12 cursor-pointer"
-            />
-          </div>
+            /> */}
+            <Link href={"https://game4funpcs.com"} target="_blank" >
+            {/* <img src="/website_btn.png" alt="web link"   className="h-12 cursor-pointer"  /> */}
+            <button className="text-white flex items-center bg-black px-6 text-xl py-2 rounded-lg gap-2" > <IoGlobeOutline /> Website </button>
+          </Link></div>
         </div>
             <div className="flex  w-screen max-h-[1000px] h-full justify-center relative">
                   {/* <div className="absolute top-[20%] text-[60px] md:text-[180px] font-bold text-gray-200 opacity-80 select-none blur-sm">

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
@@ -16,17 +17,21 @@ const Hero = () => {
             BioYap is a platform specifically  for pharmaceutical experts. Our team at Dignite Studios delivered complete mobile app development services while building a mobile app case study digital space where users can share updates and stay informed through a trusted community feed. This app would allow users to post insights from industry discussions and follow global news in one place. BioYap also includes a coin-based marketplace where users can buy coins at simple rates, i.e, 100 coins for 20 dollars. You can use the coins to purchase several items and the supporting peers through donations . This approach brings social interaction, peer commerce, and community contributions for a fluent experience. The main goal was to help professionals and stay connected outside traditional office channels.  
           </p>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center relative z-50 gap-4">
+            <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.bioyapp"} target="_blank" >
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
               alt="Google Play"
               className="h-12 cursor-pointer"
             />
+            </Link>
+            <Link href={"https://apps.apple.com/us/app/bioyap/id6739360373"} target="_blank" >
             <img
               src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
               alt="App Store"
               className="h-12 cursor-pointer"
             />
+            </Link>
           </div>
         </div>
         <div className="flex mb-8 justify-center relative">

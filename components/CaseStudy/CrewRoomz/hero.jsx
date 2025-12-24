@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Milestone from "./icons/Milestone";
 import Sector from "./icons/Sector";
 import Did from "./icons/Did";
+import Link from "next/link";
+import { IoGlobeOutline } from "react-icons/io5";
 const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
@@ -22,8 +24,8 @@ const Hero = () => {
          With CrewRoomz, crew members can book anything from private rooms to multi-sharing spaces, and property owners can list their spaces after admin approval. We made sure to provide the web-based solutions that worked well for the client. So, at the end of the day, our Web App Development approach made CrewRoomz a trusted, safe, and community-driven platform for frequent travelers. 
           </p>
 
-          <div className="flex items-center gap-4">
-            <img
+          <div className="flex items-center relative z-50 gap-4">
+            {/* <img
               src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
               alt="Google Play"
               className="h-12 cursor-pointer"
@@ -32,7 +34,11 @@ const Hero = () => {
               src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
               alt="App Store"
               className="h-12 cursor-pointer"
-            />
+            /> */}
+              <Link href={"https://crew-roomz-lister-web.vercel.app/"} target="_blank" >
+                         <button className="text-white flex items-center bg-black px-6 text-xl py-2 rounded-lg gap-2" > <IoGlobeOutline /> Website </button>
+                      </Link>
+
           </div>
         </div>
         <div className="hidden md:flex  justify-center relative  -my-40 ">
