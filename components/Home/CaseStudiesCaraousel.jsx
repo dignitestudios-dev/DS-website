@@ -55,7 +55,7 @@ export default function FlickCardStack() {
             style={{ zIndex: transforms.zIndex }}
           >
             <motion.div className="relative h-[250px] w-[300px] md:h-[450px] md:w-[720px]  rounded-lg bg-neutral-200 shadow-xl">
-              <div className={`absolute duration-300 delay-200 bg-[#F15C20] z-40 ${offset == 0 ? "md:h-[510px] h-[300px] w-[320px] -top-2 md:w-[735px]" : " h-[250px] w-[300px] md:h-[450px] md:w-[720px] top-0"}   left-1/2 translate-x-[-50%] rounded-lg transition-all ease-out`}>
+              <div className={`absolute duration-100 delay-200 bg-[#F15C20] z-40 ${offset == 0 ? "md:h-[510px] h-[300px] w-[320px] -top-2 md:w-[735px]" : " h-[250px] w-[300px] md:h-[450px] md:w-[720px] top-0"}   left-1/2 translate-x-[-50%] rounded-lg transition-all ease-out`}>
               <div className="flex relative z-[9999] justify-between items-end h-full px-3 md:px-8 pb-3" >
                 <h2 className={`text-white uppercase ${offset == 0 ? "text-sm md:text-lg pt-6" : "text-2xl pt-4"}  text-center transition-all ease-linear`}>{card.title}</h2>
 <Link href={card.link} className="flex items-center gap-2" >
@@ -72,7 +72,8 @@ export default function FlickCardStack() {
                 }}
                 transition={
                   offset === 0
-                    ? { duration: 40, ease: "linear" }
+                    ? { duration: 40, ease: "linear", repeat: Infinity,    
+          repeatType: "loop", }
                     : { duration: 0 }
                 }
                 style={{
