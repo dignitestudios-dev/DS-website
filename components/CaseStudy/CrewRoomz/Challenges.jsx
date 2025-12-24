@@ -33,7 +33,7 @@ const Challenges = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="mt-6 text-gray-600 max-w-5xl mx-auto"
+          className="mt-6  max-w-5xl mx-auto"
         >
           There were multiple challenges when the developers started building
           CrewRoomz. These included trust, verification, usability, and content

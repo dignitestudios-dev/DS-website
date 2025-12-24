@@ -34,7 +34,7 @@ const TechStack = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-[40px] font-bold mb-6">
-            Tech <span className="text-[#64486D]">Stack</span>
+            Tech <span className="dark:text-[#D9BBF9] text-[#64486D]">Stack</span>
           </h2>
           <p className=" max-w-5xl relative z-50 mx-auto leading-relaxed text-base">
            <>

@@ -37,13 +37,13 @@ const Process = () => {
         className={`px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  flex flex-col items-center justify-start`}
       >
         <div
-          className={`w-full px-0 flex flex-col justify-between items-start`}
+          className={`w-full px-0 flex flex-col justify-between items-center`}
         >
           <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
             6 step {currentTab}
           </p>
           <h2
-            className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold`}
+            className={`lg:font-bold text-center uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold`}
           >
             mobile app development <br /> process
           </h2>

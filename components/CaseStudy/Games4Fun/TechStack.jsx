@@ -35,7 +35,7 @@ const TechStack = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Tech <span className="text-[#C100FF]">Stack</span>
           </h2>
-          <p className="text-gray-700 max-w-5xl mx-auto leading-relaxed text-base">
+          <p className=" max-w-5xl mx-auto leading-relaxed text-base">
       Games4Fun is built with scalable technologies optimized for web app development: The stack supports cross-platform web app development, smooth performance, and reliable AI-powered recommendations to deliver a fluent Web Application Development Services Experience. 
           </p>
         </motion.div>

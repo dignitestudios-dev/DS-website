@@ -46,7 +46,7 @@ const Wireframe = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600  max-w-5xl mx-auto mb-16 px-4 md:px-0"
+          className="  max-w-5xl mx-auto mb-16 px-4 md:px-0"
         >
       When you use CrewRoomz, everything is designed to get you moving quickly and effortlessly. Our low-fidelity wireframes mapped how you search and filter, book stays, explore property details, and even manage listings or admin reviews. By sketching it all out first, our team at a top Web App Development Company ensured the platform’s structure is solid, intuitive, and user-friendly. These wireframes are a key step in building smart, efficient web-based solutions just for you.
         </motion.p>

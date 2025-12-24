@@ -45,7 +45,7 @@ const Wireframe = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600  max-w-5xl mx-auto mb-16 px-4 md:px-0"
+          className="  max-w-5xl mx-auto mb-16 px-4 md:px-0"
         >
           Wireframes create the platform's structure for fluent usability. The key elements included: Homepage highlighting the AI Builder Step-by-Step AI PC Builder flow FPS calculator input/output screens Component selection and filtering The product detail pages Admin Panel interface for the product and game management Wireframes validate navigation and ensure clarity before moving into full-scale web app development. It helps us maintain an intuitive cross-platform web app development experience. 
         </motion.p>

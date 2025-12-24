@@ -38,10 +38,10 @@ const AreaOfExpertise = () => {
   return (
     <section className="w-full relative overflow-hidden px-4 md:px-12 lg:px-32 xl:px-[120px] 2xl:px-48 py-10">
       <div className="w-full relative overflow-hidden">
-        <div className="flex flex-col gap-2">
-          <h2 className="lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold">
+        <div className="flex flex-col items-center gap-2">
+          <h2 className="lg:font-bold flex flex-col items-center text-center uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold">
             <div className="mb-4">
-              <span className="text-[#F15C20] text-xl font-semibold uppercase tracking-normal">
+              <span className="text-[#F15C20] text-center text-xl font-semibold uppercase tracking-normal">
                 specialized
               </span>
               <img src="/lines3.png" className="w-[122px]" alt="lines3" />

@@ -4,17 +4,17 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <div className="bg-gradient-to-b  from-[#CEA3D8] to-[#F1F8FD] relative overflow-hidden">
+    <div className="bg-gradient-to-b  dark:from-transparent dark:to-transparent from-[#CEA3D8] to-[#F1F8FD] relative overflow-hidden">
       
            <img
         src="/home-hero/cta-shad.png"
         alt="hero"
-        className="absolute -bottom-8 w-screen bg-gradient-to-t from-[#ebeaf7] via-[#ebeaf7] to-transparent z-10"
+        className="absolute bottom-14 w-screen dark:bg-transparent bg-gradient-to-t dark:from-[#CEA3D8] from-[#ebeaf7] via-[#ebeaf7] to-transparent z-10"
       />
       <div className="max-w-screen-2xl w-[80%]  pt-16 md:pb-0 pb-16 mx-auto flex justify-between">
-        <div className="flex flex-col gap-4 items-start relative z-50 justify-center w-full  md:w-[50%]">
+        <div className="flex flex-col gap-4 md:pb-28 pb-0  items-start relative z-50 justify-center w-full  md:w-[50%]">
           <h1 className="text-2xl font-bold md:text-4xl capitalize">
-           Planning to launch a <span className="text-[#64486D]">digital marketplace </span> or  <span className="text-[#64486D]">service platform?</span>
+           Planning to launch a <span className="dark:text-white text-[#64486D]">digital marketplace </span> or  <span className="dark:text-white text-[#64486D]">service platform?</span>
           </h1>
           <p className=" text-lg">
              Our team builds scalable and user focused mobile app development services that help your product grow.

@@ -53,12 +53,12 @@ const Testimonials = () => {
       className={`w-full py-14 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  `}
     >
       <div className={``}>
-        <p className={`text-xl font-bold text-[#8F8F8F] uppercase `}>
+        <p className={`text-xl text-center font-bold text-[#8F8F8F] uppercase `}>
           Testimonials
         </p>
 
         <h2
-          className={`lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter`}
+          className={`lg:font-bold text-center uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter`}
         >
           our clients
         </h2>

@@ -8,7 +8,7 @@ const CTA = () => {
       <div className="max-w-screen-2xl w-[90%] md:w-[50%]  mx-auto flex justify-between">
         <div className="flex flex-col gap-4 items-center text-center relative z-50 justify-center w-full ">
           <h1 className="text-2xl md:text-6xl  font-semibold capitalize">
-           Have a similar vision of building an app?nce? 
+           Have a similar vision of building an app? 
           </h1>
           <p className=" text-lg md:text-xl">
             Discuss your idea with our team of experts and we will help you turn founder ideas into intuitive, secure, and scalable digital products.

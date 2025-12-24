@@ -11,12 +11,12 @@ const Hero = () => {
       <div className="w-full gap-5 mt-14 flex flex-col items-center ">
         <img src="/crew/icon.png" alt="icon" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
-          <h1 className="text-[24px] text-[#1F222E] capitalize md:leading-[60px] md:text-[48px] text-wrap  font-bold  mb-6">
+          <h1 className="text-[24px]  capitalize md:leading-[60px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="text-[#36C0EF]  ">CrewRoomz </span>
             Building a Trusted Global Stay  for Cabin Crews
           </h1>
 
-          <p className="text-[#0C0C0C] text-sm md:text-base  mb-8 ">
+          <p className=" text-sm md:text-base  mb-8 ">
           CrewRoomz is built for cabin crew members who are always on the move and need a reliable place to rest. When the client came to Dignite Studios with the idea, we were really excited to offer our web application development services to create a custom web application that makes a difference in the world.  
             <br />
          With CrewRoomz, crew members can book anything from private rooms to multi-sharing spaces, and property owners can list their spaces after admin approval. We made sure to provide the web-based solutions that worked well for the client. So, at the end of the day, our Web App Development approach made CrewRoomz a trusted, safe, and community-driven platform for frequent travelers. 

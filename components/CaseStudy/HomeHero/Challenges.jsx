@@ -496,7 +496,7 @@ const Challenges = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-[40px] font-bold mb-4 text-center"
         >
-          Challenges And <span className="text-[#64486D]">Solutions</span>
+          Challenges And <span className="dark:text-[#D9BBF9] text-[#64486D]">Solutions</span>
         </motion.h2>
 
         <motion.p
@@ -504,7 +504,7 @@ const Challenges = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-[#000000] max-w-5xl mx-auto mb-24 text-center"
+          className=" max-w-5xl mx-auto mb-24 text-center"
         >
           Creating the Home Hero as a two-sided marketplace involved practical
           challenges. Each problem was carefully solved with secure, scalable,
@@ -575,7 +575,7 @@ const Challenges = () => {
                     {point.icon}
                   </div>
                   <div className="">
-                    <h4 className="font-bold text-sm mb-1">{point.title}</h4>
+                    <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
                     <p className="text-xs text-[#000000]">{point.desc}</p>
                   </div>
                 </motion.div>
@@ -593,7 +593,7 @@ const Challenges = () => {
                   className="flex items-center bg-white/70 relative h-[110px] mr-10 z-50 rounded-2xl p-4  gap-3 w-[400px] flex-row-reverse text-right"
                 >
                   <div className="text-start">
-                    <h4 className="font-bold text-sm mb-1">{point.title}</h4>
+                    <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
                     <p className="text-xs text-[#000000]">{point.desc}</p>
                   </div>
                   <div className="w-10 h-10 rounded-full bg-red-500 text-white font-bold flex items-center justify-center ">
@@ -618,7 +618,7 @@ const Challenges = () => {
                     {point.icon}
                   </div>
                   <div className="">
-                    <h4 className="font-bold text-sm mb-1">{point.title}</h4>
+                    <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
                     <p className="text-xs text-[#000000]">{point.desc}</p>
                   </div>
                 </motion.div>
@@ -669,7 +669,7 @@ const Challenges = () => {
                     {point.icon}
                   </div>
                   <div className="">
-                    <h4 className="font-bold text-sm mb-1">{point.title}</h4>
+                    <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
                     <p className="text-xs text-[#000000]">{point.desc}</p>
                   </div>
                 </motion.div>
@@ -707,7 +707,7 @@ const Challenges = () => {
                     {point.icon}
                   </div>
                   <div className="">
-                    <h4 className="font-bold text-sm mb-1">{point.title}</h4>
+                    <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
                     <p className="text-xs text-[#000000]">{point.desc}</p>
                   </div>
                 </motion.div>
@@ -725,7 +725,7 @@ const Challenges = () => {
                   className="flex items-center rounded-2xl p-4 h-[110px] relative z-50 mr-10  bg-white/70  gap-3 w-[400px] flex-row-reverse text-right"
                 >
                   <div className=" text-start">
-                    <h4 className="font-bold text-sm mb-1">{point.title}</h4>
+                    <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
                     <p className="text-xs text-[#000000]">{point.desc}</p>
                   </div>
                   <div className="w-10 h-10 rounded-full bg-green-500 text-white font-bold flex items-center justify-center ">

@@ -1,8 +1,9 @@
 "use client";
 
-import React from "react";
+import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { GlobalContext } from "@/context/GlobalContext";
 
 const steps = [
   {
@@ -55,6 +56,7 @@ const lineVariant = {
 };
 
 const Workflow = () => {
+  const { palette, theme } = useContext(GlobalContext);
   return (
     <section className="w-full py-20 relative overflow-hidden">
       {/* Background */}
@@ -81,7 +83,7 @@ const Workflow = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-[#0C0C0C] text-center max-w-5xl mx-auto mb-24"
+          className=" text-center max-w-5xl mx-auto mb-24"
         >
           Our approach to PWA Development Services for Games4Fun followed the structured agile workflow. 
        
@@ -112,7 +114,7 @@ const Workflow = () => {
 
       {/* Animated Line */}
       <motion.svg
-        className="absolute left-0 origin-top"
+        className="absolute  left-0 origin-top"
         width="2"
         height="275"
         viewBox="0 0 2 275"
@@ -127,20 +129,22 @@ const Workflow = () => {
           ease: "easeOut",
         }}
       >
-        <line
-          opacity="0.5"
-          x1="0.75"
-          y1="0"
-          x2="0.75"
-          y2="275"
-          stroke="#1F222E"
-          strokeWidth="1.5"
-          strokeDasharray="20 20"
-        />
+     <line
+  opacity="0.5"
+  x1="0.75"
+  y1="0"
+  x2="0.75"
+  y2="275"
+  stroke={theme == "dark" ? "#FFFFFF" : "#000000"}
+  strokeWidth="1.5"
+  strokeDasharray="20 20"
+/>
+
+
       </motion.svg>
 
       {/* Content */}
-      <h1 className="text-[#48035A] font-medium mb-4 h-[25px]">{step.title}</h1>
+      <h1 className=" dark:text-[#C100FF] text-[#48035A] font-medium mb-4 h-[25px]">{step.title}</h1>
       <p className="text-sm h-[150px]">{step.text}</p>
     </motion.div>
   ))}

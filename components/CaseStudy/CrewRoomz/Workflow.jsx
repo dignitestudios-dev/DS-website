@@ -88,7 +88,7 @@ const Workflow = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-[#0C0C0C] text-center max-w-5xl mx-auto mb-24"
+          className=" text-center max-w-5xl mx-auto mb-24"
         >
           While building CrewRoomz, we ran into challenges like time zones and
           travel-based data changes. With our Web Application Development
@@ -148,7 +148,7 @@ const Workflow = () => {
                 {/* Card */}
                 <div className="bg-gradient-to-r border-l-[6px] border-blue-400 from-[#36C0EF]/30 to-transparent rounded-xl px-6 py-4">
                   <h3 className="text-[#36C0EF] font-medium">{step.title}</h3>
-                  <p className="text-sm text-[#0C0C0C]">{step.text}</p>
+                  <p className="text-sm ">{step.text}</p>
                 </div>
               </motion.div>
             ))}

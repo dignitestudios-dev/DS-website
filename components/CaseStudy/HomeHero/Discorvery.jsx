@@ -70,7 +70,7 @@ const Discorvery = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-[40px] font-bold mb-4"
         >
-          Discovery & <span className="text-[#64486D]">Research</span>
+          Discovery & <span className="dark:text-[#D9BBF9] text-[#64486D]">Research</span>
         </motion.h2>
 
         <motion.p
@@ -78,7 +78,7 @@ const Discorvery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-[#0C0C0C] max-w-5xl mx-auto mb-20"
+          className=" max-w-5xl mx-auto mb-20"
         >
           Our team conducted a deep study to identify gaps in home service
           marketplaces. Insights guided the design of Home Hero and shaped our
@@ -98,14 +98,14 @@ const Discorvery = () => {
               <motion.div
                 key={idx}
                 variants={cardVariant(idx)}
-                className="bg-white w-[180px] flex flex-col justify-center rounded-[35px] relative p-2 "
+                className="dark:bg-gradient-to-b from-white to-[#8d8b8e] bg-white w-[180px] flex dark:text-black flex-col justify-center rounded-[35px] relative p-2 "
               >
                 <div className="bg-[#64486D] text-2xl text-white absolute left-1/2 -translate-x-1/2 h-14 w-14 flex items-center justify-center -top-5 rounded-full">
                   0{idx + 1}
                 </div>
 
                 <div className="pt-8 text-center h-36 ">
-                  <h1 className="text-sm h-8 flex mb-3 items-start justify-center">{s.title}</h1>
+                  <h1 className="text-sm h-8 flex mb-3 dark:text-black items-start justify-center">{s.title}</h1>
                   <p className="text-[13px] font-light">{s.desc}</p>
                 </div>
               </motion.div>

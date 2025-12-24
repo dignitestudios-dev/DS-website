@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const CTA = () => {
   return (
-    <div className="bg-gradient-to-b from-[#86C4F0] md:pb-0 pb-8 pt-8 to-[#F1F8FD] relative overflow-hidden">
+    <div className="bg-gradient-to-b dark:from-[#22232400] dark:to:[#86C4F0] from-[#86C4F0] md:pb-0 pb-8 pt-8 to-[#F1F8FD] relative overflow-hidden">
       <div className="max-w-screen-2xl w-[75%]   mx-auto flex justify-between">
 
         <div className="md:block hidden">

@@ -23,7 +23,7 @@ const FinalOutcome = () => {
         <h2 className="text-4xl font-bold mb-4">
           Final  <span className="text-[#C100FF]">Outcomes</span>
         </h2>
-        <p className="leading-relaxed text-gray-700">
+        <p className="leading-relaxed ">
          The Games4fun platform delivers a smart, AI-powered PC-building experience through accurate FPS estimates that help users understand expected performance. It provides clear component compatibility validation and a user-friendly shopping and selection process, making building a custom PC easy to get excited about. The admin panel makes it easy to manage products, users, and game data. It is combined with a polished, refined identity focused on the gamers, the Games4fun offers a fluent, engaging, and reliable Web Application Development Services experience. Gamers can confidently create PCs tailored to their games, budgets, and performance goals without any technical issues. 
         </p>
       </div>

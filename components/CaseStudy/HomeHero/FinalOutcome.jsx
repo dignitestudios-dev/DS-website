@@ -81,7 +81,7 @@ const FinalOutcome = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-[40px] font-bold mb-4"
         >
-          Final <span className="text-[#64486D]">Outcome</span>
+          Final <span className="dark:text-[#D9BBF9] text-[#64486D]">Outcome</span>
         </motion.h2>
 
         <motion.p

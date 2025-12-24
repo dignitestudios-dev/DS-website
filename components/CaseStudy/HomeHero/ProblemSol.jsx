@@ -61,7 +61,7 @@ const ProblemSol = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-20"
+          className=" max-w-5xl mx-auto mb-20"
         >
           Designing Harmonious Learning wasn’t a simple job, even though it looked easy. Designing something for kids isn’t very easy or simple. Building this app required the perfect balance between simplicity and empowering children. The main challenge was to build an application with two completely different journeys. 
         </motion.p>

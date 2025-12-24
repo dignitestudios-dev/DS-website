@@ -92,7 +92,7 @@ const Workflow = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-[40px] font-bold mb-4"
         >
-          Workflow <span className="text-[#64486D]">Overview</span>
+          Workflow <span className="dark:text-[#D9BBF9] text-[#64486D]">Overview</span>
         </motion.h2>
 
         <motion.p
@@ -100,7 +100,7 @@ const Workflow = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-[#0C0C0C] max-w-5xl mx-auto mb-24"
+          className=" max-w-5xl mx-auto mb-24"
         >
           Our{" "}
           <Link

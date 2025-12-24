@@ -11,7 +11,7 @@ const IndustriesSection = () => {
     >
       <div>
         <h2
-          className={` uppercase font-extrabold lg:text-start text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter lg:font-bold `}
+          className={` uppercase font-extrabold lg:text-center text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter lg:font-bold `}
         >
           industries
         </h2>

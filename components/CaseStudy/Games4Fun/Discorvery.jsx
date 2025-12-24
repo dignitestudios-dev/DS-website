@@ -47,7 +47,7 @@ const Discovery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-700 text-sm md:text-base max-w-4xl mx-auto mb-20 leading-relaxed"
+          className=" text-sm md:text-base max-w-4xl mx-auto mb-20 leading-relaxed"
         >
           A focused research process that helped shape a clear and simple direction for the custom web application.
         </motion.p>
@@ -67,12 +67,12 @@ const Discovery = () => {
         key={idx}
         className={`
           absolute transition-all duration-500 ease-out
-          w-[250px]  pb-4 rounded-2xl bg-white
+          w-[250px]  pb-4 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 bg-white
           ${positionStyles[idx]}
         `}
       >
         {/* Gradient bar */}
-        <div className="absolute top-0 w-full h-2 rounded-t-2xl bg-gradient-to-r from-[#C100FF] to-[#FFBE96]" />
+        <div className="absolute top-0 w-full h-3 rounded-t-2xl bg-gradient-to-r from-[#C100FF] to-[#FFBE96]" />
 
         {/* Image */}
         <img
@@ -104,7 +104,7 @@ const Discovery = () => {
         key={idx}
         className={`
            transition-all flex flex-col items-center duration-500 ease-out
-          w-full h-[300px]  pb-4 rounded-2xl bg-white
+          w-full h-[300px]  pb-4 rounded-2xl bg-white/10 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10
           
         `}
       >

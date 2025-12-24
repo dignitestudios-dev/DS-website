@@ -358,7 +358,7 @@ const Discovery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-700 text-sm md:text-base max-w-4xl mx-auto mb-20 leading-relaxed"
+          className=" text-sm md:text-base max-w-4xl mx-auto mb-20 leading-relaxed"
         >
           Before building CrowdRoots, we kicked off a deep Research & Discovery
           phase to understand how cabin-crew members actually live, travel, and

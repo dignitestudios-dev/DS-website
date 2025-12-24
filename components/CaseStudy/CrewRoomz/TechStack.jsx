@@ -35,7 +35,7 @@ const TechStack = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Tech <span className="text-[#36C0EF]">Stack</span>
           </h2>
-          <p className="text-gray-700 max-w-5xl mx-auto leading-relaxed text-base">
+          <p className=" max-w-5xl mx-auto leading-relaxed text-base">
           Using CrewRoomz feels effortless. smooth, fast, and reliable. Behind a successful app like Crewroomz, our web app developers ensured they delivered the best web-based solutions. So, we designed Crewroomz, we made sure that all the tools and the tech stack behind is built on modern tech, so it’s scalable and works smoothly all over the world. For the frontend, React/Native and TailwindCSS were used to keep the interface smooth and responsive. For the backend, Node.js/Express and REST APIs made sure that the experience of the app is seamless. Data is managed, with payments are handled through and integrations like Google Maps and cloud storage making the entire experience seamless and user-friendly.
           </p>
         </motion.div>

@@ -28,7 +28,7 @@ const AdminDashboard = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-sm text-gray-600"
+          className="text-sm "
         >
         Our skilled team designed the Admin Dashboard after thorough planning and research. The dashboard was designed so that everything could feel easily manageable for the team. Through the admin dashboard, the admin can easily check user profiles without any unseen hurdles. The options for editing details, or stepping in (In case of any account deactivation or review) were also added to keep everything secure. Property owners and their listings are simple to approve, update, or pause when needed. Our skilled developers made sure to add the options for the quick tracking of Payments and subscriptions, like invoices, refunds, and disputes. So, in the end, the dashboard offers clean, visual insights. Showing trends, popular properties, and downloadable reports to keep decision-making effortless.
         </motion.p>
@@ -74,10 +74,10 @@ const AdminDashboard = () => {
           className="absolute md:block hidden -left-8 top-[64%] w-56 z-20"
         >
           <div className="rounded-xl p-4 ">
-            <h3 className="font-semibold text-sm mb-2 text-gray-800">
+            <h3 className="font-semibold text-sm mb-2 ">
               Visual Property Gallery
             </h3>
-            <p className="text-xs text-gray-700">
+            <p className="text-xs ">
               High-quality image previews of rooms, interiors and properties.
             </p>
           </div>
@@ -120,10 +120,10 @@ const AdminDashboard = () => {
           className="absolute -right-28 md:block hidden top-[38%] w-56 z-20"
         >
           <div className="rounded-xl p-4  ">
-            <h3 className="font-semibold text-sm mb-2 text-gray-800">
+            <h3 className="font-semibold text-sm mb-2 ">
               Property Status Control
             </h3>
-            <p className="text-xs text-gray-700">
+            <p className="text-xs ">
               Activate, edit, deactivate or delete properties instantly.
             </p>
           </div>
