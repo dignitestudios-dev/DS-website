@@ -21,7 +21,6 @@ const CTA = () => {
 
           </Link>
         </div>
-
         <div className="md:block hidden">
           <motion.img
             src="/wing/cta.png"
