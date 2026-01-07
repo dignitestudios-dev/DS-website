@@ -1,53 +1,86 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import ContactButton from "../global/ContactButton";
-
+import { FiArrowUp, FiPlus, FiSearch } from "react-icons/fi";
+import Typewriter from "typewriter-effect";
 const AboutUsHero = () => {
   const { palette } = useContext(GlobalContext);
+  useEffect(() => {
+    const styleCursor = () => {
+      const cursor = document.querySelector(".Typewriter__cursor");
+      if (cursor) {
+        cursor.style.color = "#F15C20";
+      }
+    };
+
+    styleCursor();
+    const interval = setInterval(styleCursor, 100);
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="w-full grid grid-cols-1 gap-y-8 justify-start items-start lg:pt-20 ">
-      <div className=" flex flex-col px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 justify-start text-center lg:text-start items-center lg:items-start gap-2">
-        <h1
-          style={{
-            color: palette?.color,
-          }}
-          className="text-[45px] font-extrabold lg:text-5xl xl:text-[64px] lg:font-bold uppercase"
-        >
-          about us
+      <div className="flex  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
+        <h1 className="text-5xl md:text-7xl font-bold ">
+          Building Apps that Drive{" "}
+          <span className="text-[#F15C20]">Real Growth</span>
         </h1>
+        <p className="text-xl mt-2 text-[#5C5C5C]">
+          We build digital products that do more than just perform their work.
+          By combining expert teams, fully custom development, and proven
+          delivery processes, we help the business launch apps that deliver
+          real, measurable impact. 
+        </p>
 
-        <span
-          style={{
-            color: palette?.dark_contrast_color,
-          }}
-          className=" my-2 lg:my-6 lg:w-[80%] text-[16px] lg:text-[18px] font-light"
-        >
-          Your Powerful Manifest Partner
-          <br />
-          <br />
-          Welcome to the world’s most renowned company, where innovation meets
-          excellence in the formation of mobile solutions. Let's delve into the
-          chronicle where we began with a mission, laying the foundation of a
-          vision into the realm of modern technology.
-        </span>
-        <div className="w-auto flex gap-4 justify-start items-center">
-          {/* <Link
-            href={"/contact-us"}
-            name="schedule-a-meeting"
-            style={{
-              background: palette?.brandOrange,
-              color: "white",
-            }}
-            className="orange w-[150px] lg:w-[151px] h-14 lg:h-[59px] rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center"
-          >
-            Get Started
-          </Link> */}
-          <ContactButton text1={"Get Started"} text2={"Let's talk"} />
+        <div className="w-full flex justify-center my-20">
+          <div className="w-full rounded-2xl bg-white p-2 shadow-[0_4px_50px_rgba(244,120,0,0.7)]
+">
+            <div className="flex flex-col items-start gap-3 bg-[#F2F2F2] rounded-xl px-4 py-3">
+              <div className="flex text-[#5C5C5C] items-center gap-3">
+                {/* Search Icon */}
+                <FiSearch className=" text-lg" />
+
+                <Typewriter
+                  options={{
+                    strings: [
+                      "Best Mobile App Development company in Florida",
+                      "World",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                   style={{ color: "#5C5C5C" }}
+                />
+              </div>
+              <div className="w-full flex justify-between items-center">
+              <div className="hidden md:flex items-center gap-2">
+                <div className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 border border-orange-200">
+                  <FiPlus />
+                  Intro Expert
+                </div>
+
+                <div className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 border border-orange-200">
+                  <FiPlus />
+                  Recommend Tool
+                </div>
+
+                <div className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 border border-orange-200">
+                  <FiPlus />
+                  Create Content
+                </div>
+              </div>
+
+              {/* Submit div */}
+              <div className="ml-2 flex items-center justify-center w-9 h-9 rounded-full bg-orange-500 text-white hover:bg-orange-600 transition">
+                <FiArrowUp />
+              </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="w-screen h-[30rem]  about-bg"></div>
     </div>
   );
 };
