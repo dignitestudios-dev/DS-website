@@ -27,7 +27,7 @@ const AboutUsHero = () => {
           Building Apps that Drive{" "}
           <span className="text-[#F15C20]">Real Growth</span>
         </h1>
-        <p className="text-xl mt-2 text-[#5C5C5C]">
+        <p className="text-xl mt-2 dark:text-white text-[#5C5C5C]">
           We build digital products that do more than just perform their work.
           By combining expert teams, fully custom development, and proven
           delivery processes, we help the business launch apps that deliver
@@ -41,18 +41,19 @@ const AboutUsHero = () => {
               <div className="flex text-[#5C5C5C] items-center gap-3">
                 {/* Search Icon */}
                 <FiSearch className=" text-lg" />
+<Typewriter
+  onInit={(typewriter) => {
+    typewriter
+      .typeString("Best Mobile App Development company in Florida")
+      .start();
+  }}
+  options={{
+    autoStart: true,
+    loop: false,
+  }}
+  style={{ color: "#5C5C5C" }}
+/>
 
-                <Typewriter
-                  options={{
-                    strings: [
-                      "Best Mobile App Development company in Florida",
-                      "World",
-                    ],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                   style={{ color: "#5C5C5C" }}
-                />
               </div>
               <div className="w-full flex justify-between items-center">
               <div className="hidden md:flex items-center gap-2">

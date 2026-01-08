@@ -13,22 +13,23 @@ const imgs = [
 const SocialProof = () => {
   return (
    <section className="w-full grid grid-cols-1 gap-y-8 justify-start items-start lg:pt-20 ">
-      <div className="w-[90%] md:w-[65%] mx-auto">
+      <div className="">
         {/* Header */}
         <div className="text-center mb-8">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Social Proof <span className="text-orange-500">& Recognition</span>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl tracking-tighter font-bold mb-6">
+            Social Proof <span className="text-[#F15C20]">& Recognition</span>
           </h2>
 
           {/* Text split like Global Presence */}
-          <div className="text-gray-600 text-sm md:text-lg leading-relaxed space-y-4 max-w-5xl mx-auto">
+          <div className="dark:text-white text-gray-600 text-sm md:text-lg leading-relaxed space-y-4 max-w-7xl  mx-auto">
           Clients across the United States rely on Dignite Studios. It is acknowledged by top internet review sites for its reputation as dependable and for providing superior digital solutions. Our work is consistently commended for its technical brilliance, teamwork, and ability to achieve corporate objectives through accuracy and simplicity.
 Moreover, we are very honored to be highlighted for our expertise in digital services, backed by glowing client endorsements and a solid portfolio of accomplished projects. Startups are reasonably well-established businesses from the very start; our partners also appreciate the extreme technological competence, professional insights, and open communication. They also have faith in the staff. Many of our clients also stick with us over the very long run. 
           </div>
         </div>
 
         {/* Marquee */}
-        <div className="mt-12">
+      </div>
+        <div className="w-full mt-12">
           <Marquee
             autoFill
             pauseOnHover
@@ -49,7 +50,6 @@ Moreover, we are very honored to be highlighted for our expertise in digital ser
             ))}
           </Marquee>
         </div>
-      </div>
     </section>
   );
 };

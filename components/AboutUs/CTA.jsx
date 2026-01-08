@@ -4,11 +4,11 @@ import { FaArrowRight } from 'react-icons/fa'
 
 const CTA = () => {
   return (
-    <div className='max-w-4xl relative mx-auto   my-40 text-white'>
-        <div className='bg-[#0C0C0C] md:h-[360px] group rounded-[30px] py-10' >
-        <div className='absolute md:block hidden h-[368px] rounded-[30px] border-black group-hover:border-gray-200 group-hover:border-8 group-hover:-top-3 group-hover:rounded-[35px] group-hover:-left-3 group-hover:h-[384px] group-hover:w-[102.5%]  transition-all ease-linear  w-[101%]  border -top-1 -left-1' />
+    <div className='max-w-4xl relative z-50 mx-auto   my-40 text-white'>
+        <div className='bg-[#0C0C0C]  md:h-[360px]  group rounded-[30px] py-10' >
+        <div className='absolute md:block -z-10 hidden h-[385px] w-[103%]  rounded-[35px]  border-black border group-hover:border-8 group-hover:border-gray-400 top-[50%] left-[50%] transition-all ease-linear transform -translate-x-1/2 -translate-y-1/2' />
             <div className='md:w-[70%] w-[90%] mx-auto text-center' >
-<h1 className='text-5xl font-bold'>Let’s Build Something That <br/>
+<h1 className='text-5xl font-bold tracking-tighter'>Let’s Build Something That <br/>
 
 <span className="text-orange-500">Truly Performs</span></h1>   
     <p className='text-sm py-6 font-thin'>Have an idea that is ready to shape? Dignite Studios helps turn it into a high-impact digital solution. We work closely with you at every stage, offering 100% custom development, expert teams, and dependable support. Start a meaningful conversation about your vision and how it can come to your life. Together, we build apps designed for real, measurable business impact.</p>

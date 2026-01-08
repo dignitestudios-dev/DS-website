@@ -39,12 +39,12 @@ const WhyChoose = () => {
   ];
 
   return (
-    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className=" py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-            Why Choose <br/> <span className="text-orange-500">Dignite Studios</span>
+        <div className="text-center leading-[4] mb-16">
+          <h2 className="text-4xl md:text-5xl tracking-tighter  lg:text-7xl font-bold">
+            Why Choose <br/> <span className="text-[#F15C20]">Dignite Studios</span>
           </h2>
         </div>
 
@@ -59,7 +59,7 @@ const WhyChoose = () => {
             >
               {/* Card Container */}
               <div className={`
-                relative overflow-hidden rounded-lg transition-all duration-300
+                relative overflow-hidden rounded-lg transition-all dark:bg-black/50 duration-300
                 bg-[#FAFAFA]
                 p-8 h-[300px] flex flex-col justify-between
               `}>
@@ -80,7 +80,7 @@ const WhyChoose = () => {
                     w-8 h-8 rounded border-2 flex items-center justify-center
                     transition-all duration-300
                     ${hoveredCard === index 
-                      ? ' bg-orange-500 rotate-180 border-white' 
+                      ? ' bg-orange-500 rotate-180 border-orange-500 ' 
                       : 'bg-black border-none text-white'
                     }
                   `}>

@@ -56,10 +56,10 @@ const GlobalPresence = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-6">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Our Global <span className="text-orange-500">Presence</span>
+          <h2 className="text-4xl md:text-5xl lg:text-7xl tracking-tighter font-bold mb-6">
+            Our Global <span className="text-[#F15C20]">Presence</span>
           </h2>
-          <p className="text-gray-600  text-sm md:text-lg leading-relaxed">
+          <p className=" dark:text-white text-gray-600  text-sm md:text-lg leading-relaxed">
             Dignite Studios maintains a strong presence across the United States, enabling us to work closely with businesses nationwide. 
             With operations spanning New York, California, and Texas, our teams stay connected to diverse markets, emerging trends, and 
             client needs, delivering reliable support and localized expertise wherever our partners operate.

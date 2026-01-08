@@ -18,7 +18,7 @@ const AboutUsStory = () => {
       {/* Content */}
       <div className="max-w-5xl mx-auto text-center text-white">
         <h2 className="text-3xl md:text-5xl font-bold mb-10 md:mb-12">
-          Our <span className="text-orange-500">Story</span>
+          Our <span className="text-[#F15C20]">Story</span>
         </h2>
 
         <div className="space-y-5 text-white text-sm md:text-lg leading-relaxed mb-10">
@@ -35,11 +35,11 @@ const AboutUsStory = () => {
           </p>
         </div>
 
-        <div className="flex items-center justify-center ">
-          <button className="bg-orange-500 hover:bg-orange-600 text-white text-sm md:text-base px-7 py-2.5 rounded-full font-medium transition-colors">
+        <div className="flex items-center group justify-center ">
+          <button className="bg-[#F15C20] group-hover:bg-orange-600 text-white text-sm md:text-base px-7 py-3 rounded-full font-medium transition-colors">
             Contact Us
           </button>
-          <button className="bg-orange-500 hover:bg-orange-600 text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors text-lg">
+          <button className="bg-[#F15C20] group-hover:bg-orange-600 text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
           </button>
         </div>
