@@ -51,9 +51,15 @@ const Values = () => {
       <div className="w-full my-6 px-2 lg:px-10 xl:px-14  hidden lg:flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] mt-12 h-auto grid grid-rows-1 grid-cols-1 gap-3">
           <div className="group  w-full h-auto lg:h-auto   border-[#b4b4b4]/[0.5] flex  flex-col justify-center items-start  py-10">
-            <h5 className="capitalize tracking-tighter text-[30px]  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Our Mission
-            </h5>
+              <motion.h5
+              viewport={{once:true}}
+      className="capitalize tracking-tighter text-[30px] font-bold leading-[43.57px]"
+      initial={{ color: "#b7b7b7" }}   // start gray
+      whileInView={{ color: "#f15c20" }}   // animate to orange
+      transition={{ duration: 0.5 , delay: 1 }}    // 0.3s duration
+    >
+      Our Mission
+    </motion.h5>
 
             <p
               className="text-[16px] tracking-tighter font-medium   2xl:text-[18px]"
@@ -113,7 +119,7 @@ const Values = () => {
             </motion.span>
                <motion.span
               variants={lineVariant}
-              className="w-[2px] h-[200px] bg-[#F15C20]"
+              className="w-[2px] h-[200px] bg-gray-400 "
 
               // style={{ background: palette?.color }} // orange immediately
             />
@@ -121,10 +127,17 @@ const Values = () => {
           
         </div>
         <div className="w-full lg:w-[49%] h-auto lg:mt-56 grid grid-rows-1 grid-cols-1 gap-3">
-          <div className="group  w-full h-auto lg:h-auto   border-[#b4b4b4]/[0.5] flex  flex-col justify-center items-start  py-10">
-            <h5 className="  capitalize text-[30px] tracking-tighter  font-semibold leading-[43.57px] xl:font-medium text-[#b7b7b7]/[1] group-hover:text-[#f15c20]">
-              Our Vision
-            </h5>
+            <div className="group  w-full h-auto lg:h-auto   border-[#b4b4b4]/[0.5] flex  flex-col justify-center items-start  py-10">
+              <motion.h5
+              
+      className="capitalize tracking-tighter text-[30px] font-bold leading-[43.57px]"
+      initial={{ color: "#b7b7b7" }}   // start gray
+      whileInView={{ color: "#f15c20" }} 
+                    viewport={{once:true}}  // animate to orange
+      transition={{ duration: .3 , delay:2 }}    // 0.3s duration
+    >
+      Our Vision
+    </motion.h5>
 
             <p
               className="text-[16px] font-medium tracking-tighter  2xl:text-[18px]"

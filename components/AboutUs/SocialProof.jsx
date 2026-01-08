@@ -32,7 +32,6 @@ Moreover, we are very honored to be highlighted for our expertise in digital ser
         <div className="w-full mt-12">
           <Marquee
             autoFill
-            pauseOnHover
             gradient={false}
             className="flex items-center"
           >

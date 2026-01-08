@@ -44,8 +44,9 @@ const WhyChoose = () => {
         {/* Header */}
         <div className="text-center leading-[4] mb-16">
           <h2 className="text-4xl md:text-5xl tracking-tighter  lg:text-7xl font-bold">
-            Why Choose <br/> <span className="text-[#F15C20]">Dignite Studios</span>
+            Why Choose 
           </h2>
+          <h2 className="text-4xl md:text-5xl mt-1 tracking-tighter  lg:text-7xl font-bold"><span className="text-[#F15C20]">Dignite Studios</span></h2>
         </div>
 
         {/* Features Grid */}
