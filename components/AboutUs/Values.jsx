@@ -43,8 +43,8 @@ const Values = () => {
   const { palette } = useContext(GlobalContext);
   return (
     <div className="py-12 md:px-28">
-      <div className="flex flex-col items-center tracking-[-.3rem] w-full">
-        <h1 className="text-7xl font-bold relative z-10 dark:bg-[#222222] bg-white">
+      <div className="flex flex-col  items-center tracking-[-.3rem] w-full">
+        <h1 className="text-7xl font-bold relative z-10 pb-12  dark:bg-[#222222] bg-white">
           Our <span className="text-[#F15C20]">Values </span>
         </h1>
       </div>
@@ -73,7 +73,7 @@ const Values = () => {
             </p>
           </div>
         </div>
-        <div className="hidden lg:grid w-auto h-[60rem] -my-24 -mb-[400px]   grid-rows-3 grid-cols-1 justify-center items-start">
+        <div className="hidden lg:grid w-auto h-[60rem] -my-24 -mb-[350px]   grid-rows-3 grid-cols-1 justify-center items-start">
           <motion.div
             variants={parentStagger}
             initial="hidden"
@@ -84,7 +84,7 @@ const Values = () => {
             {/* First Line */}
             <motion.span
               variants={lineVariant}
-              className="w-[2px] h-[200px] bg-[#F15C20]"
+              className="w-[3px] h-[200px] bg-[#F15C20]"
 
               // style={{ background: palette?.color }} // orange immediately
             />
@@ -103,14 +103,14 @@ const Values = () => {
             {/* Second Line */}
             <motion.span
               variants={lineVariant}
-              className="w-[2px] -mt-9 h-[200px] bg-[#F15C20]"
+              className="w-[3px] -mt-9 h-[200px] bg-[#F15C20]"
               // style={{ background: palette?.color }} // orange immediately
             />
 
             {/* Second Dot */}
             <motion.span
               variants={dotVariant}
-              className="w-[32px] h-[32px] rounded-full flex items-center justify-center"
+              className="w-[32px] h-[32px] -mt-7 rounded-full flex items-center justify-center"
             >
               <span
                 className="w-5 h-5 rounded-full"
@@ -119,7 +119,7 @@ const Values = () => {
             </motion.span>
                <motion.span
               variants={lineVariant}
-              className="w-[2px] h-[200px] bg-gray-400 "
+              className="w-[3px] h-[200px] bg-gradient-to-t from-white to-gray-400 "
 
               // style={{ background: palette?.color }} // orange immediately
             />
