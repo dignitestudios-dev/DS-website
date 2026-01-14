@@ -79,7 +79,7 @@ const SEO = () => {
         </p>
       </div>
 
-      <div ref={ref} className="relative -my-24 w-full max-w-7xl mx-auto px-4">
+      <div ref={ref} className="relative md:block hidden -my-24 w-full max-w-7xl mx-auto px-4">
 
         <div className="relative w-full" style={{ minHeight: '500px' }}>
 
@@ -170,6 +170,39 @@ const SEO = () => {
           ))}
         </div>
       </div>
+        <section className="w-full md:hidden visible  px-4 ">
+
+
+      {/* Location Cards */}
+      <div className="flex flex-col gap-8 max-w-xl mx-auto">
+        {locations.map((location, index) => (
+          <motion.div
+            key={location.id}
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              delay: index * 0.12,
+              duration: 0.45,
+              ease: "easeOut",
+            }}
+            className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm"
+          >
+            <span className="inline-block bg-[#F15C20] text-white px-3 py-1 rounded text-xs font-bold mb-3">
+              {location.title}
+            </span>
+
+            <h3 className="font-bold text-lg leading-tight mb-3 text-black">
+              {location.heading}
+            </h3>
+
+            <p className="text-sm text-gray-600 leading-relaxed">
+              {location.description}
+            </p>
+          </motion.div>
+        ))}
+      </div>
+    </section>
     </div>
   )
 }

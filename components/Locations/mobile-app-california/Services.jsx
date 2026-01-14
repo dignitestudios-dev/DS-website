@@ -124,12 +124,12 @@ const Services = () => {
           Our Mobile App Development Services {" "}
           <span className="text-[#F15C20]">in California</span>{" "}
         </h1>
-        <p className="text-base my-6 w-[65%] mx-auto dark:text-white text-[#0C0C0C]">
+        <p className="text-base my-6 md:w-[65%] mx-auto dark:text-white text-[#0C0C0C]">
          When you work with Dignite Studios, you’re working with a partner who takes full ownership. We designed our mobile app development services according to your needs so that it can help you develop an app you envision.
         </p>
 
       </div>
-      <div className="grid grid-cols-3 gap-4 w-[80%] mx-auto" >
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-[80%] mx-auto" >
         {services.map((service, index) => (
           <motion.div
             key={index}

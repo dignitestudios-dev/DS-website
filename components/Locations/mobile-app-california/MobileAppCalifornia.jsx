@@ -15,7 +15,7 @@ import Faq from "./Faq";
 
 const MobileAppCalifornia = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto overflow-hidden">
+    <div className="max-w-screen-2xl flex flex-col mx-auto overflow-hidden">
       <Hero />
       <About />
       <Services />

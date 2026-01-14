@@ -34,7 +34,7 @@ const Testimonials = () => {
            </p>
          </div>
      
-         <div className='flex gap-8 py-12 justify-center items-center'>
+         <div className='flex lg:flex-row flex-col gap-8 py-12 justify-center items-center'>
 {test.map((item, index) => (
   <div
     key={index}
