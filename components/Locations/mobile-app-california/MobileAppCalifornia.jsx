@@ -11,18 +11,24 @@ import CTA from "./CTA";
 import TechAndTools from "./TechTools";
 import Testimonials from "./Testimonials";
 import SEO from "./SEO";
+import Faq from "./Faq";
 
 const MobileAppCalifornia = () => {
   return (
     <div className="max-w-screen-2xl mx-auto overflow-hidden">
-      <Hero /> <About /> <Services /> <Bussiness /> <Industries />
+      <Hero />
+      <About />
+      <Services />
+      <Bussiness />
+      <Industries />
       <Process />
       <MobileApp />
       <SuccessStories />
-      <CTA/>
-      <TechAndTools/>
-      <SEO/>
-      <Testimonials/>
+      <CTA />
+      <TechAndTools />
+      <SEO />
+      <Testimonials />
+      <Faq />
     </div>
   );
 };

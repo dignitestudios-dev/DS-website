@@ -10,7 +10,7 @@ const TechAndTools = () => {
     "programming-languages"
   );
   return (
-    <section className="w-full py-20 midlg:py-32 xl:py-40 bg-[#f9f9f9] padding-x overflow-hidden">
+    <section className="w-full py-20 midlg:py-32 xl:py-40  padding-x overflow-hidden">
       <section className="w-full flex flex-col items-center justify-center gap-6 text-center">
      
 
