@@ -3,7 +3,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import { staggerContainer, bgVariant } from "@/lib/motion";
-import VerticalTimeline from "./VerticalTimeline";
+import VerticalTimeline from "../Locations/mobile-app-california/VerticalTimeline";
 
 const HybridProcess = () => {
   const { palette } = useContext(GlobalContext);

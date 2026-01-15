@@ -3,7 +3,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import { bgVariant, staggerContainer } from "@/lib/motion";
 import React, { useContext } from "react";
 import { motion } from "framer-motion";
-import VerticalTimeline from "./VerticalTimeline";
+import VerticalTimeline from "../Locations/mobile-app-california/VerticalTimeline";
 
 const AgileProcess = () => {
   const { palette } = useContext(GlobalContext);
