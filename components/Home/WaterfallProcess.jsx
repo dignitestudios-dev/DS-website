@@ -3,6 +3,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import { staggerContainer, bgVariant } from "@/lib/motion";
+import VerticalTimeline from "./VerticalTimeline";
 
 const WaterfallProcess = () => {
   const { palette } = useContext(GlobalContext);
@@ -73,7 +74,7 @@ const WaterfallProcess = () => {
             </p>
           </div>
         </div>
-        <div className="hidden lg:grid w-auto h-[80rem] grid-rows-5 grid-cols-1 justify-center items-start">
+        {/* <div className="hidden lg:grid w-auto h-[80rem] grid-rows-5 grid-cols-1 justify-center items-start">
           <motion.span
             variants={staggerContainer}
             initial="hidden"
@@ -214,7 +215,8 @@ const WaterfallProcess = () => {
               ></motion.span>
             </motion.span>
           </motion.span>
-        </div>
+        </div> */}
+        <VerticalTimeline palette={palette} />
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
           <div className="group  w-full h-auto lg:h-auto   border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
             <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">

@@ -23,49 +23,49 @@ const TechAndTools = () => {
         </p>
       </section>
 
-      <section className="w-full mt-10">
+      <section className=" mt-10 p-2 rounded-lg bg-[#F8F5F3] mx-auto w-fit">
         <div className="w-full flex flex-col md:flex-row items-center justify-center mx-auto">
           <button
             type="button"
             onClick={() => setActiveTechStack("programming-languages")}
-            className={`border-b-[3px] ${
+            className={`rounded-md transition-all  ease-linear ${
               activeTechStack === "programming-languages"
-                ? "border-[#F15C20]"
-                : "border-gray-300"
-            } pb-3 px-3 text-lg lg:text-[22px] text-[#212121]`}
+                ? "shadow-sm text-[#F15C20] p-1  bg-white"
+                : ""
+            }  px-3 text-lg font-medium text-[#212121]`}
           >
             Programming Languages
           </button>
           <button
             type="button"
             onClick={() => setActiveTechStack("databases")}
-            className={`border-b-[3px] ${
+              className={`rounded-md  transition-all  ease-linear ${
               activeTechStack === "databases"
-                ? "border-[#F15C20]"
-                : "border-gray-300"
-            } pb-3 px-3 text-lg lg:text-[22px] text-[#212121]`}
+                ? "shadow-sm text-[#F15C20] p-1  bg-white"
+                : ""
+            }  px-3 text-lg font-medium text-[#212121]`}
           >
             Databases
           </button>
           <button
             type="button"
             onClick={() => setActiveTechStack("cloud-platforms")}
-            className={`border-b-[3px] ${
+             className={`rounded-md   transition-all  ease-linear ${
               activeTechStack === "cloud-platforms"
-                ? "border-[#F15C20]"
-                : "border-gray-300"
-            } pb-3 pt-3 md:pt-0 px-3 text-lg lg:text-[22px] text-[#212121]`}
+                ? "shadow-sm text-[#F15C20] p-1  bg-white"
+                : ""
+            }  px-3 text-lg font-medium text-[#212121]`}
           >
             Cloud Platforms
           </button>
           <button
             type="button"
             onClick={() => setActiveTechStack("development-tools")}
-            className={`border-b-[3px] ${
+             className={`rounded-md  transition-all  ease-linear ${
               activeTechStack === "development-tools"
-                ? "border-[#F15C20]"
-                : "border-gray-300"
-            } pb-3 pt-3 md:pt-0 px-3 text-lg lg:text-[22px] text-[#212121]`}
+                ? "shadow-sm text-[#F15C20] p-1  bg-white"
+                : ""
+            }  px-3 text-lg font-medium text-[#212121]`}
           >
             Development & Collaboration Tools
           </button>

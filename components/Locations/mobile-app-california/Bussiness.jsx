@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 
@@ -19,38 +20,39 @@ const Bussiness = () => {
     { duration: 6.5, delay: 1.5 },
     { duration: 8, delay: 0.5 },
   ];
-  const bs = [
+const bs = [
   {
-    title: "100% Custom Development",
-    desc: "We make apps customized to your business goals, ensuring each feature and design works perfectly for what you want.",
-    icon: "i1.png"
+    title: "12+ Years of Revenue-Driven App Development",
+    desc: "For over a decade, we’ve helped businesses across California transform ideas into high-performing mobile apps. Every solution we deliver is built to create measurable business impact and long-term value.",
+    icon: "i1.png",
   },
   {
-    title: "Specialized Engineering Teams",
-    desc: "Our committed teams of Chicago mobile app developers skilled in utilizing the modern technologies to create the high performing solutions.",
-    icon: "i2.png"
+    title: "Silicon Valley-Level Expertise at Competitive Pricing",
+    desc: "Get access to elite design, development, and innovation expertise—without Silicon Valley price tags. Our California mobile app development services are tailored to your market and business goals.",
+    icon: "i2.png",
   },
   {
-    title: "24/7 Assistance",
-    desc: "To guarantee uninterrupted app operation, we also offer round the clock assistance through the original launch to the ongoing updates.",
-    icon: "i3.png"
+    title: "Dedicated California-Based Project Managers",
+    desc: "Your dedicated project manager ensures milestones are met, risks are addressed early, and your objectives guide every decision—providing clear communication and smooth execution throughout.",
+    icon: "i3.png",
   },
   {
-    title: "200+ Skilled Technology Experts",
-    desc: "Our vast Chicago app development staff includes years of expertise, a variety of abilities and fresh ideas which can aid in the project.",
-    icon: "i4.png"
+    title: "100% Transparent Process & Weekly Sprints",
+    desc: "No guessing, no jargon, and no hidden progress. We provide complete visibility into every stage of development through weekly sprints, ensuring accountability, adaptability, and timely delivery.",
+    icon: "i4.png",
   },
   {
-    title: "Flexible Engagement Models",
-    desc: "These models easily adjust to your needs, either you require project based cooperation or the full time development.",
-    icon: "i5.png"
+    title: "Post-Launch Support & Continuous Growth",
+    desc: "Launch is just the beginning. Our ongoing support, optimization, and scaling services ensure your app stays competitive and grows alongside your business in the California market.",
+    icon: "i5.png",
   },
   {
-    title: "Transparent Process",
-    desc: "At every phase of Chicago mobile app development projects, we also uphold the open communication, the precise deadlines and the total visibility.",
-    icon: "i6.png"
-  }
+    title: "Custom Solutions Tailored to Your Business",
+    desc: "Every app we build is custom-developed to align with your operational goals and market requirements. Partnering with a leading California mobile app development company ensures a solution that keeps you ahead of the competition.",
+    icon: "i6.png",
+  },
 ];
+
 
   return (
     <div
@@ -70,9 +72,7 @@ const Bussiness = () => {
             <span className="text-[#F15C20]"> Dignite Studios</span>{" "}
           </h1>
           <p className="text-lg my-6 text-white ">
-            We are not just some people claiming to be the Top mobile app
-            development company in California; we have a team of the best mobile
-            app developers in California. 
+            Businesses in California turn to Dignite Studios because we bring them the results they want. We are not just some people claiming to be the Top mobile app development company; we have a team of the best <Link className="underline" href={"/services/hire-mobile-app-developers"} > mobile app developers </Link>  in California. We are the top choice for businesses and founders who want growth. 
           </p>
         </div>
 
@@ -83,7 +83,7 @@ const Bussiness = () => {
                 <img src={`/location/mobile-california/${item.icon}`} alt={item.title} className=" " />
                 <div className="absolute top-0 px-12 py-10" >
                 <h2 className="text-lg font-bold text-white ">{item.title}</h2>
-                <p className="text-white text-sm">{item.desc}</p>
+                <p className="text-white text-sm line-clamp-3">{item.desc}</p>
               </div>
               </div>
             ))}
@@ -279,13 +279,13 @@ const Bussiness = () => {
                 <img src={`/location/mobile-california/${item.icon}`} alt={item.title} className=" " />
                 <div className="absolute top-0 px-12 py-10" >
                 <h2 className="text-lg font-bold text-white ">{item.title}</h2>
-                <p className="text-white text-sm">{item.desc}</p>
+                <p className="text-white text-sm line-clamp-3">{item.desc}</p>
               </div>
               </div>
             ))}
             </div>
         </div>
-        <div className="bg-gradient-to-b absolute text-white opacity-100 shadow-xl hover:shadow-orange-300 shadow-orange-200 transition-all ease-linear hover:shadow-2xl w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] z-50 from-[#f15b20] to-[#F15C2085]">
+        <div className="bg-gradient-to-b z-50 absolute text-white  shadow-xl hover:shadow-orange-300 opacity-100 shadow-orange-200 transition-all ease-linear hover:shadow-2xl w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
           <img src="/location/mobile-california/icons/lg2.png" alt="lggg" />
           <div className="md:w-[45%] mx-auto pb-8 -mt-40 space-y-4 flex flex-col items-center text-center">
             <h1 className="text-[45px] font-bold text-white leading-[45px]">

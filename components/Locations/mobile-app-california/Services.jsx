@@ -7,6 +7,7 @@ import { MdArrowOutward } from "react-icons/md";
 const services = [
   {
     icon: "database",
+    icon2: "database1",
     title: "iOS App Development",
     description: (
       <>
@@ -23,6 +24,7 @@ const services = [
   },
   {
     icon: "setting",
+    icon2: "setting2",
     title: "Android App Development",
     description: (
       <>
@@ -38,6 +40,7 @@ const services = [
   },
   {
     icon: "pipe",
+    icon2: "pipe3",
     title: "Cross-Platform / Hybrid App Development",
     description: (
       <>
@@ -52,6 +55,7 @@ const services = [
   },
   {
     icon: "icon",
+    icon2: "icon4",
     title: "Custom Solutions / Native & Web Apps",
     description: (
       <>
@@ -79,6 +83,7 @@ const services = [
   },
   {
     icon: "pen",
+    icon2: "pen5",
     title: "Design Services",
     description: (
       <>
@@ -101,6 +106,7 @@ const services = [
   },
   {
     icon: "chat",
+    icon2: "chat6",
     title: "Maintenance, Consulting & Testing",
     description: (
       <>
@@ -143,7 +149,9 @@ const Services = () => {
             }}
           >
             <div className="flex justify-center items-center p-3 shadow-2xl group-hover:shadow-white shadow-[#F15C20]  rounded-[22px] group-hover:border-t-white group-hover:border-b-white bg-white/20 border-b border-b-[#F15C20] border-t-[#F15C20] mx-auto w-[20%] border-t" >
-              <img src={`/location/mobile-california/icons/${service.icon}.png`} alt={service.title} className="group-hover:grayscale" />
+              <img src={`/location/mobile-california/icons/${service.icon}.png`} alt={service.title}    className=" group-hover:hidden   transition duration-300"/>
+              <img src={`/location/mobile-california/icons/${service.icon2}.png`} alt={service.title}    className=" group-hover:block hidden   transition duration-300"/>
+
               </div>
               <h3 className="text-base font-semibold text-center">{service.title}</h3>
             

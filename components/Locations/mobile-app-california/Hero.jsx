@@ -13,16 +13,12 @@ const Hero = () => {
           <span className="text-[#F15C20]">Apps That Scale</span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          Building a mobile app in California? You need a dedicated team of
-          skilled app developers. Dignite Studios is a trusted mobile app
-          development company in California that understands quality and market
-          fit. We have a team of professional app developers California who
-          develop the mobile apps for the future.
+          Dignite Studios is a mobile app development company in California, building high-performance, scalable mobile apps for startups, enterprises, and funded founders across competitive California markets.
         </p>
 
         <div className="flex items-center group justify-center ">
           <button className="bg-[#F15C20] group-hover:bg-orange-600 text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Book Free Consultation
+            Book a Free Consultation
           </button>
           <button className="bg-[#F15C20] group-hover:bg-orange-600 text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />

@@ -68,7 +68,7 @@ const repeatedCards = [...cards, ...cards, ...cards];
     pauseOnMouseEnter: true, // we control it manually
   }}
   loopAddBlankSlides
-  className=" !overflow-hidden"
+  className=" "
   onSwiper={(swiper) => {
     swiper.autoplay.start();
   }}
