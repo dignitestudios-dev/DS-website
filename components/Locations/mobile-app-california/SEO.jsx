@@ -170,7 +170,7 @@ const SEO = () => {
           ))}
         </div>
       </div>
-        <section className="w-full md:hidden visible  px-4 ">
+        <section className="w-full md:hidden visible py-20  px-4 ">
 
 
       {/* Location Cards */}

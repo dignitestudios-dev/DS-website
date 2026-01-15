@@ -61,7 +61,7 @@ const Bussiness = () => {
         background: "#222222",
         width: "100%",
       }}
-      className="flex items-center relative justify-center mb-[480px] px-6 py-24 "
+      className="flex items-center relative justify-center mb-16 md:mb-[480px] px-6 py-24 "
     >
       <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start md:py-40 ">
         <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">

@@ -77,7 +77,7 @@ const VALUE_PROPOSITION = [
 const Industries = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <div className="w-full grid grid-cols-1  justify-start items-start md:py-40 ">
+    <div className="w-full grid grid-cols-1  justify-start items-start py-20 md:py-40 ">
       <div className="flex relative z-20  w-[90%] md:w-[78%] flex-col text-center mx-auto items-center">
         <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
           Specialized App Development for
@@ -93,6 +93,7 @@ const Industries = () => {
         modules={[Autoplay]}
         centeredSlides={true}
         slidesPerView={"auto"}
+        
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
@@ -108,7 +109,7 @@ const Industries = () => {
           return (
             <SwiperSlide
               key={index}
-              className="!bg-white   !text-black lg:!w-[290px] !h-[376px] shadow-2xl  !p-2 !rounded-[14px] transition-transform duration-500 flex justify-center"
+              className="!bg-white   !text-black !w-[290px] !h-[376px] shadow-2xl  !p-2 !rounded-[14px] transition-transform duration-500 flex justify-center"
               style={{
                 transform: isActive ? "scale(1)" : "scale(0.9)",
                 transition: "transform 0.5s ease",

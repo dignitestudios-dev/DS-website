@@ -3,7 +3,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const CTA = () => {
   return (
-    <div className="w-[80%] relative md:px-36 px-10 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
+    <div className="w-[80%] relative md:px-36 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <img
         src="/location/mobile-california/grad1.png"
         alt="grad1"

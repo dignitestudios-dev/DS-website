@@ -17,18 +17,18 @@ const MobileAppCalifornia = () => {
   return (
     <div className="max-w-screen-2xl flex flex-col mx-auto overflow-hidden">
       <Hero />
-      <About />
-      <Services />
-      <Bussiness />
-      <Industries />
+       <About />
+     <Services />
+       <Bussiness />
+     <Industries />
       <Process />
-      <MobileApp />
+    <MobileApp />
       <SuccessStories />
-      <CTA />
-      <TechAndTools />
-      <SEO />
+   <CTA />
+          <TechAndTools />
+       <SEO />
       <Testimonials />
-      <Faq />
+      <Faq /> 
     </div>
   );
 };
