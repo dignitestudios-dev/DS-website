@@ -12,6 +12,7 @@ import TechAndTools from "./TechTools";
 import Testimonials from "./Testimonials";
 import SEO from "./SEO";
 import Faq from "./Faq";
+import ContactUs from "./ContactUs";
 
 const MobileAppCalifornia = () => {
   return (
@@ -28,6 +29,7 @@ const MobileAppCalifornia = () => {
           <TechAndTools />
        <SEO />
       <Testimonials />
+      <ContactUs />
       <Faq /> 
     </div>
   );
