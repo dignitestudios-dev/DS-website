@@ -42,6 +42,38 @@ export const sliderSettings = {
   },
 };
 
+const VALUE_PROPOSITION = [
+  {
+    title: "Healthcare Apps",
+    desc: "Let’s be honest. Let’s face it: a nice-looking app isn’t enough in healthcare. You need one that’s secure, compliant, and actually works. That’s why, as a Healthcare app development company we build HIPAA-ready apps. Telemedicine, patient portals, remote monitoring, you name it. And don’t worry, as the healthcare world spins forward, your app keeps up.",
+    icon: "health.png",
+  },
+  {
+    title: "Fintech Apps ",
+    desc: "You already know that stability and trust are non-negotiable if you’re working in the fintech industry. We help you launch secure fintech apps and payment mobile apps with bank-grade encryption, multi-layer authentication, KYC/AML support, and real-time transaction management. You get a platform that protects sensitive data, handles large transaction volumes, and meets modern financial compliance standards. Whether you’re building digital banking, investment tools, or payment gateways, we give you the technical foundation that keeps your users confident and your business risk-free.",
+    icon: "fin.png",
+  },
+  {
+    title: "E-commerce & Retail Apps ",
+    desc: "Nobody likes a slow or complicated shopping app so we don’t build them. Our e-commerce and retail apps keep things quick, simple, and tailored to your customers. Storefront? Check. Inventory? Check. POS and loyalty? All covered. You get fewer cart abandonments and more happy buyers. Less cart abandonment, more customer satisfaction. Whether scaling or starting new, your tech stays quick and growth-ready.",
+    icon: "ecom.png",
+  },
+  {
+    title: "Education & e-Learning Apps ",
+    desc: "Nobody wants an educational app to be difficult. Yes. We hate that too. That’s why we create apps that guide students step by step through courses, videos, quizzes while teachers get dashboards that actually help them do their job. And as your community grows, the app grows with it. No surprises, just smooth learning.",
+    icon: "edu.png",
+  },
+  {
+    title: "Real Estate Apps",
+    desc: "Your users need clarity and convenience. Our real estate apps and property tech apps include property listings, advanced filters, virtual tours, mortgage calculators, and lead management tools. From intuitive property exploration to a smart backend for listing management, our app leverages technology to make every interaction fast, reliable, and effortless. Elevate your leads and transactions with a system built for today’s real estate market.",
+    icon: "state.png",
+  },
+  {
+    title: "Logistics & On-Demand Apps",
+    desc: "Imagine a day when every delivery just works. Drivers know exactly where to go, orders are managed automatically, payments are handled safely, and your customers are always in the loop. That’s what our logistics and on-demand apps do. We make logistics simple.",
+    icon: "date.png",
+  },
+];
 
 const Industries = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -62,7 +94,6 @@ const Industries = () => {
         modules={[Autoplay]}
         centeredSlides={true}
         slidesPerView={"auto"}
-        
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
@@ -87,8 +118,8 @@ const Industries = () => {
             >
               <div
                 style={{
-                  background: "linear-gradient(225deg, rgba(200, 60, 20, 0.15) 0%, rgba(255, 255, 255, 0.95) 25%, rgba(255, 255, 255, 1) 100%)"
-,
+                  background:
+                    "linear-gradient(225deg, rgba(200, 60, 20, 0.15) 0%, rgba(255, 255, 255, 0.95) 25%, rgba(255, 255, 255, 1) 100%)",
                   width: "100%",
                   // borderRadius: "12px",
                   // height: "460px",
@@ -119,11 +150,9 @@ const Industries = () => {
                   </h3>
                 </div>
 
-               <p
-  className="text-sm px-4 text-start lg:leading-[17px] font-medium line-clamp-5"
->
-  {value?.desc}
-</p>
+                <p className="text-sm px-4 text-start lg:leading-[17px] font-medium line-clamp-5">
+                  {value?.desc}
+                </p>
               </div>
               <div
                 className={`relative bottom-0 rounded-b-[14px] left-[50%] overflow-hidden translate-x-[-50%] pt-14 py-4 bg-[#FFC2A9] w-full mx-auto  text-center`}

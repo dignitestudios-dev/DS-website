@@ -69,7 +69,7 @@ const SEO = () => {
 
   return (
     <div className="w-full grid grid-cols-1 justify-start items-start ">
-      <div className="flex relative z-20 w-[90%] md:w-[50%] flex-col text-center mx-auto items-center mb-12">
+      <div className="flex relative z-20 w-[90%] md:w-[70%] flex-col text-center mx-auto items-center mb-12">
         <h1 className="text-4xl leading-tight tracking-tighter md:text-7xl font-bold">
           California-Specific Coverage{' '}
           <span className="text-[#F15C20]">(Local SEO)</span>

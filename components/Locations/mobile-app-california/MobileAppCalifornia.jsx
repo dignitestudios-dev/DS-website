@@ -19,9 +19,9 @@ const MobileAppCalifornia = () => {
   return (
     <div className="max-w-screen-2xl flex flex-col mx-auto overflow-hidden">
       <Hero />
-       {/* <About />
+      <About />
      <Services />
-       <Bussiness />
+        <Bussiness />
      <Industries />
       <Process />
     <MobileApp />
@@ -31,7 +31,7 @@ const MobileAppCalifornia = () => {
        <SEO />
       <Testimonials />
       <ContactUs />
-      <Faq />  */}
+      <Faq /> 
     </div>
   );
 };

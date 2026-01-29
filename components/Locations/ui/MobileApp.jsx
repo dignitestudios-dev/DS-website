@@ -32,7 +32,7 @@ const MobileApp = ({ cards, header, header2, para }) => {
   return (
     <div className="w-full py-24 md:py-40 overflow-hidden">
       {/* Heading */}
-      <div className="w-[90%] md:w-[50%] mx-auto text-center">
+      <div className="w-[90%] md:w-[80%] mx-auto text-center">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tighter">
           {header}
           <span className="text-[#F15C20]"> {header2}</span>

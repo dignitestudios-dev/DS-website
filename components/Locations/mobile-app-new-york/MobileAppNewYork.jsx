@@ -247,36 +247,31 @@ const test = [
   },
 ];
 
-const cards = [
+const BENEFITS = [
   {
-    title: "Discovery & Strategy",
-    desc: "In this phase, we align your business objectives with the app’s vision, features, and technical foundation because clear goals lead to better products.",
+    title: "Customer Retention",
+    desc: "The mobile app lets you enhance customer retention by making your brand more accessible.",
     icon: <FaUser color="#F15C20" size={25} />,
   },
   {
-    title: "User Interface Design",
-    desc: "This is a mobile app development New York process where a visual mock-up is created to showcase the app’s initial design and purpose, without functional code.",
+    title: "Brand Visibility",
+    desc: "Improved visibility leads to stronger connections with your audience, so stay top-of-mind with a branded app.",
     icon: <IoGrid color="#F15C20" size={25} />,
   },
   {
-    title: "Sprint Planning",
-    desc: "Sprint planning for app development starts here. Our professional mobile app developers in New York define the product roadmap and analyze total execution time.",
+    title: "Drive Revenue",
+    desc: "Mobile apps open new ways to grow your business through mobile sales or in-app purchases.",
     icon: <IoWalletOutline color="#F15C20" size={25} />,
   },
   {
-    title: "Testing & Evaluation",
-    desc: "Testing at every stage of the mobile app development process helps eliminate serious bugs, stay aligned with progress, and ensure quality delivery.",
+    title: "Actionable Insights",
+    desc: "Built-in analytics in mobile apps help you understand user behavior, make smarter business decisions, and optimize the experience.",
     icon: <CiSearch color="#F15C20" size={25} />,
   },
   {
-    title: "Deployment",
-    desc: "This is where preparation meets performance. We handle packaging, server configuration, and smooth deployment across iOS, Android, and other platforms.",
+    title: "Competition",
+    desc: "Having an app gives you an advantage and positions your business as innovative and accessible in the New York mobile app development market.",
     icon: <FaPencilAlt color="#F15C20" size={25} />,
-  },
-  {
-    title: "Post-Launch Support",
-    desc: "After launch, our focus shifts to monitoring performance, fixing bugs, and optimizing features based on real user feedback.",
-    icon: <FaUser color="#F15C20" size={25} />, // reused first icon to maintain array length
   },
 ];
 
@@ -324,6 +319,41 @@ const faqs = [
       "Faster communication. Better collaboration. A team that understands your market and treats your product seriously.",
   },
 ];
+
+
+const PROCESS_STEPS = [
+  {
+    step: "01",
+    title: "Discovery & Strategy",
+    desc: "In this phase, we align your business objectives with the app’s vision, features, and technical foundation because clear goals lead to better products.",
+  },
+  {
+    step: "02",
+    title: "User Interface Design",
+    desc: "It is a mobile app development New York process in which a visual mock-up is created that displays the mobile app’s initial design and purpose but does not hold functional code.",
+  },
+  {
+    step: "03",
+    title: "Sprint Planning",
+    desc: "The sprint planning for app development starts here, and our professional mobile app developers in New York determine the product roadmap and analyze the total execution time.",
+  },
+  {
+    step: "04",
+    title: "Testing & Evaluation",
+    desc: "Testing at all stages of the mobile app development process is the best assurance to eliminate serious bugs, stay up-to-date with the current status, and build your esteem.",
+  },
+  {
+    step: "05",
+    title: "Deployment",
+    desc: "Your app’s journey is finally about to take off. Deployment is the moment where preparation meets performance, including packaging, configuring servers, and ensuring smooth operation across iOS, Android, and beyond.",
+  },
+  {
+    step: "06",
+    title: "Post-Launch Support",
+    desc: "After launch, the developers’ focus shifts to monitoring performance, fixing bugs, and optimizing features based on user feedback.",
+  },
+];
+
 
 const MobileAppCalifornia = () => {
   return (
@@ -416,14 +446,20 @@ Including strategy, UI/UX design with agile development and deployment, we make 
           "At Dignite Studios, we don’t offer one-size-fits-all products. We build mobile app solutions shaped around your business model, compliance needs, and growth p."
         }
       />
-      <Process />
-      <MobileApp
-        header={"Our Proven Mobile App"}
-        header2={"Development Process"}
+      <Process
+      steps={PROCESS_STEPS}
+        header={"Our Proven Mobile App Development Process"}
         para={
           "Every app has a story. At our mobile app development company in New York, we follow a structured approach that brings your idea to life. It’s fast and perfectly aligned with your business vision. Here’s the process that turns concepts into apps."
         }
-        cards={cards}
+      />
+      <MobileApp
+        header={"Why Mobile App is a Competitive "}
+        header2={"Advantage"}
+        para={
+          "Here’s why investing in an app from the best mobile app development company in New York is essential:"
+        }
+        cards={BENEFITS}
       />
       <SuccessStories />
       <CTA />
@@ -435,7 +471,15 @@ Including strategy, UI/UX design with agile development and deployment, we make 
         header2={"Clients"}
         para={""}
       />
-      <ContactUs pathname={"Mobile Dev in New York "} header={"Start Your App Journey with Our NYC Team "} header2={""} para={"Work with a team that understands your goals. Our New York-based experts take care of development, design, and deployment so your product has a strong market presence. "} btn={"Schedule a Free Call"}/>
+      <ContactUs
+        pathname={"Mobile Dev in New York "}
+        header={"Start Your App Journey with Our NYC Team "}
+        header2={""}
+        para={
+          "Work with a team that understands your goals. Our New York-based experts take care of development, design, and deployment so your product has a strong market presence. "
+        }
+        btn={"Schedule a Free Call"}
+      />
       <Faq faqs={faqs} />
       {/*     <Bussiness />
      <Industries />
