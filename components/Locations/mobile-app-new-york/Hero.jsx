@@ -7,14 +7,18 @@ import Platforms from "../ui/Platforms";
 
 const Hero = () => {
   return (
-    <div className="w-full grid grid-cols-1  justify-start items-start pt-20 ">
+    <div className="w-full grid grid-cols-1  justify-start items-start pt-20  ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
-          Mobile App Development Company in California – Build Powerful{" "}
-          <span className="text-[#F15C20]">Apps That Scale</span>{" "}
+          Trusted Mobile App Development Company{" "}
+          <span className="text-[#F15C20] text-nowrap">New York</span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          Dignite Studios is a mobile app development company in California, building high-performance, scalable mobile apps for startups, enterprises, and funded founders across competitive California markets.
+          With 5+ years of experience and 15+ projects delivered, our mobile app
+          development company New York focuses on building apps that don’t
+          create headaches later. You will work with a team that clearly
+          explains decisions, keeps you informed, and helps you stay in control
+          of your product.
         </p>
 
         <div className="flex items-center group justify-center ">
@@ -26,14 +30,13 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="w-[80%] mx-auto z-10 flex justify-center mt-20 md:-mt-10 relative">
-        <img src="/location/mobile-california/bg-grad.png" fill alt="bg" />
+      <div className="relative flex justify-center items-center my-12 ">
         <motion.img
-          src="/location/mobile-california/mob.png"
+          src="/location/mobile-newyork/mob.png"
           alt="bg"
-          width={800}
-          height={800}
-          className="absolute bottom-0 left-[0%] md:left-[20%] translate-x-[-50%]"
+          width={400}
+          height={400}
+          className="object-cover"
           initial={{ y: 80, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}
@@ -42,9 +45,19 @@ const Hero = () => {
             ease: "easeOut",
           }}
         />
+        <img
+          src="/location/mobile-newyork/r.png"
+          alt="r"
+          className="absolute top-[40%] left-[0%] md:left-[65%] translate-x-[-50%]"
+        />
+        <img
+          src="/location/mobile-newyork/l.png"
+          alt="l"
+          className="absolute top-[30%] left-[0%] md:left-[30%] translate-x-[-50%]"
+        />
+        <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>
-
      <Platforms/>
       </div>
     </div>

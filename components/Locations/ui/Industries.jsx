@@ -42,20 +42,38 @@ export const sliderSettings = {
   },
 };
 
+const icons = [
+  {
+    icon: "health.png",
+  },
+  {
+    icon: "fin.png",
+  },
+  {
+    icon: "ecom.png",
+  },
+  {
+    icon: "edu.png",
+  },
+  {
+    icon: "state.png",
+  },
+  {
+    icon: "date.png",
+  },
+];
 
-const Industries = () => {
+const Industries = ({VALUE_PROPOSITION , header , header2 , para }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start py-20 md:py-40 ">
       <div className="flex relative z-20  w-[90%] md:w-[78%] flex-col text-center mx-auto items-center">
         <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
-          Specialized App Development for
-          <span className="text-[#F15C20]"> California Industries</span>{" "}
+          {header}
+          <span className="text-[#F15C20]"> {header2}</span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white md:w-[60%] mx-auto text-[#0C0C0C]">
-          At Dignite Studios, we don’t offer one-size-fits-all products. We
-          build mobile app solutions shaped around your business model,
-          compliance needs, and growth plans.
+          {para}
         </p>
       </div>
       <Swiper
@@ -104,7 +122,7 @@ const Industries = () => {
               >
                 {/* <img src='/location/mobile-california/img.png' className='absolute' /> */}
                 <img
-                  src={`/location/mobile-california/${value.icon}`}
+                  src={`/location/mobile-california/${icons[index].icon}`}
                   alt={value.title || "image"}
                   className={`object-contain select-none bg-inherit m-4 pointer-events-none ${
                     isActive && "shadow-2xl"
