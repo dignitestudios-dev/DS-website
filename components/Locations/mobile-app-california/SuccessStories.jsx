@@ -1,3 +1,4 @@
+"use client"
 import FlickCardStack from '@/components/Home/CaseStudiesCaraousel'
 import React from 'react'
 

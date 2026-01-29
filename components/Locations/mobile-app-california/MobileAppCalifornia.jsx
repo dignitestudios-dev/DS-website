@@ -1,3 +1,4 @@
+
 import React from "react";
 import Hero from "./Hero";
 import About from "./About";
@@ -18,7 +19,7 @@ const MobileAppCalifornia = () => {
   return (
     <div className="max-w-screen-2xl flex flex-col mx-auto overflow-hidden">
       <Hero />
-       <About />
+       {/* <About />
      <Services />
        <Bussiness />
      <Industries />
@@ -30,7 +31,7 @@ const MobileAppCalifornia = () => {
        <SEO />
       <Testimonials />
       <ContactUs />
-      <Faq /> 
+      <Faq />  */}
     </div>
   );
 };
