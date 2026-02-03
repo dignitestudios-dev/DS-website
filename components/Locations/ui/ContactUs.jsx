@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
 import PhoneInput from "react-phone-input-2";
 
-const ContactUs = ({pathname , header , header2 , para , btn})   => {
+const ContactUs = ({ pathname, header,img , header2, para, btn }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -131,21 +131,28 @@ const ContactUs = ({pathname , header , header2 , para , btn})   => {
     }
   };
   return (
-    <div className="w-full bg-gradient-to-t from-[#FFFDFA] to-[#FFFBFA] relative grid grid-cols-1  justify-start items-start md:py-20 ">
+    <div
+      style={{
+        // height: "20%",
+        // aspectRatio: "3/2",
+        clipPath: "ellipse(200% 100% at 50% 100%)",
+        background: "#0A0A0A",
+        width: "100%",
+      }}
+      className="w-full bg-gradient-to-t mt-40 from-[#FFFDFA] to-[#FFFBFA] relative grid grid-cols-1  justify-start items-start md:py-20 "
+    >
       <img
-        src="/location/mobile-california/grad.png"
-        width={900}
-        height={900}
+        src="/location/contact-crnr.png"
+        width={600}
+        height={600}
         alt="mobile"
-        className="absolute top-0 left-0"
+        className="absolute -bottom-10 right-0"
       />
       <div className="flex justify-center w-[80%] mx-auto lg:justify-between items-center">
         <div className="lg:w-[50%]">
-          <h1 className="text-4xl font-bold">{header}</h1>
-          <h1 className="text-4xl font-bold text-[#F15C20]">Let’s Talk</h1>
-          <p>
-            {para}
-          </p>
+          <h1 className="text-4xl text-white font-bold">{header}</h1>
+          <h1 className="text-4xl font-bold text-[#F15C20] mb-4">{header2}</h1>
+          <p className="text-white">{para}</p>
 
           <div>
             <div className="space-y-6 max-w-lg mt-12">
@@ -157,13 +164,13 @@ const ContactUs = ({pathname , header , header2 , para , btn})   => {
                   value={name}
                   onChange={handleNameChange}
                   required
-                  className="peer w-full rounded-xl border border-orange-400 bg-transparent px-4 py-3 text-gray-800
-                 focus:outline-none focus:border-orange-500"
+                  className="peer w-full rounded-xl border border-white bg-transparent px-4 py-3 text-white
+                 focus:outline-none focus:border-white"
                 />
                 <label
-                  className="pointer-events-none absolute left-4 top-3 bg-white px-1 text-sm text-gray-700
+                  className="pointer-events-none absolute left-4 top-3 bg-[#0A0A0A] px-1 text-sm text-white
                  transition-all duration-150
-                 peer-focus:-top-2 peer-focus:scale-90 peer-focus:text-orange-500
+                 peer-focus:-top-2 peer-focus:scale-90 peer-focus:text-white
                  peer-valid:-top-2 peer-valid:scale-90"
                 >
                   Full Name <span className="text-red-500">*</span>
@@ -181,13 +188,13 @@ const ContactUs = ({pathname , header , header2 , para , btn})   => {
                   value={email}
                   onChange={handleEmailChange}
                   required
-                  className="peer w-full rounded-xl border border-orange-400 bg-transparent px-4 py-3 text-gray-800
-                 focus:outline-none focus:border-orange-500"
+                  className="peer w-full rounded-xl border border-white bg-transparent px-4 py-3 text-white
+                 focus:outline-none focus:border-white"
                 />
                 <label
-                  className="pointer-events-none absolute left-4 top-3 bg-white px-1 text-sm text-gray-700
+                  className="pointer-events-none absolute left-4 top-3 bg-[#0A0A0A] px-1 text-sm text-white
                  transition-all duration-150
-                 peer-focus:-top-2 peer-focus:scale-90 peer-focus:text-orange-500
+                 peer-focus:-top-2 peer-focus:scale-90 peer-focus:text-white
                  peer-valid:-top-2 peer-valid:scale-90"
                 >
                   Email <span className="text-red-500">*</span>
@@ -198,9 +205,21 @@ const ContactUs = ({pathname , header , header2 , para , btn})   => {
               </div>
 
               {/* Phone */}
-              <div class="relative"> <input type="tel"   value={phone}
+              <div class="relative">
+                {" "}
+                <input
+                  type="tel"
+                  value={phone}
                   name="phone"
-                  onChange={handlePhoneChange} required class="peer w-full rounded-xl border border-orange-400 bg-transparent px-4 py-3 text-gray-800 focus:outline-none focus:border-orange-500" /> <label class="pointer-events-none absolute left-4 top-3 bg-white px-1 text-sm text-gray-700 transition-all duration-150 peer-focus:-top-2 peer-focus:text-orange-500 peer-focus:scale-90 peer-valid:-top-2 peer-valid:scale-90" > Contact No. </label> </div>
+                  onChange={handlePhoneChange}
+                  required
+                  class="peer w-full rounded-xl border border-white bg-transparent px-4 py-3 text-white focus:outline-none focus:border-white"
+                />{" "}
+                <label class="pointer-events-none absolute left-4 top-3 bg-[#0A0A0A] px-1 text-sm text-white transition-all duration-150 peer-focus:-top-2 peer-focus:text-white peer-focus:scale-90 peer-valid:-top-2 peer-valid:scale-90">
+                  {" "}
+                  Contact No.{" "}
+                </label>{" "}
+              </div>
 
               {/* Message */}
               <div className="relative">
@@ -210,13 +229,13 @@ const ContactUs = ({pathname , header , header2 , para , btn})   => {
                   value={message}
                   onChange={handleMessageChange}
                   required
-                  className="peer w-full rounded-xl border border-orange-400 bg-transparent px-4 py-3 text-gray-800
-                 focus:outline-none focus:border-orange-500 resize-none"
+                  className="peer w-full rounded-xl border border-white bg-transparent px-4 py-3 text-white
+                 focus:outline-none focus:border-white resize-none"
                 />
                 <label
-                  className="pointer-events-none absolute left-4 top-3 bg-white px-1 text-sm text-gray-700
+                  className="pointer-events-none absolute left-4 top-3 bg-[#0A0A0A] px-1 text-sm text-white
                  transition-all duration-150
-                 peer-focus:-top-2 peer-focus:scale-90 peer-focus:text-orange-500
+                 peer-focus:-top-2 peer-focus:scale-90 peer-focus:text-white
                  peer-valid:-top-2 peer-valid:scale-90"
                 >
                   Description <span className="text-red-500">*</span>
@@ -247,9 +266,11 @@ const ContactUs = ({pathname , header , header2 , para , btn})   => {
         </div>
         <div className="lg:w-[40%]">
           <img
-            src="/location/mobile-california/mobile.png"
+            src={img}
+            width={320}
+            height={320}
             alt="mobile"
-            className="w-full"
+            className="-bottom-0 absolute right-28 z-10"
           />
         </div>
       </div>

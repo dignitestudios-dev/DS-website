@@ -320,7 +320,6 @@ const faqs = [
   },
 ];
 
-
 const PROCESS_STEPS = [
   {
     step: "01",
@@ -354,8 +353,7 @@ const PROCESS_STEPS = [
   },
 ];
 
-
-const MobileAppCalifornia = () => {
+const MobileAppMiami = () => {
   return (
     <div className="max-w-screen-2xl flex flex-col mx-auto overflow-hidden">
       <Hero />
@@ -386,29 +384,30 @@ Including strategy, UI/UX design with agile development and deployment, we make 
         }
         ctaBtn={"Let’s Talk About Your Idea"}
         cta={
-          <div className="bg-[#000000] h-[500px] hover:scale-105 z-50 absolute text-white  shadow-xl hover:shadow-[#f15b2071] opacity-100 shadow-[#F15C2033] transition-all ease-linear hover:shadow-2xl w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
-            <div className="relative" >
-            <img src="/location/mobile-newyork/b-cta.png" className="w-full rounded-b-2xl bottom-3 relative bg-cover" alt="lggg" />
-            <div className="md:w-[45%] absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-              <h1 className="text-[45px] font-bold text-white leading-[45px]">
-                Ready To Work With The Right Team?
-              </h1>
-              <p>
-                Choosing a development partner is a big decision, and you’ve
-                seen how we work and what we value. Now let’s discuss your
-                product goals, technical needs
-              </p>
-              <div className="flex items-center group justify-center ">
-                <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                  Let’s Talk About Your Idea
-                </button>
-                <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                  <MdArrowOutward />
-                </button>
-              </div>
-            </div>
-            </div>
-          </div>
+           <div className="bg-black  overflow-hidden hover:scale-105 z-50 absolute text-white   opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
+                    <div className="relative  overflow-hidden" >
+                    <img src="/location/mobile-miami/b-cta.png" className="w-full h-[500px] rounded-b-2xl bottom-0 relative bg-cover" alt="lggg" />
+                    {/* <img width={250} height={250} src="/location/mobile-chicago/cta-inner-m.png" className=" rounded-b-2xl bottom-14  right-10 absolute " alt="lggg" /> */}
+                    <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
+                      <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                        Ready To Work With The Right Team?
+                      </h1>
+                      <p>
+                        Choosing a development partner is a big decision, and you’ve
+                        seen how we work and what we value. Now let’s discuss your
+                        product goals, technical needs
+                      </p>
+                      <div className="flex items-center group justify-center ">
+                        <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                          Let’s Talk About Your Idea
+                        </button>
+                        <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                          <MdArrowOutward />
+                        </button>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
         }
         para={
           <>
@@ -449,7 +448,7 @@ Including strategy, UI/UX design with agile development and deployment, we make 
         }
       />
       <Process
-      steps={PROCESS_STEPS}
+        steps={PROCESS_STEPS}
         header={"Our Proven Mobile App Development Process"}
         para={
           "Every app has a story. At our mobile app development company in New York, we follow a structured approach that brings your idea to life. It’s fast and perfectly aligned with your business vision. Here’s the process that turns concepts into apps."
@@ -475,9 +474,9 @@ Including strategy, UI/UX design with agile development and deployment, we make 
       />
       <Faq faqs={faqs} />
       <ContactUs
+        img={"/location/mobile-boston/c-img.png"}
         pathname={"Mobile Dev in New York "}
         header={"Start Your App Journey with Our NYC Team "}
-        img={"/location/mobile-newyork/c-img.png"}
         header2={""}
         para={
           "Work with a team that understands your goals. Our New York-based experts take care of development, design, and deployment so your product has a strong market presence. "
@@ -499,4 +498,4 @@ Including strategy, UI/UX design with agile development and deployment, we make 
   );
 };
 
-export default MobileAppCalifornia;
+export default MobileAppMiami;

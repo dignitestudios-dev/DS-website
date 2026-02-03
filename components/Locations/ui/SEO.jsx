@@ -48,7 +48,7 @@ const locations = [
   }
 ]
 
-const SEO = () => {
+const SEO = ({header , para}) => {
   const ref = useRef(null)
   const svgRef = useRef(null)
   const isInView = useInView(ref, { once: true, amount: 0.2 })
@@ -71,11 +71,10 @@ const SEO = () => {
     <div className="w-full grid grid-cols-1 justify-start items-start ">
       <div className="flex relative z-20 w-[90%] md:w-[70%] flex-col text-center mx-auto items-center mb-12">
         <h1 className="text-4xl leading-tight tracking-tighter md:text-7xl font-bold">
-          California-Specific Coverage{' '}
-          <span className="text-[#F15C20]">(Local SEO)</span>
+          {header || 'Specific Coverage (Local SEO)'}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#0C0C0C] max-w-7xl">
-         Choosing the right partner in California can completely change the way your app performs in a competitive market. Every city here has its own rhythm, user behavior, and tech expectations, and your product needs to match that energy.
+         {para || 'Choosing the right partner in California can completely change the way your app performs in a competitive market. Every city here has its own rhythm, user behavior, and tech expectations, and your product needs to match that energy.'}
         </p>
       </div>
 

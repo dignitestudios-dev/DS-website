@@ -31,12 +31,12 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img src="/location/grad.webp" className="absolute left-[50%] translate-x-[-50%] -top-[80%] -z-0"  />
+        <img src="/location/grad.webp" className="absolute left-[50%] translate-x-[-50%] -top-24 -z-0"  />
         <motion.img
-          src="/location/mobile-newyork/mob.png"
+          src="/location/mobile-boston/mob.png"
           alt="bg"
-          width={400}
-          height={400}
+          width={300}
+          height={300}
           className="object-cover relative"
           initial={{ y: 80, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -47,14 +47,14 @@ const Hero = () => {
           }}
         />
         <img
-          src="/location/mobile-newyork/r.png"
+          src="/location/mobile-boston/r.png"
           alt="r"
-          className="absolute top-[40%] left-[0%] md:left-[65%] translate-x-[-50%]"
+          className="absolute top-[10%] left-[0%] md:left-[70%] translate-x-[-50%]"
         />
         <img
-          src="/location/mobile-newyork/l.png"
+          src="/location/mobile-boston/l.png"
           alt="l"
-          className="absolute top-[30%] left-[0%] md:left-[30%] translate-x-[-50%]"
+          className="absolute top-[30%] left-[0%] md:left-[32%] translate-x-[-50%]"
         />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>

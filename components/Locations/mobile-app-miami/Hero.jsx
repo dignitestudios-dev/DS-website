@@ -31,9 +31,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img src="/location/grad.webp" className="absolute left-[50%] translate-x-[-50%] -top-[80%] -z-0"  />
+        <img
+          src="/location/grad.webp"
+          className="absolute left-[50%] translate-x-[-50%] -top-[60%] -z-0"
+        />
+        <img src="/location/mobile-miami/bg.png" alt="bg" className="absolute" />
         <motion.img
-          src="/location/mobile-newyork/mob.png"
+          src="/location/mobile-miami/mob.png"
           alt="bg"
           width={400}
           height={400}
@@ -47,9 +51,9 @@ const Hero = () => {
           }}
         />
         <img
-          src="/location/mobile-newyork/r.png"
+          src="/location/mobile-miami/r.png"
           alt="r"
-          className="absolute top-[40%] left-[0%] md:left-[65%] translate-x-[-50%]"
+          className="absolute top-[40%] left-[0%] md:left-[75%] translate-x-[-50%]"
         />
         <img
           src="/location/mobile-newyork/l.png"
@@ -59,7 +63,7 @@ const Hero = () => {
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>
-     <Platforms/>
+        <Platforms />
       </div>
     </div>
   );

@@ -90,7 +90,7 @@ const MobileApp = ({ cards, header, header2, para }) => {
                     <img
                       src="/location/mobile-california/design.png"
                       alt="lines"
-                      className="absolute right-0 w-full -bottom-28 scale-125"
+                      className="absolute right-0 w-full  -bottom-28 scale-125"
                     />
                   )}
                   <div className="p-6 items-start flex flex-col h-full">
@@ -107,7 +107,7 @@ const MobileApp = ({ cards, header, header2, para }) => {
                     </div>
 
                     <h3
-                      className={`"text-lg h-[85px] font-semibold mb-3 transition-all ease-linear" ${isActive && "h-fit transition-all ease-linear"} `}
+                      className={`"text-lg relative   z-10 h-[85px] font-semibold mb-3 transition-all ease-linear" ${isActive && "h-fit transition-all ease-linear"} `}
                     >
                       {card.title}
                     </h3>

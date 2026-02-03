@@ -48,7 +48,7 @@ const Bussiness = ({ bs, header, header2, para , cta , ctaHeader , ctaPara , cta
         // height: "20%",
         // aspectRatio: "3/2",
         clipPath: "ellipse(200% 100% at 50% 100%)",
-        background: "#222222",
+        background: "#0A0A0A",
         width: "100%",
       }}
       className="flex items-center relative justify-center mb-16 md:mb-[480px] px-6 py-24 "
