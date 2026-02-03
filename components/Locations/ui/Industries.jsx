@@ -140,6 +140,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para }) => {
                       isActive && "shadow-2xl"
                     }`}
                   />
+                  
                   {isActive && (
                     <img
                       src="/location/mask.png"
