@@ -107,7 +107,7 @@ const MobileApp = ({ cards, header, header2, para }) => {
                     </div>
 
                     <h3
-                      className={`"text-lg relative   z-10 h-[85px] font-semibold mb-3 transition-all ease-linear" ${isActive && "h-fit transition-all ease-linear"} `}
+                      className={`"text-lg relative  text-start z-10 h-[85px] font-semibold mb-3 transition-all ease-linear" ${isActive && "h-fit transition-all ease-linear"} `}
                     >
                       {card.title}
                     </h3>

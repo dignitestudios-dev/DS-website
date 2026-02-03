@@ -249,13 +249,13 @@ const ContactUs = ({ pathname, header,img , header2, para, btn }) => {
               <div className="flex items-center group justify-start  pt-4">
                 <button
                   type="submit"
-                  className="bg-[#F15C20] group-hover:bg-orange-600 text-white text-sm px-7 py-3 rounded-full transition-colors"
+                  className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
                 >
                   {btn}
                 </button>
                 <button
                   type="submit"
-                  className="bg-[#F15C20] group-hover:bg-orange-600 text-white w-11 h-11 rounded-full
+                  className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full
                  flex items-center justify-center transition-colors text-lg"
                 >
                   <MdArrowOutward />

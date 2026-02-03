@@ -83,7 +83,7 @@ const Bussiness = ({ bs, header, header2, para , cta , ctaHeader , ctaPara , cta
               </div>
             ))}
           </div>
-          <div className="flex justify-center items-center -space-x-28 mt-20 relative">
+          <div className="flex justify-center items-center -space-x-28 mt-20 relative ">
             {/* Left SVG */}
             <div>
               <svg

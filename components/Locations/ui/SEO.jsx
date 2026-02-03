@@ -9,8 +9,8 @@ const locations = [
   {
     id: 1,
     title: 'Los Angeles',
-    heading: 'Mobile App Development Los Angeles',
-    description: 'Fast growth in LA isn’t easy but the right app makes it possible. Our team builds apps that scale, perform, and retain users. You get local expertise, instant communication, and solutions designed specifically for LA startups. No fluff. Just results.',
+    heading: '',
+    description: '',
     pinPercent: { x: 19.5, y: 36.5 },
     cardPercent: { x: 21, y: 15 },
     direction: 'up',
@@ -19,8 +19,8 @@ const locations = [
   {
     id: 2,
     title: 'San Francisco',
-    heading: 'Mobile App Development San Francisco',
-    description: 'For San Francisco-based founders, our App development company in San Diego brings the innovation your product needs. You get clean architecture, futuristic tech stacks, and product strategy influenced by one of the world’s top tech hubs.',
+    heading: '',
+    description: '',
     pinPercent: { x: 45.5, y: 35 },
     cardPercent: { x: 49, y: 12 },
     direction: 'up',
@@ -29,8 +29,8 @@ const locations = [
   {
     id: 3,
     title: 'San Diego',
-    heading: 'App Development Company in San Diego',
-    description: 'If you are operating in a calmer but fast-growing tech environment, our app development company in San Diego gives you development consistency, clear timelines, and user-focused execution without the noise of big-city churn.',
+    heading: '',
+    description: '',
     pinPercent: { x: 58, y: 46 },
     cardPercent: { x: 56, y: 72 },
     direction: 'down',
@@ -39,8 +39,8 @@ const locations = [
   {
     id: 4,
     title: 'Silicon Valley',
-    heading: 'Silicon Valley App Development Expertise',
-    description: 'With detailed Silicon Valley app development expertise, we help founders build smarter, faster, and more competitively. Our team brings the same mindset. Lean execution, rapid iterations, and market-ready solutions aligned with global startup standards.',
+    heading: '',
+    description: '',
     pinPercent: { x: 67, y: 47 },
     cardPercent: { x: 70, y: 72 },
     direction: 'down',

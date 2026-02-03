@@ -9,7 +9,7 @@ import { MdArrowOutward } from "react-icons/md";
 const Services = ({services , header , header2 , para}) => {
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start py-32 ">
-      <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
+      <div className="flex relative z-20  w-[90%] md:w-[70%] flex-col text-center mx-auto items-center">
         <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
           {header} {" "}
           <span className="text-[#F15C20]">{header2}</span>{" "}
