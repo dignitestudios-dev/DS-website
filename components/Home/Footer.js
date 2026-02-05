@@ -138,7 +138,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-black  -mt-10">
+    <div className="bg-black w-full -mt-10">
       <div className="w-full h-auto backdrop-blur-[50px] -mt-20  relative z-50 transition-all duration-300 flex flex-col pt-20 pb-10 px-6 md:px-12 lg:px-16 xl:px-20 2xl:px-48 rounded-t-[50px] md:rounded-t-[100px] ">
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 

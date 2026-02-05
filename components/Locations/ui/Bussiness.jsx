@@ -4,7 +4,16 @@ import Link from "next/link";
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 
-const Bussiness = ({ bs, header, header2, para , cta , ctaHeader , ctaPara , ctaBtn }) => {
+const Bussiness = ({
+  bs,
+  header,
+  header2,
+  para,
+  cta,
+  ctaHeader,
+  ctaPara,
+  ctaBtn,
+}) => {
   const paths = [
     "M0.75 0V74C0.750006 85.5 2.24999 107 30.75 105.5H192.25C201.75 105.5 218.05 104.3 225.25 119.5C230.083 128.167 242.45 145.5 253.25 145.5M253.25 145.5C264.05 145.5 319.083 145.5 345.25 145.5H253.25Z",
     "M2.15634 288.5V217.5C1.25002 205 2.15632 186 32.1563 186H193.656C203.25 186 219.456 187.2 226.656 172C231.49 163.333 242.45 145.5 253.25 145.5",
@@ -289,7 +298,7 @@ const Bussiness = ({ bs, header, header2, para , cta , ctaHeader , ctaPara , cta
             ))}
           </div>
         </div>
-       {cta}
+        {cta}
       </div>
       <section className="w-full bg-[#222222] py-20 px-4 md:hidden">
         {/* Header */}
@@ -349,9 +358,7 @@ const Bussiness = ({ bs, header, header2, para , cta , ctaHeader , ctaPara , cta
             {ctaHeader}
           </h3>
 
-          <p className="text-sm text-white mt-4 mb-6">
-            {ctaPara}
-          </p>
+          <p className="text-sm text-white mt-4 mb-6">{ctaPara}</p>
 
           <div className="flex items-center justify-center gap-3">
             <button className="bg-white text-orange-600 px-6 py-3 rounded-full text-sm font-medium hover:bg-orange-600 hover:text-white transition-colors">

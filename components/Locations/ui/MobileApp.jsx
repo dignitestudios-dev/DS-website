@@ -40,7 +40,6 @@ const MobileApp = ({ cards, header, header2, para }) => {
         <p className="text-lg my-6 text-[#0C0C0C]">{para}</p>
       </div>
 
-      {/* Swiper */}
       <div className="mt-16 w-screen">
         <Swiper
           modules={[Autoplay]}
@@ -111,7 +110,7 @@ const MobileApp = ({ cards, header, header2, para }) => {
                     >
                       {card.title}
                     </h3>
-                    <p className="text-sm text-start leading-relaxed opacity-90">
+                    <p className="text-sm text-start line-clamp-5 leading-relaxed opacity-90">
                       {card.desc}
                     </p>
                   </div>
