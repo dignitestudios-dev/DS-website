@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 
 const CTA = () => {
   return (
-    <div className="w-[80%] text-white bg-[url('/location/mobile-boston/s-cta.png')] bg-cover bg-center hover:scale-105 transition-all ease-linear relative md:px-36 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
-      <div className="flex items-center">
+    <div className="w-[80%] text-white bg-[url('/location/mobile-tampa/s-cta.png')] bg-cover bg-center hover:scale-105 transition-all ease-linear relative md:px-14 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
+      <div className="flex flex-row-reverse gap-20 items-center">
         <div className="w-[40%]">
           <motion.img
-            src="/location/mobile-boston/cta-m.png"
+            src="/location/mobile-tampa/cta-m.png"
             alt="cta-mobile"
-            className="-mb-20"
+            className="-mb-28 "
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -20,17 +20,17 @@ const CTA = () => {
         </div>
         <div className="w-[60%]">
           <h1 className="text-4xl capitalize font-bold mb-4">
-           If these apps started as ideas, so can yours.
+            Be a Part of Our Successful Projects
           </h1>
           <p>
-           Every project started with a simple conversation, and all you need is just a conversation. We help you refine and turn your idea into a working product without confusion or overpromising.
+            Have a discussion with our experts and find out more about our custom app development services in Tampa. We would love to create apps for you. 
           </p>
           <div className="flex items-center group justify-start  pt-4">
             <button
               type="submit"
               className="bg-[#F15C20] group-hover:bg-orange-600 text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-           Discuss Your App Idea
+               Discuss Your Idea With Us
             </button>
             <button
               type="submit"

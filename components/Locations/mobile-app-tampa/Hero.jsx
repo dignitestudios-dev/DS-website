@@ -9,24 +9,17 @@ const Hero = () => {
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start pt-20  ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
-        <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
-          Custom Mobile Application Development Boston{" "}
-          <span className="text-[#F15C20] text-nowrap">
-            Companies Rely On
-          </span>{" "}
+        <h1 className="text-5xl capitalize leading-10 tracking-tighter md:text-7xl font-bold ">
+          Discover expert App Development Services in Tampa designed for {" "}
+          <span className="text-[#F15C20] text-nowrap">startups</span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          We don’t just claim to be the best mobile app development company in
-          Boston, we prove it through our services. Our team specializes in
-          mobile application development that brands choose for reliable,
-          custom-built apps. We combine modern frameworks to create mobile
-          solutions that work smoothly. So, your business grows in a competitive
-          digital landscape.
+          Startups have a hard time finding a mobile app development company in Tampa that can be trusted. But we’ve got your back. We’re the team building mobile apps that are easy to use and designed to solve operational challenges.
         </p>
 
         <div className="flex items-center group justify-center ">
           <button className="bg-[#F15C20] group-hover:bg-orange-600 text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Discuss Your App Idea
+            Discuss Your Idea
           </button>
           <button className="bg-[#F15C20] group-hover:bg-orange-600 text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
@@ -34,16 +27,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img
-          src="/location/grad.webp"
-          className="absolute left-[50%] translate-x-[-50%] -top-24 -z-0"
-        />
+        <img src="/location/mobile-tampa/grad.png" className="absolute left-[50%] translate-x-[-50%] -top-[20%] -z-0"  />
         <motion.img
-          src="/location/mobile-boston/mob.png"
+          src="/location/mobile-tampa/mob.png"
           alt="bg"
-          width={300}
-          height={300}
-          className="object-cover relative"
+          width={400}
+          height={400}
+          className="object-cover relative -bottom-10"
           initial={{ y: 80, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}
@@ -53,19 +43,19 @@ const Hero = () => {
           }}
         />
         <img
-          src="/location/mobile-boston/r.png"
+          src="/location/mobile-tampa/r.png"
           alt="r"
-          className="absolute top-[10%] left-[0%] md:left-[70%] translate-x-[-50%]"
+          className="absolute top-[20%] left-[0%] md:left-[67%] translate-x-[-50%]"
         />
         <img
-          src="/location/mobile-boston/l.png"
+          src="/location/mobile-tampa/l.png"
           alt="l"
-          className="absolute top-[30%] left-[0%] md:left-[32%] translate-x-[-50%]"
+          className="absolute top-[42%] left-[0%] md:left-[30%] translate-x-[-50%]"
         />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>
-        <Platforms />
+     <Platforms/>
       </div>
     </div>
   );

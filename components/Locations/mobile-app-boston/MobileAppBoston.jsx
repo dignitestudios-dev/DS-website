@@ -26,17 +26,10 @@ const services = [
     title: "iOS App Development",
     description: (
       <>
-        If you’re going Apple-first, we’ve got you. Being one of the mobile app
-        development companies in New York, we build apps that work smoothly on
-        iPhones. Our{" "}
-        <Link
-          href="/services/ios-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          iOS app development
-        </Link>{" "}
-        and iPhone app development services focus on clean performance and a
-        smooth user experience.
+        Our team makes sure that we provide the best iOS app development services,
+        so we use Swift and SwiftUI to create reliable iPhone apps. Apps that
+        easily meet Apple’s performance standards. We focus on building smooth
+        and reliable apps
       </>
     ),
   },
@@ -46,34 +39,23 @@ const services = [
     title: "Android App Development",
     description: (
       <>
-        For Android, we handle full{" "}
-        <Link
-          href="/services/android-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          Android app development
-        </Link>{" "}
-        using Kotlin and Java. When we offer our Android app development
-        service, we make sure your app runs smoothly across Pixel, Samsung, and
-        OnePlus — without weird bugs.
+        When building Android apps, we make sure they’re built through Kotlin
+        and Java. The QA team tests the application on different Android devices
+        to ensure that your app works just as well in the practical world as it
+        does in development. That’s how we make sure to provide you with the
+        Android app development services.
       </>
     ),
   },
   {
     icon: "pipe",
     icon2: "pipe3",
-    title: "Cross-Platform App Development",
+    title: "Hybrid App Development",
     description: (
       <>
-        Looking for faster delivery and cost efficiency? You need{" "}
-        <Link
-          href="/services/hybrid-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          cross-platform app development
-        </Link>
-        . We build apps with Flutter and React Native, so you get iOS and
-        Android apps from a single codebase.
+        The team uses Flutter and React Native to build apps for iOS and Android
+        from a single codebase. This helps startups reduce development costs.
+        Also while delivering a consistent user experience across platforms.
       </>
     ),
   },
@@ -83,41 +65,10 @@ const services = [
     title: "Native App Development",
     description: (
       <>
-        When you want full control, our{" "}
-        <Link
-          href="/services/native-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          native app development services
-        </Link>{" "}
-        are the best choice. As a native mobile app development company, we
-        build custom native apps and{" "}
-        <Link
-          href="/services/pwa-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          PWAs
-        </Link>{" "}
-        that scale with you.
-      </>
-    ),
-  },
-  {
-    icon: "chat",
-    icon2: "chat6",
-    title: "Web App Development",
-    description: (
-      <>
-        We also handle{" "}
-        <Link
-          href="/services/web-application-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          web app development
-        </Link>{" "}
-        services when your product lives in the browser. Our custom web app
-        development services in New York plug right into your mobile product
-        without friction.
+        For products that need deeper performance and control, we offer native
+        app development services, including fully custom mobile apps and PWAs.
+        This approach is ideal when your product needs tighter integrations,
+        better speed, and long-term flexibility.
       </>
     ),
   },
@@ -127,279 +78,249 @@ const services = [
     title: "UI/UX Design Services",
     description: (
       <>
-        Good design makes everything easier. Our{" "}
-        <Link
-          href="/services/mobile-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          mobile app design services
-        </Link>
-        , including{" "}
-        <Link
-          href="https://www.dignitestudios.com/services/ios-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          iOS app design services
-        </Link>{" "}
-        and{" "}
-        <Link
-          href="/services/android-mobile-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          Android app design services
-        </Link>
-        , focus on clarity, flow, and keeping users happy.
+        Choosing the UI/UX design? Dignite Studios’ mobile app design services
+        focus on simple experiences that users actually enjoy. Our designers
+        design user-friendly interfaces for both iOS and Android that support
+        your product goals.
       </>
     ),
   },
   {
     icon: "chat",
     icon2: "chat6",
-    title: "Maintenance, Testing & Consulting",
+    title: "Maintenance & Consulting",
     description: (
       <>
-        We don’t disappear after launch. From MVP development and post-launch
-        support to QA testing and{" "}
-        <Link
-          href="/services/mobile-app-consulting-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          mobile app consulting services
-        </Link>
-        , we help you fix, improve, and scale without starting over.
+        Launching is just the beginning. We support startups with MVP development
+        services, ongoing post-launch support, and a reliable QA testing service
+        to catch issues early and keep your app running smoothly. From
+        performance improvements to feature updates, our experienced mobile app
+        developers Boston founders trust work alongside you as your product
+        evolves and scales.
       </>
     ),
   },
 ];
 
+
 const highlights = [
   {
-    title: "100% Custom Development",
-    desc: "No templates, no shortcuts. Every product is built specifically for your goals, users, and growth plans.",
+    title: "Custom Development",
+    desc: "Custom solutions for your product goals and requirements.",
   },
   {
-    title: "Specialized Engineering Teams",
-    desc: "You get engineers, designers, and PMs matched to your product, not a random bench.",
+    title: "Skilled Teams",
+    desc: "Dedicated mobile app developers Boston and project managers for your industry needs.",
   },
   {
     title: "24/7 Support",
-    desc: "Questions, fixes, updates — we’re available whenever you need us, not just during office hours.",
+    desc: "Continuous assistance to ensure stability, updates, and smooth performance.",
   },
   {
-    title: "200+ Skilled Technology Experts",
-    desc: "A deep talent pool that helps us scale fast without compromising quality.",
+    title: "Skilled Technology Experts",
+    desc: "A diverse team with proven experience across modern technologies.",
   },
   {
     title: "Flexible Engagement Models",
-    desc: "Fixed scope, dedicated teams, or long-term partnerships — you choose what works.",
+    desc: "Engagement options designed to adapt as your business grows.",
   },
   {
     title: "Transparent Process",
-    desc: "Clear timelines, regular updates, and zero guesswork from day one.",
+    desc: "Open communication and full project visibility.",
   },
 ];
 
+
 const VALUE_PROPOSITION = [
   {
-    title: "Healthcare Apps",
-    desc: "As a Healthcare app development company in New York, we build HIPAA-ready apps. Telemedicine, patient portals, remote monitoring, you name it.",
+    title: "Healthcare Industry",
+    desc: "Being an expert healthcare app development company, we provide HIPAA-compliant solutions through reliable healthcare mobile app development in Boston services designed for data security and operational efficiency for patients.",
   },
   {
-    title: "Fintech Apps",
-    desc: "Through our fintech app development services, we help you launch secure fintech apps and payment mobile apps with multi-layer authentication, KYC/AML support, and transaction management.",
+    title: "Fintech Industry",
+    desc: "For financial products, we operate as a results-driven fintech app development company, delivering reliable fintech app development services focused on security, regulatory standards, and high-performance user experiences.",
   },
   {
-    title: "E-commerce & Retail Apps",
-    desc: "Our ecommerce application development services in New York keep things quick, simple, and tailored to your customers. Storefront? Check. Inventory? Check. POS and loyalty? All covered.",
+    title: "Ecommerce Industry",
+    desc: "For online businesses, we support brands as an experienced ecommerce app development company, offering scalable ecommerce application development services that improve user journeys and conversions.",
   },
   {
-    title: "Education & e-Learning Apps",
-    desc: "We offer education app development services that guide students step by step through courses, videos, and quizzes, while teachers get dashboards that actually help them do their job.",
+    title: "Real Estate Industry",
+    desc: "We also partner with property businesses as a dedicated real estate app development company, delivering tailored real estate app development solutions for listings, CRM, and user engagement.",
   },
   {
-    title: "Real Estate Apps",
-    desc: "Our real estate app development services offer property tech apps that include property listings, advanced filters, virtual tours, mortgage calculators, and lead management tools.",
+    title: "Education & E-learning apps",
+    desc: "In education, we work as an e learning app development company, providing intuitive education app development services for schools, startups, and training platforms.",
   },
   {
-    title: "Dating & Matchmaking Apps",
-    desc: "Real connections come before features. Our approach for New York prioritizes thoughtful matching, verified identities, and privacy controls that encourage genuine engagement.",
+    title: "Logistics Industry",
+    desc: "Additionally, we build smart logistics app development solutions, offering end-to-end logistics app development services to improve tracking, coordination, and operational visibility across supply chains.",
   },
 ];
 
 const test = [
   {
-    name: "Jason Miller",
-    designation: "— Founder, FinEdge NYC",
+    name: "Sarah Mitchell",
+    designation: "— Co-Founder, FinEdge",
     review:
-      "“Dignite Studios helped us launch our mobile app ahead of schedule, and the ROI exceeded expectations within the first few months. Their New York mobile app development team understood our market and delivered with precision.”",
+      "“Dignite Studios was quicker than we expected, and the app started generating revenue in the first 3 months. The ROI was amazing.”",
   },
   {
-    name: "Amanda Lopez",
-    designation: "— Product Lead, UrbanCart",
+    name: "Daniel Brooks",
+    designation: "— Product Lead, HealthSync",
     review:
-      "“What impressed us most was the speed and structure. The mobile app was delivered fast without cutting corners. Clear communication, weekly updates, and zero surprises throughout the process.”",
+      "“The team was professional, responsive, and extremely organized. Our product was delivered on time without cutting corners.”",
   },
   {
-    name: "Daniel Roberts",
-    designation: "— CTO, HealthBridge Solutions",
+    name: "Jason Lee",
+    designation: "— CEO, UrbanCart",
     review:
-      "“Working with Dignite Studios was an amazing experience to be honest. It felt like having our own app team right here in New York. They were super professional, easy to work with, and always on the same page.”",
+      "“What stood out was their clarity and execution. They understood our vision and turned it into a stable, scalable app.”",
   },
 ];
 
 const BENEFITS = [
   {
-    title: "Customer Retention",
-    desc: "The mobile app lets you enhance customer retention by making your brand more accessible.",
+    title: "Customer Engagement",
+    desc: "When you want the brand to be directly connected with the brand, mobile app is the best way to improve engagement and long-term retention through personalized experiences.",
     icon: <FaUser color="#F15C20" size={25} />,
   },
   {
-    title: "Brand Visibility",
-    desc: "Improved visibility leads to stronger connections with your audience, so stay top-of-mind with a branded app.",
+    title: "Increased Brand Visibility",
+    desc: "When your app is installed on the users’ devices, your brand already stays top of mind. Building stronger loyalty with time.",
     icon: <IoGrid color="#F15C20" size={25} />,
   },
   {
-    title: "Drive Revenue",
-    desc: "Mobile apps open new ways to grow your business through mobile sales or in-app purchases.",
+    title: "Revenue Opportunities",
+    desc: "Mobile apps development boston mean direct sales and in-app purchases. So it creates consistent revenue streams beyond traditional channels.",
     icon: <IoWalletOutline color="#F15C20" size={25} />,
   },
   {
-    title: "Actionable Insights",
-    desc: "Built-in analytics in mobile apps help you understand user behavior, make smarter business decisions, and optimize the experience.",
+    title: "Actionable User Insights",
+    desc: "Built-in analytics provide clear visibility to understand user behavior. Helping you optimize features and improve the overall experience.",
     icon: <CiSearch color="#F15C20" size={25} />,
   },
   {
-    title: "Competition",
-    desc: "Having an app gives you an advantage and positions your business as innovative and accessible in the New York mobile app development market.",
+    title: "Competitive Market Advantage",
+    desc: "Investing in app development businesses rely on gives you an edge in crowded markets. At Dignite Studios, we help brands turn mobile apps into measurable growth drivers.",
     icon: <FaPencilAlt color="#F15C20" size={25} />,
   },
 ];
 
+
 const faqs = [
   {
     id: 1,
-    question: "What technologies do you work with?",
+    question: "What tools and technologies do you use to build mobile apps in Boston?",
     answer:
-      "We use modern, proven tech. Flutter. React Native. Swift. Kotlin. Node JS. As one of the reliable mobile app development companies in New York, we choose what fits your product best.",
+      "We keep our tech stack modern and flexible. Depending on your product, we provide Flutter app development services, React Native app development services, Kotlin app development services, and Firebase development services. For mobile application development Boston teams can depend on, we offer a wide range of tools and tech.",
   },
   {
     id: 2,
-    question: "Can I hire you for just iOS or Android?",
+    question: "How much time does it take to build an application?",
     answer:
-      "Yes. iOS, Android, or cross-platform. Our app development New York team helps you pick the right setup and builds it properly from day one.",
+      "A simple MVP can take around 2 or 3 months. If the features are heavy, apps take longer. For mobile application development in Boston, we divide the work into easy steps, so you always know what’s happening and when.",
   },
   {
     id: 3,
-    question: "Do you handle backend and cloud as well?",
+    question: "How can I schedule a consultation with Dignite Studios?",
     answer:
-      "We do. Our mobile application development New York services include backend systems, real-time databases, and cloud infrastructure. Everything your app needs to scale smoothly.",
+      "You don’t need a detailed plan to start. Just book a call with us. We’d listen to your idea and guide you on the next steps. We are experts at mobile application development Boston for a reason, so you no longer have to figure things out on your own. Just contact us!",
   },
   {
     id: 4,
-    question: "How do you keep projects moving on time?",
+    question: "How much should I expect to spend on a mobile app?",
     answer:
-      "Clear sprints. Clear timelines. Regular updates. During the development, you will always be aware of what’s happening and what’s coming next.",
+      "There’s really not a “one price fits all” rule when it comes to developing an app. Because mobile application development in Boston means that pricing usually depends on features and timelines. And for that, we’d need to understand your idea to prepare a clear number for you so contact our experts today to get a cost estimate!",
   },
   {
     id: 5,
-    question: "Do you work with startups and enterprises?",
+    question: "What are the services in mobile app development services are you offering?",
     answer:
-      "Both. MVPs. Growing products. Complex platforms. We scale the team and process based on your goals.",
-  },
-  {
-    id: 6,
-    question: "What happens after launch?",
-    answer:
-      "We stay involved. Updates. Improvements. Performance checks. Your app keeps getting better over time.",
-  },
-  {
-    id: 7,
-    question: "Why work with a New York-based team?",
-    answer:
-      "Faster communication. Better collaboration. A team that understands your market and treats your product seriously.",
+      "At Dignite Studios, we’re offering end-to-end services. This includes strategy, UI/UX design, iOS and Android development, cross-platform apps, testing, and post-launch support. Our mobile application development Boston services are designed to support startups and growing businesses at every stage.",
   },
 ];
+
 
 
 const PROCESS_STEPS = [
   {
     step: "01",
     title: "Discovery & Strategy",
-    desc: "In this phase, we align your business objectives with the app’s vision, features, and technical foundation because clear goals lead to better products.",
+    desc: "We begin by aligning on your goals, users, and app requirements. Through this step, the strategy helps create the product direction.",
   },
   {
     step: "02",
-    title: "User Interface Design",
-    desc: "It is a mobile app development New York process in which a visual mock-up is created that displays the mobile app’s initial design and purpose but does not hold functional code.",
+    title: "UI/UX Prototyping",
+    desc: "Before Dignite Studios’ developers begin the development, our design team creates wireframes and clickable prototypes so you can experience the app before it’s even developed.",
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The sprint planning for app development starts here, and our professional mobile app developers in New York determine the product roadmap and analyze the total execution time.",
+    title: "Agile Development & Sprints",
+    desc: "We build in structured agile cycles with clear sprint planning for app development. You’ll see progress every week, review features as they’re completed, and adjust priorities when needed.",
   },
   {
     step: "04",
-    title: "Testing & Evaluation",
-    desc: "Testing at all stages of the mobile app development process is the best assurance to eliminate serious bugs, stay up-to-date with the current status, and build your esteem.",
+    title: "QA Testing",
+    desc: "We assign a QA team to ensure that you’re getting the perfect quality at every stage of our development process so the QA team checks performance and functionality to ensure the app works smoothly on every device.",
   },
   {
     step: "05",
-    title: "Deployment",
-    desc: "Your app’s journey is finally about to take off. Deployment is the moment where preparation meets performance, including packaging, configuring servers, and ensuring smooth operation across iOS, Android, and beyond.",
+    title: "App Launch & Deployment",
+    desc: "We manage the app release and publish it on the App Store and Google Play once everything is ready. To make the launch process smooth.",
   },
   {
     step: "06",
     title: "Post-Launch Support",
-    desc: "After launch, the developers’ focus shifts to monitoring performance, fixing bugs, and optimizing features based on user feedback.",
+    desc: "After launch, we help track performance using apps for tracking progress and roll out improvements over time. As a trusted partner for mobile application development Boston, we support updates, optimizations, and long-term growth.",
   },
 ];
+
 
 const MobileAppBoston = () => {
   return (
        <div className="max-w-screen-2xl flex flex-col mx-auto overflow-hidden">
       <Hero />
        <About
-        heading="The"
-        heading2={"BackStory"}
-        para="You’re reading about a Mobile App Development Company New York Brands Trust. With 5+ years of experience and 15+ projects delivered, we’re one of the best mobile app development companies in New York, focused on building high-performance apps for real-world use.
-Dignite Studios is a team of 200+ expert mobile app developers in New York who work with startups and growing businesses and help them turn their ideas into scalable, high-performing mobile apps. 
-Including strategy, UI/UX design with agile development and deployment, we make sure to build apps that are reliable, engaging, and built to grow with your business. 
+        heading="What’s Dignite"
+        heading2={"Studios?"}
+        para="Looking for mobile app development services Boston? We are reputed mobile app development company in Boston. We help startups and growing businesses by listening to their app ideas. We provide the practical guidance they need and create mobile applications that are exactly what they imagined. With over 10 years of hands-on experience in the local Boston market, we understand what it takes to build apps that scale, perform, and compete.
+We have a whole team of skilled developers, UI/UX designers, and project managers working with you and for you to deliver secure, user-focused mobile solutions using modern technologies.
+
 "
         button=""
       />
   <Services
         services={services}
         header={"Mobile App Development Services In"}
-        header2={"New York"}
+        header2={"Boston"}
         para={
-          "We are the trusted mobile app development company New York that offers end-to-end services because sometimes, building a mobile application can feel overwhelming. But it doesn’t have to. Every service is focused on performance and long-term growth. "
+          "As a go-to team for mobile app development Boston founders rely on, we’re proud to be part of the growing Boston mobile app development ecosystem."
         }
       />
         <Bussiness
         bs={highlights}
         header={"Why Teams Choose"}
         header2={"Dignite Studios"}
-        ctaHeader={"Ready To Work With The Right Team?"}
+        ctaHeader={" Still Deciding If We’re the Right Fit?"}
         ctaPara={
-          "Choosing a development partner is a big decision, and you’ve seen how we work and what we value. Now let’s discuss your product goals, technical needs"
+          "It’s completely fair to overthink your decision because choosing a mobile application development Boston team is a big decision. Let’s talk through if you have questions or concerns before moving forward."
         }
-        ctaBtn={"Let’s Talk About Your Idea"}
+        ctaBtn={"Talk to Our Team"}
         cta={
              <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
                      <div className="relative" >
                      <img src="/location/mobile-boston/cta-img.png" className="w-full rounded-b-2xl bottom-3 relative bg-cover" alt="lggg" />
                      <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
                        <h1 className="text-[45px] font-bold text-white leading-[45px]">
-                         Ready To Work With The Right Team?
+                        Still Deciding If We’re the Right Fit?
                        </h1>
                        <p>
-                         Choosing a development partner is a big decision, and you’ve
-                         seen how we work and what we value. Now let’s discuss your
-                         product goals, technical needs
+                        It’s completely fair to overthink your decision because choosing a mobile application development Boston team is a big decision. Let’s talk through if you have questions or concerns before moving forward. 
                        </p>
                        <div className="flex items-center group justify-center ">
                          <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                           Let’s Talk About Your Idea
+                          Talk to Our Team
                          </button>
                          <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
                            <MdArrowOutward />
@@ -411,77 +332,57 @@ Including strategy, UI/UX design with agile development and deployment, we make 
         }
         para={
           <>
-            Choosing a mobile app development company New York is a big call,
-            and we don’t take that lightly. At Dignite Studios, we focus on
-            doing the work right, keeping things transparent, and building
-            products that actually hold up after launch. You need to look for a
-            company that provides you clarity, collaboration, and long-term
-            value when you’re looking for mobile application development in New
-            York. When it comes to working with founders, product teams, and
-            growing businesses, our{" "}
-            <Link
-              href={"/services/hire-mobile-app-developers"}
-              className="underline"
-            >
-              {" "}
-              experienced mobile app developers
-            </Link>{" "}
-            in New York bring structure, speed, and accountability to every
-            project. This is why many clients consider us the{" "}
-            <Link
-              className="underline"
-              href={"/services/mobile-app-development-services"}
-            >
-              {" "}
-              best mobile app development company New York{" "}
-            </Link>{" "}
-            to work with.
+        Dignite Studios focuses on building reliable, scalable products for businesses that value long-term impact. For companies seeking dependable mobile apps development Boston teams, we bring structure, experience, and a clear delivery process to every engagement.
           </>
         }
       />
       <Industries
         VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Specialized App Development for"}
-        header2={" New York  Industries"}
+        header={"Industry-Focused Mobile App Development in "}
+        header2={"Boston"}
         para={
-          "At Dignite Studios, we don’t offer one-size-fits-all products. We build mobile app solutions shaped around your business model, compliance needs, and growth p."
+          "We provide customized solutions through mobile application development Boston businesses trust. "
         }
       />
       <Process
       steps={PROCESS_STEPS}
-        header={"Our Proven Mobile App Development Process"}
+        header={"Boston Mobile App Development Process"}
         para={
-          "Every app has a story. At our mobile app development company in New York, we follow a structured approach that brings your idea to life. It’s fast and perfectly aligned with your business vision. Here’s the process that turns concepts into apps."
+          "We believe a strong process makes everything else easier. That’s why our mobile app development process steps are built to keep things clear, collaborative, and moving forward without unnecessary complexity."
         }
       />
       <MobileApp
-        header={"Why Mobile App is a Competitive "}
-        header2={"Advantage"}
+        header={"Benefits of Having a Mobile "}
+        header2={"App"}
         para={
-          "Here’s why investing in an app from the best mobile app development company in New York is essential:"
+          "A mobile app is basically a direct channel to engage users, strengthen brand value, and drive measurable returns for your business."
         }
         cards={BENEFITS}
       />
-      <SuccessStories />
+      <SuccessStories
+      header={"Real-life Success "}
+      header2={"Stories"}
+      para={"Want to see how things actually get done? Our case studies walk you through live projects, practical solutions, and apps we’ve delivered. Showing why many founders consider us the best mobile app development Boston."}
+       />
       <CTA />
       <TechAndTools />
-      <SEO />
+      <SEO  header={"Focused Mobile Application Development Boston"} para={"Choosing the right partner in Boston can completely change the way your app performs in a competitive market."}/>
       <Testimonials
         test={test}
-        header={"Hear From Our New York"}
-        header2={"Clients"}
-        para={""}
+        header={"What Our Clients "}
+        header2={"Say"}
+        para={"Startups and growing businesses choose us. Our clients often describe us as the best mobile app development company in Boston for our ability to combine quality and measurable business outcomes."}
       />
         <Faq faqs={faqs} /> 
       <ContactUs
       img={"/location/mobile-boston/c-img.png"}
-        pathname={"Mobile Dev in New York "}
-        header={"Start Your App Journey with Our NYC Team "}
+        pathname={"Mobile Dev in Boston "}
+        header={"You’re Closer Than You Think to Getting Started"}
         header2={""}
         para={
-          "Work with a team that understands your goals. Our New York-based experts take care of development, design, and deployment so your product has a strong market presence. "
+          "We get that you’re doubting, but you don’t need to figure out everything first to get started. Our team is here to guide you with experience and honest execution. You just need to talk to us!"
         }
-        btn={"Schedule a Free Call"}
+        btn={"Get Your Free Consultation"}
       />
       {/*     <Bussiness />
      <Industries />

@@ -4,9 +4,9 @@ import MobileAppBoston from '@/components/Locations/mobile-app-boston/MobileAppB
 import GlobalLayout from '@/layout/GlobalLayout'
 import React from 'react'
 export const metadata = {
-  title: "Experienced Mobile App Development Company New York",
+  title: "Mobile Application Development Boston | Dignite Studios",
   description:
-    "Mobile app development company New York delivering iOS, Android, and cross-platform apps with scalable tech, expert teams, and real business results today.",
+    "Mobile Application Development Boston services by Dignite Studios. We build high-performing apps for startups and growing businesses working worldwide.",
 };
 const page = () => {
   //   <head>

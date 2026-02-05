@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
 import PhoneInput from "react-phone-input-2";
 
-const ContactUs = ({ pathname, header,img , header2, para, btn }) => {
+const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -139,7 +139,7 @@ const ContactUs = ({ pathname, header,img , header2, para, btn }) => {
         background: "#0A0A0A",
         width: "100%",
       }}
-      className="w-full bg-gradient-to-t mt-40 from-[#FFFDFA] to-[#FFFBFA] relative grid grid-cols-1  justify-start items-start md:py-20 "
+      className="w-full bg-gradient-to-t mt-40 from-[#FFFDFA] to-[#FFFBFA] relative grid grid-cols-1  justify-start items-start md:py-32 "
     >
       <img
         src="/location/contact-crnr.png"
@@ -264,13 +264,13 @@ const ContactUs = ({ pathname, header,img , header2, para, btn }) => {
             </div>
           </div>
         </div>
-        <div className="lg:w-[40%]">
+        <div className="lg:w-[40%] lg:block hidden">
           <img
             src={img}
             width={320}
             height={320}
             alt="mobile"
-            className="-bottom-0 absolute right-28 z-10"
+            className="bottom-12 absolute right-28 z-10"
           />
         </div>
       </div>
