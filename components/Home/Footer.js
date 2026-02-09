@@ -5,6 +5,7 @@ import Link from "next/link";
 import { GlobalContext } from "@/context/GlobalContext";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
+import { MdArrowOutward } from "react-icons/md";
 
 const Footer = () => {
   const { palette } = useContext(GlobalContext);
@@ -138,39 +139,76 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-black w-full -mt-10">
-      <div className="w-full h-auto backdrop-blur-[50px] -mt-20  relative z-50 transition-all duration-300 flex flex-col pt-20 pb-10 px-6 md:px-12 lg:px-16 xl:px-20 2xl:px-48 rounded-t-[50px] md:rounded-t-[100px] ">
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
+    <div className="w-full h-auto bg-black   -mt-24  z-50 transition-all duration-300 flex flex-col pt-20 pb-10 px-6 md:px-12 lg:px-16 xl:px-20 2xl:px-48 rounded-t-[50px] md:rounded-t-[100px]">
+      <div className=" absolute top-0 left-1/2 -translate-x-1/2 w-full mb-4 bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[.8px]" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-12 gap-x-8 gap-y-12 mb-16 relative z-10">
-          <div className="col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-2 xl:col-span-3 flex flex-col gap-6">
-            <Link href="/">
-              <Image
-                loader={customLoader}
-                src="/logo-dark.webp"
-                alt="Dignite Studios Logo"
-                width={200}
-                height={60}
-                className="w-48 h-auto"
-              />
-            </Link>
-            <p className="text-white font-extralight text-[13px] leading-relaxed max-w-xs">
-              Don't compromise on your app's success. Gain a competitive edge.
-              Our professional app developers California provide expertise,
-              creativity, and reliability.
-            </p>
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-12 gap-x-8 gap-y-12 mb-16 relative z-10">
+        {/* Logo and Description - Sticky on Mobile */}
+        <div className="col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-2 xl:col-span-3 flex flex-col gap-6 sticky top-0 bg-black/95 backdrop-blur-sm z-30 py-6 md:relative md:top-auto md:bg-transparent md:backdrop-blur-none md:py-0 items-center text-center md:items-start md:text-left">
+          <Link href="/">
+            <Image
+              loader={customLoader}
+              src="/logo-dark.webp"
+              alt="Dignite Studios Logo"
+              width={200}
+              height={200}
+              className="w-36 h-auto"
+            />
+          </Link>
+          <p className="text-white uppercase font-bold leading-relaxed max-w-xs">
+            Don't compromise on your app's success.{" "}
+            <span className="text-[#F15C20]">Gain a competitive edge.</span>
+          </p>
+          <div className="flex items-center group justify-center md:justify-start pt-4">
+            <button
+              type="submit"
+              className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
+            >
+              Discuss Your Idea
+            </button>
+            <button
+              type="submit"
+              className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg"
+            >
+              <MdArrowOutward />
+            </button>
           </div>
+          <div className="flex flex-col items-center md:items-start">
+            <div className="text-white">E : info@dignitestudios.com</div>
+            <div className="text-white">P : +1 877 714 1770</div>
+          </div>
+        </div>
 
-          <div className="col-span-1 md:col-span-1 lg:col-span-2 xl:col-span-2 flex flex-col gap-0">
+        <div className="col-span-1 md:col-span-1 lg:col-span-2 xl:col-span-2 flex flex-col gap-0 items-center text-center md:items-start md:text-left">
+          <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
+            Services
+          </h4>
+          <ul className="flex flex-col items-center md:items-start">
+            {footerLinks.services.map((link, idx) => (
+              <li key={idx}>
+                <Link
+                  href={link.href}
+                  className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                >
+                  {link.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col gap-10 items-center text-center md:items-start md:text-left">
+          <div className="flex flex-col items-center md:items-start">
             <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
-              Services
+              Technology
             </h4>
-            <ul className="flex flex-col ">
-              {footerLinks.services.map((link, idx) => (
+            <ul className="flex flex-col items-center md:items-start">
+              {footerLinks.technology.map((link, idx) => (
                 <li key={idx}>
                   <Link
                     href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20]  text-[12px] transition-colors duration-200"
+                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
                   >
                     {link.name}
                   </Link>
@@ -178,166 +216,146 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-
-          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col gap-10">
-            <div>
-              <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
-                Technology
-              </h4>
-              <ul className="flex flex-col ">
-                {footerLinks.technology.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2 text-nowrap">
-                Quick Links
-              </h4>
-              <ul className="flex flex-col ">
-                {footerLinks.quickLinks.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Industries & State */}
-          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col gap-10">
-            <div>
-              <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
-                Industries
-              </h4>
-              <ul className="flex flex-col ">
-                {footerLinks.industries.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
-                State
-              </h4>
-              <ul className="flex flex-col ">
-                {footerLinks.state.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Ecommerce & Support */}
-          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col gap-10">
-            <div>
-              <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
-                Ecommrece
-              </h4>
-              <ul className="flex flex-col ">
-                {footerLinks.ecommerce.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
-                Support
-              </h4>
-              <ul className="flex flex-col ">
-                {footerLinks.support.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Location & Connect */}
-          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col gap-10">
-            <div>
-              <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
-                Location
-              </h4>
-              <ul className="flex flex-col ">
-                {footerLinks.location.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
-                Connect With Us
-              </h4>
-              <ul className="flex flex-col ">
-                {footerLinks.connect.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <div className="flex flex-col items-center md:items-start">
+            <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2 text-nowrap">
+              Quick Links
+            </h4>
+            <ul className="flex flex-col items-center md:items-start">
+              {footerLinks.quickLinks.map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.href}
+                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 
-        {/* Bottom Bar */}
-    
-          <div className="w-[18%] mb-4 bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[1px]" />
-          <p className="text-white ml-2 font-extralight text-[11px] capitialize ">
-            © 2024 Dignite Studio. All rights reserved.
-          </p>
-    
+        {/* Industries & State */}
+        <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col gap-10 items-center text-center md:items-start md:text-left">
+          <div className="flex flex-col items-center md:items-start">
+            <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
+              Industries
+            </h4>
+            <ul className="flex flex-col items-center md:items-start">
+              {footerLinks.industries.map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.href}
+                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="flex flex-col items-center md:items-start">
+            <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
+              State
+            </h4>
+            <ul className="flex flex-col items-center md:items-start">
+              {footerLinks.state.map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.href}
+                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Ecommerce & Support */}
+        <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col gap-10 items-center text-center md:items-start md:text-left">
+          <div className="flex flex-col items-center md:items-start">
+            <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
+              Ecommrece
+            </h4>
+            <ul className="flex flex-col items-center md:items-start">
+              {footerLinks.ecommerce.map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.href}
+                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="flex flex-col items-center md:items-start">
+            <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
+              Support
+            </h4>
+            <ul className="flex flex-col items-center md:items-start">
+              {footerLinks.support.map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.href}
+                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Location & Connect */}
+        <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col gap-10 items-center text-center md:items-start md:text-left">
+          <div className="flex flex-col items-center md:items-start">
+            <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
+              Location
+            </h4>
+            <ul className="flex flex-col items-center md:items-start">
+              {footerLinks.location.map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.href}
+                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="flex flex-col items-center md:items-start">
+            <h4 className="text-[#F15C20] font-bold text-sm capitialize tracking-wider mb-2">
+              Connect With Us
+            </h4>
+            <ul className="flex flex-col items-center md:items-start">
+              {footerLinks.connect.map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.href}
+                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Bar */}
+      <div className="flex flex-col items-center md:items-start">
+        <div className="md:w-[18%] w-full mb-4 bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[1px]" />
+        <p className="text-white font-extralight text-[11px] capitialize">
+          © 2024 Dignite Studio. All rights reserved.
+        </p>
       </div>
     </div>
   );

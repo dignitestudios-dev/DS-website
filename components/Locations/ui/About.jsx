@@ -5,11 +5,11 @@ const About = ({heading,heading2 , para , button}) => {
   return (
      <div className="w-full grid grid-cols-1  justify-start items-start md:py-20 ">
       <div className="flex relative z-20  w-[90%] md:w-[75%] flex-col text-center mx-auto items-center">
-        <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
+        <h1 className="text-4xl leading-[42px] md:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
           {heading}{" "}
           <span className="text-[#F15C20]"> {heading2}</span>{" "}
         </h1>
-        <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">
+        <p className="text-sm md:text-lg my-6 dark:text-white text-black/50 md:text-[#0C0C0C]">
          {para}
         </p>
 

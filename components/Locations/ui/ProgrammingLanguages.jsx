@@ -1,7 +1,7 @@
 import React from "react";
 import TechStackCard from "./TechStackCard";
 
-const languages = [
+export const languages = [
   {
     icon: "/staff-augmentation/swift-icon.webp",
     width: 64,

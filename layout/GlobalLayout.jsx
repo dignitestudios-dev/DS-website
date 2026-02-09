@@ -92,7 +92,7 @@ const GlobalLayout = ({ page }) => {
   const formatPhoneNumber = (phoneNumber) => {
     const formattedNumber = phoneNumber.replace(
       /^(\d{3})(\d{3})(\d{4})$/,
-      "($1) $2-$3"
+      "($1) $2-$3",
     );
     return formattedNumber;
   };
@@ -167,7 +167,7 @@ const GlobalLayout = ({ page }) => {
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
-        { method: "POST", body: data1, mode: "no-cors" }
+        { method: "POST", body: data1, mode: "no-cors" },
       )
         .then((response) => {
           window.location.assign("https://www.dignitestudios.com/thank-you");
@@ -188,9 +188,9 @@ const GlobalLayout = ({ page }) => {
       <Cursor />
       <ScrollToTopButton />
       <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
-      <div className="overflow-x-hidden w-full h-auto flex flex-col justify-start items-center gap-4">
+      <div className="overflow-x-hidden w-full h-auto flex flex-col justify-start items-center">
         <Navbar setIsOpen={setIsSidebarOpen} />
-
+<div className="pt-20" />
         <div
           onClick={handleCloseModal}
           className={`screen-form ${showModal ? "show" : "hide"}`}
@@ -415,7 +415,9 @@ const GlobalLayout = ({ page }) => {
             </div>
           </form>
         </div>
+       
         {page}
+     
         <Footer />
         <FixedSocials />
       </div>

@@ -10,33 +10,28 @@ import "swiper/css/pagination";
 
 const testData = [
   {
-    name: "Los Angeles",
-    desgination: "– SaaS Founder",
+    name: "Shawn Brown",
+    desgination: "– CTO, DigiNest Solutions",
     review:
-      "“Dignite Studios helped us launch 3 months faster than expected. Their communication easily makes them the top mobile app developers California has to offer.” ",
+      "“We needed mobile app maintenance and support services, and Dignite Studios ensured our app runs perfectly. The team is highly professional.”",
   },
   {
-    name: "San Diego",
-    desgination: "– E-Commerce CEO",
+    name: "Steve Johns",
+    desgination: "– Founder, HealthVision",
     review:
-      "“Our ROI jumped significantly within the first quarter. The team understood our goals instantly.” ",
+      "“Recommending Dignite Studios because our app stays updated and secure now. Their mobile app development services gave us complete peace of mind.”",
   },
   {
-    name: "San Francisco",
-    desgination: "– Healthcare Startup",
+    name: "Michael Lee",
+    desgination: "– Product Manager, FoodieGo",
     review:
-      "“Professional and incredibly efficient. Their ability to deliver a smooth user experience was impressive.” ",
-  },
-  {
-    name: "Silicon Valley",
-    desgination: "– Fintech Product Lead",
-    review:
-      "“ If you need the best mobile app developers in California, this is where you go.” ",
+      "“The team provides excellent services, keeping our app smooth and continuously improving the experience for our users.”",
   },
 ];
 
+
 const Testimonials = ({ header, header2, para, test: customTest }) => {
-  const testimonials = customTest || testData;
+  const testimonials =  testData;
 
   return (
     <div className="w-full grid grid-cols-1 justify-start items-start md:py-40 py-20 relative z-20">
@@ -65,10 +60,10 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
           }}
           breakpoints={{
             640: {
-              slidesPerView: 3,
+              slidesPerView: 1,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 2,
             },
             1280: {
               slidesPerView: 4,

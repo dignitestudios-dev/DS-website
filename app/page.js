@@ -84,18 +84,20 @@ const Page = () => {
           content="Top Mobile App Development Company"
         />
         <meta name="msvalidate.01" content="94BB860CACBBFCA50505F40D3B4C33CC" />
-         <Script
-        strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-0GWJVWYEKD"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-0GWJVWYEKD');
-        `}
-      </Script>
+       <Script
+  strategy="afterInteractive"
+  src="https://www.googletagmanager.com/gtag/js?id=G-ZR6NCYD3K9"
+/>
+
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZR6NCYD3K9');
+  `}
+</Script>
+
       </head>
       <GlobalLayout page={<HomePage />} />
 

@@ -132,21 +132,22 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
   };
   return (
     <div
-      style={{
-        // height: "20%",
-        // aspectRatio: "3/2",
-        clipPath: "ellipse(200% 100% at 50% 100%)",
-        background: "#0A0A0A",
-        width: "100%",
-      }}
-      className="w-full bg-gradient-to-t mt-40 from-[#FFFDFA] to-[#FFFBFA] relative grid grid-cols-1  justify-start items-start md:py-32 "
+        className="
+    w-full bg-[#0A0A0A]
+    pt-24 sm:pt-32
+    overflow-visible
+    [clip-path:ellipse(350%_100%_at_50%_100%)]
+    sm:[clip-path:ellipse(350%_100%_at_50%_100%)]
+    md:[clip-path:ellipse(200%_100%_at_50%_100%)]
+    relative grid grid-cols-1 pb-44  justify-start items-start md:py-32
+  "
     >
       <img
         src="/location/contact-crnr.png"
         width={600}
         height={600}
         alt="mobile"
-        className="absolute -bottom-10 right-0"
+        className="absolute lg:block hidden -bottom-10 right-0"
       />
       <div className="flex justify-center w-[80%] mx-auto lg:justify-between items-center">
         <div className="lg:w-[50%]">

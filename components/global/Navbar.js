@@ -13,8 +13,9 @@ const Navbar = ({ setIsOpen }) => {
   const navigate = useRouter();
   const [showDropdown, setShowDropdown] = useState(false);
   const pathname = usePathname();
+
   const handleClick = (id) => {
-    if (pathname != "/") {
+    if (pathname !== "/") {
       navigate.push("/");
       setTimeout(() => {
         const element = document.getElementById(id);
@@ -22,257 +23,171 @@ const Navbar = ({ setIsOpen }) => {
           element.scrollIntoView({ behavior: "smooth", block: "start" });
         }
       }, 500);
+      return;
     }
+
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
-  const navigateTo = (link) => {
-    navigate.push(link);
-  };
 
   return (
-    <nav
-      className={`relative px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  h-20  flex items-center justify-between w-full z-40`}
-    >
+    <nav className={"absolute top-0 left-0 px-4 md:px-12 bg-transparent lg:px-28 xl:px-[120px] 2xl:px-48 h-20 flex items-center justify-between w-full z-[99999999]"}>
+      {/* Logo */}
       <Link aria-label="logo" href="/" className="h-auto">
         <img
           alt="Dignite Studios Logo"
           title="Dignite Studios Logo"
-          // loader={customLoader}
           width={120}
           height={70}
-          src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"}
+          src={pathname === "/" ?   "/logo-dark.webp" :"/logo.webp" }
           className="h-[70px] w-[120px]"
         />
       </Link>
 
+      {/* Desktop Menu */}
       <div
-        style={{ color: palette?.color }}
-        className={`w-auto mx-auto
-         hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8`}
+        className="w-auto mx-auto hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8"
+        style={{
+          color: pathname === "/" ? "#ffffff" : palette?.color,
+        }}
       >
         <Link
-          aria-label="link"
-          href={"/"}
-          className={`text-[14px] font-medium hover:text-[#F15C20]
-            } bg-transparent  outline-none`}
+          href="/"
+          className="text-[14px] font-medium hover:text-[#F15C20] bg-transparent outline-none"
         >
           Home
         </Link>
+
         <button
           onMouseEnter={() => setShowDropdown(true)}
-          className={`group text-[14px] ${
-            showDropdown && "text-[#F15C20]"
-          } relative gap-2 h-8 font-medium flex justify-between items-center  bg-transparent  outline-none`}
+          className={`group text-[14px] relative gap-2 h-8 font-medium flex items-center bg-transparent outline-none ${
+            showDropdown ? "text-[#F15C20]" : ""
+          }`}
         >
           <span>Services</span>
           <IoIosArrowDown
-            className={`text-md ${
-              showDropdown ? "rotate-180 transition-all duration-300" : ""
+            className={`text-md transition-all duration-300 ${
+              showDropdown ? "rotate-180" : ""
             }`}
           />
         </button>
+
         <button
           onClick={() => handleClick("case-studies")}
-          className={`text-[14px] h-8 font-medium hover:text-[#F15C20] bg-transparent  outline-none`}
+          className="text-[14px] h-8 font-medium hover:text-[#F15C20] bg-transparent outline-none"
         >
           Case Studies
         </button>
+
         <Link
-          href={"/about-us"}
-          className={`text-[14px] font-medium hover:text-[#F15C20] bg-transparent  outline-none`}
+          href="/about-us"
+          className="text-[14px] font-medium hover:text-[#F15C20] bg-transparent outline-none"
         >
           About us
         </Link>
+
         <Link
-          href={"/contact-us"}
-          className={`text-[14px] font-medium hover:text-[#F15C20] bg-transparent  outline-none`}
+          href="/contact-us"
+          className="text-[14px] font-medium hover:text-[#F15C20] bg-transparent outline-none"
         >
           Contact
         </Link>
       </div>
+
+      {/* Dropdown */}
       {showDropdown && (
         <div
           onMouseLeave={() => setShowDropdown(false)}
-          className={`w-[100%] min-h-[369px] p-6 z-50 text-md transition-all duration-150 hidden lg:flex gap-2 justify-center lg:gap-x-8 xl:gap-x-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2  ${
-            theme == "dark" ? "shadow-xl" : "shadow-xl"
-          } -right-24`}
-          style={{ background: palette?.background, color: palette?.color }}
+          className="w-full min-h-[369px] p-6 z-50 hidden lg:flex gap-8 xl:gap-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2 shadow-xl"
+          style={{
+            background: palette?.background,
+            color: palette?.color,
+          }}
         >
-          <div className="flex flex-col items-start gap-3">
+          {/* Development */}
+          <div className="flex flex-col gap-3">
             <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">
               Development
             </h5>
-            <Link
-              href={"/services/mobile-app-development-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile
-              App Development Services
-            </Link>
-            <Link
-              href={"/services/android-app-development-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Android
-              App Development Services
-            </Link>
-            <Link
-              href={"/services/ios-app-development-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> iOS App
-              Development Services
-            </Link>
-            <Link
-              href={"/services/native-app-development-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Native
-              App Development Services
-            </Link>
-            <Link
-              href={"/services/web-application-development-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Web App
-              Development Services
-            </Link>
-            <Link
-              href={"/services/pwa-development-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
-              PWA Development Services
-            </Link>
-            <Link
-              href={"/services/hire-mobile-app-developers"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
-              Hire Mobile App Developers
-            </Link>
-
-            <Link
-              href={"/services/hire-android-app-developers"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
-              Hire Android App Developers
-            </Link>
-            <Link
-              href={"/services/hire-ios-app-developers"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
-              Hire iOS App Developers
-            </Link>
-            <Link
-              href={"/services/hybrid-app-development-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
-              Hybrid App Development Services
-            </Link>
+            {[
+              ["Mobile App Development Services", "/services/mobile-app-development-services"],
+              ["Android App Development Services", "/services/android-app-development-services"],
+              ["iOS App Development Services", "/services/ios-app-development-services"],
+              ["Native App Development Services", "/services/native-app-development-services"],
+              ["Web App Development Services", "/services/web-application-development-services"],
+              ["PWA Development Services", "/services/pwa-development-services"],
+            ].map(([label, link]) => (
+              <Link key={link} href={link} className="hover:text-[#F15C20] flex items-center gap-2">
+                <GoDotFill className="text-[#F15C20] w-[11px] h-[11px]" />
+                {label}
+              </Link>
+            ))}
           </div>
-          <div className="flex flex-col items-start gap-3">
+
+          {/* Maintenance */}
+          <div className="flex flex-col gap-3">
             <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">
               Maintenance & Consulting
             </h5>
-            <Link
-              href={
-                "/services/mobile-application-support-and-maintenance-services"
-              }
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
-              Mobile App Support & Maintenance Services
-            </Link>
-            <Link
-              href={"/services/mobile-app-consulting-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile
-              App Consulting Services
-            </Link>
-            <Link
-              href={"/services/mobile-app-testing-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile
-              App Testing Services
-            </Link>
+            {[
+              ["Mobile App Support & Maintenance Services", "/services/mobile-application-support-and-maintenance-services"],
+              ["Mobile App Consulting Services", "/services/mobile-app-consulting-services"],
+              ["Mobile App Testing Services", "/services/mobile-app-testing-services"],
+            ].map(([label, link]) => (
+              <Link key={link} href={link} className="hover:text-[#F15C20] flex items-center gap-2">
+                <GoDotFill className="text-[#F15C20] w-[11px] h-[11px]" />
+                {label}
+              </Link>
+            ))}
           </div>
-          <div className="flex flex-col items-start gap-3">
+
+          {/* Design */}
+          <div className="flex flex-col gap-3">
             <h5 className="text-[#F15C20] font-semibold text-[20px] mb-2">
               Design
             </h5>
-            <Link
-              href={"/services/mobile-app-design-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
-              Mobile App Design Services
-            </Link>
-            <Link
-              href={"/services/android-mobile-app-design-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Android
-              App Design Services
-            </Link>
-            <Link
-              href={"/services/ios-app-design-services"}
-              className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
-            >
-              <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
-              iOS App Design Services
-            </Link>
+            {[
+              ["Mobile App Design Services", "/services/mobile-app-design-services"],
+              ["Android App Design Services", "/services/android-mobile-app-design-services"],
+              ["iOS App Design Services", "/services/ios-app-design-services"],
+            ].map(([label, link]) => (
+              <Link key={link} href={link} className="hover:text-[#F15C20] flex items-center gap-2">
+                <GoDotFill className="text-[#F15C20] w-[11px] h-[11px]" />
+                {label}
+              </Link>
+            ))}
           </div>
         </div>
       )}
 
-      <div className="w-auto flex gap-3 justify-start items-center">
+      {/* Right Actions */}
+      <div className="flex gap-3 items-center">
+        {/* Theme Toggle */}
         <button
-          aria-label="button"
-          name="theme-toggle"
-          type="button"
-          onClick={() => setTheme(theme == "dark" ? "light" : "dark")}
-          className={`${
-            theme == "light" ? "bg-[#00ACFF]/[0.18]" : "bg-[#A9A1D7]/[0.18]"
-          } rounded-full transition-all duration-300 w-[50px] lg:w-[70px] h-[30px] lg:h-[37.5px] p-[4px] flex justify-start items-center`}
+          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+          className={`rounded-full transition-all duration-300 w-[50px] lg:w-[70px] h-[30px] lg:h-[37.5px] p-[4px] flex items-center ${
+            theme === "light" ? "bg-[#00ACFF]/[0.18]" : "bg-[#A9A1D7]/[0.18]"
+          }`}
         >
           <span
-            className={`h-6 w-6 lg:h-8 lg:w-8 text-xl text-white transition-all duration-300 rounded-full flex items-center justify-center ${
-              theme == "light"
+            className={`h-6 w-6 lg:h-8 lg:w-8 text-white rounded-full flex items-center justify-center transition-all duration-300 ${
+              theme === "light"
                 ? "translate-x-0 bg-[#00ACFF]"
                 : "translate-x-[calc(100%-28%)] lg:translate-x-[calc(100%-3%)] bg-[#342A6D]"
-            } `}
+            }`}
           >
-            {theme == "light" ? (
-              <BsFillBrightnessHighFill className="text-lg" />
-            ) : (
-              <IoMoon />
-            )}
+            {theme === "light" ? <BsFillBrightnessHighFill /> : <IoMoon />}
           </span>
         </button>
 
-        <button
-          aria-label="button"
-          type="button"
-          name="menu-toggle"
-          onClick={() => setIsOpen(true)}
-          className="flex lg:hidden h-4 lg:h-auto"
-        >
+        {/* Mobile Menu */}
+        <button onClick={() => setIsOpen(true)} className="flex lg:hidden">
           <img
-            src={theme == "light" ? "/hamburger.webp" : "/menu-dark.webp"}
-            className="h-full"
-            height={28}
-            width={34}
-            alt="hamburger-icon"
-            title="hamburger-icon"
+            src={theme === "light" ? "/hamburger.webp" : "/menu-dark.webp"}
+            alt="menu"
+            className="h-4"
           />
         </button>
       </div>

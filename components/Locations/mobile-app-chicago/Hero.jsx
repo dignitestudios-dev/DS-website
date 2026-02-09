@@ -8,8 +8,8 @@ import Platforms from "../ui/Platforms";
 const Hero = () => {
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start pt-20  ">
-      <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
-        <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
+      <div className="flex relative z-20  w-[95%] md:w-[65%] flex-col text-center mx-auto items-center">
+        <h1 className="text-4xl leading-[42px] md:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
           Mobile App Development Company Chicago for Scalable{" "}
           <span className="text-[#F15C20] text-nowrap">Digital Products</span>{" "}
         </h1>
@@ -27,13 +27,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img src="/location/grad.webp" className="absolute left-[50%] translate-x-[-50%] -top-[50%] -z-0"  />
+        <img src="/location/grad.webp" className="absolute md:block hidden left-[50%] translate-x-[-50%] -top-[50%] -z-0"  />
         <motion.img
           src="/location/mobile-chicago/mob.png"
           alt="bg"
           width={400}
           height={400}
-          className="object-cover relative"
+          className="object-cover relative md:w-fit w-[65%]"
           initial={{ y: 80, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}
@@ -45,12 +45,12 @@ const Hero = () => {
         <img
           src="/location/mobile-chicago/r.png"
           alt="r"
-          className="absolute top-[20%] left-[0%] md:left-[75%] translate-x-[-50%]"
+          className="absolute top-[20%] left-[0%] md:left-[75%] translate-x-[-50%] md:block hidden"
         />
         <img
           src="/location/mobile-chicago/l.png"
           alt="l"
-          className="absolute top-[30%] left-[0%] md:left-[32%] translate-x-[-50%]"
+          className="absolute top-[30%] left-[0%] md:left-[32%] translate-x-[-50%] md:block hidden"
         />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>

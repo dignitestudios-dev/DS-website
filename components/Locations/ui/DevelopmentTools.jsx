@@ -1,7 +1,7 @@
 import React from "react";
 import TechStackCard from "./TechStackCard";
 
-const platforms = [
+export const devTools = [
   {
     icon: "/staff-augmentation/github-icon.png",
     width: 58,
@@ -73,7 +73,7 @@ const platforms = [
 const DevelopmentTools = () => {
   return (
     <section className="w-full mt-10 flex items-center justify-center flex-wrap gap-2">
-      {platforms?.map((tech, index) => {
+      {devTools?.map((tech, index) => {
         return <TechStackCard tech={tech} index={index} key={index} />;
       })}
     </section>

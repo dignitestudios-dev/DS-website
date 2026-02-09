@@ -63,7 +63,41 @@ const icons = [
   },
 ];
 
-const Industries = ({ VALUE_PROPOSITION, header, header2, para }) => {
+const VALUE_PROPOSITION =  [
+  {
+    title: "Real Estate Industry",
+    desc:
+      "We build apps that simplify property listings, enable virtual tours, and provide efficient lead management."
+  },
+  {
+    title: "Ecommerce",
+    desc:
+      "Providing ecommerce mobile app development services that help startups boost sales through seamless shopping experiences."
+  },
+  {
+    title: "Health & Fitness",
+    desc:
+      "We are a trusted startup app development company that builds apps to track wellness goals, workouts, and overall fitness."
+  },
+  {
+    title: "Travel",
+    desc:
+      "Dignite Studios is known for building travel apps that simplify bookings and deliver smooth experiences across mobile and web platforms."
+  },
+  {
+    title: "Food and Delivery",
+    desc:
+      "We build apps for restaurants and delivery services that enhance ordering, payments, and customer engagement."
+  },
+  {
+    title: "Matchmaking and Dating",
+    desc:
+      "We create secure, interactive dating apps designed to scale with growth, built by a trusted startup app development company."
+  }
+];
+
+
+const Industries = ({  header, header2, para }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   // Duplicate data to ensure infinite loop works smoothly
@@ -77,12 +111,12 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para }) => {
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start py-20 md:py-40 ">
       <div className="flex relative z-20  w-[90%] md:w-[78%] flex-col text-center mx-auto items-center">
-        <h1 className="text-4xl leading-[40px] md:leading[1.1] tracking-tighter md:text-7xl font-bold ">
-          {header}
-          <span className="text-[#F15C20]"> {header2}</span>{" "}
+        <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
+         Powering Startups Across Top {" "}
+          <span className="text-[#F15C20]">Industries</span>{" "}
         </h1>
-        <p className="text-sm md:text-lg my-6 dark:text-white md:w-[60%] mx-auto text-[#0C0C0C]">
-          {para}
+        <p className="text-lg my-6 dark:text-white md:w-[60%] mx-auto text-[#0C0C0C]">
+         As the best mobile app development agency for startups, we create industry-focused apps that help businesses engage users and deliver measurable results across sectors.
         </p>
       </div>
       <div className="w-full overflow-hidden">
@@ -109,7 +143,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para }) => {
             return (
               <SwiperSlide
                 key={index}
-                className="!bg-white    !text-black !w-[290px] !h-[376px] shadow-2xl  !p-2 !rounded-[14px] transition-transform duration-500 !flex !flex-col !items-center !justify-center"
+                className="!bg-white    !text-black !w-[290px] !h-[376px] shadow-2xl  !p-2 !rounded-[14px] transition-transform duration-500 flex justify-center"
                 style={{
                   transform: isActive ? "scale(1)" : "scale(0.9)",
                   transition: "transform 0.5s ease",

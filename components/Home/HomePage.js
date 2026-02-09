@@ -4,45 +4,36 @@ import { useContext, useState, useEffect } from "react";
 import CaseStudiesSection from "@/components/Home/CaseStudiesSection";
 import Faq from "@/components/Home/Faq";
 import Hero from "@/components/Home/Hero";
-import IndustriesSection from "@/components/Home/IndustriesSection";
-import Process from "@/components/Home/Process";
-import Slider from "@/components/Home/Slider";
-import Technologies from "@/components/Home/Technologies";
-import Testimonials from "@/components/Home/Testimonials";
-import WhyChooseUsSection from "@/components/Home/WhyChooseUsSection";
-import TopRatedPageOurOffices from "../services/TopRatedMobileAppDevelopment/TopRatedPageOurOffices";
-import ConvenientMobileAppDevelopment from "./ConvenientMobileAppDevelopment";
-import AreaOfExpertise from "./AreaOfExpertise";
-import HybridAppContactForm from "../global/HybridAppContactForm";
+import MobileAppServices from "@/components/Home/MobileAppServices";
+import SuccessStories from "./SuccessStories";
+import Bussiness from "./Bussiness";
+import Process from "./Process";
+import Testimonials from "./Testimonials";
+import GlobalPresence from "./GlobalPresence";
+import Industries from "./Industries";
+import Impact from "./Impact";
+import TechTools from "./TechTools";
+import ProductDesign from "./ProductDesign";
 
 export default function HomePage() {
-  const { palette , theme } = useContext(GlobalContext);
+  const { palette, theme } = useContext(GlobalContext);
   useEffect(() => {
-  document.documentElement.classList.toggle("dark", theme === "dark")
-}, [theme])
+    document.documentElement.classList.toggle("dark", theme === "dark");
+  }, [theme]);
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
+    <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto pb-28">
       <Hero />
-
-      <div
-        className="scroller relative w-full h-auto md:h-96 "
-        data-speed="fast"
-        data-animated="true"
-      >
-        <Slider />
-      </div>
-
-      <Technologies />
-      <ConvenientMobileAppDevelopment />
-      <CaseStudiesSection />
+      <MobileAppServices />
+      <SuccessStories />
+      <Bussiness />
       <Process />
-      <WhyChooseUsSection />
-      <AreaOfExpertise />
-      <IndustriesSection />
+      <Industries />
+      <TechTools />
+      <Impact />
       <Testimonials />
+      <ProductDesign />
+      <GlobalPresence />
       <Faq />
-      <HybridAppContactForm />
-      <TopRatedPageOurOffices />
     </div>
   );
 }

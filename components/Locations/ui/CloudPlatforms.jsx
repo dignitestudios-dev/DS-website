@@ -1,7 +1,7 @@
 import React from "react";
 import TechStackCard from "./TechStackCard";
 
-const platforms = [
+export const cloudPlatforms = [
   {
     icon: "/staff-augmentation/aws-icon.png",
     width: 59,
@@ -56,7 +56,7 @@ const platforms = [
 const CloudPlatforms = () => {
   return (
     <section className="w-full mt-10 flex items-center justify-center flex-wrap gap-2">
-      {platforms?.map((tech, index) => {
+      {cloudPlatforms?.map((tech, index) => {
         return <TechStackCard tech={tech} index={index} key={index} />;
       })}
     </section>
