@@ -188,9 +188,9 @@ const GlobalLayout = ({ page }) => {
       <Cursor />
       <ScrollToTopButton />
       <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
-      <div className="overflow-x-hidden w-full h-auto flex flex-col justify-start items-center">
+      <div className="w-full h-auto flex flex-col justify-start items-center">
         <Navbar setIsOpen={setIsSidebarOpen} />
-<div className="pt-20" />
+        <div className="pt-20" />
         <div
           onClick={handleCloseModal}
           className={`screen-form ${showModal ? "show" : "hide"}`}
@@ -415,9 +415,9 @@ const GlobalLayout = ({ page }) => {
             </div>
           </form>
         </div>
-       
+
         {page}
-     
+
         <Footer />
         <FixedSocials />
       </div>

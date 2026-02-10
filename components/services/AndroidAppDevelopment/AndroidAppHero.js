@@ -16,7 +16,7 @@ const AndroidAppHero = () => {
   const images = ["/mobile-hero-mockup-3.png", "/mobile-hero-mockup-4.png"];
 
   return (
-    <div className="bg-ios bg-black w-full lg:h-screen flex flex-col justify-start items-start">
+    <div className="bg-ios bg-black w-full flex flex-col justify-start items-start pt-28 md:pt-40">
       <ServicesNavbar setIsOpen={setIsSidebarOpen} />
       <div className="w-full flex lg:h-[calc(100%-5rem)] py-6 lg:py-0 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48">
         <div className="w-full lg:w-[60%] 2xl:w-[80%] h-full flex flex-col justify-center text-center lg:text-start items-center lg:items-start gap-2">
@@ -47,7 +47,9 @@ const AndroidAppHero = () => {
             }}
             className="lg:w-[80%] my-2 lg:my-6 text-[13px] lg:text-[14px] 2xl:text-lg font-normal"
           >
-           Explore unique illustrations of a renowned Android app development company Dignite Studios which has tremendously transformed the merchandising scale to the top level. 
+            Explore unique illustrations of a renowned Android app development
+            company Dignite Studios which has tremendously transformed the
+            merchandising scale to the top level.
           </span>
           <div className="w-auto flex gap-4 justify-start items-center">
             <Link

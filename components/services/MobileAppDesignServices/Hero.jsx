@@ -7,7 +7,7 @@ import React, { useContext } from "react";
 const Hero = () => {
   const { theme } = useContext(GlobalContext);
   return (
-    <main className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col items-center gap-6 md:gap-8 pt-2 md:pt-20 pb-12 text-center relative z-10">
+    <main className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col items-center gap-6 md:gap-8 pt-28 md:pt-40 pb-12 text-center relative z-10">
       <h1
         className={`lg:leading-[90.72px] text-3xl md:text-4xl font-extrabold lg:font-bold lg:text-[68px] xl:text-[68px] 2xl:text-[84px] z-20 2xl:leading-[40.72px]`}
       >

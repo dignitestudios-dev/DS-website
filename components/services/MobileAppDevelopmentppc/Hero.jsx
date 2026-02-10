@@ -7,23 +7,32 @@ import ContactFormPPPC from "./ContactFormPPPC";
 import ContactButtonPPC from "@/components/global/ContactButtonPPC";
 
 const Hero = () => {
-  const { theme,setIsSidebarOpen } = useContext(GlobalContext);
+  const { theme, setIsSidebarOpen } = useContext(GlobalContext);
   return (
     <main className="w-full relative lg:h-[120vh] overflow-hidden 2xl:h-auto  md:mb-20  ">
-            <Navbar setIsOpen={setIsSidebarOpen} />
-      <div className="w-full global-padding-horizontal relative flex flex-col lg:flex-row wrap gap-x-6 gap-y-16 pt-20">
+      <Navbar setIsOpen={setIsSidebarOpen} />
+      <div className="w-full global-padding-horizontal relative flex flex-col lg:flex-row wrap gap-x-6 gap-y-16 pt-28 md:pt-40">
         <div className="w-full text-start relative md:pb-20  flex flex-col items-start">
-        <p
+          <p
             className={` font-[600] text-lg  z-10 ${
               theme === "light" && "text-[#5C5C5C]"
             }`}
-          >Awards & Recognition</p>
-          <AwardsRecognition/>
+          >
+            Awards & Recognition
+          </p>
+          <AwardsRecognition />
           <h1 className="mt-7 headings-size tracking-tighter text-start z-10">
-         <span> Top-Notch Mobile  
-          <img src="/ppc_border.webp" className='relative  md:left-10 -top-4' alt="" srcset="" />
-          </span>
-         <span className='relative -top-4' >App Development </span>          
+            <span>
+              {" "}
+              Top-Notch Mobile
+              <img
+                src="/ppc_border.webp"
+                className="relative  md:left-10 -top-4"
+                alt=""
+                srcset=""
+              />
+            </span>
+            <span className="relative -top-4">App Development </span>
             <br />
             <span> Service</span>
           </h1>
@@ -32,23 +41,29 @@ const Hero = () => {
               theme === "light" && "text-[#5c5c5c]"
             }`}
           >
-           Creating seamless app experiences. Transforming your ideas 
-           into exceptional mobile app solutions. 
-
+            Creating seamless app experiences. Transforming your ideas into
+            exceptional mobile app solutions.
           </p>
 
           <div className="mt-10 z-10">
             <ContactButtonPPC text1={"Schedule a Call"} text2={"Let's Talk"} />
           </div>
         </div>
-        <div className="w-full lg:w-[80%] pb-28 md:pb-20 sm:pb-20 mt-7 ppp2-bg-contact flex items-baseline ">          
+        <div className="w-full lg:w-[80%] pb-28 md:pb-20 sm:pb-20 mt-7 ppp2-bg-contact flex items-baseline ">
           <div className="w-[100%]  mx-auto md:w-[650.69px] h-[100%] absolute lg:-top-[80px] lg:right-[0px] z-0 gap-5">
-              <img src="/contact_hero_bg.webp" className='h-full lg:h-[100%]'  alt="" srcset="" />
+            <img
+              src="/contact_hero_bg.webp"
+              className="h-full lg:h-[100%]"
+              alt=""
+              srcset=""
+            />
           </div>
-          <div className={`${
-        theme === "light" ? "bg-[#FFFFFF]" : "bg-[#2d2d2d]"
-      }   w-[100%] xl:w-[85%] rounded-xl top-20 p-5 shadow-box relative margin-right-auto lg:-top-12  z-2`} >
-             <ContactFormPPPC/>
+          <div
+            className={`${
+              theme === "light" ? "bg-[#FFFFFF]" : "bg-[#2d2d2d]"
+            }   w-[100%] xl:w-[85%] rounded-xl top-20 p-5 shadow-box relative margin-right-auto lg:-top-12  z-2`}
+          >
+            <ContactFormPPPC />
           </div>
         </div>
       </div>

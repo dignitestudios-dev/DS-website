@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <main className="w-full ">
-      <div className="w-full global-padding-horizontal flex flex-col pt-2 md:py-10 relative gap-4 justify-start items-center">
+      <div className="w-full global-padding-horizontal flex flex-col pt-28 md:pt-40 relative gap-4 justify-start items-center">
         <div className="mx-auto w-[217px] h-[37px] rounded-full flex items-center justify-center border border-[#4EDA75]">
           <h1 className="text-[#4EDA75] text-sm font-medium">
             Android app design services

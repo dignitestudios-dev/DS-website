@@ -14,7 +14,7 @@ const Hero = () => {
   const [toggleImg2, setToggleImg2] = useState(false);
 
   return (
-    <div className="w-full text-center relative pb-20 pt-2 md:pt-10 global-padding-horizontal flex flex-col items-center">
+    <div className="w-full text-center relative pb-20 pt-28 md:pt-40 global-padding-horizontal flex flex-col items-center">
       <div
         className={`flex items-center justify-center gap-1 rounded-full px-4 py-2 mb-6 ${
           theme === "light" ? "bg-[#F6F6F6]" : "bg-[#2d2d2d]"

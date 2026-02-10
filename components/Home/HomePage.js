@@ -35,7 +35,7 @@ export default function HomePage() {
       <ProductDesign />
       <GlobalPresence />
       <Faq />
-      <ContactUs img="/cc.png" btn={"Schedule a Call"}  />
+      <ContactUs img="/cc.png" btn={"Schedule a Call"} />
     </div>
   );
 }

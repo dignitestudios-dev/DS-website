@@ -10,7 +10,7 @@ const MobileAppDevSeoHero = () => {
   const { palette, setIsSidebarOpen, theme } = useContext(GlobalContext);
 
   return (
-    <main className="top-rated-bg bg-black w-full h-[90vh] md:h-[80vh] lg:h-screen flex flex-col justify-start items-start z-0 relative">
+    <main className="top-rated-bg bg-black w-full h-[90vh] md:h-[80vh] lg:h-screen flex flex-col justify-start items-start pt-28 md:pt-40 z-0 relative">
       {theme === "light" ? (
         <div className="revolutionary-hero-overlay-light" />
       ) : (
@@ -55,12 +55,12 @@ const MobileAppDevSeoHero = () => {
                 className="bg-[#F15C20] text-white rounded-[12px] text-center py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden"
               >
                 {/* First text */}
-                <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
+                <span className="absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
                   Free Consultation
                 </span>
 
                 {/* Second text */}
-                <span className="block absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                <span className="absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
                   Let's talk
                 </span>
               </Link>
@@ -80,12 +80,12 @@ const MobileAppDevSeoHero = () => {
                 } text-white rounded-[12px] text-center py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden`}
               >
                 {/* First text */}
-                <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
+                <span className="absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
                   Get a quote
                 </span>
 
                 {/* Second text */}
-                <span className="block absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                <span className="absolute inset-0 flex items-center justify-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
                   Let's talk
                 </span>
               </Link>

@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <>
       <Navbar setIsOpen={setIsSidebarOpen} />
-      <main className="w-full flex flex-col items-center gap-6 md:gap-8 pt-10 md:pt-20 pb-0 text-center relative z-10 lg:h-[110vh] 2xl:h-[90vh]">
+      <main className="w-full flex flex-col items-center gap-6 md:gap-8 pt-28 md:pt-40 pb-0 text-center relative z-10 lg:h-[110vh] 2xl:h-[90vh]">
         <div
           className="w-full flex flex-col items-center gap-6 md:gap-4 relative pt-1 global-padding-horizontal"
           data-aos="slide-down"

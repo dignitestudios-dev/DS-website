@@ -16,7 +16,7 @@ const IosAppHero = () => {
   const images = ["/mobile-hero-mockup-3.png", "/mobile-hero-mockup-4.png"];
 
   return (
-    <div className="bg-ios bg-black w-full lg:h-screen flex flex-col justify-start items-start">
+    <div className="bg-ios bg-black w-full flex flex-col justify-start items-start pt-28 md:pt-40">
       <ServicesNavbar setIsOpen={setIsSidebarOpen} />
       <div className="w-full flex lg:h-[calc(100%-5rem)] py-6 lg:py-0 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48">
         <div className="w-full lg:w-[60%] h-full flex flex-col justify-center text-center lg:text-start items-center lg:items-start gap-2">
@@ -26,8 +26,7 @@ const IosAppHero = () => {
             }}
             className="lg:block hidden text-3xl font-extrabold lg:text-4xl xl:text-[64px] 2xl:text-[104px] xl:leading-[67.84px] 2xl:leading-[112px] lg:font-bold xl:font-semibold tracking-tight "
           >
-            Dynamic{" "}
-            <span style={{ color: palette?.brandOrange }}>iOS</span> App
+            Dynamic <span style={{ color: palette?.brandOrange }}>iOS</span> App
             <br /> Development
             <br /> Service
           </h1>
@@ -37,9 +36,8 @@ const IosAppHero = () => {
             }}
             className="lg:hidden block text-3xl font-extrabold lg:text-5xl lg:font-bold "
           >
-            Dynamic{" "}
-            <span style={{ color: palette?.brandOrange }}>iOS</span> <br />{" "}
-            app development Service
+            Dynamic <span style={{ color: palette?.brandOrange }}>iOS</span>{" "}
+            <br /> app development Service
           </h1>
           <span
             style={{
@@ -47,7 +45,10 @@ const IosAppHero = () => {
             }}
             className="lg:w-[80%] my-2 lg:my-6 text-[13px] lg:text-[14px] font-normal"
           >
-            Harnessing diverse clientele for years, Dignite Studios unravels critical business stinks and processes adequate decisions to bulge among large industries. Here, we construct productive and top-class iOS app development services to uplift your brand to the next level. 
+            Harnessing diverse clientele for years, Dignite Studios unravels
+            critical business stinks and processes adequate decisions to bulge
+            among large industries. Here, we construct productive and top-class
+            iOS app development services to uplift your brand to the next level.
           </span>
           <div className="w-auto flex gap-4 justify-start items-center">
             <Link

@@ -8,7 +8,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
   return (
-    <main className="w-full global-padding-horizontal flex flex-col pt-2 md:py-10 h-[110vh] lg:h-[140vh] 2xl:h-screen relative gap-4 justify-start items-center">
+    <main className="w-full global-padding-horizontal flex flex-col pt-28 md:pt-40 h-[110vh] lg:h-[140vh] 2xl:h-screen relative gap-4 justify-start items-center">
       <h1
         style={{
           color: palette?.color,

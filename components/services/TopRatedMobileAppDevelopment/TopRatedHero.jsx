@@ -77,10 +77,10 @@ const TopRatedHero = () => {
 
       fetch(
         "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
-        { method: "POST", body: data1, mode: "no-cors" }
+        { method: "POST", body: data1, mode: "no-cors" },
       )
         .then((response) => {
-          console.log('response >> ', response)
+          console.log("response >> ", response);
           window.location.assign("https://www.dignitestudios.com/thank-you");
         })
         .catch((error) => {
@@ -149,7 +149,7 @@ const TopRatedHero = () => {
   };
 
   return (
-    <div className="top-rated-bg bg-black w-full lg:h-screen flex flex-col justify-start items-start z-0 relative">
+    <div className="top-rated-bg bg-black w-full flex flex-col justify-start items-start pt-28 md:pt-40 z-0 relative">
       {theme === "light" ? (
         <div className="apply-overlay-light" />
       ) : (
