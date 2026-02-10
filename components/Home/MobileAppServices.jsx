@@ -51,11 +51,11 @@ const MobileAppServices = () => {
   return (
     <section className="w-full py-20 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black rounded-t-[4rem] mt-20 relative z-40 ">
       <div className="text-center max-w-7xl mx-auto mb-20 pt-8">
-        <h2 className="text-4xl md:text-7xl font-extrabold mb-6 text-black dark:text-white leading-[1.1] tracking-tight">
-          Our Mobile App Development <br />
-          Services <span className="text-[#F15C20]">in California</span>
+        <h2 className="text-4xl md:text-7xl font-bold  mb-6 text-black dark:text-white leading-[1.1] tracking-tighter">
+          Offering Custom App Development Solutions For{" "}
+          <span className="text-[#F15C20]">Startups</span>
         </h2>
-        <p className="text-gray-500 dark:text-gray-400 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
+        <p className=" text-lg  leading-relaxed ">
           When you work with Dignite Studios, you're partnering with a partner
           who cares for your success. We designed and created mobile app
           development services according to your needs.
@@ -129,7 +129,10 @@ const MobileAppServices = () => {
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
-          <img src="/home-hero/db.png" className="absolute md:block hidden bottom-0 right-0" />
+          <img
+            src="/home-hero/db.png"
+            className="absolute md:block hidden bottom-0 right-0"
+          />
           <motion.img
             src="/home-hero/monitor.png"
             className="absolute bottom-0 left-1/2 -translate-x-1/2 md:left-5 lg:left-10 w-4/5 md:w-4/5 lg:w-auto"
@@ -155,7 +158,7 @@ const MobileAppServices = () => {
           />
           <motion.img
             src="/home-hero/p4.png"
-            className="absolute bottom-0 left-1/2 -translate-x-1/2 md:left-[25%] md:translate-x-0 w-[60%] md:w-auto"
+            className="absolute -bottom-7 left-1/2 -translate-x-1/2 md:left-[25%] md:translate-x-0 w-[60%] md:w-auto"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -174,11 +177,11 @@ const MobileAppServices = () => {
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
           <img
             src="/home-hero/el3.png"
-            className="absolute md:block hidden w-full -bottom-10 left-1/2 translate-x-[-50%]"
+            className="absolute md:block hidden w-full -bottom-14 left-1/2 translate-x-[-50%]"
           />
           <motion.img
             src="/home-hero/p5.png"
-            className="absolute -bottom-10 md:-bottom-28 left-1/2 -translate-x-1/2 md:left-[15%] md:translate-x-0 w-[70%] md:w-auto"
+            className="absolute -bottom-10 md:-bottom-36 left-1/2 -translate-x-1/2 md:left-[15%] md:translate-x-0 w-[70%] md:w-auto"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: -40, opacity: 1 }}
             viewport={{ once: true }}

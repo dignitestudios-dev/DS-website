@@ -207,11 +207,11 @@ const TechTools = () => {
   "
     >
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl md:text-7xl font-bold mb-6">
-          Tools, Technologies <br />
-          <span className="text-[#F15C20]">& Frameworks</span>
+        <h2 className="text-4xl md:text-7xl leading-[42px] tracking-tighter lg:leading-[1.1] font-bold mb-6">
+          The Tech Behind Secure Mobile Application
+          <span className="text-[#F15C20]"> Development</span>
         </h2>
-        <p className="font-extralight max-w-2xl mx-auto mb-16 text-lg">
+        <p className="font-extralight mx-auto mb-16 text-lg">
           Do you ever wonder what exactly makes some apps feel so smooth while
           some apps look like a mess? Our mobile app development services make
           sure yours runs smoothly, every time.

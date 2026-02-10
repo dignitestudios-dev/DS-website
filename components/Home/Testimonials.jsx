@@ -37,8 +37,8 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
     <div className="w-full grid grid-cols-1 justify-start items-start md:py-40 py-20 relative z-20">
       <div className="flex relative z-20 w-[90%] md:w-[55%] flex-col text-center mx-auto items-center">
         <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
-          {header}
-          <span className="text-[#F15C20]"> {header2}</span>{" "}
+          The Client 
+          <span className="text-[#F15C20]"> Stories</span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">{para}</p>
       </div>

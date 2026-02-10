@@ -165,23 +165,20 @@ const Process = () => {
     <div
       id="process"
       className="w-full"
-      style={{ background: palette?.dark_contrast_background }}
+      // style={{ background: palette?.dark_contrast_background }}
     >
       {/* Desktop View */}
       <div className="hidden md:block w-full py-10">
         <div className="px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex flex-col items-center justify-start">
           <div className="w-full px-0 flex flex-col justify-between items-center">
-            <p className="text-xl font-bold text-[#8F8F8F] uppercase">
-              6 step {currentTab}
-            </p>
-            <h2 className="lg:font-bold text-center uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold">
-              mobile app development <br /> process
+          
+            <h2 className="lg:font-bold text-center capitialize font-extrabold text-4xl lg:text-7xl leading-[42px] lg:leading-[1.1] tracking-tighter xl:font-bold">
+             The Way Dignite Studios Works
             </h2>
             <p
-              className={`text-sm lg:text-[16px] my-3 lg:leading-[24.48px] font-[400] lg:w-[35%] ${theme === "light" && "text-[#2A2A2A]"}`}
+              className={`text-lg text-center mt-4 `}
             >
-              Our mobile app development agency articulates the brand’s voice
-              and values through a systematic approach below:
+           Our workflow is a combination of strategy, design, and fast development. The team ensures smooth execution. We don’t compromise on delivering scalable apps, ensuring transparency.
             </p>
           </div>
           <div className="w-full h-auto mt-6 lg:my-6 grid grid-cols-3 grid-rows-1">

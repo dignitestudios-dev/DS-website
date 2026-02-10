@@ -109,7 +109,7 @@ const BlogCard = ({ post, isFeatured }) => {
         </h3>
 
         {isFeatured && post.description && (
-          <p className="text-gray-400 mt-4 line-clamp-3 font-light text-base leading-relaxed">
+          <p className="text-gray-400 mt-4 line-clamp-7 font-light text-base leading-relaxed">
             {post.description}
           </p>
         )}

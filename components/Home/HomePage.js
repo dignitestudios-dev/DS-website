@@ -14,6 +14,7 @@ import Industries from "./Industries";
 import Impact from "./Impact";
 import TechTools from "./TechTools";
 import ProductDesign from "./ProductDesign";
+import ContactUs from "./ContactUs";
 
 export default function HomePage() {
   const { palette, theme } = useContext(GlobalContext);
@@ -34,6 +35,7 @@ export default function HomePage() {
       <ProductDesign />
       <GlobalPresence />
       <Faq />
+      <ContactUs img="/cc.png" btn={"Schedule a Call"}  />
     </div>
   );
 }

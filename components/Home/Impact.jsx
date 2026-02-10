@@ -24,12 +24,11 @@ const Impact = () => {
     <section className="w-full py-20 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black">
       <div className="text-center max-w-4xl mx-auto mb-16">
         <h2 className="text-[40px] md:text-[64px] font-bold text-black dark:text-white leading-[1.1] mb-6">
-          Our Impact In <br />
-          <span className="text-[#F15C20]">Numbers</span>
+          Letting The Numbers{" "}
+          <span className="text-[#F15C20]">Speak</span>
         </h2>
-        <p className="text-gray-500 dark:text-gray-400 text-lg md:text-xl max-w-2xl mx-auto">
-          We've delivered exceptional results for clients worldwide, building
-          reliable solutions and driving growth across industries.
+        <p className=" text-lg ">
+         We understand that you need a trusted startup app development company that has actually delivered successful projects. So, here’s the stats:
         </p>
       </div>
 

@@ -33,7 +33,11 @@ const Navbar = ({ setIsOpen }) => {
   };
 
   return (
-    <nav className={"absolute top-0 left-0 px-4 md:px-12 bg-transparent lg:px-28 xl:px-[120px] 2xl:px-48 h-20 flex items-center justify-between w-full z-[99999999]"}>
+    <nav
+      className={
+        "absolute top-0 left-0 px-4 md:px-12 bg-transparent lg:px-28 xl:px-[120px] 2xl:px-48 h-20 flex items-center justify-between w-full z-[99999999]"
+      }
+    >
       {/* Logo */}
       <Link aria-label="logo" href="/" className="h-auto">
         <img
@@ -41,7 +45,7 @@ const Navbar = ({ setIsOpen }) => {
           title="Dignite Studios Logo"
           width={120}
           height={70}
-          src={pathname === "/" ?   "/logo-dark.webp" :"/logo.webp" }
+          src={pathname === "/" ? "/logo-dark.webp" : "/logo.webp"}
           className="h-[70px] w-[120px]"
         />
       </Link>
@@ -112,14 +116,36 @@ const Navbar = ({ setIsOpen }) => {
               Development
             </h5>
             {[
-              ["Mobile App Development Services", "/services/mobile-app-development-services"],
-              ["Android App Development Services", "/services/android-app-development-services"],
-              ["iOS App Development Services", "/services/ios-app-development-services"],
-              ["Native App Development Services", "/services/native-app-development-services"],
-              ["Web App Development Services", "/services/web-application-development-services"],
-              ["PWA Development Services", "/services/pwa-development-services"],
+              [
+                "Mobile App Development Services",
+                "/services/mobile-app-development-services",
+              ],
+              [
+                "Android App Development Services",
+                "/services/android-app-development-services",
+              ],
+              [
+                "iOS App Development Services",
+                "/services/ios-app-development-services",
+              ],
+              [
+                "Native App Development Services",
+                "/services/native-app-development-services",
+              ],
+              [
+                "Web App Development Services",
+                "/services/web-application-development-services",
+              ],
+              [
+                "PWA Development Services",
+                "/services/pwa-development-services",
+              ],
             ].map(([label, link]) => (
-              <Link key={link} href={link} className="hover:text-[#F15C20] flex items-center gap-2">
+              <Link
+                key={link}
+                href={link}
+                className="hover:text-[#F15C20] flex items-center gap-2"
+              >
                 <GoDotFill className="text-[#F15C20] w-[11px] h-[11px]" />
                 {label}
               </Link>
@@ -132,11 +158,24 @@ const Navbar = ({ setIsOpen }) => {
               Maintenance & Consulting
             </h5>
             {[
-              ["Mobile App Support & Maintenance Services", "/services/mobile-application-support-and-maintenance-services"],
-              ["Mobile App Consulting Services", "/services/mobile-app-consulting-services"],
-              ["Mobile App Testing Services", "/services/mobile-app-testing-services"],
+              [
+                "Mobile App Support & Maintenance Services",
+                "/services/mobile-application-support-and-maintenance-services",
+              ],
+              [
+                "Mobile App Consulting Services",
+                "/services/mobile-app-consulting-services",
+              ],
+              [
+                "Mobile App Testing Services",
+                "/services/mobile-app-testing-services",
+              ],
             ].map(([label, link]) => (
-              <Link key={link} href={link} className="hover:text-[#F15C20] flex items-center gap-2">
+              <Link
+                key={link}
+                href={link}
+                className="hover:text-[#F15C20] flex items-center gap-2"
+              >
                 <GoDotFill className="text-[#F15C20] w-[11px] h-[11px]" />
                 {label}
               </Link>
@@ -149,11 +188,21 @@ const Navbar = ({ setIsOpen }) => {
               Design
             </h5>
             {[
-              ["Mobile App Design Services", "/services/mobile-app-design-services"],
-              ["Android App Design Services", "/services/android-mobile-app-design-services"],
+              [
+                "Mobile App Design Services",
+                "/services/mobile-app-design-services",
+              ],
+              [
+                "Android App Design Services",
+                "/services/android-mobile-app-design-services",
+              ],
               ["iOS App Design Services", "/services/ios-app-design-services"],
             ].map(([label, link]) => (
-              <Link key={link} href={link} className="hover:text-[#F15C20] flex items-center gap-2">
+              <Link
+                key={link}
+                href={link}
+                className="hover:text-[#F15C20] flex items-center gap-2"
+              >
                 <GoDotFill className="text-[#F15C20] w-[11px] h-[11px]" />
                 {label}
               </Link>
