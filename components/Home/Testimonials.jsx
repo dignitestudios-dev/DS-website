@@ -43,7 +43,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
         <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">{para}</p>
       </div>
 
-      <div className="w-full py-12 px-4 md:px-0">
+      <div className="w-full py-12 px-4 md:px-8">
         <Swiper
           modules={[Autoplay, Pagination]}
           spaceBetween={30}
@@ -87,7 +87,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
                   <div
                     className={`relative w-[258px] h-[295px] group rounded-[30px] shadow-2xl transition-all duration-500 ease-in-out ${
                       isActive
-                        ? "scale-110 z-30 opacity-100"
+                        ? "scale-110 z-30 opacity-100 "
                         : "scale-90 opacity-40 z-10"
                     }`}
                   >
