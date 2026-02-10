@@ -17,11 +17,11 @@ const img = [
 ];
 const Hero = () => {
   return (
-    <div className="w-full overflow-hidden  flex flex-col pt-2 md:pt-10 h-[80vh] gap-4 justify-start items-center">
+    <div className="w-full overflow-hidden  flex flex-col pt-12 md:pt-24 gap-4 justify-start items-center">
       <img
         src="/home-hero/grad.png"
         alt="grad"
-        className="absolute  z-10 left-0 top-0 bg-repeat-none bg-cover lg:h-auto h-full w-full"
+        className="absolute  z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover lg:h-auto h-full w-full"
       />
       <img
         src="/home-hero/l1.png "
@@ -47,7 +47,7 @@ const Hero = () => {
         animate={{ y: [0, 15, 0] }}
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
       />
-      <div className="relative z-50 text-white gap-5 flex flex-col items-center justify-center h-full lg:w-[50%] w-[80%] text-center mx-auto">
+      <div className="relative overflow-hidden z-50 text-white gap-5 flex flex-col items-center justify-center h-full lg:w-[50%] w-[80%] text-center mx-auto">
         <h1 className="text-[40px] leading-[40px] md:text-[60px] md:leading-[60px] capitalize font-semibold tracking-tighter">
           Your Technical Co-Pilot: Expert Startup App Development Company
         </h1>
@@ -70,7 +70,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="w-full lg:w-[70%] mx-auto relative lg:top-10 z-50">
+      <div className="w-full lg:w-[70%] overflow-hidden mx-auto relative lg:top-10 z-50">
         <Marquee loop={0} className="py-8 overflow-hidden">
           {img.map((item, index) => (
             <div

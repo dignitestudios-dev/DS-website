@@ -175,8 +175,19 @@ const Footer = () => {
             </button>
           </div>
           <div className="flex flex-col items-center md:items-start">
-            <div className="text-white">E : info@dignitestudios.com</div>
-            <div className="text-white">P : +1 877 714 1770</div>
+            <a
+              href="mailto:info@dignitestudios.com"
+              className="text-white hover:text-[#F15C20] transition"
+            >
+              E : info@dignitestudios.com
+            </a>
+
+            <a
+              href="tel:+18777141770"
+              className="text-white hover:text-[#F15C20] transition"
+            >
+              P : +1 877 714 1770
+            </a>
           </div>
         </div>
 
