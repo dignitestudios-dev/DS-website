@@ -146,7 +146,7 @@ const Footer = () => {
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
         {/* Sticky Logo Section - Mobile */}
-        <div className="sticky top-0 z-30 bg-black py-6 -mx-6 px-6 border-b border-white/10">
+        <div className="sticky top-0 pt-5 z-30 bg-black py-6 -mx-6 px-6 border-b border-white/10">
           <div className="flex flex-col gap-4 items-center text-center">
             <Link href="/">
               <Image
@@ -377,13 +377,13 @@ const Footer = () => {
       </div>
 
       {/* DESKTOP FOOTER */}
-      <div className="hidden md:block w-full h-auto bg-black relative -mt-24 z-50 transition-all duration-300 pt-20 pb-10 px-12 lg:px-16 xl:px-20 2xl:px-48 rounded-t-[100px]">
+      <div className="hidden md:block w-full h-auto bg-black relative -mt-24 z-50 transition-all duration-300 pt-20 pb-10 px-12 lg:px-16 xl:px-28 rounded-t-[100px]">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[.8px]" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
-        <div className="w-full grid grid-cols-3 lg:grid-cols-6 xl:grid-cols-12 gap-x-8 gap-y-12 mb-16 relative z-10">
+        <div className="w-full grid grid-cols-3 lg:grid-cols-6 xl:grid-cols-11 gap-x-8 gap-y-12 mb-16 relative z-10">
           {/* Logo and Description */}
-          <div className="col-span-3 lg:col-span-2 xl:col-span-3 flex flex-col gap-6 sticky top-0 z-30 bg-black py-6">
+          <div className="col-span-3 lg:col-span-2 xl:col-span-3 flex flex-col gap-6 sticky top-0 z-30  py-6">
             <Link href="/">
               <Image
                 loader={customLoader}
