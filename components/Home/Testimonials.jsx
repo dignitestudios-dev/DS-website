@@ -42,7 +42,6 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">{para}</p>
       </div>
-
       <div className="w-full py-12 px-4 md:px-8">
         <Swiper
           modules={[Autoplay, Pagination]}
