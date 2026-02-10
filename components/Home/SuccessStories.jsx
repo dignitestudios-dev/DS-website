@@ -10,7 +10,7 @@ const SuccessStories = ({header , para , header2}) => {
               {/* <span className="text-[#F15C20]"> {header2 || "Dignite Studios"}</span>{" "} */}
             </h1>
             <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">
-            This collection highlights my most effective design work, focusing on real challenges and strategic solutions. Each case study breaks down the problem, design process, and outcome—illustrating how user-centered thinking, collaboration, and iteration drive meaningful results.
+          Check out our case studies. See how we help founders launch apps by the best mobile app development agency for startups. Each story shows strategy, execution, and results.
             </p>
     
        
