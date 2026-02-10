@@ -48,7 +48,8 @@ const locations = [
   },
 ];
 
-const SEO = ({ header, para }) => {
+const SEO = ({ header, para, locations: customLocations }) => {
+  const locationsToUse = customLocations || locations;
   const ref = useRef(null);
   const svgRef = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
@@ -99,7 +100,7 @@ const SEO = ({ header, para }) => {
             style={{ overflow: "visible" }}
           >
             {dimensions.width > 0 &&
-              locations.map((location, index) => {
+              locationsToUse.map((location, index) => {
                 const pinX = (location.pinPercent.x / 100) * dimensions.width;
                 const pinY = (location.pinPercent.y / 100) * dimensions.height;
                 const cardX = (location.cardPercent.x / 100) * dimensions.width;
@@ -150,7 +151,7 @@ const SEO = ({ header, para }) => {
           </svg>
 
           {/* Location Cards */}
-          {locations.map((location, index) => (
+          {locationsToUse.map((location, index) => (
             <motion.div
               key={`card-${location.id}`}
               className={`absolute bg-transparent p-5 ${location.id === 3 ? "text-end" : ""} w-[600px]`}
@@ -186,7 +187,7 @@ const SEO = ({ header, para }) => {
       <section className="w-full md:hidden py-10 px-4">
         {/* Simple List for Mobile (Reverted from Swiper) */}
         <div className="flex flex-col gap-8 max-w-xl mx-auto">
-          {locations.map((location, index) => (
+          {locationsToUse.map((location, index) => (
             <motion.div
               key={location.id}
               initial={{ opacity: 0, y: 24 }}

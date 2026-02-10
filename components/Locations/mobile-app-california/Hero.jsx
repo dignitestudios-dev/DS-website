@@ -8,8 +8,8 @@ import Platforms from "../ui/Platforms";
 const Hero = () => {
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start pt-20 ">
-      <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
-        <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
+      <div className="flex relative z-20  w-[98%] md:w-[65%] flex-col text-center mx-auto items-center">
+        <h1 className="text-4xl leading-[40px] md:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
           Mobile App Development Company in California – Build Powerful{" "}
           <span className="text-[#F15C20]">Apps That Scale</span>{" "}
         </h1>

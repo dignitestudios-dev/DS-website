@@ -341,7 +341,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
       <SuccessStories header={"What App Developers in Tampa Have "} header2={"Built"} para={"Explore our portfolio of successful projects through custom app development Tampa and you’ll see how many businesses trusted us with their ideas and how we built them.  "} />
       <CTA />
       <TechAndTools />
-      <SEO />
+      {/* <SEO /> */}
       <Testimonials
         test={test}
         header={"Testimonials"}

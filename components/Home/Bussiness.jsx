@@ -83,7 +83,7 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
   "
     >
       <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start md:py-40 ">
-        <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
+        <div className="flex relative z-20  w-[90%] md:max-w-7xl flex-col text-center mx-auto items-center">
           <h1 className="text-5xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
             Why We’re The Best Mobile App Development Agency for{" "}
             <span className="text-[#F15C20]">Startups</span>{" "}

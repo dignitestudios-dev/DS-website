@@ -135,11 +135,11 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
         className="
     w-full bg-[#0A0A0A]
     pt-24 sm:pt-32
-    overflow-visible
+
     [clip-path:ellipse(350%_100%_at_50%_100%)]
     sm:[clip-path:ellipse(350%_100%_at_50%_100%)]
     md:[clip-path:ellipse(200%_100%_at_50%_100%)]
-    relative grid grid-cols-1 pb-44  justify-start items-start md:py-32
+    relative grid grid-cols-1 pb-44  overflow-hidden justify-start items-start md:py-32
   "
     >
       <img

@@ -29,7 +29,7 @@ const Faq = ({ faqs }) => {
             <div
               key={faq.id}
               onClick={() => handleAccordionClick(faq.id)}
-              className={`flex flex-col w-full mb-4 py-14 rounded-l-full  cursor-pointer ${
+              className={`flex flex-col w-full mb-4 py-4 md:py-14 rounded-l-full  cursor-pointer ${
                 theme === "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
               }  ${
                 openAccordion === faq.id

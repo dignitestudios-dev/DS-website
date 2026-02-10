@@ -249,7 +249,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-[40%]">
+        <div className="lg:w-[40%] lg:block hidden">
           <img
             src="/location/mobile-california/mobile.png"
             alt="mobile"

@@ -39,9 +39,9 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
   const testimonials = customTest || testData;
 
   return (
-    <div className="w-full grid grid-cols-1 justify-start items-start md:py-40 py-20 relative z-20">
+    <div className="w-full grid grid-cols-1 justify-start items-start  py-20 relative z-20">
       <div className="flex relative z-20 w-[90%] md:w-[55%] flex-col text-center mx-auto items-center">
-        <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
+        <h1 className="text-4xl leading-10 tracking-tighter md:text-7xl font-bold ">
           {header}
           <span className="text-[#F15C20]"> {header2}</span>{" "}
         </h1>

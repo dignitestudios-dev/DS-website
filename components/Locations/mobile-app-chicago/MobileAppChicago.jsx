@@ -366,7 +366,7 @@ From developers and designers to project managers, our team also works closely t
       <SuccessStories />
       <CTA />
       <TechAndTools />
-      <SEO header={"Chicago-Specific Coverage"} para={"While our local team partners closely with the startups and enterprises, Dignite studios also supports businesses across major U.S. tech hubs. From product teams in New York to growing brands in San Diego and innovation leaders in Silicon Valley, our reach extends beyond city limits. As the trusted Chicago mobile app development company, we combine the regional insight through the nationwide execution to deliver scalable and high performance digital products."} />
+      {/* <SEO header={"Chicago-Specific Coverage"} para={"While our local team partners closely with the startups and enterprises, Dignite studios also supports businesses across major U.S. tech hubs. From product teams in New York to growing brands in San Diego and innovation leaders in Silicon Valley, our reach extends beyond city limits. As the trusted Chicago mobile app development company, we combine the regional insight through the nationwide execution to deliver scalable and high performance digital products."} /> */}
       <Testimonials
         test={test}
         header={"Testimonials"}

@@ -41,7 +41,9 @@ const Bussiness = ({
   header,
   header2,
   para,
+  bs: customBs,
 }) => {
+  const bsToUse = customBs || bs;
   const paths = [
     "M0.75 0V74C0.750006 85.5 2.24999 107 30.75 105.5H192.25C201.75 105.5 218.05 104.3 225.25 119.5C230.083 128.167 242.45 145.5 253.25 145.5M253.25 145.5C264.05 145.5 319.083 145.5 345.25 145.5H253.25Z",
     "M2.15634 288.5V217.5C1.25002 205 2.15632 186 32.1563 186H193.656C203.25 186 219.456 187.2 226.656 172C231.49 163.333 242.45 145.5 253.25 145.5",
@@ -93,7 +95,7 @@ const Bussiness = ({
   "
       >
         <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start md:py-40 ">
-          <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
+          <div className="flex relative z-20  w-[90%] md:max-w-7xl flex-col text-center mx-auto items-center">
             <h1 className="text-5xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
               {header} <span className="text-[#F15C20]">{header2}</span>{" "}
             </h1>
@@ -102,7 +104,7 @@ const Bussiness = ({
 
           <div className="relative  p-8">
             <div className="flex justify-center -mb-48">
-              {bs.slice(0, 3).map((item, index) => (
+              {bsToUse.slice(0, 3).map((item, index) => (
                 <div
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
@@ -309,7 +311,7 @@ const Bussiness = ({
               </div>
             </div>
             <div className="flex justify-center -mt-11">
-              {bs.slice(3, 6).map((item, index) => (
+              {bsToUse.slice(3, 6).map((item, index) => (
                 <div
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
@@ -379,7 +381,7 @@ const Bussiness = ({
               }}
               className="pb-12"
             >
-              {bs.map((item, index) => (
+              {bsToUse.map((item, index) => (
                 <SwiperSlide key={index}>
                   <div className="relative w-[350px] mx-auto">
                     <img
@@ -412,7 +414,7 @@ const Bussiness = ({
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="text-center max-w-xl mx-auto"
         >
-          <h3 className="text-3xl font-bold  leading-tight">{ctaHeader}</h3>
+          <h3 className="text-3xl font-bold capitalize leading-tight">{ctaHeader}</h3>
 
           <p className="text-base  mt-4 mb-10">{ctaPara}</p>
 

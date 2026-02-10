@@ -11,9 +11,9 @@ const img = [
   "/home-hero/marq/8.png",
   "/home-hero/marq/9.png",
 ];
-const Platforms = () => {
+const HeroMarquee = () => {
   return (
-    <div className="flex flex-col items-center w-full lg:w-[80%] mx-auto my-20">
+    <div className="flex flex-col items-center w-[80%] mx-auto my-20">
       <h4 className="text-sm text-[#1F222E] text-center font-semibold">
         Recognized and Trusted by Industry Platforms
       </h4>
@@ -36,4 +36,4 @@ const Platforms = () => {
   );
 };
 
-export default Platforms;
+export default HeroMarquee;

@@ -49,18 +49,17 @@ const Hero = () => {
       />
       <div className="relative z-50 text-white gap-5 flex flex-col items-center justify-center h-full lg:w-[50%] w-[80%] text-center mx-auto">
         <h1 className="text-[40px] leading-[40px] md:text-[60px] md:leading-[60px] capitalize font-semibold tracking-tighter">
-          Elevate your brand in the digital cosmos
+          Your Technical Co-Pilot: Expert Startup App Development Company
         </h1>
         <p className="text-[16px] md:text-[20px]">
-          Creating seamless app experiences. Transforming your ideas into
-          exceptional mobile app solutions.
+          We are a startup app development company that helps startups create scalable apps that attract users and generate measurable revenue.
         </p>
         <div className="flex items-center group justify-start  pt-4">
           <button
             type="submit"
             className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
           >
-            Schedule a Call
+             Let’s Discuss Your Idea
           </button>
           <button
             type="submit"

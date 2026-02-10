@@ -43,9 +43,9 @@ const TechAndTools = () => {
   const activeData = techData[activeTechStack];
 
   return (
-    <section className="w-full py-20 lg:py-32 xl:py-40 bg-white overflow-hidden">
+    <section className="w-full py-20 pt-32 bg-white overflow-hidden">
       <section className="w-full flex flex-col items-center justify-center gap-6 text-center px-6">
-        <h2 className="text-4xl md:text-7xl font-bold lg:w-[70%] mx-auto leading-[1.1] text-black">
+        <h2 className="text-4xl tracking-tighter md:text-7xl font-bold lg:max-w-7xl mx-auto leading-[1.1] text-black">
           Tools And Technologies <br className="block md:hidden" /> We Use
         </h2>
         <p className="w-full md:w-[70%] mx-auto text-black/60 text-base md:text-lg">
