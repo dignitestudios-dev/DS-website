@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 const CTA = () => {
   return (
-    <div className="w-[80%] text-white bg-[url('/location/mobile-boston/s-cta.png')] bg-cover bg-center hover:scale-105 transition-all ease-linear relative md:px-36 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
+    <div className="w-[95%] lg:w-[80%] text-white bg-[url('/location/mobile-boston/s-cta.png')] bg-cover bg-center hover:scale-105 transition-all ease-linear relative md:px-36 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <div className="flex items-center">
-        <div className="w-[40%]">
+        <div className="hidden lg:block lg:w-[40%]">
           <motion.img
             src="/location/mobile-boston/cta-m.png"
             alt="cta-mobile"
@@ -18,7 +18,7 @@ const CTA = () => {
             transition={{ duration: 0.8 }}
           />
         </div>
-        <div className="w-[60%]">
+        <div className="w-full lg:w-[60%]">
           <h1 className="text-4xl capitalize font-bold mb-4">
            If these apps started as ideas, so can yours.
           </h1>

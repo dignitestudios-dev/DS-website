@@ -280,7 +280,7 @@ const PROCESS_STEPS = [
 
 const MobileAppChicago = () => {
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
+    <div className="w-full max-w-screen-2xl h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
         heading="About Us"

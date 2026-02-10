@@ -55,12 +55,12 @@ const Hero = () => {
         <img
           src="/location/mobile-boston/r.png"
           alt="r"
-          className="absolute top-[10%] left-[0%] md:left-[70%] translate-x-[-50%]"
+          className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
         />
         <img
           src="/location/mobile-boston/l.png"
           alt="l"
-          className="absolute top-[30%] left-[0%] md:left-[32%] translate-x-[-50%]"
+          className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"
         />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>

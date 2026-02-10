@@ -257,7 +257,7 @@ const PROCESS_STEPS = [
 
 const MobileAppTampa = () => {
   return (
-    <div className="max-w-screen-2xl flex flex-col mx-auto overflow-hidden">
+    <div className="max-w-screen-2xl w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
         heading="About "

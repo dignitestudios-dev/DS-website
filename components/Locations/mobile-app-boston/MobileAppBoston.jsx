@@ -26,10 +26,10 @@ const services = [
     title: "iOS App Development",
     description: (
       <>
-        Our team makes sure that we provide the best iOS app development services,
-        so we use Swift and SwiftUI to create reliable iPhone apps. Apps that
-        easily meet Apple’s performance standards. We focus on building smooth
-        and reliable apps
+        Our team makes sure that we provide the best iOS app development
+        services, so we use Swift and SwiftUI to create reliable iPhone apps.
+        Apps that easily meet Apple’s performance standards. We focus on
+        building smooth and reliable apps
       </>
     ),
   },
@@ -91,17 +91,16 @@ const services = [
     title: "Maintenance & Consulting",
     description: (
       <>
-        Launching is just the beginning. We support startups with MVP development
-        services, ongoing post-launch support, and a reliable QA testing service
-        to catch issues early and keep your app running smoothly. From
-        performance improvements to feature updates, our experienced mobile app
-        developers Boston founders trust work alongside you as your product
-        evolves and scales.
+        Launching is just the beginning. We support startups with MVP
+        development services, ongoing post-launch support, and a reliable QA
+        testing service to catch issues early and keep your app running
+        smoothly. From performance improvements to feature updates, our
+        experienced mobile app developers Boston founders trust work alongside
+        you as your product evolves and scales.
       </>
     ),
   },
 ];
-
 
 const highlights = [
   {
@@ -129,7 +128,6 @@ const highlights = [
     desc: "Open communication and full project visibility.",
   },
 ];
-
 
 const VALUE_PROPOSITION = [
   {
@@ -207,11 +205,11 @@ const BENEFITS = [
   },
 ];
 
-
 const faqs = [
   {
     id: 1,
-    question: "What tools and technologies do you use to build mobile apps in Boston?",
+    question:
+      "What tools and technologies do you use to build mobile apps in Boston?",
     answer:
       "We keep our tech stack modern and flexible. Depending on your product, we provide Flutter app development services, React Native app development services, Kotlin app development services, and Firebase development services. For mobile application development Boston teams can depend on, we offer a wide range of tools and tech.",
   },
@@ -235,13 +233,12 @@ const faqs = [
   },
   {
     id: 5,
-    question: "What are the services in mobile app development services are you offering?",
+    question:
+      "What are the services in mobile app development services are you offering?",
     answer:
       "At Dignite Studios, we’re offering end-to-end services. This includes strategy, UI/UX design, iOS and Android development, cross-platform apps, testing, and post-launch support. Our mobile application development Boston services are designed to support startups and growing businesses at every stage.",
   },
 ];
-
-
 
 const PROCESS_STEPS = [
   {
@@ -276,12 +273,11 @@ const PROCESS_STEPS = [
   },
 ];
 
-
 const MobileAppBoston = () => {
   return (
-       <div className="max-w-screen-2xl flex flex-col mx-auto overflow-hidden">
+    <div className="max-w-screen-2xl w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
-       <About
+      <About
         heading="What’s Dignite"
         heading2={"Studios?"}
         para="Looking for mobile app development services Boston? We are reputed mobile app development company in Boston. We help startups and growing businesses by listening to their app ideas. We provide the practical guidance they need and create mobile applications that are exactly what they imagined. With over 10 years of hands-on experience in the local Boston market, we understand what it takes to build apps that scale, perform, and compete.
@@ -290,7 +286,7 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
 "
         button=""
       />
-  <Services
+      <Services
         services={services}
         header={"Mobile App Development Services In"}
         header2={"Boston"}
@@ -298,7 +294,7 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
           "As a go-to team for mobile app development Boston founders rely on, we’re proud to be part of the growing Boston mobile app development ecosystem."
         }
       />
-        <Bussiness
+      <Bussiness
         bs={highlights}
         header={"Why Teams Choose"}
         header2={"Dignite Studios"}
@@ -308,31 +304,41 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
         }
         ctaBtn={"Talk to Our Team"}
         cta={
-             <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
-                     <div className="relative" >
-                     <img src="/location/mobile-boston/cta-img.png" className="w-full rounded-b-2xl bottom-3 relative bg-cover" alt="lggg" />
-                     <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-                       <h1 className="text-[45px] font-bold text-white leading-[45px]">
-                        Still Deciding If We’re the Right Fit?
-                       </h1>
-                       <p>
-                        It’s completely fair to overthink your decision because choosing a mobile application development Boston team is a big decision. Let’s talk through if you have questions or concerns before moving forward. 
-                       </p>
-                       <div className="flex items-center group justify-center ">
-                         <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                          Talk to Our Team
-                         </button>
-                         <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                           <MdArrowOutward />
-                         </button>
-                       </div>
-                     </div>
-                     </div>
-                   </div>
+          <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
+            <div className="relative">
+              <img
+                src="/location/mobile-boston/cta-img.png"
+                className="w-full rounded-b-2xl bottom-3 relative bg-cover"
+                alt="lggg"
+              />
+              <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
+                <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                  Still Deciding If We’re the Right Fit?
+                </h1>
+                <p>
+                  It’s completely fair to overthink your decision because
+                  choosing a mobile application development Boston team is a big
+                  decision. Let’s talk through if you have questions or concerns
+                  before moving forward.
+                </p>
+                <div className="flex items-center group justify-center ">
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                    Talk to Our Team
+                  </button>
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                    <MdArrowOutward />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         }
         para={
           <>
-        Dignite Studios focuses on building reliable, scalable products for businesses that value long-term impact. For companies seeking dependable mobile apps development Boston teams, we bring structure, experience, and a clear delivery process to every engagement.
+            Dignite Studios focuses on building reliable, scalable products for
+            businesses that value long-term impact. For companies seeking
+            dependable mobile apps development Boston teams, we bring structure,
+            experience, and a clear delivery process to every engagement.
           </>
         }
       />
@@ -345,7 +351,7 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
         }
       />
       <Process
-      steps={PROCESS_STEPS}
+        steps={PROCESS_STEPS}
         header={"Boston Mobile App Development Process"}
         para={
           "We believe a strong process makes everything else easier. That’s why our mobile app development process steps are built to keep things clear, collaborative, and moving forward without unnecessary complexity."
@@ -360,10 +366,12 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
         cards={BENEFITS}
       />
       <SuccessStories
-      header={"Real-life Success "}
-      header2={"Stories"}
-      para={"Want to see how things actually get done? Our case studies walk you through live projects, practical solutions, and apps we’ve delivered. Showing why many founders consider us the best mobile app development Boston."}
-       />
+        header={"Real-life Success "}
+        header2={"Stories"}
+        para={
+          "Want to see how things actually get done? Our case studies walk you through live projects, practical solutions, and apps we’ve delivered. Showing why many founders consider us the best mobile app development Boston."
+        }
+      />
       <CTA />
       <TechAndTools />
       {/* <SEO  header={"Focused Mobile Application Development Boston"} para={"Choosing the right partner in Boston can completely change the way your app performs in a competitive market."}/> */}
@@ -371,11 +379,13 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
         test={test}
         header={"What Our Clients "}
         header2={"Say"}
-        para={"Startups and growing businesses choose us. Our clients often describe us as the best mobile app development company in Boston for our ability to combine quality and measurable business outcomes."}
+        para={
+          "Startups and growing businesses choose us. Our clients often describe us as the best mobile app development company in Boston for our ability to combine quality and measurable business outcomes."
+        }
       />
-        <Faq faqs={faqs} /> 
+      <Faq faqs={faqs} />
       <ContactUs
-      img={"/location/mobile-boston/c-img.png"}
+        img={"/location/mobile-boston/c-img.png"}
         pathname={"Mobile Dev in Boston "}
         header={"You’re Closer Than You Think to Getting Started"}
         header2={""}
@@ -396,7 +406,7 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
       <ContactUs />
       <Faq />  */}
     </div>
-  )
-}
+  );
+};
 
-export default MobileAppBoston
+export default MobileAppBoston;
