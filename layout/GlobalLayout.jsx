@@ -419,7 +419,7 @@ const GlobalLayout = ({ page }) => {
         {page}
 
         <Footer />
-        <FixedSocials />
+        {/* <FixedSocials /> */}
       </div>
     </div>
   );

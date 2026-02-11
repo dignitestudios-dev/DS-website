@@ -387,13 +387,13 @@ const MobileAppSeattle = () => {
           "We use the modern tools and platforms to deliver the reliable scalable solutions through the professional mobile app development Seattle expertise."
         }
       />
-      <SEO
+      {/* <SEO
         header={"Mobile App development Across Seattle"}
         para={
           "We offer the Seattle Mobile app Development Services across key business hubs including downtown Seattle, tech corridors and nearby innovation districts. Our local presence allows close collaboration, faster communication and better alignment with business goals."
         }
         // locations={locations}
-      />
+      /> */}
       <Testimonials
         test={test}
         header={"Testimonials for"}
