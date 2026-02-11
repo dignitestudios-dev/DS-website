@@ -17,7 +17,7 @@ const img = [
 ];
 const Hero = () => {
   return (
-    <div className="w-full overflow-hidden  flex flex-col pt-12 md:pt-24 gap-4 justify-start items-center">
+    <div className="w-full overflow-hidden  flex flex-col pt-12  gap-4 justify-start items-center">
       <img
         src="/home-hero/grad.png"
         alt="grad"
@@ -47,7 +47,7 @@ const Hero = () => {
         animate={{ y: [0, 15, 0] }}
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
       />
-      <div className="relative overflow-hidden z-50 text-white gap-5 flex flex-col items-center justify-center h-full lg:w-[50%] w-[80%] text-center mx-auto">
+      <div className="relative overflow-hidden z-40 text-white gap-5 flex flex-col items-center justify-center h-full lg:w-[50%] w-[80%] text-center mx-auto">
         <h1 className="text-[40px] leading-[40px] md:text-[60px] md:leading-[60px] capitalize font-semibold tracking-tighter">
           Your Technical Co-Pilot: Expert Startup App Development Company
         </h1>

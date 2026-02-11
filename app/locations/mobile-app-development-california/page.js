@@ -2,7 +2,7 @@ import MobileAppCalifornia from "@/components/Locations/mobile-app-california/Mo
 import GlobalLayout from "@/layout/GlobalLayout";
 import React from "react";
 export const metadata = {
-  title: "| Top Apps",
+  title: "Mobile App Development Company in California | Top Apps",
   description:
     "Top mobile app development company in California. We create scalable apps with smooth UX that bring engagement and business success. Get a free quote now!",
 };
