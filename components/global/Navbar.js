@@ -234,8 +234,8 @@ const Navbar = ({ setIsOpen }) => {
         title: "",
            image:"/eco-r.png",
         items: [
-                ["Payment Integration", "#"],
-          ["Marketplace Solutions", "#"],
+                // ["Payment Integration", "#"],
+          // ["Marketplace Solutions", "#"],
         ],
       },
     ],
@@ -245,19 +245,11 @@ const Navbar = ({ setIsOpen }) => {
            image:"/com-r.png",
         items: [
           ["About Us", "/about-us"],
-          ["Our Team", "/team"],
           ["Blog", "/blog"],
           
         ],
       },
-      {
-        title: "",
-           image:"/com-r.png",
-        items: [
-     ["Careers", "/careers"],
-          ["Contact", "/contact-us"],
-        ],
-      },
+  
     ],
   };
 
@@ -392,7 +384,7 @@ const Navbar = ({ setIsOpen }) => {
     variants={dropdownVariants}
     onMouseEnter={handleDropdownEnter}
     onMouseLeave={handleMouseLeave}
-    className="w-full min-h-[200px] p-20 z-50 hidden lg:flex gap-8 xl:gap-20 pt-10 items-center absolute top-20 left-0 backdrop-blur-md bg-black/80 text-white transform shadow-xl"
+    className={`w-full min-h-[200px] p-20 z-50 hidden lg:flex gap-8 xl:gap-20 pt-10 items-center absolute top-28 left-0 backdrop-blur-md   transform shadow-xl ${pathname === "/" ? "bg-black text-white" : "bg-white text-black"}`}
   >
     {/* LEFT SIDE CONTENT */}
     <div className="flex-1">
