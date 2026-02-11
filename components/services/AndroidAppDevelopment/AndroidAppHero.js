@@ -16,9 +16,9 @@ const AndroidAppHero = () => {
   const images = ["/mobile-hero-mockup-3.png", "/mobile-hero-mockup-4.png"];
 
   return (
-    <div className="bg-ios bg-black w-full flex flex-col justify-start items-start pt-28 md:pt-40">
+    <div className="bg-ios bg-black w-full flex flex-col justify-start items-start">
       <ServicesNavbar setIsOpen={setIsSidebarOpen} />
-      <div className="w-full flex lg:h-[calc(100%-5rem)] py-6 lg:py-0 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48">
+      <main className="w-full h-full flex flex-col items-center gap-6 md:gap-8 pt-16 pb-0 text-center relative z-10 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48">
         <div className="w-full lg:w-[60%] 2xl:w-[80%] h-full flex flex-col justify-center text-center lg:text-start items-center lg:items-start gap-2">
           <h1
             style={{
@@ -100,7 +100,7 @@ const AndroidAppHero = () => {
           </div>
         </div> */}
         </div>
-      </div>
+      </main>
     </div>
   );
 };

@@ -7,7 +7,7 @@ const Hero = () => {
   const { theme } = useContext(GlobalContext);
 
   return (
-    <div className="w-full text-center lg:min-h-[100vh] xl:min-h-[80vh] md:pb-20 pt-28 md:pt-40 global-padding-horizontal flex flex-col items-center relative">
+    <main className="w-full h-full flex flex-col items-center gap-6 md:gap-8 pt-16 pb-0 text-center relative z-10">
       <h1 className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px] z-10">
         <span className="text-[#F15C20]">Hire</span> Android Developers
       </h1>
@@ -132,7 +132,7 @@ const Hero = () => {
         alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute right-[31%] bottom-[2%] hover:-rotate-12 transition-all duration-300"
       />
-    </div>
+    </main>
   );
 };
 

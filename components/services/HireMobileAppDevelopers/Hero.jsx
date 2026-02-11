@@ -12,7 +12,7 @@ const Hero = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <div className="w-full relative">
-      <div className="w-full text-center relative md:pb-20 pt-28 md:pt-40 global-padding-horizontal flex flex-col items-center">
+      <main className="w-full h-full flex flex-col items-center gap-6 md:gap-8 pt-16 pb-0 text-center relative z-10">
         <h1 className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px] z-10">
           <span className="text-[#F15C20]">Hire</span> Mobile App <br />
           Developers
@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="mt-10 z-20">
           <ContactButton text1={"Get A Quote"} text2={"Let's talk"} />
         </div>
-      </div>
+      </main>
 
       <div className="w-full hidden lg:block z-0 relative xl:w-[70%] mx-auto h-screen lg:h-[115vh] xl:h-screen 2xl:h-[70vh] -top-56">
         <img

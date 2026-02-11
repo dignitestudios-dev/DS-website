@@ -7,7 +7,7 @@ const Hero = () => {
   const { theme } = useContext(GlobalContext);
   return (
     <main className="w-full relative lg:h-screen 2xl:h-auto">
-      <div className="w-full global-padding-horizontal relative flex flex-col lg:flex-row gap-x-6 gap-y-16 pt-28 md:pt-40">
+      <div className="w-full global-padding-horizontal relative flex flex-col lg:flex-row gap-x-6 gap-y-16 pt-16">
         <div className="w-full text-start relative md:pb-20 pt-2 md:pt-10 flex flex-col items-start">
           <h1 className="text-4xl lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-start lg:leading-[71.93px] 2xl:leading-[99px] z-10">
             Exclusive

@@ -7,14 +7,17 @@ import Platforms from "../ui/Platforms";
 
 const Hero = () => {
   return (
-    <div className="w-full grid grid-cols-1  justify-start items-start pt-20 ">
+    <div className="w-full grid grid-cols-1  justify-start items-start  ">
       <div className="flex relative z-20  w-[98%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[40px] md:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          Mobile App Development Company in California – Build Powerful{" "}
-          <span className="text-[#F15C20]">Apps That Scale</span>{" "}
+          Mobile App Development Company in{" "}
+          <span className="text-[#F15C20]">California</span>
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          Dignite Studios is a mobile app development company in California, building high-performance, scalable mobile apps for startups, enterprises, and funded founders across competitive California markets.
+          Looking for mobile app development services in California? Dignite
+          Studios is a trusted mobile app development company in California that
+          understands quality and market fit. We have a team of professional app
+          developers in California.
         </p>
 
         <div className="flex items-center group justify-center ">
@@ -44,8 +47,7 @@ const Hero = () => {
         />
       </div>
       <div>
-
-     <Platforms/>
+        <Platforms />
       </div>
     </div>
   );

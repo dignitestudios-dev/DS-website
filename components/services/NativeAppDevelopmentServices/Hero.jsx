@@ -9,7 +9,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
   return (
-    <div className="w-full  flex flex-col pt-28 md:pt-40  gap-4 justify-start items-center">
+    <div className="w-full  flex flex-col pt-16  gap-4 justify-start items-center">
       <h2
         className="capitalize text-center text-[16px] 2xl:text-[20px] font-medium "
         style={{

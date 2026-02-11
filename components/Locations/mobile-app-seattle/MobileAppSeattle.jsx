@@ -26,17 +26,10 @@ const services = [
     title: "iOS App Development",
     description: (
       <>
-        If you’re going Apple-first, we’ve got you. Being one of the mobile app
-        development companies in New York, we build apps that work smoothly on
-        iPhones. Our{" "}
-        <Link
-          href="/services/ios-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          iOS app development
-        </Link>{" "}
-        and iPhone app development services focus on clean performance and a
-        smooth user experience.
+        Our mobile app development company Seattle delivers the custom iOS
+        applications which are built for performance, security and the smooth
+        user experiences. We also develop the scalable solutions made for the
+        startups enterprises, healthcare, fintech and the other industries.
       </>
     ),
   },
@@ -46,34 +39,23 @@ const services = [
     title: "Android App Development",
     description: (
       <>
-        For Android, we handle full{" "}
-        <Link
-          href="/services/android-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          Android app development
-        </Link>{" "}
-        using Kotlin and Java. When we offer our Android app development
-        service, we make sure your app runs smoothly across Pixel, Samsung, and
-        OnePlus — without weird bugs.
+        Our experienced mobile app developer seattle build for the Android
+        applications optimized according to the speed usability and device
+        compatibility. We also make sure to have stable performance, fluent
+        navigation and also flexibility to support the future enhancements.
       </>
     ),
   },
   {
     icon: "pipe",
     icon2: "pipe3",
-    title: "Cross-Platform App Development",
+    title: "Cross Platform",
     description: (
       <>
-        Looking for faster delivery and cost efficiency? You need{" "}
-        <Link
-          href="/services/hybrid-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          cross-platform app development
-        </Link>
-        . We build apps with Flutter and React Native, so you get iOS and
-        Android apps from a single codebase.
+        As one of the leading mobile app development companies in Seattle, we
+        also create cross platform and hybrid applications by using the single
+        codebase. This approach can ensure faster delivery, cost efficiency and
+        the consistent functionality across many platforms.
       </>
     ),
   },
@@ -83,41 +65,10 @@ const services = [
     title: "Native App Development",
     description: (
       <>
-        When you want full control, our{" "}
-        <Link
-          href="/services/native-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          native app development services
-        </Link>{" "}
-        are the best choice. As a native mobile app development company, we
-        build custom native apps and{" "}
-        <Link
-          href="/services/pwa-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          PWAs
-        </Link>{" "}
-        that scale with you.
-      </>
-    ),
-  },
-  {
-    icon: "chat",
-    icon2: "chat6",
-    title: "Web App Development",
-    description: (
-      <>
-        We also handle{" "}
-        <Link
-          href="/services/web-application-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          web app development
-        </Link>{" "}
-        services when your product lives in the browser. Our custom web app
-        development services in New York plug right into your mobile product
-        without friction.
+        Our mobile app development companies Seattle focus on building native
+        and the progressive applications through the advanced features, smooth
+        performance and the strong security standards tailored to the business
+        needs.
       </>
     ),
   },
@@ -127,46 +78,22 @@ const services = [
     title: "UI/UX Design Services",
     description: (
       <>
-        Good design makes everything easier. Our{" "}
-        <Link
-          href="/services/mobile-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          mobile app design services
-        </Link>
-        , including{" "}
-        <Link
-          href="https://www.dignitestudios.com/services/ios-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          iOS app design services
-        </Link>{" "}
-        and{" "}
-        <Link
-          href="/services/android-mobile-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          Android app design services
-        </Link>
-        , focus on clarity, flow, and keeping users happy.
+        Our design services focus on intuitive navigation and clean interfaces.
+        Designed by experienced mobile app developers Seattle, these user
+        friendly experiences improve engagement and long term retention.
       </>
     ),
   },
   {
     icon: "chat",
     icon2: "chat6",
-    title: "Maintenance, Testing & Consulting",
+    title: "Support, Testing & Maintenance",
     description: (
       <>
-        We don’t disappear after launch. From MVP development and post-launch
-        support to QA testing and{" "}
-        <Link
-          href="/services/mobile-app-consulting-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          mobile app consulting services
-        </Link>
-        , we help you fix, improve, and scale without starting over.
+        We provide app testing and QA services, app support and maintenance
+        services, and consulting by the experienced mobile app developers
+        Seattle to ensure your application remains stable, and well maintained
+        after launch.
       </>
     ),
   },
@@ -174,103 +101,100 @@ const services = [
 
 const highlights = [
   {
-    title: "100% Custom Development",
-    desc: "No templates, no shortcuts. Every product is built specifically for your goals, users, and growth plans.",
+    title: "100% custom mobile app development services",
+    desc: "Built to match the exact business needs",
   },
   {
-    title: "Specialized Engineering Teams",
-    desc: "You get engineers, designers, and PMs matched to your product, not a random bench.",
+    title:
+      "Expert teams for the iOS, Android and cross platform app development",
+    desc: "Experts dedicated to every major platform",
   },
   {
-    title: "24/7 Support",
-    desc: "Questions, fixes, updates — we’re available whenever you need us, not just during office hours.",
+    title: "24/7 technical support and the ongoing maintenance",
+    desc: "We support your app anytime, everyday",
   },
   {
-    title: "200+ Skilled Technology Experts",
-    desc: "A deep talent pool that helps us scale fast without compromising quality.",
+    title: "200+ professional technologists experts",
+    desc: "Skilled professionals powering your app success",
   },
   {
-    title: "Flexible Engagement Models",
-    desc: "Fixed scope, dedicated teams, or long-term partnerships — you choose what works.",
+    title: "Flexible engagements and the hiring models",
+    desc: "Choose plans which fit your goals",
   },
   {
-    title: "Transparent Process",
-    desc: "Clear timelines, regular updates, and zero guesswork from day one.",
+    title: "Transparent app development process end to end",
+    desc: "Clear communication at every development stage",
   },
 ];
 
 const VALUE_PROPOSITION = [
   {
-    title: "Healthcare Apps",
-    desc: "As a Healthcare app development company in New York, we build HIPAA-ready apps. Telemedicine, patient portals, remote monitoring, you name it.",
+    title: "Healthcare Industry",
+    desc: "For the healthcare providers, our app development Seattle services which focus on building HIPAA compliant solutions which protect patient data and improve the care delivery. From the telemedicine platforms to the patient portals, we also create the app which ensures the secure communication, easy scheduling and the efficient record management for the clinics and the hospitals.",
   },
   {
-    title: "Fintech Apps",
-    desc: "Through our fintech app development services, we help you launch secure fintech apps and payment mobile apps with multi-layer authentication, KYC/AML support, and transaction management.",
+    title: "E-commerce Industry",
+    desc: "Our mobile application development Seattle expertise helps the businesses design e-commerce apps which boost the customer engagement and sales. We also focus on smooth experiences, secure payment gateways and instinctive product management tools which help brands to scale online and also improve retention.",
   },
   {
-    title: "E-commerce & Retail Apps",
-    desc: "Our ecommerce application development services in New York keep things quick, simple, and tailored to your customers. Storefront? Check. Inventory? Check. POS and loyalty? All covered.",
+    title: "Real Estate Industry",
+    desc: "We also provide the real estate companies through the advanced solutions by custom mobile app development services in Seattle. Our apps also include the property listings, virtual tours and the agent dashboard, which enable faster property research , efficient client communication through better decision making for the agencies and the brokers.",
   },
   {
-    title: "Education & e-Learning Apps",
-    desc: "We offer education app development services that guide students step by step through courses, videos, and quizzes, while teachers get dashboards that actually help them do their job.",
+    title: "Education & E learning Apps",
+    desc: "As the part of the mobile app development company in Seattle offerings, we also create the interactive e-learning platforms and the education apps. Such solutions support the online courses, virtual classrooms and the student progress tracking, delivering engaging and also the scalable learning experiences for the schools, colleges and training centers.",
   },
   {
-    title: "Real Estate Apps",
-    desc: "Our real estate app development services offer property tech apps that include property listings, advanced filters, virtual tours, mortgage calculators, and lead management tools.",
-  },
-  {
-    title: "Dating & Matchmaking Apps",
-    desc: "Real connections come before features. Our approach for New York prioritizes thoughtful matching, verified identities, and privacy controls that encourage genuine engagement.",
+    title: "Matchmaking & Dating App Development",
+    desc: "We develop secure matchmaking and dating apps through the smart matching logic, real time chat and the privacy focused features as our app development Seattle services to deliver engaging user experiences.",
   },
 ];
 
 const test = [
   {
-    name: "Jason Miller",
-    designation: "— Founder, FinEdge NYC",
+    name: "Michael Thompson",
+    designation: "— CFO, GreenBank Fintech",
     review:
-      "“Dignite Studios helped us launch our mobile app ahead of schedule, and the ROI exceeded expectations within the first few months. Their New York mobile app development team understood our market and delivered with precision.”",
+      "“Dignite Studios developed our fintech app quickly and efficiently. The results exceeded expectations and ROI was excellent”",
   },
   {
-    name: "Amanda Lopez",
-    designation: "— Product Lead, UrbanCart",
+    name: "Sarah Collins",
+    designation: "— Product Manager, EduLearn Platforms",
     review:
-      "“What impressed us most was the speed and structure. The mobile app was delivered fast without cutting corners. Clear communication, weekly updates, and zero surprises throughout the process.”",
+      "“The team was professional and responsive. Our app launch went quite smoothly and exceeded our standard of quality”",
   },
   {
-    name: "Daniel Roberts",
-    designation: "— CTO, HealthBridge Solutions",
+    name: "David Reynolds",
+    designation: "— CEO, ShopSmart Retail",
     review:
-      "“Working with Dignite Studios was an amazing experience to be honest. It felt like having our own app team right here in New York. They were super professional, easy to work with, and always on the same page.”",
+      "“Dependable and talented developers that completely understood our requirements. One of the best mobile app developers in Seattle.”",
   },
 ];
 
 const BENEFITS = [
   {
-    title: "Customer Retention",
-    desc: "The mobile app lets you enhance customer retention by making your brand more accessible.",
+    title: "Stronger Customer Engagement",
+    desc: "Enhance customer engagement and ownership by partnering with the leading mobile app development companies in Seattle, making sure that your app delivers a smooth experience.",
     icon: <FaUser color="#F15C20" size={25} />,
   },
   {
-    title: "Brand Visibility",
-    desc: "Improved visibility leads to stronger connections with your audience, so stay top-of-mind with a branded app.",
+    title: "Brand Visibility Growth",
+    desc: "Increase brand visibility and user loyalty by leveraging expert app development in Seattle, creating the engaging experiences which keep your users coming back.",
     icon: <IoGrid color="#F15C20" size={25} />,
   },
   {
-    title: "Drive Revenue",
-    desc: "Mobile apps open new ways to grow your business through mobile sales or in-app purchases.",
+    title: "Mobile Revenue Growth",
+    desc: "Drive revenue through subscriptions or mobile sales",
     icon: <IoWalletOutline color="#F15C20" size={25} />,
   },
   {
-    title: "Actionable Insights",
-    desc: "Built-in analytics in mobile apps help you understand user behavior, make smarter business decisions, and optimize the experience.",
+    title: "Real Time User Insights",
+    desc: "Access real time analytics to gain a user experience",
     icon: <CiSearch color="#F15C20" size={25} />,
   },
   {
-    title: "Competition",
-    desc: "Having an app gives you an advantage and positions your business as innovative and accessible in the New York mobile app development market.",
+    title: "Seattle Market Advantage",
+    desc: "Gain a competitive advantage in the Seattle market with the strategic app development Seattle which helps your business stand out and outperform the local competitors.",
     icon: <FaPencilAlt color="#F15C20" size={25} />,
   },
 ];
@@ -278,211 +202,216 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "What technologies do you work with?",
+    question: "How do you handle iOS and Android app development?",
     answer:
-      "We use modern, proven tech. Flutter. React Native. Swift. Kotlin. Node JS. As one of the reliable mobile app development companies in New York, we choose what fits your product best.",
+      "We develop apps for iOS and Android using the native and cross platform technologies as a part of our mobile app development Seattle done according to the needs of your projects, budget and performance goals.",
   },
   {
     id: 2,
-    question: "Can I hire you for just iOS or Android?",
+    question:
+      "How much does it actually cost to develop the custom mobile app?",
     answer:
-      "Yes. iOS, Android, or cross-platform. Our app development New York team helps you pick the right setup and builds it properly from day one.",
+      "The cost of an app depends on the features, design, platform and complexity. We provide the clear estimates after understanding requirements as part of our custom mobile app development services Seattle",
   },
   {
     id: 3,
-    question: "Do you handle backend and cloud as well?",
+    question: "How long does mobile app development take?",
     answer:
-      "We do. Our mobile application development New York services include backend systems, real-time databases, and cloud infrastructure. Everything your app needs to scale smoothly.",
+      "Development timelines vary, but projects handled through a mobile app development company seattle typically take 3-6 months depending on the scope and the testing needs.",
   },
   {
     id: 4,
-    question: "How do you keep projects moving on time?",
+    question: "Do you offer post-launch support?",
     answer:
-      "Clear sprints. Clear timelines. Regular updates. During the development, you will always be aware of what’s happening and what’s coming next.",
+      "Yes, our mobile app development company Seattle delivers the ongoing app support and the maintenance which ensures that the app runs quite smoothly over the time.",
   },
   {
     id: 5,
-    question: "Do you work with startups and enterprises?",
+    question: "Can you help refine my app idea?",
     answer:
-      "Both. MVPs. Growing products. Complex platforms. We scale the team and process based on your goals.",
-  },
-  {
-    id: 6,
-    question: "What happens after launch?",
-    answer:
-      "We stay involved. Updates. Improvements. Performance checks. Your app keeps getting better over time.",
-  },
-  {
-    id: 7,
-    question: "Why work with a New York-based team?",
-    answer:
-      "Faster communication. Better collaboration. A team that understands your market and treats your product seriously.",
+      "Absolutely. Our team helps shape the custom mobile app development services Seattle strategy before development even begins.",
   },
 ];
-
 
 const PROCESS_STEPS = [
   {
     step: "01",
     title: "Discovery & Strategy",
-    desc: "In this phase, we align your business objectives with the app’s vision, features, and technical foundation because clear goals lead to better products.",
+    desc: "We begin by understanding your business goals, target users and the development strategy as a part of our mobile app development Seattle approach to define the clear requirements and KPIs.",
   },
   {
     step: "02",
-    title: "User Interface Design",
-    desc: "It is a mobile app development New York process in which a visual mock-up is created that displays the mobile app’s initial design and purpose but does not hold functional code.",
+    title: "UI/UX Prototyping",
+    desc: "Our designers create the intuitive wireframes and prototypes which focus on the usability, accessibility and the user flow, as part of the sprint planning for app development process before the development begins.",
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The sprint planning for app development starts here, and our professional mobile app developers in New York determine the product roadmap and analyze the total execution time.",
+    title: "Agile Development & Sprints",
+    desc: "Using an agile development approach, our team delivers weekly updates while developing apps is structured sprints, providing expert mobile application development Seattle",
   },
   {
     step: "04",
-    title: "Testing & Evaluation",
-    desc: "Testing at all stages of the mobile app development process is the best assurance to eliminate serious bugs, stay up-to-date with the current status, and build your esteem.",
+    title: "QA Testing",
+    desc: "Each app undergoes the comprehensive testing and QA to guarantee performance, security and its compatibility all over the devices",
   },
   {
     step: "05",
-    title: "Deployment",
-    desc: "Your app’s journey is finally about to take off. Deployment is the moment where preparation meets performance, including packaging, configuring servers, and ensuring smooth operation across iOS, Android, and beyond.",
+    title: "App Launch & Deployment",
+    desc: "We manage app launch and Deployment for the App Store and Google Play, ensuring the smooth approvals and release.",
   },
   {
     step: "06",
-    title: "Post-Launch Support",
-    desc: "After launch, the developers’ focus shifts to monitoring performance, fixing bugs, and optimizing features based on user feedback.",
+    title: "Post Launch Support",
+    desc: "In post launch we provide the updates, monitoring and growth optimization as a part of our mobile application development Seattle services, making sure that your app is competitive.",
   },
 ];
 
+const locations = [
+  {
+    id: 1,
+    title: "Downtown Seattle",
+    heading: "Mobile App Development Downtown Seattle",
+    description:
+      "Strategic app development in Seattle's business core to help startups stand out and outperform local competitors.",
+    pinPercent: { x: 50, y: 50 },
+    cardPercent: { x: 50, y: 20 },
+    direction: "up",
+    cardPosition: { top: "15%", left: "45%" },
+  },
+];
 
-const MobileAppCalifornia = () => {
+const MobileAppSeattle = () => {
   return (
-    <div className="max-w-screen-2xl flex flex-col mx-auto overflow-hidden">
+    <div className="max-w-screen-2xl w-full h-auto flex flex-col justify-start mx-auto overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-        heading="The"
-        heading2={"BackStory"}
-        para="You’re reading about a Mobile App Development Company New York Brands Trust. With 5+ years of experience and 15+ projects delivered, we’re one of the best mobile app development companies in New York, focused on building high-performance apps for real-world use.
-Dignite Studios is a team of 200+ expert mobile app developers in New York who work with startups and growing businesses and help them turn their ideas into scalable, high-performing mobile apps. 
-Including strategy, UI/UX design with agile development and deployment, we make sure to build apps that are reliable, engaging, and built to grow with your business. 
-"
-        button=""
+        heading="About"
+        heading2={"Dignite Studios"}
+        para="Dignite Studios is the professional mobile app development company in Seattle specializing in custom mobile solutions for businesses across many industries. As one of the trusted mobile app development companies Seattle we bring years of experience in the Seattle market and understand local business needs, user behavior and growth. Our team also focuses on building high performance, scalable mobile applications which support the long term success. Skilled developers, UI/UX designers and the project managers which work together to deliver the best apps which are easily reliable, secure and quite easy to use. Every project is handled through transparency, clear communication and the results oriented method. "
+        button="Talk to our Seattle based mobile app development team"
       />
       <Services
         services={services}
-        header={"Mobile App Development Services In"}
-        header2={"New York"}
+        header={"Mobile App Development Services"}
+        header2={"In Seattle"}
         para={
-          "We are the trusted mobile app development company New York that offers end-to-end services because sometimes, building a mobile application can feel overwhelming. But it doesn’t have to. Every service is focused on performance and long-term growth. "
+          "As a trusted provider of mobile app development Seattle, we also offer end to end mobile solutions which are designed to help the startups, SMBs and enterprises build scalable and high performance applications. Our services cover the strategy, design, development, testing and long term support making sure that app aligns to the real business needs and the user expectation in the Seattle market."
         }
       />
       <Bussiness
         bs={highlights}
-        header={"Why Teams Choose"}
+        header={"Why Choose"}
         header2={"Dignite Studios"}
-        ctaHeader={"Ready To Work With The Right Team?"}
-        ctaPara={
-          "Choosing a development partner is a big decision, and you’ve seen how we work and what we value. Now let’s discuss your product goals, technical needs"
+        ctaHeader={
+          "Powering the Scalable Apps Through The app development Seattle"
         }
-        ctaBtn={"Let’s Talk About Your Idea"}
+        ctaPara={
+          "From the strategy and design to the development and deployment, Dignite Studios helps the Seattle businesses build the powerful mobile apps to engage the users and to support the long term growth."
+        }
+        ctaBtn={"Hire Mobile App Developers in Seattle"}
         cta={
           <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white   opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
-            <div className="relative" >
-            <img src="/location/mobile-seattle/b-cta.png" className="w-full rounded-b-2xl bottom-3 relative bg-cover" alt="lggg" />
-            <div className="md:w-[45%] absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-              <h1 className="text-[45px] font-bold text-white leading-[45px]">
-                Ready To Work With The Right Team?
-              </h1>
-              <p>
-                Choosing a development partner is a big decision, and you’ve
-                seen how we work and what we value. Now let’s discuss your
-                product goals, technical needs
-              </p>
-              <div className="flex items-center group justify-center ">
-                <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                  Let’s Talk About Your Idea
-                </button>
-                <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                  <MdArrowOutward />
-                </button>
+            <div className="relative">
+              <img
+                src="/location/mobile-seattle/b-cta.png"
+                className="w-full rounded-b-2xl bottom-3 relative bg-cover"
+                alt="lggg"
+              />
+              <div className="md:w-[45%] absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
+                <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                  Powering the Scalable Apps Through The app development Seattle
+                </h1>
+                <p>
+                  From the strategy and design to the development and
+                  deployment, Dignite Studios helps the Seattle businesses build
+                  the powerful mobile apps to engage the users and to support
+                  the long term growth.
+                </p>
+                <div className="flex items-center group justify-center ">
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                    Hire Mobile App Developers in Seattle
+                  </button>
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                    <MdArrowOutward />
+                  </button>
+                </div>
               </div>
-            </div>
             </div>
           </div>
         }
         para={
-          <>
-            Choosing a mobile app development company New York is a big call,
-            and we don’t take that lightly. At Dignite Studios, we focus on
-            doing the work right, keeping things transparent, and building
-            products that actually hold up after launch. You need to look for a
-            company that provides you clarity, collaboration, and long-term
-            value when you’re looking for mobile application development in New
-            York. When it comes to working with founders, product teams, and
-            growing businesses, our{" "}
-            <Link
-              href={"/services/hire-mobile-app-developers"}
-              className="underline"
-            >
-              {" "}
-              experienced mobile app developers
-            </Link>{" "}
-            in New York bring structure, speed, and accountability to every
-            project. This is why many clients consider us the{" "}
-            <Link
-              className="underline"
-              href={"/services/mobile-app-development-services"}
-            >
-              {" "}
-              best mobile app development company New York{" "}
-            </Link>{" "}
-            to work with.
-          </>
+          "A mobile app strengths the engagement, increases revenue and also gives businesses the competitive edge through the reliable mobile app development Seattle solutions."
         }
       />
       <Industries
         VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Specialized App Development for"}
-        header2={" New York  Industries"}
+        header={"Industry specific"}
+        header2={"Mobile App Development Seattle"}
         para={
-          "At Dignite Studios, we don’t offer one-size-fits-all products. We build mobile app solutions shaped around your business model, compliance needs, and growth p."
+          "We deliver secure, scalable and industry ready mobile applications and our mobile app developers Seattle adapt each product to the business goals, compliance needs and the user expectation across many sectors."
         }
       />
       <Process
-      steps={PROCESS_STEPS}
-        header={"Our Proven Mobile App Development Process"}
+        steps={PROCESS_STEPS}
+        header={"Mobile App Development Process"}
+        header2={"Step by Step Mobile App Development Seattle Process"}
         para={
-          "Every app has a story. At our mobile app development company in New York, we follow a structured approach that brings your idea to life. It’s fast and perfectly aligned with your business vision. Here’s the process that turns concepts into apps."
+          "Our structured process ensures efficient, high-quality mobile app development in Seattle from the strategy to the post launch support."
         }
       />
       <MobileApp
-        header={"Why Mobile App is a Competitive "}
-        header2={"Advantage"}
+        header={"Benefits Of Having a"}
+        header2={"Mobile App"}
         para={
-          "Here’s why investing in an app from the best mobile app development company in New York is essential:"
+          "A mobile app helps Seattle businesses build stronger customer relationships, increase visibility, drive revenue and stay competitive in fast moving markets. "
         }
         cards={BENEFITS}
       />
-      <SuccessStories />
-      <CTA />
-      <TechAndTools />
-      <SEO />
+      <SuccessStories
+        header={"Case Studies of"}
+        header2={"Mobile App Development in Seattle"}
+        para={
+          "Real results from our Seattle mobile app development services show how Dignite Studios helps businesses solve the challenges of building scalable apps to attain the required results for the growth spike across the industries."
+        }
+      />
+      <CTA
+        header={"Ready to Build Your Mobile App?"}
+        para={
+          "Are you planning to create a powerful mobile app with top mobile app developers in Seattle? Connect with our dedicated team? Collaborate with our tech experts to develop a detailed project plan."
+        }
+        btn={"Get a Project Estimate"}
+      />
+      <TechAndTools
+        header={"Tools & Technologies We Use"}
+        para={
+          "We use the modern tools and platforms to deliver the reliable scalable solutions through the professional mobile app development Seattle expertise."
+        }
+      />
+      <SEO
+        header={"Mobile App development Across Seattle"}
+        para={
+          "We offer the Seattle Mobile app Development Services across key business hubs including downtown Seattle, tech corridors and nearby innovation districts. Our local presence allows close collaboration, faster communication and better alignment with business goals."
+        }
+        // locations={locations}
+      />
       <Testimonials
         test={test}
-        header={"Hear From Our New York"}
-        header2={"Clients"}
-        para={""}
+        header={"Testimonials for"}
+        header2={"Mobile App Development in Seattle"}
+        para={
+          "Our Seattle clients Dignite Studios for delivering high quality mobile apps on time through the measurable results and the smooth project execution."
+        }
       />
       <Faq faqs={faqs} />
       <ContactUs
-        pathname={"Mobile Dev in New York "}
-        header={"Start Your App Journey with Our NYC Team "}
-        img={"/location/mobile-newyork/c-img.png"}
+        pathname={"Mobile Dev in Seattle"}
+        header={"Start Your App Project Today"}
+        img={"/location/mobile-seattle/c-img.png"}
         header2={""}
         para={
-          "Work with a team that understands your goals. Our New York-based experts take care of development, design, and deployment so your product has a strong market presence. "
+          "Have an idea and need guidance on cost to create a mobile application? Our team offers the budget friendly mobile app development services in Seattle through our clear timelines and transparent pricing. "
         }
-        btn={"Schedule a Free Call"}
+        btn={"Get a Free Project Estimate"}
       />
       {/*     <Bussiness />
      <Industries />
@@ -499,4 +428,4 @@ Including strategy, UI/UX design with agile development and deployment, we make 
   );
 };
 
-export default MobileAppCalifornia;
+export default MobileAppSeattle;

@@ -1,21 +1,18 @@
+import MobileAppBoston from "@/components/Locations/mobile-app-boston/MobileAppBoston";
+import MobileAppSeattle from "@/components/Locations/mobile-app-seattle/MobileAppSeattle";
 
-import MobileAppBoston from '@/components/Locations/mobile-app-boston/MobileAppBoston';
-import MobileAppSeattle from '@/components/Locations/mobile-app-seattle/MobileAppSeattle';
-
-import GlobalLayout from '@/layout/GlobalLayout'
-import React from 'react'
+import GlobalLayout from "@/layout/GlobalLayout";
+import React from "react";
 export const metadata = {
-  title: "Experienced Mobile App Development Company New York",
+  title: "Mobile App Development Seattle – Build Scalable Apps",
   description:
-    "Mobile app development company New York delivering iOS, Android, and cross-platform apps with scalable tech, expert teams, and real business results today.",
+    "Dignite Studios is a leading mobile app development Seattle company delivering custom apps that engage users, drive revenue, and ensure long-term growth.",
 };
 const page = () => {
   //   <head>
   //   <meta name="robots" content="noindex, nofollow" />
   // </head>;
-    return (
-        <GlobalLayout page={<MobileAppSeattle />} />
-    )
-}
+  return <GlobalLayout page={<MobileAppSeattle />} />;
+};
 
-export default page
+export default page;

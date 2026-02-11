@@ -149,7 +149,7 @@ const TopRatedHero = () => {
   };
 
   return (
-    <div className="top-rated-bg bg-black w-full flex flex-col justify-start items-start pt-28 md:pt-40 z-0 relative">
+    <div className="top-rated-bg bg-black w-full flex flex-col justify-start items-start z-0 relative">
       {theme === "light" ? (
         <div className="apply-overlay-light" />
       ) : (

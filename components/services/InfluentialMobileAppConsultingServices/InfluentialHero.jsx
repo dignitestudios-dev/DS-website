@@ -17,7 +17,7 @@ const InfluentialHero = () => {
     >
       <div className={`${overlay} w-full h-full absolute top-0 z-0`} />
       <InfluentialNavbar setIsOpen={setIsSidebarOpen} />
-      <div className="w-full h-full global-padding-horizontal flex flex-col items-center justify-start pt-28 md:pt-40 text-center gap-8 lg:gap-10 relative z-20">
+      <div className="w-full h-full global-padding-horizontal flex flex-col items-center justify-start pt-16 text-center gap-8 lg:gap-10 relative z-20">
         <h1 className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-normal text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px] text-white hidden lg:block">
           <span className="text-[#F15C20]">Influential</span> Mobile App <br />
           Consulting Services

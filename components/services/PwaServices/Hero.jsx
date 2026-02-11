@@ -12,7 +12,7 @@ const Hero = () => {
   const { theme } = useContext(GlobalContext);
   const [toggle, setToggle] = useState(true);
   return (
-    <div className="w-full text-center relative pb-20 pt-28 md:pt-40 global-padding-horizontal flex flex-col items-center">
+    <main className="w-full h-full flex flex-col items-center gap-6 md:gap-8 pt-16 pb-0 text-center relative z-10">
       <h1
         className="capitalize text-center text-[16px] 2xl:text-[20px] font-medium mb-4"
         style={{
@@ -38,7 +38,7 @@ const Hero = () => {
       </div>
 
       <HeroAnimation />
-    </div>
+    </main>
   );
 };
 

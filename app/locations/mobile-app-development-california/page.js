@@ -1,19 +1,16 @@
-
-import MobileAppCalifornia from '@/components/Locations/mobile-app-california/MobileAppCalifornia';
-import GlobalLayout from '@/layout/GlobalLayout'
-import React from 'react'
+import MobileAppCalifornia from "@/components/Locations/mobile-app-california/MobileAppCalifornia";
+import GlobalLayout from "@/layout/GlobalLayout";
+import React from "react";
 export const metadata = {
-  title: "Mobile App Development Services in California - Dignite Studios",
+  title: "| Top Apps",
   description:
-    "Discover top-tier mobile app development services in California with Dignite Studios. We specialize in creating custom, high-performance apps that drive business growth and user engagement.",
+    "Top mobile app development company in California. We create scalable apps with smooth UX that bring engagement and business success. Get a free quote now!",
 };
 const page = () => {
   //   <head>
   //   <meta name="robots" content="noindex, nofollow" />
   // </head>;
-    return (
-        <GlobalLayout page={<MobileAppCalifornia />} />
-    )
-}
+  return <GlobalLayout page={<MobileAppCalifornia />} />;
+};
 
-export default page
+export default page;

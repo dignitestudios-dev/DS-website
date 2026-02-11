@@ -7,9 +7,9 @@ import Platforms from "../ui/Platforms";
 
 const Hero = () => {
   return (
-    <div className="w-full grid grid-cols-1  justify-start items-start pt-20  ">
+    <div className="w-full grid grid-cols-1  justify-start items-start  ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
-        <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
+        <h1 className="text-4xl leading-[40px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
           Trusted Mobile App Development Company{" "}
           <span className="text-[#F15C20] text-nowrap">New York</span>{" "}
         </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img src="/location/grad.webp" className="absolute left-[50%] translate-x-[-50%] -top-[80%] -z-0"  />
+        <img src="/location/grad.webp" className="absolute lg:block hidden left-[50%] translate-x-[-50%] -top-[80%] -z-0"  />
         <motion.img
           src="/location/mobile-newyork/mob.png"
           alt="bg"
@@ -49,12 +49,12 @@ const Hero = () => {
         <img
           src="/location/mobile-newyork/r.png"
           alt="r"
-          className="absolute top-[40%] left-[0%] md:left-[65%] translate-x-[-50%]"
+          className="absolute top-[40%] lg:block hidden left-[0%] md:left-[65%] translate-x-[-50%]"
         />
         <img
           src="/location/mobile-newyork/l.png"
           alt="l"
-          className="absolute top-[30%] left-[0%] md:left-[30%] translate-x-[-50%]"
+          className="absolute top-[30%] lg:block hidden left-[0%] md:left-[30%] translate-x-[-50%]"
         />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>

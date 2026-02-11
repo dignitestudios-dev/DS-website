@@ -7,7 +7,7 @@ import Platforms from "../ui/Platforms";
 
 const Hero = () => {
   return (
-    <div className="w-full grid grid-cols-1  justify-start items-start pt-20  ">
+    <div className="w-full grid grid-cols-1  justify-start items-start ">
       <div className="flex relative z-20  w-[95%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] md:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
           Mobile App Development Company Chicago for Scalable{" "}

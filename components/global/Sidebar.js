@@ -47,7 +47,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
   return (
     <div
       onClick={(e) => toggleModal(e)}
-      className={`w-screen h-screen z-[10000]  transition-all duration-200 fixed top-0 left-0  flex  items-start justify-end  ${
+      className={`w-screen h-screen z-[99999999]  transition-all duration-200 fixed top-0 left-0  flex  items-start justify-end  ${
         isOpen ? "translate-x-0 lg:translate-x-full" : "translate-x-full"
       }`}
     >
