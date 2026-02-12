@@ -1,9 +1,7 @@
+import MobileAppChicago from "@/components/Locations/mobile-app-chicago/MobileAppChicago";
 
-import MobileAppBoston from '@/components/Locations/mobile-app-boston/MobileAppBoston';
-import MobileAppChicago from '@/components/Locations/mobile-app-chicago/MobileAppChicago';
-
-import GlobalLayout from '@/layout/GlobalLayout'
-import React from 'react'
+import GlobalLayout from "@/layout/GlobalLayout";
+import React from "react";
 export const metadata = {
   title: "Mobile App Development Company Chicago | Dignite Studio",
   description:
@@ -13,9 +11,7 @@ const page = () => {
   //   <head>
   //   <meta name="robots" content="noindex, nofollow" />
   // </head>;
-    return (
-        <GlobalLayout page={<MobileAppChicago />} />
-    )
-}
+  return <GlobalLayout page={<MobileAppChicago />} />;
+};
 
-export default page
+export default page;

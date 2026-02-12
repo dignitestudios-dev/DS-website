@@ -2,6 +2,7 @@
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const CTA = () => {
   return (

@@ -94,7 +94,6 @@ const services = [
   },
 ];
 
-
 const highlights = [
   {
     title: "100% Custom Development",
@@ -122,7 +121,6 @@ const highlights = [
   },
 ];
 
-
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Industry",
@@ -145,7 +143,6 @@ const VALUE_PROPOSITION = [
     desc: "Interactive learning systems are created by an experienced e-learning app development company, supporting digital classrooms, content delivery, and student engagement.",
   },
 ];
-
 
 const test = [
   {
@@ -180,7 +177,6 @@ const test = [
   },
 ];
 
-
 const BENEFITS = [
   {
     title: "Customer Engagement & Retention",
@@ -208,7 +204,6 @@ const BENEFITS = [
     icon: <FaPencilAlt color="#F15C20" size={25} />,
   },
 ];
-
 
 const faqs = [
   {
@@ -243,7 +238,6 @@ const faqs = [
   },
 ];
 
-
 const PROCESS_STEPS = [
   {
     step: "01",
@@ -277,7 +271,6 @@ const PROCESS_STEPS = [
   },
 ];
 
-
 const MobileAppChicago = () => {
   return (
     <div className="w-full max-w-screen-2xl h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
@@ -293,7 +286,9 @@ From developers and designers to project managers, our team also works closely t
       />
       <Services
         services={services}
-        header={"Mobile App Services by a Trusted Mobile App Development Company in"}
+        header={
+          "Mobile App Services by a Trusted Mobile App Development Company in"
+        }
         header2={"Chicago"}
         para={
           "Dignite Studios operated as the reliable mobile application development Chicago solutions which offers complete support. We help businesses through the strategy, design, development and long term optimization for digital growth. "
@@ -309,35 +304,50 @@ From developers and designers to project managers, our team also works closely t
         }
         ctaBtn={"Let’s Talk About Your Idea"}
         cta={
-           <div className="bg-transparent  overflow-hidden hover:scale-105 z-50 absolute text-white   opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
-                    <div className="relative  overflow-hidden" >
-                    <img src="/location/mobile-chicago/b-cta.png" className="w-full h-[500px] rounded-b-2xl bottom-3 relative bg-cover" alt="lggg" />
-                    <img width={250} height={250} src="/location/mobile-chicago/cta-inner-m.png" className=" rounded-b-2xl bottom-14  right-10 absolute " alt="lggg" />
-                    <div className="md:w-[45%] absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-                      <h1 className="text-[45px] font-bold text-white leading-[45px]">
-                        Ready To Work With The Right Team?
-                      </h1>
-                      <p>
-                        Choosing a development partner is a big decision, and you’ve
-                        seen how we work and what we value. Now let’s discuss your
-                        product goals, technical needs
-                      </p>
-                      <Link
-                href={"/contact-us"} className="flex items-center group justify-center ">
-                        <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                          Let’s Talk About Your Idea
-                        </button>
-                        <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                          <MdArrowOutward />
-                        </button>
-                      </Link>
-                    </div>
-                    </div>
-                  </div>
+          <div className="bg-transparent  overflow-hidden hover:scale-105 z-50 absolute text-white   opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
+            <div className="relative  overflow-hidden">
+              <img
+                src="/location/mobile-chicago/b-cta.png"
+                className="w-full h-[500px] rounded-b-2xl bottom-3 relative bg-cover"
+                alt="lggg"
+              />
+              <img
+                width={250}
+                height={250}
+                src="/location/mobile-chicago/cta-inner-m.png"
+                className=" rounded-b-2xl bottom-14  right-10 absolute "
+                alt="lggg"
+              />
+              <div className="md:w-[45%] absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
+                <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                  Ready To Work With The Right Team?
+                </h1>
+                <p>
+                  Choosing a development partner is a big decision, and you’ve
+                  seen how we work and what we value. Now let’s discuss your
+                  product goals, technical needs
+                </p>
+                <Link
+                  href={"/contact-us"}
+                  className="flex items-center group justify-center "
+                >
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                    Let’s Talk About Your Idea
+                  </button>
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                    <MdArrowOutward />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
         }
         para={
           <>
-         Choosing the right partner matters, and working with the dependable mobile app development company chicago can also define your project’s success. At the Dignite Studios, we focus on the clarity, performance and business outcomes instead of the shortcuts. 
+            Choosing the right partner matters, and working with the dependable
+            mobile app development company chicago can also define your
+            project’s success. At the Dignite Studios, we focus on the clarity,
+            performance and business outcomes instead of the shortcuts.
           </>
         }
       />
@@ -372,7 +382,9 @@ From developers and designers to project managers, our team also works closely t
         test={test}
         header={"Testimonials"}
         header2={""}
-        para={"Chicago businesses trust Dignite Studios for its  mobile app development Chicago for a smooth development process that delivers fast results, measurable ROI, and professionalism. "}
+        para={
+          "Chicago businesses trust Dignite Studios for its  mobile app development Chicago for a smooth development process that delivers fast results, measurable ROI, and professionalism. "
+        }
       />
       <Faq faqs={faqs} />
       <ContactUs
