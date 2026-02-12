@@ -7,7 +7,7 @@ const ThankyouPage = () => {
   const { palette } = useContext(GlobalContext);
   return (
     <div
-      className="w-full h-auto flex flex-col gap-4 justify-center items-center py-16 px-4 md:px-12 lg:px-28"
+      className="w-full h-auto flex flex-col gap-4 justify-center mb-40 items-center py-16 px-4 md:px-12 lg:px-28"
       style={{
         background: palette?.background,
         color: palette?.color,
