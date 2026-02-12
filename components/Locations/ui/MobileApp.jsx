@@ -28,7 +28,7 @@ const icons = [
 
 const MobileApp = ({ cards, header, header2, para }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
-  const repeatedCards = [...cards, ...cards, ...cards];
+  const repeatedCards = [...cards, ...cards, ...cards , ...cards];
   return (
     <div className="w-full py-24 md:py-40 overflow-hidden">
       {/* Heading */}
@@ -45,16 +45,16 @@ const MobileApp = ({ cards, header, header2, para }) => {
           modules={[Autoplay]}
           centeredSlides={true}
           slidesPerView={"auto"}
-          spaceBetween={10}
+          spaceBetween={30}
           draggable
           loop={true}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
-            pauseOnMouseEnter: true, // we control it manually
+            // pauseOnMouseEnter: true, // we control it manually
           }}
           loopAddBlankSlides
-          className=" "
+          className="!overflow-visible "
           onSwiper={(swiper) => {
             swiper.autoplay.start();
           }}
@@ -66,7 +66,7 @@ const MobileApp = ({ cards, header, header2, para }) => {
             return (
               <SwiperSlide
                 key={index}
-                className="!w-[260px]"
+                className="!w-[260px] !overflow-visible"
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
               >

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 
@@ -29,14 +30,14 @@ const CTA = () => {
         <h1 className="text-4xl font-bold text-center">
           Be Our Next <span className="text-[#F15C20]">Success </span>Story!
         </h1>
-        <div className="flex items-center group justify-center ">
+        <Link href="/contact-us" className="flex items-center group justify-center ">
           <button className="bg-[#F15C20] group-hover:bg-orange-600 text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
             Start Your App Journey Now!
           </button>
           <button className="bg-[#F15C20] group-hover:bg-orange-600 text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
           </button>
-        </div>
+        </Link>
       </div>
     </div>
   );

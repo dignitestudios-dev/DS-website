@@ -70,6 +70,7 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
   return (
     <div className="w-full bg-[#0A0A0A] pt-24 sm:pt-32 [clip-path:ellipse(350%_100%_at_50%_100%)] relative grid grid-cols-1 pb-44 overflow-hidden md:py-32">
       <div className="flex justify-center w-[80%] mx-auto lg:justify-between items-center">
+        <img src={"/location/contact-crnr.png"} alt="Contact Us" className="absolute right-0  bottom-0 object-contain" />
         <div className="lg:w-[50%]">
           <h1 className="text-4xl text-white font-bold">{header}</h1>
           <h1 className="text-4xl font-bold text-[#F15C20] mb-4">{header2}</h1>
@@ -139,7 +140,7 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
             </div>
 
             {/* Submit Button */}
-            <div className="flex items-center group justify-start pt-4">
+            <div className="flex items-center relative w-fit z-30 group justify-start pt-4">
               <button
                 type="submit"
                 className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"

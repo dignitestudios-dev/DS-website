@@ -2,6 +2,7 @@
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const CTA = () => {
   return (
@@ -25,7 +26,7 @@ const CTA = () => {
           <p>
            Every project started with a simple conversation, and all you need is just a conversation. We help you refine and turn your idea into a working product without confusion or overpromising.
           </p>
-          <div className="flex items-center group justify-start  pt-4">
+          <Link href="/contact-us" className="flex items-center group justify-start  pt-4">
             <button
               type="submit"
               className="bg-[#F15C20] group-hover:bg-orange-600 text-white text-sm px-7 py-3 rounded-full transition-colors"
@@ -39,7 +40,7 @@ const CTA = () => {
             >
               <MdArrowOutward />
             </button>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

@@ -13,6 +13,7 @@ const Hero = () => {
       <p className="text-base font-medium mt-6 z-10">
         Mitigate your mobile app with risk-free innovative testing services
       </p>
+      <div className="relative w-full h-[200px] lg:h-[500px]" >
       <img
         width={1400}
         height={709}
@@ -21,8 +22,9 @@ const Hero = () => {
         src="/mobile-application-testing.png"
         alt=" mobile application testing services"
         title="mobile application testing services"
-        className="lg:w-[1400px] xl:h-[709.52px] absolute top-44 md:top-28 lg:top-16 mx-auto 2xl:top-16 z-0"
+        className=" absolute  lg:-top-60 mx-auto  z-10"
       />
+      </div>
     </main>
   );
 };

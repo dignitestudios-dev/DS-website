@@ -27,7 +27,7 @@ const CTA = () => {
             Let’s explore yours and see how our team can bring it to life
             exactly as you envision it.
           </p>
-          <div className="flex items-center group justify-start  pt-4">
+          <Link href="/contact-us" className="flex items-center group justify-start  pt-4">
             <button
               type="submit"
               className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-sm px-7 py-3 rounded-full transition-colors"
@@ -41,7 +41,7 @@ const CTA = () => {
             >
               <MdArrowOutward />
             </button>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

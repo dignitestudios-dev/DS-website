@@ -55,19 +55,20 @@ const Hero = () => {
           We are a startup app development company that helps startups create scalable apps that attract users and generate measurable revenue.
         </p>
         <div className="flex items-center group justify-start  pt-4">
-          <button
-            type="submit"
+          <Link
+            href="/contact-us"
+            
             className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
           >
              Let’s Discuss Your Idea
-          </button>
-          <button
-            type="submit"
+          </Link>
+          <Link
+            href="/contact-us"
             className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full
                  flex items-center justify-center transition-colors text-lg"
           >
             <MdArrowOutward />
-          </button>
+          </Link>
         </div>
       </div>
       <div className="w-full lg:w-[70%] overflow-hidden mx-auto relative lg:top-10 z-50">
