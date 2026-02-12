@@ -10,20 +10,21 @@ const Hero = () => {
     <div className="w-full grid grid-cols-1  justify-start items-start  ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
-          Trusted Mobile App Development Company{" "}
-          <span className="text-[#F15C20] text-nowrap">New York</span>{" "}
+          Miami Mobile App Development Company for{" "}
+          <span className="text-[#F15C20] text-nowrap">
+            Scalable Digital Products
+          </span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          With 5+ years of experience and 15+ projects delivered, our mobile app
-          development company New York focuses on building apps that don’t
-          create headaches later. You will work with a team that clearly
-          explains decisions, keeps you informed, and helps you stay in control
-          of your product.
+          Dignite Studios delivers the reliable Miami mobile app development
+          solutions for the startups and growing businesses focused on the
+          scalability, strong performance and the long term digital business
+          success as the mobile app development company in Miami.
         </p>
 
         <div className="flex items-center group justify-center ">
           <button className="bg-[#F15C20] group-hover:bg-orange-600 text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Book a Free Consultation
+            Get Your App Estimate
           </button>
           <button className="bg-[#F15C20] group-hover:bg-orange-600 text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
@@ -35,7 +36,11 @@ const Hero = () => {
           src="/location/grad.webp"
           className="absolute left-[50%] translate-x-[-50%] -top-[60%] -z-0"
         />
-        <img src="/location/mobile-miami/bg.png" alt="bg" className="absolute" />
+        <img
+          src="/location/mobile-miami/bg.png"
+          alt="bg"
+          className="absolute"
+        />
         <motion.img
           src="/location/mobile-miami/mob.png"
           alt="bg"

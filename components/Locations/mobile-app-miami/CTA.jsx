@@ -21,19 +21,22 @@ const CTA = () => {
         </div>
         <div className="w-[60%]">
           <h1 className="text-4xl capitalize font-bold mb-4">
-            Got an app idea that needs expert execution?
+            Build Your Mobile App with the Confidence
           </h1>
           <p>
-            Each case study started with an idea and a clear execution plan.
-            Let’s explore yours and see how our team can bring it to life
-            exactly as you envision it.
+            Dignite Studios helps the businesses plan the budgets and understand
+            mobile app costs through the clear strategy and expert mobile app
+            development Miami guidance
           </p>
-          <Link href="/contact-us" className="flex items-center group justify-start  pt-4">
+          <Link
+            href="/contact-us"
+            className="flex items-center group justify-start  pt-4"
+          >
             <button
               type="submit"
               className="bg-[#F15C20] group-hover:bg-orange-600 text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-              Discuss Your App Idea
+              Start Your App Journey Today
             </button>
             <button
               type="submit"

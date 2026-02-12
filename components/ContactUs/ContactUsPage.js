@@ -163,7 +163,7 @@ const ContactUsPage = () => {
 
   return (
     <div
-      className="w-full h-auto flex flex-col gap-4 justify-start items-start px-4 md:px-12 pt-6 lg:px-28 xl:px-[120px] 2xl:px-48"
+      className="w-full h-auto flex flex-col gap-4 justify-start items-start px-4 md:px-12 pt-6 lg:px-28 xl:px-[120px] mb-40 2xl:px-48"
       style={{
         background: palette?.background,
         color: palette?.color,

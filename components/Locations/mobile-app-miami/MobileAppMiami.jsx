@@ -26,17 +26,9 @@ const services = [
     title: "iOS App Development",
     description: (
       <>
-        If you’re going Apple-first, we’ve got you. Being one of the mobile app
-        development companies in New York, we build apps that work smoothly on
-        iPhones. Our{" "}
-        <Link
-          href="/services/ios-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          iOS app development
-        </Link>{" "}
-        and iPhone app development services focus on clean performance and a
-        smooth user experience.
+        We deliver iOS app development using Swift and SwiftUI. Our team builds
+        secure and high performance apps. These apps are ideal for the
+        healthcare, fintech and enterprise platforms.
       </>
     ),
   },
@@ -46,78 +38,32 @@ const services = [
     title: "Android App Development",
     description: (
       <>
-        For Android, we handle full{" "}
-        <Link
-          href="/services/android-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          Android app development
-        </Link>{" "}
-        using Kotlin and Java. When we offer our Android app development
-        service, we make sure your app runs smoothly across Pixel, Samsung, and
-        OnePlus — without weird bugs.
+        Our android app development services focus on speed and stability. We
+        also use Kotlin and Java for reliable performance.
       </>
     ),
   },
   {
     icon: "pipe",
     icon2: "pipe3",
-    title: "Cross-Platform App Development",
+    title: "Cross Platform App Development",
     description: (
       <>
-        Looking for faster delivery and cost efficiency? You need{" "}
-        <Link
-          href="/services/hybrid-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          cross-platform app development
-        </Link>
-        . We build apps with Flutter and React Native, so you get iOS and
-        Android apps from a single codebase.
+        We create efficient cross platform apps by using the single shared
+        codebase. This approach reduces cost and time to market. It also ensures
+        consistent performance across various platforms.
       </>
     ),
   },
   {
     icon: "icon",
     icon2: "icon4",
-    title: "Native App Development",
+    title: "Native and Web App Development",
     description: (
       <>
-        When you want full control, our{" "}
-        <Link
-          href="/services/native-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          native app development services
-        </Link>{" "}
-        are the best choice. As a native mobile app development company, we
-        build custom native apps and{" "}
-        <Link
-          href="/services/pwa-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          PWAs
-        </Link>{" "}
-        that scale with you.
-      </>
-    ),
-  },
-  {
-    icon: "chat",
-    icon2: "chat6",
-    title: "Web App Development",
-    description: (
-      <>
-        We also handle{" "}
-        <Link
-          href="/services/web-application-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          web app development
-        </Link>{" "}
-        services when your product lives in the browser. Our custom web app
-        development services in New York plug right into your mobile product
-        without friction.
+        Our native app development services deliver reliable and scalable
+        solutions. We also build custom web applications for business needs.
+        Each solution is designed for performance and long term use.
       </>
     ),
   },
@@ -127,46 +73,20 @@ const services = [
     title: "UI/UX Design Services",
     description: (
       <>
-        Good design makes everything easier. Our{" "}
-        <Link
-          href="/services/mobile-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          mobile app design services
-        </Link>
-        , including{" "}
-        <Link
-          href="https://www.dignitestudios.com/services/ios-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          iOS app design services
-        </Link>{" "}
-        and{" "}
-        <Link
-          href="/services/android-mobile-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          Android app design services
-        </Link>
-        , focus on clarity, flow, and keeping users happy.
+        Our mobile app design services focus on the clarity and usability. We
+        design simple effortless user journeys.
       </>
     ),
   },
   {
     icon: "chat",
     icon2: "chat6",
-    title: "Maintenance, Testing & Consulting",
+    title: "Maintenance, Testing and Consulting",
     description: (
       <>
-        We don’t disappear after launch. From MVP development and post-launch
-        support to QA testing and{" "}
-        <Link
-          href="/services/mobile-app-consulting-services"
-          className="underline text-[#F15C20] group-hover:text-white"
-        >
-          mobile app consulting services
-        </Link>
-        , we help you fix, improve, and scale without starting over.
+        We offer mobile app consulting services from idea validation to launch.
+        Our support includes testing, improvements and the long term
+        maintenance. This ensures smooth performance after release.
       </>
     ),
   },
@@ -174,103 +94,98 @@ const services = [
 
 const highlights = [
   {
-    title: "100% Custom Development",
-    desc: "No templates, no shortcuts. Every product is built specifically for your goals, users, and growth plans.",
+    title: "100 percent custom mobile app development Miami",
+    desc: "We build fully automation mobile apps which match your business goals, users and the long term growth.",
   },
   {
-    title: "Specialized Engineering Teams",
-    desc: "You get engineers, designers, and PMs matched to your product, not a random bench.",
+    title: "Specialized engineering teams for mobile app development Miami",
+    desc: "The expert engineers focus on the performance, security and scalability across every platform and the device type.",
   },
   {
-    title: "24/7 Support",
-    desc: "Questions, fixes, updates — we’re available whenever you need us, not just during office hours.",
+    title: "24 by 7 technical support",
+    desc: "Our support team is always available for 24 hrs to solve your issues regarding your app and let it run smoothly.",
   },
   {
-    title: "200+ Skilled Technology Experts",
-    desc: "A deep talent pool that helps us scale fast without compromising quality.",
+    title: "200 plus skilled developers",
+    desc: "A large team which have experienced the developers delivers the reliable, high quality solutions for the projects of any size.",
   },
   {
-    title: "Flexible Engagement Models",
-    desc: "Fixed scope, dedicated teams, or long-term partnerships — you choose what works.",
+    title: "Flexible engagement models for apps in Miami",
+    desc: "Choose engagement options which fit your budget, timeline and development needs without any of the unnecessary limitations.",
   },
   {
-    title: "Transparent Process",
-    desc: "Clear timelines, regular updates, and zero guesswork from day one.",
+    title: "Clear and transparent workflow",
+    desc: "We follow the structured process with open communication, giving full visibility at every development stage.",
   },
 ];
 
 const VALUE_PROPOSITION = [
   {
-    title: "Healthcare Apps",
-    desc: "As a Healthcare app development company in New York, we build HIPAA-ready apps. Telemedicine, patient portals, remote monitoring, you name it.",
+    title: "Healthcare Industry",
+    desc: "As a healthcare app development company, we build secure mobile solutions for the healthcare providers. Our apps support patient access, data protection and the compliance requirements.",
   },
   {
-    title: "Fintech Apps",
-    desc: "Through our fintech app development services, we help you launch secure fintech apps and payment mobile apps with multi-layer authentication, KYC/AML support, and transaction management.",
+    title: "Fintech Industry",
+    desc: "We deliver fintech app development services which are focused on the security and reliability driven platforms.",
   },
   {
-    title: "E-commerce & Retail Apps",
-    desc: "Our ecommerce application development services in New York keep things quick, simple, and tailored to your customers. Storefront? Check. Inventory? Check. POS and loyalty? All covered.",
+    title: "Ecommerce",
+    desc: "As an ecommerce app development company, we also create mobile shopping experiences that convert. Our apps support smooth browsing, secure payments and scalable growth.",
   },
   {
-    title: "Education & e-Learning Apps",
-    desc: "We offer education app development services that guide students step by step through courses, videos, and quizzes, while teachers get dashboards that actually help them do their job.",
+    title: "Real Estate Industry",
+    desc: "As a real estate app development company, we develop apps for the property listings and the virtual tours. Our solutions also include tools for the agents and brokers.",
   },
   {
-    title: "Real Estate Apps",
-    desc: "Our real estate app development services offer property tech apps that include property listings, advanced filters, virtual tours, mortgage calculators, and lead management tools.",
-  },
-  {
-    title: "Dating & Matchmaking Apps",
-    desc: "Real connections come before features. Our approach for New York prioritizes thoughtful matching, verified identities, and privacy controls that encourage genuine engagement.",
+    title: "Education and Logistics Apps",
+    desc: "We are an e-learning app development company building interactive education platforms. We also develop logistics solutions which support tracking, operations and the workflow efficiency.",
   },
 ];
 
 const test = [
   {
-    name: "Jason Miller",
-    designation: "— Founder, FinEdge NYC",
+    name: "Michael Harris",
+    designation: "— Product Director",
     review:
-      "“Dignite Studios helped us launch our mobile app ahead of schedule, and the ROI exceeded expectations within the first few months. Their New York mobile app development team understood our market and delivered with precision.”",
+      "“Dignite Studios delivered our fintech app ahead of schedule and ROI exceeded expectations”",
   },
   {
-    name: "Amanda Lopez",
-    designation: "— Product Lead, UrbanCart",
+    name: "Emily Carter",
+    designation: "— Operations Manager",
     review:
-      "“What impressed us most was the speed and structure. The mobile app was delivered fast without cutting corners. Clear communication, weekly updates, and zero surprises throughout the process.”",
+      "“Professional communication and smooth delivery from the planning to launch”",
   },
   {
     name: "Daniel Roberts",
-    designation: "— CTO, HealthBridge Solutions",
-    review:
-      "“Working with Dignite Studios was an amazing experience to be honest. It felt like having our own app team right here in New York. They were super professional, easy to work with, and always on the same page.”",
+    designation: "— Founder",
+    review: "“One of the best development partners we've ever worked with”",
   },
 ];
 
 const BENEFITS = [
   {
-    title: "Customer Retention",
-    desc: "The mobile app lets you enhance customer retention by making your brand more accessible.",
+    title: "Boost customer engagement and retention",
+    desc: "Create interactive app experiences which keep users active, satisfied and returning your product regularly.",
     icon: <FaUser color="#F15C20" size={25} />,
   },
   {
-    title: "Brand Visibility",
-    desc: "Improved visibility leads to stronger connections with your audience, so stay top-of-mind with a branded app.",
+    title: "Increase the brand visibility and loyalty",
+    desc: "Strengthen your brand presence while building long term trust and loyalty among the mobile app users.",
     icon: <IoGrid color="#F15C20" size={25} />,
   },
   {
-    title: "Drive Revenue",
-    desc: "Mobile apps open new ways to grow your business through mobile sales or in-app purchases.",
+    title: "Drive revenue through the mobile sales",
+    desc: "Turn the mobile users into paying customers through the smooth checkout flows and also the conversion focused app features.",
     icon: <IoWalletOutline color="#F15C20" size={25} />,
   },
   {
-    title: "Actionable Insights",
-    desc: "Built-in analytics in mobile apps help you understand user behavior, make smarter business decisions, and optimize the experience.",
+    title: "Improve experience using Analytics",
+    desc: "Using the real user data to refine the features, fix issues faster and improve the overall app performance.",
     icon: <CiSearch color="#F15C20" size={25} />,
   },
   {
-    title: "Competition",
-    desc: "Having an app gives you an advantage and positions your business as innovative and accessible in the New York mobile app development market.",
+    title: "Stay competitive scalable apps",
+    desc: "Build a flexible, future ready app which grow with your business and to outperform the market competitors quite easily.",
     icon: <FaPencilAlt color="#F15C20" size={25} />,
   },
 ];
@@ -278,78 +193,66 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "What technologies do you work with?",
+    question: "Do you build both iOS and Android apps in Miami?",
     answer:
-      "We use modern, proven tech. Flutter. React Native. Swift. Kotlin. Node JS. As one of the reliable mobile app development companies in New York, we choose what fits your product best.",
+      "Yes, iOS and Android apps are provided as part of the mobile app development in Miami services by using the native and cross platform technologies which are based on your goals and budget.",
   },
   {
     id: 2,
-    question: "Can I hire you for just iOS or Android?",
+    question: "How long does mobile app development take?",
     answer:
-      "Yes. iOS, Android, or cross-platform. Our app development New York team helps you pick the right setup and builds it properly from day one.",
+      "Most of the projects take almost three to six months based on the app features and also the overall complexity.",
   },
   {
     id: 3,
-    question: "Do you handle backend and cloud as well?",
+    question: "Do you offer post launch support?",
     answer:
-      "We do. Our mobile application development New York services include backend systems, real-time databases, and cloud infrastructure. Everything your app needs to scale smoothly.",
+      "Yes, our app development Miami provides the ongoing maintenance, updates and the support after the launch.",
   },
   {
     id: 4,
-    question: "How do you keep projects moving on time?",
+    question: "Can you help refine my idea?",
     answer:
-      "Clear sprints. Clear timelines. Regular updates. During the development, you will always be aware of what’s happening and what’s coming next.",
+      "Yes. Our mobile app developers in Miami help refine the idea by planning features, strategy and budget before the development.",
   },
   {
     id: 5,
-    question: "Do you work with startups and enterprises?",
+    question: "How much does mobile app development in Miami cost?",
     answer:
-      "Both. MVPs. Growing products. Complex platforms. We scale the team and process based on your goals.",
-  },
-  {
-    id: 6,
-    question: "What happens after launch?",
-    answer:
-      "We stay involved. Updates. Improvements. Performance checks. Your app keeps getting better over time.",
-  },
-  {
-    id: 7,
-    question: "Why work with a New York-based team?",
-    answer:
-      "Faster communication. Better collaboration. A team that understands your market and treats your product seriously.",
+      "The cost depends on various features, platforms and scope. Our mobile app development team provides the next step after reviewing the requirements.",
   },
 ];
 
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery & Strategy",
-    desc: "In this phase, we align your business objectives with the app’s vision, features, and technical foundation because clear goals lead to better products.",
+    title: "Discovery and Strategy",
+    desc: "We define goals, budgets, and features while planning apps for easy tracking and the long term scalability.",
   },
   {
     step: "02",
-    title: "User Interface Design",
-    desc: "It is a mobile app development New York process in which a visual mock-up is created that displays the mobile app’s initial design and purpose but does not hold functional code.",
+    title: "UI/UX Prototyping",
+    desc: "Our designers create clear interfaces focused on usability and conversion before development begins.",
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The sprint planning for app development starts here, and our professional mobile app developers in New York determine the product roadmap and analyze the total execution time.",
+    title: "Agile Development and Sprints",
+    desc: "We follow sprint planning for app development with the weekly updates and controlled iterations.",
   },
   {
     step: "04",
-    title: "Testing & Evaluation",
-    desc: "Testing at all stages of the mobile app development process is the best assurance to eliminate serious bugs, stay up-to-date with the current status, and build your esteem.",
+    title: "QA Testing",
+    desc: "Dedicated teams perform the quality checks aligned with the mobile app development process steps.",
   },
   {
     step: "05",
-    title: "Deployment",
-    desc: "Your app’s journey is finally about to take off. Deployment is the moment where preparation meets performance, including packaging, configuring servers, and ensuring smooth operation across iOS, Android, and beyond.",
+    title: "App Launch and Deployment",
+    desc: "Apps are launched on the App Store and Google Play with full compliance.",
   },
   {
     step: "06",
-    title: "Post-Launch Support",
-    desc: "After launch, the developers’ focus shifts to monitoring performance, fixing bugs, and optimizing features based on user feedback.",
+    title: "Post Launch Optimization",
+    desc: "Ongoing updates support growth performance and retention.",
   },
 ];
 
@@ -358,143 +261,126 @@ const MobileAppMiami = () => {
     <div className="max-w-screen-2xl w-full flex flex-col mx-auto overflow-hidden">
       <Hero />
       <About
-        heading="The"
-        heading2={"BackStory"}
-        para="You’re reading about a Mobile App Development Company New York Brands Trust. With 5+ years of experience and 15+ projects delivered, we’re one of the best mobile app development companies in New York, focused on building high-performance apps for real-world use.
-Dignite Studios is a team of 200+ expert mobile app developers in New York who work with startups and growing businesses and help them turn their ideas into scalable, high-performing mobile apps. 
-Including strategy, UI/UX design with agile development and deployment, we make sure to build apps that are reliable, engaging, and built to grow with your business. 
-"
-        button=""
+        heading="About Dignite"
+        heading2={"Studios"}
+        para="As a mobile app development company in Miami, we focus on performance driven apps built for long term scalability. Dignite studios works with the startups, the founded founders and established businesses. With the experience in mobile application development Miami, we understand the local business needs, user behaviour and growth challenges. Our developers, designers and project managers work together to build reliable, secure and easy to use apps. Every project follows a clear process through transparent communication and the measurable results."
+        button="Talk to Our Miami Based App Development Team"
       />
       <Services
         services={services}
         header={"Mobile App Development Services In"}
-        header2={"New York"}
+        header2={"Miami"}
         para={
-          "We are the trusted mobile app development company New York that offers end-to-end services because sometimes, building a mobile application can feel overwhelming. But it doesn’t have to. Every service is focused on performance and long-term growth. "
+          "Our mobile application development Miami services cover the strategy design development testing and long term support."
         }
       />
       <Bussiness
         bs={highlights}
-        header={"Why Teams Choose"}
+        header={"Why Choose"}
         header2={"Dignite Studios"}
-        ctaHeader={"Ready To Work With The Right Team?"}
+        ctaHeader={"Ready to Scale Your Miami Mobile App Development"}
         ctaPara={
-          "Choosing a development partner is a big decision, and you’ve seen how we work and what we value. Now let’s discuss your product goals, technical needs"
+          "Work with the trusted mobile app development company miami to build high performance apps which engage users, drive growth and deliver measurable business results."
         }
-        ctaBtn={"Let’s Talk About Your Idea"}
+        ctaBtn={"Get Your Project Started"}
         cta={
-           <div className="bg-black  overflow-hidden hover:scale-105 z-50 absolute text-white   opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
-                    <div className="relative  overflow-hidden" >
-                    <img src="/location/mobile-miami/b-cta.png" className="w-full h-[500px] rounded-b-2xl bottom-0 relative bg-cover" alt="lggg" />
-                    {/* <img width={250} height={250} src="/location/mobile-chicago/cta-inner-m.png" className=" rounded-b-2xl bottom-14  right-10 absolute " alt="lggg" /> */}
-                    <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-                      <h1 className="text-[45px] font-bold text-white leading-[45px]">
-                        Ready To Work With The Right Team?
-                      </h1>
-                      <p>
-                        Choosing a development partner is a big decision, and you’ve
-                        seen how we work and what we value. Now let’s discuss your
-                        product goals, technical needs
-                      </p>
-                      <Link
-                href={"/contact-us"} className="flex items-center group justify-center ">
-                        <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                          Let’s Talk About Your Idea
-                        </button>
-                        <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                          <MdArrowOutward />
-                        </button>
-                      </Link>
-                    </div>
-                    </div>
-                  </div>
+          <div className="bg-black  overflow-hidden hover:scale-105 z-50 absolute text-white   opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
+            <div className="relative  overflow-hidden">
+              <img
+                src="/location/mobile-miami/b-cta.png"
+                className="w-full h-[500px] rounded-b-2xl bottom-0 relative bg-cover"
+                alt="lggg"
+              />
+              <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
+                <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                  Ready to Scale Your Miami Mobile App Development
+                </h1>
+                <p>
+                  Work with the trusted mobile app development company miami to
+                  build high performance apps which engage users, drive growth
+                  and deliver measurable business results.
+                </p>
+                <Link
+                  href={"/contact-us"}
+                  className="flex items-center group justify-center "
+                >
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                    Get Your Project Started
+                  </button>
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                    <MdArrowOutward />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
         }
         para={
           <>
-            Choosing a mobile app development company New York is a big call,
-            and we don’t take that lightly. At Dignite Studios, we focus on
-            doing the work right, keeping things transparent, and building
-            products that actually hold up after launch. You need to look for a
-            company that provides you clarity, collaboration, and long-term
-            value when you’re looking for mobile application development in New
-            York. When it comes to working with founders, product teams, and
-            growing businesses, our{" "}
-            <Link
-              href={"/services/hire-mobile-app-developers"}
-              className="underline"
-            >
-              {" "}
-              experienced mobile app developers
-            </Link>{" "}
-            in New York bring structure, speed, and accountability to every
-            project. This is why many clients consider us the{" "}
-            <Link
-              className="underline"
-              href={"/services/mobile-app-development-services"}
-            >
-              {" "}
-              best mobile app development company New York{" "}
-            </Link>{" "}
-            to work with.
+            Clients choose our mobile app development company miami for
+            transparency expertise and consistent delivery.
           </>
         }
       />
       <Industries
         VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Specialized App Development for"}
-        header2={" New York  Industries"}
+        header={"Industry Focused Mobile App "}
+        header2={"Solutions"}
         para={
-          "At Dignite Studios, we don’t offer one-size-fits-all products. We build mobile app solutions shaped around your business model, compliance needs, and growth p."
+          "Our Miami mobile app development expertise supports regulated and fast growing industries through scalable solutions."
         }
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Our Proven Mobile App Development Process"}
+        header={"Mobile App Development Process"}
         para={
-          "Every app has a story. At our mobile app development company in New York, we follow a structured approach that brings your idea to life. It’s fast and perfectly aligned with your business vision. Here’s the process that turns concepts into apps."
+          "Our Miami mobile app development process follows structured steps designed for speed clarity and measurable outcomes for every project."
         }
       />
       <MobileApp
-        header={"Why Mobile App is a Competitive "}
-        header2={"Advantage"}
+        header={"Benefits of Having a Mobile "}
+        header2={"App"}
         para={
-          "Here’s why investing in an app from the best mobile app development company in New York is essential:"
+          "Miami mobile app development helps businesses increase the engagement revenue visibility and the competitive advantage in the fast growing digital markets."
         }
         cards={BENEFITS}
       />
-      <SuccessStories />
+      <SuccessStories
+        header={"Our Miami mobile app development results "}
+        header2={"show how strategy and execution drive measurable business growth."}
+      />
       <CTA />
-      <TechAndTools />
-      {/* <SEO /> */}
+      <TechAndTools
+        header={"Tools and Technologies We Use"}
+        para={
+          "Our technology stack supports scalable mobile application development Miami projects through the proven frameworks."
+        }
+      />
+      <SEO
+        header={"Serving Businesses Across Miami"}
+        para={
+          "We provide app development Miami services with the local availability and the faster collaboration. We support the mobile app developers in Miami by helping startups, enterprises and growing brands to build successful apps."
+        }
+      />
       <Testimonials
         test={test}
-        header={"Hear From Our New York"}
-        header2={"Clients"}
-        para={""}
+        header={"Recognized and Trusted for Miami Mobile App Development"}
+        header2={""}
+        para={
+          "Our expertise in mobile app development Company Miami and app development Miami is also trusted across many verified platforms for consistent quality delivery. DigniteStudios is recognized for reliable work professional delivery and long term client partnerships built on being consistent."
+        }
       />
       <Faq faqs={faqs} />
       <ContactUs
         img={"/location/mobile-boston/c-img.png"}
-        pathname={"Mobile Dev in New York "}
-        header={"Start Your App Journey with Our NYC Team "}
+        pathname={"Mobile Dev in Miami"}
+        header={"Ready to Build Your Mobile App"}
         header2={""}
         para={
-          "Work with a team that understands your goals. Our New York-based experts take care of development, design, and deployment so your product has a strong market presence. "
+          "Have an idea and need expert guidance. Connect with our team and move from concept to launch with confidence."
         }
-        btn={"Schedule a Free Call"}
+        btn={"Request a Free Consultation"}
       />
-      {/*     <Bussiness />
-     <Industries />
-      <Process />
-    <MobileApp />
-      <SuccessStories />
-   <CTA />
-          <TechAndTools />
-       <SEO />
-      <Testimonials />
-      <ContactUs />
-      <Faq />  */}
     </div>
   );
 };
