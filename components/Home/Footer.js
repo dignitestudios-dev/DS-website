@@ -176,19 +176,19 @@ const Footer = () => {
                 <MdArrowOutward />
               </button>
             </div>
-            <div className="flex flex-col items-center gap-1 text-sm">
-              <a
+            <div className="flex flex-col items-center gap-1 ">
+              <Link
                 href="mailto:info@dignitestudios.com"
-                className="text-white hover:text-[#F15C20] transition"
+                className="text-white hover:text-[#F15C20] font-light text-xs transition"
               >
                 E : info@dignitestudios.com
-              </a>
-              <a
+              </Link>
+              <Link
                 href="tel:+18777141770"
-                className="text-white hover:text-[#F15C20] transition"
+                className="text-white hover:text-[#F15C20] text-xs transition"
               >
                 P : +1 877 714 1770
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -383,7 +383,7 @@ const Footer = () => {
 
         <div className="w-full grid grid-cols-3 lg:grid-cols-6 xl:grid-cols-11 gap-x-8 gap-y-12 mb-16 relative z-10">
           {/* Logo and Description */}
-          <div className="col-span-3 lg:col-span-2 xl:col-span-3 flex flex-col gap-6 sticky top-0 z-30  py-6">
+          <div className="col-span-3 lg:col-span-2 xl:col-span-3 flex flex-col  sticky top-0 z-30  py-6">
             <Link href="/">
               <Image
                 loader={customLoader}
@@ -394,11 +394,11 @@ const Footer = () => {
                 className="w-36 h-auto"
               />
             </Link>
-            <p className="text-white uppercase font-bold leading-relaxed max-w-xs">
+            <p className="text-white uppercase font-bold  max-w-xs text-sm">
               Don't compromise on your app's success.{" "}
               <span className="text-[#F15C20]">Gain a competitive edge.</span>
             </p>
-            <div className="flex items-center group pt-4">
+            <div className="flex items-center group  py-4">
               <button
                 type="button"
                 className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
@@ -412,7 +412,7 @@ const Footer = () => {
                 <MdArrowOutward />
               </button>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-sm">
               <a
                 href="mailto:info@dignitestudios.com"
                 className="text-white hover:text-[#F15C20] transition"
