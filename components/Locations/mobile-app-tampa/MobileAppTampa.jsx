@@ -296,14 +296,15 @@ The Tampa-based team is ready to guide you through every step of the build, to i
               <p >
                 Your idea deserves solid execution and responsive teams. Book a consultation and discuss your idea with our Knowledgeable professionals. 
               </p>
-              <div className="flex items-center group justify-center ">
+              <Link
+                href={"/contact-us"} className="flex items-center group justify-center ">
                 <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
                  Schedule Your Consultation Now
                 </button>
                 <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
                   <MdArrowOutward />
                 </button>
-              </div>
+              </Link>
             </div>
             <img src="/location/mobile-tampa/cc.png" className="absolute right-10 bottom-14 rounded-br-2xl" />
             </div>

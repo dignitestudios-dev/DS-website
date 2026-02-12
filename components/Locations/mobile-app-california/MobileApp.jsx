@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -38,7 +38,7 @@ const cards = [
 
 const MobileApp = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
-const repeatedCards = [...cards, ...cards, ...cards];
+  const repeatedCards = [...cards, ...cards, ...cards];
   return (
     <div className="w-full py-24 md:py-40 overflow-hidden">
       {/* Heading */}
@@ -56,23 +56,23 @@ const repeatedCards = [...cards, ...cards, ...cards];
       {/* Swiper */}
       <div className="mt-16 w-screen">
         <Swiper
-                modules={[Autoplay]}
-                centeredSlides={true}
-                slidesPerView={"auto"}
-                spaceBetween={10}
-              draggable
-                loop={true}
-  autoplay={{
-    delay: 3000,
-    disableOnInteraction: false,
-    pauseOnMouseEnter: true, // we control it manually
-  }}
-  loopAddBlankSlides
-  className=" "
-  onSwiper={(swiper) => {
-    swiper.autoplay.start();
-  }}
-        //   className="!px-6 !overflow-visible"
+          modules={[Autoplay]}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          spaceBetween={10}
+          draggable
+          loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true, // we control it manually
+          }}
+          loopAddBlankSlides
+          className=" "
+          onSwiper={(swiper) => {
+            swiper.autoplay.start();
+          }}
+          //   className="!px-6 !overflow-visible"
         >
           {repeatedCards.map((card, index) => {
             const isActive = hoveredIndex === index;
@@ -92,12 +92,20 @@ const repeatedCards = [...cards, ...cards, ...cards];
                         : "bg-[#FFF7F4] text-[#0C0C0C] border-[#FDD0BF]"
                     }`}
                 >
-                    {!isActive && (
-                        <img src="/location/mobile-california/lines.png" alt="lines" className="absolute right-0 -top-16" />
-                    )}
-                    {isActive && (
-                        <img src="/location/mobile-california/design.png" alt="lines" className="absolute right-0 w-full -bottom-28 scale-125" />
-                    )}
+                  {!isActive && (
+                    <img
+                      src="/location/mobile-california/lines.png"
+                      alt="lines"
+                      className="absolute right-0 -top-16"
+                    />
+                  )}
+                  {isActive && (
+                    <img
+                      src="/location/mobile-california/design.png"
+                      alt="lines"
+                      className="absolute right-0 w-full -bottom-28 scale-125"
+                    />
+                  )}
                   <div className="p-6 items-start flex flex-col h-full">
                     {/* Icon */}
                     <div
@@ -112,7 +120,9 @@ const repeatedCards = [...cards, ...cards, ...cards];
                     </div>
 
                     {/* Content */}
-                    <h3 className={`"text-lg h-[85px] font-semibold mb-3 transition-all ease-linear" ${isActive && "h-fit transition-all ease-linear"} `}>
+                    <h3
+                      className={`"text-lg h-[85px] font-semibold mb-3 transition-all ease-linear" ${isActive && "h-fit transition-all ease-linear"} `}
+                    >
                       {card.title}
                     </h3>
                     <p className="text-sm text-start leading-relaxed opacity-90">

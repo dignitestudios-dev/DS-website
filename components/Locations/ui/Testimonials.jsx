@@ -50,18 +50,17 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
 
       <div className="w-full py-12 px-4 md:px-0">
         <Swiper
-          modules={[Autoplay, Pagination]}
-          spaceBetween={30}
-          slidesPerView={1}
+          modules={[Autoplay]}
           centeredSlides={true}
+          slidesPerView={1}
+          spaceBetween={30}
+          draggable
           loop={true}
+          loopedSlides={testimonials.length * 3}
+          loopAdditionalSlides={testimonials.length}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-            dynamicBullets: true,
           }}
           breakpoints={{
             640: {
@@ -80,13 +79,16 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
               slidesPerView: 6,
             },
           }}
-          className="testimonial-swiper !pb-14"
+          className="!overflow-visible testimonial-swiper !pb-14"
+          onSwiper={(swiper) => {
+            swiper.autoplay.start();
+          }}
         >
           {[...testimonials, ...testimonials, ...testimonials].map(
             (item, index) => (
               <SwiperSlide
                 key={index}
-                className="!flex !justify-center !items-center py-10"
+                className="!flex !justify-center !items-center py-10 !overflow-visible"
               >
                 {({ isActive }) => (
                   <div

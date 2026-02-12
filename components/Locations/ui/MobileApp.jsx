@@ -28,7 +28,14 @@ const icons = [
 
 const MobileApp = ({ cards, header, header2, para }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
-  const repeatedCards = [...cards, ...cards, ...cards , ...cards];
+  const repeatedCards = [
+    ...cards,
+    ...cards,
+    ...cards,
+    ...cards,
+    ...cards,
+    ...cards,
+  ];
   return (
     <div className="w-full py-24 md:py-40 overflow-hidden">
       {/* Heading */}
@@ -40,7 +47,7 @@ const MobileApp = ({ cards, header, header2, para }) => {
         <p className="text-lg my-6 text-[#0C0C0C]">{para}</p>
       </div>
 
-      <div className="mt-16 w-screen">
+      <div className="mt-16 w-full">
         <Swiper
           modules={[Autoplay]}
           centeredSlides={true}
@@ -48,17 +55,17 @@ const MobileApp = ({ cards, header, header2, para }) => {
           spaceBetween={30}
           draggable
           loop={true}
+          loopedSlides={10}
+          loopAdditionalSlides={10}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
             // pauseOnMouseEnter: true, // we control it manually
           }}
-          loopAddBlankSlides
-          className="!overflow-visible "
+          className="!overflow-visible"
           onSwiper={(swiper) => {
             swiper.autoplay.start();
           }}
-          //   className="!px-6 !overflow-visible"
         >
           {repeatedCards.map((card, index) => {
             const isActive = hoveredIndex === index;

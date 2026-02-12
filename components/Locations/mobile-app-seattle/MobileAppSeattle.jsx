@@ -327,14 +327,15 @@ const MobileAppSeattle = () => {
                   the powerful mobile apps to engage the users and to support
                   the long term growth.
                 </p>
-                <div className="flex items-center group justify-center ">
+                <Link
+                href={"/contact-us"} className="flex items-center group justify-center ">
                   <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
                     Hire Mobile App Developers in Seattle
                   </button>
                   <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
                     <MdArrowOutward />
                   </button>
-                </div>
+                </Link>
               </div>
             </div>
           </div>

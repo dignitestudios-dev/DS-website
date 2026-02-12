@@ -397,14 +397,15 @@ Including strategy, UI/UX design with agile development and deployment, we make 
                         seen how we work and what we value. Now let’s discuss your
                         product goals, technical needs
                       </p>
-                      <div className="flex items-center group justify-center ">
+                      <Link
+                href={"/contact-us"} className="flex items-center group justify-center ">
                         <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
                           Let’s Talk About Your Idea
                         </button>
                         <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
                           <MdArrowOutward />
                         </button>
-                      </div>
+                      </Link>
                     </div>
                     </div>
                   </div>

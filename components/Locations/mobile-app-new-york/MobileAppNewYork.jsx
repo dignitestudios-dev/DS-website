@@ -400,14 +400,15 @@ Including strategy, UI/UX design with agile development and deployment, we make 
                   seen how we work and what we value. Now let’s discuss your
                   product goals, technical needs
                 </p>
-                <div className="flex items-center group justify-center ">
+                <Link
+                href={"/contact-us"} className="flex items-center group justify-center ">
                   <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
                     Let’s Talk About Your Idea
                   </button>
                   <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
                     <MdArrowOutward />
                   </button>
-                </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -468,58 +469,7 @@ Including strategy, UI/UX design with agile development and deployment, we make 
       <SuccessStories />
       <CTA />
       <TechAndTools />
-      <SEO
-        header={"New York-Specific Coverage"}
-        para={
-          "Choosing the right partner in New York can completely change the way your app performs in a competitive market."
-        }
-        locations={[
-          {
-            id: 1,
-            title: "Los Angeles",
-            heading: "",
-            description:
-              "Our team builds apps that perform and retain users. You get local expertise and solutions designed specifically for LA startups.",
-            pinPercent: { x: 19.5, y: 36.5 },
-            cardPercent: { x: 21, y: 15 },
-            direction: "up",
-            cardPosition: { top: "12%", left: "20%" },
-          },
-          {
-            id: 2,
-            title: "San Francisco",
-            heading: "",
-            description:
-              "Our App development company in San Diego brings clean architecture, a futuristic tech stack, and a product strategy.",
-            pinPercent: { x: 45.5, y: 35 },
-            cardPercent: { x: 49, y: 12 },
-            direction: "up",
-            cardPosition: { top: "9%", left: "48%" },
-          },
-          {
-            id: 3,
-            title: "San Diego",
-            heading: "",
-            description:
-              "Our app development company in San Diego gives you clear timelines and user-focused execution.",
-            pinPercent: { x: 58, y: 46 },
-            cardPercent: { x: 56, y: 72 },
-            direction: "down",
-            cardPosition: { top: "69%", left: "34.5%" },
-          },
-          {
-            id: 4,
-            title: "Silicon Valley",
-            heading: "",
-            description:
-              "With detailed Silicon Valley app development expertise, we help founders build faster and more competitively.",
-            pinPercent: { x: 67, y: 47 },
-            cardPercent: { x: 70, y: 72 },
-            direction: "down",
-            cardPosition: { top: "69%", left: "69%" },
-          },
-        ]}
-      />
+   
       <Testimonials
         test={test}
         header={"Hear From Our New York"}

@@ -20,39 +20,38 @@ const Bussiness = () => {
     { duration: 6.5, delay: 1.5 },
     { duration: 8, delay: 0.5 },
   ];
-const bs = [
-  {
-    title: "12+ Years of Revenue-Driven App Development",
-    desc: "For over a decade, we’ve helped businesses across California transform ideas into high-performing mobile apps. Every solution we deliver is built to create measurable business impact and long-term value.",
-    icon: "i1.png",
-  },
-  {
-    title: "Silicon Valley-Level Expertise at Competitive Pricing",
-    desc: "Get access to elite design, development, and innovation expertise—without Silicon Valley price tags. Our California mobile app development services are tailored to your market and business goals.",
-    icon: "i2.png",
-  },
-  {
-    title: "Dedicated California-Based Project Managers",
-    desc: "Your dedicated project manager ensures milestones are met, risks are addressed early, and your objectives guide every decision—providing clear communication and smooth execution throughout.",
-    icon: "i3.png",
-  },
-  {
-    title: "100% Transparent Process & Weekly Sprints",
-    desc: "No guessing, no jargon, and no hidden progress. We provide complete visibility into every stage of development through weekly sprints, ensuring accountability, adaptability, and timely delivery.",
-    icon: "i4.png",
-  },
-  {
-    title: "Post-Launch Support & Continuous Growth",
-    desc: "Launch is just the beginning. Our ongoing support, optimization, and scaling services ensure your app stays competitive and grows alongside your business in the California market.",
-    icon: "i5.png",
-  },
-  {
-    title: "Custom Solutions Tailored to Your Business",
-    desc: "Every app we build is custom-developed to align with your operational goals and market requirements. Partnering with a leading California mobile app development company ensures a solution that keeps you ahead of the competition.",
-    icon: "i6.png",
-  },
-];
-
+  const bs = [
+    {
+      title: "12+ Years of Revenue-Driven App Development",
+      desc: "For over a decade, we’ve helped businesses across California transform ideas into high-performing mobile apps. Every solution we deliver is built to create measurable business impact and long-term value.",
+      icon: "i1.png",
+    },
+    {
+      title: "Silicon Valley-Level Expertise at Competitive Pricing",
+      desc: "Get access to elite design, development, and innovation expertise—without Silicon Valley price tags. Our California mobile app development services are tailored to your market and business goals.",
+      icon: "i2.png",
+    },
+    {
+      title: "Dedicated California-Based Project Managers",
+      desc: "Your dedicated project manager ensures milestones are met, risks are addressed early, and your objectives guide every decision—providing clear communication and smooth execution throughout.",
+      icon: "i3.png",
+    },
+    {
+      title: "100% Transparent Process & Weekly Sprints",
+      desc: "No guessing, no jargon, and no hidden progress. We provide complete visibility into every stage of development through weekly sprints, ensuring accountability, adaptability, and timely delivery.",
+      icon: "i4.png",
+    },
+    {
+      title: "Post-Launch Support & Continuous Growth",
+      desc: "Launch is just the beginning. Our ongoing support, optimization, and scaling services ensure your app stays competitive and grows alongside your business in the California market.",
+      icon: "i5.png",
+    },
+    {
+      title: "Custom Solutions Tailored to Your Business",
+      desc: "Every app we build is custom-developed to align with your operational goals and market requirements. Partnering with a leading California mobile app development company ensures a solution that keeps you ahead of the competition.",
+      icon: "i6.png",
+    },
+  ];
 
   return (
     <div
@@ -72,22 +71,43 @@ const bs = [
             <span className="text-[#F15C20]"> Dignite Studios</span>{" "}
           </h1>
           <p className="text-lg my-6 text-white ">
-            Businesses in California turn to Dignite Studios because we bring them the results they want. We are not just some people claiming to be the Top mobile app development company; we have a team of the best <Link className="underline" href={"/services/hire-mobile-app-developers"} > mobile app developers </Link>  in California. We are the top choice for businesses and founders who want growth. 
+            Businesses in California turn to Dignite Studios because we bring
+            them the results they want. We are not just some people claiming to
+            be the Top mobile app development company; we have a team of the
+            best{" "}
+            <Link
+              className="underline"
+              href={"/services/hire-mobile-app-developers"}
+            >
+              {" "}
+              mobile app developers{" "}
+            </Link>{" "}
+            in California. We are the top choice for businesses and founders who
+            want growth.
           </p>
         </div>
 
         <div className="relative  p-8">
-            <div className="flex justify-center -mb-48" >
+          <div className="flex justify-center -mb-48">
             {bs.slice(0, 3).map((item, index) => (
-              <div key={index} className="mb-8 relative z-50 w-[379px] h-[390px]">
-                <img src={`/location/mobile-california/${item.icon}`} alt={item.title} className=" " />
-                <div className="absolute top-0 px-12 py-10" >
-                <h2 className="text-lg font-bold text-white ">{item.title}</h2>
-                <p className="text-white text-sm line-clamp-3">{item.desc}</p>
-              </div>
+              <div
+                key={index}
+                className="mb-8 relative z-50 w-[379px] h-[390px]"
+              >
+                <img
+                  src={`/location/mobile-california/${item.icon}`}
+                  alt={item.title}
+                  className=" "
+                />
+                <div className="absolute top-0 px-12 py-10">
+                  <h2 className="text-lg font-bold text-white ">
+                    {item.title}
+                  </h2>
+                  <p className="text-white text-sm line-clamp-3">{item.desc}</p>
+                </div>
               </div>
             ))}
-            </div>
+          </div>
           <div className="flex justify-center items-center -space-x-28 mt-20 relative">
             {/* Left SVG */}
             <div>
@@ -273,17 +293,26 @@ const bs = [
               </svg>
             </div>
           </div>
-             <div className="flex justify-center -mt-11" >
+          <div className="flex justify-center -mt-11">
             {bs.slice(3, 6).map((item, index) => (
-              <div key={index} className="mb-8 relative z-50 w-[379px] h-[390px]">
-                <img src={`/location/mobile-california/${item.icon}`} alt={item.title} className=" " />
-                <div className="absolute top-0 px-12 py-10" >
-                <h2 className="text-lg font-bold text-white ">{item.title}</h2>
-                <p className="text-white text-sm line-clamp-3">{item.desc}</p>
-              </div>
+              <div
+                key={index}
+                className="mb-8 relative z-50 w-[379px] h-[390px]"
+              >
+                <img
+                  src={`/location/mobile-california/${item.icon}`}
+                  alt={item.title}
+                  className=" "
+                />
+                <div className="absolute top-0 px-12 py-10">
+                  <h2 className="text-lg font-bold text-white ">
+                    {item.title}
+                  </h2>
+                  <p className="text-white text-sm line-clamp-3">{item.desc}</p>
+                </div>
               </div>
             ))}
-            </div>
+          </div>
         </div>
         <div className="bg-gradient-to-b hover:scale-105 z-50 absolute text-white  shadow-xl hover:shadow-orange-300 opacity-100 shadow-orange-200 transition-all ease-linear hover:shadow-2xl w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
           <img src="/location/mobile-california/icons/lg2.png" alt="lggg" />
@@ -307,79 +336,79 @@ const bs = [
           </div>
         </div>
       </div>
-        <section className="w-full bg-[#222222] py-20 px-4 md:hidden">
-      {/* Header */}
-      <div className="text-center max-w-xl mx-auto mb-14">
-        <h2 className="text-3xl font-bold tracking-tight text-white">
-          Why California Businesses Choose{" "}
-          <span className="text-[#F15C20]">Dignite Studios</span>
-        </h2>
-        <p className="text-base mt-5 text-gray-300">
-          We’re not just another mobile app development company in California.
-          We’re a team of experienced engineers focused on performance, clarity,
-          and long-term growth.
-        </p>
-      </div>
-
-      {/* Feature Cards */}
-      <div className="flex flex-col gap-8 max-w-xl mx-auto">
-        {bs.map((item, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: index * 0.1,
-              duration: 0.4,
-              ease: "easeOut",
-            }}
-            className="relative bg-[#2B2B2B] rounded-2xl p-6 border border-[#3A3A3A]"
-          >
-            <img
-              src={`/location/mobile-california/${item.icon}`}
-              alt={item.title}
-              className="w-12 h-12 mb-4"
-            />
-
-            <h3 className="text-lg font-bold text-white mb-2">
-              {item.title}
-            </h3>
-
-            <p className="text-sm text-gray-300 leading-relaxed">
-              {item.desc}
-            </p>
-          </motion.div>
-        ))}
-      </div>
-
-      {/* CTA */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-        className="mt-20 bg-gradient-to-b from-[#F15C20] to-[#F15C2085] rounded-2xl px-6 py-10 text-center max-w-xl mx-auto shadow-xl"
-      >
-        <h3 className="text-2xl font-bold text-white leading-tight">
-          Still wondering if we’re the right fit?
-        </h3>
-
-        <p className="text-sm text-white mt-4 mb-6">
-          Let’s explore your app idea, technical roadmap, and long-term growth
-          strategy together.
-        </p>
-
-        <div className="flex items-center justify-center gap-3">
-          <button className="bg-white text-orange-600 px-6 py-3 rounded-full text-sm font-medium hover:bg-orange-600 hover:text-white transition-colors">
-            Book Free Consultation
-          </button>
-          <button className="bg-white text-orange-600 w-11 h-11 rounded-full flex items-center justify-center hover:bg-orange-600 hover:text-white transition-colors">
-            <MdArrowOutward />
-          </button>
+      <section className="w-full bg-[#222222] py-20 px-4 md:hidden">
+        {/* Header */}
+        <div className="text-center max-w-xl mx-auto mb-14">
+          <h2 className="text-3xl font-bold tracking-tight text-white">
+            Why California Businesses Choose{" "}
+            <span className="text-[#F15C20]">Dignite Studios</span>
+          </h2>
+          <p className="text-base mt-5 text-gray-300">
+            We’re not just another mobile app development company in California.
+            We’re a team of experienced engineers focused on performance,
+            clarity, and long-term growth.
+          </p>
         </div>
-      </motion.div>
-    </section>
+
+        {/* Feature Cards */}
+        <div className="flex flex-col gap-8 max-w-xl mx-auto">
+          {bs.map((item, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                delay: index * 0.1,
+                duration: 0.4,
+                ease: "easeOut",
+              }}
+              className="relative bg-[#2B2B2B] rounded-2xl p-6 border border-[#3A3A3A]"
+            >
+              <img
+                src={`/location/mobile-california/${item.icon}`}
+                alt={item.title}
+                className="w-12 h-12 mb-4"
+              />
+
+              <h3 className="text-lg font-bold text-white mb-2">
+                {item.title}
+              </h3>
+
+              <p className="text-sm text-gray-300 leading-relaxed">
+                {item.desc}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+          className="mt-20 bg-gradient-to-b from-[#F15C20] to-[#F15C2085] rounded-2xl px-6 py-10 text-center max-w-xl mx-auto shadow-xl"
+        >
+          <h3 className="text-2xl font-bold text-white leading-tight">
+            Still wondering if we’re the right fit?
+          </h3>
+
+          <p className="text-sm text-white mt-4 mb-6">
+            Let’s explore your app idea, technical roadmap, and long-term growth
+            strategy together.
+          </p>
+
+          <div className="flex items-center justify-center gap-3">
+            <button className="bg-white text-orange-600 px-6 py-3 rounded-full text-sm font-medium hover:bg-orange-600 hover:text-white transition-colors">
+              Book Free Consultation
+            </button>
+            <button className="bg-white text-orange-600 w-11 h-11 rounded-full flex items-center justify-center hover:bg-orange-600 hover:text-white transition-colors">
+              <MdArrowOutward />
+            </button>
+          </div>
+        </motion.div>
+      </section>
     </div>
   );
 };
