@@ -465,7 +465,7 @@ Including strategy, UI/UX design with agile development and deployment, we make 
       <SuccessStories />
       <CTA />
       <TechAndTools />
-      <SEO />
+      {/* <SEO /> */}
       <Testimonials
         test={test}
         header={"Hear From Our New York"}

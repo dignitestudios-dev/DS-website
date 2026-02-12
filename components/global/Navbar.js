@@ -42,10 +42,10 @@ const Navbar = ({ setIsOpen }) => {
 
   const menuItems = [
     { name: "Services", key: "services" },
-    { name: "Technology", key: "technology" },
-    { name: "Industries", key: "industries" },
+    // { name: "Technology", key: "technology" },
+    // { name: "Industries", key: "industries" },
     { name: "Locations", key: "locations" },
-    { name: "Ecommerce", key: "ecommerce" },
+    // { name: "Ecommerce", key: "ecommerce" },
     { name: "Company", key: "company" },
   ];
 
