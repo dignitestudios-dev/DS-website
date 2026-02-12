@@ -346,8 +346,9 @@ const MobileAppMiami = () => {
         cards={BENEFITS}
       />
       <SuccessStories
-        header={"Our Miami mobile app development results "}
-        header2={"show how strategy and execution drive measurable business growth."}
+        header={"Solutions We’ve"}
+        header2={"Delivered"}
+        para={"Our Miami mobile app development results show how strategy and execution drive measurable business growth."}
       />
       <CTA />
       <TechAndTools
@@ -356,12 +357,7 @@ const MobileAppMiami = () => {
           "Our technology stack supports scalable mobile application development Miami projects through the proven frameworks."
         }
       />
-      <SEO
-        header={"Serving Businesses Across Miami"}
-        para={
-          "We provide app development Miami services with the local availability and the faster collaboration. We support the mobile app developers in Miami by helping startups, enterprises and growing brands to build successful apps."
-        }
-      />
+   
       <Testimonials
         test={test}
         header={"Recognized and Trusted for Miami Mobile App Development"}
