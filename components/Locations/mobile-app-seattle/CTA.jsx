@@ -11,7 +11,7 @@ const CTA = () => {
         <motion.img
           src="/location/mobile-seattle/cta-m1.png"
           alt="cta-mobile"
-          className="-bottom-[75%] lg:block hidden -left-28 absolute"
+          className="-bottom-[80%] lg:block hidden -left-36 absolute"
           initial={{ y: 100, opacity: 0, rotate: -15 }}
           whileInView={{ y: 0, opacity: 1, rotate: 0 }}
           viewport={{ once: true }}
@@ -20,7 +20,7 @@ const CTA = () => {
         <motion.img
           src="/location/mobile-seattle/cta-m2.png"
           alt="cta-mobile"
-          className="-bottom-[70%] lg:block hidden -right-20 absolute"
+          className="-bottom-[75%] lg:block hidden -right-28 absolute"
           initial={{ y: 100, opacity: 0, rotate: 15 }}
           whileInView={{ y: 0, opacity: 1, rotate: 0 }}
           viewport={{ once: true }}

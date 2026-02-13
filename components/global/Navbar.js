@@ -154,19 +154,6 @@ const Navbar = ({ setIsOpen }) => {
 
   return (
     <div className="relative z-50">
-      {/* Top Bar */}
-      <div className="bg-[#F15C20] py-1 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 justify-end text-white text-base lg:flex hidden w-full">
-        <div className="flex items-center gap-10">
-          <div className="flex items-center gap-1">
-            <MdEmail size={22} />
-            <span>info@dignitestudios.com</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <FaPhoneAlt />
-            <span>+1 877 714 1770</span>
-          </div>
-        </div>
-      </div>
 
       {/* Main Navigation */}
       <nav className="px-4 md:px-12 bg-transparent lg:px-28 xl:px-[120px] 2xl:px-48 h-20 flex items-center justify-between w-screen relative z-[60]">

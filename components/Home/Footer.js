@@ -77,44 +77,42 @@ const Footer = () => {
         href: "/services/hire-ios-app-developers",
       },
     ],
-    technology: [
-      { name: "iOS", href: "#" },
-      { name: "Android", href: "#" },
-      { name: "Flutter", href: "#" },
-      { name: "React Native", href: "#" },
-      { name: "Cross Platform", href: "#" },
-      { name: "Cloud Application", href: "#" },
-    ],
+    // technology: [
+    //   { name: "iOS", href: "#" },
+    //   { name: "Android", href: "#" },
+    //   { name: "Flutter", href: "#" },
+    //   { name: "React Native", href: "#" },
+    //   { name: "Cross Platform", href: "#" },
+    //   { name: "Cloud Application", href: "#" },
+    // ],
     quickLinks: [
       { name: "About us", href: "/about-us" },
       { name: "Portfolio", href: "/portfolio" },
       { name: "Blog", href: "/blogs" },
     ],
-    industries: [
-      { name: "Real State", href: "#" },
-      { name: "Dating", href: "#" },
-      { name: "Food", href: "#" },
-      { name: "HealthCare", href: "#" },
-      { name: "Fintech", href: "#" },
-      { name: "eLearning", href: "#" },
-      { name: "Education", href: "#" },
-      { name: "Logistics", href: "#" },
-    ],
-    state: [
-      { name: "California", href: "#" },
-      { name: "Washington", href: "#" },
-      { name: "Texas", href: "#" },
-    ],
-    ecommerce: [
-      { name: "Shopify Development", href: "#" },
-      { name: "Shopify App Development", href: "#" },
-      { name: "Shopify Migration", href: "#" },
-      { name: "Shopify integration", href: "#" },
-      { name: "WooCommerce", href: "#" },
-      { name: "WooCommerce Development", href: "#" },
-      { name: "BigCommerce", href: "#" },
-      { name: "BigCommerce Development", href: "#" },
-    ],
+    // industries: [
+    //   { name: "Real State", href: "#" },
+    //   { name: "Dating", href: "#" },
+    //   { name: "Food", href: "#" },
+    //   { name: "HealthCare", href: "#" },
+    //   { name: "Fintech", href: "#" },
+    //   { name: "eLearning", href: "#" },
+    //   { name: "Education", href: "#" },
+    //   { name: "Logistics", href: "#" },
+    // ],
+    // state: [
+
+    // ],
+    // ecommerce: [
+    //   { name: "Shopify Development", href: "#" },
+    //   { name: "Shopify App Development", href: "#" },
+    //   { name: "Shopify Migration", href: "#" },
+    //   { name: "Shopify integration", href: "#" },
+    //   { name: "WooCommerce", href: "#" },
+    //   { name: "WooCommerce Development", href: "#" },
+    //   { name: "BigCommerce", href: "#" },
+    //   { name: "BigCommerce Development", href: "#" },
+    // ],
     support: [
       { name: "Testimonials", href: "/#testimonials" },
       { name: "FAQS", href: "/#faqs" },
@@ -123,18 +121,21 @@ const Footer = () => {
       { name: "Contact Us", href: "/contact-us" },
     ],
     location: [
-      { name: "Chicago", href: "#" },
-      { name: "Seattle", href: "#" },
-      { name: "Boston", href: "#" },
-      { name: "Miami", href: "#" },
-      { name: "Charlotte", href: "#" },
-      { name: "New York", href: "#" },
-      { name: "Tampa", href: "#" },
+      { name: "Chicago", href: "/locations/mobile-app-development-chicago" },
+      { name: "Seattle", href: "/locations/mobile-app-development-seattle" },
+      { name: "Boston", href: "/locations/mobile-app-development-boston" },
+      { name: "Miami", href: "/locations/mobile-app-development-miami" },
+      // { name: "Charlotte", href: "#" },
+      { name: "New York", href: "/locations/mobile-app-development-new-york" },
+      { name: "Tampa", href: "/locations/mobile-app-development-tampa" },
+            { name: "California", href: "/locations/mobile-app-development-california" },
+      // { name: "Washington", href: "#" },
+      // { name: "Texas", href: "#" },
     ],
     connect: [
-      { name: "Facebook", href: "#" },
-      { name: "Instagram", href: "#" },
-      { name: "LinkedIn", href: "#" },
+      { name: "Facebook", href: "https://www.facebook.com/dignitestudios/" },
+      { name: "Instagram", href: "https://www.instagram.com/dignitestudios/?hl=en" },
+      { name: "LinkedIn", href: "https://www.linkedin.com/in/dignite-studios-a05980253" },
     ],
   };
 
@@ -162,7 +163,7 @@ const Footer = () => {
               Don't compromise on your app's success.{" "}
               <span className="text-[#F15C20]">Gain a competitive edge.</span>
             </p>
-            <div className="flex items-center gap-2 pt-2">
+            <Link href={"/contact-us"} className="flex items-center  pt-2">
               <button
                 type="button"
                 className="bg-[#F15C20] hover:bg-white hover:text-[#F15C20] text-white text-sm px-6 py-2.5 rounded-full transition-colors"
@@ -175,7 +176,7 @@ const Footer = () => {
               >
                 <MdArrowOutward />
               </button>
-            </div>
+            </Link>
             <div className="flex flex-col items-center gap-1 ">
               <Link
                 href="mailto:info@dignitestudios.com"
@@ -215,7 +216,7 @@ const Footer = () => {
           </div>
 
           {/* Technology */}
-          <div className="flex flex-col items-center text-center">
+          {/* <div className="flex flex-col items-center text-center">
             <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
               Technology
             </h4>
@@ -231,7 +232,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Quick Links */}
           <div className="flex flex-col items-center text-center">
@@ -253,7 +254,7 @@ const Footer = () => {
           </div>
 
           {/* Industries */}
-          <div className="flex flex-col items-center text-center">
+          {/* <div className="flex flex-col items-center text-center">
             <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
               Industries
             </h4>
@@ -269,10 +270,10 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* State */}
-          <div className="flex flex-col items-center text-center">
+          {/* <div className="flex flex-col items-center text-center">
             <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
               State
             </h4>
@@ -288,10 +289,10 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Ecommerce */}
-          <div className="flex flex-col items-center text-center">
+          {/* <div className="flex flex-col items-center text-center">
             <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
               Ecommerce
             </h4>
@@ -307,7 +308,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Support */}
           <div className="flex flex-col items-center text-center">
@@ -381,9 +382,9 @@ const Footer = () => {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[.8px]" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
-        <div className="w-full grid grid-cols-3 lg:grid-cols-6 xl:grid-cols-11 gap-x-8 gap-y-12 mb-16 relative z-10">
+        <div className="w-full grid grid-cols-2 ml-16 lg:grid-cols-4 xl:grid-cols-7 gap-x-8 gap-y-12 mb-16 relative z-10">
           {/* Logo and Description */}
-          <div className="col-span-3 lg:col-span-2 xl:col-span-3 flex flex-col  sticky top-0 z-30  py-6">
+          <div className="col-span-2 lg:col-span-2 xl:col-span-2 flex flex-col sticky top-0 z-30 py-6">
             <Link href="/">
               <Image
                 loader={customLoader}
@@ -391,28 +392,28 @@ const Footer = () => {
                 alt="Dignite Studios Logo"
                 width={200}
                 height={200}
-                className="w-36 h-auto"
+                className="w-28 h-auto"
               />
             </Link>
             <p className="text-white uppercase font-bold  max-w-xs text-sm">
               Don't compromise on your app's success.{" "}
               <span className="text-[#F15C20]">Gain a competitive edge.</span>
             </p>
-            <div className="flex items-center group  py-4">
+            <Link href={"/contact-us"} className="flex items-center group w-fit  py-4">
               <button
                 type="button"
-                className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
+                className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-xs px-5 py-2 rounded-full transition-colors"
               >
                 Discuss Your Idea
               </button>
               <button
                 type="button"
-                className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg"
+                className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-9 h-9 rounded-full flex items-center justify-center transition-colors text-base"
               >
                 <MdArrowOutward />
               </button>
-            </div>
-            <div className="flex flex-col text-sm">
+            </Link>
+            <div className="flex flex-col text-xs">
               <a
                 href="mailto:info@dignitestudios.com"
                 className="text-white hover:text-[#F15C20] transition"
@@ -446,26 +447,8 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-
-          {/* Technology & Quick Links */}
-          <div className="col-span-1 flex flex-col gap-10">
-            <div className="flex flex-col xl:min-h-[170px]">
-              <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
-                Technology
-              </h4>
-              <ul className="flex flex-col">
-                {footerLinks.technology.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          {/* Quick Links & Support */}
+          <div className="col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col gap-8">
             <div className="flex flex-col">
               <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
                 Quick Links
@@ -475,28 +458,7 @@ const Footer = () => {
                   <li key={idx}>
                     <Link
                       href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Industries & State */}
-          <div className="col-span-1 flex flex-col gap-10">
-            <div className="flex flex-col xl:min-h-[170px]">
-              <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
-                Industries
-              </h4>
-              <ul className="flex flex-col">
-                {footerLinks.industries.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
                       {link.name}
                     </Link>
@@ -505,45 +467,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col">
-              <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2 -mt-6">
-                State
-              </h4>
-              <ul className="flex flex-col">
-                {footerLinks.state.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Ecommerce & Support */}
-          <div className="col-span-1 xl:col-span-2 flex flex-col gap-10">
-            <div className="flex flex-col xl:min-h-[170px]">
               <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
-                Ecommerce
-              </h4>
-              <ul className="flex flex-col">
-                {footerLinks.ecommerce.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="flex flex-col">
-              <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2 -mt-6">
                 Support
               </h4>
               <ul className="flex flex-col">
@@ -551,7 +475,7 @@ const Footer = () => {
                   <li key={idx}>
                     <Link
                       href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
                       {link.name}
                     </Link>
@@ -562,8 +486,8 @@ const Footer = () => {
           </div>
 
           {/* Location & Connect */}
-          <div className="col-span-1 xl:col-span-2 flex flex-col gap-10">
-            <div className="flex flex-col xl:min-h-[170px]">
+          <div className="col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col gap-8">
+            <div className="flex flex-col">
               <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
                 Location
               </h4>
@@ -572,7 +496,7 @@ const Footer = () => {
                   <li key={idx}>
                     <Link
                       href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
                       {link.name}
                     </Link>
@@ -589,7 +513,7 @@ const Footer = () => {
                   <li key={idx}>
                     <Link
                       href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
                       {link.name}
                     </Link>

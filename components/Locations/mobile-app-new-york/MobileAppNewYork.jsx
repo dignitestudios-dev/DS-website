@@ -384,11 +384,11 @@ Including strategy, UI/UX design with agile development and deployment, we make 
         }
         ctaBtn={"Let’s Talk About Your Idea"}
         cta={
-          <div className="bg-[#000000] h-[500px] hover:scale-105 z-50 absolute text-white  shadow-xl hover:shadow-[#f15b2071] opacity-100 shadow-[#F15C2033] transition-all ease-linear hover:shadow-2xl w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
+          <div className=" h-[500px] hover:scale-105 z-50 absolute text-white  hover:shadow-[#f15b2071] opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
             <div className="relative">
               <img
                 src="/location/mobile-newyork/b-cta.png"
-                className="w-full rounded-b-2xl bottom-3 relative bg-cover"
+                className="w-full rounded-b-2xl bg-[#000000] bottom-0 relative bg-cover"
                 alt="lggg"
               />
               <div className="md:w-[45%] absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
