@@ -52,15 +52,15 @@ const Hero = () => {
           Your Technical Co-Pilot: Expert Startup App Development Company
         </h1>
         <p className="text-[16px] md:text-[20px]">
-          We are a startup app development company that helps startups create scalable apps that attract users and generate measurable revenue.
+          We are a startup app development company that helps startups create
+          scalable apps that attract users and generate measurable revenue.
         </p>
         <div className="flex items-center group justify-start  pt-4">
           <Link
             href="/contact-us"
-            
             className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
           >
-             Let’s Discuss Your Idea
+            Let’s Discuss Your Idea
           </Link>
           <Link
             href="/contact-us"

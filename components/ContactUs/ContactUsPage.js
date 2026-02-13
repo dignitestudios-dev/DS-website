@@ -7,6 +7,9 @@ import ContactUsAlert from "../global/ContactUsAlert";
 import PhoneInput from "react-phone-input-2";
 import useDeviceType from "../global/DeviceTypeFunction";
 import Link from "next/link";
+import { MdArrowOutward } from "react-icons/md";
+import Impact from "./ui/Impact";
+import GlobalPresence from "./ui/GlobalPresence";
 
 const ContactUsPage = () => {
   const { palette, theme, setError, error } = useContext(GlobalContext);
@@ -15,6 +18,7 @@ const ContactUsPage = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [service, setService] = useState("");
   const [isAgreed, setIsAgreed] = useState(false);
   const [errors, setErrors] = useState({});
   const [countryCode, setCountryCode] = useState("");
@@ -27,441 +31,328 @@ const ContactUsPage = () => {
     return emailRegex.test(email);
   };
 
-  const validateName = (name) => {
-    return name.length > 0;
-  };
-
-  const validateMessage = (message) => {
-    return message.length > 0;
-  };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
 
     const newErrors = {};
-    if (name === "") {
-      newErrors.name = "Name cannot be left empty.";
-    }
-    if (email === "") {
+    if (!name.trim()) newErrors.name = "Name cannot be left empty.";
+    if (!email.trim()) {
       newErrors.email = "Email cannot be left empty.";
     } else if (!validateEmail(email)) {
       newErrors.email = "Email must be a valid email.";
     }
-    if (phone.length === 0) {
+    if (!phone.trim()) {
       newErrors.phone = "Phone number cannot be left empty.";
-    } else if (phone.length < 11) {
-      newErrors.phone = "Phone number cannot be less than 10 digits.";
-    } else if (phone.length > 15) {
-      newErrors.phone = "Phone number cannot be more than 15 digits.";
+    } else if (phone.length < 10 || phone.length > 15) {
+      newErrors.phone = "Phone number must be between 10 and 15 digits.";
     }
-    if (message === "") {
-      newErrors.message = "Message cannot be left empty.";
-    }
+    if (!message.trim()) newErrors.message = "Message cannot be left empty.";
     if (!isAgreed) {
-      newErrors.isAgreed = "Please check the box.";
+      newErrors.isAgreed = "Please check the box to proceed.";
     }
+
+    // Additional validation for new fields if required
 
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
       const data1 = new URLSearchParams();
-      //Using entry ids from Google forms config
-      data1.append("entry.1883330900", name); // Name field
-      data1.append("entry.39421230", email); // Email field
-      data1.append("entry.769267793", phone); // Phone field
-      data1.append("entry.1280467825", message); // Message field
-      data1.append("entry.764492805", pathname); // Page field
-      data1.append("entry.1359192276", `Device Type - ${deviceType}`); // Device type field
-      data1.append("entry.357568185", `URL Parameter - _blank`); // URL Parameter field
+      data1.append("entry.1883330900", name);
+      data1.append("entry.39421230", email);
+      data1.append("entry.769267793", phone);
+      data1.append("entry.1280467825", message);
+      data1.append("entry.764492805", pathname);
+      data1.append("entry.1359192276", `Device Type - ${deviceType}`);
+      // Assuming new entry IDs for the new fields or appending to message/notes
+      data1.append("entry.357568185", `Service: ${service}`);
 
-      fetch(
-        "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
-        { method: "POST", body: data1, mode: "no-cors" }
-      )
-        .then((response) => {
-          window.location.assign("https://www.dignitestudios.com/thank-you");
-        })
-        .catch((error) => {
-          setError("Something went wrong.");
-        });
+      try {
+        await fetch(
+          "https://docs.google.com/forms/d/e/1FAIpQLSey02yWAqdomjEVpP8CPPYgUxb0osp6uu_E6vt_47A_0X12mQ/formResponse",
+          { method: "POST", body: data1, mode: "no-cors" },
+        );
+        window.location.assign("/thank-you");
+      } catch (error) {
+        setError("Something went wrong.");
+      }
     }
   };
 
-  const handleNameChange = (e) => {
-    const value = e.target.value;
-    setName(value);
-    if (!validateName(value)) {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        name: "Name cannot be left empty.",
-      }));
-    } else {
-      setErrors((prevErrors) => {
-        const { name, ...rest } = prevErrors;
-        return rest;
+  const handleChange = (setter, field) => (e) => {
+    setter(e.target.value);
+    if (errors[field]) {
+      setErrors((prev) => {
+        const newErrs = { ...prev };
+        delete newErrs[field];
+        return newErrs;
       });
     }
   };
-
-  const handleEmailChange = (e) => {
-    const value = e.target.value;
-    setEmail(value);
-    if (!validateEmail(value)) {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        email: "Email must be a valid email.",
-      }));
-    } else {
-      setErrors((prevErrors) => {
-        const { email, ...rest } = prevErrors;
-        return rest;
-      });
-    }
-  };
-
-  const handleMessageChange = (e) => {
-    const value = e.target.value;
-    setMessage(value);
-    if (!validateMessage(value)) {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        message: "Message cannot be left empty.",
-      }));
-    } else {
-      setErrors((prevErrors) => {
-        const { message, ...rest } = prevErrors;
-        return rest;
-      });
-    }
-  };
-
-  // const handlePhoneChange = (value, country) => {
-  //   setPhone(value);
-  //   setCountryCode(country.dialCode);
-
-  //   if (!value.startsWith(`+${country.dialCode}`)) {
-  //     setIsValid(false);
-  //   } else {
-  //     setIsValid(true);
-  //   }
-  // };
 
   const handlePhoneChange = (value, country) => {
     setPhone(value);
-    setCountryCode(country.dialCode);
-
-    if (!value.startsWith(`+${country.dialCode}`)) {
-      setIsValid(false);
-    } else {
-      setIsValid(true);
-    }
+    setCountryCode(country?.dialCode || "");
+    setIsValid(!country || value.startsWith(`+${country.dialCode}`));
   };
 
-  const handleIsAgreedChange = (e) => {
-    setIsAgreed(e.target.checked);
-  };
+  const labelClasses = `
+    pointer-events-none absolute left-4 
+    bg-white px-1 text-sm text-gray-500 
+    transition-all duration-150
+    top-3.5 
+    peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#F15C20]
+    peer-[&:not(:placeholder-shown)]:-top-2
+    peer-[&:not(:placeholder-shown)]:text-xs
+  `;
+
+  const inputClasses = (error) => `
+    peer w-full rounded-xl border-2 ${error ? "border-red-500" : "border-[#F15C20]"} 
+    bg-transparent px-4 py-3.5 text-black focus:border-[#F15C20] focus:outline-none transition-colors
+  `;
 
   return (
-    <div
-      className="w-full h-auto flex flex-col gap-4 justify-start items-start px-4 md:px-12 pt-6 lg:px-28 xl:px-[120px] mb-40 2xl:px-48"
-      style={{
-        background: palette?.background,
-        color: palette?.color,
-      }}
-    >
-      <h1 className="text-[45px] font-extrabold lg:text-5xl xl:text-[64px] lg:font-bold uppercase">
-        Let’s Manifest Your <br /> Dream Project
-      </h1>
-      <p className="text-[18px] w-[70%] font-light ">
-        Dignite Studios is all set to dispense unprecedented services to propel
-        your business insights to new heights. Whether you are in the middle of
-        your idea or on the verge of your business, we set the seal to explicit
-        updated strategies, engaging functions, and producing extraordinary user
-        interfaces. Fill out the form below to get started now.
-      </p>
+    <div className="w-full bg-white pb-24">
+      {/* Hero Section */}
+      <img src="/shad.png" alt="shad " className="absolute top-0 left-0" />
+      <div className="flex flex-col items-center justify-center pt-24 pb-12 px-4 text-center max-w-4xl mx-auto">
+        <h1 className="text-5xl md:text-7xl font-bold text-black mb-4">
+          We Are Curious About <br />
+          <span className="text-[#F15C20]">You & Your Ideas</span>
+        </h1>
+        <p className="text-gray-600 text-lg md:text-xl font-normal leading-relaxed">
+          Share your ideas with our team. As your trusted tech partner, we’ll
+          guide you clearly, confidently, and collaboratively from the strategy
+          to success
+        </p>
+      </div>
 
-      <div
-        className={`w-full h-auto my-12 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-3xl `}
-      >
-        <div className="w-full h-full flex flex-col lg:col-span-1 justify-start items-start gap-8 relative">
-          <h2
-            className="text-[39px] xl:text-[40px] font-extrabold lg:text-[45px] leading-tight lg:font-bold"
-            style={{ color: palette?.color }}
-          >
-            Let’s discuss your <br />{" "}
-            <span style={{ color: palette?.brandOrange }}> project</span>
-          </h2>
-          <form
-            id="contact-lead-form"
-            onSubmit={handleSubmit}
-            className="w-full h-auto flex flex-col justify-start items-start gap-6"
-          >
-            <div className="w-full flex flex-col gap-1 justify-start items-start">
-              <span
-                className="text-sm font-medium"
-                style={{ color: palette?.color }}
-              >
-                Name
-              </span>
-              {/* <input
-                type="text"
-                className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="Enter your name"
-                id="name"
-                name="name"
-                style={{
-                  borderBottom: `2px solid ${
-                    theme == "light"
-                      ? "#D1D1D1"
-                      : palette?.dark_contrast_background
-                  }`,
-                }}
-              />
-              {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>} */}
+      {/* Form Section */}
+      <div className="max-w-4xl mx-auto px-4">
+        <form onSubmit={handleSubmit} className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Full Name */}
+            <div className="relative">
               <input
                 type="text"
-                name="name"
                 value={name}
-                onChange={handleNameChange}
-                className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="Enter your name"
-                id="name"
-                style={{
-                  borderBottom: `2px solid ${
-                    theme == "light"
-                      ? "#D1D1D1"
-                      : palette?.dark_contrast_background
-                  }`,
-                }}
+                onChange={handleChange(setName, "name")}
+                className={inputClasses(errors.name)}
+                placeholder=" "
               />
+              <label className={labelClasses}>Full Name</label>
               {errors.name && (
-                <span className="text-red-500 text-sm">{errors.name}</span>
+                <p className="text-red-500 text-xs mt-1">{errors.name}</p>
               )}
             </div>
 
-            <div className="w-full flex flex-col gap-1 justify-start items-start">
-              <span
-                className="text-sm font-medium"
-                style={{ color: palette?.color }}
-              >
-                Email
-              </span>
-              {/* <input
-                type="email"
-                id="email"
-                name="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="Enter your email"
-                style={{
-                  borderBottom: `2px solid ${
-                    theme == "light"
-                      ? "#D1D1D1"
-                      : palette?.dark_contrast_background
-                  }`,
-                }}
-              />
-              {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>} */}
+            {/* Email */}
+            <div className="relative">
               <input
                 type="email"
-                name="email"
                 value={email}
-                onChange={handleEmailChange}
-                className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="Enter your email"
-                style={{
-                  borderBottom: `2px solid ${
-                    theme == "light"
-                      ? "#D1D1D1"
-                      : palette?.dark_contrast_background
-                  }`,
-                }}
+                onChange={handleChange(setEmail, "email")}
+                className={inputClasses(errors.email)}
+                placeholder=" "
               />
+              <label className={labelClasses}>Email</label>
               {errors.email && (
-                <span className="text-red-500 text-sm">{errors.email}</span>
+                <p className="text-red-500 text-xs mt-1">{errors.email}</p>
               )}
             </div>
-            <div className="w-full flex flex-col gap-1 justify-start items-start">
-              <span
-                className="text-sm font-medium"
-                style={{ color: palette?.color }}
+
+            {/* Contact No. */}
+            <div className="relative">
+              <div
+                className={`peer w-full rounded-xl border-2 ${errors.phone ? "border-red-500" : "border-[#F15C20]"} p-1`}
               >
-                Phone Number
-              </span>
-              {/* <input
-                type="number"
-                id="phone"
-                name="phone"
-                maxLength="11"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="Enter phone number"
-                style={{
-                  borderBottom: `2px solid ${
-                    theme == "light"
-                      ? "#D1D1D1"
-                      : palette?.dark_contrast_background
-                  }`,
-                }}
-              /> */}
-              <div className="flex w-full">
                 <PhoneInput
                   country={"us"}
                   value={phone}
-                  name="phone"
                   onChange={handlePhoneChange}
-                  containerStyle={{
-                    width: "100%",
-                    paddingRight: "0px",
-                    fontSize: "16px",
-                    border: "none",
-                    borderBottom: "1px solid silver",
-                    borderRadius: "0px",
-                    background: "transparent",
-                    textAlign: "start",
-                    color: "black",
-                  }}
+                  containerStyle={{ width: "100%", background: "transparent" }}
                   inputStyle={{
-                    width: "90%",
+                    width: "100%",
                     height: "100%",
                     outline: "none",
                     border: "none",
                     fontSize: "14px",
-                    color: "gray",
-                    padding: "10px 50px",
-                    margin: "0",
+                    color: "black",
+                    padding: "15px 12px 10px 64px",
                     background: "transparent",
                   }}
-                  className="text-sm font-normal outline-none py-0 px-1 bg-transparent border border-t-0 border-r-0 border-l-0 border-b"
+                  buttonStyle={{ background: "transparent", border: "none" }}
                 />
-                <style jsx>{`
-                  .invalid input {
-                    border: none !important;
-                  }
-                `}</style>
               </div>
               {errors.phone && (
-                <span className="text-red-500 text-sm">{errors.phone}</span>
+                <p className="text-red-500 text-xs mt-1">{errors.phone}</p>
               )}
             </div>
 
-            <div className="w-full flex flex-col gap-1 justify-start items-start">
-              <span
-                className="text-sm font-medium"
-                style={{ color: palette?.color }}
+            {/* Choose a Service */}
+            <div className="relative">
+              <select
+                value={service}
+                onChange={handleChange(setService, "service")}
+                className={`peer w-full rounded-xl border-2 border-[#F15C20] bg-transparent px-4 py-3.5 text-black appearance-none focus:border-[#F15C20] focus:outline-none transition-colors`}
               >
-                Message
-              </span>
-              {/* <input
-                type="text"
-                id="message"
-                name="message"
-                className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="Enter your message here"
-                style={{
-                  borderBottom: `2px solid ${
-                    theme == "light"
-                      ? "#D1D1D1"
-                      : palette?.dark_contrast_background
-                  }`,
-                }}
-              />
-              {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>} */}
-              <input
-                type="text"
-                name="message"
-                value={message}
-                onChange={handleMessageChange}
-                className="w-full  outline-none focus h-9 bg-transparent "
-                placeholder="Enter your message here"
-                style={{
-                  borderBottom: `2px solid ${
-                    theme == "light"
-                      ? "#D1D1D1"
-                      : palette?.dark_contrast_background
-                  }`,
-                }}
-              />
-              {errors.message && (
-                <span className="text-red-500 text-sm">{errors.message}</span>
-              )}
-            </div>
-
-            <div>
-              <div className="flex items-start gap-2">
-                <label
-                  htmlFor="agree"
-                  className="text-sm flex items-start gap-2"
+                <option value="" disabled hidden></option>
+                <option value="Android App Development Services">
+                  Android App Development Services
+                </option>
+                <option value="Android App Design Services">
+                  Android App Design Services
+                </option>
+                <option value="IOS App Development Services">
+                  IOS App Development Services
+                </option>
+                <option value="IOS App Design Services">
+                  IOS App Design Services
+                </option>
+                <option value="Web App Development Services">
+                  Web App Development Services
+                </option>
+                <option value="PWA Development Services">
+                  PWA Development Services
+                </option>
+                <option value="Mobile App Support And Maintenance Services">
+                  Mobile App Support And Maintenance Services
+                </option>
+                <option value="Hybrid App Development Services">
+                  Hybrid App Development Services
+                </option>
+                <option value="Mobile App Development Services">
+                  Mobile App Development Services
+                </option>
+                <option value="Mobile App Consulting Services">
+                  Mobile App Consulting Services
+                </option>
+                <option value="Mobile App Design Services">
+                  Mobile App Design Services
+                </option>
+                <option value="Mobile App Testing Services">
+                  Mobile App Testing Services
+                </option>
+                <option value="Native App Development Services">
+                  Native App Development Services
+                </option>
+              </select>
+              <label className={labelClasses}>Choose a Service</label>
+              <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
+                <svg
+                  className="w-5 h-5 text-[#F15C20]"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                 >
-                  <input
-                    type="checkbox"
-                    name="agree"
-                    id="agree"
-                    checked={isAgreed}
-                    onChange={handleIsAgreedChange}
-                    className="mt-1 text-base"
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M19 9l-7 7-7-7"
                   />
-                  <p>
-                    By checking this box, I consent to receive SMS messages from
-                    Dignite Studios at the phone number I provided. Message and
-                    data rates may apply. Message frequency may vary. For
-                    assistance, reply HELP or email us at
-                    hello@dignitestudios.com. You may opt out at any time by
-                    replying STOP. See our{" "}
-                    <Link
-                      href="/terms-and-conditions"
-                      className="text-blue-600"
-                    >
-                      Terms & Conditions
-                    </Link>{" "}
-                    and{" "}
-                    <Link href="/privacy-policy" className="text-blue-600">
-                      Privacy Policy
-                    </Link>{" "}
-                    for more details.
-                  </p>
-                </label>
+                </svg>
               </div>
-              {errors.isAgreed && (
-                <span className="text-red-500 text-sm">{errors.isAgreed}</span>
-              )}
             </div>
+          </div>
 
+          {/* Description (Project Details) */}
+          <div className="relative">
+            <textarea
+              rows="4"
+              value={message}
+              onFocus={() => {
+                setIsAgreed(true);
+                if (errors.isAgreed) {
+                  setErrors((prev) => {
+                    const newErrs = { ...prev };
+                    delete newErrs.isAgreed;
+                    return newErrs;
+                  });
+                }
+              }}
+              onChange={handleChange(setMessage, "message")}
+              className={`${inputClasses(errors.message)} resize-none`}
+              placeholder=" "
+            />
+            <label className={labelClasses}>Description</label>
+            {errors.message && (
+              <p className="text-red-500 text-xs mt-1">{errors.message}</p>
+            )}
+          </div>
+
+          {/* Privacy Policy Checkbox */}
+          <div className="flex flex-col gap-2">
+            <div className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                id="agree"
+                checked={isAgreed}
+                onChange={(e) => {
+                  setIsAgreed(e.target.checked);
+                  if (errors.isAgreed) {
+                    setErrors((prev) => {
+                      const newErrs = { ...prev };
+                      delete newErrs.isAgreed;
+                      return newErrs;
+                    });
+                  }
+                }}
+                className="mt-1.5 w-10 h-10 rounded border-gray-300 text-[#F15C20] focus:ring-[#F15C20]"
+              />
+              <label
+                htmlFor="agree"
+                className="text-sm text-gray-600 leading-relaxed cursor-pointer"
+              >
+                By checking this box, I consent to receive SMS messages from
+                Dignite Studios at the phone number I provided. Message and data
+                rates may apply. Message frequency may vary. For assistance,
+                reply HELP or email us at{" "}
+                <a
+                  href="mailto:hello@dignitestudios.com"
+                  className="text-[#F15C20] hover:underline"
+                >
+                  hello@dignitestudios.com
+                </a>
+                . You may opt out at any time by replying STOP. See our{" "}
+                <Link
+                  href="/terms-and-conditions"
+                  className="text-[#F15C20] hover:underline"
+                >
+                  Terms & Conditions
+                </Link>{" "}
+                and{" "}
+                <Link
+                  href="/privacy-policy"
+                  className="text-[#F15C20] hover:underline"
+                >
+                  Privacy Policy
+                </Link>{" "}
+                for more details.
+              </label>
+            </div>
+            {errors.isAgreed && (
+              <p className="text-red-500 text-xs">{errors.isAgreed}</p>
+            )}
+          </div>
+
+          <div className="flex w-full items-center group justify-center pt-4">
             <button
-              name="submit-contact-us-form"
-              className="orange w-[134px] h-[64px] rounded-full flex items-center font-semibold justify-center"
-              style={{ background: palette?.brandOrange, color: "white" }}
+              type="submit"
+              className="bg-[#F15C20] group-hover:border group-hover:border-orange-600 group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-              Submit
+              Talk to our experts
             </button>
-            {error && <ContactUsAlert />}
-          </form>
-        </div>
-        <div className="w-full h-full lg:col-span-2">
-          <img
-            src={"/dignite-studios-contact-us-image.webp"}
-            className="w-full h-full"
-            alt="the image shows connecting people from all over the world"
-          />
-        </div>
+            <button
+              type="submit"
+              className="bg-[#F15C20] group-hover:border group-hover:border-orange-600 group-hover:bg-white group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg border-l border-white/20"
+            >
+              <MdArrowOutward />
+            </button>
+          </div>
+        </form>
       </div>
-
-      <div className="w-full mb-6">
-        <h2 className="text-3xl font-bold">Follow Us</h2>
-        <p className="text-[18px] w-[70%] font-light mt-1">
-          Stay connected with us on LinkedIn, Twitter, and Facebook to get the
-          latest updates on our forthcoming.
-        </p>
-
-        <h2 className="text-3xl font-bold mt-6">Join Us Today</h2>
-        <p className="text-[18px] w-[70%] font-light mt-1">
-          Dignite Studios is overwhelmed to onboard valuable clients and
-          partners to bestow pre-eminent solutions and establish futuristic
-          goals with long-lasting relations.
-        </p>
-      </div>
+      <Impact />
+      <GlobalPresence />
     </div>
   );
 };

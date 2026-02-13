@@ -332,7 +332,7 @@ const Footer = () => {
           {/* Location */}
           <div className="flex flex-col items-center text-center">
             <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
-              Location
+              Locations
             </h4>
             <ul className="flex flex-col items-center gap-1">
               {footerLinks.location.map((link, idx) => (
@@ -489,7 +489,7 @@ const Footer = () => {
           <div className="col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col gap-8">
             <div className="flex flex-col">
               <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
-                Location
+                Locations
               </h4>
               <ul className="flex flex-col">
                 {footerLinks.location.map((link, idx) => (

@@ -40,6 +40,16 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
 body {
   width: 100vw;
   height: 100vh;

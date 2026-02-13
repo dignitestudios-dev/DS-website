@@ -22,7 +22,7 @@ export default function HomePage() {
     document.documentElement.classList.toggle("dark", theme === "dark");
   }, [theme]);
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto pb-28">
+    <div className="w-full h-auto flex flex-col items-center justify-center overflow-x-hidden overflow-y-auto pb-28">
       <Hero />
       <MobileAppServices />
       <SuccessStories />
