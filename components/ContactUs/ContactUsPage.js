@@ -10,6 +10,57 @@ import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Impact from "./ui/Impact";
 import GlobalPresence from "./ui/GlobalPresence";
+import Select from "react-select";
+
+const serviceOptions = [
+  {
+    value: "Android App Development Services",
+    label: "Android App Development Services",
+  },
+  {
+    value: "Android App Design Services",
+    label: "Android App Design Services",
+  },
+  {
+    value: "IOS App Development Services",
+    label: "IOS App Development Services",
+  },
+  { value: "IOS App Design Services", label: "IOS App Design Services" },
+  {
+    value: "Web App Development Services",
+    label: "Web App Development Services",
+  },
+  { value: "PWA Development Services", label: "PWA Development Services" },
+  {
+    value: "Mobile App Support And Maintenance Services",
+    label: "Mobile App Support And Maintenance Services",
+  },
+  {
+    value: "Hybrid App Development Services",
+    label: "Hybrid App Development Services",
+  },
+  {
+    value: "Mobile App Development Services",
+    label: "Mobile App Development Services",
+  },
+  {
+    value: "Mobile App Consulting Services",
+    label: "Mobile App Consulting Services",
+  },
+  { value: "Mobile App Design Services", label: "Mobile App Design Services" },
+  {
+    value: "Mobile App Testing Services",
+    label: "Mobile App Testing Services",
+  },
+  {
+    value: "Native App Development Services",
+    label: "Native App Development Services",
+  },
+  {
+    value: "other",
+    label: "Other",
+  },
+];
 
 const ContactUsPage = () => {
   const { palette, theme, setError, error } = useContext(GlobalContext);
@@ -19,6 +70,7 @@ const ContactUsPage = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [service, setService] = useState("");
+  const [isServiceFocused, setIsServiceFocused] = useState(false);
   const [isAgreed, setIsAgreed] = useState(false);
   const [errors, setErrors] = useState({});
   const [countryCode, setCountryCode] = useState("");
@@ -45,10 +97,6 @@ const ContactUsPage = () => {
       newErrors.phone = "Phone number cannot be left empty.";
     } else if (phone.length < 10 || phone.length > 15) {
       newErrors.phone = "Phone number must be between 10 and 15 digits.";
-    }
-    if (!message.trim()) newErrors.message = "Message cannot be left empty.";
-    if (!isAgreed) {
-      newErrors.isAgreed = "Please check the box to proceed.";
     }
 
     // Additional validation for new fields if required
@@ -139,7 +187,9 @@ const ContactUsPage = () => {
                 className={inputClasses(errors.name)}
                 placeholder=" "
               />
-              <label className={labelClasses}>Full Name</label>
+              <label className={labelClasses}>
+                Full Name <span className="text-red-500">*</span>
+              </label>
               {errors.name && (
                 <p className="text-red-500 text-xs mt-1">{errors.name}</p>
               )}
@@ -154,7 +204,9 @@ const ContactUsPage = () => {
                 className={inputClasses(errors.email)}
                 placeholder=" "
               />
-              <label className={labelClasses}>Email</label>
+              <label className={labelClasses}>
+                Email <span className="text-red-500">*</span>
+              </label>
               {errors.email && (
                 <p className="text-red-500 text-xs mt-1">{errors.email}</p>
               )}
@@ -190,68 +242,80 @@ const ContactUsPage = () => {
 
             {/* Choose a Service */}
             <div className="relative">
-              <select
-                value={service}
-                onChange={handleChange(setService, "service")}
-                className={`peer w-full rounded-xl border-2 border-[#F15C20] bg-transparent px-4 py-3.5 text-black appearance-none focus:border-[#F15C20] focus:outline-none transition-colors`}
+              <Select
+                options={serviceOptions}
+                value={serviceOptions.find((opt) => opt.value === service)}
+                onChange={(option) => {
+                  setService(option.value);
+                  if (errors.service) {
+                    setErrors((prev) => {
+                      const newErrs = { ...prev };
+                      delete newErrs.service;
+                      return newErrs;
+                    });
+                  }
+                }}
+                onFocus={() => setIsServiceFocused(true)}
+                onBlur={() => setIsServiceFocused(false)}
+                classNamePrefix="react-select"
+                placeholder=""
+                styles={{
+                  control: (base, state) => ({
+                    ...base,
+                    borderRadius: "0.75rem",
+                    borderWidth: "2px",
+                    borderColor: state.isFocused ? "#F15C20" : "#F15C20",
+                    boxShadow: "none",
+                    "&:hover": {
+                      borderColor: "#F15C20",
+                    },
+                    minHeight: "54px",
+                    background: "transparent",
+                  }),
+                  valueContainer: (base) => ({
+                    ...base,
+                    paddingLeft: "12px",
+                  }),
+                  option: (base, state) => ({
+                    ...base,
+                    backgroundColor: state.isSelected
+                      ? "#F15C20"
+                      : state.isFocused
+                        ? "#F15C2010"
+                        : "white",
+                    color: state.isSelected ? "white" : "black",
+                    cursor: "pointer",
+                    "&:active": {
+                      backgroundColor: "#F15C20",
+                    },
+                  }),
+                  placeholder: (base) => ({
+                    ...base,
+                    color: "transparent",
+                  }),
+                  singleValue: (base) => ({
+                    ...base,
+                    color: "black",
+                    fontSize: "14px",
+                  }),
+                  dropdownIndicator: (base) => ({
+                    ...base,
+                    color: "#F15C20",
+                    "&:hover": {
+                      color: "#F15C20",
+                    },
+                  }),
+                  indicatorSeparator: () => ({ display: "none" }),
+                }}
+              />
+              <label
+                className={`
+                pointer-events-none absolute left-4 
+                bg-white px-1 text-sm transition-all duration-150
+                ${service || isServiceFocused ? "-top-2 text-xs text-[#F15C20]" : "top-3.5 text-gray-500"}`}
               >
-                <option value="" disabled hidden></option>
-                <option value="Android App Development Services">
-                  Android App Development Services
-                </option>
-                <option value="Android App Design Services">
-                  Android App Design Services
-                </option>
-                <option value="IOS App Development Services">
-                  IOS App Development Services
-                </option>
-                <option value="IOS App Design Services">
-                  IOS App Design Services
-                </option>
-                <option value="Web App Development Services">
-                  Web App Development Services
-                </option>
-                <option value="PWA Development Services">
-                  PWA Development Services
-                </option>
-                <option value="Mobile App Support And Maintenance Services">
-                  Mobile App Support And Maintenance Services
-                </option>
-                <option value="Hybrid App Development Services">
-                  Hybrid App Development Services
-                </option>
-                <option value="Mobile App Development Services">
-                  Mobile App Development Services
-                </option>
-                <option value="Mobile App Consulting Services">
-                  Mobile App Consulting Services
-                </option>
-                <option value="Mobile App Design Services">
-                  Mobile App Design Services
-                </option>
-                <option value="Mobile App Testing Services">
-                  Mobile App Testing Services
-                </option>
-                <option value="Native App Development Services">
-                  Native App Development Services
-                </option>
-              </select>
-              <label className={labelClasses}>Choose a Service</label>
-              <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
-                <svg
-                  className="w-5 h-5 text-[#F15C20]"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </div>
+                Choose a Service
+              </label>
             </div>
           </div>
 
@@ -275,9 +339,6 @@ const ContactUsPage = () => {
               placeholder=" "
             />
             <label className={labelClasses}>Description</label>
-            {errors.message && (
-              <p className="text-red-500 text-xs mt-1">{errors.message}</p>
-            )}
           </div>
 
           {/* Privacy Policy Checkbox */}
@@ -311,7 +372,7 @@ const ContactUsPage = () => {
                   href="mailto:hello@dignitestudios.com"
                   className="text-[#F15C20] hover:underline"
                 >
-                  hello@dignitestudios.com
+                  support@dignitestudios.com
                 </a>
                 . You may opt out at any time by replying STOP. See our{" "}
                 <Link
@@ -330,9 +391,6 @@ const ContactUsPage = () => {
                 for more details.
               </label>
             </div>
-            {errors.isAgreed && (
-              <p className="text-red-500 text-xs">{errors.isAgreed}</p>
-            )}
           </div>
 
           <div className="flex w-full items-center group justify-center pt-4">
