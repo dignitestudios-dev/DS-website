@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
           Miami Mobile App Development Company for{" "}
-          <span className="text-[#F15C20] text-nowrap">
+          <span className="text-[#F15C20] ">
             Scalable Digital Products
           </span>{" "}
         </h1>

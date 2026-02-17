@@ -8,7 +8,7 @@ const CTA = () => {
   return (
     <div className="w-[80%] text-white bg-[url('/location/mobile-miami/s-cta.png')] bg-cover bg-center hover:scale-105 transition-all ease-linear relative md:px-14 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <div className="flex flex-row-reverse gap-20 items-center">
-        <div className="w-[40%]">
+        <div className="lg:block hidden w-[40%]">
           <motion.img
             src="/location/mobile-miami/cta-m.png"
             alt="cta-mobile"
@@ -19,7 +19,7 @@ const CTA = () => {
             transition={{ duration: 0.8 }}
           />
         </div>
-        <div className="w-[60%]">
+        <div className="lg:w-[60%] w-full">
           <h1 className="text-5xl capitalize font-bold mb-4">
             Build Your Mobile App with the Confidence
           </h1>
