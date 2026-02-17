@@ -125,11 +125,11 @@ const Footer = () => {
       { name: "Seattle", href: "/locations/mobile-app-development-seattle" },
       { name: "Boston", href: "/locations/mobile-app-development-boston" },
       { name: "Miami", href: "/locations/mobile-app-development-miami" },
-      // { name: "Charlotte", href: "#" },
+      { name: "Charlotte", href: "/locations/mobile-app-development-charlotte" },
       { name: "New York", href: "/locations/mobile-app-development-new-york" },
       { name: "Tampa", href: "/locations/mobile-app-development-tampa" },
             { name: "California", href: "/locations/mobile-app-development-california" },
-      // { name: "Washington", href: "#" },
+      { name: "Washington", href: "/locations/mobile-app-development-washington" },
       // { name: "Texas", href: "#" },
     ],
     connect: [

@@ -128,7 +128,13 @@ const Navbar = ({ setIsOpen }) => {
         ],
       },
       {
-        items: [["Boston", "/locations/mobile-app-development-boston"]],
+        items: [
+          
+          ["Boston", "/locations/mobile-app-development-boston"],
+          ["Washington", "/locations/mobile-app-development-washington"],
+          ["Charlotte", "/locations/mobile-app-development-charlotte"]
+        
+        ],
       },
     ],
     ecommerce: [

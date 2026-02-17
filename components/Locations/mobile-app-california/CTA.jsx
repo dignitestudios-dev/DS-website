@@ -28,7 +28,7 @@ const CTA = () => {
       />
       <div className="lg:w-[50%] w-full relative z-50 mx-auto space-y-4">
         <img src="/location/mobile-california/apps.png" alt="grad1" />
-        <h1 className="text-4xl font-bold text-center">
+        <h1 className="text-5xl font-bold text-center">
           Be Our Next <span className="text-[#F15C20]">Success </span>Story!
         </h1>
         <Link href="/contact-us" className="flex items-center group justify-center ">

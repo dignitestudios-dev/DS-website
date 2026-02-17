@@ -28,7 +28,7 @@ const CTA = () => {
         />
 
         <div className="w-full lg:w-[60%] mx-auto justify-center lg:h-[350px] flex flex-col items-center text-center">
-          <h1 className="text-4xl capitalize font-bold mb-4">
+          <h1 className="text-5xl capitalize font-bold mb-4">
             Got an app idea that needs expert execution?
           </h1>
           <p>

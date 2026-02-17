@@ -20,7 +20,7 @@ const CTA = () => {
           />
         </div>
         <div className="w-full lg:w-[60%]">
-          <h1 className="text-4xl capitalize font-bold mb-4">
+          <h1 className="text-5xl capitalize font-bold mb-4">
            If these apps started as ideas, so can yours.
           </h1>
           <p>
