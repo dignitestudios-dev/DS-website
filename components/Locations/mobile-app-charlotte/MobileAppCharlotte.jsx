@@ -365,7 +365,7 @@ const MobileAppCharlotte = () => {
         }
       />
       <CTA />
-      <TechAndTools />
+      <TechAndTools header={"Technologies & Frameworks"} para={"Do you ever think about what makes some apps feel so smooth, while some of those apps look like chaos? Being a trusted app development company, we ensure your app works smoothly every time. To create your app smoothly and easily to use, we use modern technologies so that the app’s performance is not affected and works for long term. "} />
       {/* <SEO /> */}
       <Testimonials
         test={test}

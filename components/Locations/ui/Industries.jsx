@@ -81,7 +81,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para }) => {
           {header}
           <span className="text-[#F15C20]"> {header2}</span>{" "}
         </h1>
-        <p className="text-sm md:text-lg my-6 dark:text-white md:w-[60%] mx-auto text-[#0C0C0C]">
+        <p className="text-sm md:text-lg my-6 dark:text-white  mx-auto text-[#0C0C0C]">
           {para}
         </p>
       </div>

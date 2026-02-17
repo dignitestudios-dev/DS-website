@@ -31,13 +31,13 @@ const CTA = () => {
           <Link href="/contact-us" className="flex items-center group justify-start  pt-4">
             <button
               type="submit"
-              className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-sm px-7 py-3 rounded-full transition-colors"
+              className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
               Discuss Your App Idea
             </button>
             <button
               type="submit"
-              className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full
+              className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full
                          flex items-center justify-center transition-colors text-lg"
             >
               <MdArrowOutward />

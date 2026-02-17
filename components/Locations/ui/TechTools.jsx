@@ -15,7 +15,7 @@ import DevelopmentTools from "./DevelopmentTools";
 import Databases from "./Databases";
 import { useState } from "react";
 
-const TechAndTools = () => {
+const TechAndTools = ({header , para}) => {
   const [activeTechStack, setActiveTechStack] = useState(
     "programming-languages",
   );
@@ -46,12 +46,10 @@ const TechAndTools = () => {
     <section className="w-full py-20 pt-32 bg-white overflow-hidden">
       <section className="w-full flex flex-col items-center justify-center gap-6 text-center px-6">
         <h2 className="text-4xl tracking-tighter md:text-7xl font-bold lg:max-w-7xl mx-auto leading-[1.1] text-black">
-          Tools And Technologies <br className="block md:hidden" /> We Use
+          {header || "Tech and Tools We Use for Mobile App Development"}{"  "}
         </h2>
         <p className="w-full md:w-[70%] mx-auto text-black/60 text-base md:text-lg">
-          Our technology stack supports scalable mobile application development{" "}
-          <br className="hidden md:block" /> Miami projects through the proven
-          frameworks.
+          {para}
         </p>
 
         {/* MOBILE CATEGORY SELECTOR */}

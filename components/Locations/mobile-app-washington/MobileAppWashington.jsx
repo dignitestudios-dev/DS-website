@@ -379,7 +379,7 @@ const MobileAppWashington = () => {
         }
       />
       <CTA />
-      <TechAndTools />
+      <TechAndTools header={"Tools, Technologies & Frameworks "} para={"Do you ever think about what makes some apps feel so smooth to use, while some apps look like a mess? Being a trusted app development company Washington DC, we ensure your app runs smoothly every time. To make your app smooth and easy to use, we use modern technologies so that the performance of your application is not affected and works for long term. "} />
       {/* <SEO /> */}
       <Testimonials
         test={test}
