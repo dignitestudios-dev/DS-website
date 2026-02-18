@@ -39,9 +39,14 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
   };
 
   const [state, setState] = useState(false);
+  const [locationsState, setLocationsState] = useState(false);
 
   const handleState = () => {
     setState(!state);
+  };
+
+  const handleLocationsState = () => {
+    setLocationsState(!locationsState);
   };
 
   return (
@@ -198,7 +203,90 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           </button>
 
           <button
-            onClick={() => handleClick("case-studies")}
+            className={`w-full group text-[14px] hover:text-orange-600 relative gap-4 h-auto font-medium flex flex-col bg-transparent outline-none`}
+          >
+            <div
+              className="w-full flex justify-between items-center"
+              onClick={handleLocationsState}
+            >
+              <span>Locations</span>
+              <IoIosArrowDown
+                className={`text-md ${
+                  locationsState ? "rotate-180" : "rotate-0"
+                } transition-all duration-500`}
+              />
+            </div>
+            {locationsState && (
+              <div
+                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition-all duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
+                style={{ color: palette?.color }}
+              >
+                <Link
+                  href="/locations/mobile-app-development-new-york"
+                  className={`hover:text-orange-600 `}
+                >
+                  New York
+                </Link>
+                <Link
+                  href="/locations/mobile-app-development-california"
+                  className={`hover:text-orange-600 `}
+                >
+                  California
+                </Link>
+                <Link
+                  href="/locations/mobile-app-development-seattle"
+                  className={`hover:text-orange-600 `}
+                >
+                  Seattle
+                </Link>
+                <Link
+                  href="/locations/mobile-app-development-miami"
+                  className={`hover:text-orange-600 `}
+                >
+                  Miami
+                </Link>
+                <Link
+                  href="/locations/mobile-app-development-tampa"
+                  className={`hover:text-orange-600 `}
+                >
+                  Tampa
+                </Link>
+                <Link
+                  href="/locations/mobile-app-development-chicago"
+                  className={`hover:text-orange-600 `}
+                >
+                  Chicago
+                </Link>
+                <Link
+                  href="/locations/mobile-app-development-boston"
+                  className={`hover:text-orange-600 `}
+                >
+                  Boston
+                </Link>
+                <Link
+                  href="/locations/mobile-app-development-washington"
+                  className={`hover:text-orange-600 `}
+                >
+                  Washington
+                </Link>
+                <Link
+                  href="/locations/mobile-app-development-charlotte"
+                  className={`hover:text-orange-600 `}
+                >
+                  Charlotte
+                </Link>
+                <Link
+                  href="/locations/mobile-app-development-texas"
+                  className={`hover:text-orange-600 `}
+                >
+                  Texas
+                </Link>
+              </div>
+            )}
+          </button>
+
+          <button
+            onClick={() => navigateTo("/case-studies")}
             className={`text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
           >
             Case Studies

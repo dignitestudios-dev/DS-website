@@ -23,11 +23,10 @@ const AboutUsHero = () => {
   return (
     <div className="w-full grid grid-cols-1 gap-y-8 justify-start items-start lg:pt-20 ">
       <div className="flex  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
-        <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
-          Building Apps that Drive{" "} <br/>
+        <h1 className="text-4xl leading-10 tracking-tighter md:text-7xl font-bold ">
+          Building Apps that Drive{" "} <span className="text-[#F15C20]">Real Growth</span> <br/>
           
         </h1>
-        <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold mt-2"><span className="text-[#F15C20]">Real Growth</span></h1>
         <p className="text-xl mt-2 dark:text-white text-[#5C5C5C]">
           We build digital products that do more than just perform their work.
           By combining expert teams, fully custom development, and proven

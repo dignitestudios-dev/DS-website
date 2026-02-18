@@ -1,5 +1,10 @@
+"use client";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 import {
   SiReact,
   SiVuedotjs,
@@ -33,7 +38,7 @@ const techData = {
       name: "React",
       icon: <SiReact />,
       description:
-        "It’s a library for building fast and secure web interfaces.",
+        "It's a library for building fast and secure web interfaces.",
     },
     {
       name: "Vue.js",
@@ -110,7 +115,7 @@ const techData = {
     {
       name: "Kotlin",
       icon: <SiKotlin />,
-      description: "Modern Android development that’s safe and fast.",
+      description: "Modern Android development that's safe and fast.",
     },
     {
       name: "Flutter",
@@ -206,7 +211,7 @@ const TechTools = () => {
     text-white
   "
     >
-      <div className="max-w-7xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center px-4">
         <h2 className="text-4xl md:text-7xl leading-[42px] tracking-tighter lg:leading-[1.1] font-bold mb-6">
           The Tech Behind Secure Mobile Application
           <span className="text-[#F15C20]"> Development</span>
@@ -232,7 +237,8 @@ const TechTools = () => {
           ))}
         </div>
 
-        <div className="flex flex-wrap justify-center gap-6 min-h-[500px]">
+        {/* Desktop View */}
+        <div className="hidden md:flex flex-wrap justify-center gap-6 min-h-[500px]">
           <AnimatePresence mode="popLayout">
             {techData[activeTab].map((tech, idx) => (
               <div
@@ -243,6 +249,30 @@ const TechTools = () => {
               </div>
             ))}
           </AnimatePresence>
+        </div>
+
+        {/* Mobile Carousel */}
+        <div className="md:hidden relative min-h-[360px] pb-12 flex justify-center">
+          <div className="w-full max-w-[320px] px-4">
+            <Swiper
+              modules={[Autoplay, Pagination]}
+              spaceBetween={20}
+              slidesPerView={1}
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
+              pagination={{ 
+                clickable: true,
+                bulletClass: 'swiper-pagination-bullet !bg-white',
+                bulletActiveClass: 'swiper-pagination-bullet-active !bg-[#F15C20]'
+              }}
+              className="!pb-12"
+            >
+              {techData[activeTab].map((tech, idx) => (
+                <SwiperSlide key={`${activeTab}-${idx}`}>
+                  <TechCard tech={tech} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
       </div>
     </section>
@@ -257,14 +287,14 @@ const TechCard = ({ tech }) => {
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
-      transition={{ duration: 0 }}
-      className="relative h-[280px]  w-full perspective-1000 cursor-pointer"
+      transition={{ duration: 0.3 }}
+      className="relative h-[280px] w-full perspective-1000 cursor-pointer"
       onMouseEnter={() => setIsFlipped(true)}
       onMouseLeave={() => setIsFlipped(false)}
       onClick={() => setIsFlipped(!isFlipped)}
     >
       <motion.div
-        className="w-full h-full relative preserve-3d transition-all duration-75 "
+        className="w-full h-full relative preserve-3d transition-all duration-75"
         animate={{ rotateY: isFlipped ? 180 : 0 }}
       >
         {/* Front */}

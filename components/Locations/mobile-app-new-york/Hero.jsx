@@ -37,7 +37,7 @@ const Hero = () => {
           alt="bg"
           width={400}
           height={400}
-          className="object-cover relative"
+          className="object-cover lg:w-full w-[80%] mx-auto relative"
           initial={{ y: 80, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}

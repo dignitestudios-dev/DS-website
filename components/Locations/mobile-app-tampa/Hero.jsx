@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img src="/location/mobile-tampa/grad.png" className="absolute left-[50%] translate-x-[-50%] -top-[20%] -z-0"  />
+        <img src="/location/mobile-tampa/grad.png" className="absolute left-[50%] lg:block hidden translate-x-[-50%] -top-[20%] -z-0"  />
         <motion.img
           src="/location/mobile-tampa/mob.png"
           alt="bg"

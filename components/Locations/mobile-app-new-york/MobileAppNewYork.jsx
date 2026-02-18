@@ -31,7 +31,7 @@ const services = [
         iPhones. Our{" "}
         <Link
           href="/services/ios-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
+          className="underline "
         >
           iOS app development
         </Link>{" "}
@@ -49,7 +49,7 @@ const services = [
         For Android, we handle full{" "}
         <Link
           href="/services/android-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
+          className="underline "
         >
           Android app development
         </Link>{" "}
@@ -68,7 +68,7 @@ const services = [
         Looking for faster delivery and cost efficiency? You need{" "}
         <Link
           href="/services/hybrid-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
+          className="underline "
         >
           cross-platform app development
         </Link>
@@ -86,7 +86,7 @@ const services = [
         When you want full control, our{" "}
         <Link
           href="/services/native-app-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
+          className="underline "
         >
           native app development services
         </Link>{" "}
@@ -94,7 +94,7 @@ const services = [
         build custom native apps and{" "}
         <Link
           href="/services/pwa-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
+          className="underline "
         >
           PWAs
         </Link>{" "}
@@ -111,7 +111,7 @@ const services = [
         We also handle{" "}
         <Link
           href="/services/web-application-development-services"
-          className="underline text-[#F15C20] group-hover:text-white"
+          className="underline "
         >
           web app development
         </Link>{" "}
@@ -130,21 +130,21 @@ const services = [
         Good design makes everything easier. Our{" "}
         <Link
           href="/services/mobile-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
+          className="underline "
         >
           mobile app design services
         </Link>
         , including{" "}
         <Link
           href="https://www.dignitestudios.com/services/ios-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
+          className="underline "
         >
           iOS app design services
         </Link>{" "}
         and{" "}
         <Link
           href="/services/android-mobile-app-design-services"
-          className="underline text-[#F15C20] group-hover:text-white"
+          className="underline "
         >
           Android app design services
         </Link>
@@ -162,7 +162,7 @@ const services = [
         support to QA testing and{" "}
         <Link
           href="/services/mobile-app-consulting-services"
-          className="underline text-[#F15C20] group-hover:text-white"
+          className="underline "
         >
           mobile app consulting services
         </Link>

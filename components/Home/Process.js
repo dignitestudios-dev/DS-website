@@ -224,7 +224,7 @@ const Process = () => {
       {/* Mobile View */}
       <div className="md:hidden w-full bg-white py-16 px-6 relative overflow-hidden">
         <div className="flex flex-col items-center text-center mb-12">
-          <h2 className="text-4xl font-bold text-black leading-tight capitalize mb-4">
+          <h2 className="text-4xl capitalize leading-10 mb-4 tracking-tighter md:text-7xl font-bold">
             The Way Dignite Studios Works
           </h2>
           <p className="text-[14px] text-gray-500 max-w-sm">

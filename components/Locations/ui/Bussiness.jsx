@@ -285,7 +285,7 @@ const Bussiness = ({
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="text-center max-w-xl mx-auto"
         >
-          <h3 className="text-3xl font-bold capitalize leading-tight">
+          <h3 className="text-4xl capitalize leading-10  tracking-tighter md:text-7xl font-bold">
             {ctaHeader}
           </h3>
 

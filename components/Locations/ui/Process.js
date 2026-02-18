@@ -45,7 +45,7 @@ const Process = ({header , header2 , para , steps}) => {
         >
    
           <h2
-            className={`lg:font-bold text-center w-[80%] mx-auto capitalize font-extrabold md:text-7xl text-4xl tracking-tighter xl:font-bold`}
+            className={`text-4xl capitalize leading-10 text-center tracking-tighter md:text-7xl font-bold`}
           >
             {header} 
           </h2>
