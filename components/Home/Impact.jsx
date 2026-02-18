@@ -55,7 +55,7 @@ const AnimatedNumber = ({ value }) => {
 
 const Impact = () => {
   return (
-    <section className="w-full py-20 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black">
+    <section className="w-full  px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black">
       <div className="text-center max-w-4xl mx-auto mb-16">
         <h2 className="text-[40px] md:text-[64px] font-bold text-black dark:text-white leading-[1.1] mb-6">
           Letting The Numbers <span className="text-[#F15C20]">Speak</span>

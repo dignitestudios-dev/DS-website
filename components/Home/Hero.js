@@ -17,11 +17,11 @@ const img = [
 ];
 const Hero = () => {
   return (
-    <div className="w-full overflow-hidden  flex flex-col pt-12  gap-4 justify-start items-center">
+    <div className="w-full overflow-hidden max-w-screen-2xl mx-auto  flex flex-col pt-12  gap-4 justify-start items-center">
       <img
         src="/home-hero/grad.png"
         alt="grad"
-        className="absolute  z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover lg:h-auto h-full w-full"
+        className="absolute  z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover lg:h-auto h-[1000px] w-full"
       />
       <img
         src="/home-hero/l1.png "

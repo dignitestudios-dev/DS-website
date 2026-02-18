@@ -201,8 +201,8 @@ const Navbar = ({ setIsOpen }) => {
             </div>
           ))}
 
-          <Link href="/portfolio" className="text-[14px] font-medium hover:text-[#F15C20] transition-colors">
-            Portfolio
+          <Link href="/case-studies" className="text-[14px] font-medium hover:text-[#F15C20] transition-colors">
+            Case Studies
           </Link>
         </div>
 

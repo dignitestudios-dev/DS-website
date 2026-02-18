@@ -109,7 +109,7 @@ const Industries = ({  header, header2, para }) => {
   ];
 
   return (
-    <div className="w-full grid grid-cols-1  justify-start items-start py-20 md:py-40 ">
+    <div className="w-full grid grid-cols-1  justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[78%] flex-col text-center mx-auto items-center">
         <h1 className="text-5xl leading-10 tracking-tighter md:text-7xl font-bold ">
          Powering Startups Across Top {" "}

@@ -49,7 +49,7 @@ const services = [
 
 const MobileAppServices = () => {
   return (
-    <section className="w-full py-20 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black rounded-t-[4rem] mt-20 relative z-40 ">
+    <section className="w-full pt-20 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black rounded-t-[4rem] mt-20 relative z-40 ">
       <div className="text-center max-w-7xl mx-auto mb-20 pt-8">
         <h2 className="text-4xl md:text-7xl font-bold  mb-6 text-black dark:text-white leading-[1.1] tracking-tighter">
           Offering Custom App Development Solutions For{" "}

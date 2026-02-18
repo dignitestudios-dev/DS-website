@@ -86,11 +86,11 @@ export default function FlickCardStack() {
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "-40%"]);
 
   return (
-    <div className="relative flex h-[420px] md:h-[820px] w-full items-center justify-center overflow-hidden group">
+    <div className="relative flex h-[420px] md:h-[820px] 2xl:h-[1000px] w-full items-center justify-center overflow-hidden group">
       {/* Navigation Buttons */}
       <button
         onClick={handlePrev}
-        className="absolute left-4  md:left-[20%] z-[100] p-3 md:p-4 rounded-full bg-white/10 hover:bg-[#F15C20] border hover:text-white text-[#F15C20] border-[#F15C20] backdrop-blur-md transition-all duration-300 opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center shadow-2xl"
+        className="absolute left-4  md:left-[20%] 2xl:left-[25%] z-[100] p-3 md:p-4 rounded-full bg-white/10 hover:bg-[#F15C20] border hover:text-white text-[#F15C20] border-[#F15C20] backdrop-blur-md transition-all duration-300 opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center shadow-2xl"
         aria-label="Previous slide"
       >
         <FaChevronLeft className="text-xl  md:text-2xl" />
@@ -98,7 +98,7 @@ export default function FlickCardStack() {
 
       <button
         onClick={handleNext}
-        className="absolute right-4 md:right-[20%] z-[100] p-3 md:p-4 rounded-full bg-white/10  hover:bg-[#F15C20] border hover:text-white text-[#F15C20] border-[#F15C20] backdrop-blur-md transition-all duration-300 opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center shadow-lg"
+        className="absolute right-4 md:right-[20%] 2xl:right-[25%] z-[100] p-3 md:p-4 rounded-full bg-white/10  hover:bg-[#F15C20] border hover:text-white text-[#F15C20] border-[#F15C20] backdrop-blur-md transition-all duration-300 opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center shadow-lg"
         aria-label="Next slide"
       >
         <FaChevronRight className="text-xl md:text-2xl" />

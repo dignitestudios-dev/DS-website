@@ -80,10 +80,10 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
   };
 
   return (
-    <div className="w-full bg-[#0A0A0A] pt-24 sm:pt-32 [clip-path:ellipse(350%_100%_at_50%_100%)] relative grid grid-cols-1 pb-44 overflow-hidden md:py-32">
+    <div className="w-full bg-[#0A0A0A] pt-24 sm:pt-32 mt-24 [clip-path:ellipse(250%_100%_at_50%_100%)] md:[clip-path:ellipse(120%_100%_at_50%_100%)] relative grid grid-cols-1 pb-44 overflow-hidden md:py-32">
       <div className="flex justify-center w-[80%] mx-auto lg:justify-between items-center">
         <img src={"/location/contact-crnr.png"} alt="Contact Us" className="absolute lg:block hidden right-0  bottom-0 object-contain" />
-        <div className="lg:w-[50%]">
+        <div className="lg:w-[50%] pb-20">
           <h1 className="text-4xl text-white font-bold">{header}</h1>
           <h1 className="text-4xl font-bold text-[#F15C20] mb-4">{header2}</h1>
           <p className="text-white">{para}</p>
