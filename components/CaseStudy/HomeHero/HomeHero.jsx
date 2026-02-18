@@ -11,7 +11,7 @@ import CTA from './CTA'
 
 const HomeHero = () => {
   return (
-   <div className="w-full flex flex-col gap-8 mt-12 -mb-32 tracking-tighter">
+   <div className="w-full flex flex-col gap-8 mt-12 -mb-32 tracking-tighter pb-20">
      <img src='/home-hero/hero-bg.png' alt='ellipse' className='fixed  top-0  w-screen h-screen' />
      <img src='/home-hero/bg.png' alt='ellipse' className='fixed  top-[20%]  w-screen ' />
     <Hero/>

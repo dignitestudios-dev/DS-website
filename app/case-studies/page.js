@@ -4,9 +4,9 @@ import Wing from '@/components/CaseStudy/Wing/Wing';
 import GlobalLayout from '@/layout/GlobalLayout'
 import React from 'react'
 export const metadata = {
-  title: "Wing Dating Mobile App | Mobile App Development Service",
+  title: "Dignite Studios Archive – Explore Our Projects & Insights",
   description:
-    "Wing case study showcasing a mobile app development service that built a secure, friend-powered dating app with smooth UX, verification, and subscriptions.",
+    "Discover Dignite Studios’ archive showcasing our projects case studies and insights on automation technology and business growth solutions.",
 };
 const page = () => {
   //   <head>

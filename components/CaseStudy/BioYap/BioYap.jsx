@@ -11,7 +11,7 @@ import CTA from './CTA'
 
 const BioYap = () => {
   return (
-   <div className="w-full flex flex-col gap-8 ">
+   <div className="w-full flex flex-col gap-8 pb-20 ">
     <Hero/>
     <Workflow/>
     <Discorvery/>

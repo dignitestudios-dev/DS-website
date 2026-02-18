@@ -23,16 +23,16 @@ const cards = [
   {
     image: "/case-studies/hh.png",
     icon: "/case-studies/icons/hh.png",
-    title: "Home Dashboard",
+    title: "Home Hero",
     description: "A simplified daily overview with smart task organization.",
-    pathname: "/case-studies/home-dashboard"
+    pathname: "/case-studies/home-hero"
   },
   {
     image: "/case-studies/by.png",
     icon: "/case-studies/icons/by.png",
-    title: "Energy",
+    title: "BioYap",
     description: "Monitor home energy usage across devices in real time.",
-    pathname: "/case-studies/energy"
+    pathname: "/case-studies/bioyap"
   },
 
   // new ones
@@ -48,7 +48,7 @@ const cards = [
     icon: "/case-studies/icons/gf.png",
     title: "Games4Fun",
     description: "Game app development, branding, and UI/UX design.",
-    pathname: "/case-studies/games4fun"
+    pathname: "/case-studies/games-4-fun"
   }
 ];
 

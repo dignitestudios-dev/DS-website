@@ -12,7 +12,7 @@ import CTA from './CTA'
 
 const HarmoniosLearning = () => {
   return (
-  <div className="w-full flex flex-col gap-8 ">
+  <div className="w-full flex flex-col gap-8 pb-20">
   <img src='/hl-ellipse.png' alt='ellipse' className='fixed -top-44 -left-[30%] w-[1000px] ' />
   <img src='/hl-ellipse.png' alt='ellipse' className='fixed -top-20 -right-[30%] w-[1000px]' />
   <Hero/>

@@ -18,7 +18,7 @@ import CTA from './CTA'
 
 const CrewRoomz = () => {
   return (
-  <div className="w-full flex flex-col gap-8 -mb-4 ">
+  <div className="w-full flex flex-col gap-8 -mb-4 pb-20">
   {/* <img src='/hl-ellipse.png' alt='ellipse' className='fixed -top-44 -left-[30%] w-[1000px] ' />*/}
   {/* <img src='/crew/bg.png' alt='ellipse' className='absolute -top-20 -right-[30%] w-screen' />  */}
   <Hero/>
