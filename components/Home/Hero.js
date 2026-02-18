@@ -21,7 +21,7 @@ const Hero = () => {
       <img
         src="/home-hero/grad.png"
         alt="grad"
-        className="absolute  z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover lg:h-auto h-[1000px] w-full"
+        className="absolute  z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover lg:h-auto h-[800px] w-full"
       />
       <img
         src="/home-hero/l1.png "

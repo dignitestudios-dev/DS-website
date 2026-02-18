@@ -84,7 +84,7 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
       >
         <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start pt-28 ">
           <div className="flex relative z-20  w-[90%] md:max-w-7xl flex-col text-center mx-auto items-center">
-            <h1 className="text-5xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
+            <h1 className="text-4xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
               Why We’re The Best Mobile App Development Agency for{" "}
               <span className="text-[#F15C20]">Startups</span>{" "}
             </h1>
@@ -203,14 +203,14 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
         <section className="w-full bg-transparent py-20 px-4 md:hidden relative z-50">
           {/* Header */}
           <div className="text-center max-w-xl mx-auto mb-14">
-            <h2 className="text-3xl font-bold tracking-tight text-white">
-              Why California Businesses Choose{" "}
-              <span className="text-[#F15C20]">Dignite Studios</span>
-            </h2>
-            <p className="text-base mt-5 text-gray-300">
-              We’re not just another mobile app development company in
-              California. We’re a team of experienced engineers focused on
-              performance, clarity, and long-term growth.
+               <h1 className="text-4xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
+              Why We’re The Best Mobile App Development Agency for{" "}
+              <span className="text-[#F15C20]">Startups</span>{" "}
+            </h1>
+                <p className="text-lg my-6 text-white ">
+              We help startups build secure and scalable apps. We’re known for
+              our secure mobile application development, custom solutions, and
+              hands-on collaboration.
             </p>
           </div>
 

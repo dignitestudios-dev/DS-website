@@ -16,7 +16,7 @@ const AgileProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               01.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Research
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -36,7 +36,7 @@ const AgileProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               03.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Agile Development
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -56,7 +56,7 @@ const AgileProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               05.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Sprint Demos
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -80,7 +80,7 @@ const AgileProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               02.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               UI/UX & Wireframes
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -100,7 +100,7 @@ const AgileProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               04.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Quality Assurance
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -119,7 +119,7 @@ const AgileProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               06.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Deployment
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">

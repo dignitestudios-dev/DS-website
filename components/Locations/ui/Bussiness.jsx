@@ -214,13 +214,11 @@ const Bussiness = ({
           {/* Header */}
           <div className="text-center max-w-xl mx-auto mb-14">
             <h2 className="text-3xl font-bold tracking-tight text-white">
-              Why California Businesses Choose{" "}
-              <span className="text-[#F15C20]">Dignite Studios</span>
+              {header}{" "}
+              <span className="text-[#F15C20]">{header2}</span>
             </h2>
             <p className="text-base mt-5 text-gray-300">
-              We’re not just another mobile app development company in
-              California. We’re a team of experienced engineers focused on
-              performance, clarity, and long-term growth.
+              {para}
             </p>
           </div>
 

@@ -7,7 +7,7 @@ const SuccessStories = ({header , para , header2}) => {
   return (
      <div className="w-full grid grid-cols-1  justify-start items-start  ">
           <div className="flex relative z-20 -mb-28  w-[90%] md:w-[70%] flex-col text-center mx-auto items-center">
-            <h1 className="text-5xl   md:text-7xl leading-[42px] lg:leading-[1.1] tracking-tighter font-bold ">
+            <h1 className="text-4xl   md:text-7xl leading-[42px] lg:leading-[1.1] tracking-tighter font-bold ">
            Success Stories from Our Startup App Development Company
             </h1>
             <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">

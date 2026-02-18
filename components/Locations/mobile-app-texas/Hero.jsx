@@ -10,16 +10,16 @@ const Hero = () => {
     <div className="w-full grid grid-cols-1  justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] capitalize lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          Discover expert App Development Services in Tampa designed for {" "}
-          <span className="text-[#F15C20] text-nowrap">startups</span>{" "}
+         Expert Mobile App Development in Texas Building {" "}
+          <span className="text-[#F15C20]">Mobile Apps </span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          Startups have a hard time finding a mobile app development company in Tampa that can be trusted. But we’ve got your back. We’re the team building mobile apps that are easy to use and designed to solve operational challenges.
+         Starting a mobile app development in Texas? Get a dedicated team of app developers like ours. We are one of the trusted mobile app development companies in Texas that understands quality and the market. Dignite Studios has a team of professional app developers who develop mobile apps for the future. 
         </p>
 
         <div className="flex items-center group justify-center ">
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Discuss Your Idea
+           Talk to us today!
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />

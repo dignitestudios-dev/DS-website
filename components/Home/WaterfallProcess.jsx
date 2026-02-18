@@ -18,7 +18,7 @@ const WaterfallProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               01.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Plan
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -38,7 +38,7 @@ const WaterfallProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               03.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Develop
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -59,7 +59,7 @@ const WaterfallProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               05.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Validate
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -79,7 +79,7 @@ const WaterfallProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               07.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Support
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -106,7 +106,7 @@ const WaterfallProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               02.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Design
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -126,7 +126,7 @@ const WaterfallProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               04.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Test
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -146,7 +146,7 @@ const WaterfallProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               06.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Launch
             </h4>
             <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">

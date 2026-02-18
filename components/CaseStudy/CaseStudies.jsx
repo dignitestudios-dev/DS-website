@@ -81,7 +81,7 @@ const CaseStudies = () => {
               
               {/* Blur Overlay on Hover */}
               <motion.div 
-                className="absolute inset-0 bg-black/20 h-full w-full backdrop-blur-sm flex items-center justify-center"
+                className="absolute inset-0 bg-white/20 h-full w-full backdrop-blur-sm flex items-center justify-center"
                 initial={{ opacity: 0, backdropFilter: "blur(0px)" }}
                 whileHover={{ opacity: 1, backdropFilter: "blur(10px)" }}
                 transition={{ duration: 0.4, ease: "backInOut" }}
@@ -89,8 +89,8 @@ const CaseStudies = () => {
                 <motion.img 
                   src={card.icon} 
                   alt={`${card.title} icon`} 
-                  fill
-                //   className="  group-hover:scale-90  "
+                
+                  className="  w-40  "
                   initial={{ scale: 0, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 0.3, delay: 0.1 }}

@@ -18,7 +18,7 @@ const HybridProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               01.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Core First
             </h4>
             <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -39,7 +39,7 @@ const HybridProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               03.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Design
             </h4>
             <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -59,7 +59,7 @@ const HybridProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               05.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Phased Launch
             </h4>
             <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -85,7 +85,7 @@ const HybridProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               02.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Test Early
             </h4>
             <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -105,7 +105,7 @@ const HybridProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               04.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Real Feedback
             </h4>
             <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
@@ -125,7 +125,7 @@ const HybridProcess = () => {
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               06.
             </p>
-            <h4 className="text-[40px] lg:text-[48px] font-bold uppercase">
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
               Scaling
             </h4>
             <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">

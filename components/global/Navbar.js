@@ -136,6 +136,14 @@ const Navbar = ({ setIsOpen }) => {
         
         ],
       },
+      {
+        items: [
+          
+          ["Texas", "/locations/mobile-app-development-texas"],
+       
+        
+        ],
+      },
     ],
     ecommerce: [
       {

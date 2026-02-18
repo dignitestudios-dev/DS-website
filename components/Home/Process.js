@@ -224,13 +224,11 @@ const Process = () => {
       {/* Mobile View */}
       <div className="md:hidden w-full bg-white py-16 px-6 relative overflow-hidden">
         <div className="flex flex-col items-center text-center mb-12">
-          <h2 className="text-[28px] font-bold text-black leading-tight capitalize mb-4">
-            mobile app development <br /> process
+          <h2 className="text-4xl font-bold text-black leading-tight capitalize mb-4">
+            The Way Dignite Studios Works
           </h2>
           <p className="text-[14px] text-gray-500 max-w-sm">
-            Our Mobile Mobile App Development Process Follows Structured Steps
-            Designed For Speed, Clarity And Measurable Outcomes For Every
-            Project.
+           Our workflow is a combination of strategy, design, and fast development. The team ensures smooth execution. We don’t compromise on delivering scalable apps, ensuring transparency.
           </p>
         </div>
 

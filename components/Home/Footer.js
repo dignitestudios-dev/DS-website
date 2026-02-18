@@ -130,7 +130,7 @@ const Footer = () => {
       { name: "Tampa", href: "/locations/mobile-app-development-tampa" },
             { name: "California", href: "/locations/mobile-app-development-california" },
       { name: "Washington", href: "/locations/mobile-app-development-washington" },
-      // { name: "Texas", href: "#" },
+      { name: "Texas", href: "/locations/mobile-app-development-texas" },
     ],
     connect: [
       { name: "Facebook", href: "https://www.facebook.com/dignitestudios/" },

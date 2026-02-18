@@ -5,9 +5,9 @@ import MobileAppTexas from '@/components/Locations/mobile-app-texas/MobileAppTex
 import GlobalLayout from '@/layout/GlobalLayout'
 import React from 'react'
 export const metadata = {
-  title: "Expert App Development Company Washington DC | Top Apps",
+  title: "Trustable Mobile App Development in Texas | Top Apps",
   description:
-    "Trustworthy app development company Washington DC. We create scalable apps with smooth UX that bring engagement and business success. Get a free quote now!",
+    "Trustworthy mobile app development in Texas. Dignite Studios creates scalable apps with smooth UX that bring engagement and business success. Get a free quote now!",
 };
 const page = () => {
   //   <head>
