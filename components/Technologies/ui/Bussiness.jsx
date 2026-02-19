@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/pagination";
 import { MdArrowOutward } from "react-icons/md";
+import Link from "next/link";
 const bs = [
   {
     title: "100% Custom App Development",
@@ -35,6 +36,7 @@ const bs = [
 
 const Bussiness = ({
   cta,
+  button,
   ctaHeader,
   ctaPara,
   ctaBtn,
@@ -91,25 +93,23 @@ const Bussiness = ({
          [clip-path:ellipse(350%_100%_at_50%_100%)]
          sm:[clip-path:ellipse(350%_100%_at_50%_100%)]
          md:[clip-path:ellipse(200%_100%_at_50%_100%)]
-         flex items-center relative justify-center mb-[25%]
+         flex items-center relative justify-center 
        "
       >
         <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start md:py-40 ">
           <div className="flex relative z-20  w-[90%] md:max-w-7xl flex-col text-center mx-auto items-center">
             <h1 className="text-5xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
-              Why We’re The Best Mobile App Development Agency for{" "}
-              <span className="text-[#F15C20]">Startups</span>{" "}
+             {header}{" "}
+              <span className="text-[#F15C20]">{header2}</span>{" "}
             </h1>
             <p className="text-lg my-6 text-white ">
-              We help startups build secure and scalable apps. We’re known for
-              our secure mobile application development, custom solutions, and
-              hands-on collaboration.
+              {para}
             </p>
           </div>
 
           <div className="relative  p-8">
             <div className="flex justify-center -mb-48">
-              {bs.slice(0, 3).map((item, index) => (
+              {bsToUse.slice(0, 3).map((item, index) => (
                 <div
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
@@ -188,7 +188,7 @@ const Bussiness = ({
               </div>
             </div>
             <div className="flex justify-center -mt-11">
-              {bs.slice(3, 6).map((item, index) => (
+              {bsToUse.slice(3, 6).map((item, index) => (
                 <div
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
@@ -210,19 +210,24 @@ const Bussiness = ({
               ))}
             </div>
           </div>
-          {cta}
+                 <Link href={"/contact-us"} className="flex items-center group justify-center ">
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+         {button ? button : " Talk to our California-based team"}
+          </button>
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+            <MdArrowOutward />
+          </button>
+        </Link>
         </div>
         <section className="w-full bg-transparent py-20 px-4 md:hidden relative z-50">
           {/* Header */}
           <div className="text-center max-w-xl mx-auto mb-14">
             <h2 className="text-3xl font-bold tracking-tight text-white">
-              Why California Businesses Choose{" "}
-              <span className="text-[#F15C20]">Dignite Studios</span>
+              {header}{" "}
+              <span className="text-[#F15C20]">{header2}</span>
             </h2>
             <p className="text-base mt-5 text-gray-300">
-              We’re not just another mobile app development company in
-              California. We’re a team of experienced engineers focused on
-              performance, clarity, and long-term growth.
+              {para}
             </p>
           </div>
 
@@ -256,7 +261,7 @@ const Bussiness = ({
               }}
               className="pb-12"
             >
-              {bs.map((item, index) => (
+              {bsToUse.map((item, index) => (
                 <SwiperSlide key={index}>
                   <div className="relative w-[350px] mx-auto">
                     <img
@@ -278,33 +283,9 @@ const Bussiness = ({
             </Swiper>
           </div>
 
-          {/* CTA */}
         </section>
       </div>
-      <section className="w-full text-black py-20 px-4 md:hidden">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
-          className="text-center max-w-xl mx-auto"
-        >
-          <h3 className="text-3xl font-bold capitalize leading-tight">
-            {ctaHeader}
-          </h3>
-
-          <p className="text-base  mt-4 mb-10">{ctaPara}</p>
-
-          <div className="flex items-center justify-center ">
-            <button className="bg-[#F15C20] text-white px-8 py-4 rounded-full text-base font-semibold transition-transform hover:scale-105 active:scale-95">
-              {ctaBtn}
-            </button>
-            <button className="bg-[#F15C20] text-white w-14 h-14 rounded-full flex items-center justify-center transition-transform hover:scale-105 active:scale-95 text-xl">
-              <MdArrowOutward />
-            </button>
-          </div>
-        </motion.div>
-      </section>
+     
     </>
   );
 };

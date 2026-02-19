@@ -6,9 +6,9 @@ import FlutterDev from '@/components/Technologies/flutter/FlutterDev';
 import GlobalLayout from '@/layout/GlobalLayout'
 import React from 'react'
 export const metadata = {
-  title: "Expert App Development Company Washington DC | Top Apps",
+  title: "Flutter App Development Company in USA | Dignite",
   description:
-    "Trustworthy app development company Washington DC. We create scalable apps with smooth UX that bring engagement and business success. Get a free quote now!",
+    "Dignite Studios is a flutter app development company in the USA building fast, mobile apps for startups with performance-driven execution.",
 };
 const page = () => {
   //   <head>

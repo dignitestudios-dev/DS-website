@@ -1,188 +1,272 @@
 "use client";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
-import { IoIosArrowDown } from "react-icons/io";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import {
+  SiReact,
+  SiVuedotjs,
+  SiAngular,
+  SiFlutter,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiDjango,
+  SiFirebase,
+  SiLaravel,
+  SiExpress,
+  SiRubyonrails,
+  SiSwift,
+  SiKotlin,
+  SiWordpress,
+  SiShopify,
+  SiWebflow,
+  SiBigcommerce,
+  SiSquarespace,
+  SiAmazonaws,
+  SiMicrosoftazure,
+  SiGooglecloud,
+  SiDigitalocean,
+} from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { RiCloudLine } from "react-icons/ri";
 
-import { languages } from "./ProgrammingLanguages";
-import { cloudPlatforms } from "./CloudPlatforms";
-import { devTools } from "./DevelopmentTools";
-import { databases } from "./Databases";
-import ProgrammingLanguages from "./ProgrammingLanguages";
-import CloudPlatforms from "./CloudPlatforms";
-import DevelopmentTools from "./DevelopmentTools";
-import Databases from "./Databases";
-import { useState } from "react";
-
-const TechAndTools = () => {
-  const [activeTechStack, setActiveTechStack] = useState(
-    "programming-languages",
-  );
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const techData = {
-    "programming-languages": {
-      label: "Programming Languages",
-      data: languages,
+const techData = {
+  Frontend: [
+    {
+      name: "React",
+      icon: <SiReact />,
+      description:
+        "It's a library for building fast and secure web interfaces.",
     },
-    databases: {
-      label: "Databases",
-      data: databases,
+    {
+      name: "Vue.js",
+      icon: <SiVuedotjs />,
+      description: "Known for being lightweight for creating smooth web apps.",
     },
-    "cloud-platforms": {
-      label: "Cloud Platforms",
-      data: cloudPlatforms,
+    {
+      name: "Angular",
+      icon: <SiAngular />,
+      description:
+        "Made to organize large web apps and to make it easy to maintain.",
     },
-    "development-tools": {
-      label: "Development & Collaboration Tools",
-      data: devTools,
+    {
+      name: "Flutter",
+      icon: <SiFlutter />,
+      description: "Allow the user to build mobile apps with one codebase.",
     },
-  };
+    {
+      name: "React Native",
+      icon: <SiReact />,
+      description:
+        "Develop mobile apps quickly with almost-native performance.",
+    },
+    {
+      name: "Next.js",
+      icon: <SiNextdotjs />,
+      description: "Speeds up web apps with fast loading and better SEO.",
+    },
+  ],
+  Backend: [
+    {
+      name: "Node.js",
+      icon: <SiNodedotjs />,
+      description:
+        "Lets us handle many users at once with fast and reliable servers.",
+    },
+    {
+      name: "Django",
+      icon: <SiDjango />,
+      description:
+        "Secure framework that helps build web apps quickly and safely.",
+    },
+    {
+      name: "Firebase",
+      icon: <SiFirebase />,
+      description:
+        "Secure and scalable real-time backend and database service.",
+    },
+    {
+      name: "Laravel",
+      icon: <SiLaravel />,
+      description:
+        "Keeps code clean, secure, and easy to scale for growing apps.",
+    },
+    {
+      name: "Express.js",
+      icon: <SiExpress />,
+      description: "Lightweight and flexible, ideal for building APIs fast.",
+    },
+    {
+      name: "Ruby on Rails",
+      icon: <SiRubyonrails />,
+      description:
+        "Lets startups build apps quickly while keeping them safe and stable.",
+    },
+  ],
+  Mobile: [
+    {
+      name: "Swift",
+      icon: <SiSwift />,
+      description:
+        "Native iOS apps with smooth performance and great user experience.",
+    },
+    {
+      name: "Kotlin",
+      icon: <SiKotlin />,
+      description: "Modern Android development that's safe and fast.",
+    },
+    {
+      name: "Flutter",
+      icon: <SiFlutter />,
+      description: "Build apps for both iOS and Android with one codebase.",
+    },
+    {
+      name: "React Native",
+      icon: <SiReact />,
+      description: "Efficient cross-platform apps with near-native speed.",
+    },
+  ],
+  CMS: [
+    {
+      name: "WordPress",
+      icon: <SiWordpress />,
+      description: "Highly flexible and widely used for websites and web apps.",
+    },
+    {
+      name: "Shopify",
+      icon: <SiShopify />,
+      description:
+        "Perfect for ecommerce apps with quick setup and store management.",
+    },
+    {
+      name: "Webflow",
+      icon: <SiWebflow />,
+      description:
+        "Visual design + CMS + hosting for seamless web app creation.",
+    },
+    {
+      name: "BigCommerce",
+      icon: <SiBigcommerce />,
+      description: "Enterprise-ready ecommerce CMS with robust features.",
+    },
+    {
+      name: "Squarespace",
+      icon: <SiSquarespace />,
+      description: "Easy-to-use platform for startups and content-driven apps.",
+    },
+  ],
+  "Cloud & DevOps": [
+    {
+      name: "AWS",
+      icon: <SiAmazonaws />,
+      description:
+        "Scalable infrastructure, reliable hosting, and real-time monitoring.",
+    },
+    {
+      name: "Azure",
+      icon: <SiMicrosoftazure />,
+      description:
+        "Enterprise-ready cloud with strong security and integration.",
+    },
+    {
+      name: "GCP",
+      icon: <SiGooglecloud />,
+      description: "High-performance cloud services for global apps.",
+    },
+    {
+      name: "Digital Ocean",
+      icon: <SiDigitalocean />,
+      description: "Simple, cost-effective cloud infrastructure for startups.",
+    },
+    {
+      name: "Cloudinary",
+      icon: <RiCloudLine />,
+      description: "Optimized media management for web and mobile apps.",
+    },
+    {
+      name: "Google Cloud",
+      icon: <SiGooglecloud />,
+      description:
+        "Redundant infrastructure, high availability, and scaling support.",
+    },
+  ],
+};
 
-  const activeData = techData[activeTechStack];
+const categories = Object.keys(techData);
 
+const TechTools = ({header , para, tech}) => {
   return (
-    <section className="w-full py-20 pt-32 bg-white overflow-hidden">
-      <section className="w-full flex flex-col items-center justify-center gap-6 text-center px-6">
-        <h2 className="text-4xl tracking-tighter md:text-7xl font-bold lg:max-w-7xl mx-auto leading-[1.1] text-black">
-          Tools And Technologies <br className="block md:hidden" /> We Use
+    <section
+     className="
+    w-full 
+    
+    overflow-visible
+ 
+    text-black
+  "
+    >
+      <div className="max-w-7xl mx-auto text-center px-4">
+        <h2 className="text-4xl md:text-7xl capitalize leading-[42px] tracking-tighter lg:leading-[1.1] font-bold mb-6">
+         {header}
         </h2>
-        <p className="w-full md:w-[70%] mx-auto text-black/60 text-base md:text-lg">
-          Our technology stack supports scalable mobile application development{" "}
-          <br className="hidden md:block" /> Miami projects through the proven
-          frameworks.
+        <p className=" mx-auto mb-16">
+         {para}
         </p>
 
-        {/* MOBILE CATEGORY SELECTOR */}
-        <div className="relative block md:hidden w-full max-w-[300px] mt-4">
-          <button
-            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            className="w-full border border-orange-100 rounded-full py-3 px-6 flex items-center justify-between text-[#F15C20] font-medium transition-all"
-          >
-            {activeData.label}
-            <div
-              className={`bg-orange-50 p-1 rounded-full transition-transform duration-300 ${isDropdownOpen ? "rotate-180" : ""}`}
-            >
-              <IoIosArrowDown className="text-orange-500" />
-            </div>
-          </button>
-
-          {isDropdownOpen && (
-            <div className="absolute top-full left-0 w-full mt-2 bg-white shadow-xl rounded-2xl p-2 z-50 border border-gray-50 flex flex-col items-start overflow-hidden">
-              {Object.entries(techData).map(([key, value]) => (
-                <button
-                  key={key}
-                  onClick={() => {
-                    setActiveTechStack(key);
-                    setIsDropdownOpen(false);
-                  }}
-                  className={`w-full text-left px-4 py-3 rounded-xl text-sm transition-colors ${
-                    activeTechStack === key
-                      ? "bg-orange-50 text-[#F15C20] font-bold"
-                      : "text-gray-600 hover:bg-gray-50"
-                  }`}
-                >
-                  {value.label}
-                </button>
-              ))}
-            </div>
-          )}
+        <div className="flex flex-wrap justify-center gap-6 min-h-[500px]">
+          <AnimatePresence mode="popLayout">
+            {tech?.map((t, idx) => (
+              <div
+                key={`${t.name}-${idx}`}
+                className="w-[280px]"
+              >
+                <TechCard tech={t} />
+              </div>
+            ))}
+          </AnimatePresence>
         </div>
-      </section>
-
-      {/* DESKTOP SELECTOR */}
-      <section className="hidden md:block mt-10 p-2 rounded-lg bg-[#F8F5F3] mx-auto w-fit">
-        <div className="w-full flex flex-col md:flex-row items-center justify-center mx-auto">
-          {Object.entries(techData).map(([key, value]) => (
-            <button
-              key={key}
-              type="button"
-              onClick={() => setActiveTechStack(key)}
-              className={`rounded-md transition-all ease-linear ${
-                activeTechStack === key
-                  ? "shadow-sm text-[#F15C20] p-1 bg-white"
-                  : ""
-              } px-3 text-lg font-medium text-[#212121]`}
-            >
-              {value.label}
-            </button>
-          ))}
-        </div>
-      </section>
-
-      {/* MOBILE CAROUSEL */}
-      <div className="block md:hidden mt-10 px-4 tech-swiper">
-        <Swiper
-          modules={[Autoplay]}
-          spaceBetween={16}
-          slidesPerView={1.7}
-          centeredSlides={true}
-          loop={true}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
-          className="pb-4"
-        >
-          {activeData.data.map((tech, index) => (
-            <SwiperSlide key={index}>
-              {({ isActive }) => (
-                <div
-                  className={`flex flex-col items-center justify-center gap-6 p-10 rounded-[40px] transition-all duration-500  ${
-                    isActive
-                      ? "bg-[#F15C20] text-white shadow-2xl shadow-orange-200"
-                      : "bg-gray-50 text-gray-800 opacity-60 scale-90"
-                  }`}
-                >
-                  <div
-                    className={`w-28 h-28 rounded-full flex items-center justify-center transition-colors duration-500 ${
-                      isActive ? "bg-white/20" : "bg-[#F15C20]"
-                    } p-4`}
-                  >
-                    <img
-                      src={tech?.icon}
-                      alt={tech?.title}
-                      className={`p-2 object-contain transition-all duration-500 ${isActive ? "" : "brightness-0 invert"}`}
-                    />
-                  </div>
-                  <p className="text-xl font-bold tracking-tight">
-                    {tech?.title}
-                  </p>
-                </div>
-              )}
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <style jsx global>{`
-          .tech-swiper .swiper-pagination-bullet {
-            background: #d1d5db;
-            opacity: 1;
-            width: 8px;
-            height: 8px;
-          }
-          .tech-swiper .swiper-pagination-bullet-active {
-            background: #f15c20 !important;
-            width: 20px;
-            border-radius: 10px;
-          }
-          .tech-swiper .swiper-pagination {
-            bottom: 0px !important;
-          }
-        `}</style>
-      </div>
-
-      {/* DESKTOP CONTENT */}
-      <div className="hidden md:block">
-        {activeTechStack === "programming-languages" ? (
-          <ProgrammingLanguages />
-        ) : activeTechStack === "cloud-platforms" ? (
-          <CloudPlatforms />
-        ) : activeTechStack === "development-tools" ? (
-          <DevelopmentTools />
-        ) : activeTechStack === "databases" ? (
-          <Databases />
-        ) : null}
       </div>
     </section>
   );
 };
 
-export default TechAndTools;
+const TechCard = ({ tech }) => {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.9 }}
+      transition={{ duration: 0.3 }}
+      className="relative h-[280px] w-full perspective-1000 cursor-pointer"
+      onMouseEnter={() => setIsFlipped(true)}
+      onMouseLeave={() => setIsFlipped(false)}
+      onClick={() => setIsFlipped(!isFlipped)}
+    >
+      <motion.div
+        className="w-full h-full relative preserve-3d transition-all duration-75"
+        animate={{ rotateY: isFlipped ? 180 : 0 }}
+      >
+        {/* Front */}
+        <div className="absolute inset-0 backface-hidden bg-[#F9F9F9] rounded-lg p-8 flex flex-col items-center justify-center border border-gray-100 shadow-sm">
+          <div className="w-24 h-24 bg-[#F15C20] rounded-full flex items-center justify-center text-6xl text-white mb-6 shadow-lg">
+            {tech.icon}
+          </div>
+          <h3 className="text-lg font-medium text-[#212121] uppercase tracking-tight">
+            {tech.name}
+          </h3>
+        </div>
+
+        {/* Back */}
+        <div className="absolute inset-0 backface-hidden bg-[#F15C20] rounded-xl p-8 flex items-center justify-center text-center rotate-y-180 shadow-2xl">
+          <p className="text-white leading-relaxed">{tech.description}</p>
+        </div>
+      </motion.div>
+    </motion.div>
+  );
+};
+
+export default TechTools;

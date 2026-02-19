@@ -10,9 +10,9 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-const Services = ({ services, header, header2, para }) => {
+const Services = ({ services, header, header2, para , button }) => {
   return (
-    <div className="w-full grid grid-cols-1 justify-start items-start py-16 md:py-32">
+    <div className="w-full grid grid-cols-1 justify-start items-start ">
       <div className="flex relative z-20 w-[90%] md:w-[80%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] md:leading-[1.1] tracking-tighter md:text-7xl font-bold">
           {header} <span className="text-[#F15C20]">{header2}</span>{" "}
@@ -111,6 +111,14 @@ const Services = ({ services, header, header2, para }) => {
           }
         `}</style>
       </div>
+           <Link href={"/contact-us"} className="flex mt-10 items-center group justify-center ">
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+         {button ? button : " Talk to our California-based team"}
+          </button>
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+            <MdArrowOutward />
+          </button>
+        </Link>
     </div>
   );
 };

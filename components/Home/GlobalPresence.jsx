@@ -9,7 +9,7 @@ const GlobalPresence = () => {
       id: 1,
       country: 'FLORIDA, US',
       countryCode: 'US',
-      address: '3505 Lake Lynda Drive Orlando University, #200, Orlando, FL 32817',
+      address: '3505 Lake Lynda Dr #200, Orlando, FL 32817, United States',
       mapUrl: 'https://www.google.com/maps/dir//3505+Lake+Lynda+Drive+Orlando+University,+%23200,+Orlando,+FL+32817/@37.0625,-95.677068,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88e768ece5bcf7fd:0x9acdae73c77a1cfe!2m2!1d-81.2218777!2d28.600887?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D',
       mapImage: 'https://images.unsplash.com/photo-1589216532372-1c2c3b7e8f87?w=800&q=80',
       markers: [

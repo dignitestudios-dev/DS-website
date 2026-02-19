@@ -16,7 +16,7 @@ const GlobalPresence = lazy(() => import("./GlobalPresence"));
 const Faq = lazy(() => import("@/components/Home/Faq"));
 const ContactUs = lazy(() => import("./ContactUs"));
 
-const LoadingFallback = () => <div className="w-full h-32" />;
+const LoadingFallback = () => <div className="w-full min-h-[400px]" />;
 
 export default function HomePage() {
   const { palette, theme } = useContext(GlobalContext);
@@ -25,7 +25,7 @@ export default function HomePage() {
   }, [theme]);
   
   return (
-    <div className="w-full max-w-screen-2xl mx-auto h-auto flex flex-col items-center justify-center gap-20 md:gap-28 pb-32">
+    <div className="w-full max-w-screen-2xl mx-auto h-auto flex flex-col items-center justify-center gap-20 md:gap-28 pb-32" style={{ overflowAnchor: 'none' }}>
       <Hero />
       <MobileAppServices />
       <Suspense fallback={<LoadingFallback />}>
