@@ -260,7 +260,7 @@ const PROCESS_STEPS = [
 
 const FlutterDev = () => {
   return (
-    <div className="max-w-screen-2xl w-full gap-20 h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
+    <div className="max-w-screen-2xl w-full gap-20 lg:gap-36 h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
         heading="About Dignite "
@@ -324,14 +324,14 @@ const FlutterDev = () => {
           <TechTools tech={tech}  header={"Tools and technologies used by Our Flutter Mobile App Development Company "} para={"Dignite Studios works as the secure and performance focused on the flutter mobile app development company building the clean, scalable architectures for the modern mobile products. Our engineers combine the flutter through the reliable backend systems to deliver the apps which stay fast, compliant and ready for growth. We design the integrations which support the business expansion meanwhile maintaining the stability, security and the platform standards across the ecosystems. "} />
    
             <CTA />
-      <Process
+      {/* <Process
         steps={PROCESS_STEPS}
         header={"Proven Flutter App"}
         header2={"Development Process"}
         para={
           "Every app has a story. At our flutter app development company, we follow a structured approach that brings your idea to life with clarity and technical excellence."
         }
-      />
+      /> */}
         <Industries
  VALUE_PROPOSITION={VALUE_PROPOSITION}
  header={"Industry Focused"}
@@ -357,7 +357,7 @@ const FlutterDev = () => {
       />
 
 
-      <SEO />
+      {/* <SEO /> */}
       <Testimonials
         test={test}
         header={"What Clients Say About"}

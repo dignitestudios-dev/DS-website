@@ -39,7 +39,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
   const testimonials = customTest || testData;
 
   return (
-    <div className="w-full grid grid-cols-1 justify-start items-start  py-20 relative z-20">
+    <div className="w-full grid grid-cols-1 justify-start items-start   relative z-20">
       <div className="flex relative z-20 w-[90%] md:w-[55%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-10 tracking-tighter md:text-7xl font-bold ">
           {header}
@@ -48,7 +48,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
         <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">{para}</p>
       </div>
 
-      <div className="w-full py-12 px-4 md:px-0">
+      <div className="w-full pt-12 px-4 md:px-0">
         <Swiper
           modules={[Autoplay, Pagination]}
           centeredSlides={true}

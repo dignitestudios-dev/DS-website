@@ -17,33 +17,33 @@ const img = [
 ];
 const Hero = () => {
   return (
-    <div className="w-full overflow-hidden max-w-screen-2xl mx-auto  flex flex-col pt-12  gap-4 justify-start items-center">
+    <div className="w-full overflow-hidden  max-w-screen-2xl mx-auto flex flex-col pt-12 pb-20 gap-4 justify-start items-center ">
       <img
         src="/home-hero/grad.png"
         alt="grad"
-        className="absolute  z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover lg:h-auto h-[800px] w-full"
+        className="absolute z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover w-full h-[900px] md:max-h-[170vh] object-cover"
       />
       <img
         src="/home-hero/l1.png "
         alt="l1"
-        className="absolute lg:block hidden z-20 -left-16 top-[25%]"
+        className="absolute lg:block hidden z-20 -left-16 top-28"
       />
       <motion.img
         src="/home-hero/l2.png "
         alt="l1"
-        className="absolute lg:block hidden z-20 -left-20 top-[23%]"
+        className="absolute lg:block hidden z-20 -left-20 top-28"
         animate={{ y: [0, -15, 0] }}
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
       />
       <img
         src="/home-hero/r1.png "
         alt="l1"
-        className="absolute lg:block hidden z-20 -right-[10%] top-[25%]"
+        className="absolute lg:block hidden z-20 -right-[10%] top-40"
       />
       <motion.img
         src="/home-hero/r2.png "
         alt="l1"
-        className="absolute lg:block hidden z-20 -right-5 top-[45%]"
+        className="absolute lg:block hidden z-20 -right-5 top-64"
         animate={{ y: [0, 15, 0] }}
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
       />

@@ -3,7 +3,7 @@ import React from 'react'
 
 const SuccessStories = ({header , para , header2}) => {
   return (
-     <div className="w-full grid grid-cols-1  justify-start items-start md:py-10 ">
+     <div className="w-full grid grid-cols-1  justify-start items-start  ">
           <div className="flex relative z-20 -mb-28  w-[90%] md:w-[70%] flex-col text-center mx-auto items-center">
             <h1 className="text-4xl leading-10 tracking-tighter md:text-7xl font-bold ">
              {header || "Success Stories with "}

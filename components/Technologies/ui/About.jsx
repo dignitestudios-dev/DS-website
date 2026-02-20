@@ -4,7 +4,7 @@ import { MdArrowOutward } from 'react-icons/md'
 
 const About = ({heading,heading2 , para , button}) => {
   return (
-     <div className="w-full grid grid-cols-1  justify-start items-start pb-10">
+     <div className="w-full grid grid-cols-1  justify-start items-start pb-12">
       <div className="flex relative z-20  w-[90%] md:w-[75%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] md:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
           {heading}{" "}

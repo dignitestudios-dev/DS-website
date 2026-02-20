@@ -86,7 +86,7 @@ export default function FlickCardStack() {
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "-40%"]);
 
   return (
-    <div className="relative flex h-[420px] md:h-[820px] 2xl:h-[1000px] w-full items-center justify-center overflow-hidden group">
+    <div className="relative flex h-[420px] md:h-[790px] -mb-20 2xl:h-[1000px] w-full items-center justify-center overflow-hidden group">
       {/* Navigation Buttons */}
       <button
         onClick={handlePrev}
