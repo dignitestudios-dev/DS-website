@@ -32,17 +32,17 @@ const Navbar = ({ setIsOpen }) => {
   // CLEAN ANIMATION: No "Exit" animation to prevent clashing
   const dropdownVariants = {
     hidden: { opacity: 0, y: 10, display: "none" },
-    visible: { 
-      opacity: 1, 
-      y: 0, 
+    visible: {
+      opacity: 1,
+      y: 0,
       display: "flex",
-      transition: { duration: 0.2, ease: "easeOut" } 
+      transition: { duration: 0.2, ease: "easeOut" },
     },
   };
 
   const menuItems = [
     { name: "Services", key: "services" },
-    // { name: "Technology", key: "technology" },
+    { name: "Technology", key: "technology" },
     // { name: "Industries", key: "industries" },
     { name: "Locations", key: "locations" },
     // { name: "Ecommerce", key: "ecommerce" },
@@ -54,25 +54,55 @@ const Navbar = ({ setIsOpen }) => {
       {
         image: "/service-r.png",
         items: [
-          ["Mobile App Development Services", "/services/mobile-app-development-services"],
-          ["Android App Development Services", "/services/android-app-development-services"],
-          ["iOS App Development Services", "/services/ios-app-development-services"],
-          ["Native App Development Services", "/services/native-app-development-services"],
-          ["Web App Development Services", "/services/web-application-development-services"],
+          [
+            "Mobile App Development Services",
+            "/services/mobile-app-development-services",
+          ],
+          [
+            "Android App Development Services",
+            "/services/android-app-development-services",
+          ],
+          [
+            "iOS App Development Services",
+            "/services/ios-app-development-services",
+          ],
+          [
+            "Native App Development Services",
+            "/services/native-app-development-services",
+          ],
+          [
+            "Web App Development Services",
+            "/services/web-application-development-services",
+          ],
           ["PWA Development Services", "/services/pwa-development-services"],
         ],
       },
       {
         items: [
-          ["Mobile App Support & Maintenance Services", "/services/mobile-application-support-and-maintenance-services"],
-          ["Mobile App Consulting Services", "/services/mobile-app-consulting-services"],
-          ["Mobile App Testing Services", "/services/mobile-app-testing-services"],
+          [
+            "Mobile App Support & Maintenance Services",
+            "/services/mobile-application-support-and-maintenance-services",
+          ],
+          [
+            "Mobile App Consulting Services",
+            "/services/mobile-app-consulting-services",
+          ],
+          [
+            "Mobile App Testing Services",
+            "/services/mobile-app-testing-services",
+          ],
         ],
       },
       {
         items: [
-          ["Mobile App Design Services", "/services/mobile-app-design-services"],
-          ["Android App Design Services", "/services/android-mobile-app-design-services"],
+          [
+            "Mobile App Design Services",
+            "/services/mobile-app-design-services",
+          ],
+          [
+            "Android App Design Services",
+            "/services/android-mobile-app-design-services",
+          ],
           ["iOS App Design Services", "/services/ios-app-design-services"],
         ],
       },
@@ -81,16 +111,15 @@ const Navbar = ({ setIsOpen }) => {
       {
         image: "/tech-r.png",
         items: [
-          ["React Native", "#"],
-          ["Flutter", "#"],
-          ["Swift", "#"],
-        ],
-      },
-      {
-        image: "/tech-r.png",
-        items: [
-          ["Kotlin", "#"],
-          ["Node.js", "#"],
+          [
+            "React Native App Development",
+            "/technologies/react-native-app-development",
+          ],
+          ["Flutter App Development", "/technologies/flutter-app-development"],
+          [
+            "Cross Platform App Development",
+            "/technologies/cross-platform-app-development",
+          ],
         ],
       },
     ],
@@ -129,20 +158,13 @@ const Navbar = ({ setIsOpen }) => {
       },
       {
         items: [
-          
           ["Boston", "/locations/mobile-app-development-boston"],
           ["Washington", "/locations/mobile-app-development-washington"],
-          ["Charlotte", "/locations/mobile-app-development-charlotte"]
-        
+          ["Charlotte", "/locations/mobile-app-development-charlotte"],
         ],
       },
       {
-        items: [
-          
-          ["Texas", "/locations/mobile-app-development-texas"],
-       
-        
-        ],
+        items: [["Texas", "/locations/mobile-app-development-texas"]],
       },
     ],
     ecommerce: [
@@ -168,7 +190,6 @@ const Navbar = ({ setIsOpen }) => {
 
   return (
     <div className="relative z-50">
-
       {/* Main Navigation */}
       <nav className="px-4 md:px-12 bg-transparent lg:px-28 xl:px-[120px] 2xl:px-48 h-20 flex items-center justify-between w-screen relative z-[60]">
         <Link aria-label="logo" href="/" className="h-auto">
@@ -185,7 +206,10 @@ const Navbar = ({ setIsOpen }) => {
           className="w-auto mx-auto hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8"
           style={{ color: pathname === "/" ? "#ffffff" : palette?.color }}
         >
-          <Link href="/" className="text-[14px] font-medium hover:text-[#F15C20] transition-colors">
+          <Link
+            href="/"
+            className="text-[14px] font-medium hover:text-[#F15C20] transition-colors"
+          >
             Home
           </Link>
 
@@ -202,14 +226,17 @@ const Navbar = ({ setIsOpen }) => {
                 }`}
               >
                 <span>{item.name}</span>
-                <IoIosArrowDown 
-                  className={`transition-transform duration-300 ${activeDropdown === item.key ? "rotate-180" : ""}`} 
+                <IoIosArrowDown
+                  className={`transition-transform duration-300 ${activeDropdown === item.key ? "rotate-180" : ""}`}
                 />
               </button>
             </div>
           ))}
 
-          <Link href="/case-studies" className="text-[14px] font-medium hover:text-[#F15C20] transition-colors">
+          <Link
+            href="/case-studies"
+            className="text-[14px] font-medium hover:text-[#F15C20] transition-colors"
+          >
             Case Studies
           </Link>
         </div>

@@ -27,13 +27,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img src="/location/mobile-texas/grad.png" className="absolute left-[50%] translate-x-[-50%] -top-[10%] -z-0"  />
+        <img src="/location/mobile-texas/grad.png" className="absolute left-[50%] translate-x-[-50%] -top-[0%] -z-0"  />
         <motion.img
           src="/location/mobile-texas/mob.png"
           alt="bg"
-          width={400}
-          height={400}
-          className="object-cover relative -bottom-10"
+          width={500}
+          height={500}
+          className="object-cover relative -bottom-0"
           initial={{ y: 80, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}

@@ -58,7 +58,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
           loop={true}
           loopedSlides={testimonials.length * 3}
           loopAdditionalSlides={testimonials.length}
-          pagination={{ clickable: true }}
+          pagination={{ clickable: true, dynamicBullets: true }}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,

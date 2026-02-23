@@ -39,10 +39,15 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
   };
 
   const [state, setState] = useState(false);
+  const [technologiesState, setTechnologiesState] = useState(false);
   const [locationsState, setLocationsState] = useState(false);
 
   const handleState = () => {
     setState(!state);
+  };
+
+  const handleTechnologiesState = () => {
+    setTechnologiesState(!technologiesState);
   };
 
   const handleLocationsState = () => {
@@ -197,6 +202,47 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   className={`hover:text-orange-600 text-start`}
                 >
                   Hybrid App Development Services
+                </Link>
+              </div>
+            )}
+          </button>
+
+          <button
+            className={`w-full group text-[14px] hover:text-orange-600 relative gap-4 h-auto font-medium flex flex-col bg-transparent outline-none`}
+          >
+            <div
+              className="w-full flex justify-between items-center"
+              onClick={handleTechnologiesState}
+            >
+              <span>Technologies</span>
+              <IoIosArrowDown
+                className={`text-md ${
+                  technologiesState ? "rotate-180" : "rotate-0"
+                } transition-all duration-500`}
+              />
+            </div>
+            {technologiesState && (
+              <div
+                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition-all duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
+                style={{ color: palette?.color }}
+              >
+                <Link
+                  href="/technologies/react-native-app-development"
+                  className={`hover:text-orange-600 `}
+                >
+                  React Native App Development
+                </Link>
+                <Link
+                  href="/technologies/flutter-app-development"
+                  className={`hover:text-orange-600 `}
+                >
+                  Flutter App Development
+                </Link>
+                <Link
+                  href="/technologies/cross-platform-app-development"
+                  className={`hover:text-orange-600 `}
+                >
+                  Cross Platform App Development
                 </Link>
               </div>
             )}

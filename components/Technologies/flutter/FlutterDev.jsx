@@ -271,8 +271,8 @@ const FlutterDev = () => {
       <Services
         services={services}
         button={"Request a Free Consultation.  "}
-        header={"Flutter App Development Services"}
-        header2={"For Modern Businesses"}
+        header={"Flutter App Development Services For"}
+        header2={" Modern Businesses"}
         para={
           "Our team delivers modern mobile products built with Flutter for speed, performance and scalability. Dignite Studios designs top flutter app development services for startups and enterprises that want long term value and reliable cross platform experiences."
         }
@@ -280,8 +280,8 @@ const FlutterDev = () => {
       <Bussiness
       button={"Get started"}
         bs={highlights}
-        header={"Reasons to Trust Our Top Flutter App Development"}
-        header2={"Services"}
+        header={"Reasons to Trust Our Top Flutter App "}
+        header2={"Development Services"}
         ctaHeader={"Get Started"}
         ctaPara={
           "Working with the right team shapes how your product performs and grows. Dignite Studios delivers solutions for brands that need reliability, long term growth and clarity around flutter app development cost from day one."

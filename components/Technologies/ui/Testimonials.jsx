@@ -37,7 +37,7 @@ const testData = [
   },
 ];
 
-const Testimonials = ({ header, header2, para, test: customTest , button }) => {
+const Testimonials = ({ header, header2, para, test: customTest, button }) => {
   const testimonials = customTest || testData;
 
   return (
@@ -60,7 +60,7 @@ const Testimonials = ({ header, header2, para, test: customTest , button }) => {
           loop={true}
           loopedSlides={testimonials.length * 3}
           loopAdditionalSlides={testimonials.length}
-          pagination={{ clickable: true }}
+          pagination={{ clickable: true, dynamicBullets: true }}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
@@ -129,7 +129,7 @@ const Testimonials = ({ header, header2, para, test: customTest , button }) => {
                         />
                         <h3 className="text-base font-bold">{item.name}</h3>
                         <p className="text-xs text-gray-600">
-                          {item.desgination}
+                          {item.designation}
                         </p>
                       </div>
 
@@ -143,21 +143,21 @@ const Testimonials = ({ header, header2, para, test: customTest , button }) => {
             ),
           )}
         </Swiper>
-            {button && (
-        <div className="flex justify-center mt-8 items-center">
-          <Link
-            href={"/contact-us"}
-            className="flex items-center group justify-center w-fit"
-          >
-            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-              {button ? button : " Talk to our California-based team"}
-            </button>
-            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-              <MdArrowOutward />
-            </button>
-          </Link>
-        </div>
-      )}
+        {button && (
+          <div className="flex justify-center mt-8 items-center">
+            <Link
+              href={"/contact-us"}
+              className="flex items-center group justify-center w-fit"
+            >
+              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                {button ? button : " Talk to our California-based team"}
+              </button>
+              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                <MdArrowOutward />
+              </button>
+            </Link>
+          </div>
+        )}
       </div>
 
       <style jsx global>{`

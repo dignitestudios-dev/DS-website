@@ -274,8 +274,8 @@ const CrossPlatform = () => {
       <Bussiness
         button={"Partner With Dignite Studios"}
         bs={highlights}
-        header={"Why Businesses trust Our Cross"}
-        header2={"Platform App Development Services"}
+        header={"Why Businesses trust Our Cross Platform App"}
+        header2={" Development Services"}
         ctaHeader={"Partner With Dignite Studios"}
         ctaPara={"Dignite Studios delivers the best cross platform app development services that focus on performance, business value and user experience."}
         ctaBtn={"Partner With Dignite Studios"}
@@ -313,26 +313,26 @@ const CrossPlatform = () => {
       />
       <TechTools 
         tech={tech}  
-        header={"Technology Stack for Cross"} 
+        header={"Technology Stack for Cross Platform Development"} 
         para={"As modern cross platform mobile app development company, Dignite Studios uses proven frameworks to build fast, scalable and secure applications, supporting startups and enterprises with reliable long term delivery."} 
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Reliable Cross Platform App"}
+        header={"Reliable Cross Platform App Development Services Process"}
         header2={"Development Services Process"}
         para={"Our process is designed for speed, quality and transparency helping businesses work efficiently through cross platform mobile app development companies with agile planning and structured execution."}
       />
       <Industries
      button={" Discuss Your Idea  "}
         VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Industries We Serve with"}
-        header2={"Cross Platform Solutions"}
+        header={"Industries We Serve with Cross"}
+        header2={" Platform Solutions"}
         para={"As trusted cross platform mobile app development company, we support businesses across multiple sectors with adapted app experiences."}
       />
       <MobileApp
       button={"Build a Scalable Cross Platform App "}
-        header={"Benefits Of Having a Cross"}
-        header2={"Platform Mobile App"}
+        header={"Benefits Of Having a Cross Platform"}
+        header2={" Mobile App"}
         para={"Using cross platform development services from mobile apps helps businesses grow faster and reduce development cost. With the right approach, companies reach users on multiple platforms efficiently."}
         cards={BENEFITS}
       />
@@ -345,8 +345,8 @@ const CrossPlatform = () => {
       <Testimonials
         test={test}
         button={"Work With Our Expert Team "}
-        header={"Trusted Cross Platform App"}
-        header2={"Development Company Reviews"}
+        header={"Trusted Cross Platform App Development"}
+        header2={" Company Reviews"}
         para={"Clients trust Dignite Studios for delivering quality, transparency and high performance results."}
       />
       <Faq faqs={faqs} />
