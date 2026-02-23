@@ -99,12 +99,9 @@ const Bussiness = ({
         <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start md:py-40 ">
           <div className="flex relative z-20  w-[90%] md:max-w-7xl flex-col text-center mx-auto items-center">
             <h1 className="text-5xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
-             {header}{" "}
-              <span className="text-[#F15C20]">{header2}</span>{" "}
+              {header} <span className="text-[#F15C20]">{header2}</span>{" "}
             </h1>
-            <p className="text-lg my-6 text-white ">
-              {para}
-            </p>
+            <p className="text-lg my-6 text-white ">{para}</p>
           </div>
 
           <div className="relative  p-8">
@@ -210,25 +207,27 @@ const Bussiness = ({
               ))}
             </div>
           </div>
-                 <Link href={"/contact-us"} className="flex items-center group justify-center ">
-          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-         {button ? button : " Talk to our California-based team"}
-          </button>
-          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-            <MdArrowOutward />
-          </button>
-        </Link>
+          <div className="flex justify-center items-center">
+            <Link
+              href={"/contact-us"}
+              className="flex items-center group justify-center w-fit"
+            >
+              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                {button ? button : " Talk to our California-based team"}
+              </button>
+              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                <MdArrowOutward />
+              </button>
+            </Link>
+          </div>
         </div>
         <section className="w-full bg-transparent py-20 px-4 md:hidden relative z-50">
           {/* Header */}
           <div className="text-center max-w-xl mx-auto mb-14">
             <h2 className="text-3xl font-bold tracking-tight text-white">
-              {header}{" "}
-              <span className="text-[#F15C20]">{header2}</span>
+              {header} <span className="text-[#F15C20]">{header2}</span>
             </h2>
-            <p className="text-base mt-5 text-gray-300">
-              {para}
-            </p>
+            <p className="text-base mt-5 text-gray-300">{para}</p>
           </div>
 
           {/* Carousel */}
@@ -282,10 +281,8 @@ const Bussiness = ({
               ))}
             </Swiper>
           </div>
-
         </section>
       </div>
-     
     </>
   );
 };

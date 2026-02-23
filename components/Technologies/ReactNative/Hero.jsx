@@ -10,18 +10,17 @@ const Hero = () => {
     <div className="w-full grid grid-cols-1  justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[70%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] capitalize lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          Flutter App Development Company for Business Driven  {" "}
-          <span className="text-[#F15C20] text-nowrap">Mobile Products </span>{" "}
+     The reliable react native app development company for the growing  {" "}
+          <span className="text-[#F15C20] text-nowrap">businesses </span>{" "}
          
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          Dignite Studios is the reputable Flutter app development company which helps businesses and startups in the USA and California create mobile applications which are rapid, reliable and ready for expansion. 
-We focus on the performance, usability and the long term scalability. Our Flutter experts design the products which load faster, scale smoothly and deliver consistent user express across various platforms. 
+      As a modern react native app development company, Dignite Studios designs the high performance applications which scale with the product vision. We blend the smart engineering through the clean design to help the brands launch faster and grow quite confidently in the competitive markets. 
         </p>
 
         <div className="flex items-center group justify-center ">
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-           Get the Free Flutter App Consultation
+           Get Free React Native Consultation
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
@@ -32,7 +31,7 @@ We focus on the performance, usability and the long term scalability. Our Flutte
        <img src={"/technologies/flutter/circles.png"} className="w-full relative mt-20 z-20" alt="circles"  />
       <div className="absolute top-0 left-0 w-full flex justify-center z-20">
   <motion.img
-    src="/technologies/flutter/mob.png"
+    src="/technologies/react-native/mob.png"
     width={250}
     height={250}
     className="object-contain"
