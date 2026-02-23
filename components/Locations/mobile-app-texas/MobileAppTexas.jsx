@@ -340,8 +340,8 @@ const MobileAppTexas = () => {
         }
       />
       <MobileApp
-        header={"Here's Why You Need"}
-        header2={"a Mobile App"}
+        header={"Benefits of Having Your"}
+        header2={"Mobile App"}
         para={
           "Here are the reasons why you should get an app built from a trusted mobile app development company."
         }
