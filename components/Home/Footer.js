@@ -77,14 +77,20 @@ const Footer = () => {
         href: "/services/hire-ios-app-developers",
       },
     ],
-    // technology: [
-    //   { name: "iOS", href: "#" },
-    //   { name: "Android", href: "#" },
-    //   { name: "Flutter", href: "#" },
-    //   { name: "React Native", href: "#" },
-    //   { name: "Cross Platform", href: "#" },
-    //   { name: "Cloud Application", href: "#" },
-    // ],
+    technology: [
+      {
+        name: "React Native App Development",
+        href: "/technologies/react-native-app-development",
+      },
+      {
+        name: "Flutter App Development",
+        href: "/technologies/flutter-app-development",
+      },
+      {
+        name: "Cross Platform App Development",
+        href: "/technologies/cross-platform-app-development",
+      },
+    ],
     quickLinks: [
       { name: "About us", href: "/about-us" },
       { name: "Portfolio", href: "/portfolio" },
@@ -125,17 +131,32 @@ const Footer = () => {
       { name: "Seattle", href: "/locations/mobile-app-development-seattle" },
       { name: "Boston", href: "/locations/mobile-app-development-boston" },
       { name: "Miami", href: "/locations/mobile-app-development-miami" },
-      { name: "Charlotte", href: "/locations/mobile-app-development-charlotte" },
+      {
+        name: "Charlotte",
+        href: "/locations/mobile-app-development-charlotte",
+      },
       { name: "New York", href: "/locations/mobile-app-development-new-york" },
       { name: "Tampa", href: "/locations/mobile-app-development-tampa" },
-            { name: "California", href: "/locations/mobile-app-development-california" },
-      { name: "Washington", href: "/locations/mobile-app-development-washington" },
+      {
+        name: "California",
+        href: "/locations/mobile-app-development-california",
+      },
+      {
+        name: "Washington",
+        href: "/locations/mobile-app-development-washington",
+      },
       { name: "Texas", href: "/locations/mobile-app-development-texas" },
     ],
     connect: [
       { name: "Facebook", href: "https://www.facebook.com/dignitestudios/" },
-      { name: "Instagram", href: "https://www.instagram.com/dignitestudios/?hl=en" },
-      { name: "LinkedIn", href: "https://www.linkedin.com/in/dignite-studios-a05980253" },
+      {
+        name: "Instagram",
+        href: "https://www.instagram.com/dignitestudios/?hl=en",
+      },
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/dignite-studios-a05980253",
+      },
     ],
   };
 
@@ -216,7 +237,7 @@ const Footer = () => {
           </div>
 
           {/* Technology */}
-          {/* <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center">
             <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
               Technology
             </h4>
@@ -232,7 +253,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div> */}
+          </div>
 
           {/* Quick Links */}
           <div className="flex flex-col items-center text-center">
@@ -399,7 +420,10 @@ const Footer = () => {
               Don't compromise on your app's success.{" "}
               <span className="text-[#F15C20]">Gain a competitive edge.</span>
             </p>
-            <Link href={"/contact-us"} className="flex items-center group w-fit  py-4">
+            <Link
+              href={"/contact-us"}
+              className="flex items-center group w-fit  py-4"
+            >
               <button
                 type="button"
                 className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-xs px-5 py-2 rounded-full transition-colors"
@@ -447,8 +471,25 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          {/* Quick Links & Support */}
+          {/* Technology, Quick Links & Support */}
           <div className="col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col gap-8">
+            <div className="flex flex-col">
+              <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+                Technology
+              </h4>
+              <ul className="flex flex-col">
+                {footerLinks.technology.map((link, idx) => (
+                  <li key={idx}>
+                    <Link
+                      href={link.href}
+                      className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="flex flex-col">
               <h4 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
                 Quick Links
