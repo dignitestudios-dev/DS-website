@@ -20,7 +20,7 @@ const Faq = ({ faqs }) => {
       className="w-full lg:w-[100%] xl:w-[80%] mx-auto  px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 flex justify-center items-start h-auto"
     >
       <div className="w-full flex flex-col gap-3 justify-start items-center">
-        <h2 className="text-4xl leading-10 lg:leading-[1.1] text-center capitalize tracking-tighter md:text-7xl font-bold">
+        <h2 className="text-4xl mb-8 leading-10 lg:leading-[1.1] text-center capitalize tracking-tighter md:text-7xl font-bold">
           Frequently asked <span className="text-[#F15C20]">questions</span>
         </h2>
 

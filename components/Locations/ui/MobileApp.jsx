@@ -40,10 +40,10 @@ const MobileApp = ({ cards, header, header2, para }) => {
     <div className="w-full py-24 md:py-40 overflow-hidden">
       {/* Heading */}
       <div className="w-[90%] md:w-[80%] mx-auto text-center">
-        <h1 className="text-4xl md:text-7xl font-bold tracking-tighter">
+        <h2 className="text-4xl md:text-7xl font-bold tracking-tighter">
           {header}
           <span className="text-[#F15C20]"> {header2}</span>
-        </h1>
+        </h2>
         <p className="text-lg my-6 text-[#0C0C0C]">{para}</p>
       </div>
 

@@ -84,8 +84,8 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
       <div className="flex justify-center w-[80%] mx-auto lg:justify-between items-center">
         <img src={"/location/contact-crnr.png"} alt="Contact Us" className="absolute lg:block hidden right-0  bottom-0 object-contain" />
         <div className="lg:w-[50%] pb-20">
-          <h1 className="text-4xl text-white font-bold">{header}</h1>
-          <h1 className="text-4xl font-bold text-[#F15C20] mb-4">{header2}</h1>
+          <h2 className="text-4xl text-white font-bold">{header}</h2>
+          <h2 className="text-4xl font-bold text-[#F15C20] mb-4">{header2}</h2>
           <p className="text-white">{para}</p>
 
           <form onSubmit={handleSubmit} className="space-y-6 max-w-lg mt-12">
