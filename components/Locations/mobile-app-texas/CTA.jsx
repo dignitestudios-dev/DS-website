@@ -9,7 +9,7 @@ const CTA = () => {
     <div className="w-[95%] lg:w-[80%] text-white bg-[url('/location/mobile-texas/s-cta.png')] bg-cover bg-center hover:scale-105 transition-all ease-linear relative md:px-14 px-10 my-24 md:my-0 py-24 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <div className="flex justify-center gap-20 items-center">
      
-        <div className="w-full lg:w-[50%] text-center flex justify-center flex-col items-center mx-auto">
+        <div className="w-full lg:w-[60%] text-center flex justify-center flex-col items-center mx-auto">
           <h1 className="text-5xl capitalize font-bold mb-4">
             What’s Stopping Your Project From Becoming Our Next Success Story?
           </h1>
