@@ -11,17 +11,17 @@ const CTA = () => {
      
         <div className="w-full lg:w-[50%] text-center flex justify-center flex-col items-center mx-auto">
           <h1 className="text-5xl capitalize font-bold mb-4">
-            Be a Part of Our Successful Projects
+            What’s Stopping Your Project From Becoming Our Next Success Story?
           </h1>
           <p>
-            Have a discussion with our experts and find out more about our custom app development services in Tampa. We would love to create apps for you. 
+           A successful app starts with the right team and the right questions. Share your challenges with us and build something as amazing as you envisioned.  
           </p>
           <Link href="/contact-us" className="flex w-fit items-center group justify-start  pt-4">
             <button
               type="submit"
               className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-               Discuss Your Idea With Us
+          Share Your Idea Today!
             </button>
             <button
               type="submit"
