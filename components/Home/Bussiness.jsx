@@ -108,9 +108,9 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
                     className=" "
                   />
                   <div className="absolute top-0 px-12 py-10">
-                    <h2 className="text-lg font-bold text-white ">
+                    <h3 className="text-lg font-bold text-white ">
                       {item.title}
-                    </h2>
+                    </h3>
                     <p className="text-white text-sm line-clamp-3">
                       {item.desc}
                     </p>
@@ -187,9 +187,9 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
                     className=" "
                   />
                   <div className="absolute top-0 px-12 py-10">
-                    <h2 className="text-lg font-bold text-white ">
+                    <h3 className="text-lg font-bold text-white ">
                       {item.title}
-                    </h2>
+                    </h3>
                     <p className="text-white text-sm line-clamp-3">
                       {item.desc}
                     </p>
@@ -253,9 +253,9 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
                       className="w-[350px] h-full object-contain"
                     />
                     <div className="absolute top-0 left-0 w-full h-full px-12 py-8 flex flex-col justify-start text-start">
-                      <h2 className="text-base font-bold text-white mb-3">
+                      <h3 className="text-base font-bold text-white mb-3">
                         {item.title}
-                      </h2>
+                      </h3>
                       <p className="text-white text-xs leading-relaxed line-clamp-4">
                         {item.desc}
                       </p>
