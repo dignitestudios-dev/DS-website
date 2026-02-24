@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import React from "react";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 
@@ -30,12 +32,16 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-[80%] mx-auto z-10 flex justify-center mt-20 md:-mt-10 relative">
-        <img src="/location/mobile-california/bg-grad.png" fill alt="bg" />
-        <motion.img
-          src="/location/mobile-california/mob.png"
-          alt="bg"
-          width={800}
-          height={800}
+        <Image
+          loader={customLoader}
+          src="/location/mobile-california/bg-grad.png"
+          alt=""
+          width={1200}
+          height={1200}
+          priority
+          className="object-contain"
+        />
+        <motion.div
           className="absolute bottom-0 left-[0%] md:left-[20%] translate-x-[-50%]"
           initial={{ y: 80, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -44,7 +50,16 @@ const Hero = () => {
             duration: 0.8,
             ease: "easeOut",
           }}
-        />
+        >
+          <Image
+            loader={customLoader}
+            src="/location/mobile-california/mob.png"
+            alt="Mobile app development showcase California"
+            width={800}
+            height={800}
+            priority
+          />
+        </motion.div>
       </div>
       <div>
         <Platforms />

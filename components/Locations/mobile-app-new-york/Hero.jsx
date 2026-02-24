@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import React from "react";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 
@@ -31,17 +33,16 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img
+        <Image
+          loader={customLoader}
           src="/location/grad.webp"
           alt=""
-          className="absolute lg:block hidden left-[50%] translate-x-[-50%] -top-[80%] 2xl:-top-[110%] -z-0"
+          fill
+          priority
+          className="absolute lg:block hidden left-[50%] translate-x-[-50%] -top-[80%] 2xl:-top-[110%] -z-0 object-contain"
         />
-        <motion.img
-          src="/location/mobile-newyork/mob.png"
-          alt="Mobile app development showcase New York"
-          width={400}
-          height={400}
-          className="object-cover lg:w-[30%] w-[80%] mx-auto relative"
+        <motion.div
+          className="lg:w-[30%] w-[80%] mx-auto relative"
           initial={{ y: 80, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}
@@ -49,15 +50,31 @@ const Hero = () => {
             duration: 0.8,
             ease: "easeOut",
           }}
-        />
-        <img
+        >
+          <Image
+            loader={customLoader}
+            src="/location/mobile-newyork/mob.png"
+            alt="Mobile app development showcase New York"
+            width={400}
+            height={400}
+            priority
+            className="object-cover w-full h-auto"
+          />
+        </motion.div>
+        <Image
+          loader={customLoader}
           src="/location/mobile-newyork/r.png"
           alt=""
+          width={200}
+          height={200}
           className="absolute top-[40%] lg:block hidden left-[0%] md:left-[65%] translate-x-[-50%]"
         />
-        <img
+        <Image
+          loader={customLoader}
           src="/location/mobile-newyork/l.png"
           alt=""
+          width={200}
+          height={200}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[30%] translate-x-[-50%]"
         />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />

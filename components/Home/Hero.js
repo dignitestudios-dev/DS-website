@@ -4,6 +4,8 @@ import Link from "next/link";
 import Marquee from "react-fast-marquee";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 const img = [
   "/home-hero/marq/1.png",
   "/home-hero/marq/2.png",
@@ -18,35 +20,60 @@ const img = [
 const Hero = () => {
   return (
     <div className="w-full overflow-hidden  max-w-screen-2xl mx-auto flex flex-col pt-12 pb-20 gap-4 justify-start items-center ">
-      <img
+      <Image
+        loader={customLoader}
         src="/home-hero/grad.webp"
         alt=""
+        fill
+        priority
         className="absolute z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover w-full h-[900px] md:max-h-[170vh] object-cover"
       />
-      <img
+      <Image
+        loader={customLoader}
         src="/home-hero/l1.webp "
-        alt=""
+        alt="3d icons"
+        width={300}
+        height={300}
+        priority
         className="absolute lg:block hidden z-20 -left-16 top-28"
       />
-      <motion.img
-        src="/home-hero/l2.webp "
-        alt=""
+      <motion.div
         className="absolute lg:block hidden z-20 -left-20 top-28"
         animate={{ y: [0, -15, 0] }}
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <img
+      >
+        <Image
+          loader={customLoader}
+          src="/home-hero/l2.webp "
+          alt="3d icons"
+          width={300}
+          height={300}
+          priority
+        />
+      </motion.div>
+      <Image
+        loader={customLoader}
         src="/home-hero/r1.webp "
-        alt=""
+        alt="laptop"
+        width={420}
+        height={420}
+        priority
         className="absolute lg:block hidden z-20 -right-[10%] top-40"
       />
-      <motion.img
-        src="/home-hero/r2.webp "
-        alt=""
+      <motion.div
         className="absolute lg:block hidden z-20 -right-5 top-64"
         animate={{ y: [0, 15, 0] }}
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-      />
+      >
+        <Image
+          loader={customLoader}
+          src="/home-hero/r2.webp "
+          alt="tablet"
+          width={350}
+          height={350}
+          priority
+        />
+      </motion.div>
       <div className="relative overflow-hidden z-40 text-white gap-5 flex flex-col items-center justify-center h-full lg:w-[50%] w-[80%] text-center mx-auto">
         <h1 className="text-[40px] leading-[40px] md:text-[60px] md:leading-[60px] capitalize font-semibold tracking-tighter">
           Your Technical Co-Pilot: Expert Startup App Development Company
@@ -78,10 +105,12 @@ const Hero = () => {
               key={index}
               className="flex items-center justify-center mx-6 h-16"
             >
-              <img
+              <Image
+                loader={customLoader}
                 src={item}
                 alt="Client Partner Logo"
                 width={100}
+                height={64}
                 className="object-contain"
               />
             </div>

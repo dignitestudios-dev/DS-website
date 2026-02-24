@@ -1,4 +1,3 @@
-
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { GlobalContextProvider } from "@/context/GlobalContext";
@@ -6,34 +5,14 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import DisplayIp from "@/components/global/DisplayIp";
-// import { useEffect } from "react";
+import AOSInit from "@/components/global/AosInit";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
-
-
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-        <Script
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(w,d,s,l,i){
-                w[l] = w[l] || [];
-                w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
-                var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-                j.async=true;
-                j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-                f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-WTVKC35B');
-            `,
-          }}
-        />
-
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"
@@ -51,9 +30,11 @@ export default function RootLayout({ children }) {
         <GoogleTagManager gtmId="GTM-WTVKC35B" />
         {/* <DisplayIp /> */}
         <GoogleAnalytics gaId="G-0GWJVWYEKD" />
+        <AOSInit />
         <GlobalContextProvider>{children}</GlobalContextProvider>
         <Script
-          strategy="beforeInteractive"
+          id="tawk-chat"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
             var Tawk_API=Tawk_API||{ }, Tawk_LoadStart=new Date();
@@ -67,8 +48,6 @@ export default function RootLayout({ children }) {
             })();`,
           }}
         />
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>AOS.init()</script>
       </body>
     </html>
   );

@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import React from "react";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 
@@ -34,16 +36,16 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img
+        <Image
+          loader={customLoader}
           src="/location/grad.webp"
-          className="absolute left-[50%] translate-x-[-50%] -top-24 -z-0"
+          alt=""
+          fill
+          priority
+          className="absolute left-[50%] translate-x-[-50%] -top-24 -z-0 object-contain"
         />
-        <motion.img
-          src="/location/mobile-boston/mob.png"
-          alt="bg"
-          width={300}
-          height={300}
-          className="object-cover relative"
+        <motion.div
+          className="relative"
           initial={{ y: 80, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}
@@ -51,15 +53,31 @@ const Hero = () => {
             duration: 0.8,
             ease: "easeOut",
           }}
-        />
-        <img
+        >
+          <Image
+            loader={customLoader}
+            src="/location/mobile-boston/mob.png"
+            alt="Mobile app development showcase Boston"
+            width={300}
+            height={300}
+            priority
+            className="object-cover"
+          />
+        </motion.div>
+        <Image
+          loader={customLoader}
           src="/location/mobile-boston/r.png"
-          alt="r"
+          alt=""
+          width={150}
+          height={150}
           className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
         />
-        <img
+        <Image
+          loader={customLoader}
           src="/location/mobile-boston/l.png"
-          alt="l"
+          alt=""
+          width={150}
+          height={150}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"
         />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
