@@ -20,9 +20,9 @@ const CTA = () => {
           />
         </div>
         <div className="lg:w-[60%] w-full">
-          <h1 className="text-5xl capitalize font-bold mb-4">
+          <h2 className="text-5xl capitalize font-bold mb-4">
             Build Your Mobile App with the Confidence
-          </h1>
+          </h2>
           <p>
             Dignite Studios helps the businesses plan the budgets and understand
             mobile app costs through the clear strategy and expert mobile app

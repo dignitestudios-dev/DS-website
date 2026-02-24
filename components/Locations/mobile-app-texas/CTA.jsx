@@ -10,9 +10,9 @@ const CTA = () => {
       <div className="flex justify-center gap-20 items-center">
      
         <div className="w-full lg:w-[60%] text-center flex justify-center flex-col items-center mx-auto">
-          <h1 className="text-5xl capitalize font-bold mb-4">
+          <h2 className="text-5xl capitalize font-bold mb-4">
             What’s Stopping Your Project From Becoming Our Next Success Story?
-          </h1>
+          </h2>
           <p>
            A successful app starts with the right team and the right questions. Share your challenges with us and build something as amazing as you envisioned.  
           </p>

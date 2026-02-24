@@ -20,9 +20,9 @@ const CTA = () => {
           />
         </div>
         <div className="w-full lg:w-[60%]">
-          <h1 className="text-5xl capitalize font-bold mb-4">
+          <h2 className="text-5xl capitalize font-bold mb-4">
            If these apps started as ideas, so can yours.
-          </h1>
+          </h2>
           <p>
            Every project started with a simple conversation, and all you need is just a conversation. We help you refine and turn your idea into a working product without confusion or overpromising.
           </p>

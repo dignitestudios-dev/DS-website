@@ -20,9 +20,9 @@ const CTA = () => {
           />
         </div>
         <div className="w-full lg:w-[60%]">
-          <h1 className="text-5xl capitalize font-bold mb-4">
+          <h2 className="text-5xl capitalize font-bold mb-4">
             Be a Part of Our Successful Projects
-          </h1>
+          </h2>
           <p>
             Have a discussion with our experts and find out more about our custom app development services in Tampa. We would love to create apps for you. 
           </p>

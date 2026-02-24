@@ -20,9 +20,9 @@ const CTA = () => {
           />
         </div>
         <div className="w-full lg:w-[60%]">
-          <h1 className="text-5xl capitalize font-bold mb-4">
+          <h2 className="text-5xl capitalize font-bold mb-4">
             Got an app idea that needs expert execution?
-          </h1>
+          </h2>
           <p>
             Each case study started with an idea and a clear execution plan.
             Let’s explore yours and see how our team can bring it to life
