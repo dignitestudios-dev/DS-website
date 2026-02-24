@@ -78,9 +78,9 @@ const MobileAppServices = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           />
-          <h1 className="text-lg mb-4 font-bold relative z-10">
+          <h3 className="text-lg mb-4 font-bold relative z-10">
             Mobile App Development
-          </h1>
+          </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
             The iOS / iPhone app development is the right choice if your target
             audience includes iOS users. Using Swift and SwiftUI, we develop iOS
@@ -98,9 +98,9 @@ const MobileAppServices = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           />
-          <h1 className="text-lg mb-4 font-bold relative z-10">
+          <h3 className="text-lg mb-4 font-bold relative z-10">
             iOS App Development
-          </h1>
+          </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
             The iOS / iPhone app development is the right choice if your target
             audience includes iOS users. Using Swift and SwiftUI, we develop iOS
@@ -123,9 +123,9 @@ const MobileAppServices = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
           />
-          <h1 className="text-lg mb-4 font-bold relative z-10">
+          <h3 className="text-lg mb-4 font-bold relative z-10">
             Android app development
-          </h1>
+          </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
             The iOS / iPhone app development is the right choice if your target
             audience includes iOS users. Using Swift and SwiftUI, we develop iOS
@@ -148,9 +148,9 @@ const MobileAppServices = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           />
-          <h1 className="text-lg mb-4 font-bold relative z-10">
+          <h3 className="text-lg mb-4 font-bold relative z-10">
             Web App Development Services
-          </h1>
+          </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
             The iOS / iPhone app development is the right choice if your target
             audience includes iOS users. Using Swift and SwiftUI, we develop iOS
@@ -173,9 +173,9 @@ const MobileAppServices = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           />
-          <h1 className="text-lg mb-4 font-bold relative z-10">
+          <h3 className="text-lg mb-4 font-bold relative z-10">
             Native App Development Company
-          </h1>
+          </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
             Make every tap count with our mobile app design services include iOS
             app design services and Android app design services, focusing on
@@ -198,9 +198,9 @@ const MobileAppServices = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           />
-          <h1 className="text-lg mb-4 font-bold relative z-10">
+          <h3 className="text-lg mb-4 font-bold relative z-10">
             Mobile App Testing Services
-          </h1>
+          </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
             We provide mobile app support & maintenance services, mobile app
             consulting services, and app testing & QA services to ensure your

@@ -391,9 +391,9 @@ Including strategy, UI/UX design with agile development and deployment, we make 
                 alt="lggg"
               />
               <div className="md:w-[45%] absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-                <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                <h2 className="text-[45px] font-bold text-white leading-[45px]">
                   Ready To Work With The Right Team?
-                </h1>
+                </h2>
                 <p>
                   Choosing a development partner is a big decision, and you’ve
                   seen how we work and what we value. Now let’s discuss your

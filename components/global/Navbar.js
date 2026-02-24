@@ -273,12 +273,12 @@ const Navbar = ({ setIsOpen }) => {
         >
           <div className="flex-1">
             <div className="flex items-center gap-20">
-              <h1 className="text-xl text-[#F15C20] gap-1 font-bold mb-6 flex items-center capitalize">
+              <h2 className="text-xl text-[#F15C20] gap-1 font-bold mb-6 flex items-center capitalize">
                 {menuItem.name}
                 <svg width="10" height="12" viewBox="0 0 10 12" fill="none">
                   <path d="M9.30451 0L0 11.4938H9.30451V0Z" fill="#F15C20" />
                 </svg>
-              </h1>
+              </h2>
 
               <div className="flex gap-28">
                 {dropdownData[menuItem.key]?.map((section, sIdx) => (
