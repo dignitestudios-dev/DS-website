@@ -67,10 +67,12 @@ const MobileAppServices = () => {
           <img
             src="/home-hero/grad-crner.png"
             className="absolute md:block hidden bottom-0 right-0 rounded-br-[34px]"
+            alt="Gradient corner decoration"
           />
           <motion.img
             src="/home-hero/P1.png"
             className="absolute bottom-0 left-1/2 -translate-x-1/2 md:left-[20%] md:translate-x-0 w-[70%] md:w-auto"
+            alt="Mobile app development mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -90,6 +92,7 @@ const MobileAppServices = () => {
           <motion.img
             src="/home-hero/p2.png"
             className="absolute bottom-0 left-1/2 -translate-x-1/2 md:left-[25%] md:translate-x-0 w-[60%] md:w-auto"
+            alt="iOS app development mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -109,10 +112,12 @@ const MobileAppServices = () => {
           <img
             src="/home-hero/el1.png"
             className="absolute md:block hidden bottom-0 right-0 w-full"
+            alt="Android app development background element"
           />
           <motion.img
             src="/home-hero/p3.png"
             className="absolute -bottom-10 md:-bottom-20 left-1/2 -translate-x-1/2 md:left-[20%] md:translate-x-0 w-[70%] md:w-auto"
+            alt="Android app development mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -132,10 +137,12 @@ const MobileAppServices = () => {
           <img
             src="/home-hero/db.png"
             className="absolute md:block hidden bottom-0 right-0"
+            alt="Web app development background element"
           />
           <motion.img
             src="/home-hero/monitor.png"
             className="absolute bottom-0 left-1/2 -translate-x-1/2 md:left-5 md:translate-x-0 lg:left-10 w-4/5 md:w-4/5 lg:w-auto"
+            alt="Web app development services mockup on monitor"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -155,10 +162,12 @@ const MobileAppServices = () => {
           <img
             src="/home-hero/el2.png"
             className="absolute md:block hidden bottom-0 left-1/2 translate-x-[-50%] rounded-br-[34px]"
+            alt="Native app development background element"
           />
           <motion.img
             src="/home-hero/p4.png"
             className="absolute -bottom-7 left-1/2 -translate-x-1/2 md:left-[25%] md:translate-x-0 w-[60%] md:w-auto"
+            alt="Native app development company mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -178,10 +187,12 @@ const MobileAppServices = () => {
           <img
             src="/home-hero/el3.png"
             className="absolute md:block hidden w-full -bottom-14 left-1/2 translate-x-[-50%]"
+            alt="Mobile app testing background element"
           />
           <motion.img
             src="/home-hero/p5.png"
             className="absolute -bottom-10 md:-bottom-36 left-1/2 -translate-x-1/2 md:left-[15%] md:translate-x-0 w-[70%] md:w-auto"
+            alt="Mobile app testing services mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: -40, opacity: 1 }}
             viewport={{ once: true }}
