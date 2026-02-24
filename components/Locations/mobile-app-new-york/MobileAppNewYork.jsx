@@ -14,7 +14,6 @@ import { IoGrid, IoWalletOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import SuccessStories from "../ui/SuccessStories";
 import CTA from "./CTA";
-import SEO from "../ui/SEO";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
