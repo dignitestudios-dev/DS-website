@@ -292,9 +292,9 @@ const MobileAppMiami = () => {
                 alt="lggg"
               />
               <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-                <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                <h2 className="text-[45px] font-bold text-white leading-[45px]">
                   Ready to Scale Your Miami Mobile App Development
-                </h1>
+                </h2>
                 <p>
                   Work with the trusted mobile app development company miami to
                   build high performance apps which engage users, drive growth

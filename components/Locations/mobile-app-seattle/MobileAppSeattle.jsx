@@ -318,9 +318,9 @@ const MobileAppSeattle = () => {
                 alt="lggg"
               />
               <div className="md:w-[45%] absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-                <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                <h2 className="text-[45px] font-bold text-white leading-[45px]">
                   Powering the Scalable Apps Through The app development Seattle
-                </h1>
+                </h2>
                 <p>
                   From the strategy and design to the development and
                   deployment, Dignite Studios helps the Seattle businesses build

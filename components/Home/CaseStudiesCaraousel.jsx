@@ -125,11 +125,11 @@ export default function FlickCardStack() {
                 className={`absolute duration-100 delay-200 bg-[#F15C20] z-40 ${offset == 0 ? "md:h-[510px] h-[300px] w-[320px] -top-2 md:w-[735px]" : " h-[250px] w-[300px] md:h-[450px] md:w-[720px] top-0"}   left-1/2 translate-x-[-50%] rounded-lg transition-all ease-out`}
               >
                 <div className="flex relative z-[9999] justify-between items-end h-full px-3 md:px-8 pb-3">
-                  <h2
+                  <h3
                     className={`text-white uppercase ${offset == 0 ? "text-sm md:text-lg pt-6" : "text-2xl pt-4"}  text-center transition-all ease-linear`}
                   >
                     {card.title}
-                  </h2>
+                  </h3>
                   <Link href={card.link} className="flex items-center gap-2">
                     <button className="relative md:text-base text-xs after:absolute text-white after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300 uppercase ">
                       {" "}

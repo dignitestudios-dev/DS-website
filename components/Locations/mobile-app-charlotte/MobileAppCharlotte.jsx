@@ -304,9 +304,9 @@ const MobileAppCharlotte = () => {
                 alt="lggg"
               />
               <div className="md:w-[45%] absolute top-1/2 text-start left-20  -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-start ">
-                <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                <h2 className="text-[45px] font-bold text-white leading-[45px]">
                   Searching for the Right Team?
-                </h1>
+                </h2>
                 <p>
                   You've seen what makes us unique from other mobile app
                   development companies in Charlotte. Now let's work on your project. We'll talk about your app

@@ -299,9 +299,9 @@ const MobileAppTexas = () => {
             <div className="relative" >
             <img src="/location/mobile-texas/b-cta.png" className="w-full rounded-b-2xl bottom-3 relative bg-cover" alt="lggg" />
             <div className="md:w-[45%] absolute top-[45%] left-1/2 translate-x-[-50%] -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-              <h1 className="text-[45px] font-bold text-white leading-[45px]">
+              <h2 className="text-[45px] font-bold text-white leading-[45px]">
                 Time to Choose The Right Team!
-              </h1>
+              </h2>
               <p>
                 We just showed you what makes us different from other mobile app development companies. Now let's start working on your app idea. Discuss your app vision and long-term growth plans with the team.
               </p>

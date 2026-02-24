@@ -125,7 +125,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
                           alt="review stars"
                           className="mx-auto mb-2"
                         />
-                        <h3 className="text-base font-bold">{item.name}</h3>
+                        <h4 className="text-base font-bold">{item.name}</h4>
                         <p className="text-xs text-gray-600">
                           {item.desgination}
                         </p>

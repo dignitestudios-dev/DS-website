@@ -25,7 +25,7 @@ const Platforms = () => {
           >
             <img
               src={item}
-              alt="marq"
+              alt="Industry Platform Logo"
               width={100}
               className="object-contain invert"
             />

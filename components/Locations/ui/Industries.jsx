@@ -118,7 +118,6 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para }) => {
               >
                 <div
                   style={{
-              
                     width: "100%",
                     // borderRadius: "12px",
                     // height: "460px",
@@ -140,10 +139,11 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para }) => {
                       isActive && "shadow-2xl"
                     }`}
                   />
-                  
+
                   {isActive && (
                     <img
                       src="/location/mask.png"
+                      alt=""
                       className="absolute -top-10 -left-16 z-10 rounded-t-xl pointer-events-none"
                     />
                   )}

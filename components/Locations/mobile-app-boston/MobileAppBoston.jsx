@@ -312,9 +312,9 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
                 alt="lggg"
               />
               <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-                <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                <h2 className="text-[45px] font-bold text-white leading-[45px]">
                   Still Deciding If We’re the Right Fit?
-                </h1>
+                </h2>
                 <p>
                   It’s completely fair to overthink your decision because
                   choosing a mobile application development Boston team is a big

@@ -97,12 +97,9 @@ const Bussiness = ({
         <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start md:py-40 ">
           <div className="flex relative z-20  w-[90%] md:max-w-7xl flex-col text-center mx-auto items-center">
             <h2 className="text-5xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
-             {header}{" "}
-              <span className="text-[#F15C20]">{header2}</span>{" "}
+              {header} <span className="text-[#F15C20]">{header2}</span>{" "}
             </h2>
-            <p className="text-lg my-6 text-white ">
-              {para}
-            </p>
+            <p className="text-lg my-6 text-white ">{para}</p>
           </div>
 
           <div className="relative  p-8">
@@ -114,7 +111,7 @@ const Bussiness = ({
                 >
                   <img
                     src={`/location/mobile-california/${icons[index].icon}`}
-                    alt={icons[index].icon}
+                    alt={item.title}
                     className=" "
                   />
                   <div className="absolute top-0 px-12 py-10">
@@ -181,7 +178,7 @@ const Bussiness = ({
               <div className="absolute top-1/2 left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <img
                   src="/location/mobile-california/icons/logo.png"
-                  alt="logo"
+                  alt="Dignite Studios Logo"
                 />
               </div>
             </div>
@@ -193,7 +190,7 @@ const Bussiness = ({
                 >
                   <img
                     src={`/location/mobile-california/${icons[index + 3].icon}`}
-                    alt={icons[index + 3].icon}
+                    alt={item.title}
                     className=" "
                   />
                   <div className="absolute top-0 px-12 py-10">
@@ -214,12 +211,9 @@ const Bussiness = ({
           {/* Header */}
           <div className="text-center max-w-xl mx-auto mb-14">
             <h2 className="text-3xl font-bold tracking-tight text-white">
-              {header}{" "}
-              <span className="text-[#F15C20]">{header2}</span>
+              {header} <span className="text-[#F15C20]">{header2}</span>
             </h2>
-            <p className="text-base mt-5 text-gray-300">
-              {para}
-            </p>
+            <p className="text-base mt-5 text-gray-300">{para}</p>
           </div>
 
           {/* Carousel */}
@@ -257,7 +251,7 @@ const Bussiness = ({
                   <div className="relative w-[350px] mx-auto">
                     <img
                       src={`/location/mobile-california/${icons[index].icon}`}
-                      alt={icons[index].icon}
+                      alt={item.title}
                       className="w-[350px] h-full object-contain"
                     />
                     <div className="absolute top-0 left-0 w-full h-full px-12 py-8 flex flex-col justify-start text-start">

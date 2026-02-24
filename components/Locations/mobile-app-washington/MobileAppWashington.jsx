@@ -312,9 +312,9 @@ const MobileAppWashington = () => {
                 alt="lggg"
               />
               <div className="md:w-[45%] absolute top-1/2 text-center left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center ">
-                <h1 className="text-[45px] font-bold text-white leading-[45px]">
+                <h2 className="text-[45px] font-bold text-white leading-[45px]">
                   Choose The Right Team For Your App!
-                </h1>
+                </h2>
                 <p>
                   You've seen what makes us different from other mobile app
                   development companies Washington. Now let's work on your app
