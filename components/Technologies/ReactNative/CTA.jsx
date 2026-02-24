@@ -20,9 +20,9 @@ const CTA = () => {
           />
         </div>
         <div className="w-full lg:w-[50%]">
-          <h1 className="text-4xl capitalize font-bold mb-4">
+          <h2 className="text-4xl capitalize font-bold mb-4">
            Get Started with Your App Development Project 
-          </h1>
+          </h2>
           <p>
        Build high performance mobile apps that support your business growth and the user needs. Our android app development services help you create scalable reliable and user friendly applications that deliver real results. We focus on the clear execution, smooth performance and the long term value for your business. 
           </p>

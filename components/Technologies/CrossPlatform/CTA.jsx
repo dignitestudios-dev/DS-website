@@ -20,9 +20,9 @@ const CTA = () => {
           />
         </div>
         <div className="w-full lg:w-[45%]">
-          <h1 className="text-4xl capitalize font-bold mb-4">
+          <h2 className="text-4xl capitalize font-bold mb-4">
             Start Your Cross Platform Project
-          </h1>
+          </h2>
           <p>
             Dignite Studios offers the professional cross platform app
             development services which help the brands transform ideas into

@@ -20,9 +20,9 @@ const CTA = () => {
           />
         </div>
         <div className="w-full lg:w-[50%]">
-          <h1 className="text-4xl capitalize font-bold mb-4">
+          <h2 className="text-4xl capitalize font-bold mb-4">
             Ready to Build a High Performance Flutter App for Your Business
-          </h1>
+          </h2>
           <p>
             Partner with the Flutter app development team which builds fast,
             scalable and user friendly apps. Let’s explore your idea, business
