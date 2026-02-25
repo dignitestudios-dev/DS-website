@@ -43,7 +43,7 @@ const Faq = ({ faqs }) => {
                 name="faq-question"
                 className={`flex items-center justify-between w-full font-medium outline-none relative`}
               >
-                <span className="text-base md:text-lg lg:text-xl text-left px-12 ">
+                <span className="text-base md:text-lg lg:text-xl text-left pl-16 pr-4 ">
                   {faq.question}
                 </span>
                 {openAccordion === faq.id ? (
@@ -63,7 +63,7 @@ const Faq = ({ faqs }) => {
                     className="overflow-hidden"
                   >
                     <p
-                      className="mt-2 text-xs px-12 lg:text-[16px] leading-normal"
+                      className="mt-2 text-xs pl-16 pr-4 lg:text-[16px] leading-normal"
                       // style={{ color: palette?.dark_contrast_color }}
                     >
                       {faq.answer}
