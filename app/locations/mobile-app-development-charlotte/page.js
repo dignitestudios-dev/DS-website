@@ -3,9 +3,9 @@ import MobileAppCharlotte from "@/components/Locations/mobile-app-charlotte/Mobi
 import GlobalLayout from "@/layout/GlobalLayout";
 import React from "react";
 export const metadata = {
-  title: "App Development Services in Tampa designed for Startups",
+  title: "App Development Services in Charlotte designed for Startups",
   description:
-    "Looking for app development services in Tampa? We build custom high-performance mobile apps designed to grow with your business. Talk to the experts now",
+    "Looking for app development services in Charlotte? We build custom high-performance mobile apps designed to grow with your business. Talk to the experts now",
 };
 const professionalServiceSchema = {
   "@context": "https://schema.org",
