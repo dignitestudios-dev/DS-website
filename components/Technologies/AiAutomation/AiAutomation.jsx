@@ -424,6 +424,7 @@ const AiAutomation = () => {
         }
       />
       <TechTools
+        button={"Explore AI Automation Capabilities "}
         tech={tech}
         header={"AI Automation Technology Stack We Use"}
         para={
@@ -432,7 +433,7 @@ const AiAutomation = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Reliable AI Automation"}
+        header={"Reliable AI Automation Process"}
         header2={"Services Process"}
         para={
           "Our systematic strategy which focuses on producing the measurable and obvious outcomes. We build a reliable structure which also allows long term sustainability through combining planning the ongoing development."
@@ -448,6 +449,7 @@ const AiAutomation = () => {
         }
       />
       <Features
+        button={"Get Automation Recommendations "}
         header={"Must Have Features In"}
         header2={"AI Automation Solutions"}
         para={
