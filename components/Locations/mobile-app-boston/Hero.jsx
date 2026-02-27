@@ -6,6 +6,7 @@ import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
+import Link from "next/link";
 
 const Hero = () => {
   return (
