@@ -70,37 +70,37 @@ const services = [
   {
     icon: "database",
     icon2: "database1",
-    title: "Native Flutter App Development",
+    title: "Custom Flutter App Development",
     description:
-      "We build fast and reliable apps using Flutter with strong architecture and consistent performance across platforms.",
+      "We build Flutter apps adapted according to your business needs ensuring the performance, scalability and the smooth user experience.",
   },
   {
     icon: "setting",
     icon2: "setting2",
-    title: "Enterprise Flutter Solutions",
+    title: "Flutter App Consulting",
     description:
-      "Our teams design scalable Flutter solutions which integrate with business workflows and secure backend services.",
+      "We provide the expert Flutter guidance to optimize the app strategy, improve design and enhance the project outcomes.",
   },
   {
     icon: "pipe",
     icon2: "pipe3",
     title: "UI/UX Design for Flutter",
     description:
-      "We design user friendly interfaces focused on transparency, smooth navigation and exciting experiences.",
+      "We design user friendly interfaces which are focused on transparency, smooth navigation and exciting experiences.",
   },
   {
     icon: "icon",
     icon2: "icon4",
     title: "API & Third Party Integrations",
     description:
-      "Our engineers combine Flutter apps with cloud platforms, analytics, CRMs and payment systems.",
+      "Our engineers combine the Flutter apps through the cloud platforms, analytics, CRMs and payment systems.",
   },
   {
     icon: "pen",
     icon2: "pen5",
     title: "Testing & Maintenance",
     description:
-      "We ensure performance, stability and updates as your product grows. Our solutions are built for businesses which need flexibility, speed and measurable results.",
+      "We ensure app performance stability and updates while providing flexible solutions which support the long term growth.",
   },
 ];
 
