@@ -285,7 +285,7 @@ const Navbar = ({ setIsOpen }) => {
                 </svg>
               </h2>
 
-              <div className="flex gap-28">
+              <div className="flex gap-20">
                 {dropdownData[menuItem.key]?.map((section, sIdx) => (
                   <div key={sIdx} className="flex flex-col gap-6">
                     {section.items.map(([label, link], idx) => (
@@ -294,7 +294,7 @@ const Navbar = ({ setIsOpen }) => {
                         href={link}
                         className="hover:text-[#F15C20] flex items-center gap-2 transition-colors duration-200 group"
                       >
-                        <span className="group-hover:translate-x-1 text-xs font-extralight transition-transform duration-200">
+                        <span className="group-hover:translate-x-1 text-sm font-extralight transition-transform duration-200">
                           {label}
                         </span>
                       </Link>

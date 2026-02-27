@@ -1,0 +1,151 @@
+"use client";
+import React, { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Autoplay } from "swiper/modules";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { FaPencilAlt, FaUser } from "react-icons/fa";
+import { IoGrid, IoWalletOutline } from "react-icons/io5";
+import { CiSearch } from "react-icons/ci";
+import Link from "next/link";
+import { MdArrowOutward } from "react-icons/md";
+const icons = [
+  {
+    icon: <FaUser color="#F15C20" size={25} />,
+  },
+  {
+    icon: <IoGrid color="#F15C20" size={25} />,
+  },
+  {
+    icon: <IoWalletOutline color="#F15C20" size={25} />,
+  },
+  {
+    icon: <CiSearch color="#F15C20" size={25} />,
+  },
+  {
+    icon: <FaPencilAlt color="#F15C20" size={25} />,
+  },
+];
+
+const MobileApp = ({ cards, header, header2, para , button }) => {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const repeatedCards = [
+    ...cards,
+    ...cards,
+    ...cards,
+    ...cards,
+    ...cards,
+    ...cards,
+  ];
+  return (
+    <div className="w-full  overflow-hidden">
+      {/* Heading */}
+      <div className="w-[90%] md:w-[80%] mx-auto text-center">
+        <h2 className="text-4xl md:text-7xl font-bold tracking-tighter">
+          {header}
+          <span className="text-[#F15C20]"> {header2}</span>
+        </h2>
+        <p className="text-lg my-6 text-[#0C0C0C]">{para}</p>
+      </div>
+
+      <div className="mt-16 w-full">
+        <Swiper
+          modules={[Autoplay]}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          spaceBetween={30}
+          draggable
+          loop={true}
+          loopedSlides={10}
+          loopAdditionalSlides={10}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+            // pauseOnMouseEnter: true, // we control it manually
+          }}
+          className="!overflow-visible"
+          onSwiper={(swiper) => {
+            swiper.autoplay.start();
+          }}
+        >
+          {repeatedCards.map((card, index) => {
+            const isActive = hoveredIndex === index;
+
+            return (
+              <SwiperSlide
+                key={index}
+                className="!w-[260px] !overflow-visible"
+                onMouseEnter={() => setHoveredIndex(index)}
+                onMouseLeave={() => setHoveredIndex(null)}
+              >
+                <div
+                  className={`h-[300px] relative rounded-2xl overflow-hidden border transition-all duration-300 cursor-pointer
+                    ${
+                      isActive
+                        ? "bg-[#F15C20] text-white border-[#FDD0BF] shadow-xl"
+                        : "bg-[#FFF7F4] text-[#0C0C0C] border-[#FDD0BF]"
+                    }`}
+                >
+                  {!isActive && (
+                    <img
+                      src="/location/mobile-california/lines.png"
+                      alt="lines"
+                      className="absolute right-0 -top-16"
+                    />
+                  )}
+                  {isActive && (
+                    <img
+                      src="/location/mobile-california/design.png"
+                      alt="lines"
+                      className="absolute right-0 w-full  -bottom-28 scale-125"
+                    />
+                  )}
+                  <div className="p-6 items-start flex flex-col h-full">
+                    {/* Icon */}
+                    <div
+                      className={`w-12 h-12 flex items-center border border-[#F15C20] justify-center rounded-full mb-6
+                        ${
+                          isActive
+                            ? "bg-white text-[#F15C20]"
+                            : "bg-[#FFE2D6] text-[#F15C20]"
+                        }`}
+                    >
+                      {card.icon}
+                    </div>
+
+                    <h3
+                      className={`"text-lg relative  text-start z-10 h-[85px] font-semibold mb-3 transition-all ease-linear" ${isActive && "h-fit transition-all ease-linear"} `}
+                    >
+                      {card.title}
+                    </h3>
+                    <p className="text-sm text-start line-clamp-5 leading-relaxed opacity-90">
+                      {card.desc}
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+           {button && (
+        <div className="flex justify-center mt-8 items-center">
+          <Link
+            href={"/contact-us"}
+            className="flex items-center group justify-center w-fit"
+          >
+            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+              {button ? button : " Talk to our California-based team"}
+            </button>
+            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+              <MdArrowOutward />
+            </button>
+          </Link>
+        </div>
+      )}
+      </div>
+    </div>
+  );
+};
+
+export default MobileApp;

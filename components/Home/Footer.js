@@ -403,13 +403,13 @@ const Footer = () => {
       </div>
 
       {/* DESKTOP FOOTER */}
-      <div className="hidden md:block w-full h-auto bg-[url('/footer.png')] bg-no-repeat bg-cover relative -mt-24 z-50 transition-all duration-300 pt-20 pb-10 px-12 lg:px-16 xl:px-28 rounded-t-[100px]">
+      <div className="hidden md:block w-full h-auto bg-[url('/footer.png')] bg-no-repeat bg-cover relative -mt-24 z-50 transition-all duration-300 pt-20 pb-10 px-8 md:px-12 lg:px-16 xl:px-28 rounded-t-[50px] md:rounded-t-[100px]">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[.8px]" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
-        <div className="w-full grid grid-cols-2 ml-16 lg:grid-cols-4 xl:grid-cols-7 gap-x-8 gap-y-12 mb-16 relative z-10">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 xl:ml-16 gap-x-8 gap-y-12 mb-16 relative z-10">
           {/* Logo and Description */}
-          <div className="col-span-2 lg:col-span-2 xl:col-span-2 flex flex-col sticky top-0 z-30 py-6">
+          <div className="col-span-2 lg:col-span-2 xl:col-span-2 flex flex-col z-30 py-6">
             <Link href="/">
               <Image
                 loader={customLoader}

@@ -13,7 +13,7 @@ const img = [
 ];
 const Platforms = () => {
   return (
-    <div className="flex relative z-40 bg-white flex-col items-center w-full lg:w-[80%] mx-auto mt-20">
+    <div className="flex relative z-40 bg-white flex-col items-center w-full lg:w-[80%] mx-auto my-20">
       <h4 className="text-sm text-[#1F222E] text-center font-semibold">
         Recognized and Trusted by Industry Platforms
       </h4>

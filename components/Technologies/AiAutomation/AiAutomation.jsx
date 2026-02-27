@@ -19,6 +19,17 @@ import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
 import TechTools from "../ui/TechTools";
 import {
+  MdHub,
+  MdSmartToy,
+  MdSettings,
+  MdAnalytics,
+  MdSecurity,
+  MdCloudQueue,
+  MdCampaign,
+  MdPhoneInTalk,
+  MdForum,
+} from "react-icons/md";
+import {
   SiOpenai,
   SiPython,
   SiGooglecloud,
@@ -26,48 +37,50 @@ import {
   SiNodedotjs,
   SiAwslambda,
   SiRobotframework,
+  SiZapier,
+  SiShopify,
+  SiSalesforce,
+  SiGoogle,
+  SiGooglegemini,
+  SiAnthropic,
 } from "react-icons/si";
-import {
-  MdHub,
-  MdSmartToy,
-  MdSettings,
-  MdAnalytics,
-  MdSecurity,
-} from "react-icons/md";
+import { RiClaudeFill, RiCloudLine } from "react-icons/ri";
 import Features from "../ui/Features";
 import { BiNetworkChart } from "react-icons/bi";
 import { BsRobot } from "react-icons/bs";
 
 const tech = [
   {
-    name: "OpenAI",
+    name: "ChatGPT",
     icon: <SiOpenai />,
-    description:
-      "We use advanced LLMs and GPT models to build intelligent systems that understand, reason and automate complex business logic.",
   },
   {
-    name: "Python & ML",
-    icon: <SiPython />,
-    description:
-      "Our engineers leverage Python and machine learning frameworks to create predictive models and data-driven automation tools.",
+    name: "Claude",
+    icon: <RiClaudeFill />,
   },
   {
-    name: "Cloud AI",
-    icon: <SiGooglecloud />,
-    description:
-      "We integrate Google Cloud AI and AWS SageMaker to provide scalable, enterprise-grade infrastructure for modern automation.",
+    name: "Gemini",
+    icon: <SiGooglegemini />,
   },
   {
-    name: "NLP Systems",
-    icon: <SiAwslambda />,
-    description:
-      "Our NLP solutions enable sentiment analysis, entity recognition and conversational intelligence for seamless human-AI interaction.",
+    name: "Zapier",
+    icon: <SiZapier />,
   },
   {
-    name: "Robotic Process",
-    icon: <SiRobotframework />,
-    description:
-      "We implement RPA tools to automate repetitive UI-based tasks, ensuring speed and accuracy across legacy and modern platforms.",
+    name: "Shopify",
+    icon: <SiShopify />,
+  },
+  {
+    name: "Salesforce",
+    icon: <SiSalesforce />,
+  },
+  {
+    name: "OpenAI APIs",
+    icon: <SiOpenai />,
+  },
+  {
+    name: "Google AI Tools",
+    icon: <SiGoogle />,
   },
 ];
 
@@ -89,7 +102,7 @@ const services = [
   {
     icon: "pipe",
     icon2: "pipe3",
-    title: "AI Automating Consulting",
+    title: "AI Automation Consulting",
     description:
       "In order to deliver visible results our services assist in detecting the automating gaps, designing specific strategies and putting the plans which are intended into the action.",
   },
@@ -194,7 +207,7 @@ const test = [
       "Their automation strategy improved our internal processes and reporting accuracy.",
   },
   {
-    name: "Priya Kapoor",
+    name: "Larry Davidson",
     designation: "— Project Director",
     review: "Reliable team with strong execution and measurable outcomes.",
   },
@@ -204,7 +217,7 @@ const test = [
     review: "They helped us automate customer engagement efficiently.",
   },
   {
-    name: "Anita Sharma",
+    name: "Carlos Glenn",
     designation: "— Business Process Manager",
     review: "Professional approach and continuous optimization support.",
   },
@@ -310,6 +323,18 @@ const PROCESS_STEPS = [
 ];
 
 const featuresData = [
+  {
+    title: "Email & Marketing Automation",
+    icon: <MdCampaign />,
+  },
+  {
+    title: "AI Calling Agent",
+    icon: <MdPhoneInTalk />,
+  },
+  {
+    title: "AI Chatbot",
+    icon: <MdForum />,
+  },
   {
     title: "Intelligent workflow orchestration",
     icon: <BiNetworkChart />,

@@ -79,7 +79,14 @@ const Hero = () => {
             alt="concentric rings"
             width={800}
             height={800}
-            className="block object-contain"
+            className="hidden lg:block object-contain"
+          />
+          <img
+            src={"/technologies/ai/circle-icons.png"}
+            alt="concentric rings"
+            width={800}
+            height={800}
+            className="block lg:hidden object-contain"
           />
         </div>
 

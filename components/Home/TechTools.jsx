@@ -201,7 +201,7 @@ const TechTools = () => {
 
   return (
     <section
-     className="
+      className="
     w-full bg-[#0A0A0A]
     py-24 sm:py-32
     overflow-visible
@@ -241,10 +241,7 @@ const TechTools = () => {
         <div className="hidden md:flex flex-wrap justify-center gap-6 min-h-[500px]">
           <AnimatePresence mode="popLayout">
             {techData[activeTab].map((tech, idx) => (
-              <div
-                key={`${activeTab}-${tech.name}`}
-                className="w-[280px]"
-              >
+              <div key={`${activeTab}-${tech.name}`} className="w-[280px]">
                 <TechCard tech={tech} />
               </div>
             ))}
@@ -259,10 +256,11 @@ const TechTools = () => {
               spaceBetween={20}
               slidesPerView={1}
               autoplay={{ delay: 3000, disableOnInteraction: false }}
-              pagination={{ 
+              pagination={{
                 clickable: true,
-                bulletClass: 'swiper-pagination-bullet !bg-white',
-                bulletActiveClass: 'swiper-pagination-bullet-active !bg-[#F15C20]'
+                bulletClass: "swiper-pagination-bullet !bg-white",
+                bulletActiveClass:
+                  "swiper-pagination-bullet-active !bg-[#F15C20]",
               }}
               className="!pb-12"
             >
@@ -288,10 +286,10 @@ const TechCard = ({ tech }) => {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
       transition={{ duration: 0.3 }}
-      className="relative h-[280px] w-full perspective-1000 cursor-pointer"
-      onMouseEnter={() => setIsFlipped(true)}
-      onMouseLeave={() => setIsFlipped(false)}
-      onClick={() => setIsFlipped(!isFlipped)}
+      className={`relative h-[280px] w-full perspective-1000 ${tech.description ? "cursor-pointer" : "cursor-default"}`}
+      onMouseEnter={() => tech.description && setIsFlipped(true)}
+      onMouseLeave={() => tech.description && setIsFlipped(false)}
+      onClick={() => tech.description && setIsFlipped(!isFlipped)}
     >
       <motion.div
         className="w-full h-full relative preserve-3d transition-all duration-75"

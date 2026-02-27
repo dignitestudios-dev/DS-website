@@ -2,10 +2,8 @@
 import React, { useState } from "react";
 import { IoArrowUpOutline } from "react-icons/io5";
 
-const WhyChoose = () => {
-  const [hoveredCard, setHoveredCard] = useState(null);
-
-  const features = [
+const WhyChoose = ({
+  features = [
     {
       number: "01",
       title: "100% Custom Development",
@@ -42,19 +40,29 @@ const WhyChoose = () => {
       description:
         "Clear communication and visibility throughout the entire project lifecycle.",
     },
-  ];
+  ],
+  header = "Why Choose",
+  header2 = "Dignite Studios",
+  para = "",
+}) => {
+  const [hoveredCard, setHoveredCard] = useState(null);
 
   return (
-    <div className=" py-16 px-4 sm:px-6 lg:px-8">
+    <div className=" px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center leading-[4] mb-16">
           <h2 className="text-4xl md:text-5xl tracking-tighter  lg:text-7xl font-bold">
-            Why Choose
+            {header}
           </h2>
           <h2 className="text-4xl md:text-5xl mt-1 tracking-tighter  lg:text-7xl font-bold">
-            <span className="text-[#F15C20]">Dignite Studios</span>
+            <span className="text-[#F15C20]">{header2}</span>
           </h2>
+          {para && (
+            <p className="max-w-3xl mx-auto mt-4 text-lg text-gray-600">
+              {para}
+            </p>
+          )}
         </div>
 
         {/* Features Grid */}
