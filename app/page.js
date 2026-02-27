@@ -84,35 +84,34 @@ const Page = () => {
           content="Top Mobile App Development Company"
         />
         <meta name="msvalidate.01" content="94BB860CACBBFCA50505F40D3B4C33CC" />
-       <Script
-  strategy="afterInteractive"
-  src="https://www.googletagmanager.com/gtag/js?id=G-ZR6NCYD3K9"
-/>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZR6NCYD3K9"
+        />
 
-<Script id="google-analytics" strategy="afterInteractive">
-  {`
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-ZR6NCYD3K9');
   `}
-</Script>
-
+        </Script>
       </head>
       <GlobalLayout page={<HomePage />} />
 
       <Script type="application/ld+json" id="image-object-schema">
-  {`
+        {`
     {
       "@context": "https://schema.org",
       "@type": "ImageObject",
       "url": "https://www.dignitestudios.com/logo.png"
     }
   `}
-</Script>
+      </Script>
 
-<Script type="application/ld+json" id="breadcrumb-list-schema">
-  {`
+      <Script type="application/ld+json" id="breadcrumb-list-schema">
+        {`
     {
       "@context": "https://schema.org/",
       "@type": "BreadcrumbList",
@@ -126,23 +125,24 @@ const Page = () => {
       ]
     }
   `}
-</Script>
+      </Script>
 
-<Script type="application/ld+json">
-  {`
+      <Script type="application/ld+json" id="webpage-schema">
+        {`
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
+      "@id": "https://www.dignitestudios.com/#webpage",
       "name": "Top Mobile App Development Company | Dignite Studios",
       "url": "https://www.dignitestudios.com/",
       "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with a significant solution.",
       "thumbnailUrl": "https://www.dignitestudios.com/banner-cover-image-of-top-mobile-app-development-company.webp"
     }
   `}
-</Script>
+      </Script>
 
-<Script type="application/ld+json" id="website-schema">
-  {`
+      <Script type="application/ld+json" id="website-schema">
+        {`
     {
       "@context": "http://schema.org",
       "@type": "WebSite",
@@ -166,13 +166,14 @@ const Page = () => {
       }
     }
   `}
-</Script>
+      </Script>
 
-<Script type="application/ld+json">
-  {`
+      <Script type="application/ld+json" id="organization-schema">
+        {`
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "https://www.dignitestudios.com/#organization",
       "name": "Dignite Studios",
       "alternateName": "DS",
       "url": "https://www.dignitestudios.com/",
@@ -205,10 +206,10 @@ const Page = () => {
       ]
     }
   `}
-</Script>
+      </Script>
 
-<Script type="application/ld+json" id="product-schema">
-  {`
+      <Script type="application/ld+json" id="product-schema">
+        {`
     {
       "@context": "https://schema.org",
       "@type": "Product",
@@ -222,10 +223,10 @@ const Page = () => {
       }
     }
   `}
-</Script>
+      </Script>
 
-<Script type="application/ld+json" id="local-business-schema">
-  {`
+      <Script type="application/ld+json" id="local-business-schema">
+        {`
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
@@ -280,13 +281,14 @@ const Page = () => {
       ]
     }
   `}
-</Script>
+      </Script>
 
-<Script type="application/ld+json">
-  {`
+      <Script type="application/ld+json" id="navigation-list-schema">
+        {`
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
+      "@id": "https://www.dignitestudios.com/#navigation",
       "itemListElement": [
         {
           "@type": "SiteNavigationElement",
@@ -333,13 +335,14 @@ const Page = () => {
       ]
     }
   `}
-</Script>
+      </Script>
 
-<Script type="application/ld+json">
-  {`
+      <Script type="application/ld+json" id="person-schema">
+        {`
     {
       "@context": "https://schema.org/",
       "@type": "Person",
+      "@id": "https://www.dignitestudios.com/#person",
       "name": "Dignite Studios",
       "url": "https://www.dignitestudios.com/",
       "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with a significant solution.",
@@ -353,28 +356,7 @@ const Page = () => {
       ]
     }
   `}
-</Script>
-
-<Script type="application/ld+json" id="person-schema">
-  {`
-    {
-      "@context": "https://schema.org/",
-      "@type": "Person",
-      "name": "Dignite Studios",
-      "url": "https://www.dignitestudios.com/",
-      "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with a significant solution.",
-      "image": "https://www.dignitestudios.com/logo.webp",
-      "sameAs": [
-        "https://facebook.com/dignitestudios",
-        "https://twitter.com/dignitestudios",
-        "https://www.instagram.com/dignitestudios/",
-        "https://www.linkedin.com/company/dignitestudios/",
-        "https://www.pinterest.com/dignitestudios/"
-      ]
-    }
-  `}
-</Script>
-
+      </Script>
     </>
   );
 };

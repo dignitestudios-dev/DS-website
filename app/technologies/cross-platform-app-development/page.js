@@ -15,6 +15,8 @@ export const metadata = {
 const professionalServiceSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id":
+    "https://www.dignitestudios.com/technologies/cross-platform-app-development/#business",
   name: "Cross-Platform App Development",
   description:
     "Cross-Platform app development services by Dignite Studios to build scalable and high-performance mobile applications that run on multiple platforms including iOS and Android.",
@@ -34,6 +36,8 @@ const professionalServiceSchema = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id":
+    "https://www.dignitestudios.com/technologies/cross-platform-app-development/#service",
   name: "Cross Platform App Development Services",
   description:
     "Dignite Studios delivers high performance cross platform mobile app development services helping businesses launch faster, scale smarter and engage users across platforms with secure, reliable and goal‑focused mobile solutions.",
@@ -99,6 +103,8 @@ const serviceSchema = {
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id":
+    "https://www.dignitestudios.com/technologies/cross-platform-app-development/#breadcrumb",
   itemListElement: [
     {
       "@type": "ListItem",
@@ -124,6 +130,8 @@ const breadcrumbSchema = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id":
+    "https://www.dignitestudios.com/technologies/cross-platform-app-development/#faq",
   mainEntity: [
     {
       "@type": "Question",

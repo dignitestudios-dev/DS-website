@@ -89,6 +89,8 @@ const breadcrumbSchema = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id":
+    "https://www.dignitestudios.com/locations/mobile-app-development-charlotte/#faq",
   mainEntity: [
     {
       "@type": "Question",
@@ -146,20 +148,24 @@ const page = () => {
     <>
       <script
         type="application/ld+json"
+        key="professional-service-schema"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(professionalServiceSchema),
         }}
       />
       <script
         type="application/ld+json"
+        key="service-schema"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <script
         type="application/ld+json"
+        key="breadcrumb-schema"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
+        key="faq-schema"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <GlobalLayout page={<MobileAppCharlotte />} />

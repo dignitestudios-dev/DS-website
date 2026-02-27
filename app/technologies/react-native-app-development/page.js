@@ -10,6 +10,8 @@ export const metadata = {
 const professionalServiceSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id":
+    "https://www.dignitestudios.com/technologies/react-native-app-development/#business",
   name: "React Native App Development Company",
   description:
     "Hire a trusted react native app development company to build fast, scalable, and user-friendly mobile apps for startups and enterprises across the USA.",
@@ -29,6 +31,8 @@ const professionalServiceSchema = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id":
+    "https://www.dignitestudios.com/technologies/react-native-app-development/#service",
   name: "React Native App Development Services",
   description:
     "Expert react native app development services helping businesses launch faster, scale smarter and engage users with high-performance mobile solutions.",
@@ -46,6 +50,8 @@ const serviceSchema = {
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id":
+    "https://www.dignitestudios.com/technologies/react-native-app-development/#breadcrumb",
   itemListElement: [
     {
       "@type": "ListItem",
@@ -71,6 +77,8 @@ const breadcrumbSchema = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id":
+    "https://www.dignitestudios.com/technologies/react-native-app-development/#faq",
   mainEntity: [
     {
       "@type": "Question",

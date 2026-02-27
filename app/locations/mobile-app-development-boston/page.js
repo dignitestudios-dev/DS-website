@@ -94,6 +94,8 @@ const breadcrumbSchema = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id":
+    "https://www.dignitestudios.com/locations/mobile-app-development-boston/#faq",
   mainEntity: [
     {
       "@type": "Question",

@@ -11,10 +11,12 @@ export const metadata = {
 const professionalServiceSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "Cross-Platform App Development",
+  "@id":
+    "https://www.dignitestudios.com/technologies/ai-automation-services/#business",
+  name: "AI Automation Services | Dignite Studios",
   description:
-    "Cross-Platform app development services by Dignite Studios to build scalable and high-performance mobile applications that run on multiple platforms including iOS and Android.",
-  url: "https://www.dignitestudios.com/technologies/cross-platform-app-development",
+    "AI automation services that streamline workflows reduce manual effort and improve business efficiency with scalable solutions built for growth.",
+  url: "https://www.dignitestudios.com/technologies/ai-automation-services",
   image: "https://www.dignitestudios.com/logo.webp",
   areaServed: {
     "@type": "Country",
@@ -30,71 +32,27 @@ const professionalServiceSchema = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Cross Platform App Development Services",
+  "@id":
+    "https://www.dignitestudios.com/technologies/ai-automation-services/#service",
+  name: "AI Automation Services",
   description:
-    "Dignite Studios delivers high performance cross platform mobile app development services helping businesses launch faster, scale smarter and engage users across platforms with secure, reliable and goal‑focused mobile solutions.",
+    "Dignite Studios delivers high performance AI automation services helping businesses streamline workflows, reduce manual effort and improve productivity with secure, reliable and goal-focussed AI solutions.",
   provider: {
     "@type": "Organization",
     name: "Dignite Studios",
-    url: "https://www.dignitestudios.com/technologies/cross-platform-app-development",
+    url: "https://www.dignitestudios.com/technologies/ai-automation-services",
     logo: "https://www.dignitestudios.com/logo.webp",
-    sameAs: [
-      "https://www.facebook.com/dignitestudios",
-      "https://www.linkedin.com/company/dignitestudios",
-      "https://twitter.com/dignitestudios",
-    ],
   },
-  serviceType: "Cross Platform App Development",
+  serviceType: "AI Automation Services",
   areaServed: "Worldwide",
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Cross Platform Development Offerings",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Application Architecture & Planning",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "UI/UX Design",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "App Testing & Quality Assurance",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Deployment & Store Support",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "App Modernization & Upgrades",
-        },
-      },
-    ],
-  },
-  url: "https://www.dignitestudios.com/technologies/cross-platform-app-development",
-  mainEntityOfPage:
-    "https://www.dignitestudios.com/technologies/cross-platform-app-development",
+  url: "https://www.dignitestudios.com/technologies/ai-automation-services",
 };
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id":
+    "https://www.dignitestudios.com/technologies/ai-automation-services/#breadcrumb",
   itemListElement: [
     {
       "@type": "ListItem",
@@ -111,8 +69,8 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "Cross‑Platform App Development",
-      item: "https://www.dignitestudios.com/technologies/cross-platform-app-development",
+      name: "AI Automation",
+      item: "https://www.dignitestudios.com/technologies/ai-automation-services",
     },
   ],
 };
@@ -120,45 +78,47 @@ const breadcrumbSchema = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id":
+    "https://www.dignitestudios.com/technologies/ai-automation-services/#faq",
   mainEntity: [
     {
       "@type": "Question",
-      name: "Do you build scalable cross platform apps?",
+      name: "What can AI automation do for my business?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Our team supports growth, smooth performance and secure integrations. We ensure smooth performance and secure integrations. We try if new features can be added without disturbing the workflow and to make your app stay reliable and increase over time.",
+        text: "AI automation can streamline repetitive tasks, improve data accuracy, enhance customer service through chatbots, and provide deep insights through predictive analytics, allowing your team to focus on high-value work.",
       },
     },
     {
       "@type": "Question",
-      name: "How long does cross-platform app development take?",
+      name: "How much does it cost to implement AI automation?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The time highly depends on the project scope, features, integrations and tests. Most cross platform projects take around three to five months prior launch. More platforms for advanced functionality require more time for better quality and performance in devices it mainly be supported too.",
+        text: "The cost depends on the complexity of the processes being automated and the technologies used. We provide customized quotes after a thorough discovery phase to ensure maximum ROI.",
       },
     },
     {
       "@type": "Question",
-      name: "Do you offer post-launch support?",
+      name: "Is my data secure during AI automation implementation?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. After introducing our app we provide support which includes updates, monitoring of performance, fixing of bugs and feature improvements. Our team stays involved to keep your app secure, improved and compatible with new platform updates for the product to run fluently for users.",
+        text: "Yes, data security is our top priority. We implement robust security protocols, including encryption and strict access controls, to ensure your business data remains secure and compliant with industry standards.",
       },
     },
     {
       "@type": "Question",
-      name: "Can you refine my app idea?",
+      name: "How long does it take to implement an AI automation solution?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely. We work closely with you to shape raw ideas into practical, business ready solutions. Through discovery sessions, planning and user focused design, we help define features, workflows and technology choices which turn your concept into a functional, market ready application.",
+        text: "Implementation timelines vary depending on the scope. A pilot project might take 4-8 weeks, while full-scale enterprise automation can take several months. We follow an agile process to deliver value incrementally.",
       },
     },
     {
       "@type": "Question",
-      name: "Do you work with startups and enterprises?",
+      name: "Do you offer post-implementation support?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. We partner with both early stage startups and established enterprises. Startups benefit from fast, flexible builds, while larger organizations receive scalable, secure systems. Our approach adapts to your goals, budget and growth plans to ensure long term success.",
+        text: "Yes, we provide ongoing maintenance, monitoring, and updates to ensure your AI automation solutions continue to perform optimally as your business grows.",
       },
     },
   ],
@@ -168,20 +128,24 @@ const page = () => {
   return (
     <>
       <script
+        key="professional-service-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(professionalServiceSchema),
         }}
       />
       <script
+        key="service-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <script
+        key="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
+        key="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />

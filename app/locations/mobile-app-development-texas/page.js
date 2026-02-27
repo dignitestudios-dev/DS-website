@@ -47,39 +47,29 @@ const professionalServiceSchema = {
 
 const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
+  "@type": "Service",
   "@id":
-    "https://www.dignitestudios.com/locations/mobile-app-development-texas/#business",
-  name: "Dignite Studios ‑ Mobile App Development Texas",
-  url: "https://www.dignitestudios.com/locations/mobile-app-development-texas",
-  telephone: "+1-877-714-1770",
+    "https://www.dignitestudios.com/locations/mobile-app-development-texas/#service",
+  serviceType: "Mobile App Development",
+  name: "Mobile App Development in Texas",
   description:
-    "Custom mobile app development services in Texas including iOS, Android, and cross-platform solutions for businesses and startups.",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "",
-    addressLocality: "Texas",
-    addressRegion: "TX",
-    postalCode: "",
-    addressCountry: "US",
+    "Custom mobile app development services in Texas including iOS, Android, and cross-platform solutions tailored to your business needs.",
+  provider: {
+    "@type": "ProfessionalService",
+    name: "Dignite Studios",
+    url: "https://www.dignitestudios.com/locations/mobile-app-development-texas",
   },
   areaServed: {
     "@type": "City",
     name: "Texas",
   },
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "09:00",
-      closes: "18:00",
-    },
-  ],
 };
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id":
+    "https://www.dignitestudios.com/locations/mobile-app-development-texas/#breadcrumb",
   itemListElement: [
     {
       "@type": "ListItem",
@@ -105,6 +95,8 @@ const breadcrumbSchema = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id":
+    "https://www.dignitestudios.com/locations/mobile-app-development-texas/#faq",
   mainEntity: [
     {
       "@type": "Question",

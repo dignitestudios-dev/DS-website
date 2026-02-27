@@ -67,6 +67,8 @@ const serviceSchema = {
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id":
+    "https://www.dignitestudios.com/locations/mobile-app-development-miami/#breadcrumb",
   itemListElement: [
     {
       "@type": "ListItem",
@@ -92,6 +94,8 @@ const breadcrumbSchema = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id":
+    "https://www.dignitestudios.com/locations/mobile-app-development-miami/#faq",
   mainEntity: [
     {
       "@type": "Question",

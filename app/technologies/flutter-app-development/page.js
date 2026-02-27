@@ -16,7 +16,8 @@ export const metadata = {
 const professionalServiceSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "@id": "https://www.dignitestudios.com/technologies/flutter-app-development",
+  "@id":
+    "https://www.dignitestudios.com/technologies/flutter-app-development/#business",
   name: "Flutter App Development",
   description:
     "Custom Flutter app development services delivering high-performance cross-platform mobile applications for startups and enterprises.",
@@ -31,6 +32,8 @@ const professionalServiceSchema = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id":
+    "https://www.dignitestudios.com/technologies/flutter-app-development/#service",
   name: "Flutter App Development",
   description:
     "Dignite Studios offers expert Flutter app development services to build high-performance cross-platform mobile applications tailored to business needs.",
@@ -97,6 +100,8 @@ const serviceSchema = {
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id":
+    "https://www.dignitestudios.com/technologies/flutter-app-development/#breadcrumb",
   itemListElement: [
     {
       "@type": "ListItem",
@@ -122,6 +127,8 @@ const breadcrumbSchema = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id":
+    "https://www.dignitestudios.com/technologies/flutter-app-development/#faq",
   mainEntity: [
     {
       "@type": "Question",
