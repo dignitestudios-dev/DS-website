@@ -127,13 +127,13 @@ const faqSchema = {
 const page = () => {
   return (
     <>
-      <script
+      {/* <script
         key="professional-service-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(professionalServiceSchema),
         }}
-      />
+      /> */}
       <script
         key="service-schema"
         type="application/ld+json"

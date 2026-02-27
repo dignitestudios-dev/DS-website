@@ -24,7 +24,7 @@ const professionalServiceSchema = {
     "Custom mobile app development services in Tampa including iOS, Android, and cross-platform solutions tailored to business needs.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Insert Tampa Office Address Here",
+    streetAddress: "Tampa",
     addressLocality: "Tampa",
     addressRegion: "FL",
     postalCode: "Insert ZIP Code",

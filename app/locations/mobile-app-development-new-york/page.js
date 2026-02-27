@@ -23,7 +23,7 @@ const professionalServiceSchema = {
   priceRange: ".",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Your New York Address",
+    streetAddress: "New York",
     addressLocality: "New York",
     addressRegion: "NY",
     postalCode: "10001",

@@ -19,7 +19,7 @@ const professionalServiceSchema = {
     "Mobile app development services in Washington DC, offering custom iOS, Android, and cross-platform mobile solutions for businesses and startups.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Service Area: Washington DC",
+    streetAddress: "Washington DC",
     addressLocality: "Washington",
     addressRegion: "DC",
     addressCountry: "US",

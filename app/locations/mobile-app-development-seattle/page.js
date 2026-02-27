@@ -24,7 +24,7 @@ const professionalServiceSchema = {
     "Mobile app development services in Seattle, offering custom iOS, Android, and cross-platform mobile solutions for businesses and startups.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Service Area: Seattle",
+    streetAddress: "Seattle",
     addressLocality: "Seattle",
     addressRegion: "WA",
     addressCountry: "US",

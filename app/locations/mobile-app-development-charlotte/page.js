@@ -19,7 +19,7 @@ const professionalServiceSchema = {
     "Custom mobile app development services in Charlotte, NC, offering iOS, Android, and cross-platform solutions tailored to your business needs.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Insert Charlotte Office Address Here",
+    streetAddress: "Charlotte",
     addressLocality: "Charlotte",
     addressRegion: "NC",
     postalCode: "Insert ZIP Code",

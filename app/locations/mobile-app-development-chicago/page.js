@@ -24,7 +24,7 @@ const professionalServiceSchema = {
     "Custom mobile app development services in Chicago including iOS, Android, and cross-platform solutions for businesses and startups.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Insert Chicago Office Address Here",
+    streetAddress: "Chicago",
     addressLocality: "Chicago",
     addressRegion: "IL",
     postalCode: "Insert ZIP Code",

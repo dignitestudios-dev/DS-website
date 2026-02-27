@@ -24,7 +24,7 @@ const professionalServiceSchema = {
     "Custom mobile app development services in Boston, offering iOS, Android, and cross-platform solutions tailored to your business needs.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Insert Boston Office Address Here",
+    streetAddress: "Boston",
     addressLocality: "Boston",
     addressRegion: "MA",
     postalCode: "Insert ZIP Code",

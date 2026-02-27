@@ -24,7 +24,7 @@ const professionalServiceSchema = {
     "Custom mobile app development services in Miami including iOS, Android, and cross-platform solutions for businesses and startups.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Your Miami Office Address",
+    streetAddress: "Miami",
     addressLocality: "Miami",
     addressRegion: "FL",
     postalCode: "Enter ZIP Code",

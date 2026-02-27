@@ -24,7 +24,7 @@ const professionalServiceSchema = {
     "Custom mobile app development services in California including iOS, Android, and cross-platform solutions for startups and enterprises.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Your California Office Address",
+    streetAddress: "California",
     addressLocality: "California",
     addressRegion: "CA",
     postalCode: "Enter ZIP Code",

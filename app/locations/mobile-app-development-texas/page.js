@@ -25,7 +25,7 @@ const professionalServiceSchema = {
     "Custom mobile app development services in Texas including iOS, Android, and cross-platform solutions for businesses and startups.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "",
+    streetAddress: "Texas",
     addressLocality: "Texas",
     addressRegion: "TX",
     postalCode: "Enter ZIP Code",
