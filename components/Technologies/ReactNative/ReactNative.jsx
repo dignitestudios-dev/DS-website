@@ -19,7 +19,14 @@ import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
 import TechTools from "../ui/TechTools";
-import { SiFlutter, SiReact, SiSwift, SiKotlin, SiNodedotjs, SiFirebase } from "react-icons/si";
+import {
+  SiFlutter,
+  SiReact,
+  SiSwift,
+  SiKotlin,
+  SiNodedotjs,
+  SiFirebase,
+} from "react-icons/si";
 
 const tech = [
   {
@@ -231,33 +238,33 @@ const faqs = [
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery & Strategy",
-    desc: "Clear goals mean better products. In this phase, we align your business objectives with the app's vision and features.",
+    title: "Planning & Direction",
+    desc: "We describe the project goals, target users and the technical process before the development even starts.",
   },
   {
     step: "02",
-    title: "User Interface Design",
-    desc: "We create preliminary visual mock-ups that exhibit the mobile app's initial design and purpose with user-centric approach.",
+    title: "UI/UX Prototyping",
+    desc: "Our designers create the interactive prototypes through the valid experience quite early.",
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "Sprint planning starts here as our Flutter developers determine the product roadmap and analyze total execution time.",
+    title: "Evolutionary Development Approach",
+    desc: "We plan work in short cycles and deliver features step by step for better quality and control.",
   },
   {
     step: "04",
-    title: "Testing Stage",
-    desc: "Checking at every stage of development is the best way to remove bugs and stay updated with the latest status.",
+    title: "QA Testing",
+    desc: "We test the functionality, performance and security across the devices.",
   },
   {
     step: "05",
-    title: "Deployment",
-    desc: "Deployment is where preparation connects with performance, ensuring smooth operation across iOS and Android platforms.",
+    title: "App Release & Setup",
+    desc: "We launch your app, enable the tracking and support the future updates as required.",
   },
   {
     step: "06",
-    title: "Post-Launch Support",
-    desc: "After launch, we focus on monitoring performance and optimizing features based on user feedback for continuous improvement.",
+    title: "Post Launch Support & Optimization",
+    desc: "We monitor the app’s performance and use the analytics so the features and user experience can be improved.",
   },
 ];
 
@@ -266,7 +273,7 @@ const ReactNative = () => {
     <div className="max-w-screen-2xl w-full gap-20 lg:gap-36 h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-      button={"Talk to Our React Native Experts."}
+        button={"Talk to Our React Native Experts."}
         heading="About Dignite "
         heading2={"Studios"}
         para="Dignite Studios helps startups and enterprises which will give you powerful mobile products. As the reliable react native app development company, we also focus on building the apps which are fast, scalable and quite easy to maintain. Our engineers also understand how the modern business grows and how mobile technology should also support such journeys.
@@ -282,7 +289,7 @@ We don’t just write the code. We also design the solutions which fit the produ
         }
       />
       <Bussiness
-      button={"Get started"}
+        button={"Get started"}
         bs={highlights}
         header={"Best React Native App Development "}
         header2={"Services"}
@@ -304,7 +311,10 @@ We don’t just write the code. We also design the solutions which fit the produ
                   Get Started
                 </h1>
                 <p>
-                  Working with the right team shapes how your product performs and grows. Dignite Studios delivers solutions for brands that need reliability, long term growth and clarity around flutter app development cost from day one.
+                  Working with the right team shapes how your product performs
+                  and grows. Dignite Studios delivers solutions for brands that
+                  need reliability, long term growth and clarity around flutter
+                  app development cost from day one.
                 </p>
                 <Link
                   href={"/contact-us"}
@@ -325,25 +335,31 @@ We don’t just write the code. We also design the solutions which fit the produ
           "Dignite Studios delivers the best react native app development services for the startups and the enterprises focused on building real, long term product value through the quality and transparency.   "
         }
       />
-          <TechTools tech={tech}  header={"React Native Mobile App Development Company "} para={"As the modern react native mobile app development company, we work through the proven tools and the secure architecture to build the fast and reliable products. Our tech stack supports performance, flexibility and the long term growth across the platforms. "} />
-   
-            <CTA />
-      {/* <Process
-        steps={PROCESS_STEPS}
-        header={"Proven Flutter App"}
-        header2={"Development Process"}
+      <TechTools
+        tech={tech}
+        header={"React Native Mobile App Development Company "}
         para={
-          "Every app has a story. At our flutter app development company, we follow a structured approach that brings your idea to life with clarity and technical excellence."
+          "As the modern react native mobile app development company, we work through the proven tools and the secure architecture to build the fast and reliable products. Our tech stack supports performance, flexibility and the long term growth across the platforms. "
         }
-      /> */}
-        <Industries
- VALUE_PROPOSITION={VALUE_PROPOSITION}
- header={"React Native Solutions Across"}
- header2={"Industries"}
- para={
-   "We build mobile products for businesses that operate in the fast moving, user driven markets. Our team understands how different industries work and designs React Native apps that balance usability, compliance and long term performance. "
- }
-/>
+      />
+
+      <CTA />
+      <Process
+        steps={PROCESS_STEPS}
+        header={"Reliable React Native Mobile App Development"}
+        header2={"Services Process"}
+        para={
+          "Our delivery model follows the structured mobile app development process which keeps projects transparent and predictable. As the professional react native custom app development company, we align every phase through your product goals and timeline. "
+        }
+      />
+      <Industries
+        VALUE_PROPOSITION={VALUE_PROPOSITION}
+        header={"React Native Solutions Across"}
+        header2={"Industries"}
+        para={
+          "We build mobile products for businesses that operate in the fast moving, user driven markets. Our team understands how different industries work and designs React Native apps that balance usability, compliance and long term performance. "
+        }
+      />
       <MobileApp
         header={"Business Growth with"}
         button={"Talk to an Expert"}
@@ -360,7 +376,6 @@ We don’t just write the code. We also design the solutions which fit the produ
           "See how our react native app development company turns the real challenges into the high performing products through the smart design, solid engineering and measurable results which help businesses to grow quite faster and stronger. "
         }
       />
-
 
       {/* <SEO /> */}
       <Testimonials

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import React from "react";
+import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 
@@ -10,24 +11,33 @@ const Hero = () => {
     <div className="w-full grid grid-cols-1  justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] capitalize lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          Discover expert App Development Services in Tampa designed for {" "}
+          Discover expert App Development Services in Tampa designed for{" "}
           <span className="text-[#F15C20] text-nowrap">startups</span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          Startups have a hard time finding a mobile app development company in Tampa that can be trusted. But we’ve got your back. We’re the team building mobile apps that are easy to use and designed to solve operational challenges.
+          Startups have a hard time finding a mobile app development company in
+          Tampa that can be trusted. But we’ve got your back. We’re the team
+          building mobile apps that are easy to use and designed to solve
+          operational challenges.
         </p>
 
-        <div className="flex items-center group justify-center ">
+        <Link
+          href="/contact-us"
+          className="flex items-center group justify-center "
+        >
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
             Discuss Your Idea
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
           </button>
-        </div>
+        </Link>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img src="/location/mobile-tampa/grad.png" className="absolute left-[50%] lg:block hidden translate-x-[-50%] -top-[20%] -z-0"  />
+        <img
+          src="/location/mobile-tampa/grad.png"
+          className="absolute left-[50%] lg:block hidden translate-x-[-50%] -top-[20%] -z-0"
+        />
         <motion.img
           src="/location/mobile-tampa/mob.png"
           alt="bg"
@@ -55,7 +65,7 @@ const Hero = () => {
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>
-     <Platforms/>
+        <Platforms />
       </div>
     </div>
   );

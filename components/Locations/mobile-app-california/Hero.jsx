@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
@@ -22,14 +23,17 @@ const Hero = () => {
           developers in California.
         </p>
 
-        <div className="flex items-center group justify-center ">
+        <Link
+          href="/contact-us"
+          className="flex items-center group justify-center "
+        >
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
             Book a Free Consultation
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
           </button>
-        </div>
+        </Link>
       </div>
       <div className="w-[80%] mx-auto z-10 flex justify-center mt-20 md:-mt-10 relative">
         <Image

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import React from "react";
+import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 
@@ -10,10 +11,8 @@ const Hero = () => {
     <div className="w-full grid grid-cols-1  justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[75%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] capitalize lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          Flexible Mobile App Development Specialists with  Cross Platform{" "}
-          <span className="text-[#F15C20] ">
-           App Development Services
-          </span>{" "}
+          Flexible Mobile App Development Specialists with Cross Platform{" "}
+          <span className="text-[#F15C20] ">App Development Services</span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
           Dignite Studios delivers high performance cross platform app
@@ -22,14 +21,17 @@ const Hero = () => {
           goal focused mobile solutions.
         </p>
 
-        <div className="flex items-center group justify-center ">
+        <Link
+          href="/contact-us"
+          className="flex items-center group justify-center "
+        >
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
             Get the Free Platform App Consultation
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
           </button>
-        </div>
+        </Link>
       </div>
       <div className="relative w-full h-[250px] lg:h-[550px]  my-10 flex items-center justify-center">
         <div className="absolute top-0 left-0 w-full flex justify-center z-20">

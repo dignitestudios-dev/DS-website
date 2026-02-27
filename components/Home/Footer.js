@@ -90,6 +90,10 @@ const Footer = () => {
         name: "Cross Platform App Development",
         href: "/technologies/cross-platform-app-development",
       },
+      {
+        name: "Ai Automation",
+        href: "/technologies/ai-automation-services",
+      },
     ],
     quickLinks: [
       { name: "About us", href: "/about-us" },

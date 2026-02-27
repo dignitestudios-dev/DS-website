@@ -19,7 +19,14 @@ import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
 import TechTools from "../ui/TechTools";
-import { SiFlutter, SiReact, SiSwift, SiKotlin, SiNodedotjs, SiFirebase } from "react-icons/si";
+import {
+  SiFlutter,
+  SiReact,
+  SiSwift,
+  SiKotlin,
+  SiNodedotjs,
+  SiFirebase,
+} from "react-icons/si";
 
 const tech = [
   {
@@ -64,31 +71,36 @@ const services = [
     icon: "database",
     icon2: "database1",
     title: "Native Flutter App Development",
-    description: "We build fast and reliable apps using Flutter with strong architecture and consistent performance across platforms.",
+    description:
+      "We build fast and reliable apps using Flutter with strong architecture and consistent performance across platforms.",
   },
   {
     icon: "setting",
     icon2: "setting2",
     title: "Enterprise Flutter Solutions",
-    description: "Our teams design scalable Flutter solutions which integrate with business workflows and secure backend services.",
+    description:
+      "Our teams design scalable Flutter solutions which integrate with business workflows and secure backend services.",
   },
   {
     icon: "pipe",
     icon2: "pipe3",
     title: "UI/UX Design for Flutter",
-    description: "We design user friendly interfaces focused on transparency, smooth navigation and exciting experiences.",
+    description:
+      "We design user friendly interfaces focused on transparency, smooth navigation and exciting experiences.",
   },
   {
     icon: "icon",
     icon2: "icon4",
     title: "API & Third Party Integrations",
-    description: "Our engineers combine Flutter apps with cloud platforms, analytics, CRMs and payment systems.",
+    description:
+      "Our engineers combine Flutter apps with cloud platforms, analytics, CRMs and payment systems.",
   },
   {
     icon: "pen",
     icon2: "pen5",
     title: "Testing & Maintenance",
-    description: "We ensure performance, stability and updates as your product grows. Our solutions are built for businesses which need flexibility, speed and measurable results.",
+    description:
+      "We ensure performance, stability and updates as your product grows. Our solutions are built for businesses which need flexibility, speed and measurable results.",
   },
 ];
 
@@ -118,7 +130,6 @@ const highlights = [
     desc: "Thorough testing for the reliable performance.",
   },
 ];
-
 
 const VALUE_PROPOSITION = [
   {
@@ -228,33 +239,33 @@ const faqs = [
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery & Strategy",
-    desc: "Clear goals mean better products. In this phase, we align your business objectives with the app's vision and features.",
+    title: "Planning & Direction",
+    desc: "We describe the project goals, target users and the technical process before the development even starts.",
   },
   {
     step: "02",
-    title: "User Interface Design",
-    desc: "We create preliminary visual mock-ups that exhibit the mobile app's initial design and purpose with user-centric approach.",
+    title: "UI/UX Prototyping",
+    desc: "Our designers create the interactive prototypes through the valid experience quite early.",
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "Sprint planning starts here as our Flutter developers determine the product roadmap and analyze total execution time.",
+    title: "Evolutionary Development Approach",
+    desc: "We plan work in short cycles and deliver features step by step for better quality and control.",
   },
   {
     step: "04",
-    title: "Testing Stage",
-    desc: "Checking at every stage of development is the best way to remove bugs and stay updated with the latest status.",
+    title: "QA Testing",
+    desc: "We test the functionality, performance and security across the devices.",
   },
   {
     step: "05",
-    title: "Deployment",
-    desc: "Deployment is where preparation connects with performance, ensuring smooth operation across iOS and Android platforms.",
+    title: "App Release & Setup",
+    desc: "We launch your app, enable the tracking and support the future updates as required.",
   },
   {
     step: "06",
-    title: "Post-Launch Support",
-    desc: "After launch, we focus on monitoring performance and optimizing features based on user feedback for continuous improvement.",
+    title: "Post Launch Support & Optimization",
+    desc: "We monitor the app’s performance and use the analytics so the features and user experience can be improved.",
   },
 ];
 
@@ -278,7 +289,7 @@ const FlutterDev = () => {
         }
       />
       <Bussiness
-      button={"Get started"}
+        button={"Get started"}
         bs={highlights}
         header={"Reasons to Trust Our Top Flutter App "}
         header2={"Development Services"}
@@ -300,7 +311,10 @@ const FlutterDev = () => {
                   Get Started
                 </h1>
                 <p>
-                  Working with the right team shapes how your product performs and grows. Dignite Studios delivers solutions for brands that need reliability, long term growth and clarity around flutter app development cost from day one.
+                  Working with the right team shapes how your product performs
+                  and grows. Dignite Studios delivers solutions for brands that
+                  need reliability, long term growth and clarity around flutter
+                  app development cost from day one.
                 </p>
                 <Link
                   href={"/contact-us"}
@@ -321,27 +335,35 @@ const FlutterDev = () => {
           "Working with the right team shapes how your product performs and grows. Dignite studios delivers the best solutions for brands that need reliability and long term growth and clarity around flutter app development cost from the day one. "
         }
       />
-          <TechTools tech={tech}  header={"Tools and technologies used by Our Flutter Mobile App Development Company "} para={"Dignite Studios works as the secure and performance focused on the flutter mobile app development company building the clean, scalable architectures for the modern mobile products. Our engineers combine the flutter through the reliable backend systems to deliver the apps which stay fast, compliant and ready for growth. We design the integrations which support the business expansion meanwhile maintaining the stability, security and the platform standards across the ecosystems. "} />
-   
-            <CTA />
-      {/* <Process
+      <TechTools
+        tech={tech}
+        header={
+          "Tools and technologies used by Our Flutter Mobile App Development Company "
+        }
+        para={
+          "Dignite Studios works as the secure and performance focused on the flutter mobile app development company building the clean, scalable architectures for the modern mobile products. Our engineers combine the flutter through the reliable backend systems to deliver the apps which stay fast, compliant and ready for growth. We design the integrations which support the business expansion meanwhile maintaining the stability, security and the platform standards across the ecosystems. "
+        }
+      />
+
+      <CTA />
+      <Process
         steps={PROCESS_STEPS}
         header={"Proven Flutter App"}
         header2={"Development Process"}
         para={
           "Every app has a story. At our flutter app development company, we follow a structured approach that brings your idea to life with clarity and technical excellence."
         }
-      /> */}
-        <Industries
- VALUE_PROPOSITION={VALUE_PROPOSITION}
- header={"Industry Focused"}
- header2={"Flutter Solutions"}
- para={
-   "We design top Flutter solutions across multiple business sectors with performance and compliance in mind."
- }
-/>
+      />
+      <Industries
+        VALUE_PROPOSITION={VALUE_PROPOSITION}
+        header={"Industry Focused"}
+        header2={"Flutter Solutions"}
+        para={
+          "We design top Flutter solutions across multiple business sectors with performance and compliance in mind."
+        }
+      />
       <MobileApp
-      button={"Talk to an Expert"}
+        button={"Talk to an Expert"}
         header={"Business Growth"}
         header2={"with Flutter"}
         para={
@@ -356,7 +378,6 @@ const FlutterDev = () => {
           "Built by the top flutter app development company, these projects show how smart execution, clean design and scalable engineering help businesses improve performance, user engagement and long term product growth across industries."
         }
       />
-
 
       {/* <SEO /> */}
       <Testimonials
