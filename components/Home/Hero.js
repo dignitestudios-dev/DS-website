@@ -19,15 +19,15 @@ const img = [
 ];
 const Hero = () => {
   return (
-    <div className="w-full overflow-hidden  max-w-screen-2xl mx-auto flex flex-col pt-12 pb-20 gap-4 justify-start items-center ">
-      <Image
+    <div className="w-full relative z-10 bg-[url('/home-hero/grad.webp')] -mt-40 bg-cover -mb-40 bg-center bg-no-repeat  max-w-screen-2xl mx-auto flex flex-col  h-auto md:max-h-[170vh]  pt-44 pb-[50%] md:pb-[40vh]  gap-4 justify-start items-center ">
+      {/* <Image
         loader={customLoader}
         src="/home-hero/grad.webp"
         alt=""
         fill
         priority
-        className="absolute z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover w-full h-[900px] md:max-h-[170vh] object-cover"
-      />
+        className="absolute z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover w-full h-screen md:max-h-[170vh] object-cover"
+      /> */}
       <Image
         loader={customLoader}
         src="/home-hero/l1.webp "
