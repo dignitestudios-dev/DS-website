@@ -10,25 +10,25 @@ const CTA = ({
   btn = "Discuss Your App Idea",
 }) => {
   return (
-    <div className="w-[95%] lg:w-[80%] text-white bg-[url('/location/mobile-boston/s-cta.png')] bg-cover bg-center hover:scale-105 transition-all ease-linear relative md:px-36 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
-      <div className="flex items-center">
-        <div className="hidden lg:block lg:w-[40%]">
+    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:bg-[url('/ecommerce/shopify-app/s-cta.png')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10  md:my-0 py-14 mx-auto overflow-hidden ">
+      <div className="flex items-center  h-full justify-center">
+        <div className="hidden lg:block absolute top-24 left-[55%] -translate-x-1/2 w-full">
           <motion.img
-            src="/location/mobile-boston/cta-m.png"
+            src="/ecommerce/shopify-app/sides.png"
             alt="cta-mobile"
-            className="-mb-20"
+            className=" "
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           />
         </div>
-        <div className="w-full lg:w-[60%]">
-          <h2 className="text-5xl capitalize font-bold mb-4">{header}</h2>
+        <div className="w-full lg:w-[60%] relative z-30 text-center">
+          <h2 className="text-4xl md:text-5xl capitalize font-bold mb-4">{header}</h2>
           <p>{para}</p>
           <Link
             href="/contact-us"
-            className="flex items-center group justify-start  pt-4"
+            className="flex items-center group justify-center  pt-4"
           >
             <button
               type="submit"

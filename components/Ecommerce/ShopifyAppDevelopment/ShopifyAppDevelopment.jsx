@@ -37,6 +37,7 @@ import ContactUs from "../ui/ContactUs";
 import WhyChoose from "../ui/WhyChoose";
 import TechTools from "../ui/TechTools";
 import Features from "../ui/Features";
+import CTA2 from "./CTA2";
 
 const services = [
   {
@@ -571,7 +572,13 @@ Our team works with the startups and the large brands. Across the retail DTC and
           "We have delivered successful Shopify apps that improved store performance and business growth. Our projects show how structured app solutions help businesses scale efficiently. Explore more on our Portfolio Case Studies page."
         }
       />
-
+      <CTA2
+        header={"Ready to Scale with Expert Shopify Solutions?"}
+        para={
+          "Take your eCommerce store to the next level with our tailored shopify app development services designed to boost performance, streamline operations, and enhance customer experience."
+        }
+        btn={"Request Shopify App Development Quote"}
+      />
       {/* <SEO  header={"Focused Mobile Application Development Boston"} para={"Choosing the right partner in Boston can completely change the way your app performs in a competitive market."}/> */}
       <Testimonials
         test={test}

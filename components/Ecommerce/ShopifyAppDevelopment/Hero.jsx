@@ -15,7 +15,8 @@ const Hero = ({
   btn = "Discuss Your App Idea",
 }) => {
   return (
-    <div className="w-full grid grid-cols-1  justify-start items-start ">
+    <div className="w-full grid grid-cols-1 bg-[url('/ecommerce/shopify-app/grad.webp')] bg-cover bg-center bg-no-repeat  justify-start items-start ">
+      
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
           {header}
@@ -35,15 +36,8 @@ const Hero = ({
           </button>
         </Link>
       </div>
-      <div className="relative flex justify-center items-center my-12 ">
-        <Image
-          loader={customLoader}
-          src="/ecommerce/shopify-app/grad.webp"
-          alt=""
-          fill
-          priority
-          className="absolute left-[50%] translate-x-[-50%] -top-24 -z-0 object-contain"
-        />
+      <div className="relative flex  justify-center items-center my-12 ">
+     
         <motion.div
           className="relative"
           initial={{ y: 80, opacity: 0 }}
@@ -54,33 +48,30 @@ const Hero = ({
             ease: "easeOut",
           }}
         >
-          <Image
-            loader={customLoader}
-            src="/location/mobile-boston/mob.png"
-            alt="Mobile app development showcase Boston"
-            width={300}
-            height={300}
+          <img
+            src="/ecommerce/shopify-app/laptop.png"
+            alt="Shpify laptop"
+            width={900}
+            height={900}
             priority
             className="object-cover"
           />
         </motion.div>
-        <Image
-          loader={customLoader}
-          src="/location/mobile-boston/r.png"
+        <img
+          src="/ecommerce/shopify-app/sh-icon.png"
           alt=""
           width={150}
           height={150}
-          className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
+          className="absolute top-[10%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
         />
-        <Image
-          loader={customLoader}
-          src="/location/mobile-boston/l.png"
+        <img
+          src="/ecommerce/shopify-app/sh2.png"
           alt=""
           width={150}
           height={150}
-          className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"
+          className="absolute top-[30%] lg:block hidden left-[0%] md:left-[22%] translate-x-[-50%]"
         />
-        <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
+        <div className="absolute -bottom-32  left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>
         <Platforms />

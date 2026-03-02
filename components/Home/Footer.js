@@ -1,14 +1,21 @@
 "use client";
 
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import Link from "next/link";
 import { GlobalContext } from "@/context/GlobalContext";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
+import { IoIosArrowDown } from "react-icons/io";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Footer = () => {
   const { palette } = useContext(GlobalContext);
+  const [openSections, setOpenSections] = useState({});
+
+  const toggleSection = (section) => {
+    setOpenSections(prev => ({ ...prev, [section]: !prev[section] }));
+  };
 
   const footerLinks = {
     services: [
@@ -223,173 +230,200 @@ const Footer = () => {
         <div className="flex flex-col gap-12 pt-8 z-10">
           {/* Services */}
           <div className="flex flex-col items-center text-center">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
+            <button
+              onClick={() => toggleSection('services')}
+              className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
+            >
               Services
-            </h3>
-            <ul className="flex flex-col items-center gap-1">
-              {footerLinks.services.map((link, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+              <IoIosArrowDown className={`transition-transform ${openSections.services ? 'rotate-180' : ''}`} />
+            </button>
+            <AnimatePresence>
+              {openSections.services && (
+                <motion.ul 
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col items-center gap-1 overflow-hidden"
+                >
+                  {footerLinks.services.map((link, idx) => (
+                    <li key={idx}>
+                      <Link
+                        href={link.href}
+                        className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      >
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </motion.ul>
+              )}
+            </AnimatePresence>
           </div>
 
           {/* Technology */}
           <div className="flex flex-col items-center text-center">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
+            <button
+              onClick={() => toggleSection('technology')}
+              className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
+            >
               Technology
-            </h3>
-            <ul className="flex flex-col items-center gap-1">
-              {footerLinks.technology.map((link, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+              <IoIosArrowDown className={`transition-transform ${openSections.technology ? 'rotate-180' : ''}`} />
+            </button>
+            <AnimatePresence>
+              {openSections.technology && (
+                <motion.ul 
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col items-center gap-1 overflow-hidden"
+                >
+                  {footerLinks.technology.map((link, idx) => (
+                    <li key={idx}>
+                      <Link
+                        href={link.href}
+                        className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      >
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </motion.ul>
+              )}
+            </AnimatePresence>
           </div>
 
           {/* Quick Links */}
           <div className="flex flex-col items-center text-center">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
+            <button
+              onClick={() => toggleSection('quickLinks')}
+              className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
+            >
               Quick Links
-            </h3>
-            <ul className="flex flex-col items-center gap-1">
-              {footerLinks.quickLinks.map((link, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+              <IoIosArrowDown className={`transition-transform ${openSections.quickLinks ? 'rotate-180' : ''}`} />
+            </button>
+            <AnimatePresence>
+              {openSections.quickLinks && (
+                <motion.ul 
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col items-center gap-1 overflow-hidden"
+                >
+                  {footerLinks.quickLinks.map((link, idx) => (
+                    <li key={idx}>
+                      <Link
+                        href={link.href}
+                        className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      >
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </motion.ul>
+              )}
+            </AnimatePresence>
           </div>
-
-          {/* Industries */}
-          {/* <div className="flex flex-col items-center text-center">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
-              Industries
-            </h3>
-            <ul className="flex flex-col items-center gap-1">
-              {footerLinks.industries.map((link, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div> */}
-
-          {/* State */}
-          {/* <div className="flex flex-col items-center text-center">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
-              State
-            </h3>
-            <ul className="flex flex-col items-center gap-1">
-              {footerLinks.state.map((link, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div> */}
-
-          {/* Ecommerce */}
-          {/* <div className="flex flex-col items-center text-center">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
-              Ecommerce
-            </h3>
-            <ul className="flex flex-col items-center gap-1">
-              {footerLinks.ecommerce.map((link, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div> */}
 
           {/* Support */}
           <div className="flex flex-col items-center text-center">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
+            <button
+              onClick={() => toggleSection('support')}
+              className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
+            >
               Support
-            </h3>
-            <ul className="flex flex-col items-center gap-1">
-              {footerLinks.support.map((link, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+              <IoIosArrowDown className={`transition-transform ${openSections.support ? 'rotate-180' : ''}`} />
+            </button>
+            <AnimatePresence>
+              {openSections.support && (
+                <motion.ul 
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col items-center gap-1 overflow-hidden"
+                >
+                  {footerLinks.support.map((link, idx) => (
+                    <li key={idx}>
+                      <Link
+                        href={link.href}
+                        className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      >
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </motion.ul>
+              )}
+            </AnimatePresence>
           </div>
 
           {/* Location */}
           <div className="flex flex-col items-center text-center">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
+            <button
+              onClick={() => toggleSection('location')}
+              className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
+            >
               Locations
-            </h3>
-            <ul className="flex flex-col items-center gap-1">
-              {footerLinks.location.map((link, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+              <IoIosArrowDown className={`transition-transform ${openSections.location ? 'rotate-180' : ''}`} />
+            </button>
+            <AnimatePresence>
+              {openSections.location && (
+                <motion.ul 
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col items-center gap-1 overflow-hidden"
+                >
+                  {footerLinks.location.map((link, idx) => (
+                    <li key={idx}>
+                      <Link
+                        href={link.href}
+                        className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      >
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </motion.ul>
+              )}
+            </AnimatePresence>
           </div>
 
           {/* Connect With Us */}
           <div className="flex flex-col items-center text-center">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3">
+            <button
+              onClick={() => toggleSection('connect')}
+              className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
+            >
               Connect With Us
-            </h3>
-            <ul className="flex flex-col items-center gap-1">
-              {footerLinks.connect.map((link, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+              <IoIosArrowDown className={`transition-transform ${openSections.connect ? 'rotate-180' : ''}`} />
+            </button>
+            <AnimatePresence>
+              {openSections.connect && (
+                <motion.ul 
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col items-center gap-1 overflow-hidden"
+                >
+                  {footerLinks.connect.map((link, idx) => (
+                    <li key={idx}>
+                      <Link
+                        href={link.href}
+                        className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      >
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </motion.ul>
+              )}
+            </AnimatePresence>
           </div>
         </div>
 

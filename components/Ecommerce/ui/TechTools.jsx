@@ -31,6 +31,8 @@ import {
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { RiCloudLine } from "react-icons/ri";
+import Link from "next/link";
+import { MdArrowOutward } from "react-icons/md";
 
 const techData = {
   Frontend: [
@@ -196,7 +198,7 @@ const techData = {
 
 const categories = Object.keys(techData);
 
-const TechTools = ({ header, para, tech }) => {
+const TechTools = ({ header, para, tech, button }) => {
   return (
     <section
       className="
@@ -213,7 +215,46 @@ const TechTools = ({ header, para, tech }) => {
         </h2>
         <p className=" mx-auto mb-16">{para}</p>
 
-        <div className="flex flex-wrap justify-center gap-6 min-h-[500px]">
+        {/* Mobile Swiper (hidden on md and above) */}
+        <div className="block md:hidden pb-10">
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            spaceBetween={20}
+            slidesPerView={1.2}
+            centeredSlides={true}
+            loop={true}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            pagination={{ clickable: true }}
+            className="tech-tools-swiper"
+          >
+            {tech?.map((t, idx) => (
+              <SwiperSlide key={`${t.name}-${idx}`}>
+                <div className="pb-8">
+                  <TechCard tech={t} />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <style jsx global>{`
+            .tech-tools-swiper .swiper-pagination-bullet {
+              background: #d1d5db;
+              opacity: 1;
+              width: 8px;
+              height: 8px;
+            }
+            .tech-tools-swiper .swiper-pagination-bullet-active {
+              background: #f15c20 !important;
+              width: 20px;
+              border-radius: 10px;
+            }
+            .tech-tools-swiper .swiper-pagination {
+              bottom: 0px !important;
+            }
+          `}</style>
+        </div>
+
+        {/* Desktop View (hidden on mobile) */}
+        <div className="hidden md:flex flex-wrap justify-center gap-6 min-h-[500px]">
           <AnimatePresence mode="popLayout">
             {tech?.map((t, idx) => (
               <div key={`${t.name}-${idx}`} className="w-[280px]">
@@ -222,6 +263,20 @@ const TechTools = ({ header, para, tech }) => {
             ))}
           </AnimatePresence>
         </div>
+
+        {/* <div className="flex justify-center mt-12 mb-4 p-4">
+          <Link
+            href={"/contact-us"}
+            className="flex items-center group justify-center w-fit"
+          >
+            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+              {button ? button : " Talk to our California-based team"}
+            </button>
+            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+              <MdArrowOutward />
+            </button>
+          </Link>
+        </div> */}
       </div>
     </section>
   );
