@@ -88,7 +88,7 @@ const WhyChoose = ({
                 {/* Title */}
                 <h3
                   className={`
-                  text-[22px] md:pr-24 font-bold mb-16 transition-colors duration-300
+                  text-[22px] md:pr-24 font-bold  transition-colors duration-300
                   ${hoveredCard === index ? "mb-0" : "mb-16"}
                  
                 `}
