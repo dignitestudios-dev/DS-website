@@ -16,7 +16,6 @@ const Hero = ({
 }) => {
   return (
     <div className="w-full grid grid-cols-1 bg-[url('/ecommerce/shopify-app/grad.webp')] bg-cover bg-center bg-no-repeat  justify-start items-start ">
-      
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
           {header}
@@ -37,7 +36,6 @@ const Hero = ({
         </Link>
       </div>
       <div className="relative flex  justify-center items-center my-12 ">
-     
         <motion.div
           className="relative"
           initial={{ y: 80, opacity: 0 }}
@@ -54,22 +52,48 @@ const Hero = ({
             width={900}
             height={900}
             priority
-            className="object-cover"
+            className="object-cover md:block hidden"
+          />
+          <img
+            src="/ecommerce/shopify-app/mob.png"
+            alt="Shpify laptop"
+            width={250}
+            height={250}
+            priority
+            className="object-cover md:hidden block"
           />
         </motion.div>
-        <img
+        <motion.img
           src="/ecommerce/shopify-app/sh-icon.png"
           alt=""
           width={150}
           height={150}
-          className="absolute top-[10%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
+          className="absolute top-[10%] w-24 md:w-32  left-[75%] md:left-[75%] translate-x-[-50%]"
+          animate={{
+            y: [0, -20, 0],
+            rotate: [0, 5, 0],
+          }}
+          transition={{
+            duration: 5,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
         />
-        <img
+        <motion.img
           src="/ecommerce/shopify-app/sh2.png"
           alt=""
           width={150}
           height={150}
-          className="absolute top-[30%] lg:block hidden left-[0%] md:left-[22%] translate-x-[-50%]"
+          className="absolute top-[60%] w-24 md:w-32 left-[2%] md:left-[16%] translate-x-[-50%]"
+          animate={{
+            y: [0, 20, 0],
+            rotate: [0, -5, 0],
+          }}
+          transition={{
+            duration: 6,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
         />
         <div className="absolute -bottom-32  left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>

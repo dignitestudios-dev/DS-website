@@ -14,7 +14,7 @@ const Footer = () => {
   const [openSections, setOpenSections] = useState({});
 
   const toggleSection = (section) => {
-    setOpenSections(prev => ({ ...prev, [section]: !prev[section] }));
+    setOpenSections((prev) => ({ ...prev, [section]: !prev[section] }));
   };
 
   const footerLinks = {
@@ -120,16 +120,18 @@ const Footer = () => {
     // state: [
 
     // ],
-    // ecommerce: [
-    //   { name: "Shopify Development", href: "#" },
-    //   { name: "Shopify App Development", href: "#" },
-    //   { name: "Shopify Migration", href: "#" },
-    //   { name: "Shopify integration", href: "#" },
-    //   { name: "WooCommerce", href: "#" },
-    //   { name: "WooCommerce Development", href: "#" },
-    //   { name: "BigCommerce", href: "#" },
-    //   { name: "BigCommerce Development", href: "#" },
-    // ],
+    ecommerce: [
+      {
+        name: "Shopify App Development",
+        href: "/ecommerce/shopify-app-development",
+      },
+      // { name: "Shopify Multi-Store Development", href: "#" },
+      // { name: "Shopify Theme Development", href: "#" },
+      // { name: "Shopify Plus Development", href: "#" },
+      // { name: "Shopify Hydrogen Development", href: "#" },
+      // { name: "Shopify Migration Services", href: "#" },
+      // { name: "Headless Ecommerce Development", href: "#" },
+    ],
     support: [
       { name: "Testimonials", href: "/#testimonials" },
       { name: "FAQS", href: "/#faqs" },
@@ -231,15 +233,17 @@ const Footer = () => {
           {/* Services */}
           <div className="flex flex-col items-center text-center">
             <button
-              onClick={() => toggleSection('services')}
+              onClick={() => toggleSection("services")}
               className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
             >
               Services
-              <IoIosArrowDown className={`transition-transform ${openSections.services ? 'rotate-180' : ''}`} />
+              <IoIosArrowDown
+                className={`transition-transform ${openSections.services ? "rotate-180" : ""}`}
+              />
             </button>
             <AnimatePresence>
               {openSections.services && (
-                <motion.ul 
+                <motion.ul
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
@@ -264,15 +268,17 @@ const Footer = () => {
           {/* Technology */}
           <div className="flex flex-col items-center text-center">
             <button
-              onClick={() => toggleSection('technology')}
+              onClick={() => toggleSection("technology")}
               className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
             >
               Technology
-              <IoIosArrowDown className={`transition-transform ${openSections.technology ? 'rotate-180' : ''}`} />
+              <IoIosArrowDown
+                className={`transition-transform ${openSections.technology ? "rotate-180" : ""}`}
+              />
             </button>
             <AnimatePresence>
               {openSections.technology && (
-                <motion.ul 
+                <motion.ul
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
@@ -294,18 +300,55 @@ const Footer = () => {
             </AnimatePresence>
           </div>
 
+          {/* Ecommerce */}
+          <div className="flex flex-col items-center text-center">
+            <button
+              onClick={() => toggleSection("ecommerce")}
+              className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
+            >
+              Ecommerce
+              <IoIosArrowDown
+                className={`transition-transform ${openSections.ecommerce ? "rotate-180" : ""}`}
+              />
+            </button>
+            <AnimatePresence>
+              {openSections.ecommerce && (
+                <motion.ul
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col items-center gap-1 overflow-hidden"
+                >
+                  {footerLinks.ecommerce.map((link, idx) => (
+                    <li key={idx}>
+                      <Link
+                        href={link.href}
+                        className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      >
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </motion.ul>
+              )}
+            </AnimatePresence>
+          </div>
+
           {/* Quick Links */}
           <div className="flex flex-col items-center text-center">
             <button
-              onClick={() => toggleSection('quickLinks')}
+              onClick={() => toggleSection("quickLinks")}
               className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
             >
               Quick Links
-              <IoIosArrowDown className={`transition-transform ${openSections.quickLinks ? 'rotate-180' : ''}`} />
+              <IoIosArrowDown
+                className={`transition-transform ${openSections.quickLinks ? "rotate-180" : ""}`}
+              />
             </button>
             <AnimatePresence>
               {openSections.quickLinks && (
-                <motion.ul 
+                <motion.ul
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
@@ -330,15 +373,17 @@ const Footer = () => {
           {/* Support */}
           <div className="flex flex-col items-center text-center">
             <button
-              onClick={() => toggleSection('support')}
+              onClick={() => toggleSection("support")}
               className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
             >
               Support
-              <IoIosArrowDown className={`transition-transform ${openSections.support ? 'rotate-180' : ''}`} />
+              <IoIosArrowDown
+                className={`transition-transform ${openSections.support ? "rotate-180" : ""}`}
+              />
             </button>
             <AnimatePresence>
               {openSections.support && (
-                <motion.ul 
+                <motion.ul
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
@@ -363,15 +408,17 @@ const Footer = () => {
           {/* Location */}
           <div className="flex flex-col items-center text-center">
             <button
-              onClick={() => toggleSection('location')}
+              onClick={() => toggleSection("location")}
               className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
             >
               Locations
-              <IoIosArrowDown className={`transition-transform ${openSections.location ? 'rotate-180' : ''}`} />
+              <IoIosArrowDown
+                className={`transition-transform ${openSections.location ? "rotate-180" : ""}`}
+              />
             </button>
             <AnimatePresence>
               {openSections.location && (
-                <motion.ul 
+                <motion.ul
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
@@ -396,15 +443,17 @@ const Footer = () => {
           {/* Connect With Us */}
           <div className="flex flex-col items-center text-center">
             <button
-              onClick={() => toggleSection('connect')}
+              onClick={() => toggleSection("connect")}
               className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
             >
               Connect With Us
-              <IoIosArrowDown className={`transition-transform ${openSections.connect ? 'rotate-180' : ''}`} />
+              <IoIosArrowDown
+                className={`transition-transform ${openSections.connect ? "rotate-180" : ""}`}
+              />
             </button>
             <AnimatePresence>
               {openSections.connect && (
-                <motion.ul 
+                <motion.ul
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
@@ -441,9 +490,9 @@ const Footer = () => {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[.8px]" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 xl:ml-16 gap-x-8 gap-y-12 mb-16 relative z-10">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-12  gap-x-8 gap-y-12 mb-16 relative z-10">
           {/* Logo and Description */}
-          <div className="col-span-2 lg:col-span-2 xl:col-span-2 flex flex-col z-30 py-6">
+          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-3 flex flex-col z-30 py-6">
             <Link href="/">
               <Image
                 loader={customLoader}
@@ -492,7 +541,7 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div className="col-span-1 lg:col-span-2 xl:col-span-2 flex flex-col">
+          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-3 flex flex-col">
             <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
               Services
             </h3>
@@ -509,8 +558,25 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          {/* Technology, Quick Links & Support */}
-          <div className="col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col gap-8">
+          {/* Ecommerce & Technology */}
+          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col gap-8">
+            <div className="flex flex-col">
+              <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+                Ecommerce
+              </h3>
+              <ul className="flex flex-col">
+                {footerLinks.ecommerce.map((link, idx) => (
+                  <li key={idx}>
+                    <Link
+                      href={link.href}
+                      className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="flex flex-col">
               <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
                 Technology
@@ -528,6 +594,29 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
+          </div>
+
+          {/* Locations */}
+          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col">
+            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+              Locations
+            </h3>
+            <ul className="flex flex-col">
+              {footerLinks.location.map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.href}
+                    className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Quick Links, Support & Connect */}
+          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col gap-8">
             <div className="flex flex-col">
               <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
                 Quick Links
@@ -551,27 +640,6 @@ const Footer = () => {
               </h3>
               <ul className="flex flex-col">
                 {footerLinks.support.map((link, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={link.href}
-                      className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Location & Connect */}
-          <div className="col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col gap-8">
-            <div className="flex flex-col">
-              <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
-                Locations
-              </h3>
-              <ul className="flex flex-col">
-                {footerLinks.location.map((link, idx) => (
                   <li key={idx}>
                     <Link
                       href={link.href}

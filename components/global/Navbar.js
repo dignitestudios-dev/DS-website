@@ -45,7 +45,7 @@ const Navbar = ({ setIsOpen }) => {
     { name: "Technology", key: "technology" },
     // { name: "Industries", key: "industries" },
     { name: "Locations", key: "locations" },
-    // { name: "Ecommerce", key: "ecommerce" },
+    { name: "Ecommerce", key: "ecommerce" },
     { name: "Company", key: "company" },
   ];
 
@@ -123,9 +123,7 @@ const Navbar = ({ setIsOpen }) => {
         ],
       },
       {
-        items: [
-          ["Ai Automation", "/technologies/ai-automation-services"],
-        ],
+        items: [["Ai Automation", "/technologies/ai-automation-services"]],
       },
     ],
     industries: [
@@ -176,9 +174,9 @@ const Navbar = ({ setIsOpen }) => {
       {
         image: "/eco-r.png",
         items: [
-          ["Shopify Development", "#"],
-          ["WooCommerce Development", "#"],
-          ["Custom Store Development", "#"],
+          ["Shopify App Development", "/ecommerce/shopify-app-development"],
+          // ["Shopify Multi-Store Development", "#"],
+          // ["Shopify Theme Development", "#"],
         ],
       },
     ],

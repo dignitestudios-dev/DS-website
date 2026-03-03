@@ -11,6 +11,9 @@ import {
   MdNotificationsActive,
   MdAnalytics,
   MdSettingsSuggest,
+  MdAccountBalanceWallet,
+  MdDashboard,
+  MdInventory,
 } from "react-icons/md";
 import Industries from "../ui/Industries";
 import TechAndTools from "../ui/TechTools";
@@ -375,6 +378,18 @@ const featureData = [
     title: "Analytics and Reporting",
     icon: <MdAnalytics />,
   },
+  {
+    title: "Multi Payment Integration",
+    icon: <MdAccountBalanceWallet />,
+  },
+  {
+    title: "User Friendly Dashboard",
+    icon: <MdDashboard />,
+  },
+  {
+    title: "Inventory Management System",
+    icon: <MdInventory />,
+  },
 ];
 
 const techStackData = [
@@ -452,8 +467,9 @@ const ShopifyAppDevelopment = () => {
       <About
         heading="Introduction"
         heading2={""}
-        para="With over 10 years of experience Dignite Studios provides the reliable shopify services. For growing ecommerce businesses. We build the public apps, private apps and the Custom Integrations. It improves the store performance and the user experience. 
-Our team works with the startups and the large brands. Across the retail DTC and marketplaces. As the trusted agency we focus on scalable solutions. It supports long term growth and operations."
+        para={<>
+        With over 10 years of experience Dignite Studios provides the reliable shopify services. For growing ecommerce businesses. We build the public apps, private apps and the Custom Integrations. It improves the store performance and the user experience. <br/> Our team works with the startups and the large brands. Across the retail DTC and marketplaces. As the trusted agency we focus on scalable solutions. It supports long term growth and operations. <br/> We create apps that are easy to manage. Our goal is to help business smoothly and grow faster through the strong and dependable Shopify app solutions which deliver constant results and long term business success.
+        </>}
         button="Talk With Us"
       />
       <Services
@@ -560,6 +576,7 @@ Our team works with the startups and the large brands. Across the retail DTC and
         cards={BENEFITS}
       />
       <Features
+        button={"Get Feature Recommendations. "}
         header="Must Have Features in Shopify"
         header2="App Development Cost"
         para="Modern apps require essential features that improve performance and user experience. Considering the shopify app development cost helps ensure that your app includes everything. It’s needed for growth, scalability and efficient operation. While keeping the budget and value aligned with your business goals."

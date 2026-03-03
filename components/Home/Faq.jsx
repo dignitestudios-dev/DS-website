@@ -53,7 +53,7 @@ const Faq = () => {
             <div
               key={idx}
               onClick={() => handleAccordionClick(idx)}
-              className={`flex flex-col w-full mb-4 py-4 lg:py-14 rounded-l-full  cursor-pointer ${
+              className={`flex flex-col w-full mb-4 py-4 lg:py-14 rounded-l-2xl md:rounded-l-full   cursor-pointer ${
                 theme === "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
               }  ${
                 openAccordion === idx

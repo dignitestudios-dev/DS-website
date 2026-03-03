@@ -9,26 +9,73 @@ const CTA = ({
   para = "Every project started with a simple conversation, and all you need is just a conversation. We help you refine and turn your idea into a working product without confusion or overpromising.",
   btn = "Discuss Your App Idea",
 }) => {
+ const leftIcons = [
+  { src: "/ecommerce/shopify-app/icons/1.png", top: "18%", left: "23%" },
+  { src: "/ecommerce/shopify-app/icons/2.png", top: "52%", left: "16%" },
+  { src: "/ecommerce/shopify-app/icons/3.png", bottom: "19%", left: "8%" },
+  { src: "/ecommerce/shopify-app/icons/4.png", top: "32%", left: "10%" },
+];
+
+const rightIcons = [
+  { src: "/ecommerce/shopify-app/icons/5.png", top: "12%", right: "9%" },
+  { src: "/ecommerce/shopify-app/icons/6.png", top: "48%", right: "9%" },
+  { src: "/ecommerce/shopify-app/icons/7.png", bottom: "20%", right: "16%" },
+  { src: "/ecommerce/shopify-app/icons/8.png", top: "28%", right: "18%" },
+];
+
   return (
-    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:bg-[url('/ecommerce/shopify-app/s-cta.png')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10  md:my-0 py-14 mx-auto overflow-hidden ">
-      <div className="flex items-center  h-full justify-center">
-        <div className="hidden lg:block absolute top-24 left-[55%] -translate-x-1/2 w-full">
-          <motion.img
-            src="/ecommerce/shopify-app/sides.png"
-            alt="cta-mobile"
-            className=" "
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          />
-        </div>
+    <div className="w-[95%] h-[400px] md:h-[550px] lg:w-[80%] text-black md:bg-[url('/ecommerce/shopify-app/s-cta.png')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
+      {/* Floating Icons Left */}
+      {leftIcons.map((icon, idx) => (
+        <motion.div
+          key={`left-${idx}`}
+          className="absolute z-10 hidden lg:block"
+          style={{ top: icon.top, left: icon.left, bottom: icon.bottom }}
+          animate={{
+            y: [0, -15, 0],
+            x: [0, 10, 0],
+            rotate: [0, 5, 0],
+          }}
+          transition={{
+            duration: 4 + idx,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+        >
+          <img src={icon.src} alt="icon" className="w-16 h-16 object-contain" />
+        </motion.div>
+      ))}
+
+      {/* Floating Icons Right */}
+      {rightIcons.map((icon, idx) => (
+        <motion.div
+          key={`right-${idx}`}
+          className="absolute z-10 hidden lg:block"
+          style={{ top: icon.top, right: icon.right, bottom: icon.bottom }}
+          animate={{
+            y: [0, 20, 0],
+            x: [0, -12, 0],
+            rotate: [0, -8, 0],
+          }}
+          transition={{
+            duration: 5 + idx,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+        >
+          <img src={icon.src} alt="icon" className="w-16 h-16 object-contain" />
+        </motion.div>
+      ))}
+
+      <div className="flex items-center h-full justify-center">
         <div className="w-full lg:w-[60%] relative z-30 text-center">
-          <h2 className="text-4xl md:text-5xl capitalize font-bold mb-4">{header}</h2>
+          <h2 className="text-4xl md:text-5xl capitalize font-bold mb-4">
+            {header}
+          </h2>
           <p>{para}</p>
           <Link
             href="/contact-us"
-            className="flex items-center group justify-center  pt-4"
+            className="flex items-center group justify-center pt-4"
           >
             <button
               type="submit"

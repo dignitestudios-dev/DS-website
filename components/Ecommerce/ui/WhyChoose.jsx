@@ -89,6 +89,7 @@ const WhyChoose = ({
                 <h3
                   className={`
                   text-[22px] md:pr-24 font-bold mb-16 transition-colors duration-300
+                  ${hoveredCard === index ? "mb-0" : "mb-16"}
                  
                 `}
                 >
@@ -117,10 +118,10 @@ const WhyChoose = ({
                 <div
                   className={`
                   mt-4 text-sm transition-all duration-300 overflow-hidden
-                  hidden md:block
+                  
                   ${
                     hoveredCard === index
-                      ? "max-h-40 opacity-100 text-[#8F8F8F]"
+                      ? "max-h-52 opacity-100 text-[#8F8F8F]"
                       : "max-h-0 opacity-0"
                   }
                 `}
@@ -129,7 +130,7 @@ const WhyChoose = ({
                 </div>
 
                 {/* Description - Always Shown on Mobile */}
-                <div className=" text-sm mt-3 md:hidden">
+                <div className=" text-sm mt-3 hidden">
                   {feature.description}
                 </div>
               </div>

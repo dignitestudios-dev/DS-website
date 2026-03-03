@@ -41,6 +41,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
   const [state, setState] = useState(false);
   const [technologiesState, setTechnologiesState] = useState(false);
   const [locationsState, setLocationsState] = useState(false);
+  const [ecommerceState, setEcommerceState] = useState(false);
 
   const handleState = () => {
     setState(!state);
@@ -52,6 +53,10 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
 
   const handleLocationsState = () => {
     setLocationsState(!locationsState);
+  };
+
+  const handleEcommerceState = () => {
+    setEcommerceState(!ecommerceState);
   };
 
   return (
@@ -326,6 +331,41 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   className={`hover:text-orange-600 `}
                 >
                   Texas
+                </Link>
+              </div>
+            )}
+          </button>
+
+          <button
+            className={`w-full group text-[14px] hover:text-orange-600 relative gap-4 h-auto font-medium flex flex-col bg-transparent outline-none`}
+          >
+            <div
+              className="w-full flex justify-between items-center"
+              onClick={handleEcommerceState}
+            >
+              <span>Ecommerce</span>
+              <IoIosArrowDown
+                className={`text-md ${
+                  ecommerceState ? "rotate-180" : "rotate-0"
+                } transition-all duration-500`}
+              />
+            </div>
+            {ecommerceState && (
+              <div
+                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition-all duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
+                style={{ color: palette?.color }}
+              >
+                <Link
+                  href="/ecommerce/shopify-app-development"
+                  className={`hover:text-orange-600 `}
+                >
+                  Shopify App Development
+                </Link>
+                <Link href="#" className={`hover:text-orange-600 `}>
+                  Shopify Multi-Store Development
+                </Link>
+                <Link href="#" className={`hover:text-orange-600 `}>
+                  Shopify Theme Development
                 </Link>
               </div>
             )}

@@ -27,6 +27,7 @@ const GlobalLayout = ({ page }) => {
   const [isFocused1, setIsFocused1] = useState(false);
   const [isFocused2, setIsFocused2] = useState(false);
   const [isFocused3, setIsFocused3] = useState(false);
+  const [isTermsExpanded, setIsTermsExpanded] = useState(false);
   const { palette, isSidebarOpen, setIsSidebarOpen } =
     useContext(GlobalContext);
   const { theme, setError, error, success } = useContext(GlobalContext);
@@ -203,20 +204,18 @@ const GlobalLayout = ({ page }) => {
           >
             <div className="side-promo">
               <img
-              
                 width={400}
                 height={540}
-                src="/form-img.png"
+                src="/form-img.webp"
                 alt="popup form image"
                 title="popup form image"
-                className="object-cover"
+                className="object-fill"
               />
             </div>
             <div className="main-promo overflow-y-auto hide-scrollbar">
-              <div className="promo2">
-                <h2 className="heading_promo2">before you leave</h2>
-                <span className="sub_promo2">Sign up now for a free quote</span>
-                <span className="box_promo2">Upto 25% OFF</span>
+              <div className="promo2 text-center  ">
+                <h2 className="text-3xl   capitalize font-extrabold">Get a Free Expert App Consultation  <span className="text-[#F15C20]">Before You Leave</span></h2>
+              
               </div>
               {error && <ContactUsAlert />}
               <span onClick={() => setShowModal(false)} className="close_icon">
@@ -379,26 +378,53 @@ const GlobalLayout = ({ page }) => {
                       id="agree"
                       checked={isAgreed}
                       onChange={handleIsAgreedChange}
-                      className="mt-1 text-base"
+                      className="mt-1 text-base accent-[#F15C20]"
                     />
-                    <p>
-                      By checking this box, I consent to receive SMS messages
-                      from Dignite Studios at the phone number I provided.
-                      Message and data rates may apply. Message frequency may
-                      vary. For assistance, reply HELP or email us at
-                      hello@dignitestudios.com. You may opt out at any time by
-                      replying STOP. See our{" "}
-                      <Link
-                        href="/terms-and-conditions"
-                        className="text-blue-600"
-                      >
-                        Terms & Conditions
-                      </Link>{" "}
-                      and{" "}
-                      <Link href="/privacy-policy" className="text-blue-600">
-                        Privacy Policy
-                      </Link>{" "}
-                      for more details.
+                    <p className="text-xs text-gray-500 leading-tight">
+                      {isTermsExpanded ? (
+                        <>
+                          By checking this box, I consent to receive SMS
+                          messages from Dignite Studios at the phone number I
+                          provided. Message and data rates may apply. Message
+                          frequency may vary. For assistance, reply HELP or
+                          email us at hello@dignitestudios.com. You may opt out
+                          at any time by replying STOP. See our{" "}
+                          <Link
+                            href="/terms-and-conditions"
+                            className="text-blue-600"
+                          >
+                            Terms & Conditions
+                          </Link>{" "}
+                          and{" "}
+                          <Link
+                            href="/privacy-policy"
+                            className="text-blue-600"
+                          >
+                            Privacy Policy
+                          </Link>{" "}
+                          for more details.
+                          <button
+                            type="button"
+                            onClick={() => setIsTermsExpanded(false)}
+                            className="text-orange-500 font-bold ml-1"
+                          >
+                            Show Less
+                          </button>
+                        </>
+                      ) : (
+                        <>
+                          By checking this box, I consent to receive SMS
+                          messages from Dignite Studios at the phone number I
+                          provided{" "}
+                          <button
+                            type="button"
+                            onClick={() => setIsTermsExpanded(true)}
+                            className="text-orange-500 font-bold ml-1 outline-none"
+                          >
+                            ...
+                          </button>
+                        </>
+                      )}
                     </p>
                   </label>
                 </div>
