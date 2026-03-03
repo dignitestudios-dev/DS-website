@@ -455,7 +455,7 @@ const techStackData = [
   },
 ];
 
-const ShopifyAppDevelopment = () => {
+const EcommerceAppDevelopment = () => {
   return (
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero
@@ -551,7 +551,10 @@ const ShopifyAppDevelopment = () => {
         }
         para={
           <>
-         Dignite Studios delivers the best shopify services. It helps businesses grow with reliable and scalable solutions. As the trusted company we focus on the performance and long term value which is unlike many generic providers.  
+            Dignite Studios focuses on building reliable, scalable products for
+            businesses that value long-term impact. For companies seeking
+            dependable mobile apps development Boston teams, we bring structure,
+            experience, and a clear delivery process to every engagement.
           </>
         }
       />
@@ -615,4 +618,4 @@ const ShopifyAppDevelopment = () => {
   );
 };
 
-export default ShopifyAppDevelopment;
+export default EcommerceAppDevelopment;
