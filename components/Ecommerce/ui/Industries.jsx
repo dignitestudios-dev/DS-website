@@ -63,6 +63,9 @@ const icons = [
   {
     icon: "date.png",
   },
+    {
+    icon: "health.png",
+  },
 ];
 
 const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {

@@ -175,7 +175,7 @@ const Navbar = ({ setIsOpen }) => {
         image: "/eco-r.png",
         items: [
           ["Shopify App Development", "/ecommerce/shopify-app-development"],
-          // ["Shopify Multi-Store Development", "#"],
+          ["Ecommerce App Development", "/ecommerce/ecommerce-app-development"],
           // ["Shopify Theme Development", "#"],
         ],
       },

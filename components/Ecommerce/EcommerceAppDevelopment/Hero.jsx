@@ -9,10 +9,10 @@ import Platforms from "../ui/Platforms";
 import Link from "next/link";
 
 const Hero = ({
-  header = "Custom Mobile Application Development Boston ",
-  header2 = "Companies Rely On",
-  para = "We don’t just claim to be the best mobile app development company in Boston, we prove it through our services. Our team specializes in mobile application development that brands choose for reliable, custom-built apps. We combine modern frameworks to create mobile solutions that work smoothly. So, your business grows in a competitive digital landscape.",
-  btn = "Discuss Your App Idea",
+  header = "Expert Ecommerce App Development Company ",
+  header2 = "for Business Solutions",
+  para = "We are a leading ecommerce app development Company that builds simple and scalable apps for growing businesses. Our team creates strong ecommerce apps. It also improves the store performance and user experience. We focus on the practical solutions which support the real business goals and the long term growth.",
+  btn = "Get Free Ecommerce App Consultation",
 }) => {
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start ">

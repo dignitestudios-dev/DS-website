@@ -129,7 +129,7 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                         />
                         <h3 className="text-base font-bold">{item.name}</h3>
                         <p className="text-xs text-gray-600">
-                          {item.designation}
+                          {item.desgination}
                         </p>
                       </div>
 

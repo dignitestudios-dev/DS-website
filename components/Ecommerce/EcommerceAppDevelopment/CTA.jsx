@@ -24,7 +24,7 @@ const rightIcons = [
 ];
 
   return (
-    <div className="w-[95%] h-[400px] md:h-[550px] lg:w-[80%] text-black md:bg-[url('/ecommerce/shopify-app/s-cta.png')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
+    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:bg-[url('/ecommerce/shopify-app/s-cta.png')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
       {/* Floating Icons Left */}
       {leftIcons.map((icon, idx) => (
         <motion.div
@@ -79,7 +79,7 @@ const rightIcons = [
           >
             <button
               type="submit"
-              className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
+              className="bg-[#F15C20] border group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
               {btn}
             </button>

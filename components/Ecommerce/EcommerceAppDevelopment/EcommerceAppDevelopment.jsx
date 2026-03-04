@@ -13,24 +13,12 @@ import {
   MdSettingsSuggest,
   MdAccountBalanceWallet,
   MdDashboard,
-  MdInventory,
 } from "react-icons/md";
 import Industries from "../ui/Industries";
-import TechAndTools from "../ui/TechTools";
-import Process from "../ui/Process";
-import MobileApp from "../ui/MobileApp";
-import { FaPencilAlt, FaUser } from "react-icons/fa";
-import { IoGrid, IoWalletOutline, IoStorefrontOutline } from "react-icons/io5";
+import { IoGrid, IoWalletOutline } from "react-icons/io5";
 import { CiSearch, CiSettings } from "react-icons/ci";
-import {
-  SiGooglecloud,
-  SiLaravel,
-  SiNodedotjs,
-  SiOpenai,
-  SiPhp,
-  SiZapier,
-} from "react-icons/si";
-import { FaCode, FaRobot, FaAws } from "react-icons/fa";
+import { SiNodedotjs } from "react-icons/si";
+import { FaCode, FaAws, FaPencilAlt, FaUser } from "react-icons/fa";
 import SuccessStories from "../ui/SuccessStories";
 import CTA from "./CTA";
 import SEO from "../ui/SEO";
@@ -41,74 +29,56 @@ import WhyChoose from "../ui/WhyChoose";
 import TechTools from "../ui/TechTools";
 import Features from "../ui/Features";
 import CTA2 from "./CTA2";
+import Process from "../ui/Process";
+import MobileApp from "../ui/MobileApp";
+import TabularEcommerceTechs from "./TabularEcommerceTechs";
+import BuildingPlatforms from "../ui/BuildingPlatforms";
 
 const services = [
   {
     icon: "database",
     icon2: "database1",
-    title: "Shopify App Development",
+    title: "Ecommerce Strategy and Consultation",
     description: (
       <>
-        We build reliable apps that improve the store performance and support
-        growth. It delivers the fluent user experience for the modern ecommerce
-        business.
+        We analyze your business goals and plan solutions as the custom
+        ecommerce app development company for better performance and growth.
       </>
     ),
   },
   {
     icon: "setting",
     icon2: "setting2",
-    title: "Shopify App UI/UX Design",
+    title: "Ecommerce App UI/UX Design",
     description: (
       <>
-        We design simple interfaces which improve the user experience. It makes
-        the navigation smooth for better engagement and higher conversions.
+        We design simple and user friendly interfaces that increase the customer
+        engagement and create a fluent shopping experience across all the
+        ecommerce platforms and devices.
       </>
     ),
   },
   {
     icon: "pipe",
     icon2: "pipe3",
-    title: "Feature Development and Customization",
+    title: "Custom Ecommerce App Development",
     description: (
       <>
-        We create the custom features which match business needs and improve
-        store functionality through better performance and flexibility.
+        We build scalable and reliable apps as an ecommerce app development
+        agency that match the business goals and improve overall store
+        performance effectively.
       </>
     ),
   },
   {
     icon: "icon",
     icon2: "icon4",
-    title: "Shopify API and Third Party Integrations",
+    title: "Payment Gateway Integration",
     description: (
       <>
-        We connect your store with the tools and platforms to improve the
-        workflows and simplify operations using our shopify app development
-        solutions.
-      </>
-    ),
-  },
-  {
-    icon: "pen",
-    icon2: "pen5",
-    title: "Shopify Backend and Cloud Integration",
-    description: (
-      <>
-        We build secure backend systems which support stable performance and
-        scalable app operations as the reliable shopify app development
-        solutions for the growing ecommerce businesses.
-      </>
-    ),
-  },
-  {
-    icon: "chat",
-    icon2: "chat6",
-    title: "App Maintenance and Ongoing Support",
-    description: (
-      <>
-        We provide ongoing support to keep your app updated, stable and aligned
-        according to your business growth needs.
+        We integrate secure payment systems like Stripe, PayPal and Shopify
+        Payments to ensure the smooth transactions and an easy checkout
+        experience for every customer.
       </>
     ),
   },
@@ -116,137 +86,177 @@ const services = [
 
 const highlights = [
   {
-    title: "Shopify Focused Expertise",
-    desc: "We focus only on the shopify which helps us deliver better results and deeper platform understanding.",
+    title: "Proven Ecommerce Expertise",
+    desc: "We deliver ecommerce solutions which improve store performance and support long term business growth.",
   },
   {
-    title: "Certified Shopify Developers",
-    desc: "We focus only on the shopify which helps us deliver better results. Through the deeper platform understanding.",
+    title: "Certified Developers",
+    desc: "Our certified developers build reliable apps using the modern tools, best practices and proven methods to ensure quality and stability.",
   },
   {
-    title: "Scalable and Secure App Architecture",
-    desc: "We build apps that grow with your business and keep your data safe and secure always.",
+    title: "Scalable & Secure Architecture",
+    desc: "We create the apps that grow through your business while maintaining the strong security standards and fluent performance across all the platforms.",
   },
   {
     title: "Transparent Communication",
-    desc: "We keep communication clear so you always understand your project progress and the final results clearly.",
+    desc: "We keep clients informed through the clear updates, ensuring the full visibility into the project progress, milestones and the expected outcomes.",
   },
   {
     title: "On Time Delivery",
-    desc: "We follow the clear steps to complete your project on time. Without any delays or issues.",
+    desc: "Our team follows structured processes and schedules to ensure the projects that are delivered on time without compromising quality.",
   },
   {
-    title: "Long Term App Support",
-    desc: "We provide continuous support to keep your app updated and aligned through the business needs.",
+    title: "Long Term Support",
+    desc: "We provide the ongoing app maintenance, updates and optimizations that ensure smooth performance and continuous business growth.",
   },
 ];
 
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare and Wellness Commerce",
-    desc: "We support the healthcare app development company needs by building apps. It improves the store operations and customer experience in healthcare commerce.",
+    desc: "We build apps as a healthcare app development company to improve the patent engagement, streamline processes and enhance the service delivery.",
   },
   {
-    title: "Fintech and Subscription Platforms",
-    desc: "We build apps aligned with fintech app development services. To manage subscriptions payments and user workflows efficiently.",
+    title: "FinTech and Subscription Platforms",
+    desc: "Our team creates secure apps which are aligned through the fintech app development services to manage the payments, subscriptions and financial operations efficiently.",
   },
   {
-    title: "Ecommerce & Retail Brands",
-    desc: "We support ecommerce app development company needs by building apps. It improves the store performance and customer engagement.",
+    title: "Ecommerce and Retail Brands",
+    desc: "We deliver scalable apps as an ecommerce app development company to increase the sales, improve customer experience and simplify the store management.",
   },
   {
-    title: "Logistics & On Demand Marketplaces",
-    desc: "We develop solutions for logistics app development to manage deliveries and workflow effectively.",
+    title: "Logistics and On Demand Marketplaces",
+    desc: "We build apps supporting logistics app development, enhance the delivery management, track orders and improve the overall operational efficiency.",
+  },
+  {
+    title: "Grocery",
+    desc: "We create apps which simplify the grocery ordering, manage the inventory and enhance the shopping experience for the customers and staff.",
+  },
+  {
+    title: "Fashion Apparel",
+    desc: "Our apps improve product browsing, increase the conversions and provide the smooth experiences for the fashion and apparel brands.",
+  },
+  {
+    title: "Home Decor",
+    desc: "We deliver ecommerce solutions which improve the user experience, simplify the shopping and enhance the online buying journeys for the home decor businesses.",
+  },
+];
+
+const PLATFORMS = [
+  {
+    title: "BigCommerce",
+    desc: "We deliver reliable solutions which help businesses manage products efficiently and improve overall store operations.",
+    logo: "/ecommerce/bc.png", // your original logo mapping stays
+  },
+  {
+    title: "Magento",
+    desc: "We create custom features and integrations that increase flexibility and simplify Magento store management effectively.",
+    logo: "/ecommerce/magento.png",
+  },
+  {
+    title: "WooCommerce",
+    desc: "We build scalable solutions for WordPress stores with improved performance across platforms.",
+    logo: "/ecommerce/woo.png",
+  },
+  {
+    title: "Salesforce Commerce",
+    desc: "We develop enterprise apps that support large-scale ecommerce businesses through complex operations and reliable store management.",
+    logo: "/ecommerce/sf.png",
+  },
+  {
+    title: "Squarespace",
+    desc: "We create simple, modern ecommerce apps for businesses needing clean design and easy-to-use functionality.",
+    logo: "/ecommerce/sp.png",
   },
 ];
 
 const test = [
   {
-    name: "John Carter",
-    designation: "— Product Manager",
+    name: "John Smith",
+    designation: "— Marketing Manager at BrightCart Solutions",
     review:
-      "“Great experience working with the team they delivered exactly what we needed”",
+      "“Great service and strong support helped to improve our ecommerce store performance and the overall business growth smoothly through the reliable solutions”",
   },
   {
-    name: "Micheal Adams",
-    designation: "— Ecommerce Manager",
+    name: "Michael Johnson",
+    designation: "— Operations Head at NovaRetail Inc",
     review:
-      "“Their work improved our store performance and customer experience significantly”",
+      "“The team delivered our project on time through the clear communication and strong results that exceeded expectations and improved our operations”",
   },
   {
-    name: "Daniel Smith",
-    designation: "— Operations Lead",
+    name: "David Williams",
+    designation: "— Product Manager at ShopEase Technologies",
     review:
-      "“Professional team through the clear communication and the strong execution throughout the project”",
+      "“Very professional team that understood our business needs and built the reliable and scalable ecommerce application for the long term growth”",
   },
   {
-    name: "Robert Johnson",
-    designation: "— Founder",
+    name: "Robert Brown",
+    designation: "— Founder at UrbanCart Co",
     review:
-      "“They helped us build a scalable app that supports our growing business needs”",
+      "“Smooth process and great experience working with their development team from the planning to the final delivery with the full clarity and support”",
   },
   {
-    name: "David Wilson",
-    designation: "— CEO",
+    name: "James Davis",
+    designation: "— Ecommerce Director at TrendyBuy Ltd",
     review:
-      "“Reliable support and continuous improvements made a big difference for  our store”",
+      "“They helped us build a scalable ecommerce app with the strong performance and better customer experience which increased our conversions”",
   },
   {
-    name: "James Brown",
-    designation: "— Project Manager",
+    name: "William Miller",
+    designation: "— Project Leader at Cartify Systems",
     review:
-      "“Their structured approach ensured smooth development and timely delivery”",
+      "“Clear communication and quality work made the whole project easy and very successful for our growing ecommerce business”",
   },
   {
-    name: "William Taylor",
-    designation: "— Director",
+    name: "Richard Wilson",
+    designation: "— CEO at QuickSell Market",
     review:
-      "“Highly recommended for businesses looking for strongly shopify app solutions”",
+      "“The app works perfectly and supports our growing business needs with the stable performance and smooth daily operations”",
   },
   {
-    name: "Christopher Moore",
-    designation: "— CTO",
+    name: "Joseph Moore",
+    designation: "— Operations Manager at EasyCart Global",
     review:
-      "“ Excellent service with great attention to detail and performance we hire the shopify app developer to deliver the smooth and efficient solutions”",
+      "“Their team provided practical solutions that improved our store operations and simplified the daily business tasks effectively”",
   },
   {
-    name: "Joseph Anderson",
-    designation: "— Business Owner",
+    name: "Thomas Taylor",
+    designation: "— Co Founder at SmartShop Hub",
     review:
-      "“Very responsive team and easy to work with throughout the project”",
+      "“We are happy with the results and the long term support they provide after project completion and launch”",
   },
   {
-    name: "Thomas Jackson",
-    designation: "— Head of Ecommerce",
+    name: "Charles Anderson",
+    designation: "— Technical Director at RetailFlow Systems",
     review:
-      "“Delivered a high quality app that improved our operations and customer engagement”",
+      "“Excellent team with the strong expertise and reliable delivery that helped us to achieve our business goals with the confidence”",
   },
 ];
 
 const BENEFITS = [
   {
     title: "Increased Customer Engagement",
-    desc: "Mobile apps improve customer interaction and help businesses build stronger relationships with users across platforms.",
+    desc: "Apps help the customers to interact more with your store and to improve the overall shopping experience.",
     icon: <FaUser color="#F15C20" size={25} />,
   },
   {
     title: "Faster Store Operations",
-    desc: "Apps speed up processes and improve workflow efficiency for better store performance and user experience.",
+    desc: "Apps simplify processes and improve the speed which also helps businesses manage the operations more efficiently.",
     icon: <IoGrid color="#F15C20" size={25} />,
   },
   {
     title: "Business Automation",
-    desc: "Automation helps reduce manual work, saves time and improves overall efficiency for growing ecommerce businesses.",
+    desc: "Ecommerce web application development helps reduce manual work and improves the efficiency for the online businesses.",
     icon: <IoWalletOutline color="#F15C20" size={25} />,
   },
   {
     title: "Revenue Growth",
-    desc: "Apps help increase sales, improve conversions and support steady growth for your business over time.",
+    desc: "Apps help to increase the conversions and improve the overall business performance.",
     icon: <CiSearch color="#F15C20" size={25} />,
   },
   {
     title: "Scalable Ecommerce Expansion",
-    desc: "Our mobile app development services for ecommerce support business growth and expansion into new markets.",
+    desc: "Apps support business growth and allow easy expansion with better performance and flexibility.",
     icon: <FaPencilAlt color="#F15C20" size={25} />,
   },
 ];
@@ -254,365 +264,278 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "Do you build scalable Shopify apps?",
+    question: "Do you build scalable ecommerce apps?",
     answer:
-      "Yes we build scalable apps that grow with your business and improve store performance over the time. Hire shopify app developer to focus on the strong structure flexibility and easy updates. This also helps ecommerce businesses manage more users, handle data efficiently and add new features without affecting any speed or the user experience.",
+      "Yes, we build scalable apps which grow through your business. As an ecommerce mobile app development company we ensure performance, flexibility and long term success.",
   },
   {
     id: 2,
-    question:
-      "How long does a Shopify app development in USA take to complete a project?",
+    question: "How long does ecommerce app development take?",
     answer:
-      "The timeline for a project handled by the Shopify project depends on the app’s complexity and required features. Simple apps can be completed within a few weeks, while the advanced apps through the custom integrations, multiple functionalities and unique designs would also take several months which ensure the quality, scalability and the fluent performance.",
+      "The timeline depends on the requirements: simple apps take weeks while complex apps need more time for the quality delivery as the mobile app development for ecommerce.",
   },
   {
     id: 3,
-    question: "Do you support Shopify App store submissions?",
+    question: "Do you support app launch and deployment?",
     answer:
-      "Yes we support shopify App store submissions from start to finish. We prepare your app based on shopify guidelines. Ensure all the requirements are quite properly met. Our team also helps with the testing documentation and updates. So that your app can get approved easily and launch without any hassle, delays or technical issues.",
+      "Yes we handle app launch and ensure the smooth deployment through the stable performance and proper setup for the business success.",
   },
   {
     id: 4,
-    question: "Can a custom shopify app developer refine my shopify app idea?",
+    question: "Can you refine an ecommerce app idea?",
     answer:
-      "Yes a custom shopify app developer can refine your shopify app idea. Through understanding your business goals and the user needs. They also suggest the better features to improve the structure and guide with the practical solutions. This creates a clear direction to improve usability and ensure your app delivery,strong performance and long term value.",
+      "Yes, as a custom ecommerce app development company we suggest improvements that enhance the usability, performance and long term app success.",
   },
   {
     id: 5,
-    question: "Why should I hire Shopify app developer for my business?",
+    question: "Do you work with startups and enterprises?",
     answer:
-      "When you hire shopify app developer you need expert support to build reliable and scalable apps. A skilled developer understands your store needs and creates solutions which improve performance and user experience. It helps your business grow faster. Keeping the operations simple, efficient and easy to manage over time.",
+      "Yes we work with startups and enterprises and build solutions that match business needs and support the long term growth.",
+  },
+  {
+    id: 6,
+    question: "How can ecommerce apps improve my online store?",
+    answer:
+      "Ecommerce web application development creates efficient and scalable solutions which enhance store performance, streamline the operations and boost the user experience.",
   },
 ];
 
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery and Shopify App Planning",
-    desc: "As the shopify app development agency, understand your business goals and define a clear plan. For building shopify apps with the shopify services.",
+    title: "Discovery and Planning",
+    desc: "We analyze your business needs, set clear goals and plan the effective ecommerce app solution for the long term growth.",
   },
   {
     step: "02",
     title: "Design",
-    desc: "We create simple and user friendly designs. It improves engagement and user experience over digital as the shopify app development agency.",
+    desc: "We create simple and intuitive designs that improve the user experience and make your ecommerce app quite easy to navigate.",
   },
   {
     step: "03",
     title: "App Development",
-    desc: "We build scalable apps using the structured development methods. It ensures the performance and stability for custom shopify app development.",
+    desc: "We develop scalable apps through clean code which ensures high performance, smooths the functionality and supports the business expansion.",
   },
   {
     step: "04",
-    title: "Testing",
-    desc: "We test apps carefully to ensure strong, smooth and reliable performance for the interactive user experience.",
+    title: "App Testing",
+    desc: "We conduct thorough testing to ensure the app stability, flawless performance and the fluent user experience across all the devices.",
   },
   {
     step: "05",
-    title: "Shopify App Development",
-    desc: "We launch apps through the proper setup to ensure stable performance and smooth operations.",
+    title: "Deployment",
+    desc: "We launch the ecommerce app carefully, making sure that it works perfectly in the real world business environments without any of the issues.",
   },
   {
     step: "06",
     title: "Post Launch Support and Optimization",
-    desc: "We track and improve app performance to ensure long term success and stable reliable results for the custom shopify app development.",
-  },
-];
-
-const typesOfApps = [
-  {
-    number: "01",
-    title: "Customer Support and Engagement Apps",
-    description:
-      "We build apps which improve customer communication support. Faster responses and increased engagement. It creates better shopping experiences and stronger relationships.",
-  },
-  {
-    number: "02",
-    title: "Workflow Automation Apps",
-    description:
-      "We create apps which autotune the daily store tasks. Reduce the manual work and improve the overall business efficiency for the better operations.",
-  },
-  {
-    number: "03",
-    title: "Inventory and Order Management Apps",
-    description:
-      "We develop apps that manage inventory track orders. Reduce the errors to improve the store operations and the customer satisfaction.",
-  },
-  {
-    number: "04",
-    title: "Custom pricing and Marketing Apps",
-    description:
-      "We build apps that help manage the pricing of offers, promotions and campaigns. It increases sales and customer retention.",
-  },
-  {
-    number: "05",
-    title: "Cart and Checkout Enhancement Apps",
-    description:
-      "We improve cart and checkout experience to reduce the drop offs. Increasing the conversions for better store performance.",
-  },
-  {
-    number: "06",
-    title: "SEO and Performance Optimization Apps",
-    description:
-      "We develop apps that improve the store speed, visibility and performance. To help the businesses to grow online and reach more customers.",
+    desc: "We continuously monitor app performance, fix issues and optimize features to ensure the long term reliability and business growth.",
   },
 ];
 
 const featureData = [
   {
-    title: "Secure Login and Authentication",
+    title: "Secure login and authentication",
     icon: <MdSecurity />,
   },
   {
-    title: "Real time Order Sync",
+    title: "Real time order updates",
     icon: <MdSync />,
   },
   {
-    title: "Push Notifications",
+    title: "Push notifications",
     icon: <MdNotificationsActive />,
   },
   {
-    title: "Automation Workflows",
+    title: "Automated workflows",
     icon: <MdSettingsSuggest />,
   },
   {
-    title: "Analytics and Reporting",
+    title: "Analytics and reporting",
     icon: <MdAnalytics />,
   },
   {
-    title: "Multi Payment Integration",
+    title: "Smooth checkout process",
+    icon: <CiSettings />,
+  },
+  {
+    title: "Payment integration",
     icon: <MdAccountBalanceWallet />,
   },
   {
-    title: "User Friendly Dashboard",
+    title: "User friendly design",
     icon: <MdDashboard />,
-  },
-  {
-    title: "Inventory Management System",
-    icon: <MdInventory />,
   },
 ];
 
 const techStackData = [
   {
-    name: "Shopify Native",
-    icon: <IoStorefrontOutline />,
+    name: "React",
+    icon: <FaCode />,
     description:
-      "We use the Shopify APIs Admin and Storefront tools to build scalable apps. Explore our Shopify Development Page.",
+      "We use React to build high performance and interactive user interfaces.",
+  },
+  {
+    name: "Vue JS",
+    icon: <FaCode />,
+    description: "We build flexible and lightweight web apps using Vue JS.",
+  },
+  {
+    name: "Angular",
+    icon: <FaCode />,
+    description:
+      "We develop enterprise level web apps using the Angular framework.",
+  },
+  {
+    name: "Flutter",
+    icon: <FaCode />,
+    description: "We build high performance cross platform apps using Flutter.",
   },
   {
     name: "React Native",
     icon: <FaCode />,
     description:
-      "We build high performance app interfaces and logic. Learn more on our Web App Development Page.",
+      "We build high performance mobile app interfaces and logic using React Native.",
   },
   {
-    name: "Node js",
+    name: "GraphQL APIs",
     icon: <SiNodedotjs />,
     description:
-      "We use the Node js to build fast and scalable backend systems for the shopify apps.",
+      "We use GraphQL to build fast and efficient data queries for ecommerce apps.",
   },
   {
-    name: "Laravel",
-    icon: <SiLaravel />,
+    name: "Stripe",
+    icon: <MdAccountBalanceWallet />,
     description:
-      "We build secure backend systems using Laravel. Visit our Backend Development Page for more details.",
+      "We integrate Stripe to ensure secure and smooth payment transactions.",
   },
   {
-    name: "PHP",
-    icon: <SiPhp />,
-    description:
-      "We use PHP to create stable and scalable backend systems for the shopify applications.",
-  },
-  {
-    name: "OpenAI APIs",
-    icon: <SiOpenai />,
-    description:
-      "We use the smart integrations to improve the workflows and automate the store operations for better performance.",
-  },
-  {
-    name: "AWS AI Services",
+    name: "AWS",
     icon: <FaAws />,
     description:
-      "We use the cloud tools to build scalable and secure systems for the reliable shopify app performance.",
+      "We use AWS to build scalable and secure cloud infrastructure.",
   },
   {
-    name: "ChatGPT",
-    icon: <FaRobot />,
+    name: "Azure",
+    icon: <FaAws />,
     description:
-      "We use the modern tools to improve the workflows and create better user experience in Shopify apps.",
+      "We use Azure to build scalable and secure cloud infrastructure.",
   },
   {
-    name: "Zapier",
-    icon: <SiZapier />,
+    name: "Rest APIs",
+    icon: <SiNodedotjs />,
     description:
-      "We connect apps and automate workflows to simplify operations and improve productivity across the systems.",
-  },
-  {
-    name: "Google AI Tools",
-    icon: <SiGooglecloud />,
-    description:
-      "We use the advanced tools to improve app performance and support better decision making for the businesses.",
+      "We build scalable and modular systems through Rest APIs for better performance.",
   },
 ];
 
 const EcommerceAppDevelopment = () => {
   return (
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
-      <Hero
-        header="Flexible Shopify App Development "
-        header2="Specialists"
-        para="We deliver reliable shopify app development that helps businesses. Build scalable ecommerce solutions. Our team creates simple and effective apps. It improves the store performance support. Giving the growth and delivering the real business value for the modern online brands."
-        btn="Get Free Shopify App Consultation"
-      />
+      <Hero />
       <About
+        btn="Start Your Ecommerce App Journey"
         heading="Introduction"
-        heading2={""}
-        para={<>
-        With over 10 years of experience Dignite Studios provides the reliable shopify services. For growing ecommerce businesses. We build the public apps, private apps and the Custom Integrations. It improves the store performance and the user experience. <br/> Our team works with the startups and the large brands. Across the retail DTC and marketplaces. As the trusted agency we focus on scalable solutions. It supports long term growth and operations. <br/> We create apps that are easy to manage. Our goal is to help business smoothly and grow faster through the strong and dependable Shopify app solutions which deliver constant results and long term business success.
-        </>}
-        button="Talk With Us"
-      />
-      <Services
-        services={services}
-        header={"Shopify App Development"}
-        header2={"Services"}
-        button={" Start Your Shopify App Project "}
-        para={
-          "Our shopify app development services are made to match the business needs. We build scalable apps which improve store performance and user experience. We deliver the solutions that grow with your business and support long term success."
-        }
-      />
-      <WhyChoose
-        features={typesOfApps}
-        header={"Types Of Shopify Apps We Build for"}
-        header2={"Scalable Ecommerce Growth"}
-        para={
-          "We built apps that help businesses manage operations. Improve the customer experience and increase sales. Our approach focuses on practical solutions. It supports the real business needs and the long term growth."
-        }
-      />
-      <TechTools
-        header="Advanced Shopify App Development Technology Stack"
-        para="As the trusted shopify app development company we use modern tools. For building scalable and secure apps. Our approach places us among the leading shopify app development companies. Delivering the reliable mobile app development services for ecommerce businesses. The strong performance and the long term growth."
-        tech={techStackData}
-      />
-      <CTA
-        header="Get Started with Your Shopify App"
-        para="Build scalable ecommerce apps that support your growth and improve the store performance. Our shopify services help you create reliable apps. It delivers real results and the long term value for the business."
-        btn="Request Shopify App Development Quote"
-      />
-      <Process
-        steps={PROCESS_STEPS}
-        header={"Reliable Custom Shopify App Development Process"}
-        para={
-          "Our process focuses on the clear execution and measurable results. As the trusted shopify app development company. We build reliable solutions that improve performance and support long term growth."
-        }
-      />
-      <Bussiness
-        bs={highlights}
-        header={"Reasons to Trust Our"}
-        header2={"Shopify App Expertise"}
-        button={"Partner With Dignite Studios. "}
-        ctaHeader={"Partner With Dignite Studios."}
-        ctaPara={
-          "Dignite Studios delivers the best shopify services. It helps businesses grow with reliable and scalable solutions. As the trusted company we focus on the performance and long term value which is unlike many generic providers."
-        }
-        ctaBtn={"Partner With Dignite Studios."}
-        cta={
-          <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
-            <div className="relative">
-              <img
-                src="/location/mobile-boston/cta-img.png"
-                className="w-full rounded-b-2xl bottom-3 relative bg-cover"
-                alt="lggg"
-              />
-              <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-                <h2 className="text-[45px] font-bold text-white leading-[45px]">
-                  Partner With Dignite Studios.
-                </h2>
-                <p>
-                  Dignite Studios delivers the best shopify services. It helps
-                  businesses grow with reliable and scalable solutions. As the
-                  trusted company we focus on the performance and long term
-                  value which is unlike many generic providers.
-                </p>
-                <Link
-                  href="/contact-us"
-                  className="flex items-center group justify-center "
-                >
-                  <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                    Partner With Dignite Studios.
-                  </button>
-                  <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                    <MdArrowOutward />
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        }
         para={
           <>
-            Dignite Studios focuses on building reliable, scalable products for
-            businesses that value long-term impact. For companies seeking
-            dependable mobile apps development Boston teams, we bring structure,
-            experience, and a clear delivery process to every engagement.
+            Dignite Studios is an experienced ecommerce app development company
+            with over 10 years of industry experience. We build reliable
+            ecommerce apps including public apps, private apps and custom
+            integrations for the different business needs. <br /> <br /> We work
+            across the ecommerce retail DTC brands and marketplaces. Our team
+            focuses mainly on the performance stability and scalability. AS an
+            ecommerce mobile app development company. We deliver apps which are
+            simple to use and also build for long term success. <br /> <br />
+            Our solutions help businesses grow efficiently, streamline
+            operations and improve the customer experiences. We ensure smooth
+            functionality, enhanced performance and measurable results.
+            Providing businesses through the dependable ecommerce apps which
+            support growth, revenue and long term business goals across the
+            multiple platforms.
           </>
         }
       />
-      <Industries
-        VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Industries We Serve as a"}
-        header2={"Leading Agency"}
+      <Services
+        header="Ecommerce Application Development "
+        header2={"Services"}
+        para="We provide structured ecommerce solutions that help businesses grow with clarity and control. Our ecommerce app development company provides dependable systems that enhance the user experience and operations. Our solutions focus on performance, scalability and long term business value through practical execution."
+        services={services}
+        button="Start Your Ecommerce App Project"
+      />
+      <TabularEcommerceTechs />
+      <BuildingPlatforms
+        header={"Platforms We Use to Build Ecommerce Apps"}
         para={
-          "We work with multiple industries and deliver practical solutions which improve the operations and support business growth."
+          "We build ecommerce apps by using platforms which also support scalability and business growth. As an ecommerce mobile app development company we ensure each of the platforms fits your needs and delivers strong performance. "
         }
+        button={"Request Ecommerce App Development Quote"}
+        VALUE_PROPOSITION={PLATFORMS}
       />
 
-      <MobileApp
-        header={"Benefits of Having a"}
-        header2={"Shopify Mobile App"}
+      <CTA
+        header="Launch Your Ecommerce App With Experts "
+        para="We help businesses grow with the structured solutions built by our expert ecommerce app development company team. Our solutions are also designed to improve the performance and support long term success. Start building your ecommerce app with a team that understands the business needs."
+        btn="Request Ecommerce App Development Quote"
+      />
+      <Process
+        header="Reliable Ecommerce App Development Process"
+        para="Our process focuses on the clear steps and practical execution. As an ecommerce app development company in usa we deliver structured solutions through using proven methods. Our ecommerce application development services. Ensuring better performance while our ecommerce supports long term growth and scalability."
+        steps={PROCESS_STEPS}
+      />
+      <Bussiness
+        header="Best Ecommerce App Development"
+        header2={"Services"}
+        button="Partner with Dignite Studios "
         para={
-          "A shopify mobile app helps businesses improve engagement, automate operations and increase revenue. Our approach to mobile app development services for ecommerce ensures scalable growth and better performance across the platforms."
+          <>
+            Dignite Studios is known for delivering reliable ecommerce solutions
+            through its strong performance. As the best ecommerce app
+            development company we also focus on building scalable apps. Our
+            team works as the ecommerce app development agency which delivers
+            the result. We also stand among the growing ecommerce app
+            development companies through the focus on the long term value.
+          </>
         }
+        bs={highlights}
+      />
+      <Industries
+        header="Industries We Serve as a Ecommerce "
+        header2={"App Development Company"}
+        para="We work with industries and deliver solutions that improve the operations and support the growth. As an ecommerce app development company. We build apps which match different business needs."
+        VALUE_PROPOSITION={VALUE_PROPOSITION}
+      />
+      <MobileApp
         cards={BENEFITS}
+        header="Benefits Of Having an Ecommerce App"
+        para="Ecommerce apps help businesses to improve performance and increase revenue. Our solutions support the automation scalability and the better user experience. It is for the strong mobile app development for ecommerce strategies. It is built for the long term growth and business success."
+        button="Build a Scalable Ecommerce App"
       />
       <Features
-        button={"Get Feature Recommendations. "}
-        header="Must Have Features in Shopify"
-        header2="App Development Cost"
-        para="Modern apps require essential features that improve performance and user experience. Considering the shopify app development cost helps ensure that your app includes everything. It’s needed for growth, scalability and efficient operation. While keeping the budget and value aligned with your business goals."
+        header="Must Have Features in Your ecommerce app development services"
+        para="Modern ecommerce apps need essential features that improve performance and user experience. Our ecommerce app development company in usa ensures that your app includes the right features for business growth and scalability."
+        button="Get Feature Recommendations"
         features={featureData}
       />
       <SuccessStories
-        header={"Successful Shopify"}
-        header2={"App Project"}
-        para={
-          "We have delivered successful Shopify apps that improved store performance and business growth. Our projects show how structured app solutions help businesses scale efficiently. Explore more on our Portfolio Case Studies page."
-        }
+        header="Real Ecommerce App Success Stories"
+        para="Our work shows how structured solutions help businesses grow. We have delivered successful ecommerce apps which improved the store performance and operations. Explore our projects to understand how we build apps. For the long term business success. Visit our portfolio Case Studies page."
       />
       <CTA2
-        header={"Ready to Scale with Expert Shopify Solutions?"}
-        para={
-          "Take your eCommerce store to the next level with our tailored shopify app development services designed to boost performance, streamline operations, and enhance customer experience."
-        }
-        btn={"Request Shopify App Development Quote"}
+        header="Start Your Ecommerce App Project Today"
+        para="Work with a reliable ecommerce app development in the USA that builds scalable and practical solutions. Our ecommerce app development services that help improve performance and support business growth. Start your ecommerce app journey with the team which delivers the real results."
+        btn="Request Ecommerce App Development Quote"
       />
-      {/* <SEO  header={"Focused Mobile Application Development Boston"} para={"Choosing the right partner in Boston can completely change the way your app performs in a competitive market."}/> */}
       <Testimonials
-        test={test}
-        header={"What Shopify App Development"}
-        header2={"Clients Say"}
-        para={""}
+        header="Testimonials"
+        card={test}
+        button="Work With Our Expert Team"
       />
-      <Faq faqs={faqs} />
+      <Faq faqs={faqs} header="FAQs" />
       <ContactUs
         img={"/ecommerce/shopify-app/c-img.png"}
-        pathname={"Shopify App Development"}
-        header={"Request Shopify App Quote"}
-        header2={""}
-        para={
-          "Share your app idea with us and we will help you to build the scalable solutions that supports your business growth and improves the store performance through the reliable execution."
-        }
-        btn={"Request Shopify App Development Quote"}
+        header="Kickstart Your Ecommerce App Journey Today"
+        para="Start your ecommerce app project with a team that understands your business needs. Our experts help you plan, build and launch scalable solutions which also deliver real results and long term growth."
+        btn="Request Ecommerce App Development Quote"
       />
     </div>
   );
