@@ -361,12 +361,10 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 >
                   Shopify App Development
                 </Link>
-                <Link href="#" className={`hover:text-orange-600 `}>
-                  Shopify Multi-Store Development
+                <Link  href="/ecommerce/ecommerce-app-development" className={`hover:text-orange-600 `}>
+                  Ecommerce App Development
                 </Link>
-                <Link href="#" className={`hover:text-orange-600 `}>
-                  Shopify Theme Development
-                </Link>
+                
               </div>
             )}
           </button>

@@ -10,7 +10,7 @@ const CTA = ({
   btn = "Discuss Your App Idea",
 }) => {
  const leftIcons = [
-  { src: "/ecommerce/shopify-app/icons/1.png", top: "18%", left: "23%" },
+  { src: "/ecommerce/shopify-app/icons/1.png", top: "18%", left: "20%" },
   { src: "/ecommerce/shopify-app/icons/2.png", top: "52%", left: "16%" },
   { src: "/ecommerce/shopify-app/icons/3.png", bottom: "19%", left: "8%" },
   { src: "/ecommerce/shopify-app/icons/4.png", top: "32%", left: "10%" },
@@ -68,7 +68,7 @@ const rightIcons = [
       ))}
 
       <div className="flex items-center h-full justify-center">
-        <div className="w-full lg:w-[60%] relative z-30 text-center">
+        <div className="w-full lg:w-[65%] relative z-30 text-center">
           <h2 className="text-4xl md:text-5xl capitalize font-bold mb-4">
             {header}
           </h2>

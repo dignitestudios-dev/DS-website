@@ -58,13 +58,22 @@ const icons = [
     icon: "edu.png",
   },
   {
-    icon: "state.png",
+    icon: "grocery.png",
   },
   {
-    icon: "date.png",
+    icon: "fashion.png",
   },
     {
-    icon: "health.png",
+    icon: "home.png",
+  },
+    {
+    icon: "grocery.png",
+  },
+    {
+    icon: "fashion.png",
+  },
+    {
+    icon: "home.png",
   },
 ];
 
@@ -140,7 +149,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
                   <img
                     src={`/location/mobile-california/${icons[originalIndex].icon}`}
                     alt={value.title || "image"}
-                    className={`object-contain select-none bg-[#fdddd0] m-4 pointer-events-none ${
+                    className={`object-contain w-12 h-12 select-none bg-[#fdddd0] m-4 pointer-events-none ${
                       isActive && "shadow-2xl"
                     }`}
                   />

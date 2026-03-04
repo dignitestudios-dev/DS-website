@@ -67,7 +67,7 @@ const Hero = ({
           alt=""
           width={150}
           height={150}
-          className="absolute top-[10%] w-24 md:w-32  left-[75%] md:left-[55%] translate-x-[-50%]"
+          className="absolute top-[0%] w-24 md:w-36  left-[75%] md:left-[55%] translate-x-[-50%]"
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           viewport={{ once: true }}
@@ -82,13 +82,28 @@ const Hero = ({
           alt=""
           width={150}
           height={150}
-          className="absolute top-[80%] w-24 md:w-32  left-[75%] md:left-[60%] translate-x-[-50%]"
+          className="absolute top-[70%] w-24 md:w-36  left-[75%] md:left-[60%] translate-x-[-50%]"
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           viewport={{ once: true }}
           transition={{
             duration: 0.5,
             delay: 1,
+            ease: "backOut",
+          }}
+        />
+        <motion.img
+          src="/ecommerce/ecommerce-app/r3.png"
+          alt=""
+          width={150}
+          height={150}
+          className="absolute top-[50%] w-24 md:w-32  left-[75%] md:left-[60%] translate-x-[-50%]"
+          initial={{ scale: 0, opacity: 0 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{
+            duration: 0.5,
+            delay: 1.6,
             ease: "backOut",
           }}
         />
