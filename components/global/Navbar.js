@@ -59,6 +59,14 @@ const Navbar = ({ setIsOpen }) => {
             "/services/mobile-app-development",
           ],
           [
+            "Web App Development Services",
+            "/services/web-app-development",
+          ],
+          [
+            "PWA Development Services",
+            "/services/progressive-web-app-development",
+          ],
+          [
             "Android App Development Services",
             "/services/android-app-development-services",
           ],
@@ -70,11 +78,6 @@ const Navbar = ({ setIsOpen }) => {
             "Native App Development Services",
             "/services/native-app-development-services",
           ],
-          [
-            "Web App Development Services",
-            "/services/web-app-development",
-          ],
-          ["PWA Development Services", "/services/pwa-development-services"],
         ],
       },
       {

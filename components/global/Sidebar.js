@@ -191,7 +191,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Web App Development Services
                 </Link>
                 <Link
-                  href="/services/pwa-development-services"
+                  href="/services/progressive-web-app-development"
                   className={`hover:text-orange-600 `}
                 >
                   PWA Development Services

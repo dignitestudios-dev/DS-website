@@ -91,7 +91,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start  ">
       <div className="flex relative z-20  w-[90%] md:w-[78%] flex-col text-center mx-auto items-center">
-        <h2 className="text-4xl leading-[40px] md:leading[1.1] tracking-tighter md:text-7xl font-bold ">
+        <h2 className="text-4xl leading-[40px] capitalize md:leading[1.1] tracking-tighter md:text-7xl font-bold ">
           {header}
           <span className="text-[#F15C20]"> {header2}</span>{" "}
         </h2>

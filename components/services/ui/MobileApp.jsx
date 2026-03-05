@@ -8,6 +8,8 @@ import "swiper/css/pagination";
 import { FaPencilAlt, FaUser } from "react-icons/fa";
 import { IoGrid, IoWalletOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
+import { MdArrowOutward } from "react-icons/md";
+import Link from "next/link";
 const icons = [
   {
     icon: <FaUser color="#F15C20" size={25} />,
@@ -26,7 +28,7 @@ const icons = [
   },
 ];
 
-const MobileApp = ({ cards, header, header2, para }) => {
+const MobileApp = ({ cards, header, header2, para , button }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const repeatedCards = [
     ...cards,
@@ -126,6 +128,18 @@ const MobileApp = ({ cards, header, header2, para }) => {
             );
           })}
         </Swiper>
+      </div>
+      <div className="w-full mt-8 flex items-center justify-center">
+      {button && (
+        <Link href={"/contact-us"} className="flex w-fit items-center group justify-center ">
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border border  group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+          {button}
+          </button>
+          <button className="bg-[#F15C20] border group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+            <MdArrowOutward />
+          </button>
+        </Link>
+      )}
       </div>
     </div>
   );

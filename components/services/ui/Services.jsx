@@ -74,7 +74,7 @@ const Services = ({ services, header, header2, para, button }) => {
         >
           {services.map((service, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-[#F15C20] rounded-[40px] p-10 py-16 flex flex-col items-center gap-6 text-white min-h-[400px] justify-center">
+              <div className="bg-[#F15C20] rounded-[40px] p-10 py-16 flex flex-col items-center gap-6 text-white h-[400px] justify-center">
                 <div className="bg-white/20 p-6 rounded-3xl w-24 h-24 flex items-center justify-center">
                   <img
                     src={`/location/mobile-california/icons/${service.icon2}.png`}

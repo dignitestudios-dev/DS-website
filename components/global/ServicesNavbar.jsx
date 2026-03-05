@@ -115,6 +115,12 @@ const ServicesNavbar = ({ setIsOpen }) => {
             >
               Web App Development
             </Link>
+            <Link
+              href="/services/progressive-web-app-development"
+              className={`hover:text-orange-600 `}
+            >
+              PWA Development Services
+            </Link>
           </div>
         </button>
         <button

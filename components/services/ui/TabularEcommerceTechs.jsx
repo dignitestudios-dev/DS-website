@@ -65,7 +65,7 @@ const TabularEcommerceTechs = ({techData , header , para , header2 , button }) =
   return (
     <section className="w-full  overflow-visible text-black">
       <div className="max-w-7xl mx-auto text-center px-4">
-        <h2 className="text-4xl md:text-7xl leading-[42px] tracking-tighter lg:leading-[1.1] font-bold mb-6">
+        <h2 className="text-4xl capitalize md:text-7xl leading-[42px] tracking-tighter lg:leading-[1.1] font-bold mb-6">
           {header}
           <span className="text-[#F15C20]"> {header2}</span>
         </h2>
