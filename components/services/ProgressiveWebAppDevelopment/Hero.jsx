@@ -52,7 +52,7 @@ const Hero = () => {
             width={1000}
             height={1000}
             priority
-            className="object-cover "
+            className="object-cover lg:mr-40"
           />
         </motion.div>
         <img
@@ -60,14 +60,14 @@ const Hero = () => {
           alt=""
           width={200}
           height={200}
-          className="absolute top-[0%] lg:block hidden left-[0%] md:left-[85%] translate-x-[-50%]"
+          className="absolute top-[0%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
         />
         <img
           src="/services/pwa-app/r1.png"
           alt=""
           width={200}
           height={200}
-          className="absolute top-[-20%] lg:block hidden left-[0%] md:left-[85%] translate-x-[-50%]"
+          className="absolute top-[-20%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
         />
         <img
   
@@ -75,7 +75,7 @@ const Hero = () => {
           alt=""
           width={200}
           height={200}
-          className="absolute top-[25%] lg:block hidden left-[0%] md:left-[30%] translate-x-[-50%]"
+          className="absolute top-[25%] lg:block hidden left-[0%] md:left-[25%] translate-x-[-50%]"
         />
         <div className="absolute -bottom-24 left-0 w-full border-none h-20 lg:h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
