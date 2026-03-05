@@ -188,7 +188,7 @@ const Footer = () => {
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
         {/* Sticky Logo Section - Mobile */}
-        <div className="sticky top-0 pt-5 z-30 bg-[#101010] py-6 -mx-6 px-6 border-b border-white/10">
+        <div className=" pt-5 z-30 bg-[#101010] py-6 -mx-6 px-6 border-b border-white/10">
           <div className="flex flex-col gap-4 items-center text-center">
             <Link href="/">
               <Image
@@ -236,7 +236,7 @@ const Footer = () => {
         </div>
 
         {/* Scrollable Content - Mobile */}
-        <div className="flex flex-col gap-12 pt-8 z-10">
+        <div className="flex flex-col gap-6 pt-8 z-10">
           {/* Services */}
           <div className="flex flex-col items-center text-center">
             <button
