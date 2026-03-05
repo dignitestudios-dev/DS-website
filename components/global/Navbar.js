@@ -176,7 +176,7 @@ const Navbar = ({ setIsOpen }) => {
         items: [
           ["Shopify App Development", "/ecommerce/shopify-app-development"],
           ["Ecommerce App Development", "/ecommerce/ecommerce-app-development"],
-          // ["Shopify Theme Development", "#"],
+          ["Shopify Store Development", "/ecommerce/shopify-store-development"],
         ],
       },
     ],

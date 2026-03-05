@@ -9,10 +9,10 @@ import Platforms from "../ui/Platforms";
 import Link from "next/link";
 
 const Hero = ({
-  header = "Custom Mobile Application Development Boston ",
-  header2 = "Companies Rely On",
-  para = "We don’t just claim to be the best mobile app development company in Boston, we prove it through our services. Our team specializes in mobile application development that brands choose for reliable, custom-built apps. We combine modern frameworks to create mobile solutions that work smoothly. So, your business grows in a competitive digital landscape.",
-  btn = "Discuss Your App Idea",
+  header = "Your Partner in Expert Shopify Store Development ",
+  header2 = "Services",
+  para = "We deliver the reliable shopify store development services designed for the growing businesses. Our apps improve the performance, scalability and customer experience quite efficiently.",
+  btn = "Get Free Shopify App Consultation",
 }) => {
   return (
     <div className="w-full grid grid-cols-1 bg-[url('/ecommerce/shopify-app/grad.webp')] bg-cover bg-center bg-no-repeat  justify-start items-start ">
@@ -27,10 +27,10 @@ const Hero = ({
           href="/contact-us"
           className="flex items-center group justify-center "
         >
-          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+          <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
             {btn}
           </button>
-          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+          <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
           </button>
         </Link>
@@ -47,7 +47,7 @@ const Hero = ({
           }}
         >
           <img
-            src="/ecommerce/shopify-app/laptop.png"
+            src="/ecommerce/shopify-store/laptop.png"
             alt="Shpify laptop"
             width={900}
             height={900}
@@ -55,7 +55,7 @@ const Hero = ({
             className="object-cover md:block hidden"
           />
           <img
-            src="/ecommerce/shopify-app/mob.png"
+            src="/ecommerce/shopify-store/mob.png"
             alt="Shpify laptop"
             width={250}
             height={250}

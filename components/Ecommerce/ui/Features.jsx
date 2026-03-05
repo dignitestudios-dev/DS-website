@@ -31,7 +31,7 @@ const Features = ({ header, header2, para, features, button }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed"
+            className="text-base md:text-lg  mx-auto leading-relaxed"
           >
             {para}
           </motion.p>

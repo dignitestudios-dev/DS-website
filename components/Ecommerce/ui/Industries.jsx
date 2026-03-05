@@ -61,7 +61,7 @@ const icons = [
     icon: "grocery.png",
   },
   {
-    icon: "fashion.png",
+    icon: "date.png",
   },
     {
     icon: "home.png",
@@ -86,6 +86,9 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
     ...(VALUE_PROPOSITION || []),
     ...(VALUE_PROPOSITION || []),
     ...(VALUE_PROPOSITION || []),
+    ...(VALUE_PROPOSITION || []),
+    ...(VALUE_PROPOSITION || []),
+    ...(VALUE_PROPOSITION || []),
   ];
 
   return (
@@ -95,7 +98,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
           {header}
           <span className="text-[#F15C20]"> {header2}</span>{" "}
         </h2>
-        <p className="text-sm md:text-lg my-6 dark:text-white md:w-[60%] mx-auto text-[#0C0C0C]">
+        <p className="text-sm md:text-lg my-6 dark:text-white mx-auto text-[#0C0C0C]">
           {para}
         </p>
       </div>
@@ -208,7 +211,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
             href={"/contact-us"}
             className="flex items-center group justify-center w-fit"
           >
-            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+            <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
               {button ? button : " Talk to our California-based team"}
             </button>
             <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
