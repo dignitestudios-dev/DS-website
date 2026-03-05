@@ -129,14 +129,14 @@ export function middleware(request) {
       oldPath: "/services/android-app-development",
       newPath: "/lp/android-app-development",
     },
-    {
-      oldPath: "/services/web-app-development",
-      newPath: "/lp/web-app-development",
-    },
-    {
-      oldPath: "/services/mobile-app-development",
-      newPath: "/lp/mobile-app-development",
-    },
+    // {
+    //   oldPath: "/services/web-app-development",
+    //   newPath: "/lp/web-app-development",
+    // },
+    // {
+    //   oldPath: "/services/mobile-app-development",
+    //   newPath: "/lp/mobile-app-development",
+    // },
     {
       oldPath: "/services/ios-app-development",
       newPath: "/lp/ios-app-development",

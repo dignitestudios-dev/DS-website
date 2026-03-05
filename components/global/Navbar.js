@@ -56,7 +56,7 @@ const Navbar = ({ setIsOpen }) => {
         items: [
           [
             "Mobile App Development Services",
-            "/services/mobile-app-development-services",
+            "/services/mobile-app-development",
           ],
           [
             "Android App Development Services",
@@ -72,7 +72,7 @@ const Navbar = ({ setIsOpen }) => {
           ],
           [
             "Web App Development Services",
-            "/services/web-application-development-services",
+            "/services/web-app-development",
           ],
           ["PWA Development Services", "/services/pwa-development-services"],
         ],

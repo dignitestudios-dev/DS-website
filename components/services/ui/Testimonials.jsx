@@ -10,14 +10,39 @@ import "swiper/css/pagination";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 
+const testData = [
+  {
+    name: "Los Angeles",
+    desgination: "– SaaS Founder",
+    review:
+      "“Dignite Studios helped us launch 3 months faster than expected. Their communication easily makes them the top mobile app developers California has to offer.” ",
+  },
+  {
+    name: "San Diego",
+    desgination: "– E-Commerce CEO",
+    review:
+      "“Our ROI jumped significantly within the first quarter. The team understood our goals instantly.” ",
+  },
+  {
+    name: "San Francisco",
+    desgination: "– Healthcare Startup",
+    review:
+      "“Professional and incredibly efficient. Their ability to deliver a smooth user experience was impressive.” ",
+  },
+  {
+    name: "Silicon Valley",
+    desgination: "– Fintech Product Lead",
+    review:
+      "“ If you need the best mobile app developers in California, this is where you go.” ",
+  },
+];
 
-
-const Testimonials = ({ header, header2, para, test: customTest, button }) => {
-  const testimonials = customTest 
+const Testimonials = ({ header, header2, para, test: customTest , button }) => {
+  const testimonials = customTest || testData;
 
   return (
-    <div className="w-full grid grid-cols-1 justify-start items-start   relative z-20">
-      <div className="flex relative z-20 w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
+    <div className="w-full grid grid-cols-1 justify-start items-start relative z-20">
+      <div className="flex relative z-20 w-[90%] md:w-[55%] flex-col text-center mx-auto items-center">
         <h2 className="text-4xl leading-10 tracking-tighter md:text-7xl font-bold ">
           {header}
           <span className="text-[#F15C20]"> {header2}</span>{" "}
@@ -25,7 +50,7 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
         <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">{para}</p>
       </div>
 
-      <div className="w-full pt-12 px-4 md:px-0">
+      <div className="w-full py-12 px-4 md:px-0">
         <Swiper
           modules={[Autoplay, Pagination]}
           centeredSlides={true}
@@ -102,7 +127,7 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                           alt="review stars"
                           className="mx-auto mb-2"
                         />
-                        <h3 className="text-base font-bold">{item.name}</h3>
+                        <h4 className="text-base font-bold">{item.name}</h4>
                         <p className="text-xs text-gray-600">
                           {item.designation}
                         </p>
@@ -118,21 +143,21 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
             ),
           )}
         </Swiper>
-        {button && (
-          <div className="flex justify-center mt-8 items-center">
-            <Link
-              href={"/contact-us"}
-              className="flex items-center group justify-center w-fit"
-            >
-              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                {button ? button : " Talk to our California-based team"}
-              </button>
-              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                <MdArrowOutward />
-              </button>
-            </Link>
-          </div>
-        )}
+         {button && (
+        <div className="flex justify-center mt-8 items-center">
+          <Link
+            href={"/contact-us"}
+            className="flex items-center group justify-center w-fit"
+          >
+            <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+              {button ? button : " Talk to our California-based team"}
+            </button>
+            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+              <MdArrowOutward />
+            </button>
+          </Link>
+        </div>
+      )}
       </div>
 
       <style jsx global>{`

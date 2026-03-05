@@ -527,7 +527,7 @@ const EcommerceAppDevelopment = () => {
       />
       <Testimonials
         header="Testimonials"
-        card={test}
+        test={test}
         button="Work With Our Expert Team"
       />
       <Faq faqs={faqs} header="FAQs" />

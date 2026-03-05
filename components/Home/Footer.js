@@ -37,7 +37,7 @@ const Footer = () => {
       },
       {
         name: "Web App Development Services",
-        href: "/services/web-application-development-services",
+        href: "/services/web-app-development",
       },
       {
         name: "PWA Development Services",
@@ -53,7 +53,7 @@ const Footer = () => {
       },
       {
         name: "Mobile App Development Services",
-        href: "/services/mobile-app-development-services",
+        href: "/services/mobile-app-development",
       },
       {
         name: "Mobile App Consulting Services",
