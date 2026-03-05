@@ -73,7 +73,7 @@ const ServicesNavbar = ({ setIsOpen }) => {
             style={{ background: palette?.background, color: palette?.color }}
           >
             <Link
-              href="/services/mobile-app-development-services"
+              href="/services/mobile-app-development"
               className={`hover:text-orange-600 `}
             >
               Mobile App Development Services
@@ -103,12 +103,12 @@ const ServicesNavbar = ({ setIsOpen }) => {
               Android App Development Services
             </Link>
             <Link
-              href="/services/ios-app-development"
+              href="/services/ios-app-development-services"
               className={`hover:text-orange-600 `}
             >
-              IOS App Development
+              IOS App Development Services
             </Link>
-            
+
             <Link
               href="/services/web-app-development"
               className={`hover:text-orange-600 `}
@@ -168,7 +168,12 @@ const ServicesNavbar = ({ setIsOpen }) => {
           onClick={() => setIsOpen(true)}
           className="flex lg:hidden h-4 lg:h-auto"
         >
-          <img src={"/menu-dark.webp"} className="h-full" width={16} height={26}/>
+          <img
+            src={"/menu-dark.webp"}
+            className="h-full"
+            width={16}
+            height={26}
+          />
         </button>
       </div>
     </div>

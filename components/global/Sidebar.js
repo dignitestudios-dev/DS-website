@@ -113,7 +113,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 style={{ color: palette?.color }}
               >
                 <Link
-                  href="/services/mobile-app-development-services"
+                  href="/services/mobile-app-development"
                   className={`hover:text-orange-600 `}
                 >
                   Mobile App Development Services
@@ -185,7 +185,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Hire iOS App Developers
                 </Link>
                 <Link
-                  href="/services/web-application-development-services"
+                  href="/services/web-app-development"
                   className={`hover:text-orange-600 `}
                 >
                   Web App Development Services
@@ -361,10 +361,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 >
                   Shopify App Development
                 </Link>
-                <Link  href="/ecommerce/ecommerce-app-development" className={`hover:text-orange-600 `}>
+                <Link
+                  href="/ecommerce/ecommerce-app-development"
+                  className={`hover:text-orange-600 `}
+                >
                   Ecommerce App Development
                 </Link>
-                
               </div>
             )}
           </button>

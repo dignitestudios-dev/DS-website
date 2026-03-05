@@ -81,10 +81,7 @@ const MobileAppServiceCard = () => {
       Mobile application development is a fast-paced emerging field of new
       trends and the latest deployment strategies to boost business in the
       digital world. Whereas, our{" "}
-      <Link
-        href="/services/mobile-app-development-services"
-        className="text-orange-600"
-      >
+      <Link href="/services/mobile-app-development" className="text-orange-600">
         mobile app development services
       </Link>{" "}
       produce different types of mobile applications such as basic apps, complex
@@ -100,7 +97,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort =
     "Mobile application development is a fast-paced emerging field of new trends and the latest deployment strategies to boost business in the digital world. Whereas...".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull2 = (
@@ -122,7 +119,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort2 =
     "Well, android indeed has the largest market share globally, but iOS users are willing to pay more for the apps via the Apple App Store. With those concerns, our highly skillful mobile app development body uses integrated Apple Xcode to test, build, and package apps. Whereas, iOS app development services can play a vital role in forming an effective iOS application.,...".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull3 = (
@@ -145,16 +142,13 @@ const MobileAppServiceCard = () => {
   const paragraphShort3 =
     "Are you looking for an Android app development service? At the door of skilled mobile app development experts, you can establish your app with modern tools like Android Studio and Software Development Kit to craft personalized Android apps for your business. However, Android offers various customization options for its users to connect worldwide on different Android devices.,...".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull4 = (
     <>
       Are you worried about your{" "}
-      <Link
-        href="/services/web-application-development-services"
-        className="text-orange-600"
-      >
+      <Link href="/services/web-app-development" className="text-orange-600">
         web app development services
       </Link>{" "}
       ? No need to, our valuable and reliable web application team can help you
@@ -166,7 +160,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort4 =
     "Are you worried about your web application development services? No need to, our valuable and reliable web application team can help you to create the application process on remote servers and also on any medium of the user’s device....".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull5 = (
@@ -189,7 +183,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort5 =
     "It’s no wonder that mobile applications have escalated in terms of designs, functions, and features. Here, at Dignite Studios our highly skillful and dedicated team can make your mobile applications flawless and innovative UI/UX design to create engaging visual elements in mobile applications. Therefore, we assure the best mobile app design services in the USA....".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull6 = (
@@ -216,7 +210,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort6 =
     "Testing your mobile application can be the hardest phase that can reflect your performance anytime. And if you ignore rigorous testing it can damage your credibility and worthiness. So, to ensure its quality, functionality, performance, usability, compatibility, and security, your app developer of mobile application testing services must ensure the removal of bugs and security issues to adhere to its worthiness. And, so Dignite Studios will make your mobile application testing services beyond any doubt with high-performing tools and methods to test your application such as emulators, simulators, devices, and beta testing. Therefore, you can test your application user interface on your mobile device to ensure its functionality...".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull7 = (
@@ -244,7 +238,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort7 =
     "Forming a mobile application is a great way for business owners to improve their marketing strategy, service optimization, and cost-effectiveness. It can systematically increase your revenue and click-through rate by consulting it with reliable mobile app developers. Therefore, each mobile app has its aspects and functionality in terms of target audience, design, monetization, security, and privacy. However, it needs to be evaluated foremost from a better platform. So, at the door of Dignite Studios, you can avail the best mobile consulting services to provide you with free consultation on your mobile app development. Also, our experts are available 24/7 to assist you on call. So, don’t wait and upgrade your mobile devices....".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull8 = (
@@ -270,7 +264,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort8 =
     "In the ever-evolving digital landscape, our mobile app company services ensure your app is functional, secure, and competitive. Our mobile application development agency set the seal to provide you with free maintenance for 2 months from the deployment of your app. It will include bug fixing, troubleshooting, performance monitoring, security updates, feature enhancement, upgrade versions, and compatibility testing. Therefore, mobile app support and maintenance services will help you to enhance user experience and update app versions accordingly to your mobile app development.....".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull9 = (
@@ -294,7 +288,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort9 =
     "Here at Dignite Studios, we bestow the best mobile-powered project, to create effective APIs, automate workflows, monitor high levels of coding systems, integrate tools, and evaluate security performance constructively. Our mobile app company can save you time and money to accomplish your project instantly. The mobile application development process plays a notable role in acquiring business needs. Hire mobile app developer services from a renowned group of experienced developers.....".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull10 = (
@@ -316,7 +310,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort10 =
     "Our iOS App design services have vast experience in generating thousands of IOS apps, our agency follows Apple's human interface design principles that focus on san serif typography, minimalist icons, and a limited color palette for users to maintain a clear hierarchy as required...".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull11 = (
@@ -338,7 +332,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort11 =
     "Here at Dignite Studios, hire iOS developers services to acquire captivating IOS designs, and features of IOS applications. Our expert developers not only engage with large enterprises but also cooperate with small and medium start-ups to boost their development journey....".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull12 = (
@@ -360,7 +354,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort12 =
     "To maintain the efficacy of your mobile application, we furnish material design guidelines, shadow effects, bold colors, and unique layouts for your application. Also, our team of Android app design services possesses easy and readable fonts for various screen sizes of mobile app development...".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull13 = (
@@ -383,7 +377,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort13 =
     "Do you want to expand your reach and generate more revenue through Android mobile apps? Here you are at the right place, hire mobile app developers services from a top mobile application company to boost your brand awareness, and customer engagement, and drive the highest revenues in the market. However, to create a high-quality Android app a growing business must hire Android developers services from our platform...".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull15 = (
@@ -404,7 +398,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort15 =
     "We cater to specific mobile operating systems e.g. Apple, IO, S, and Android) to produce native device features. Our skillful native app development services can build a proper ecosystem to create easier observance with the Google Play Store and Apple App Store...".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull16 = (
@@ -424,7 +418,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort16 =
     "To expand your business and run a smooth architectural approach like the App Shell Model, our developers serve the best app service model to create the effectiveness of your application through progressive web app development services...".substring(
       0,
-      170
+      170,
     ) + "...";
 
   const paragraphFull17 = (
@@ -445,7 +439,7 @@ const MobileAppServiceCard = () => {
   const paragraphShort17 =
     "We cater to specific mobile operating systems e.g. Apple, IO, S, and Android) to produce native device features. Our skillful native app development services can build a proper ecosystem to create easier observance with the Google Play Store and Apple App Store...".substring(
       0,
-      170
+      170,
     ) + "...";
 
   return (

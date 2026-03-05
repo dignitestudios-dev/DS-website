@@ -91,10 +91,7 @@ const services = [
         </Link>{" "}
         are the best choice. As a native mobile app development company, we
         build custom native apps and{" "}
-        <Link
-          href="/services/pwa-development-services"
-          className="underline "
-        >
+        <Link href="/services/pwa-development-services" className="underline ">
           PWAs
         </Link>{" "}
         that scale with you.
@@ -108,10 +105,7 @@ const services = [
     description: (
       <>
         We also handle{" "}
-        <Link
-          href="/services/web-application-development-services"
-          className="underline "
-        >
+        <Link href="/services/web-app-development" className="underline ">
           web app development
         </Link>{" "}
         services when your product lives in the browser. Our custom web app
@@ -400,7 +394,9 @@ Including strategy, UI/UX design with agile development and deployment, we make 
                   product goals, technical needs
                 </p>
                 <Link
-                href={"/contact-us"} className="flex items-center group justify-center ">
+                  href={"/contact-us"}
+                  className="flex items-center group justify-center "
+                >
                   <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
                     Let’s Talk About Your Idea
                   </button>
@@ -433,7 +429,7 @@ Including strategy, UI/UX design with agile development and deployment, we make 
             project. This is why many clients consider us the{" "}
             <Link
               className="underline"
-              href={"/services/mobile-app-development-services"}
+              href={"/services/mobile-app-development"}
             >
               {" "}
               best mobile app development company New York{" "}
@@ -468,7 +464,7 @@ Including strategy, UI/UX design with agile development and deployment, we make 
       <SuccessStories />
       <CTA />
       <TechAndTools />
-   
+
       <Testimonials
         test={test}
         header={"Hear From Our New York"}
