@@ -38,13 +38,13 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-      <div className="relative flex justify-center h-[200px] md:h-[700px] items-center my-12 ">
+      <div className="relative flex justify-center h-[200px] md:h-[600px] items-center my-12 ">
         <img
           src="/services/web-app/grad.webp"
           alt=""
           fill
           priority
-          className="absolute  left-[50%] translate-x-[-50%] lg:-top-44  -z-0 object-contain"
+          className="absolute  left-[50%] translate-x-[-50%]  lg:block hidden  -z-0 object-contain"
         />
         <motion.div
           className="relative"
