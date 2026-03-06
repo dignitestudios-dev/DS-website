@@ -261,31 +261,37 @@ const faqs = [
     id: 1,
     question: "What is AI automation?",
     answer:
-      "By the implementation of the organised systems, AI automation helps the organisation with the lengthy, repetitive tasks and the workflows. These solutions also improve the overall efficiency, reduce the labour cots and improve the operational accuracy.",
+      "By the implementation of the organised systems, AI automation helps the organisation with the lengthy, repetitive tasks and the workflows. These solutions also improve the overall efficiency, reduce the labour cots and improve the operational accuracy. Organisations may also reduce the errors, which save time and also focus on the high value tasks which also encourage the efficiency, growth and also the improved way of decision making across the business processes and the departments by utilising intelligent automation",
   },
   {
     id: 2,
     question: "How is company efficiency increased by AI automation?",
     answer:
-      "Businesses may speed up task completion, minimise repetitive workloads and optimise the processes through implementing AI automation. This also improves the operational uniformity while reducing human error.",
+      "Businesses may speed up task completion, minimise repetitive workloads and optimise the processes through implementing AI automation. This also improves the operational uniformity while reducing human error. While automation guarantees accuracy and speed, teams can concentrate on the critical tasks. This eventually increases the overall productivity, optimises the resource use and provides efficiency improvements for the businesses of all sizes. ",
   },
   {
     id: 3,
     question: "To What Extent are AI Automation Systems Secure?",
     answer:
-      "Our AI automation consulting services at Dignite studios respect strong security guidelines and the industry best practices. To protect the sensitive corporate data, we put in place compliance procedures and data protection standards.",
+      "Our AI automation consulting services at Dignite studios respect strong security guidelines and the industry best practices. To protect the sensitive corporate data, we put in place compliance procedures, data protection standards and the secure architecture. These systems protect confidentiality, guarantee security and stop unwanted access. Our consulting services are also recognised by the businesses to provide the reliable, completely secure automation solutions for all business processes.",
   },
   {
     id: 4,
     question: "Can AI automation integrate with existing software?",
     answer:
-      "Yes, our AI automation for businesses smoothly integrates with the existing RM, ERP, Cloud platforms, and third-party software using secure APIs and organised workflow logic.",
+      "Yes, our AI automation for businesses smoothly integrates with the existing RM, ERP, Cloud platforms, and third-party software. We link the systems to provide effective data flow and process automation through the use of the secure APIs and organised workflow logic. By ensuring the scalable, accurate and successful procedures without any compromising through the current infrastructure or the company processes, these connections assist the organizations in maintaining the consistency meanwhile upgrading the operations. ",
   },
   {
     id: 5,
     question: "Do you offer support after the deployment?",
     answer:
-      "Yes, we offer the ongoing post deployment monitoring, maintenance and optimisation as part of our AI automation agency services to ensure long term stability.",
+      "Yes, we offer the ongoing post deployment monitoring, maintenance and optimisation as part of our AI automation agency services. To guarantee long term stability, productivity and accuracy we monitor performance, identify areas for the development and simplify processes. Our staff helps businesses maintain reliable, efficient automation systems across all departments by offering ongoing support to handle the technical issues, apply updates and optimise ROI. ",
+  },
+  {
+    id: 6,
+    question: "How secure are AI automation systems?",
+    answer:
+      "At Dignite Studios, our AI automation consulting services follow the strict security protocols and industry best practices. We implement the secure architecture, data protection standards, and compliance measures to safeguard sensitive business information. These systems prevent unauthorized access, ensure integrity, and maintain confidentiality. Businesses can trust our consulting services to deliver reliable, fully secure automation solutions across all operational workflows.  ",
   },
 ];
 
@@ -420,7 +426,7 @@ const AiAutomation = () => {
           </div>
         }
         para={
-          "Dignite Studios delivers the best services to help businesses grow with clear control and long-term stability. We build simple systems that improve performance and profit."
+          "Dignite Studios delivers the best services to help businesses grow with clear control and long-term stability. We build simple systems that improve performance and profit. Not like many traditional AI automation companies. We also focus on the practical execution and measurable business results."
         }
       />
       <TechTools
@@ -428,7 +434,7 @@ const AiAutomation = () => {
         tech={tech}
         header={"AI Automation Technology Stack We Use"}
         para={
-          "Dignite Studios creates intelligent, scalable and secure solutions through enterprise grade tools stable workflow performance, quick deployment and fluent integrations. It was made possible through the cloud native design."
+          "Dignite Studios creates intelligent, scalable and secure solutions through enterprise grade tools stable workflow performance, quick deployment and fluent integrations. It was made possible through the cloud native design. We provide useful significant AI automation solutions for the small business for various industries.Through combining automation techniques with the modern platforms. "
         }
       />
       <Process
@@ -442,10 +448,10 @@ const AiAutomation = () => {
       <Industries
         button={" Discuss Your Idea  "}
         VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Industries We Serve with"}
-        header2={" AI Automation Solutions"}
+        header={"Best AI Automation Services for the "}
+        header2={"Scalable Business Growth"}
         para={
-          "Dignite Studios offers the best solution for the fastest more sustainable growth. We also develop scalable structures which improve efficiency increase productivity and increased profits."
+          "Dignite Studios offers the best solution for the fastest more sustainable growth. We also develop scalable structures which improve efficiency increase productivity and increased profits.Our approach promotes the simple execution practical application and the visible results for the long term success. "
         }
       />
       <Features
@@ -453,7 +459,7 @@ const AiAutomation = () => {
         header={"Must Have Features In"}
         header2={"AI Automation Solutions"}
         para={
-          "Modern businesses require scalable architecture and secure integrations. The right system ensured workflow accuracy, performance tracking, and operational transparency across the departments."
+          "Modern businesses require scalable architecture and secure integrations. The right system ensured workflow accuracy, performance tracking, and operational transparency across the departments, with support from the trusted AI automation agencies"
         }
         features={featuresData}
       />
@@ -462,7 +468,7 @@ const AiAutomation = () => {
         header={"Benefits Of Having AI"}
         header2={" Automation Solutions"}
         para={
-          "Our group companies assist companies in increasing operational control, reducing manual labour, and increasing the production. Organisations can also attain better accuracy, increased visibility and long term scalability."
+          "Our group companies assist companies in increasing operational control, reducing manual labour, and increasing the production. Organisations can also attain better accuracy, increased visibility and the long term scalability of the implementation for the structured systems.  "
         }
         cards={BENEFITS}
       />
