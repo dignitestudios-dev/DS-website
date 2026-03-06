@@ -11,7 +11,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import ContactButton from "@/components/global/ContactButton";
 import ProcessContainer from "./ProcessContainer";
 
-const Process = ({header , header2 , para , steps}) => {
+const Process = ({header , header2 , para , steps , button}) => {
   const [currentTab, setCurrentTab] = useState("Agile");
   const { palette, theme } = useContext(GlobalContext);
   const [openedTab, setOpenedTab] = useState(1);
@@ -73,7 +73,7 @@ const Process = ({header , header2 , para , steps}) => {
         >
           Start Your Project
         </Link> */}
-        <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
+        <ContactButton text1={ button ? button :"Start Your Project"} text2={"Let's talk"} />
       </div>
     </div>
   );

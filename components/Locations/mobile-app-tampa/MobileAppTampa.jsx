@@ -330,6 +330,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
         para={
           "The team follows a proven mobile app development process that makes sure the productivity remains high and your app turns out functional. Here’s how we work. "
         }
+        button={"Let’s Work on Your Idea! "}
       />
       <MobileApp
         header={"How Exactly Does a Mobile App "}
@@ -349,7 +350,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
         header2={""}
         para={""}
       />
-      <Faq faqs={faqs} />
+      <Faq faqs={faqs} header={"Most Commonly Asked Questions"} />
       <ContactUs
         pathname={"Mobile Dev in Tampa "}
         header={"Connect With Our Experts Today! "}

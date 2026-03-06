@@ -373,7 +373,7 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
         }
       />
       <CTA />
-      <TechAndTools />
+      <TechAndTools header={"Tools & Technologies We Work With"} />
       {/* <SEO  header={"Focused Mobile Application Development Boston"} para={"Choosing the right partner in Boston can completely change the way your app performs in a competitive market."}/> */}
       <Testimonials
         test={test}

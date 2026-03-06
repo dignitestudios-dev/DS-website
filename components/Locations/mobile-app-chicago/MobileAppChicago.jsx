@@ -374,9 +374,9 @@ From developers and designers to project managers, our team also works closely t
         }
         cards={BENEFITS}
       />
-      <SuccessStories />
+      <SuccessStories header={"Case Studies by"} para={"As the proven best mobile app development company in Chicago, Dignite Studios has helped businesses launch products which drive growth, engagement and the measurable ROI. "}  />
       <CTA />
-      <TechAndTools />
+      <TechAndTools header={"Tools & Technologies We Use"} para={"As a modern app development Chicago partner, Dignite Studios uses the reliable scalable technologies to build fast, secure and future ready mobile products. "} />
       {/* <SEO header={"Chicago-Specific Coverage"} para={"While our local team partners closely with the startups and enterprises, Dignite studios also supports businesses across major U.S. tech hubs. From product teams in New York to growing brands in San Diego and innovation leaders in Silicon Valley, our reach extends beyond city limits. As the trusted Chicago mobile app development company, we combine the regional insight through the nationwide execution to deliver scalable and high performance digital products."} /> */}
       <Testimonials
         test={test}

@@ -17,8 +17,8 @@ const BuildingPlatforms = ({
   button,
 }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
-  const swiperRef = useRef(null);
+  const desktopSwiperRef = useRef(null);
+  const mobileSwiperRef = useRef(null);
 
   const duplicatedPropositions = [
     ...VALUE_PROPOSITION,
@@ -28,22 +28,13 @@ const BuildingPlatforms = ({
   ];
 
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    checkMobile();
-    window.addEventListener("resize", checkMobile);
-    return () => window.removeEventListener("resize", checkMobile);
-  }, []);
-
-  useEffect(() => {
     const resumeAutoplay = () => {
-      const swiper = swiperRef.current;
-      if (!swiper || swiper.destroyed) return;
-      swiper.autoplay.stop();
-      setTimeout(() => {
-        if (swiper && !swiper.destroyed) {
-          swiper.autoplay.start();
-        }
-      }, 100);
+      if (desktopSwiperRef.current && !desktopSwiperRef.current.destroyed) {
+        desktopSwiperRef.current.autoplay.start();
+      }
+      if (mobileSwiperRef.current && !mobileSwiperRef.current.destroyed) {
+        mobileSwiperRef.current.autoplay.start();
+      }
     };
 
     const handleVisibilityChange = () => {
@@ -65,14 +56,13 @@ const BuildingPlatforms = ({
     };
   }, []);
 
-  // Responsive card dimensions
-  // On mobile: active card takes ~88vw so it always appears centered in the viewport
-  const activeCardWidth = isMobile ? "88vw" : "596px";
-  const inactiveCardWidth = isMobile ? "100px" : "292px";
-  const cardHeight = isMobile ? "220px" : "283px";
-  const cardPadding = isMobile ? "20px" : "44px";
-  const innerContentWidth = isMobile ? "100%" : "391px";
-  const logoSize = isMobile ? 72 : 120;
+  // Desktop card dimensions
+  const activeCardWidth = "596px";
+  const inactiveCardWidth = "292px";
+  const cardHeight = "283px";
+  const cardPadding = "44px";
+  const innerContentWidth = "391px";
+  const logoSize = 120;
 
   return (
     <div className="w-full grid grid-cols-1 justify-start items-start">
@@ -87,8 +77,8 @@ const BuildingPlatforms = ({
         </p>
       </div>
 
-      {/* Carousel */}
-      <div className="w-full overflow-hidden">
+      {/* Desktop Carousel */}
+      <div className="hidden md:block w-full overflow-hidden">
         <Swiper
           modules={[Autoplay]}
           centeredSlides={true}
@@ -104,7 +94,7 @@ const BuildingPlatforms = ({
           loop={true}
           onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
           onSwiper={(swiper) => {
-            swiperRef.current = swiper;
+            desktopSwiperRef.current = swiper;
             setActiveIndex(swiper.activeIndex);
           }}
           className="!w-full !py-12 h-full gap-0 relative overflow-visible"
@@ -118,7 +108,7 @@ const BuildingPlatforms = ({
                 style={{
                   width: isActive ? activeCardWidth : inactiveCardWidth,
                   height: cardHeight,
-                  margin: isMobile ? "0 4px" : "0 10px",
+                  margin: "0 10px",
                   transition: "width 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
                 }}
               >
@@ -133,7 +123,7 @@ const BuildingPlatforms = ({
                     layout: { duration: 0.5, ease: [0.4, 0, 0.2, 1] },
                     boxShadow: { duration: 0.4, ease: "easeInOut" },
                   }}
-                  className={`relative overflow-hidden rounded-[23px] flex flex-col items-start justify-between ${isActive ? "ml-28 md:ml-0" : "ml-0"} `}
+                  className={`relative overflow-hidden rounded-[23px] flex flex-col items-start justify-between ${isActive ? "ml-0" : "ml-0"}`}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -157,7 +147,7 @@ const BuildingPlatforms = ({
                       transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
                       className="font-semibold tracking-[-0.04em] text-[#0C0C0C] text-start"
                       style={{
-                        fontSize: isMobile ? "15px" : "20px",
+                        fontSize: "20px",
                         lineHeight: "105%",
                         width: isActive ? innerContentWidth : "100%",
                         transition: "width 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
@@ -177,7 +167,7 @@ const BuildingPlatforms = ({
                         isActive ? "" : "line-clamp-1"
                       }`}
                       style={{
-                        fontSize: isMobile ? "12px" : "14px",
+                        fontSize: "14px",
                         lineHeight: "136%",
                         width: isActive ? innerContentWidth : "100%",
                       }}
@@ -211,6 +201,55 @@ const BuildingPlatforms = ({
               </SwiperSlide>
             );
           })}
+        </Swiper>
+      </div>
+
+      {/* Mobile Carousel */}
+      <div className="block md:hidden w-full overflow-hidden px-4 py-8">
+        <Swiper
+          modules={[Autoplay]}
+          spaceBetween={16}
+          slidesPerView={1}
+          centeredSlides={true}
+          loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          onSwiper={(swiper) => {
+            mobileSwiperRef.current = swiper;
+          }}
+          className="w-full relative overflow-visible"
+        >
+          {VALUE_PROPOSITION?.map((value, index) => (
+            <SwiperSlide key={`mobile-${index}`}>
+              <div
+                className="w-[90%] mx-auto h-[240px] p-6 rounded-[23px] flex flex-col items-start justify-start text-left relative overflow-hidden"
+                style={{
+                  background:
+                    "linear-gradient(#F9F9F9, #F9F9F9) padding-box, linear-gradient(281.49deg, rgba(240,216,207,0) 3.25%, #F15C20 98.62%) border-box",
+                  border: "2px solid transparent",
+                }}
+              >
+                <div className="flex flex-col items-start w-full relative z-10">
+                  <h3 className="font-semibold text-[20px] leading-[105%] mb-4 text-[#0C0C0C] w-full">
+                    {value?.title}
+                  </h3>
+                  <p className="font-normal text-[14px] leading-[136%] text-[#0C0C0C] w-full">
+                    {value?.desc}
+                  </p>
+                </div>
+
+                {value.logo && (
+                  <img
+                    src={value.logo}
+                    alt={value.title}
+                    className="absolute right-0 bottom-0 w-24 h-24 object-contain z-0"
+                  />
+                )}
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
 

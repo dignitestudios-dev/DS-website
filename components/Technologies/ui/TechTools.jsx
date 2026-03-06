@@ -262,20 +262,21 @@ const TechTools = ({ header, para, tech, button }) => {
             ))}
           </AnimatePresence>
         </div>
-
-        <div className="flex justify-center mt-12 mb-4 p-4">
-          <Link
-            href={"/contact-us"}
-            className="flex items-center group justify-center w-fit"
-          >
-            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-              {button ? button : " Talk to our California-based team"}
-            </button>
-            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-              <MdArrowOutward />
-            </button>
-          </Link>
-        </div>
+        {button && (
+          <div className="flex justify-center mt-12 mb-4 p-4">
+            <Link
+              href={"/contact-us"}
+              className="flex items-center group justify-center w-fit"
+            >
+              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                {button ? button : " Talk to our California-based team"}
+              </button>
+              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                <MdArrowOutward />
+              </button>
+            </Link>
+          </div>
+        )}
       </div>
     </section>
   );
