@@ -45,58 +45,119 @@ import {
 import { FaAws, FaApple, FaGooglepay } from "react-icons/fa";
 import Features from "../ui/Features";
 
-import { FaSearch, FaLock, FaMobileAlt, FaBell, FaCommentDots, FaCreditCard, FaShareAlt, FaClock, FaUsers } from "react-icons/fa";
+import {
+  FaSearch,
+  FaLock,
+  FaMobileAlt,
+  FaBell,
+  FaCommentDots,
+  FaCreditCard,
+  FaShareAlt,
+  FaClock,
+  FaUsers,
+} from "react-icons/fa";
 import CTA from "./CTA";
 
 const FEATURES = [
   {
     title: "Smart Search",
     desc: "Included search bar that helps users find the information or product they are looking for efficiently.",
-    icon: <FaSearch color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />,
+    icon: (
+      <FaSearch
+        color="transparent"
+        stroke="#F15C20"
+        strokeWidth={40}
+        size={50}
+      />
+    ),
   },
   {
     title: "Passwordless Login",
     desc: "Secure login without passwords to make authentication simple and safe for users.",
-    icon: <FaLock color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />,
+    icon: (
+      <FaLock color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
+    ),
   },
   {
     title: "Offline Access",
     desc: "Mobile apps provide users with access to some features even without an internet connection.",
-    icon: <FaMobileAlt color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />,
+    icon: (
+      <FaMobileAlt
+        color="transparent"
+        stroke="#F15C20"
+        strokeWidth={40}
+        size={50}
+      />
+    ),
   },
   {
     title: "Push Notifications",
     desc: "Keep users engaged by providing real-time updates and reminders directly on their screens.",
-    icon: <FaBell color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />,
+    icon: (
+      <FaBell color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
+    ),
   },
   {
     title: "In-App Chat",
     desc: "Provide real-time chat support to users for instant help and better user satisfaction.",
-    icon: <FaCommentDots color="transparent" stroke="#F15C20" strokeWidth={ 40} size={50} />,
+    icon: (
+      <FaCommentDots
+        color="transparent"
+        stroke="#F15C20"
+        strokeWidth={40}
+        size={50}
+      />
+    ),
   },
   {
     title: "Secure Payments",
     desc: "High-level security is integrated to ensure safe transactions through the app.",
-    icon: <FaCreditCard color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />,
+    icon: (
+      <FaCreditCard
+        color="transparent"
+        stroke="#F15C20"
+        strokeWidth={40}
+        size={50}
+      />
+    ),
   },
   {
     title: "Social Sign-In",
     desc: "Allow users to easily sign in and share content through social media platforms.",
-    icon: <FaShareAlt color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />,
+    icon: (
+      <FaShareAlt
+        color="transparent"
+        stroke="#F15C20"
+        strokeWidth={40}
+        size={50}
+      />
+    ),
   },
   {
     title: "Real-Time Updates",
     desc: "Provide live updates to users instantly to keep them informed and engaged.",
-    icon: <FaClock color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />,
+    icon: (
+      <FaClock
+        color="transparent"
+        stroke="#F15C20"
+        strokeWidth={40}
+        size={50}
+      />
+    ),
   },
   {
     title: "User Profiles",
     desc: "Users can create and manage profiles to personalize their experience within the app.",
-    icon: <FaUsers color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />,
+    icon: (
+      <FaUsers
+        color="transparent"
+        stroke="#F15C20"
+        strokeWidth={40}
+        size={50}
+      />
+    ),
   },
 ];
-
-
 
 const techData = {
   Frontend: [
@@ -260,11 +321,11 @@ const VALUE_PROPOSITION = [
     desc: "With our fintech mobile app development services, we provide support in launching secure fintech apps and payment mobile apps with multi-layer authentication.",
   },
   {
-    title: "E-commerce & Retail Apps",
+    title: "Ecommerce & Retail Apps",
     desc: "Dignite Studios keeps everything simple through ecommerce development services. Storefront, Inventory, and POS? Already included.",
   },
   {
-    title: "Education & e-Learning Apps",
+    title: "Education & E-learning apps",
     desc: "We provide education app development services that lead students step by step through courses and quizzes. That includes providing teachers with dashboards too.",
   },
   {
@@ -349,7 +410,6 @@ const BENEFITS = [
     icon: <FaPencilAlt color="#F15C20" size={25} />,
   },
 ];
-
 
 const faqs = [
   {
@@ -552,7 +612,7 @@ const MobileAppDevelopment = () => {
           "Here’s the case studies section, showcasing the solutions and apps we built with our workflow, which actually make development easier."
         }
       />
-      <CTA/>
+      <CTA />
       <Testimonials
         test={test}
         header={"What Our Clients "}

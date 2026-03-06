@@ -32,8 +32,8 @@ export const industries = [
     description:
       "Mobile applications designed specifically for users to browse and purchase products from online stores through their mobile devices. They offer a convenient and accessible way to shop anytime, anywhere, contributing to the ever-growing trend of mobile shopping.",
     bgColor: "#D4E5FF33",
-    img_title: "Mobile App Development E-Commerce Industry Icon",
-    alt: "Mobile App Development E-Commerce Industry Icon",
+    img_title: "Mobile App Development Ecommerce Industry Icon",
+    alt: "Mobile App Development Ecommerce Industry Icon",
   },
   {
     image: "/mobile-app-development-social-media-industry-icon-1.webp",

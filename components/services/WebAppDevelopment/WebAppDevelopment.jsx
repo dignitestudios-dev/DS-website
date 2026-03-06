@@ -123,11 +123,7 @@ const FEATURES = [
   {
     title: "Analytics",
     desc: "Gain valuable insights into user behavior with integrated analytics and reporting tools.",
-    icon: (
-      <TbDeviceAnalytics
-     
-      />
-    ),
+    icon: <TbDeviceAnalytics />,
   },
   {
     title: "Custom Dashboards",
@@ -199,7 +195,7 @@ const services = [
   {
     icon: "database",
     icon2: "database1",
-    title: "Custom App Development Services",
+    title: "Custom Web App Development Services",
     description: (
       <>
         Custom web app development means you can get your web app built the way
@@ -301,7 +297,7 @@ const VALUE_PROPOSITION = [
     desc: "The team delivers secure solutions for the fintech industry including payment platforms and digital banking apps.",
   },
   {
-    title: "E-commerce Industry",
+    title: "Ecommerce Industry",
     desc: "The team is great at building e-commerce web applications that increase revenue through online stores.",
   },
   {
@@ -585,7 +581,7 @@ const WebAppDevelopment = () => {
           <>
             You don’t just build a web application without thinking much. It is
             usually a set of essential features that ensure performance. The
-            features could be really important ones. Including, navigation,
+            features could be really important ones. Including navigation,
             responsive design, security, integrations. These elements enhance
             user experience and operational efficiency.
           </>

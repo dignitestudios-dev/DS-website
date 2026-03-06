@@ -131,7 +131,7 @@ const VALUE_PROPOSITION = [
     desc: "We deliver secure, compliance-driven financial products through modern fintech app development services focused on performance, data protection, and user trust.",
   },
   {
-    title: "E-commerce Industry",
+    title: "Ecommerce Industry",
     desc: "As an experienced ecommerce app development company, we build conversion-focused shopping experiences that improve user engagement and customer retention.",
   },
   {

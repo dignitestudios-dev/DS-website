@@ -27,8 +27,9 @@ const services = [
     description: (
       <>
         The iOS / iPhone app development is the right choice if your target
-        audience in Charlotte consists of iOS users. We develop iOS applications, ready for a
-        smooth user experience using Swift in NC. We focus on apps that excel.
+        audience in Charlotte consists of iOS users. We develop iOS
+        applications, ready for a smooth user experience using Swift in NC. We
+        focus on apps that excel.
       </>
     ),
   },
@@ -38,9 +39,9 @@ const services = [
     title: "Android App Development",
     description: (
       <>
-        If you're seeking an Android mobile app development agency Charlotte, you
-        can trust us with your Android app development. The team makes sure to
-        create Android app that are optimized for all Android devices.
+        If you're seeking an Android mobile app development agency Charlotte,
+        you can trust us with your Android app development. The team makes sure
+        to create Android app that are optimized for all Android devices.
       </>
     ),
   },
@@ -50,7 +51,9 @@ const services = [
     title: "Hybrid App Development",
     description: (
       <>
-        Our Hybrid mobile app development services keep your project running smoothly, so if you're all about quick results without blowing the budget, hybrid development is your perfect match.
+        Our Hybrid mobile app development services keep your project running
+        smoothly, so if you're all about quick results without blowing the
+        budget, hybrid development is your perfect match.
       </>
     ),
   },
@@ -60,9 +63,10 @@ const services = [
     title: "Custom Solutions / Native & Web Apps",
     description: (
       <>
-        When it comes to building custom solutions, we provide the best custom mobile app development Charlotte. Our offerings
-        include native app development services, PWA development services,
-        hybrid app development services, and web app development services.
+        When it comes to building custom solutions, we provide the best custom
+        mobile app development Charlotte. Our offerings include native app
+        development services, PWA development services, hybrid app development
+        services, and web app development services.
       </>
     ),
   },
@@ -72,8 +76,9 @@ const services = [
     title: "Design Services",
     description: (
       <>
-        Our mobile app design services include iOS and Android app design services. The outcome is consistent branding. Every design
-        is created to make your app engaging through Charlotte mobile app development.
+        Our mobile app design services include iOS and Android app design
+        services. The outcome is consistent branding. Every design is created to
+        make your app engaging through Charlotte mobile app development.
       </>
     ),
   },
@@ -83,8 +88,10 @@ const services = [
     title: "Maintenance, Consulting & Testing",
     description: (
       <>
-        The developers in DC provide mobile app support &
-        maintenance services, mobile app consulting services, and QA services, including mobile app development services Charlotte. We help with the app launch & deployment to maximize ROI.
+        The developers in DC provide mobile app support & maintenance services,
+        mobile app consulting services, and QA services, including mobile app
+        development services Charlotte. We help with the app launch & deployment
+        to maximize ROI.
       </>
     ),
   },
@@ -127,11 +134,11 @@ const VALUE_PROPOSITION = [
     desc: "Through our fintech app development services in NC, we help you in launching secure fintech apps and payment mobile apps with multi-layer authentication.",
   },
   {
-    title: "E-commerce & Retail Apps",
+    title: "Ecommerce & Retail Apps",
     desc: "We keep things quick and simple through ecommerce application development in Charlotte. Storefront? Check. Inventory? Check. POS and loyalty? All included.",
   },
   {
-    title: "Education & e-Learning Apps",
+    title: "Education & E-learning apps",
     desc: "We provide education app development services in NC that guide students step by step through courses and quizzes, while teachers have dashboards that actually help them do their job.",
   },
   {
@@ -309,8 +316,8 @@ const MobileAppCharlotte = () => {
                 </h2>
                 <p>
                   You've seen what makes us unique from other mobile app
-                  development companies in Charlotte. Now let's work on your project. We'll talk about your app
-                  vision and long-term growth
+                  development companies in Charlotte. Now let's work on your
+                  project. We'll talk about your app vision and long-term growth
                   plans.
                 </p>
                 <Link
@@ -330,7 +337,13 @@ const MobileAppCharlotte = () => {
         }
         para={
           <>
-            Businesses in Charlotte turn to Dignite Studios because we bring them the results they want.  We are not just some people claiming to be the top mobile app development company Charlotte NC; we have the best mobile app developers who take the time to understand your goals and audience before the development starts. It ensures that we are delivering the best execution with clear communication and reliable solutions.
+            Businesses in Charlotte turn to Dignite Studios because we bring
+            them the results they want. We are not just some people claiming to
+            be the top mobile app development company Charlotte NC; we have the
+            best mobile app developers who take the time to understand your
+            goals and audience before the development starts. It ensures that we
+            are delivering the best execution with clear communication and
+            reliable solutions.
           </>
         }
       />
@@ -365,7 +378,12 @@ const MobileAppCharlotte = () => {
         }
       />
       <CTA />
-      <TechAndTools header={"Technologies & Frameworks"} para={"Do you ever think about what makes some apps feel so smooth, while some of those apps look like chaos? Being a trusted app development company, we ensure your app works smoothly every time. To create your app smoothly and easily to use, we use modern technologies so that the app’s performance is not affected and works for long term. "} />
+      <TechAndTools
+        header={"Technologies & Frameworks"}
+        para={
+          "Do you ever think about what makes some apps feel so smooth, while some of those apps look like chaos? Being a trusted app development company, we ensure your app works smoothly every time. To create your app smoothly and easily to use, we use modern technologies so that the app’s performance is not affected and works for long term. "
+        }
+      />
       {/* <SEO /> */}
       <Testimonials
         test={test}

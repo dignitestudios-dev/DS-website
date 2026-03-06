@@ -26,7 +26,9 @@ const services = [
     title: "iOS App Development",
     description: (
       <>
-        The iOS / iPhone app development is the perfect choice if your audience consists of iOS users. Dignite Studios develops iOS applications that are ready to deliver a smooth user experience.
+        The iOS / iPhone app development is the perfect choice if your audience
+        consists of iOS users. Dignite Studios develops iOS applications that
+        are ready to deliver a smooth user experience.
       </>
     ),
   },
@@ -36,7 +38,10 @@ const services = [
     title: "Android App Development",
     description: (
       <>
-        If you need Android mobile app development services in Texas, you can trust Dignite Studios with your Android app development. The team develops Android applications that are fully optimized for devices like Samsung and OnePlus.
+        If you need Android mobile app development services in Texas, you can
+        trust Dignite Studios with your Android app development. The team
+        develops Android applications that are fully optimized for devices like
+        Samsung and OnePlus.
       </>
     ),
   },
@@ -46,7 +51,9 @@ const services = [
     title: "Hybrid App Development",
     description: (
       <>
-        Our Hybrid mobile app development Texas services keep your project running smoothly. So, if you care about quick results without ruining the budget, hybrid development is your perfect match.
+        Our Hybrid mobile app development Texas services keep your project
+        running smoothly. So, if you care about quick results without ruining
+        the budget, hybrid development is your perfect match.
       </>
     ),
   },
@@ -56,7 +63,9 @@ const services = [
     title: "Native & Web Apps",
     description: (
       <>
-        When it comes to building custom solutions, we are the best custom mobile app development company in Texas. The offerings include native app development services and web app development services.
+        When it comes to building custom solutions, we are the best custom
+        mobile app development company in Texas. The offerings include native
+        app development services and web app development services.
       </>
     ),
   },
@@ -66,7 +75,10 @@ const services = [
     title: "Design Services",
     description: (
       <>
-        Every click should matter. So, our mobile app design services include iOS app design and Android app design services with a focus on clear interfaces. The outcome is consistent branding. Everything is designed to make your app engaging.
+        Every click should matter. So, our mobile app design services include
+        iOS app design and Android app design services with a focus on clear
+        interfaces. The outcome is consistent branding. Everything is designed
+        to make your app engaging.
       </>
     ),
   },
@@ -76,12 +88,14 @@ const services = [
     title: "Maintenance and Testing",
     description: (
       <>
-        Dignite Studios is a team of app developers that provides mobile app support & maintenance, consulting, and testing & QA services to ensure your app remains up to date. Dignite Studios helps with the app launch & deployment.
+        Dignite Studios is a team of app developers that provides mobile app
+        support & maintenance, consulting, and testing & QA services to ensure
+        your app remains up to date. Dignite Studios helps with the app launch &
+        deployment.
       </>
     ),
   },
 ];
-
 
 const highlights = [
   {
@@ -110,8 +124,6 @@ const highlights = [
   },
 ];
 
-
-
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Apps",
@@ -122,11 +134,11 @@ const VALUE_PROPOSITION = [
     desc: "Through our fintech mobile app development services in Texas, we provide proper support in launching secure fintech apps and payment mobile apps with multi-layer authentication.",
   },
   {
-    title: "E-commerce & Retail Apps",
+    title: "Ecommerce & Retail Apps",
     desc: "Dignite Studios keeps things simple through ecommerce application development services. Storefront, Inventory POS, and loyalty? All included.",
   },
   {
-    title: "Education & e-Learning Apps",
+    title: "Education & E-learning apps",
     desc: "We provide education app development services in Texas that guide students step by step through courses and quizzes. Providing teachers with dashboards that help them do their job.",
   },
   {
@@ -138,7 +150,6 @@ const VALUE_PROPOSITION = [
     desc: "Actual helpful connections matter more than features. Our approach prioritizes verified identities and privacy controls that increase genuine engagement.",
   },
 ];
-
 
 const test = [
   {
@@ -189,11 +200,11 @@ const BENEFITS = [
   },
 ];
 
-
 const faqs = [
   {
     id: 1,
-    question: "How much time does it usually take to build a mobile app development in Texas?",
+    question:
+      "How much time does it usually take to build a mobile app development in Texas?",
     answer:
       "We don't provide a fixed, similar timeline for each mobile app during development. The time always depends on the features and the complexity of each application. Usually, a basic application would take up to 8-12 weeks, but it all depends. If you want a final estimate, contact our experts and discuss your app idea.",
   },
@@ -223,14 +234,12 @@ const faqs = [
   },
   {
     id: 6,
-    question: "Are you currently working with startups, too, or just enterprises?",
+    question:
+      "Are you currently working with startups, too, or just enterprises?",
     answer:
       "The development team works with both startups and enterprises across Texas. We would definitely work with you—whether you're building an MVP or scaling an existing application. We look forward to building something amazing together either way.",
   },
 ];
-
-
-
 
 const PROCESS_STEPS = [
   {
@@ -265,8 +274,6 @@ const PROCESS_STEPS = [
   },
 ];
 
-
-
 const MobileAppTexas = () => {
   return (
     <div className="max-w-screen-2xl w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
@@ -296,31 +303,45 @@ const MobileAppTexas = () => {
         ctaBtn={"Contact the Team Now!"}
         cta={
           <div className="bg-transparent overflow-hidden text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition-all  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
-            <div className="relative" >
-            <img src="/location/mobile-texas/b-cta.png" className="w-full rounded-b-2xl bottom-3 relative bg-cover" alt="lggg" />
-            <div className="md:w-[45%] absolute top-[45%] left-1/2 translate-x-[-50%] -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-              <h2 className="text-[45px] font-bold text-white leading-[45px]">
-                Time to Choose The Right Team!
-              </h2>
-              <p>
-                We just showed you what makes us different from other mobile app development companies. Now let's start working on your app idea. Discuss your app vision and long-term growth plans with the team.
-              </p>
-              <Link
-                href={"/contact-us"} className="flex items-center group justify-center ">
-                <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                Contact the Team Now!
-                </button>
-                <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                  <MdArrowOutward />
-                </button>
-              </Link>
-            </div>
+            <div className="relative">
+              <img
+                src="/location/mobile-texas/b-cta.png"
+                className="w-full rounded-b-2xl bottom-3 relative bg-cover"
+                alt="lggg"
+              />
+              <div className="md:w-[45%] absolute top-[45%] left-1/2 translate-x-[-50%] -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
+                <h2 className="text-[45px] font-bold text-white leading-[45px]">
+                  Time to Choose The Right Team!
+                </h2>
+                <p>
+                  We just showed you what makes us different from other mobile
+                  app development companies. Now let's start working on your app
+                  idea. Discuss your app vision and long-term growth plans with
+                  the team.
+                </p>
+                <Link
+                  href={"/contact-us"}
+                  className="flex items-center group justify-center "
+                >
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                    Contact the Team Now!
+                  </button>
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                    <MdArrowOutward />
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         }
         para={
           <>
-          We are not just random people; we are professionals in Texas. We have a team of the best developers and designers to provide you with everything you need as a trusted mobile app development company in Texas. A team who take the time to understand your goals and audience before the development starts. We deliver the best applications with clear communication and reliable solutions.  
+            We are not just random people; we are professionals in Texas. We
+            have a team of the best developers and designers to provide you with
+            everything you need as a trusted mobile app development company in
+            Texas. A team who take the time to understand your goals and
+            audience before the development starts. We deliver the best
+            applications with clear communication and reliable solutions.
           </>
         }
       />
@@ -333,7 +354,7 @@ const MobileAppTexas = () => {
         }
       />
       <Process
-      steps={PROCESS_STEPS}
+        steps={PROCESS_STEPS}
         header={"Proven Workflow of Mobile App Development in Texas"}
         para={
           "Every app is built with a story. So, the team follows a structured approach that brings your idea to life. Different companies work with different workflows, but when it comes to developing applications at our mobile app development company, we use a perfectly structured approach to ensure that we design applications that work the way you envisioned. Here's the workflow that turns visions into apps."
@@ -347,9 +368,20 @@ const MobileAppTexas = () => {
         }
         cards={BENEFITS}
       />
-      <SuccessStories header={"Successful Applications Built by"} header2={"Dignite Studios"} para={"Check out our case studies to see solutions and apps, along with our workflow, that actually make development easier."} />
+      <SuccessStories
+        header={"Successful Applications Built by"}
+        header2={"Dignite Studios"}
+        para={
+          "Check out our case studies to see solutions and apps, along with our workflow, that actually make development easier."
+        }
+      />
       <CTA />
-      <TechAndTools header={"Tools And Technologies"} para={"Do you ever see how some apps feel so smooth to use, while some apps are just simply a mess? Being a trusted app development company, we make sure your app runs perfectly every time. So, to make your app smooth and easy to use, we use modern technologies so the performance of your app is for the long term."}/>
+      <TechAndTools
+        header={"Tools And Technologies"}
+        para={
+          "Do you ever see how some apps feel so smooth to use, while some apps are just simply a mess? Being a trusted app development company, we make sure your app runs perfectly every time. So, to make your app smooth and easy to use, we use modern technologies so the performance of your app is for the long term."
+        }
+      />
       <Testimonials
         test={test}
         header={"What Clients Say About"}

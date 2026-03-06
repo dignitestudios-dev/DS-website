@@ -133,7 +133,7 @@ const VALUE_PROPOSITION = [
     desc: "For the healthcare providers, our app development Seattle services which focus on building HIPAA compliant solutions which protect patient data and improve the care delivery. From the telemedicine platforms to the patient portals, we also create the app which ensures the secure communication, easy scheduling and the efficient record management for the clinics and the hospitals.",
   },
   {
-    title: "E-commerce Industry",
+    title: "Ecommerce Industry",
     desc: "Our mobile application development Seattle expertise helps the businesses design e-commerce apps which boost the customer engagement and sales. We also focus on smooth experiences, secure payment gateways and instinctive product management tools which help brands to scale online and also improve retention.",
   },
   {
@@ -328,7 +328,9 @@ const MobileAppSeattle = () => {
                   the long term growth.
                 </p>
                 <Link
-                href={"/contact-us"} className="flex items-center group justify-center ">
+                  href={"/contact-us"}
+                  className="flex items-center group justify-center "
+                >
                   <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
                     Hire Mobile App Developers in Seattle
                   </button>

@@ -65,12 +65,7 @@ const FEATURES = [
   {
     title: "App-Like Experience",
     desc: "Provide users with an experience that feels like a native mobile application.",
-    icon: (
-      <FaSearch
-     
-        size={50}
-      />
-    ),
+    icon: <FaSearch size={50} />,
   },
   {
     title: "Offline Functionality",
@@ -82,12 +77,7 @@ const FEATURES = [
   {
     title: "Responsive Design",
     desc: "Ensure the web application works perfectly on all screen sizes and devices.",
-    icon: (
-      <FaMobileAlt
-     
-        size={50}
-      />
-    ),
+    icon: <FaMobileAlt size={50} />,
   },
   {
     title: "Push Notifications",
@@ -99,52 +89,27 @@ const FEATURES = [
   {
     title: "Fast Loading Speed",
     desc: "Optimized performance to ensure instant loading for a better user experience.",
-    icon: (
-      <FaCommentDots
-     
-        size={50}
-      />
-    ),
+    icon: <FaCommentDots size={50} />,
   },
   {
     title: "Home Screen Installation",
     desc: "Users can add the PWA to their home screen without needing an app store.",
-    icon: (
-      <FaCreditCard
-     
-        size={50}
-      />
-    ),
+    icon: <FaCreditCard size={50} />,
   },
   {
     title: "Automatic Updates",
     desc: "The application updates automatically in the background for users.",
-    icon: (
-      <FaShareAlt
-     
-        size={50}
-      />
-    ),
+    icon: <FaShareAlt size={50} />,
   },
   {
     title: "Secure HTTPS Connections",
     desc: "Data encryption through HTTPS to ensure user safety and trust.",
-    icon: (
-      <FaClock
-     
-        size={50}
-      />
-    ),
+    icon: <FaClock size={50} />,
   },
   {
     title: "Smooth Animations & Transitions",
     desc: "Fluid motion to enhance the premium feel of the web application.",
-    icon: (
-      <FaUsers
-     
-        size={50}
-      />
-    ),
+    icon: <FaUsers size={50} />,
   },
   {
     title: "Background Sync",
@@ -283,7 +248,7 @@ const VALUE_PROPOSITION = [
     desc: "The development team delivers secure solutions for the fintech industry. Fintech PWA development usually includes payment platforms, digital banking apps, trading systems, and financial management tools.",
   },
   {
-    title: "E-commerce Industry",
+    title: "Ecommerce Industry",
     desc: "The team is great at building e-commerce PWA development as a progressive web app agency that increases the overall revenue through online stores, shopping carts, payment integrations, and inventory management.",
   },
   {
@@ -561,8 +526,11 @@ const ProgressiveWebAppDevelopment = () => {
         header2={"Application"}
         para={
           <>
-         You don’t just build a progressive web application without thinking deeply. It is usually a bunch of essential features. And sometimes, these features are the ones that determine the success of your progressive web app by ensuring high performance. The features could be very important ones. 
-
+            You don’t just build a progressive web application without thinking
+            deeply. It is usually a bunch of essential features. And sometimes,
+            these features are the ones that determine the success of your
+            progressive web app by ensuring high performance. The features could
+            be very important ones.
           </>
         }
         features={FEATURES}
@@ -576,12 +544,7 @@ const ProgressiveWebAppDevelopment = () => {
         }
       />
       <CTA />
-      <Testimonials
-        test={test}
-        header={"What Our Clients "}
-        header2={"Say"}
-   
-      />
+      <Testimonials test={test} header={"What Our Clients "} header2={"Say"} />
       <Faq faqs={faqs} />
       <ContactUs
         img={"/services/pwa-app/c-img.png"}

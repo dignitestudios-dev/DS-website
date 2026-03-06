@@ -135,11 +135,11 @@ const VALUE_PROPOSITION = [
     desc: "Through our fintech app development services in DC, we support you in launching secure fintech apps and payment mobile apps with multi-layer authentication.",
   },
   {
-    title: "E-commerce & Retail Apps",
+    title: "Ecommerce & Retail Apps",
     desc: "We keep things quick and simple through ecommerce application development services. Storefront? Check. Inventory? Check. POS and loyalty? All included.",
   },
   {
-    title: "Education & e-Learning Apps",
+    title: "Education & E-learning apps",
     desc: "We provide education app development services in DC that guide students step by step through courses and quizzes, while teachers have dashboards that actually help them do their job.",
   },
   {
@@ -379,7 +379,12 @@ const MobileAppWashington = () => {
         }
       />
       <CTA />
-      <TechAndTools header={"Tools, Technologies & Frameworks "} para={"Do you ever think about what makes some apps feel so smooth to use, while some apps look like a mess? Being a trusted app development company Washington DC, we ensure your app runs smoothly every time. To make your app smooth and easy to use, we use modern technologies so that the performance of your application is not affected and works for long term. "} />
+      <TechAndTools
+        header={"Tools, Technologies & Frameworks "}
+        para={
+          "Do you ever think about what makes some apps feel so smooth to use, while some apps look like a mess? Being a trusted app development company Washington DC, we ensure your app runs smoothly every time. To make your app smooth and easy to use, we use modern technologies so that the performance of your application is not affected and works for long term. "
+        }
+      />
       {/* <SEO /> */}
       <Testimonials
         test={test}

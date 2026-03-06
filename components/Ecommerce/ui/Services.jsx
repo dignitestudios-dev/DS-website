@@ -23,11 +23,11 @@ const Services = ({ services, header, header2, para , button }) => {
       </div>
 
       {/* DESKTOP GRID */}
-      <div className="hidden md:grid md:grid-cols-3 gap-4 w-[80%] mx-auto">
+      <div className="hidden md:flex flex-wrap justify-center gap-4 w-[90%] 2xl:w-[80%] mx-auto">
         {services.map((service, index) => (
           <motion.div
             key={index}
-            className="p-6 flex py-12 shadow-[#f8d8ca] bg-white shadow-2xl flex-col gap-6 items-center border-gray-200 group transition-all ease-linear hover:bg-[#F15C20] hover:text-white rounded-[45px] hover:shadow-md"
+            className="p-6 w-[400px] flex py-12 shadow-[#f8d8ca] bg-white shadow-2xl flex-col gap-6 items-center border-gray-200 group transition-all ease-linear hover:bg-[#F15C20] hover:text-white rounded-[45px] hover:shadow-md"
             initial={{ y: 80, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.3 }}

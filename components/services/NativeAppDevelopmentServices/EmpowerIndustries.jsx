@@ -70,7 +70,7 @@ const EmpowerIndustries = () => {
             width={280}
             height={320}
             src="/Native-app-development-in-ecommerce-Industry.webp"
-            alt="Native app development in E-commerce Industry image shows three bottles kept over the table"
+            alt="Native app development in Ecommerce Industry image shows three bottles kept over the table"
             className="w-[280px] h-[320px]"
           />
         </SwiperSlide>

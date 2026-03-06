@@ -2,7 +2,50 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-
+const services = [
+  {
+    title: "Mobile App Development",
+    description:
+      "The iOS / iPhone app development is the right choice if your target audience includes iOS users. Using Swift and SwiftUI, we develop iOS applications optimized for user experience. We focus on apps that excel in healthcare, fintech, wellness, and enterprise sectors.",
+    image: "/android-app-development-services.webp", // Placeholder/Representative asset
+    bgColor: "bg-[#0a0a0a]",
+  },
+  {
+    title: "iOS App Development",
+    description:
+      "The iOS / iPhone app development is the right choice if your target audience includes iOS users. Using Swift and SwiftUI, we develop iOS applications optimized for user experience. We focus on apps that excel in healthcare, fintech, wellness, and enterprise sectors.",
+    image: "/ios-app-development-mockup.webp",
+    bgColor: "bg-[#0a0a0a]",
+  },
+  {
+    title: "Android app development",
+    description:
+      "The iOS / iPhone app development is the right choice if your target audience includes iOS users. Using Swift and SwiftUI, we develop iOS applications optimized for user experience. We focus on apps that excel in healthcare, fintech, wellness, and enterprise sectors.",
+    image: "/android-turn-mockup.webp",
+    bgColor: "bg-[#0a0a0a]",
+  },
+  {
+    title: "Web App Development Services",
+    description:
+      "The iOS / iPhone app development is the right choice if your target audience includes iOS users. Using Swift and SwiftUI, we develop iOS applications optimized for user experience. We focus on apps that excel in healthcare, fintech, wellness, and enterprise sectors.",
+    image: "/monitor-1.webp",
+    bgColor: "bg-[#0a0a0a]",
+  },
+  {
+    title: "Native App Development Company",
+    description:
+      "Make every tap count with our mobile app design services include iOS app design services and Android app design services, focusing on user-centric interfaces. The goal? Consistent branding. Every design is crafted to make your app engaging.",
+    image: "/nykn-mockup-1.webp",
+    bgColor: "bg-[#0a0a0a]",
+  },
+  {
+    title: "Mobile App Testing Services",
+    description:
+      "We provide mobile app support & maintenance services, mobile app consulting services, and app testing & QA services to ensure your app remains secure and up-to-date. We support your app launch & deployment to maximize ROI.",
+    image: "/mobile-app-testing-services.webp",
+    bgColor: "bg-[#0a0a0a]",
+  },
+];
 
 const MobileAppServices = () => {
   return (
@@ -36,13 +79,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-            Mobile App Development
+          Android App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            The iOS / iPhone app development is the right choice if your target
-            audience includes iOS users. Using Swift and SwiftUI, we develop iOS
-            applications optimized for user experience. We focus on apps that
-            excel in healthcare, fintech, wellness, and enterprise sectors.
+          We develop Android apps, focused on smooth user experiences for startups and enterprises.
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -56,13 +96,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-            iOS App Development
+            Best iOS App Development Services
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            The iOS / iPhone app development is the right choice if your target
-            audience includes iOS users. Using Swift and SwiftUI, we develop iOS
-            applications optimized for user experience. We focus on apps that
-            excel in healthcare, fintech, wellness, and enterprise sectors.
+             Your iOS apps need the best iOS app development services that combine elegant design with functionality to engage users.
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -81,13 +118,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-            Android app development
+          Web App Development Services
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            The iOS / iPhone app development is the right choice if your target
-            audience includes iOS users. Using Swift and SwiftUI, we develop iOS
-            applications optimized for user experience. We focus on apps that
-            excel in healthcare, fintech, wellness, and enterprise sectors.
+            As a startup app development company, we create responsive web apps that scale effortlessly.
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -106,13 +140,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-            Web App Development Services
+             Mobile App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            The iOS / iPhone app development is the right choice if your target
-            audience includes iOS users. Using Swift and SwiftUI, we develop iOS
-            applications optimized for user experience. We focus on apps that
-            excel in healthcare, fintech, wellness, and enterprise sectors.
+             We provide mobile app development to create reliable, revenue-generating apps from your ideas.
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -131,13 +162,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-            Native App Development Company
+            Native App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            Make every tap count with our mobile app design services include iOS
-            app design services and Android app design services, focusing on
-            user-centric interfaces. The goal? Consistent branding. Every design
-            is crafted to make your app engaging.
+           Specializing in native apps, we craft fast, smooth, and secure solutions for every platform.
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -159,10 +187,7 @@ const MobileAppServices = () => {
             Mobile App Testing Services
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            We provide mobile app support & maintenance services, mobile app
-            consulting services, and app testing & QA services to ensure your
-            app remains secure and up-to-date. We support your app launch &
-            deployment to maximize ROI.
+             Our testing services ensure apps are bug-free, optimized, and fully ready for market launch.
           </p>
         </div>
       </div>
