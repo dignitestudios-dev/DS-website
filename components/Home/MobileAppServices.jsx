@@ -2,50 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const services = [
-  {
-    title: "Mobile App Development",
-    description:
-      "The iOS / iPhone app development is the right choice if your target audience includes iOS users. Using Swift and SwiftUI, we develop iOS applications optimized for user experience. We focus on apps that excel in healthcare, fintech, wellness, and enterprise sectors.",
-    image: "/android-app-development-services.webp", // Placeholder/Representative asset
-    bgColor: "bg-[#0a0a0a]",
-  },
-  {
-    title: "iOS App Development",
-    description:
-      "The iOS / iPhone app development is the right choice if your target audience includes iOS users. Using Swift and SwiftUI, we develop iOS applications optimized for user experience. We focus on apps that excel in healthcare, fintech, wellness, and enterprise sectors.",
-    image: "/ios-app-development-mockup.png",
-    bgColor: "bg-[#0a0a0a]",
-  },
-  {
-    title: "Android app development",
-    description:
-      "The iOS / iPhone app development is the right choice if your target audience includes iOS users. Using Swift and SwiftUI, we develop iOS applications optimized for user experience. We focus on apps that excel in healthcare, fintech, wellness, and enterprise sectors.",
-    image: "/android-turn-mockup.png",
-    bgColor: "bg-[#0a0a0a]",
-  },
-  {
-    title: "Web App Development Services",
-    description:
-      "The iOS / iPhone app development is the right choice if your target audience includes iOS users. Using Swift and SwiftUI, we develop iOS applications optimized for user experience. We focus on apps that excel in healthcare, fintech, wellness, and enterprise sectors.",
-    image: "/monitor-1.png",
-    bgColor: "bg-[#0a0a0a]",
-  },
-  {
-    title: "Native App Development Company",
-    description:
-      "Make every tap count with our mobile app design services include iOS app design services and Android app design services, focusing on user-centric interfaces. The goal? Consistent branding. Every design is crafted to make your app engaging.",
-    image: "/nykn-mockup-1.png",
-    bgColor: "bg-[#0a0a0a]",
-  },
-  {
-    title: "Mobile App Testing Services",
-    description:
-      "We provide mobile app support & maintenance services, mobile app consulting services, and app testing & QA services to ensure your app remains secure and up-to-date. We support your app launch & deployment to maximize ROI.",
-    image: "/mobile-app-testing-services.webp",
-    bgColor: "bg-[#0a0a0a]",
-  },
-];
+
 
 const MobileAppServices = () => {
   return (
@@ -65,12 +22,12 @@ const MobileAppServices = () => {
       <div className="grid grid-cols-1 text-white md:grid-cols-12 gap-6">
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
           <img
-            src="/home-hero/grad-crner.png"
+            src="/home-hero/grad-crner.webp"
             className="absolute md:block hidden bottom-0 right-0 rounded-br-[34px]"
             alt="Gradient corner decoration"
           />
           <motion.img
-            src="/home-hero/P1.png"
+            src="/home-hero/P1.webp"
             className="absolute bottom-0 left-1/2 -translate-x-1/2 md:left-[20%] md:translate-x-0 w-[70%] md:w-auto"
             alt="Mobile app development mockup"
             initial={{ y: 100, opacity: 0 }}
@@ -90,7 +47,7 @@ const MobileAppServices = () => {
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
           <motion.img
-            src="/home-hero/p2.png"
+            src="/home-hero/p2.webp"
             className="absolute bottom-0 left-1/2 -translate-x-1/2 md:left-[25%] md:translate-x-0 w-[60%] md:w-auto"
             alt="iOS app development mockup"
             initial={{ y: 100, opacity: 0 }}
@@ -110,12 +67,12 @@ const MobileAppServices = () => {
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
           <img
-            src="/home-hero/el1.png"
+            src="/home-hero/el1.webp"
             className="absolute md:block hidden bottom-0 right-0 w-full"
             alt="Android app development background element"
           />
           <motion.img
-            src="/home-hero/p3.png"
+            src="/home-hero/p3.webp"
             className="absolute -bottom-10 md:-bottom-20 left-1/2 -translate-x-1/2 md:left-[20%] md:translate-x-0 w-[70%] md:w-auto"
             alt="Android app development mockup"
             initial={{ y: 100, opacity: 0 }}
@@ -135,12 +92,12 @@ const MobileAppServices = () => {
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
           <img
-            src="/home-hero/db.png"
+            src="/home-hero/db.webp"
             className="absolute md:block hidden bottom-0 right-0"
             alt="Web app development background element"
           />
           <motion.img
-            src="/home-hero/monitor.png"
+            src="/home-hero/monitor.webp"
             className="absolute bottom-0 left-1/2 -translate-x-1/2 md:left-5 md:translate-x-0 lg:left-10 w-4/5 md:w-4/5 lg:w-auto"
             alt="Web app development services mockup on monitor"
             initial={{ y: 100, opacity: 0 }}
@@ -160,12 +117,12 @@ const MobileAppServices = () => {
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
           <img
-            src="/home-hero/el2.png"
+            src="/home-hero/el2.webp"
             className="absolute md:block hidden bottom-0 left-1/2 translate-x-[-50%] rounded-br-[34px]"
             alt="Native app development background element"
           />
           <motion.img
-            src="/home-hero/p4.png"
+            src="/home-hero/p4.webp"
             className="absolute -bottom-7 left-1/2 -translate-x-1/2 md:left-[25%] md:translate-x-0 w-[60%] md:w-auto"
             alt="Native app development company mockup"
             initial={{ y: 100, opacity: 0 }}
@@ -185,12 +142,12 @@ const MobileAppServices = () => {
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
           <img
-            src="/home-hero/el3.png"
+            src="/home-hero/el3.webp"
             className="absolute md:block hidden w-full -bottom-14 left-1/2 translate-x-[-50%]"
             alt="Mobile app testing background element"
           />
           <motion.img
-            src="/home-hero/p5.png"
+            src="/home-hero/p5.webp"
             className="absolute -bottom-10 md:-bottom-36 left-1/2 -translate-x-1/2 md:left-[15%] md:translate-x-0 w-[70%] md:w-auto"
             alt="Mobile app testing services mockup"
             initial={{ y: 100, opacity: 0 }}

@@ -7,15 +7,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import customLoader from "@/lib/custom-loader";
 const img = [
-  "/home-hero/marq/1.png",
-  "/home-hero/marq/2.png",
-  "/home-hero/marq/3.png",
-  "/home-hero/marq/4.png",
-  "/home-hero/marq/5.png",
-  "/home-hero/marq/6.png",
-  "/home-hero/marq/7.png",
-  "/home-hero/marq/8.png",
-  "/home-hero/marq/9.png",
+  "/home-hero/marq/1.webp",
+  "/home-hero/marq/2.webp",
+  "/home-hero/marq/3.webp",
+  "/home-hero/marq/4.webp",
+  "/home-hero/marq/5.webp",
+  "/home-hero/marq/6.webp",
+  "/home-hero/marq/7.webp",
+  "/home-hero/marq/8.webp",
+  "/home-hero/marq/9.webp",
 ];
 const Hero = () => {
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
       /> */}
       <Image
         loader={customLoader}
-        src="/home-hero/l1.webp "
+        src="/home-hero/l1.webp"
         alt="3d icons"
         width={300}
         height={300}
@@ -44,7 +44,7 @@ const Hero = () => {
       >
         <Image
           loader={customLoader}
-          src="/home-hero/l2.webp "
+          src="/home-hero/l2.webp"
           alt="3d icons"
           width={300}
           height={300}
@@ -53,7 +53,7 @@ const Hero = () => {
       </motion.div>
       <Image
         loader={customLoader}
-        src="/home-hero/r1.webp "
+        src="/home-hero/r1.webp"
         alt="laptop"
         width={420}
         height={420}
@@ -67,7 +67,7 @@ const Hero = () => {
       >
         <Image
           loader={customLoader}
-          src="/home-hero/r2.webp "
+          src="/home-hero/r2.webp"
           alt="tablet"
           width={350}
           height={350}
