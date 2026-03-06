@@ -54,7 +54,7 @@ const services = [
         </Link>{" "}
         using Kotlin and Java. When we offer our Android app development
         service, we make sure your app runs smoothly across Pixel, Samsung, and
-        OnePlus — without weird bugs.
+        OnePlus. The app would be free of weird bugs.
       </>
     ),
   },
@@ -176,7 +176,7 @@ const highlights = [
   },
   {
     title: "24/7 Support",
-    desc: "Questions, fixes, updates — we’re available whenever you need us, not just during office hours.",
+    desc: "Questions, fixes, updates; we’re available whenever you need us, not just during office hours.",
   },
   {
     title: "200+ Skilled Technology Experts",
@@ -461,9 +461,9 @@ Including strategy, UI/UX design with agile development and deployment, we make 
         }
         cards={BENEFITS}
       />
-      <SuccessStories />
+      <SuccessStories header={"When Strategy Meets "} para={"Want to know how Dignite Studios works? Check out our case studies to see actual live projects, clever solutions, and apps we’ve built that actually make life easier for startups like yours."}  header2={"Execution"}/>
       <CTA />
-      <TechAndTools />
+      <TechAndTools header={"Tools, Technologies & Frameworks "} para={"Do you ever wonder what exactly makes some apps feel so smooth while others look like a mess? Our mobile app development services in New York make sure yours runs smoothly, every time."} />
 
       <Testimonials
         test={test}
@@ -471,7 +471,7 @@ Including strategy, UI/UX design with agile development and deployment, we make 
         header2={"Clients"}
         para={""}
       />
-      <Faq faqs={faqs} />
+      <Faq header={"Hear From Our New York Clients"} faqs={faqs} />
       <ContactUs
         pathname={"Mobile Dev in New York "}
         header={"Start Your App Journey with Our NYC Team "}

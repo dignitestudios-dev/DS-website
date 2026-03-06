@@ -140,7 +140,7 @@ const test = [
     name: "Sarah Mitchell",
     designation: "— CEO, ShopEase",
     review:
-      "“When we needed assistance to launch our e-commerce app, DS helped. The results were immediate, and our ROI exceeded expectations. Truly impressed by their expertise!”",
+      "“When we needed assistance to launch our ecommerce app, DS helped. The results were immediate, and our ROI exceeded expectations. Truly impressed by their expertise!”",
   },
   {
     name: "Elias Jonas",

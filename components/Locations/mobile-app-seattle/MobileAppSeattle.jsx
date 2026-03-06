@@ -134,7 +134,7 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Ecommerce Industry",
-    desc: "Our mobile application development Seattle expertise helps the businesses design e-commerce apps which boost the customer engagement and sales. We also focus on smooth experiences, secure payment gateways and instinctive product management tools which help brands to scale online and also improve retention.",
+    desc: "Our mobile application development Seattle expertise helps the businesses design ecommerce apps which boost the customer engagement and sales. We also focus on smooth experiences, secure payment gateways and instinctive product management tools which help brands to scale online and also improve retention.",
   },
   {
     title: "Real Estate Industry",
@@ -317,7 +317,7 @@ const MobileAppSeattle = () => {
                 className="w-full rounded-b-2xl bottom-3 relative bg-cover"
                 alt="lggg"
               />
-              <div className="md:w-[45%] absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
+              <div className="md:w-[70%] absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
                 <h2 className="text-[45px] font-bold text-white leading-[45px]">
                   Powering the Scalable Apps Through The app development Seattle
                 </h2>
@@ -356,7 +356,7 @@ const MobileAppSeattle = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Mobile App Development Process"}
+        header={"Step by Step Mobile App Development Seattle Process "}
         header2={"Step by Step Mobile App Development Seattle Process"}
         para={
           "Our structured process ensures efficient, high-quality mobile app development in Seattle from the strategy to the post launch support."

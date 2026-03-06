@@ -123,7 +123,7 @@ const VALUE_PROPOSITION = [
     desc: "Our fintech app development services support payments, dashboards and compliance systems.",
   },
   {
-    title: "E-commerce & Retail",
+    title: "Ecommerce & Retail",
     desc: "For ecommerce app development company we build faster, scalable shopping apps for businesses.",
   },
   {
@@ -339,7 +339,7 @@ const CrossPlatform = () => {
       <SuccessStories
         header={"Cross Platform"}
         header2={"Case Studies"}
-        para={"Explore how Dignite Studios delivers real business results through smart cross platform solutions. Our case studies highlight how we help healthcare, fintech and e-commerce brands solve performance, usability and scalability challenges."}
+        para={"Explore how Dignite Studios delivers real business results through smart cross platform solutions. Our case studies highlight how we help healthcare, fintech and ecommerce brands solve performance, usability and scalability challenges."}
       />
       <CTA />
       <Testimonials

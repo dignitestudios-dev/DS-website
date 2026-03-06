@@ -62,100 +62,42 @@ const FEATURES = [
   {
     title: "Smart Search",
     desc: "Included search bar that helps users find the information or product they are looking for efficiently.",
-    icon: (
-      <FaSearch
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
+    icon: <FaSearch size={50} color="#F15C20" />,
   },
   {
     title: "Passwordless Login",
     desc: "Secure login without passwords to make authentication simple and safe for users.",
-    icon: (
-      <FaLock color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
-    ),
+    icon: <FaLock size={50} color="#F15C20" />,
   },
   {
     title: "Offline Access",
     desc: "Mobile apps provide users with access to some features even without an internet connection.",
-    icon: (
-      <FaMobileAlt
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
+    icon: <FaMobileAlt size={50} color="#F15C20" />,
   },
   {
     title: "Push Notifications",
     desc: "Keep users engaged by providing real-time updates and reminders directly on their screens.",
-    icon: (
-      <FaBell color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
-    ),
+    icon: <FaBell size={50} color="#F15C20" />,
   },
   {
     title: "In-App Chat",
     desc: "Provide real-time chat support to users for instant help and better user satisfaction.",
-    icon: (
-      <FaCommentDots
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
+    icon: <FaCommentDots size={50} color="#F15C20" />,
   },
   {
     title: "Secure Payments",
     desc: "High-level security is integrated to ensure safe transactions through the app.",
-    icon: (
-      <FaCreditCard
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
+    icon: <FaCreditCard size={50} color="#F15C20" />,
   },
   {
     title: "Social Sign-In",
     desc: "Allow users to easily sign in and share content through social media platforms.",
-    icon: (
-      <FaShareAlt
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
+    icon: <FaShareAlt size={50} color="#F15C20" />,
   },
   {
     title: "Real-Time Updates",
     desc: "Provide live updates to users instantly to keep them informed and engaged.",
-    icon: (
-      <FaClock
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
-  },
-  {
-    title: "User Profiles",
-    desc: "Users can create and manage profiles to personalize their experience within the app.",
-    icon: (
-      <FaUsers
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
+    icon: <FaClock size={50} color="#F15C20" />,
   },
 ];
 
@@ -504,10 +446,10 @@ const MobileAppDevelopment = () => {
         }
       />
       <TabularEcommerceTechs
-        header={"Advanced Ecommerce App Development"}
-        header2={"Technology Stack"}
+        header={"Advanced Tools and Tech "}
+        header2={"Behind Apps"}
         para={
-          "We use modern tools and platforms to build scalable ecommerce apps. As the reliable ecommerce app development company in USA, we focus on performance, security and smooth mobile app solutions for modern businesses."
+          "We use modern technology and advanced tools to build smooth applications without a mess. We have expert developers who can bring your idea to reality in a way that it runs smoothly and stays functional. We don’t build apps that take time to load or feel too loaded with features or messy, we simply use the best tech from our stack to build your mobile apps."
         }
         techData={techData}
       />
@@ -597,9 +539,7 @@ const MobileAppDevelopment = () => {
         header2={"App"}
         para={
           <>
-            Being one of the best app development companies, we make sure that
-            your application matches the modern standards through must-have
-            features.
+            Developing a mobile application is more than just creating colorful designs. The success of your mobile app depends on the features, too. It requires the right features to deliver performance and long-term growth. Every feature is supposed to enhance the user experience. By adding these essential features, your mobile app can improve user retention, which can support your business objectives effectively, being the best mobile app development company in USA.
           </>
         }
         features={FEATURES}
@@ -615,11 +555,10 @@ const MobileAppDevelopment = () => {
       <CTA />
       <Testimonials
         test={test}
-        header={"What Our Clients "}
-        header2={"Say"}
-        para={
-          "Startups and growing businesses choose us. Our clients often describe us as the best mobile app development company in Boston for our ability to combine quality and measurable business outcomes."
-        }
+        header={"Testimonials"}
+        header2={""}
+        button={"Get Our Services Today!"}
+     
       />
       <Faq faqs={faqs} />
       <ContactUs

@@ -6,7 +6,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Script from "next/script";
 import { AnimatePresence, motion } from "framer-motion";
 
-const Faq = ({ faqs }) => {
+const Faq = ({ faqs , header }) => {
   const { palette, theme } = useContext(GlobalContext);
   const [openAccordion, setOpenAccordion] = useState(null);
 
@@ -21,7 +21,7 @@ const Faq = ({ faqs }) => {
     >
       <div className="w-full flex flex-col gap-3 justify-start items-center">
         <h2 className="text-4xl mb-8 leading-10 lg:leading-[1.1] text-center capitalize tracking-tighter md:text-7xl font-bold">
-          Frequently asked <span className="text-[#F15C20]">questions</span>
+        {header ? header : <>Frequently asked <span className="text-[#F15C20]">questions</span></>}  
         </h2>
 
         <div className="w-full lg:w-[100%]">

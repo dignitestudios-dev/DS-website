@@ -180,7 +180,7 @@ const VALUE_PROPOSITION = [
     desc: "Improve the operational effectiveness, fraud detection, transaction tracking and the compliance monitoring using secure automation.",
   },
   {
-    title: "E-commerce & Retail",
+    title: "Ecommerce & Retail",
     desc: "Using the automatic system for the order processing, inventory updates, customer messages and returns to improve accuracy.",
   },
   {

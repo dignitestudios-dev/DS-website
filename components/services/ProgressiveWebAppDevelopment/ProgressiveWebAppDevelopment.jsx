@@ -70,9 +70,7 @@ const FEATURES = [
   {
     title: "Offline Functionality",
     desc: "Allow users to access features even without an active internet connection.",
-    icon: (
-      <FaLock color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
-    ),
+    icon: <FaLock size={50} />,
   },
   {
     title: "Responsive Design",
@@ -82,9 +80,7 @@ const FEATURES = [
   {
     title: "Push Notifications",
     desc: "Keep users engaged with real-time updates directly on their browser or device.",
-    icon: (
-      <FaBell color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
-    ),
+    icon: <FaBell size={50} />,
   },
   {
     title: "Fast Loading Speed",
@@ -105,18 +101,6 @@ const FEATURES = [
     title: "Secure HTTPS Connections",
     desc: "Data encryption through HTTPS to ensure user safety and trust.",
     icon: <FaClock size={50} />,
-  },
-  {
-    title: "Smooth Animations & Transitions",
-    desc: "Fluid motion to enhance the premium feel of the web application.",
-    icon: <FaUsers size={50} />,
-  },
-  {
-    title: "Background Sync",
-    desc: "Sync data in the background once the internet connection is restored.",
-    icon: (
-      <FaCode color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
-    ),
   },
 ];
 
@@ -249,10 +233,10 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Ecommerce Industry",
-    desc: "The team is great at building e-commerce PWA development as a progressive web app agency that increases the overall revenue through online stores, shopping carts, payment integrations, and inventory management.",
+    desc: "The team is great at building ecommerce PWA development as a progressive web app agency that increases the overall revenue through online stores, shopping carts, payment integrations, and inventory management.",
   },
   {
-    title: "eLearning Industry",
+    title: "E-learning Industry",
     desc: "Dignite Studios also creates PWA solutions for the education and eLearning sector. The following features are included: Learning management systems, virtual classrooms, assessment platforms, and interactive educational apps in apps.",
   },
   {
@@ -513,9 +497,7 @@ const ProgressiveWebAppDevelopment = () => {
         header2={"Business"}
         para={
           <>
-            Investing in custom progressive web apps means numerous benefits.
-            Those benefits could be enhanced efficiency, scalability, business
-            growth, and improved user experience.
+            Investing in custom progressive web apps means numerous benefits. Those benefits could be enhanced efficiency, scalability, business growth, and improved user experience. Even though the cost might increase depending on features, the overall long term value is always worth the money. You can see how customized PWA web app development services from the best agency can help you with operations and provide competitive advantage
           </>
         }
         cards={BENEFITS}
@@ -545,7 +527,7 @@ const ProgressiveWebAppDevelopment = () => {
       />
       <CTA />
       <Testimonials test={test} header={"What Our Clients "} header2={"Say"} />
-      <Faq faqs={faqs} />
+      <Faq header={"People Usually Ask"} faqs={faqs} />
       <ContactUs
         img={"/services/pwa-app/c-img.png"}
         pathname={"PWA Development Services"}

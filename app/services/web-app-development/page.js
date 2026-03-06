@@ -1,8 +1,6 @@
 import WebAppDevelopment from "@/components/services/WebAppDevelopment/WebAppDevelopment";
-import WebAppDevServicePage from "@/components/services/WebAppDevelopmentServices/WebAppDevServicePage";
 import GlobalLayout from "@/layout/GlobalLayout";
 import ServicesLayout from "@/layout/ServiceLayout";
-import Head from "next/head";
 import Script from "next/script";
 import React from "react";
 
@@ -10,176 +8,145 @@ export const metadata = {
   title: "Web Application Development Services | Custom Solution",
   description:
     "Get reliable Web Application Development Services for secure and custom solutions that enhance user experience and drive growth. Get our services today!",
+  alternates: {
+    canonical: "https://www.dignitestudios.com/services/web-app-development",
+  },
 };
 
 const page = () => {
   return (
     <div>
-      <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <link
-          rel="canonical"
-          href="https://www.dignitestudios.com/services/web-application-development-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/web-application-development-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="en-us"
-          href="https://www.dignitestudios.com/services/web-application-development-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/web-application-development-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="x-default"
-          href="https://www.dignitestudios.com/services/web-application-development-services"
-        />
-        <meta http-equiv="content-language" content="en-us" />
-        <meta http-equiv="content-language" content="en-ca" />
-        <meta http-equiv="content-language" content="en-gb" />
-        <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index, follow, max-snippet: 200" />
-        <meta name="bingbot" content="index, follow, max-snippet: 200 " />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Dignite Studios" />
-        <meta
-          property="og:title"
-          content="Web Application Development Services | Custom Solution"
-        />
-        <meta
-          property="og:description"
-          content="Get reliable Web Application Development Services for secure and custom solutions that enhance user experience and drive growth. Get our services today!"
-        />
-        <meta
-          property="og:url"
-          content="https://www.dignitestudios.com/services/web-application-development-services"
-        />
-        <meta
-          property="og:image"
-          content="https://www.dignitestudios.com/banner-cover-image-of-web-application-development-services.webp"
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta
-          property="og:image:alt"
-          content="Web application development Services"
-        />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Web Application Development Services | Custom Solution"
-        />
-        <meta name="twitter:site" content="@dignitestudios" />
-        <meta
-          name="twitter:description"
-          content="Get reliable Web Application Development Services for secure and custom solutions that enhance user experience and drive growth. Get our services today!"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.dignitestudios.com/banner-cover-image-of-web-application-development-services.webp"
-        />
-        <meta
-          name="twitter:image:alt"
-          content="Web application development Services"
-        ></meta>
-      </head>
       <GlobalLayout page={<WebAppDevelopment />} />
 
+      {/* Service Schema */}
       <Script
         type="application/ld+json"
-        id="web-app-development-schema"
-        strategy="afterInteractive"
+        id="service-schema"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "WebPage",
-            name: "Web Application Development Services | Custom Solution",
-            url: "https://www.dignitestudios.com/services/web-application-development-services",
+            "@type": "Service",
+            "@id":
+              "https://www.dignitestudios.com/services/web-app-development/",
+            name: "Web Application Development Services",
             description:
-              "Get reliable Web Application Development Services for secure and custom solutions that enhance user experience and drive growth. Get our services today!",
-            thumbnailUrl:
-              "https://www.dignitestudios.com/banner-cover-image-of-web-application-development-services.webp",
+              "Custom web application development including enterprise web apps, progressive web apps, single-page apps, and cross-platform solutions.",
+            serviceType: "Web Application Development",
+            provider: {
+              "@type": "Organization",
+              name: "Dignite Studios",
+              url: "https://www.dignitestudios.com",
+            },
+            url: "https://www.dignitestudios.com/services/web-app-development",
           }),
         }}
       />
 
+      {/* BreadcrumbList Schema */}
       <Script
-        id="breadcrumblist-json-ld"
         type="application/ld+json"
+        id="breadcrumb-schema"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org/",
+            "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
               {
                 "@type": "ListItem",
                 position: 1,
-                name: "Home",
-                item: "https://www.dignitestudios.com/",
+                item: {
+                  "@id": "https://www.dignitestudios.com/",
+                  name: "Home",
+                },
               },
               {
                 "@type": "ListItem",
                 position: 2,
-                name: "Mobile App Development Services",
-                item: "https://www.dignitestudios.com/services/mobile-app-development-services",
+                item: {
+                  "@id": "https://www.dignitestudios.com/services",
+                  name: "Services",
+                },
               },
               {
                 "@type": "ListItem",
                 position: 3,
-                name: "Mobile App Design Services",
-                item: "https://www.dignitestudios.com/services/mobile-app-design-services",
-              },
-              {
-                "@type": "ListItem",
-                position: 4,
-                name: "Mobile App Consulting Services",
-                item: "https://www.dignitestudios.com/services/mobile-app-consulting-services",
-              },
-              {
-                "@type": "ListItem",
-                position: 5,
-                name: "Mobile App Testing Services",
-                item: "https://www.dignitestudios.com/services/mobile-app-testing-services",
-              },
-              {
-                "@type": "ListItem",
-                position: 6,
-                name: "Mobile App Maintenance and Support Services",
-                item: "https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services",
-              },
-              {
-                "@type": "ListItem",
-                position: 7,
-                name: "Web application development Services",
-                item: "https://www.dignitestudios.com/services/web-application-development-services",
+                item: {
+                  "@id":
+                    "https://www.dignitestudios.com/services/web-app-development",
+                  name: "Web App Development Services",
+                },
               },
             ],
           }),
         }}
       />
+
+      {/* FAQPage Schema */}
       <Script
-        id="product-json-ld"
         type="application/ld+json"
+        id="faq-schema"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "http://schema.org",
-            "@type": "Product",
-            name: "Web application development Services",
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: "4.8",
-              worstRating: "1",
-              bestRating: "5",
-              reviewCount: "37",
-            },
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What’s actually a web application anyways?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A web app is like an app that you could use but on a browser. It doesn’t just work like a single page website, it literally lets you do the actual stuff. You could book appointments, manage info, or interact with other users. It’s basically perfect for businesses that want to grow and make life way easier for everyone using it.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much time does it usually take for you to build a web app?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Honestly, the whole timeline depends on your requirements. A basic and simple app might take a month or two. When you want a complex application with features, custom one could take a few months. We do provide regular updates though so you always know where the project stands.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "So, what’s Web Application Development Cost usually?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The Web Application Development Cost depends on features. It’s up to you how many features and complexity you want in your app. However, custom apps usually cost more at first, but they save you time and money in the long run. So, knowing exactly what you need keeps things under control.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What happens if I just get a pre-made app?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Pre-built applications are like trying your whole business to fit into one app that’s not even made for your business and doesn’t even align with any of your goals. Web Application Development Services are designed for your business. They work exactly how you need them.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What tech is being used behind the application?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The team is trained to use the best modern tech. The tech stack includes: React, Angular, Vue, Node.js, Python, PHP, or .NET., MySQL and MongoDB. We understand the importance of picking the right tech stack. Because that makes your app fast and secure.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How do you keep the web app safe and secure?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "We don’t treat Security as optional. It’s a big deal for us. We use strong passwords, encryption, access controls, and constant testing. Basically, your data stays protected, hackers get blocked, and users can relax knowing their information is safe and secure.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you create web apps that work offline?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yep! Your app can still work without an internet connection. With Progressive Web Apps, Users can access key features even if Wi-Fi drops. It keeps everyone productive, no matter where they are. It is super handy for people on the go.",
+                },
+              },
+            ],
           }),
         }}
       />

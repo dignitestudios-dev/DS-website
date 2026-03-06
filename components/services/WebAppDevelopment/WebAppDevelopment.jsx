@@ -66,90 +66,42 @@ const FEATURES = [
   {
     title: "Responsive Design",
     desc: "We ensure your web application works perfectly on all screen sizes, providing a seamless user experience.",
-    icon: (
-      <FaMobileAlt
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
+    icon: <FaMobileAlt size={50} color="#F15C20" />,
   },
   {
     title: "Intuitive User Interface",
     desc: "Our designs focus on ease of use, ensuring that users can navigate your web app effortlessly.",
-    icon: (
-      <FaPencilAlt
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
+    icon: <FaPencilAlt size={50} color="#F15C20" />,
   },
   {
     title: "Robust Security",
     desc: "We integrate high-level security measures to protect sensitive data and prevent cyber threats.",
-    icon: (
-      <FaLock color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
-    ),
+    icon: <FaLock size={50} color="#F15C20" />,
   },
   {
     title: "Scalability",
     desc: "We build web applications that can grow with your business, handling increased users and data.",
-    icon: (
-      <IoGrid color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
-    ),
+    icon: <IoGrid size={50} color="#F15C20" />,
   },
   {
     title: "Fast Loading Speed",
     desc: "Performance is our priority, ensuring your web app loads quickly for a better user experience.",
-    icon: (
-      <FaClock
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
+    icon: <FaClock size={50} color="#F15C20" />,
   },
   {
     title: "Integrations",
     desc: "We connect your web application with third-party tools and APIs to enhance functionality.",
-    icon: (
-      <FaCode color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
-    ),
+    icon: <FaCode size={50} color="#F15C20" />,
   },
   {
     title: "Analytics",
     desc: "Gain valuable insights into user behavior with integrated analytics and reporting tools.",
-    icon: <TbDeviceAnalytics />,
+    icon: <TbDeviceAnalytics size={50} color="#F15C20" />,
   },
   {
     title: "Custom Dashboards",
     desc: "We create personalized dashboards that allow you to manage and visualize your data effectively.",
-    icon: (
-      <FaUser color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
-    ),
-  },
-  {
-    title: "Offline Functionality",
-    desc: "With PWA features, your web app can offer key functionality even without an internet connection.",
-    icon: (
-      <FaMobileAlt
-        color="transparent"
-        stroke="#F15C20"
-        strokeWidth={40}
-        size={50}
-      />
-    ),
-  },
-  {
-    title: "Notifications & Alerts",
-    desc: "Keep users informed with real-time notifications and alerts directly within the web app.",
-    icon: (
-      <FaBell color="transparent" stroke="#F15C20" strokeWidth={40} size={50} />
-    ),
+    icon: <FaUser size={50} color="#F15C20" />,
   },
 ];
 
@@ -298,10 +250,10 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Ecommerce Industry",
-    desc: "The team is great at building e-commerce web applications that increase revenue through online stores.",
+    desc: "The team is great at building ecommerce web applications that increase revenue through online stores.",
   },
   {
-    title: "eLearning Industry",
+    title: "E-learning Industry",
     desc: "Dignite Studios also creates app solutions for the education sector including learning management systems.",
   },
   {
@@ -603,7 +555,7 @@ const WebAppDevelopment = () => {
         button={"Find More About Us"}
         header2={"Testimonials"}
       />
-      <Faq faqs={faqs} />
+      <Faq header={" People Usually Ask"} faqs={faqs} />
       <ContactUs
         img={"/services/web-app/c-img.png"}
         pathname={"Web App Development"}

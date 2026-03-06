@@ -30,15 +30,16 @@ const CTA = () => {
           src="/location/mobile-california/apps.png"
           alt="Mobile applications showcase in New York"
         />
-        <h2 className="text-5xl font-bold text-center">
-          Be Our Next <span className="text-[#F15C20]">Success </span>Story!
+        <h2 className="text-4xl capitalize font-bold text-center">
+          Got an app idea that needs expert execution?
         </h2>
+        <p className="text-center">Each case study started with an idea and a clear execution plan. Let’s explore yours and see how our team can bring it to life exactly as you envision it. </p>
         <Link
           href="/contact-us"
           className="flex items-center group justify-center "
         >
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Start Your App Journey Now!
+           Discuss Your App Idea
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />

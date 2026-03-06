@@ -22,12 +22,10 @@ const CTA = () => {
         </div>
         <div className="w-full lg:w-[60%] ">
           <h2 className="text-4xl capitalize font-bold mb-4">
-            If these apps started as ideas, so can yours.
+            Make Your App the Next Highlight
           </h2>
           <p>
-            Every project started with a simple conversation, and all you need
-            is just a conversation. We help you refine and turn your idea into a
-            working product without confusion or overpromising.
+          Loved what you saw in our case studies? Imagine what we could build for your idea! We take concepts just like yours and turn them into mobile apps that users enjoy, businesses trust, and that actually make an impact.
           </p>
           <Link
             href="/contact-us"
@@ -37,7 +35,7 @@ const CTA = () => {
               type="submit"
               className="bg-[#F15C20] border border-[#F15C20]  group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-              Discuss Your App Idea
+            Start Your App Journey Today
             </button>
             <button
               type="submit"

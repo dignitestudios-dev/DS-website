@@ -390,7 +390,7 @@ const MobileAppCalifornia = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Workflow of Our Mobile App Development Company"}
+        header={"Workflow of Our Mobile App Development Company California"}
         header2={"California"}
         para={
           "Every app has a story. At our mobile app development company in California, we follow a structured, iterative approach that brings your idea to life fast, smart, and perfectly aligned with your business vision. Here’s the process that turns concepts into apps."
@@ -412,7 +412,7 @@ const MobileAppCalifornia = () => {
         }
       />
       <CTA />
-      <TechAndTools />
+      <TechAndTools header={"Tools, Technologies & Frameworks "} para={"Do you ever wonder what exactly makes some apps feel so smooth while some apps look like a mess? Our mobile app development services make sure yours runs smoothly, every time."} />
       <SEO
         header={"California-Specific Coverage (Local SEO)"}
         para={

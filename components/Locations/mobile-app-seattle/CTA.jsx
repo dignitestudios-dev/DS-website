@@ -29,19 +29,17 @@ const CTA = () => {
 
         <div className="w-full lg:w-[60%] mx-auto justify-center lg:h-[350px] flex flex-col items-center text-center">
           <h2 className="text-5xl capitalize font-bold mb-4">
-            Got an app idea that needs expert execution?
+            Ready to Build Your Mobile App? 
           </h2>
           <p>
-            Each case study started with an idea and a clear execution plan.
-            Let’s explore yours and see how our team can bring it to life
-            exactly as you envision it.
+          Are you planning to create a powerful mobile app with top mobile app developers in Seattle? Connect with our dedicated team? Collaborate with our tech experts to develop a detailed project plan. 
           </p>
           <Link href="/contact-us" className="flex items-center group justify-start  pt-4">
             <button
               type="submit"
               className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-              Discuss Your App Idea
+             Get a Project Estimate
             </button>
             <button
               type="submit"

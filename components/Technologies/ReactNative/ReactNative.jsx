@@ -137,7 +137,7 @@ const VALUE_PROPOSITION = [
     desc: "As a reliable healthcare app development company, we create the secure, user friendly, data privacy and the smooth communications between providers and users which supports the patient engagement.",
   },
   {
-    title: "E-Commerce Platforms",
+    title: "Ecommerce Platforms",
     desc: "We help every ecommerce app development company launch shopping experiences through the fast, intuitive and build to convert users into loyal customers across the mobile devices.",
   },
   {
