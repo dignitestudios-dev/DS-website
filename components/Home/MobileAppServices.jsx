@@ -118,10 +118,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-          Web App Development Services
+         Mobile App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            As a startup app development company, we create responsive web apps that scale effortlessly.
+           We provide mobile app development to create reliable, revenue-generating apps from your ideas. 
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -140,10 +140,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-             Mobile App Development
+               Web App Development Services
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-             We provide mobile app development to create reliable, revenue-generating apps from your ideas.
+              As a startup app development company, we create responsive web apps that scale effortlessly.
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
