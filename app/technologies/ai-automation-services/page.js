@@ -6,6 +6,10 @@ export const metadata = {
   title: " AI Automation Services | Dignite Studios",
   description:
     " AI automation services that streamline workflows reduce manual effort and improve business efficiency with scalable solutions built for growth.",
+  alternates: {
+    canonical:
+      "https://www.dignitestudios.com/technologies/ai-automation-services",
+  },
 };
 
 const professionalServiceSchema = {

@@ -1,5 +1,6 @@
 import CrossPlatform from "@/components/Technologies/CrossPlatform/CrossPlatform";
 import GlobalLayout from "@/layout/GlobalLayout";
+import Script from "next/script";
 import React from "react";
 
 export const metadata = {
@@ -186,17 +187,17 @@ const page = () => {
           __html: JSON.stringify(professionalServiceSchema),
         }}
       /> */}
-      <script
+      <Script
         key="service-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
-      <script
+      <Script
         key="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <script
+      <Script
         key="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

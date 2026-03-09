@@ -1,11 +1,16 @@
 import ReactNative from "@/components/Technologies/ReactNative/ReactNative";
 
 import GlobalLayout from "@/layout/GlobalLayout";
+import Script from "next/script";
 import React from "react";
 export const metadata = {
   title: "React Native App Development Company | Dignite Studio",
   description:
     "Hire a trusted react native app development company to build fast, scalable, and user-friendly mobile apps for startups and enterprises across the USA.",
+  alternates: {
+    canonical:
+      "https://www.dignitestudios.com/technologies/react-native-app-development",
+  },
 };
 const professionalServiceSchema = {
   "@context": "https://schema.org",
@@ -126,24 +131,24 @@ const faqSchema = {
 const page = () => {
   return (
     <>
-      <script
+      <Script
         key="professional-service-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(professionalServiceSchema),
         }}
       />
-      <script
+      <Script
         key="service-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
-      <script
+      <Script
         key="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <script
+      <Script
         key="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
