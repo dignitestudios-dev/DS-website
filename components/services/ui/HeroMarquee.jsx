@@ -1,15 +1,15 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 const img = [
-  "/home-hero/marq/1.png",
-  "/home-hero/marq/2.png",
-  "/home-hero/marq/3.png",
-  "/home-hero/marq/4.png",
-  "/home-hero/marq/5.png",
-  "/home-hero/marq/6.png",
-  "/home-hero/marq/7.png",
-  "/home-hero/marq/8.png",
-  "/home-hero/marq/9.png",
+  "/home-hero/marq/1.webp",
+  "/home-hero/marq/2.webp",
+  "/home-hero/marq/3.webp",
+  "/home-hero/marq/4.webp",
+  "/home-hero/marq/5.webp",
+  "/home-hero/marq/6.webp",
+  "/home-hero/marq/7.webp",
+  "/home-hero/marq/8.webp",
+  "/home-hero/marq/9.webp",
 ];
 const HeroMarquee = () => {
   return (
