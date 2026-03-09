@@ -6,6 +6,8 @@ import React, { useContext, useState } from "react";
 import { FaApple } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoMoon } from "react-icons/io5";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   const { theme } = useContext(GlobalContext);
@@ -60,17 +62,17 @@ const Hero = () => {
             iOS Mobile App
           </h2>
           {toggle ? (
-            <img
+            <Image
               src="/ios-app-design-company.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[256px] h-[522.38px] z-20"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           ) : (
-            <img
+            <Image
               src="/ios-app-design-company-dark.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[256px] h-[522.38px] z-20"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           )}
         </div>
 
@@ -119,13 +121,13 @@ const Hero = () => {
           onMouseEnter={() => setToggleImg(true)}
           onMouseLeave={() => setToggleImg(false)}
         >
-          <img
+          <Image
             src="/ios-app-design-services-gradient-img.webp"
             alt="ios app design services img"
             className={`absolute w-full h-full inset-0 z-0 rounded-[60px] transition-opacity duration-1000 ${
               toggleImg ? "opacity-100" : "opacity-0"
             }`}
-          />
+           width={500} height={500} priority  loader={customLoader} />
           <h2
             className={`text-[24px] font-semibold group-hover:text-white transition-all duration-500 z-10 ${
               toggle ? `text-black` : "text-white"
@@ -134,46 +136,46 @@ const Hero = () => {
             iOS Icons
           </h2>
           <div className="w-full flex justify-around gap-10 flex-wrap px-10 z-10">
-            <img
+            <Image
               src="/ios-message-icon.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/ios-clock-icon.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/ios-camera-icon.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/ios-music-icon.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/ios-photos-icon.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/ios-safari-icon.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/ios-weather-icon.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/ios-video-call-icon.webp"
               alt="iOS App design company shows three mockup screens of iOS app design"
               className="w-[80px] h-[80px] 2xl:w-[90px] 2xl:h-[90px]"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
         </div>
       </div>

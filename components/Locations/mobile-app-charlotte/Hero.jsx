@@ -44,7 +44,7 @@ const Hero = () => {
           fill
           priority
           className="absolute left-[50%] translate-x-[-50%] -bottom-24 -z-0 object-contain"
-        />
+         />
         <motion.div
           className="relative -bottom-10"
           initial={{ y: 80, opacity: 0 }}
@@ -63,24 +63,24 @@ const Hero = () => {
             height={400}
             priority
             className="object-cover"
-          />
+           />
         </motion.div>
         <Image
           loader={customLoader}
           src="/location/mobile-charlotte/r.png"
           alt=""
-          width={150}
-          height={150}
+          width={300}
+          height={300}
           className="absolute top-[20%] lg:block hidden left-[0%] md:left-[77%] translate-x-[-50%]"
-        />
+         />
         <Image
           loader={customLoader}
           src="/location/mobile-charlotte/l.png"
           alt=""
-          width={150}
-          height={150}
+          width={300}
+          height={300}
           className="absolute bottom-[20%] lg:block hidden left-[0%] md:left-[25%] translate-x-[-50%]"
-        />
+         />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>

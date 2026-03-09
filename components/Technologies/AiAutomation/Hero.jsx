@@ -5,6 +5,8 @@ import React from "react";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   const iconGroups = [
@@ -74,20 +76,20 @@ const Hero = () => {
       </div>
       <div className="relative w-full h-[300px] lg:h-[600px] mt-10 mb-20 flex items-center justify-center overflow-visible">
         <div className="absolute inset-0 top-32 flex items-center justify-center pointer-events-none z-10">
-          <img
+          <Image
             src={"/technologies/ai/circle.png"}
             alt="concentric rings"
             width={800}
             height={800}
             className="hidden lg:block object-contain"
-          />
-          <img
+           priority  loader={customLoader} />
+          <Image
             src={"/technologies/ai/circle-icons.png"}
             alt="concentric rings"
             width={800}
             height={800}
             className="block lg:hidden object-contain"
-          />
+           priority  loader={customLoader} />
         </div>
 
         {/* Animated Icons Container */}
@@ -134,11 +136,11 @@ const Hero = () => {
                       ease: "linear",
                     }}
                   >
-                    <img
+                    <Image
                       src={icon}
                       alt={`AI tool ${iconIdx}`}
                       className="w-full h-full object-contain"
-                    />
+                     width={500} height={500} priority  loader={customLoader} />
                   </motion.div>
                 );
               })}

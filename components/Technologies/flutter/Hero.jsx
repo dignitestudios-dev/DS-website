@@ -5,6 +5,8 @@ import React from "react";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   return (
@@ -38,11 +40,11 @@ const Hero = () => {
         </Link>
       </div>
       <div className="relative w-full h-[450px]  my-10 flex items-center justify-center">
-        <img
+        <Image
           src={"/technologies/flutter/circles.png"}
           className="w-full relative mt-20 z-20"
           alt="circles"
-        />
+         width={500} height={500} priority  loader={customLoader} />
         <div className="absolute top-0 left-0 w-full flex justify-center z-20">
           <motion.img
             src="/technologies/flutter/mob.png"
@@ -56,12 +58,12 @@ const Hero = () => {
           />
         </div>
 
-        <img
+        <Image
           src="/technologies/bg-grad.png"
           width={1400}
           height={1400}
           className="absolute top-[50%] translate-y-[-50%] left-1/2 z-10 translate-x-[-50%]  object-contain"
-        />
+         priority alt=""  loader={customLoader} />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t z-30 from-white to-transparent via-white" />
       </div>
       <div>

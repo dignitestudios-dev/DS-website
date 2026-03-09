@@ -4,6 +4,8 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -35,43 +37,43 @@ const Hero = () => {
         <ContactButton text1={"Get A Quote"} text2={"Let's talk"} />
       </div>
       <div className="w-full relative">
-        <img
+        <Image
           src="/maintenance-hero-borders.webp"
           alt="maintenance-hero-borders"
           title="maintenance-hero-borders"
           className="w-full lg:w-[934] xl:h-[639.79px] xl:w-[1134.56px] mx-auto absolute top-0 md:translate-x-[2%] xl:translate-x-[7%] 2xl:translate-x-[20%] z-0"
-        />
+         width={500} height={500} priority  loader={customLoader} />
         <div className="w-full flex items-center justify-center z-10 mt-10 gap-3 md:gap-6 relative">
-          <img
+          <Image
             src="/maintenance-hero-left-icon.webp"
             alt="app-service-icon"
             title="app-service-icon"
             className="w-[157.05px] h-[100px] hidden lg:block absolute top-9 -left-20 xl:left-16 2xl:left-28 z-20 maintenance-animated-icon"
-          />
-          <img
+           width={500} height={500} priority  loader={customLoader} />
+          <Image
             src="/mobile-application-support-and-maintenance-services-1.webp"
             alt="the image shows three mockscreens of mobile application maintenance and support services"
             className="w-[200px] xl:w-[260px] h-[300px] md:h-[400px] xl:h-[500.1px] 2xl:h-[550px] 2xl:w-[310px] z-0 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative animated-image-up"
             title="Mobile application support and maintenance services"
-          />
-          <img
+           width={500} height={500} priority  loader={customLoader} />
+          <Image
             src="/mobile-application-support-and-maintenance-services-2.webp"
             alt="the image shows three mockscreens of mobile application maintenance and support services"
             className="w-[200px] xl:w-[260px] h-[300px] md:h-[400px] xl:h-[500.1px] 2xl:h-[550px] 2xl:w-[310px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down2 hidden lg:block"
             title="Mobile application support and maintenance services"
-          />
-          <img
+           width={500} height={500} priority  loader={customLoader} />
+          <Image
             src="/mobile-application-support-and-maintenance-services-3.webp"
             alt="the image shows three mockscreens of mobile application maintenance and support services"
             className="w-[200px] xl:w-[260px] h-[300px] md:h-[400px] xl:h-[500.1px] 2xl:h-[550px] 2xl:w-[310px] z-20 p-3 maintenance-mockup-shadow bg-white rounded-3xl relative -top-5 animated-image-down"
             title="Mobile application support and maintenance services"
-          />
-          <img
+           width={500} height={500} priority  loader={customLoader} />
+          <Image
             src="/app-maintenance-icon.webp"
             alt="app-service-icon"
             title="app-service-icon"
             className="w-[187.05px] h-[107px] hidden lg:block absolute bottom-16 -right-28 xl:right-12 2xl:right-24 2xl:bottom-24 z-20 maintanence-animated-icon-2"
-          />
+           width={500} height={500} priority  loader={customLoader} />
         </div>
       </div>
     </main>

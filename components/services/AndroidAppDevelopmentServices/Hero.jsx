@@ -22,12 +22,12 @@ const Hero = () => {
           data-aos-once="false"
           data-aos-anchor-placement="top-center"
         >
-          <img
+          <Image
             src="/arrow-icon.png"
             alt="arrow-icon"
             title="arrow-icon"
             className="absolute top-[27%] md:top-[32%] lg:top-[70px] left-[48%] md:left-[47%] lg:left-[47%] xl:top-[95px] xl:left-[48%] 2xl:top-[110px] 2xl:left-[48%] w-[17px] h-[16px] md:w-[22.1px] md:h-[20.1px]"
-          />
+           width={500} height={500} priority  loader={customLoader} />
           <h1
             className={`text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-center capitalize lg:leading-[67px] xl:leading-[81.93px] 2xl:leading-[99px] md:block hidden`}
           >
@@ -61,7 +61,7 @@ const Hero = () => {
           alt="firebase-icon"
           title="firebase-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[4%] animated-icon z-0"
-        />
+         />
         <Image
           width={150}
           height={150}
@@ -70,7 +70,7 @@ const Hero = () => {
           alt="java-icon"
           title="java-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[15%] top-[35%] animated-icon-2"
-        />
+         />
         <Image
           width={150}
           height={150}
@@ -79,7 +79,7 @@ const Hero = () => {
           alt="flutter-icon"
           title="flutter-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[0%] bottom-[15%] animated-icon-2"
-        />
+         />
 
         {/* right side icons */}
         <Image
@@ -90,7 +90,7 @@ const Hero = () => {
           alt="firebase-icon"
           title="firebase-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[4%] top-[15%] animated-icon-3"
-        />
+         />
         <Image
           width={150}
           height={150}
@@ -99,7 +99,7 @@ const Hero = () => {
           alt="vs-code-icon"
           title="vs-code-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[15%] top-[40%] animated-icon-3"
-        />
+         />
         <Image
           width={150}
           height={150}
@@ -108,7 +108,7 @@ const Hero = () => {
           alt="react-icon"
           title="react-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[5%] bottom-[15%] animated-icon-3"
-        />
+         />
 
         <div className="w-full lg:hidden grid grid-cols-3 gap-x-2 gap-y-4 px-4">
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
@@ -120,7 +120,7 @@ const Hero = () => {
               alt="tailwind-icon"
               title="tailwind-icon"
               className="w-full h-full"
-            />
+             />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
@@ -131,7 +131,7 @@ const Hero = () => {
               alt="java-icon"
               title="java-icon"
               className="w-full h-full"
-            />
+             />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
@@ -142,7 +142,7 @@ const Hero = () => {
               alt="flutter-color"
               title="flutter-color"
               className="w-full h-full"
-            />
+             />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
@@ -153,7 +153,7 @@ const Hero = () => {
               alt="firebase-icon"
               title="firebase-icon"
               className="w-full h-full"
-            />
+             />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
@@ -164,7 +164,7 @@ const Hero = () => {
               alt="vscode-color"
               title="vscode-color"
               className="w-full h-full"
-            />
+             />
           </div>
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
@@ -175,16 +175,16 @@ const Hero = () => {
               alt="react-icon"
               title="react-icon"
               className="w-full h-full"
-            />
+             />
           </div>
         </div>
 
-        <img
+        <Image
           src={"/android-app-development-1.png"}
           title="Android App Development Services"
           alt="The image shows three mobile screens with different Android app layouts, and multiple tech icons revolving around them"
           className="mx-auto lg:w-[1035px] xl:w-[685px] xl:h-[482px] 2xl:w-[981px] lg:h-[750px] 2xl:h-[800px]  relative -top-0 lg:-top-2 2xl:top-0"
-        />
+         width={500} height={500} priority  loader={customLoader} />
       </main>
     </>
   );

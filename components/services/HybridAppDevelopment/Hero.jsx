@@ -2,6 +2,8 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 import ContactButton from "@/components/global/ContactButton";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   const { theme } = useContext(GlobalContext);
@@ -14,12 +16,12 @@ const Hero = () => {
             <span className="text-[#F15C20]">
               {" "}
               Hybrid App{" "}
-              <img
+              <Image
                 src="/hybrid-app-arrow.webp"
                 className="absolute right-10 mt-4 hidden md:flex"
                 width={50}
                 alt="hybrid arrow icon"
-              />{" "}
+               priority  loader={customLoader} />{" "}
             </span>{" "}
             Development <br />
             Services
@@ -39,20 +41,20 @@ const Hero = () => {
         <div className="w-full lg:w-[90%] md:pb-20 sm:pb-20 relative hybrid-app-development-services-curve flex items-baseline ">
           <div className="w-[320px]  h-[300px] mx-auto md:w-[499.69px] md:h-[475.53px]   relative flex items-center  gap-5">
             <div className="left-side-img">
-              <img
+              <Image
                 src="/hybrid-app-development-services1.webp"
                 className="bounce-img-1-hero"
                 width={200}
                 alt="the image shows two mock screens of the application"
-              />
+               priority  loader={customLoader} />
             </div>
             <div className="right-side-img">
-              <img
+              <Image
                 src="/hybrid-app-development-services2.webp"
                 className="bounce-img-2-hero"
                 width={200}
                 alt="the image shows two mock screens of the application"
-              />
+               priority  loader={customLoader} />
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ const Hero = () => {
         fill
         priority
         className="absolute z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover w-full h-screen md:max-h-[170vh] object-cover"
-      /> */}
+       /> */}
       <Image
         loader={customLoader}
         src="/home-hero/l1.webp"
@@ -36,7 +36,7 @@ const Hero = () => {
         height={300}
         priority
         className="absolute lg:block hidden z-20 -left-16 top-28"
-      />
+       />
       <motion.div
         className="absolute lg:block hidden z-20 -left-20 top-28"
         animate={{ y: [0, -15, 0] }}
@@ -49,7 +49,7 @@ const Hero = () => {
           width={300}
           height={300}
           priority
-        />
+         />
       </motion.div>
       <Image
         loader={customLoader}
@@ -59,7 +59,7 @@ const Hero = () => {
         height={420}
         priority
         className="absolute lg:block hidden z-20 -right-[10%] top-40"
-      />
+       />
       <motion.div
         className="absolute lg:block hidden z-20 -right-5 top-64"
         animate={{ y: [0, 15, 0] }}
@@ -72,7 +72,7 @@ const Hero = () => {
           width={350}
           height={350}
           priority
-        />
+         />
       </motion.div>
       <div className="relative overflow-hidden z-40 text-white gap-5 flex flex-col items-center justify-center h-full lg:w-[50%] w-[80%] text-center mx-auto">
         <h1 className="text-[40px] leading-[40px] md:text-[60px] md:leading-[60px] capitalize font-semibold tracking-tighter">
@@ -112,7 +112,7 @@ const Hero = () => {
                 width={100}
                 height={64}
                 className="object-contain"
-              />
+               />
             </div>
           ))}
         </Marquee>

@@ -46,37 +46,37 @@ const Hero = () => {
             ease: "easeOut",
           }}
         >
-          <img
+          <Image
             src="/services/pwa-app/laptop.png"
             alt="Mobile app development showcase Boston"
             width={1000}
             height={1000}
             priority
             className="object-cover lg:mr-40"
-          />
+            loader={customLoader} />
         </motion.div>
-        <img
+        <Image
           src="/services/pwa-app/r.png"
           alt=""
           width={200}
           height={200}
           className="absolute top-[0%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
-        />
-        <img
+         priority  loader={customLoader} />
+        <Image
           src="/services/pwa-app/r1.png"
           alt=""
           width={200}
           height={200}
           className="absolute top-[-20%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
-        />
-        <img
+         priority  loader={customLoader} />
+        <Image
   
             src="/services/pwa-app/l.png"
           alt=""
           width={200}
           height={200}
           className="absolute top-[25%] lg:block hidden left-[0%] md:left-[25%] translate-x-[-50%]"
-        />
+         priority  loader={customLoader} />
         <div className="absolute -bottom-24 left-0 w-full border-none h-20 lg:h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>

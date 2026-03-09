@@ -41,10 +41,11 @@ const Hero = () => {
           loader={customLoader}
           src="/location/grad.webp"
           alt=""
-          fill
+          width={1200}
+          height={1200}
           priority
           className="absolute lg:block hidden left-[50%] translate-x-[-50%] -top-[80%] 2xl:-top-[110%] -z-0 object-contain"
-        />
+         />
         <motion.div
           className="lg:w-[30%] w-[80%] mx-auto relative"
           initial={{ y: 80, opacity: 0 }}
@@ -63,7 +64,7 @@ const Hero = () => {
             height={400}
             priority
             className="object-cover w-full h-auto"
-          />
+           />
         </motion.div>
         <Image
           loader={customLoader}
@@ -72,7 +73,7 @@ const Hero = () => {
           width={200}
           height={200}
           className="absolute top-[40%] lg:block hidden left-[0%] md:left-[65%] translate-x-[-50%]"
-        />
+         />
         <Image
           loader={customLoader}
           src="/location/mobile-newyork/l.png"
@@ -80,7 +81,7 @@ const Hero = () => {
           width={200}
           height={200}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[30%] translate-x-[-50%]"
-        />
+         />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>

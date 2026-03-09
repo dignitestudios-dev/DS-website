@@ -5,6 +5,8 @@ import AwardsRecognition from "./AwardsRecognition";
 import Navbar from "./Navbar";
 import ContactFormPPPC from "./ContactFormPPPC";
 import ContactButtonPPC from "@/components/global/ContactButtonPPC";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   const { theme, setIsSidebarOpen } = useContext(GlobalContext);
@@ -25,12 +27,12 @@ const Hero = () => {
             <span>
               {" "}
               Top-Notch Mobile
-              <img
+              <Image
                 src="/ppc_border.webp"
                 className="relative  md:left-10 -top-4"
                 alt=""
                 srcset=""
-              />
+               width={500} height={500} priority  loader={customLoader} />
             </span>
             <span className="relative -top-4">App Development </span>
             <br />
@@ -51,12 +53,12 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-[80%] pb-28 md:pb-20 sm:pb-20 mt-7 ppp2-bg-contact flex items-baseline ">
           <div className="w-[100%]  mx-auto md:w-[650.69px] h-[100%] absolute lg:-top-[80px] lg:right-[0px] z-0 gap-5">
-            <img
+            <Image
               src="/contact_hero_bg.webp"
               className="h-full lg:h-[100%]"
               alt=""
               srcset=""
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
           <div
             className={`${

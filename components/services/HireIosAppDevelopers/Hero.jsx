@@ -4,6 +4,8 @@ import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 import ContactButton from "@/components/global/ContactButton";
 import { FaApple } from "react-icons/fa";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   const { theme } = useContext(GlobalContext);
@@ -39,31 +41,31 @@ const Hero = () => {
               <FaApple className="w-[54px] h-[66.46px] apple-logo-animation" />
             </div>
 
-            <img
+            <Image
               src="/ios-photos-icon.webp"
               alt="image shows multiple tech icons"
               className="w-[53.54px] h-[53.54px] absolute -top-5 move"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/itunes-icon.webp"
               alt="image shows multiple tech icons"
               className="w-[63.54px] h-[63.54px] absolute -right-6 md:right-0 top-20 move-y"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/books_app_icon.webp"
               alt="image shows multiple tech icons"
               className="w-[63.54px] h-[63.54px] absolute right-4 bottom-0 md:bottom-16 -rotate-12 move-xy"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/messages_icon.webp"
               alt="image shows multiple tech icons"
               className="w-[63.54px] h-[63.54px] absolute left-10 md:left-20 bottom-0 md:bottom-2 rotate-12 move-yx"
-            />
-            <img
+             width={500} height={500} priority  loader={customLoader} />
+            <Image
               src="/app_store_icon.webp"
               alt="image shows multiple tech icons"
               className="w-[63.54px] h-[63.54px] absolute -left-6 top-28 md:top-40 move-z"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
         </div>
       </div>

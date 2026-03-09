@@ -36,13 +36,13 @@ const Hero = ({
         </Link>
       </div>
       <div className="relative flex  justify-center items-center my-12 ">
-        <img
+        <Image
           src="/ecommerce/ecommerce-app/grad.png"
           alt="grad"
           width={500}
           height={500}
           className="absolute left-1/2 translate-x-[-50%]"
-        />
+         priority  loader={customLoader} />
         <motion.div
           className="relative"
           initial={{ y: 80, opacity: 0 }}
@@ -53,14 +53,14 @@ const Hero = ({
             ease: "easeOut",
           }}
         >
-          <img
+          <Image
             src="/ecommerce/ecommerce-app/mob.png"
             alt="ecommerce mobile"
             width={250}
             height={250}
             priority
             className="object-cover relative z-30 mt-16 "
-          />
+            loader={customLoader} />
         </motion.div>
         <motion.img
           src="/ecommerce/ecommerce-app/r1.png"

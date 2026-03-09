@@ -6,6 +6,8 @@ import AwardsRecognition from "./AwardsRecognition";
 import Navbar from "./Navbar";
 import ContactButtonBlackBg from "@/components/global/ContactButtonBlackBg";
 import ContactButtonPPC from "@/components/global/ContactButtonPPC";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   const { theme, setIsSidebarOpen } = useContext(GlobalContext);
@@ -19,12 +21,12 @@ const Hero = () => {
             <span>
               {" "}
               Top-Notch Mobile
-              <img
+              <Image
                 src="/ppc_border.webp"
                 className="relative md:left-[15%] -top-4"
                 alt=""
                 srcset=""
-              />
+               width={500} height={500} priority  loader={customLoader} />
             </span>
             <span className="relative -top-4">App Development Service</span>
           </h1>
@@ -68,7 +70,7 @@ const Hero = () => {
         </div>
         <div className="w-full bg-purple1-img flex items-center justify-center">
           <div>
-            <img
+            <Image
               src="/schedule.webp"
               alt=""
               aos="translate-left"
@@ -77,10 +79,10 @@ const Hero = () => {
               data-aos-easing="ease-in-sine"
               srcset=""
               className="schedule-img-left"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
           <div>
-            <img
+            <Image
               src="/health-feed.webp"
               alt=""
               aos="translate-center"
@@ -88,10 +90,10 @@ const Hero = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-sine"
               className="health-feed-center"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
           <div>
-            <img
+            <Image
               src="/plan.webp"
               alt=""
               aos="translate-right"
@@ -99,7 +101,7 @@ const Hero = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-sine"
               className="plan-img-right"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
         </div>
       </div>

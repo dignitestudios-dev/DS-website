@@ -46,22 +46,22 @@ const Hero = ({
             ease: "easeOut",
           }}
         >
-          <img
+          <Image
             src="/ecommerce/shopify-store/laptop.png"
             alt="Shpify laptop"
             width={900}
             height={900}
             priority
             className="object-cover md:block hidden"
-          />
-          <img
+            loader={customLoader} />
+          <Image
             src="/ecommerce/shopify-store/mob.png"
             alt="Shpify laptop"
             width={250}
             height={250}
             priority
             className="object-cover md:hidden block"
-          />
+            loader={customLoader} />
         </motion.div>
         <motion.img
           src="/ecommerce/shopify-app/sh-icon.png"

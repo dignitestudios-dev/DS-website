@@ -44,7 +44,7 @@ const Hero = () => {
           height={1200}
           priority
           className="object-contain"
-        />
+         />
         <motion.div
           className="absolute bottom-0 left-[0%] md:left-[20%] translate-x-[-50%]"
           initial={{ y: 80, opacity: 0 }}
@@ -62,7 +62,7 @@ const Hero = () => {
             width={800}
             height={800}
             priority
-          />
+           />
         </motion.div>
       </div>
       <div>

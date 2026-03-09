@@ -34,7 +34,7 @@ const Hero = () => {
         alt="two mockup screens show the mobile app design services, with multiple icons revolving around them"
         title="Mobile app design services"
         className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"
-      /> */}
+       /> */}
       <img
         alt="two mockup screens show the mobile app design services, with multiple icon…"
         width={1046}
@@ -48,7 +48,7 @@ const Hero = () => {
         style={{ color: "transparent" }}
         priority={"high"}
         title="Mobile app design services"
-      />
+        />
     </main>
   );
 };

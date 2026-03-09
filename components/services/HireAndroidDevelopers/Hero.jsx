@@ -2,6 +2,8 @@
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   const { theme } = useContext(GlobalContext);
@@ -26,112 +28,112 @@ const Hero = () => {
       <div className="w-full lg:w-[649px] border-[#D3D3D3] relative flex justify-evenly mt-10">
         <div className="w-4 h-4 rounded-full bg-[#D3D3D3] absolute left-0 -top-1" />
         <div className="w-4 h-4 rounded-full bg-[#D3D3D3] absolute right-0 -top-1" />
-        <img
+        <Image
           src="/rounded-border-image.png"
           alt="the image shows multiple pictures of different developers"
           title="hire Android App Developers"
           className="w-full absolute top-0 z-0"
-        />
+         width={500} height={500} priority  loader={customLoader} />
 
         <div className="w-[50px] md:w-[80px] h-auto z-10 relative top-2 md:top-6 lg:top-5 group hover:top-0 transition-all duration-300">
-          <img
+          <Image
             src="/hire-android-dev-hero-img-1.webp"
             alt="the image shows multiple pictures of different developers"
             title="hire Android App Developers"
             className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] rounded-[14px] "
-          />
+           width={500} height={500} priority  loader={customLoader} />
           <span className="text-[#F15C20] font-medium text-xs opacity-0 group-hover:opacity-100 transition-all duration-300">
             Flutter Expert
           </span>
         </div>
 
         <div className="w-[50px] md:w-[82px] h-auto  z-10 relative top-6 md:top-14 lg:top-12 group hover:top-5 transition-all duration-300">
-          <img
+          <Image
             src="/hire-android-dev-hero-img-2.webp"
             alt="the image shows multiple pictures of different developers"
             title="hire Android App Developers"
             className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] rounded-[14px]"
-          />
+           width={500} height={500} priority  loader={customLoader} />
           <span className="text-[#F15C20] font-medium text-xs opacity-0 group-hover:opacity-100 transition-all duration-300">
             Python Expert
           </span>
         </div>
 
         <div className="w-[50px] md:w-[80px] h-auto z-10 relative top-10 md:top-[77px] lg:top-[67px] group hover:top-8 transition-all duration-300">
-          <img
+          <Image
             src="/hire-android-dev-hero-img-3.webp"
             alt="the image shows multiple pictures of different developers"
             title="hire Android App Developers"
             className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] rounded-[14px] "
-          />
+           width={500} height={500} priority  loader={customLoader} />
           <span className="text-[#F15C20] font-medium text-xs opacity-0 group-hover:opacity-100 transition-all duration-300">
             Kotlin Expert
           </span>
         </div>
 
         <div className="w-[50px] md:w-[80px] h-auto z-10 relative top-6 md:top-14 lg:top-12 group hover:top-5 transition-all duration-300">
-          <img
+          <Image
             src="/hire-android-dev-hero-img-4.webp"
             alt="the image shows multiple pictures of different developers"
             title="hire Android App Developers"
             className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] rounded-[14px] "
-          />
+           width={500} height={500} priority  loader={customLoader} />
           <span className="text-[#F15C20] font-medium text-xs opacity-0 group-hover:opacity-100 transition-all duration-300">
             Flutter Expert
           </span>
         </div>
 
         <div className="w-[50px] md:w-[80px] h-auto z-10 relative top-2 md:top-6 lg:top-5 group hover:top-0 transition-all duration-300">
-          <img
+          <Image
             src="/hire-android-dev-hero-img-5.webp"
             alt="the image shows multiple pictures of different developers"
             title="hire Android App Developers"
             className="w-[50px] md:w-[80px] h-[50px] md:h-[80px] rounded-[14px]"
-          />
+           width={500} height={500} priority  loader={customLoader} />
           <span className="text-[#F15C20] font-medium text-xs opacity-0 group-hover:opacity-100 transition-all duration-300">
             Java Expert
           </span>
         </div>
       </div>
 
-      <img
+      <Image
         src="/hire-android-kotlin-icon.webp"
         title="hire Android App Developers"
         alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute left-[7%] top-[10%] hover:rotate-12 transition-all duration-300"
-      />
-      <img
+       width={500} height={500} priority  loader={customLoader} />
+      <Image
         src="/hire-android-flutter-icon.webp"
         title="hire Android App Developers"
         alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute left-[17%] top-[40%] hover:rotate-12 transition-all duration-300"
-      />
-      <img
+       width={500} height={500} priority  loader={customLoader} />
+      <Image
         src="/hire-android-vscode-icon.webp"
         title="hire Android App Developers"
         alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute left-[7%] bottom-[10%] hover:-rotate-12 transition-all duration-300"
-      />
+       width={500} height={500} priority  loader={customLoader} />
 
       {/* right icons */}
-      <img
+      <Image
         src="/hire-android-icon.webp"
         title="hire Android App Developers"
         alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute right-[17%] top-[30%] hover:rotate-12 transition-all duration-300"
-      />
-      <img
+       width={500} height={500} priority  loader={customLoader} />
+      <Image
         src="/hire-android-react-icon.webp"
         title="hire Android App Developers"
         alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute right-[7%] bottom-[20%] hover:-rotate-12 transition-all duration-300"
-      />
-      <img
+       width={500} height={500} priority  loader={customLoader} />
+      <Image
         src="/hire-android-firebase-icon.webp"
         title="hire Android App Developers"
         alt="the image shows multiple pictures of different developers"
         className="w-[120px] h-[120px] hidden lg:block absolute right-[31%] bottom-[2%] hover:-rotate-12 transition-all duration-300"
-      />
+       width={500} height={500} priority  loader={customLoader} />
     </main>
   );
 };

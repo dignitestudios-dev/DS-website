@@ -14,10 +14,8 @@ const Hero = () => {
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
           Flexible Web Application{" "}
-          <span className="text-[#F15C20]">
-            Development Services
-          </span>{" "}
-          for Startups
+          <span className="text-[#F15C20]">Development Services</span> for
+          Startups
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
           Looking for web application development services you can trust? We’ve
@@ -39,13 +37,16 @@ const Hero = () => {
         </Link>
       </div>
       <div className="relative flex justify-center h-[200px] md:h-[600px] items-center my-12 ">
-        <img
-          src="/services/web-app/grad.webp"
-          alt=""
-          fill
-          priority
-          className="absolute  left-[50%] translate-x-[-50%]  lg:block hidden  -z-0 object-contain"
-        />
+        <div className="absolute  left-[50%] translate-x-[-50%]  lg:block hidden  -z-0 w-full h-full">
+          <Image
+            src="/services/web-app/grad.webp"
+            alt=""
+            fill
+            priority
+            className=""
+            loader={customLoader}
+          />
+        </div>
         <motion.div
           className="relative"
           initial={{ y: 80, opacity: 0 }}
@@ -56,13 +57,14 @@ const Hero = () => {
             ease: "easeOut",
           }}
         >
-          <img
+          <Image
             src="/services/web-app/laptop.webp"
             alt="web app development showcase dev"
             width={800}
             height={800}
             priority
             className="object-cover "
+            loader={customLoader}
           />
         </motion.div>
         {/* <Image
@@ -72,7 +74,7 @@ const Hero = () => {
           width={150}
           height={150}
           className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
-        />
+         />
         <Image
           loader={customLoader}
           src="/location/mobile-boston/l.png"
@@ -80,7 +82,7 @@ const Hero = () => {
           width={150}
           height={150}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"
-        /> */}
+         /> */}
         <div className="absolute lg:block hidden -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>

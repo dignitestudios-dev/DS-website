@@ -5,6 +5,8 @@ import React from "react";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   return (
@@ -38,10 +40,10 @@ const Hero = () => {
         </Link>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <img
+        <Image
           src="/location/grad.webp"
           className="absolute md:block hidden left-[50%] translate-x-[-50%] -top-[50%] -z-0"
-        />
+         width={1200} height={1200} priority alt=""  loader={customLoader} />
         <motion.img
           src="/location/mobile-chicago/mob.png"
           alt="bg"
@@ -56,16 +58,16 @@ const Hero = () => {
             ease: "easeOut",
           }}
         />
-        <img
+        <Image
           src="/location/mobile-chicago/r.png"
           alt="r"
           className="absolute top-[20%] left-[0%] md:left-[75%] translate-x-[-50%] md:block hidden"
-        />
-        <img
+         width={300} height={300} priority  loader={customLoader} />
+        <Image
           src="/location/mobile-chicago/l.png"
           alt="l"
           className="absolute top-[30%] left-[0%] md:left-[32%] translate-x-[-50%] md:block hidden"
-        />
+         width={300} height={300} priority  loader={customLoader} />
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>

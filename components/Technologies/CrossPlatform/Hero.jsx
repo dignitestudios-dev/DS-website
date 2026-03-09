@@ -5,6 +5,8 @@ import React from "react";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   return (
@@ -47,12 +49,12 @@ const Hero = () => {
           />
         </div>
         <div className="absolute top-0 left-0 w-full pt-10  h-[500px] hidden lg:flex justify-center z-10">
-          <img
+          <Image
             src={"/technologies/cross/grad.png"}
             alt="gradient"
             width={1200}
             height={1200}
-          />
+           priority  loader={customLoader} />
         </div>
 
         <div className="absolute -bottom-32 left-0 w-full border-none h-52 bg-gradient-to-t z-30 from-white to-transparent via-white" />

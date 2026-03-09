@@ -4,6 +4,8 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext, useEffect, useState } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
@@ -56,12 +58,12 @@ const Hero = () => {
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[16px] group-hover:translate-y-[-30px]`}
           >
-            <img
+            <Image
               src="/Android-app-design-services-image.webp"
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[17px] h-[17px] lg:w-[27px] lg:h-[27px] "
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
         </div>
 
@@ -75,12 +77,12 @@ const Hero = () => {
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[16px] group-hover:translate-y-[-30px]`}
           >
-            <img
+            <Image
               src="/Android-app-design-services-java-image.webp"
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[24px] h-[24px] lg:w-[39.92px] lg:h-[55px]"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
         </div>
 
@@ -94,24 +96,24 @@ const Hero = () => {
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[32px] group-hover:translate-y-[-30px]`}
           >
-            <img
+            <Image
               src="/Android-app-design-services-flutter-image.webp"
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[40px] h-[40px] md:w-[60.49px] md:h-[60.49px]"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
         </div>
 
         <div
           className={`w-[117px] h-[117px] lg:w-[217px] lg:h-[217px] bg-[#4EDA75] z-40 relative  shadow-xl rounded-[48px] flex items-center justify-center hover:translate-y-[-30px] transition-all duration-500`}
         >
-          <img
+          <Image
             src="/android-app-icon.png"
             alt="Android app design service page shows technology icons"
             title="Android app design services image"
             className="w-[74px] h-[74px] lg:w-[116.95px] lg:h-[116.95px]"
-          />
+           width={500} height={500} priority  loader={customLoader} />
         </div>
 
         <div
@@ -124,12 +126,12 @@ const Hero = () => {
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[32px] group-hover:translate-y-[-30px]`}
           >
-            <img
+            <Image
               src="/Android-app-design-services-firebase-image.webp"
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[40px] h-[52px] lg:w-[60.49px] lg:h-[82px]"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
         </div>
 
@@ -143,12 +145,12 @@ const Hero = () => {
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[22px] group-hover:translate-y-[-30px]`}
           >
-            <img
+            <Image
               src="/Android-app-design-services-vscode-image.webp"
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[24px] h-[24px] lg:w-[47px] lg:h-[47px]"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
         </div>
 
@@ -162,12 +164,12 @@ const Hero = () => {
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[16px] group-hover:translate-y-[-30px]`}
           >
-            <img
+            <Image
               src="/Android-app-design-services-figma-image.webp"
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[17px] h-[17px] lg:w-[27px] lg:h-[33px]"
-            />
+             width={500} height={500} priority  loader={customLoader} />
           </div>
         </div>
       </div>
