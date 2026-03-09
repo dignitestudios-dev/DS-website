@@ -487,7 +487,7 @@ const Footer = () => {
         <div className="flex flex-col items-center mt-12">
           <div className="w-full mb-4 bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[1px]" />
           <p className="text-white font-extralight text-[11px] capitalize">
-            © {new Date().getFullYear()} Dignite Studio. All rights reserved.
+            © {new Date().getFullYear()} Dignite Studios. All rights reserved.
           </p>
         </div>
       </div>
@@ -682,7 +682,7 @@ const Footer = () => {
         <div className="flex flex-col">
           <div className="w-[18%] mb-4 bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[1px]" />
           <p className="text-white font-extralight text-[11px] capitalize">
-            © {new Date().getFullYear()} Dignite Studio. All rights reserved.
+            © {new Date().getFullYear()} Dignite Studios. All rights reserved.
           </p>
         </div>
       </div>
