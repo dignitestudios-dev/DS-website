@@ -40,11 +40,11 @@ const Hero = () => {
       </div>
       <div className="relative flex justify-center items-center my-12 ">
         <Image
-          src="/location/mobile-washington/b-grad.png"
+          src="/location/mobile-washington/b-grad.webp"
           className="absolute left-[50%] translate-x-[-50%] -bottom-24 -z-0"
          width={1200} height={1200} priority alt=""  loader={customLoader} />
         <motion.img
-          src="/location/mobile-washington/mob.png"
+          src="/location/mobile-washington/mob.webp"
           alt="bg"
           width={400}
           height={400}
@@ -58,12 +58,12 @@ const Hero = () => {
           }}
         />
         <Image
-          src="/location/mobile-washington/r.png"
+          src="/location/mobile-washington/r.webp"
           alt="r"
           className="absolute bottom-[20%] lg:block hidden left-[0%] md:left-[67%] translate-x-[-50%]"
          width={200} height={200} priority  loader={customLoader} />
         <Image
-          src="/location/mobile-washington/l.png"
+          src="/location/mobile-washington/l.webp"
           alt="l"
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[30%] translate-x-[-50%]"
          width={200} height={200} priority  loader={customLoader} />

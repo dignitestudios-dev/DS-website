@@ -307,7 +307,7 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
           <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
             <div className="relative">
               <img
-                src="/location/mobile-boston/cta-img.png"
+                src="/location/mobile-boston/cta-img.webp"
                 className="w-full rounded-b-2xl bottom-3 relative bg-cover"
                 alt="lggg"
               />
@@ -385,7 +385,7 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
       />
       <Faq faqs={faqs} />
       <ContactUs
-        img={"/location/mobile-boston/c-img.png"}
+        img={"/location/mobile-boston/c-img.webp"}
         pathname={"Mobile Dev in Boston "}
         header={"You’re Closer Than You Think to Getting Started"}
         header2={""}

@@ -49,7 +49,7 @@ const BenefitsOfWorking = () => {
             <img             
               width={24}
               height={24}
-              src="/hybrid-app-design.png"
+              src="/hybrid-app-design.webp"
               alt="Hybrid app design icon"
             />
           </div>
@@ -78,7 +78,7 @@ const BenefitsOfWorking = () => {
             <img             
               width={24}
               height={24}
-              src="/migration-and-upgrade.png"
+              src="/migration-and-upgrade.webp"
               alt="Migration and upgrade icon"
             />
           </div>
@@ -106,7 +106,7 @@ const BenefitsOfWorking = () => {
             <img
               width={24}
               height={24}
-              src="/hybrid-application-testing.png"
+              src="/hybrid-application-testing.webp"
               alt="Hybrid Application Testing"
             />
           </div>
@@ -133,7 +133,7 @@ const BenefitsOfWorking = () => {
             <img
               width={24}
               height={24}
-              src="/quick-support.png"
+              src="/quick-support.webp"
               alt="Quick Support Icon"
             />
           </div>

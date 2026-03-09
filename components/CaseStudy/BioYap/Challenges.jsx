@@ -26,7 +26,7 @@ const solutionPoints = [
 
   return (
     <section className="w-full py-24  relative z-50">
-      <img src="/bioyap/w-bg.png" alt="hero" className="absolute w-screen -z-10" />
+      <img src="/bioyap/w-bg.webp" alt="hero" className="absolute w-screen -z-10" />
       <div className="max-w-7xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -105,7 +105,7 @@ const solutionPoints = [
                 </motion.li>
               ))}
             </ul>
-            <img src='/bioyap/problem.png' alt='prob' width={250} height={250} />
+            <img src='/bioyap/problem.webp' alt='prob' width={250} height={250} />
             </div>
             }
             {activeTab == "solution" && 
@@ -125,7 +125,7 @@ const solutionPoints = [
                 </motion.li>
               ))}
             </ul>
-            <img src='/bioyap/sol.png' alt='prob' width={250} height={250} />
+            <img src='/bioyap/sol.webp' alt='prob' width={250} height={250} />
             </div>
             }
           

@@ -11,13 +11,13 @@ const TechStack = () => {
   const iconsInView = useInView(iconsRef, { once: true, amount: 0.5 });
 
   const techIcons = [
-    // { name: 'MongoDB', icon: '/mongo.png', color: '#4DB33D' },
-    { name: 'Flutter', icon: '/flutter.png', color: '#02569B' },
-    { name: 'React', icon: '/bioyap/node.png', color: '#61DAFB' },
-    { name: 'Firebase', icon: '/bioyap/post.png', color: '#FFCA28' },
-    { name: 'Node.js', icon: '/bioyap/figma.png', color: '#339933' },
-    { name: 'Node.js', icon: '/bioyap/ps.png', color: '#339933' },
-    { name: 'Node.js', icon: '/bioyap/ai.png', color: '#339933' },
+    // { name: 'MongoDB', icon: '/mongo.webp', color: '#4DB33D' },
+    { name: 'Flutter', icon: '/flutter.webp', color: '#02569B' },
+    { name: 'React', icon: '/bioyap/node.webp', color: '#61DAFB' },
+    { name: 'Firebase', icon: '/bioyap/post.webp', color: '#FFCA28' },
+    { name: 'Node.js', icon: '/bioyap/figma.webp', color: '#339933' },
+    { name: 'Node.js', icon: '/bioyap/ps.webp', color: '#339933' },
+    { name: 'Node.js', icon: '/bioyap/ai.webp', color: '#339933' },
   ];
 
   return (

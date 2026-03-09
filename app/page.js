@@ -128,7 +128,7 @@ const Page = () => {
     {
       "@context": "https://schema.org",
       "@type": "ImageObject",
-      "url": "https://www.dignitestudios.com/logo.png"
+      "url": "https://www.dignitestudios.com/logo.webp"
     }
   `}
       </Script>
@@ -177,7 +177,7 @@ const Page = () => {
         "@type": "Organization",
         "url": "https://www.dignitestudios.com/",
         "name": "Dignite Studios",
-        "logo": "https://www.dignitestudios.com/logo.png",
+        "logo": "https://www.dignitestudios.com/logo.webp",
         "sameAs": [
           "https://facebook.com/dignitestudios",
           "https://twitter.com/dignitestudios",
@@ -200,7 +200,7 @@ const Page = () => {
       "name": "Dignite Studios",
       "alternateName": "DS",
       "url": "https://www.dignitestudios.com/",
-      "logo": "https://www.dignitestudios.com/logo.png",
+      "logo": "https://www.dignitestudios.com/logo.webp",
       "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
       "email": "support@dignitestudios.com",
       "telephone": "+1 877-714-1770",
@@ -254,7 +254,7 @@ const Page = () => {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Dignite Studios",
-      "image": "https://www.dignitestudios.com/logo.png",
+      "image": "https://www.dignitestudios.com/logo.webp",
       "url": "https://www.dignitestudios.com/",
       "description": "Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.",
       "email": "support@dignitestudios.com",

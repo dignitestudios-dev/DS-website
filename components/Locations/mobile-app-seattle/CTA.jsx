@@ -6,10 +6,10 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <div className="w-[95%] lg:w-[80%] relative  text-white bg-[url('/location/mobile-seattle/s-cta.png')] bg-cover bg-center hover:scale-105 transition-all ease-linear relative md:px-36 px-4 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
+    <div className="w-[95%] lg:w-[80%] relative  text-white bg-[url('/location/mobile-seattle/s-cta.webp')] bg-cover bg-center hover:scale-105 transition-all ease-linear relative md:px-36 px-4 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <div className="flex items-center">
         <motion.img
-          src="/location/mobile-seattle/cta-m1.png"
+          src="/location/mobile-seattle/cta-m1.webp"
           alt="cta-mobile"
           className="-bottom-[80%] lg:block hidden -left-36 absolute"
           initial={{ y: 100, opacity: 0, rotate: -15 }}
@@ -18,7 +18,7 @@ const CTA = () => {
           transition={{ duration: 0.8 }}
         />
         <motion.img
-          src="/location/mobile-seattle/cta-m2.png"
+          src="/location/mobile-seattle/cta-m2.webp"
           alt="cta-mobile"
           className="-bottom-[75%] lg:block hidden -right-28 absolute"
           initial={{ y: 100, opacity: 0, rotate: 15 }}

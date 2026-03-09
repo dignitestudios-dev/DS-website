@@ -56,7 +56,7 @@ const Discorvery = () => {
               className="rounded-[60px] text-black relative transition-all ease-linear hover:scale-105 bg-gradient-to-b from-[#CEA3D8] to-white md:w-[23%] w-[90%]  "
               key={idx}
             >
-              <img src={`/hl${idx+1}.png`} width={300} height={300} className="absolute" />
+              <img src={`/hl${idx+1}.webp`} width={300} height={300} className="absolute" />
               <div className="flex flex-col items-start   h-[400px] justify-between p-8">
                 <h1 className="text-xl flex items-center gap-3">
                   <svg

@@ -45,7 +45,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/swift-icon.png"
+                src="/swift-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -60,7 +60,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/vue-icon.png"
+                src="/vue-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -75,7 +75,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/react-icon.png"
+                src="/react-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -90,7 +90,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/illustrator-icon.png"
+                src="/illustrator-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[18px]"
@@ -105,7 +105,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/tailwind-icon.png"
+                src="/tailwind-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -135,7 +135,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/swift-icon.png"
+                src="/swift-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -150,7 +150,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/vue-icon.png"
+                src="/vue-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -165,7 +165,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/react-icon.png"
+                src="/react-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -180,7 +180,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/illustrator-icon.png"
+                src="/illustrator-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[18px]"
@@ -195,7 +195,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/tailwind-icon.png"
+                src="/tailwind-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -225,7 +225,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/swift-icon.png"
+                src="/swift-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -240,7 +240,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/vue-icon.png"
+                src="/vue-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -255,7 +255,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/react-icon.png"
+                src="/react-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -270,7 +270,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/illustrator-icon.png"
+                src="/illustrator-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[18px]"
@@ -285,7 +285,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/tailwind-icon.png"
+                src="/tailwind-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -315,7 +315,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/swift-icon.png"
+                src="/swift-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -330,7 +330,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/vue-icon.png"
+                src="/vue-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -345,7 +345,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/react-icon.png"
+                src="/react-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -360,7 +360,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/illustrator-icon.png"
+                src="/illustrator-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[18px]"
@@ -375,7 +375,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/tailwind-icon.png"
+                src="/tailwind-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -395,7 +395,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/photoshop-icon.png"
+                src="/photoshop-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[18px]"
@@ -410,7 +410,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/java-icon.png"
+                src="/java-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -425,7 +425,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/kotlin-icon.png"
+                src="/kotlin-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -440,7 +440,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/firebase-icon.png"
+                src="/firebase-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -455,7 +455,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/visual-studio-icon.png"
+                src="/visual-studio-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -470,7 +470,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/photoshop-icon.png"
+                src="/photoshop-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[18px]"
@@ -485,7 +485,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/java-icon.png"
+                src="/java-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -500,7 +500,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/kotlin-icon.png"
+                src="/kotlin-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -515,7 +515,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/firebase-icon.png"
+                src="/firebase-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"
@@ -530,7 +530,7 @@ const NewContactForm = () => {
               }`}
             >
               <img
-                src="/visual-studio-icon.png"
+                src="/visual-studio-icon.webp"
                 alt="tehcnology-icon"
                 loading="lazy"
                 className="w-[22px] h-[22px]"

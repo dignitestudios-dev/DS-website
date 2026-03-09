@@ -43,12 +43,12 @@ const Services = () => {
         >
           <div className="rounded-xl flex items-center">
             {hoverColor === 1 ? (
-              <img src="/mobile-app-dev-dark.png" alt="" />
+              <img src="/mobile-app-dev-dark.webp" alt="" />
             ) : (
               theme === "light" ? (
-                <img src="/mobile-app-dev-light.png" alt="" />
+                <img src="/mobile-app-dev-light.webp" alt="" />
               ) : (
-                <img src="/mobile-app-dev-dark.png" alt="" />
+                <img src="/mobile-app-dev-dark.webp" alt="" />
               )
             )}
           </div>
@@ -66,12 +66,12 @@ const Services = () => {
         >
           <div className="  rounded-xl  flex items-center ">
             {hoverColor === 2 ? (
-              <img src="/mobile-app-design-light.png" alt="" />
+              <img src="/mobile-app-design-light.webp" alt="" />
             ) : (
               theme == "light" ? (
-                <img src="/mobile-app-design.png" alt="" />
+                <img src="/mobile-app-design.webp" alt="" />
               ) : (
-                <img src="/mobile-app-design-light.png" alt="" />
+                <img src="/mobile-app-design-light.webp" alt="" />
               ))
             }
 
@@ -99,12 +99,12 @@ const Services = () => {
           <div className="  rounded-xl  flex items-center ">
 
             {hoverColor === 3 ? (
-              <img src="/mobile-app-consultation-dark1.png" alt="" />
+              <img src="/mobile-app-consultation-dark1.webp" alt="" />
             ) : (
               theme == "light" ? (
-                <img src="/mobile-app-consultation-light.png" alt="" />
+                <img src="/mobile-app-consultation-light.webp" alt="" />
               ) : (
-                <img src="/mobile-app-consultation-dark1.png" alt="" />
+                <img src="/mobile-app-consultation-dark1.webp" alt="" />
               ))
             }
           </div>
@@ -132,12 +132,12 @@ const Services = () => {
         >
           <div className="  rounded-xl  flex items-center ">
             {hoverColor === 4 ? (
-              <img src="/mobile-app-prtotyping-white.png" alt="" />
+              <img src="/mobile-app-prtotyping-white.webp" alt="" />
             ) : (
               theme == "light" ? (
-                <img src="/mobile-app-prtotyping-light.png" alt="" />
+                <img src="/mobile-app-prtotyping-light.webp" alt="" />
               ) : (
-                <img src="/mobile-app-prtotyping-white.png" alt="" />
+                <img src="/mobile-app-prtotyping-white.webp" alt="" />
               ))
             }
 
@@ -165,12 +165,12 @@ const Services = () => {
           <div className="  rounded-xl  flex items-center ">
 
             {hoverColor === 5 ? (
-              <img src="/mobile-app-maintenance-white.png" alt="" />
+              <img src="/mobile-app-maintenance-white.webp" alt="" />
             ) : (
               theme == "light" ? (
-                <img src="/mobile-app-maintenance-light.png" alt="" />
+                <img src="/mobile-app-maintenance-light.webp" alt="" />
               ) : (
-                <img src="/mobile-app-maintenance-white.png" alt="" />
+                <img src="/mobile-app-maintenance-white.webp" alt="" />
               ))
             }
 
@@ -195,12 +195,12 @@ const Services = () => {
         >
           <div className="  rounded-xl  flex items-center ">
             {hoverColor === 6 ? (
-              <img src="/mobile-app-integration-white.png" alt="" />
+              <img src="/mobile-app-integration-white.webp" alt="" />
             ) : (
               theme == "light" ? (
-                <img src="/mobile-app-integration-light.png" alt="" />
+                <img src="/mobile-app-integration-light.webp" alt="" />
               ) : (
-                <img src="/mobile-app-integration-white.png" alt="" />
+                <img src="/mobile-app-integration-white.webp" alt="" />
               ))
             }
           </div>

@@ -38,7 +38,7 @@ const Hero = () => {
       <div className="w-[80%] mx-auto z-10 flex justify-center mt-20 md:-mt-10 relative">
         <Image
           loader={customLoader}
-          src="/location/mobile-california/bg-grad.png"
+          src="/location/mobile-california/bg-grad.webp"
           alt=""
           width={1200}
           height={1200}
@@ -57,7 +57,7 @@ const Hero = () => {
         >
           <Image
             loader={customLoader}
-            src="/location/mobile-california/mob.png"
+            src="/location/mobile-california/mob.webp"
             alt="Mobile app development showcase California"
             width={800}
             height={800}

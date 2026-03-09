@@ -7,7 +7,7 @@ const HeroAnimation = () => {
   return (
     <div className="w-full mt-6 md:mt-0 relative lg:h-[60vh] xl:h-[79vh] flex items-center justify-start overflow-visible">
       {/* <img
-        src="/Web-Application-Development-Services-Left.png"
+        src="/Web-Application-Development-Services-Left.webp"
         alt="Web Application Development Services page shows web mock screens which presents application layout"
         title="Web Application Development Services"
         className="lg:w-[346px] lg:h-[325px] 2xl:w-[426px] 2xl:h-[395px] absolute top-16 2xl:top-44 left-14 2xl:left-20 z-20 slide-right-on-load hidden xl:block"
@@ -30,7 +30,7 @@ const HeroAnimation = () => {
 
         <div className="w-full">
           <img
-            src="/pie-chart.png"
+            src="/pie-chart.webp"
             alt="pie-chart"
             title="pie-chart-img"
             className="w-[103px] h-[103px] mx-auto"

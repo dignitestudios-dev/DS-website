@@ -6,28 +6,28 @@ const CTA = () => {
   return (
     <div className="w-[80%] hover:scale-105 mb-10 transition-all ease-linear relative md:px-36 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <img
-        src="/location/mobile-california/grad1.png"
+        src="/location/mobile-california/grad1.webp"
         alt=""
         className="absolute right-0 bottom-0 rounded-[43px]"
       />
       <img
-        src="/location/mobile-california/tl.png"
+        src="/location/mobile-california/tl.webp"
         alt=""
         className="absolute z-20 top-0 left-[50%] translate-x-[-50%] rounded-[43px]"
       />
       <img
-        src="/location/mobile-california/bl.png"
+        src="/location/mobile-california/bl.webp"
         alt=""
         className="absolute z-20 -bottom-10 left-[50%] translate-x-[-50%] rounded-[43px]"
       />
       <img
-        src="/location/mobile-california/grad2.png"
+        src="/location/mobile-california/grad2.webp"
         alt=""
         className="absolute left-0 top-0"
       />
       <div className="lg:w-[50%] w-full relative z-50 mx-auto space-y-4">
         <img
-          src="/location/mobile-california/apps.png"
+          src="/location/mobile-california/apps.webp"
           alt="Mobile applications showcase in New York"
         />
         <h2 className="text-4xl capitalize font-bold text-center">

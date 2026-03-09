@@ -34,7 +34,7 @@ const Discorvery = () => {
   return (
     <section className="w-full py-8  relative z-50 ">
       <img
-        src="/bioyap/hero.png"
+        src="/bioyap/hero.webp"
         alt="hero"
         className="absolute w-screen z-10"
       />
@@ -73,7 +73,7 @@ const Discorvery = () => {
               <ul className=" text-xs mb-2 space-y-3">
                 {s.steps.map((st, indx) => (
                   <li key={indx} className="flex items-start gap-2 ">
-                    <img src="/bioyap/bulb.png" />
+                    <img src="/bioyap/bulb.webp" />
                     {st}
                   </li>
                 ))}

@@ -12,7 +12,7 @@ import ServicesNavbar from "@/components/global/ServicesNavbar";
 
 const AndroidAppHero = () => {
   const { palette, setIsSidebarOpen } = useContext(GlobalContext);
-  const images = ["/mobile-hero-mockup-3.png", "/mobile-hero-mockup-4.png"];
+  const images = ["/mobile-hero-mockup-3.webp", "/mobile-hero-mockup-4.webp"];
 
   return (
     <div className="bg-ios bg-black w-full flex flex-col justify-start items-start">

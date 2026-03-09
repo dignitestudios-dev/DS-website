@@ -18,7 +18,7 @@ const MaidSimplHero = () => {
       <div className="px-4 md:px-12 xl:px-64 lg:pb-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <img
-            src="/maid-simple-logo.png"
+            src="/maid-simple-logo.webp"
             alt=""
             className="w-[133px] h-[42px]"
           />
@@ -48,7 +48,7 @@ const MaidSimplHero = () => {
           </p>
         </div>
       </div>
-      <img src="/maid-simple-1.png" alt="" className="w-full lg:h-screen" />
+      <img src="/maid-simple-1.webp" alt="" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">The Challenges</h2>
@@ -74,7 +74,7 @@ const MaidSimplHero = () => {
           </p>
         </div>
       </div>
-      <img src="/maid-simple-2.png" alt="" className="w-full h-lg:screen" />
+      <img src="/maid-simple-2.webp" alt="" className="w-full h-lg:screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10  flex w-full flex-col justify-start items-start gap-4">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">
@@ -96,21 +96,21 @@ const MaidSimplHero = () => {
         </div>
         <MaidSimplTechnologies />
       </div>
-      <img src="/maid-simple-3.png" alt="" className="w-full h-lg:screen" />
+      <img src="/maid-simple-3.webp" alt="" className="w-full h-lg:screen" />
       <div className="w-full px-4 md:px-12 xl:px-64 md:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
           description={
             "The splash screen serves as the initial interface for users engaging with this house cleaning service platform, offering an inviting entry point into a wonderful user experience. Designed with both aesthetic appeal and functionality in mind, the splash screen provides a snapshot of the platform's core features, captivating users from the outset."
           }
-          mockup={"/maidsimpl-mockup-1.png"}
+          mockup={"/maidsimpl-mockup-1.webp"}
         />
         <RightAllignedScreen
           title={"Login"}
           description={
             "With security and user convenience at the forefront, our login system enables access to a range of essential functions. Users can effortlessly manage their reservations, monitor cleaning progress, and securely make payments, all through a single, unified interface. By storing user preferences and past interactions, the login feature optimizes the booking process, ensuring that each cleaning session is tailored to the unique needs of our clients. "
           }
-          mockup={"/maidsimpl-mockup-2.png"}
+          mockup={"/maidsimpl-mockup-2.webp"}
         />
 
         <LeftAllignedScreen
@@ -118,17 +118,17 @@ const MaidSimplHero = () => {
           description={
             "Designed with user convenience in mind, the homepage features a streamlined search bar prominently positioned, allowing users to swiftly locate and select their desired cleaning services based on their specific requirements. Additionally, a visually engaging display showcases curated cleaning packages and promotions, enticing users to explore further.It provides access to a myriad of house cleaning services."
           }
-          mockup={"/maidsimpl-mockup-4.png"}
+          mockup={"/maidsimpl-mockup-4.webp"}
         />
         <RightAllignedScreen
           title={"Choose your service"}
           description={
             "The application offers users unparalleled flexibility and customization when selecting house cleaning services tailored to their unique needs. Customers can easily browse a comprehensive array of cleaning options, ranging from standard maintenance tasks to specialized treatments. It allows them to select specific services, duration, and frequency according to their preferences."
           }
-          mockup={"/maidsimpl-mockup-3.png"}
+          mockup={"/maidsimpl-mockup-3.webp"}
         />
       </div>
-      <img src="/maid-simple-4.png" alt="" className="w-full h-lg:screen" />
+      <img src="/maid-simple-4.webp" alt="" className="w-full h-lg:screen" />
     </div>
   );
 };

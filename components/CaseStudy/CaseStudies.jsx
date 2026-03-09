@@ -7,29 +7,29 @@ import ContactUs from './ui/ContactUs';
 
 const cards = [
   {
-    image: "/case-studies/hl.png",
-    icon: "/case-studies/icons/hl.png",
+    image: "/case-studies/hl.webp",
+    icon: "/case-studies/icons/hl.webp",
     title: "Harmonious Learning",
     description: "A calm, creative audio world for kids.",
     pathname: "/case-studies/harmonious-learning"
   },
   {
-    image: "/case-studies/w.png",
-    icon: "/case-studies/icons/w.png",
+    image: "/case-studies/w.webp",
+    icon: "/case-studies/icons/w.webp",
     title: "Wing",
     description: "Redefining dating through friend-powered matchmaking.",
     pathname: "/case-studies/wing"
   },
   {
-    image: "/case-studies/hh.png",
-    icon: "/case-studies/icons/hh.png",
+    image: "/case-studies/hh.webp",
+    icon: "/case-studies/icons/hh.webp",
     title: "Home Hero",
     description: "A simplified daily overview with smart task organization.",
     pathname: "/case-studies/home-hero"
   },
   {
-    image: "/case-studies/by.png",
-    icon: "/case-studies/icons/by.png",
+    image: "/case-studies/by.webp",
+    icon: "/case-studies/icons/by.webp",
     title: "BioYap",
     description: "Monitor home energy usage across devices in real time.",
     pathname: "/case-studies/bioyap"
@@ -37,15 +37,15 @@ const cards = [
 
   // new ones
   {
-    image: "/case-studies/cr.png",
-    icon: "/case-studies/icons/cr.png",
+    image: "/case-studies/cr.webp",
+    icon: "/case-studies/icons/cr.webp",
     title: "CrewRoomz",
     description: "Building a tailored digital diary for cabin owners.",
     pathname: "/case-studies/crew-roomz"
   },
   {
-    image: "/case-studies/gf.png",
-    icon: "/case-studies/icons/gf.png",
+    image: "/case-studies/gf.webp",
+    icon: "/case-studies/icons/gf.webp",
     title: "Games4Fun",
     description: "Game app development, branding, and UI/UX design.",
     pathname: "/case-studies/games-4-fun"
@@ -58,7 +58,7 @@ const CaseStudies = () => {
   return (
      <div className="w-full bg-white pb-32">
       {/* Hero Section */}
-      <img src="/shad.png" alt="shad " className="absolute top-0 left-0" />
+      <img src="/shad.webp" alt="shad " className="absolute top-0 left-0" />
       <div className="flex flex-col items-center justify-center  pb-12 px-4 text-center max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-black mb-4">
           Case Studies
@@ -108,7 +108,7 @@ const CaseStudies = () => {
           </Link>
         ))}
       </div>
-      <ContactUs header={"Ready to Build Your App? "} header2={"Let’s Talk"} para={"Don’t compromise on your app’s success. Gain a competitive edge. Our professional app developers California provide expertise, creativity, and reliability. Partner with a dedicated team of skilled app developers in California to launch your app faster and smarter."} btn={"Connect with Experts Now"} img={"/case-studies/cc.png"} />
+      <ContactUs header={"Ready to Build Your App? "} header2={"Let’s Talk"} para={"Don’t compromise on your app’s success. Gain a competitive edge. Our professional app developers California provide expertise, creativity, and reliability. Partner with a dedicated team of skilled app developers in California to launch your app faster and smarter."} btn={"Connect with Experts Now"} img={"/case-studies/cc.webp"} />
       </div>
   )
 }

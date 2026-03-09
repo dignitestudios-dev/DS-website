@@ -34,7 +34,7 @@ const RecentDesignShowCase = () => {
         <Link
           href={"/case-studies/mymedicaljournal"}>
           <div className="h-100 w-100 flex items-center justify-center" style={{}} >
-            <img src="/bg-shade.png" alt="" srcset="" />
+            <img src="/bg-shade.webp" alt="" srcset="" />
           </div>
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  w-full  absolute z-2 top-0">
             <div className="flex flex-col justify-between custom-media-query">
@@ -64,7 +64,7 @@ const RecentDesignShowCase = () => {
           <div className="w-[100%] absolute bottom-[0px] bg-[#82888C73] blur-shadow  h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
-                <img src="/medical-general.png" width="30px" height="30px" alt="" />
+                <img src="/medical-general.webp" width="30px" height="30px" alt="" />
                 <h2 className='ml-2 text-white capitalize'>My medical journal</h2>
               </div>
               <p className='w-[100%] lg:w-[50%] text-start text-[12px] mt-3  text-[white] font-normal' >
@@ -75,20 +75,20 @@ const RecentDesignShowCase = () => {
                 <div className="w-full absolute bottom-5 left-2  mt-auto flex flex-wrap justify-start flex-wrap gap-2 items-center pr-1">
                   <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.mymedicaljournal"} >
                     <img
-                      src="/white-bg-google.png"
+                      src="/white-bg-google.webp"
                       className=""
                       alt="google_play_button"
                     />
                   </Link>
                   <Link href={"https://apps.apple.com/us/app/my-medical-journal-app/id6502008545"}>
                     <img
-                      src="/whitebg-app.png"
+                      src="/whitebg-app.webp"
                       className=" md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
                   <Link href={"https://mymedicaljournal.app/"}>
                     <img
-                      src="/white-bg-web.png"
+                      src="/white-bg-web.webp"
                       className=" md:h-[40.62px]"
                       alt="Website btn play icon"
                     />
@@ -104,7 +104,7 @@ const RecentDesignShowCase = () => {
         <Link
           href={"/case-studies/nykn"}>
           <div className="h-100 w-100 flex items-center justify-center" style={{}} >
-            <img src="/sky-blue-circle.png" alt="" srcset="" />
+            <img src="/sky-blue-circle.webp" alt="" srcset="" />
           </div>
           <div className="grid h-[65%] grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  w-full  absolute z-2 top-0">
             <div className="flex justify-evenly items-center h-100 custom-media-query">
@@ -116,7 +116,7 @@ const RecentDesignShowCase = () => {
             <div className="w-[100%] absolute bottom-[0px] bg-[#C9D7E273] blur-shadow  h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
-                <img src="/nykn-logo-new.png" width="30px" height="30px" alt="" />
+                <img src="/nykn-logo-new.webp" width="30px" height="30px" alt="" />
                 <h2 className='ml-2 text-[#181818] capitalize'>NYKN</h2>
               </div>
               <p className='w-[100%] lg:w-[50%] text-start text-[12px] mt-3 text-[#5C5C5C] font-normal' >
@@ -128,20 +128,20 @@ const RecentDesignShowCase = () => {
                 <div className="w-full absolute bottom-5 left-2  mt-auto flex flex-wrap justify-start gap-2 items-center pr-1">
                   <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.nykn&pli=1"} >
                     <img
-                      src="/white-bg-google.png"
+                      src="/white-bg-google.webp"
                       className=""
                       alt="google_play_button"
                     />
                   </Link>
                   <Link href={"https://apps.apple.com/us/app/now-you-know-nashville/id6505112380"}>
                     <img
-                      src="/whitebg-app.png"
+                      src="/whitebg-app.webp"
                       className=" md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
                   <Link href={"https://www.nowyouknownashville.com/"}>
                     <img
-                      src="/white-bg-web.png"
+                      src="/white-bg-web.webp"
                       className=" md:h-[40.62px]"
                       alt="Website btn play icon"
                     />
@@ -158,15 +158,15 @@ const RecentDesignShowCase = () => {
           href={"/case-studies/maidsimpl"}>
           <div className="grid h-[65%] grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  w-full  absolute z-2 top-0">
             <div className="flex justify-center items-end h-100 custom-media-query">
-                <img src="/mad-clean-1.png" className='h-100 relative left-[80px] max-w-[300px] ' alt="" />
-                <img src="/mad-simple-2.png" className='h-100 max-w-[200px] relative -left-[28px] z-[1]' alt="" />
-                <img src="/mad-clean-3.png" className='h-100 max-w-[300px] relative -left-[130px] ' alt="" />
+                <img src="/mad-clean-1.webp" className='h-100 relative left-[80px] max-w-[300px] ' alt="" />
+                <img src="/mad-simple-2.webp" className='h-100 max-w-[200px] relative -left-[28px] z-[1]' alt="" />
+                <img src="/mad-clean-3.webp" className='h-100 max-w-[300px] relative -left-[130px] ' alt="" />
             </div>          
           </div>
           <div className="w-[100%] absolute bottom-[0px] bg-[#82888C73] blur-shadow h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
-                <img src="/maidsimpl-logo.png" width="30px" height="30px" alt="" />
+                <img src="/maidsimpl-logo.webp" width="30px" height="30px" alt="" />
                 <h2 className='ml-2 text-[#181818] capitalize'>maidsimpl</h2>
               </div>
               <p className='w-[100%] lg:w-[50%] text-start text-[12px] mt-3  text-[#5C5C5C] font-normal' >
@@ -177,20 +177,20 @@ const RecentDesignShowCase = () => {
                 <div className="w-full absolute bottom-5 left-2 flex-wrap mt-auto flex justify-start gap-2 items-center pr-1">
                   <Link href={"https://play.google.com/store/apps/details?id=com.maidsimpl.maidsimpl&hl=en&gl=US"} >
                     <img
-                      src="/white-bg-google.png"
+                      src="/white-bg-google.webp"
                       className=""
                       alt="google_play_button"
                     />
                   </Link>
                   <Link href={"https://apps.apple.com/us/app/maidsimpl/id6478665215"}>
                     <img
-                      src="/whitebg-app.png"
+                      src="/whitebg-app.webp"
                       className=" md:h-[40.62px]"
                       alt="app_store_button" />
                   </Link>
                   <Link href={"https://www.maidsimpl.com/"}>
                     <img
-                      src="/white-bg-web.png"
+                      src="/white-bg-web.webp"
                       className=" md:h-[40.62px]"
                       alt="Website btn play icon"
                     />
@@ -206,7 +206,7 @@ const RecentDesignShowCase = () => {
         <Link
           href={"/case-studies/carter-boating"}>
         <div className="h-[100%] w-100 flex items-center justify-center" style={{}} >
-            <img src="/gray-ice-center.png" alt="" srcset="" />
+            <img src="/gray-ice-center.webp" alt="" srcset="" />
           </div>
           <div className="grid h-[75%] grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  w-full  absolute z-2 top-0">
             <div className="flex justify-center items-end h-100 custom-media-query">
@@ -224,7 +224,7 @@ const RecentDesignShowCase = () => {
           <div className="w-[100%] absolute bottom-[0px] bg-[#B6D7C873] blur-shadow  h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
-                <img src="/carter-logo.png" width="30px" height="30px" alt="" />
+                <img src="/carter-logo.webp" width="30px" height="30px" alt="" />
                 <h2 className='ml-2 text-[#181818] capitalize'>carter boating</h2>
               </div>
               <p className='w-[100%] lg:w-[50%] text-start text-[12px] mt-3  text-[#5C5C5C] font-normal' >
@@ -237,7 +237,7 @@ const RecentDesignShowCase = () => {
                
                   <Link href={"https://www.carterboating.com/"}>
                     <img
-                      src="/white-bg-web.png"
+                      src="/white-bg-web.webp"
                       className="h-[32px] md:h-[40.62px]"
                       alt="Website btn play icon"
                     />

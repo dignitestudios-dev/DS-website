@@ -13,7 +13,7 @@ const WebAppTechnologies = () => {
           <p className="text-[#F15C20] text-xl font-bold uppercase tracking-normal">
             advanced
           </p>
-          <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
+          <img src="/lines.webp" alt="lines" className="w-[101px] h-[8px]" />
         </div>
         Web App Technologies
       </h2>
@@ -47,7 +47,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/swift-icon.png"
+              src="/swift-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -62,7 +62,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/vue-icon.png"
+              src="/vue-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -77,7 +77,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/react-icon.png"
+              src="/react-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -92,7 +92,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/illustrator-icon.png"
+              src="/illustrator-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -107,7 +107,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/tailwind-icon.png"
+              src="/tailwind-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -137,7 +137,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/swift-icon.png"
+              src="/swift-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -152,7 +152,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/vue-icon.png"
+              src="/vue-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -167,7 +167,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/react-icon.png"
+              src="/react-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -182,7 +182,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/illustrator-icon.png"
+              src="/illustrator-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -197,7 +197,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/tailwind-icon.png"
+              src="/tailwind-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -227,7 +227,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/swift-icon.png"
+              src="/swift-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -242,7 +242,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/vue-icon.png"
+              src="/vue-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -257,7 +257,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/react-icon.png"
+              src="/react-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -272,7 +272,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/illustrator-icon.png"
+              src="/illustrator-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -287,7 +287,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/tailwind-icon.png"
+              src="/tailwind-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -317,7 +317,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/swift-icon.png"
+              src="/swift-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -332,7 +332,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/vue-icon.png"
+              src="/vue-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -347,7 +347,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/react-icon.png"
+              src="/react-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -362,7 +362,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/illustrator-icon.png"
+              src="/illustrator-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -377,7 +377,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/tailwind-icon.png"
+              src="/tailwind-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -397,7 +397,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/photoshop-icon.png"
+              src="/photoshop-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -412,7 +412,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/java-icon.png"
+              src="/java-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -427,7 +427,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/kotlin-icon.png"
+              src="/kotlin-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -442,7 +442,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/firebase-icon.png"
+              src="/firebase-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -457,7 +457,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/visual-studio-icon.png"
+              src="/visual-studio-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -472,7 +472,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/photoshop-icon.png"
+              src="/photoshop-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -487,7 +487,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/java-icon.png"
+              src="/java-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -502,7 +502,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/kotlin-icon.png"
+              src="/kotlin-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -517,7 +517,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/firebase-icon.png"
+              src="/firebase-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -532,7 +532,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/visual-studio-icon.png"
+              src="/visual-studio-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -547,7 +547,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/photoshop-icon.png"
+              src="/photoshop-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -562,7 +562,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/java-icon.png"
+              src="/java-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -577,7 +577,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/kotlin-icon.png"
+              src="/kotlin-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -592,7 +592,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/firebase-icon.png"
+              src="/firebase-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -607,7 +607,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/visual-studio-icon.png"
+              src="/visual-studio-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -622,7 +622,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/photoshop-icon.png"
+              src="/photoshop-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -637,7 +637,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/java-icon.png"
+              src="/java-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -652,7 +652,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/kotlin-icon.png"
+              src="/kotlin-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -667,7 +667,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/firebase-icon.png"
+              src="/firebase-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -682,7 +682,7 @@ const WebAppTechnologies = () => {
             }`}
           >
             <img
-              src="/visual-studio-icon.png"
+              src="/visual-studio-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"

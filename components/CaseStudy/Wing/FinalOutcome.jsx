@@ -53,22 +53,22 @@ const FinalOutcome = () => {
   ];
 
   const final = [
-    "/wing/m1.png",
-    "/wing/m2.png",
-    "/wing/m3.png",
-    "/wing/m4.png",
-    "/wing/m5.png",
-    "/wing/m6.png",
-    "/wing/m7.png",
-    "/wing/m8.png",
-    "/wing/m9.png",
-    "/wing/m10.png",
-    "/wing/m11.png",
-    "/wing/m12.png",
-    "/wing/m13.png",
-    "/wing/m14.png",
-    // "/wing/m13.png",
-    // "/bioyap/f8.png",
+    "/wing/m1.webp",
+    "/wing/m2.webp",
+    "/wing/m3.webp",
+    "/wing/m4.webp",
+    "/wing/m5.webp",
+    "/wing/m6.webp",
+    "/wing/m7.webp",
+    "/wing/m8.webp",
+    "/wing/m9.webp",
+    "/wing/m10.webp",
+    "/wing/m11.webp",
+    "/wing/m12.webp",
+    "/wing/m13.webp",
+    "/wing/m14.webp",
+    // "/wing/m13.webp",
+    // "/bioyap/f8.webp",
   ];
   return (
     <section className="w-full py-24 pb-24  relative z-50">

@@ -15,7 +15,7 @@ const ConvenientMobileAppDevelopment = () => {
           <span className="text-[#F15C20] text-xl  font-bold uppercase tracking-normal">
             Convenient{" "}
           </span>
-          <img src="/lines.png" alt="lines" className="w-[124px] h-[8]" />
+          <img src="/lines.webp" alt="lines" className="w-[124px] h-[8]" />
         </div>
         Mobile App <br /> Development Services
       </h2>

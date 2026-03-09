@@ -54,22 +54,22 @@ const FinalOutcome = () => {
   ];
 
   const final = [
-    "/home-hero/t1.png",
-    "/home-hero/t2.png",
-    "/home-hero/t3.png",
-    "/home-hero/t4.png",
-    "/home-hero/t5.png",
-    "/home-hero/t6.png",
-    "/home-hero/t7.png",
-    "/home-hero/t8.png",
-    "/home-hero/t9.png",
-    "/home-hero/t10.png",
-    "/home-hero/t11.png",
-    "/home-hero/t12.png",
-    // "/home-hero/t13.png",
-    // "/home-hero/t14.png",
-    // "/wing/m13.png",
-    // "/bioyap/f8.png",
+    "/home-hero/t1.webp",
+    "/home-hero/t2.webp",
+    "/home-hero/t3.webp",
+    "/home-hero/t4.webp",
+    "/home-hero/t5.webp",
+    "/home-hero/t6.webp",
+    "/home-hero/t7.webp",
+    "/home-hero/t8.webp",
+    "/home-hero/t9.webp",
+    "/home-hero/t10.webp",
+    "/home-hero/t11.webp",
+    "/home-hero/t12.webp",
+    // "/home-hero/t13.webp",
+    // "/home-hero/t14.webp",
+    // "/wing/m13.webp",
+    // "/bioyap/f8.webp",
   ];
   return (
     <section className="w-full py-24 pb-24  relative z-50">

@@ -46,7 +46,7 @@ const TopRatedNavbar = ({ setIsOpen }) => {
           // loader={customLoader}
           // width={120}
           // height={64}
-          src={theme == "light" ? "/logo.png" : "/logo-dark.png"}
+          src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"}
           className="h-[70px] w-[120px]"
         />
       </Link>

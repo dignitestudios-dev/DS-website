@@ -45,7 +45,7 @@ const InfluentialChooseUs = () => {
           loader={customLoader}
           width={684.15}
           height={669.56}
-          src="/why-choose-us-borders.png"
+          src="/why-choose-us-borders.webp"
           alt="why-choose-us-borders"
           className="w-full absolute top-0 lg:-top-28 xl:top-0 left-0 z-0 hidden lg:block"
         />
@@ -67,7 +67,7 @@ const InfluentialChooseUs = () => {
                     loader={customLoader}
                     width={40}
                     height={33}
-                    src="/transparent-process-icon.png"
+                    src="/transparent-process-icon.webp"
                     alt="transparent-process-icon"
                     className="w-[40px] h-[33px]"
                   />
@@ -113,7 +113,7 @@ const InfluentialChooseUs = () => {
                     loader={customLoader}
                     width={32}
                     height={41}
-                    src="/focused-strategies.png"
+                    src="/focused-strategies.webp"
                     alt="focused-strategies-icon"
                     className="w-[32px] h-[41px]"
                   />
@@ -148,7 +148,7 @@ const InfluentialChooseUs = () => {
                     loader={customLoader}
                     width={37}
                     height={41}
-                    src="/business-growth-icon.png"
+                    src="/business-growth-icon.webp"
                     alt="business-growth-icon"
                     className="w-[37px] h-[41px]"
                   />

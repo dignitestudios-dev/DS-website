@@ -68,13 +68,13 @@ const Hero = () => {
           className="absolute w-[918px] h-[350px] md:h-[783px] z-0 -top-32"
          width={500} height={500} priority  loader={customLoader} />
         <Image
-          src="/native-app-1.png"
+          src="/native-app-1.webp"
           alt="Native app development company page shows two mobile screens that appear as mockup screens of native applications with revolving tech logos"
           title="Native app development company"
           className="w-[130px] md:w-[256.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:-rotate-12 transition-all duration-700 z-20 relative -top-4 2xl:-top-0"
          width={500} height={500} priority  loader={customLoader} />
         <Image
-          src="/native-app-2.png"
+          src="/native-app-2.webp"
           alt="Native app development company page shows two mobile screens that appear as mockup screens of native applications with revolving tech logos"
           title="Native app development company"
           className="w-[130px] md:w-[256.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:rotate-12 transition-all duration-700 z-20 relative top-6 2xl:top-8"

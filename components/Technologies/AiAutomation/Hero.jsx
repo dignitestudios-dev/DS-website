@@ -14,16 +14,16 @@ const Hero = () => {
       radius: 320,
       duration: 30,
       size: 65,
-      icons: ["/technologies/ai/i1.png"],
+      icons: ["/technologies/ai/i1.webp"],
     },
     {
       radius: 170,
       duration: 30,
       size: 35,
       icons: [
-        // "/technologies/ai/i1.png",
-        "/technologies/ai/i2.png",
-        "/technologies/ai/i3.png",
+        // "/technologies/ai/i1.webp",
+        "/technologies/ai/i2.webp",
+        "/technologies/ai/i3.webp",
       ],
     },
     {
@@ -31,9 +31,9 @@ const Hero = () => {
       duration: 45,
       size: 60,
       icons: [
-        "/technologies/ai/i4.png",
-        "/technologies/ai/i5.png",
-        "/technologies/ai/i6.png",
+        "/technologies/ai/i4.webp",
+        "/technologies/ai/i5.webp",
+        "/technologies/ai/i6.webp",
       ],
     },
     {
@@ -41,9 +41,9 @@ const Hero = () => {
       duration: 60,
       size: 70,
       icons: [
-        "/technologies/ai/i7.png",
-        "/technologies/ai/i8.png",
-        "/technologies/ai/i9.png",
+        "/technologies/ai/i7.webp",
+        "/technologies/ai/i8.webp",
+        "/technologies/ai/i9.webp",
       ],
     },
   ];
@@ -77,14 +77,14 @@ const Hero = () => {
       <div className="relative w-full h-[300px] lg:h-[600px] mt-10 mb-20 flex items-center justify-center overflow-visible">
         <div className="absolute inset-0 top-32 flex items-center justify-center pointer-events-none z-10">
           <Image
-            src={"/technologies/ai/circle.png"}
+            src={"/technologies/ai/circle.webp"}
             alt="concentric rings"
             width={800}
             height={800}
             className="hidden lg:block object-contain"
            priority  loader={customLoader} />
           <Image
-            src={"/technologies/ai/circle-icons.png"}
+            src={"/technologies/ai/circle-icons.webp"}
             alt="concentric rings"
             width={800}
             height={800}

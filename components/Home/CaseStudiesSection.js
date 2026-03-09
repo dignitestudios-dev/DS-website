@@ -55,7 +55,7 @@ const CaseStudiesSection = () => {
               case studies
             </h2>
             {/* <button name="view-all-case-studies" className="w-[120px] lg:w-[206px] h-12 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90 bg-[#F15C20] shadow-xl text-white text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center gap-4">
-            All Cases <img src={"/arrow-up.png"} alt="arrow" className="w-3" />
+            All Cases <img src={"/arrow-up.webp"} alt="arrow" className="w-3" />
           </button> */}
           </div>
         </div>

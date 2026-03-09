@@ -40,7 +40,7 @@ const Hero = () => {
           className="absolute left-[50%] lg:block hidden translate-x-[-50%] -top-[80%] -z-0"
          width={1200} height={1200} priority alt=""  loader={customLoader} />
         <motion.img
-          src="/location/mobile-seattle/mob.png"
+          src="/location/mobile-seattle/mob.webp"
           alt="bg"
           width={700}
           height={700}
@@ -55,7 +55,7 @@ const Hero = () => {
         />
 
         <Image
-          src="/location/mobile-seattle/lr.png"
+          src="/location/mobile-seattle/lr.webp"
           alt="l"
           className="absolute top-[30%] left-[0%] md:left-[50%] translate-x-[-50%]"
          width={1200} height={1200} priority  loader={customLoader} />

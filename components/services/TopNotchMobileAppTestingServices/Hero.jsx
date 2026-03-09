@@ -19,7 +19,7 @@ const Hero = () => {
         height={709}
         loader={customLoader}
         priority="high"
-        src="/mobile-application-testing.png"
+        src="/mobile-application-testing.webp"
         alt=" mobile application testing services"
         title="mobile application testing services"
         className=" absolute  lg:-top-60 mx-auto  z-10"

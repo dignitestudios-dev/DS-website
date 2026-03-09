@@ -97,7 +97,7 @@ const Workflow = () => {
   return (
     <section className="w-full py-20 relative overflow-hidden">
       <img
-        src="/wing/hearts.png"
+        src="/wing/hearts.webp"
         alt="hero"
         className="absolute w-screen -z-10 hidden md:block"
       />
@@ -116,7 +116,7 @@ const Workflow = () => {
         <div className="hidden md:block relative w-full h-[500px]">
           {/* Bird image at the end of the line */}
           <motion.img
-            src="/wing/bird.png"
+            src="/wing/bird.webp"
             alt="bird"
             className="absolute object-contain z-20"
             style={{
@@ -330,7 +330,7 @@ const Workflow = () => {
             className="flex justify-center pt-8"
           >
             <img
-              src="/wing/bird.png"
+              src="/wing/bird.webp"
               alt="bird"
               className="w-24 h-24 object-contain"
             />

@@ -493,7 +493,7 @@ const Footer = () => {
       </div>
 
       {/* DESKTOP FOOTER */}
-      <div className="hidden md:block w-full h-auto bg-[url('/footer.png')] bg-no-repeat bg-cover relative -mt-24 z-50 transition-all duration-300 pt-20 pb-10 px-8 md:px-12 lg:px-16 xl:px-28 rounded-t-[50px] md:rounded-t-[100px]">
+      <div className="hidden md:block w-full h-auto bg-[url('/footer.webp')] bg-no-repeat bg-cover relative -mt-24 z-50 transition-all duration-300 pt-20 pb-10 px-8 md:px-12 lg:px-16 xl:px-28 rounded-t-[50px] md:rounded-t-[100px]">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[.8px]" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 

@@ -17,7 +17,7 @@ const NyknHero = () => {
     >
       <div className="px-4 md:px-12 xl:px-64 lg:pb-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
-          <img src="/nykn-logo.png" alt="" className="w-[53.65px] h-[79.9px]" />
+          <img src="/nykn-logo.webp" alt="" className="w-[53.65px] h-[79.9px]" />
           <h1 className="text-[45px] font-extrabold lg:text-[60px] lg:font-medium uppercase">
             Explore Nashville
           </h1>
@@ -42,7 +42,7 @@ const NyknHero = () => {
           </p>
         </div>
       </div>
-      <img src="/nykn-1.png" alt="" className="w-full lg:h-screen" />
+      <img src="/nykn-1.webp" alt="" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">The Challenges</h2>
@@ -64,7 +64,7 @@ const NyknHero = () => {
           </p>
         </div>
       </div>
-      <img src="/nykn-2.png" alt="" className="w-full lg:h-screen" />
+      <img src="/nykn-2.webp" alt="" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10  flex w-full flex-col justify-start items-start gap-4">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">
@@ -89,38 +89,38 @@ const NyknHero = () => {
         </div>
         <NyknTechnologies />
       </div>
-      <img src="/nykn-3.png" alt="" className="w-full lg:h-screen" />
+      <img src="/nykn-3.webp" alt="" className="w-full lg:h-screen" />
       <div className="w-full px-4 md:px-12 xl:px-64  md:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
           description={
             "The splash screen sets the stage for an immersive journey through Music City, welcoming users with a captivating visual that embodies the essence of Nashville's rich cultural tapestry. As the gateway to exploration, this screen not only introduces users to the app's sleek design but also primes them for a seamless navigation experience."
           }
-          mockup={"/nykn-mockup-1.png"}
+          mockup={"/nykn-mockup-1.webp"}
         />
         <RightAllignedScreen
           title={"Login"}
           description={
             "It serves as the gateway to personalized exploration and enhanced user engagement. With a secure login process, users can create individual accounts to unlock exclusive features tailored to their preferences and interests. Through the login functionality, they can access saved itineraries, bookmark favorite attractions, and receive customized recommendations based on their past activity and geographic location."
           }
-          mockup={"/nykn-mockup-2.png"}
+          mockup={"/nykn-mockup-2.webp"}
         />
         <LeftAllignedScreen
           title={"Homepage"}
           description={
             "The homepage welcomes users with a vibrant and dynamic interface, inviting them to embark on an immersive journey through the heart of Music City. Designed with both tourists and locals in mind, it features intuitive navigation options for users to explore the app's extensive range of offerings. From iconic landmarks to hidden gems, the homepage serves as a portal to uncovering the rich tapestry of experiences Nashville has to offer."
           }
-          mockup={"/nykn-mockup-4.png"}
+          mockup={"/nykn-mockup-4.webp"}
         />
         <RightAllignedScreen
           title={"Nearby Events"}
           description={
             "Users dive into Nashville's dynamic scene with 'Nearby Events', a feature that allows users to explore real-time concerts, festivals, and art exhibits near them. Personalized recommendations and detailed descriptions keep users informed, ensuring that they never miss out. To put it together, it is the perfect tool for effortless discovery."
           }
-          mockup={"/nykn-mockup-3.png"}
+          mockup={"/nykn-mockup-3.webp"}
         />
       </div>
-      <img src="/nykn-4.png" alt="" className="w-full lg:h-screen" />
+      <img src="/nykn-4.webp" alt="" className="w-full lg:h-screen" />
     </div>
   );
 };

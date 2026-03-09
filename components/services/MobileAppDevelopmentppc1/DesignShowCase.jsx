@@ -12,10 +12,10 @@ const DesingShowCase = () => {
 
         <img src="/showcase1.webp" alt="" className="w-full" srcset="" />
         <img src="/designshowcase2.webp" className="w-full" alt="" srcset="" />          
-        <img src="/amaizing5.png" alt="" className="w-full" srcset="" />
-        <img src="/visual-design.png" alt=""  className="w-full" srcset="" />
-        <img src="/amaizing3.png" alt="" className="w-full" srcset="" />            
-        <img src="/amaizing4.png" alt="" className="w-full" srcset="" />
+        <img src="/amaizing5.webp" alt="" className="w-full" srcset="" />
+        <img src="/visual-design.webp" alt=""  className="w-full" srcset="" />
+        <img src="/amaizing3.webp" alt="" className="w-full" srcset="" />            
+        <img src="/amaizing4.webp" alt="" className="w-full" srcset="" />
             
         
         

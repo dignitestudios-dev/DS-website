@@ -3,11 +3,11 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 
 const imgs = [
-  "/about/i1.png",
-  "/about/i2.png",
-  "/about/i3.png",
-  "/about/i4.png",
-  "/about/i5.png",
+  "/about/i1.webp",
+  "/about/i2.webp",
+  "/about/i3.webp",
+  "/about/i4.webp",
+  "/about/i5.webp",
 ];
 
 const SocialProof = () => {

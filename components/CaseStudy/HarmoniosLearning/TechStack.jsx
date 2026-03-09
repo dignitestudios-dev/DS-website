@@ -11,11 +11,11 @@ const TechStack = () => {
   const iconsInView = useInView(iconsRef, { once: true, amount: 0.5 });
 
   const techIcons = [
-    { name: 'MongoDB', icon: '/mongo.png', color: '#4DB33D' },
-    { name: 'Flutter', icon: '/flutter.png', color: '#02569B' },
-    { name: 'React', icon: '/react.png', color: '#61DAFB' },
-    { name: 'Firebase', icon: '/firebase.png', color: '#FFCA28' },
-    { name: 'Node.js', icon: '/node.png', color: '#339933' }
+    { name: 'MongoDB', icon: '/mongo.webp', color: '#4DB33D' },
+    { name: 'Flutter', icon: '/flutter.webp', color: '#02569B' },
+    { name: 'React', icon: '/react.webp', color: '#61DAFB' },
+    { name: 'Firebase', icon: '/firebase.webp', color: '#FFCA28' },
+    { name: 'Node.js', icon: '/node.webp', color: '#339933' }
   ];
 
   return (

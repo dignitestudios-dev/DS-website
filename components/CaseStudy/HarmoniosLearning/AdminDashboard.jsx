@@ -4,13 +4,13 @@ import { Autoplay } from "swiper/modules";
 import React from "react";
 
 const images = [
-  "/monitor-1.png",
-  "/monitor-2.png",
-  "/monitor-3.png",
-  "/monitor-4.png",
-  "/monitor-5.png",
-  "/monitor-6.png",
-  "/monitor-7.png",
+  "/monitor-1.webp",
+  "/monitor-2.webp",
+  "/monitor-3.webp",
+  "/monitor-4.webp",
+  "/monitor-5.webp",
+  "/monitor-6.webp",
+  "/monitor-7.webp",
 ];
 
 const AdminDashboard = () => {
@@ -34,7 +34,7 @@ const AdminDashboard = () => {
      <div className="relative w-screen h-[40vh] md:h-[400px] flex items-center justify-center overflow-hidden">
   {/* Laptop Frame */}
   <img
-    src="/laptop.png"
+    src="/laptop.webp"
     alt="laptop"
     className="absolute md:block hidden w-[240px] md:w-[600px] 2xl:w-[700px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-20"
   />

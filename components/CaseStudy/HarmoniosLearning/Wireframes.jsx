@@ -51,7 +51,7 @@ const Wireframes = () => {
             className="transition-transform duration-300 hover:scale-110 cursor-pointer"
           >
             <img
-              src={`/s${(index % wireframes.length) + 1}.png`}
+              src={`/s${(index % wireframes.length) + 1}.webp`}
               alt="mob"
            
             />

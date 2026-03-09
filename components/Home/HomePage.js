@@ -59,7 +59,7 @@ export default function HomePage() {
         <Faq />
       </Suspense>
       <Suspense fallback={<LoadingFallback />}>
-        <ContactUs header={"Your Next Big Project is Just a Call Away!"} para={"Big ideas deserve expert execution. Connect with our team and take the first step toward launching your amazing project."} img="/cc.png" btn={"Schedule a Call"} />
+        <ContactUs header={"Your Next Big Project is Just a Call Away!"} para={"Big ideas deserve expert execution. Connect with our team and take the first step toward launching your amazing project."} img="/cc.webp" btn={"Schedule a Call"} />
       </Suspense>
     </div>
   );

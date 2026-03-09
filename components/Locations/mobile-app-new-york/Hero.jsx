@@ -58,7 +58,7 @@ const Hero = () => {
         >
           <Image
             loader={customLoader}
-            src="/location/mobile-newyork/mob.png"
+            src="/location/mobile-newyork/mob.webp"
             alt="Mobile app development showcase New York"
             width={400}
             height={400}
@@ -68,7 +68,7 @@ const Hero = () => {
         </motion.div>
         <Image
           loader={customLoader}
-          src="/location/mobile-newyork/r.png"
+          src="/location/mobile-newyork/r.webp"
           alt=""
           width={200}
           height={200}
@@ -76,7 +76,7 @@ const Hero = () => {
          />
         <Image
           loader={customLoader}
-          src="/location/mobile-newyork/l.png"
+          src="/location/mobile-newyork/l.webp"
           alt=""
           width={200}
           height={200}

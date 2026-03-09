@@ -5,23 +5,23 @@ import { useState } from "react";
 
 const insights = [
   {
-    image: "/gamesfun/s1.png",
+    image: "/gamesfun/s1.webp",
     desc: "We studied the struggles gamers face when building or buying PCs and identified major compatibility issues and confusion around technical specifications.",
   },
   {
-    image: "/gamesfun/s2.png",
+    image: "/gamesfun/s2.webp",
     desc: "Many gamers search for the best PC build for specific games, which led to the concept of AI-driven recommendations.",
   },
   {
-    image: "/gamesfun/s3.png",
+    image: "/gamesfun/s3.webp",
     desc: "Users needed a platform that combined guidance with transparency, so we designed a simple navigation system with clear user flows.",
   },
   {
-    image: "/gamesfun/s4.png",
+    image: "/gamesfun/s4.webp",
     desc: "We prioritized FPS calculations and performance clarity, structuring the experience to make results easy to understand.",
   },
   {
-    image: "/gamesfun/s5.png",
+    image: "/gamesfun/s5.webp",
     desc: "Research confirmed the opportunity to build an innovative, gamer-friendly platform supported by a reliable admin panel for complete data control.",
   },
 ];

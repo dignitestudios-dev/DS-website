@@ -6,11 +6,11 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <div className="w-[95%]  lg:w-[80%] 2xl:w-[65%] h-[600px] lg:h-[500px] text-white lg:bg-transparent bg-black lg:bg-[url('/technologies/flutter/s-cta.png')] bg-contain bg-no-repeat flex items-center justify-center bg-center transition-all ease-linear relative md:px-14 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden ">
+    <div className="w-[95%]  lg:w-[80%] 2xl:w-[65%] h-[600px] lg:h-[500px] text-white lg:bg-transparent bg-black lg:bg-[url('/technologies/flutter/s-cta.webp')] bg-contain bg-no-repeat flex items-center justify-center bg-center transition-all ease-linear relative md:px-14 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden ">
       <div className="flex flex-row-reverse gap-20 items-center">
         <div className="hidden lg:block lg:w-[40%]">
           <motion.img
-            src="/technologies/react-native/cta-m.png"
+            src="/technologies/react-native/cta-m.webp"
             alt="cta-mobile"
             className=" absolute right-16 bottom-24 object-contain w-[500px] pointer-events-none"
             initial={{ y: 100, opacity: 0 }}

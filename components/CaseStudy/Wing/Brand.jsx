@@ -22,7 +22,7 @@ const BrandIdentity = () => {
   return (
     <div className=" ">
        <img
-        src="/wing/hearts.png"
+        src="/wing/hearts.webp"
         alt="hero"
         className="absolute w-screen z-10"
       />
@@ -42,17 +42,17 @@ const BrandIdentity = () => {
           </p>
         </motion.div>
         <div className=' justify-center items-center dark:hidden flex' >
-<img src='/wing/brand-calibri.png' alt='brand' className='' />
+<img src='/wing/brand-calibri.webp' alt='brand' className='' />
        </div>
         <div className=' justify-center items-center hidden dark:flex' >
-<img src='/wing/dd.png' alt='brand' className='' />
+<img src='/wing/dd.webp' alt='brand' className='' />
        </div>
 
        <div className='flex gap-8 md:flex-row flex-col items-center justify-center my-20' >
-        <img src='/wing/c1.png' alt='cc' />
-        <img src='/wing/c2.png' alt='cc' />
-        <img src='/wing/c3.png' alt='cc' />
-        <img src='/wing/c4.png' alt='cc' />
+        <img src='/wing/c1.webp' alt='cc' />
+        <img src='/wing/c2.webp' alt='cc' />
+        <img src='/wing/c3.webp' alt='cc' />
+        <img src='/wing/c4.webp' alt='cc' />
        </div>
 
       </div>

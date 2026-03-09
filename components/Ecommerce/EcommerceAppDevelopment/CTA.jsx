@@ -10,21 +10,21 @@ const CTA = ({
   btn = "Discuss Your App Idea",
 }) => {
  const leftIcons = [
-  { src: "/ecommerce/shopify-app/icons/1.png", top: "18%", left: "20%" },
-  { src: "/ecommerce/shopify-app/icons/2.png", top: "52%", left: "16%" },
-  { src: "/ecommerce/shopify-app/icons/3.png", bottom: "19%", left: "8%" },
-  { src: "/ecommerce/shopify-app/icons/4.png", top: "32%", left: "10%" },
+  { src: "/ecommerce/shopify-app/icons/1.webp", top: "18%", left: "20%" },
+  { src: "/ecommerce/shopify-app/icons/2.webp", top: "52%", left: "16%" },
+  { src: "/ecommerce/shopify-app/icons/3.webp", bottom: "19%", left: "8%" },
+  { src: "/ecommerce/shopify-app/icons/4.webp", top: "32%", left: "10%" },
 ];
 
 const rightIcons = [
-  { src: "/ecommerce/shopify-app/icons/5.png", top: "12%", right: "9%" },
-  { src: "/ecommerce/shopify-app/icons/6.png", top: "48%", right: "9%" },
-  { src: "/ecommerce/shopify-app/icons/7.png", bottom: "20%", right: "16%" },
-  { src: "/ecommerce/shopify-app/icons/8.png", top: "28%", right: "18%" },
+  { src: "/ecommerce/shopify-app/icons/5.webp", top: "12%", right: "9%" },
+  { src: "/ecommerce/shopify-app/icons/6.webp", top: "48%", right: "9%" },
+  { src: "/ecommerce/shopify-app/icons/7.webp", bottom: "20%", right: "16%" },
+  { src: "/ecommerce/shopify-app/icons/8.webp", top: "28%", right: "18%" },
 ];
 
   return (
-    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:bg-[url('/ecommerce/shopify-app/s-cta.png')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
+    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:bg-[url('/ecommerce/shopify-app/s-cta.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
       {/* Floating Icons Left */}
       {leftIcons.map((icon, idx) => (
         <motion.div

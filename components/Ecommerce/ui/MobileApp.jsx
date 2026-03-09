@@ -86,14 +86,14 @@ const MobileApp = ({ cards, header, header2, para , button }) => {
                 >
                   {!isActive && (
                     <img
-                      src="/location/mobile-california/lines.png"
+                      src="/location/mobile-california/lines.webp"
                       alt="lines"
                       className="absolute right-0 -top-16"
                     />
                   )}
                   {isActive && (
                     <img
-                      src="/location/mobile-california/design.png"
+                      src="/location/mobile-california/design.webp"
                       alt="lines"
                       className="absolute right-0 w-full  -bottom-28 scale-125"
                     />

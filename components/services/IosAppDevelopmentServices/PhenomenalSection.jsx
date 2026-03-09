@@ -18,7 +18,7 @@ const PhenomenalSection = () => {
           <span className="text-[#F15C20] text-xl font-bold uppercase tracking-normal">
             Phenomenal
           </span>
-          <img src="/lines.png" alt="lines" className="" />
+          <img src="/lines.webp" alt="lines" className="" />
         </div>
         i
         <span className="uppercase">

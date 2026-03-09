@@ -283,7 +283,7 @@ const CrossPlatform = () => {
           <div className=" overflow-hidden   text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition-all  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
             <div className="relative h-[500px]  ">
               <img
-                src="/location/mobile-washington/b-cta.png"
+                src="/location/mobile-washington/b-cta.webp"
                 className="w-full  rounded-b-2xl bottom-0  absolute bg-cover"
                 alt="lggg"
               />
@@ -353,7 +353,7 @@ const CrossPlatform = () => {
       <ContactUs
         pathname={"Cross Platform Development"}
         header={"Let's Build Your Cross Platform App"}
-        img={"/technologies/react-native/c-img.png"}
+        img={"/technologies/react-native/c-img.webp"}
         header2={""}
         para={"Share your idea with Dignite Studios and get expert guidance to turn your vision into a scalable high performance cross platform mobile solution."}
         btn={"Request Cross Platform Development Quote"}

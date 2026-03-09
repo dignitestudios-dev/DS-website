@@ -12,7 +12,7 @@ const steps = [
       "No major app combines friend endorsements with match making support, leaving a clear market gap.",
     ],
     bg: "bg-gradient-to-t dark:from-[#FFFFFF00] dark:to-[#5BAFEB] from-[#F9FCFF] to-[#AEDDFF]",
-    shad:"/wing/d-shad.png"
+    shad:"/wing/d-shad.webp"
   },
   {
     title: "Research",
@@ -23,7 +23,7 @@ const steps = [
       "Simplicity is key: clean navigation, quick matching, and frictionless communication.",
     ],
     bg: "bg-gradient-to-t dark:from-[#FFFFFF00] dark:to-[#5BAFEB] from-[#F7F7F7] to-[#F9FCFF]",
-    shad:"/wing/r-shad.png"
+    shad:"/wing/r-shad.webp"
   },
 ];
 
@@ -31,7 +31,7 @@ const Discorvery = () => {
   return (
     <section className="w-full py-8  relative z-50 ">
       <img
-        src="/wing/hearts.png"
+        src="/wing/hearts.webp"
         alt="hero"
         className="absolute w-screen top-16 z-10"
       />
@@ -69,7 +69,7 @@ const Discorvery = () => {
               <ul className=" text-sm mb-2 space-y-3">
                 {s.steps.map((st, indx) => (
                   <li key={indx} className="flex items-start gap-2 capitalize ">
-                    <img src="/wing/dr.png" />
+                    <img src="/wing/dr.webp" />
                     {st}
                   </li>
                 ))}

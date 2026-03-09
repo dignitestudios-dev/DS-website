@@ -483,7 +483,7 @@ const Challenges = () => {
   return (
     <section className="w-full py-24 relative ">
       <img
-        src="/home-hero/ecc.png"
+        src="/home-hero/ecc.webp"
         alt="ecc"
         className="absolute w-screen h-screen top-[50%]"
       />
@@ -553,7 +553,7 @@ const Challenges = () => {
             className="max-w-md z-10"
           >
             <img
-              src="/home-hero/person-thinking.png"
+              src="/home-hero/person-thinking.webp"
               alt="Thinking"
               className="w-full rounded-3xl"
             />
@@ -685,7 +685,7 @@ const Challenges = () => {
             className="max-w-md z-10"
           >
             <img
-              src="/home-hero/p-phone.png"
+              src="/home-hero/p-phone.webp"
               alt="Solutions"
               className="w-full rounded-3xl"
             />

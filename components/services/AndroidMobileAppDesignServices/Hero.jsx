@@ -109,7 +109,7 @@ const Hero = () => {
           className={`w-[117px] h-[117px] lg:w-[217px] lg:h-[217px] bg-[#4EDA75] z-40 relative  shadow-xl rounded-[48px] flex items-center justify-center hover:translate-y-[-30px] transition-all duration-500`}
         >
           <Image
-            src="/android-app-icon.png"
+            src="/android-app-icon.webp"
             alt="Android app design service page shows technology icons"
             title="Android app design services image"
             className="w-[74px] h-[74px] lg:w-[116.95px] lg:h-[116.95px]"

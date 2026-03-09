@@ -52,7 +52,7 @@ const cards = [
     link: "/case-studies/games-4-fun",
     image: "/images/06.webp",
   },
-  // { id: 7, image: "/images/07.png" },
+  // { id: 7, image: "/images/07.webp" },
 ];
 
 export default function FlickCardStack() {

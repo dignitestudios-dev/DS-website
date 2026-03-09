@@ -61,11 +61,11 @@ const Workflow = () => {
     <section className="w-full py-20 relative overflow-hidden">
       {/* Background */}
       {/* <img
-        src="/crew/cloud-bg.png"
+        src="/crew/cloud-bg.webp"
         alt="background"
         className="absolute w-screen top-[-50%] hidden md:block"
       /> */}
-     {/* <img src="/crew/el.png" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
+     {/* <img src="/crew/el.webp" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 relative">
         <motion.h2

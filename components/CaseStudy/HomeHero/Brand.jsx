@@ -22,7 +22,7 @@ const BrandIdentity = () => {
   return (
     <div className=" py-24">
       <img
-        src="/home-hero/ecc.png"
+        src="/home-hero/ecc.webp"
         alt="ecc"
         className="absolute w-screen h-screen top-[50%]"
       />
@@ -42,8 +42,8 @@ const BrandIdentity = () => {
           </p>
         </motion.div>
         <div className='flex h-[40vh] md:h-[80vh] relative justify-center items-center' >
-<img src='/home-hero/satoshi.png' alt='brand' className='absolute dark:hidden block ' />
-<img src='/home-hero/ss.png' alt='brand' className='absolute dark:block hidden' />
+<img src='/home-hero/satoshi.webp' alt='brand' className='absolute dark:hidden block ' />
+<img src='/home-hero/ss.webp' alt='brand' className='absolute dark:block hidden' />
        </div>
   
 

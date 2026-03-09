@@ -76,11 +76,11 @@ const ProblemSol = () => {
         >
           {/* Left Icon */}
           <div className="relative hidden md:flex justify-start w-[40%]">
-            <img src={"/music.png"} alt="music " width={400} height={400} className="rounded-bl-3xl" />
+            <img src={"/music.webp"} alt="music " width={400} height={400} className="rounded-bl-3xl" />
           </div>
 
-          <img src="/m-bg1.png" alt="bg" width={400} height={400} className="absolute top-0 left-0" />
-          <img src="/m-bg2.png" alt="bg" width={100} height={100} className="absolute top-0 right-0" />
+          <img src="/m-bg1.webp" alt="bg" width={400} height={400} className="absolute top-0 left-0" />
+          <img src="/m-bg2.webp" alt="bg" width={100} height={100} className="absolute top-0 right-0" />
 
           {/* Right Content */}
           <div className="text-left pr-0 md:pr-10 w-full">
@@ -188,7 +188,7 @@ const ProblemSol = () => {
           className="relative bg-gradient-to-r from-[#000086] to-[#CEA3D8] rounded-3xl mt-12 p-4 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-white shadow-xl"
         >
           <img
-            src="/sol.png"
+            src="/sol.webp"
             alt="solutions"
             width={1200}
             height={1200}

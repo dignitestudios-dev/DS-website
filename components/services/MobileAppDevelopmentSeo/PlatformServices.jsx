@@ -42,7 +42,7 @@ const PlatformServices = () => {
                 loading="lazy"
                 width={21}
                 height={21}
-                src="/android-mobile-app-mockup.png"
+                src="/android-mobile-app-mockup.webp"
                 alt="android-app-icon"
                 className="w-[21px] h-[21px]"
               />
@@ -73,7 +73,7 @@ const PlatformServices = () => {
                 loading="lazy"
                 width={21}
                 height={21}
-                src="/ios-mockup.png"
+                src="/ios-mockup.webp"
                 alt="ios-app-icon"
                 className="w-[21px] h-[21px]"
               />

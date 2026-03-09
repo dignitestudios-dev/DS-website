@@ -307,14 +307,14 @@ From developers and designers to project managers, our team also works closely t
           <div className="bg-transparent  overflow-hidden hover:scale-105 z-50 absolute text-white   opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
             <div className="relative  overflow-hidden">
               <img
-                src="/location/mobile-chicago/b-cta.png"
+                src="/location/mobile-chicago/b-cta.webp"
                 className="w-full h-[500px] rounded-b-2xl bottom-3 relative bg-cover"
                 alt="lggg"
               />
               <img
                 width={250}
                 height={250}
-                src="/location/mobile-chicago/cta-inner-m.png"
+                src="/location/mobile-chicago/cta-inner-m.webp"
                 className=" rounded-b-2xl bottom-14  right-10 absolute "
                 alt="lggg"
               />
@@ -388,7 +388,7 @@ From developers and designers to project managers, our team also works closely t
       />
       <Faq faqs={faqs} />
       <ContactUs
-        img={"/location/mobile-boston/c-img.png"}
+        img={"/location/mobile-boston/c-img.webp"}
         pathname={"Mobile Dev in New York "}
         header={"Ready to build a high performance mobile application?"}
         header2={""}

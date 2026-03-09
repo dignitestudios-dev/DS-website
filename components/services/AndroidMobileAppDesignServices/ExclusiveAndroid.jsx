@@ -14,7 +14,7 @@ const ExclusiveAndroid = () => {
             exclusive android
           </span>
           <img
-            src="/exclusive-android-lines.png"
+            src="/exclusive-android-lines.webp"
             alt="android app design services"
             className="w-[203px]"
           />

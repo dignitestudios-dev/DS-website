@@ -41,13 +41,13 @@ const Hero = () => {
       </div>
       <div className="relative w-full h-[450px]  my-10 flex items-center justify-center">
         <Image
-          src={"/technologies/flutter/circles.png"}
+          src={"/technologies/flutter/circles.webp"}
           className="w-full relative mt-20 z-20"
           alt="circles"
          width={500} height={500} priority  loader={customLoader} />
         <div className="absolute top-0 left-0 w-full flex justify-center z-20">
           <motion.img
-            src="/technologies/flutter/mob.png"
+            src="/technologies/flutter/mob.webp"
             width={250}
             height={250}
             className="object-contain"
@@ -59,7 +59,7 @@ const Hero = () => {
         </div>
 
         <Image
-          src="/technologies/bg-grad.png"
+          src="/technologies/bg-grad.webp"
           width={1400}
           height={1400}
           className="absolute top-[50%] translate-y-[-50%] left-1/2 z-10 translate-x-[-50%]  object-contain"

@@ -10,9 +10,9 @@
 //     >
 //       <div className="scroller__inner1 w-full  flex justify-start gap-6 items-center   ">
 //        <div><h1 className="text-[64px] capitalize font-[400] leading-[77px]" >UX Design</h1></div>
-//        <div><img src="/point-circle.png" alt="" srcset="" /></div>
+//        <div><img src="/point-circle.webp" alt="" srcset="" /></div>
 //        <div><h1 className="text-[64px] capitalize font-[400] leading-[77px]" >mobile app development</h1></div>
-//        <div><img src="/point-circle.png" alt="" srcset="" /></div>
+//        <div><img src="/point-circle.webp" alt="" srcset="" /></div>
 //        <div><h1 className="text-[64px] capitalize font-[400] leading-[77px]" >iOS</h1></div>
 //       </div>
 //     </div>

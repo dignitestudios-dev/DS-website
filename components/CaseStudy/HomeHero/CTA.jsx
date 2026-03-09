@@ -8,7 +8,7 @@ const CTA = () => {
     <div className="bg-gradient-to-b  dark:from-transparent dark:to-transparent from-[#CEA3D8] to-[#F1F8FD] relative overflow-hidden">
       
            <img
-        src="/home-hero/cta-shad.png"
+        src="/home-hero/cta-shad.webp"
         alt="hero"
         className="absolute bottom-14 w-screen dark:bg-transparent bg-gradient-to-t dark:from-[#CEA3D8] from-[#ebeaf7] via-[#ebeaf7] to-transparent z-10"
       />
@@ -31,7 +31,7 @@ const CTA = () => {
 
         <div className="md:block hidden">
           <motion.img
-          src="/home-hero/cta.png"
+          src="/home-hero/cta.webp"
             alt="cta"
             className=""
             initial={{ opacity: 0, y: 100 }}

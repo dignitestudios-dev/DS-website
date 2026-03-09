@@ -22,7 +22,7 @@ const WhyChooseUsSection = () => {
           <p className="text-[#F15C20] text-[20px] uppercase font-bold tracking-normal mb-1">
             value proposition of
           </p>
-          <img src="/lines2.png" alt="lines2" />
+          <img src="/lines2.webp" alt="lines2" />
         </div>
         Dignite Studios
       </h2>

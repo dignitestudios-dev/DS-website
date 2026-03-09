@@ -18,7 +18,7 @@ const PerfectBoatHero = () => {
       <div className="px-4 md:px-12 xl:px-64 lg:pb-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <img
-            src="/perfect-boat-logo.png"
+            src="/perfect-boat-logo.webp"
             alt=""
             className="w-[160px] h-[71px]"
           />
@@ -47,7 +47,7 @@ const PerfectBoatHero = () => {
           </p>
         </div>
       </div>
-      <img src="/perfect-boat-1.png" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-1.webp" alt="" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">The Challenges</h2>
@@ -69,7 +69,7 @@ const PerfectBoatHero = () => {
           </p>
         </div>
       </div>
-      <img src="/perfect-boat-2.png" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-2.webp" alt="" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64  md:py-10  flex w-full flex-col justify-start items-start gap-4">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">
@@ -92,38 +92,38 @@ const PerfectBoatHero = () => {
         </div>
         <PerfectBoatTechnologies />
       </div>
-      <img src="/perfect-boat-3.png" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-3.webp" alt="" className="w-full lg:h-screen" />
       <div className="w-full px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
           description={
             "It creates an inviting entry point for users, showcasing the essence of boat rentals available with ease. With captivating visuals and concise messaging, the splash screen instantly communicates the platform's functionality and benefits, setting the tone for a user-friendly experience. This introductory screen primes users for effortless navigation and encourages exploration of the platform's offerings."
           }
-          mockup={"/perfect-mockup-1.png"}
+          mockup={"/perfect-mockup-1.webp"}
         />
         <RightAllignedScreen
           title={"Login"}
           description={
             "The login feature ensures secure and personalized access for users, enabling them to manage their boat listings and rental activities. Through an authentication process, they can quickly access their accounts, saving time and enhancing usability. Alongwith security measures in place, including password encryption and multi-factor authentication options, users can trust that their information remains protected."
           }
-          mockup={"/prefect-mockup-2.png"}
+          mockup={"/prefect-mockup-2.webp"}
         />
         <LeftAllignedScreen
           title={"Home Screen"}
           description={
             "At the heart of our platform lies the home screen, serving as the entrance to a world of effortless boat rentals. Having a user-centric design, it provides easy access to essential functionalities, allowing users to seamlessly go through listings, manage their boat rentals, and explore available options. Via strategic placement of features and clear visual cues, the home screen offers such an experience which gives users the ability to efficiently list their boats for rent or find the perfect vessel for their next adventure."
           }
-          mockup={"/perfect-mockup-4.png"}
+          mockup={"/perfect-mockup-4.webp"}
         />
         <RightAllignedScreen
           title={"Order Details"}
           description={
             "Order details offer users comprehensive insight into their rental transactions, ensuring clarity and transparency throughout the process. It also gives users access to detailed summaries of their bookings, including rental duration, cost breakdowns, and boat specifications. With easy access to vital information, users can confidently track their bookings and address any queries or concerns."
           }
-          mockup={"/prefect-mockup-3.png"}
+          mockup={"/prefect-mockup-3.webp"}
         />
       </div>
-      <img src="/perfect-boat-4.png" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-4.webp" alt="" className="w-full lg:h-screen" />
     </div>
   );
 };

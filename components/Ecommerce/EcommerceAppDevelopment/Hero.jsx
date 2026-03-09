@@ -37,7 +37,7 @@ const Hero = ({
       </div>
       <div className="relative flex  justify-center items-center my-12 ">
         <Image
-          src="/ecommerce/ecommerce-app/grad.png"
+          src="/ecommerce/ecommerce-app/grad.webp"
           alt="grad"
           width={500}
           height={500}
@@ -54,7 +54,7 @@ const Hero = ({
           }}
         >
           <Image
-            src="/ecommerce/ecommerce-app/mob.png"
+            src="/ecommerce/ecommerce-app/mob.webp"
             alt="ecommerce mobile"
             width={250}
             height={250}
@@ -63,7 +63,7 @@ const Hero = ({
             loader={customLoader} />
         </motion.div>
         <motion.img
-          src="/ecommerce/ecommerce-app/r1.png"
+          src="/ecommerce/ecommerce-app/r1.webp"
           alt=""
           width={150}
           height={150}
@@ -78,7 +78,7 @@ const Hero = ({
           }}
         />
         <motion.img
-          src="/ecommerce/ecommerce-app/r2.png"
+          src="/ecommerce/ecommerce-app/r2.webp"
           alt=""
           width={150}
           height={150}
@@ -93,7 +93,7 @@ const Hero = ({
           }}
         />
         <motion.img
-          src="/ecommerce/ecommerce-app/r3.png"
+          src="/ecommerce/ecommerce-app/r3.webp"
           alt=""
           width={150}
           height={150}
@@ -108,7 +108,7 @@ const Hero = ({
           }}
         />
         <motion.img
-          src="/ecommerce/ecommerce-app/l1.png"
+          src="/ecommerce/ecommerce-app/l1.webp"
           alt=""
           width={150}
           height={150}
@@ -123,7 +123,7 @@ const Hero = ({
           }}
         />
         <motion.img
-          src="/ecommerce/ecommerce-app/l2.png"
+          src="/ecommerce/ecommerce-app/l2.webp"
           alt=""
           width={250}
           height={250}

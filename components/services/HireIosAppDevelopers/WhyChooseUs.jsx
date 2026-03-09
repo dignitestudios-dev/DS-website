@@ -213,7 +213,7 @@ const WhyChooseUs = () => {
           }}
         >
           <img
-            src={"/hire-ios-developer-maintenance-and-support-icon.png"}
+            src={"/hire-ios-developer-maintenance-and-support-icon.webp"}
             alt={"Hire iOS developer Maintenance and Support icon"}
             title={"Hire iOS developer Maintenance and Support"}
             className=""

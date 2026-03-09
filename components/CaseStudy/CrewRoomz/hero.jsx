@@ -9,9 +9,9 @@ import { IoGlobeOutline } from "react-icons/io5";
 const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
-      {/* <img src="/bioyap/hero.png" alt="hero" className="absolute w-screen -z-10" /> */}
+      {/* <img src="/bioyap/hero.webp" alt="hero" className="absolute w-screen -z-10" /> */}
       <div className="w-full gap-5 mt-14 flex flex-col items-center ">
-        <img src="/crew/icon.png" alt="icon" fill />
+        <img src="/crew/icon.webp" alt="icon" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px]  capitalize md:leading-[60px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="text-[#36C0EF]  ">CrewRoomz </span>
@@ -47,7 +47,7 @@ const Hero = () => {
           </div> */}
    
             <img
-              src="/crew/hero.png"
+              src="/crew/hero.webp"
               alt="App Preview"
               fill
               className="  scale-125  "
@@ -55,12 +55,12 @@ const Hero = () => {
             <motion.img      initial={{ opacity: 0, scale: 0.8, y: 70 , x:-200 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 , x:0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.8, duration: 0.6 }} src="/crew/plane.png" className="absolute top-[30%]"   alt="plane" fill/>
+            transition={{ delay: 0.8, duration: 0.6 }} src="/crew/plane.webp" className="absolute top-[30%]"   alt="plane" fill/>
       
         </div>
          <div className="relative w-full flex md:hidden justify-center mt-8 md:mt-0">
           <img
-            src="/crew/hero.png"
+            src="/crew/hero.webp"
             alt="App Preview"
             className="scale-[2] object-contain "
           />
@@ -69,7 +69,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, scale: 1, y: 0, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.8, duration: 0.6 }}
-            src="/crew/plane.png"
+            src="/crew/plane.webp"
             className="absolute top-0 left-[0%] transform -translate-x-1/2 "
             alt="plane"
           />

@@ -18,7 +18,7 @@ const RecentShowCase = () => {
               } headings-size capitalize font-[600]`}
           >
             <span className="text-[#F15C20] text-[20px] font-[700] tracking-wide leading-[28px] upper">Recent
-              <img src="/mainUnder.png" className='' alt="" srcset="" />
+              <img src="/mainUnder.webp" className='' alt="" srcset="" />
             </span>
             <div className='mt-5' >
               Case Studies

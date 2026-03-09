@@ -29,7 +29,7 @@ const DigniteServiceScope = () => {
               loader={customLoader}
               width={141}
               height={8}
-              src="/lines.png"
+              src="/lines.webp"
               alt="design-lines"
             />
           </div>

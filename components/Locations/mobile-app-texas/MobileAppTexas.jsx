@@ -305,7 +305,7 @@ const MobileAppTexas = () => {
           <div className="bg-transparent overflow-hidden text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition-all  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
             <div className="relative">
               <img
-                src="/location/mobile-texas/b-cta.png"
+                src="/location/mobile-texas/b-cta.webp"
                 className="w-full rounded-b-2xl bottom-3 relative bg-cover"
                 alt="lggg"
               />
@@ -392,7 +392,7 @@ const MobileAppTexas = () => {
       <ContactUs
         pathname={"Mobile Dev in Texas"}
         header={"Take The Next Important Initiative Today!"}
-        img={"/location/mobile-tampa/c-img.png"}
+        img={"/location/mobile-tampa/c-img.webp"}
         header2={""}
         para={
           "Stop delaying your project. Contact us today and get your app built with professional app developers. We provide expertise and reliability through mobile app development in Texas. Get a dedicated team of app developers to launch your app faster."

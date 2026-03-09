@@ -47,7 +47,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
           loader={customLoader}
           width={120}
           height={64}
-          src="/logo-dark.png"
+          src="/logo-dark.webp"
           className="h-[70px] w-[120px]"
         />
       </Link>

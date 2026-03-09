@@ -11,7 +11,7 @@ const CTA = () => {
 
         <div className="md:block hidden">
           <motion.img
-            src="/crew/cta.png"
+            src="/crew/cta.webp"
             alt="cta"
             className=""
             initial={{ opacity: 0, y: 100 }}

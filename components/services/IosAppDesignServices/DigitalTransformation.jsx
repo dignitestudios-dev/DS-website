@@ -35,7 +35,7 @@ const DigitalTransformation = () => {
         <div className="w-full lg:w-[40%] flex justify-center">
           <div className="w-[295px] h-[539px] relative">
             <img
-              src="/ios-app-mobile-sketch.png"
+              src="/ios-app-mobile-sketch.webp"
               alt="ios app mobile sketch"
               width={295}
               height={399}

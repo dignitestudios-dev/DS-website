@@ -151,7 +151,7 @@ const ValueAddedDigniteStudios = () => {
           <img
             width={33}
             height={33}
-            src={"/ios-mobile-app-development-services-ui-ux-icon.png"}
+            src={"/ios-mobile-app-development-services-ui-ux-icon.webp"}
             alt={"iOS app one stop shop icon"}
             className=""
           />

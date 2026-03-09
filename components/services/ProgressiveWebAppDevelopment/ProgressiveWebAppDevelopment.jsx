@@ -437,7 +437,7 @@ const ProgressiveWebAppDevelopment = () => {
           <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
             <div className="relative">
               <img
-                src="/location/mobile-boston/cta-img.png"
+                src="/location/mobile-boston/cta-img.webp"
                 className="w-full rounded-b-2xl bottom-3 relative bg-cover"
                 alt="lggg"
               />
@@ -529,7 +529,7 @@ const ProgressiveWebAppDevelopment = () => {
       <Testimonials test={test} header={"What Our Clients "} header2={"Say"} />
       <Faq header={"People Usually Ask"} faqs={faqs} />
       <ContactUs
-        img={"/services/pwa-app/c-img.png"}
+        img={"/services/pwa-app/c-img.webp"}
         pathname={"PWA Development Services"}
         header={"It’s Time to Build Your App!"}
         header2={""}

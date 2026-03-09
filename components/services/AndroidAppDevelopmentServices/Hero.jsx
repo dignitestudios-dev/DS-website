@@ -23,7 +23,7 @@ const Hero = () => {
           data-aos-anchor-placement="top-center"
         >
           <Image
-            src="/arrow-icon.png"
+            src="/arrow-icon.webp"
             alt="arrow-icon"
             title="arrow-icon"
             className="absolute top-[27%] md:top-[32%] lg:top-[70px] left-[48%] md:left-[47%] lg:left-[47%] xl:top-[95px] xl:left-[48%] 2xl:top-[110px] 2xl:left-[48%] w-[17px] h-[16px] md:w-[22.1px] md:h-[20.1px]"
@@ -57,7 +57,7 @@ const Hero = () => {
           width={150}
           height={150}
           loader={customLoader}
-          src="/tailwind-icon-2.png"
+          src="/tailwind-icon-2.webp"
           alt="firebase-icon"
           title="firebase-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[4%] animated-icon z-0"
@@ -66,7 +66,7 @@ const Hero = () => {
           width={150}
           height={150}
           loader={customLoader}
-          src="/java-icon-2.png"
+          src="/java-icon-2.webp"
           alt="java-icon"
           title="java-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[15%] top-[35%] animated-icon-2"
@@ -75,7 +75,7 @@ const Hero = () => {
           width={150}
           height={150}
           loader={customLoader}
-          src="/flutter-icon-2.png"
+          src="/flutter-icon-2.webp"
           alt="flutter-icon"
           title="flutter-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[0%] bottom-[15%] animated-icon-2"
@@ -86,7 +86,7 @@ const Hero = () => {
           width={150}
           height={150}
           loader={customLoader}
-          src="/firebase-icon-2.png"
+          src="/firebase-icon-2.webp"
           alt="firebase-icon"
           title="firebase-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[4%] top-[15%] animated-icon-3"
@@ -95,7 +95,7 @@ const Hero = () => {
           width={150}
           height={150}
           loader={customLoader}
-          src="/vs-icon.png"
+          src="/vs-icon.webp"
           alt="vs-code-icon"
           title="vs-code-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[15%] top-[40%] animated-icon-3"
@@ -104,7 +104,7 @@ const Hero = () => {
           width={150}
           height={150}
           loader={customLoader}
-          src="/react-icon-2.png"
+          src="/react-icon-2.webp"
           alt="react-icon"
           title="react-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[5%] bottom-[15%] animated-icon-3"
@@ -116,7 +116,7 @@ const Hero = () => {
               width={150}
               height={150}
               loader={customLoader}
-              src="/tailwind-icon.png"
+              src="/tailwind-icon.webp"
               alt="tailwind-icon"
               title="tailwind-icon"
               className="w-full h-full"
@@ -127,7 +127,7 @@ const Hero = () => {
               width={150}
               height={150}
               loader={customLoader}
-              src="/java-icon.png"
+              src="/java-icon.webp"
               alt="java-icon"
               title="java-icon"
               className="w-full h-full"
@@ -149,7 +149,7 @@ const Hero = () => {
               width={150}
               height={150}
               loader={customLoader}
-              src="/firebase-icon.png"
+              src="/firebase-icon.webp"
               alt="firebase-icon"
               title="firebase-icon"
               className="w-full h-full"
@@ -160,7 +160,7 @@ const Hero = () => {
               width={150}
               height={150}
               loader={customLoader}
-              src="/vscode-color.png"
+              src="/vscode-color.webp"
               alt="vscode-color"
               title="vscode-color"
               className="w-full h-full"
@@ -171,7 +171,7 @@ const Hero = () => {
               width={150}
               height={150}
               loader={customLoader}
-              src="/react-icon.png"
+              src="/react-icon.webp"
               alt="react-icon"
               title="react-icon"
               className="w-full h-full"
@@ -180,7 +180,7 @@ const Hero = () => {
         </div>
 
         <Image
-          src={"/android-app-development-1.png"}
+          src={"/android-app-development-1.webp"}
           title="Android App Development Services"
           alt="The image shows three mobile screens with different Android app layouts, and multiple tech icons revolving around them"
           className="mx-auto lg:w-[1035px] xl:w-[685px] xl:h-[482px] 2xl:w-[981px] lg:h-[750px] 2xl:h-[800px]  relative -top-0 lg:-top-2 2xl:top-0"

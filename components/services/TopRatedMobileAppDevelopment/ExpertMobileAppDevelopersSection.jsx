@@ -27,7 +27,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8  transition-all duration-150`}
         >
           <Image
-            src={"/android-mobile-app-mockup.png"}
+            src={"/android-mobile-app-mockup.webp"}
             loader={customLoader}
             width={42}
             height={42}
@@ -53,7 +53,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
         >
           <Image
-            src={"/ios-mockup.png"}
+            src={"/ios-mockup.webp"}
             loader={customLoader}
             width={42}
             height={42}
@@ -80,7 +80,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
         >
           <img
-            src={"/expert-cross-platform-developers-icon.png"}
+            src={"/expert-cross-platform-developers-icon.webp"}
             loader={customLoader}
             width={42}
             height={42}

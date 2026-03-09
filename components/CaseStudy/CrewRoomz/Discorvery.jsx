@@ -341,7 +341,7 @@ const insights = [
 const Discovery = () => {
   return (
     <section className="w-full py-16  relative overflow-hidden">
-      {/* <img src="/crew/el.png" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
+      {/* <img src="/crew/el.webp" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
       <div className="max-w-7xl mx-auto text-center px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -379,7 +379,7 @@ const Discovery = () => {
           </div>
           <div className=" rounded-full md:block hidden w-72 h-72 bg-[#29ABE2]  absolute left-[50%] translate-x-[-50%] top-[25%] z-20" />
           <div className="absolute md:block hidden left-[50%] translate-x-[-50%] top-[24%] z-20">
-            <img src="/crew/circle.png" alt="circle" fill className="scale-[2]" /></div> 
+            <img src="/crew/circle.webp" alt="circle" fill className="scale-[2]" /></div> 
           {insights.map((insight, index) => (
             <div key={index} className={`px-5  flex flex-col transition-all ease-linear  md:h-[291px] py-7 relative z-40  hover:backdrop-blur-lg bg-transparent ${index%2===0 ? ' items-start text-start':'items-end text-end'} `}>
               {insight.icon}

@@ -19,7 +19,7 @@ const TopNotchIosApp = () => {
                 top-notch ios application
               </p>
               <img
-                src="/wide-lines.png"
+                src="/wide-lines.webp"
                 alt="lines"
                 className="w-40 h-2 md:w-[289px]"
               />

@@ -120,7 +120,7 @@ const GlobalPresence = () => {
                   <div className="flex items-center gap-3 mb-2">
                     <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 overflow-hidden">
                       <img 
-                        src={`https://flagcdn.com/w80/${location.countryCode.toLowerCase()}.png`}
+                        src={`https://flagcdn.com/w80/${location.countryCode.toLowerCase()}.webp`}
                         alt={`${location.country} flag`}
                         className="w-full h-full object-cover"
                       />

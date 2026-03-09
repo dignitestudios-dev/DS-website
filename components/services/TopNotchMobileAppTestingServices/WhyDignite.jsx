@@ -44,7 +44,7 @@ const WhyDignite = () => {
               width={40}
               height={40}
               loader={customLoader}
-              src="/performance-testing.png"
+              src="/performance-testing.webp"
               alt="performance-testing"
               className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
             />
@@ -68,7 +68,7 @@ const WhyDignite = () => {
               width={40}
               height={40}
               loader={customLoader}
-              src="/quality-assessement.png"
+              src="/quality-assessement.webp"
               alt="quality-assessement"
               className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
             />
@@ -98,7 +98,7 @@ const WhyDignite = () => {
               width={40}
               height={40}
               loader={customLoader}
-              src="/track-record.png"
+              src="/track-record.webp"
               alt="track-record"
               className="w-10 h-10 scale-75 group-hover:scale-110 group-hover:rotate-90 transition-all duration-1000"
             />

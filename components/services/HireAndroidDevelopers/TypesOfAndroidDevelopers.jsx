@@ -15,7 +15,7 @@ export default function TypesOfAndroidDevelopers() {
                 types of
               </p>
               <img
-                src="/hire-android-developers-lines.png"
+                src="/hire-android-developers-lines.webp"
                 alt="hire-android-app-developers-lines"
                 className="w-[96px] h-[8px]"
               />
@@ -55,7 +55,7 @@ export default function TypesOfAndroidDevelopers() {
                 className={`min-w-[182px] px-4 rounded-full absolute -top-6 left-0 h-[48px] flex items-center justify-center gap-1 ${card.bg_color} group-hover:-rotate-6 transition-all duration-300`}
               >
                 <img
-                  src="/star-icon.png"
+                  src="/star-icon.webp"
                   alt="star-icon"
                   className="w-[24px] h-[24px]"
                 />

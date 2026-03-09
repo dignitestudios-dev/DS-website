@@ -20,7 +20,7 @@ const LeadingSection = () => {
             loader={customLoader}
             width={86}
             height={8}
-            src="/leading-lines.png"
+            src="/leading-lines.webp"
             alt="leading-lines"
             className="w-[86px] h-[8]"
           />

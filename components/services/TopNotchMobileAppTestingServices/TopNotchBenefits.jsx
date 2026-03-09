@@ -14,7 +14,7 @@ const TopNotchBenefits = () => {
           <p className="text-xl font-bold text-[#F15C20] uppercase tracking-normal">
             dignite studios
           </p>
-          <img src="/lines.png" alt="lines" width={170} height={24} />
+          <img src="/lines.webp" alt="lines" width={170} height={24} />
         </div>
         top-Notch Benefits
       </h2>

@@ -7,21 +7,21 @@ import { IoArrowBack, IoArrowForward } from "react-icons/io5";
 
 const Wireframe = () => {
   const wireframes = [
-    "/bioyap/w1.png",
-    "/bioyap/w2.png",
-    "/bioyap/w3.png",
-    "/bioyap/w4.png",
-    "/bioyap/w5.png",
-    "/bioyap/w6.png",
-    "/bioyap/w7.png",
-    "/bioyap/w8.png",
-    "/bioyap/w9.png",
-    "/bioyap/w10.png",
-    "/bioyap/w11.png",
-    "/bioyap/w12.png",
-    "/bioyap/w13.png",
-    "/bioyap/w14.png",
-    "/bioyap/w15.png",
+    "/bioyap/w1.webp",
+    "/bioyap/w2.webp",
+    "/bioyap/w3.webp",
+    "/bioyap/w4.webp",
+    "/bioyap/w5.webp",
+    "/bioyap/w6.webp",
+    "/bioyap/w7.webp",
+    "/bioyap/w8.webp",
+    "/bioyap/w9.webp",
+    "/bioyap/w10.webp",
+    "/bioyap/w11.webp",
+    "/bioyap/w12.webp",
+    "/bioyap/w13.webp",
+    "/bioyap/w14.webp",
+    "/bioyap/w15.webp",
   ];
   9;
 
@@ -48,7 +48,7 @@ const Wireframe = () => {
           Wireframes create the platform's structure for fluent usability. The key elements included: Homepage highlighting the AI Builder Step-by-Step AI PC Builder flow FPS calculator input/output screens Component selection and filtering The product detail pages Admin Panel interface for the product and game management Wireframes validate navigation and ensure clarity before moving into full-scale web app development. It helps us maintain an intuitive cross-platform web app development experience. 
         </motion.p>
         <div className="flex justify-center items-center" >
-       <img src="/gamesfun/w-lap.png" alt="lap"  />
+       <img src="/gamesfun/w-lap.webp" alt="lap"  />
       </div>
       </div>
     </section>

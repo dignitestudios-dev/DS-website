@@ -6,11 +6,11 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <div className="w-[95%]  lg:w-[80%] h-[500px] text-white bg-[url('/location/mobile-washington/s-cta.png')] bg-cover flex items-center justify-center bg-center hover:scale-105 transition-all ease-linear relative md:px-14 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
+    <div className="w-[95%]  lg:w-[80%] h-[500px] text-white bg-[url('/location/mobile-washington/s-cta.webp')] bg-cover flex items-center justify-center bg-center hover:scale-105 transition-all ease-linear relative md:px-14 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <div className="flex flex-row-reverse gap-20 items-center">
         <div className="hidden lg:block lg:w-[40%]">
           <motion.img
-            src="/location/mobile-washington/cta-m.png"
+            src="/location/mobile-washington/cta-m.webp"
             alt="cta-mobile"
             className=" absolute right-0 -bottom-20"
             initial={{ y: 100, opacity: 0 }}

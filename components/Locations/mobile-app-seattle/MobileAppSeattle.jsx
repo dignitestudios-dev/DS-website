@@ -313,7 +313,7 @@ const MobileAppSeattle = () => {
           <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white   opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
             <div className="relative">
               <img
-                src="/location/mobile-seattle/b-cta.png"
+                src="/location/mobile-seattle/b-cta.webp"
                 className="w-full rounded-b-2xl bottom-3 relative bg-cover"
                 alt="lggg"
               />
@@ -409,7 +409,7 @@ const MobileAppSeattle = () => {
       <ContactUs
         pathname={"Mobile Dev in Seattle"}
         header={"Start Your App Project Today"}
-        img={"/location/mobile-seattle/c-img.png"}
+        img={"/location/mobile-seattle/c-img.webp"}
         header2={""}
         para={
           "Have an idea and need guidance on cost to create a mobile application? Our team offers the budget friendly mobile app development services in Seattle through our clear timelines and transparent pricing. "

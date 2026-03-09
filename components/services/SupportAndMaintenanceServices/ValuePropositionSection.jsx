@@ -40,7 +40,7 @@ export default function ValuePropositionSection() {
                 Value Proposition of
               </span>
               <img
-                src="/value-proposition-lines.png"
+                src="/value-proposition-lines.webp"
                 alt="lines"
                 className="w-[227px] h-[8px]"
               />

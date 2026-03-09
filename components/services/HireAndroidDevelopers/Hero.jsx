@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="w-4 h-4 rounded-full bg-[#D3D3D3] absolute left-0 -top-1" />
         <div className="w-4 h-4 rounded-full bg-[#D3D3D3] absolute right-0 -top-1" />
         <Image
-          src="/rounded-border-image.png"
+          src="/rounded-border-image.webp"
           alt="the image shows multiple pictures of different developers"
           title="hire Android App Developers"
           className="w-full absolute top-0 z-0"

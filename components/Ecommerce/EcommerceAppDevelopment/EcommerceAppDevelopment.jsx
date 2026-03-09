@@ -146,27 +146,27 @@ const PLATFORMS = [
   {
     title: "BigCommerce",
     desc: "We deliver reliable solutions which help businesses manage products efficiently and improve overall store operations.",
-    logo: "/ecommerce/bc.png", // your original logo mapping stays
+    logo: "/ecommerce/bc.webp", // your original logo mapping stays
   },
   {
     title: "Magento",
     desc: "We create custom features and integrations that increase flexibility and simplify Magento store management effectively.",
-    logo: "/ecommerce/magento.png",
+    logo: "/ecommerce/magento.webp",
   },
   {
     title: "WooCommerce",
     desc: "We build scalable solutions for WordPress stores with improved performance across platforms.",
-    logo: "/ecommerce/woo.png",
+    logo: "/ecommerce/woo.webp",
   },
   {
     title: "Salesforce Commerce",
     desc: "We develop enterprise apps that support large-scale ecommerce businesses through complex operations and reliable store management.",
-    logo: "/ecommerce/sf.png",
+    logo: "/ecommerce/sf.webp",
   },
   {
     title: "Squarespace",
     desc: "We create simple, modern ecommerce apps for businesses needing clean design and easy-to-use functionality.",
-    logo: "/ecommerce/sp.png",
+    logo: "/ecommerce/sp.webp",
   },
 ];
 
@@ -532,7 +532,7 @@ const EcommerceAppDevelopment = () => {
       />
       <Faq faqs={faqs} header="FAQs" />
       <ContactUs
-        img={"/ecommerce/shopify-app/c-img.png"}
+        img={"/ecommerce/shopify-app/c-img.webp"}
         header="Kickstart Your Ecommerce App Journey Today"
         para="Start your ecommerce app project with a team that understands your business needs. Our experts help you plan, build and launch scalable solutions which also deliver real results and long term growth."
         btn="Request Ecommerce App Development Quote"

@@ -23,7 +23,7 @@ const CTA = () => {
         </div>
         <div className="md:block hidden">
           <motion.img
-            src="/wing/cta.png"
+            src="/wing/cta.webp"
             alt="cta"
             className=" absolute bottom-0 right-0"
             initial={{ opacity: 0, y: 100 }}

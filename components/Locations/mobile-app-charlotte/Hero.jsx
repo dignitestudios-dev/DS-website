@@ -39,7 +39,7 @@ const Hero = () => {
       <div className="relative flex justify-center items-center my-12 ">
         <Image
           loader={customLoader}
-          src="/location/mobile-charlotte/b-grad.png"
+          src="/location/mobile-charlotte/b-grad.webp"
           alt=""
           fill
           priority
@@ -57,7 +57,7 @@ const Hero = () => {
         >
           <Image
             loader={customLoader}
-            src="/location/mobile-charlotte/mob.png"
+            src="/location/mobile-charlotte/mob.webp"
             alt="Mobile app development showcase Charlotte"
             width={400}
             height={400}
@@ -67,7 +67,7 @@ const Hero = () => {
         </motion.div>
         <Image
           loader={customLoader}
-          src="/location/mobile-charlotte/r.png"
+          src="/location/mobile-charlotte/r.webp"
           alt=""
           width={300}
           height={300}
@@ -75,7 +75,7 @@ const Hero = () => {
          />
         <Image
           loader={customLoader}
-          src="/location/mobile-charlotte/l.png"
+          src="/location/mobile-charlotte/l.webp"
           alt=""
           width={300}
           height={300}

@@ -53,19 +53,19 @@ const FinalOutcome = () => {
   ];
 
   const final = [
-    "/bioyap/f1.png",
-    "/bioyap/f2.png",
-    "/bioyap/f3.png",
-    "/bioyap/f4.png",
-    "/bioyap/f5.png",
-    "/bioyap/f6.png",
-    "/bioyap/f7.png",
-    // "/bioyap/f8.png",
+    "/bioyap/f1.webp",
+    "/bioyap/f2.webp",
+    "/bioyap/f3.webp",
+    "/bioyap/f4.webp",
+    "/bioyap/f5.webp",
+    "/bioyap/f6.webp",
+    "/bioyap/f7.webp",
+    // "/bioyap/f8.webp",
   ]
   return (
     <section className="w-full py-8  relative z-50">
       <img
-        src="/bioyap/w-bg.png"
+        src="/bioyap/w-bg.webp"
         alt="hero"
         className="absolute w-screen -z-10"
       />
@@ -92,7 +92,7 @@ const FinalOutcome = () => {
       </div>
       <div className="flex justify-center items-center max-w-screen-2xl mx-auto relative py-10 md:py-20 px-4">
         <img
-          src="/bioyap/final.png"
+          src="/bioyap/final.webp"
           alt="final"
           // className='relative z-10 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
         />

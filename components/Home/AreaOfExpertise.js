@@ -40,7 +40,7 @@ const AreaOfExpertise = () => {
               <span className="text-[#F15C20] text-center text-xl font-semibold uppercase tracking-normal">
                 specialized
               </span>
-              <img src="/lines3.png" className="w-[122px]" alt="lines3" />
+              <img src="/lines3.webp" className="w-[122px]" alt="lines3" />
             </div>
             Area Of Expertise
           </h2>

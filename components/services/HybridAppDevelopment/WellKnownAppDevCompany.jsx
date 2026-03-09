@@ -36,14 +36,14 @@ const WellKnownAppDevCompany = () => {
             <div className="w-full">
               <img
                 className="h-auto"
-                src="/hybrid-app-development.png"
+                src="/hybrid-app-development.webp"
                 alt="he image shows multiple screens of applications."
               />
             </div>
             {/* <div className="">
               <img
                 className="h-auto max-w-[200px] md:max-w-[240px]  lg:-mt-[8px]"
-                src="/hybrid-2.png"
+                src="/hybrid-2.webp"
                 alt="he image shows multiple screens of applications."
               />
             </div> */}

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 ">
       <div className="w-full gap-6 mt-14 flex flex-col items-center ">
-         <img src="/wing/icon.png" alt="icon" fill />
+         <img src="/wing/icon.webp" alt="icon" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px] md:text-[48px] leading-tight text-wrap  font-bold  mb-6">
             <span className="text-[#5BAFEB]  ">Wing:</span> Redefining Dating Through <br/>Friend-Powered Matchmaking
@@ -34,10 +34,10 @@ const Hero = () => {
           </div>
         </div>
    <div className="flex md:mb-8 mt-28 md:mt-0 justify-center relative">
-  <img src="/wing/cloud.png" alt="cloud" className="-mb-24 w-screen scale-110 relative z-20" />
+  <img src="/wing/cloud.webp" alt="cloud" className="-mb-24 w-screen scale-110 relative z-20" />
 
   <motion.img
-    src="/wing/hero.png"
+    src="/wing/hero.webp"
     alt="App Preview"
     className="absolute -bottom-28"
     initial={{ y: 150, opacity: 0 }}

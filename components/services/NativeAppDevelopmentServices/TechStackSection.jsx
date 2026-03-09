@@ -13,7 +13,7 @@ const TechStackSection = () => {
           <p className="text-[#F15C20] text-xl font-bold uppercase tracking-normal">
             High-End
           </p>
-          <img src="/lines.png" alt="lines" className="w-[101px] h-[8px]" />
+          <img src="/lines.webp" alt="lines" className="w-[101px] h-[8px]" />
         </div>
         Tech Stack that Drives <br /> Your Success
       </h2>
@@ -49,7 +49,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/swift-icon.png"
+              src="/swift-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -64,7 +64,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/vue-icon.png"
+              src="/vue-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -79,7 +79,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/react-icon.png"
+              src="/react-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -94,7 +94,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/illustrator-icon.png"
+              src="/illustrator-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -109,7 +109,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/tailwind-icon.png"
+              src="/tailwind-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -139,7 +139,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/swift-icon.png"
+              src="/swift-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -154,7 +154,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/vue-icon.png"
+              src="/vue-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -169,7 +169,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/react-icon.png"
+              src="/react-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -184,7 +184,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/illustrator-icon.png"
+              src="/illustrator-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -199,7 +199,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/tailwind-icon.png"
+              src="/tailwind-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -219,7 +219,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/photoshop-icon.png"
+              src="/photoshop-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -234,7 +234,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/java-icon.png"
+              src="/java-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -249,7 +249,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/kotlin-icon.png"
+              src="/kotlin-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -264,7 +264,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/firebase-icon.png"
+              src="/firebase-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -279,7 +279,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/visual-studio-icon.png"
+              src="/visual-studio-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -294,7 +294,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/photoshop-icon.png"
+              src="/photoshop-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -309,7 +309,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/java-icon.png"
+              src="/java-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -324,7 +324,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/kotlin-icon.png"
+              src="/kotlin-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -339,7 +339,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/firebase-icon.png"
+              src="/firebase-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -354,7 +354,7 @@ const TechStackSection = () => {
             }`}
           >
             <img
-              src="/visual-studio-icon.png"
+              src="/visual-studio-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"

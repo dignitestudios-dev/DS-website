@@ -4,15 +4,15 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const phones = [
-  "/crew/f1.png",
-  "/crew/f2.png",
-  "/crew/f3.png",
-  "/crew/f4.png",
-  "/crew/f5.png",
-  "/crew/f6.png",
-  "/crew/f7.png",
-  "/crew/f8.png",
-  "/crew/f9.png",
+  "/crew/f1.webp",
+  "/crew/f2.webp",
+  "/crew/f3.webp",
+  "/crew/f4.webp",
+  "/crew/f5.webp",
+  "/crew/f6.webp",
+  "/crew/f7.webp",
+  "/crew/f8.webp",
+  "/crew/f9.webp",
 ];
 
 const container = {
@@ -44,7 +44,7 @@ const FinalOutcome = () => {
     <section className="relative w-full py-20 overflow-hidden">
       {/* Background */}
       <img
-        src="/bioyap/w-bg.png"
+        src="/bioyap/w-bg.webp"
         alt="bg"
         className="absolute inset-0 w-full h-full object-cover -z-10"
       />

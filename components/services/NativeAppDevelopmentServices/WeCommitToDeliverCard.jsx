@@ -15,7 +15,7 @@ const WeCommitToDeliverCard = () => {
           Development Services
         </h3>
         <img
-          src="/full-stack-native-app-mockup.png"
+          src="/full-stack-native-app-mockup.webp"
           alt="full-stack-native-app-mockup"
           title="full-stack-native-app-mockup"
           className="h-[411px] mx-auto"

@@ -25,7 +25,7 @@ const ProblemSol = () => {
   return (
     <section className="w-full py-24 px-6 overflow-hidden">
       <img
-        src="/wing/hearts.png"
+        src="/wing/hearts.webp"
         alt="hero"
         className="absolute w-screen  z-10"
       />
@@ -54,13 +54,13 @@ const ProblemSol = () => {
         <div className="flex md:flex-row flex-col gap-4 justify-center ">
           <div className="bg-[#f9d5d5] p-5 rounded-[60px] relative z-50   ">
             <img
-              src="/wing/c-outer.png"
+              src="/wing/c-outer.webp"
               alt="cloud"
               className="absolute bottom-0 left-0 rounded-bl-[50px]"
             />
             <div className="p-8 py-3 rounded-[60px] space-y-4 border border-white text-start bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-white/80 relative">
               <img
-                src="/wing/c-inner.png"
+                src="/wing/c-inner.webp"
                 alt="cloud"
                 width={120}
                 className="absolute top-0 right-0 rounded-tr-[50px]"
@@ -68,7 +68,7 @@ const ProblemSol = () => {
               <h1 className="text-lg font-semibold mb-2 text-black">Challenges</h1>
               {challenges.map((c, idx) => (
                 <div className="flex gap-2 text-black capitalize text-sm items-start">
-                  <img src="/wing/r-heart.png" alt="heart" />
+                  <img src="/wing/r-heart.webp" alt="heart" />
                   <h2>{c}</h2>
                 </div>
               ))}
@@ -76,13 +76,13 @@ const ProblemSol = () => {
           </div>
           <div className="bg-[#5BAFEB]/50 p-5 rounded-[60px] relative z-50  ">
             <img
-              src="/wing/h-outer.png"
+              src="/wing/h-outer.webp"
               alt="cloud"
               className="absolute bottom-0 left-0 rounded-bl-[50px]"
             />
             <div className="p-8 py-3 rounded-[60px] space-y-4 border border-white text-start bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-white/80 relative">
               <img
-                src="/wing/c-inner.png"
+                src="/wing/c-inner.webp"
                 alt="cloud"
                 width={120}
                 className="absolute top-0 right-0 rounded-tr-[50px]"

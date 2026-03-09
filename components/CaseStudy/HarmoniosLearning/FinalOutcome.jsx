@@ -123,7 +123,7 @@ const FinalOutcome = () => {
                     }}
                   >
                     <img
-                      src={`/ph${index + 1}.png`}
+                      src={`/ph${index + 1}.webp`}
                       width={400}
                       height={400}
                       alt={`Wireframe ${index + 1}`}

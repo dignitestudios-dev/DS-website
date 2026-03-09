@@ -48,7 +48,7 @@ const Workflow = () => {
   return (
     <section className="w-full  relative py-24 px-6">
       <img
-        src="/bioyap/w-bg.png"
+        src="/bioyap/w-bg.webp"
         alt="hero"
         className="absolute w-screen z-10"
       />
@@ -148,7 +148,7 @@ const Workflow = () => {
 
         <div className="mt-8 flex relative z-50 justify-center items-center w-fit mx-auto -pb-4">
           <img
-            src="/bioyap/workflow.png"
+            src="/bioyap/workflow.webp"
             alt="workflow"
             width={500}
             height={500}

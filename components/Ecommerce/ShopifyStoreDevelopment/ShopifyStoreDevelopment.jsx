@@ -497,7 +497,7 @@ const ShopifyStoreDevelopment = () => {
           <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
             <div className="relative">
               <img
-                src="/location/mobile-boston/cta-img.png"
+                src="/location/mobile-boston/cta-img.webp"
                 className="w-full rounded-b-2xl bottom-3 relative bg-cover"
                 alt="lggg"
               />
@@ -588,7 +588,7 @@ const ShopifyStoreDevelopment = () => {
       />
       <Faq faqs={faqs} />
       <ContactUs
-        img={"/ecommerce/shopify-app/c-img.png"}
+        img={"/ecommerce/shopify-app/c-img.webp"}
         pathname={"Shopify Store Development"}
         header={"Get Your Shopify Store Development Started"}
         header2={""}

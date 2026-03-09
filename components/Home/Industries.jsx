@@ -41,22 +41,22 @@ export const sliderSettings = {
 
 const icons = [
   {
-    icon: "health.png",
+    icon: "health.webp",
   },
   {
-    icon: "fin.png",
+    icon: "fin.webp",
   },
   {
-    icon: "ecom.png",
+    icon: "ecom.webp",
   },
   {
-    icon: "edu.png",
+    icon: "edu.webp",
   },
   {
-    icon: "state.png",
+    icon: "state.webp",
   },
   {
-    icon: "date.png",
+    icon: "date.webp",
   },
 ];
 
@@ -157,7 +157,7 @@ const Industries = ({ header, header2, para }) => {
                   }}
                   className="relative z-50 bg-[linear-gradient(152.14deg,_#FFAA88_-78.52%,_#FFFFFF_63.9%)] rounded-b-[25px] h-[300px] rounded-t-xl  -mb-10   shadow-[#ffc2a9]"
                 >
-                  {/* <img src='/location/mobile-california/img.png' className='absolute' /> */}
+                  {/* <img src='/location/mobile-california/img.webp' className='absolute' /> */}
                   <img
                     src={`/location/mobile-california/${icons[originalIndex].icon}`}
                     alt={value.title || "image"}
@@ -168,7 +168,7 @@ const Industries = ({ header, header2, para }) => {
 
                   {isActive && (
                     <img
-                      src="/location/mask.png"
+                      src="/location/mask.webp"
                       className="absolute -top-10 -left-16 z-10 rounded-t-xl pointer-events-none"
                     />
                   )}

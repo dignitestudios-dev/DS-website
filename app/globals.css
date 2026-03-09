@@ -64,8 +64,8 @@ body {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden !important;
-  /* cursor: url("./assets/cursor.png"), auto; */
-  cursor: url("https://www.dignitestudios.com/cursor.png"), auto;
+  /* cursor: url("./assets/cursor.webp"), auto; */
+  cursor: url("/cursor.webp"), auto;
   font-display: swap;
 }
 h1::selection,
@@ -86,10 +86,10 @@ p::selection {
 button:hover,
 a:hover,
 input:hover {
-  cursor: url("https://www.dignitestudios.com/cursor-pointer.png"), auto !important;
+  cursor: url("/cursor-pointer.webp"), auto !important;
 }
 .orange:hover {
-  cursor: url("https://www.dignitestudios.com/cursor-pointer-2.png"), auto !important;
+  cursor: url("/cursor-pointer-2.webp"), auto !important;
 }
 
 /***** Slide Left *****/
@@ -263,7 +263,7 @@ input:hover {
 
 .about-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/about-us-hero.png");
+    url("/about-us-hero.webp");
 }
 
 /* animate-bg */
@@ -308,7 +308,7 @@ input:hover {
       rgba(0, 0, 0, 0.52),
       rgba(6, 6, 6, 0.28)
     ),
-    url("/bg-mobile.png");
+    url("/bg-mobile.webp");
   background-size: cover;
 }
 .bg-ios {
@@ -317,7 +317,7 @@ input:hover {
       rgba(0, 0, 0, 0.52),
       rgba(6, 6, 6, 0.28)
     ),
-    url("/bg-ios.png");
+    url("/bg-ios.webp");
   background-size: cover;
 }
 .bg-mobile-promo {
@@ -326,7 +326,7 @@ input:hover {
       rgba(0, 0, 0, 0.8),
       rgba(6, 6, 6, 0.8)
     ),
-    url("/bg-mobile-promo.png");
+    url("/bg-mobile-promo.webp");
   background-size: cover;
 }
 
@@ -1121,7 +1121,7 @@ input:hover {
 }
 
 .high-powered {
-  background-image: url("/hero-heading-border.png");
+  background-image: url("/hero-heading-border.webp");
   background-position: center;
   background-size: contain;
   margin-right: 2px;
@@ -1908,26 +1908,26 @@ video {
 }
 
 .bg-red-img {
-  background-image: url("/bg-cover2.png");
+  background-image: url("/bg-cover2.webp");
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .bg-purple-img {
-  background-image: url("/bg-cover1.png");
+  background-image: url("/bg-cover1.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .bg-gray-img {
-  background-image: url("/bg-cover.png");
+  background-image: url("/bg-cover.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .bg-purple1-img {
-  background-image: url("/bg-cover1.png");
+  background-image: url("/bg-cover1.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

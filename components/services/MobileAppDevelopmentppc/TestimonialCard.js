@@ -25,8 +25,8 @@ const TestimonialCard = ({ reviewBody, authorName, jobtitle, index }) => {
       }}
     >
       <div className='flex items-center'>
-      <img src={'/qoute2.png'} />
-      <img src={'/qoute1.png'} className='ml-2' />
+      <img src={'/qoute2.webp'} />
+      <img src={'/qoute1.webp'} className='ml-2' />
       </div>
       <p
         className="text-base h-[80%] mb-28 md:mb-0"

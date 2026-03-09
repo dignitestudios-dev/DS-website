@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 const Brand = () => {
   return (
    <section className="w-full py-12 relative z-50">
-      <img src="/bioyap/w-bg.png" alt="hero" className="absolute w-screen -z-10" />
+      <img src="/bioyap/w-bg.webp" alt="hero" className="absolute w-screen -z-10" />
       <div className="max-w-7xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ const Brand = () => {
           The brand identity was built over decades of trust and community to align with the professional app visual identity standards. We also used a clean color palette of blues, whites, and greens, which worked well for pharmaceutical companies worldwide. The soft icons were made for the marketplace products, social actions, and the coin wallet. The visual language was kept quite modern, simple, and reliable to convey a stronger sense of professionalism.
         </motion.p>
 <div className='flex md:flex-row flex-col justify-between gap-12  items-center max-w-7xl mx-auto px-6 py-5'>
-  <img src='/bioyap/brand.png' alt='brand'  />
+  <img src='/bioyap/brand.webp' alt='brand'  />
   
   <div className='flex-1 text-start w-full md:w-[50%] md:ml-12'>
     <h2 className='text-5xl  font-bold mb-8' >

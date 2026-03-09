@@ -9,9 +9,9 @@ import { IoGlobeOutline } from "react-icons/io5";
 const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
-      {/* <img src="/bioyap/hero.png" alt="hero" className="absolute w-screen -z-10" /> */}
+      {/* <img src="/bioyap/hero.webp" alt="hero" className="absolute w-screen -z-10" /> */}
       <div className="w-full gap-5 mt-14 flex flex-col items-center ">
-        <img src="/gamesfun/icon.png" alt="icon" fill />
+        <img src="/gamesfun/icon.webp" alt="icon" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px]  capitalize md:leading-[60px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="text-[#C100FF]  ">
@@ -36,7 +36,7 @@ const Hero = () => {
               className="h-12 cursor-pointer"
             /> */}
             <Link href={"https://game4funpcs.com"} target="_blank" >
-            {/* <img src="/website_btn.png" alt="web link"   className="h-12 cursor-pointer"  /> */}
+            {/* <img src="/website_btn.webp" alt="web link"   className="h-12 cursor-pointer"  /> */}
             <button className="text-white flex items-center bg-black px-6 text-xl py-2 rounded-lg gap-2" > <IoGlobeOutline /> Website </button>
           </Link></div>
         </div>
@@ -44,7 +44,7 @@ const Hero = () => {
                   {/* <div className="absolute top-[20%] text-[60px] md:text-[180px] font-bold text-gray-200 opacity-80 select-none blur-sm">
                     MEDITATION
                   </div> */}
-                  <img src="/gamesfun/grad.png" alt="grad" className="absolute 2xl:top-[-150%] md:top-[-80%] h-auto z-10 w-screen" />
+                  <img src="/gamesfun/grad.webp" alt="grad" className="absolute 2xl:top-[-150%] md:top-[-80%] h-auto z-10 w-screen" />
                   <motion.div
                     initial={{  opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -136,7 +136,7 @@ const Hero = () => {
     </motion.div>
 
                   <motion.img
-      src="/gamesfun/hero.png"
+      src="/gamesfun/hero.webp"
       alt="App Preview"
       className="relative  md:-bottom-20 z-30"
       animate={{ y: [0, -10, 0] }} // small vertical movement

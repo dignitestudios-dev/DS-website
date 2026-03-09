@@ -14,7 +14,7 @@ const DevelopersAdequacies = () => {
               Dignite’s Android App
             </p>
             <img
-              src="/hire-android-developers-lines.png"
+              src="/hire-android-developers-lines.webp"
               alt="hire-android-app-developers-lines"
               className="w-[96px] h-[8px]"
             />

@@ -396,7 +396,7 @@ const AiAutomation = () => {
           <div className=" overflow-hidden   text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition-all  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
             <div className="relative h-[500px]  ">
               <img
-                src="/location/mobile-washington/b-cta.png"
+                src="/location/mobile-washington/b-cta.webp"
                 className="w-full  rounded-b-2xl bottom-0  absolute bg-cover"
                 alt="lggg"
               />
@@ -493,7 +493,7 @@ const AiAutomation = () => {
       <ContactUs
         pathname={"AI Automation Services"}
         header={"Request AI Automation Quote"}
-        img={"/technologies/ai/c-img.png"}
+        img={"/technologies/ai/c-img.webp"}
         header2={""}
         para={
           "Are you prepared to put in place organized AI automation services to increase production and expansion? Tell our staff about your automation needs, and we’ll develop an approach that fits your company’s goals."

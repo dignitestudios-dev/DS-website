@@ -18,7 +18,7 @@ const MyMedicalJournalHero = () => {
       <div className="px-4 md:px-12 xl:px-64 lg:pb-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           {theme == "dark" ? (
-            <img src="/mmj-logo-2.png" alt="" className="w-[160px] h-[71px]" />
+            <img src="/mmj-logo-2.webp" alt="" className="w-[160px] h-[71px]" />
           ) : (
             <img
               src="/my-medical-logo.svg"
@@ -51,7 +51,7 @@ const MyMedicalJournalHero = () => {
           </p>
         </div>
       </div>
-      <img src="/my-medical-1.png" alt="" className={`w-full lg:h-screen`} />
+      <img src="/my-medical-1.webp" alt="" className={`w-full lg:h-screen`} />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">The Challenges</h2>
@@ -72,7 +72,7 @@ const MyMedicalJournalHero = () => {
           </p>
         </div>
       </div>
-      <img src="/my-medical-2.png" alt="" className="w-full lg:h-screen" />
+      <img src="/my-medical-2.webp" alt="" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10  flex w-full flex-col justify-start items-start gap-4">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">
@@ -96,38 +96,38 @@ const MyMedicalJournalHero = () => {
         </div>
         <MyMedicalJournalTechnologies />
       </div>
-      <img src="/my-medical-3.png" alt="" className="w-full lg:h-screen" />
+      <img src="/my-medical-3.webp" alt="" className="w-full lg:h-screen" />
       <div className="w-full px-4 md:px-12 xl:px-64  md:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
           description={
             "The splash screen of this health management application sets the stage for a transformative user experience. It welcomes users into a world where personal health empowerment is within reach and invites them to interact with their own anatomy, allowing them to journal symptoms and observations effortlessly."
           }
-          mockup={"/mmj-mockup-1.png"}
+          mockup={"/mmj-mockup-1.webp"}
         />
         <RightAllignedScreen
           title={"Login"}
           description={
             "The login feature offers a secure gateway to a personalized journey towards well-being. Utilizing robust encryption protocols, it ensures the confidentiality of sensitive health data. Integrated into the app, the login process provides a seamless transition into the immersive health care services provided with which users are able to efficiently track and manage their health with confidence and ease."
           }
-          mockup={"/mmj-mockup-2.png"}
+          mockup={"/mmj-mockup-2.webp"}
         />
         <LeftAllignedScreen
           title={"App Walkthrough"}
           description={
             "It introduces a transformative walkthrough feature redefining personal health management. Through an immersive body visualization tool, users can interactively select and highlight specific body parts, simplifying the process of journaling symptoms and observations. With this functionality, this app allows users to take proactive steps towards better health."
           }
-          mockup={"/mmj-mockup-3.png"}
+          mockup={"/mmj-mockup-3.webp"}
         />
         <RightAllignedScreen
           title={"Data Report"}
           description={
             "My Medical Journal introduces a robust data reporting feature. Users can access comprehensive reports detailing their health journey, including symptom trends and observation patterns. By providing actionable insights derived from user input, this further assists individuals in making informed decisions about their well-being, cementing the app's position as a powerful and user-friendly tool in personal health management."
           }
-          mockup={"/mmj-mockup-4.png"}
+          mockup={"/mmj-mockup-4.webp"}
         />
       </div>
-      <img src="/my-medical-4.png" alt="" className="w-full lg:h-screen" />
+      <img src="/my-medical-4.webp" alt="" className="w-full lg:h-screen" />
     </div>
   );
 };

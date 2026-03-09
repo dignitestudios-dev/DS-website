@@ -302,7 +302,7 @@ const FlutterDev = () => {
           <div className=" overflow-hidden   text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition-all  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
             <div className="relative h-[500px]  ">
               <img
-                src="/location/mobile-washington/b-cta.png"
+                src="/location/mobile-washington/b-cta.webp"
                 className="w-full  rounded-b-2xl bottom-0  absolute bg-cover"
                 alt="lggg"
               />
@@ -392,7 +392,7 @@ const FlutterDev = () => {
       <ContactUs
         pathname={"Flutter Development"}
         header={"Build Your Next Flutter Product"}
-        img={"/location/mobile-washington/c-img.png"}
+        img={"/location/mobile-washington/c-img.webp"}
         header2={""}
         para={
           "Build your next product with professional expertise from specialists delivering results across markets through proven workflows and performance standards in the USA. As a trusted provider of flutter app development services in usa, Dignite Studios helps brands scale faster, smarter and with confidence."

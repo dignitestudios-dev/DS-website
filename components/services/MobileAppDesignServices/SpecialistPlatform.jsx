@@ -25,7 +25,7 @@ const SpecialistPlatform = () => {
             loader={customLoader}
             width={141}
             height={8}
-            src="/hire-on-demand.png"
+            src="/hire-on-demand.webp"
             alt="hire-on-demand"
           />
         </div>

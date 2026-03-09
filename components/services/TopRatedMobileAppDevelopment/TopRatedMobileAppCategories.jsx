@@ -50,7 +50,7 @@ const TopRatedMobileAppCategories = () => {
           </h1>
           <div className="bg-[#319CFF] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
-            src="/ecommerce-mockup-2.png"
+            src="/ecommerce-mockup-2.webp"
             alt=""
             className="w-full h-[490.98px] 2xl:h-[665px] absolute -bottom-48 2xl:-bottom-[270px] 2xl:-right-20 -right-14 group-hover:-bottom-40 2xl:group-hover:-bottom-[248px] transition-all duration-300"
           />
@@ -61,7 +61,7 @@ const TopRatedMobileAppCategories = () => {
           </h1>
           <div className="bg-[#16ED9F] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
-            src="/insurance-mockup-1.png"
+            src="/insurance-mockup-1.webp"
             alt=""
             className="h-[431.37px] w-full 2xl:h-[575px] absolute -bottom-32 2xl:-bottom-44 -right-14 group-hover:-bottom-24 2xl:group-hover:-bottom-36 transition-all duration-300"
           />
@@ -80,7 +80,7 @@ const TopRatedMobileAppCategories = () => {
           <h1 className="text-white text-[22px] font-bold z-30">Dating App</h1>
           <div className="bg-[#FF4292] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
-            src="/red-dating-mobile-app-development.png"
+            src="/red-dating-mobile-app-development.webp"
             title="Dating mobile app development"
             alt="two mockup screens show the dating mobile app development"
             className="w-full h-[490.98px] 2xl:h-[595px] 2xl:w-[400px] absolute -bottom-48 -right-14 group-hover:-bottom-40 transition-all duration-300"
@@ -92,7 +92,7 @@ const TopRatedMobileAppCategories = () => {
           </h1>
           <div className="bg-[#9488FF] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
-            src="/purple-telehealth-mobile-app-development.png"
+            src="/purple-telehealth-mobile-app-development.webp"
             title="Telehealth mobile app development"
             alt="two mockup screens show the telehealth mobile app development"
             className="w-[400.67px] h-[490.98px] 2xl:h-[585px] 2xl:w-[400px] absolute -bottom-48 -right-12 group-hover:-bottom-40 transition-all duration-300"

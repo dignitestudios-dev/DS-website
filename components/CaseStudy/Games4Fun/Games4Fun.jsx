@@ -14,7 +14,7 @@ const Games4Fun = () => {
       <div className="w-full flex flex-col gap-8 -mb-4 pb-20">
         <Hero/>
           <div className='relative z-50' >
-    <img src='/gamesfun/bg.png' alt='bg' className='absolute -top-[6%] w-screen z-0' />
+    <img src='/gamesfun/bg.webp' alt='bg' className='absolute -top-[6%] w-screen z-0' />
     <div className='relative z-50' >
         <Workflow/>
         <Discovery/>

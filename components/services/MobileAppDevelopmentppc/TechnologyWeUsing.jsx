@@ -11,7 +11,7 @@ const TechnologyWeUsing = () => {
       <h2 className="headings-size">
         <span className="flex items-center tracking-wide flex-col text-[#F15C20] text-xl	 font-[700]">
           App Development
-          <img src="/mainUnder.png" alt="" />
+          <img src="/mainUnder.webp" alt="" />
         </span>
 
         <div className={`${theme === "dark" ? "text-white" : "text-[#0C0C0C]"

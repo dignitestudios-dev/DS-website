@@ -47,7 +47,7 @@ const Hero = ({
           }}
         >
           <Image
-            src="/ecommerce/shopify-store/laptop.png"
+            src="/ecommerce/shopify-store/laptop.webp"
             alt="Shpify laptop"
             width={900}
             height={900}
@@ -55,7 +55,7 @@ const Hero = ({
             className="object-cover md:block hidden"
             loader={customLoader} />
           <Image
-            src="/ecommerce/shopify-store/mob.png"
+            src="/ecommerce/shopify-store/mob.webp"
             alt="Shpify laptop"
             width={250}
             height={250}
@@ -64,7 +64,7 @@ const Hero = ({
             loader={customLoader} />
         </motion.div>
         <motion.img
-          src="/ecommerce/shopify-app/sh-icon.png"
+          src="/ecommerce/shopify-app/sh-icon.webp"
           alt=""
           width={150}
           height={150}
@@ -80,7 +80,7 @@ const Hero = ({
           }}
         />
         <motion.img
-          src="/ecommerce/shopify-app/sh2.png"
+          src="/ecommerce/shopify-app/sh2.webp"
           alt=""
           width={150}
           height={150}

@@ -8,9 +8,9 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
-      {/* <img src="/bioyap/hero.png" alt="hero" className="absolute w-screen -z-10" /> */}
+      {/* <img src="/bioyap/hero.webp" alt="hero" className="absolute w-screen -z-10" /> */}
       <div className="w-full gap-2 flex flex-col items-center ">
-        <img src="/home-hero/icon.png" alt="icon" fill />
+        <img src="/home-hero/icon.webp" alt="icon" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[70%]">
           <h1 className="text-[24px]  leading-[60px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="dark:text-[#D9BBF9] text-[#62466B]  ">Streamlined Marketplace </span>
@@ -67,7 +67,7 @@ const Hero = () => {
             }}
           >
             <img
-              src="/home-hero/hero.png"
+              src="/home-hero/hero.webp"
               alt="App Preview"
               className=" drop-shadow-2xl"
             />

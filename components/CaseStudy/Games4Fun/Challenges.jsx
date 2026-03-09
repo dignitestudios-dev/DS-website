@@ -61,7 +61,7 @@ const challenges = [
 const Challenges = () => {
   return (
     <section className="relative w-full max-w-screen-2xl mx-auto py-28 overflow-hidden">
-   {/* <img src="/crew/el.png" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
+   {/* <img src="/crew/el.webp" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
       {/* Heading */}
       <div className="relative z-10 max-w-7xl mx-auto text-center mb-24 px-4">
         <motion.h2
@@ -93,7 +93,7 @@ Problems
 <div className="flex gap-5 flex-wrap justify-center px-12" >
      {challenges.map((challenge, index) => (
       <div key={index} className="relative rounded-[75px] transition-all ease-linear hover:text-white hover:bg-[#FB3747] w-[350px] text-sm">
-        <img src="/gamesfun/chall.png" />
+        <img src="/gamesfun/chall.webp" />
         <p className="absolute top-[50%] translate-y-[-50%] text-center p-2 ">{challenge.content}</p>
       </div>
      ))}
@@ -110,7 +110,7 @@ Problems
 <div className="flex gap-5 flex-wrap justify-center px-12" >
      {solutions.map((solution, index) => (
       <div key={index} className="relative rounded-[75px] transition-all ease-linear hover:text-white hover:bg-[#1ABF9A] w-[350px] text-sm">
-        <img src="/gamesfun/sol.png" />
+        <img src="/gamesfun/sol.webp" />
         <p className="absolute top-[50%] translate-y-[-50%] text-center p-2 ">{solution}</p>
       </div>
      ))}

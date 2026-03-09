@@ -52,7 +52,7 @@ const Navbar = ({ setIsOpen }) => {
   const dropdownData = {
     services: [
       {
-        image: "/service-r.png",
+        image: "/service-r.webp",
         items: [
           [
             "Mobile App Development Services",
@@ -112,7 +112,7 @@ const Navbar = ({ setIsOpen }) => {
     ],
     technology: [
       {
-        image: "/tech-r.png",
+        image: "/tech-r.webp",
         items: [
           [
             "React Native App Development",
@@ -131,7 +131,7 @@ const Navbar = ({ setIsOpen }) => {
     ],
     industries: [
       {
-        image: "/ind-r.png",
+        image: "/ind-r.webp",
         items: [
           ["Fintech", "#"],
           ["Healthcare", "#"],
@@ -139,7 +139,7 @@ const Navbar = ({ setIsOpen }) => {
         ],
       },
       {
-        image: "/ind-r.png",
+        image: "/ind-r.webp",
         items: [
           ["E-commerce", "#"],
           ["Education", "#"],
@@ -148,7 +148,7 @@ const Navbar = ({ setIsOpen }) => {
     ],
     locations: [
       {
-        image: "/loc-r.png",
+        image: "/loc-r.webp",
         items: [
           ["New York", "/locations/mobile-app-development-new-york"],
           ["California", "/locations/mobile-app-development-california"],
@@ -175,7 +175,7 @@ const Navbar = ({ setIsOpen }) => {
     ],
     ecommerce: [
       {
-        image: "/eco-r.png",
+        image: "/eco-r.webp",
         items: [
           ["Shopify App Development", "/ecommerce/shopify-app-development"],
           ["Ecommerce App Development", "/ecommerce/ecommerce-app-development"],
@@ -185,7 +185,7 @@ const Navbar = ({ setIsOpen }) => {
     ],
     company: [
       {
-        image: "/com-r.png",
+        image: "/com-r.webp",
         items: [
           ["About Us", "/about-us"],
           // ["Blog", "/blog"],

@@ -306,7 +306,7 @@ const MobileAppCharlotte = () => {
           <div className=" overflow-hidden   text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition-all  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
             <div className="relative h-[500px]  ">
               <img
-                src="/location/mobile-charlotte/b-cta.png"
+                src="/location/mobile-charlotte/b-cta.webp"
                 className="w-full  rounded-b-2xl bottom-0  absolute bg-cover"
                 alt="lggg"
               />
@@ -395,7 +395,7 @@ const MobileAppCharlotte = () => {
       <ContactUs
         pathname={"Mobile Dev in Charlotte"}
         header={"It's Time to Work on Your Project"}
-        img={"/location/mobile-charlotte/c-img.png"}
+        img={"/location/mobile-charlotte/c-img.webp"}
         header2={""}
         para={
           "Our professional app developers in Charlotte, NC provide reliability. Connect with us and get a dedicated team of skilled developers to launch your app smarter."

@@ -168,7 +168,7 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
 
               <div className="absolute top-1/2 left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <img
-                  src="/location/mobile-california/icons/logo.png"
+                  src="/location/mobile-california/icons/logo.webp"
                   alt="logo"
                 />
               </div>

@@ -71,7 +71,7 @@ const Hero = () => {
         </motion.div>
         {/* <Image
           loader={customLoader}
-          src="/location/mobile-boston/r.png"
+          src="/location/mobile-boston/r.webp"
           alt=""
           width={150}
           height={150}
@@ -79,7 +79,7 @@ const Hero = () => {
          />
         <Image
           loader={customLoader}
-          src="/location/mobile-boston/l.png"
+          src="/location/mobile-boston/l.webp"
           alt=""
           width={150}
           height={150}

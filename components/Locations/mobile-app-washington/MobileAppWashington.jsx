@@ -307,7 +307,7 @@ const MobileAppWashington = () => {
           <div className=" overflow-hidden   text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition-all  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
             <div className="relative h-[500px]  ">
               <img
-                src="/location/mobile-washington/b-cta.png"
+                src="/location/mobile-washington/b-cta.webp"
                 className="w-full  rounded-b-2xl bottom-0  absolute bg-cover"
                 alt="lggg"
               />
@@ -396,7 +396,7 @@ const MobileAppWashington = () => {
       <ContactUs
         pathname={"Mobile Dev in Washington DC"}
         header={"Ready to Work on Your Dream Project With Us?"}
-        img={"/location/mobile-washington/c-img.png"}
+        img={"/location/mobile-washington/c-img.webp"}
         header2={""}
         para={
           "You no longer have to compromise on your app's success. Our professional app developers in Washington DC provide expertise and reliability. Work with us and get a dedicated team of skilled app developers to launch your app faster and smarter."

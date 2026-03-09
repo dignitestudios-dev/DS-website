@@ -6,12 +6,12 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/services/mobile-app/s-cta.png')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative 2xl:px-40 md:px-28 px-10 md:my-0 md:py-14 mx-auto overflow-hidden flex justify-center items-center">
-      {/* <img src={"/services/mobile-app/s-cta.png"} alt="img" width={800} height={800} className="absolute top-0 scale-105 md:block hidden left-0 w-full h-full object-contain z-10" /> */}
+    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/services/mobile-app/s-cta.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative 2xl:px-40 md:px-28 px-10 md:my-0 md:py-14 mx-auto overflow-hidden flex justify-center items-center">
+      {/* <img src={"/services/mobile-app/s-cta.webp"} alt="img" width={800} height={800} className="absolute top-0 scale-105 md:block hidden left-0 w-full h-full object-contain z-10" /> */}
       <div className="flex flex-row-reverse items-center relative z-20">
         <div className="hidden lg:block lg:w-[40%] ">
           <motion.img
-            src="/services/mobile-app/cta-m.png"
+            src="/services/mobile-app/cta-m.webp"
             alt="cta-mobile"
             className="-mb-20 2xl:-mb-16"
             initial={{ y: 100, opacity: 0 }}

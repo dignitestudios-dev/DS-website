@@ -38,7 +38,7 @@ const Hero = () => {
       <div className="relative w-full h-[250px] lg:h-[550px]  my-10 flex items-center justify-center">
         <div className="absolute top-0 left-0 w-full flex justify-center z-20">
           <motion.img
-            src="/technologies/cross/mob.png"
+            src="/technologies/cross/mob.webp"
             width={500}
             height={500}
             className="object-contain w-[250px] lg:w-[500px]"
@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
         <div className="absolute top-0 left-0 w-full pt-10  h-[500px] hidden lg:flex justify-center z-10">
           <Image
-            src={"/technologies/cross/grad.png"}
+            src={"/technologies/cross/grad.webp"}
             alt="gradient"
             width={1200}
             height={1200}

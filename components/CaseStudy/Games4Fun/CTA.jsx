@@ -7,12 +7,12 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const CTA = () => {
   return (
     <div className="bg-[#60035D] dark:bg-transparent max-w-screen-2xl mx-auto z-50 rounded-3xl md:pb-0 pb-8 pt-8 to-[#F1F8FD] relative overflow-hidden">
-      <img src="/gamesfun/c-bg.png" alt="cta-bg" className="absolute top-0  w-screen" />
+      <img src="/gamesfun/c-bg.webp" alt="cta-bg" className="absolute top-0  w-screen" />
       <div className="max-w-screen-2xl w-[85%]   mx-auto flex justify-between">
 
         <div className="md:block hidden">
           <motion.img
-            src="/gamesfun/cta.png"
+            src="/gamesfun/cta.webp"
             alt="cta"
             className=" relative z-50"
             initial={{ opacity: 0, y: 100 }}

@@ -4,7 +4,7 @@ const IndustryCard = () => {
   return (
     <div className="w-[280px] h-[320px] rounded-[24px] relative">
       <img
-        src="/industry-card.png"
+        src="/industry-card.webp"
         alt="industry-card"
         className="w-full h-full"
       />

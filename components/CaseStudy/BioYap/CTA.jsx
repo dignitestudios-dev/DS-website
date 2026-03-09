@@ -7,7 +7,7 @@ const CTA = () => {
   return (
     <div className="dark:bg-transparent -mb-4 bg-[#E6FFBC73] relative overflow-hidden">
            <img
-        src="/bioyap/hero.png"
+        src="/bioyap/hero.webp"
         alt="hero"
         className="absolute -top-24 w-screen  z-10"
       />
@@ -27,7 +27,7 @@ const CTA = () => {
 
         <div className="md:block hidden">
           <motion.img
-            src="/bioyap/cta.png"
+            src="/bioyap/cta.webp"
             alt="cta"
             className="w-[80%]"
             initial={{ opacity: 0, y: 100 }}

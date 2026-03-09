@@ -287,7 +287,7 @@ const MobileAppMiami = () => {
           <div className="bg-black  overflow-hidden hover:scale-105 z-50 absolute text-white   opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
             <div className="relative  overflow-hidden">
               <img
-                src="/location/mobile-miami/b-cta.png"
+                src="/location/mobile-miami/b-cta.webp"
                 className="w-full h-[500px] rounded-b-2xl bottom-0 relative bg-cover"
                 alt="lggg"
               />
@@ -368,7 +368,7 @@ const MobileAppMiami = () => {
       />
       <Faq faqs={faqs} />
       <ContactUs
-        img={"/location/mobile-boston/c-img.png"}
+        img={"/location/mobile-boston/c-img.webp"}
         pathname={"Mobile Dev in Miami"}
         header={"Ready to Build Your Mobile App"}
         header2={""}

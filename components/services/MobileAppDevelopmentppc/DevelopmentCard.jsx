@@ -18,7 +18,7 @@ export default function DevelopmentCard() {
                     data-aos-anchor-placement="center-bottom"
                 >
                     <div className="">
-                        <img src="/andriod_icon.png" alt="" srcset="" />
+                        <img src="/andriod_icon.webp" alt="" srcset="" />
                     </div>
                     <h3 className="text-[35px] font-semibold leading-tight">
                     Android App Development
@@ -39,7 +39,7 @@ export default function DevelopmentCard() {
                         width={400}
                         height={200}
                         loader={customLoader}
-                        src="/android-turn-mockup.png"
+                        src="/android-turn-mockup.webp"
                         alt="two mobile mock screens shows the testing of streaming applications"
                         className="md:h-[200px] lg:h-[200px] xl:h-[auto]"
                         data-aos="slide-left"
@@ -85,7 +85,7 @@ export default function DevelopmentCard() {
                     data-aos-anchor-placement="center-bottom"
                 >
                     <div>
-                        <img src="/apple-icon-bg.png" />
+                        <img src="/apple-icon-bg.webp" />
                     </div>
                     <h3 className="text-[35px] font-semibold leading-tight">
                         iOS App Development
@@ -115,9 +115,9 @@ export default function DevelopmentCard() {
                     data-aos-anchor-placement="center-bottom"
                 >
                     <div className="flex items-center justify-center md:justify-start">
-                        <img src="/flutter-bg.png" alt=" " srcset="" />
-                        <img src="/react-bg.png" alt="" className='ml-3' srcset="" />
-                        <img src="/slide-bg.png" alt="" className='ml-3' srcset="" />
+                        <img src="/flutter-bg.webp" alt=" " srcset="" />
+                        <img src="/react-bg.webp" alt="" className='ml-3' srcset="" />
+                        <img src="/slide-bg.webp" alt="" className='ml-3' srcset="" />
                     </div>
                     <h3 className="text-[35px] font-semibold leading-tight">
                         Cross-Platform
@@ -149,7 +149,7 @@ export default function DevelopmentCard() {
                         <img
                             width={300}
                             height={380}
-                            src="/tecknov-bg.png"
+                            src="/tecknov-bg.webp"
                             alt="two mock screens shows the testing of application structure"
                             className="md:h-[350px] relative lg:h-[380px] left-[70px] md:left-[0px] xl:h-auto"
 
@@ -157,7 +157,7 @@ export default function DevelopmentCard() {
                         <img
                             width={300}
                             height={380}
-                            src="/tecknov-bg2.png"
+                            src="/tecknov-bg2.webp"
                             alt="two mock screens shows the testing of application structure"
                             className="md:h-[350px] lg:h-[380px] xl:h-auto relative  -left-[40px] md:-left-[120px] -z-[1]"
 

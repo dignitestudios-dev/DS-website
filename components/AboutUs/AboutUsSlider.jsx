@@ -34,30 +34,30 @@ const AboutUsSlider = () => {
       data-animated="true"
     >
       <div className="scroller__inner1 w-full  flex justify-start gap-6 items-center   ">
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
 
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
 
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
 
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
 
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
 
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
 
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
 
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
 
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
-        <img src="/our-journey.png" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
+        <img src="/our-journey.webp" className="h-[80px]" alt="Our Journey" />
       </div>
     </div>
   );

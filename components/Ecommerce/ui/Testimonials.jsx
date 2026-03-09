@@ -88,7 +88,7 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                     <div className="relative z-20 flex flex-col items-center justify-start h-full p-6 text-black">
                       {/* Quote Image */}
                       <img
-                        src="/location/mobile-california/quote.png"
+                        src="/location/mobile-california/quote.webp"
                         alt="quote"
                         className="absolute -top-8 left-1/2 -translate-x-1/2 z-20 w-16"
                       />
@@ -96,7 +96,7 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                       {/* Text content */}
                       <div className="my-10 text-center">
                         <img
-                          src="/location/mobile-california/rev.png"
+                          src="/location/mobile-california/rev.webp"
                           alt="review stars"
                           className="mx-auto mb-2"
                         />

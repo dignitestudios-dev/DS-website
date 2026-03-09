@@ -4,13 +4,13 @@ import { Autoplay , EffectCoverflow } from "swiper/modules";
 import React from "react";
 
 const images = [
-  "/gamesfun/monitor-1.png",
-  "/gamesfun/monitor-2.png",
-  "/gamesfun/monitor-3.png",
-  "/gamesfun/monitor-4.png",
-  "/gamesfun/monitor-5.png",
-  "/gamesfun/monitor-1.png",
-    "/gamesfun/monitor-2.png",
+  "/gamesfun/monitor-1.webp",
+  "/gamesfun/monitor-2.webp",
+  "/gamesfun/monitor-3.webp",
+  "/gamesfun/monitor-4.webp",
+  "/gamesfun/monitor-5.webp",
+  "/gamesfun/monitor-1.webp",
+    "/gamesfun/monitor-2.webp",
 
 ];
 
@@ -30,7 +30,7 @@ const FinalOutcome = () => {
      <div className="relative w-screen h-[50vh] md:h-[400px] flex items-center justify-center overflow-hidden">
   {/* Laptop Frame */}
   {/* <img
-    src="/laptop.png"
+    src="/laptop.webp"
     alt="laptop"
     className="absolute md:block hidden w-[240px] md:w-[600px] 2xl:w-[700px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-20"
   /> */}

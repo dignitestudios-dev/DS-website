@@ -17,7 +17,7 @@ const WorkWithDegnite = () => {
       >
         <div class="w-full flex flex-col items-center mb-6">
           <p class="text-[#F15C20] text-[20px] uppercase font-bold tracking-normal mb-1">Key Benefits OF</p>
-        <img src="/lines2.png" alt="lines2" />
+        <img src="/lines2.webp" alt="lines2" />
         </div>
         Working With <br /> Dignite Studios
       </h2>

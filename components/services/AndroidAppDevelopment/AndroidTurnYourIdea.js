@@ -48,7 +48,7 @@ const AndroidTurnYourIdea = () => {
       </div>
       <div className="col-span-5 lg:col-span-2 flex items-start justify-start">
         <img
-          src={"/android-turn-mockup.png"}
+          src={"/android-turn-mockup.webp"}
           className=" md:scale-75 lg:scale-100 "
         />
       </div>

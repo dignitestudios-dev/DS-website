@@ -15,7 +15,7 @@ const float = (delay = 0) => ({
 const Challenges = () => {
   return (
     <section className="relative w-full py-28 overflow-hidden">
-   {/* <img src="/crew/el.png" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
+   {/* <img src="/crew/el.webp" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
       {/* Heading */}
       <div className="relative z-10 max-w-7xl mx-auto text-center mb-24 px-4">
         <motion.h2

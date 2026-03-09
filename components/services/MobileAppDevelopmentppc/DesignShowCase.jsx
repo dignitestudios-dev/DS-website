@@ -36,13 +36,13 @@ const DesingShowCase = () => {
         <img src="/designshowcase2.webp" alt="" srcset="" />
         </SwiperSlide>       
         <SwiperSlide className="">
-        <img src="/amaizing3.png" alt="" srcset="" />
+        <img src="/amaizing3.webp" alt="" srcset="" />
         </SwiperSlide>       
         <SwiperSlide className="">
-        <img src="/amaizing4.png" alt="" srcset="" />
+        <img src="/amaizing4.webp" alt="" srcset="" />
         </SwiperSlide>       
         <SwiperSlide className="">
-        <img src="/amaizing5.png" alt="" srcset="" />
+        <img src="/amaizing5.webp" alt="" srcset="" />
         </SwiperSlide>       
       </Swiper>
     </>

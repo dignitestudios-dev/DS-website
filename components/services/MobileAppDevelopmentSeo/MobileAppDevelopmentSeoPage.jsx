@@ -46,7 +46,7 @@ const MobileAppDevelopmentSeoPage = () => {
               // loader={customLoader}
               width={1440}
               height={545}
-              src="/mobile-mpp-development-service-technologies-dark.png"
+              src="/mobile-mpp-development-service-technologies-dark.webp"
               alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
               className="w-full z-10 h-full md:h-[340px] lg:h-full absolute bottom-0"
             />

@@ -161,7 +161,7 @@ const ContactUsPage = () => {
   return (
     <div className="w-full bg-white pb-24">
       {/* Hero Section */}
-      <img src="/shad.png" alt="shad " className="absolute top-0 left-0" />
+      <img src="/shad.webp" alt="shad " className="absolute top-0 left-0" />
       <div className="flex flex-col items-center justify-center pt-24 pb-12 px-4 text-center max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-black mb-4">
           We Are Curious About <br />

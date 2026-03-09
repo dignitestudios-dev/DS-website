@@ -47,7 +47,7 @@ const Hero = () => {
           }}
         >
           <Image
-            src="/services/pwa-app/laptop.png"
+            src="/services/pwa-app/laptop.webp"
             alt="Mobile app development showcase Boston"
             width={1000}
             height={1000}
@@ -56,14 +56,14 @@ const Hero = () => {
             loader={customLoader} />
         </motion.div>
         <Image
-          src="/services/pwa-app/r.png"
+          src="/services/pwa-app/r.webp"
           alt=""
           width={200}
           height={200}
           className="absolute top-[0%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
          priority  loader={customLoader} />
         <Image
-          src="/services/pwa-app/r1.png"
+          src="/services/pwa-app/r1.webp"
           alt=""
           width={200}
           height={200}
@@ -71,7 +71,7 @@ const Hero = () => {
          priority  loader={customLoader} />
         <Image
   
-            src="/services/pwa-app/l.png"
+            src="/services/pwa-app/l.webp"
           alt=""
           width={200}
           height={200}

@@ -58,7 +58,7 @@ const Discorvery = () => {
   return (
     <section className="w-full py-24 px-6 relative ">
       <img
-        src="/home-hero/ecc.png"
+        src="/home-hero/ecc.webp"
         alt="ecc"
         className="absolute w-screen h-screen top-0"
       />

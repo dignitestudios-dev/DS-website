@@ -21,7 +21,7 @@ const BrandIdentity = () => {
 
   return (
     <div className=" py-24 relative" >
-    {/* <img src="/crew/el.png" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
+    {/* <img src="/crew/el.webp" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <motion.div
@@ -38,7 +38,7 @@ const BrandIdentity = () => {
           </p>
         </motion.div>
         <div className='flex h-[40vh] md:h-[110vh] max-h-[1000px] relative justify-center items-center' >
-<img src='/gamesfun/brand.png' alt='brand' className='absolute ' />
+<img src='/gamesfun/brand.webp' alt='brand' className='absolute ' />
        </div>
   
 

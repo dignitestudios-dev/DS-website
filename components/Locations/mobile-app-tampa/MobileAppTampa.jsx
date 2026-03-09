@@ -288,7 +288,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
         cta={
           <div className="bg-transparent overflow-hidden text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition-all  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
             <div className="relative" >
-            <img src="/location/mobile-tampa/b-cta.png" className="w-full rounded-b-2xl bottom-3 relative bg-cover" alt="lggg" />
+            <img src="/location/mobile-tampa/b-cta.webp" className="w-full rounded-b-2xl bottom-3 relative bg-cover" alt="lggg" />
             <div className="md:w-[45%] absolute top-[45%] left-[10%]  -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-start ">
               <h2 className="text-[45px] font-bold text-white leading-[45px]">
                 Ready to Talk With Our Experts? 
@@ -306,7 +306,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
                 </button>
               </Link>
             </div>
-            <img src="/location/mobile-tampa/cc.png" className="absolute right-10 bottom-14 rounded-br-2xl" />
+            <img src="/location/mobile-tampa/cc.webp" className="absolute right-10 bottom-14 rounded-br-2xl" />
             </div>
           </div>
         }
@@ -354,7 +354,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
       <ContactUs
         pathname={"Mobile Dev in Tampa "}
         header={"Connect With Our Experts Today! "}
-        img={"/location/mobile-tampa/c-img.png"}
+        img={"/location/mobile-tampa/c-img.webp"}
         header2={""}
         para={
           "Your idea shouldn’t wait any longer. Start your mobile app project today with us and get a custom build according to your business needs. "

@@ -45,7 +45,7 @@ const Hero = () => {
           className="absolute md:block hidden left-[50%] translate-x-[-50%] -top-[50%] -z-0"
          width={1200} height={1200} priority alt=""  loader={customLoader} />
         <motion.img
-          src="/location/mobile-chicago/mob.png"
+          src="/location/mobile-chicago/mob.webp"
           alt="bg"
           width={400}
           height={400}
@@ -59,12 +59,12 @@ const Hero = () => {
           }}
         />
         <Image
-          src="/location/mobile-chicago/r.png"
+          src="/location/mobile-chicago/r.webp"
           alt="r"
           className="absolute top-[20%] left-[0%] md:left-[75%] translate-x-[-50%] md:block hidden"
          width={300} height={300} priority  loader={customLoader} />
         <Image
-          src="/location/mobile-chicago/l.png"
+          src="/location/mobile-chicago/l.webp"
           alt="l"
           className="absolute top-[30%] left-[0%] md:left-[32%] translate-x-[-50%] md:block hidden"
          width={300} height={300} priority  loader={customLoader} />

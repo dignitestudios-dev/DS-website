@@ -11,7 +11,7 @@ const AdminDashboard = () => {
       ref={ref}
       className="relative flex flex-col items-center justify-center py-20 overflow-hidden "
     >
-    {/* <img src="/crew/el.png" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
+    {/* <img src="/crew/el.webp" alt="ellipse" className="absolute top-10 left-0 w-screen h-[100%]" /> */}
 
       {/* HEADER */}
       <div className="text-center max-w-4xl mb-20 px-4 relative z-10">
@@ -136,7 +136,7 @@ const AdminDashboard = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="relative z-0 mx-auto max-w-4xl"
         >
-          <img src="/crew/laptop.png" alt="laptop" className="w-full" />
+          <img src="/crew/laptop.webp" alt="laptop" className="w-full" />
         </motion.div>
       </div>
     </div>
