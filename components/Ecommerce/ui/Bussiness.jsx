@@ -64,22 +64,22 @@ const Bussiness = ({
 
   const icons = [
     {
-      icon: "i1.png",
+      icon: "i1.webp",
     },
     {
-      icon: "i2.png",
+      icon: "i2.webp",
     },
     {
-      icon: "i3.png",
+      icon: "i3.webp",
     },
     {
-      icon: "i4.png",
+      icon: "i4.webp",
     },
     {
-      icon: "i5.png",
+      icon: "i5.webp",
     },
     {
-      icon: "i6.png",
+      icon: "i6.webp",
     },
   ];
 

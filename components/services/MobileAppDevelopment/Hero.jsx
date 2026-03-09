@@ -60,7 +60,7 @@ const Hero = () => {
         >
           <img
            
-            src="/services/mobile-app/mob.png"
+            src="/services/mobile-app/mob.webp"
             alt="Mobile app development showcase Boston"
             width={800}
             height={800}
