@@ -17,9 +17,7 @@ const page = () => {
   return (
     <div>
       <GlobalLayout page={<ProgressiveWebAppDevelopment />} />
-
-      {/* Service Schema */}
-      <Script
+  <Script
         type="application/ld+json"
         id="service-schema"
         dangerouslySetInnerHTML={{
@@ -46,6 +44,7 @@ const page = () => {
           }),
         }}
       />
+    
 
       {/* BreadcrumbList Schema */}
       <Script
