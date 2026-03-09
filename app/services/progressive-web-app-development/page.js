@@ -25,7 +25,7 @@ const page = () => {
             "@context": "https://schema.org",
             "@type": "Service",
             "@id":
-              "https://www.dignitestudios.com/services/progressive-web-app-development",
+              "https://www.dignitestudios.com/services/progressive-web-app-development#service",
             name: "Progressive Web App Development Services",
             serviceType: "Progressive Web App Development",
             description:
