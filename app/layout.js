@@ -7,7 +7,7 @@ import Script from "next/script";
 import DisplayIp from "@/components/global/DisplayIp";
 import AOSInit from "@/components/global/AosInit";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export default function RootLayout({ children }) {
   return (
