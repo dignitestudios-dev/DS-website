@@ -4,6 +4,10 @@ const nextConfig = {
     loader: "custom",
     path: "https://dignitestudios.com/",
   },
+  compiler: {
+    removeConsole: process.env.NODE_ENV === "production",
+  },
+  swcMinify: true,
 };
 
 module.exports = nextConfig;

@@ -27,7 +27,7 @@ import {
   SiGooglecloud,
   SiDigitalocean,
 } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { FaAmazon, FaJava, FaMicrosoft } from "react-icons/fa";
 import { RiCloudLine } from "react-icons/ri";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
@@ -160,13 +160,13 @@ const techData = {
   "Cloud & DevOps": [
     {
       name: "AWS",
-      icon: <SiAmazonaws />,
+      icon: <FaAmazon />,
       description:
         "Scalable infrastructure, reliable hosting, and real-time monitoring.",
     },
     {
       name: "Azure",
-      icon: <SiMicrosoftazure />,
+      icon: <FaMicrosoft />,
       description:
         "Enterprise-ready cloud with strong security and integration.",
     },
