@@ -1,68 +1,50 @@
 const fs = require("fs");
 const path = require("path");
 
-function findHeroFiles(dir, fileList = []) {
-  if (!fs.existsSync(dir)) return fileList;
-  const files = fs.readdirSync(dir);
-  for (const file of files) {
-    const fullPath = path.join(dir, file);
-    if (fs.statSync(fullPath).isDirectory()) {
-      findHeroFiles(fullPath, fileList);
-    } else if (file.match(/^Hero\.jsx?$/)) {
-      fileList.push(fullPath);
-    }
+// CSS imports to remove from component files
+const cssImportsToRemove = [
+  'import "swiper/css";',
+  "import 'swiper/css';",
+  'import "swiper/css/pagination";',
+  "import 'swiper/css/pagination';",
+  'import "swiper/css/navigation";',
+  "import 'swiper/css/navigation';",
+  'import "swiper/css/effect-fade";',
+  "import 'swiper/css/effect-fade';",
+  'import "react-phone-input-2/lib/style.css";',
+  "import 'react-phone-input-2/lib/style.css';",
+];
+
+function walk(dir, ext, files = []) {
+  if (!fs.existsSync(dir)) return files;
+  for (const f of fs.readdirSync(dir)) {
+    const full = path.join(dir, f);
+    if (fs.statSync(full).isDirectory()) walk(full, ext, files);
+    else if (f.endsWith(ext[0]) || f.endsWith(ext[1])) files.push(full);
   }
-  return fileList;
+  return files;
 }
 
-const targetDir = path.join(__dirname, "components");
-const filesList = findHeroFiles(targetDir);
-
+const components = walk(path.join(__dirname, "components"), [".jsx", ".js"]);
 let updatedCount = 0;
 
-for (const file of filesList) {
+for (const file of components) {
   let content = fs.readFileSync(file, "utf8");
-  let originalContent = content;
+  let original = content;
 
-  if (content.match(/<Image\s/g)) {
-    // Add customLoader import if missing
-    if (!content.includes("@/lib/custom-loader")) {
-      const importMatches = [...content.matchAll(/^import.*from.*$/gm)];
-      if (importMatches.length > 0) {
-        const lastImport = importMatches[importMatches.length - 1];
-        const insertPos = lastImport.index + lastImport[0].length;
-        content =
-          content.slice(0, insertPos) +
-          '\nimport customLoader from "@/lib/custom-loader";' +
-          content.slice(insertPos);
-      } else {
-        content = 'import customLoader from "@/lib/custom-loader";\n' + content;
-      }
-    }
-
-    // Replace <Image missing loader with loader
-    content = content.replace(
-      /<Image([\s\S]*?)(\/?>|>)/g,
-      (match, attrs, end) => {
-        let newAttrs = attrs;
-
-        if (!newAttrs.includes("loader=")) {
-          newAttrs += " loader={customLoader}";
-        }
-
-        // Some generic fix, let's also remove width=500 height=500 if that was a bad idea?
-        // Actually `Image` requires width and height, or fill. So we leave it.
-
-        return `<Image${newAttrs} />`;
-      },
-    );
+  for (const imp of cssImportsToRemove) {
+    // Remove the import line entirely
+    content = content
+      .split("\n")
+      .filter((line) => line.trim() !== imp.trim())
+      .join("\n");
   }
 
-  if (content !== originalContent) {
+  if (content !== original) {
     fs.writeFileSync(file, content);
     updatedCount++;
-    console.log(`Updated ${file}`);
+    console.log(`Cleaned: ${path.relative(__dirname, file)}`);
   }
 }
 
-console.log(`Total files updated: ${updatedCount}`);
+console.log(`\nTotal files cleaned: ${updatedCount}`);

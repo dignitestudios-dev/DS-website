@@ -6,7 +6,6 @@ import React, { useContext } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import 'swiper/css/effect-fade';
 import { Autoplay, EffectFade } from 'swiper/modules';
 const TurnYourIdea = () => {
   const { palette } = useContext(GlobalContext);

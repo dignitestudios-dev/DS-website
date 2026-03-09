@@ -1,10 +1,6 @@
 "use client";
 import React, { useContext, useRef, useState } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import { GlobalContext } from "@/context/GlobalContext";
 import { VALUE_PROPOSITION } from "@/constants/valueproposition";
 import { IOS_APP_DESIGN_BENEFITS_OF_WORKING_WITH_DIGNITE } from "@/constants/IosBenefitsOfWorkingWithDignite";

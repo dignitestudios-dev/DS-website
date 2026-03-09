@@ -1,10 +1,6 @@
 "use client";
 import React, { useContext, useRef, useState } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import Link from "next/link";
 

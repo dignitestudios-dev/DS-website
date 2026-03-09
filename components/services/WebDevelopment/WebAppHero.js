@@ -7,7 +7,6 @@ import { BsArrowRight } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import "swiper/css/effect-fade";
 import { Autoplay, EffectFade } from "swiper/modules";
 
 const ServicesHero = () => {

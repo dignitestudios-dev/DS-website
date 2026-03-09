@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { IoArrowBack, IoArrowForward } from "react-icons/io5";
-import "swiper/css";
-import "swiper/css/navigation";
 
 const Wireframe = () => {
   const wireframes = [

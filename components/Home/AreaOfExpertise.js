@@ -3,10 +3,6 @@ import { expertise } from "@/constants/areaofexpertise";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext, useRef, useState } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 
 export const sliderSettings = {

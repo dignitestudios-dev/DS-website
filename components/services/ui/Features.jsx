@@ -8,8 +8,6 @@ import { MdArrowOutward } from "react-icons/md";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
 
 const Features = ({ header, header2, para, features, button }) => {
   return (

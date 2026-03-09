@@ -3,8 +3,6 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import { motion } from "framer-motion";
-import "swiper/css";
-import "swiper/css/pagination";
 import { MdArrowOutward } from "react-icons/md";
 import Link from "next/link";
 const bs = [

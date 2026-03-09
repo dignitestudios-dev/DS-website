@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import { Navigation } from "swiper/modules";
 import { IoArrowBack, IoArrowForward } from "react-icons/io5";
 

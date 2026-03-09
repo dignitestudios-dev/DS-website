@@ -2,8 +2,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import { IoIosArrowDown } from "react-icons/io";
-import "swiper/css";
-import "swiper/css/pagination";
 
 import { languages } from "./ProgrammingLanguages";
 import { cloudPlatforms } from "./CloudPlatforms";

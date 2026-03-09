@@ -188,7 +188,7 @@ const Navbar = ({ setIsOpen }) => {
         image: "/com-r.png",
         items: [
           ["About Us", "/about-us"],
-          ["Blog", "/blog"],
+          // ["Blog", "/blog"],
         ],
       },
     ],

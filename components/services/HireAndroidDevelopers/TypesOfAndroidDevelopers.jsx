@@ -1,9 +1,5 @@
 "use client";
 import React, { useContext } from "react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import { GlobalContext } from "@/context/GlobalContext";
 import ContactButton from "@/components/global/ContactButton";
 

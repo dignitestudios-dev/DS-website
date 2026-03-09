@@ -6,9 +6,6 @@ import { val } from "@/constants/reviews";
 import TestimonialCard from "./TestimonialCard";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import Head from "next/head";
 import Script from "next/script";
 

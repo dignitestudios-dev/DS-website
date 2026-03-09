@@ -5,8 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 

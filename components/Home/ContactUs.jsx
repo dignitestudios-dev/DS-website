@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
-import "react-phone-input-2/lib/style.css";
 import { MdArrowOutward } from "react-icons/md";
 
 const ContactUs = ({ pathname, header, img, header2, para, btn }) => {

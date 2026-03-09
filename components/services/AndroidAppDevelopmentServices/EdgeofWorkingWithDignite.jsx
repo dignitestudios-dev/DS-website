@@ -1,10 +1,6 @@
 "use client";
 import React, { useContext, useRef, useState } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import { BENEFITS_OF_DIGNITE_STUDIOS } from "@/constants/benefitsofdignitestudio";
 import { GlobalContext } from "@/context/GlobalContext";
 import { EDGE_OF_WORKING_WITH_DIGNITE } from "@/constants/edgeofworkingwithdignite";

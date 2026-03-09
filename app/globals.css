@@ -1,3 +1,10 @@
+/* Third-party CSS consolidated here to reduce render-blocking chunks */
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+@import "swiper/css/effect-fade";
+@import "react-phone-input-2/lib/style.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

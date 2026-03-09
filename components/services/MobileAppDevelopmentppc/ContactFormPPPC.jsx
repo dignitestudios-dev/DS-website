@@ -4,7 +4,6 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Image from "next/image";
 import React, { useContext, useState } from "react";
 import PhoneInput from "react-phone-input-2";
-import "react-phone-input-2/lib/style.css";
 import { usePathname } from "next/navigation";
 import customLoader from "@/lib/custom-loader";
 import { LuArrowUpRight } from "react-icons/lu";
