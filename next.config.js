@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    loader: "custom",
-    path: "https://dignitestudios.com/",
+    // Disable the built-in Next.js Image Optimization for static export and
+    // simplify image usage across the app.
+    unoptimized: true,
     formats: ['image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
@@ -17,6 +18,10 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['react-icons', 'framer-motion', 'swiper'],
     optimizeCss: true,
+  },
+  trailingSlash: false,
+  generateBuildId: async () => {
+    return 'build-' + Date.now();
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {

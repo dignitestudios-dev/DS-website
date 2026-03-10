@@ -69,7 +69,7 @@ const Hero = () => {
             priority
             quality={80}
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 721px, 721px"
-            className="object-cover w-full h-full"
+            className="object-cover w-[80%] mx-auto h-full"
             loader={customLoader} />
         </motion.div>
         {/* <Image
