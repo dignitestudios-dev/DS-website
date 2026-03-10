@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";

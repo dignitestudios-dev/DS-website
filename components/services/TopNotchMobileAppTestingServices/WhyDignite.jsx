@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -42,9 +41,7 @@ const WhyDignite = () => {
           >
             <Image
               width={40}
-              height={40}
-              loader={customLoader}
-              src="/performance-testing.webp"
+              height={40}src="/performance-testing.webp"
               alt="performance-testing"
               className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
             />
@@ -66,9 +63,7 @@ const WhyDignite = () => {
           >
             <Image
               width={40}
-              height={40}
-              loader={customLoader}
-              src="/quality-assessement.webp"
+              height={40}src="/quality-assessement.webp"
               alt="quality-assessement"
               className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
             />
@@ -96,9 +91,7 @@ const WhyDignite = () => {
           >
             <Image
               width={40}
-              height={40}
-              loader={customLoader}
-              src="/track-record.webp"
+              height={40}src="/track-record.webp"
               alt="track-record"
               className="w-10 h-10 scale-75 group-hover:scale-110 group-hover:rotate-90 transition-all duration-1000"
             />

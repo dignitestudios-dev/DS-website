@@ -1,5 +1,4 @@
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Link from "next/link";
 import React, { useContext, useState } from "react";
 import Image from "next/image";
@@ -451,9 +450,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-mobile-app-development-services.webp"
           alt="image shows man is holding a mobile device that appears top mobile app development layout"
@@ -488,9 +485,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-ios-app-development-services.webp"
           alt="Top iOS App Development Services"
@@ -525,9 +520,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-android-app-development-services.webp"
           alt="Top iOS App Development Services"
@@ -562,9 +555,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-native-app-development-services.webp"
           alt="image shows hiring of top android app developers"
@@ -599,9 +590,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-pwa-development-services.webp"
           alt="image shows hiring of top android app developers"
@@ -636,9 +625,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-webp-app-development-services.webp"
           alt="Top iOS App Development Services"
@@ -673,9 +660,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-mobile-app-design-services.webp"
           alt="image shows man is holding a mobile device that appears top mobile app design interface"
@@ -710,9 +695,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-ios-app-design-services.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
@@ -747,9 +730,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-android-app-design-services.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
@@ -784,9 +765,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-mobile-app-development-testing-services.webp"
           alt="image shows man is holding a mobile device that appears top mobile app testing screen"
@@ -821,9 +800,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-mobile-app-development-consulting-services.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
@@ -858,9 +835,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/top-mobile-app-support-and-maintenance-services.webp"
           alt="image shows a mobile app support and maintenance services"
@@ -897,9 +872,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/hire-top-mobile-app-developers.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
@@ -936,9 +909,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/hire-top-ios-app-developers.webp"
           alt="image shows a mobile app consulting discussion between consultant and client"
@@ -973,9 +944,7 @@ const MobileAppServiceCard = () => {
             : "border border-[#7c7c7c]"
         }`}
       >
-        <Image
-          loader={customLoader}
-          width={300}
+        <Image width={300}
           height={200}
           src="/hire-top-android-app-developers.webp"
           alt="image shows hiring of top android app developers"

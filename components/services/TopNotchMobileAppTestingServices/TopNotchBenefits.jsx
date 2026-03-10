@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext } from "react";
 
@@ -62,9 +61,7 @@ const TopNotchBenefits = () => {
           >
             <Image
               width={242}
-              height={347}
-              loader={customLoader}
-              src="/mobile-app-testing-exclusive-error-detection.webp"
+              height={347}src="/mobile-app-testing-exclusive-error-detection.webp"
               alt="mock screen shows the mobile app testing of login layout"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
@@ -89,9 +86,7 @@ const TopNotchBenefits = () => {
           >
             <Image
               width={242}
-              height={347}
-              loader={customLoader}
-              src="/mobile-app-testing-quality-assurance.webp"
+              height={347}src="/mobile-app-testing-quality-assurance.webp"
               alt="the mock screen shows the quality detection of mobile app testing tool"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
@@ -171,9 +166,7 @@ const TopNotchBenefits = () => {
           >
             <Image
               width={242}
-              height={347}
-              loader={customLoader}
-              src="/mobile-app-testing-security-prevalence.webp"
+              height={347}src="/mobile-app-testing-security-prevalence.webp"
               alt="mock up screen shows olivia james profile"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"
@@ -198,9 +191,7 @@ const TopNotchBenefits = () => {
           >
             <Image
               width={242}
-              height={347}
-              loader={customLoader}
-              src="/mobile-app-testing-fast-development.webp"
+              height={347}src="/mobile-app-testing-fast-development.webp"
               alt="mockup screen shows the testing of people you know the layout of the application"
               className="w-[242px] h-[367px] md:h-[347.52px] lg:h-auto"
               data-aos="slide-up"

@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -25,9 +24,7 @@ const DigniteServiceScope = () => {
             <p className="text-xl font-bold text-[#F15C20] uppercase">
               want to know
             </p>
-            <Image
-              loader={customLoader}
-              width={141}
+            <Image width={141}
               height={8}
               src="/lines.webp"
               alt="design-lines"
@@ -49,9 +46,7 @@ const DigniteServiceScope = () => {
             <ContactButton text1={"Schedule a call"} text2={"Let's talk"} />
           </div>
         </div>
-        <Image
-          loader={customLoader}
-          width={544.12}
+        <Image width={544.12}
           height={557.42}
           src="/dignite-service-scope-mockup.webp"
           alt="dignite-service-scope-mockup"

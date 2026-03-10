@@ -6,8 +6,6 @@ import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const Hero = () => {
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start ">
@@ -43,7 +41,7 @@ const Hero = () => {
         <Image
           src="/location/grad.webp"
           className="absolute md:block hidden left-[50%] translate-x-[-50%] -top-[50%] -z-0"
-         width={1200} height={1200} priority alt=""  loader={customLoader} />
+         width={1200} height={1200} priority alt=""/>
         <motion.img
           src="/location/mobile-chicago/mob.webp"
           alt="bg"
@@ -62,12 +60,12 @@ const Hero = () => {
           src="/location/mobile-chicago/r.webp"
           alt="r"
           className="absolute top-[20%] left-[0%] md:left-[75%] translate-x-[-50%] md:block hidden"
-         width={300} height={300} priority  loader={customLoader} />
+         width={300} height={300} priority/>
         <Image
           src="/location/mobile-chicago/l.webp"
           alt="l"
           className="absolute top-[30%] left-[0%] md:left-[32%] translate-x-[-50%] md:block hidden"
-         width={300} height={300} priority  loader={customLoader} />
+         width={300} height={300} priority/>
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>

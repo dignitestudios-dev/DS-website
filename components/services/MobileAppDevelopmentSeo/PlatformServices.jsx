@@ -1,6 +1,5 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -37,9 +36,7 @@ const PlatformServices = () => {
         <div className="w-full lg:w-[55%] flex flex-col items-start justify-center gap-y-6 lg:gap-y-14 h-full lg:pt-10 xl:pt-20 xl:pr-24">
           <div className="flex flex-col items-start gap-2">
             <div className="flex items-center justify-start gap-3">
-              <Image
-                loader={customLoader}
-                loading="lazy"
+              <Image loading="lazy"
                 width={21}
                 height={21}
                 src="/android-mobile-app-mockup.webp"
@@ -68,9 +65,7 @@ const PlatformServices = () => {
           </div>
           <div className="flex flex-col items-start gap-2">
             <div className="flex items-center justify-start gap-3">
-              <Image
-                loader={customLoader}
-                loading="lazy"
+              <Image loading="lazy"
                 width={21}
                 height={21}
                 src="/ios-mockup.webp"
@@ -101,9 +96,7 @@ const PlatformServices = () => {
           </div>
         </div>
         <div className="w-full lg:w-[45%] h-full">
-          <Image
-            loader={customLoader}
-            loading="lazy"
+          <Image loading="lazy"
             width={596}
             height={557}
             src="/telehealth-mobile-app-development.webp"

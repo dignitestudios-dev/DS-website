@@ -3,8 +3,6 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const IndustryCard = ({ industry }) => {
   const { palette } = useContext(GlobalContext);
   return (
@@ -16,8 +14,7 @@ const IndustryCard = ({ industry }) => {
         src={industry?.image}
         alt={industry?.alt}
         className=""
-        // loader={customLoader}
-        width={32}
+        //width={32}
         height={32}
       />
       <h3 className="text-xl font-bold" style={{ color: palette?.color }}>

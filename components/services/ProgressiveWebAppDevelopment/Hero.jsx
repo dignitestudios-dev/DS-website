@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 import Link from "next/link";
@@ -52,8 +51,7 @@ const Hero = () => {
             width={1000}
             height={1000}
             priority
-            className="object-cover lg:mr-40"
-            loader={customLoader} />
+            className="object-cover lg:mr-40"/>
         </motion.div>
         <Image
           src="/services/pwa-app/r.webp"
@@ -61,14 +59,14 @@ const Hero = () => {
           width={200}
           height={200}
           className="absolute top-[0%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
-         priority  loader={customLoader} />
+         priority/>
         <Image
           src="/services/pwa-app/r1.webp"
           alt=""
           width={200}
           height={200}
           className="absolute top-[-20%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
-         priority  loader={customLoader} />
+         priority/>
         <Image
   
             src="/services/pwa-app/l.webp"
@@ -76,7 +74,7 @@ const Hero = () => {
           width={200}
           height={200}
           className="absolute top-[25%] lg:block hidden left-[0%] md:left-[25%] translate-x-[-50%]"
-         priority  loader={customLoader} />
+         priority/>
         <div className="absolute -bottom-24 left-0 w-full border-none h-20 lg:h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>

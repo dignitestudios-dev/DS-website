@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -44,9 +43,7 @@ const WhyDigniteStudios = () => {
 
       <div className="w-full col-span-3 xl:col-span-2">
         <div className="w-full flex flex-col items-start gap-2">
-          <Image
-            loader={customLoader}
-            src={"/powerful-business-handling-icon.webp"}
+          <Image src={"/powerful-business-handling-icon.webp"}
             width={36}
             height={36}
             alt="Powerful business handling icon"
@@ -68,9 +65,7 @@ const WhyDigniteStudios = () => {
 
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 mt-6 lg:mt-10">
           <div className="w-full flex flex-col items-start gap-2">
-            <Image
-              loader={customLoader}
-              src={"/intuitive-user-experience-icon.webp"}
+            <Image src={"/intuitive-user-experience-icon.webp"}
               width={36}
               height={36}
               alt="Intuitive user experience icon"
@@ -89,9 +84,7 @@ const WhyDigniteStudios = () => {
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-2">
-            <Image
-              loader={customLoader}
-              width={36}
+            <Image width={36}
               height={36}
               src={"/scalable-app-compliance-icon.webp"}
               alt="scalable app compliance icon"
@@ -111,9 +104,7 @@ const WhyDigniteStudios = () => {
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-2">
-            <Image
-              loader={customLoader}
-              src={"/impeccable-security-measures-icon.webp"}
+            <Image src={"/impeccable-security-measures-icon.webp"}
               width={36}
               height={36}
               alt="impeccable security measures icon"
@@ -132,9 +123,7 @@ const WhyDigniteStudios = () => {
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-2">
-            <Image
-              loader={customLoader}
-              width={36}
+            <Image width={36}
               height={36}
               src={"/Translucent-environment-icon.webp"}
               alt="Translucent environment icon"

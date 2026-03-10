@@ -5,7 +5,6 @@ import Marquee from "react-fast-marquee";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 const img = [
   "/home-hero/marq/1.webp",
   "/home-hero/marq/2.webp",
@@ -20,17 +19,13 @@ const img = [
 const Hero = () => {
   return (
     <div className="w-full relative z-10 bg-[url('/home-hero/grad.webp')] -mt-40 bg-cover -mb-40 bg-center bg-no-repeat  max-w-screen-2xl mx-auto flex flex-col  h-auto md:max-h-[170vh]  pt-44 pb-[50%] md:pb-[40vh]  gap-4 justify-start items-center ">
-      {/* <Image
-        loader={customLoader}
-        src="/home-hero/grad.webp"
+      {/* <Image src="/home-hero/grad.webp"
         alt=""
         fill
         priority
         className="absolute z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover w-full h-screen md:max-h-[170vh] object-cover"
        /> */}
-      <Image
-        loader={customLoader}
-        src="/home-hero/l1.webp"
+      <Image src="/home-hero/l1.webp"
         alt="3d icons"
         width={300}
         height={300}
@@ -42,18 +37,14 @@ const Hero = () => {
         animate={{ y: [0, -15, 0] }}
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
       >
-        <Image
-          loader={customLoader}
-          src="/home-hero/l2.webp"
+        <Image src="/home-hero/l2.webp"
           alt="3d icons"
           width={300}
           height={300}
           priority
          />
       </motion.div>
-      <Image
-        loader={customLoader}
-        src="/home-hero/r1.webp"
+      <Image src="/home-hero/r1.webp"
         alt="laptop"
         width={420}
         height={420}
@@ -65,9 +56,7 @@ const Hero = () => {
         animate={{ y: [0, 15, 0] }}
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
       >
-        <Image
-          loader={customLoader}
-          src="/home-hero/r2.webp"
+        <Image src="/home-hero/r2.webp"
           alt="tablet"
           width={350}
           height={350}
@@ -105,9 +94,7 @@ const Hero = () => {
               key={index}
               className="flex items-center justify-center mx-6 h-16"
             >
-              <Image
-                loader={customLoader}
-                src={item}
+              <Image src={item}
                 alt="Client Partner Logo"
                 width={100}
                 height={64}

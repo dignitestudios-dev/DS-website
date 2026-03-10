@@ -5,7 +5,6 @@ import { Pagination, Autoplay } from "swiper/modules";
 import { motion } from "framer-motion";
 import { MdArrowOutward } from "react-icons/md";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 const bs = [
   {
     title: "100% Custom App Development",
@@ -109,9 +108,7 @@ const Bussiness = ({
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
-                  <Image
-                    loader={customLoader}
-                    src={`/location/mobile-california/${icons[index].icon}`}
+                  <Image src={`/location/mobile-california/${icons[index].icon}`}
                     alt={item.title}
                     width={350}
                     height={390}
@@ -181,9 +178,7 @@ const Bussiness = ({
               </div>
 
               <div className="absolute top-1/2 left-[50%] -translate-x-1/2 -translate-y-1/2">
-                <Image
-                  loader={customLoader}
-                  src="/location/mobile-california/icons/logo.webp"
+                <Image src="/location/mobile-california/icons/logo.webp"
                   alt="Dignite Studios Logo"
                   width={100}
                   height={100}
@@ -197,9 +192,7 @@ const Bussiness = ({
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
-                  <Image
-                    loader={customLoader}
-                    src={`/location/mobile-california/${icons[index + 3].icon}`}
+                  <Image src={`/location/mobile-california/${icons[index + 3].icon}`}
                     alt={item.title}
                     width={350}
                     height={390}
@@ -263,9 +256,7 @@ const Bussiness = ({
               {bsToUse.map((item, index) => (
                 <SwiperSlide key={index}>
                   <div className="relative w-[350px] mx-auto">
-                    <Image
-                      loader={customLoader}
-                      src={`/location/mobile-california/${icons[index].icon}`}
+                    <Image src={`/location/mobile-california/${icons[index].icon}`}
                       alt={item.title}
                       width={350}
                       height={390}

@@ -1,6 +1,5 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext } from "react";
 
@@ -22,9 +21,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/flutter-icon.webp"
+              height={22}src="/flutter-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -40,9 +37,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/swift-icon.webp"
+              height={22}src="/swift-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -58,9 +53,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/vue-icon.webp"
+              height={22}src="/vue-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -76,9 +69,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/react-icon.webp"
+              height={22}src="/react-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -94,9 +85,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/illustrator-icon.webp"
+              height={22}src="/illustrator-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -112,9 +101,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/tailwind-icon.webp"
+              height={22}src="/tailwind-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -130,9 +117,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/flutter-icon.webp"
+              height={22}src="/flutter-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -148,9 +133,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/swift-icon.webp"
+              height={22}src="/swift-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -166,9 +149,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/vue-icon.webp"
+              height={22}src="/vue-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -184,9 +165,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/react-icon.webp"
+              height={22}src="/react-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -202,9 +181,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/illustrator-icon.webp"
+              height={22}src="/illustrator-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -220,9 +197,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/tailwind-icon.webp"
+              height={22}src="/tailwind-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -238,9 +213,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/flutter-icon.webp"
+              height={22}src="/flutter-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -256,9 +229,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/swift-icon.webp"
+              height={22}src="/swift-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -274,9 +245,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/vue-icon.webp"
+              height={22}src="/vue-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -292,9 +261,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/react-icon.webp"
+              height={22}src="/react-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -310,9 +277,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/illustrator-icon.webp"
+              height={22}src="/illustrator-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -328,9 +293,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/tailwind-icon.webp"
+              height={22}src="/tailwind-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -346,9 +309,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/flutter-icon.webp"
+              height={22}src="/flutter-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -364,9 +325,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/swift-icon.webp"
+              height={22}src="/swift-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -382,9 +341,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/vue-icon.webp"
+              height={22}src="/vue-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -400,9 +357,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/react-icon.webp"
+              height={22}src="/react-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -418,9 +373,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/illustrator-icon.webp"
+              height={22}src="/illustrator-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -436,9 +389,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/tailwind-icon.webp"
+              height={22}src="/tailwind-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -459,9 +410,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/photoshop-icon.webp"
+              height={22}src="/photoshop-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -477,9 +426,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/java-icon.webp"
+              height={22}src="/java-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -495,9 +442,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/kotlin-icon.webp"
+              height={22}src="/kotlin-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -513,9 +458,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/firebase-icon.webp"
+              height={22}src="/firebase-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -531,9 +474,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/visual-studio-icon.webp"
+              height={22}src="/visual-studio-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -549,9 +490,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/photoshop-icon.webp"
+              height={22}src="/photoshop-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -567,9 +506,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/java-icon.webp"
+              height={22}src="/java-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -585,9 +522,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/kotlin-icon.webp"
+              height={22}src="/kotlin-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -603,9 +538,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/firebase-icon.webp"
+              height={22}src="/firebase-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -621,9 +554,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/visual-studio-icon.webp"
+              height={22}src="/visual-studio-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -639,9 +570,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/photoshop-icon.webp"
+              height={22}src="/photoshop-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -657,9 +586,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/java-icon.webp"
+              height={22}src="/java-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -675,9 +602,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/kotlin-icon.webp"
+              height={22}src="/kotlin-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -693,9 +618,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/firebase-icon.webp"
+              height={22}src="/firebase-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -711,9 +634,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/visual-studio-icon.webp"
+              height={22}src="/visual-studio-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -729,9 +650,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/photoshop-icon.webp"
+              height={22}src="/photoshop-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[18px]"
@@ -747,9 +666,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/java-icon.webp"
+              height={22}src="/java-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -765,9 +682,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/kotlin-icon.webp"
+              height={22}src="/kotlin-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -783,9 +698,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/firebase-icon.webp"
+              height={22}src="/firebase-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"
@@ -801,9 +714,7 @@ const Technologies = () => {
           >
             <Image
               width={22}
-              height={22}
-              loader={customLoader}
-              src="/visual-studio-icon.webp"
+              height={22}src="/visual-studio-icon.webp"
               alt="tehcnology-icon"
               loading="lazy"
               className="w-[22px] h-[22px]"

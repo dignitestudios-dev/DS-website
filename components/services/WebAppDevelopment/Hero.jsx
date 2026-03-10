@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 import Link from "next/link";
@@ -43,9 +42,7 @@ const Hero = () => {
             alt=""
             fill
             priority
-            className=""
-            loader={customLoader}
-          />
+            className=""/>
         </div>
         <motion.div
           className="relative"
@@ -63,21 +60,15 @@ const Hero = () => {
             width={800}
             height={800}
             priority
-            className="object-cover "
-            loader={customLoader}
-          />
+            className="object-cover "/>
         </motion.div>
-        {/* <Image
-          loader={customLoader}
-          src="/location/mobile-boston/r.webp"
+        {/* <Image src="/location/mobile-boston/r.webp"
           alt=""
           width={150}
           height={150}
           className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
          />
-        <Image
-          loader={customLoader}
-          src="/location/mobile-boston/l.webp"
+        <Image src="/location/mobile-boston/l.webp"
           alt=""
           width={150}
           height={150}

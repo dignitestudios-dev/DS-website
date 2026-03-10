@@ -1,6 +1,5 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -38,9 +37,7 @@ const InnovativeMobileAppSection = () => {
             </Link>
           </div>
         </div>
-        <Image
-          loader={customLoader}
-          loading="lazy"
+        <Image loading="lazy"
           width={544.12}
           height={557.42}
           src="/dignite-service-scope-mockup.webp"

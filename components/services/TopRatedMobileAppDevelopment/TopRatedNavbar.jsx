@@ -7,7 +7,6 @@ import { GlobalContext } from "@/context/GlobalContext";
 import { IoIosArrowDown } from "react-icons/io";
 import { useParams, usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 import { IoCall } from "react-icons/io5";
 import { FiArrowUpRight } from "react-icons/fi";
 import { BiMenuAltRight } from "react-icons/bi";
@@ -43,8 +42,7 @@ const TopRatedNavbar = ({ setIsOpen }) => {
       <Link aria-label="logo" href="/" className="h-auto">
         <img
           alt="logo"
-          // loader={customLoader}
-          // width={120}
+          //// width={120}
           // height={64}
           src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"}
           className="h-[70px] w-[120px]"

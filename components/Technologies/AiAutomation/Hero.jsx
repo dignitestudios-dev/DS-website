@@ -6,8 +6,6 @@ import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const Hero = () => {
   const iconGroups = [
     {
@@ -82,14 +80,14 @@ const Hero = () => {
             width={800}
             height={800}
             className="hidden lg:block object-contain"
-           priority  loader={customLoader} />
+           priority/>
           <Image
             src={"/technologies/ai/circle-icons.webp"}
             alt="concentric rings"
             width={800}
             height={800}
             className="block lg:hidden object-contain"
-           priority  loader={customLoader} />
+           priority/>
         </div>
 
         {/* Animated Icons Container */}
@@ -140,7 +138,7 @@ const Hero = () => {
                       src={icon}
                       alt={`AI tool ${iconIdx}`}
                       className="w-full h-full object-contain"
-                     width={500} height={500} priority  loader={customLoader} />
+                     width={500} height={500} priority/>
                   </motion.div>
                 );
               })}

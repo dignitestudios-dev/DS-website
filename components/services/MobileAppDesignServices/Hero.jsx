@@ -1,6 +1,5 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext } from "react";
 
@@ -26,9 +25,7 @@ const Hero = () => {
       >
         Turn your illustrations into realism
       </h2>
-      {/* <Image
-        loader={customLoader}
-        width={1046}
+      {/* <Image width={1046}
         height={883}
         src="/Mobile-app-design-services.webp"
         alt="two mockup screens show the mobile app design services, with multiple icons revolving around them"
@@ -39,8 +36,7 @@ const Hero = () => {
         alt="two mockup screens show the mobile app design services, with multiple icon…"
         width={1046}
         height={883}
-        // loader={customLoader}
-        decoding="async"
+        //decoding="async"
         data-nimg="1"
         className="-mt-8 md:-mt-32 lg:-mt-40 xl:-mt-56 z-0 relative"
         // srcset="https://dignitestudios.com//Mobile-app-design-services.webp 1x, /Mobile-app-design-services.webp"

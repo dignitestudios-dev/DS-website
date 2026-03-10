@@ -7,8 +7,6 @@ import { GlobalContext } from "@/context/GlobalContext";
 import { IoIosArrowDown } from "react-icons/io";
 import { useParams, usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const ServicesNavbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
   const navigate = useRouter();
@@ -39,8 +37,7 @@ const ServicesNavbar = ({ setIsOpen }) => {
       <Link aria-label="logo" href="/" className="h-auto">
         <img
           alt="logo"
-          // loader={customLoader}
-          // width={120}
+          //// width={120}
           // height={64}
           src={"/logo-dark.webp"}
           className="h-[70px] w-[120px]"

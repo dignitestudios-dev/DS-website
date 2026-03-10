@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -54,9 +53,7 @@ const DiscoverOurHistory = () => {
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center lg:justify-end">
           <Image
-            src="/mobile-app-development-services-value-expedition.webp"
-            loader={customLoader}
-            alt="mobile-app-development-services-value-expedition"
+            src="/mobile-app-development-services-value-expedition.webp"alt="mobile-app-development-services-value-expedition"
             width={410}
             height={435}
             className="h-[365px] xl:h-auto"

@@ -6,7 +6,6 @@ import { RiArrowRightUpLine } from "react-icons/ri";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import { headings, paragraphs } from "@/constants/mobileappdevsection";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 import ContactButton from "@/components/global/ContactButton";
 
 const ConsultingStrategiesSection = () => {
@@ -138,9 +137,7 @@ const ConsultingStrategiesSection = () => {
 
       <div className="w-full mt-8 flex flex-col lg:flex-row gap-y-6 items-start lg:items-center justify-between">
         <div className="lg:w-[40%]">
-          <Image
-            loader={customLoader}
-            width={614}
+          <Image width={614}
             height={391}
             src={headings[currentIndex]?.image_src}
             alt={headings[currentIndex]?.image_alt}

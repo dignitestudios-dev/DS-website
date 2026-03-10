@@ -1,5 +1,4 @@
 "use client";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React from "react";
 
@@ -16,9 +15,7 @@ const Hero = () => {
       <div className="relative w-full h-[200px] lg:h-[500px]" >
       <Image
         width={1400}
-        height={709}
-        loader={customLoader}
-        priority="high"
+        height={709}priority="high"
         src="/mobile-application-testing.webp"
         alt=" mobile application testing services"
         title="mobile application testing services"

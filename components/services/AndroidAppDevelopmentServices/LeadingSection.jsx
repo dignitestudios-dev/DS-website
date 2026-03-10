@@ -1,6 +1,5 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -16,9 +15,7 @@ const LeadingSection = () => {
           >
             leading
           </span>
-          <Image
-            loader={customLoader}
-            width={86}
+          <Image width={86}
             height={8}
             src="/leading-lines.webp"
             alt="leading-lines"

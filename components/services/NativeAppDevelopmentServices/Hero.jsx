@@ -6,8 +6,6 @@ import React, { useContext } from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
   return (
@@ -46,39 +44,39 @@ const Hero = () => {
           src="/native-app-dev-andoid-icon.webp"
           alt="native-app-dev-andoid-icon"
           className="w-[141.4px] h-[141.4px] z-10 right-0 lg:right-[5%] xl:right-[20%] 2xl:right-[26%] hidden absolute lg:block top-0 android-icon-animate"
-         width={500} height={500} priority  loader={customLoader} />
+         width={500} height={500} priority/>
         <Image
           src="/native-app-dev-apple-icon.webp"
           alt="native-app-dev-apple-icon"
           className="w-[141.4px] h-[141.4px] z-10 hidden lg:block absolute lg:left-[2%] xl:left-[18%] 2xl:left-[24%] top-[44%] apple-icon-animate"
-         width={500} height={500} priority  loader={customLoader} />
+         width={500} height={500} priority/>
         <Image
           src="/native-app-hero-orange-shadow.webp"
           alt="native-app-hero-orange-shadow"
           className="w-full lg:w-[946px] lg:h-[446px] absolute fade-in"
-         width={500} height={500} priority  loader={customLoader} />
+         width={500} height={500} priority/>
         <Image
           src="/native-app-hero-yellow-shadow.webp"
           alt="native-app-hero-yellow-shadow"
           className="lg:w-[946px] lg:h-[446px] absolute fade-out"
-         width={500} height={500} priority  loader={customLoader} />
+         width={500} height={500} priority/>
         <Image
           src="/native-app-dev-hero-borders.webp"
           alt="native-app-dev-hero-borders"
           className="absolute w-[918px] h-[350px] md:h-[783px] z-0 -top-32"
-         width={500} height={500} priority  loader={customLoader} />
+         width={500} height={500} priority/>
         <Image
           src="/native-app-1.webp"
           alt="Native app development company page shows two mobile screens that appear as mockup screens of native applications with revolving tech logos"
           title="Native app development company"
           className="w-[130px] md:w-[256.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:-rotate-12 transition-all duration-700 z-20 relative -top-4 2xl:-top-0"
-         width={500} height={500} priority  loader={customLoader} />
+         width={500} height={500} priority/>
         <Image
           src="/native-app-2.webp"
           alt="Native app development company page shows two mobile screens that appear as mockup screens of native applications with revolving tech logos"
           title="Native app development company"
           className="w-[130px] md:w-[256.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:rotate-12 transition-all duration-700 z-20 relative top-6 2xl:top-8"
-         width={500} height={500} priority  loader={customLoader} />
+         width={500} height={500} priority/>
       </div>
     </div>
   );

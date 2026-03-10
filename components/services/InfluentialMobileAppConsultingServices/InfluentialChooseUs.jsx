@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -41,9 +40,7 @@ const InfluentialChooseUs = () => {
       </div>
 
       <div className="relative w-full">
-        <Image
-          loader={customLoader}
-          width={684.15}
+        <Image width={684.15}
           height={669.56}
           src="/why-choose-us-borders.webp"
           alt="why-choose-us-borders"
@@ -63,9 +60,7 @@ const InfluentialChooseUs = () => {
               <div className="w-full flex items-center justify-start gap-2">
                 {/* Icon */}
                 <div className="h-[62px] md:w-[75px] xl:w-[140px] bg-[#FFC5AE1A] rounded-[8px] flex items-center justify-center">
-                  <Image
-                    loader={customLoader}
-                    width={40}
+                  <Image width={40}
                     height={33}
                     src="/transparent-process-icon.webp"
                     alt="transparent-process-icon"
@@ -109,9 +104,7 @@ const InfluentialChooseUs = () => {
               <div className="w-full flex items-center justify-start gap-2">
                 {/* Icon */}
                 <div className="h-[62px] px-5 bg-[#FFC5AE1A] rounded-[8px] flex items-center justify-center">
-                  <Image
-                    loader={customLoader}
-                    width={32}
+                  <Image width={32}
                     height={41}
                     src="/focused-strategies.webp"
                     alt="focused-strategies-icon"
@@ -144,9 +137,7 @@ const InfluentialChooseUs = () => {
               <div className="w-full flex items-center justify-start gap-2">
                 {/* Icon */}
                 <div className="h-[62px] px-5 bg-[#FFC5AE1A] rounded-[8px] flex items-center justify-center">
-                  <Image
-                    loader={customLoader}
-                    width={37}
+                  <Image width={37}
                     height={41}
                     src="/business-growth-icon.webp"
                     alt="business-growth-icon"

@@ -3,8 +3,6 @@ import React, { useContext, useRef, useState } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 export const sliderSettings = {
   slidesPerView: 1,
   spaceBetween: 40,
@@ -40,9 +38,7 @@ const MobileAppWeDevelopSwiper = () => {
             <Image
               width={400}
               height={400}
-              loading="lazy"
-              loader={customLoader}
-              src="/lending-mobile-app-development.webp"
+              loading="lazy"src="/lending-mobile-app-development.webp"
               alt="two mockup screens showing lending mobile app development"
               title="Leanding mobile app development"
               decoding="async"
@@ -60,9 +56,7 @@ const MobileAppWeDevelopSwiper = () => {
             <Image
               width={400}
               height={400}
-              loading="lazy"
-              loader={customLoader}
-              src="/booking-mobile-app-development.webp"
+              loading="lazy"src="/booking-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
               alt="two mockup screens show the booking mobile app development"
@@ -80,9 +74,7 @@ const MobileAppWeDevelopSwiper = () => {
             <Image
               width={400}
               height={400}
-              loading="lazy"
-              loader={customLoader}
-              src="/socia-mobile-app-development.webp"
+              loading="lazy"src="/socia-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
               alt="Two mockup screens show social media mobile app development"
@@ -99,9 +91,7 @@ const MobileAppWeDevelopSwiper = () => {
             <Image
               width={400}
               height={400}
-              loading="lazy"
-              loader={customLoader}
-              src="/ticketing-mobile-app-development.webp"
+              loading="lazy"src="/ticketing-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
               alt="two mockup screens show the ticketing mobile app development"
@@ -118,9 +108,7 @@ const MobileAppWeDevelopSwiper = () => {
             <Image
               width={400}
               height={400}
-              loading="lazy"
-              loader={customLoader}
-              src="/commuincation-mobile-app-development.webp"
+              loading="lazy"src="/commuincation-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
               alt="two mockup screens show the dating mobile app development"
@@ -137,9 +125,7 @@ const MobileAppWeDevelopSwiper = () => {
             <Image
               width={400}
               height={400}
-              loading="lazy"
-              loader={customLoader}
-              src="/marketplace-mobile-app-development.webp"
+              loading="lazy"src="/marketplace-mobile-app-development.webp"
               decoding="async"
               data-nimg="1"
               alt="two mockup screens show the telehealth mobile app development"

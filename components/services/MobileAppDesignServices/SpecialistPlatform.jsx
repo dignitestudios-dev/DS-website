@@ -21,9 +21,7 @@ const SpecialistPlatform = () => {
           <span className="uppercase text-xl font-bold text-[#F15C20] tracking-normal">
             hire on demand
           </span>
-          <Image
-            loader={customLoader}
-            width={141}
+          <Image width={141}
             height={8}
             src="/hire-on-demand.webp"
             alt="hire-on-demand"
@@ -54,9 +52,7 @@ const SpecialistPlatform = () => {
             mobile application design services create an enticing UX design
             stage to attract consumers rapidly.
           </p>
-          <Image
-            loader={customLoader}
-            width={249}
+          <Image width={249}
             height={453}
             src="/native-mobile-app-design-services.webp"
             alt="the mockup screen shows posts on the native mobile app design services"
@@ -78,9 +74,7 @@ const SpecialistPlatform = () => {
             like iOS or Android operating systems, they conduct a single code
             base for any process.  
           </p>
-          <Image
-            loader={customLoader}
-            width={249}
+          <Image width={249}
             height={453}
             src="/cross-platform-mobile-app-design-services.webp"
             alt="mockup screen shows cross-platform mobile application design services"

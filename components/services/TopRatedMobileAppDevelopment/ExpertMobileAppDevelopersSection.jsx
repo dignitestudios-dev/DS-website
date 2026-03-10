@@ -1,7 +1,6 @@
 "use client";
 
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext } from "react";
 
@@ -27,9 +26,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8  transition-all duration-150`}
         >
           <Image
-            src={"/android-mobile-app-mockup.webp"}
-            loader={customLoader}
-            width={42}
+            src={"/android-mobile-app-mockup.webp"}width={42}
             height={42}
           />
           <h1 className="text-[20px] font-semibold">Android Mobile App</h1>
@@ -53,9 +50,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
         >
           <Image
-            src={"/ios-mockup.webp"}
-            loader={customLoader}
-            width={42}
+            src={"/ios-mockup.webp"}width={42}
             height={42}
           />
           <h1 className="text-[20px] font-semibold">iOS Mobile App</h1>
@@ -80,9 +75,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
         >
           <img
-            src={"/expert-cross-platform-developers-icon.webp"}
-            loader={customLoader}
-            width={42}
+            src={"/expert-cross-platform-developers-icon.webp"}width={42}
             height={42}
           />
           <h1 className="text-[20px] font-semibold">Cross-Platform</h1>

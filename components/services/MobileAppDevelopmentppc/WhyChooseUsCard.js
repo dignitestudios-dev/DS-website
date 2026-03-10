@@ -3,7 +3,6 @@
 import React, { useContext } from "react";
 
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 import { GlobalContext } from "@/context/GlobalContext";
 
 const WhyChooseUsCard = ({ title, description, icon, alt, image_title }) => {
@@ -20,9 +19,7 @@ const WhyChooseUsCard = ({ title, description, icon, alt, image_title }) => {
         src={icon}
         alt={alt}
         title={image_title}
-        className=""
-        loader={customLoader}
-        width={36}
+        className=""width={36}
         height={36}
       />
       <h3

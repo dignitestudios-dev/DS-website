@@ -1,6 +1,5 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -10,9 +9,7 @@ const OurValueExpeditionSection = () => {
   return (
     <section className="py-10 lg:py-20 global-padding-horizontal w-full grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-8">
       <div className="pt-0 relative lg:relative xl:-mt-0 2xl:-mt-0 flex justify-start">
-        <Image
-          loader={customLoader}
-          width={596}
+        <Image width={596}
           height={357.6}
           src="/our-value-expedition-mockup.webp"
           alt="our-value-expedition-mockup"

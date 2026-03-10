@@ -1,6 +1,5 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -30,9 +29,7 @@ const DevelopmentConsultingStrategies = () => {
       <div className="w-full mt-10 grid grid-cols-1 lg:grid-cols-2 gap-y-8">
         <div className="xl:p-8 lg:p-5 ps-0 lg:border-b-2">
           <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center rounded-[8px]">
-            <Image
-              loader={customLoader}
-              width={48}
+            <Image width={48}
               height={55}
               src="/mobile-app-consulting-design-icon.webp"
               alt="mobile app consulting design icon"
@@ -63,9 +60,7 @@ const DevelopmentConsultingStrategies = () => {
         </div>
         <div className="lg:border-s-2 lg:p-5 xl:p-8 lg:border-b-2">
           <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center rounded-[8px]">
-            <Image
-              loader={customLoader}
-              width={48}
+            <Image width={48}
               height={55}
               src="/mobile-app-consulting-modernization-icon.webp"
               alt="Mobile app consulting modernization icon"
@@ -92,9 +87,7 @@ const DevelopmentConsultingStrategies = () => {
       </div>
       <div className="py-8 lg:p-6 xl:p-8 lg:border-b-2 mt-6 lg:mt-0">
         <div className="w-[84px] h-[84px] bg-[#FFC5AE1A] flex items-center justify-center rounded-[8px]">
-          <Image
-            loader={customLoader}
-            width={48}
+          <Image width={48}
             height={55}
             src="/Mobile-app-consulting-optimization-and-audit-icon.webp"
             alt="Mobile app consulting optimization and audit icon"

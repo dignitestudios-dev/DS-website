@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 import Link from "next/link";
@@ -52,16 +51,14 @@ const Hero = ({
             width={900}
             height={900}
             priority
-            className="object-cover md:block hidden"
-            loader={customLoader} />
+            className="object-cover md:block hidden"/>
           <Image
             src="/ecommerce/shopify-app/mob.webp"
             alt="Shpify laptop"
             width={250}
             height={250}
             priority
-            className="object-cover md:hidden block"
-            loader={customLoader} />
+            className="object-cover md:hidden block"/>
         </motion.div>
         <motion.img
           src="/ecommerce/shopify-app/sh-icon.webp"

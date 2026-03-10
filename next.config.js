@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    // Disable the built-in Next.js Image Optimization for static export and
-    // simplify image usage across the app.
-    unoptimized: true,
+    // Enable Next.js built-in image optimization to improve LCP/FCP.
+    // Images served from /public will be optimized automatically.
     formats: ['image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],

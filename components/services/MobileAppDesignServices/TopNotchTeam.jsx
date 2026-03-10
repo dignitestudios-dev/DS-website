@@ -1,7 +1,6 @@
 "use client";
 import { TOP_NOTCH_TEAM } from "@/constants/topnotchteam";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext } from "react";
 
@@ -49,8 +48,7 @@ const TopNotchTeam = () => {
           return (
             <div key={index} className="flex flex-col items-start gap-4">
               <img
-                // loader={customLoader}
-                width={33}
+                //width={33}
                 height={33}
                 src={team.icon_src}
                 alt={team.alt_text}

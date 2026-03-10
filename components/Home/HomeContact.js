@@ -5,8 +5,6 @@ import Image from "next/image";
 import React, { useContext, useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import { usePathname } from "next/navigation";
-import customLoader from "@/lib/custom-loader";
-
 const TopRatedAppDevelopmentContactSection = () => {
   const { palette, theme, setIsSidebarOpen, setError, error } =
     useContext(GlobalContext);

@@ -5,8 +5,6 @@ import Link from "next/link";
 import React, { useContext, useEffect, useState } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
 
@@ -63,7 +61,7 @@ const Hero = () => {
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[17px] h-[17px] lg:w-[27px] lg:h-[27px] "
-             width={500} height={500} priority  loader={customLoader} />
+             width={500} height={500} priority/>
           </div>
         </div>
 
@@ -82,7 +80,7 @@ const Hero = () => {
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[24px] h-[24px] lg:w-[39.92px] lg:h-[55px]"
-             width={500} height={500} priority  loader={customLoader} />
+             width={500} height={500} priority/>
           </div>
         </div>
 
@@ -101,7 +99,7 @@ const Hero = () => {
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[40px] h-[40px] md:w-[60.49px] md:h-[60.49px]"
-             width={500} height={500} priority  loader={customLoader} />
+             width={500} height={500} priority/>
           </div>
         </div>
 
@@ -113,7 +111,7 @@ const Hero = () => {
             alt="Android app design service page shows technology icons"
             title="Android app design services image"
             className="w-[74px] h-[74px] lg:w-[116.95px] lg:h-[116.95px]"
-           width={500} height={500} priority  loader={customLoader} />
+           width={500} height={500} priority/>
         </div>
 
         <div
@@ -131,7 +129,7 @@ const Hero = () => {
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[40px] h-[52px] lg:w-[60.49px] lg:h-[82px]"
-             width={500} height={500} priority  loader={customLoader} />
+             width={500} height={500} priority/>
           </div>
         </div>
 
@@ -150,7 +148,7 @@ const Hero = () => {
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[24px] h-[24px] lg:w-[47px] lg:h-[47px]"
-             width={500} height={500} priority  loader={customLoader} />
+             width={500} height={500} priority/>
           </div>
         </div>
 
@@ -169,7 +167,7 @@ const Hero = () => {
               alt="Android app design service page shows technology icons"
               title="Android app design services image"
               className="w-[17px] h-[17px] lg:w-[27px] lg:h-[33px]"
-             width={500} height={500} priority  loader={customLoader} />
+             width={500} height={500} priority/>
           </div>
         </div>
       </div>

@@ -12,7 +12,6 @@ import OptimizedProcess from "./OptimizedProcess";
 import Lifecycle from "./Lifecycle";
 import TopRatedAppDevFaq from "../TopRatedMobileAppDevelopment/TopRatedAppDevFaq";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 import { GlobalContext } from "@/context/GlobalContext";
 import TopRatedAppDevelopmentContactSection from "../TopRatedMobileAppDevelopment/TopRatedAppDevelopmentContactSection";
 import InnovativeMobileAppSection from "./InnovativeMobileAppSection";
@@ -43,8 +42,7 @@ const MobileAppDevelopmentSeoPage = () => {
           {theme === "dark" ? (
             <img
               // loading="lazy"
-              // loader={customLoader}
-              width={1440}
+              //width={1440}
               height={545}
               src="/mobile-mpp-development-service-technologies-dark.webp"
               alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"
@@ -53,8 +51,7 @@ const MobileAppDevelopmentSeoPage = () => {
           ) : (
             <img
               // loading="lazy"
-              // loader={customLoader}
-              width={1440}
+              //width={1440}
               height={545}
               src="/mobile-app-development-service-technologies-dark-light1.webp"
               alt="The image shows multiple icons of different technologies and a mockup screen of the Mobile App Development"

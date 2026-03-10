@@ -1,5 +1,4 @@
 import React from 'react'
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import ContactButtonPPC from '@/components/global/ContactButtonPPC';
 export default function DevelopmentCard() {
@@ -37,9 +36,7 @@ export default function DevelopmentCard() {
                 <div className="order-2 lg:order-2 overflow-hidden mb-6 lg:mb-0 flex justify-center lg:justify-center bg-red-img ">
                     <Image
                         width={400}
-                        height={200}
-                        loader={customLoader}
-                        src="/android-turn-mockup.webp"
+                        height={200}src="/android-turn-mockup.webp"
                         alt="two mobile mock screens shows the testing of streaming applications"
                         className="md:h-[200px] lg:h-[200px] xl:h-[auto]"
                         data-aos="slide-left"
@@ -58,9 +55,7 @@ export default function DevelopmentCard() {
                 <div className="flex order-2 lg:order-1 md:justify-center p-10 lg:justify-center bg-purple-img">
                     <Image
                         width={330}
-                        height={380}
-                        loader={customLoader}
-                        src="/hybrid-app-development-company4.webp"
+                        height={380}src="/hybrid-app-development-company4.webp"
                         alt=" two mobile mock screens shows the testing of application layout"
                         className="md:h-[350px] lg:h-[380px] xl:h-auto"
                         data-aos="slide-right"

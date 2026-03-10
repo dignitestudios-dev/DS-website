@@ -4,8 +4,6 @@ import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext, useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const ProjectCard = ({
   title,
   description,
@@ -35,8 +33,7 @@ const ProjectCard = ({
           alt={title}
           // width={200}
           // height={200}
-          // loader={customLoader}
-          // title="app-logo"
+          //// title="app-logo"
         />
       </div>
       <div className="w-full lg:w-[65%] h-full flex flex-col justify-start relative gap-6 my-1 items-start md:px-2">
@@ -45,8 +42,7 @@ const ProjectCard = ({
             src={logo}
             alt="case-study-image"
             width={65}
-            // loader={customLoader}
-            height={65}
+            //height={65}
             // title="case study image"
 
             // className="w-[32px] h-[32px] lg:w-[45px] xl:w-[65px] lg:h-[45px] xl:h-[65px]"
@@ -66,8 +62,7 @@ const ProjectCard = ({
           {googleLink && (
             <Link href={googleLink}>
               <img
-                // loader={customLoader}
-                // width={134}
+                //// width={134}
                 // height={40}
                 src="/google_play_btn.webp"
                 className="h-[32px] md:h-[40.62px]"
@@ -79,8 +74,7 @@ const ProjectCard = ({
           {appLink && (
             <Link href={appLink}>
               <img
-                // loader={customLoader}
-                // width={134}
+                //// width={134}
                 // height={40}
                 src="/apple_store_btn.webp"
                 className="h-[32px] md:h-[40.62px]"
@@ -92,8 +86,7 @@ const ProjectCard = ({
           {webLink && (
             <Link href={webLink}>
               <img
-                // loader={customLoader}
-                // width={134}
+                //// width={134}
                 // height={40}
                 src="/website_btn.webp"
                 className="h-[32px] md:h-[40.62px]"

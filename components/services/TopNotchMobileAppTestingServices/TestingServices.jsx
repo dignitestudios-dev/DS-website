@@ -1,6 +1,5 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -20,9 +19,7 @@ const TestingServices = () => {
         <div className="order-2 lg:order-1 overflow-hidden mb-6 lg:mb-0 flex justify-center lg:justify-start">
           <Image
             width={590}
-            height={380}
-            loader={customLoader}
-            src="/mobile-software-functional-testing-services.webp"
+            height={380}src="/mobile-software-functional-testing-services.webp"
             alt="two mobile mock screens shows the testing of streaming applications"
             className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-right"
@@ -102,9 +99,7 @@ const TestingServices = () => {
         <div className="flex md:justify-center lg:justify-end">
           <Image
             width={590}
-            height={380}
-            loader={customLoader}
-            src="/mobile-software-automated-testing-services.webp"
+            height={380}src="/mobile-software-automated-testing-services.webp"
             alt=" two mobile mock screens shows the testing of application layout"
             className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-left"
@@ -123,9 +118,7 @@ const TestingServices = () => {
         <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
           <Image
             width={590}
-            height={380}
-            loader={customLoader}
-            src="/mobile-software-data-testing-services.webp"
+            height={380}src="/mobile-software-data-testing-services.webp"
             alt="two mock screens shows the testing of application structure"
             className="md:h-[350px] lg:h-[380px] xl:h-auto"
             data-aos="slide-right"

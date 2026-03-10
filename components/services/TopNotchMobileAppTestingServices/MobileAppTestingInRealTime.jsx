@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -48,9 +47,7 @@ const MobileAppTestingInRealTime = () => {
         </div>
         <Image
           width={530}
-          height={410}
-          loader={customLoader}
-          src="/mobile-app-testing-services.webp"
+          height={410}src="/mobile-app-testing-services.webp"
           alt="the mock screen shows the job portal on the application testing"
           className="md:h-[310px] lg:h-[370px] lg:w-[530px] xl:h-[410px] mx-auto"
           data-aos="slide-up"

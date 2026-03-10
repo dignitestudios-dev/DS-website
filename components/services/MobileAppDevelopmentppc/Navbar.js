@@ -31,8 +31,7 @@ const Navbar = ({ setIsOpen }) => {
         <img
           alt="Dignite Studios Logo"
           title="Dignite Studios Logo"
-          // loader={customLoader}
-          width={120}
+          //width={120}
           height={70}
           src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"}
           className="h-[70px] w-[120px]"

@@ -12,7 +12,6 @@ import { BsTelephoneFill } from "react-icons/bs";
 import ContactUsAlert from "@/components/global/ContactUsAlert";
 import { RxCross2 } from "react-icons/rx";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 import ScrollToTopButton from "@/components/global/ScrollToTopButton";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -222,9 +221,7 @@ const ServicesLayout = ({ page }) => {
           id="popup-form"
         >
           <div className="side-promo">
-            <Image
-              loader={customLoader}
-              width={400}
+            <Image width={400}
               height={540}
               src="/form-promo3.webp"
               alt="popup form image"

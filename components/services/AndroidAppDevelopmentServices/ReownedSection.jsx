@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -51,9 +50,7 @@ const ReownedSection = () => {
       </div>
       <Image
         width={684}
-        height={734}
-        loader={customLoader}
-        src={
+        height={734}src={
           "/shows-two-mobile-devices-with-android-app-development-layouts.webp"
         }
         alt="The image shows two mobile devices with Android app development layouts"

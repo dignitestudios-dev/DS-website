@@ -6,8 +6,6 @@ import { usePathname, useRouter } from "next/navigation";
 import { BsFillBrightnessHighFill } from "react-icons/bs";
 import { IoMoon } from "react-icons/io5";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const Sidebar = ({ isOpen, setIsOpen }) => {
   const sidebarRef = useRef();
   const toggleModal = (e) => {
@@ -74,9 +72,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         <div className="w-full flex gap-3 justify-start items-center px-10">
           <Link href="/">
             <Image
-              alt="Dignite Studios Logo"
-              loader={customLoader}
-              width={100}
+              alt="Dignite Studios Logo"width={100}
               height={64}
               src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"}
               title="Dignite Studios Logo"

@@ -5,8 +5,6 @@ import Image from "next/image";
 import React, { useContext, useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import { usePathname } from "next/navigation";
-import customLoader from "@/lib/custom-loader";
-
 const TopRatedAppDevelopmentContactSection = () => {
   const { palette, theme, setIsSidebarOpen, setError, error } =
     useContext(GlobalContext);
@@ -282,9 +280,7 @@ const TopRatedAppDevelopmentContactSection = () => {
         </form>
 
         <div className="col-span-3 lg:col-span-1 hidden xl:flex items-center justify-center p-4 pt-0 lg:p-0">
-          <Image
-            loader={customLoader}
-            src="/top-mobile-app-development-company-latest-technologies.webp"
+          <Image src="/top-mobile-app-development-company-latest-technologies.webp"
             width={402}
             height={361}
             decoding="async"

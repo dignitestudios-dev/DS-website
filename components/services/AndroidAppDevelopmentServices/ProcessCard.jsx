@@ -1,7 +1,6 @@
 "use client";
 
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
 

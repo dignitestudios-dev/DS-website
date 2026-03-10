@@ -4,7 +4,6 @@ import React, { useContext, useState } from "react";
 import Link from "next/link";
 import { GlobalContext } from "@/context/GlobalContext";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
 import { motion, AnimatePresence } from "framer-motion";
@@ -191,9 +190,7 @@ const Footer = () => {
         <div className=" pt-5 z-30 bg-[#101010] py-6 -mx-6 px-6 border-b border-white/10">
           <div className="flex flex-col gap-4 items-center text-center">
             <Link href="/">
-              <Image
-                loader={customLoader}
-                src="/logo-dark.webp"
+              <Image src="/logo-dark.webp"
                 alt="Dignite Studios Logo"
                 width={200}
                 height={200}
@@ -501,9 +498,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-3 flex flex-col z-30 py-6">
             <Link href="/">
-              <Image
-                loader={customLoader}
-                src="/logo-dark.webp"
+              <Image src="/logo-dark.webp"
                 alt="Dignite Studios Logo"
                 width={200}
                 height={200}

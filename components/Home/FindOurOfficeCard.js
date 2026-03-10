@@ -1,6 +1,5 @@
 "use client";
 
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -16,9 +15,7 @@ const FindOurOfficeCard = ({ office }) => {
     >
       <Image
         src={image}
-        loading="lazy"
-        loader={customLoader}
-        width={500}
+        loading="lazy"width={500}
         height={400}
         alt=""
         className={`relative lg:w-[500px] xl:w-[400px] transition-all duration-300 group-hover:lg:w-[900px] group-hover:xl:w-[800px] h-[400px] opacity-[0.7] group-hover:opacity-[1] `}

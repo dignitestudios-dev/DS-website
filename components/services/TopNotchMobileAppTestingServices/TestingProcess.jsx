@@ -1,7 +1,6 @@
 "use client";
 import { TESTING_PROCESS } from "@/constants/testingprocess";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -45,9 +44,7 @@ const TestingProcess = () => {
         <div className={`flex flex-col items-start gap-4 `}>
           <Image
             width={36}
-            height={36}
-            loader={customLoader}
-            src={"/mobile-app-testing-requirement-analysis-icon.webp"}
+            height={36}src={"/mobile-app-testing-requirement-analysis-icon.webp"}
             alt="Mobile app testing requirement analysis icon"
             className="w-9 h-9"
           />
@@ -65,9 +62,7 @@ const TestingProcess = () => {
         <div className={`flex flex-col items-start gap-4 `}>
           <Image
             width={36}
-            height={36}
-            loader={customLoader}
-            src={"/mobile-app-test-plan-creation-icon.webp"}
+            height={36}src={"/mobile-app-test-plan-creation-icon.webp"}
             alt="Mobile app test plan creation icon"
             className="w-9 h-9"
           />
@@ -89,9 +84,7 @@ const TestingProcess = () => {
         <div className={`flex flex-col items-start gap-4 `}>
           <Image
             width={36}
-            height={36}
-            loader={customLoader}
-            src={"/mobile-app-test-case-creation-icon.webp"}
+            height={36}src={"/mobile-app-test-case-creation-icon.webp"}
             alt="Mobile app test case creation icon"
             className="w-9 h-9"
           />
@@ -108,9 +101,7 @@ const TestingProcess = () => {
         <div className={`flex flex-col items-start gap-4 `}>
           <Image
             width={36}
-            height={36}
-            loader={customLoader}
-            src={"/mobile-test-automation-icon.webp"}
+            height={36}src={"/mobile-test-automation-icon.webp"}
             alt="mobile test automation icon"
             className="w-9 h-9"
           />
@@ -126,9 +117,7 @@ const TestingProcess = () => {
         <div className={`flex flex-col items-start gap-4 `}>
           <Image
             width={36}
-            height={36}
-            loader={customLoader}
-            src={"/mobile-app-testing-defect-logging-icon.webp"}
+            height={36}src={"/mobile-app-testing-defect-logging-icon.webp"}
             alt="Mobile app testing defect logging icon"
             className="w-9 h-9"
           />
@@ -147,9 +136,7 @@ const TestingProcess = () => {
         <div className={`flex flex-col items-start gap-4 `}>
           <Image
             width={36}
-            height={36}
-            loader={customLoader}
-            src={"/mobile-app-testing-fixing-and-accreditation-icon.webp"}
+            height={36}src={"/mobile-app-testing-fixing-and-accreditation-icon.webp"}
             alt="Mobile app testing fixing and accreditation icon"
             className="w-9 h-9"
           />

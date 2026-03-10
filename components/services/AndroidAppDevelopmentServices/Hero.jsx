@@ -1,7 +1,6 @@
 "use client";
 import Navbar from "@/components/global/Navbar";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext } from "react";
 
@@ -27,7 +26,7 @@ const Hero = () => {
             alt="arrow-icon"
             title="arrow-icon"
             className="absolute top-[27%] md:top-[32%] lg:top-[70px] left-[48%] md:left-[47%] lg:left-[47%] xl:top-[95px] xl:left-[48%] 2xl:top-[110px] 2xl:left-[48%] w-[17px] h-[16px] md:w-[22.1px] md:h-[20.1px]"
-           width={500} height={500} priority  loader={customLoader} />
+           width={500} height={500} priority/>
           <h1
             className={`text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-bold tracking-tighter text-center capitalize lg:leading-[67px] xl:leading-[81.93px] 2xl:leading-[99px] md:block hidden`}
           >
@@ -55,27 +54,21 @@ const Hero = () => {
 
         <Image
           width={150}
-          height={150}
-          loader={customLoader}
-          src="/tailwind-icon-2.webp"
+          height={150}src="/tailwind-icon-2.webp"
           alt="firebase-icon"
           title="firebase-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[4%] animated-icon z-0"
          />
         <Image
           width={150}
-          height={150}
-          loader={customLoader}
-          src="/java-icon-2.webp"
+          height={150}src="/java-icon-2.webp"
           alt="java-icon"
           title="java-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[15%] top-[35%] animated-icon-2"
          />
         <Image
           width={150}
-          height={150}
-          loader={customLoader}
-          src="/flutter-icon-2.webp"
+          height={150}src="/flutter-icon-2.webp"
           alt="flutter-icon"
           title="flutter-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block left-[0%] bottom-[15%] animated-icon-2"
@@ -84,27 +77,21 @@ const Hero = () => {
         {/* right side icons */}
         <Image
           width={150}
-          height={150}
-          loader={customLoader}
-          src="/firebase-icon-2.webp"
+          height={150}src="/firebase-icon-2.webp"
           alt="firebase-icon"
           title="firebase-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[4%] top-[15%] animated-icon-3"
          />
         <Image
           width={150}
-          height={150}
-          loader={customLoader}
-          src="/vs-icon.webp"
+          height={150}src="/vs-icon.webp"
           alt="vs-code-icon"
           title="vs-code-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[15%] top-[40%] animated-icon-3"
          />
         <Image
           width={150}
-          height={150}
-          loader={customLoader}
-          src="/react-icon-2.webp"
+          height={150}src="/react-icon-2.webp"
           alt="react-icon"
           title="react-icon"
           className="w-[150px] h-[150px] absolute hidden lg:block right-[5%] bottom-[15%] animated-icon-3"
@@ -114,9 +101,7 @@ const Hero = () => {
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
               width={150}
-              height={150}
-              loader={customLoader}
-              src="/tailwind-icon.webp"
+              height={150}src="/tailwind-icon.webp"
               alt="tailwind-icon"
               title="tailwind-icon"
               className="w-full h-full"
@@ -125,9 +110,7 @@ const Hero = () => {
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
               width={150}
-              height={150}
-              loader={customLoader}
-              src="/java-icon.webp"
+              height={150}src="/java-icon.webp"
               alt="java-icon"
               title="java-icon"
               className="w-full h-full"
@@ -136,9 +119,7 @@ const Hero = () => {
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
               width={150}
-              height={150}
-              loader={customLoader}
-              src="/flutter-icon.webp"
+              height={150}src="/flutter-icon.webp"
               alt="flutter-color"
               title="flutter-color"
               className="w-full h-full"
@@ -147,9 +128,7 @@ const Hero = () => {
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
               width={150}
-              height={150}
-              loader={customLoader}
-              src="/firebase-icon.webp"
+              height={150}src="/firebase-icon.webp"
               alt="firebase-icon"
               title="firebase-icon"
               className="w-full h-full"
@@ -158,9 +137,7 @@ const Hero = () => {
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
               width={150}
-              height={150}
-              loader={customLoader}
-              src="/vscode-color.webp"
+              height={150}src="/vscode-color.webp"
               alt="vscode-color"
               title="vscode-color"
               className="w-full h-full"
@@ -169,9 +146,7 @@ const Hero = () => {
           <div className="w-[55px] h-[55px] rounded-2xl shadow-2xl p-3 mx-auto">
             <Image
               width={150}
-              height={150}
-              loader={customLoader}
-              src="/react-icon.webp"
+              height={150}src="/react-icon.webp"
               alt="react-icon"
               title="react-icon"
               className="w-full h-full"
@@ -184,7 +159,7 @@ const Hero = () => {
           title="Android App Development Services"
           alt="The image shows three mobile screens with different Android app layouts, and multiple tech icons revolving around them"
           className="mx-auto lg:w-[1035px] xl:w-[685px] xl:h-[482px] 2xl:w-[981px] lg:h-[750px] 2xl:h-[800px]  relative -top-0 lg:-top-2 2xl:top-0"
-         width={500} height={500} priority  loader={customLoader} />
+         width={500} height={500} priority/>
       </main>
     </>
   );

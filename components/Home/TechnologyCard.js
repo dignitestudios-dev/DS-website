@@ -2,8 +2,6 @@
 import React, { useContext, useState } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const TechnologyCard = ({ technology }) => {
   const { palette, mouseCursor, disableMouseCursor, theme } =
     useContext(GlobalContext);
@@ -23,8 +21,7 @@ const TechnologyCard = ({ technology }) => {
       } p-6`}
     >
       <img
-        // loader={customLoader}
-        width={98}
+        //width={98}
         height={88}
         src={image}
         alt={technology?.alt}

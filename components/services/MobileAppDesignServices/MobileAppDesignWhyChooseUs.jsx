@@ -1,7 +1,6 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-// import customLoader from "@/lib/custom-loader";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
 import { FaCheck } from "react-icons/fa6";

@@ -1,7 +1,6 @@
 "use client";
 
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import React, { useContext } from "react";
 
@@ -42,9 +41,7 @@ const TestimonialCard = ({ reviewBody, authorName, jobtitle, index }) => {
       <div className="w-auto h-[20%]  absolute bottom-0 left-0 flex gap-2 justify-start items-center">
         <Image
           loading="lazy"
-          src={IMAGE_LIST[index]}
-          loader={customLoader}
-          alt="client image"
+          src={IMAGE_LIST[index]}alt="client image"
           className="rounded-full w-14 h-14"
           width={56}
           height={56}

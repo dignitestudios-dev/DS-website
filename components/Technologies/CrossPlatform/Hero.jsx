@@ -6,8 +6,6 @@ import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const Hero = () => {
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start ">
@@ -54,7 +52,7 @@ const Hero = () => {
             alt="gradient"
             width={1200}
             height={1200}
-           priority  loader={customLoader} />
+           priority/>
         </div>
 
         <div className="absolute -bottom-32 left-0 w-full border-none h-52 bg-gradient-to-t z-30 from-white to-transparent via-white" />

@@ -5,7 +5,6 @@ import { GlobalContext } from "@/context/GlobalContext";
 import { useRouter } from "next/navigation";
 import Alert from "../global/Alert";
 import Success from "../global/Success";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 
 const LandingContactUs = () => {
@@ -85,9 +84,7 @@ const LandingContactUs = () => {
       >
         <div className="w-full h-full">
           <Image
-            loading="lazy"
-            loader={customLoader}
-            height={560}
+            loading="lazy"height={560}
             width={400}
             alt="cto"
             src={"/cto.webp"}

@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 
@@ -36,9 +35,7 @@ const Hero = () => {
         </Link>
       </div>
       <div className="w-[80%] mx-auto z-10 flex justify-center mt-20 md:-mt-10 relative">
-        <Image
-          loader={customLoader}
-          src="/location/mobile-california/bg-grad.webp"
+        <Image src="/location/mobile-california/bg-grad.webp"
           alt=""
           width={1200}
           height={1200}
@@ -55,9 +52,7 @@ const Hero = () => {
             ease: "easeOut",
           }}
         >
-          <Image
-            loader={customLoader}
-            src="/location/mobile-california/mob.webp"
+          <Image src="/location/mobile-california/mob.webp"
             alt="Mobile app development showcase California"
             width={800}
             height={800}

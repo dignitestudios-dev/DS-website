@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 import Link from "next/link";
@@ -42,7 +41,7 @@ const Hero = ({
           width={500}
           height={500}
           className="absolute left-1/2 translate-x-[-50%]"
-         priority  loader={customLoader} />
+         priority/>
         <motion.div
           className="relative"
           initial={{ y: 80, opacity: 0 }}
@@ -59,8 +58,7 @@ const Hero = ({
             width={250}
             height={250}
             priority
-            className="object-cover relative z-30 mt-16 "
-            loader={customLoader} />
+            className="object-cover relative z-30 mt-16 "/>
         </motion.div>
         <motion.img
           src="/ecommerce/ecommerce-app/r1.webp"

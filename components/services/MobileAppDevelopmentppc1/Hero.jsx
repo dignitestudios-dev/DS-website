@@ -7,8 +7,6 @@ import Navbar from "./Navbar";
 import ContactButtonBlackBg from "@/components/global/ContactButtonBlackBg";
 import ContactButtonPPC from "@/components/global/ContactButtonPPC";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const Hero = () => {
   const { theme, setIsSidebarOpen } = useContext(GlobalContext);
   return (
@@ -26,7 +24,7 @@ const Hero = () => {
                 className="relative md:left-[15%] -top-4"
                 alt=""
                 srcset=""
-               width={500} height={500} priority  loader={customLoader} />
+               width={500} height={500} priority/>
             </span>
             <span className="relative -top-4">App Development Service</span>
           </h1>
@@ -79,7 +77,7 @@ const Hero = () => {
               data-aos-easing="ease-in-sine"
               srcset=""
               className="schedule-img-left"
-             width={500} height={500} priority  loader={customLoader} />
+             width={500} height={500} priority/>
           </div>
           <div>
             <Image
@@ -90,7 +88,7 @@ const Hero = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-sine"
               className="health-feed-center"
-             width={500} height={500} priority  loader={customLoader} />
+             width={500} height={500} priority/>
           </div>
           <div>
             <Image
@@ -101,7 +99,7 @@ const Hero = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-sine"
               className="plan-img-right"
-             width={500} height={500} priority  loader={customLoader} />
+             width={500} height={500} priority/>
           </div>
         </div>
       </div>

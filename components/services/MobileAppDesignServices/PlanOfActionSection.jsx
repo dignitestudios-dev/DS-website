@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -49,9 +48,7 @@ const PlanOfActionSection = () => {
             <ContactButton text1={"Get in Touch"} text2={"Let's talk"} />
           </div>
         </div>
-        <Image
-          loader={customLoader}
-          width={712}
+        <Image width={712}
           height={1122}
           src="/plan-of-action.webp"
           alt="Plan of action image"

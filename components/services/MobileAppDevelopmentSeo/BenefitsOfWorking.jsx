@@ -1,7 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
 import { GlobalContext } from "@/context/GlobalContext";
-import customLoader from "@/lib/custom-loader";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
@@ -40,9 +39,7 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <Image
-              loader={customLoader}
-              loading="lazy"
+            <Image loading="lazy"
               width={24}
               height={24}
               src="/orange-mobile-app-development-project-outlook-icon.webp"
@@ -72,9 +69,7 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <Image
-              loader={customLoader}
-              loading="lazy"
+            <Image loading="lazy"
               width={24}
               height={24}
               src="/orange-mobile-app-development-collaboration-icon.webp"
@@ -101,9 +96,7 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <Image
-              loader={customLoader}
-              loading="lazy"
+            <Image loading="lazy"
               width={24}
               height={24}
               src="/orange-mobile-app-development-cost-estimation-icon.webp"
@@ -138,9 +131,7 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <Image
-              loader={customLoader}
-              loading="lazy"
+            <Image loading="lazy"
               width={24}
               height={24}
               src="/orange-mobile-app-development-service-risk-management-icon.webp"
@@ -171,8 +162,7 @@ const BenefitsOfWorking = () => {
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <img
-              // loader={customLoader}
-              // loading="lazy"
+              //// loading="lazy"
               width={19}
               height={20}
               src="/orange-mobile-app-development-project-documentation-icon-1.webp"
@@ -205,9 +195,7 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <Image
-              loader={customLoader}
-              loading="lazy"
+            <Image loading="lazy"
               width={24}
               height={24}
               src="/orange-mobile-app-development-service-reporting-icon.webp"
@@ -237,8 +225,7 @@ const BenefitsOfWorking = () => {
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
             <img
-              // loader={customLoader}
-              // loading="lazy"
+              //// loading="lazy"
               width={24}
               height={24}
               src="/orange-mobile-app-development-service-post-launch-icon-1.webp"
@@ -265,9 +252,7 @@ const BenefitsOfWorking = () => {
           } p-6 rounded-3xl flex flex-col items-start gap-4`}
         >
           <div className="h-12 w-12 bg-[#F15C20] rounded-xl icon_shadow flex items-center justify-center">
-            <Image
-              loader={customLoader}
-              loading="lazy"
+            <Image loading="lazy"
               width={24}
               height={24}
               src="/orange-mobile-app-development-change-request-management-icon.webp"

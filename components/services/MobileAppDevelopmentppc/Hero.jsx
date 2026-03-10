@@ -6,8 +6,6 @@ import Navbar from "./Navbar";
 import ContactFormPPPC from "./ContactFormPPPC";
 import ContactButtonPPC from "@/components/global/ContactButtonPPC";
 import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-
 const Hero = () => {
   const { theme, setIsSidebarOpen } = useContext(GlobalContext);
   return (
@@ -32,7 +30,7 @@ const Hero = () => {
                 className="relative  md:left-10 -top-4"
                 alt=""
                 srcset=""
-               width={500} height={500} priority  loader={customLoader} />
+               width={500} height={500} priority/>
             </span>
             <span className="relative -top-4">App Development </span>
             <br />
@@ -58,7 +56,7 @@ const Hero = () => {
               className="h-full lg:h-[100%]"
               alt=""
               srcset=""
-             width={500} height={500} priority  loader={customLoader} />
+             width={500} height={500} priority/>
           </div>
           <div
             className={`${
