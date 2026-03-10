@@ -49,7 +49,7 @@ const Features = ({ header, header2, para, features, button }) => {
           >
             {features?.map((feature, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-white mb-8 h-full rounded-[32px] border border-gray-200 p-8 flex flex-col items-center text-center transition-all duration-300 group hover:border-[#F15C20]/20 min-h-[300px]">
+                <div className="bg-white mb-8  rounded-[32px] border border-gray-200 p-8 flex flex-col items-center text-center transition-all duration-300 group hover:border-[#F15C20]/20 w-[300px] h-[250px] lg:h-[300px]">
                   {/* Icon Container */}
                   <div className="mb-8 p-4 rounded-2xl bg-white transition-transform duration-300 group-hover:scale-110">
                     <div className="text-[#F15C20] text-6xl">

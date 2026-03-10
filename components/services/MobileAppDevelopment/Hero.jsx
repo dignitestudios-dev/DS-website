@@ -39,7 +39,7 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-      <div className="relative flex justify-center h-[200px] md:h-[700px] items-center my-12 ">
+      <div className="relative flex justify-center h-[200px] md:h-[500px] items-center my-12 ">
         <Image
         
           src="/services/mobile-app/grad.webp"
@@ -63,10 +63,11 @@ const Hero = () => {
            
             src="/services/mobile-app/mob.webp"
             alt="Mobile app development showcase Boston"
-            width={800}
-            height={800}
+           width={800}
+           height={800}
+           fetchPriority="high"
             priority
-            className="object-cover"
+            className="object-cover w-full h-full"
             loader={customLoader} />
         </motion.div>
         {/* <Image

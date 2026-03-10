@@ -1,26 +1,23 @@
 "use client";
 import React, { useState, useContext, useEffect, useRef } from "react";
 import { GlobalContext } from "@/context/GlobalContext";
-import Navbar from "@/components/global/Navbar";
-import Sidebar from "@/components/global/Sidebar";
-import Footer from "@/components/Home/Footer";
-import FixedSocials from "@/components/global/FixedSocials";
-import Cursor from "@/components/global/Cursor";
-import { FaCross, FaUser } from "react-icons/fa";
+import dynamic from "next/dynamic";
+import { FaUser } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
-import Alert from "@/components/global/Alert";
-import ContactUsAlert from "@/components/global/ContactUsAlert";
 import { RxCross2 } from "react-icons/rx";
-import Image from "next/image";
-import customLoader from "@/lib/custom-loader";
-import ScrollToTopButton from "@/components/global/ScrollToTopButton";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import classNames from "classnames";
 import { usePathname } from "next/navigation";
 import useDeviceType from "@/components/global/DeviceTypeFunction";
 import Link from "next/link";
+
+const Navbar = dynamic(() => import("@/components/global/Navbar"), { ssr: true });
+const Sidebar = dynamic(() => import("@/components/global/Sidebar"), { ssr: false });
+const Footer = dynamic(() => import("@/components/Home/Footer"), { ssr: true });
+const Cursor = dynamic(() => import("@/components/global/Cursor"), { ssr: false });
+const ScrollToTopButton = dynamic(() => import("@/components/global/ScrollToTopButton"), { ssr: false });
+const ContactUsAlert = dynamic(() => import("@/components/global/ContactUsAlert"), { ssr: false });
 
 const GlobalLayout = ({ page }) => {
   // Sidebar states and ref:

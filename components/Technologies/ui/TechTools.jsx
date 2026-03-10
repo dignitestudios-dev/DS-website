@@ -289,7 +289,7 @@ const TechCard = ({ tech }) => {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
       transition={{ duration: 0.3 }}
-      className={`relative h-[280px] w-full perspective-1000 ${tech.description ? "cursor-pointer" : "cursor-default"}`}
+      className={`relative h-[280px]  w-[230px] lg:w-full perspective-1000 ${tech.description ? "cursor-pointer" : "cursor-default"}`}
       onMouseEnter={() => tech.description && setIsFlipped(true)}
       onMouseLeave={() => tech.description && setIsFlipped(false)}
       onClick={() => tech.description && setIsFlipped(!isFlipped)}
