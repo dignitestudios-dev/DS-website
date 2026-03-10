@@ -73,7 +73,7 @@ const Discorvery = () => {
               <ul className=" text-xs mb-2 space-y-3">
                 {s.steps.map((st, indx) => (
                   <li key={indx} className="flex items-start gap-2 ">
-                    <img src="/bioyap/bulb.webp" />
+                    <img src="/bioyap/bulb.webp" alt="" />
                     {st}
                   </li>
                 ))}

@@ -306,7 +306,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
                 </button>
               </Link>
             </div>
-            <img src="/location/mobile-tampa/cc.webp" className="absolute right-10 bottom-14 rounded-br-2xl" />
+            <img src="/location/mobile-tampa/cc.webp" alt="" className="absolute right-10 bottom-14 rounded-br-2xl" />
             </div>
           </div>
         }

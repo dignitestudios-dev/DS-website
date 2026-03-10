@@ -80,7 +80,7 @@ export default function DevelopmentCard() {
                     data-aos-anchor-placement="center-bottom"
                 >
                     <div>
-                        <img src="/apple-icon-bg.webp" />
+                        <img src="/apple-icon-bg.webp" alt="" />
                     </div>
                     <h3 className="text-[35px] font-semibold leading-tight">
                         iOS App Development
