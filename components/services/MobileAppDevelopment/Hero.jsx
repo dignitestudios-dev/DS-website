@@ -75,13 +75,13 @@ const Hero = () => {
            
             src="/services/mobile-app/mob.webp"
             alt="Mobile app development showcase Boston"
-            width={721}
+            width={821}
             height={527}
             fetchPriority="high"
             priority
             quality={80}
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 721px, 721px"
-            className="object-cover w-[80%] mx-auto h-full"
+            sizes="(max-width: 768px) 110vw, (max-width: 1024px) 921px, 721px"
+            className="object-cover w-[130%] mx-auto h-full"
             />
         </div>
         {/* <Imagesrc="/location/mobile-boston/r.webp"

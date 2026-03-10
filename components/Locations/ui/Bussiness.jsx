@@ -180,8 +180,8 @@ const Bussiness = ({
               <div className="absolute top-1/2 left-[50%] -translate-x-1/2 -translate-y-1/2">
                 <Image src="/location/mobile-california/icons/logo.webp"
                   alt="Dignite Studios Logo"
-                  width={100}
-                  height={100}
+                  width={400}
+                  height={400}
                   quality={80}
                 />
               </div>
