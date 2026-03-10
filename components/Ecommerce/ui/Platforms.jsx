@@ -9,7 +9,7 @@ const img = [
   "/home-hero/marq/6.webp",
   "/home-hero/marq/7.webp",
   "/home-hero/marq/8.webp",
-  "/home-hero/marq/9.webp",
+  "/home-hero/marq/9.webp",  "/home-hero/marq/10.webp",
 ];
 const Platforms = () => {
   return (

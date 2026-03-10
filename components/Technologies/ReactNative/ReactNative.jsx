@@ -30,37 +30,37 @@ import {
 
 const tech = [
   {
-    name: "Flutter App Development Company",
+    name: "Flutter App",
     icon: <SiFlutter />,
     description:
       "We collaborate with the flutter app development company approach to deliver fast, flexible and visually consistent cross platform experiences.",
   },
   {
-    name: "React Native App Development Company",
+    name: "React Native App ",
     icon: <SiReact />,
     description:
       "As the trusted react native app development company, we also focus on building the smooth, maintainable and the high performance mobile applications.",
   },
   {
-    name: "Swift App Development Company",
+    name: "Swift App ",
     icon: <SiSwift />,
     description:
       "Our swift app development company expertise helps to create polished, stable and user focused native iOS applications.",
   },
   {
-    name: "Kotlin App Development Company",
+    name: "Kotlin App ",
     icon: <SiKotlin />,
     description:
       "With kotlin app development company practices, we deliver secure scalable and efficient Android first mobile solutions.",
   },
   {
-    name: "Node JS Development Company",
+    name: "Node JS ",
     icon: <SiNodedotjs />,
     description:
       "Our node js development company also stack powers reliable backends through the fast APIs and fluent system integrations.",
   },
   {
-    name: "Firebase Development Services",
+    name: "Firebase ",
     icon: <SiFirebase />,
     description:
       "We incorporate cloud features, real time data, authentication and the performance monitoring using the Firebase development services.",
