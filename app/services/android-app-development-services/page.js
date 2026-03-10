@@ -1,7 +1,9 @@
-import AndroidAppDevelopmentServicesPage from "@/components/services/AndroidAppDevelopmentServices/AndroidAppDevelopmentServicesPage";
 import ServicesLayout from "@/layout/ServiceLayout";
+import LazyLoader from "@/components/global/LazyLoader";
 import Script from "next/script";
-import React from "react";
+import React, { lazy, Suspense } from "react";
+
+const AndroidAppDevelopmentServicesPage = lazy(() => import("@/components/services/AndroidAppDevelopmentServices/AndroidAppDevelopmentServicesPage"));
 
 export const metadata = {
   title: "Android App Development Services | Dignite Studios",
@@ -89,7 +91,11 @@ const page = () => {
         ></meta>
       </head>
       <div>
-        <ServicesLayout page={<AndroidAppDevelopmentServicesPage />} />
+        <ServicesLayout page={
+          <Suspense fallback={<LazyLoader />}>
+            <AndroidAppDevelopmentServicesPage />
+          </Suspense>
+        } />
 
         <Script type="application/ld+json" id="android-app-development-schema">
   {`

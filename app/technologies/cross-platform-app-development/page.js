@@ -1,7 +1,9 @@
-import CrossPlatform from "@/components/Technologies/CrossPlatform/CrossPlatform";
 import GlobalLayout from "@/layout/GlobalLayout";
+import LazyLoader from "@/components/global/LazyLoader";
 import Script from "next/script";
-import React from "react";
+import React, { lazy, Suspense } from "react";
+
+const CrossPlatform = lazy(() => import("@/components/Technologies/CrossPlatform/CrossPlatform"));
 
 export const metadata = {
   title: " Cross Platform App Development Services | Dignite",
@@ -202,7 +204,11 @@ const page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <GlobalLayout page={<CrossPlatform />} />
+      <GlobalLayout page={
+        <Suspense fallback={<LazyLoader />}>
+          <CrossPlatform />
+        </Suspense>
+      } />
     </>
   );
 };

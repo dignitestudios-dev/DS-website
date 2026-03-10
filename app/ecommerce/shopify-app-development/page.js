@@ -1,7 +1,9 @@
-import ShopifyAppDevelopment from "@/components/Ecommerce/ShopifyAppDevelopment/ShopifyAppDevelopment";
 import GlobalLayout from "@/layout/GlobalLayout";
+import LazyLoader from "@/components/global/LazyLoader";
 import Script from "next/script";
-import React from "react";
+import React, { lazy, Suspense } from "react";
+
+const ShopifyAppDevelopment = lazy(() => import("@/components/Ecommerce/ShopifyAppDevelopment/ShopifyAppDevelopment"));
 
 export const metadata = {
   title: "Shopify App Development for Scalable Business Growth",
@@ -16,7 +18,11 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <GlobalLayout page={<ShopifyAppDevelopment />} />
+      <GlobalLayout page={
+        <Suspense fallback={<LazyLoader />}>
+          <ShopifyAppDevelopment />
+        </Suspense>
+      } />
 
       {/* Service Schema */}
       <Script

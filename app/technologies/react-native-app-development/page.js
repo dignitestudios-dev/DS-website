@@ -1,8 +1,9 @@
-import ReactNative from "@/components/Technologies/ReactNative/ReactNative";
-
 import GlobalLayout from "@/layout/GlobalLayout";
+import LazyLoader from "@/components/global/LazyLoader";
 import Script from "next/script";
-import React from "react";
+import React, { lazy, Suspense } from "react";
+
+const ReactNative = lazy(() => import("@/components/Technologies/ReactNative/ReactNative"));
 export const metadata = {
   title: "React Native App Development Company | Dignite Studio",
   description:
@@ -153,7 +154,11 @@ const page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <GlobalLayout page={<ReactNative />} />
+      <GlobalLayout page={
+        <Suspense fallback={<LazyLoader />}>
+          <ReactNative />
+        </Suspense>
+      } />
     </>
   );
 };

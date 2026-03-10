@@ -1,8 +1,8 @@
+import GlobalLayout from '@/layout/GlobalLayout';
+import LazyLoader from '@/components/global/LazyLoader';
+import React, { lazy, Suspense } from 'react';
 
-import CaseStudies from '@/components/CaseStudy/CaseStudies';
-import Wing from '@/components/CaseStudy/Wing/Wing';
-import GlobalLayout from '@/layout/GlobalLayout'
-import React from 'react'
+const CaseStudies = lazy(() => import('@/components/CaseStudy/CaseStudies'));
 export const metadata = {
   title: "Dignite Studios Archive – Explore Our Projects & Insights",
   description:
@@ -13,7 +13,11 @@ const page = () => {
   //   <meta name="robots" content="noindex, nofollow" />
   // </head>;
     return (
-        <GlobalLayout page={<CaseStudies />} />
+        <GlobalLayout page={
+          <Suspense fallback={<LazyLoader />}>
+            <CaseStudies />
+          </Suspense>
+        } />
     )
 }
 

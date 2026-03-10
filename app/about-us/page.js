@@ -1,6 +1,8 @@
-import AboutUsPage from "@/components/AboutUs/AboutUsPage";
 import GlobalLayout from "@/layout/GlobalLayout";
-import React from "react";
+import LazyLoader from "@/components/global/LazyLoader";
+import React, { lazy, Suspense } from "react";
+
+const AboutUsPage = lazy(() => import("@/components/AboutUs/AboutUsPage"));
 export const metadata = {
   title: "About Us | Dignite Studios",
   description:
@@ -71,7 +73,11 @@ const page = () => {
         />
         <meta name="twitter:image:alt" content="About Us - Dignite Studios" />
       </head>
-      <GlobalLayout page={<AboutUsPage />} />
+      <GlobalLayout page={
+        <Suspense fallback={<LazyLoader />}>
+          <AboutUsPage />
+        </Suspense>
+      } />
     </>
   );
 };

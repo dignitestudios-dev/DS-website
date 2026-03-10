@@ -1,6 +1,8 @@
-import AiAutomation from "@/components/Technologies/AiAutomation/AiAutomation";
 import GlobalLayout from "@/layout/GlobalLayout";
-import React from "react";
+import LazyLoader from "@/components/global/LazyLoader";
+import React, { lazy, Suspense } from "react";
+
+const AiAutomation = lazy(() => import("@/components/Technologies/AiAutomation/AiAutomation"));
 
 export const metadata = {
   title: " AI Automation Services | Dignite Studios",
@@ -153,7 +155,11 @@ const page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <GlobalLayout page={<AiAutomation />} />
+      <GlobalLayout page={
+        <Suspense fallback={<LazyLoader />}>
+          <AiAutomation />
+        </Suspense>
+      } />
     </>
   );
 };

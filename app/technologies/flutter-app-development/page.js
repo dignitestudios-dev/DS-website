@@ -1,7 +1,9 @@
-import FlutterDev from "@/components/Technologies/flutter/FlutterDev";
 import GlobalLayout from "@/layout/GlobalLayout";
-import React from "react";
+import LazyLoader from "@/components/global/LazyLoader";
+import React, { lazy, Suspense } from "react";
 import Script from "next/script";
+
+const FlutterDev = lazy(() => import("@/components/Technologies/flutter/FlutterDev"));
 
 export const metadata = {
   title: "Flutter App Development Company in USA | Dignite",
@@ -198,7 +200,11 @@ const page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <GlobalLayout page={<FlutterDev />} />
+      <GlobalLayout page={
+        <Suspense fallback={<LazyLoader />}>
+          <FlutterDev />
+        </Suspense>
+      } />
     </>
   );
 };

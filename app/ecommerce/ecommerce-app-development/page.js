@@ -1,7 +1,9 @@
-import EcommerceAppDevelopment from "@/components/Ecommerce/EcommerceAppDevelopment/EcommerceAppDevelopment";
 import GlobalLayout from "@/layout/GlobalLayout";
+import LazyLoader from "@/components/global/LazyLoader";
 import Script from "next/script";
-import React from "react";
+import React, { lazy, Suspense } from "react";
+
+const EcommerceAppDevelopment = lazy(() => import("@/components/Ecommerce/EcommerceAppDevelopment/EcommerceAppDevelopment"));
 
 export const metadata = {
   title: "Ecommerce App Development Company for Scalable Growth",
@@ -16,7 +18,11 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <GlobalLayout page={<EcommerceAppDevelopment />} />
+      <GlobalLayout page={
+        <Suspense fallback={<LazyLoader />}>
+          <EcommerceAppDevelopment />
+        </Suspense>
+      } />
 
       {/* Service Schema */}
       <Script

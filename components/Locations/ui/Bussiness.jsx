@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import { motion } from "framer-motion";
 import { MdArrowOutward } from "react-icons/md";
+import Image from "next/image";
+import customLoader from "@/lib/custom-loader";
 const bs = [
   {
     title: "100% Custom App Development",
@@ -107,10 +109,15 @@ const Bussiness = ({
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
-                  <img
+                  <Image
+                    loader={customLoader}
                     src={`/location/mobile-california/${icons[index].icon}`}
                     alt={item.title}
-                    className=" "
+                    width={350}
+                    height={390}
+                    quality={75}
+                    sizes="350px"
+                    className="w-full h-full object-contain"
                   />
                   <div className="absolute top-0 px-12 py-10">
                     <h3 className="text-lg font-bold text-white ">
@@ -174,9 +181,13 @@ const Bussiness = ({
               </div>
 
               <div className="absolute top-1/2 left-[50%] -translate-x-1/2 -translate-y-1/2">
-                <img
+                <Image
+                  loader={customLoader}
                   src="/location/mobile-california/icons/logo.webp"
                   alt="Dignite Studios Logo"
+                  width={100}
+                  height={100}
+                  quality={80}
                 />
               </div>
             </div>
@@ -186,10 +197,15 @@ const Bussiness = ({
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
-                  <img
+                  <Image
+                    loader={customLoader}
                     src={`/location/mobile-california/${icons[index + 3].icon}`}
                     alt={item.title}
-                    className=" "
+                    width={350}
+                    height={390}
+                    quality={75}
+                    sizes="350px"
+                    className="w-full h-full object-contain"
                   />
                   <div className="absolute top-0 px-12 py-10">
                     <h3 className="text-lg font-bold text-white ">
@@ -247,9 +263,14 @@ const Bussiness = ({
               {bsToUse.map((item, index) => (
                 <SwiperSlide key={index}>
                   <div className="relative w-[350px] mx-auto">
-                    <img
+                    <Image
+                      loader={customLoader}
                       src={`/location/mobile-california/${icons[index].icon}`}
                       alt={item.title}
+                      width={350}
+                      height={390}
+                      quality={75}
+                      sizes="350px"
                       className="w-[350px] h-full object-contain"
                     />
                     <div className="absolute top-0 left-0 w-full h-full px-12 py-8 flex flex-col justify-start text-start">

@@ -1,8 +1,10 @@
-import MobileAppDevelopment from "@/components/services/MobileAppDevelopment/MobileAppDevelopment";
 import GlobalLayout from "@/layout/GlobalLayout";
+import LazyLoader from "@/components/global/LazyLoader";
 import ServicesLayout from "@/layout/ServiceLayout";
 import Script from "next/script";
-import React from "react";
+import React, { lazy, Suspense } from "react";
+
+const MobileAppDevelopment = lazy(() => import("@/components/services/MobileAppDevelopment/MobileAppDevelopment"));
 
 export const metadata = {
   title: "Mobile App Development Services | Dignite Studios",
@@ -16,7 +18,11 @@ export const metadata = {
 const page = () => {
   return (
     <div>
-      <GlobalLayout page={<MobileAppDevelopment />} />
+      <GlobalLayout page={
+        <Suspense fallback={<LazyLoader />}>
+          <MobileAppDevelopment />
+        </Suspense>
+      } />
 
       {/* Service Schema */}
       <Script

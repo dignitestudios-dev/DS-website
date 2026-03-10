@@ -1,6 +1,8 @@
-import MobileAppBoston from "@/components/Locations/mobile-app-boston/MobileAppBoston";
 import GlobalLayout from "@/layout/GlobalLayout";
-import React from "react";
+import LazyLoader from "@/components/global/LazyLoader";
+import React, { lazy, Suspense } from "react";
+
+const MobileAppBoston = lazy(() => import("@/components/Locations/mobile-app-boston/MobileAppBoston"));
 
 export const metadata = {
   title: "Mobile Application Development Boston | Dignite Studios",
@@ -165,7 +167,11 @@ const page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <GlobalLayout page={<MobileAppBoston />} />
+      <GlobalLayout page={
+        <Suspense fallback={<LazyLoader />}>
+          <MobileAppBoston />
+        </Suspense>
+      } />
     </>
   );
 };

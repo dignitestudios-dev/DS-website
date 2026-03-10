@@ -1,9 +1,9 @@
-import ShopifyAppDevelopment from "@/components/Ecommerce/ShopifyAppDevelopment/ShopifyAppDevelopment";
-import ShopifyStoreDevelopment from "@/components/Ecommerce/ShopifyStoreDevelopment/ShopifyStoreDevelopment";
-import MobileAppBoston from "@/components/Locations/mobile-app-boston/MobileAppBoston";
 import GlobalLayout from "@/layout/GlobalLayout";
+import LazyLoader from "@/components/global/LazyLoader";
 import Script from "next/script";
-import React from "react";
+import React, { lazy, Suspense } from "react";
+
+const ShopifyStoreDevelopment = lazy(() => import("@/components/Ecommerce/ShopifyStoreDevelopment/ShopifyStoreDevelopment"));
 
 export const metadata = {
   title: "Expert Shopify Store Development Services for Your Business",
@@ -18,7 +18,11 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <GlobalLayout page={<ShopifyStoreDevelopment />} />
+      <GlobalLayout page={
+        <Suspense fallback={<LazyLoader />}>
+          <ShopifyStoreDevelopment />
+        </Suspense>
+      } />
 
       {/* Service Schema */}
       <Script

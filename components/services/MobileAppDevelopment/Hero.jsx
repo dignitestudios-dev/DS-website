@@ -63,10 +63,12 @@ const Hero = () => {
            
             src="/services/mobile-app/mob.webp"
             alt="Mobile app development showcase Boston"
-           width={800}
-           height={800}
-           fetchPriority="high"
+            width={721}
+            height={527}
+            fetchPriority="high"
             priority
+            quality={80}
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 721px, 721px"
             className="object-cover w-full h-full"
             loader={customLoader} />
         </motion.div>
