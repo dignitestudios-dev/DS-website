@@ -63,7 +63,7 @@ const Faq = ({ faqs }) => {
                     className="overflow-hidden"
                   >
                     <p
-                      className="mt-2 text-xs px-12 lg:text-[16px] leading-normal"
+                      className="mt-2 text-xs px-12 pr-16 lg:text-[16px] leading-normal"
                       // style={{ color: palette?.dark_contrast_color }}
                     >
                       {faq.answer}

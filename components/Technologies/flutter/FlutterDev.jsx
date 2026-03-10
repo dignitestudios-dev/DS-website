@@ -30,37 +30,37 @@ import {
 
 const tech = [
   {
-    name: "Flutter App Development Company",
+    name: "Flutter  ",
     icon: <SiFlutter />,
     description:
       "We use Flutter to create cross-platform mobile products with consistent performance, reusable components, and smooth user experiences across Android and iOS.",
   },
   {
-    name: "React Native App Development Company",
+    name: "React Native  ",
     icon: <SiReact />,
     description:
       "Our team builds flexible mobile solutions using React Native for brands that need rapid prototyping, modular architecture, and efficient multi-platform delivery.",
   },
   {
-    name: "Swift App Development Company",
+    name: "Swift  ",
     icon: <SiSwift />,
     description:
       "For iOS-focused products, we develop high-performance applications using Swift with native capabilities, data-protection compliance, and seamless Apple ecosystem integration.",
   },
   {
-    name: "Kotlin App Development Company",
+    name: "Kotlin  ",
     icon: <SiKotlin />,
     description:
       "We use Kotlin to create durable Android applications emphasizing clean code, efficient workflows, and reliable system design for long-term performance.",
   },
   {
-    name: "Node JS Development Company",
+    name: "Node JS ",
     icon: <SiNodedotjs />,
     description:
       "Our backend specialists use Node.js to power scalable APIs, real-time services, and secure server environments that support modern mobile applications.",
   },
   {
-    name: "Firebase Development Services",
+    name: "Firebase ",
     icon: <SiFirebase />,
     description:
       "We integrate Firebase for cloud services, databases, analytics, and authentication to maintain stability, connectivity, and scalability for your mobile apps.",

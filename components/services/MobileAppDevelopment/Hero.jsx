@@ -48,7 +48,7 @@ const Hero = () => {
           priority
           className="absolute md:block hidden left-[50%] translate-x-[-50%] -top-24 -z-0 object-contain" />
         <motion.div
-          className="relative"
+          className="relative hidden md:block"
           initial={{ y: 80, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}
@@ -70,13 +70,27 @@ const Hero = () => {
             className="object-cover w-[80%] mx-auto h-full"
             />
         </motion.div>
-        {/* <Image src="/location/mobile-boston/r.webp"
+        <div className="relative md:hidden">
+          <Image
+           
+            src="/services/mobile-app/mob.webp"
+            alt="Mobile app development showcase Boston"
+            width={721}
+            height={527}
+            fetchPriority="high"
+            priority
+            quality={80}
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 721px, 721px"
+            className="object-cover w-[80%] mx-auto h-full"
+            />
+        </div>
+        {/* <Imagesrc="/location/mobile-boston/r.webp"
           alt=""
           width={150}
           height={150}
           className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
          />
-        <Image src="/location/mobile-boston/l.webp"
+        <Imagesrc="/location/mobile-boston/l.webp"
           alt=""
           width={150}
           height={150}

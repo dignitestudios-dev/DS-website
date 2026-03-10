@@ -33,6 +33,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
   };
 
   const navigateTo = (link) => {
+    setIsOpen(false);
     navigate.push(link);
   };
 
@@ -70,7 +71,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         style={{ background: palette?.background }}
       >
         <div className="w-full flex gap-3 justify-start items-center px-10">
-          <Link href="/">
+          <Link href="/" onClick={() => setIsOpen(false)}>
             <Image
               alt="Dignite Studios Logo"width={100}
               height={64}
@@ -111,96 +112,112 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 <Link
                   href="/services/mobile-app-development"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   Mobile App Development Services
                 </Link>
                 <Link
                   href="/services/mobile-app-design-services"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   Mobile App Design Services
                 </Link>
                 <Link
                   href="/services/mobile-app-consulting-services"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   Mobile App Consulting Services
                 </Link>
                 <Link
                   href="/services/mobile-app-testing-services"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   Mobile App Testing Services
                 </Link>
                 <Link
                   href="/services/ios-app-development-services"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   IOS App Development Services
                 </Link>
                 <Link
                   href="/services/ios-app-design-services"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   IOS App Design Services
                 </Link>
                 <Link
                   href="/services/native-app-development-services"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   Native App Development Services
                 </Link>
                 <Link
                   href="/services/android-app-development-services"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   Android App Development-services
                 </Link>
                 <Link
                   href="/services/android-mobile-app-design-services"
                   className={`hover:text-orange-600 text-start`}
+                  onClick={() => setIsOpen(false)}
                 >
                   Android Mobile App Design-services
                 </Link>
                 <Link
                   href="/services/hire-mobile-app-developers"
                   className={`hover:text-orange-600 text-start`}
+                  onClick={() => setIsOpen(false)}
                 >
                   Hire Mobile App Developers
                 </Link>
                 <Link
                   href="/services/hire-android-app-developers"
                   className={`hover:text-orange-600 text-start`}
+                  onClick={() => setIsOpen(false)}
                 >
                   Hire Android App Developers
                 </Link>
                 <Link
                   href="/services/hire-ios-app-developers"
                   className={`hover:text-orange-600 text-start`}
+                  onClick={() => setIsOpen(false)}
                 >
                   Hire iOS App Developers
                 </Link>
                 <Link
                   href="/services/web-app-development"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   Web App Development Services
                 </Link>
                 <Link
                   href="/services/progressive-web-app-development"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   PWA Development Services
                 </Link>
                 <Link
                   href="/services/mobile-application-support-and-maintenance-services"
                   className={`hover:text-orange-600 text-start`}
+                  onClick={() => setIsOpen(false)}
                 >
                   Mobile App Support And Maintenance Services
                 </Link>
                 <Link
                   href="/services/hybrid-app-development-services"
                   className={`hover:text-orange-600 text-start`}
+                  onClick={() => setIsOpen(false)}
                 >
                   Hybrid App Development Services
                 </Link>
@@ -230,6 +247,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 <Link
                   href="/technologies/react-native-app-development"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   React Native App Development
                 </Link>
@@ -242,8 +260,16 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 <Link
                   href="/technologies/cross-platform-app-development"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   Cross Platform App Development
+                </Link>
+                <Link
+                  href="/technologies/ai-automation-services"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  AI Automation Services
                 </Link>
               </div>
             )}
@@ -271,60 +297,70 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 <Link
                   href="/locations/mobile-app-development-new-york"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   New York
                 </Link>
                 <Link
                   href="/locations/mobile-app-development-california"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   California
                 </Link>
                 <Link
                   href="/locations/mobile-app-development-seattle"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Seattle
                 </Link>
                 <Link
                   href="/locations/mobile-app-development-miami"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Miami
                 </Link>
                 <Link
                   href="/locations/mobile-app-development-tampa"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Tampa
                 </Link>
                 <Link
                   href="/locations/mobile-app-development-chicago"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Chicago
                 </Link>
                 <Link
                   href="/locations/mobile-app-development-boston"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Boston
                 </Link>
                 <Link
                   href="/locations/mobile-app-development-washington"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Washington
                 </Link>
                 <Link
                   href="/locations/mobile-app-development-charlotte"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Charlotte
                 </Link>
                 <Link
                   href="/locations/mobile-app-development-texas"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Texas
                 </Link>
@@ -354,18 +390,21 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 <Link
                   href="/ecommerce/shopify-app-development"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Shopify App Development
                 </Link>
                 <Link
                   href="/ecommerce/shopify-store-development"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Shopify Store Development
                 </Link>
                 <Link
                   href="/ecommerce/ecommerce-app-development"
                   className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
                 >
                   Ecommerce App Development
                 </Link>
@@ -376,6 +415,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           <button
             onClick={() => navigateTo("/case-studies")}
             className={`text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+            
           >
             Case Studies
           </button>

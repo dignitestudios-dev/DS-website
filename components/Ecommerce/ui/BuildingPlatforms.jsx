@@ -238,11 +238,13 @@ const BuildingPlatforms = ({
                 </div>
 
                 {value.logo && (
+                 
                   <img
                     src={value.logo}
                     alt={value.title}
-                    className="absolute right-0 bottom-0 w-24 h-24 object-contain z-0"
+                    className="absolute right-0 bottom-0 w-28 h-28 !object-contain z-20"
                   />
+                 
                 )}
               </div>
             </SwiperSlide>

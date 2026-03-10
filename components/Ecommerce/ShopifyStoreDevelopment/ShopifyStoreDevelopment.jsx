@@ -548,7 +548,7 @@ const ShopifyStoreDevelopment = () => {
       />
 
       <MobileApp
-        header={"Benefits Of Having"}
+        header={"Benefits Of Having a"}
         header2={"Shopify Store"}
         para={
           "Our stores provide high business value, ROI and automation while supporting long term growth."
