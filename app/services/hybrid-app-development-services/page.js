@@ -5,9 +5,9 @@ import Script from "next/script";
 import React from "react";
 
 export const metadata = {
-  title: "Hybrid App Development Services | Dignite Studios",
+  title: "Hybrid Mobile App Development Services - Scalable Apps",
   description:
-    "Dignite Studios provides the finest custom hybrid mobile application development services for startup businesses or large company holders.",
+    "Upgrade your business with our hybrid mobile app development services. Launch apps with us that engage and attract users on iOS & Android. Get started now!",
 };
 
 const page = () => {

@@ -48,7 +48,7 @@ const Footer = () => {
       },
       {
         name: "Hybrid App Development Services",
-        href: "/services/hybrid-app-development-services",
+        href: "/services/hybrid-app-development",
       },
       {
         name: "Mobile App Development Services",

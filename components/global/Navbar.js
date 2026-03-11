@@ -58,10 +58,7 @@ const Navbar = ({ setIsOpen }) => {
             "Mobile App Development Services",
             "/services/mobile-app-development",
           ],
-          [
-            "Web App Development Services",
-            "/services/web-app-development",
-          ],
+          ["Web App Development Services", "/services/web-app-development"],
           [
             "PWA Development Services",
             "/services/progressive-web-app-development",
@@ -93,6 +90,10 @@ const Navbar = ({ setIsOpen }) => {
           [
             "Mobile App Testing Services",
             "/services/mobile-app-testing-services",
+          ],
+          [
+            "Hybrid App Development Services",
+            "/services/hybrid-app-development",
           ],
         ],
       },
@@ -180,6 +181,15 @@ const Navbar = ({ setIsOpen }) => {
           ["Shopify App Development", "/ecommerce/shopify-app-development"],
           ["Ecommerce App Development", "/ecommerce/ecommerce-app-development"],
           ["Shopify Store Development", "/ecommerce/shopify-store-development"],
+        ],
+      },
+      {
+        image: "/eco-r.webp",
+        items: [
+          [
+            "WooCommerce App Development",
+            "/ecommerce/woocommerce-app-development",
+          ],
         ],
       },
     ],

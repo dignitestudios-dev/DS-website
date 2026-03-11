@@ -434,7 +434,7 @@ const EcommerceAppDevelopment = () => {
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-        btn="Start Your Ecommerce App Journey"
+        button="Start Your Ecommerce App Journey"
         heading="Introduction"
         para={
           <>
