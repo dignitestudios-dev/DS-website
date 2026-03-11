@@ -89,14 +89,14 @@ const FEATURES = [
     title: "Scalable Architecture",
     icon: <FaCogs size={50} color="#F15C20" />,
   },
-  {
-    title: "Cloud Data Synchronization",
-    icon: <FaCloud size={50} color="#F15C20" />,
-  },
-  {
-    title: "Regular Updates & Maintenance",
-    icon: <FaSyncAlt size={50} color="#F15C20" />,
-  },
+  // {
+  //   title: "Cloud Data Synchronization",
+  //   icon: <FaCloud size={50} color="#F15C20" />,
+  // },
+  // {
+  //   title: "Regular Updates & Maintenance",
+  //   icon: <FaSyncAlt size={50} color="#F15C20" />,
+  // },
 ];
 
 const techData = {
@@ -152,8 +152,8 @@ const techData = {
 };
 const services = [
   {
-    icon: "database",
-    icon2: "database1",
+      icon: "icon",
+    icon2: "icon4",
     title: "Hybrid Consultation",
     description: (
       <>
@@ -165,8 +165,8 @@ const services = [
     ),
   },
   {
-    icon: "setting",
-    icon2: "setting2",
+    icon: "pen",
+    icon2: "pen5",
     title: "Hybrid UI/UX Design",
     description: (
       <>
@@ -177,8 +177,8 @@ const services = [
     ),
   },
   {
-    icon: "pipe",
-    icon2: "pipe3",
+      icon: "setting",
+    icon2: "setting2",
     title: "Hybrid Maintenance & Support",
     description: (
       <>
@@ -189,8 +189,9 @@ const services = [
     ),
   },
   {
-    icon: "icon",
-    icon2: "icon4",
+
+       icon: "pipe",
+    icon2: "pipe3",
     title: "Hybrid App Migration",
     description: (
       <>

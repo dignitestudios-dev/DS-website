@@ -30,14 +30,15 @@ const services = [
   {
     icon: "database",
     icon2: "database1",
-    title: "WooCommerce API Integration",
+        title: "WooCommerce Development Services",
     description: (
       <>
-        Link your WooCommerce store to third party platforms and applications to
-        guarantee efficient data flow, automation and smooth overall business
-        operations.
+        Create mobile optimized WooCommerce stores that provide smooth, fast
+        and engaging experiences for users, increasing sales and customer
+        satisfaction on mobile devices.
       </>
     ),
+   
   },
   {
     icon: "setting",
@@ -52,8 +53,8 @@ const services = [
     ),
   },
   {
-    icon: "pipe",
-    icon2: "pipe3",
+    icon: "icon",
+    icon2: "icon4",
     title: "WooCommerce SEO Optimized Platform",
     description: (
       <>
@@ -64,8 +65,9 @@ const services = [
     ),
   },
   {
-    icon: "icon",
-    icon2: "icon4",
+       icon: "pipe",
+    icon2: "pipe3",
+  
     title: "WooCommerce Migration Services",
     description: (
       <>
@@ -90,12 +92,12 @@ const services = [
   {
     icon: "chat",
     icon2: "chat6",
-    title: "WooCommerce Mobile Commerce Development Services",
+ title: "WooCommerce API Integration",
     description: (
       <>
-        Create mobile optimized WooCommerce stores that provide smooth, fast
-        and engaging experiences for users, increasing sales and customer
-        satisfaction on mobile devices.
+        Link your WooCommerce store to third party platforms and applications to
+        guarantee efficient data flow, automation and smooth overall business
+        operations.
       </>
     ),
   },

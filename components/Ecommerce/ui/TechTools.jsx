@@ -218,7 +218,7 @@ const TechTools = ({ header, para, tech, button }) => {
           <Swiper
             modules={[Autoplay, Pagination]}
             spaceBetween={20}
-            slidesPerView={1.2}
+            slidesPerView={1.3}
             centeredSlides={true}
             loop={true}
             autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -289,7 +289,7 @@ const TechCard = ({ tech }) => {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
       transition={{ duration: 0.3 }}
-      className={`relative h-[280px] w-[250px] perspective-1000 ${tech.description ? "cursor-pointer" : "cursor-default"}`}
+      className={`relative h-[280px]  w-[280px] perspective-1000 ${tech.description ? "cursor-pointer" : "cursor-default"}`}
       onMouseEnter={() => tech.description && setIsFlipped(true)}
       onMouseLeave={() => tech.description && setIsFlipped(false)}
       onClick={() => tech.description && setIsFlipped(!isFlipped)}
@@ -299,7 +299,7 @@ const TechCard = ({ tech }) => {
         animate={{ rotateY: isFlipped ? 180 : 0 }}
       >
         {/* Front */}
-        <div className="absolute inset-0 backface-hidden bg-[#F9F9F9] rounded-lg p-8 flex flex-col items-center justify-center border border-gray-100 shadow-sm">
+        <div className="absolute inset-0  backface-hidden rounded-lg p-8 flex flex-col items-center justify-center border border-orange-600/20 shadow-sm">
           <div className="w-24 h-24 bg-[#F15C20] rounded-full flex items-center justify-center text-6xl text-white mb-6 shadow-lg">
             {tech.icon}
           </div>
