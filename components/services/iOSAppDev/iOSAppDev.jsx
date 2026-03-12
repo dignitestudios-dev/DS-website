@@ -229,7 +229,7 @@ const services = [
 
 const highlights = [
   {
-    title: "12+ Years of Development",
+    title: "10+ Years of Development",
     desc: "We’re the best iOS app development team with over 10+ years of experience, building high-performing apps.",
   },
   {
@@ -589,8 +589,8 @@ const IOSAppDev = () => {
       <Testimonials
         test={test}
         para={"Here’s what our clients have to say about working with Dignite Studios, a trusted iOS app development company:"}
-        header={"Testimonials from Our Clients – Custom"}
-        header2={"iOS App Development Services"}
+        header={"Testimonials for iOS App Development"}
+        header2={" Services"}
       />
       <Faq header={" People Usually Ask"} faqs={faqs} />
       <ContactUs

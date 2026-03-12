@@ -110,7 +110,7 @@ const Bussiness = ({
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
                   <img
-                    src={`/location/mobile-california/${icons[index].icon}`}
+                    src={ item.icon ? item.icon : `/location/mobile-california/${icons[index].icon}`}
                     alt={icons[index].icon}
                     className=" "
                   />
@@ -189,7 +189,7 @@ const Bussiness = ({
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
                   <img
-                    src={`/location/mobile-california/${icons[index + 3].icon}`}
+                     src={ item.icon ? item.icon : `/location/mobile-california/${icons[index + 3].icon}`}
                     alt={icons[index + 3].icon}
                     className=" "
                   />

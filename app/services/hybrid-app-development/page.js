@@ -33,13 +33,12 @@ const page = () => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "@id":
-              "https://www.dignitestudios.com/services/mobile-app-development/",
-            name: "Mobile App Development Services",
-            url: "https://www.dignitestudios.com/services/mobile-app-development",
+            "@id": "https://www.dignitestudios.com/services/progressive-web-app-development#service",
+            name: "Hybrid App Development Services",
+            url: "https://www.dignitestudios.com/services/hybrid-app-development",
             description:
-              "Dignite Studios provides end-to-end mobile app development services including consulting, UI/UX design, development, testing, integration, and maintenance for Android and iOS applications.",
-            serviceType: "Mobile App Development",
+              "Hybrid app development services by Dignite Studios to build scalable cross-platform mobile applications using a single codebase for iOS and Android. The service includes UI/UX design, development, migration, testing, deployment, and ongoing support.",
+            serviceType: "Hybrid Mobile App Development",
             provider: {
               "@type": "Organization",
               name: "Dignite Studios",
@@ -49,13 +48,10 @@ const page = () => {
               "@type": "Place",
               name: "Worldwide",
             },
-            availableChannel: {
-              "@type": "ServiceChannel",
-              serviceLocation: {
-                "@type": "Place",
-              },
-              serviceUrl:
-                "https://www.dignitestudios.com/services/mobile-app-development",
+            offers: {
+              "@type": "Offer",
+              url: "https://www.dignitestudios.com/services/hybrid-app-development",
+              availability: "https://schema.org/InStock",
             },
           }),
         }}
@@ -85,8 +81,8 @@ const page = () => {
               {
                 "@type": "ListItem",
                 position: 3,
-                name: "Mobile App Development",
-                item: "https://www.dignitestudios.com/services/mobile-app-development",
+                name: "Hybrid App Development Services",
+                item: "https://www.dignitestudios.com/services/hybrid-app-development",
               },
             ],
           }),
@@ -104,50 +100,42 @@ const page = () => {
             mainEntity: [
               {
                 "@type": "Question",
-                name: "How much time does it usually take to build a mobile app?",
+                name: "Do you build Hybrid apps?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Dignite Studios doesn’t provide a fixed, similar timeline for each mobile app during development. The time always depends on the complexity and features of every application. Usually, a mid-level application would take up to 8-12 weeks, but it all depends. If you need a final cost estimate, contact our team and share your app idea.",
+                  text: "Yes. Our hybrid mobile app development services create apps that grow with your business. We ensure smooth performance, fast loading and easy management so your app can handle more users and traffic while delivering a reliable and fluent experience across both iOS and Android devices.",
                 },
               },
               {
                 "@type": "Question",
-                name: "Can you build iOS applications too?",
+                name: "How long does hybrid development take?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We’re experts, building both iOS and Android apps. Our trusted developers create high-performance applications. The developers can easily work with native and Swift to develop applications that feel simple while ensuring functionality.",
+                  text: "The timeline depends on your app’s complexity, features and integrations. Our hybrid app development agency follows a structured process to complete the project efficiently. We focus on quality, clear communication and timely delivery so your app launches on schedule and operates smoothly for your business.",
                 },
               },
               {
                 "@type": "Question",
-                name: "Would you provide support after we’re done with the launch?",
+                name: "Do you support hybrid app feature development?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. It’s called post-launch support, and we definitely stay with you even when the app is launched. Providing proper post-launch maintenance and updates. So that we know that the app would stay aligned with the vision and users’ needs.",
+                  text: "Absolutely. With our hybrid mobile app development services, we create custom features and integrations for your app. These enhancements improve functionality, connect third-party tools, automate tasks, and deliver a seamless user experience across both iOS and Android.",
                 },
               },
               {
                 "@type": "Question",
-                name: "What if I have a rough idea? Can you guide me?",
+                name: "Can you refine my Hybrid app idea?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Here’s a thing: There’s no app that starts with the perfect idea. With this understanding, we show guidance through a free consultation and explain the concepts. The app experts can help you out by adding practical aspects to your application and preparing it for the future.",
+                  text: "Yes. Our hybrid development agency helps refine your app idea, plan features and implement the design. We guide you step by step to ensure your app is easy to use, scalable, visually appealing and aligned with your business goals and customer expectations.",
                 },
               },
               {
                 "@type": "Question",
-                name: "How much does a mobile application usually cost?",
+                name: "Do you work with startups and enterprises?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Basically, we don’t have the fixed pricing rules for all the applications. The cost completely depends on the features and the integrations you want your application to have. It’s up to your app’s vision, but at Dignite Studios, we keep pricing transparent with no hidden fees.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Are you currently working with startups, too, or just the enterprises?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "The app development team works with both startups and enterprises. So, it doesn’t matter if you’re a startup or enterprise, we would definitely work with you. Whether you’re building an MVP or scaling an existing application. We would look forward to building an amazing app together either way.",
+                  text: "Yes. We work with businesses of all sizes. As a professional hybrid app development agency, we deliver tailored solutions for startups and large enterprises, ensuring your app is secure, scalable and optimized to grow your business while providing a smooth customer experience.",
                 },
               },
             ],

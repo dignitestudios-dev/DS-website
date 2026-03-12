@@ -4,8 +4,24 @@ import About from "../ui/About";
 import Services from "../ui/Services";
 import Link from "next/link";
 import Bussiness from "../ui/Bussiness";
-import { MdSecurity, MdSync, MdInventory, MdMobileFriendly, MdAnalytics, MdPayment, MdTrendingUp, MdSpeed } from "react-icons/md";
-import { FaWordpress, FaPhp, FaHtml5, FaCss3Alt, FaJs, FaDatabase } from "react-icons/fa";
+import {
+  MdSecurity,
+  MdSync,
+  MdInventory,
+  MdMobileFriendly,
+  MdAnalytics,
+  MdPayment,
+  MdTrendingUp,
+  MdSpeed,
+} from "react-icons/md";
+import {
+  FaWordpress,
+  FaPhp,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaDatabase,
+} from "react-icons/fa";
 import { SiWoocommerce } from "react-icons/si";
 import Industries from "../ui/Industries";
 import { IoGrid, IoWalletOutline } from "react-icons/io5";
@@ -28,21 +44,20 @@ import BuildingPlatforms from "../ui/BuildingPlatforms";
 
 const services = [
   {
-    icon: "database",
-    icon2: "database1",
-        title: "WooCommerce Development Services",
+    icon: "mset",
+    icon2: "mset1",
+    title: "WooCommerce Development Services",
     description: (
       <>
-        Create mobile optimized WooCommerce stores that provide smooth, fast
-        and engaging experiences for users, increasing sales and customer
+        Create mobile optimized WooCommerce stores that provide smooth, fast and
+        engaging experiences for users, increasing sales and customer
         satisfaction on mobile devices.
       </>
     ),
-   
   },
   {
-    icon: "setting",
-    icon2: "setting2",
+    icon: "cred",
+    icon2: "cred1",
     title: "WooCommerce Secure Payment Gateways",
     description: (
       <>
@@ -53,21 +68,21 @@ const services = [
     ),
   },
   {
-    icon: "icon",
-    icon2: "icon4",
+    icon: "sear",
+    icon2: "sear1",
     title: "WooCommerce SEO Optimized Platform",
     description: (
       <>
-        Build a store with SEO friendly architecture and content strategies
-        that improve search rankings, increase visibility and attract more
-        organic traffic to your WooCommerce store.
+        Build a store with SEO friendly architecture and content strategies that
+        improve search rankings, increase visibility and attract more organic
+        traffic to your WooCommerce store.
       </>
     ),
   },
   {
-       icon: "pipe",
-    icon2: "pipe3",
-  
+    icon: "db",
+    icon2: "db1",
+
     title: "WooCommerce Migration Services",
     description: (
       <>
@@ -78,8 +93,8 @@ const services = [
     ),
   },
   {
-    icon: "pen",
-    icon2: "pen5",
+    icon: "set",
+    icon2: "set1",
     title: "WooCommerce Integration Solutions",
     description: (
       <>
@@ -90,9 +105,9 @@ const services = [
     ),
   },
   {
-    icon: "chat",
-    icon2: "chat6",
- title: "WooCommerce API Integration",
+    icon: "cloudes",
+    icon2: "cloudes1",
+    title: "WooCommerce API Integration",
     description: (
       <>
         Link your WooCommerce store to third party platforms and applications to
@@ -105,26 +120,34 @@ const services = [
 
 const highlights = [
   {
+    icon: "/ecommerce/woocommerce-app/bussiness/1.webp",
     title: "WooCommerce Focused Expertise",
     desc: "Our team focuses completely on WooCommerce. This experience helps us to build reliable stores, custom plugins and integrations which support business growth and smooth shopping experiences.",
   },
   {
+    icon: "/ecommerce/woocommerce-app/bussiness/2.webp",
     title: "Certified WooCommerce Developers",
     desc: "Our certified WooCommerce developers follow industry standards and best practices. They build secure stores, develop custom features and ensure stable performance for long-term business success.",
   },
   {
-    title: "Scalable & Secure Store Architecture",
-    desc: "We design WooCommerce stores with strong architecture, ensuring your store remains secure, performs well under traffic, and easily scales as the business grows.",
-  },
-  {
-    title: "Transparent Communication",
+    icon: "/ecommerce/woocommerce-app/bussiness/3.webp",
+        title: "Transparent Communication",
     desc: "We keep communication clear throughout the project. Our team shares progress updates and listens to feedback so every decision supports business goals.",
+
   },
   {
+    icon: "/ecommerce/woocommerce-app/bussiness/4.webp",
     title: "On Time Delivery",
     desc: "Our structured workflow helps us complete projects on time. We plan every stage carefully so the WooCommerce store launches smoothly without delays or quality issues.",
   },
   {
+    icon: "/ecommerce/woocommerce-app/bussiness/5.webp",
+        title: "Scalable & Secure Store Architecture",
+    desc: "We design WooCommerce stores with strong architecture, ensuring your store remains secure, performs well under traffic, and easily scales as the business grows.",
+
+  },
+  {
+    icon: "/ecommerce/woocommerce-app/bussiness/6.webp",
     title: "Long Term Store Support",
     desc: "After launch, we continue supporting your WooCommerce store. Our team provides updates, maintenance, performance checks and improvements to keep the store running smoothly.",
   },
@@ -346,8 +369,6 @@ const PROCESS_STEPS = [
   },
 ];
 
-
-
 const featureData = [
   {
     title: "Secure Login & Authentication",
@@ -382,8 +403,6 @@ const featureData = [
     icon: <MdSpeed />,
   },
 ];
-
-
 
 const techStackData = [
   {
@@ -433,7 +452,16 @@ const WooCommerceAppDevelopment = () => {
         heading="Introduction"
         para={
           <>
-           With over 10 years of experience, Dignite Studios specializes in WooCommerce development services for businesses of all sizes. We design and build public plugins, the private solution we deliver is quite reliable. It’s scalable and optimized for smooth fluent online store performance. Through focusing exclusively on WooCommerce , we also create high quality performance driven stores which meet the business goals. Either you need a new store, advanced custom features or the smooth party integrations. Our end to end solutions also enhance growth and improve the customer engagement. Providing the strong foundation for the long term Ecommerce success.
+            With over 10 years of experience, Dignite Studios specializes in
+            WooCommerce development services for businesses of all sizes. We
+            design and build public plugins, the private solution we deliver is
+            quite reliable. It’s scalable and optimized for smooth fluent online
+            store performance. Through focusing exclusively on WooCommerce , we
+            also create high quality performance driven stores which meet the
+            business goals. Either you need a new store, advanced custom
+            features or the smooth party integrations. Our end to end solutions
+            also enhance growth and improve the customer engagement. Providing
+            the strong foundation for the long term Ecommerce success.
           </>
         }
       />
@@ -444,7 +472,13 @@ const WooCommerceAppDevelopment = () => {
         services={services}
       />
       {/* <TabularEcommerceTechs /> */}
-      <TechTools header={"Advanced WooCommerce Development Technology Stack "} para={"As the top WooCommerce development service, we use strong tools and frameworks. Our stack ensures performance, reliability and scalability for every project. We are among the leading WooCommerce development companies, offering the modern mobile app development services for ecommerce. "} tech={techStackData} />
+      <TechTools
+        header={"Advanced WooCommerce Development Technology Stack "}
+        para={
+          "As the top WooCommerce development service, we use strong tools and frameworks. Our stack ensures performance, reliability and scalability for every project. We are among the leading WooCommerce development companies, offering the modern mobile app development services for ecommerce. "
+        }
+        tech={techStackData}
+      />
       {/* <BuildingPlatforms
         header={"Platforms We Use to Build Ecommerce Apps"}
         para={
@@ -470,7 +504,12 @@ const WooCommerceAppDevelopment = () => {
         button="Partner with Dignite Studios "
         para={
           <>
-           Dignite Studios delivers the WooCommerce website development services for the growing ecommerce brands. As the reliable WooCommerce company, we focus on the quality, security and long term store performance. Our team also collaborates with leading WooCommerce development companies that follow the modern standards and deliver dependable results.  
+            Dignite Studios delivers the WooCommerce website development
+            services for the growing ecommerce brands. As the reliable
+            WooCommerce company, we focus on the quality, security and long term
+            store performance. Our team also collaborates with leading
+            WooCommerce development companies that follow the modern standards
+            and deliver dependable results.
           </>
         }
         bs={highlights}
@@ -505,7 +544,9 @@ const WooCommerceAppDevelopment = () => {
       <Testimonials
         header="Trusted WooCommerce Website Development Services"
         test={test}
-        para={"Businesses Choose Dignite Studios because we focus on the quality, clear communication and the dependable store performance. As the trusted WooCommerce Website development services, we help brands to build secure and scalable online stores which support long term growth. Our clients value our simple process, skilled developers and the strong commitment to delivering reliable eCommerce solutions. "}
+        para={
+          "Businesses Choose Dignite Studios because we focus on the quality, clear communication and the dependable store performance. As the trusted WooCommerce Website development services, we help brands to build secure and scalable online stores which support long term growth. Our clients value our simple process, skilled developers and the strong commitment to delivering reliable eCommerce solutions. "
+        }
         button="Work With Our Expert Team"
       />
       <Faq faqs={faqs} header="FAQs" />

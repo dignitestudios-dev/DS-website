@@ -31,7 +31,7 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-      <div className="relative flex justify-center h-[200px] md:h-[700px] items-center my-12 ">
+      <div className="relative flex justify-center h-[300px] md:h-[700px] items-center my-12 ">
         <div className="absolute  left-[50%] top-[40%] translate-y-[-50%]  translate-x-[-50%]  lg:block hidden  -z-0 w-full h-full">
           <Image
             src="/services/ios-app/grad.webp"
