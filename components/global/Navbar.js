@@ -69,7 +69,7 @@ const Navbar = ({ setIsOpen }) => {
           ],
           [
             "iOS App Development Services",
-            "/services/ios-app-development-services",
+            "/services/ios-app-development",
           ],
           [
             "Native App Development Services",

@@ -28,7 +28,7 @@ const Footer = () => {
       },
       {
         name: "IOS App Development Services",
-        href: "/services/ios-app-development-services",
+        href: "/services/ios-app-development",
       },
       {
         name: "IOS App Design Services",
