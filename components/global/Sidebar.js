@@ -138,7 +138,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Mobile App Testing Services
                 </Link>
                 <Link
-                  href="/services/ios-app-development-services"
+                  href="/services/ios-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
@@ -159,7 +159,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Native App Development Services
                 </Link>
                 <Link
-                  href="/services/android-app-development-services"
+                  href="/services/android-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
@@ -215,7 +215,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Mobile App Support And Maintenance Services
                 </Link>
                 <Link
-                  href="/services/hybrid-app-development-services"
+                  href="/services/hybrid-app-development"
                   className={`hover:text-orange-600 text-start`}
                   onClick={() => setIsOpen(false)}
                 >

@@ -20,7 +20,7 @@ const Footer = () => {
     services: [
       {
         name: "Android App Development Services",
-        href: "/services/android-app-development-services",
+        href: "/services/android-app-development",
       },
       {
         name: "Android App Design Services",
