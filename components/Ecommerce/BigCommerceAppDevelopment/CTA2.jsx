@@ -13,7 +13,7 @@ const CTA2 = ({
   return (
     <div>
       {" "}
-      <div className="w-[95%]  md:h-[550px] lg:w-full text-white bg-black md:bg-transparent md:bg-[url('/ecommerce/shopify-app/s-cta2.webp')] md:bg-contain md:bg-no-repeat md:bg-center transition-all ease-linear rounded-2xl md:rounded-none relative px-6 md:px-36 py-20 md:py-14 mx-auto overflow-hidden">
+      <div className="w-[95%]  md:h-[550px] lg:w-[80%] text-white bg-black md:bg-transparent md:bg-[url('/ecommerce/shopify-app/s-cta2.webp')] md:bg-contain md:bg-no-repeat md:bg-center transition-all ease-linear rounded-2xl md:rounded-none relative px-6 md:px-36 py-20 md:py-14 mx-auto overflow-hidden">
         <div className="flex items-start h-full justify-center">
           <div className="hidden lg:block z-0 absolute -bottom-[35%] left-[65%] 2xl:left-[70%] -translate-x-1/2 w-full">
             <motion.img

@@ -190,6 +190,10 @@ const Navbar = ({ setIsOpen }) => {
             "WooCommerce App Development",
             "/ecommerce/woo-commerce-app-development",
           ],
+          [
+            "BigCommerce App Development",
+            "/ecommerce/big-commerce-app-development",
+          ],
         ],
       },
     ],

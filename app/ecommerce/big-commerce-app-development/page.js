@@ -4,9 +4,9 @@ import React, { lazy, Suspense } from "react";
 import BigCommerceAppDevelopment from "@/components/Ecommerce/BigCommerceAppDevelopment/BigCommerceAppDevelopment";
 
 export const metadata = {
-  title: " Expert BigCommerce Development Services | Dignite Studios",
+  title: "  Reliable BigCommerce developments Service for Growths",
   description:
-    "Boost your online store with Dignite Studios’ BigCommerce development services. Plugins and integrations for scalable, reliable, high-performing stores.  ",
+    " Dignite Studios offers expert BigCommerce developments Service to build scalable, secure, and high performing ecommerce stores for growing businesses.",
   alternates: {
     canonical:
       "https://www.dignitestudios.com/ecommerce/big-commerce-app-development",

@@ -133,7 +133,7 @@ const Footer = () => {
         href: "/ecommerce/shopify-store-development",
       },
       { name: "WooCommerce App Development", href: "/ecommerce/woo-commerce-app-development" },
-      // { name: "Shopify Plus Development", href: "#" },
+      { name: "BigCommerce App Development", href: "/ecommerce/big-commerce-app-development" },
       // { name: "Shopify Hydrogen Development", href: "#" },
       // { name: "Shopify Migration Services", href: "#" },
       // { name: "Headless Ecommerce Development", href: "#" },

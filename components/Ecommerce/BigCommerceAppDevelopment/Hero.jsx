@@ -8,10 +8,10 @@ import Platforms from "../ui/Platforms";
 import Link from "next/link";
 
 const Hero = ({
-  header = "Delivering Reliable WooCommerce Development Services for  ",
-  header2 = "Your Online Growth ",
-  para = "We deliver high quality WooCommerce development services adapted for your ecommerce goals. Build, scalable and growth oriented online stores today. It enhances the user experience, boosts sales and provides a strong foundation for long term business success.  ",
-  btn = "Get Free WooCommerce Development Consultation",
+  header = "Scalable BigCommerce ",
+  header2 = "Development Services",
+  para = "Dignite Studios provides reliable BigCommerce development Services for the brands that want the flexible and powerful ecommerce stores. Our team also builds secure platforms which support growth. We design solutions which improve store performance and simplify online selling for the modern business. ",
+  btn = "Get Free BigCommerce Consultation",
 }) => {
   return (
     <div className="w-full grid grid-cols-1 bg-[url('/ecommerce/shopify-app/grad.webp')] bg-cover bg-center bg-no-repeat  justify-start items-start ">

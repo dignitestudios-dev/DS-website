@@ -25,79 +25,85 @@ import CTA2 from "./CTA2";
 import Process from "../ui/Process";
 import MobileApp from "../ui/MobileApp";
 import BuildingPlatforms from "../ui/BuildingPlatforms";
+import {
+  MdSearch,
+  MdDashboard,
+  MdFlashOn,
+  MdDevices
+} from "react-icons/md";
 
+import {  FaReact } from "react-icons/fa";
+import { SiNextdotjs, SiHandlebarsdotjs, SiGraphql } from "react-icons/si";
+import { TbApi } from "react-icons/tb";
+import { BsTerminal } from "react-icons/bs";
 const services = [
   {
     icon: "database",
     icon2: "database1",
-        title: "WooCommerce Development Services",
+    title: "BigCommerce API Integration",
     description: (
       <>
-        Create mobile optimized WooCommerce stores that provide smooth, fast
-        and engaging experiences for users, increasing sales and customer
-        satisfaction on mobile devices.
+        Our team connects stores with CRM, ERP and payment systems. These
+        integrations improve automation and simplify operations for the
+        businesses using the modern BigCommerce website development services.
       </>
     ),
-   
   },
   {
     icon: "setting",
     icon2: "setting2",
-    title: "WooCommerce Secure Payment Gateways",
+    title: "BigCommerce Secure Payment Gateways",
     description: (
       <>
-        Enable reliable, fast and fully secure payment options for customers,
-        boosting trust, reducing cart abandonment and ensuring smooth checkout
-        experiences.
+        We integrate trusted payment gateways which protect transactions.
+        Secure checkout improves customer confidence and helps businesses grow
+        through stable Ecommerce platforms.
       </>
     ),
   },
   {
     icon: "icon",
     icon2: "icon4",
-    title: "WooCommerce SEO Optimized Platform",
+    title: "BigCommerce SEO Optimized Platform",
     description: (
       <>
-        Build a store with SEO friendly architecture and content strategies
-        that improve search rankings, increase visibility and attract more
-        organic traffic to your WooCommerce store.
+        Our developers build search friendly Ecommerce platforms. Stores load
+        quickly, follow SEO standards, and provide better visibility in search
+        results.
       </>
     ),
   },
   {
-       icon: "pipe",
+    icon: "pipe",
     icon2: "pipe3",
-  
-    title: "WooCommerce Migration Services",
+    title: "BigCommerce Migration Services",
     description: (
       <>
-        Effortlessly transfer your existing ecommerce store to WooCommerce
-        without downtime, data loss or performance issues, ensuring a smooth
-        transition and business continuity.
+        We move stores Shopify, Magento or WooCommerce to BigCommerce.
+        Migration is smooth and protects your store data and customer
+        information.
       </>
     ),
   },
   {
     icon: "pen",
     icon2: "pen5",
-    title: "WooCommerce Integration Solutions",
+    title: "BigCommerce Integration Solutions",
     description: (
       <>
-        Integrate essential plugins, tools and third party applications to
-        enhance store functionality, streamline operations and deliver better
-        experiences to your customers.
+        Our team builds custom integrations that connect third party tools.
+        This improves automation and supports business growth.
       </>
     ),
   },
   {
     icon: "chat",
     icon2: "chat6",
- title: "WooCommerce API Integration",
+    title: "BigCommerce Mobile App Development Services",
     description: (
       <>
-        Link your WooCommerce store to third party platforms and applications to
-        guarantee efficient data flow, automation and smooth overall business
-        operations.
+        We build Ecommerce apps that connect directly with your store.These
+        apps improve the shopping experience and support sales growth.
       </>
     ),
   },
@@ -105,59 +111,47 @@ const services = [
 
 const highlights = [
   {
-    title: "WooCommerce Focused Expertise",
-    desc: "Our team focuses completely on WooCommerce. This experience helps us to build reliable stores, custom plugins and integrations which support business growth and smooth shopping experiences.",
+    title: "Ecommerce Platform Expertise",
+    desc: "Our team understands the Ecommerce systems and builds scalable solutions trusted by the modern online businesses.",
   },
   {
-    title: "Certified WooCommerce Developers",
-    desc: "Our certified WooCommerce developers follow industry standards and best practices. They build secure stores, develop custom features and ensure stable performance for long-term business success.",
+    title: "Certified Developers",
+    desc: "Experienced engineers work on every project. We follow proven development practices which are used by the top bigcommerce development companies.",
   },
   {
-    title: "Scalable & Secure Store Architecture",
-    desc: "We design WooCommerce stores with strong architecture, ensuring your store remains secure, performs well under traffic, and easily scales as the business grows.",
+    title: "Secure Store Architecture",
+    desc: "Through our BigCommerce developments Service, we design platforms which protect data and provide stable performance during high traffic periods.",
   },
   {
     title: "Transparent Communication",
-    desc: "We keep communication clear throughout the project. Our team shares progress updates and listens to feedback so every decision supports business goals.",
+    desc: "Clients stay informed during every project phase. Clear updates help businesses track development progress.",
   },
   {
     title: "On Time Delivery",
-    desc: "Our structured workflow helps us complete projects on time. We plan every stage carefully so the WooCommerce store launches smoothly without delays or quality issues.",
+    desc: "Projects follow the structured plan. Our team makes sure that our store launches are fast and predictable store launches.",
   },
   {
-    title: "Long Term Store Support",
-    desc: "After launch, we continue supporting your WooCommerce store. Our team provides updates, maintenance, performance checks and improvements to keep the store running smoothly.",
+    title: "Long Term Support",
+    desc: "As a trusted BigCommerce Website development company, we continue improving stores after launch.",
   },
 ];
 
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare & Wellness Commerce",
-    desc: "Our solutions support clinics and wellness brands. As the healthcare app development company, we create secure WooCommerce stores for healthcare products.",
+    desc: "We create secure Ecommerce platforms for healthcare brands selling wellness products, supplements and medical equipment through the reliable digital storefronts.",
   },
   {
     title: "Fintech & Subscription Platforms",
-    desc: "We develop WooCommerce stores for subscription services and financial platforms. Our team ensures secure payments, automated billing and a smooth user experience.",
+    desc: "Our developers build stable Ecommerce systems that support subscription billing, digital payments and financial platforms.",
   },
   {
-    title: "Ecommerce Retail Brands",
-    desc: "We help retailers build powerful online stores. As an experienced ecommerce app development company, we create scalable WooCommerce solutions for retail brands.",
+    title: "Ecommerce & Retail Brands",
+    desc: "We develop powerful online stores for retail brands and manage the smooth bigcommerce strategy that improves the customer experience and store performance.",
   },
   {
     title: "Logistics & On Demand Marketplaces",
-    desc: "Our WooCommerce solutions support delivery and service platforms. Similar to an e-learning app development company, we also build structured systems for the users.",
-  },
-  {
-    title: "Grocery",
-    desc: "We create WooCommerce grocery stores which help customers quickly browse products, manage carts and complete orders through a simple and smooth checkout process.",
-  },
-  {
-    title: "Fashion Apparel",
-    desc: "Our WooCommerce stores help fashion brands showcase products with attractive layouts, smooth navigation and fast checkout experiences, improving customer shopping satisfaction.",
-  },
-  {
-    title: "Home Decor",
-    desc: "We design WooCommerce stores for home decor brands. Our stores present products clearly and help customers explore collections and purchase easily.",
+    desc: "Our team builds the Ecommerce solutions for logistics services and marketplace businesses that require real time order tracking and delivery management.",
   },
 ];
 
@@ -191,91 +185,97 @@ const PLATFORMS = [
 
 const test = [
   {
-    name: "Sarah Mitchell",
-    designation: "— BrightCart Retail",
+    name: "Sara Mitchell",
+    designation: "— Nova Retail Group",
     review:
-      "Dignite Studios built our WooCommerce store exactly how we imagined it. The team understood our goals and delivered a smooth shopping experience that our customers love.",
+      "Dignite Studios built our Ecommerce platform smoothly. The team was responsive and professional throughout the project.",
   },
   {
-    name: "Daniel Roberts",
-    designation: "— Urbanstyle Apparel",
+    name: "Daniel Brooks",
+    designation: "— Urban Cart Co.",
     review:
-      "Working with their team was simple and professional. They improved our store performance and helped us launch new features that increased our online sales.",
+      "Our BigCommerce store performs faster now. Their development approach was clear and very organized",
   },
   {
     name: "Emily Carter",
-    designation: "— FreshBasket Grocery",
+    designation: "— FreshLeaf Market",
     review:
-      "The developers were very supportive during the whole project. We chose to hire WooCommerce developers from Dignite Studios, our store now runs even faster and our customers can now easily place orders.",
+      "We needed custom integrations and the developers delivered exactly what we needed",
   },
   {
-    name: "Micheal Thompson",
-    designation: "— NextWave Electronics",
+    name: "Michael Thompson",
+    designation: "— swiftBuy Commerce",
     review:
-      "Their attention to detail really impressed us. The store design, integration and performance improvements helped us to manage our online business much more efficiently.",
+      "Communication was excellent. The team explained every step of the project.",
   },
   {
-    name: "Olivia Green",
-    designation: "— PureWellness Market",
+    name: "Olivia Bennette",
+    designation: "— HeathWay Store",
     review:
-      "Dignite Studios delivered a reliable WooCommerce store with clean design and easy navigation. Our customers now enjoy a much better shopping experience.",
+      "Our store migration was completed without any issues. Highly recommended team",
   },
   {
-    name: "James Walker",
-    designation: "— StyleHub Fashion",
+    name: "James Parker",
+    designation: "— Trendy Outfitters",
     review:
-      "The team handles everything from design to development smoothly. Our store looks modern and performed very well even during high traffic periods.",
+      "They helped improve our store speed and users experience, and we also hire bigcommerce developers for the further enhancements",
   },
   {
-    name: "Sophia Martinez",
-    designation: "— HomeAura Decor",
+    name: "Sophia Reed",
+    designation: "— Luxestyle Brands",
     review:
-      "We appreciated their clear communication and professional approach. They built a store that reflects our brand perfectly and works flawlessly.",
+      "Reliable developers who understand Ecommerce platforms well",
   },
   {
-    name: "William Turner",
-    designation: "— QuickCart Marketplace",
+    name: "David Collins",
+    designation: "— NextGen Retailers",
     review:
-      "Their developers created strong integrations and improved the checkout experience. Our customers complete purchases faster and more easily.",
+      "The project was delivered on time and worked quite perfectly",
   },
   {
-    name: "Ava Collins",
-    designation: "— GreenLeaf Organics",
+    name: "David Collins",
+    designation: "— NextGen Retailers",
     review:
-      "Dignite Studios helped us launch our WooCommerce store without any complications. Their guidance made the whole development process simple.",
+      "The project was delivered on time and worked perfectly",
   },
   {
-    name: "Ethan Brooks",
-    designation: "— TechNova Gadgets",
+    name: "Grace Walker",
+    designation: "— PureLiving Shop",
     review:
-      "The team delivered exactly what we needed. Our new store is stable, easy to manage and gives customers a smooth buying experience.",
+      "Support after launch was very helpful for our team, and we continue to hire bigcommerce developers for ongoing store improvements",
+  },
+  {
+    name: "Ryan Scott",
+    designation: "— PrimeCart Solutions",
+    review:
+      "Great Experience working with their Ecommerce specialists",
   },
 ];
 
 const BENEFITS = [
   {
     title: "Increased Customer Engagement",
-    desc: "WooCommerce stores offer user-friendly browsing, product filtering and simple checkout. These features keep customers engaged and encourage repeated purchases.",
+    desc: "A well built store improves the browsing experience. When paired with the mobile app development services forEcommerce, customers enjoy faster shopping and better interaction.",
     icon: <FaUser color="#F15C20" size={25} />,
   },
   {
     title: "Faster Store Operations",
-    desc: "WooCommerce simplifies daily store management. With a single, simple dashboard, businesses can manage customers, track orders, edit goods and manage inventory.",
+    desc: "Bigcommerce helps businesses process orders quickly. Automated tools manage inventory,payments and customers data without any slowing daily store operations.",
     icon: <IoGrid color="#F15C20" size={25} />,
   },
   {
     title: "Business Automation",
-    desc: "Orders, notifications, inventory updates and payments are all managed by automation technologies. This helps firms run more quickly and effectively by reducing manual labor.",
+    desc: "Store automation reduces manual work. It manages products, orders and customer records efficiently so businesses can focus more on growth.",
     icon: <IoWalletOutline color="#F15C20" size={25} />,
   },
   {
     title: "Revenue Growth",
-    desc: "WooCommerce supports marketing tools, discount systems and SEO features which attract more visitors and increase conversions for better revenue growth.",
+    desc: "A smooth shopping experience encourages customers to buy more. Faster checkout and better navigation help increase and repeat purchases.",
     icon: <CiSearch color="#F15C20" size={25} />,
   },
   {
     title: "Scalable Ecommerce Expansion",
-    desc: "WooCommerce grows with your business. You can add products, integrate tools and expand into new markets without changing the platform.",
+    desc: "Businesses can easily expand product catalogs and handle more traffic. The platform supports long term growth without any performance issues.",
     icon: <FaPencilAlt color="#F15C20" size={25} />,
   },
 ];
@@ -283,68 +283,70 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "Do you build Scalable WooCommerce stores?",
+    question: "Do you build scalable BigCommerce stores?",
     answer:
-      "Yes. Our WooCommerce development services create stores that grow with your business. We ensure smooth performance, fast loading and easy management so your store can handle more products, more traffic and more orders, providing a reliable and fluent shopping experience for your customers at all times.",
+      "Yes. Our developers build BigCommerce stores that will handle high traffic and large product catalogs without slowing down. We design the strong store architecture, stable integrations and secure payment systems. This helps businesses manage growing customer demand. The platform stays reliable even during the peak sales periods and supports the long term Ecommerce growth.",
   },
   {
     id: 2,
-    question: "How long does WooCommerce development take?",
+    question: "How long does BigCommerce development take?",
     answer:
-      "The timeline depends on your store’s complexity, features and integrations. Our WooCommerce development agency follows a structured process to complete the project efficiently. We focus on quality, clear communication and timely delivery so your store launches on schedule and operates smoothly for your business.",
+      "The timeline depends on the store size and project requirements. The basic Ecommerce store may take a few weeks to design and launch. The custom stores with the integrations, advanced features and complex product structures usually take longer. Our team follows a clear development process to ensure the stable performance and the smooth store delivery.",
   },
   {
     id: 3,
-    question: "Do you support WooCommerce plugin development?",
+    question: "Do you support store migrations?",
     answer:
-      "Absolutely. With our custom WooCommerce development services, we build public, private and custom plugins. These plugins improve your store’s functionality, integrate third-party tools, automate processes and enhance the shopping experience, making your WooCommerce store more flexible, efficient and user friendly.",
+      "Yes. We provide secure migration services for businesses moving from Shopify, WooCommerce, Magento or other Ecommerce platforms. Our team carefully transfers products, customer data and order history. We also maintain the store structure and SEO settings. This helps businesses move to BigCommerce without losing important information or search visibility.",
   },
   {
     id: 4,
-    question: "Can you refine my WooCommerce store idea?",
+    question: "Can you improve my existing BigCommerce Store?",
     answer:
-      "Yes. Our WooCommerce development agency helps refine your store idea, plan features and implement the design. We guide you step by step to ensure your store is easy to use, scalable, visually appealing and fully aligned with your business goals and customer expectations.",
+      "Yes. Our developers review your current store and identity areas which need improvement. We optimize store speed, improve navigation and enhance the checkout process. We can also integrate new tools and features which improve the performance. These updates help deliver a better shopping experience and increase overall store efficiency.",
   },
   {
     id: 5,
     question: "Do you work with startups and enterprises?",
     answer:
-      "Yes. We serve businesses of all sizes. As the WooCommerce development company in USA, we deliver tailored WooCommerce solutions for startups and large enterprises, ensuring your store is secure, scalable and optimized to grow your business while providing a smooth experience for your customers.",
+      "Yes. Our team works with startups, small businesses and large enterprises. Startups get guidance to launch the first Ecommerce store successfully. Established companies receive scalable solutions which support large product catalogs and high traffic. We adjust our development approach based on the business size and long term growth goals.",
   },
 ];
 
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery & WooCommerce Planning",
-    desc: "We start by understanding the business goals, products and audience. Our team defines the store features, integrations and structure. This planning stage also ensures a clear roadmap for the store development.",
+    title: "Discovery & Store Planning",
+    desc: "We analyze your business model and product structure. Our expert bigcommerce web developer prepares a clear development strategy.",
   },
   {
     step: "02",
-    title: "Store Design",
-    desc: "Our designers create clean and user-friendly store layouts. Every design reflects the brand identity, improving navigation so customers can easily browse products and complete purchases.",
+    title: "Design",
+    desc: "Our team designs clean store layouts that improve navigation and create the smooth shopping experience.",
   },
   {
     step: "03",
-    title: "Store Development",
-    desc: "Our developers build reliable WooCommerce stores using modern standards. We develop features, integrations and secure systems that ensure performance, scalability and smooth shopping experiences.",
+    title: "Development",
+    desc: "Our developers build strong backend systems and features that keep the store fast, secure and reliable",
   },
   {
     step: "04",
     title: "Testing",
-    desc: "Before the launch, we carefully test the store. Our team checks performance, security, payments and device compatibility to ensure a smooth and error-free shopping experience.",
+    desc: "We carefully test the performance, integrations and security to ensure everything works smoothly before launch",
   },
   {
     step: "05",
-    title: "WooCommerce Deployment",
-    desc: "After testing, we launch your WooCommerce store on the live server. Our team ensures everything runs smoothly and the store is optimized for performance and online visibility.",
+    title: "Store Deployment",
+    desc: "After testing, we launch the store carefully to ensure the bigcommerce store development runs smoothly.",
   },
   {
     step: "06",
-    title: "Post Launch Support",
-    desc: "Our support continues after launch. We provide updates, maintenance, performance monitoring and improvements so your WooCommerce store keeps running smoothly and grows with your business.",
+    title: "Post Launch Support & Optimization",
+    desc: "We continue improving speed, integrations and store features. This helps your Ecommerce business grow faster.",
   },
 ];
+
+
 
 
 
@@ -358,72 +360,70 @@ const featureData = [
     icon: <MdSync />,
   },
   {
+    title: "Smart Product Search",
+    icon: <MdSearch />,
+  },
+  {
+    title: "Customer Account Dashboard",
+    icon: <MdDashboard />,
+  },
+  {
+    title: "Advanced Analytics",
+    icon: <MdAnalytics />,
+  },
+  {
     title: "Inventory Management",
     icon: <MdInventory />,
   },
   {
-    title: "Mobile Optimized Checkout",
-    icon: <MdMobileFriendly />,
+    title: "Fast Checkouts Experience",
+    icon: <MdFlashOn />,
   },
   {
-    title: "Analytics & Reporting",
-    icon: <MdAnalytics />,
-  },
-  {
-    title: "Ulti Payment Support",
-    icon: <MdPayment />,
-  },
-  {
-    title: "SEO friendly Architecture",
-    icon: <MdTrendingUp />,
-  },
-  {
-    title: "Performance Optimization",
-    icon: <MdSpeed />,
+    title: "Multi Device Store Access",
+    icon: <MdDevices />,
   },
 ];
 
 
-
 const techStackData = [
   {
-    name: "WordPress",
-    icon: <FaWordpress />,
+    name: "Handlebars.js",
+    icon: <SiHandlebarsdotjs />,
   },
   {
-    name: "WooCommerce",
-    icon: <SiWoocommerce />,
-  },
-  {
-    name: "PHP",
-    icon: <FaPhp />,
-  },
-  {
-    name: "MySQL / MariaDB",
-    icon: <FaDatabase />,
-  },
-  {
-    name: "WooCommerce REST API",
-    icon: <SiWoocommerce />,
-  },
-  {
-    name: "WordPress REST API",
-    icon: <FaWordpress />,
-  },
-  {
-    name: "HTML5",
+    name: "HTML",
     icon: <FaHtml5 />,
   },
   {
-    name: "CSS3",
+    name: "CSS",
     icon: <FaCss3Alt />,
   },
   {
     name: "JavaScript",
     icon: <FaJs />,
   },
+  {
+    name: "React",
+    icon: <FaReact />,
+  },
+  {
+    name: "Next.js",
+    icon: <SiNextdotjs />,
+  },
+  {
+    name: "REST APIs",
+    icon: <TbApi />,
+  },
+  {
+    name: "GraphQL Storefront API",
+    icon: <SiGraphql />,
+  },
+  {
+    name: "BigCommerce Stencil CLI",
+    icon: <BsTerminal />,
+  },
 ];
-
 const BigCommerceAppDevelopment = () => {
   return (
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
@@ -433,18 +433,21 @@ const BigCommerceAppDevelopment = () => {
         heading="Introduction"
         para={
           <>
-           With over 10 years of experience, Dignite Studios specializes in WooCommerce development services for businesses of all sizes. We design and build public plugins, the private solution we deliver is quite reliable. It’s scalable and optimized for smooth fluent online store performance. Through focusing exclusively on WooCommerce , we also create high quality performance driven stores which meet the business goals. Either you need a new store, advanced custom features or the smooth party integrations. Our end to end solutions also enhance growth and improve the customer engagement. Providing the strong foundation for the long term Ecommerce success.
+         With more than 10 years of Ecommerce experience, Dignite Studios delivers dependable BigCommerce development Service for the growing brands. Our team has also worked with startups, retailers and global Ecommerce businesses. We build Custom Stores, integrations and scalable solutions which support the long term growth. 
+ As the trusted BigCommerce development agency, we create solutions which match business needs. Our experienced BigCommerce website developers build reliable storefronts which perform quite smoothly across devices. 
+We work with several industries such as the Ecommerce,retail, DTC brands and online marketplaces. Our team focuses on strong architecture, stability, performance and simple store management. Businesses trust us because we deliver scalable performs which are ready for growth. 
           </>
         }
       />
       <Services
-        header="Custom WooCommerce development"
+        header="Custom BigCommerce  development"
         header2={"Services"}
-        para="We offer fluent solutions which help businesses scale. Our Custom WooCommerce Development Services cover all the store needs, ensuring performance, security and the user satisfaction."
+        button={"Start Your BigCommerce Project  "}
+        para="Our team provides a complete BigCommerce development Services that helps businesses launch secure and scalable Ecommerce stores. From the custom integrations to migration and performance optimization. We build solutions that simplify store operations and improve customer experience using reliable BigCommerce Website development Services. "
         services={services}
       />
       {/* <TabularEcommerceTechs /> */}
-      <TechTools header={"Advanced WooCommerce Development Technology Stack "} para={"As the top WooCommerce development service, we use strong tools and frameworks. Our stack ensures performance, reliability and scalability for every project. We are among the leading WooCommerce development companies, offering the modern mobile app development services for ecommerce. "} tech={techStackData} />
+      <TechTools header={"Advanced BigCommerce  Development Technology Stack "} para={"Dignite Studios used the modern tools to deliver the stable Ecommerce platforms. As a trusted bigcommerce website development company, our team builds scalable solutions using the proven frameworks. Our expert bigcommerce web developer ensures clean architectures and strong integrations. This approach places us among reliable bigcommerce development companies delivering high performance Ecommerce platforms. "} tech={techStackData} />
       {/* <BuildingPlatforms
         header={"Platforms We Use to Build Ecommerce Apps"}
         para={
@@ -455,65 +458,67 @@ const BigCommerceAppDevelopment = () => {
       /> */}
 
       <CTA
-        header="Ready to Launch Your WooCommerce Store? "
-        para="Use our WooCommerce Development Services to grow your online business. Build stores which deliver the results and growth."
-        btn="Request WooCommerce Development Quote "
+        header=" Start Building Your BigCommerce Store"
+        para="Businesses trust our BigCommerce development Service to build the reliable Ecommerce platforms. Our team understands store architecture, integrations and performance optimization. We guide you through the planning, development and launch so your store grows without any of the technical issues. "
+        btn="Request BigCommerce Development Quote 
+ "
       />
       <Process
-        header="Reliable WooCommerce Store Development Services Process"
-        para="Our process keeps every project clear and quite organized. Our WooCommerce development services focus on quality and steady progress. As an experienced WooCommerce development company in usa, we follow the simple steps which ensure reliable delivery. These WooCommerce development services help the business build a secure and scalable online store.  "
+        header="Reliable BigCommerce Store Development Process"
+        para="Our structured process ensures the smooth delivery of BigCommerce development Service for businesses of all sizes. As an experienced team, we also focus on planning, development, testing and optimizations. Our bigcommerce website developers work quite closely with the clients to build the scalable Ecommerce platforms. Many businesses also hire the bigcommerce developers team to support the long term growth.  "
         steps={PROCESS_STEPS}
       />
       <Bussiness
-        header="Best WooCommerce Development"
-        header2={"Company"}
+        header="Why Business Choose Our BigCommerce"
+        header2={"Development Services"}
         button="Partner with Dignite Studios "
         para={
           <>
-           Dignite Studios delivers the WooCommerce website development services for the growing ecommerce brands. As the reliable WooCommerce company, we focus on the quality, security and long term store performance. Our team also collaborates with leading WooCommerce development companies that follow the modern standards and deliver dependable results.  
+      Dignite Studios delivers the dependable Ecommerce platforms for the growing business. As a reliable bigcommerce development agency, we build secure solutions which support long term growth. Our experienced engineers and businesses that hire bigcommerce developers create scalable architectures trusted by different brands. Businesses often need developers from our team because we deliver reliable results.  
           </>
         }
         bs={highlights}
       />
       <Industries
-        header="Industries We Serve as a WooCommerce "
-        header2={"Development Service "}
-        para="Our WooCommerce development service supports businesses across multiple industries. We build scalable online stores which improve the customer experience and simplify the operations. Our team understands industry needs and delivers the reliable WooCommerce solutions which help brands grow faster and manage the online sales effectively. "
+        header="Industries We Serve as a BigCommerce "
+        header2={" Development Agency"}
+        para="Our team builds Ecommerce platforms for businesses in many industries. As the trusted bigcommerce web developer, we design scalable online stores which help companies sell more products and manage operations easily. Many brands also hire the bigcommerce developers from our team to launch the reliable stores by using the modern bigcommerce website development services. "
         VALUE_PROPOSITION={VALUE_PROPOSITION}
       />
       <MobileApp
         cards={BENEFITS}
-        header="Benefits Of Having a WooCommerce Store "
-        para="A WooCommerce store helps businesses grow faster by improving customer experience and simplifying the online sales. It supports automation, reduces the manual work and manages products easily. Businesses can grow product lines, enhance store performance and boost income through the improved digital commerce operations thanks to the scalable features and adaptable digital technologies. "
-        button="Build a Scalable WooCommerce Store "
+        header="Benefits Of Having a Bigcommerce Store"
+        para="A BigCommerce store helps businesses manage online sales more easily. It supports automation, faster order processing and better customer experiences . When combined with mobile app development services for Ecommerce, businesses can reach more customers, Improve engagement, and build scalable digital stores which support long term online growth. "
+        button="Build a Scalable BigCommerce Store "
       />
       <Features
-        header="Must Have Features in Your WooCommerce Store"
-        para="A high performing WooCommerce store should have secure login, real time order sync, inventory management, mobile optimized checkout, analytics, multi payment support, SEO-friendly architecture and performance optimization to provide smooth, efficient and fluent shopping experience for the customers. "
+        header="Must Have Features in Your BigCommerce Store "
+        para="Strong features improve the store performance and customer experience. Our BigCommerce development Service include advanced tools that support business growth.  "
         button="Get Feature Recommendations"
         features={featureData}
       />
       <SuccessStories
-        header="WooCommerce Store Success Stories"
-        para="See Our successful projects and the detailed work in case studies. Learn how we deliver top WooCommerce development services for the diverse clients. "
+        header=" BigCommerce Development Services Case Studies "
+        para="We have helped businesses launch successful Ecommerce platforms through reliable development and integrations. Our portfolio highlights real projects where stores achieved better performance, improved user experience and strong sales growth.  
+Explore our successful Ecommerce projects and see how our solutions support the business growth "
       />
       <CTA2
-        header="Ready to Build Your WooCommerce Store?"
-        para="Boost your eCommerce growth today with expert WooCommerce development services. Partner with us scalable and reliable stores. "
-        btn="Request WooCommerce Development Quote"
+        header="Start Your BigCommerce Project Today"
+        para="If you want a reliable Ecommerce platform, our BigCommerce development Services can help. Our team builds secure, scalable and high performing online stores. We ensure every step supports business growth and better customer experience. "
+        btn="Request BigCommerce Development Quote"
       />
       <Testimonials
-        header="Trusted WooCommerce Website Development Services"
+        header="Client Testimonials for Our BigCommerce Development Services "
         test={test}
-        para={"Businesses Choose Dignite Studios because we focus on the quality, clear communication and the dependable store performance. As the trusted WooCommerce Website development services, we help brands to build secure and scalable online stores which support long term growth. Our clients value our simple process, skilled developers and the strong commitment to delivering reliable eCommerce solutions. "}
+        para={"Businesses trust our team when they need reliable Ecommerce solutions. As developers focus that  we also focus on quality development and long term partnerships. Many companies choose to hire the bigcommerce developers from the Dignite studios because we build secure platforms and deliver consistent results.  "}
         button="Work With Our Expert Team"
       />
       <Faq faqs={faqs} header="FAQs" />
       <ContactUs
         img={"/ecommerce/big-app/c-img.webp"}
-        header="Kickstart Your WooCommerce Store Journey Today"
-        para="Take the first step to build your scalable WooCommerce store. Share your ideas and get a professional consultation today. "
-        btn="Request WooCommerce Development Quote"
+        header="Start Your BigCommerce Project"
+        para="Have an Ecommerce idea or want to improve your existing store? Our team is ready to build secure and scalable solutions. Share your project details and we will guide you with the right development strategy.  "
+        btn="Request BigCommerce Development Quote "
       />
     </div>
   );
