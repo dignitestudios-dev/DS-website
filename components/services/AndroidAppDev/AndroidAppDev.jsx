@@ -155,8 +155,8 @@ const techData = {
 };
 const services = [
   {
-    icon: "database",
-    icon2: "database1",
+    icon: "dev",
+    icon2: "dev1",
     title: "Custom Android App Development",
     description: (
       <>
@@ -167,8 +167,8 @@ const services = [
     ),
   },
   {
-    icon: "setting",
-    icon2: "setting2",
+    icon: "call",
+    icon2: "call1",
     title: "Android App Consultation",
     description: (
       <>
@@ -178,8 +178,8 @@ const services = [
     ),
   },
   {
-    icon: "pipe",
-    icon2: "pipe3",
+    icon: "h",
+    icon2: "h1",
     title: "Multi-Platform Development",
     description: (
       <>
@@ -190,8 +190,8 @@ const services = [
     ),
   },
   {
-    icon: "icon",
-    icon2: "icon4",
+    icon: "set",
+    icon2: "set1",
     title: "Android Integration",
     description: (
       <>
@@ -202,8 +202,8 @@ const services = [
     ),
   },
   {
-    icon: "pen",
-    icon2: "pen5",
+    icon: "w",
+    icon2: "w1",
     title: "Design Services",
     description: (
       <>
@@ -214,8 +214,8 @@ const services = [
     ),
   },
   {
-    icon: "chat",
-    icon2: "chat6",
+    icon: "bug",
+    icon2: "bug1",
     title: "Android App Testing",
     description: (
       <>
@@ -225,8 +225,8 @@ const services = [
     ),
   },
   {
-    icon: "set",
-    icon2: "set1",
+    icon: "mset",
+    icon2: "mset1",
     title: "Android App Maintenance",
     description: (
       <>
@@ -272,7 +272,7 @@ const highlights = [
   },
   {
     title: "Custom Solutions",
-    desc: "Every app we build is designed to meet your requirements through our Android app development services.",
+    desc: "Every app we build is supposed to meet your requirements through Android app development services. ",
   },
 ];
 

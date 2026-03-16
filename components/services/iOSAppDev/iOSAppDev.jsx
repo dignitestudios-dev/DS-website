@@ -234,23 +234,23 @@ const highlights = [
   },
   {
     title: "High Level Expertise",
-    desc: "Being one of the top iOS app development services providers, we deliver top-tier design and development.",
+    desc: "Being one of the top iOS app development services provider, we provide top-tier design and development.",
   },
   {
     title: "Expert Project Managers",
-    desc: "Providing smooth execution throughout, our professional project managers ensure the entire build stays on track.",
+    desc: "Providing smooth execution throughout, our professional project managers make sure to keep the entire build on track. ",
   },
   {
     title: "100% Transparent Procedure",
-    desc: "The development company shares updates on time. Through regular updates, we provide transparency and fulfill your business needs as one of the top app development companies.",
+    desc: "The development company shares the updates on time. Through updates, we offer transparency and fulfill your business needs as one of the top app development companies.",
   },
   {
     title: "Post-Launch Support",
-    desc: "You can rely on our iOS app development services because the support we offer keeps your app competitive in the long run.",
+    desc: "You can easily depend on our iOS app development services because the support services we offer make your app competitive in the long run. ",
   },
   {
     title: "Custom Solutions",
-    desc: "Every app we build is designed to meet your specific requirements through our iOS app development services.",
+    desc: "Every app we build is supposed to meet your requirements through iOS app development services. ",
   },
 ];
 
@@ -379,7 +379,7 @@ const InstaFEATURES = [
   {
     title: "Apple Pay Integration",
     desc: "Enable fast and secure mobile payments with seamless Apple Pay integration within your iOS application.",
-    icon: <IoGrid size={50} color="#F15C20" />,
+    icon: <FaApple  size={50} color="#F15C20" />,
   },
   {
     title: "iCloud Sync",
@@ -449,8 +449,8 @@ const PROCESS_STEPS = [
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The sprint planning for iOS development begins, and our professional mobile app developers define the product roadmap and total execution time.",
+    title: "Development Phase ",
+    desc: "The iOS development phase begins, and our expert mobile app developers starting working according to the product roadmap and total execution time.",
   },
   {
     step: "04",
@@ -556,10 +556,10 @@ const IOSAppDev = () => {
       />
       <Industries
         VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Specialized iOS App Development Services Different"}
+        header={"Specialized iOS App Development Services for Different"}
         header2={"Industries"}
         para={
-          "We design iOS apps according to your goals. Being one of the top iOS app development companies, we hire hire ios app developer who prevent us from offering the exact same product for every industry and niche. Because offering customized solutions for every industry is our specialty. And building apps customized for your industry needs gives you an advantage in the market. "
+          "We design iOS apps according to your goals. Being one of the top iOS app development companies, we hire ios app developer who prevent us from offering the exact same product for every industry and niche. Because offering customized solutions for every industry is our specialty. And building apps customized for your industry needs gives you an advantage in the market. "
         }
         button={" Let’s Discuss Today"}
       />
