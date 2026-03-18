@@ -111,30 +111,37 @@ const services = [
 
 const highlights = [
   {
+    icon: "/ecommerce/woocommerce-app/bussiness/1.webp",
     title: "Ecommerce Platform Expertise",
     desc: "Our team understands the Ecommerce systems and builds scalable solutions trusted by the modern online businesses.",
   },
   {
+    icon: "/ecommerce/woocommerce-app/bussiness/2.webp",
     title: "Certified Developers",
     desc: "Experienced engineers work on every project. We follow proven development practices which are used by the top bigcommerce development companies.",
   },
   {
+    icon: "/ecommerce/woocommerce-app/bussiness/5.webp",
     title: "Secure Store Architecture",
     desc: "Through our BigCommerce developments Service, we design platforms which protect data and provide stable performance during high traffic periods.",
   },
   {
+    icon: "/ecommerce/woocommerce-app/bussiness/3.webp",
     title: "Transparent Communication",
     desc: "Clients stay informed during every project phase. Clear updates help businesses track development progress.",
   },
   {
+    icon: "/ecommerce/woocommerce-app/bussiness/4.webp",
     title: "On Time Delivery",
     desc: "Projects follow the structured plan. Our team makes sure that our store launches are fast and predictable store launches.",
   },
   {
+    icon: "/ecommerce/woocommerce-app/bussiness/6.webp",
     title: "Long Term Support",
     desc: "As a trusted BigCommerce Website development company, we continue improving stores after launch.",
   },
 ];
+
 
 const VALUE_PROPOSITION = [
   {
@@ -327,12 +334,12 @@ const PROCESS_STEPS = [
   {
     step: "03",
     title: "Development",
-    desc: "Our developers build strong backend systems and features that keep the store fast, secure and reliable",
+    desc: "Our developers build strong backend systems and features that keep the store fast, secure and reliable.",
   },
   {
     step: "04",
     title: "Testing",
-    desc: "We carefully test the performance, integrations and security to ensure everything works smoothly before launch",
+    desc: "We carefully test the performance, integrations and security to ensure everything works smoothly before launch.",
   },
   {
     step: "05",
@@ -465,7 +472,7 @@ We work with several industries such as the Ecommerce,retail, DTC brands and onl
       />
       <Process
         header="Reliable BigCommerce Store Development Process"
-        para="Our structured process ensures the smooth delivery of BigCommerce development Service for businesses of all sizes. As an experienced team, we also focus on planning, development, testing and optimizations. Our bigcommerce website developers work quite closely with the clients to build the scalable Ecommerce platforms. Many businesses also hire the bigcommerce developers team to support the long term growth.  "
+        para="Our structured process ensures the smooth delivery of BigCommerce development Service for businesses of all sizes. As an experienced team, we also focus on planning, development, testing and optimizations. Our bigcommerce website developers work quite closely with the clients to build the scalable Ecommerce platforms. "
         steps={PROCESS_STEPS}
       />
       <Bussiness
@@ -474,7 +481,7 @@ We work with several industries such as the Ecommerce,retail, DTC brands and onl
         button="Partner with Dignite Studios "
         para={
           <>
-      Dignite Studios delivers the dependable Ecommerce platforms for the growing business. As a reliable bigcommerce development agency, we build secure solutions which support long term growth. Our experienced engineers and businesses that hire bigcommerce developers create scalable architectures trusted by different brands. Businesses often need developers from our team because we deliver reliable results.  
+      Dignite Studios delivers the dependable Ecommerce platforms for the growing business. As a reliable bigcommerce development agency, we build secure solutions which support long term growth. Businesses that hire bigcommerce developers create scalable architectures trusted by different brands.  
           </>
         }
         bs={highlights}

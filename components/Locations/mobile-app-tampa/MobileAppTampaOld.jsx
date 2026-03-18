@@ -26,17 +26,7 @@ const services = [
     title: "iOS App Development",
     description: (
       <>
-        If you're going Apple-first, we've got you. Being one of the mobile app
-        development companies in Tampa, we build apps that work smoothly on
-        iPhones. Our{" "}
-        <Link
-          href="/services/ios-app-development-services"
-          className="underline "
-        >
-          iOS app development
-        </Link>{" "}
-        and iPhone app development services focus on clean performance and a
-        smooth user experience.
+        For iPhone app development, using Swift UI works the best. As a result, we create applications that are smooth and high-performing. Whether it’s healthcare or fintech, the collaborative effort of the team delights the users.
       </>
     ),
   },
@@ -46,34 +36,17 @@ const services = [
     title: "Android App Development",
     description: (
       <>
-        For Android, we handle full{" "}
-        <Link
-          href="/services/android-app-development-services"
-          className="underline "
-        >
-          Android app development
-        </Link>{" "}
-        using Kotlin and Java. When we offer our Android app development
-        service, we make sure your app runs smoothly across Pixel, Samsung, and
-        OnePlus. The app would be free of weird bugs.
+        When it comes to Android app development services, we use Kotlin and Java. The apps work on all Android devices. The apps we build are created to perform and scale.
       </>
     ),
   },
   {
     icon: "pipe",
     icon2: "pipe3",
-    title: "Cross-Platform App Development",
+    title: "Cross-Platform",
     description: (
       <>
-        Looking for faster delivery and cost efficiency? You need{" "}
-        <Link
-          href="/services/hybrid-app-development-services"
-          className="underline "
-        >
-          cross-platform app development
-        </Link>
-        . We build apps with Flutter and React Native, so you get iOS and
-        Android apps from a single codebase.
+        Cross platform works with both Flutter and React Native. It’s basically an app built to work on both Android and iOS using a single code. This helps with cost reduction, ensuring consistent performance.
       </>
     ),
   },
@@ -83,68 +56,27 @@ const services = [
     title: "Native App Development",
     description: (
       <>
-        When you want full control, our{" "}
-        <Link
-          href="/services/native-app-development-services"
-          className="underline "
-        >
-          native app development services
-        </Link>{" "}
-        are the best choice. As a native mobile app development company, we
-        build custom native apps and{" "}
-        <Link href="/services/pwa-development-services" className="underline ">
-          PWAs
-        </Link>{" "}
-        that scale with you.
+        Dignite Studio’s Native app development services include PWAs and custom mobile solutions. The mobile apps are designed for reliability.
       </>
     ),
   },
   {
     icon: "pen",
     icon2: "pen5",
-    title: "UI/UX Design Services",
+    title: "UI/UX Design Service",
     description: (
       <>
-        Good design makes everything easier. Our{" "}
-        <Link
-          href="/services/mobile-app-design-services"
-          className="underline "
-        >
-          mobile app design services
-        </Link>
-        , including{" "}
-        <Link
-          href="/services/ios-app-design-services"
-          className="underline "
-        >
-          iOS app design services
-        </Link>{" "}
-        and{" "}
-        <Link
-          href="/services/android-mobile-app-design-services"
-          className="underline "
-        >
-          Android app design services
-        </Link>
-        , focus on clarity, flow, and keeping users happy.
+        The mobile app design service means both iOS app design services and Android app design services. The emphasis is on creating visually appealing apps so they can engage better with users.
       </>
     ),
   },
   {
     icon: "chat",
     icon2: "chat6",
-    title: "Maintenance, Testing & Consulting",
+    title: "Maintenance and Consulting",
     description: (
       <>
-        We don't disappear after launch. From MVP development and post-launch
-        support to QA testing and{" "}
-        <Link
-          href="/services/mobile-app-consulting-services"
-          className="underline "
-        >
-          mobile app consulting services
-        </Link>
-        , we help you fix, improve, and scale without starting over.
+        The mobile app development Tampa team doesn’t just develop applications and disappear. The services include QA testing service, post-launch support, and MVP development service as well. Working with Dignite Studios? You never have to be careful about the “what ifs.”
       </>
     ),
   },
@@ -170,7 +102,7 @@ const highlights = [
   },
   {
     title: "Flexible Models",
-    desc: "We don't believe in the one size fits all approach. So we offer flexible approaches.",
+    desc: "We don’t believe in the “one size fits all” approach. So we offer flexible approaches.",
   },
   {
     title: "Transparency",
@@ -182,7 +114,7 @@ const highlights = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Development",
-    desc: "Healthcare development requires better care and operational efficiency. When working with us, you won't have to worry about the security issues and patient data because we build HIPAA-compliant apps.",
+    desc: "Healthcare development requires better care and operational efficiency. When working with us, you won’t have to worry about the security issues and patient data because we build HIPAA-compliant apps.",
   },
   {
     title: "Ecommerce Development",
@@ -194,7 +126,7 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Education and E-learning",
-    desc: "Searching a reliable mobile app developer Tampa isn't as simple. But we provide education app development services that make the learning experience more engaging and accessible for students.",
+    desc: "Searching a reliable mobile app developer Tampa isn’t as simple. But we provide education app development services that make the learning experience more engaging and accessible for students.",
   },
   {
     title: "Fintech and Logistics",
@@ -208,19 +140,19 @@ const test = [
     name: "Sarah Mitchell",
     designation: "— CEO, ShopEase",
     review:
-      "When we needed assistance to launch our ecommerce app, DS helped. The results were immediate, and our ROI exceeded expectations. Truly impressed by their expertise!",
+      "“When we needed assistance to launch our ecommerce app, DS helped. The results were immediate, and our ROI exceeded expectations. Truly impressed by their expertise!”",
   },
   {
     name: "Elias Jonas",
     designation: "— Founder & CEO, Custom Labs",
     review:
-      "My fintech app was delivered without compromising quality. The team's fast delivery and attention to detail made the process seamless.",
+      "“My fintech app was delivered without compromising quality. The team’s fast delivery and attention to detail made the process seamless.”",
   },
   {
     name: "Emily Thompson",
     designation: "— CEO, LearnSmart Inc.",
     review:
-      "Amazed to see that they were professional and highly skilled. The team guided us through every step of app development. We couldn't be happier with the outcome.",
+      "“Amazed to see that they were professional and highly skilled. The team guided us through every step of app development. We couldn’t be happier with the outcome.”",
   },
 ];
 
@@ -264,7 +196,7 @@ const faqs = [
     id: 2,
     question: "How long do your developers take to build a mobile app?",
     answer:
-      "It's up to the project type, integrations, and features. Usually, app developers can build applications in 10-16 weeks. It can take longer if the project is more complex, but updates will be provided regularly for Tampa custom app development.",
+      "It’s up to the project type, integrations, and features. Usually, app developers can build applications in 10-16 weeks. It can take longer if the project is more complex, but updates will be provided regularly for Tampa custom app development.",
   },
   {
     id: 3,
@@ -276,7 +208,7 @@ const faqs = [
     id: 4,
     question: "Does your team help us after launch?",
     answer:
-      "Absolutely! The service doesn't end at launch. We stay with you even after the launch to provide post-launch support and help you with updates and scalability.",
+      "Absolutely! The service doesn’t end at launch. We stay with you even after the launch to provide post-launch support and help you with updates and scalability.",
   },
   {
     id: 5,
@@ -317,7 +249,7 @@ const PROCESS_STEPS = [
   {
     step: "06",
     title: "Post Launch",
-    desc: "The support doesn't end with the launch. Ongoing improvements and updates are always provided by us.",
+    desc: "The support doesn’t end with the launch. Ongoing improvements and updates are always provided by us.",
   },
 ];
 
@@ -341,7 +273,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
         header={"Tampa Mobile App Development"}
         header2={"Services"}
         para={
-          "When it comes to building mobile applications, we're experts at providing Tampa mobile app development solutions that are high-performing and scalable. Finding expert app developers wouldn't be a struggle when you work with us. "
+          "When it comes to building mobile applications, we’re experts at providing Tampa mobile app development solutions that are high-performing and scalable. Finding expert app developers wouldn’t be a struggle when you work with us. "
         }
       />
       <Bussiness
@@ -380,25 +312,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
         }
         para={
           <>
-           Finding expert app development services in Tampa is tiring and sometimes misleading but we're not here to make misleading promises; we are here to work as a partner with you. When it comes to working with founders, product teams, and
-            growing businesses, our{" "}
-            <Link
-              href={"/services/hire-mobile-app-developers"}
-              className="underline"
-            >
-              {" "}
-              experienced mobile app developers
-            </Link>{" "}
-            in Tampa bring structure, speed, and accountability to every
-            project. This is why many clients consider us the{" "}
-            <Link
-              className="underline"
-              href={"/services/mobile-app-development"}
-            >
-              {" "}
-              best mobile app development company Tampa{" "}
-            </Link>{" "}
-            to work with.
+           Finding expert app development services in Tampa is tiring and sometimes misleading but we’re not here to make misleading promises; we are here to work as a partner with you. 
           </>
         }
       />
@@ -414,21 +328,21 @@ The Tampa-based team is ready to guide you through every step of the build, to i
       steps={PROCESS_STEPS}
         header={"The Way Mobile App Development Tampa Works"}
         para={
-          "The team follows a proven mobile app development process that makes sure the productivity remains high and your app turns out functional. Here's how we work. "
+          "The team follows a proven mobile app development process that makes sure the productivity remains high and your app turns out functional. Here’s how we work. "
         }
-        button={"Let's Work on Your Idea! "}
+        button={"Let’s Work on Your Idea! "}
       />
       <MobileApp
         header={"How Exactly Does a Mobile App "}
         header2={"Helps"}
         para={
-          "Investing in custom app development Tampa might help your business grow more than you can imagine. Here's what's gonna happen when you avail our app development services in Tampa. "
+          "Investing in custom app development Tampa might help your business grow more than you can imagine. Here’s what’s gonna happen when you avail our app development services in Tampa. "
         }
         cards={BENEFITS}
       />
-      <SuccessStories header={"What App Developers in Tampa Have "} header2={"Built"} para={"Explore our portfolio of successful projects through custom app development Tampa and you'll see how many businesses trusted us with their ideas and how we built them.  "} />
+      <SuccessStories header={"What App Developers in Tampa Have "} header2={"Built"} para={"Explore our portfolio of successful projects through custom app development Tampa and you’ll see how many businesses trusted us with their ideas and how we built them.  "} />
       <CTA />
-      <TechAndTools header={"Tools and Tech We Use"} para={"The team uses high quality modern tools that'd make your product scalable and user friendly. "} />
+      <TechAndTools header={"Tools and Tech We Use"} para={"The team uses high quality modern tools that’d make your product scalable and user friendly. "} />
       {/* <SEO /> */}
       <Testimonials
         test={test}
@@ -443,10 +357,21 @@ The Tampa-based team is ready to guide you through every step of the build, to i
         img={"/location/mobile-tampa/c-img.webp"}
         header2={""}
         para={
-          "Your idea shouldn't wait any longer. Start your mobile app project today with us and get a custom build according to your business needs. "
+          "Your idea shouldn’t wait any longer. Start your mobile app project today with us and get a custom build according to your business needs. "
         }
         btn={"Book a Consultation Now!"}
       />
+      {/*     <Bussiness />
+     <Industries />
+      <Process />
+    <MobileApp />
+      <SuccessStories />
+   <CTA />
+          <TechAndTools />
+       <SEO />
+      <Testimonials />
+      <ContactUs />
+      <Faq />  */}
     </div>
   );
 };

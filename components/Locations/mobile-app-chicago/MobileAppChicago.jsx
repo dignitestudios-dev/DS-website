@@ -26,7 +26,7 @@ const services = [
     title: "iOS App Development",
     description: (
       <>
-        Our iOS team delivers smooth and secure applications for iPhone and iPad
+        Our <Link href="/services/ios-app-development" className="underline">iOS</Link> team delivers smooth and secure applications for iPhone and iPad
         users through advanced practices as a mobile app development company in
         Chicago, focused on speed, stability, and a premium user experience.
       </>
@@ -38,8 +38,8 @@ const services = [
     title: "Android App Development",
     description: (
       <>
-        We build scalable and reliable mobile products as a trusted mobile app
-        development company in Chicago, ensuring consistent performance across
+        We build scalable and reliable mobile products as a trusted <Link href="/services/mobile-app-development" className="underline">mobile app
+        development company</Link> in Chicago, ensuring consistent performance across
         different screen sizes, user behaviors, and real-world conditions.
       </>
     ),
@@ -51,7 +51,7 @@ const services = [
     description: (
       <>
         As a trusted mobile app development company in Chicago, we create
-        cross-platform applications from a single codebase to reduce time to
+        <Link href="/technologies/cross-platform-app-development" className="underline"> cross-platform applications</Link> from a single codebase to reduce time to
         market while maintaining native-level performance.
       </>
     ),
@@ -63,7 +63,7 @@ const services = [
     description: (
       <>
         Our engineers focus on performance and device-level optimization by
-        following professional native mobile app development standards for
+        following professional <Link href="/services/native-app-development-services" className="underline">native mobile app development</Link> standards for
         complex business applications.
       </>
     ),
@@ -74,8 +74,8 @@ const services = [
     title: "UI/UX Design Services",
     description: (
       <>
-        We design engaging interfaces through research-driven mobile app design
-        services that improve usability, user retention, and visual consistency
+        We design engaging interfaces through research-driven <Link href="/services/mobile-app-design-services" className="underline">mobile app design
+        services</Link> that improve usability, user retention, and visual consistency
         across platforms.
       </>
     ),
@@ -86,8 +86,8 @@ const services = [
     title: "Maintenance & Consulting",
     description: (
       <>
-        From strategy to long-term scaling, our team provides expert mobile app
-        development consulting through testing, updates, and post-launch
+        From strategy to long-term scaling, our team provides expert <Link href="/services/mobile-app-consulting-services" className="underline">mobile app
+        development consulting</Link> through testing, updates, and post-launch
         performance improvements.
       </>
     ),

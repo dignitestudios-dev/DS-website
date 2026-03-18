@@ -26,9 +26,12 @@ const services = [
     title: "iOS App Development",
     description: (
       <>
-        Our team makes sure that we provide the best iOS app development
-        services, so we use Swift and SwiftUI to create reliable iPhone apps.
-        Apps that easily meet Apple’s performance standards. We focus on
+        Our team makes sure that we provide the best{" "}
+        <Link href="/services/ios-app-development" className="underline">
+          iOS app development services
+        </Link>
+        , so we use Swift and SwiftUI to create reliable iPhone apps.
+        Apps that easily meet Apple's performance standards. We focus on
         building smooth and reliable apps
       </>
     ),
@@ -39,11 +42,14 @@ const services = [
     title: "Android App Development",
     description: (
       <>
-        When building Android apps, we make sure they’re built through Kotlin
+        When building Android apps, we make sure they're built through Kotlin
         and Java. The QA team tests the application on different Android devices
         to ensure that your app works just as well in the practical world as it
-        does in development. That’s how we make sure to provide you with the
-        Android app development services.
+        does in development. That's how we make sure to provide you with the{" "}
+        <Link href="/services/android-app-development" className="underline">
+          Android app development services
+        </Link>
+        .
       </>
     ),
   },
@@ -65,8 +71,11 @@ const services = [
     title: "Native App Development",
     description: (
       <>
-        For products that need deeper performance and control, we offer native
-        app development services, including fully custom mobile apps and PWAs.
+        For products that need deeper performance and control, we offer{" "}
+        <Link href="/services/native-app-development-services" className="underline">
+          native app development services
+        </Link>
+        , including fully custom mobile apps and PWAs.
         This approach is ideal when your product needs tighter integrations,
         better speed, and long-term flexibility.
       </>
@@ -78,7 +87,10 @@ const services = [
     title: "UI/UX Design Services",
     description: (
       <>
-        Choosing the UI/UX design? Dignite Studios’ mobile app design services
+        Choosing the UI/UX design? Dignite Studios'{" "}
+        <Link href="/services/mobile-app-design-services" className="underline">
+          mobile app design services
+        </Link>{" "}
         focus on simple experiences that users actually enjoy. Our designers
         design user-friendly interfaces for both iOS and Android that support
         your product goals.
