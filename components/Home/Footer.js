@@ -56,7 +56,7 @@ const Footer = () => {
       },
       {
         name: "Mobile App Consulting Services",
-        href: "/services/mobile-app-consulting-services",
+        href: "/services/mobile-app-consultation",
       },
       {
         name: "Mobile App Design Services",
@@ -134,7 +134,7 @@ const Footer = () => {
       },
       { name: "WooCommerce App Development", href: "/ecommerce/woo-commerce-app-development" },
       { name: "BigCommerce App Development", href: "/ecommerce/big-commerce-app-development" },
-      // { name: "Shopify Hydrogen Development", href: "#" },
+      { name: "Shopify Integration Development", href: "/ecommerce/shopify-integration-development" },
       // { name: "Shopify Migration Services", href: "#" },
       // { name: "Headless Ecommerce Development", href: "#" },
     ],

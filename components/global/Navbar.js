@@ -85,7 +85,7 @@ const Navbar = ({ setIsOpen }) => {
           ],
           [
             "Mobile App Consulting Services",
-            "/services/mobile-app-consulting-services",
+            "/services/mobile-app-consultation",
           ],
           [
             "Mobile App Testing Services",
@@ -193,6 +193,10 @@ const Navbar = ({ setIsOpen }) => {
           [
             "BigCommerce App Development",
             "/ecommerce/big-commerce-app-development",
+          ],
+          [
+            "Shopify Integration Development",
+            "/ecommerce/shopify-integration-development",
           ],
         ],
       },
