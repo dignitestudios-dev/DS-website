@@ -5,28 +5,96 @@ import Marquee from "react-fast-marquee";
 
 const features = [
   {
-    title: "Product\nRecommendations",
-    desc: "Show personalized product recommendations to simplify discovery, improve conversion rates, and increase average order value (AOV)."
+    title: "Multi Currency\nSupport",
+    desc: "The ability for customers to check out in the currency of their choice really facilitates international purchases and increases the global sales conversion rates"
+  },
+  {
+    title: "Subscriptions",
+    desc: "Direct creation and management of recurring product subscriptions by users within the app guarantees businesses convenience and consistent revenue. "
   },
   {
     title: "Shopify Plus Clone\nStore Support",
-    desc: "Customers can switch between clone stores effortlessly within the app, maintaining seamless access to multiple branded experiences."
-  },
-  {
-    title: "Multi-Currency\nSupport",
-    desc: "Enable customers to checkout in their preferred currency, simplifying purchases for global audiences and improving international sales conversions."
-  },
-  {
-    title: "Loyalty Program",
-    desc: "Enable customers to track and redeem loyalty rewards directly within the app to boost engagement and repeat purchases."
-  },
-  {
-    title: "Single Sign-On\n/ Log In",
-    desc: "Offer secure login with multiple SSO options, streamlining user access and improving retention."
+    desc: "Customers can switch between multiple store versions within the app while maintaining fluent access to products and services. "
   },
   {
     title: "Chat",
-    desc: "Provide instant support with user-friendly in-app chat widgets, allowing customers to reach your support team anytime."
+    desc: "Customers can connect with support teams instantly using simple in app chat features while shopify integration with Hubspot for quick help and better user experience. "
+  },
+  {
+    title: "Filtering &\nMerchandising",
+    desc: "Advanced filters help users find products quickly, improving navigation and increasing engagement and conversions across the store. "
+  },
+  {
+    title: "Pick Up\nIn Store",
+    desc: "By placing purchases online and picking up the goods from the local stores, customers may shop more swiftly and quite easily."
+  },
+  {
+    title: "Product\nRecommendations",
+    desc: "The app shows personalized product suggestions based on the user behaviour, improving product discovery and increasing the average order value."
+  },
+  {
+    title: "Loyalty Program",
+    desc: "To promote the recurring purchases, users may also track rewards, earn points and redeem the offers right within the app. "
+  },
+  {
+    title: "Single Sign On/\nLog In",
+    desc: "Secure login options allow users to access accounts quickly, improving user experience and increasing customer retention rates. "
+  },
+  {
+    title: "Analytics",
+    desc: "Based on the actual consumer data insights, businesses may also monitor app performance, track the user behaviour and also to make the better decisions"
+  },
+  {
+    title: "Ads",
+    desc: "Track and optimize advertising campaigns directly through the app to improve targeting engagement and overall return to investment. "
+  },
+  {
+    title: "Multi Language\nSupport",
+    desc: "Support for multiple languages help businesses reach global audiences and provide better shopping experiences for diverse customers. "
+  },
+  {
+    title: "Email Marketing",
+    desc: "Connect email campaigns with app notifications to deliver timely and personalized messages that improve engagement and conversions. "
+  },
+  {
+    title: "Reviews",
+    desc: "Customers can read and submit product reviews easily, building trust and helping others to make better purchasing decisions. "
+  },
+  {
+    title: "Metafields\nIntegration",
+    desc: "Metafields keep product information consistent between website and app, while shopify integration with Hubspot ensures smooth performance and better content management. "
+  },
+  {
+    title: "Search",
+    desc: "Advanced search functionality helps customers find products faster, improving user experience and boosting overall conversion rates."
+  },
+  {
+    title: "Shoppable\nInstagram",
+    desc: "Customers can buy products directly through Instagram posts, creating a smooth and engaging social shopping experience."
+  },
+  {
+    title: "Instant Checkout",
+    desc: "Fast checkout process reduces cart abandonment and allows customers to complete purchases quickly and securely. "
+  },
+  {
+    title: "Blogs",
+    desc: "Businesses can share blog content within the app to engage users, provide value and improve brand awareness. "
+  },
+  {
+    title: "In App\nDiscounts",
+    desc: "Offer exclusive discounts within the app to attract customers, increase engagement and encourage repeat purchases. "
+  },
+  {
+    title: "Product Drops",
+    desc: "Launch limited products directly through the app to create excitement and increase the engagement."
+  },
+  {
+    title: "Cloud Messaging",
+    desc: "Send push notifications with the updates and offers to keep customers informed and improve ongoing engagement. "
+  },
+  {
+    title: "Wishlist Sync",
+    desc: "Customers can save products and access their wishlist across devices, helping them track items and complete purchases later. "
   }
 ];
 
@@ -37,12 +105,10 @@ const IntegrationFeatures = () => {
         {/* Header Section */}
         <div className="w-full  flex flex-col items-center gap-6 text-center">
           <h2 className="text-[#1F222E] font-bold text-[40px] md:text-[56px] lg:text-[72px] leading-[105%] tracking-[-0.04em] capitalize">
-            Seamlessly Connect Shopify <br className="hidden md:block" />
-            With The Tools And Platforms <br className="hidden md:block" />
-            Your Business Relies On
+            Shopify Mobile App Integration Features 
           </h2>
           <p className="text-[#0C0C0C] w-[80%] mx-auto font-light text-[16px] leading-[136%] tracking-[-0.014em]">
-            Our Shopify integration services provide maximum flexibility, enabling your online store to communicate effortlessly with multiple platforms and services. From marketplaces to accounting tools, payments, and marketing, we make sure your Shopify store operates smoothly, accurately, and efficiently.
+         Enhance your Ecommerce experience with our Shopify mobile app integrations. These features improve the shopping, simplify processes and boost the engagement. From checkout and marketing to the analytics and loyalty tools, we help businesses deliver smooth and consistent experiences across the mobile and web platforms.
           </p>
         </div>
 

@@ -42,74 +42,82 @@ import TechTools from "../ui/TechTools";
 import Features from "../ui/Features";
 import CTA2 from "./CTA2";
 import IntegrationFeatures from "./IntegrationFeatures";
+import TabularEcommerceTechs from "./TabularEcommerceTechs";
 
 const services = [
   {
-    icon: "database",
-    icon2: "database1",
-    title: "Shopify App Development",
-    description: (
-      <>
-        We build reliable apps that improve the store performance and support
-        growth. It delivers the fluent user experience for the modern ecommerce
-        business.
-      </>
-    ),
-  },
-  {
-    icon: "setting",
-    icon2: "setting2",
-    title: "Shopify App UI/UX Design",
-    description: (
-      <>
-        We design simple interfaces which improve the user experience. It makes
-        the navigation smooth for better engagement and higher conversions.
-      </>
-    ),
-  },
-  {
-    icon: "pipe",
-    icon2: "pipe3",
-    title: "Feature Development and Customization",
-    description: (
-      <>
-        We create the custom features which match business needs and improve
-        store functionality through better performance and flexibility.
-      </>
-    ),
-  },
-  {
     icon: "icon",
     icon2: "icon4",
-    title: "Shopify API and Third Party Integrations",
+    title: "Marketplace Integrations",
     description: (
       <>
-        We connect your store with the tools and platforms to improve the
-        workflows and simplify operations using our shopify app development
-        solutions.
+        Increase your reach by shopify marketplaces integration. We link to your
+        store to Walmart, Amazon, eBay and Etsy
       </>
     ),
   },
   {
-    icon: "pen",
-    icon2: "pen5",
-    title: "Shopify Backend and Cloud Integration",
+    icon: "cred",
+    icon2: "cred1",
+    title: "Payment Gateway Integrations",
     description: (
       <>
-        We build secure backend systems which support stable performance and
-        scalable app operations as the reliable shopify app development
-        solutions for the growing ecommerce businesses.
+        Enable safe and smooth payments through the Shopify stripe Integration.
+        Our team helps businesses integrate stripe with shopify so customers can
+        pay securely. The stores receive fast payment processing and global
+        currency support.
+      </>
+    ),
+  },
+  {
+    icon: "db",
+    icon2: "db1",
+    title: "ERP & Accounting Integrations",
+    description: (
+      <>
+        Simplify the financial operations through the QuickBooks Shopify
+        Integration. Your store data syncs automatically with the accounting
+        systems. Orders, invoices, and tax records stay accurate which also
+        reduces manual bookkeeping work.
       </>
     ),
   },
   {
     icon: "chat",
     icon2: "chat6",
-    title: "App Maintenance and Ongoing Support",
+    title: "Marketing & CRM Integrations",
     description: (
       <>
-        We provide ongoing support to keep your app updated, stable and aligned
-        according to your business growth needs.
+        Improve the customer engagement through the Shopify Stripe Integration.
+        We use Shopify Hubspot integration to link the marketing campaigns
+        through the consumer data. Companies also monitor client travels and
+        send the custom made communications.
+      </>
+    ),
+  },
+  {
+    icon: "pipe",
+    icon2: "pipe3",
+    title: "Shipping & Logistics Integrations",
+    description: (
+      <>
+        Our integration connects Shopify Hubspot Integration with shipping
+        providers and logistics platforms. Orders sync automatically and
+        delivery tracking becomes a lot easier. This facilitates more effective
+        fulfillment and shipping operations management for the organisations.
+      </>
+    ),
+  },
+  {
+    icon: "sear",
+    icon2: "sear1",
+    title: "Analytics & Reporting Integrations",
+    description: (
+      <>
+        We connect your store with analysis tools and QuickBooks shopify
+        Integration so you can track sales trends and customer behaviour.
+        Accurate reports help businesses improve marketing and make better
+        growth decisions.
       </>
     ),
   },
@@ -122,15 +130,14 @@ const highlights = [
     desc: "Our team focuses completely on WooCommerce. This experience helps us to build reliable stores, custom plugins and integrations which support business growth and smooth shopping experiences.",
   },
   {
-    icon: "/ecommerce/woocommerce-app/bussiness/2.webp",
+    icon: "/ecommerce/shopify-integrate/2.webp",
     title: "Certified WooCommerce Developers",
     desc: "Our certified WooCommerce developers follow industry standards and best practices. They build secure stores, develop custom features and ensure stable performance for long-term business success.",
   },
   {
     icon: "/ecommerce/woocommerce-app/bussiness/3.webp",
-        title: "Transparent Communication",
+    title: "Transparent Communication",
     desc: "We keep communication clear throughout the project. Our team shares progress updates and listens to feedback so every decision supports business goals.",
-
   },
   {
     icon: "/ecommerce/woocommerce-app/bussiness/4.webp",
@@ -138,10 +145,9 @@ const highlights = [
     desc: "Our structured workflow helps us complete projects on time. We plan every stage carefully so the WooCommerce store launches smoothly without delays or quality issues.",
   },
   {
-    icon: "/ecommerce/woocommerce-app/bussiness/5.webp",
-        title: "Scalable & Secure Store Architecture",
+    icon: "/ecommerce/shopify-integrate/5.webp",
+    title: "Scalable & Secure Store Architecture",
     desc: "We design WooCommerce stores with strong architecture, ensuring your store remains secure, performs well under traffic, and easily scales as the business grows.",
-
   },
   {
     icon: "/ecommerce/woocommerce-app/bussiness/6.webp",
@@ -263,67 +269,76 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "Do you build scalable Shopify apps?",
+    question: "What platforms and tools can be integrated with Shopify?",
     answer:
-      "Yes we build scalable apps that grow with your business and improve store performance over the time. Hire shopify app developer to focus on the strong structure flexibility and easy updates. This also helps ecommerce businesses manage more users, handle data efficiently and add new features without affecting any speed or the user experience.",
+      "Shopify can be integrated with marketplaces, payment gateways, ERP systems, marketing tools and shipping platforms. These connections help to automate workflows, synchronize inventory and manage Ecommerce operations from a single interface saving the time and reducing errors for your business.",
   },
   {
     id: 2,
-    question:
-      "How long does a Shopify app development in USA take to complete a project?",
+    question: "How long does a typical Shopify Integration Project take?",
     answer:
-      "The timeline for a project handled by the Shopify project depends on the app’s complexity and required features. Simple apps can be completed within a few weeks, while the advanced apps through the custom integrations, multiple functionalities and unique designs would also take several months which ensure the quality, scalability and the fluent performance.",
+      "The timeline depends on the complexity and the number of systems involved. Basic integrations such as when you integrate stripe with shopify may also take a few days, while more advanced projects with the multiple platforms and custom workflows can also take several weeks to complete efficiently.",
   },
   {
     id: 3,
-    question: "Do you support Shopify App store submissions?",
+    question: "Will my existing store data remain secure during integration?",
     answer:
-      "Yes we support shopify App store submissions from start to finish. We prepare your app based on shopify guidelines. Ensure all the requirements are quite properly met. Our team also helps with the testing documentation and updates. So that your app can get approved easily and launch without any hassle, delays or technical issues.",
+      "Yes. We follow strict security practices during all Shopify integrations. Customer information, order history and financial data are also protected through the sure transfer protocols, ensuring that the store data remains safe and fully confidential throughout the integration process.",
   },
   {
     id: 4,
-    question: "Can a custom shopify app developer refine my shopify app idea?",
+    question: "Can Shopify integrations be customized for my specific business workflows?",
     answer:
-      "Yes a custom shopify app developer can refine your shopify app idea. Through understanding your business goals and the user needs. They also suggest the better features to improve the structure and guide with the practical solutions. This creates a clear direction to improve usability and ensure your app delivery,strong performance and long term value.",
+      "Absolutely. Integrations can also be done according to your unique operational needs, allowing automation of processes, custom data flow and fluent connections between the Shopify and existing tools. This also ensures that workflow runs smoothly without any work or operational bottlenecks.",
   },
   {
     id: 5,
-    question: "Why should I hire Shopify app developer for my business?",
+    question: "Do you provide ongoing support and maintenance after integration?",
     answer:
-      "When you hire shopify app developer you need expert support to build reliable and scalable apps. A skilled developer understands your store needs and creates solutions which improve performance and user experience. It helps your business grow faster. Keeping the operations simple, efficient and easy to manage over time.",
+      "Yes. Our team monitors integrations after the deployment to ensure that they remain fully operational. We provide updates, troubleshooting and continuous support making sure all connected systems stay compatible with Shopify updates and your business processes.",
+  },
+  {
+    id: 6,
+    question: "How much does a Shopify Integration service typically cost?",
+    answer:
+      "Costs vary depending on the integration complexity, the number of platforms involved and any custom development required. After assessing your business requirements, we provide a clear detailed estimate to ensure transparency and align the project with your budget.",
   },
 ];
-
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery and Shopify App Planning",
-    desc: "As the shopify app development agency, understand your business goals and define a clear plan. For building shopify apps with the shopify services.",
+    title: "Consultation & Requirement Analysis",
+    desc: "We analyze your business goals, workflows and the technical needs which identify the best shopify integration approach and tools that align with your operational requirements. ",
   },
   {
     step: "02",
     title: "Design",
-    desc: "We create simple and user friendly designs. It improves engagement and user experience over digital as the shopify app development agency.",
+    desc: "Our team designs the integration structure and prepares a clear system layout to ensure smooth platform connections",
   },
   {
     step: "03",
-    title: "App Development",
-    desc: "We build scalable apps using the structured development methods. It ensures the performance and stability for custom shopify app development.",
+    title: "Planning",
+    desc: "We create a detailed integration plan and select the right APIs and tools for the secure and scalable connections. ",
   },
   {
     step: "04",
-    title: "Testing",
-    desc: "We test apps carefully to ensure strong, smooth and reliable performance for the interactive user experience.",
+    title: "Integration",
+    desc: "Our developers connect Shopify with the selected platforms and configure systems to ensure the smooth communication and accurate data flow. ",
   },
   {
     step: "05",
-    title: "Shopify App Development",
-    desc: "We launch apps through the proper setup to ensure stable performance and smooth operations.",
+    title: "Testing",
+    desc: "We carefully test integration to confirm stable performance, correct data synchronization and reliable operation across connected platforms. ",
   },
   {
     step: "06",
-    title: "Post Launch Support and Optimization",
-    desc: "We track and improve app performance to ensure long term success and stable reliable results for the custom shopify app development.",
+    title: "Deployment & Monitoring",
+    desc: "Integrations are implemented into your live shop after testing and our staff closely monitors them to ensure the reliable functioning, accurate data flow and system stability. ",
+  },
+  {
+    step: "07",
+    title: "Ongoing Support & Maintenance",
+    desc: "Through platform and third party tool changes. We offer continuous monitoring, upgrades and technical help to maintain your Shopify Integrations safe, optimised and completely compatible. ",
   },
 ];
 
@@ -468,60 +483,76 @@ const ShopifyIntegrationDevelopment = () => {
   return (
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero
-        header="Flexible Shopify App Development "
-        header2="Specialists"
-        para="We deliver reliable shopify app development that helps businesses. Build scalable ecommerce solutions. Our team creates simple and effective apps. It improves the store performance support. Giving the growth and delivering the real business value for the modern online brands."
-        btn="Get Free Shopify App Consultation"
+        header="Shopify Integration Services for Seamless "
+        header2="Ecommerce Growth"
+        para="Empower your online store with the powerful Shopify Integration Services that connect your store through the marketplaces, payment gateways, ERP systems and marketing tools. These integrations automate workflows, reduce the manual tasks, improve the reporting and create the smooth customer shopping experience.   "
+        btn="Get Your Free Consultation "
       />
       <About
-        heading="Introduction"
-        heading2={""}
-        para={<>
-        With over 10 years of experience Dignite Studios provides the reliable shopify services. For growing ecommerce businesses. We build the public apps, private apps and the Custom Integrations. It improves the store performance and the user experience. <br/> Our team works with the startups and the large brands. Across the retail DTC and marketplaces. As the trusted agency we focus on scalable solutions. It supports long term growth and operations. <br/> We create apps that are easy to manage. Our goal is to help business smoothly and grow faster through the strong and dependable Shopify app solutions which deliver constant results and long term business success.
-        </>}
-        button="Talk With Us"
+        heading="Why Your Store Needs"
+        heading2={" Shopify Integration "}
+        para={
+          <>
+            Running an online store requires many tools working together. With
+            over 10 years of experience, Dignite Studios delivers the reliable
+            Shopify Integration Services. Int connect your store with the
+            important business systems. Without any proper integrations
+            businesses face problems through the inventory mismatch, delayed
+            order updates, manual reports and slow operations. These issues
+            might affect customer experience and sales performance. Our team
+            helps businesses connect Shopify with marketplaces, payment
+            gateways, marketing tools and the accounting systems. Automation
+            data flow also helps businesses make faster decisions. As the
+            trusted Shopify Integration company, we also ensure your store works
+            quite smoothly with the tools that your business already uses.
+          </>
+        }
+        button="Get a Free Consultation"
       />
       <Services
         services={services}
-        header={"Shopify App Development"}
+        header={"Our Shopify Integration"}
         header2={"Services"}
-        button={" Start Your Shopify App Project "}
+        button={"Get Free Shopify Integration Consultation "}
         para={
-          "Our shopify app development services are made to match the business needs. We build scalable apps which improve store performance and user experience. We deliver the solutions that grow with your business and support long term success."
+          "Our Shopify Integration Company connects the online store through the store platforms to simplify the operations and improve the better performance. As an experienced Shopify integration company, we ensure the secure connections between marketplaces, accounting tools, payment systems and marketing platforms so your store runs quite smoothly and also grows faster. "
         }
-      />
-      <ConnectShopify />
-      <IntegrationFeatures />
-      <WhyChoose
-        features={typesOfApps}
-        header={"Types Of Shopify Apps We Build for"}
-        header2={"Scalable Ecommerce Growth"}
-        para={
-          "We built apps that help businesses manage operations. Improve the customer experience and increase sales. Our approach focuses on practical solutions. It supports the real business needs and the long term growth."
-        }
-      />
-      <TechTools
-        header="Advanced Shopify App Development Technology Stack"
-        para="As the trusted shopify app development company we use modern tools. For building scalable and secure apps. Our approach places us among the leading shopify app development companies. Delivering the reliable mobile app development services for ecommerce businesses. The strong performance and the long term growth."
-        tech={techStackData}
       />
       <CTA
-        header="Get Started with Your Shopify App"
-        para="Build scalable ecommerce apps that support your growth and improve the store performance. Our shopify services help you create reliable apps. It delivers real results and the long term value for the business."
-        btn="Request Shopify App Development Quote"
+        header="Ready to Connect Shopify With Your Business Tools?"
+        para="Our professionals assist companies in integrating Shopify with payment systems, marketing platforms, accounting software and marketplaces. These interfaces guarantee precise data synchronisation between systems and increase the operational productivity. "
+        btn="Book a Free Shopify Integration Call "
+      />
+      <Industries
+        VALUE_PROPOSITION={VALUE_PROPOSITION}
+        header={"Industries We Serve for"}
+        header2={"Shopify Integration Services"}
+        para={
+          "Simplifying operations many industries rely on Hubspot Shopify Integration to simplify operations and improve customer experiences. Our team works with the startups and established companies which build reliable Ecommerce integrations which support smooth data flow and business growth. "
+        }
+        button={"Discuss Your Idea "}
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Reliable Custom Shopify App Development Process"}
+        header={"Our Shopify Integration Process "}
         para={
-          "Our process focuses on the clear execution and measurable results. As the trusted shopify app development company. We build reliable solutions that improve performance and support long term growth."
+          "Our integration process ensures stable and reliable Hubspot Shopify Integration for businesses. As one of the providers of Shopify Marketplace, we follow a structured workflow that connects platforms secretly and ensures smooth data flow between systems. "
         }
       />
+
+      <CTA2
+        header={"Start Your Shopify Integration Project Today "}
+        para={
+          "Use the professional Shopify Integration Services to link the Shopify with marketing tools, ERP systems and payment gateways. These interfaces streamline the processes, cut down on the human labour and assist companies in running their online store quite more effectively. "
+        }
+        btn={"Consult a Shopify Integration Specialist   "}
+      />
+      
       <Bussiness
         bs={highlights}
-        header={"Reasons to Trust Our"}
-        header2={"Shopify App Expertise"}
-        button={"Partner With Dignite Studios. "}
+        header={"Why Choose Our Best Shopify"}
+        header2={"Integration Services"}
+        button={"Partner With Dignite Studios "}
         ctaHeader={"Partner With Dignite Studios."}
         ctaPara={
           "Dignite Studios delivers the best shopify services. It helps businesses grow with reliable and scalable solutions. As the trusted company we focus on the performance and long term value which is unlike many generic providers."
@@ -562,65 +593,31 @@ const ShopifyIntegrationDevelopment = () => {
         }
         para={
           <>
-         Dignite Studios delivers the best shopify services. It helps businesses grow with reliable and scalable solutions. As the trusted company we focus on the performance and long term value which is unlike many generic providers.  
+            Dignite Studios delivers the best shopify services. It helps
+            businesses grow with reliable and scalable solutions. As the trusted
+            company we focus on the performance and long term value which is
+            unlike many generic providers.
           </>
         }
       />
-      <Industries
-        VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Industries We Serve as a"}
-        header2={"Leading Agency"}
-        para={
-          "We work with multiple industries and deliver practical solutions which improve the operations and support business growth."
-        }
-      />
-
-      <MobileApp
-        header={"Benefits of Having a"}
-        header2={"Shopify Mobile App"}
-        para={
-          "A shopify mobile app helps businesses improve engagement, automate operations and increase revenue. Our approach to mobile app development services for ecommerce ensures scalable growth and better performance across the platforms."
-        }
-        cards={BENEFITS}
-      />
-      <Features
-        button={"Get Feature Recommendations. "}
-        header="Must Have Features in Shopify"
-        header2="App Development Cost"
-        para="Modern apps require essential features that improve performance and user experience. Considering the shopify app development cost helps ensure that your app includes everything. It’s needed for growth, scalability and efficient operation. While keeping the budget and value aligned with your business goals."
-        features={featureData}
-      />
-      <SuccessStories
-        header={"Successful Shopify"}
-        header2={"App Project"}
-        para={
-          "We have delivered successful Shopify apps that improved store performance and business growth. Our projects show how structured app solutions help businesses scale efficiently. Explore more on our Portfolio Case Studies page."
-        }
-      />
-      <CTA2
-        header={"Ready to Scale with Expert Shopify Solutions?"}
-        para={
-          "Take your eCommerce store to the next level with our tailored shopify app development services designed to boost performance, streamline operations, and enhance customer experience."
-        }
-        btn={"Request Shopify App Development Quote"}
-      />
-      {/* <SEO  header={"Focused Mobile Application Development Boston"} para={"Choosing the right partner in Boston can completely change the way your app performs in a competitive market."}/> */}
-      <Testimonials
-        test={test}
-        header={"What Shopify App Development"}
-        header2={"Clients Say"}
-        para={""}
-      />
+      <ConnectShopify />
+      {/* <TechTools
+        header="Advanced Shopify App Development Technology Stack"
+        para="As the trusted shopify app development company we use modern tools. For building scalable and secure apps. Our approach places us among the leading shopify app development companies. Delivering the reliable mobile app development services for ecommerce businesses. The strong performance and the long term growth."
+        tech={techStackData}
+      /> */}
+      <TabularEcommerceTechs/>
+      <IntegrationFeatures />
       <Faq faqs={faqs} />
       <ContactUs
         img={"/ecommerce/shopify-app/c-img.webp"}
         pathname={"Shopify App Development"}
-        header={"Request Shopify App Quote"}
+        header={"Launch Your Shopify Integration Now"}
         header2={""}
         para={
-          "Share your app idea with us and we will help you to build the scalable solutions that supports your business growth and improves the store performance through the reliable execution."
+          "Tell us about your integration needs and our experts will help you to connect shopify with the right tools to streamline the operations, automate workflows and boost the online store performance. "
         }
-        btn={"Request Shopify App Development Quote"}
+        btn={"Connect With Shopify Experts"}
       />
     </div>
   );

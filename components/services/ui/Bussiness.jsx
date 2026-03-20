@@ -110,8 +110,8 @@ const Bussiness = ({
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
                   <img
-                    src={`/location/mobile-california/${icons[index].icon}`}
-                    alt={icons[index].icon}
+                    src={item.icon || `/location/mobile-california/${icons[index].icon}`}
+                    alt={item.title}
                     className=" "
                   />
                   <div className="absolute top-0 px-12 py-10">
@@ -189,8 +189,8 @@ const Bussiness = ({
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
                   <img
-                    src={`/location/mobile-california/${icons[index + 3].icon}`}
-                    alt={icons[index + 3].icon}
+                    src={item.icon || `/location/mobile-california/${icons[index + 3].icon}`}
+                    alt={item.title}
                     className=" "
                   />
                   <div className="absolute top-0 px-12 py-10">
@@ -262,8 +262,8 @@ const Bussiness = ({
                 <SwiperSlide key={index}>
                   <div className="relative w-[350px] mx-auto">
                     <img
-                      src={`/location/mobile-california/${icons[index].icon}`}
-                      alt={icons[index].icon}
+                      src={item.icon || `/location/mobile-california/${icons[index].icon}`}
+                      alt={item.title}
                       className="w-[350px] h-full object-contain"
                     />
                     <div className="absolute top-0 left-0 w-full h-full px-12 py-8 flex flex-col justify-start text-start">

@@ -2,17 +2,16 @@ import GlobalLayout from "@/layout/GlobalLayout";
 import LazyLoader from "@/components/global/LazyLoader";
 import Script from "next/script";
 import React, { lazy, Suspense } from "react";
-import ShopifyIntegrationDevelopment from "@/components/Ecommerce/ShopifyIntegrationDevelopment/ShopifyIntegrationDevelopment";
 
-const ShopifyStoreDevelopment = lazy(() => import("@/components/Ecommerce/ShopifyStoreDevelopment/ShopifyStoreDevelopment"));
+const ShopifyIntegrationDevelopment = lazy(() => import("@/components/Ecommerce/ShopifyIntegrationDevelopment/ShopifyIntegrationDevelopment"));
 
 export const metadata = {
-  title: "Expert Shopify Store Development Services for Your Business",
+  title: "Professional Shopify Integration Services for Your Store",
   description:
-    "Boost your online store with our reliable Shopify store development services. We deliver scalable, secure, and high-performing solutions for growth.",
+    " Streamline your online store with expert Shopify Integration Services. Connect marketplaces, payment gateways, ERP, and marketing tools efficiently.",
   alternates: {
     canonical:
-      "https://www.dignitestudios.com/ecommerce/shopify-store-development",
+      "https://www.dignitestudios.com/ecommerce/shopify-integration-development",
   },
 };
 

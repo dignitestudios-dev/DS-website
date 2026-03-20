@@ -1,46 +1,48 @@
+"use client"
 import React from 'react';
 import Link from 'next/link';
 import { MdArrowOutward } from "react-icons/md";
+import { motion } from "framer-motion";
 
 const integrations = [
   {
     title: "Shopify & Amazon\nIntegration",
-    desc: "Automate product listings, synchronize inventory, update pricing in real time, and manage orders from one dashboard. This integration helps Shopify merchants expand visibility and accelerate sales on Amazon.",
+    desc: "We implement shopify marketplaces integration to sync products, pricing and orders between Shopify and Amazon  helping businesses manage multiple sales channels easily. ",
     icons: ["/ecommerce/shopify-integrate/amazon.webp"], 
   },
   {
     title: "Shopify & Etsy\nIntegration",
-    desc: "Connect your Shopify store with Etsy to manage products, inventory, and orders seamlessly. Keep listings synchronized while maintaining consistent branding and operations across both platforms effortlessly.",
+    desc: "Our team enables smooth shopify marketplace integration with Etsy so business can manage the listings, inventory and orders across both the platforms without the confusion. ",
     icons: ["/ecommerce/shopify-integrate/etsy.webp"],
   },
   {
     title: "Shopify & eBay\nIntegration",
-    desc: "Connect your Shopify store with eBay to manage products, inventory, and orders seamlessly. Keep listings synchronized while maintaining consistent branding and operations across both platforms effortlessly.",
+    desc: "Our team enables smooth shopify marketplace integration with ebay so business can manage the listings, inventory and orders across both the platforms without any confusion.  ",
     icons: ["/ecommerce/shopify-integrate/eb.webp"], 
   },
   {
     title: "Shopify & Walmart\nIntegration",
-    desc: "List products on Walmart directly from Shopify while keeping inventory and orders synchronized. Simplify multichannel management, streamline fulfillment workflows, and enhance product visibility across Walmart's marketplace.",
+    desc: "In order to simplify management of our shopify marketplace integration, we plan to store product listings and order with Walmart. ",
     icons: ["/ecommerce/shopify-integrate/wal.webp"],
   },
   {
     title: "Shopify & QuickBooks\nIntegration",
-    desc: "Automate product listings, synchronize inventory, update pricing in real time, and manage orders from one dashboard. This integration helps Shopify merchants expand visibility and accelerate sales on Amazon.",
+    desc: "By easily synchronising orders, invoices and customer data with the accounting systems our QuickBooks Shopify Integration minimises manual labour and improves the financial accuracy. ",
     icons: ["/ecommerce/shopify-integrate/book.webp"],
   },
   {
     title: "Shopify & HubSpot\nIntegration",
-    desc: "Connect your Shopify store with Etsy to manage products, inventory, and orders seamlessly. Keep listings synchronized while maintaining consistent branding and operations across both platforms effortlessly.",
+    desc: "We link customer data with the marketing tools using the Hubspot Shopify Integration to automate campaigns, increase engagement and monitor the performance activity. ",
     icons: ["/ecommerce/shopify-integrate/ll.webp"],
   },
   {
     title: "Shopify & Stripe\nIntegration",
-    desc: "Connect your Shopify store with Etsy to manage products, inventory, and orders seamlessly. Keep listings synchronized while maintaining consistent branding and operations across both platforms effortlessly.",
+    desc: "Our experts implement Shopify Stripe Integration to provide secure payment processing, fast checkout and smooth transactions for the customers across different regions. ",
     icons: ["/ecommerce/shopify-integrate/stripe.webp"],
   },
   {
     title: "Shopify & Facebook/\nInstagram Integration",
-    desc: "List products on Walmart directly from Shopify while keeping inventory and orders synchronized. Simplify multichannel management, streamline fulfillment workflows, and enhance product visibility across Walmart's marketplace.",
+    desc: "In order to manage campaigns, produce shoppable content and assist companies in boosting sales through the social Ecommerce channels, we link Shopify with social media platforms.   ",
     icons: [
      "/ecommerce/shopify-integrate/fb.webp",
       "/ecommerce/shopify-integrate/ins.webp"
@@ -48,28 +50,72 @@ const integrations = [
   },
 ];
 
+const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+  
+const cardVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+        ease: "easeOut",
+      },
+    },
+};
+
 const ConnectShopify = () => {
   return (
     <div className="w-full flex justify-center items-center py-20 px-4 mt-20 md:mt-0">
       <div className=" w-full flex flex-col items-center ">
         {/* Header Section */}
         <div className="w-full  flex flex-col items-center gap-6 text-center">
-          <h2 className="text-[#1F222E] font-bold text-[40px] md:text-[56px] lg:text-[72px] leading-[105%] tracking-[-0.04em] capitalize">
-            Seamlessly Connect Shopify <br className="hidden md:block" />
-            With The Tools And Platforms <br className="hidden md:block" />
-            Your Business Relies On
-          </h2>
-          <p className="text-[#0C0C0C] w-[80%] mx-auto font-light text-[16px] leading-[136%] tracking-[-0.014em]">
-            Our Shopify integration services provide maximum flexibility, enabling your online store to communicate effortlessly with multiple platforms and services. From marketplaces to accounting tools, payments, and marketing, we make sure your Shopify store operates smoothly, accurately, and efficiently.
-          </p>
+          <motion.h2 
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-[#1F222E] font-bold text-[40px] md:text-[56px] lg:text-[72px] leading-[105%] tracking-[-0.04em] capitalize"
+          >
+            Platform Integration Flexibility 
+          </motion.h2>
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-[#0C0C0C] w-[80%] mx-auto font-light leading-[136%] tracking-[-0.014em]"
+          >
+     Our Shopify Integration Services assist companies in integrating Shopify with the platforms and technologies they use on a daily basis. Such links can enhance accuracy, reduce manual labour and enable smooth system communication. From marketplaces to payments and marketing tools, we ensure your store runs efficiently and supports the business growth.  
+          </motion.p>
         </div>
 
         {/* Cards Grid Section */}
-        <div className="w-[80%] mx-auto mt-16 flex flex-wrap justify-center gap-y-12 gap-x-5   ">
+        <motion.div 
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            className="w-[80%] mx-auto mt-16 flex flex-wrap justify-center gap-y-12 gap-x-5"
+        >
           {integrations.map((item, index) => (
-            <div 
+            <motion.div 
               key={index} 
-              className="relative w-full max-w-[245px] h-full min-h-[302px]  bg-white border border-[#D3D3D8] rounded-[26px] flex flex-col items-center pt-[60px] pb-6 px-4"
+              variants={cardVariants}
+              whileHover={{ 
+                y: -10, 
+                boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+                borderColor: "#F15C20" 
+              }}
+              className="relative w-full max-w-[245px] h-full min-h-[302px] bg-white border border-[#D3D3D8] rounded-[26px] flex flex-col items-center pt-[60px] pb-6 px-4 transition-colors duration-300"
             >
               <div className="absolute -top-[42px] h-[84px] flex items-center justify-center w-full">
                 <div className="flex gap-5 items-center">
@@ -99,22 +145,29 @@ const ConnectShopify = () => {
               <p className="font-extralight text-[14px] text-[#0C0C0C]/80 leading-[136%] tracking-[-0.014em] text-center">
                 {item.desc}
               </p>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
         {/* CTA Button */}
-        <Link
-          href="/contact-us"
-          className="flex items-center group justify-center  mt-4"
+        <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-[14px] leading-[160%] px-6 py-[14px] rounded-full font-medium transition-colors">
-            Explore the Integration Flexibility
-          </button>
-          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-[52px] h-[52px] rounded-full flex items-center justify-center transition-colors text-xl">
-            <MdArrowOutward />
-          </button>
-        </Link>
+            <Link
+            href="/contact-us"
+            className="flex items-center group justify-center mt-12"
+            >
+            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-[14px] leading-[160%] px-6 py-[14px] rounded-left-full rounded-full font-medium transition-colors">
+                Explore the Integration Flexibility 
+            </button>
+            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-[52px] h-[52px] rounded-right-full rounded-full flex items-center justify-center transition-colors text-xl">
+                <MdArrowOutward />
+            </button>
+            </Link>
+        </motion.div>
         
       </div>
     </div>

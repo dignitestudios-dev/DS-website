@@ -120,6 +120,7 @@ const highlights = [
     desc: "We focus only on the shopify which helps us deliver better results and deeper platform understanding.",
   },
   {
+    icon: "/ecommerce/shopify-integrate/2.webp",
     title: "Certified Shopify Developers",
     desc: "We focus only on the shopify which helps us deliver better results. Through the deeper platform understanding.",
   },
