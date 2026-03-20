@@ -57,8 +57,8 @@ const Hero = () => {
           <Image
             src="/services/mobile-cons/mob.webp"
             alt="web app development showcase dev"
-            width={400}
-            height={400}
+            width={550}
+            height={550}
             priority
             className="object-cover lg:w-full w-[70%] mx-auto relative z-20 "/>
         </motion.div>

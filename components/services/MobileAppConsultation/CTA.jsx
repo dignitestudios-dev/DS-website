@@ -23,17 +23,17 @@ const CTA = () => {
 
         <div className="w-full lg:w-[50%] justify-center lg:h-[350px] flex flex-col items-start text-start">
           <h2 className="text-5xl capitalize font-bold mb-4">
-            Ready to Build Your Mobile App? 
+           Don’t Leave Your App’s Success to Chance 
           </h2>
           <p>
-          Are you planning to create a powerful mobile app with top mobile app developers in Seattle? Connect with our dedicated team? Collaborate with our tech experts to develop a detailed project plan. 
+          Avoid costly mistakes and wasted resources. Connect with Dignite Studios for expert mobile app consulting and be a part of our success stories. 
           </p>
           <Link href="/contact-us" className="flex items-center group justify-start  pt-4">
             <button
               type="submit"
               className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-             Get a Project Estimate
+            Book Your Strategy Call
             </button>
             <button
               type="submit"

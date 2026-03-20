@@ -490,7 +490,7 @@ const MobileAppCalifornia = () => {
       <CTA />
       <TechAndTools header={"Tools, Technologies & Frameworks "} para={"Do you ever wonder what exactly makes some apps feel so smooth while some apps look like a mess? Our mobile app development services make sure yours runs smoothly, every time."} />
       <SEO
-        header={"California-Specific Coverage (Local SEO)"}
+        header={"California-Specific Coverage"}
         para={
           "Choosing the right partner in California can completely change the way your app performs in a competitive market"
         }
