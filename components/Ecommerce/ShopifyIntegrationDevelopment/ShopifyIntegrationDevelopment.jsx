@@ -495,7 +495,7 @@ const ShopifyIntegrationDevelopment = () => {
           <>
             Running an online store requires many tools working together. With
             over 10 years of experience, Dignite Studios delivers the reliable
-            Shopify Integration Services. Int connect your store with the
+            Shopify Integration Services that connect your store with the
             important business systems. Without any proper integrations
             businesses face problems through the inventory mismatch, delayed
             order updates, manual reports and slow operations. These issues

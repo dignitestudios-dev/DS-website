@@ -104,7 +104,7 @@ const ConnectShopify = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="w-[80%] mx-auto mt-16 flex flex-wrap justify-center gap-y-12 gap-x-5"
+            className="w-[80%] mx-auto mt-16 flex flex-wrap justify-center gap-y-16 gap-x-5"
         >
           {integrations.map((item, index) => (
             <motion.div 
