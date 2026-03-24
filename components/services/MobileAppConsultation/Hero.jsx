@@ -42,7 +42,7 @@ const Hero = () => {
             className="w-[50%] lg:w-[30%] mx-auto "/>
         </div>
         <Image src="/services/mobile-cons/r1.png" alt="" width={350} height={350} priority className=" absolute lg:block hidden top-20 right-[20%]  mx-auto "/>
-        <Image src="/services/mobile-cons/r2.png" alt="" width={350} height={350} priority className=" absolute lg:block hidden top-32 right-[20%]  mx-auto "/>
+        <Image src="/services/mobile-cons/r2.png" alt="" width={320} height={320} priority className=" absolute lg:block hidden top-36 right-[20%]  mx-auto "/>
         <Image src="/services/mobile-cons/l.png" alt="" width={350} height={350} priority className=" absolute lg:block hidden top-[30%] left-[15%]  mx-auto "/>
         <motion.div
           className="relative"
@@ -57,8 +57,8 @@ const Hero = () => {
           <Image
             src="/services/mobile-cons/mob.webp"
             alt="web app development showcase dev"
-            width={450}
-            height={450}
+            width={420}
+            height={420}
             priority
             className="object-cover lg:block hidden  mx-auto relative z-20 "/>
           <Image
@@ -81,7 +81,7 @@ const Hero = () => {
           height={150}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"
          /> */}
-             <div className="absolute z-30 -bottom-10 left-0 w-full border-none h-20 lg:h-52 bg-gradient-to-t from-white to-transparent via-white" />
+             <div className="absolute z-30 -bottom-10 left-0 w-full border-none h-20 lg:h-32 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>
         <Platforms />
