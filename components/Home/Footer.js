@@ -22,18 +22,18 @@ const Footer = () => {
         name: "Android App Development Services",
         href: "/services/android-app-development",
       },
-      {
-        name: "Android App Design Services",
-        href: "/services/android-mobile-app-design-services",
-      },
+      // {
+      //   name: "Android App Design Services",
+      //   href: "/services/android-mobile-app-design-services",
+      // },
       {
         name: "IOS App Development Services",
         href: "/services/ios-app-development",
       },
-      {
-        name: "IOS App Design Services",
-        href: "/services/ios-app-design-services",
-      },
+      // {
+      //   name: "IOS App Design Services",
+      //   href: "/services/ios-app-design-services",
+      // },
       {
         name: "Web App Development Services",
         href: "/services/web-app-development",
@@ -58,10 +58,10 @@ const Footer = () => {
         name: "Mobile App Consulting Services",
         href: "/services/mobile-app-consultation",
       },
-      {
-        name: "Mobile App Design Services",
-        href: "/services/mobile-app-design-services",
-      },
+      // {
+      //   name: "Mobile App Design Services",
+      //   href: "/services/mobile-app-design-services",
+      // },
       {
         name: "Mobile App Testing Services",
         href: "/services/mobile-app-testing-services",
