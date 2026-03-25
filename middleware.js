@@ -29,7 +29,11 @@ export function middleware(request) {
       newPath: "/services/hire-android-app-developers",
     },
     {
-      oldPath: "/services/hire-android-app-developer",
+      oldPath: "/services/android-app-development-services",
+      newPath: "/services/android-app-development",
+    },
+    {
+      oldPath: "/services/andriod",
       newPath: "/services/hire-android-app-developers",
     },
     // New redirects

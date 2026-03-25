@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Mobile app testing services from the leading company. We provide application solutions to ensure optimal performance by industry testing experts.",
      alternates: {
-    canonical: "https://www.dignitestudios.com/services/mobile-app-development",
+    canonical: "https://www.dignitestudios.com/services/mobile-app-testing",
   },
 };
 
