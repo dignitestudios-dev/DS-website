@@ -8,6 +8,9 @@ export const metadata = {
   title: "Hybrid Mobile App Development Services - Scalable Apps",
   description:
     "Upgrade your business with our hybrid mobile app development services. Launch apps with us that engage and attract users on iOS & Android. Get started now!",
+      alternates: {
+    canonical: "https://www.dignitestudios.com/services/hybrid-app-development",
+  },
 };
 
 const page = () => {

@@ -97,19 +97,19 @@ const Navbar = ({ setIsOpen }) => {
           ],
         ],
       },
-      {
-        items: [
-          [
-            "Mobile App Design Services",
-            "/services/mobile-app-design-services",
-          ],
-          [
-            "Android App Design Services",
-            "/services/android-mobile-app-design-services",
-          ],
-          ["iOS App Design Services", "/services/ios-app-design-services"],
-        ],
-      },
+      // {
+      //   items: [
+      //     [
+      //       "Mobile App Design Services",
+      //       "/services/mobile-app-design-services",
+      //     ],
+      //     [
+      //       "Android App Design Services",
+      //       "/services/android-mobile-app-design-services",
+      //     ],
+      //     ["iOS App Design Services", "/services/ios-app-design-services"],
+      //   ],
+      // },
     ],
     technology: [
       {

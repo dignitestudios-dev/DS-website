@@ -7,6 +7,10 @@ export const metadata = {
   title: "Progressive Web App Development Services | Dignite Studios",
   description:
     "Our experts fabricate progressive web app development services from custom applications to high-end optimization, it will make your company stand out.",
+      alternates: {
+    canonical:
+      "https://www.dignitestudios.com/services/progressive-web-app-development",
+  },
 };
 
 const page = () => {

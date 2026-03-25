@@ -11,8 +11,8 @@ export function middleware(request) {
     { oldPath: "/flutter-gray.webp", newPath: "/" },
     { oldPath: "/flutter-color.webp", newPath: "/" },
     {
-      oldPath: "/services/web-app-development-services",
-      newPath: "/services/web-application-development-services",
+      oldPath: "/services/web-application-development-services",
+      newPath: "/services/web-app-development",
     },
     { oldPath: "/our-vision-value", newPath: "/about-us" },
     { oldPath: "/get-quote", newPath: "/contact-us" },
@@ -120,27 +120,27 @@ export function middleware(request) {
       oldPath: "/blog/is-getting-a-ccna-certification-worth-2023/feed",
       newPath: "/",
     },
-    // {
-    //   oldPath: "/blog/is-getting-a-ccna-certification-worth-2023/",
-    //   newPath: "/services/mobile-app-development-services",
-    // },
+    {
+      oldPath: "/services/mobile-app-development-services",
+      newPath: "/services/mobile-app-development",
+    },
     { oldPath: "/blog/2022/11/19", newPath: "/" },
-    // {
-    //   oldPath: "/services/android-app-development",
-    //   newPath: "/lp/android-app-development",
-    // },
-    // {
-    //   oldPath: "/services/web-app-development",
-    //   newPath: "/lp/web-app-development",
-    // },
-    // {
-    //   oldPath: "/services/mobile-app-development",
-    //   newPath: "/lp/mobile-app-development",
-    // },
-    // {
-    //   oldPath: "/services/ios-app-development",
-    //   newPath: "/lp/ios-app-development",
-    // },
+    {
+      oldPath: "/services/pwa-development-services",
+      newPath: "/services/progressive-web-app-development",
+    },
+    {
+      oldPath: "/services/mobile-app-consulting-services",
+      newPath: "/services/mobile-app-consultation",
+    },
+    {
+      oldPath: "/services/hybrid-app-development-services",
+      newPath: "/services/hybrid-app-development",
+    },
+    {
+      oldPath: "/services/ios-app-development-services",
+      newPath: "/services/ios-app-development",
+    },
     // {
     //   oldPath: "/sitemap.xml",
     //   newPath: "/sitemap_index.xml",

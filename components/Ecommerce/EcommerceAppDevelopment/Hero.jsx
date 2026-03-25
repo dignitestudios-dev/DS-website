@@ -135,7 +135,7 @@ const Hero = ({
             ease: "backOut",
           }}
         />
-        <div className="absolute -bottom-32  left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
+        {/* <div className="absolute -bottom-32  left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" /> */}
       </div>
       <div>
         <Platforms />

@@ -8,6 +8,9 @@ export const metadata = {
   title: "iOS App Development Services | Dignite Studios",
   description:
     "Elevate your mobile landscape with our iOS application development services of custom iPhone apps with the company’s top experts.",
+      alternates: {
+    canonical: "https://www.dignitestudios.com/services/ios-app-development",
+  },
 };
 
 const page = () => {

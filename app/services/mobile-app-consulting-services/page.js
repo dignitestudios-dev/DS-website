@@ -8,6 +8,9 @@ export const metadata = {
   title: "Mobile App Consulting Services | Dignite Studios",
   description:
     "Our top mobile app development company in US, sets new standards in the digital venture of software solutions to lift your core business exclusively.",
+      alternates: {
+    canonical: "https://www.dignitestudios.com/services/mobile-app-consultation",
+  },
 };
 
 const breadcrumbData = {

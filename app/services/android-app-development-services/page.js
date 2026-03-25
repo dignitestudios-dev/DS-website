@@ -9,6 +9,9 @@ export const metadata = {
   title: "Android App Development Services | Dignite Studios",
   description:
     "Android app development company bequeath exceptional standards of mobile app so your agency can fulfill custom application solutions projects adeptly.",
+  alternates: {
+    canonical: "https://www.dignitestudios.com/services/android-app-development",
+  },  
 };
 
 const page = () => {

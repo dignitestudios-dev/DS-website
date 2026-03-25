@@ -8,6 +8,9 @@ export const metadata = {
   title: "Web Application Development Services | Dignite Studios",
   description:
     "Our top experts fabricate stellar web app development services from custom applications to high-end optimization, it will make your company stand out.",
+      alternates: {
+    canonical: "https://www.dignitestudios.com/services/web-app-development",
+  },
 };
 
 const page = () => {

@@ -114,7 +114,7 @@ const IntegrationFeatures = () => {
 
     <div className='mt-16 w-full overflow-hidden flex flex-col gap-6' >
         <Marquee direction="left" speed={40} pauseOnHover={true} className="py-2">
-            {features.map((item, index) => (
+            {features.slice(0,10).map((item, index) => (
                 <div key={`top-${index}`} className="w-[280px] h-[260px] bg-white border border-[#D3D3D8] hover:border-[#F15C20] transition-colors duration-300 rounded-[12px] flex flex-col items-center justify-center p-6 mx-3 cursor-pointer gap-4">
                   <h3 className="text-[#F15C20] font-bold text-[18px] text-center whitespace-pre-line leading-tight">
                     {item.title}
@@ -126,7 +126,7 @@ const IntegrationFeatures = () => {
             ))}
         </Marquee>
         <Marquee direction="right" speed={40} pauseOnHover={true} className="">
-            {features.map((item, index) => (
+            {features.slice(10).map((item, index) => (
                 <div key={`bottom-${index}`} className="w-[280px] h-[260px] bg-white border border-[#D3D3D8] hover:border-[#F15C20] transition-colors duration-300 rounded-[12px] flex flex-col items-center justify-center p-6 mx-3 cursor-pointer gap-4">
                   <h3 className="text-[#F15C20] font-bold text-[18px] text-center whitespace-pre-line leading-tight">
                     {item.title}
