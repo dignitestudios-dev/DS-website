@@ -544,9 +544,9 @@ const Footer = () => {
 
           {/* Services */}
           <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-3 flex flex-col">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+            <span className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
               Services
-            </h3>
+            </span>
             <ul className="flex flex-col">
               {footerLinks.services.map((link, idx) => (
                 <li key={idx}>
@@ -563,9 +563,9 @@ const Footer = () => {
           {/* Ecommerce & Technology */}
           <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col gap-8">
             <div className="flex flex-col">
-              <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+              <span className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
                 Ecommerce
-              </h3>
+              </span>
               <ul className="flex flex-col">
                 {footerLinks.ecommerce.map((link, idx) => (
                   <li key={idx}>
@@ -580,9 +580,9 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col">
-              <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+              <span className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
                 Technology
-              </h3>
+              </span>
               <ul className="flex flex-col">
                 {footerLinks.technology.map((link, idx) => (
                   <li key={idx}>
@@ -600,9 +600,9 @@ const Footer = () => {
 
           {/* Locations */}
           <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col">
-            <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+            <span className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
               Locations
-            </h3>
+            </span>
             <ul className="flex flex-col">
               {footerLinks.location.map((link, idx) => (
                 <li key={idx}>
@@ -620,9 +620,9 @@ const Footer = () => {
           {/* Quick Links, Support & Connect */}
           <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col gap-8">
             <div className="flex flex-col">
-              <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+              <span className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
                 Quick Links
-              </h3>
+              </span>
               <ul className="flex flex-col">
                 {footerLinks.quickLinks.map((link, idx) => (
                   <li key={idx}>
@@ -637,9 +637,9 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col">
-              <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+              <span className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
                 Support
-              </h3>
+              </span>
               <ul className="flex flex-col">
                 {footerLinks.support.map((link, idx) => (
                   <li key={idx}>
@@ -654,9 +654,9 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col">
-              <h3 className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+              <span className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
                 Connect With Us
-              </h3>
+              </span>
               <ul className="flex flex-col">
                 {footerLinks.connect.map((link, idx) => (
                   <li key={idx}>

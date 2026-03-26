@@ -82,10 +82,10 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
       >
         <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start pt-28 ">
           <div className="flex relative z-20  w-[90%] md:max-w-7xl flex-col text-center mx-auto items-center">
-            <h1 className="text-4xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
+            <h2 className="text-4xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
               Why We’re The Best Mobile App Development Agency for{" "}
               <span className="text-[#F15C20]">Startups</span>{" "}
-            </h1>
+            </h2>
             <p className="text-lg my-6 text-white ">
               We help startups build secure and scalable apps. We’re known for
               our secure mobile application development, custom solutions, and
