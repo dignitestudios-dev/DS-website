@@ -1,9 +1,7 @@
 import FlickCardStack from '@/components/Home/CaseStudiesCaraousel'
-import Link from 'next/link'
 import React from 'react'
-import { MdArrowOutward } from 'react-icons/md'
 
-const SuccessStories = ({header , para , header2 , btn}) => {
+const SuccessStories = ({header , para , header2}) => {
   return (
      <div className="w-full grid grid-cols-1  justify-start items-start  ">
           <div className="flex relative z-20 -mb-28  w-[90%] md:w-[70%] flex-col text-center mx-auto items-center">
@@ -21,19 +19,6 @@ const SuccessStories = ({header , para , header2 , btn}) => {
       <FlickCardStack/>
     
         </div>
-        {btn && 
-          <Link
-          href="/contact-us"
-          className="flex items-center group justify-center "
-        >
-          <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            {btn}
-          </button>
-          <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-            <MdArrowOutward />
-          </button>
-        </Link>
-        }
         </div>
   )
 }

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { GoClock } from "react-icons/go";
 
@@ -57,7 +58,7 @@ const ProductDesign = () => {
             <span className="text-[#F15C20]">Stories</span>
           </h2>
           <p className="font-extralight max-w-2xl mx-auto text-lg text-gray-300 leading-relaxed">
-            Our mobile application design and development reaches startups
+            Our <Link target='_blank' href="/services/mobile-app-development" className="text-[#F15C20] ">mobile application design and development</Link> reaches startups
             worldwide. So, we’re providing all the necessary information and
             insights about apps to create measurable impact across every market
             we serve.

@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
+import { motion } from "framer-motion";
 import { MdArrowOutward } from "react-icons/md";
 import Link from "next/link";
 const bs = [
@@ -30,7 +32,18 @@ const bs = [
   },
 ];
 
-const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
+const Bussiness = ({
+  cta,
+  button,
+  ctaHeader,
+  ctaPara,
+  ctaBtn,
+  header,
+  header2,
+  para,
+  bs: customBs,
+}) => {
+  const bsToUse = customBs || bs;
   const paths = [
     "M0.75 0V74C0.750006 85.5 2.24999 107 30.75 105.5H192.25C201.75 105.5 218.05 104.3 225.25 119.5C230.083 128.167 242.45 145.5 253.25 145.5M253.25 145.5C264.05 145.5 319.083 145.5 345.25 145.5H253.25Z",
     "M2.15631 288.5V217.5C1.24999 205 2.15629 186 32.1563 186H193.656C203.25 186 219.456 187.2 226.656 172C231.49 163.333 242.45 145.5 253.25 145.5",
@@ -40,11 +53,11 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
   ];
 
   const dotSettings = [
-    { duration: 4, delay: 0 },
+    { duration: 6, delay: 0 },
     { duration: 5, delay: 1 },
-    { duration: 6, delay: 0.5 },
-    { duration: 4.5, delay: 2 },
-    { duration: 7, delay: 1.5 },
+    { duration: 7, delay: 2 },
+    { duration: 6.5, delay: 1.5 },
+    { duration: 8, delay: 0.5 },
   ];
 
   const icons = [
@@ -72,38 +85,33 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
     <>
       <div
         className="
-    w-full bg-[#0A0A0A]
-   
-    overflow-visible
-    [clip-path:ellipse(350%_100%_at_50%_100%)]
-    sm:[clip-path:ellipse(300%_100%_at_50%_100%)]
-    md:[clip-path:ellipse(200%_100%_at_50%_100%)]
-    flex items-center relative justify-center 
-  "
+         w-full bg-[#0A0A0A]
+        
+         overflow-visible
+         [clip-path:ellipse(350%_100%_at_50%_100%)]
+         sm:[clip-path:ellipse(350%_100%_at_50%_100%)]
+         md:[clip-path:ellipse(200%_100%_at_50%_100%)]
+         flex items-center relative justify-center 
+       "
       >
-        <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start pt-28 ">
+        <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start md:py-40 ">
           <div className="flex relative z-20  w-[90%] md:max-w-7xl flex-col text-center mx-auto items-center">
-            <h2 className="text-4xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
-              Why We’re The Best Mobile App Development Agency for{" "}
-              <span className="text-[#F15C20]">Startups</span>{" "}
+            <h2 className="text-5xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
+              {header} <span className="text-[#F15C20]">{header2}</span>{" "}
             </h2>
-            <p className="text-lg my-6 text-white ">
-              We help startups build secure and scalable apps. We’re known for
-              our <Link target='_blank' href="/services/mobile-app-development" className="text-[#F15C20] ">secure mobile application development</Link>, custom solutions, and
-              hands-on collaboration.
-            </p>
+            <p className="text-lg my-6 text-white ">{para}</p>
           </div>
 
           <div className="relative  p-8">
             <div className="flex justify-center -mb-48">
-              {bs.slice(0, 3).map((item, index) => (
+              {bsToUse.slice(0, 3).map((item, index) => (
                 <div
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
                   <img
-                    src={`/location/mobile-california/${icons[index].icon}`}
-                    alt={icons[index].icon}
+                    src={item.icon || `/location/mobile-california/${icons[index].icon}`}
+                    alt={item.title}
                     className=" "
                   />
                   <div className="absolute top-0 px-12 py-10">
@@ -175,14 +183,14 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
               </div>
             </div>
             <div className="flex justify-center -mt-11">
-              {bs.slice(3, 6).map((item, index) => (
+              {bsToUse.slice(3, 6).map((item, index) => (
                 <div
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
                   <img
-                    src={`/location/mobile-california/${icons[index + 3].icon}`}
-                    alt={icons[index + 3].icon}
+                    src={item.icon || `/location/mobile-california/${icons[index + 3].icon}`}
+                    alt={item.title}
                     className=" "
                   />
                   <div className="absolute top-0 px-12 py-10">
@@ -197,20 +205,27 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
               ))}
             </div>
           </div>
-          {cta}
+          <div className="flex justify-center items-center">
+            <Link
+              href={"/contact-us"}
+              className="flex items-center group justify-center w-fit"
+            >
+              <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                {button ? button : " Talk to our California-based team"}
+              </button>
+              <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                <MdArrowOutward />
+              </button>
+            </Link>
+          </div>
         </div>
         <section className="w-full bg-transparent py-20 px-4 md:hidden relative z-50">
           {/* Header */}
           <div className="text-center max-w-xl mx-auto mb-14">
-               <h2 className="text-4xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
-              Why We’re The Best Mobile App Development Agency for{" "}
-              <span className="text-[#F15C20]">Startups</span>{" "}
+            <h2 className="text-3xl font-bold tracking-tight text-white">
+              {header} <span className="text-[#F15C20]">{header2}</span>
             </h2>
-                <p className="text-lg my-6 text-white ">
-              We help startups build secure and scalable apps. We’re known for
-              our <Link target='_blank' href="/services/mobile-app-development" className="text-[#F15C20] ">secure mobile application development</Link>, custom solutions, and
-              hands-on collaboration.
-            </p>
+            <p className="text-base mt-5 text-gray-300">{para}</p>
           </div>
 
           {/* Carousel */}
@@ -243,12 +258,12 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
               }}
               className="pb-12"
             >
-              {bs.map((item, index) => (
+              {bsToUse.map((item, index) => (
                 <SwiperSlide key={index}>
                   <div className="relative w-[350px] mx-auto">
                     <img
-                      src={`/location/mobile-california/${icons[index].icon}`}
-                      alt={icons[index].icon}
+                      src={item.icon || `/location/mobile-california/${icons[index].icon}`}
+                      alt={item.title}
                       className="w-[350px] h-full object-contain"
                     />
                     <div className="absolute top-0 left-0 w-full h-full px-12 py-8 flex flex-col justify-start text-start">
@@ -264,8 +279,6 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
               ))}
             </Swiper>
           </div>
-
-          {/* CTA */}
         </section>
       </div>
     </>

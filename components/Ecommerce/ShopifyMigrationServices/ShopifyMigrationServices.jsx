@@ -1,4 +1,4 @@
-  import React from "react";
+import React from "react";
 import Hero from "./Hero";
 import About from "../ui/About";
 import Services from "../ui/Services";
@@ -23,6 +23,7 @@ import { FaPencilAlt, FaUser } from "react-icons/fa";
 import { IoGrid, IoWalletOutline, IoStorefrontOutline } from "react-icons/io5";
 import { CiSearch, CiSettings } from "react-icons/ci";
 import SuccessStories from "../ui/SuccessStories";
+import MigrationServices from "./MigrationServices";
 import CTA from "./CTA";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
@@ -34,6 +35,7 @@ import CTA2 from "./CTA2";
 import { SiShopify, SiHtml5, SiTailwindcss, SiBootstrap } from "react-icons/si";
 import { FaCode } from "react-icons/fa";
 import { RiTerminalBoxLine, RiBracesLine } from "react-icons/ri";
+import TabularEcommerceTechs from "./TabularEcommerceTechs";
 
 const techStackData = [
   {
@@ -158,50 +160,60 @@ const services = [
 
 const highlights = [
   {
-    title: "Shopify Focused Expertise",
-    desc: "As the best shopify development company, We deliver the Shopify store solutions which are designed for the optimal performance, fluent usability and ecommerce growth across most of the business types.",
+    title: "Shopify Platform Expertise",
+    desc: "Our team has deep knowledge of Shopify and builds stores that perform smoothly, handle growth, and support long term Ecommerce success.",
   },
   {
-    title: "Certified Shopify Developers",
-    desc: "Our team at shopify website development company in usa includes the certified shopify professionals who build the reliable, high quality apps by using the tools and the proven development practices.",
+    title: "Certified Migration Specialists",
+    desc: "Our certified experts handle complex migrations with accuracy. We ensure the data is transferred correctly without any error or missing information during the process.",
   },
   {
-    title: "Scalable & Secure App Architecture",
-    desc: "We create the Shopify stores which grow through your business, maintaining the strong security, smooth operations and the long term scalability.",
+    title: "SEO Preserving Migration",
+    desc: "We protect your SEO by maintaining URLs, metadata and site structure. This helps your store keep rankings and visibility after the migration.",
+  },
+  {
+    title: "Custom & Scalable Solutions",
+    desc: "We build solutions based on your business needs. Our approach ensures your store can grow and handle more products and customers easily.",
   },
   {
     title: "Transparent Communication",
-    desc: "We keep clients informed about the project progress, timelines and updates which ensure the smooth collaboration and the clear expectations throughout the development.",
+    desc: "We keep you informed at every step. Clear updates help you understand progress and make decisions during the migration process.",
   },
   {
-    title: "On Time Delivery",
-    desc: "Our structured workflows ensure the efficient project delivery with no delays, maintaining the high quality while meeting your scheduled launch requirements.",
-  },
-  {
-    title: "Long Term App Support",
-    desc: "We provide the continuous maintenance, updates and performance monitoring to ensure your Shopify store runs quite smoothly and grows reliably.",
+    title: "Post Launch Support",
+    desc: "As one of the reliable Shopify migration companies, we provide ongoing support to fix issues and keep your store stable even after the launch.",
   },
 ];
-
 const VALUE_PROPOSITION = [
   {
-    title: "Healthcare & Wellness Commerce",
-    desc: "We develop solutions improving patient engagement and healthcare service delivery for the healthcare app development company clients.",
+    title: "Healthcare & Wellness Ecommerce",
+    desc: "We build secure Ecommerce platforms for healthcare brands selling wellness products and equipment, ensuring safe transactions, reliable performance and smooth customer experience.",
   },
   {
-    title: "FinTech & Subscription Platforms",
-    desc: "We create secure payment and subscription systems which are aligned with the fintech app development services for business efficiency.",
+    title: "Fintech & Subscription Platforms",
+    desc: "We migrate fintech and subscription platforms with secure billing systems, stable payment integrations and reliable data transfer for smooth and consistent operations.",
   },
   {
     title: "Ecommerce & Retail Brands",
-    desc: "We deliver scalable apps that boost the conversions and streamline the operations as the ecommerce app development company.",
+    desc: "We provide a smooth Shopify migration service for retail brands, helping manage large product catalogs, improve store performance and enhance customer shopping experiences.",
   },
   {
     title: "Logistics & On Demand Marketplaces",
-    desc: "As a shopify website development company in usa, our solutions increase the delivery management and operations for the logistics focused businesses and marketplaces.",
+    desc: "We migrate platforms that require real time tracking, fast delivery systems and strong backend support to ensure smooth operations and better customer service.",
+  },
+  {
+    title: "Grocery Commerce",
+    desc: "We build fast Ecommerce stores for grocery businesses with real time inventory updates, easy product management and quick checkout experiences for customers.",
+  },
+  {
+    title: "Fashion & Apparel",
+    desc: "We migrate fashion stores with multiple product variants, high traffic demands and smooth browsing experiences to support better customer engagement and sales.",
+  },
+  {
+    title: "Home Decor",
+    desc: "We create scalable Ecommerce stores for home decor brands with better product display, improved navigation and smooth user experience for online shoppers.",
   },
 ];
-
 const test = [
   {
     name: "Laura Smith",
@@ -296,66 +308,72 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "Do you build scalable Shopify stores?",
+    question: "What platforms can be migrated to Shopify?",
     answer:
-      "Ye, we build scalable shopify stores that grow through the business. Our shopify development company focuses on creating the stores with the clean code, reliable architecture and the flexible features. Each store is designed to handle the increased traffic, product catalogs and customer activity efficiently, ensuring the smooth performance while supporting the long term business growth and the fluent user experience.",
+      "We migrate stores from WooCommerce, Magento, BigCommerce, Wix, Squarespace and custom platforms. Our Shopify Plus migration experts ensure all important data is transferred safely. This includes products, customers and orders without affecting store performance or structure.",
   },
   {
     id: 2,
-    question: "How long does shopify development take?",
+    question: "How long does a Shopify migration take?",
     answer:
-      "The development timeline varies depending on your store's complexity. Our shopify web development company delivers simple stores in a few weeks, including the planning, design and deployment. Advanced stores with the custom features, third party integrations and complex workflow require more time. Our team ensures every store meets the hig quality standards and is delivered efficiently.",
+      "Migration time depends on the store size and complexity. Small stores take a few weeks. Larger stores with custom features take more time. Our Shopify migration service follows a clear process to complete migration safely and efficiently.",
   },
   {
     id: 3,
-    question: "Do you support Shopify App Store submissions?",
+    question: "Will SEO rankings be preserved after migration?",
     answer:
-      "Yes, we assist with the complete Shopify App Store submission process. As a shopify website development company our team ensures your store is properly configured, tested and optimized for performance. We handle all the requirements and documentation needed for the approval, helping the app reach the marketplace efficiently. This ensures the smooth submission process and increases the chances of the successful app approval.",
+      "Yes. We protect your SEO during migration. Our team keeps the URL structure, metadata and redirects in place. This ensures rankings stay stable after migration and your store continues to perform well in search engines.",
   },
   {
     id: 4,
-    question: "Can you refine my Shopify store idea?",
+    question: "Will customer and order history be migrated?",
     answer:
-      "Yes, our shopify ecommerce development company team helps refine your store concept. We analyze your business goals, target audience, and operational needs by suggesting improvements in design, features and usability. We ensure your shopify store delivers the better performance, enhances the user experience and supports the long term growth. Turning your initial idea into a scalable and practical online solution.",
+      "Yes. We transfer complete customer records and order history. This helps businesses continue operations without losing important data or customer trust.",
   },
   {
     id: 5,
-    question: "Do you work with startups and enterprises?",
+    question: "What if my platform has custom features?",
     answer:
-      "Yes, we work with both startups and large enterprises, providing the customized shopify store solutions. As the shopify website development company, our approach adapts to varying business needs, ensuring scalability , reliability and long term growth. From small businesses seeking efficient stores to enterprises requiring complex integrations and high performance systems. Our team delivers structured, practical solutions that help every client achieve their ecommerce goals effectively.",
+      "Our Shopify migration experts handle custom features carefully. We rebuild or integrate them into Shopify to maintain functionality and performance.",
+  },
+  {
+    id: 6,
+    question: "Do you provide post migration support?",
+    answer:
+      "Yes. We provide ongoing support after launch. We monitor store performance and fix issues quickly to keep the store running smoothly.",
   },
 ];
 
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery & Shopify App Planning",
-    desc: "We analyze the business goals and define the clear shopify store development plan for efficiency and scalability.",
+    title: "Consultation & Requirement Gathering",
+    desc: "We understood your current platform, store data and business goals. This helps us plan a clear migration process without any confusion.",
   },
   {
     step: "02",
-    title: "Design",
-    desc: "We design intuitive interfaces as the shopify web development company which improve the user experience and ensure smooth navigation all across the devices.",
+    title: "Pre Migration Planning & Audit",
+    desc: "We review SEO structure, URLs and store data carefully. This step helps avoid errors and ensures the smooth migration process.",
   },
   {
     step: "03",
-    title: "App development",
-    desc: "Our developers build the scalable shopify apps while using the clean code to ensure the performance and the long term reliability.",
+    title: "Migration & Data Transfer",
+    desc: "We securely transfer products, customers, orders and store content. Our team ensures accurate data migration without loss or duplication issues.",
   },
   {
     step: "04",
-    title: "Testing",
-    desc: "We conduct the detailed testing to ensure the performance, security, functionality and the fluent user experience.",
+    title: "QA Testing & Validation",
+    desc: "We test store functions, designs and performance after migration. This ensures everything works properly before your store goes live.",
   },
   {
     step: "05",
-    title: "Shopify App Deployment",
-    desc: "We deploy your shopify app efficiently, ensuring that the minimal downtime and the smooth launch all over the environments.",
+    title: "Go Live & Optimisation",
+    desc: "We launch your Shopify store and monitor its performance. Our team quickly fixes any issues to ensure smooth store operations.",
   },
   {
     step: "06",
-    title: "Post Launch Support & Optimization",
-    desc: "We monitor the performance, provide updates and optimize the store through continuous growth and the enhanced user experience.",
+    title: "Ongoing Support",
+    desc: "We provide continuous support after migration. Our Shopify store migration services keep your store updated, stable and ready for future growth.",
   },
 ];
 
@@ -436,58 +454,61 @@ const featureData = [
 const ShopifyMigrationServices = () => {
   return (
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
-      <Hero btn="Get Free Shopify App Consultation" />
+      <Hero btn="Get Your Free Migration Audit " />
       <About
-        heading="Introduction to Our Shopify Store Development "
-        heading2={"Expertise"}
+        heading="Why Businesses Are Migrating to"
+        heading2={"Shopify "}
         para={
           <>
-            With over 10 years of experience. Dignite Studios deliver the
-            trusted shopify store development services for the modern ecommerce
-            businesses. We build public apps, private apps and custom
-            integrations which are based on the unique needs of each business.
-            Serving ecommerce, retail, DTC brand and marketplaces. We focus on
-            the performance, stability and scalability. Our solutions also
-            ensure reliable shopify focused delivery improving the store
-            functionality and supporting long growth. Start your journey with a
-            team which combines expertise, professionalism and practical
-            execution. To create shopify stores which perform, scale and drive
-            results for the businesses for all the sizes.
+            Moving to Shopify helps businesses grow faster and manage stores
+            quite easily. With our shopify migration services, you get the
+            better flexibility, strong performance and the scalable Ecommerce
+            solutions. Many businesses switch platforms to improve speed, user
+            experience and store management. DIY migration can cause data loss,
+            broken links and missing features. This affects SEO and customer
+            experience. A professional shopify migration company ensures safe
+            data transfer, zero downtime and proper structure. Our team avoids
+            risks and keeps your store stable during the process.
           </>
         }
-        button="Get Free Shopify App Consultation"
+        button="Get a Free Migration Consultation. "
       />
-      <Services
-        services={services}
-        header={"Shopify Website Development"}
-        header2={"Services"}
-        button={"Start Your Shopify App Project"}
-        para={
-          "Our shopify website development Services provide the structured solutions for your spotify store. We deliver scalable, secure and user friendly apps adapted to business goals."
-        }
-      />
-      <TechTools
-        header="Advanced Shopify App Development technology Stack"
-        para="Dignite Studios as the leading shopify development company, uses the modern tools to deliver the scalable shopify apps. Our expertise among top shopify development companies ensures the strong performance. We offer comprehensive mobile app development ecommerce focusing on being responsive, reliable and efficient."
-        tech={techStackData}
-      />
+      <MigrationServices />
       <CTA
-        header="Start Building Your Shopify Store Today"
-        para="Enhance your business with the expert shopify store development services. We deliver scalable, secure shopify solutions for long term growth."
-        btn="Request Shopify App Development Quote"
+        header="Ready to Migrate Your Ecommerce Store to Shopify?
+"
+        para="Our team makes migration simple and stress free.. You can move your store without even losing the data or performance. Get expert guidance and start your migration journey through confidence today. "
+        btn="Book a Free Shopify Migration Call  "
       />
-      <Process
-        steps={PROCESS_STEPS}
-        header={"Reliable Shopify Store Development Services Process"}
+         <Industries
+        VALUE_PROPOSITION={VALUE_PROPOSITION}
+        header={" Industries We Serve for Shopify"}
+        header2={"Migration Services"}
         para={
-          "Our shopify store development services follow the structured steps to ensure the quality and the performance. As the trusted shopify store development company, we focus on the efficiency, scalability and the long term success."
+          "Our Shopify migration services support across many industries. As the reliable migration agency, we help the brands to improve the performance and scale operations. Companies trust our shopify plus migration experts to move stores safely and efficiently. "
+        }
+        button={"Discuss Your Migration Idea  "}
+      />
+           <Process
+        steps={PROCESS_STEPS}
+        header={"Our Shopify Migration Process "}
+        para={
+          "Our Shopify plus Migration experts follow the clear and simple process from the panning to launch. We ensure the safe data transfer, proper testing and the smooth store setup. We also provide the support after the launch to keep the store running without any of the issues. "
         }
       />
-      <Bussiness
+           <CTA2
+        header={"Start Your Shopify Migration Journey Today  "}
+        para={
+          "Take the Next Step expert guidance. Our Shopify Migration helps you to move your store without the stress. Work with the trusted Shopify Migration Company and launch your Shopify Store with confidence. "
+        }
+        btn={"Talk to a Shopify Migration Expert "}
+      />
+
+         <Bussiness
         bs={highlights}
-        header={"Best Shopify App Development"}
-        header2={"Services"}
-        button={"Partner With Dignite Studios"}
+        header={" Best Shopify Store Migration"}
+        header2={"App Provider "}
+        button={"Partner with Dignite Studios "}
         ctaHeader={"Partner With Dignite Studios"}
         ctaPara={
           "We offer the best shopify development company solutions. It focuses on the scalable, secure and user-friendly Shopify stores. Our expertise positions us among the most leading shopify app development companies. Partner with a team dedicated to long term growth and the practical execution."
@@ -529,73 +550,34 @@ const ShopifyMigrationServices = () => {
         }
         para={
           <>
-            We offer the best shopify development company solutions. It focuses
-            on the scalable, secure and user-friendly Shopify stores. Our
-            expertise positions us among the most leading shopify app
-            development companies. Partner with a team dedicated to long term
-            growth and the practical execution.
+      We provide reliable migration solutions with strong technical expertise and secure the data handling. As the trusted shopify migration services company, we focus on the accuracy, timely delivery and customer satisfaction. Our team delivers the best Shopify service trusted by the business looking for the safe and scalable Ecommerce transitions.
           </>
         }
       />
-      <Industries
-        VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Industries We Serve as a Shopify App "}
-        header2={"Development Company"}
-        para={
-          "We deliver the Shopify store solutions across multiple industries. Helping businesses improve the operations, enhance the customer experience and scale efficiently."
-        }
-        button={"Discuss Your Idea "}
-      />
-
-      <MobileApp
-        header={"Benefits Of Having a"}
-        header2={"Shopify Store"}
-        para={
-          "Our stores provide high business value, ROI and automation while supporting long term growth."
-        }
-        button={"Build a Scalable Shopify App "}
-        cards={BENEFITS}
-      />
-      <Features
-        button={"Get Feature Recommendations"}
-        header={"Must Have Features in Your"}
-        header2={"Shopify Store"}
-        para={
-          "A successful Shopify store needs essential features which improve performance, user experience and business growth. From the secure payments and fast loading speed to mobile responsiveness and easy navigation, every feature plays the key role. These must have elements to help to streamline operations, attract the customers and ensure that your store runs smoothly while supporting the long term scalability and the success."
-        }
-        features={featureData}
-      />
-      <CTA2
-        header={"Accelerate Your Business With Expert Store Solutions "}
-        para={
-          "Grow your business with expert shopify store development services. Build scalable, reliable and efficient shopify stores."
-        }
-        btn={"Request Shopify App Development Quote"}
-      />
+ 
+ 
       <SuccessStories
-        header={"Proven Shopify Store"}
-        header2={"Success Stories"}
+        header={"Proven Shopify Migration "}
+        header2={"Projects"}
         para={
-          "Our Portfolio demonstrates how the structured Shopify stores built by shopify development company in usa improve performance, conversion and the business scalability. Explore Our Work."
+          <>We have successfully completed multiple shopify store migration projects for growing business. Our work shows improved store performance, better user experience and stable operations after migration. Explore Our <Link className="text-orange-500" href="/case-studies">Portfolio</Link> to see real migration results and how businesses achieved growth through our solutions.</>
         }
+        btn={"View Our Migration Projects "}
       />
+    <TabularEcommerceTechs  />
+ 
       {/* <SEO  header={"Focused Mobile Application Development Boston"} para={"Choosing the right partner in Boston can completely change the way your app performs in a competitive market."}/> */}
-      <Testimonials
-        test={test}
-        header={"Trusted Shopify"}
-        header2={"App Development Company"}
-        para={""}
-      />
+ 
       <Faq faqs={faqs} />
       <ContactUs
         img={"/ecommerce/shopify-app/c-img.webp"}
-        pathname={"Shopify Store Development"}
-        header={"Get Your Shopify Store Development Started"}
+        pathname={"Shopify Migration"}
+        header={"Start Your Shopify Migration Today "}
         header2={""}
         para={
-          "Work with the Dignite Studios to build a scalable shopify store using the reliable shopify store development services. Our team also ensures smooth planning, development and long term growth for your ecommerce business."
+          "Start your Ecommerce journey with a trusted shopify migration company. Share Your project details and get expert support to move your store safely ."
         }
-        btn={"Request Shopify App Development Quote"}
+        btn={"Start Your Shopify Migration Today"}
       />
     </div>
   );

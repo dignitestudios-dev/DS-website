@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import React, { lazy, Suspense } from 'react'
 
 const FlickCardStack = lazy(() => import('@/components/Home/CaseStudiesCaraousel'))
@@ -11,7 +12,7 @@ const SuccessStories = ({header , para , header2}) => {
            Success Stories from Our Startup App Development Company
             </h2>
             <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">
-          Check out our case studies. See how we help founders launch apps by the best mobile app development agency for startups. Each story shows strategy, execution, and results.
+          Check out our case studies. See how we help founders launch apps by the <Link target='_blank' href="/services/mobile-app-development" className="text-[#F15C20] ">best mobile app development agency for startups</Link>. Each story shows strategy, execution, and results.
             </p>
           </div>
           <div className='pt-10' >

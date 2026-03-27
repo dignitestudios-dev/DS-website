@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const services = [
   {
@@ -99,7 +100,7 @@ const MobileAppServices = () => {
             Best iOS App Development Services
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-             Your iOS apps need the best iOS app development services that combine elegant design with functionality to engage users.
+             Your iOS apps need the <Link target='_blank' href="/services/ios-app-development" className="text-[#F15C20] ">best iOS app development services</Link> that combine elegant design with functionality to engage users.
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">

@@ -8,17 +8,17 @@ import Platforms from "../ui/Platforms";
 import Link from "next/link";
 
 const Hero = ({
-  header = "Shopify Migration Services for Effortless",
-  header2 = "Ecommerce Transformation",
-  para = "Move your online store with confidence using our Shopify Migration Services. We also transfer your data quite safely from any platform to shopify. Products, customers and orders stay intact. Your SEO and store performance remain strong without downtime or the data loss. ",
-  btn = "Get Your Free Migration Audit ",
+  header = "Your Trusted Food Delivery App ",
+  header2 = "Development Company",
+  para = " Finding the professional food delivery app development company? We’re the perfect choice. Dignite Studios provides different services in the category of food delivery app development with commitment. We are a team of dedicated app developers in the food industry. ",
+  btn = "Book a consultation",
 }) => {
   return (
     <div className="w-full grid grid-cols-1 bg-[url('/ecommerce/shopify-app/grad.webp')] bg-cover bg-center bg-no-repeat  justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          {header} {" "}
-          <span className="text-[#F15C20] ">{header2}</span>{" "}
+          {header}
+          <span className="text-[#F15C20] text-nowrap">{header2}</span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">{para}</p>
 
@@ -26,10 +26,10 @@ const Hero = ({
           href="/contact-us"
           className="flex items-center group justify-center "
         >
-          <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
             {btn}
           </button>
-          <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
           </button>
         </Link>
@@ -46,26 +46,26 @@ const Hero = ({
           }}
         >
           <Image
-            src="/ecommerce/shopify-migrate/mob.png"
+            src="/ecommerce/big-app/laptop.webp"
             alt="Shpify laptop"
-            width={1000}
-            height={1000}
+            width={900}
+            height={900}
             priority
             className="object-cover md:block hidden"/>
           <Image
-            src="/ecommerce/shopify-migrate/mob.png"
+            src="/ecommerce/shopify-app/mob.webp"
             alt="Shpify laptop"
-            width={350}
-            height={350}
+            width={250}
+            height={250}
             priority
             className="object-cover md:hidden block"/>
         </motion.div>
-        {/* <motion.img
-          src="/ecommerce/shopify-app/sh-icon.webp"
+        <motion.img
+          src="/ecommerce/big-app/2.webp"
           alt=""
           width={150}
           height={150}
-          className="absolute top-[10%] w-24 md:w-32  left-[75%] md:left-[75%] translate-x-[-50%]"
+          className="absolute top-[10%] w-24 md:w-32  left-[75%] md:left-[76%] translate-x-[-50%]"
           animate={{
             y: [0, -20, 0],
             rotate: [0, 5, 0],
@@ -77,7 +77,7 @@ const Hero = ({
           }}
         />
         <motion.img
-          src="/ecommerce/shopify-app/sh2.webp"
+          src="/ecommerce/big-app/1.webp"
           alt=""
           width={150}
           height={150}
@@ -91,7 +91,7 @@ const Hero = ({
             repeat: Infinity,
             ease: "easeInOut",
           }}
-        /> */}
+        />
         {/* <div className="absolute -bottom-32  left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" /> */}
       </div>
       <div>
