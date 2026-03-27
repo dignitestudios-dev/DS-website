@@ -220,70 +220,46 @@ const PLATFORMS = [
 
 const test = [
   {
-    name: "Sara Mitchell",
-    designation: "— Nova Retail Group",
+    name: "Sarah Williams",
+    designation: "— BiteFast, CEO",
     review:
-      "Dignite Studios built our Ecommerce platform smoothly. The team was responsive and professional throughout the project.",
+      "The team delivered an amazing food delivery app. Our customers love it, and operations have never been smoother.",
   },
   {
-    name: "Daniel Brooks",
-    designation: "— Urban Cart Co.",
+    name: "Lauren Smith",
+    designation: "— TastyBites, Co-Founder",
     review:
-      "Our BigCommerce store performs faster now. Their development approach was clear and very organized",
+      "Their expertise in app development helped us launch quickly. The solution is intuitive and drives great customer engagement.",
   },
   {
-    name: "Emily Carter",
-    designation: "— FreshLeaf Market",
+    name: "Emily Johnson",
+    designation: "— QuickEats, Operations Manager",
     review:
-      "We needed custom integrations and the developers delivered exactly what we needed",
+      "Their customized food delivery app development exceeded our expectations. We now manage orders and deliveries efficiently, improving overall business performance.",
   },
   {
     name: "Michael Thompson",
-    designation: "— swiftBuy Commerce",
+    designation: "— FreshFeast, CTO",
     review:
-      "Communication was excellent. The team explained every step of the project.",
+      "From design to deployment, the process was seamless. Our customers enjoy a smooth ordering experience every time.",
   },
   {
-    name: "Olivia Bennette",
-    designation: "— HeathWay Store",
+    name: "Adam Rick",
+    designation: "— YumKart, Product Head",
     review:
-      "Our store migration was completed without any issues. Highly recommended team",
+      "The team understood our needs perfectly. The app has helped increase sales and customer satisfaction significantly.",
   },
   {
-    name: "James Parker",
-    designation: "— Trendy Outfitters",
+    name: "Daniel Lee",
+    designation: "— FoodHive, COO",
     review:
-      "They helped improve our store speed and users experience, and we also hire bigcommerce developers for the further enhancements",
+      "Excellent support and customized food delivery app development. The delivery tracking and notifications work flawlessly, keeping customers happy and informed.",
   },
   {
-    name: "Sophia Reed",
-    designation: "— Luxestyle Brands",
+    name: "Olivia Martinez",
+    designation: "— FlavorBox, Managing Director",
     review:
-      "Reliable developers who understand Ecommerce platforms well",
-  },
-  {
-    name: "David Collins",
-    designation: "— NextGen Retailers",
-    review:
-      "The project was delivered on time and worked quite perfectly",
-  },
-  {
-    name: "David Collins",
-    designation: "— NextGen Retailers",
-    review:
-      "The project was delivered on time and worked perfectly",
-  },
-  {
-    name: "Grace Walker",
-    designation: "— PureLiving Shop",
-    review:
-      "Support after launch was very helpful for our team, and we continue to hire bigcommerce developers for ongoing store improvements",
-  },
-  {
-    name: "Ryan Scott",
-    designation: "— PrimeCart Solutions",
-    review:
-      "Great Experience working with their Ecommerce specialists",
+      "Professional and reliable team. The app is scalable, efficient, and easy for both our staff and customers to use.",
   },
 ];
 
@@ -325,33 +301,39 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "Do you build scalable BigCommerce stores?",
+    question: "How much time does it usually take to build a food delivery mobile app?",
     answer:
-      "Yes. Our developers build BigCommerce stores that will handle high traffic and large product catalogs without slowing down. We design the strong store architecture, stable integrations and secure payment systems. This helps businesses manage growing customer demand. The platform stays reliable even during the peak sales periods and supports the long term Ecommerce growth.",
+      "Dignite Studios doesn’t provide a fixed, similar timeline for each food mobile app during development. The time always depends on the complexity and features of every food delivery application. Usually, a mid-level application would take up to 8-12 weeks, but it all depends, again. If you need a final cost and pricing estimate, contact our team and share your app idea.",
   },
   {
     id: 2,
-    question: "How long does BigCommerce development take?",
+    question: "Can you build iOS applications for Food delivery apps, too?",
     answer:
-      "The timeline depends on the store size and project requirements. The basic Ecommerce store may take a few weeks to design and launch. The custom stores with the integrations, advanced features and complex product structures usually take longer. Our team follows a clear development process to ensure the stable performance and the smooth store delivery.",
+      "We’re experts, building both iOS and Android food delivery apps. Hire food delivery mobile app developer who creates high-performance applications for businesses. The developers can easily work with native and Swift to develop applications that feel simple while ensuring functionality.",
   },
   {
     id: 3,
-    question: "Do you support store migrations?",
+    question: "Would you provide support after we’re done with the app launch?",
     answer:
-      "Yes. We provide secure migration services for businesses moving from Shopify, WooCommerce, Magento or other Ecommerce platforms. Our team carefully transfers products, customer data and order history. We also maintain the store structure and SEO settings. This helps businesses move to BigCommerce without losing important information or search visibility.",
+      "Yes. It’s called post-launch support, and we definitely stay with you even when your food delivery app is launched. Providing proper post-launch maintenance and updates about the app. So that we know that the food app would stay aligned with the vision and users’ needs.",
   },
   {
     id: 4,
-    question: "Can you improve my existing BigCommerce Store?",
+    question: "What if I have a rough idea? Can you guide me?",
     answer:
-      "Yes. Our developers review your current store and identity areas which need improvement. We optimize store speed, improve navigation and enhance the checkout process. We can also integrate new tools and features which improve the performance. These updates help deliver a better shopping experience and increase overall store efficiency.",
+      "Here’s a thing: There’s no app that starts with the perfect, flawless idea. With this understanding, we show guidance through a free consultation and explain the concepts in much easier way. The food app experts can help you out by adding practical aspects to your application and preparing it for the future.",
   },
   {
     id: 5,
-    question: "Do you work with startups and enterprises?",
+    question: "How much does a food delivery application usually cost?",
     answer:
-      "Yes. Our team works with startups, small businesses and large enterprises. Startups get guidance to launch the first Ecommerce store successfully. Established companies receive scalable solutions which support large product catalogs and high traffic. We adjust our development approach based on the business size and long term growth goals.",
+      "Basically, we don’t have fixed pricing rules for all the applications. The cost completely depends on the features and the integrations you want your food application to have. It’s up to your food delivery app’s vision, but at Dignite Studios, we keep pricing transparent with no hidden fees.",
+  },
+  {
+    id: 6,
+    question: "Are you currently working with startups, too, or just the enterprises?",
+    answer:
+      "The food app development team works with both startups and enterprises. So, it doesn’t matter if you’re a startup or enterprise, we would definitely work with you. Whether you’re building an MVP or scaling an existing application. We would look forward to building an amazing app together either way.",
   },
 ];
 
@@ -579,17 +561,17 @@ The team is understanding and helps you overcome the unique challenges of each a
         btn="Request BigCommerce Development Quote"
       />
       <Testimonials
-        header="Client Testimonials for Our BigCommerce Development Services "
+        header="What Our Clients Say "
         test={test}
-        para={"Businesses trust our team when they need reliable Ecommerce solutions. As developers focus that  we also focus on quality development and long term partnerships. Many companies choose to hire the bigcommerce developers from the Dignite studios because we build secure platforms and deliver consistent results.  "}
-        button="Work With Our Expert Team"
+        para={" "}
+        // button="Work With Our Expert Team"
       />
-      <Faq faqs={faqs} header="FAQs" />
+      <Faq faqs={faqs} header="Commonly Asked Questions" />
       <ContactUs
         img={"/ecommerce/big-app/c-img.webp"}
-        header="Start Your BigCommerce Project"
-        para="Have an Ecommerce idea or want to improve your existing store? Our team is ready to build secure and scalable solutions. Share your project details and we will guide you with the right development strategy.  "
-        btn="Request BigCommerce Development Quote "
+        header="Build Your Food Delivery App with Us"
+        para=" Take your food business online with us by getting a customized delivery app. Contact Dignite Studios for a free consultation and discover how our experts can help you grow your business with a reliable and highly functional app solution. "
+        btn="Get Free Consultation "
       />
     </div>
   );

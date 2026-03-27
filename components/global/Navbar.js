@@ -127,7 +127,7 @@ const Navbar = ({ setIsOpen }) => {
         ],
       },
       {
-        items: [["Ai Automation", "/technologies/ai-automation-services"]],
+        items: [["AI Automation", "/technologies/ai-automation-services"]],
       },
     ],
     industries: [

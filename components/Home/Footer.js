@@ -97,7 +97,7 @@ const Footer = () => {
         href: "/technologies/cross-platform-app-development",
       },
       {
-        name: "Ai Automation",
+        name: "AI Automation",
         href: "/technologies/ai-automation-services",
       },
     ],
