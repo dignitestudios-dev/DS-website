@@ -4,11 +4,11 @@ import { useInView } from "react-intersection-observer";
 
 const stats = [
   {
-    number: "50+",
+    number: "300+",
     label: "Projects",
   },
   {
-    number: "15+",
+    number: "450+",
     label: "Global Clients",
   },
   {
@@ -16,7 +16,7 @@ const stats = [
     label: "Industries Served",
   },
   {
-    number: "5+",
+    number: "10+",
     label: "Years Experienced",
   },
 ];
