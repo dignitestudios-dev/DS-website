@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import Hero from "./Hero";
 import About from "../ui/About";
@@ -42,106 +44,91 @@ const services = [
   {
     icon: "f1",
     icon2: "f11",
-    title: "Custom Food Delivery App Development",
+    title: "Custom Real Estate App Development",
     description: (
       <>
-        We create custom food apps that are made for your business. Every
-        feature and workflow is built to meet your unique requirements and goals.
+        We build custom apps based on business needs. Our solutions support
+        property listings, user management and smooth navigation for the better
+        customer experience.
       </>
     ),
   },
   {
     icon: "f2",
     icon2: "f22",
-    title: "Customer App Development",
+    title: "Property Management Software",
     description: (
       <>
-        Dignite Studios develops fully functional food delivery apps. Helping
-        with smooth ordering and easy payment options. Our food delivery app
-        development company designed it to provide an engaging user experience.
+        Our apps help businesses manage listings, track property details and
+        update information easily using the reliable real estate app development
+        solutions.
       </>
     ),
   },
   {
     icon: "f3",
     icon2: "f33",
-    title: "Restaurant App Development",
+    title: "CRM Systems for Brokers",
     description: (
       <>
-        We create restaurant and vendor apps that make managing deliveries and
-        orders easy. Businesses can update menus and track progress.
+        We create CRM systems that help brokers manage the leads, track clients
+        and improve the communication for the better sales results.
       </>
     ),
   },
   {
     icon: "f4",
     icon2: "f44",
-    title: "Delivery Agent App Development",
+    title: "AI Enabled Dashboards for Investors",
     description: (
       <>
-        We develop delivery agent apps too. These are the apps that help drivers
-        manage orders and update status quickly. It makes delivery operations
-        more efficient.
+        We build dashboards that show the insights, trends and property data.
+        This helps the investors make better decisions.
       </>
     ),
   },
   {
     icon: "f5",
     icon2: "f55",
-    title: "White-Label Food Delivery Solutions",
+    title: "Real Estate Web App Development",
     description: (
       <>
-        We provide white-label food delivery solutions that benefit businesses
-        by helping them launch their own branded apps quickly. They’re fully
-        customizable and ready to go.
+        We develop responsive web apps that allow the users to browse properties,
+        manage listings and interact quite easily on any device.
       </>
     ),
   },
   {
     icon: "f6",
     icon2: "f66",
-    title: "Payment Gateway Integration",
+    title: "Property Marketing Applications",
     description: (
       <>
-        The team is professional at integrating secure and reliable payment
-        gateways into your food delivery app. This ensures smooth transactions
-        and a safe payment experience.
+        Our apps help businesses also promote properties through the images,
+        videos and listings that attract more buyers.
       </>
     ),
   },
   {
     icon: "f7",
     icon2: "f77",
-    title: "API Integrations",
+    title: "Property Valuation Applications",
     description: (
       <>
-        We successfully integrate third-party APIs into your food delivery app
-        to add features. Apps like ike maps, notifications, and analytics. This
-        enhances the overall user experience.
+        We build tools which estimate property value based on the market data.
+        This supports buyers and sellers in the decision making.
       </>
     ),
   },
   {
     icon: "f8",
     icon2: "f88",
-    title: "Cloud Kitchen App",
+    title: "Real Estate Agent Applications",
     description: (
       <>
-        We build cloud kitchen apps that make managing orders and deliveries
-        easy. The app helps coordinate multiple kitchens and ensures a smooth
-        experience for staff and customers.
-      </>
-    ),
-  },
-  {
-    icon: "f9",
-    icon2: "f99",
-    title: "Multiple Restaurant Features",
-    description: (
-      <>
-        Dignite Studios creates food apps that allow customers to browse and
-        order from multiple restaurants in one place. The app makes ordering
-        convenient for users.
+        We design apps for the agents to manage listings, track leads and
+        communicate with the clients easily while using the mobile app
+        development for real estate.
       </>
     ),
   },
@@ -479,22 +466,40 @@ const techStackData = [
     icon: <BsTerminal />,
   },
 ];
-const FoodIndustry = () => {
+const RealState = () => {
   return (
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-        button="Let’s Get Started "
-        heading="About Dignite Studios"
+        button="Discuss Your App Idea "
+        heading="ABuild Powerful Real Estate Apps for Modern"
+        heading2={"Property Business"}
         para={
           <>
-     Being one of the best food delivery app development companies, the developers specialize in creating food applications that fulfill the evolving needs of food businesses. The demand is growing for online ordering and restaurants. And startups and cloud kitchens are instantly shifting toward digital platforms to meet customer expectations. This means helping them meet customer demands and give a competitive advantage in the market. Our goal is to build apps that support transformation.
-The solutions we create while providing the trusted food delivery app development simplify order management, improve delivery operations, and enhance the overall customer experience. Our apps are designed to make daily operations like live tracking and payment integration more efficient. We work with a wide range of business models, including single restaurants, multi-vendor food delivery platforms, and cloud kitchens. 
-The team is understanding and helps you overcome the unique challenges of each and deliver solutions that grow with your business. We understand that every food business operates differently. Having 10+ years of experience in different industries, we combine our knowledge with modern technology, so we help you come up with a solution that’s fully functional and helps your business grow and get more customers through providing smooth experiences. 
+  The real estate market is growing fast with digital platforms. Buyers and sellers now prefer mobile apps to search and manage the properties. A strong app makes the property discovery simple and fast. 
+Dignite Studios is a leading real estate app development company with over 10 years of experience and 50+apps delivered. We build custom apps for the agents, brokers and property businesses. Our team creates user friendly platforms that support easy search, listing management and communication.  
+As a trustworthy real estate mobile app development firm, we also prioritize scalability and performance.  We help businesses grow and improve customer experience. 
 
           </>
         }
       />
+          <Services
+        header="Real Estate App Development "
+        header2={"Services"}
+        button={"Explore Our Services"}
+        para="We offer complete real estate app development services that help businesses manage properties, connect with buyers and improve the sales. Our team builds scalable apps with modern features to support the real estate businesses and marketplaces.   "
+        services={services}
+      />
+          <CTA
+        header="Start Your Real Estate App Project "
+        para=" Ready to build your app with our real estate mobile app developer. Our team creates scalable platforms through advanced search, property management and smooth user experience. "
+        btn="Start Your Real Estate App Project "
+      />    
+        <SuccessStories
+        header="Real Estate App Development Case Studies  "
+        para="We have delivered successful apps for property businesses. Our case studies show how our real estate app development solutions improved user experience, increased engagement and supported business growth. "
+      />
+      <DeliveryFeatures/>
           <MobileApp
         cards={BENEFITS}
         header2={"Business"}
@@ -502,18 +507,8 @@ The team is understanding and helps you overcome the unique challenges of each a
         para="A food delivery app development may seem optional, but it’s interesting how an app built by the best food delivery app development company can transform your entire business to the extent that the revenue shows a major difference. Having an app means you can reach more customers, and you can manage your operations better.  "
         button=" Get Your App Built "
       />
-      <Services
-        header="Expert Food Delivery App Development"
-        header2={"Services"}
-        button={"Explore Our Services"}
-        para="Providing a complete suite of services in the category of on demand food delivery app development, we design applications that help restaurants and startups. Our services cover every aspect of app creation and custom development. The focus is on building apps that keep the customer engaged by providing a smooth experience.  "
-        services={services}
-      />
-        <CTA
-        header="Still Just Thinking About Launching Your Food Delivery App?"
-        para="It’s time to take your food business online with a fully customized delivery app. An application that’d help you streamline orders, improve deliveries, and provide a smooth experience for your customers. Let us turn your idea into a successful app. "
-        btn="Talk to Our App Experts"
-      />
+  
+    
         <Industries
         header="Food Delivery App Development Services for Different "
         header2={" Niches"}
@@ -521,7 +516,7 @@ The team is understanding and helps you overcome the unique challenges of each a
         VALUE_PROPOSITION={VALUE_PROPOSITION}
       />
       <Niches/> 
-      <DeliveryFeatures/>
+
       
       {/* <TabularEcommerceTechs /> */}
       <Features
@@ -533,10 +528,7 @@ The team is understanding and helps you overcome the unique challenges of each a
       />
 <CTA2 header="Searching for a Team Who Builds Food Delivery App?" para="Your idea can become a powerful food delivery app with the right team. Dignite Studios builds solutions that make ordering simple and operations smooth. Our focus is on performance and reliability so your business can grow with confidence." btn="Get Started Today"/>
         <Monetization/>
-         <SuccessStories
-        header="  The Success Stories "
-        para="You can explore our case studies section and see how we serve the industries and businesses, helping them build applications that just work perfectly for their industries and niche. The case studies we’re mentioning here highlight the challenges we dealt with and the solutions we provided. "
-      />
+   
       <Process
         header="Proven Process of a Food Delivery App Development Company"
         para="Every application we develop solves a problem. So, the team works with a structured approach that brings your business idea to life. Different food app development companies work with unique workflows, but when it comes to creating mobile apps at our development company, we utilize a perfectly structured approach of the best food app development companies to ensure that we design applications that work the proper way. Here’s the structured workflow that turns visions into apps.   "
@@ -585,6 +577,4 @@ The team is understanding and helps you overcome the unique challenges of each a
   );
 };
 
-export default FoodIndustry;
-
-
+export default RealState;

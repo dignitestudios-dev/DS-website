@@ -38,12 +38,12 @@ const Services = ({ services, header, header2, para, button }) => {
               <img
                 src={`/location/mobile-california/icons/${service.icon}.webp`}
                 alt={service.title}
-                className="group-hover:hidden transition duration-300"
+                className="group-hover:hidden w-10 transition duration-300"
               />
               <img
                 src={`/location/mobile-california/icons/${service.icon2}.webp`}
                 alt={service.title}
-                className="group-hover:block hidden transition duration-300"
+                className="group-hover:block w-10 hidden transition duration-300"
               />
             </div>
             <h3 className="text-base font-semibold text-center">

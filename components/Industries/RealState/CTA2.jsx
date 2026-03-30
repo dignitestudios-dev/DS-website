@@ -3,27 +3,35 @@ import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
+import { IoIosArrowRoundDown } from "react-icons/io";
 
-const CTA = ({
+const CTA2 = ({
   header = "If these apps started as ideas, so can yours.",
   para = "Every project started with a simple conversation, and all you need is just a conversation. We help you refine and turn your idea into a working product without confusion or overpromising.",
   btn = "Discuss Your App Idea",
 }) => {
-
-
   return (
-    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/industries/food-industry/s-cta.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
-    
-
-      <div className="flex items-center h-full gap-12 justify-between">
-        
-        <div className="w-full lg:w-[55%] flex flex-col items-start relative z-30 text-start">
-          <h2 className="text-4xl  capitalize font-bold mb-4">
-            {header}
-          </h2>
-          <p>{para}</p>
-          <Link
+    <div>
+      {" "}
+      <div className="w-[95%]  md:h-[550px] lg:w-[80%] text-white bg-black md:bg-transparent md:bg-[url('/industries/food-industry/s-cta2.webp')] md:bg-contain md:bg-no-repeat md:bg-center transition-all ease-linear rounded-2xl md:rounded-none relative px-6 md:pl-24 md:pr-20 py-20 md:py-12 mx-auto overflow-hidden">
+        <div className="flex items-start gap-20 overflow-hidden flex-row-reverse h-full justify-center">
+          <div className="hidden lg:block  w-[79%] -mt-16 overflow-hidden">
+            <motion.img
+              src="/industries/food-industry/mobiles.webp"
+              alt="cta-mobile"
+              className=""
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            />
+          </div>
+          <div className="w-full lg:w-[60%] flex flex-col items-start h-full justify-center relative z-20 text-start">
+            <h2 className="text-3xl md:text-4xl capitalize font-bold mb-4">
+              {header}
+            </h2>
+            <p className="font-extralight text-sm md:text-base">{para}</p>
+             <Link
             href="/contact-us"
             className="flex items-center group justify-center pt-4"
           >
@@ -41,11 +49,12 @@ const CTA = ({
               <MdArrowOutward />
             </button>
           </Link>
+          </div>
         </div>
-        <Image className="md:block hidden"  src={"/industries/food-industry/cta-mob.webp"} width={400} height={400} alt="CTA Image" />
       </div>
+   
     </div>
   );
 };
 
-export default CTA;
+export default CTA2;

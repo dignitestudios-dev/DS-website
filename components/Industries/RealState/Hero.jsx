@@ -8,10 +8,10 @@ import Platforms from "../ui/Platforms";
 import Link from "next/link";
 
 const Hero = ({
-  header = "Your Trusted Food Delivery App ",
+  header = "Real Estate App ",
   header2 = "Development Company",
-  para = " Finding the professional food delivery app development company? We’re the perfect choice. Dignite Studios provides different services in the category of food delivery app development with commitment. We are a team of dedicated app developers in the food industry. ",
-  btn = "Book a consultation",
+  para = "We are a trusted real estate app development company that builds scalable apps for the property market places, agents and real estate businesses. Our apps help users search properties, manage the listings and connect easily on one platform.",
+  btn = "Get Free Consultation",
 }) => {
   return (
     <div className="w-full grid grid-cols-1 bg-[url('/ecommerce/shopify-app/grad.webp')] bg-cover bg-center bg-no-repeat  justify-start items-start ">
