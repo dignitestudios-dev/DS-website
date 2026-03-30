@@ -22,18 +22,10 @@ const Footer = () => {
         name: "Android App Development Services",
         href: "/services/android-app-development",
       },
-      // {
-      //   name: "Android App Design Services",
-      //   href: "/services/android-mobile-app-design-services",
-      // },
       {
         name: "IOS App Development Services",
         href: "/services/ios-app-development",
       },
-      // {
-      //   name: "IOS App Design Services",
-      //   href: "/services/ios-app-design-services",
-      // },
       {
         name: "Web App Development Services",
         href: "/services/web-app-development",
@@ -58,10 +50,6 @@ const Footer = () => {
         name: "Mobile App Consulting Services",
         href: "/services/mobile-app-consultation",
       },
-      // {
-      //   name: "Mobile App Design Services",
-      //   href: "/services/mobile-app-design-services",
-      // },
       {
         name: "Mobile App Testing Services",
         href: "/services/mobile-app-testing-services",
@@ -106,19 +94,10 @@ const Footer = () => {
       { name: "Portfolio", href: "/portfolio" },
       { name: "Blog", href: "/blogs" },
     ],
-    // industries: [
-    //   { name: "Real State", href: "#" },
-    //   { name: "Dating", href: "#" },
-    //   { name: "Food", href: "#" },
-    //   { name: "HealthCare", href: "#" },
-    //   { name: "Fintech", href: "#" },
-    //   { name: "eLearning", href: "#" },
-    //   { name: "Education", href: "#" },
-    //   { name: "Logistics", href: "#" },
-    // ],
-    // state: [
-
-    // ],
+    industries: [
+      { name: "Real Estate", href: "/industries/real-state" },
+      { name: "Food Industry", href: "/industries/food-industry" },
+    ],
     ecommerce: [
       {
         name: "Shopify App Development",
@@ -132,11 +111,18 @@ const Footer = () => {
         name: "Shopify Store Development",
         href: "/ecommerce/shopify-store-development",
       },
-      { name: "WooCommerce App Development", href: "/ecommerce/woo-commerce-app-development" },
-      { name: "BigCommerce App Development", href: "/ecommerce/big-commerce-app-development" },
-      { name: "Shopify Integration Development", href: "/ecommerce/shopify-integration-development" },
-      // { name: "Shopify Migration Services", href: "#" },
-      // { name: "Headless Ecommerce Development", href: "#" },
+      {
+        name: "WooCommerce App Development",
+        href: "/ecommerce/woo-commerce-app-development",
+      },
+      {
+        name: "BigCommerce App Development",
+        href: "/ecommerce/big-commerce-app-development",
+      },
+      {
+        name: "Shopify Integration Development",
+        href: "/ecommerce/shopify-integration-development",
+      },
     ],
     support: [
       { name: "Testimonials", href: "/#testimonials" },
@@ -187,10 +173,11 @@ const Footer = () => {
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
         {/* Sticky Logo Section - Mobile */}
-        <div className=" pt-5 z-30 bg-[#101010] py-6 -mx-6 px-6 border-b border-white/10">
+        <div className="pt-5 z-30 bg-[#101010] py-6 -mx-6 px-6 border-b border-white/10">
           <div className="flex flex-col gap-4 items-center text-center">
             <Link href="/">
-              <Image src="/logo-dark.webp"
+              <Image
+                src="/logo-dark.webp"
                 alt="Dignite Studios Logo"
                 width={200}
                 height={200}
@@ -201,7 +188,7 @@ const Footer = () => {
               Don't compromise on your app's success.{" "}
               <span className="text-[#F15C20]">Gain a competitive edge.</span>
             </p>
-            <Link href={"/contact-us"} className="flex items-center  pt-2">
+            <Link href={"/contact-us"} className="flex items-center pt-2">
               <button
                 type="button"
                 className="bg-[#F15C20] hover:bg-white hover:text-[#F15C20] text-white text-sm px-6 py-2.5 rounded-full transition-colors"
@@ -215,7 +202,7 @@ const Footer = () => {
                 <MdArrowOutward />
               </button>
             </Link>
-            <div className="flex flex-col items-center gap-1 ">
+            <div className="flex flex-col items-center gap-1">
               <Link
                 href="mailto:info@dignitestudios.com"
                 className="text-white hover:text-[#F15C20] font-light text-xs transition"
@@ -444,6 +431,41 @@ const Footer = () => {
             </AnimatePresence>
           </div>
 
+          {/* Industries */}
+          <div className="flex flex-col items-center text-center">
+            <button
+              onClick={() => toggleSection("industries")}
+              className="flex items-center gap-2 text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-3"
+            >
+              Industries
+              <IoIosArrowDown
+                className={`transition-transform ${openSections.industries ? "rotate-180" : ""}`}
+              />
+            </button>
+            <AnimatePresence>
+              {openSections.industries && (
+                <motion.ul
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col items-center gap-1 overflow-hidden"
+                >
+                  {footerLinks.industries.map((link, idx) => (
+                    <li key={idx}>
+                      <Link
+                        href={link.href}
+                        className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
+                      >
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </motion.ul>
+              )}
+            </AnimatePresence>
+          </div>
+
           {/* Connect With Us */}
           <div className="flex flex-col items-center text-center">
             <button
@@ -494,24 +516,25 @@ const Footer = () => {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[.8px]" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-12  gap-x-8 gap-y-12 mb-16 relative z-10">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-12 gap-x-8 gap-y-12 mb-16 relative z-10">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-3 flex flex-col z-30 py-6">
             <Link href="/">
-              <Image src="/logo-dark.webp"
+              <Image
+                src="/logo-dark.webp"
                 alt="Dignite Studios Logo"
                 width={200}
                 height={200}
                 className="w-28 h-auto"
               />
             </Link>
-            <p className="text-white uppercase font-bold  max-w-xs text-sm">
+            <p className="text-white uppercase font-bold max-w-xs text-sm">
               Don't compromise on your app's success.{" "}
               <span className="text-[#F15C20]">Gain a competitive edge.</span>
             </p>
             <Link
               href={"/contact-us"}
-              className="flex items-center group w-fit  py-4"
+              className="flex items-center group w-fit py-4"
             >
               <button
                 type="button"
@@ -560,6 +583,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
+
           {/* Ecommerce & Technology */}
           <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col gap-8">
             <div className="flex flex-col">
@@ -598,23 +622,44 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Locations */}
-          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col">
-            <span className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
-              Locations
-            </span>
-            <ul className="flex flex-col">
-              {footerLinks.location.map((link, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={link.href}
-                    className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          {/* Locations & Industries */}
+          <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col gap-8">
+            <div className="flex flex-col">
+              <span className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+                Locations
+              </span>
+              <ul className="flex flex-col">
+                {footerLinks.location.map((link, idx) => (
+                  <li key={idx}>
+                    <Link
+                      href={link.href}
+                      className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Industries */}
+            <div className="flex flex-col">
+              <span className="text-[#F15C20] font-bold text-sm capitalize tracking-wider mb-2">
+                Industries
+              </span>
+              <ul className="flex flex-col">
+                {footerLinks.industries.map((link, idx) => (
+                  <li key={idx}>
+                    <Link
+                      href={link.href}
+                      className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
           {/* Quick Links, Support & Connect */}

@@ -43,7 +43,7 @@ const Navbar = ({ setIsOpen }) => {
   const menuItems = [
     { name: "Services", key: "services" },
     { name: "Technology", key: "technology" },
-    // { name: "Industries", key: "industries" },
+    { name: "Industries", key: "industries" },
     { name: "Locations", key: "locations" },
     { name: "Ecommerce", key: "ecommerce" },
     { name: "Company", key: "company" },
@@ -134,18 +134,19 @@ const Navbar = ({ setIsOpen }) => {
       {
         image: "/ind-r.webp",
         items: [
-          ["Fintech", "#"],
-          ["Healthcare", "#"],
-          ["Retail", "#"],
+          ["Food Industry", "/industries/food-industry"],
+          ["Real Estate", "/industries/real-estate"],
+          // ["Fintech", "/industries/fintech"],
         ],
       },
-      {
-        image: "/ind-r.webp",
-        items: [
-          ["E-commerce", "#"],
-          ["Education", "#"],
-        ],
-      },
+      // {
+      //   image: "/ind-r.webp",
+      //   items: [
+      //     ["Healthcare", "/industries/healthcare"],
+      //     ["Education", "/industries/education"],
+      //     ["E-commerce", "/industries/ecommerce"],
+      //   ],
+      // },
     ],
     locations: [
       {
