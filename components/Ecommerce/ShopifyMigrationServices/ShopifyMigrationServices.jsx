@@ -160,26 +160,37 @@ const services = [
 
 const highlights = [
   {
+    icon:"/ecommerce/shopify-migrate/s1.webp",
     title: "Shopify Platform Expertise",
     desc: "Our team has deep knowledge of Shopify and builds stores that perform smoothly, handle growth, and support long term Ecommerce success.",
   },
   {
+    icon:"/ecommerce/shopify-migrate/s2.webp",
+
     title: "Certified Migration Specialists",
     desc: "Our certified experts handle complex migrations with accuracy. We ensure the data is transferred correctly without any error or missing information during the process.",
   },
   {
+    icon:"/ecommerce/shopify-migrate/s3.webp",
+
     title: "SEO Preserving Migration",
     desc: "We protect your SEO by maintaining URLs, metadata and site structure. This helps your store keep rankings and visibility after the migration.",
   },
   {
+    icon:"/ecommerce/shopify-migrate/s4.webp",
+
     title: "Custom & Scalable Solutions",
     desc: "We build solutions based on your business needs. Our approach ensures your store can grow and handle more products and customers easily.",
   },
   {
+    icon:"/ecommerce/shopify-migrate/s5.webp",
+
     title: "Transparent Communication",
     desc: "We keep you informed at every step. Clear updates help you understand progress and make decisions during the migration process.",
   },
   {
+    icon:"/ecommerce/shopify-migrate/s6.webp",
+
     title: "Post Launch Support",
     desc: "As one of the reliable Shopify migration companies, we provide ongoing support to fix issues and keep your store stable even after the launch.",
   },

@@ -142,6 +142,10 @@ export function middleware(request) {
       newPath: "/services/hybrid-app-development",
     },
     {
+      oldPath: "/services/native-app-development-services",
+      newPath: "/services/native-app-development",
+    },
+    {
       oldPath: "/services/ios-app-development-services",
       newPath: "/services/ios-app-development",
     },

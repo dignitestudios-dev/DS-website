@@ -46,17 +46,52 @@ const Hero = ({
             src="/industries/real-state/house.webp"
             layout="fill"
             objectFit="contain"
-            className="absolute mt-52  -bottom-10 z-30 m-auto"
+            className="absolute lg:mt-52 mt-32 lg:-bottom-10 z-30 m-auto"
             alt="House"
           />
       
 
   
+<motion.div
+  initial={{ opacity: 0, x: -100 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8, delay: 0.5 }}
+  className="absolute top-[40%] -left-[20%] -bottom-10 z-20 m-auto hidden lg:block"
+>
+  <Image
+    src="/industries/real-state/l1.webp"
+    width={200}
+    height={200}
+    objectFit="contain"
+    alt="House"
+  />
+</motion.div>
 
+<motion.div
+  initial={{ opacity: 0, x: 100 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8, delay: 0.7 }}
+  className="absolute top-[10%] -right-[35%]  z-20 m-auto hidden lg:block"
+>
+  <Image
+    src="/industries/real-state/r.webp"
+    width={300}
+    height={300}
+    objectFit="contain"
+    alt="House"
+  />
+</motion.div>
       
     </div>
-   <div className="absolute left-1/2 -translate-x-1/2" >
-   <Image src={"/industries/real-state/mob.webp"} alt="Mobile" width={300} height={300} /></div>
+   <motion.div 
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, delay: 0.3 }}
+      className="absolute  -translate-x-1/2"
+    >
+      <Image src={"/industries/real-state/mob.webp"} className="hidden lg:block" alt="Mobile" width={300} height={300} />
+      <Image src={"/industries/real-state/mob.webp"} className="lg:hidden block" alt="Mobile" width={150} height={150} />
+    </motion.div>
         {/* <div className="absolute -bottom-32  left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" /> */}
       </div>
       <div>

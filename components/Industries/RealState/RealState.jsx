@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "./Hero";
 import About from "../ui/About";
-import Services from "../ui/Services";
+import Services from "./Services";
 import Link from "next/link";
 import Bussiness from "../ui/Bussiness";
 import {
@@ -52,8 +52,8 @@ import Cost from "../ui/Cost";
 import Impact from "./Impact";
 const services = [
   {
-    icon: "f1",
-    icon2: "f11",
+    icon: "1",
+    icon2: "h1",
     title: "Custom Real Estate App Development",
     description: (
       <>
@@ -64,8 +64,8 @@ const services = [
     ),
   },
   {
-    icon: "f2",
-    icon2: "f22",
+    icon: "2",
+    icon2: "h2",
     title: "Property Management Software",
     description: (
       <>
@@ -76,8 +76,8 @@ const services = [
     ),
   },
   {
-    icon: "f3",
-    icon2: "f33",
+    icon: "h3",
+    icon2: "3",
     title: "CRM Systems for Brokers",
     description: (
       <>
@@ -87,8 +87,8 @@ const services = [
     ),
   },
   {
-    icon: "f4",
-    icon2: "f44",
+    icon: "4",
+    icon2: "h4",
     title: "AI Enabled Dashboards for Investors",
     description: (
       <>
@@ -98,8 +98,8 @@ const services = [
     ),
   },
   {
-    icon: "f5",
-    icon2: "f55",
+    icon: "5",
+    icon2: "h5",
     title: "Real Estate Web App Development",
     description: (
       <>
@@ -109,8 +109,8 @@ const services = [
     ),
   },
   {
-    icon: "f6",
-    icon2: "f66",
+    icon: "6",
+    icon2: "h6",
     title: "Property Marketing Applications",
     description: (
       <>
@@ -120,8 +120,8 @@ const services = [
     ),
   },
   {
-    icon: "f7",
-    icon2: "f77",
+    icon: "7",
+    icon2: "h7",
     title: "Property Valuation Applications",
     description: (
       <>
@@ -131,8 +131,8 @@ const services = [
     ),
   },
   {
-    icon: "f8",
-    icon2: "f88",
+    icon: "8",
+    icon2: "h8",
     title: "Real Estate Agent Applications",
     description: (
       <>
@@ -497,7 +497,7 @@ const RealState = () => {
 
       <Features
         header="Cutting Edge Technologies for"
-        header2={"Real EState Apps"}
+        header2={"Real eState Apps"}
         para="Utilising modern technologies, our real estate app development solutions also enhance productivity performance, and user experience. These tools support companies in data analysis, property management and client engagement.  "
         button={"Lets Grow Your Business "}
         // button="Get Feature Recommendations"

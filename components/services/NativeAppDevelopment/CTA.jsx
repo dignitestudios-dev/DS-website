@@ -3,34 +3,29 @@ import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { IoIosArrowRoundDown } from "react-icons/io";
 
-const CTA2 = ({
-  header = "If these apps started as ideas, so can yours.",
-  para = "Every project started with a simple conversation, and all you need is just a conversation. We help you refine and turn your idea into a working product without confusion or overpromising.",
-  btn = "Discuss Your App Idea",
-}) => {
+const CTA = () => {
   return (
-      <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/industries/food-industry/s-cta.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative 2xl:px-40 md:px-28 px-10 md:my-0 md:py-14 mx-auto overflow-hidden flex justify-center items-center">
+    <div className="w-[95%] h-[450px] lg:h-[550px] lg:w-[80%] rounded-2xl lg:rounded-none bg-black lg:bg-transparent text-white md:bg-[url('/services/native-app/s-cta.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative 2xl:px-40 md:px-28 px-10 md:my-0 md:py-14 mx-auto overflow-hidden flex justify-center items-center">
       {/* <img src={"/services/mobile-app/s-cta.webp"} alt="img" width={800} height={800} className="absolute top-0 scale-105 md:block hidden left-0 w-full h-full object-contain z-10" /> */}
-      <div className="flex  gap-8 justify-start items-center relative z-20">
-       
-        <div className="w-full lg:w-[45%] ">
+      <div className="flex flex-row-reverse justify-center items-center relative z-20">
+    
+        <div className="w-full lg:w-[45%] text-center ">
           <h2 className="text-4xl capitalize font-bold mb-4">
-            {header}
+           Make Your Native App the Next Highlight
           </h2>
           <p>
-         {para}
+        Want your app idea to be like what you found in our case studies? We take concepts just like yours and turn them into functional native apps that users enjoy, businesses trust, and that actually make an impact.
           </p>
           <Link
             href="/contact-us"
-            className="flex items-center group justify-start  pt-4"
+            className="flex items-center group justify-center  pt-4"
           >
             <button
               type="submit"
               className="bg-[#F15C20] border border-[#F15C20]  group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-            {btn}
+             Start Your App Journey Today
             </button>
             <button
               type="submit"
@@ -46,4 +41,4 @@ const CTA2 = ({
   );
 };
 
-export default CTA2;
+export default CTA;

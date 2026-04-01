@@ -83,6 +83,11 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
     ...(VALUE_PROPOSITION || []),
     ...(VALUE_PROPOSITION || []),
     ...(VALUE_PROPOSITION || []),
+    ...(VALUE_PROPOSITION || []),
+    ...(VALUE_PROPOSITION || []),
+    ...(VALUE_PROPOSITION || []),
+    ...(VALUE_PROPOSITION || []),
+    ...(VALUE_PROPOSITION || []),
   ];
 
   return (

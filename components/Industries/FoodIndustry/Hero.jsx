@@ -69,12 +69,12 @@ const Hero = ({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="absolute z-10 top-10 xl:right-[23%] 2xl:right-[29%] lg:block hidden right-[21%]"
+            className="absolute z-10 top-10 xl:right-[17%] 2xl:right-[24%] lg:block hidden right-[21%]"
           >
             <Image
               src="/industries/food-industry/r1.webp"
-              width={200}
-              height={200}
+              width={300}
+              height={300}
             />
           </motion.div>
         )}
@@ -85,12 +85,12 @@ const Hero = ({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="absolute z-10 top-[60%] xl:right-[27%] 2xl:right-[32%] lg:block hidden right-[24%]"
+            className="absolute z-10 top-[60%] xl:right-[23%] 2xl:right-[28%] lg:block hidden right-[24%]"
           >
             <Image
               src="/industries/food-industry/r2.webp"
-              width={200}
-              height={200}
+              width={250}
+              height={250}
             />
           </motion.div>
         )}

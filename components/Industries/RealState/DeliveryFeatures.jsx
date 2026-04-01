@@ -8,7 +8,7 @@ const tabConfig = [
   {
     id: "customer",
     title: "Customer App Features",
-    image: "/industries/realestate/customer.webp",
+    image: "/industries/real-state/custom.webp",
     features: [
       {
         title: "AI Powered Property Recommendations",
@@ -45,7 +45,7 @@ const tabConfig = [
   {
     id: "agent",
     title: "Agent App Features",
-    image: "/industries/realestate/agent.webp",
+    image: "/industries/real-state/agent.webp",
     features: [
       {
         title: "Property Listing Management",
@@ -82,7 +82,7 @@ const tabConfig = [
   {
     id: "admin",
     title: "Admin Panel Features",
-    image: "/industries/realestate/admin.webp",
+    image: "/industries/real-state/admin.webp",
     features: [
       {
         title: "User & Agent Management System",
@@ -99,20 +99,11 @@ const tabConfig = [
         desc: "Admins can manage subscription plans, payments, billing, and premium features from a single dashboard.",
         icon: <FaMoneyBillWave />,
       },
-      {
-        title: "Content & Advertisement Management",
-        desc: "Admins can manage banners, promotions, and featured listings to boost visibility and user engagement.",
-        icon: <FaBullhorn />,
-      },
+      
       {
         title: "Analytics & Performance Reporting",
         desc: "Admins access real-time reports on user activity, views, and engagement to make data-driven decisions.",
         icon: <FaChartLine />,
-      },
-      {
-        title: "Security & Compliance Management",
-        desc: "Secure systems protect user data, prevent fraud, and ensure regulatory compliance for safe operations.",
-        icon: <FaShieldAlt />,
       },
     ],
   },
@@ -189,7 +180,7 @@ const DeliveryFeatures = () => {
           </div>
 
           {/* Desktop Layout */}
-          <div className="hidden lg:grid lg:grid-cols-8 gap-6 lg:gap-10 items-start relative">
+          <div className={`hidden lg:grid lg:grid-cols-8 gap-6 lg:gap-10 relative ${isFourFeatureLayout ? "items-start" : "items-center "}` }>
             {/* Left Features */}
             <div className="flex flex-col gap-4 col-span-3">
               {leftFeatures.map((item) => (
@@ -225,7 +216,7 @@ const DeliveryFeatures = () => {
                     <img
                       src={image}
                       alt="Food Delivery App Mobile Interface"
-                      className="w-full h-full py-8 object-cover"
+                      className="w-full h-full  object-cover"
                       loading="lazy"
                     />
                   </div>
@@ -241,7 +232,7 @@ const DeliveryFeatures = () => {
                     <img
                       src={image}
                       alt="Food Delivery App Mobile Interface"
-                      className="w-[80%] h-full object-cover"
+                      className="w-[55%] h-full object-cover"
                       loading="lazy"
                     />
                   </div>

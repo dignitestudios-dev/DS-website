@@ -73,7 +73,7 @@ const Navbar = ({ setIsOpen }) => {
           ],
           [
             "Native App Development Services",
-            "/services/native-app-development-services",
+            "/services/native-app-development",
           ],
         ],
       },
