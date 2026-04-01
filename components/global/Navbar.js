@@ -201,6 +201,16 @@ const Navbar = ({ setIsOpen }) => {
           ],
         ],
       },
+      {
+        image: "/eco-r.webp",
+        items: [
+          [
+              "Shopify Migration Services",
+              "/ecommerce/shopify-migration-services",
+          ],
+      
+        ],
+      },
     ],
     company: [
       {

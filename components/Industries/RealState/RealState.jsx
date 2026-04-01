@@ -1,19 +1,19 @@
-
-
 import React from "react";
 import Hero from "./Hero";
 import About from "../ui/About";
 import Services from "../ui/Services";
 import Link from "next/link";
 import Bussiness from "../ui/Bussiness";
-import { MdSecurity, MdSync, MdInventory, MdMobileFriendly, MdAnalytics, MdPayment, MdTrendingUp, MdSpeed } from "react-icons/md";
-import { FaWordpress, FaPhp, FaHtml5, FaCss3Alt, FaJs, FaDatabase } from "react-icons/fa";
+import {
+  FaWordpress,
+  FaPhp,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaDatabase,
+} from "react-icons/fa";
 import { SiWoocommerce } from "react-icons/si";
 import Industries from "../ui/Industries";
-import { IoGrid, IoWalletOutline } from "react-icons/io5";
-import { CiSearch, CiSettings } from "react-icons/ci";
-import { SiNodedotjs } from "react-icons/si";
-import { FaCode, FaAws, FaPencilAlt, FaUser } from "react-icons/fa";
 import SuccessStories from "../ui/SuccessStories";
 import CTA from "./CTA";
 import SEO from "../ui/SEO";
@@ -26,12 +26,21 @@ import Features from "../ui/Features";
 import CTA2 from "./CTA2";
 import Process from "../ui/Process";
 import MobileApp from "../ui/MobileApp";
+import { FiSearch } from "react-icons/fi";
+import { MdSpeed } from "react-icons/md";
+import { HiTrendingUp } from "react-icons/hi";
+import { BiMessageRoundedDots } from "react-icons/bi";
+import { BsBuildingGear } from "react-icons/bs";
 
-import {  FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { SiNextdotjs, SiHandlebarsdotjs, SiGraphql } from "react-icons/si";
 import { TbApi } from "react-icons/tb";
 import { BsTerminal } from "react-icons/bs";
-import { FaGlobe, FaSyncAlt, FaMotorcycle, FaBell, FaChartBar, FaRocket, FaUserCheck, FaMicrophone, FaMoon, FaChartLine, FaUtensils, FaClock, FaShoppingCart, FaTag, FaTruck, FaCreditCard, FaComments } from "react-icons/fa";
+import { GiArtificialIntelligence } from "react-icons/gi";
+import { MdOutlineViewInAr } from "react-icons/md";
+import { IoHardwareChipOutline } from "react-icons/io5";
+import { TbView360 } from "react-icons/tb";
+import { AiOutlinePicture } from "react-icons/ai";
 import DeliveryFeatures from "./DeliveryFeatures";
 import DeliveryApps from "./DeliveryApps";
 
@@ -40,6 +49,7 @@ import Monetization from "./Monetization";
 import TabularTechs from "./TabularTechs";
 import ThirdPartyIntegration from "./ThirdPartyIntegration";
 import Cost from "../ui/Cost";
+import Impact from "./Impact";
 const services = [
   {
     icon: "f1",
@@ -93,8 +103,8 @@ const services = [
     title: "Real Estate Web App Development",
     description: (
       <>
-        We develop responsive web apps that allow the users to browse properties,
-        manage listings and interact quite easily on any device.
+        We develop responsive web apps that allow the users to browse
+        properties, manage listings and interact quite easily on any device.
       </>
     ),
   },
@@ -136,28 +146,28 @@ const services = [
 
 const highlights = [
   {
-    title: "12+ Years of Development",
-    desc: "We’re the best food delivery app development company USA with over 10+ years of experience, building high-performing apps.",
+    title: "Experienced Mobile App Developers",
+    desc: "Our talented real estate app developers create apps which adjust to corporate objectives guaranteeing dependable operation and a fluent user experience across all the platforms",
   },
   {
-    title: "High Level Expertise",
-    desc: "Being one of the top food delivery app development providers, we provide top-tier design and development.",
+    title: "Scalable Architecture",
+    desc: "Apps are designed to handle growth, high traffic and increasing property listings while maintaining fast performance and fluent user interactions.",
   },
   {
-    title: "Expert Project Managers",
-    desc: "Our professional project managers make sure to keep the entire build of your food app is on track, providing smooth execution throughout.",
+    title: "Agile Development Process",
+    desc: "To guarantee quality and efficiency, we use an organised agile methodology with the precise milestones, iterative testing and the prompt delivery.",
   },
   {
-    title: "100% Transparent Procedure",
-    desc: "The app development team makes sure you get the updates on time. Through updates, we ensure transparency to your business needs.",
+    title: "Transparent Communication",
+    desc: "Clients receive regular project updates, progress reports and clear communication keeping them involved at every step of app development.",
   },
   {
-    title: "Post-Launch Support",
-    desc: "The support services we provide make your food delivery app competitive, so you can easily depend on our food app development services.",
+    title: "Secure Integrations",
+    desc: "Our team ensures all integrations, payment systems and data storage are safe, compliant and protect sensitive property and user information.",
   },
   {
-    title: "Custom Solutions",
-    desc: "Every food delivery app we build is supposed to meet your requirements through custom food delivery app development.",
+    title: "Proven Track Record Of Successful Apps",
+    desc: "We have successfully delivered multiple real estate apps, helping clients improve property management, customer engagement and overall business growth.",
   },
 ];
 
@@ -210,223 +220,193 @@ const PLATFORMS = [
 
 const test = [
   {
-    name: "Sarah Williams",
-    designation: "— BiteFast, CEO",
+    name: "Sebastian",
+    designation: "— Urban Realty",
     review:
-      "The team delivered an amazing food delivery app. Our customers love it, and operations have never been smoother.",
+      "Working with Dignite Studios, a reliable real estate mobile app development company was a smooth experience. Their team understood our requirements clearly and delivered exactly what we needed",
   },
   {
-    name: "Lauren Smith",
-    designation: "— TastyBites, Co-Founder",
+    name: "Sophia",
+    designation: "— Prime Properties",
     review:
-      "Their expertise in app development helped us launch quickly. The solution is intuitive and drives great customer engagement.",
+      "Our app performance improved significantly after launch. The team handled everything professionally and kept us informed throughout the project",
   },
   {
-    name: "Emily Johnson",
-    designation: "— QuickEats, Operations Manager",
+    name: "John Mathews",
+    designation: "— Homespace",
     review:
-      "Their customized food delivery app development exceeded our expectations. We now manage orders and deliveries efficiently, improving overall business performance.",
+      "The developers were very skilled and easy to work with. They also helped us build a user friendly app for our customers",
   },
   {
-    name: "Michael Thompson",
-    designation: "— FreshFeast, CTO",
+    name: "James Anderson",
+    designation: "— Realty Hub",
     review:
-      "From design to deployment, the process was seamless. Our customers enjoy a smooth ordering experience every time.",
+      "We got the best experience from this team. The development process was also well organized and completed on time",
   },
   {
-    name: "Adam Rick",
-    designation: "— YumKart, Product Head",
+    name: "John Carter",
+    designation: "— Estate Link",
     review:
-      "The team understood our needs perfectly. The app has helped increase sales and customer satisfaction significantly.",
+      "Communication was clear and consistent. The team from this trusted real estate mobile app development company made sure we understood every step and delivered a reliable application",
   },
   {
-    name: "Daniel Lee",
-    designation: "— FoodHive, COO",
+    name: "Oliver Parker",
+    designation: "— Dream Houses",
     review:
-      "Excellent support and customized food delivery app development. The delivery tracking and notifications work flawlessly, keeping customers happy and informed.",
+      "They delivered our app on time without any issues. The final product worked smoothly and met all our expectations",
   },
   {
-    name: "Olivia Martinez",
-    designation: "— FlavorBox, Managing Director",
+    name: "Andrew Scott",
+    designation: "— Property Pro",
     review:
-      "Professional and reliable team. The app is scalable, efficient, and easy for both our staff and customers to use.",
+      "Highly professional team with strong technical knowledge. They built a scalable app that supports our growing business needs",
+  },
+  {
+    name: "Ryan King",
+    designation: "— Build Estate",
+    review:
+      "The team was really supportive. They also quickly resolved our queries and provided the useful updates",
+  },
+  {
+    name: "Ethan Wright",
+    designation: "— Real Connect",
+    review:
+      "It was easy to collaborate with their team. They were also responsive, flexible and focused on delivering quality results",
+  },
+  {
+    name: "Samuel Turner",
+    designation: "— Smart Realty",
+    review:
+      "We found their services very reliable. The app works quite perfectly and also improved our customer engagement",
   },
 ];
 
-
-
 const BENEFITS = [
   {
-    title: "Expanded Customer Reach",
-    desc: "A food delivery app helps your business reach more customers beyond your local area. It helps you attract new users and increase orders through convenient online access.",
-    icon: <FaGlobe color="#F15C20" size={25} />,
+    title: "Better Customer Experience",
+    desc: "Apps provide smooth browsing, simple navigation and quick property search, helping users find and explore listings without confusion or delays.",
+    icon: <FiSearch color="#F15C20" size={25} />,
   },
   {
-    title: "Increased Order Frequency and Sales",
-    desc: "A food delivery app makes ordering easy and convenient. That means encouraging repeat purchases and promotions, and helping restaurants increase order frequency.",
-    icon: <FaSyncAlt color="#F15C20" size={25} />,
+    title: "Faster Property Discovery",
+    desc: "Users can quickly search and filter properties based on their needs, saving time and making the property discovery process easier and quite faster.",
+    icon: <MdSpeed color="#F15C20" size={25} />,
   },
   {
-    title: "Efficient Delivery Management",
-    desc: "With our food delivery app development services, your food delivery app means you can track the orders and assign the deliveries accordingly. It helps reduce errors and improve customer satisfaction.",
-    icon: <FaMotorcycle color="#F15C20" size={25} />,
+    title: "Increased Sales Opportunities",
+    desc: "Through improved user experience, apps enable businesses to reach more potential consumers, increase visibility and boost the likelihood that visitors will become customers.",
+    icon: <HiTrendingUp color="#F15C20" size={25} />,
   },
   {
-    title: "Enhanced Customer Engagement",
-    desc: "Restaurants can send personalized offers and notifications with an app. It makes communication easier and helps build stronger customer relationships.",
-    icon: <FaBell color="#F15C20" size={25} />,
+    title: "Direct Communication Between Buyers and Agents",
+    desc: "Through the immediate chat or phone connections made possible by apps, buyers and agents can communicate more quickly and enhance the client experience in general.",
+    icon: <BiMessageRoundedDots color="#F15C20" size={25} />,
   },
   {
-    title: "Analytics and Insights",
-    desc: "A food delivery app provides data about orders and sales. Restaurants and startups can make more aware decisions and improve business performance.",
-    icon: <FaChartBar color="#F15C20" size={25} />,
-  },
-  {
-    title: "Competitive Advantage",
-    desc: "Dignite Studios helps businesses stand out by offering convenience. The apps build modern digital experiences that give restaurants and startups an edge over competitors.",
-    icon: <FaRocket color="#F15C20" size={25} />,
+    title: "Digital Transformation of Property Businesses",
+    desc: "Apps help businesses move from the manual processes to digital systems using mobile app development for the real estate, improving the efficiency and long term growth.",
+    icon: <BsBuildingGear color="#F15C20" size={25} />,
   },
 ];
 
 const faqs = [
   {
     id: 1,
-    question: "How much time does it usually take to build a food delivery mobile app?",
+    question: "How much does it cost to build a real estate app?",
     answer:
-      "Dignite Studios doesn’t provide a fixed, similar timeline for each food mobile app during development. The time always depends on the complexity and features of every food delivery application. Usually, a mid-level application would take up to 8-12 weeks, but it all depends, again. If you need a final cost and pricing estimate, contact our team and share your app idea.",
+      "The real estate app development company cost depends mostly on features, design complexity, integrations and platform choice. A simple app can cost less, while advanced apps with AI dashboards and the custom features require a higher budget. The final cost varies based on project scope and also the business requirements.",
   },
   {
     id: 2,
-    question: "Can you build iOS applications for Food delivery apps, too?",
+    question: "How long does development take?",
     answer:
-      "We’re experts, building both iOS and Android food delivery apps. Hire food delivery mobile app developer who creates high-performance applications for businesses. The developers can easily work with native and Swift to develop applications that feel simple while ensuring functionality.",
+      "The timeline for real estate applications depends on the app’s complexity and features. The basic app may also take a few weeks, while medium or complex apps can also take several months. Proper planning, design and testing also affect the overall development time and final delivery schedule.",
   },
   {
     id: 3,
-    question: "Would you provide support after we’re done with the app launch?",
+    question: "What features are essential in a real estate app?",
     answer:
-      "Yes. It’s called post-launch support, and we definitely stay with you even when your food delivery app is launched. Providing proper post-launch maintenance and updates about the app. So that we know that the food app would stay aligned with the vision and users’ needs.",
+      "Essential features include property listings, advanced search filters, map integration, user profiles, chat options and push notifications. These features improve user experience and make property discovery easier. Additional features like virtual tours and analytics can further enhance overall app performance.",
   },
   {
     id: 4,
-    question: "What if I have a rough idea? Can you guide me?",
+    question: "Can you integrate MLS or third party property APIs?",
     answer:
-      "Here’s a thing: There’s no app that starts with the perfect, flawless idea. With this understanding, we show guidance through a free consultation and explain the concepts in much easier way. The food app experts can help you out by adding practical aspects to your application and preparing it for the future.",
+      "Yes, we integrate MLS systems and third party APIs such as maps, payment gateways and property databases. These integrations improve the app functionality and also provide the real time data. Our mobile app development for real estate approach ensures the smooth and secure API integration without affecting performance or user experience.",
   },
   {
     id: 5,
-    question: "How much does a food delivery application usually cost?",
+    question: "Do you provide post launch support?",
     answer:
-      "Basically, we don’t have fixed pricing rules for all the applications. The cost completely depends on the features and the integrations you want your food application to have. It’s up to your food delivery app’s vision, but at Dignite Studios, we keep pricing transparent with no hidden fees.",
-  },
-  {
-    id: 6,
-    question: "Are you currently working with startups, too, or just the enterprises?",
-    answer:
-      "The food app development team works with both startups and enterprises. So, it doesn’t matter if you’re a startup or enterprise, we would definitely work with you. Whether you’re building an MVP or scaling an existing application. We would look forward to building an amazing app together either way.",
+      "Yes, we offer complete post launch support as part of our real estate app development services. This also includes regular updates, bug fixes, performance optimization and feature improvements. Our team also ensures your app runs smoothly and stays updated as your business grows and users also need to evolve.",
   },
 ];
 
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery and Strategy",
-    desc: "When the goals are clear, the app for your restaurant would turns out amazing, so in this phase, we align your business goals with the food app’s vision and features.",
+    title: "Discovery & Strategy",
+    desc: "We understand your business goals, target users and market needs. Then we create a clear strategy and define features required for your real estate app.",
   },
   {
     step: "02",
-    title: "User Interface Design",
-    desc: "It is a food app development process in which a preliminary visual mock-up has been created that shows the mobile app’s initial design.",
+    title: "UI UX Design",
+    desc: "Our group creates interfaces that are straightforward and easy to use. For buyers and agents, we prioritize easy navigation, tidy layouts and an improved user experience",
   },
   {
     step: "03",
-    title: "Development Stage",
-    desc: "The food app development begins, and our professional mobile app developers work according to your product roadmap and total execution time.",
+    title: "App Development",
+    desc: "Our developers use tools and technology to create the app. On every device, we promise reliable performance, scalability and fluent operation",
   },
   {
     step: "04",
-    title: "Testing Stage",
-    desc: "Conducting tests at every phase of the app development process helps keeping up with the latest status updates.",
+    title: "Testing & Quality Assurance",
+    desc: "To find and fix bugs, we thoroughly test the program. This ensures smooth performance, secure data handling and the reliable user experience before the app is being designed.",
   },
   {
     step: "05",
     title: "Deployment",
-    desc: "App deployment is where preparation connects performance, resulting in smooth operation across iOS and Android.",
+    desc: "We launch the app on required platforms after final testing. Our team ensures smooth deployment without issues or delays during the release process.",
   },
   {
     step: "06",
-    title: "Post-Launch Support",
-    desc: "Once we have launched your food app, the developers’ focus shifts to checking performance and optimizing features based on user feedback.",
+    title: "Maintenance & Support",
+    desc: "After the launch, we continue to offer assistance. To keep the app functioning properly, our staff also upgrades features, resolves bugs and boost performance.",
   },
 ];
-
-
-
-
 
 const featureData = [
   {
-    title: "User Registration",
-    desc: "With the help of this app, users can sign up quickly. The app makes joining simple and convenient for everyone.",
-    icon: <FaUserCheck className="text-5xl" />,
+    title: "Artificial Intelligence for Property Recommendations",
+    desc: "AI improves discovery and boosts user engagement within the app by analysing user activity, prior searches and preferences to recommend properties which meet their needs.",
+    icon: <GiArtificialIntelligence className="text-5xl text-[#F15C20]" />,
   },
   {
-    title: "Voice Search",
-    desc: "Customers should be able to find restaurants or dishes using their voice because it adds inclusivity and actually makes searching faster and easier for a smooth experience.",
-    icon: <FaMicrophone className="text-5xl" />,
+    title: "Augmented Reality for Virtual Tours",
+    desc: "By providing virtual walkthroughs and precise room views, augmented reality (AR) allows the users to explore properties in a realistic manner without to physically visit locations",
+    icon: <MdOutlineViewInAr className="text-5xl text-[#F15C20]" />,
   },
   {
-    title: "Dark Mode Support",
-    desc: "In order to reduce eye strain, the app should be able to provide dark modes because it provides a comfortable viewing experience and help save battery life.",
-    icon: <FaMoon className="text-5xl" />,
+    title: "Big Data for Market Insights",
+    desc: "Big Data gathers and examines property, user and market data to produce useful insights that assist companies in making more informed marketing and investment choices.",
+    icon: <FaDatabase className="text-5xl text-[#F15C20]" />,
   },
   {
-    title: "Analytics Dashboard",
-    desc: "Users should be able to track their spending and ordering habits with more ease. The dashboard helps them stay informed and monitor their activity effortlessly.",
-    icon: <FaChartLine className="text-5xl" />,
+    title: "IoT for Smart Property Management",
+    desc: "IoT integration enables real estate apps to communicate with the smart devices in buildings, facilitating effective management of automation systems, utilities and security",
+    icon: <IoHardwareChipOutline className="text-5xl text-[#F15C20]" />,
   },
   {
-    title: "GPS & Route Optimization",
-    desc: "Our online food delivery app development company's food delivery app guides delivery agents along optimized routes to ensure faster and more efficient deliveries.",
-    icon: <FaGlobe className="text-5xl" />,
+    title: "Virtual Reality for Immersive Experiences",
+    desc: "Before physically seeing the property, consumers may visualise layouts, spaces and designs through completely immersive property tours made possible by virtual reality technology.",
+    icon: <TbView360 className="text-5xl text-[#F15C20]" />,
   },
   {
-    title: "Restaurant Recommendations",
-    desc: "The app created by our online food delivery app development company suggests restaurants and dishes based on user preferences and past ordering behavior.",
-    icon: <FaUtensils className="text-5xl" />,
-  },
-  {
-    title: "Order Scheduling",
-    desc: "Users can schedule orders ahead of time. The app ensures meals arrive exactly when they want without any hassle.",
-    icon: <FaClock className="text-5xl" />,
-  },
-  {
-    title: "Multiple Restaurant Ordering",
-    desc: "Customers can order from multiple restaurants in one go. The food delivery app makes group orders simple and convenient.",
-    icon: <FaShoppingCart className="text-5xl" />,
-  },
-  {
-    title: "Discounts, Coupons & Loyalty Programs",
-    desc: "The app provides rewards and special offers. It encourages customers to return and keeps them engaged with the platform.",
-    icon: <FaTag className="text-5xl" />,
-  },
-  {
-    title: "Real-Time Order Tracking",
-    desc: "Customers can track their orders in real time. The app provides full visibility from preparation to delivery for a smooth experience.",
-    icon: <FaTruck className="text-5xl" />,
-  },
-  {
-    title: "Multiple Payment Options",
-    desc: "The app allows payments through cards, wallets, or cash on delivery. It makes transactions simple, secure, and convenient for everyone.",
-    icon: <FaCreditCard className="text-5xl" />,
-  },
-  {
-    title: "In-App Chat & Support",
-    desc: "Users can reach support directly in the app. Quick help ensures issues are resolved and customers stay satisfied.",
-    icon: <FaComments className="text-5xl" />,
+    title: "Image Recognition for property Features",
+    desc: "Image recognition enhances the accuracy of listings for the buyers and agents by identifying property features from uploaded photographs and automating categorisation",
+    icon: <AiOutlinePicture className="text-5xl text-[#F15C20]" />,
   },
 ];
-
 
 const techStackData = [
   {
@@ -476,101 +456,140 @@ const RealState = () => {
         heading2={"Property Business"}
         para={
           <>
-  The real estate market is growing fast with digital platforms. Buyers and sellers now prefer mobile apps to search and manage the properties. A strong app makes the property discovery simple and fast. 
-Dignite Studios is a leading real estate app development company with over 10 years of experience and 50+apps delivered. We build custom apps for the agents, brokers and property businesses. Our team creates user friendly platforms that support easy search, listing management and communication.  
-As a trustworthy real estate mobile app development firm, we also prioritize scalability and performance.  We help businesses grow and improve customer experience. 
-
+            The real estate market is growing fast with digital platforms.
+            Buyers and sellers now prefer mobile apps to search and manage the
+            properties. A strong app makes the property discovery simple and
+            fast. Dignite Studios is a leading real estate app development
+            company with over 10 years of experience and 50+apps delivered. We
+            build custom apps for the agents, brokers and property businesses.
+            Our team creates user friendly platforms that support easy search,
+            listing management and communication. As a trustworthy real estate
+            mobile app development firm, we also prioritize scalability and
+            performance. We help businesses grow and improve customer
+            experience.
           </>
         }
       />
-          <Services
+      <Services
         header="Real Estate App Development "
         header2={"Services"}
         button={"Explore Our Services"}
         para="We offer complete real estate app development services that help businesses manage properties, connect with buyers and improve the sales. Our team builds scalable apps with modern features to support the real estate businesses and marketplaces.   "
         services={services}
       />
-          <CTA
+      <CTA
         header="Start Your Real Estate App Project "
         para=" Ready to build your app with our real estate mobile app developer. Our team creates scalable platforms through advanced search, property management and smooth user experience. "
         btn="Start Your Real Estate App Project "
-      />    
-        <SuccessStories
+      />
+      <SuccessStories
         header="Real Estate App Development Case Studies  "
         para="We have delivered successful apps for property businesses. Our case studies show how our real estate app development solutions improved user experience, increased engagement and supported business growth. "
       />
-      <DeliveryFeatures/>
-          <MobileApp
+      <DeliveryFeatures />
+      <MobileApp
         cards={BENEFITS}
-        header2={"Business"}
-        header="Benefits of Having a Food Delivery App for Your "
-        para="A food delivery app development may seem optional, but it’s interesting how an app built by the best food delivery app development company can transform your entire business to the extent that the revenue shows a major difference. Having an app means you can reach more customers, and you can manage your operations better.  "
-        button=" Get Your App Built "
+        header2={"Real Estate Apps"}
+        header=" Benefits of Investing in "
+        para="Real Estate apps help businesses grow faster and manage daily operations easily. They boost productivity, facilitate automation and enhance the customer experience. Companies may also increase user reach, boost engagement and create scalable digital platforms which facilitate long term growth by investing in mobile app development for real estate.   "
+        button=" Book a Free Consultation  "
       />
-  
-    
-        <Industries
+
+      <Features
+        header="Cutting Edge Technologies for"
+        header2={"Real EState Apps"}
+        para="Utilising modern technologies, our real estate app development solutions also enhance productivity performance, and user experience. These tools support companies in data analysis, property management and client engagement.  "
+        button={"Lets Grow Your Business "}
+        // button="Get Feature Recommendations"
+        features={featureData}
+      />
+      <TabularTechs />
+      <Bussiness
+        header="Why Choose Our Real Estate App "
+        header2={" Development Company"}
+        button="Let's get started "
+        para={
+          <>
+            We provide real estate app developer with reliable solutions for
+            property businesses. To guarantee constant expansion and
+            performance, we focus on scalable apps, safe integrations and the
+            long term maintenance.
+          </>
+        }
+        bs={highlights}
+      />
+      <Process
+        header="Our Real Estate Application Development Process"
+        para="Our process ensures smooth and structured app delivery from start to finish. As a trusted real estate mobile app developer, we focus on planning, design, development, testing and support to build reliable apps which meet business goals and deliver a fluent user experience.   "
+        steps={PROCESS_STEPS}
+      />
+      <Impact />
+      {/* <Industries
         header="Food Delivery App Development Services for Different "
         header2={" Niches"}
         para="Having an experience of 10+ years in different industries and niches, we assure you that the food delivery app solutions we provide work for a variety of business models. We can work for anyone, whether it’s a single restaurant or a multi-vendor platform. The apps we create are built to meet the unique needs of each niche. "
         VALUE_PROPOSITION={VALUE_PROPOSITION}
       />
-      <Niches/> 
+      <Niches/>  */}
 
-      
       {/* <TabularEcommerceTechs /> */}
-      <Features
-        header="Key Features for a Successful Food"
-        header2={"Delivery App"}
-        para="Every food delivery app needs some mandatory features that are the must-haves when you’re creating the food delivery applications. Features that make ordering simple and operations smooth cannot be treated as optional. Because there are features that’d make the whole experience smooth for users and help businesses attract and retain customers. "
-        // button="Get Feature Recommendations"
-        features={featureData}
-      />
-<CTA2 header="Searching for a Team Who Builds Food Delivery App?" para="Your idea can become a powerful food delivery app with the right team. Dignite Studios builds solutions that make ordering simple and operations smooth. Our focus is on performance and reliability so your business can grow with confidence." btn="Get Started Today"/>
+      {/* <CTA2 header="Searching for a Team Who Builds Food Delivery App?" para="Your idea can become a powerful food delivery app with the right team. Dignite Studios builds solutions that make ordering simple and operations smooth. Our focus is on performance and reliability so your business can grow with confidence." btn="Get Started Today"/>
         <Monetization/>
    
-      <Process
-        header="Proven Process of a Food Delivery App Development Company"
-        para="Every application we develop solves a problem. So, the team works with a structured approach that brings your business idea to life. Different food app development companies work with unique workflows, but when it comes to creating mobile apps at our development company, we utilize a perfectly structured approach of the best food app development companies to ensure that we design applications that work the proper way. Here’s the structured workflow that turns visions into apps.   "
-        steps={PROCESS_STEPS}
-      />
-      <TabularTechs/>
-      <ThirdPartyIntegration/>
-      <DeliveryApps/>
-      <Bussiness
-        header=" Why You Should Choose "
-        header2={"Dignite Studios"}
-        button="Choose The Right Team  "
-        para={
-          <>
-      We are experts at building Food delivery applications. Having a team of the <Link href={"/"} >best developers </Link>  and designers, we provide you with everything you need as a custom food app development company. Dignite Studios consists of a team that takes the time to understand your audience and goals before the development even begins. We deliver the functional food applications with clear communication and reliable solutions.   
-          </>
-        }
-        bs={highlights}
-      />
-    
-  
-   
      
+     
+      <ThirdPartyIntegration/>
+      <DeliveryApps/> */}
+
       {/* <CTA2
         header="Start Your BigCommerce Project Today"
         para="If you want a reliable Ecommerce platform, our BigCommerce development Services can help. Our team builds secure, scalable and high performing online stores. We ensure every step supports business growth and better customer experience. "
         btn="Request BigCommerce Development Quote"
       /> */}
+      <Cost
+        title=" Industry Wide Cost Of Real Estate App"
+        description={
+          <>
+            The cost of building a property app depends on many factors. These
+            include app features, level of complexity, integration development
+            approach. The real estate app development cost can change based on
+            business needs. The estimates below give a general idea to help
+            businesses plan their budget.{" "}
+          </>
+        }
+        cards={ [
+  {
+    label: "Simple Apps",
+    range: " $8,000- $40,000",
+    detail:
+      "Simple apps are best for startups or small real estate businesses. These apps include the basic features such as the property listings, simple search filters, map view and contact forms. They provide an easy browsing experience for users who want quick access to property information.",
+  },
+  {
+    label: "Medium Complexity Apps",
+    range: " $45,000- $90,000",
+    detail:
+      "These apps are suitable for growing businesses and property platforms. They also include features like user login, advanced filters, property comparison tools, push notifications and third party integration. The real estate app development cost at this level is higher but it supports better user experience and improved business operations.",
+  },
+  {
+    label: "Complex Real Estate Apps",
+    range: " $95,000-$140,000",
+    detail:
+      "Complex apps built for large businesses are marketplaces. They also include advanced features such as the smart recommendations, virtual property tours, CRM integrations, analytics dashboards and scalable systems. These apps require higher real estate app development cost due to the advanced functionality and the strong infrastructure.",
+  },
+]}
+        btn={"Get a Custom Cost Estimate. "}
+      />
       <Testimonials
-        header="What Our Clients Say "
+        header=" Client Testimonials for Real Estate App Development Company "
         test={test}
-        para={" "}
+        para={"Clients trust our real estate app development company for delivering reliable and high quality solutions. We also worked with multiple real estate businesses, helping them to improve performance, user experience and digital growth. Below is the feedback that we got from our clients. "}
         // button="Work With Our Expert Team"
       />
-      <Cost title="Food Delivery App Development Cost Industry-Wide" description={<>
-        The cost of developing a food delivery app isn’t the same for every type. It varies widely. It depends on factors like features, complexity, platform choice, third-party integrations. We can definitely just provide an average based on market research and studies. It doesn’t represent Dignite Studios’ pricing models, so if you need a more specific quote, <Link className="text-orange-600" href="/contact-us">contact us today</Link>.
-        </>} btn={"Plan Your App Budget"} />
-      <Faq faqs={faqs} header="Commonly Asked Questions" />
+      <Faq faqs={faqs} header="FAQs" />
       <ContactUs
-        img={"/industries/food-industry/c-img.webp"}
-        header="Build Your Food Delivery App with Us"
-        para=" Take your food business online with us by getting a customized delivery app. Contact Dignite Studios for a free consultation and discover how our experts can help you grow your business with a reliable and highly functional app solution. "
+        img={"/industries/real-state/c-img.webp"}
+        header="Start Your Real Estate App Journey"
+        para="Share your app idea with our real estate app development company. We will guide you with the right solution and strategy.  "
         btn="Get Free Consultation "
       />
     </div>

@@ -495,6 +495,13 @@ The team is understanding and helps you overcome the unique challenges of each a
           </>
         }
       />
+       <Services
+        header="Expert Food Delivery App Development"
+        header2={"Services"}
+        button={"Explore Our Services"}
+        para="Providing a complete suite of services in the category of on demand food delivery app development, we design applications that help restaurants and startups. Our services cover every aspect of app creation and custom development. The focus is on building apps that keep the customer engaged by providing a smooth experience.  "
+        services={services}
+      />
           <MobileApp
         cards={BENEFITS}
         header2={"Business"}
@@ -502,13 +509,7 @@ The team is understanding and helps you overcome the unique challenges of each a
         para="A food delivery app development may seem optional, but it’s interesting how an app built by the best food delivery app development company can transform your entire business to the extent that the revenue shows a major difference. Having an app means you can reach more customers, and you can manage your operations better.  "
         button=" Get Your App Built "
       />
-      <Services
-        header="Expert Food Delivery App Development"
-        header2={"Services"}
-        button={"Explore Our Services"}
-        para="Providing a complete suite of services in the category of on demand food delivery app development, we design applications that help restaurants and startups. Our services cover every aspect of app creation and custom development. The focus is on building apps that keep the customer engaged by providing a smooth experience.  "
-        services={services}
-      />
+     
         <CTA
         header="Still Just Thinking About Launching Your Food Delivery App?"
         para="It’s time to take your food business online with a fully customized delivery app. An application that’d help you streamline orders, improve deliveries, and provide a smooth experience for your customers. Let us turn your idea into a successful app. "

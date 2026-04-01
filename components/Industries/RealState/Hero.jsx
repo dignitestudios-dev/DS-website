@@ -37,51 +37,26 @@ const Hero = ({
       <div className="relative flex  justify-center items-center my-12 mt-20 ">
          <div className="relative flex items-center justify-center md:w-[600px] md:h-[600px] w-[250px] h-[250px] mx-auto">
 
-      {/* Orange base with glow */}
-      <motion.div
-        className="absolute inset-0 rounded-full bg-[#F15C20]"
-        animate={{ boxShadow: [
-          "0 0 40px 10px #F15C2088, 0 0 80px 30px #F15C2044",
-          "0 0 70px 20px #F15C20bb, 0 0 130px 60px #F15C2066",
-          "0 0 40px 10px #F15C2088, 0 0 80px 30px #F15C2044",
-        ]}}
-        transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-      />
+          <Image
+            src="/industries/real-state/ring.webp"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/industries/real-state/house.webp"
+            layout="fill"
+            objectFit="contain"
+            className="absolute mt-52  -bottom-10 z-30 m-auto"
+            alt="House"
+          />
+      
 
-      {/* Dashed ring — clockwise, inside the orange */}
-      <motion.svg
-        className="absolute inset-0 w-full h-full"
-        viewBox="0 0 500 500"
-        animate={{ rotate: 360 }}
-        transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-      >
-        <circle cx="250" cy="250" r="175"
-          fill="none" stroke="white" strokeWidth="3"
-          strokeDasharray="18 10" strokeLinecap="round"
-        />
-      </motion.svg>
-
-      {/* Solid arc segments — counter-clockwise, inside the orange */}
-      <motion.svg
-        className="absolute inset-0 w-full h-full"
-        viewBox="0 0 500 500"
-        animate={{ rotate: -360 }}
-        transition={{ duration: 7, repeat: Infinity, ease: "linear" }}
-      >
-        <circle cx="250" cy="250" r="200"
-          fill="none" stroke="white" strokeWidth="2.5"
-          strokeDasharray="110 500" strokeLinecap="round"
-        />
-        <circle cx="250" cy="250" r="200"
-          fill="none" stroke="white" strokeWidth="2.5"
-          strokeDasharray="55 500" strokeDashoffset="180" strokeLinecap="round"
-        />
-      </motion.svg>
+  
 
       
     </div>
    <div className="absolute left-1/2 -translate-x-1/2" >
-   <Image src={"/industries/food-industry/mob.webp"} alt="Mobile" width={450} height={450} /></div>
+   <Image src={"/industries/real-state/mob.webp"} alt="Mobile" width={300} height={300} /></div>
         {/* <div className="absolute -bottom-32  left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" /> */}
       </div>
       <div>

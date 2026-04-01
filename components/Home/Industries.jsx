@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import Link from "next/link";
 export const sliderSettings = {
   slidesPerView: 1,
   spaceBetween: 10,
@@ -67,7 +68,7 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Ecommerce",
-    desc: "Providing ecommerce mobile app development services that help startups boost sales through seamless shopping experiences.",
+    desc: <>Providing <Link className="text-orange-600" href="/services/ecommerce-app-development">ecommerce mobile app development services</Link> that help startups boost sales through seamless shopping experiences.</>,
   },
   {
     title: "Health & Fitness",

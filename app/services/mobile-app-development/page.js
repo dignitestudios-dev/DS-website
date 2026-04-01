@@ -18,6 +18,7 @@ export const metadata = {
 const page = () => {
   return (
     <div>
+      
       <GlobalLayout page={
         <Suspense fallback={<LazyLoader />}>
           <MobileAppDevelopment />

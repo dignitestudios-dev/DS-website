@@ -123,6 +123,10 @@ const Footer = () => {
         name: "Shopify Integration Development",
         href: "/ecommerce/shopify-integration-development",
       },
+      {
+        name: "Shopify Migration Services",
+        href: "/ecommerce/shopify-migration-services",
+      },
     ],
     support: [
       { name: "Testimonials", href: "/#testimonials" },

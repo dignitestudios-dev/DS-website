@@ -145,7 +145,7 @@ const DeliveryFeatures = () => {
   const rightFeatures = isFourFeatureLayout ? [] : features.slice(leftFeatures.length);
 
   return (
-    <section className="w-full py-12 sm:py-16 lg:py-20">
+    <section className="w-full">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-4">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold tracking-tighter leading-tight">Food Delivery App Features</h2>

@@ -15,11 +15,16 @@ export const metadata = {
 const page = () => {
   return (
     <div>
-      <GlobalLayout page={
-        <Suspense fallback={<LazyLoader />}>
-          <IOSAppDev />
-        </Suspense>
-      } />
+      <meta name="geo.region" content="US" />
+      <meta name="geo.position" content="39.78373;-100.445882" />
+      <meta name="ICBM" content="39.78373, -100.445882" />
+      <GlobalLayout
+        page={
+          <Suspense fallback={<LazyLoader />}>
+            <IOSAppDev />
+          </Suspense>
+        }
+      />
     </div>
   );
 };

@@ -9,13 +9,18 @@ import {
   SiVuedotjs,
   SiAngular,
   SiFlutter,
+  SiSwift,
+  SiKotlin,
   SiNextdotjs,
   SiNodedotjs,
   SiDjango,
+  SiJava,
   SiFirebase,
   SiLaravel,
   SiExpress,
   SiRubyonrails,
+  SiMongodb,
+  SiPostgresql,
   SiGooglecloud,
   SiDigitalocean,
   SiCloudinary,
@@ -31,45 +36,32 @@ import {
   FaChartBar,
   FaImage,
   FaMicrosoft,
+  FaNodeJs,
+  FaJava,
 } from "react-icons/fa";
 
-// ADVANCED TOOLS FOR FOOD DELIVERY APPS
+// REAL ESTATE APP TECH STACK
 const techData = {
-  Frontend: [
-    { name: "React", icon: <SiReact /> },
-    { name: "Vue.js", icon: <SiVuedotjs /> },
-    { name: "Angular", icon: <SiAngular /> },
+  Mobile: [
     { name: "Flutter", icon: <SiFlutter /> },
     { name: "React Native", icon: <SiReact /> },
-    { name: "Next.js", icon: <SiNextdotjs /> },
+    { name: "Swift", icon: <SiSwift /> },
+    { name: "Kotlin", icon: <SiKotlin /> },
   ],
   Backend: [
-    { name: "Node.js", icon: <SiNodedotjs /> },
-    { name: "Django", icon: <SiDjango /> },
-    { name: "Firebase", icon: <SiFirebase /> },
-    { name: "Laravel", icon: <SiLaravel /> },
-    { name: "Express.js", icon: <SiExpress /> },
-    { name: "Ruby on Rails", icon: <SiRubyonrails /> },
+    { name: "Node.js", icon: <FaNodeJs /> },
+    { name: "Python", icon: <SiDjango /> },
+    { name: "Java", icon: <FaJava /> },
   ],
-  Mobile: [
-    { name: "AI Automation", icon: <FaBrain /> },
-    { name: "iOS", icon: <FaApple /> },
-    { name: "Android", icon: <FaAndroid /> },
-    { name: "Flutter", icon: <SiFlutter /> },
-    { name: "React Native", icon: <SiReact /> },
-  ],
-  "Cloud & DevOps": [
+  Cloud: [
     { name: "AWS", icon: <FaAws /> },
+    { name: "Google Cloud", icon: <SiGooglecloud /> },
     { name: "Azure", icon: <FaMicrosoft /> },
-    { name: "GCP", icon: <SiGooglecloud /> },
-    { name: "DigitalOcean", icon: <SiDigitalocean /> },
-    { name: "Cloudinary", icon: <SiCloudinary /> },
   ],
-  "API Integrations": [
-    { name: "Google Maps", icon: <FaMapMarkerAlt /> },
-    { name: "Firebase Cloud Messaging", icon: <FaBell /> },
-    { name: "Shopify POS", icon: <FaShoppingCart /> },
-    { name: "Google Analytics", icon: <FaChartBar /> },
+  Database: [
+    { name: "MongoDB", icon: <SiMongodb /> },
+    { name: "PostgreSQL", icon: <SiPostgresql /> },
+    { name: "Firebase", icon: <SiFirebase /> },
   ],
 };
 
@@ -82,12 +74,11 @@ const TabularTechs = () => {
     <section className="w-full  overflow-visible text-black">
       <div className="max-w-7xl mx-auto text-center px-4">
         <h2 className="text-4xl md:text-7xl leading-[42px] tracking-tighter lg:leading-[1.1] font-bold mb-6">
-          Advanced Tools Behind
-          <span className="text-[#F15C20]"> Food Delivery Apps</span>
+          Real Estate App Tech Stack
         </h2>
 
         <p className="font-extralight mx-auto mb-16 text-lg max-w-3xl">
-          Dignite studios use modern technology and advanced tools to build smooth applications without a mess. We have developers who are experts at bringing your idea to reality in a way that it runs smoothly and stays functional. We don't build apps that take time to load or feel too loaded with features or messy, we are just simply using the best tech from our stack to build your mobile apps.
+          We use modern tools to build scalable apps. As the trusted real estate mobile app development company, we also ensure strong backend, smooth frontend and secure data handling.
         </p>
 
         {/* TAB BUTTONS */}

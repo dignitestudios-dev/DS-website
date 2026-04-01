@@ -3,6 +3,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+import Link from "next/link";
 
 // Import Swiper styles
 
@@ -11,13 +12,13 @@ const testData = [
     name: "Shawn Brown",
     desgination: "– CTO, DigiNest Solutions",
     review:
-      "“We needed mobile app maintenance and support services, and Dignite Studios ensured our app runs perfectly. The team is highly professional.”",
+      <>“We needed <Link className="text-orange-600" href="/services/mobile-app-maintenance">mobile app maintenance and support services</Link>, and Dignite Studios ensured our app runs perfectly. The team is highly professional.”</>,
   },
   {
     name: "Steve Johns",
     desgination: "– Founder, HealthVision",
     review:
-      "“Recommending Dignite Studios because our app stays updated and secure now. Their mobile app development services gave us complete peace of mind.”",
+      <>“Recommending Dignite Studios because our app stays updated and secure now. Their  <Link className="text-orange-600" href="/services/mobile-app-development">mobile app development services</Link> gave us complete peace of mind.”</>,
   },
   {
     name: "Michael Lee",

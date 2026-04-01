@@ -1,23 +1,23 @@
+"use client"
 import React, { useEffect } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
 const stats = [
   {
-    number: "300+",
-    label: "Projects",
+    number: "10+",
+    label: "Years of Experience",
   },
   {
-    number: "450+",
+    number: "50+",
+    label: "Mobile Apps Delivered",
+  },
+  {
+    number: "50+",
     label: "Global Clients",
   },
   {
-    number: "8+",
-    label: "Industries Served",
-  },
-  {
-    number: "10+",
-    label: "Years Experienced",
+    number: "98%",
+    label: "Client Satisfaction",
   },
 ];
 
@@ -32,8 +32,8 @@ const AnimatedNumber = ({ value }) => {
 
   const motionValue = useMotionValue(0);
   const springValue = useSpring(motionValue, {
-    damping: 50,
-    stiffness: 150,
+    damping: 30,
+    stiffness: 100,
   });
   const displayValue = useTransform(springValue, (latest) =>
     Math.round(latest).toLocaleString(),
@@ -55,14 +55,13 @@ const AnimatedNumber = ({ value }) => {
 
 const Impact = () => {
   return (
-    <section className="w-full  px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black">
+    <section className="w-full py-20 px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black">
       <div className="text-center max-w-4xl mx-auto mb-16">
-        <h2 className="text-[40px] tracking-tighter md:text-7xl font-bold text-black dark:text-white leading-[1.1] mb-6">
-          Letting The Numbers <span className="text-[#F15C20]">Speak</span>
+        <h2 className="text-[40px] md:text-[64px] font-bold text-black dark:text-white tracking-tighter leading-[1.1] mb-6">
+          Our Success In Numbers
         </h2>
         <p className=" text-lg ">
-          We understand that you need a trusted startup app development company
-          that has actually delivered successful projects. So, here’s the stats:
+          We have built a strong reputation by delivering reliable mobile apps for businesses across different industries. Our experience, successful projects and client satisfaction reflect our commitment to quality and long-term partnerships.
         </p>
       </div>
 
