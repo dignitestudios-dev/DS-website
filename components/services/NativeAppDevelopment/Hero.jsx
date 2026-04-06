@@ -31,7 +31,7 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-         <div className="w-[80%] h-screen mx-auto z-10 flex justify-center mt-20 md:mt-32 relative">
+         <div className="w-[80%] h-[550px] lg:h-screen mx-auto z-10 flex justify-center mt-20 md:mt-32 relative">
               <Image src="/services/native-app/bg-grad.webp"
                 alt=""
                 width={1100}

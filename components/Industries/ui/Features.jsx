@@ -2,10 +2,8 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
@@ -13,7 +11,8 @@ const Features = ({ header, header2, para, features, button }) => {
   return (
     <section className="w-full pb-2 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
-        {/* Header Section */}
+
+        {/* Header */}
         <div className="text-center mb-16 md:mb-20">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -24,18 +23,19 @@ const Features = ({ header, header2, para, features, button }) => {
           >
             {header} <span className="text-[#F15C20]">{header2}</span>
           </motion.h2>
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-base md:text-lg   mx-auto leading-relaxed"
+            className="text-base md:text-lg mx-auto leading-relaxed"
           >
             {para}
           </motion.p>
         </div>
 
-        {/* Mobile Swiper (hidden on md and above) */}
+        {/* MOBILE SWIPER */}
         <div className="block md:hidden pb-10">
           <Swiper
             modules={[Autoplay, Pagination]}
@@ -49,103 +49,115 @@ const Features = ({ header, header2, para, features, button }) => {
           >
             {features?.map((feature, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-white mb-8  rounded-[32px] border border-gray-200 p-8 flex flex-col justify-center items-center text-center transition-all duration-300 group hover:border-[#F15C20]/20 w-[300px] h-[300px]">
-                  {/* Icon Container */}
-                  <div className="mb-8 p-4 rounded-2xl bg-white transition-transform duration-300 group-hover:scale-110">
-                    <div className="text-[#F15C20] text-7xl">
-                      {feature.icon}
-                    </div>
+                <div className="bg-white mb-8 rounded-[32px] border border-gray-200 p-8 flex flex-col justify-center items-center text-center w-[300px] h-[300px]">
+                  <div className="mb-8 p-4 rounded-2xl bg-white">
+                    <div className="text-[#F15C20] text-7xl">{feature.icon}</div>
                   </div>
-
-                  {/* Title */}
-                  <h3 className="text-lg font-bold text-[#111827] leading-snug group-hover:text-[#F15C20] transition-colors duration-300 px-4">
+                  <h3 className="text-lg font-bold text-[#111827] leading-snug px-4">
                     {feature.title}
                   </h3>
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
+
           <style jsx global>{`
             .feature-swiper .swiper-pagination-bullet {
-              background: #d1d5db;
-              opacity: 1;
-              width: 8px;
-              height: 8px;
+              background: #d1d5db; opacity: 1; width: 8px; height: 8px;
             }
             .feature-swiper .swiper-pagination-bullet-active {
-              background: #f15c20 !important;
-              width: 20px;
-              border-radius: 10px;
+              background: #f15c20 !important; width: 20px; border-radius: 10px;
             }
-            .feature-swiper .swiper-pagination {
-              bottom: 0px !important;
-            }
+            .feature-swiper .swiper-pagination { bottom: 0px !important; }
           `}</style>
         </div>
 
-        {/* Features Grid (hidden on mobile) */}
-        <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-          {features?.map((feature, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.1, delay: index * 0.1 }}
-              whileHover={{
-                y: -5,
-                rotateY: feature.desc ? 180 : 0,
-                boxShadow:
-                  "0 20px 35px -5px rgba(241, 92, 32, 0.1), 0 10px 10px -5px rgba(241, 92, 32, 0.04)",
-              }}
-              style={{ perspective: feature.desc ? 1000 : 0 }}
-              className="relative rounded-[32px] border border-gray-200 bg-white p-8 transition-all duration-700 font-bold hover:border-[#F15C20]/20"
-            >
-              <div className="relative h-full w-full transition-transform duration-700 [transform-style:preserve-3d]">
-                <div className="absolute inset-0 flex flex-col items-center text-center backface-hidden">
-                  {/* Icon Container */}
-                  <div className="mb-8 p-4 rounded-2xl bg-white transition-transform duration-300 group-hover:scale-110">
-                    <div className="text-[#F15C20] text-6xl md:text-7xl">
-                      {feature.icon}
+        {/* DESKTOP GRID */}
+        <div className="hidden md:flex items-center justify-center flex-wrap gap-6 md:gap-8">
+          {features?.map((feature, index) => {
+            const hasDesc = !!feature.desc;
+
+            return (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.3, delay: index * 0.05 }}
+                // ✅ No `animate` here — framer-motion only handles entrance
+                className="w-[260px] h-[260px]"
+                // ✅ Flip is handled purely by CSS via the inner wrapper below
+              >
+                {hasDesc ? (
+                  // ── Flippable card ──────────────────────────────────────────
+                  <div
+                    className="group relative w-full h-full"
+                    style={{ perspective: "1000px" }}
+                  >
+                    {/* Inner wrapper rotates on hover */}
+                    <div
+                      className="relative w-full h-full transition-transform duration-500 ease-in-out group-hover:[transform:rotateY(180deg)]"
+                      style={{ transformStyle: "preserve-3d" }}
+                    >
+                      {/* FRONT */}
+                      <div
+                        className="absolute inset-0 rounded-[32px] border border-gray-200 bg-white p-8 flex flex-col items-center text-center"
+                        style={{ backfaceVisibility: "hidden" }}
+                      >
+                        <div className="mb-8 p-4 rounded-2xl bg-white">
+                          <div className="text-[#F15C20] text-6xl md:text-7xl">
+                            {feature.icon}
+                          </div>
+                        </div>
+                        <h3 className="font-bold text-[#111827] leading-snug px-4">
+                          {feature.title}
+                        </h3>
+                      </div>
+
+                      {/* BACK */}
+                      <div
+                        className="absolute inset-0 rounded-[32px] border border-gray-200 bg-[#F15C20] text-white p-4 flex flex-col items-center justify-center text-center"
+                        style={{
+                          transform: "rotateY(180deg)",
+                          backfaceVisibility: "hidden",
+                        }}
+                      >
+                        <p className="text-sm leading-[1.8] px-4">{feature.desc}</p>
+                      </div>
                     </div>
                   </div>
-
-                  {/* Title */}
-                  <h3 className="text-lg font-bold text-[#111827] leading-snug group-hover:text-[#F15C20] transition-colors duration-300 px-4">
-                    {feature.title}
-                  </h3>
-                </div>
-
-                {feature.desc && (
-                  <div className="absolute inset-0 flex flex-col items-center justify-center rounded-[32px] bg-white p-8 text-center backface-hidden [transform:rotateY(180deg)]">
-                    <h3 className="text-lg font-semibold text-[#111827] mb-4 px-4">
+                ) : (
+                  // ── Non-flippable card ──────────────────────────────────────
+                  <div className="relative w-full h-full rounded-[32px] border border-gray-200 bg-white p-8 flex flex-col items-center text-center">
+                    <div className="mb-8 p-4 rounded-2xl bg-white">
+                      <div className="text-[#F15C20] text-6xl md:text-7xl">
+                        {feature.icon}
+                      </div>
+                    </div>
+                    <h3 className="font-bold text-[#111827] leading-snug px-4">
                       {feature.title}
                     </h3>
-                    <p className="text-sm leading-[1.8] text-[#4B5563] px-4">
-                      {feature.desc}
-                    </p>
                   </div>
                 )}
-              </div>
-            </motion.div>
-          ))}
+              </motion.div>
+            );
+          })}
         </div>
 
+        {/* CTA BUTTON */}
         <div className="flex justify-center mt-12 mb-4">
           {button && (
-            <Link
-              href={"/contact-us"}
-              className="flex items-center group justify-center w-fit"
-            >
-              <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                {button ? button : " Talk to our California-based team"}
+            <Link href="/contact-us" className="flex items-center group justify-center w-fit">
+              <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors">
+                {button}
               </button>
-              <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+              <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
                 <MdArrowOutward />
               </button>
             </Link>
           )}
         </div>
+
       </div>
     </section>
   );

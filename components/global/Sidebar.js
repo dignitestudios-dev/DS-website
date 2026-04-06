@@ -39,6 +39,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
 
   const [state, setState] = useState(false);
   const [technologiesState, setTechnologiesState] = useState(false);
+  const [industriesState, setIndustriesState] = useState(false);
   const [locationsState, setLocationsState] = useState(false);
   const [ecommerceState, setEcommerceState] = useState(false);
 
@@ -48,6 +49,10 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
 
   const handleTechnologiesState = () => {
     setTechnologiesState(!technologiesState);
+  };
+
+  const handleIndustriesState = () => {
+    setIndustriesState(!industriesState);
   };
 
   const handleLocationsState = () => {
@@ -85,8 +90,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         <div className="w-full h-auto flex flex-col justify-start items-start gap-4 mt-12 px-10 overflow-y-scroll">
           <button
             onClick={() => navigateTo("/")}
-            className={`text-[14px] h-8 font-medium hover:text-orange-600
-            } bg-transparent  outline-none`}
+            className="text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent outline-none"
           >
             Home
           </button>
@@ -254,6 +258,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 <Link
                   href="/technologies/flutter-app-development"
                   className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
                 >
                   Flutter App Development
                 </Link>
@@ -270,6 +275,43 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   onClick={() => setIsOpen(false)}
                 >
                   AI Automation Services
+                </Link>
+              </div>
+            )}
+          </button>
+
+          <button
+            className={`w-full group text-[14px] hover:text-orange-600 relative gap-4 h-auto font-medium flex flex-col bg-transparent outline-none`}
+          >
+            <div
+              className="w-full flex justify-between items-center"
+              onClick={handleIndustriesState}
+            >
+              <span>Industries</span>
+              <IoIosArrowDown
+                className={`text-md ${
+                  industriesState ? "rotate-180" : "rotate-0"
+                } transition-all duration-500`}
+              />
+            </div>
+            {industriesState && (
+              <div
+                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition-all duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
+                style={{ color: palette?.color }}
+              >
+                <Link
+                  href="/industries/food-industry"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Food Industry
+                </Link>
+                <Link
+                  href="/industries/real-estate"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Real Estate
                 </Link>
               </div>
             )}

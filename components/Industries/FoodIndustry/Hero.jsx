@@ -37,7 +37,7 @@ const Hero = ({
         </Link>
       </div>
 
-      <div className="relative flex justify-center items-center my-12 lg:mt-20 lg:h-[600px] h-[450px]">
+      <div className="relative flex justify-center items-center my-12 mt-20 lg:h-[600px] h-[250px]">
         {/* Ring Image - Placed behind the mobile */}
         <div className="absolute z-0 w-[600px] h-[600px]">
           <Image
@@ -109,6 +109,14 @@ const Hero = ({
             alt="Mobile"
             width={450}
             height={450}
+            className="hidden lg:block"
+          />
+          <Image
+            src="/industries/food-industry/mob.webp"
+            alt="Mobile"
+            width={300}
+            height={300}
+            className=" lg:hidden block"
           />
         </motion.div>
       </div>

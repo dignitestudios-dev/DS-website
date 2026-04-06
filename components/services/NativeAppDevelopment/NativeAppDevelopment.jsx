@@ -297,43 +297,43 @@ const test = [
     name: "Christopher Thomas",
     designation: "— Product Manager, CorVision",
     review:
-      "Their expertise as a native app development company helped us launch a seamless, high-performing app ahead of schedule.",
+      "Working with this native app development team was a game-changer. Their attention to detail and performance optimization exceeded our expectations.",
   },
   {
     name: "Joshua Scott",
     designation: "— CTO, FinEdge Systems",
     review:
-      "From concept to deployment, the process was smooth and transparent. Highly recommend their professional approach.",
+      "Their expertise as a native app development company helped us launch a seamless, high-performing app ahead of schedule.",
   },
   {
     name: "Emily Carter",
     designation: "— Head of Digital, BrightCore Media",
     review:
-      "They delivered a scalable mobile app that significantly improved our user engagement and retention.",
+      "From concept to deployment, the process was smooth and transparent. Highly recommend their professional approach.",
   },
   {
     name: "Matthew Wilson",
     designation: "— CEO, MarketSphere Pvt Ltd",
     review:
-      "The team understood our vision perfectly and translated it into a powerful native mobile experience.",
+      "They delivered a scalable mobile app that significantly improved our user engagement and retention.",
   },
   {
     name: "Jessica Wong",
     designation: "— Operations Lead, AceGlobal",
     review:
-      "Outstanding communication and technical skills. Our app performance improved drastically post-launch.",
+      "The team understood our vision perfectly and translated it into a powerful native mobile experience.",
   },
   {
     name: "James Brown",
     designation: "— Founder, PayCart",
     review:
-      "A reliable partner for any business looking to build robust native mobile applications.",
+      "Outstanding communication and technical skills. Our app performance improved drastically post-launch.",
   },
   {
     name: "Daniel Smith",
     designation: "— Director of Technology, UrbanLink Systems",
     review:
-      "",
+      "A reliable partner for any business looking to build robust native mobile applications.",
   },
 ];
 const BENEFITS = [
