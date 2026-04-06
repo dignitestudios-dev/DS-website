@@ -37,7 +37,7 @@ const Hero = () => {
                 width={1100}
                 height={1100}
                 priority
-                className="object-contain absolute top-[50%] left-1/2 translate-x-[-50%] translate-y-[-50%] "
+                className="object-contain absolute lg:block hidden top-[50%] left-1/2 translate-x-[-50%] translate-y-[-50%] "
                />
               <motion.div
                 className="relative z-30"
@@ -59,8 +59,8 @@ const Hero = () => {
                  />
                  </div>
               </motion.div>
-              <Image src={"/services/native-app/l.webp"} width={300} height={300}  className="absolute top-[65%] left-[2%] translate-x-[-50%] translate-y-[-50%] z-20" />
-              <Image src={"/services/native-app/r.webp"} width={300} height={300} className="absolute top-[20%] -right-[22%] translate-x-[-50%] translate-y-[-50%] z-10" />
+              <Image src={"/services/native-app/l.webp"} width={300} height={300}  className="absolute lg:block hidden top-[65%] left-[2%] translate-x-[-50%] translate-y-[-50%] z-20" />
+              <Image src={"/services/native-app/r.webp"} width={300} height={300} className="absolute lg:block hidden top-[20%] -right-[22%] translate-x-[-50%] translate-y-[-50%] z-10" />
             </div>
       <div>
         <Platforms />

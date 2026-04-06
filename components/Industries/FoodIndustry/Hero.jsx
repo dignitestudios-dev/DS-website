@@ -37,13 +37,14 @@ const Hero = ({
         </Link>
       </div>
 
-      <div className="relative flex justify-center items-center my-12 mt-20 h-[600px]">
+      <div className="relative flex justify-center items-center my-12 lg:mt-20 lg:h-[600px] h-[450px]">
         {/* Ring Image - Placed behind the mobile */}
         <div className="absolute z-0 w-[600px] h-[600px]">
           <Image
             src="/industries/food-industry/ring.webp"
             layout="fill"
             objectFit="contain"
+            className="lg:block hidden"
           />
         </div>
 

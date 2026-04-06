@@ -49,7 +49,7 @@ const Features = ({ header, header2, para, features, button }) => {
           >
             {features?.map((feature, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-white mb-8  rounded-[32px] border border-gray-200 p-8 flex flex-col items-center text-center transition-all duration-300 group hover:border-[#F15C20]/20 w-[300px] h-[300px]">
+                <div className="bg-white mb-8  rounded-[32px] border border-gray-200 p-8 flex flex-col justify-center items-center text-center transition-all duration-300 group hover:border-[#F15C20]/20 w-[300px] h-[300px]">
                   {/* Icon Container */}
                   <div className="mb-8 p-4 rounded-2xl bg-white transition-transform duration-300 group-hover:scale-110">
                     <div className="text-[#F15C20] text-7xl">
@@ -94,22 +94,39 @@ const Features = ({ header, header2, para, features, button }) => {
               transition={{ duration: 0.1, delay: index * 0.1 }}
               whileHover={{
                 y: -5,
+                rotateY: feature.desc ? 180 : 0,
                 boxShadow:
                   "0 20px 35px -5px rgba(241, 92, 32, 0.1), 0 10px 10px -5px rgba(241, 92, 32, 0.04)",
               }}
-              className="bg-white rounded-[32px] border border-gray-200 p-8 flex flex-col items-center text-center transition-all duration-300 group hover:border-[#F15C20]/20 font-bold"
+              style={{ perspective: feature.desc ? 1000 : 0 }}
+              className="relative rounded-[32px] border border-gray-200 bg-white p-8 transition-all duration-700 font-bold hover:border-[#F15C20]/20"
             >
-              {/* Icon Container */}
-              <div className="mb-8 p-4 rounded-2xl bg-white transition-transform duration-300 group-hover:scale-110">
-                <div className="text-[#F15C20] text-6xl md:text-7xl">
-                  {feature.icon}
-                </div>
-              </div>
+              <div className="relative h-full w-full transition-transform duration-700 [transform-style:preserve-3d]">
+                <div className="absolute inset-0 flex flex-col items-center text-center backface-hidden">
+                  {/* Icon Container */}
+                  <div className="mb-8 p-4 rounded-2xl bg-white transition-transform duration-300 group-hover:scale-110">
+                    <div className="text-[#F15C20] text-6xl md:text-7xl">
+                      {feature.icon}
+                    </div>
+                  </div>
 
-              {/* Title */}
-              <h3 className="text-lg font-bold text-[#111827] leading-snug group-hover:text-[#F15C20] transition-colors duration-300 px-4">
-                {feature.title}
-              </h3>
+                  {/* Title */}
+                  <h3 className="text-lg font-bold text-[#111827] leading-snug group-hover:text-[#F15C20] transition-colors duration-300 px-4">
+                    {feature.title}
+                  </h3>
+                </div>
+
+                {feature.desc && (
+                  <div className="absolute inset-0 flex flex-col items-center justify-center rounded-[32px] bg-white p-8 text-center backface-hidden [transform:rotateY(180deg)]">
+                    <h3 className="text-lg font-semibold text-[#111827] mb-4 px-4">
+                      {feature.title}
+                    </h3>
+                    <p className="text-sm leading-[1.8] text-[#4B5563] px-4">
+                      {feature.desc}
+                    </p>
+                  </div>
+                )}
+              </div>
             </motion.div>
           ))}
         </div>

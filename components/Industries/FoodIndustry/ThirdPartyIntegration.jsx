@@ -68,7 +68,7 @@ const ThirdPartyIntegration = () => {
 
           {/* Tablet/Mobile Layout - Responsive Grid */}
           <div className="block lg:hidden">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+            <div className="flex flex-wrap justify-center mt-20 gap-20 sm:gap-8">
               {integrations.map((integration) => (
                 <IntegrationCard key={integration.id} integration={integration} />
               ))}

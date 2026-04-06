@@ -166,16 +166,7 @@ const DeliveryFeatures = () => {
               </div>
 
               {/* Mobile Image */}
-              <div className="flex justify-center mt-6">
-                <div className="relative w-full max-w-sm">
-                  <img
-                    src={image}
-                    alt="Food Delivery App Mobile Interface"
-                    className="w-full h-auto object-cover"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
+             
             </div>
           </div>
 

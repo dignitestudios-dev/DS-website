@@ -36,7 +36,7 @@ const ThankyouPage = () => {
           href="tel:+13023070115" 
           className="text-[24px] font-bold text-[#F15C20] hover:underline transition-all duration-150"
         >
-          +1 877 714 1770
+          +1 (302) 307-0115
         </a>
       </div>
     </div>

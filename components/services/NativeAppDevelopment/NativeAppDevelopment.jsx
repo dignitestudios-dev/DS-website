@@ -248,10 +248,12 @@ const highlights = [
     desc: "Being one of the top 10 native app development companies, we provide top-tier design and development.",
   },
   {
+     icon:"/industries/food-industry/s3.webp",
     title: "Expert Project Managers",
     desc: "Our professional developers and project managers make sure to keep the entire build on track, providing smooth execution throughout.",
   },
   {
+     icon:"/industries/food-industry/s4.webp",
     title: "100% Transparent Procedure",
     desc: "The development team shares the updates on time with you. Through updates, we ensure transparency to your business needs as one of the top native companies.",
   },
@@ -588,7 +590,7 @@ const NativeAppDevelopment = () => {
         }
       />
           <CTA />
-      <Features header={"Essential Features Every iOS"} header2={"Should Have"} para={"Developing an iOS application is more than just creating attractive designs. The success of your custom iOS app development services depends on the features as well. It needs the right features to ensure performance and engagement. Every feature should enhance the user experience better. Your iOS app can boost user retention effectively by incorporating these essential features."} features={InstaFEATURES} />
+      {/* <Features header={"Essential Features Every iOS"} header2={"Should Have"} para={"Developing an iOS application is more than just creating attractive designs. The success of your custom iOS app development services depends on the features as well. It needs the right features to ensure performance and engagement. Every feature should enhance the user experience better. Your iOS app can boost user retention effectively by incorporating these essential features."} features={InstaFEATURES} /> */}
    
   
       <Testimonials

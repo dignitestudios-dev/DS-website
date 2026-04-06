@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import React from "react";
-import { FaPizzaSlice, FaUtensils } from "react-icons/fa";
+import { FaFish, FaPizzaSlice, FaUtensils, FaGlassCheers } from "react-icons/fa";
 import {
   GiCakeSlice,
   GiCookingPot,
@@ -29,7 +29,7 @@ const niches = [
   { title: "Specialty Food Delivery Platforms", icon: <GiCookingPot className="text-white" size={45} /> },
   { title: "Home-Cooked Food Delivery Marketplace", icon: <GiHouse className="text-white" size={45} /> },
   { title: "Meat Delivery Marketplace", icon: <GiMeat className="text-white" size={45} /> },
-  { title: "Beverages Delivery Marketplace", icon: <MdOutlineEmojiFoodBeverage className="text-white" size={45} /> },
+  { title: "Beverages Delivery Marketplace", icon: <MdOutlineEmojiFoodBeverage  className="text-white" size={45} /> },
   { title: "Dairy Products Delivery Marketplace", icon: <GiMilkCarton className="text-white" size={45} /> },
   { title: "Bakery Products Delivery Marketplace", icon: <GiBread className="text-white" size={45} /> },
   { title: "Sweeteners Delivery Marketplace", icon: <GiHoneyJar className="text-white" size={45} /> },
@@ -51,23 +51,21 @@ const Niches = () => {
   return (
     <section className="w-full bg-white">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-4xl tracking-tighter md:text-7xl font-bold leading-[42px] lg:leading-[1.1]">
-          Food Delivery App Development Services for Different{" "}
-          <span className="text-[#F15C20] text-nowrap">Niches</span>
+        <h2 className="text-4xl tracking-tighter md:text-7xl font-bold leading-[42px] lg:leading-[1.1] ">
+          Food Delivery App Development Services for Different   <span className="text-[#F15C20] text-nowrap">Niches</span>
         </h2>
-
         <p className="mt-5 text-base md:text-lg mx-auto">
-          Having an experience of 10+ years in different industries and niches, we assure you that the food delivery app solutions we provide work for a variety of business models.
+       Having an experience of 10+ years in different industries and niches, we assure you that the food delivery app solutions we provide work for a variety of business models. We can work for anyone, whether it's a single restaurant or a multi-vendor platform. The apps we create are built to meet the unique needs of each niche.
         </p>
 
-        {/* Desktop Grid */}
+        {/* Desktop Grid - Hidden on mobile/tablet */}
         <div className="mt-28 hidden lg:flex gap-x-4 gap-y-16 flex-wrap justify-center items-center">
           {niches.map((item) => (
             <NicheCard key={item.title} item={item} />
           ))}
         </div>
 
-        {/* Mobile/Tablet Swiper */}
+        {/* Mobile/Tablet Carousel - Hidden on desktop */}
         <div className="mt-28 lg:hidden">
           <Swiper
             modules={[Autoplay, Pagination]}
@@ -80,8 +78,6 @@ const Niches = () => {
             }}
             pagination={{
               clickable: true,
-              dynamicBullets: true,
-              dynamicMainBullets: 3, // 👈 ensures minimum 3 bullets
             }}
             breakpoints={{
               640: {
@@ -103,29 +99,29 @@ const Niches = () => {
           </Swiper>
         </div>
 
-        {/* CTA */}
-        <Link href="/contact-us" className="flex items-center mt-8 group justify-center">
-          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition">
+        <Link
+          href="/contact-us"
+          className="flex items-center mt-8 group justify-center "
+        >
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
             Start Your Niche App Project
           </button>
-          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition text-lg">
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
           </button>
         </Link>
       </div>
 
-      {/* Pagination Styling */}
-     <style jsx global>{`
-  .niches-swiper .swiper-pagination-bullet {
-    background-color: #F15C20 !important;
-    opacity: 0.5;
-  }
-
-  .niches-swiper .swiper-pagination-bullet-active {
-    background-color: #F15C20 !important;
-    opacity: 1;
-  }
-`}</style>
+      <style jsx>{`
+        .niches-swiper .swiper-pagination-bullet {
+          background-color: #F15C20;
+          opacity: 0.3;
+        }
+        .niches-swiper .swiper-pagination-bullet-active {
+          background-color: #F15C20;
+          opacity: 1;
+        }
+      `}</style>
     </section>
   );
 };

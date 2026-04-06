@@ -192,7 +192,7 @@ const DeliveryFeatures = () => {
               </div>
 
               {/* Mobile Image */}
-              <div className="flex justify-center mt-6">
+              {/* <div className="flex justify-center mt-6">
                 <div className="relative w-full max-w-sm">
                   <img
                     src={image}
@@ -201,7 +201,7 @@ const DeliveryFeatures = () => {
                     loading="lazy"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

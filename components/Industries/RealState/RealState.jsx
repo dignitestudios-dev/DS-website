@@ -146,26 +146,32 @@ const services = [
 
 const highlights = [
   {
+        icon:"/industries/food-industry/s1.webp",
     title: "Experienced Mobile App Developers",
     desc: "Our talented real estate app developers create apps which adjust to corporate objectives guaranteeing dependable operation and a fluent user experience across all the platforms",
   },
   {
+        icon:"/industries/food-industry/s2.webp",
     title: "Scalable Architecture",
     desc: "Apps are designed to handle growth, high traffic and increasing property listings while maintaining fast performance and fluent user interactions.",
   },
   {
+        icon:"/industries/food-industry/s3.webp",
     title: "Agile Development Process",
     desc: "To guarantee quality and efficiency, we use an organised agile methodology with the precise milestones, iterative testing and the prompt delivery.",
   },
   {
+        icon:"/industries/food-industry/s4.webp",
     title: "Transparent Communication",
     desc: "Clients receive regular project updates, progress reports and clear communication keeping them involved at every step of app development.",
   },
   {
+        icon:"/industries/food-industry/s5.webp",
     title: "Secure Integrations",
     desc: "Our team ensures all integrations, payment systems and data storage are safe, compliant and protect sensitive property and user information.",
   },
   {
+        icon:"/industries/food-industry/s6.webp",
     title: "Proven Track Record Of Successful Apps",
     desc: "We have successfully delivered multiple real estate apps, helping clients improve property management, customer engagement and overall business growth.",
   },
