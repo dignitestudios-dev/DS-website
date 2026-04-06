@@ -44,7 +44,7 @@ const AboutUsHero = () => {
 <Typewriter
   onInit={(typewriter) => {
     typewriter
-      .typeString("Best Mobile App Development company in Florida")
+      .typeString("Best Mobile App Development Company in Florida")
       .start();
   }}
   options={{
