@@ -86,7 +86,7 @@ const TabularTechs = () => {
           <span className="text-[#F15C20]"> Food Delivery Apps</span>
         </h2>
 
-        <p className="font-extralight mx-auto mb-16 text-lg max-w-3xl">
+        <p className="font-extralight mx-auto mb-16 text-lg ">
           Dignite studios use modern technology and advanced tools to build smooth applications without a mess. We have developers who are experts at bringing your idea to reality in a way that it runs smoothly and stays functional. We don't build apps that take time to load or feel too loaded with features or messy, we are just simply using the best tech from our stack to build your mobile apps.
         </p>
 

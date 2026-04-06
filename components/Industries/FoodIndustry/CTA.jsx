@@ -13,7 +13,7 @@ const CTA = ({
 
 
   return (
-    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/industries/food-industry/s-cta.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
+    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/industries/food-industry/s-cta2.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
     
 
       <div className="flex items-center h-full gap-12 justify-between">

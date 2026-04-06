@@ -149,26 +149,33 @@ const services = [
 
 const highlights = [
   {
+    icon:"/industries/food-industry/s1.webp",
     title: "12+ Years of Development",
     desc: "We’re the best food delivery app development company USA with over 10+ years of experience, building high-performing apps.",
   },
   {
+        icon:"/industries/food-industry/s2.webp",
     title: "High Level Expertise",
     desc: "Being one of the top food delivery app development providers, we provide top-tier design and development.",
   },
   {
+    icon:"/industries/food-industry/s3.webp",
     title: "Expert Project Managers",
     desc: "Our professional project managers make sure to keep the entire build of your food app is on track, providing smooth execution throughout.",
   },
   {
+    icon:"/industries/food-industry/s4.webp",
+
     title: "100% Transparent Procedure",
     desc: "The app development team makes sure you get the updates on time. Through updates, we ensure transparency to your business needs.",
   },
   {
+        icon:"/industries/food-industry/s5.webp",
     title: "Post-Launch Support",
     desc: "The support services we provide make your food delivery app competitive, so you can easily depend on our food app development services.",
   },
   {
+    icon:"/industries/food-industry/s6.webp",
     title: "Custom Solutions",
     desc: "Every food delivery app we build is supposed to meet your requirements through custom food delivery app development.",
   },
