@@ -17,7 +17,7 @@ import SuccessStories from "../ui/SuccessStories";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
-import TabularEcommerceTechs from "../ui/TabularEcommerceTechs";
+import TabularEcommerceTechs from "../ui/TabularTechs";
 import {
   SiReact,
   SiVuedotjs,
@@ -173,8 +173,9 @@ const services = [
     title: "Cross-Platform Development",
     description: (
       <>
-        With iOS app development, the team builds cross-platform apps that reduce
-        costs and accelerate market growth without compromising performance.
+        With iOS app development, the team builds cross-platform apps that
+        reduce costs and accelerate market growth without compromising
+        performance.
       </>
     ),
   },
@@ -359,7 +360,6 @@ const BENEFITS = [
   },
 ];
 
-
 const InstaFEATURES = [
   {
     title: "Swift-Based Performance",
@@ -379,7 +379,7 @@ const InstaFEATURES = [
   {
     title: "Apple Pay Integration",
     desc: "Enable fast and secure mobile payments with seamless Apple Pay integration within your iOS application.",
-    icon: <FaApple  size={50} color="#F15C20" />,
+    icon: <FaApple size={50} color="#F15C20" />,
   },
   {
     title: "iCloud Sync",
@@ -497,11 +497,9 @@ const IOSAppDev = () => {
         techData={techData}
       />
 
-         <Process
+      <Process
         steps={PROCESS_STEPS}
-        header={
-          "Proven Process of an iOS Mobile App Development Company"
-        }
+        header={"Proven Process of an iOS Mobile App Development Company"}
         para={
           "Every application begins with an idea and a goal. So, Dignite Studios works with a structured approach and hire iOS app developers who turn your idea into a highly functional iOS application. Different companies work with different and unique workflows, but when it comes to creating mobile apps at our top iOS app development company, we utilize a perfectly structured approach of the best companies to ensure that we design apps that work the proper way. Here’s the process that turns ideas into apps."
         }
@@ -550,7 +548,13 @@ const IOSAppDev = () => {
         button={"Choose Us for Your Project"}
         para={
           <>
-            We are experts at building mobile applications that just feel right for iOS devices. You can hire ios app developer and designers. We provide you with the iOS app development services you need for your target audience. Dignite Studios consists of a team that takes the time to understand your audience before the development of the app even begins. We deliver the functional iOS applications with clear communication and reliable solutions. 
+            We are experts at building mobile applications that just feel right
+            for iOS devices. You can hire ios app developer and designers. We
+            provide you with the iOS app development services you need for your
+            target audience. Dignite Studios consists of a team that takes the
+            time to understand your audience before the development of the app
+            even begins. We deliver the functional iOS applications with clear
+            communication and reliable solutions.
           </>
         }
       />
@@ -563,21 +567,30 @@ const IOSAppDev = () => {
         }
         button={" Let’s Discuss Today"}
       />
-   
+
       <MobileApp
-        header={
-          "Advantages of Having Your"
-        }
+        header={"Advantages of Having Your"}
         header2={"iOS App"}
         para={
           <>
-           There are many compelling reasons to have your own iOS app developed by a top iOS app development company. From enhancing customer retention and brand visibility to boosting revenue, it’s totally worth it if you hire iOS app developer who helps you in gaining actionable insights and staying ahead of competitors. 
+            There are many compelling reasons to have your own iOS app developed
+            by a top iOS app development company. From enhancing customer
+            retention and brand visibility to boosting revenue, it’s totally
+            worth it if you hire iOS app developer who helps you in gaining
+            actionable insights and staying ahead of competitors.
           </>
         }
         cards={BENEFITS}
       />
 
-      <Features header={"Essential Features Every iOS"} header2={"Should Have"} para={"Developing an iOS application is more than just creating attractive designs. The success of your custom iOS app development services depends on the features as well. It needs the right features to ensure performance and engagement. Every feature should enhance the user experience better. Your iOS app can boost user retention effectively by incorporating these essential features."} features={InstaFEATURES} />
+      <Features
+        header={"Essential Features Every iOS"}
+        header2={"Should Have"}
+        para={
+          "Developing an iOS application is more than just creating attractive designs. The success of your custom iOS app development services depends on the features as well. It needs the right features to ensure performance and engagement. Every feature should enhance the user experience better. Your iOS app can boost user retention effectively by incorporating these essential features."
+        }
+        features={InstaFEATURES}
+      />
       <SuccessStories
         header={" Projects Delivered by "}
         header2={"Dignite Studios"}
@@ -588,7 +601,9 @@ const IOSAppDev = () => {
       <CTA />
       <Testimonials
         test={test}
-        para={"Here’s what our clients have to say about working with Dignite Studios, a trusted iOS app development company:"}
+        para={
+          "Here’s what our clients have to say about working with Dignite Studios, a trusted iOS app development company:"
+        }
         header={"Testimonials for iOS App Development"}
         header2={" Services"}
       />

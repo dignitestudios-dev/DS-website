@@ -8,7 +8,13 @@ import { MdArrowOutward } from "react-icons/md";
 import Industries from "../ui/Industries";
 import TechAndTools from "../ui/TechTools";
 import Process from "../ui/Process";
-import { MdOutlinePeopleAlt, MdOutlineVisibility, MdAttachMoney, MdAnalytics, MdEmojiEvents } from "react-icons/md";
+import {
+  MdOutlinePeopleAlt,
+  MdOutlineVisibility,
+  MdAttachMoney,
+  MdAnalytics,
+  MdEmojiEvents,
+} from "react-icons/md";
 
 import MobileApp from "../ui/MobileApp";
 import { FaMicrosoft, FaPencilAlt, FaUser } from "react-icons/fa";
@@ -19,7 +25,7 @@ import SuccessStories from "../ui/SuccessStories";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
-import TabularEcommerceTechs from "../ui/TabularEcommerceTechs";
+import TabularEcommerceTechs from "../ui/TabularTechs";
 import {
   SiReact,
   SiVuedotjs,
@@ -110,7 +116,6 @@ const FEATURES = [
   },
 ];
 
-
 const techData = {
   Frontend: [
     { name: "React", icon: <SiReact /> },
@@ -173,9 +178,9 @@ const services = [
     title: "Custom Native App Development",
     description: (
       <>
-        We build Native applications that are adapted to your business needs.
-        It means ensuring that the performance is highly functional and you
-        get smooth user experience.
+        We build Native applications that are adapted to your business needs. It
+        means ensuring that the performance is highly functional and you get
+        smooth user experience.
       </>
     ),
   },
@@ -209,8 +214,13 @@ const services = [
     title: "App Maintenance and Testing",
     description: (
       <>
-        Dignite Studios provides mobile app <Link className="text-orange-600" href={"/services/mobile-application-support-and-maintenance-services"} ></Link> support & maintenance, and testing
-        & QA services to make sure your app stays updated throughout.
+        Dignite Studios provides mobile app{" "}
+        <Link
+          className="text-orange-600"
+          href={"/services/mobile-application-support-and-maintenance-services"}
+        ></Link>{" "}
+        support & maintenance, and testing & QA services to make sure your app
+        stays updated throughout.
       </>
     ),
   },
@@ -231,8 +241,8 @@ const services = [
     title: "NativeApp Consulting",
     description: (
       <>
-        We provide expert Native guidance to optimize the app strategy,
-        improve design and enhance the project outcomes.
+        We provide expert Native guidance to optimize the app strategy, improve
+        design and enhance the project outcomes.
       </>
     ),
   },
@@ -248,12 +258,12 @@ const highlights = [
     desc: "Being one of the top 10 native app development companies, we provide top-tier design and development.",
   },
   {
-     icon:"/industries/food-industry/s3.webp",
+    icon: "/industries/food-industry/s3.webp",
     title: "Expert Project Managers",
     desc: "Our professional developers and project managers make sure to keep the entire build on track, providing smooth execution throughout.",
   },
   {
-     icon:"/industries/food-industry/s4.webp",
+    icon: "/industries/food-industry/s4.webp",
     title: "100% Transparent Procedure",
     desc: "The development team shares the updates on time with you. Through updates, we ensure transparency to your business needs as one of the top native companies.",
   },
@@ -364,7 +374,6 @@ const BENEFITS = [
   },
 ];
 
-
 const InstaFEATURES = [
   {
     title: "Swift-Based Performance",
@@ -384,7 +393,7 @@ const InstaFEATURES = [
   {
     title: "Apple Pay Integration",
     desc: "Enable fast and secure mobile payments with seamless Apple Pay integration within your iOS application.",
-    icon: <FaApple  size={50} color="#F15C20" />,
+    icon: <FaApple size={50} color="#F15C20" />,
   },
   {
     title: "iCloud Sync",
@@ -502,17 +511,15 @@ const NativeAppDevelopment = () => {
         techData={techData}
       />
 
-         <Process
+      <Process
         steps={PROCESS_STEPS}
-        header={
-          " Proven Process of a Custom Native App Development Company"
-        }
+        header={" Proven Process of a Custom Native App Development Company"}
         para={
           "Every native application begins with a visualization. So, the team works with a structured approach that brings your idea to life. Different companies work with unique workflows, but when it comes to creating mobile apps at our native app development company, we utilize a perfectly structured approach of the best native app development companies to ensure that we design applications that work the proper way. Here’s the whole workflow that turns visions into apps. "
         }
       />
       <Bussiness
-        bs={  highlights}
+        bs={highlights}
         header={"Why You Should Choose"}
         header2={"Dignite Studios"}
         ctaHeader={"Make the Best Choice"}
@@ -555,7 +562,19 @@ const NativeAppDevelopment = () => {
         button={" Choose The Right Team "}
         para={
           <>
-         We are one of the top 10 native app development companies at building mobile applications. Having a team of the <Link className="text-orange-600" href={"/services/hire-mobile-app-developers"}>best designers and developers</Link>, we provide you with everything you need as a custom native mobile app development company. Dignite Studios consists of a team that takes the time to understand your audience before your app development even begins. We deliver functional applications with clear communication and reliable solutions. 
+            We are one of the top 10 native app development companies at
+            building mobile applications. Having a team of the{" "}
+            <Link
+              className="text-orange-600"
+              href={"/services/hire-mobile-app-developers"}
+            >
+              best designers and developers
+            </Link>
+            , we provide you with everything you need as a custom native mobile
+            app development company. Dignite Studios consists of a team that
+            takes the time to understand your audience before your app
+            development even begins. We deliver functional applications with
+            clear communication and reliable solutions.
           </>
         }
       />
@@ -568,34 +587,34 @@ const NativeAppDevelopment = () => {
         }
         button={" Let’s Talk Today"}
       />
-   
+
       <MobileApp
-        header={
-          "Benefits of Having Your Own"
-        }
+        header={"Benefits of Having Your Own"}
         header2={"Native Mobile App"}
         para={
           <>
-         There are several reasons why you should get your own native mobile app built from the best native app development company. 
+            There are several reasons why you should get your own native mobile
+            app built from the best native app development company.
           </>
         }
         cards={BENEFITS}
         button={"Get Your Mobile App "}
       />
-   <SuccessStories
+      <SuccessStories
         header={"Successful Native Projects Executed by"}
         header2={"Dignite Studios"}
         para={
           "Check out the case studies to see how Dignite Studios created functional native apps just from ideas. Every project we shared here shows the challenges our clients had to deal with, the custom mobile app solutions we created and implemented. Also, the results we achieved as a team. See our native development process and the technologies that helped us build secure and engaging native applications."
         }
       />
-          <CTA />
+      <CTA />
       {/* <Features header={"Essential Features Every iOS"} header2={"Should Have"} para={"Developing an iOS application is more than just creating attractive designs. The success of your custom iOS app development services depends on the features as well. It needs the right features to ensure performance and engagement. Every feature should enhance the user experience better. Your iOS app can boost user retention effectively by incorporating these essential features."} features={InstaFEATURES} /> */}
-   
-  
+
       <Testimonials
         test={test}
-        para={"Working with this native app development team was a game-changer. Their attention to detail and performance optimization exceeded our expectations."}
+        para={
+          "Working with this native app development team was a game-changer. Their attention to detail and performance optimization exceeded our expectations."
+        }
         header={"Clients’ "}
         header2={"Testimonial"}
       />
@@ -608,7 +627,7 @@ const NativeAppDevelopment = () => {
         para={
           "Build your next native application with the professional expertise from the specialists delivering results across the markets through proven workflows and performance standards in the USA. As the trusted provider of native app development services. Dignite Studios helps brands to scale faster and smarter. "
         }
-        btn={"Request Native App Quote"} 
+        btn={"Request Native App Quote"}
       />
     </div>
   );

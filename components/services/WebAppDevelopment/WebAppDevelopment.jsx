@@ -17,7 +17,7 @@ import SuccessStories from "../ui/SuccessStories";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
-import TabularEcommerceTechs from "../ui/TabularEcommerceTechs";
+import TabularEcommerceTechs from "../ui/TabularTechs";
 import {
   SiReact,
   SiVuedotjs,

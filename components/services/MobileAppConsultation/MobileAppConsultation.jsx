@@ -17,7 +17,7 @@ import SuccessStories from "../ui/SuccessStories";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
-import TabularEcommerceTechs from "../ui/TabularEcommerceTechs";
+import TabularEcommerceTechs from "../ui/TabularTechs";
 import {
   SiReact,
   SiVuedotjs,
@@ -218,8 +218,8 @@ const services = [
     description: (
       <>
         Making sure your app keeps data safe and meets industry regulations is
-        as important so our experts would guide on encryption and authentication.
-        This builds trust with users
+        as important so our experts would guide on encryption and
+        authentication. This builds trust with users
       </>
     ),
   },
@@ -368,7 +368,6 @@ const BENEFITS = [
   },
 ];
 
-
 const InstaFEATURES = [
   {
     title: "Smart Search",
@@ -422,8 +421,7 @@ const faqs = [
   },
   {
     id: 2,
-    question:
-      "How much time does your typical mobile app consulting take?",
+    question: "How much time does your typical mobile app consulting take?",
     answer:
       "Honestly, it all depends on your app and business needs. Consulting usually lasts a few weeks to a few months. But if you need us to be, we’d be there for you during the development to clear up any confusions. By the end, you will have a clear plan and strategy.",
   },
@@ -450,8 +448,7 @@ const faqs = [
   },
   {
     id: 6,
-    question:
-      "Can you help with technology and platform recommendations?",
+    question: "Can you help with technology and platform recommendations?",
     answer:
       "Of course. We can suggest the best technologies and platforms based on your growth plans. When it comes to guidance, we can assure that your app is efficient and secure. You get a solution that performs well across devices and it can adapt as your business and user base grow.",
   },
@@ -509,55 +506,60 @@ const MobileAppConsultation = () => {
           "When you are working with Dignite Studios for consulting services, you’re working with a team that adds commitment to the work ethic first. As an expert application development consultant, we have refined our consulting services to meet your needs. Working with us means you get strong commitments and mobile app consultation prepared by Dignite Studios. "
         }
       />
-        <Bussiness
-          bs={highlights}
-          header={"Why You Should Choose"}
-          header2={"Dignite Studios"}
-          ctaHeader={"Make the Best Choice"}
-          ctaPara={
-            "Dignite Studios is one of the leading web application development companies. Our developers are professional and deliver tailored to your business needs. The expert team combines agile processes to ensure timely delivery and ongoing support. Working with us comes with reliable web applications that drive growth."
-          }
-          ctaBtn={"Make the Best Choice"}
-          cta={
-            <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
-              <div className="relative">
-                <img
-                  src="/location/mobile-boston/cta-img.webp"
-                  className="w-full rounded-b-2xl bottom-3 relative bg-cover"
-                  alt="lggg"
-                />
-                <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
-                  <h2 className="text-[45px] font-bold text-white leading-[45px]">
+      <Bussiness
+        bs={highlights}
+        header={"Why You Should Choose"}
+        header2={"Dignite Studios"}
+        ctaHeader={"Make the Best Choice"}
+        ctaPara={
+          "Dignite Studios is one of the leading web application development companies. Our developers are professional and deliver tailored to your business needs. The expert team combines agile processes to ensure timely delivery and ongoing support. Working with us comes with reliable web applications that drive growth."
+        }
+        ctaBtn={"Make the Best Choice"}
+        cta={
+          <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
+            <div className="relative">
+              <img
+                src="/location/mobile-boston/cta-img.webp"
+                className="w-full rounded-b-2xl bottom-3 relative bg-cover"
+                alt="lggg"
+              />
+              <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8  space-y-4 flex flex-col items-center text-center">
+                <h2 className="text-[45px] font-bold text-white leading-[45px]">
+                  Make the Best Choice
+                </h2>
+                <p>
+                  Dignite Studios is one of the leading web application
+                  development companies. Our developers are professional and
+                  deliver tailored to your business needs.
+                </p>
+                <Link
+                  href="/contact-us"
+                  className="flex items-center group justify-center "
+                >
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
                     Make the Best Choice
-                  </h2>
-                  <p>
-                    Dignite Studios is one of the leading web application
-                    development companies. Our developers are professional and
-                    deliver tailored to your business needs.
-                  </p>
-                  <Link
-                    href="/contact-us"
-                    className="flex items-center group justify-center "
-                  >
-                    <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                      Make the Best Choice
-                    </button>
-                    <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                      <MdArrowOutward />
-                    </button>
-                  </Link>
-                </div>
+                  </button>
+                  <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                    <MdArrowOutward />
+                  </button>
+                </Link>
               </div>
             </div>
-          }
-          button={"Choose The Right Partner"}
-          para={
-            <>
-          We’re experts at providing expert mobile app consulting services that are basically designed to help businesses build the right product the right way. Because we believe that it’s not mandatory for you to have a tech background in order to start building. Your idea just needs some shaping that our experts can help you with, so it becomes the perfect product. 
-            </>
-          }
-        />
-          <Industries
+          </div>
+        }
+        button={"Choose The Right Partner"}
+        para={
+          <>
+            We’re experts at providing expert mobile app consulting services
+            that are basically designed to help businesses build the right
+            product the right way. Because we believe that it’s not mandatory
+            for you to have a tech background in order to start building. Your
+            idea just needs some shaping that our experts can help you with, so
+            it becomes the perfect product.
+          </>
+        }
+      />
+      <Industries
         VALUE_PROPOSITION={VALUE_PROPOSITION}
         header={"Specialized Mobile App Consulting Services for Different"}
         header2={"Industries"}
@@ -566,23 +568,32 @@ const MobileAppConsultation = () => {
         }
         button={" Let’s Talk Today"}
       />
-<MobileApp
-  header={
-    "Benefits of Mobile App "
-  }
-  header2={"Consultation"}
-  para={
-    <>
-There are several reasons why investing in professional mobile app consulting before you start developing can increase the chances of your app’s success through application development consulting services. Because you can avoid costly mistakes when you’ve the right guidance. The right guidance can make all the difference in how you build a product that can compete in the market.
-    </>
-  }
-  button={" Discuss Your Idea Today"}
-  cards={BENEFITS}
-/>
-      <Features header={" Top Features to Include in Your"} header2={"App"} para={"From a consulting perspective, the success of your mobile app relies more on strategic features than just attractive design. Choosing the features strategically through our mobile app consulting services helps you with engagement and retention. We guide you to include features as mobile app consultants that meet user expectations. The right set of features will help your app stay competitive and deliver value."} features={InstaFEATURES} />
- 
+      <MobileApp
+        header={"Benefits of Mobile App "}
+        header2={"Consultation"}
+        para={
+          <>
+            There are several reasons why investing in professional mobile app
+            consulting before you start developing can increase the chances of
+            your app’s success through application development consulting
+            services. Because you can avoid costly mistakes when you’ve the
+            right guidance. The right guidance can make all the difference in
+            how you build a product that can compete in the market.
+          </>
+        }
+        button={" Discuss Your Idea Today"}
+        cards={BENEFITS}
+      />
+      <Features
+        header={" Top Features to Include in Your"}
+        header2={"App"}
+        para={
+          "From a consulting perspective, the success of your mobile app relies more on strategic features than just attractive design. Choosing the features strategically through our mobile app consulting services helps you with engagement and retention. We guide you to include features as mobile app consultants that meet user expectations. The right set of features will help your app stay competitive and deliver value."
+        }
+        features={InstaFEATURES}
+      />
 
-         {/* <Process
+      {/* <Process
         steps={PROCESS_STEPS}
         header={
           "Proven Process of an iOS Mobile App Development Company"
@@ -591,9 +602,6 @@ There are several reasons why investing in professional mobile app consulting be
           "Every application begins with an idea and a goal. So, Dignite Studios works with a structured approach and hire iOS app developers who turn your idea into a highly functional iOS application. Different companies work with different and unique workflows, but when it comes to creating mobile apps at our top iOS app development company, we utilize a perfectly structured approach of the best companies to ensure that we design apps that work the proper way. Here’s the process that turns ideas into apps."
         }
       /> */}
-    
-   
-
 
       <SuccessStories
         header={" Successful Mobile App Consulting Projects by "}

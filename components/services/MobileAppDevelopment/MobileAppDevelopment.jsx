@@ -17,7 +17,7 @@ import SuccessStories from "../ui/SuccessStories";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
-import TabularEcommerceTechs from "../ui/TabularEcommerceTechs";
+import TabularEcommerceTechs from "../ui/TabularTechs";
 import {
   SiReact,
   SiVuedotjs,
@@ -539,7 +539,13 @@ const MobileAppDevelopment = () => {
         header2={"App"}
         para={
           <>
-            Developing a mobile application is more than just creating colorful designs. The success of your mobile app depends on the features, too. It requires the right features to deliver performance and long-term growth. Every feature is supposed to enhance the user experience. By adding these essential features, your mobile app can improve user retention, which can support your business objectives effectively, being the best mobile app development company in USA.
+            Developing a mobile application is more than just creating colorful
+            designs. The success of your mobile app depends on the features,
+            too. It requires the right features to deliver performance and
+            long-term growth. Every feature is supposed to enhance the user
+            experience. By adding these essential features, your mobile app can
+            improve user retention, which can support your business objectives
+            effectively, being the best mobile app development company in USA.
           </>
         }
         features={FEATURES}
@@ -558,7 +564,6 @@ const MobileAppDevelopment = () => {
         header={"Testimonials"}
         header2={""}
         button={"Get Our Services Today!"}
-     
       />
       <Faq faqs={faqs} />
       <ContactUs

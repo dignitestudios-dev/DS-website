@@ -12,13 +12,13 @@ const Hero = () => {
     <div className="w-full grid grid-cols-1  bg-none lg:bg-[url('/services/hybrid-app/grad.webp')] bg-contain bg-no-repeat bg-center justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          Expert Hybrid Mobile App Development Services for{" "}
+         Hire Mobile App{" "}
           <span className="text-[#F15C20] ">
-            Businesses 
+           Developers 
           </span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-       Providing hybrid mobile app development services that create scalable applications with your ideas. apps that work smoothly on both iOS and Android. We focus on creating experiences that simplify your audience’s journey and make your business stand out in the digital world. 
+      Hire dedicated mobile app developers from Dignite Studios to accelerate your projects. Our experts specialize in iOS, Android and Cross platform apps. They also deliver scalable, high quality solutions and can join your team quickly for faster project completion.  
         </p>
 
         <Link
@@ -26,7 +26,7 @@ const Hero = () => {
           className="flex items-center group justify-center "
         >
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Let’s Talk Now
+            Get Free Consultation 
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />

@@ -17,7 +17,7 @@ import SuccessStories from "../ui/SuccessStories";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
-import TabularEcommerceTechs from "../ui/TabularEcommerceTechs";
+import TabularEcommerceTechs from "../ui/TabularTechs";
 import {
   SiReact,
   SiVuedotjs,
@@ -152,7 +152,7 @@ const techData = {
 };
 const services = [
   {
-      icon: "icon",
+    icon: "icon",
     icon2: "icon4",
     title: "Hybrid Consultation",
     description: (
@@ -177,7 +177,7 @@ const services = [
     ),
   },
   {
-      icon: "setting",
+    icon: "setting",
     icon2: "setting2",
     title: "Hybrid Maintenance & Support",
     description: (
@@ -189,8 +189,7 @@ const services = [
     ),
   },
   {
-
-       icon: "pipe",
+    icon: "pipe",
     icon2: "pipe3",
     title: "Hybrid App Migration",
     description: (
@@ -201,7 +200,6 @@ const services = [
       </>
     ),
   },
- 
 ];
 
 const highlights = [

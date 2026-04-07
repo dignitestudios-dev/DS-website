@@ -9,7 +9,7 @@ import Industries from "../ui/Industries";
 import TechAndTools from "../ui/TechTools";
 import Process from "../ui/Process";
 import MobileApp from "../ui/MobileApp";
-import { FaMicrosoft, FaPencilAlt, FaUser } from "react-icons/fa";
+import { FaJava, FaMicrosoft, FaPencilAlt, FaUser } from "react-icons/fa";
 import { IoGrid, IoWalletOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import { FaCode } from "react-icons/fa6";
@@ -17,7 +17,7 @@ import SuccessStories from "../ui/SuccessStories";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
-import TabularEcommerceTechs from "../ui/TabularEcommerceTechs";
+import TabularEcommerceTechs from "../ui/TabularTechs";
 import {
   SiReact,
   SiVuedotjs,
@@ -40,6 +40,12 @@ import {
   SiGooglecloud,
   SiDigitalocean,
   SiCloudinary,
+  SiSwift,
+  SiC,
+  SiKotlin,
+  SiPython,
+  SiPhp,
+  SiDotnet,
 } from "react-icons/si";
 import { FaAws, FaApple } from "react-icons/fa";
 import Features from "../ui/Features";
@@ -56,7 +62,34 @@ import {
 } from "react-icons/fa";
 import { MdDevices, MdDesignServices, MdApi } from "react-icons/md";
 import HiringProcess from "../ui/HiringProcess";
+import TabularTechs from "../ui/TabularTechs";
+const techData = {
+  "iOS App Development": [
+    { name: "Swift", icon: <SiSwift /> },
+    { name: "Objective-C", icon: <SiC /> }, 
+    { name: "Apple Ecosystem Apps", icon: <FaApple /> },
+  ],
 
+  "Android App Development": [
+    { name: "Kotlin", icon: <SiKotlin /> },
+    { name: "Java", icon: <FaJava /> },
+    { name: "Native Android Solutions", icon: <SiAndroid /> },
+  ],
+
+  "Cross Platform Development": [
+    { name: "Flutter", icon: <SiFlutter /> },
+    { name: "React Native", icon: <SiReact /> },
+  ],
+
+  "Backend Technologies": [
+    { name: "Node.js", icon: <SiNodedotjs /> },
+    { name: "Python", icon: <SiPython /> },
+    { name: "PHP", icon: <SiPhp /> },
+    { name: ".NET", icon: <SiDotnet /> },
+    { name: "Ruby on Rails", icon: <SiRubyonrails /> },
+    { name: "Google Firebase", icon: <SiFirebase /> },
+  ],
+};
 const FEATURES = [
   {
     title: "User-Friendly Interface (UI/UX)",
@@ -100,135 +133,94 @@ const FEATURES = [
   // },
 ];
 
-const techData = {
-  Frontend: [
-    { name: "React", icon: <SiReact /> },
-    { name: "Vue.js", icon: <SiVuedotjs /> },
-    { name: "Angular", icon: <SiAngular /> },
-    {
-      name: "Flutter",
-      icon: <SiFlutter />,
-      link: "/flutter-app-development", // Internal link
-    },
-    {
-      name: "React Native",
-      icon: <SiReact />,
-      link: "/react-native-app-development", // Internal link
-    },
-    { name: "Next.js", icon: <SiNextdotjs /> },
-  ],
-  Backend: [
-    { name: "Node.js", icon: <SiNodedotjs /> },
-    { name: "Django", icon: <SiDjango /> },
-    { name: "Firebase", icon: <SiFirebase /> },
-    { name: "Laravel", icon: <SiLaravel /> },
-    { name: "Express.js", icon: <SiExpress /> },
-    { name: "Ruby on Rails", icon: <SiRubyonrails /> },
-  ],
-  Mobile: [
-    { name: "AI Automation", icon: <FaApple /> }, // Placeholder icon
-    { name: "iOS", icon: <SiIos /> },
-    { name: "Android", icon: <SiAndroid /> },
-    { name: "Flutter", icon: <SiFlutter /> },
-    { name: "React Native", icon: <SiReact /> },
-  ],
-  CMS: [
-    { name: "Wordpress", icon: <SiWordpress /> },
-    {
-      name: "Shopify",
-      icon: <SiShopify />,
-      link: "/shopify-app-development", // Internal link
-    },
-    { name: "Webflow", icon: <SiWebflow /> },
-    { name: "BigCommerce", icon: <SiBigcommerce /> },
-    { name: "Squarespace", icon: <SiSquarespace /> },
-  ],
-  "Cloud & DevOps": [
-    { name: "AWS", icon: <FaAws /> },
-    { name: "Azure", icon: <FaMicrosoft /> },
-    { name: "GCP", icon: <SiGooglecloud /> },
-    { name: "DigitalOcean", icon: <SiDigitalocean /> },
-    { name: "Cloudinary", icon: <SiCloudinary /> },
-  ],
-};
+
 const services = [
   {
-      icon: "icon",
+    icon: "icon",
     icon2: "icon4",
-    title: "Hybrid Consultation",
+    title: "Custom Mobile App Development",
     description: (
       <>
-        The hybrid mobile app development service also includes expert
-        consultation to help you make the right decision. We take the time to
-        understand your goals and business approach before recommending the most
-        suitable development strategy.
+        We build custom mobile apps based on your business needs. Many companies hire the mobilapp developer teams from us for flexible and scalable solutions.
       </>
     ),
   },
   {
     icon: "pen",
     icon2: "pen5",
-    title: "Hybrid UI/UX Design",
+    title: "UI/UX Design for Mobile Apps",
     description: (
       <>
-        When building a hybrid app, appearance and user experience matter just
-        as much as performance. Our team designs clean and intuitive interfaces
-        that make navigation simple, engaging, and enjoyable for users.
+        Our designers produce clear, uncomplicated app interfaces. Businesses that hire the mobile app developer from our team that get better user engagement and smooth navigation.
       </>
     ),
   },
   {
-      icon: "setting",
+    icon: "setting",
     icon2: "setting2",
-    title: "Hybrid Maintenance & Support",
+    title: "Cross Platform App Development",
     description: (
       <>
-        Keeping your app in top shape is easy with our hybrid development
-        services. We provide ongoing maintenance and technical support so your
-        application stays updated, secure, and optimized for performance.
+        We develop apps which work across multiple platforms. Businesses can hire Mobile App Developers to reduce the cost and reach more users with the one solution.
       </>
     ),
   },
   {
-
-       icon: "pipe",
+    icon: "pipe",
     icon2: "pipe3",
-    title: "Hybrid App Migration",
+    title: "App Testing & Quality Assurance",
     description: (
       <>
-        Want to upgrade your existing mobile application? Our hybrid app
-        migration services help transform your current setup into a reliable
-        hybrid solution without losing functionality or performance.
+        Our team tests every app carefully before the launch. Companies which hire a dedicated mobile app developer ensure bug free performance and smooth functionality.
       </>
     ),
   },
- 
+  {
+    icon: "icon",
+    icon2: "icon4",
+    title: "API & Backend Development",
+    description: (
+      <>
+        We build strong backend systems which support mobile apps businesses often hire mobile app development company teams like ours for the secure and scalable integrations.
+      </>
+    ),
+  },
+  {
+    icon: "pen",
+    icon2: "pen5",
+    title: "App Maintenance & Support",
+    description: (
+      <>
+        We provide ongoing support after launch. Companies which hire developers keep their apps updated, secure and running quite smoothly.
+      </>
+    ),
+  },
 ];
 
 const highlights = [
   {
-    title: "12+ Years of Development",
-    desc: "We’re the best hybrid app development company USA with over 10+ years of experience, building high-performing apps.",
+    title: "Skilled Mobile App Developers",
+    desc: "Our developers have a wealth of experience creating high performing apps for many platforms guaranteeing dependable and user friendly mobile solutions for your company’s requirements",
   },
   {
-    title: "High Level Expertise",
-    desc: "Being one of the top app development companies, we provide top-tier design and development.",
+    title: "Adaptable Hiring Practices",
+    desc: "To efficiently fit the scope and timeframe of your project, select from hourly, dedicated or the project based employment choices.",
   },
   {
-    title: "Expert Project Managers",
-    desc: "Our professional project managers make sure to keep the entire build on track, providing seamless execution throughout.",
+    title: "Agile Development Process",
+    desc: "Our teams follow the agile practices which deliver app quickly, adapt to the changes and maintain consistent project progress.",
   },
   {
-    title: "100% Transparent Procedure",
-    desc: "The hybrid mobile app development team shares the updates on time. Through updates, we ensure transparency to your business requirements as one of the top hybrid app development companies.",
+    title: "Fast Onboarding",
+    desc: "Developers integrate into your existing team rapidly, ensuring the minimal delays and faster project initiation or the immediate productivity.",
   },
   {
-    title: "Post-Launch Support",
-    desc: "The support services we provide make your app competitive, so you can easily depend on our best hybrid mobile app development services.",
+    title: "Transparent Communication",
+    desc: "We keep the clients informed and involved at every level of the development process by communicating clearly and frequently",
   },
   {
-    title: "Custom Solutions",
-    desc: "Every app we build through hybrid app development services is supposed to meet your requirements through hybrid app development.",
+    title: "Secure NDA & IP Protection",
+    desc: "All projects are safeguarded with the NDAs and IP protection to ensure your ideas and data remain fully secure.",
   },
 ];
 const VALUE_PROPOSITION = [
@@ -402,39 +394,15 @@ const MobAppDev = () => {
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-        heading="What’s"
-        heading2={"Dignite Studios"}
-        para="We’re providing reliable hybrid mobile app development services with a team of 200+ developers. 10+ years of experience for us means Dignite Studios has worked on over 50+ projects for startups, businesses, and enterprises. By creating functional products from scratch, the team focuses on building secure mobile applications customized to your unique business needs. With a strong emphasis on the high performance of hybrid mobile applications. The team is great at building reliable mobile solutions. improving efficiency and user experience. The aim is to provide mobile apps that support long term business success and adapt to changing technological needs."
-        button="Contact us Today"
+        heading="About Our Mobile App Developer"
+        heading2={"Hiring Services "}
+        para="Across all industries, the need for the mobile applications is rising quickly. Dignite studios allows businesses to hire Mobile App Developers instead of building an in-house team. Our team has been producing dependable apps for healthcare, e-commerce, finance, education, travel and logistics for more than ten years. Employing our committed developers guarantees access to knowledge experts with the expertise in cross-platform, iOS and Android development. Teams can be swiftly scaled by businesses without even sacrificing deadlines or quality. Dignite Studios is a reputable mobile app development company which offers quick onboarding, flexible hiring practices and a track record of developing scalable, high performing mobile apps. "
+        button="Start Hiring Mobile App Developers"
       />
-      <Services
-        services={services}
-        header={"Best Hybrid Mobile App Development"}
-        header2={"Services"}
-        button={"Explore Our Services Today"}
-        para={
-          "When you are working with Dignite Studios, you’re working with a hybrid mobile app company that adds commitment to the work ethic first. As experts, we have refined our hybrid mobile app development services to meet your needs. Working with us means you get transparency and expert mobile app solutions prepared by Dignite Studios. "
-        }
-      />
-      <TabularEcommerceTechs
-        header={"Expert Tools and Tech Behind"}
-        header2={"Mobile  Apps"}
-        para={
-          "The team uses modern technology and advanced tools to build smooth applications without creating a mess. We have a team of expert developers who can bring your idea to reality in a way that it runs seamlessly across devices and stays functional. We don’t just build apps that take minutes to load or feel too loaded with features; we just use the best tech from our stack to build your mobile apps. "
-        }
-        techData={techData}
-      />
-      <HiringProcess/>
-      <Process
-        steps={PROCESS_STEPS}
-        header={"Proven Process of a Hybrid Mobile App Development Company"}
-        para={
-          "The development team works with a perfectly structured approach that brings your idea to life. Different hybrid development companies work with unique workflows, but when it comes to creating mobile apps at our company, we utilize an approach of the hybrid app development company USA approach to ensure that we design applications that work the proper way. Here’s the workflow. "
-        }
-      />
+
       <Bussiness
         bs={highlights}
-        header={"Why Businesses Should Choose "}
+        header={" Why Hire Mobile App Developers From"}
         header2={"Dignite Studios"}
         ctaHeader={"Choose The Right Team"}
         ctaPara={
@@ -474,18 +442,46 @@ const MobAppDev = () => {
             </div>
           </div>
         }
-        button={"Select The Right Team "}
+        button={"Hire Mobile App Developers  "}
         para={
           <>
-            Dignite Studios is experts at building hybrid mobile applications.
-            Having a team of the best developers and designers, we provide you
-            with everything you need as a hybrid mobile app development company.
-            Dignite Studios is a team that takes the time to understand your
-            audience before the development even begins. We deliver functional
-            applications with proper communication and reliable solutions.
+            Hiring developers from Dignite Studios ensures access to skilled
+            professionals who deliver the high quality, scalable apps. Our team
+            provides fast onboarding, transparent communication and secure
+            project management. Furthermore, companies can employ developers for
+            cross platform, iOS and Android projects with assurance and
+            dependable outcomes.
           </>
         }
       />
+    <TabularTechs
+        header={"Our Mobile App Development"}
+        header2={"Expertise"}
+        para={
+          "Our developers specialize in creating high performance mobile applications across platforms. They are experts in iOS, Android, Cross platform, and backend technologies delivering scalable, secure and fast applications. Businesses can hire Mobile App secure and fast applications. Businesses can hire a mobile app developer skilled in the latest tools for reliable project execution. "
+        }
+        techData={techData}
+        button={"Hire Mobile App Developers "}
+      />
+      <Services
+        services={services}
+        header={"Mobile App Solutions Delivered by Our"}
+        header2={"Expert Developers"}
+        button={"Hire Mobile App Developers "}
+        para={
+          "Our developers provide complete mobile app solutions for businesses of all sizes. You can hire Mobile app Developers to build, design, test and maintain the applications. We also support businesses of all sizes. You can also developers to build, design, test and maintain applications. We also support businesses that want to hire a mobile app developer for scalable high performance digital products.    "
+        }
+      />
+  
+      <HiringProcess />
+      <Process
+        steps={PROCESS_STEPS}
+        header={"Proven Process of a Hybrid Mobile App Development Company"}
+        para={
+          "The development team works with a perfectly structured approach that brings your idea to life. Different hybrid development companies work with unique workflows, but when it comes to creating mobile apps at our company, we utilize an approach of the hybrid app development company USA approach to ensure that we design applications that work the proper way. Here’s the workflow. "
+        }
+      />
+
       <Industries
         VALUE_PROPOSITION={VALUE_PROPOSITION}
         header={"Expert Hybrid App Development For Different  "}

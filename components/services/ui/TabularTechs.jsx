@@ -55,7 +55,7 @@ const techData = {
   ],
 };
 
-const TabularEcommerceTechs = ({ techData, header, para, header2, button }) => {
+const TabularTechs = ({ techData, header, para, header2, button }) => {
   const categories = Object.keys(techData);
   const [activeTab, setActiveTab] = useState(categories[0]);
 
@@ -173,4 +173,4 @@ const TechCard = ({ tech }) => {
   );
 };
 
-export default TabularEcommerceTechs;
+export default TabularTechs;

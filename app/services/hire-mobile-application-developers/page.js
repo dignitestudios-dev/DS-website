@@ -3,14 +3,14 @@ import LazyLoader from "@/components/global/LazyLoader";
 import React, { lazy, Suspense } from "react";
 import MobAppDev from "@/components/services/HireMobAppDevelopers/MobAppDev";
 
-// export const metadata = {
-//   title: "Top Android App Development Services - Dignite Studios",
-//   description:
-//     " Get expert Android app development services to build secure and user friendly applications that drive growth and enhance user experience. Contact us today!",
-//   alternates: {
-//     canonical: "https://www.dignitestudios.com/services/android-app-development",
-//   },  
-// };
+export const metadata = {
+  title: "Hire Mobile App Developers for Scalable App Solutions",
+  description:
+    " Hire Mobile App Developers at Dignite Studios to build iOS, Android, and cross-platform apps with fast onboarding, expert support, and scalable solutions. ",
+  alternates: {
+    canonical: "https://www.dignitestudios.com/services/hire-mobile-application-developers",
+  },  
+};
 
 const page = () => {
   return (

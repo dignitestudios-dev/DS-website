@@ -9,7 +9,15 @@ import Industries from "../ui/Industries";
 import TechAndTools from "../ui/TechTools";
 import Process from "../ui/Process";
 import MobileApp from "../ui/MobileApp";
-import { FaDatabase, FaGooglePlay, FaLayerGroup, FaMicrosoft, FaPencilAlt, FaShieldAlt, FaUser } from "react-icons/fa";
+import {
+  FaDatabase,
+  FaGooglePlay,
+  FaLayerGroup,
+  FaMicrosoft,
+  FaPencilAlt,
+  FaShieldAlt,
+  FaUser,
+} from "react-icons/fa";
 import { IoGrid, IoWalletOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import { FaCode } from "react-icons/fa6";
@@ -17,7 +25,7 @@ import SuccessStories from "../ui/SuccessStories";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
-import TabularEcommerceTechs from "../ui/TabularEcommerceTechs";
+import TabularEcommerceTechs from "../ui/TabularTechs";
 import {
   SiReact,
   SiVuedotjs,
@@ -196,8 +204,8 @@ const services = [
     description: (
       <>
         Our developers integrate Android apps with third-party services, APIs,
-        and existing systems to enhance functionality through custom Android
-        app development services.
+        and existing systems to enhance functionality through custom Android app
+        development services.
       </>
     ),
   },
@@ -207,9 +215,9 @@ const services = [
     title: "Design Services",
     description: (
       <>
-        The design team creates visually appealing UI/UX designs through
-        Android mobile app development services that enhance user satisfaction
-        and retention across all Android devices.
+        The design team creates visually appealing UI/UX designs through Android
+        mobile app development services that enhance user satisfaction and
+        retention across all Android devices.
       </>
     ),
   },
@@ -469,13 +477,13 @@ const AndroidAppDev = () => {
         }
         techData={techData}
       />
-        <Process
-          steps={PROCESS_STEPS}
-          header={"Proven Process of an Android Mobile App Development Company"}
-          para={
-            "Every application begins with an idea and a goal, and Dignite Studios works with a structured approach that turns your idea into a highly functional Android application. Different Android app development companies work with unique workflows, but when it comes to creating mobile apps at our top Android app development services company, we provide the best Android app development services in USA to ensure that we design apps that work properly. Here’s our app development process. "
-          }
-        />
+      <Process
+        steps={PROCESS_STEPS}
+        header={"Proven Process of an Android Mobile App Development Company"}
+        para={
+          "Every application begins with an idea and a goal, and Dignite Studios works with a structured approach that turns your idea into a highly functional Android application. Different Android app development companies work with unique workflows, but when it comes to creating mobile apps at our top Android app development services company, we provide the best Android app development services in USA to ensure that we design apps that work properly. Here’s our app development process. "
+        }
+      />
       <Bussiness
         bs={highlights}
         header={"Why We’re The Top Android App "}
@@ -521,7 +529,14 @@ const AndroidAppDev = () => {
         button={"Share Your Idea"}
         para={
           <>
-          At our custom Android app development company, we have a team of experts at building mobile applications that just feel right for Android devices. You can hire us for the Android app developers and designers. We provide you with the Android app development services you need for your target audience. Dignite Studios means a team that takes the time to understand your audience before the development of the Android app even begins. We deliver functional Android applications with clear communication and reliable solutions. 
+            At our custom Android app development company, we have a team of
+            experts at building mobile applications that just feel right for
+            Android devices. You can hire us for the Android app developers and
+            designers. We provide you with the Android app development services
+            you need for your target audience. Dignite Studios means a team that
+            takes the time to understand your audience before the development of
+            the Android app even begins. We deliver functional Android
+            applications with clear communication and reliable solutions.
           </>
         }
       />
@@ -540,7 +555,12 @@ const AndroidAppDev = () => {
         button={"Get Your Android App"}
         para={
           <>
-           There are many compelling reasons to have your own Android app developed by a top Android app development company. From enhancing customer retention and brand visibility to boosting revenue, it’s totally worth it if you get your app developed by the experts who help you in gaining actionable insights and staying ahead of competitors. 
+            There are many compelling reasons to have your own Android app
+            developed by a top Android app development company. From enhancing
+            customer retention and brand visibility to boosting revenue, it’s
+            totally worth it if you get your app developed by the experts who
+            help you in gaining actionable insights and staying ahead of
+            competitors.
           </>
         }
         cards={BENEFITS}
@@ -550,7 +570,13 @@ const AndroidAppDev = () => {
         header2={"Should Have"}
         para={
           <>
-        Developing an Android application at our Android app development services company is more than just creating colorful designs. The success of your Android application depends on the features as well because it needs the right options and features to ensure engagement and performance. Every feature should be able to enhance the user experience further. Your Android application could boost user retention effectively by incorporating these essential features.
+            Developing an Android application at our Android app development
+            services company is more than just creating colorful designs. The
+            success of your Android application depends on the features as well
+            because it needs the right options and features to ensure engagement
+            and performance. Every feature should be able to enhance the user
+            experience further. Your Android application could boost user
+            retention effectively by incorporating these essential features.
           </>
         }
         features={FEATURES}

@@ -17,7 +17,7 @@ import SuccessStories from "../ui/SuccessStories";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
-import TabularEcommerceTechs from "../ui/TabularEcommerceTechs";
+import TabularEcommerceTechs from "../ui/TabularTechs";
 import {
   SiReact,
   SiVuedotjs,
@@ -497,7 +497,13 @@ const ProgressiveWebAppDevelopment = () => {
         header2={"Business"}
         para={
           <>
-            Investing in custom progressive web apps means numerous benefits. Those benefits could be enhanced efficiency, scalability, business growth, and improved user experience. Even though the cost might increase depending on features, the overall long term value is always worth the money. You can see how customized PWA web app development services from the best agency can help you with operations and provide competitive advantage
+            Investing in custom progressive web apps means numerous benefits.
+            Those benefits could be enhanced efficiency, scalability, business
+            growth, and improved user experience. Even though the cost might
+            increase depending on features, the overall long term value is
+            always worth the money. You can see how customized PWA web app
+            development services from the best agency can help you with
+            operations and provide competitive advantage
           </>
         }
         cards={BENEFITS}
