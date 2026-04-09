@@ -1,4 +1,5 @@
 import SupportAndMaintenanceServicesPage from "@/components/services/SupportAndMaintenanceServices/SupportAndMaintenanceServicesPage";
+import GlobalLayout from "@/layout/GlobalLayout";
 import ServicesLayout from "@/layout/ServiceLayout";
 import Head from "next/head";
 import Script from "next/script";
@@ -89,7 +90,7 @@ const page = () => {
           content="Mobile App Maintenance and Support Services"
         ></meta>
       </head>
-      <ServicesLayout page={<SupportAndMaintenanceServicesPage />} />
+      <GlobalLayout page={<SupportAndMaintenanceServicesPage />} />
 
       <Script
         type="application/ld+json"

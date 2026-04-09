@@ -72,19 +72,29 @@ const features = [
 ];
 
 const techData = {
+  "iOS App Development": [
+    { name: "Swift", icon: <SiSwift /> },
+    { name: "Objective-C", icon: <FaApple /> },
+    { name: "Apple Ecosystem Apps", icon: <FaApple /> },
+  ],
+
   "Android Technologies": [
     { name: "Kotlin", icon: <SiKotlin /> },
     { name: "Java", icon: <FaJava /> },
     { name: "Native Android Solutions", icon: <SiAndroid /> },
   ],
-  "Cross Platform": [
+
+  "Cross Platform Development": [
     { name: "Flutter", icon: <SiFlutter /> },
     { name: "React Native", icon: <SiReact /> },
   ],
+
   "Backend Technologies": [
     { name: "Node.js", icon: <SiNodedotjs /> },
     { name: "Python", icon: <SiPython /> },
     { name: "PHP", icon: <SiPhp /> },
+    { name: ".NET", icon: <SiDotnet /> },
+    { name: "Ruby on Rails", icon: <SiRubyonrails /> },
     { name: "Google Firebase", icon: <SiFirebase /> },
   ],
 };
@@ -93,20 +103,20 @@ const services = [
   {
     icon: "/location/mobile-california/icons/icon.webp",
     icon2: "/location/mobile-california/icons/icon4.webp",
-    title: "Custom Android App Development",
+    title: "Custom Mobile App Development",
     description: (
       <>
-        We build secure and scalable Android applications tailored to your business goals. our team delivers the custom android app development with the high performance and long term growth. 
+        We create custom mobile apps based on the client requirements. Many businesses hire android developers to build scalable, secure and feature rich applications for their operations.
       </>
     ),
   },
   {
     icon: "/location/mobile-california/icons/pen.webp",
     icon2: "/location/mobile-california/icons/pen5.webp",
-    title: "UI/UX Design for Android Apps",
+    title: "UI/UX Design for Mobile Apps",
     description: (
       <>
-        Our designs focus on intuitive interfaces that engage users effectively and provide a smooth experience across all Android devices, helping businesses to hire android app developers. 
+        Our design team creates user-friendly interfaces. Clear layouts and smooth navigation help businesses improve the engagement and provide users with enjoyable experiences.
       </>
     ),
   },
@@ -116,7 +126,7 @@ const services = [
     title: "Cross Platform App Development",
     description: (
       <>
-        Our developers use similar coding standards to build cross platform apps. This reduces the project cost and helps delivery the projects faster for the businesses. 
+        We build apps which run on multiple platforms. Also it gurantees consistent functioning across iOS and Android devices while cutting expenses and development time.
       </>
     ),
   },
@@ -126,7 +136,7 @@ const services = [
     title: "App Testing & Quality Assurance",
     description: (
       <>
-        We thoroughly test every Android app to ensure it is bug free, fast and provides the stable performance across different devices and screen sizes. 
+        Apps undergo thorough testing before being launched. This guarantees bug free performance, reliable functionality and smooth operation across all the devices for an optimal user experience.
       </>
     ),
   },
@@ -136,7 +146,7 @@ const services = [
     title: "API & Backend Development",
     description: (
       <>
-        We develop robust backend systems and secure APIs which ensure fast data processing and the stable performance for every android mobile app development service. 
+        We develop robust backend systems and integrate APIs efficiently. Many companies hire android application developer to manage app data and enhance functionality securely.
       </>
     ),
   },
@@ -146,7 +156,7 @@ const services = [
     title: "App Maintenance & Support",
     description: (
       <>
-        We provide ongoing updates and support to keep your app running smoothly. Many businesses trust us for the continuous improvements and reliable technical help. 
+        We provide the continuous maintenance and updates. Clients can also hire android app developer for the ongoing improvements, ensuring apps which remain secure, fast and fully functional over the time.
       </>
     ),
   },
@@ -155,198 +165,202 @@ const services = [
 const highlights = [
   {
     icon: "/services/mob-hire/1.webp",
-    title: "Proven Android Expertise",
-    desc: "Our developers have strong experience in building Android apps with modern tools, ensuring reliable performance and scalable solutions.",
+    title: "Proven Development Expertise",
+    desc: "Our team has years of experience. Clients appoint developers for building secure and high performing Android applications.",
   },
   {
     icon: "/services/mob-hire/2.webp",
-    title: "Flexible Hiring Options",
-    desc: "We provide adaptable hiring models. Businesses can easily hire Android app developers based on their project needs and budget.",
+    title: "Transparent Communication",
+    desc: "We maintain clear updates throughout the project. Businesses stay informed when they hire developer from us.",
   },
   {
     icon: "/services/mob-hire/3.webp",
-    title: "Agile Development Journey",
-    desc: "Our structured agile methodology increases productivity, expedites delivery and guarantees superior outcomes for each project.",
+    title: "Agile Methodology",
+    desc: "Our agile process ensures fast delivery. Clients benefit when they hire android app development company for efficiency.",
   },
   {
     icon: "/services/mob-hire/4.webp",
-    title: "Fast Onboarding",
-    desc: "Developers join projects quickly. This helps businesses to start development without any delays or the long waiting time.",
+    title: "Scalable Teams",
+    desc: "Teams can grow with project demands. Companies can hire developer for flexible and scalable app solutions.",
   },
   {
     icon: "/services/mob-hire/5.webp",
-    title: "Clear Communication",
-    desc: "We maintain clear and simple communication at every stage so clients stay quite informed and confident throughout the development process.",
+    title: "On Time Delivery",
+    desc: "We meet deadlines consistently. Clients hire android app developers in USA to ensure timely project completion.",
   },
   {
     icon: "/services/mob-hire/6.webp",
-    title: "IP & Data Security",
-    desc: "We protect your project ideas and data. Our development workflow ensures complete confidentiality and security for every business.",
+    title: "Long Term Technical Support",
+    desc: "Our developers provide ongoing assistance. Businesses can appoint developer for updates and maintenance after launch.",
   },
 ];
 
 const VALUE_PROPOSITION = [
   {
-    title: "Ecommerce",
-    desc: "We build Android apps for online stores. These apps improve shopping experience, support secure payments and help businesses increase sales effectively.",
+    title: "Healthcare & Fitness",
+    desc: "We develop secure Android apps for healthcare providers and fitness platforms. Clients hire android app developers to manage patient data and enhance the user engagement safely.",
   },
   {
-    title: "Healthcare",
-    desc: "Our team develops secure healthcare apps. These solutions help to manage patient data, monitor health and provide easier access to the medical services.",
+    title: "Ecommerce",
+    desc: "Retail and online stores benefit from scalable Android apps. Businesses hire android application developers to streamline the sales, inventory and customer experience.",
   },
   {
     title: "Real Estate",
-    desc: "We create real estate apps for the property listings, virtual tours and easy management helping the users find and manage the properties quite smoothly.",
+    desc: "We build apps for property listings and real estate management. Clients hire the android developers to simplify browning and improve user interaction.",
   },
   {
     title: "Education",
-    desc: "We build education apps which support online learning, student engagement and simple content management with the friendly and easy to use interfaces.",
+    desc: "Our team creates learning and e-learning Android apps. Institutions hire dedicated android app developer to deliver the interactive content and track the student progress effectively.",
   },
   {
-    title: "Fintech",
-    desc: "Our team develops secure fintech apps for banking, payments and investment management, ensuring fast and reliable performance for the users.",
+    title: "Travel & Tourism",
+    desc: "We develop apps for the booking, navigation and guides. Companies developers to enhance user experience and increase bookings efficiently.",
   },
   {
     title: "Food Delivery",
-    desc: "We create food delivery apps which support fast ordering, live tracking and the multiple payment options, improving customer satisfaction and service efficiency.",
+    desc: "We build apps for ordering, tracking and payments. Restaurants and startups hire android app developers in USA to improve delivery and user convenience.",
+  },
+  {
+    title: "Fitness & Wellness",
+    desc: "Fitness apps track workouts and progress. Businesses hire dedicated android app developer to provide personalized plans and enhance customer engagement.",
   },
 ];
 
 const test = [
   {
-    name: "John Peterson",
-    designation: "— CEO, Mobile Solutions",
+    name: "TechNova Solutions",
+    designation: "– SaaS Founder",
     review:
-      "“We decided to hire android developers from Dignite Studios, and it was a great experience. The team was professional, delivered on time, and built a high-quality app that works perfectly on all devices.”",
+      "Great experience working with the team. We decided to hire developers and the results were smooth, fast and reliable",
   },
   {
-    name: "Sarah Mitchell",
-    designation: "— Product lead, Ecom Brand",
+    name: "ShopEase Digital",
+    designation: "– E-Commerce CEO",
     review:
-      "“The developers understood our vision clearly. They built a scalable and secure Android application that significantly improved our user engagement and overall performance.”",
+      "We chose to hire android app developers for our Ecommerce app. The team delivered user friendly and high performing solution",
   },
   {
-    name: "Mark Stevens",
-    designation: "— Founder, Fintech Startup",
+    name: "HealthBridge Systems",
+    designation: "– Healthcare Systems",
     review:
-      "“Working with their Android team was quite simple. They provided regular updates, maintained quality, and helped us launch our app without any issues. Their support is very reliable.”",
+      "The developers handled our healthcare app carefully. We hired an android application developer and received a secure and stable platform",
   },
   {
-    name: "Emily Clark",
-    designation: "— Operations Manager",
+    name: "EduSmart Learning",
+    designation: "– Education Provider",
     review:
-      "“We needed a dedicated team for our project, and Dignite Studios provided the best developers. The app is fast, secure, and user-friendly. We recommend their services to everyone.”",
+      "We needed an e-learning app. Their team helped us hire developer and delivered exactly what we expected",
   },
   {
-    name: "David Roberts",
-    designation: "— CTO, Tech Agency",
+    name: "TravelGo App",
+    designation: "– Travel Startup",
     review:
-      "“Their expertise in Android development helped us build a powerful digital product. The communication was clear, and the project was handled professionally from start to finish.”",
+      "Communication was clear throughout. We decided to hire developer and the project was completed on time",
   },
   {
-    name: "William Scott",
-    designation: "— Startup Owner",
+    name: "FitTrack Pro",
+    designation: "– Fitness Platform",
     review:
-      "“Dignite Studios delivered high-quality results within our budget. Their flexible hiring models and strong technical support helped us grow our business with a reliable Android app.”",
+      "Our fitness app improved a lot. We chose there developers and saw better performance and user engagement",
   },
 ];
 
 const faqs = [
   {
     id: 1,
-    question: "How long does it take to hire Android developers?",
+    question: "Do you build scalable Android applications?",
     answer:
-      "Hiring developers is a quick process. In most cases, we can onboard the developers within a few days, depending on your project requirements and the specific skills needed.",
+      "Yes. Businesses hire android developers from our team to build scalable applications which handle growing users and features. We focus on the strong architecture, smooth performance and secure systems. This also allows apps to perform well under the high traffic and ensures the long term stability without any technical limitations or the performance issues.",
   },
   {
     id: 2,
-    question: "How much does it cost to build an Android app?",
+    question: "How long does Android app development take?",
     answer:
-      "The cost depends on project features, complexity, and the developer experience. We offer flexible hiring models to help businesses manage their budget effectively while getting high-quality results.",
+      "The development timelines depend on the apps's complexity and features. Basic apps may take a few weeks, meanwhile the advanced applications require more time. Many businesses hire developer services to ensure faster delivery through the proper planning structured development and consistent progress throughout the project lifecycle.",
   },
   {
     id: 3,
-    question: "Can I hire developers for short-term projects?",
+    question: "Do you provide app maintenance and support?",
     answer:
-      "Yes, you can hire Android developers for short-term tasks or long-term projects. Our flexible models allow you to scale the team based on your business needs and project scope.",
+      "Yes. We offer ongoing maintenance and support after the app launch. Clients can get developers to manage updates, fix bugs and improve performance. This also helps ensure the application stays secure, updated and fully functional while adapting to new user needs and platform changes quite over time.",
   },
   {
     id: 4,
-    question: "Do you provide technical support after launch?",
+    question: "Can you improve my existing Android application?",
     answer:
-      "Yes, we provide ongoing maintenance and post-launch support. Our team helps with updates, bug fixes, and performance improvements to ensure your app runs smoothly for the long term.",
+      "Yes. Our team reviews your current application to identify performance issues and improvement areas. Businesses often hire android application developer to optimize speed, enhance user experience and upgrade features. This ensures the app performs better, meets the user expectation and supports the long term growth.",
   },
   {
     id: 5,
-    question: "Do you build native or cross-platform Android apps?",
+    question: "Do you work with startups and enterprises?",
     answer:
-      "We build both native and cross-platform apps. Our team has the expertise in Kotlin and Java for native development, as well as Flutter and React Native for cross-platform solutions.",
+      "Indeed. We collaborate with both big businesses and startups. It can hire developers to launch new applications quickly, while enterprises rely on us to scale and improve existing platforms. Our flexible approach helps businesses of all sizes build reliable, secure and high performance android applications.",
   },
 ];
 
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Idea & Consultation",
-    desc: "We discuss your app idea and requirements. Our experts help plan features and the development roadmap to ensure your project meets business goals.",
+    title: "Requirement Analysis",
+    desc: "We gather project details, goals and features. Clients hire android app developer to define requirements and ensure the app meets their business objectives.",
   },
   {
     step: "02",
     title: "UI/UX Design",
-    desc: "Our designers create intuitive and user-friendly layouts. We focus on enhancing user engagement and providing a smooth experience on Android devices.",
+    desc: "Our team designs intuitive interfaces. Engaging layouts and clear navigation improve user experience and increase app adoption across the Android devices.",
   },
   {
     step: "03",
-    title: "Core Development",
-    desc: "Our developers build the app using modern tools and scalable architecture. We follow clean coding standards for reliable and high-performance applications.",
+    title: "App Development",
+    desc: "We write clean, efficient code to build secure and scalable applications. Businesses can hire developers to handle development for the fast and reliable results.",
   },
   {
     step: "04",
-    title: "Testing & Quality Check",
-    desc: "We perform thorough testing to identify and fix any issues. This ensures the app is secure, fast, and works correctly across various devices.",
+    title: "Testing & Quality Assurance",
+    desc: "Apps are put through extensive testing to guarantee error free operation. This step guarantees stable, secure and smooth operation across all Android devices.",
   },
   {
     step: "05",
-    title: "Launch & Growth",
-    desc: "We deploy the app on the Google Play Store and provide ongoing support. Our team helps with updates and improvements to support your business growth.",
+    title: "Deployment & Support",
+    desc: "We launch apps on the Google Play and other platforms. Clients can hire developer for the post launch support and regular updates.",
   },
 ];
 
 const steps = [
   {
-    title: "Discussion & Planning",
+    title: "Project vision",
     description:
-      "We understand your project goals and requirements to create a clear plan for your Android development.",
+      "We discuss your project goals clearly. This helps businesses hire developer for a development approach.",
     icon: "/services/mob-hire/hire/1.webp",
   },
   {
-    title: "Share Profiles",
+    title: "Expert Consultation",
     description:
-      "We share detailed developer profiles, including skills and past experience, to help you choose the best fit.",
+      "Our team provides guidance. Clients can appoint a dedicated developer for any technical advice.",
     icon: "/services/mob-hire/hire/2.webp",
   },
   {
-    title: "Interview & Finalize",
+    title: "Hiring Mobile App Developers",
     description:
-      "You can interact with the developers directly, discuss your project, and finalize the team before starting work.",
+      "Select skilled developers for your project. Many businesses appoint developer for building reliable Android Applications.",
     icon: "/services/mob-hire/hire/3.webp",
   },
   {
-    title: "Fast Onboarding",
+    title: "Developer Biography",
     description:
-      "Developers join your project quickly without any long delays, enabling you to start development immediately.",
+      "Review developer profiles and experience. This ensures you hire the right developer matching project needs.",
     icon: "/services/mob-hire/hire/4.webp",
   },
   {
-    title: "Start Development",
+    title: "Meeting With Developer",
     description:
-      "Our team starts development with regular updates, clear communication, and a structured process.",
+      "Schedule discussions with the developer. Collaborate effectively and start your Android project delays.",
     icon: "/services/mob-hire/hire/5.webp",
   },
   {
-    title: "Ongoing Support",
+    title: "Collaboration & Development",
     description:
-      "We provide continuous support and updates even after the developers join to ensure project success.",
+      "Developers join your team and begin work. Businesses get developers projects efficiently and on time.",
     icon: "/services/mob-hire/hire/6.webp",
   },
 ];
@@ -354,18 +368,18 @@ const steps = [
 const cards = [
   {
     title: "Dedicated Developer",
-    desc: "Hire a full-time Android developer for long-term projects. This option ensures continuous development and focused expertise for your business.",
+    desc: "Hire a full time developer for the long term projects. Many companies hire the dedicated of app developer to manage ongoing development and provide the consistent support. ",
     icon: "/services/test.webp",
   },
   {
     title: "Hourly Hiring",
-    desc: "Pay only for the hours worked. This model is best for small updates, short-term tasks, or specific feature improvements.",
+    desc: "Pay only for hours worked . This model is ideal for short term tasks, updates or the specific app development requirements. ",
     icon: "/services/sb.webp",
     illustration: "hourly",
   },
   {
     title: "Project-Based Hiring",
-    desc: "Hire developers for a fixed project scope and cost. It’s ideal for projects with a clear requirements and set timelines.",
+    desc: "Fixed scope and budget for defined projects. Businesses often hire android application developer to deliver the projects efficiently within the agreed timeline. ",
     icon: "/services/mob.webp",
     illustration: "project",
   },
@@ -378,84 +392,86 @@ const HireAndroidDevs = () => {
       
       <Hero 
         title="Hire Android Developers" 
-        description="Hire Android developers from Dignite Studios to build fast and scalable apps. Our team works on native and cross platform solutions."
+        description="Hire Android developers from Dignite Studios to build fast and scalable apps. Our team works on native and cross platform solutions. Developers join projects quickly and deliver high quality apps that support business growth."
       />
 
       <About
         heading="Introduction"
         heading2={""}
-        para="Android apps are growing fast across industries. Businesses need skilled teams to build strong digital products. Many companies now choose to hire android developers instead of building in-house teams. This is the time saver and reduce the cost. Dignite Studios has more than 10 years of experience in Android development. We have worked with startups and enterprises across Ecommerce, healthcare and Fintech industries. Our team includes experts you can trust when you hire android app developer for your project. We focus on quality, speed and long term support."
+        para="Android apps are growing fast across industries. Businesses need skilled teams to build strong digital products. Many companies now choose to hire android developers instead of building in-house teams. This is the time saver and reduce the cost. Dignite Studios has more than 10 years of experience in Android development. We have worked with startups and enterprises across Ecommerce, healthcare and Fintech industries. Our team includes experts you can trust when you hire android app developer for your project. We focus on quality, speed and long term support. Many global businesses also hire developers for the team to scale their development and deliver reliable applications."
         button="Start Your Project"
       />
 
       <WhyChoose
-        header={"Why Hire Android Developers From"}
+        header={"Why Hire Android Developers From Dignite Studios"}
         header2={"Dignite Studios"}
-        para="We help businesses hire android developers who build secure and scalable applications. Our team would also focus on quality, speed and clear communication. We make hiring quite simple so businesses can start projects quickly."
+        para="We help businesses hire android developers who build secure and scalable applications. Our team would also focus on quality,speed and clear communication. We make hiring quite simple so businesses can start projects quickly and achieve reliable results without any delays or the technical issues.  
+"
         features={features}
       />
 
       <TabularTechs
         header={"Our Android Development"}
         header2={"Expertise"}
-        para="Our team has strong experience in modern technologies used for Android and cross platform development. Businesses that hire developers from us get reliable solutions which are built with proven tools."
+        para="Our team has strong experience in modern technologies used for Android and cross platform development. Businesses that hire developers from us get reliable solutions which are built with proven tools. We create high performance apps which run smoothly across the devices and deliver consistent user experience."
         techData={techData}
-        button={"Hire Developers Now"}
+        button={"Explore Our Expertise"}
       />
 
       <Services
         services={services}
-        header={"Android App Developer Services"}
-        header2={""}
-        button={"Start Your Project"}
-        para="We provide complete Android development services for businesses that want reliable scalable and high performance applications."
+        header={"Mobile App Development"}
+        header2={"Services We offer"}
+        button={"Start Your App Project"}
+        para="We provide end to end mobile app solutions for businesses. Companies often hire android app development company from us to build, design and maintain apps. Our team ensures scalable, secure and high performance applications which is made for Android, iOS and cross platform environments."
       />
 
       <FlexibleHiring
-        header={"Our Flexible Android Developer Hiring Models"}
-        para="We offer multiple hiring options to match your project needs. Hire dedicated, hourly or project-based developers."
+        header={"Flexible Hiring Models"}
+        para="We provide flexible hiring options for businesses which want to hire android developers. Choose from dedicated, hourly or project based models. Each option is designed to fit different project sizes, timelines and development requirements."
         cards={cards}
       />
 
       <Process 
-        header="Our Android App Development Process"
-        para="We follow a structured and agile process to deliver high quality Android apps."
+        header="Our Mobile App Development Process"
+        para="We follow a structured process to build the high quality Android applications. Businesses which hire android developers from us get consistent results, clear communication and efficient delivery throughout every step of app development."
         steps={PROCESS_STEPS}
       />
 
       <Industries 
-        header="Industries We Serve"
-        para="We deliver reliable solutions while managing the app development cost across multiple industries."
-        button="Explore Android Solutions"
+        header="Industries We Serve for Android App Development"
+        para="We deliver Android app solutions for businesses across multiple industries. Companies hire the android developers from us to build apps that improve operations, boost engagement and support scalable growth in every sector."
+        button="Discuss Your Android App Idea"
         VALUE_PROPOSITION={VALUE_PROPOSITION}
       />
 
       <SuccessStories 
-        header="Our Android App Portfolio"
-        para="We showcase real projects delivered through our professional Android development services."
+        header="Our Android App Development"
+        header2="Case Studies"
+        para="We have helped businesses build successful Android applications through the reliable development and smart integrations. Companies which hire android developers from us achieve better performance, improved user experience and the strong engagement. Our work highlights real results across industries with the scalable and secure mobile app solutions. Explore our case studies to see how we turn ideas into high performing Android apps."
       />
 
       <Testimonials 
-        header="What Our Clients Say About Our Android"
-        header2="App Developers"
-        button="Get Free Consultation"
+        header="Client Testimonials & Trusted"
+        header2="Android Development Partner"
+        button="Work With Our Expert Team"
         test={test}
-        para="Businesses trust us to deliver high quality Android apps which meet their goals. Clients praise our development quality, communication and timely delivery. Here’s what they have to say about working with our team."
+        para="Businesses trust our team for reliable Android app solutions. Many companies hire android developers from us because we deliver secure applications, clear communication and consistent results. Our focus on quality and long term support helps clients build scalable apps and maintain strong performance."
       />
 
       <HiringProcess 
-        header="Our Android App Developer Hiring Process"
-        button="Start Hiring Android Developers Today"
+        header="Our Android Developer Hiring Process"
+        button="Hire Android Developers Now"
         steps={steps}
-        para="We follow a simple and structured process to help businesses collaborate with a top Android app development Company quickly. Our approach ensures clear communication, fast onboarding and smooth collaboration for the successful Android app developer."
+        para="Hiring developers from Dignite Studios is simple and fast. Businesses can quickly hire developer through the structured process which ensures the right expertise, fluent onboarding and smooth collaboration for successful Android app development projects."
       />
 
       <Bussiness
         header={"Why Businesses Choose"}
         header2={"Dignite Studios"}
-        ctaHeader={"Partner With Android Experts Today"}
-        ctaPara={"Businesses choose Dignite Studios for reliable Android services which focus on the quality, speed and scalability."}
-        ctaBtn={"Partner With Android Experts Today"}
+        ctaHeader={"Hire Android Developer Today"}
+        ctaPara={"Scale your team with skilled Android developers who are ready to start quickly. We offer fast onboarding, flexible hiring models and reliable support for your projects. Our developers bring strong experience and deliver high quality results. Start building your app faster with a team which you can trust."}
+        ctaBtn={"Hire Android Developers"}
         bs={highlights}
         cta={
           <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
@@ -467,15 +483,14 @@ const HireAndroidDevs = () => {
               />
               <div className="md:w-[45%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto pb-8 space-y-4 flex flex-col items-center text-center">
                 <h2 className="text-[45px] font-bold text-white leading-[45px]">
-                  Partner With Android Experts Today
+                  Hire Android Developer Today
                 </h2>
                 <p>
-                  Businesses choose Dignite Studios for reliable Android services
-                  which focus on the quality, speed and scalability.
+                  Scale your team with skilled Android developers who are ready to start quickly. We offer fast onboarding, flexible hiring models and reliable support for your projects. Our developers bring strong experience and deliver high quality results. Start building your app faster with a team which you can trust.
                 </p>
                 <Link href="/contact-us" className="flex items-center group justify-center ">
                   <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white text-sm px-7 py-3 rounded-full font-normal transition-colors">
-                    Partner With Android Experts Today
+                    Hire Android Developers
                   </button>
                   <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
                     <MdArrowOutward />
@@ -489,14 +504,14 @@ const HireAndroidDevs = () => {
 
       <CTA />
 
-      <Faq header={"FAQs"} faqs={faqs} />
+      <Faq header={"Frequently Asked Questions"} faqs={faqs} />
 
       <ContactUs
         img={"/services/hybrid-app/c-img.webp"}
         pathname={"Android App Dev"}
-        header={"You Could Be Our Next Success Story"}
-        para={"Your app idea deserves to shine. Partner with us to build an Android mobile app that delivers engages users and grows your business. Let’s change your vision into a powerful app that works flawless on Android devices."}
-        btn={"Let’s Create Your App"}
+        header={"Hire Android Developer Today"}
+        para={"Scale your development team with the skilled professionals who deliver the reliable result. Businesses can hire android developers from us for fast onboarding, expert support and the smooth collaboration. We ensure secure, high quality applications while helping you to start quickly and grow without delays or the technical challenges."}
+        btn={"Get Free Consultation"}
       />
     </div>
   );

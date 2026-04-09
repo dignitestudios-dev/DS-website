@@ -5,25 +5,25 @@ import Link from "next/link";
 import React, { useContext } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import Image from "next/image";
+import { MdArrowOutward } from "react-icons/md";
 const Hero = () => {
   const { palette, theme } = useContext(GlobalContext);
   return (
-    <main className="w-full global-padding-horizontal flex flex-col pt-28 md:pt-40 h-[110vh] lg:h-[140vh] 2xl:h-screen relative gap-4 justify-start items-center">
+    <main className="w-full global-padding-horizontal flex flex-col h-[110vh] lg:h-[140vh] 2xl:h-screen relative gap-4 justify-start items-center">
       <h1
         style={{
           color: palette?.color,
         }}
         className="text-[1.8rem] lg:text-6xl xl:text-[68px] 2xl:text-[94px] font-semibold xl:font-bold tracking-tighter text-center capitalize lg:leading-[71.93px] 2xl:leading-[99px]"
       >
-        High-End Mobile Application <br />{" "}
-        <span className="text-[#F15C20]">Support and Maintenance</span> Services
+       Expert Mobile App Maintenance  <br />{" "} Services
       </h1>
       <h2
-        className={`text-base font-normal text-center ${
+        className={`text-lg font-normal text-center ${
           theme === "light" ? "text-[#5C5C5C]" : "text-[#8F8F8F]"
         }`}
       >
-        Get free maintenance and support consultation from our top experts.
+     With our professional mobile app maintenance services, your business can unlock the full potential of your mobile app. To help you build your starting concepts and strategy, we offer a free consultation that you might have been looking for..
       </h2>
       <div>
         {/* <Link
@@ -32,7 +32,17 @@ const Hero = () => {
         >
           Get A Quote <FiArrowUpRight className="text-2xl" />
         </Link> */}
-        <ContactButton text1={"Get A Quote"} text2={"Let's talk"} />
+          <Link
+          href="/contact-us"
+          className="flex items-center group justify-center "
+        >
+          <button className="bg-[#F15C20] border-[#F15C20]  group-hover:bg-white border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+            Talk to the Team
+          </button>
+          <button className="bg-[#F15C20] group-hover:bg-white border-[#F15C20] border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+            <MdArrowOutward />
+          </button>
+        </Link>
       </div>
       <div className="w-full relative">
         <Image

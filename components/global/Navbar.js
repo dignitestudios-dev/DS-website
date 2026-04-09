@@ -180,7 +180,7 @@ const Navbar = ({ setIsOpen }) => {
         image: "/eco-r.webp",
         items: [
           ["Shopify App Development", "/ecommerce/shopify-app-development"],
-          ["Ecommerce App Development", "/ecommerce/ecommerce-app-development"],
+          ["Ecommerce Development", "/ecommerce/ecommerce-development"],
           ["Shopify Store Development", "/ecommerce/shopify-store-development"],
         ],
       },
@@ -188,11 +188,11 @@ const Navbar = ({ setIsOpen }) => {
         image: "/eco-r.webp",
         items: [
           [
-            "WooCommerce App Development",
-            "/ecommerce/woo-commerce-app-development",
+            "WooCommerce Development",
+            "/ecommerce/woo-commerce-development",
           ],
           [
-            "BigCommerce App Development",
+            "BigCommerce Development",
             "/ecommerce/big-commerce-app-development",
           ],
           [

@@ -35,51 +35,75 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-      <div className="relative flex justify-center h-[350px] md:h-[550px] items-center my-12 ">
-        <Image
-          src={"/services/mob-hire/grad.webp"}
-          className="absolute lg:block hidden top-1/2 left-[55%] -translate-x-[50%] -translate-y-[50%]"
-          alt=""
-          width={1000}
-          height={1000}
-        />
-
-        <motion.div
-          className="relative hidden md:block"
-          initial={{ y: 80, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{
-            duration: 0.8,
-            ease: "easeOut",
-          }}
-        >
-          <Image
-            src="/services/mob-hire/mob.webp"
-            alt="Android app development"
-            width={300}
-            height={300}
-            fetchPriority="high"
-            priority
-            className=""
-            quality={100}
-          />
-        </motion.div>
-        <div className="relative md:hidden">
-          <Image
-            src="/services/mob-hire/mob.webp"
-            alt="Android app development"
-            width={250}
-            height={250}
-            fetchPriority="high"
-            priority
-            quality={80}
-            className="px-4"
-          />
-        </div>
-
-        <div className="absolute z-30 -bottom-32 left-0 w-full border-none h-[130px] bg-gradient-to-t from-white to-transparent via-white" />
-      </div>
+          <div className="relative flex justify-center h-[350px] md:h-[550px] items-center my-12 ">
+              <Image
+                src={"/services/ios-hire/grad.webp"}
+                className="absolute lg:block hidden top-1/2 left-[55%] -translate-x-[50%] -translate-y-[50%]"
+                alt=""
+                width={1000}
+                height={1000}
+              />
+              <Image
+                src={"/services/ios-hire/sofa.webp"}
+                className="absolute top-[90%] lg:block hidden left-1/2 z-30 -translate-x-[50%] -translate-y-[50%]"
+                alt=""
+                width={400}
+                height={400}
+              />
+              <Image
+                src={"/services/ios-hire/sofa.webp"}
+                className="absolute top-[90%] lg:hidden block left-1/2 z-30 -translate-x-[50%] -translate-y-[50%]"
+                alt=""
+                width={300}
+                height={300}
+              />
+              <motion.div
+                className="relative hidden md:block"
+                initial={{ y: 80, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{
+                  duration: 0.8,
+                  ease: "easeOut",
+                }}
+              >
+                <Image
+                  src="/services/and-hire/mob.webp"
+                  alt="Mobile app development showcase Boston"
+                  width={300}
+                  height={300}
+                  fetchPriority="high"
+                  priority
+                  className=""
+                  quality={100}
+                />
+              </motion.div>
+              <div className="relative md:hidden">
+                <Image
+                  src="/services/and-hire/mob.webp"
+                  alt="Mobile app development showcase Boston"
+                  width={250}
+                  height={250}
+                  fetchPriority="high"
+                  priority
+                  quality={80}
+                  className="px-4"
+                />
+              </div>
+              {/* <Imagesrc="/location/mobile-boston/r.webp"
+                alt=""
+                width={150}
+                height={150}
+                className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
+               />
+              <Imagesrc="/location/mobile-boston/l.webp"
+                alt=""
+                width={150}
+                height={150}
+                className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"
+                /> */}
+                        <div className="absolute z-30 -bottom-32 left-0 w-full border-none h-[130px] bg-gradient-to-t from-white to-transparent via-white" />
+                </div>
       <div>
         <Platforms />
       </div>
