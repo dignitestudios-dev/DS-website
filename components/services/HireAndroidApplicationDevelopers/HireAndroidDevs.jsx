@@ -71,17 +71,23 @@ const features = [
   },
 ];
 
-const techData = [
-  { name: "Kotlin", icon: <SiKotlin /> },
-  { name: "Java", icon: <FaJava /> },
-  { name: "Native Android Solutions", icon: <SiAndroid /> },
-  { name: "Flutter", icon: <SiFlutter /> },
-  { name: "React Native", icon: <SiReact /> },
-  { name: "Node.js", icon: <SiNodedotjs /> },
-  { name: "Python", icon: <SiPython /> },
-  { name: "PHP", icon: <SiPhp /> },
-  { name: "Google Firebase", icon: <SiFirebase /> },
-];
+const techData = {
+  "Android Technologies": [
+    { name: "Kotlin", icon: <SiKotlin /> },
+    { name: "Java", icon: <FaJava /> },
+    { name: "Native Android Solutions", icon: <SiAndroid /> },
+  ],
+  "Cross Platform": [
+    { name: "Flutter", icon: <SiFlutter /> },
+    { name: "React Native", icon: <SiReact /> },
+  ],
+  "Backend Technologies": [
+    { name: "Node.js", icon: <SiNodedotjs /> },
+    { name: "Python", icon: <SiPython /> },
+    { name: "PHP", icon: <SiPhp /> },
+    { name: "Google Firebase", icon: <SiFirebase /> },
+  ],
+};
 
 const services = [
   {
@@ -483,7 +489,7 @@ const HireAndroidDevs = () => {
 
       <CTA />
 
-      <Faq faqs={faqs} />
+      <Faq header={"FAQs"} faqs={faqs} />
 
       <ContactUs
         img={"/services/hybrid-app/c-img.webp"}
