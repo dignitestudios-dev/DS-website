@@ -193,7 +193,7 @@ const Navbar = ({ setIsOpen }) => {
           ],
           [
             "BigCommerce Development",
-            "/ecommerce/big-commerce-app-development",
+            "/ecommerce/big-commerce-development",
           ],
           [
             "Shopify Integration Development",
