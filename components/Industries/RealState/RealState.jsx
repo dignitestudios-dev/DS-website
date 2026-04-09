@@ -593,6 +593,7 @@ const RealState = () => {
       />
       <Faq faqs={faqs} header="FAQs" />
       <ContactUs
+       pathname={"Real Estate App dev"}
         img={"/industries/real-state/c-img.webp"}
         header="Start Your Real Estate App Journey"
         para="Share your app idea with our real estate app development company. We will guide you with the right solution and strategy.  "

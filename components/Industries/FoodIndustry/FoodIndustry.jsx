@@ -585,6 +585,7 @@ The team is understanding and helps you overcome the unique challenges of each a
       <Faq faqs={faqs} header="Commonly Asked Questions" />
       <ContactUs
         img={"/industries/food-industry/c-img.webp"}
+          pathname={"Food Industry"}
         header="Build Your Food Delivery App with Us"
         para=" Take your food business online with us by getting a customized delivery app. Contact Dignite Studios for a free consultation and discover how our experts can help you grow your business with a reliable and highly functional app solution. "
         btn="Get Free Consultation "

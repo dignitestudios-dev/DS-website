@@ -1,11 +1,14 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import {
   AiOutlineArrowRight,
   AiOutlineLeft,
   AiOutlineRight,
 } from "react-icons/ai";
+import { MdArrowOutward } from "react-icons/md";
 
 const steps = [
   { title: "Project Vision", description: "Structured planning and clarity." },
@@ -16,7 +19,7 @@ const steps = [
   { title: "Meet Developer", description: "Regular sync & updates." },
 ];
 
-const HiringProcess = () => {
+const HiringProcess = ({header,para,button , steps}) => {
   const scrollRef = useRef(null);
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -96,9 +99,12 @@ const HiringProcess = () => {
 
         {/* Heading */}
         <div className="text-center max-w-[860px]">
-          <h2 className="font-bold text-4xl md:text-6xl text-[#1F222E]">
-            Hiring Process
+          <h2 className="font-bold tracking-tighter mb-10 text-4xl md:text-7xl">
+            {header}
           </h2>
+          <p className="text-lg text-[#1F222E]">
+            {para}
+          </p>
         </div>
 
         {/* Slider */}
@@ -117,12 +123,13 @@ const HiringProcess = () => {
               {steps.map((step, idx) => (
                 <div
                   key={idx}
-                  className="snap-start min-w-[270px] w-1/4 flex-shrink-0 rounded-[27px] bg-white p-6 shadow-sm"
+                  className="snap-start w-[24%] flex-shrink-0 rounded-[27px] bg-white p-8 shadow-sm"
                 >
-                  <div className="mb-4 text-lg font-semibold">
-                    {idx + 1}
+                  <div className="mb-20 ">
+                 <Image src={step.icon} alt="" width={40} height={40} />
                   </div>
-                  <h3 className="font-semibold mb-2">{step.title}</h3>
+                  
+                  <h3 className="font-semibold mb-2">   {idx + 1}. {step.title}</h3>
                   <p className="text-sm">{step.description}</p>
                 </div>
               ))}
@@ -130,12 +137,16 @@ const HiringProcess = () => {
           </div>
 
           {/* CTA CENTER */}
-          <div className="absolute bottom-6 left-1/2 -translate-x-1/2">
-            <button className="flex items-center gap-2 bg-[#F15C20] text-white px-6 py-3 rounded-full">
-              Talk to Experts <AiOutlineArrowRight />
-            </button>
-          </div>
-
+          <div className="flex justify-center items-center w-full" >
+         <Link href={"/contact-us"} className="flex items-center w-fit  group justify-center ">
+          <button className="bg-[#F15C20] border group-hover:bg-white group-hover:border  group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+         {button }
+          </button>
+          <button className="bg-[#F15C20] border group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+            <MdArrowOutward />
+          </button>
+        </Link>
+</div>
           {/* ARROWS RIGHT */}
           <div className="absolute bottom-6 right-6 flex gap-3">
             <button

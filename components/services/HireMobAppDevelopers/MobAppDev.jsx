@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "./Hero";
 import About from "../ui/About";
-import Services from "../ui/Services";
+import Services from "./Services";
 import Link from "next/link";
 import Bussiness from "../ui/Bussiness";
 import { MdArrowOutward } from "react-icons/md";
@@ -63,6 +63,46 @@ import {
 import { MdDevices, MdDesignServices, MdApi } from "react-icons/md";
 import HiringProcess from "../ui/HiringProcess";
 import TabularTechs from "../ui/TabularTechs";
+import FlexibleHiring from "../ui/FlexibleHiring";
+import WhyChoose from "../ui/WhyChoose";
+const features = [
+  {
+    number: "01",
+    title: "Proven Development Expertise",
+    description:
+      "Our developers have extensive experience creating the apps across the platforms, ensuring the high performance and meeting client expectations consistently.",
+  },
+  {
+    number: "02",
+    title: "Transparent Communication",
+    description:
+      "We maintain the clear and regular updates, so clients who hire Mobile App Developers can track the progress and provide feedback throughout the development process.",
+  },
+  {
+    number: "03",
+    title: "Agile Methodology",
+    description:
+      "We use agile practices to adapt it quickly to changes. Businesses that hire Mobile App Developers from us to get the timely delivery while maintaining app quality and functionality.",
+  },
+  {
+    number: "04",
+    title: "Scalable Teams",
+    description:
+      "Our developers can expand or adjust team size to match project complexity and business growth requirements efficiently.",
+  },
+  {
+    number: "05",
+    title: "On Time Delivery",
+    description:
+      "Projects are completed within the agreed timelines without compromising the quality, ensuring apps are launched and operational as planned.",
+  },
+  {
+    number: "06",
+    title: "Long Term Technical Support",
+    description:
+      "We offer ongoing maintenance,updates and troubleshooting to keep your app performing smoothly after the launch.",
+  },
+];
 const techData = {
   "iOS App Development": [
     { name: "Swift", icon: <SiSwift /> },
@@ -136,8 +176,8 @@ const FEATURES = [
 
 const services = [
   {
-    icon: "icon",
-    icon2: "icon4",
+    icon: "/location/mobile-california/icons/icon.webp",
+    icon2: "/location/mobile-california/icons/icon4.webp",
     title: "Custom Mobile App Development",
     description: (
       <>
@@ -146,8 +186,8 @@ const services = [
     ),
   },
   {
-    icon: "pen",
-    icon2: "pen5",
+    icon: "/location/mobile-california/icons/pen.webp",
+    icon2: "/location/mobile-california/icons/pen5.webp",
     title: "UI/UX Design for Mobile Apps",
     description: (
       <>
@@ -156,8 +196,8 @@ const services = [
     ),
   },
   {
-    icon: "setting",
-    icon2: "setting2",
+    icon: "/location/mobile-california/icons/setting.webp",
+    icon2: "/location/mobile-california/icons/setting2.webp",
     title: "Cross Platform App Development",
     description: (
       <>
@@ -166,8 +206,8 @@ const services = [
     ),
   },
   {
-    icon: "pipe",
-    icon2: "pipe3",
+    icon: "/location/mobile-california/icons/pipe.webp",
+    icon2: "/location/mobile-california/icons/pipe3.webp",
     title: "App Testing & Quality Assurance",
     description: (
       <>
@@ -176,8 +216,8 @@ const services = [
     ),
   },
   {
-    icon: "icon",
-    icon2: "icon4",
+    icon: "/location/mobile-california/icons/database.webp",
+    icon2: "/location/mobile-california/icons/database1.webp",
     title: "API & Backend Development",
     description: (
       <>
@@ -186,8 +226,8 @@ const services = [
     ),
   },
   {
-    icon: "pen",
-    icon2: "pen5",
+    icon: "/location/mobile-california/icons/set.webp",
+    icon2: "/location/mobile-california/icons/set1.webp",
     title: "App Maintenance & Support",
     description: (
       <>
@@ -199,99 +239,102 @@ const services = [
 
 const highlights = [
   {
+    icon:"/services/mob-hire/1.webp",
     title: "Skilled Mobile App Developers",
     desc: "Our developers have a wealth of experience creating high performing apps for many platforms guaranteeing dependable and user friendly mobile solutions for your company’s requirements",
   },
   {
+        icon:"/services/mob-hire/2.webp",
     title: "Adaptable Hiring Practices",
     desc: "To efficiently fit the scope and timeframe of your project, select from hourly, dedicated or the project based employment choices.",
   },
   {
+        icon:"/services/mob-hire/3.webp",
     title: "Agile Development Process",
     desc: "Our teams follow the agile practices which deliver app quickly, adapt to the changes and maintain consistent project progress.",
   },
   {
+        icon:"/services/mob-hire/4.webp",
     title: "Fast Onboarding",
     desc: "Developers integrate into your existing team rapidly, ensuring the minimal delays and faster project initiation or the immediate productivity.",
   },
   {
+        icon:"/services/mob-hire/5.webp",
     title: "Transparent Communication",
     desc: "We keep the clients informed and involved at every level of the development process by communicating clearly and frequently",
   },
   {
+        icon:"/services/mob-hire/6.webp",
     title: "Secure NDA & IP Protection",
     desc: "All projects are safeguarded with the NDAs and IP protection to ensure your ideas and data remain fully secure.",
   },
 ];
 const VALUE_PROPOSITION = [
   {
-    title: "Healthcare Apps",
-    desc: "As the best hybrid app development company in USA, we build apps that comply with HIPAA, completely prepared for the health sector.",
+    title: "Healthcare & Fitness",
+    desc: "We develop secure and user friendly healthcare apps that support patient management, fitness tracking and wellness solutions for businesses and healthcare providers.",
   },
   {
-    title: "Fintech Apps",
-    desc: "With our fintech development services, we provide support in launching secure fintech apps and payment mobile apps with multi-layer authentication.",
+    title: "Ecommerce & Retail",
+    desc: "Our developers create shopping apps through the smooth checkout, inventory management and the scalable features. We hire mobile app development company for full support.",
   },
   {
-    title: "E-commerce & Retail Apps",
-    desc: "Dignite Studios keeps everything simple through ecommerce services. Like, Storefront, Inventory, and POS? Already included.",
+    title: "Real Estate",
+    desc: "We build apps for the property listings, virtual tours and client communication, helping real estate businesses improve the engagement and streamline operations effectively.",
   },
   {
-    title: "Educational Apps",
-    desc: "We provide educational application development services that lead students step by step through courses and quizzes. That means providing teachers with dashboards too.",
+    title: "Education & E-Learning",
+    desc: "We design interactive learning apps, online course platforms and assessment systems which make learning convenient and accessible for the students and institutions.",
   },
   {
-    title: "Real Estate Apps",
-    desc: "Dignite Studios offers property applications that include the following: Listings, virtual tours, mortgage calculators, and management tools.",
+    title: "Travel & Hospitality",
+    desc: "Our group creates travel management and reservation apps. To improve client satisfaction and expedite services, businesses can also employ mobile app developers.",
   },
   {
-    title: "Dating and Matchmaking Apps",
-    desc: "Helpful connections are more important than features. This approach prefers verified identities and controls that increase genuine engagement.",
+    title: "Food Delivery & Restaurants",
+    desc: "We create apps for online ordering, delivery tracking and menu management. Businesses can also hire Mobile App Developer in usa for fast and reliable solutions.",
+  },
+  {
+    title: "Fitness & Wellness",
+    desc: "We build apps for personal trainers, gyms and wellness programs that track workouts, diet plans and user progress efficiently.",
   },
 ];
-
 const test = [
   {
-    name: "Emily Millers",
-    designation: "— Founder – Prime Techs",
+    name: "John Smith",
+    designation: "— FitLife App",
     review:
-      "“The team helped us launch our app on both iOS and Android quickly. They were professional, responsive, and really understood our vision from start to finish.”",
+      "“Our fitness app was delivered on schedule by the Dignite Studios developers. Their work was quite professional and they helped us enhance user engagement fluently”",
   },
   {
-    name: "Michael Wilson",
-    designation: "— CEO – EeZshop Stores",
+    name: "Sarah Lee",
+    designation: "— EduLearn",
     review:
-      "“Working with Dignite Studios was a game changer for us. Our users are much more engaged. Their guidance made the entire process easy.”",
+      "“Our Ecommerce app now runs faster and quite smoother. The team’s expertise allowed us to hire Mobile App Developer in usa which truly understood our needs”",
   },
   {
-    name: "Sofia David",
-    designation: "— Co-Founder – TreX Labs",
+    name: "Michael Brown",
+    designation: "— EduLearn",
     review:
-      "“I loved their hands-on approach. They walked us through every step, and the final app works perfectly across all devices. Hire hybrid app developers! Much recommended.”",
+      "“From Design to deployment the team was quite reliable. Their guidance and updates made the development process quite stress free and efficient for our educational platform”",
   },
   {
-    name: "Benjamin Martin",
-    designation: "— Owner – QuickCon Solutions",
+    name: "Emily Davis",
+    designation: "— Travel Mate",
     review:
-      "“From planning to launch, everything was seamless. Our app is secure, scalable, and our users love the experience. Truly impressive work.”",
+      "“The mobile app developers were quite responsive and professional. They delivered the high quality travel app which met all your requirements quite perfectly”",
   },
   {
-    name: "Lewis William",
-    designation: "— Product Manager – FinTrack Systems",
+    name: "David Wilson",
+    designation: "— FoodieGo",
     review:
-      "“They delivered exactly what we needed. The app’s performance and usability have improved our workflow and customer satisfaction dramatically.”",
+      "“We hire dedicated mobile app developers from Dignite Studios for ongoing support. Their team improved our app performance and maintained smooth operation consistently”",
   },
   {
-    name: "Matthew Daniel",
-    designation: "— Business Consultant – EdgE Advisors",
+    name: "Laura Thompson",
+    designation: "— RealEstate Pro",
     review:
-      "“Professional, efficient, and reliable. They exceeded our expectations and helped us reach more users than we anticipated.”",
-  },
-  {
-    name: "Jacob Nathan",
-    designation: "— Founder – FitLife Apps",
-    review:
-      "“If you want an app that works smoothly on any device, I highly recommend this team. Hire hybrid app developers from Dignite Studios. They are knowledgeable, responsive, and amazing to work with.”",
+      "“The project was completed on schedule. Developers ensured all features worked perfectly and post launch support was quite helpful for our team”",
   },
 ];
 
@@ -326,69 +369,125 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "Do you build Hybrid apps?",
+    question: "How much does it cost to hire mobile app developers?",
     answer:
-      "Yes. Our hybrid mobile app development services create apps that grow with your business. We ensure smooth performance, fast loading and easy management so your app can handle more users and traffic while delivering a reliable and fluent experience across both iOS and Android devices.",
+      "The cost very much depends on the project scope, platform and complexity. You can also hire Developers on hourly, dedicated or the project based plans to match the budgets and ensure the optimal results.",
   },
   {
     id: 2,
-    question: "How long does hybrid development take?",
+    question: "How long does it take to onboard developers?",
     answer:
-      "The timeline depends on your app’s complexity, features and integrations. Our hybrid app development agency follows a structured process to complete the project efficiently. We focus on quality, clear communication and timely delivery so your app launches on schedule and operates smoothly for your business.",
+      "Onboarding is fast and smooth. After selecting your developer, they can start working on the project in a few days, it ensures immediate progress and quick integration within your team.",
   },
   {
     id: 3,
-    question: "Do you support hybrid app feature development?",
+    question: "Can I Hire developers for short term projects?",
     answer:
-      "Absolutely. With our hybrid mobile app development services, we create custom features and integrations for your app. These enhancements improve functionality, connect third-party tools, automate tasks, and deliver a seamless user experience across both iOS and Android.",
+      "Yes. Our hourly and project based hiring models also allow you to hire a mobile app developer for the short term projects, updates or specific tasks without committing to the long term contracts.",
   },
   {
     id: 4,
-    question: "Can you refine my Hybrid app idea?",
+    question: "Do you provide post launch support?",
     answer:
-      "Yes. Our hybrid development agency helps refine your app idea, plan features and implement the design. We guide you step by step to ensure your app is easy to use, scalable, visually appealing and aligned with your business goals and customer expectations.",
+      "Yes. Our developers offer continuous maintenance, performance monitoring and updates. They ensure your app runs smoothly while addressing issues promptly to maintain stability and user satisfaction.",
   },
   {
     id: 5,
-    question: "Do you work with startups and enterprises?",
+    question: "Can I scale the development team later?",
     answer:
-      "Yes. We work with businesses of all sizes. As a professional hybrid app development agency, we deliver tailored solutions for startups and large enterprises, ensuring your app is secure, scalable and optimized to grow your business while providing a smooth customer experience.",
+      "Absolutely. You can expand your team whenever required. Our flexible options let you hire the dedicated mobile app developers to handle the increased workload and support growing project demands efficiently.",
   },
 ];
 
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery and Strategy",
-    desc: "When the strategy is clear, the product turns out great, so in this phase, we align your business goals with the app’s vision and features.",
+    title: "Requirement Analysis",
+    desc: "We are aware of your target audience, app needs and company objectives. This step helps create a clear plan before starting the development process.",
   },
   {
     step: "02",
-    title: "User Interface Design",
-    desc: "It is a hybrid app development process in which a preliminary visual mock-up has been created that shows the mobile app’s initial design.",
+    title: "UI/UX Design",
+    desc: "Our team designs simple and user-friendly interfaces. We focus on the clean layouts which improve user experience and make the app super easy to use.",
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The sprint planning for hybrid development begins, and our professional app developers define the product roadmap and total execution time.",
+    title: "App Development",
+    desc: "Developers start building applications using modern technologies. We ensure the app is quite fast, secure and works smoothly across all the devices.",
   },
   {
     step: "04",
-    title: "Testing Stage",
-    desc: "Conducting tests at every stage of the hybrid development process helps keep up with the latest status updates.",
+    title: "Testing",
+    desc: "To find faults and defects, every functionality is thoroughly evaluated. This step ensures both the application’s correct operation and an intuitive user interface.",
   },
   {
     step: "05",
-    title: "Deployment",
-    desc: "Deployment is where preparation connects performance, resulting in smooth operation across different platforms.",
+    title: "Quality Assurance",
+    desc: "Our QA team verifies app performance, security and usability. This also ensures that app features meet quality standards before the final deployment.",
   },
   {
     step: "06",
-    title: "Post-Launch Support",
-    desc: "Once the launch is done, the hybrid developers’ focus shifts to checking performance and optimizing features based on user feedback.",
+    title: "Deployment",
+    desc: "We launch the app on the required platforms. Our team also ensures proper configuration and smooth release so the application is fully ready for the users.",
+  },
+  {
+    step: "07",
+    title: "Post Launch Support",
+    desc: "We offer ongoing upkeep and updates following deployment. Our team fixes issues, improves the features and ensures the app performs reliably quite over the time.",
+  },
+];
+const steps = [
+  {
+    title: "Project Vision",
+    description:
+      "We discuss your project goals and requirements to understand the app needs clearly before selecting the right developers.",
+    icon: "/services/mob-hire/hire/1.webp",
+  },
+  {
+    title: "Expert Consultation",
+    description:
+      "Our team provides the advice on technology, platform and resources so that you can make the informed decisions for your mobile app.",
+    icon: "/services/mob-hire/hire/2.webp",
+  },
+  {
+    title: "Hiring Mobile App Developers",
+    description:
+      "Select skilled developers from our team to match your project requirements. You can also hire dedicated mobile app developers for the full time support.",
+    icon: "/services/mob-hire/hire/3.webp",
+  },
+  {
+    title: "Developer Biography",
+    description:
+      "We share detailed profiles, experience and previous projects of the developers which help you choose the perfect match for your app.",
+    icon: "/services/mob-hire/hire/4.webp",
+  },
+  {
+    title: "Meeting With the Developer & Collaboration",
+    description:
+      "Connect directly with your developer. Discuss project details, timelines and tasks which ensure the smooth collaboration from the day one.",
+    icon: "/services/mob-hire/hire/5.webp",
   },
 ];
 
+const cards = [
+  {
+    title: "Dedicated Developer",
+    desc: "Hire the full time developer who works only on your project . This model is ideal for long term projects which need continuous development and focused attention.",
+    icon: "/services/test.webp",
+  },
+  {
+    title: "Hourly Hiring",
+    desc: "Pay only for the hours worked by the developer. This option is quite suitable for the small tasks, updates, bug fixes and short term development needs.",
+    icon: "/services/sb.webp",
+    illustration: "hourly",
+  },
+  {
+    title: "Project Based Hiring",
+    desc: "Choose a fixed scope and budget for your project. This model is quite best for projects with clear requirements and defined timelines from the very start.",
+    icon: "/services/mob.webp",
+    illustration: "project",
+  },
+];
 const MobAppDev = () => {
   return (
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
@@ -472,27 +571,41 @@ const MobAppDev = () => {
           "Our developers provide complete mobile app solutions for businesses of all sizes. You can hire Mobile app Developers to build, design, test and maintain the applications. We also support businesses of all sizes. You can also developers to build, design, test and maintain applications. We also support businesses that want to hire a mobile app developer for scalable high performance digital products.    "
         }
       />
+  <FlexibleHiring cards={cards} header={"Choose the Right Hiring Model For Your Project"} para={"Businesses can choose the right hiring model based on their project size, timeline and budget. We help you hire Mobile App Developers in a way which fits your needs and ensures the smooth development without the delays. " }/>
   
-      <HiringProcess />
       <Process
         steps={PROCESS_STEPS}
-        header={"Proven Process of a Hybrid Mobile App Development Company"}
+        header={"Our Step by Step Mobile App Development Approach"}
         para={
-          "The development team works with a perfectly structured approach that brings your idea to life. Different hybrid development companies work with unique workflows, but when it comes to creating mobile apps at our company, we utilize an approach of the hybrid app development company USA approach to ensure that we design applications that work the proper way. Here’s the workflow. "
+          "We follow a clear and structured process to build mobile applications. This helps businesses hire Developers with confidence and ensures eerie projects are delivered on time through the high quality and smooth performance. "
         }
       />
 
       <Industries
         VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Expert Hybrid App Development For Different  "}
-        header2={"Industries"}
+        header={"Industries Our Mobile App Developers are"}
+        header2={"specialized"}
         para={
-          "We design hybrid apps according to your growth goals. Being one of the top mobile app development companies, our professionalism stops us from offering the exact same product for every industry. Offering custom solutions for every industry is our speciality. Also, building apps for your industry needs gives you an advantage in the market. "
+          "Our team has extensive experience building mobile applications across multiple industries. Businesses choose to hire Mobile App Developer from us to create scalable and reliable apps for the different sectors. "
         }
-        button={"Let’s Talk Today"}
+        button={"Discuss Your Mobile App Idea "}
       />
-
-      <MobileApp
+  <SuccessStories
+        header={"Our Successful Mobile App "}
+        header2={" Projects "}
+        para={
+          "We have helped businesses build and launch the high performing mobile applications. Our portfolio highlights the real projects where apps improved user engagement, streamlined operations and achieved measurable growth. Explore our case studies and portfolio to see how our developers deliver reliable solutions."
+        }
+      />
+            <Testimonials
+        test={test}
+        para={"Businesses trust us to deliver high quality mobile apps which meet their goals. Clients praise our development quality, communication and timely delivery. Here’s what they have to say about working with our team. "}
+        header={"What Our Clients Say About Our Mobile"}
+        header2={" App Developers"}
+        button={"Get Free Consultation"}
+      />
+          <HiringProcess steps={steps} header={"How Our Mobile App Developer Hiring Works "} para={"Hiring developers from Dignite Studios is simple and fast. Follow these steps to hire mern mobile app developer who can trust contributing to your project immediately."} button={"Hire Mobile App Developers "} />
+      {/* <MobileApp
         header={"Benefits of Having Your Hybrid  "}
         header2={"App"}
         para={
@@ -502,8 +615,11 @@ const MobAppDev = () => {
           </>
         }
         cards={BENEFITS}
+      /> */}
+      <WhyChoose header={"Why Companies Prefer Our Mobile App Developers "} para={"Businesses choose Dignite Studios for our proven expertise, transparent communication and reliable solutions. Our companies hire Mobile App developers from our team to build high quality apps efficiently while maintaining the long term support for the scalable projects. "}
+      features={features}
       />
-      <Features
+      {/* <Features
         header={"Must-Have Features in Your Hybrid  Mobile "}
         header2={"App"}
         para={
@@ -520,20 +636,10 @@ const MobAppDev = () => {
         }
         features={FEATURES}
         button={"Get Feature Recommendations"}
-      />
-      <SuccessStories
-        header={"Successful Outcomes of Hybrid Mobile App "}
-        header2={"Development Services"}
-        para={
-          "Check out our case studies to see how we created functional hybrid apps from ideas. every project we mentioned here shows the challenges our clients faced, the custom solutions we implemented, and the results we achieved as a team. See our development process and technologies that helped us build secure and engaging hybrid applications. "
-        }
-      />
+      /> */}
+    
       <CTA />
-      <Testimonials
-        test={test}
-        header={"What Our Clients Say About"}
-        header2={"Our Work"}
-      />
+
       <Faq faqs={faqs} />
       <ContactUs
         img={"/services/hybrid-app/c-img.webp"}

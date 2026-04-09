@@ -551,6 +551,7 @@ const WooCommerceAppDevelopment = () => {
       />
       <Faq faqs={faqs} header="FAQs" />
       <ContactUs
+        pathname={"Woo Commerce App dev"}
         img={"/ecommerce/shopify-app/c-img.webp"}
         header="Kickstart Your WooCommerce Store Journey Today"
         para="Take the first step to build your scalable WooCommerce store. Share your ideas and get a professional consultation today. "

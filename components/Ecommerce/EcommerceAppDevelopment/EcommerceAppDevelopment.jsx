@@ -533,6 +533,7 @@ const EcommerceAppDevelopment = () => {
       <Faq faqs={faqs} header="FAQs" />
       <ContactUs
         img={"/ecommerce/shopify-app/c-img.webp"}
+          pathname={"ECommerce App dev"}
         header="Kickstart Your Ecommerce App Journey Today"
         para="Start your ecommerce app project with a team that understands your business needs. Our experts help you plan, build and launch scalable solutions which also deliver real results and long term growth."
         btn="Request Ecommerce App Development Quote"

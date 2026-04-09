@@ -523,6 +523,7 @@ Explore our successful Ecommerce projects and see how our solutions support the 
       <Faq faqs={faqs} header="FAQs" />
       <ContactUs
         img={"/ecommerce/big-app/c-img.webp"}
+         pathname={"Big Commerce App dev"}
         header="Start Your BigCommerce Project"
         para="Have an Ecommerce idea or want to improve your existing store? Our team is ready to build secure and scalable solutions. Share your project details and we will guide you with the right development strategy.  "
         btn="Request BigCommerce Development Quote "

@@ -12,15 +12,15 @@ const Hero = () => {
     <div className="w-full grid grid-cols-1  bg-none  bg-contain bg-no-repeat bg-center justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          Hire Mobile App{" "}
-          <span className="text-[#F15C20] ">Developers</span>{" "}
+          Hire iOS App{" "}
+          <br/>
+          <span className="text-[#F15C20] ">Developer</span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          Hire dedicated mobile app developers from Dignite Studios to
-          accelerate your projects. Our experts specialize in iOS, Android and
-          Cross platform apps. They also deliver scalable, high quality
-          solutions and can join your team quickly for faster project
-          completion.
+          Hire iOS app Developer dedicated experts with the strong experience.
+          Our team builds the high quality iOS and cross platform apps. We also
+          deliver the scalable solutions through fast onboarding and reliable
+          performance for the growing businesses.
         </p>
 
         <Link
@@ -35,20 +35,27 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-      <div className="relative flex justify-center h-[200px] md:h-[500px] items-center my-12 ">
+      <div className="relative flex justify-center h-[350px] md:h-[550px] items-center my-12 ">
         <Image
-          src={"/services/mob-hire/grad.webp"}
-          className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]"
-          alt=""
-          width={500}
-          height={500}
-        />
-        <Image
-          src={"/services/mob-hire/cc.webp"}
-          className="absolute top-1/2 left-1/2 z-30 -translate-x-[50%] -translate-y-[50%]"
+          src={"/services/ios-hire/grad.webp"}
+          className="absolute lg:block hidden top-1/2 left-[55%] -translate-x-[50%] -translate-y-[50%]"
           alt=""
           width={1000}
           height={1000}
+        />
+        <Image
+          src={"/services/ios-hire/sofa.webp"}
+          className="absolute top-[90%] lg:block hidden left-1/2 z-30 -translate-x-[50%] -translate-y-[50%]"
+          alt=""
+          width={400}
+          height={400}
+        />
+        <Image
+          src={"/services/ios-hire/sofa.webp"}
+          className="absolute top-[90%] lg:hidden block left-1/2 z-30 -translate-x-[50%] -translate-y-[50%]"
+          alt=""
+          width={300}
+          height={300}
         />
         <motion.div
           className="relative hidden md:block"
@@ -61,10 +68,10 @@ const Hero = () => {
           }}
         >
           <Image
-            src="/services/mob-hire/mob.webp"
+            src="/services/ios-hire/mob.webp"
             alt="Mobile app development showcase Boston"
-            width={500}
-            height={500}
+            width={300}
+            height={300}
             fetchPriority="high"
             priority
             className=""
@@ -73,10 +80,10 @@ const Hero = () => {
         </motion.div>
         <div className="relative md:hidden">
           <Image
-            src="/services/mob-hire/mob.webp"
+            src="/services/ios-hire/mob.webp"
             alt="Mobile app development showcase Boston"
-            width={1021}
-            height={827}
+            width={250}
+            height={250}
             fetchPriority="high"
             priority
             quality={80}
@@ -94,8 +101,9 @@ const Hero = () => {
           width={150}
           height={150}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"
-         /> */}
-      </div>
+          /> */}
+                  <div className="absolute z-30 -bottom-32 left-0 w-full border-none h-[130px] bg-gradient-to-t from-white to-transparent via-white" />
+          </div>
       <div>
         <Platforms />
       </div>

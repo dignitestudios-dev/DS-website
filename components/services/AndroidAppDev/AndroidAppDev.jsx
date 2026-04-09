@@ -598,7 +598,7 @@ const AndroidAppDev = () => {
       <Faq faqs={faqs} />
       <ContactUs
         img={"/services/mobile-app/c-img.webp"}
-        pathname={"Mobile Dev in Boston "}
+        pathname={"Android App dev"}
         header={"Ready to Launch Your Android App?"}
         header2={""}
         para={

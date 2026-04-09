@@ -611,7 +611,7 @@ const ShopifyIntegrationDevelopment = () => {
       <Faq faqs={faqs} />
       <ContactUs
         img={"/ecommerce/shopify-app/c-img.webp"}
-        pathname={"Shopify App Development"}
+        pathname={"Shopify Integration Development"}
         header={"Launch Your Shopify Integration Now"}
         header2={""}
         para={
