@@ -644,12 +644,12 @@ const MobAppDev = () => {
       <ContactUs
         img={"/services/hybrid-app/c-img.webp"}
         pathname={"Hybrid App Dev "}
-        header={"You Could Be Our Next Success Story"}
+        header={"Hire Mobile App Developers Today"}
         header2={""}
         para={
-          "Your app idea deserves to shine. Partner with us to build a hybrid mobile app that delivers engages users and grows your business. Let’s change your vision into a powerful app that works flawless on both iOS and Android."
+          "Scale your team with skilled mobile app developers who deliver reliable results. We offer fast onboarding so you can start your project without delays. Our experts bring strong experience, clear communication and consistent quality. Build high performing apps and accelerate your business growth with a trusted development team. "
         }
-        btn={"Let’s Create Your App"}
+        btn={"Get Started Today "}
       />
     </div>
   );

@@ -35,7 +35,7 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-      <div className="relative flex justify-center h-[320px] md:h-[500px] items-center my-12 ">
+      <div className="relative flex justify-center h-[340px] md:h-[500px] items-center my-12 ">
         <Image
           src={"/services/mob-hire/grad.webp"}
           className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]"
