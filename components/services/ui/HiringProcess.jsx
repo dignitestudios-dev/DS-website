@@ -108,7 +108,7 @@ const HiringProcess = ({header,para,button , steps}) => {
         </div>
 
         {/* Slider */}
-        <div className="relative w-full rounded-[62px] bg-[#F1EFEC] p-6 md:p-10">
+        <div className="relative w-full rounded-[62px] bg-[#F1EFEC] p-6 md:p-10 pb-20">
 
           <div className="overflow-hidden">
             <div
@@ -123,7 +123,7 @@ const HiringProcess = ({header,para,button , steps}) => {
               {steps.map((step, idx) => (
                 <div
                   key={idx}
-                  className="snap-start w-[24%] flex-shrink-0 rounded-[27px] bg-white p-8 shadow-sm"
+                  className="snap-start w-full sm:w-[80%] md:w-[24%] flex-shrink-0 rounded-[27px] bg-white p-8 shadow-sm"
                 >
                   <div className="mb-20 ">
                  <Image src={step.icon} alt="" width={40} height={40} />
@@ -148,7 +148,7 @@ const HiringProcess = ({header,para,button , steps}) => {
         </Link>
 </div>
           {/* ARROWS RIGHT */}
-          <div className="absolute bottom-6 right-6 flex gap-3">
+          <div className="absolute bottom-6 left-1/2 -translate-x-[50%] lg:-translate-x-[-80%]  lg:right-6 flex gap-3">
             <button
               onClick={handlePrev}
               disabled={activeIndex === 0}

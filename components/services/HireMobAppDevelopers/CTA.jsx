@@ -10,7 +10,7 @@ const CTA = () => {
       {/* <img src={"/services/hybrid-app/s-cta.webp"} alt="img" width={800} height={800} className="absolute top-0 scale-105 md:block hidden left-0 w-full h-full object-contain z-10" /> */}
       <div className="flex flex-row-reverse justify-between items-center relative z-20">
    
-        <div className="w-full lg:w-[50%] flex flex-col items-end text-right ">
+        <div className="w-full lg:w-[50%] flex flex-col items-start text-left ">
           <h2 className="text-4xl capitalize font-bold mb-4">
           Start Building Your Mobile App Team Today 
           </h2>

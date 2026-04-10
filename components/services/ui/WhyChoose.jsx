@@ -32,7 +32,7 @@ const WhyChoose = ({header, para, features}) => {
                 className={`
                 relative overflow-hidden rounded-lg transition-all dark:bg-black/50 duration-300
                 bg-[#FAFAFA]
-                p-8 h-[300px] flex flex-col justify-between
+                p-8 h-[350px] lg:h-[300px] flex flex-col justify-between
               `}
               >
                 {/* Number */}
@@ -41,7 +41,7 @@ const WhyChoose = ({header, para, features}) => {
                 {/* Title */}
                 <h3
                   className={`
-                  text-[22px] md:pr-24 font-bold mb-16 transition-colors duration-300
+                  text-[22px] md:pr-24 font-bold mb-12 transition-colors duration-300
                  
                 `}
                 >
@@ -69,7 +69,7 @@ const WhyChoose = ({header, para, features}) => {
                 {/* Description - Hidden on Desktop, Shown on Hover */}
                 <div
                   className={`
-                  mt-4 text-sm transition-all duration-300 overflow-hidden
+                  text-[12px] transition-all duration-300 overflow-hidden
                   hidden md:block
                   ${
                     hoveredCard === index
