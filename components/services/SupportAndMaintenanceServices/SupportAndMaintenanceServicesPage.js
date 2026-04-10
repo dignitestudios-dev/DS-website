@@ -262,27 +262,27 @@ const highlights = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Apps",
-    desc: "Being the best at mobile app consulting, we guide you through the whole process of building apps that meet the standards of HIPAA.",
+    desc: "Being the best at providing mobile app support & maintenance services, we provide maintenance while guiding you through the whole process of building apps that meet the standards of HIPAA.",
   },
   {
     title: "Fintech Apps",
-    desc: "With our mobile app development consulting, you can plan launching secure fintech apps and payment mobile apps with multi-layer authentication.",
+    desc: "With our app maintenance services, you can get support even after launch to get secure fintech apps and payment mobile apps with multi-layer authentication.",
   },
   {
     title: "E-commerce & Retail Apps",
-    desc: "Dignite Studios’ application development consultant would gladly help you build ecommerce stores with storefront, inventory, and POS.",
+    desc: "Dignite Studios’ application developers and maintenance providers would gladly help you build ecommerce stores with storefront, inventory, and POS.  ",
   },
   {
     title: "Education & e-Learning Apps",
-    desc: "The expert app development consultant would help you build educational apps that are made for students and teachers.",
+    desc: "The expert app support providers would help you make perfect educational apps that are made for students and teachers.",
   },
   {
     title: "Real Estate Apps",
-    desc: "Our application development consulting services would help you build property apps that include the features you need.",
+    desc: "DIgnite Studios’ services are meant to help you build and provide support services for the property apps that include the features you need.",
   },
   {
     title: "Dating and Matchmaking Apps",
-    desc: "The experts would help you plan an application that focuses on creating safe and engaging platforms with strong privacy controls",
+    desc: "The experts would provide ongoing support for your application that focuses on creating safe and engaging platforms with strong privacy controls.",
   },
 ];
 const test = [
@@ -485,7 +485,7 @@ const SupportAndMaintenanceServicesPage = () => {
         services={services}
         header={"Expert Mobile App Maintenance"}
         header2={"Services"}
-        // button={"Get Our Services Today"}
+        button={"Get Our Services Today"}
         para={
           "When you are working with Dignite Studios for maintenance services, you’re working with a team that adds commitment to the work ethic first. As an expert in mobile app support & maintenance services, we have refined our services to meet your needs. Working with us means you get strong commitments and maintenance prepared by Dignite Studios.  "
         }
@@ -581,7 +581,7 @@ const SupportAndMaintenanceServicesPage = () => {
         header={"Successful Mobile App Projects by "}
         header2={"Dignite Studios"}
         para={
-          "Explore our case studies to see how Dignite Studios brought app ideas to life through strategies through mobile app consulting services. Each project highlights the challenges our clients faced and the customized consulting solutions we provided. See how our technical recommendations and growth planning helped businesses make better and aware decisions. "
+          "Explore our case studies to see how Dignite Studios brought the mobile applications ideas to life through strategies. Each project we mentioned here highlights the challenges our clients faced and the customized app solutions we provided. See how our technical recommendations and ongoing support helped businesses make better and more aware decisions."
         }
       />
       <CTA />
