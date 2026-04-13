@@ -5,15 +5,15 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 
-const CTA = ({
-  header = "Build Your Dating App with our Expert Developers",
-  para = "Work with the experienced team of developers at our dating app development company today. Because we help you build platforms with advanced matchmaking and better features. Consult with our experts to explore the best strategies. Create a dating app that stands out.",
-  btn = "Get Free Consultation",
+const CTA2 = ({
+  header = "Ready to Launch Your Dating App?",
+  para = "Turn your dating app concept into reality with our experienced development team. We help you plan and build platforms that attract and engage users. Consult with our experts to explore the best strategies.",
+  btn = "Request Free Quote",
 }) => {
 
 
   return (
-    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/industries/dating-app/s-cta.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
+    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/industries/dating-app/s-cta2.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
       <div className="flex items-center h-full gap-12 justify-between">
         <div className="w-full lg:w-[55%] flex flex-col items-start relative z-30 text-start">
           <h2 className="text-4xl  capitalize font-bold mb-4">
@@ -45,4 +45,4 @@ const CTA = ({
   );
 };
 
-export default CTA;
+export default CTA2;

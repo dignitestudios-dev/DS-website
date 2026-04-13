@@ -1,94 +1,96 @@
+"use client";
 
-
-"use client"
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-
-
-
 import Link from "next/link";
 
 import {
   FaBrain,
-  FaRobot,
-  FaChartLine,
-  FaHeartbeat,
+  FaComments,
+  FaBell,
+  FaShieldAlt,
   FaMicrophone,
-  FaStethoscope,
-  FaUserMd,
-  FaHospital,
+  FaChartLine,
 } from "react-icons/fa";
+
+import {
+  MdVerifiedUser,
+  MdLocationOn,
+} from "react-icons/md";
+
+import { RiUser3Line } from "react-icons/ri";
+
 import { MdArrowOutward } from "react-icons/md";
 
 const CARDS = [
   {
-    title: "Diagnosis Assistance",
+    title: "User Profile Creation",
     description:
-      "AI analyzes patient data to support more accurate medical diagnoses and improve overall treatment outcomes.",
+      "Users can easily create and personalize their profiles by adding photos and preferences. It adds personal details and allows them to present themselves clearly and attract the right matches. A well designed profile improves visibility. We build authenticity and increase the chances of meaningful connections while creating a more engaging and seamless experience across the platform.",
+    icon: <RiUser3Line className="text-5xl text-[#F15C20]" />,
+    bg: "bg-white",
+    text: "text-[#0C0C0C]",
+    border: "border border-[#DCDCDC]",
+  },
+  {
+    title: "Advanced Matching Algorithm",
+    description:
+      "The platform uses intelligent algorithms to match users based on interests, compatibility, and preferences, helping users find more relevant and accurate connections.",
     icon: <FaBrain className="text-5xl text-[#F15C20]" />,
     bg: "bg-white",
     text: "text-[#0C0C0C]",
     border: "border border-[#DCDCDC]",
   },
   {
-    title: "AI Medical Chatbots",
+    title: "Swipe or Match Mechanism",
     description:
-      "We’d provide 24/7 support that includes appointment scheduling to enhance patient engagement.",
-    icon: <FaRobot className="text-5xl text-[#F15C20]" />,
-    bg: "bg-white",
-    text: "text-[#0C0C0C]",
-    border: "border border-[#DCDCDC]",
-  },
-  {
-    title: "Predictive Health Analytics",
-    description:
-      "Uses patient data to predict disease risks and anticipate complications. It would guide more effective treatment decisions.",
+      "Users can browse profiles and express interest through simple swipe or match actions. It creates a smooth, engaging experience that improves interaction and retention.",
     icon: <FaChartLine className="text-5xl text-[#F15C20]" />,
     bg: "bg-white",
     text: "text-[#0C0C0C]",
     border: "border border-[#DCDCDC]",
   },
   {
-    title: "Smart Patient Monitoring",
+    title: "Chat and Messaging",
     description:
-      "Continuously monitors vital signs that can alert caregivers to enable early intervention and better outcomes.",
-    icon: <FaHeartbeat className="text-5xl text-[#F15C20]" />,
+      "Users can communicate instantly with matches through chat, emojis, and media sharing, enabling smooth conversations and stronger connections.",
+    icon: <FaComments className="text-5xl text-[#F15C20]" />,
     bg: "bg-white",
     text: "text-[#0C0C0C]",
     border: "border border-[#DCDCDC]",
   },
   {
-    title: "Voice Assistants",
+    title: "Location Based Matching",
     description:
-      "Create record updates and smooth patient interactions. It reduces administrative workload.",
+      "Users can connect with people nearby based on location, making it easier to find relevant matches and meet in real life with improved accuracy.",
+    icon: <MdLocationOn className="text-5xl text-[#F15C20]" />,
+    bg: "bg-white",
+    text: "text-[#0C0C0C]",
+    border: "border border-[#DCDCDC]",
+  },
+  {
+    title: "Video and Voice Calling",
+    description:
+      "Users can communicate through secure video and voice calls, offering a more personal way to build trust and stronger relationships beyond text.",
     icon: <FaMicrophone className="text-5xl text-[#F15C20]" />,
     bg: "bg-white",
     text: "text-[#0C0C0C]",
     border: "border border-[#DCDCDC]",
   },
   {
-    title: "Medical Device Integrations",
+    title: "Push Notifications",
     description:
-      "This will connect wearable devices to healthcare apps for continuous monitoring.",
-    icon: <FaStethoscope className="text-5xl text-[#F15C20]" />,
+      "Users receive instant alerts for messages, matches, likes, and updates, encouraging faster interaction and improving engagement across the platform.",
+    icon: <FaBell className="text-5xl text-[#F15C20]" />,
     bg: "bg-white",
     text: "text-[#0C0C0C]",
     border: "border border-[#DCDCDC]",
   },
   {
-    title: "Treatment Recommendations",
+    title: "Profile Verification & Safety Controls",
     description:
-      "This can suggest personalized treatment plans by analyzing patient data for better results.",
-    icon: <FaUserMd className="text-5xl text-[#F15C20]" />,
-    bg: "bg-white",
-    text: "text-[#0C0C0C]",
-    border: "border border-[#DCDCDC]",
-  },
-  {
-    title: "Resource Optimization",
-    description:
-      "Optimizes hospital staffing and resource allocation to increase operational efficiency and patient care quality.",
-    icon: <FaHospital className="text-5xl text-[#F15C20]" />,
+      "Users can verify their profiles and control who sees their information, ensuring authenticity, reducing fake accounts, and creating a safe dating environment.",
+    icon: <MdVerifiedUser className="text-5xl text-[#F15C20]" />,
     bg: "bg-white",
     text: "text-[#0C0C0C]",
     border: "border border-[#DCDCDC]",
@@ -100,7 +102,7 @@ const FlipCard = ({ card }) => {
 
   return (
     <motion.div
-      className="relative h-[236px] w-[233px]  perspective-1000 cursor-pointer"
+      className="relative h-[236px] w-[233px] perspective-1000 cursor-pointer"
       onMouseEnter={() => setIsFlipped(true)}
       onMouseLeave={() => setIsFlipped(false)}
       onClick={() => setIsFlipped((prev) => !prev)}
@@ -112,19 +114,21 @@ const FlipCard = ({ card }) => {
         className="w-full h-full relative preserve-3d transition-all duration-100"
         animate={{ rotateY: isFlipped ? 180 : 0 }}
       >
+        {/* FRONT */}
         <div
-          className={`absolute inset-0 backface-hidden rounded-[25px] ${card.bg} ${card.border || ""} border-[1px] border-[#F15C20]/20 p-6 flex flex-col items-center justify-center gap-4`}
+          className={`absolute inset-0 backface-hidden rounded-[25px] ${card.bg} ${card.border} p-6 flex flex-col items-center justify-center gap-4`}
         >
-          <div className="w-14 h-14  flex items-center justify-center text-7xl ">
+          <div className="w-14 h-14 flex items-center justify-center">
             {card.icon}
           </div>
-          <h3 className="text-lg font-semibold text-center text-[#FFFFFF] dark:text-current" style={{ color: card.text === "text-white" ? "#FFFFFF" : "#0C0C0C" }}>
+          <h3 className="text-lg font-semibold text-center text-[#0C0C0C]">
             {card.title}
           </h3>
         </div>
 
+        {/* BACK */}
         <div className="absolute inset-0 backface-hidden rounded-[25px] bg-[#F15C20] p-6 flex items-center justify-center text-center text-white rotate-y-180 shadow-2xl">
-          <p className="text-sm leading-6">{card.description}</p>
+          <p className="text-xs leading-2">{card.description}</p>
         </div>
       </motion.div>
     </motion.div>
@@ -134,12 +138,12 @@ const FlipCard = ({ card }) => {
 const DeliveryApps = () => {
   return (
     <section className="relative mt-16 mx-auto px-4 max-w-[1100px] flex flex-col items-center gap-12">
-      <div className="text-center ">
-        <h2 className="text-4xl md:text-7xl font-bold leading-[1.05] tracking-tighter ">
-          Smart Healthcare Apps Powered by AI and Advanced Tech
+      <div className="text-center">
+        <h2 className="text-4xl md:text-7xl font-bold leading-[1.05] tracking-tighter">
+          Key Features for a Successful Matchmaking App
         </h2>
         <p className="mt-4 text-base md:text-lg font-light leading-[1.36] text-[#0C0C0C]">
-   AI and emerging technologies are changing the entire healthcare app industry by making it better through faster and more efficient responses. These technologies improve patient care by integrating AI features that help healthcare providers make better decisions. It enhances accuracy and delivers better healthcare experiences across digital platforms. 
+          Every matchmaking app needs mandatory features that ensure smooth operations and better user engagement. These features help attract and retain users while improving overall experience and connection quality.
         </p>
       </div>
 
@@ -148,17 +152,15 @@ const DeliveryApps = () => {
           <FlipCard key={card.title} card={card} />
         ))}
       </div>
-        <Link
-          href="/contact-us"
-          className="flex items-center group justify-center "
-        >
-          <button className="bg-[#F15C20] border-[#F15C20] group-hover:bg-white border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-           Speak to Security Expert
-          </button>
-          <button className="bg-[#F15C20] border-[#F15C20] group-hover:bg-white border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-            <MdArrowOutward />
-          </button>
-        </Link>
+
+      <Link href="/contact-us" className="flex items-center group justify-center">
+        <button className="bg-[#F15C20] border-[#F15C20] group-hover:bg-white border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full font-normal transition-colors">
+          Speak to Expert
+        </button>
+        <button className="bg-[#F15C20] border-[#F15C20] group-hover:bg-white border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+          <MdArrowOutward />
+        </button>
+      </Link>
     </section>
   );
 };

@@ -43,133 +43,143 @@ import TabularTechs from "./TabularTechs";
 // import ThirdPartyIntegration from "./ThirdPartyIntegration";
 import Cost from "../ui/Cost";
 
-import Services from "../ui/Services";
+import Services from "./Services";
 import DeliveryApps from "./DeliveryApps";
 import Niches from "./Niches";
+import ThirdPartyIntegration from "./ThirdPartyIntegration";
+import CTA2 from "./CTA2";
 const services = [
   {
     icon: "1",
-    icon2: "h1",
-    title: "Telehealth Applications",
+    icon2: "11",
+    title: "Matchmaking App Development",
     description: (
       <>
-        Simple telehealth apps help patients and doctors connect quickly. It
-        makes remote care faster and more convenient for everyone involved.
+        Our matchmaking app development service is designed to create platforms focused on meaningful and real relationships. We build advanced solutions using algorithm-based partner matching and AI-powered matchmaking to improve connection accuracy and relevance. Our team ensures strong user trust with detailed profiles and secure verification, delivering scalable and engaging platforms that encourage long-term connections.
       </>
     ),
   },
   {
     icon: "2",
-    icon2: "h2",
-    title: "Patient Portal App Development",
+    icon2: "22",
+    title: "Casual Dating App Development",
     description: (
       <>
-        Patient portal apps allow patients to have easy access to records and
-        appointments. It makes communication better with doctors anytime,
-        anywhere.
+        Our casual dating app development services focus on building engaging platforms for effortless social connections. We implement swipe-based matching systems, fast onboarding, and instant messaging features. Location-based matching helps users connect nearby, while interactive features ensure high engagement and user retention for modern, flexible dating experiences.
       </>
     ),
   },
   {
     icon: "3",
-    icon2: "h3",
-    title: "EHR/EMR healthcare Softwares",
+    icon2: "33",
+    title: "Niche Dating App Development",
     description: (
       <>
-        Healthcare providers can better manage patient records. It can happen
-        through EHR and EMR software, improving care efficiency.
+        We develop niche dating apps tailored for specific communities and lifestyles. These platforms include personalized matching algorithms, secure verification systems, and interest-based discovery features. Our goal is to create highly targeted apps that deliver smooth performance, strong engagement, and meaningful connections within specialized user groups.
       </>
     ),
   },
   {
     icon: "4",
-    icon2: "h4",
-    title: "Remote Patient Monitoring Apps",
+    icon2: "44",
+    title: "Matrimony App Development",
     description: (
       <>
-        Remote patient monitoring apps track health data. It helps doctors
-        provide timely care from anywhere.
+        Our matrimony app development service focuses on serious relationships and marriage-oriented platforms. We build apps with advanced compatibility algorithms, detailed user profiles, and strict verification systems. Features like personality matching and location-based recommendations ensure trust, safety, and meaningful matchmaking experiences for families and individuals.
       </>
     ),
   },
   {
     icon: "5",
-    icon2: "h5",
-    title: "Medical Wearable App Integration",
+    icon2: "55",
+    title: "Dating Web App Development",
     description: (
       <>
-        Medical wearable app integration connects wearable devices with
-        healthcare apps. It monitors health and tracks fitness.
+        We create responsive dating web applications that deliver seamless experiences across all browsers. These platforms include advanced matching systems, secure authentication, and interactive messaging features. With swipe-based and interest-driven matching, users enjoy fast, smooth, and engaging online dating experiences optimized for performance and scalability.
       </>
     ),
   },
   {
     icon: "6",
-    icon2: "h6",
-    title: "Healthcare CRM Solutions",
+    icon2: "66",
+    title: "Speed Dating App Development",
     description: (
       <>
-        Medical providers can manage patient relationships more easily through
-        Healthcare CRM solutions. It improves care and engagement.
+        Our speed dating app solutions are built for fast and interactive user engagement. We design platforms with time-limited chats, swipe-based matching, and proximity-based discovery. These apps help users quickly connect, interact, and find compatible matches while maintaining secure profiles and smooth real-time performance.
       </>
     ),
   },
   {
     icon: "7",
-    icon2: "h7",
-    title: "Pharmacy and ePrescription Apps",
+    icon2: "77",
+    title: "Elite Dating App Development",
     description: (
       <>
-        Pharmacy and ePrescription applications make medication management
-        easier. It allows patients to order prescriptions and connect with
-        pharmacists.
+        We develop premium elite dating platforms designed for high-value users seeking meaningful connections. These apps include AI-powered matchmaking, personality-based compatibility, and curated recommendations. With elegant design and scalable architecture, we ensure exclusivity, engagement, and high-quality user interactions.
       </>
     ),
   },
   {
     icon: "8",
-    icon2: "h8",
-    title: "AI integrated Healthcare Apps",
+    icon2: "88",
+    title: "Divorcee Dating App Development",
     description: (
       <>
-        Our expert healthcare development company uses artificial intelligence
-        to enhance patient care. It helps predict health trends and streamline
-        medical processes.
+        Our divorcee dating app development service creates supportive platforms for individuals seeking new beginnings. We focus on safe, respectful environments with verified profiles and intelligent matchmaking. These apps prioritize comfort, trust, and compatibility to help users build meaningful relationships after divorce.
       </>
     ),
   },
 ];
-
+const defaultCards = [
+  {
+    label: "Simple Apps",
+    range: " $15,000 to $30,000",
+    detail:
+      "If you’re going to create basic apps with essential features like profile creation and simple swipe, with simple payment options. These types of basic apps are ideal for startups and the dating app development cost is around 15-30k.",
+  },
+  {
+    label: "Mid-Level Apps",
+    range: " $30,000 to $70,000",
+    detail:
+      "A mid-level app that includes advanced features like video/voice chat, push notifications, multiple user panels, integration with payment gateways and social logins.",
+  },
+  {
+    label: "Advanced Apps",
+    range: " $70,000 to $150,000+",
+    detail:
+      "These advanced applications include AI matchmaking algorithms, complex analytics dashboards, multi-platform support, and video calling features for a full-scale dating experience.",
+  },
+];
 const highlights = [
   {
     icon: "/industries/food-industry/s1.webp",
     title: "12+ Years of Development",
-    desc: "We’re the best healthcare mobile app development company USA with over 10+ years of experience, building high-performing apps.",
+    desc: "We’re the best dating app development company providing dating application development services USA with over 10+ years of experience, building high-performing apps.",
   },
   {
     icon: "/industries/food-industry/s2.webp",
     title: "High Level Expertise",
-    desc: "Being one of the top healthcare app development company, we provide top-tier design and development.",
+    desc: "Being one of the best dating app developers, we provide top-tier design and development.",
   },
   {
     icon: "/industries/food-industry/s3.webp",
     title: "Expert Project Managers",
-    desc: "Our professional project managers make sure to keep the entire build of your healthcare app is on track, providing smooth execution throughout.",
+    desc: "Our professional project managers make sure the entire build of your dating app stays on track, ensuring smooth execution throughout.",
   },
   {
     icon: "/industries/food-industry/s4.webp",
     title: "100% Transparent Procedure",
-    desc: "The healthcare app development team makes sure you get the updates on time. Through updates, we ensure transparency to your business needs.",
+    desc: "The dating app developers make sure you get timely updates. Through updates, we ensure transparency to your requirements and needs.",
   },
   {
     icon: "/industries/food-industry/s5.webp",
     title: "Post-Launch Support",
-    desc: "The support services we provide make your healthcare app competitive, so you can easily depend on our healthcare mobile app development services.",
+    desc: "The support services we provide make your dating app competitive, so you can easily depend on our dating app development services.",
   },
   {
     icon: "/industries/food-industry/s6.webp",
     title: "Custom Solutions",
-    desc: "Every healthcare app we build at our healthcare mobile app development company is supposed to meet your requirements through custom healthcare app development company.",
+    desc: "Every dating app we build is designed to meet your requirements through custom dating app development services.",
   },
 ];
 
@@ -235,37 +245,24 @@ const PLATFORMS = [
     logo: "/ecommerce/sp.webp",
   },
 ];
-
 const test = [
   {
-    name: "Dr. Emily Carter",
-    designation: "Chief Medical Officer, Greenfield Health Clinic",
+    name: "Jessica Reynolds",
+    designation: "CEO, HeartConnect",
     review:
-      "Dignite Studios built a telehealth app for our clinic that’s intuitive and reliable. Patient engagement and appointment management have improved dramatically.",
+      "Dignite Studios exceeded our expectations. Their team delivered a dating app that was exactly what we envisioned. Communication was excellent, and they kept us updated throughout the process.",
   },
   {
-    name: "Michael Thompson",
-    designation: "Director of IT, Horizon Medical Center",
+    name: "Mark Simon",
+    designation: "Founder, MatchMakers Inc.",
     review:
-      "The AI-powered features in our healthcare app transformed our workflow. Doctors now provide faster, more accurate diagnoses, and patients love the convenience.",
+      "The team at Dignite Studios was professional and responsive. They understood our vision perfectly and delivered an application that was highly functional, on time.",
   },
   {
-    name: "Sarah Mitchell",
-    designation: "Operations Manager, ClearView Health Solutions",
+    name: "Rachel Smith",
+    designation: "CTO, TruePair",
     review:
-      "From design to deployment, the team delivered a seamless, secure, and user-friendly app. It simplified patient monitoring and improved operational efficiency.",
-  },
-  {
-    name: "Dr. Jason Reynolds",
-    designation: "Chief Pharmacist, WellCare Pharmacy Network",
-    review:
-      "Our medication management app helps patients stay on track effortlessly. The reminders and health tracking features have significantly increased adherence and satisfaction.",
-  },
-  {
-    name: "Linda Brooks",
-    designation: "Head of Digital Health, Summit Medical Group",
-    review:
-      "The integration with our EHR system was flawless. Our staff can access records quickly, appointments are easier to manage, and patient communication has improved.",
+      "Working with Dignite Studios was smooth and simple. Highly recommended. We’d say it’s the top dating app development company considering how they delivered the application on time without creating any mess.",
   },
 ];
 const BENEFITS = [
@@ -299,39 +296,39 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "How much time does it usually take to build a healthcare mobile app?",
+    question: "How much time do your developers take to build a dating app?",
     answer:
-      "Dignite Studios doesn’t provide a fixed, similar timeline for each healthcare mobile app during development. The time always depends on the complexity and features of every healthcare application. Generally, a mid-level application would take up to 8-12 weeks, but it all depends, again. If you need a final cost and pricing estimate for your app, contact our team and share your app idea.",
+      "Dignite Studios doesn’t provide a fixed, similar timeline for each dating app during development. The time always depends on the complexity and features of every dating application. Usually, a mid-level app would take up to 8–12 weeks, but it depends on requirements. If you need a final cost and pricing estimate for your app, contact our team and share your app idea.",
   },
   {
     id: 2,
-    question: "Can you build iOS applications for healthcare apps, too?",
+    question: "Can you build iOS applications for dating and matchmaking apps, too?",
     answer:
-      "We’re an expert healthcare mobile app development company USA, building both iOS and Android healthcare apps. Hire healthcare mobile app developers who create high-performance applications for businesses. The healthcare developers can easily work with native and Swift to develop applications that feel simple while ensuring functionality.",
+      "We’re experts in building both iOS and Android dating apps. Hire dating app developers who create high-performance applications for businesses. The developers can easily work with native technologies and Swift to develop applications that feel simple while ensuring strong functionality.",
   },
   {
     id: 3,
     question: "Would you provide support after we’re done with the app launch?",
     answer:
-      "Yes. It’s called post-launch support, and we definitely stay with you even when your healthcare delivery app is launched. Providing proper post-launch maintenance and updates about the healthcare app. So that we know that the app would stay aligned with the vision and users’ needs.",
+      "Yes. It’s called post-launch support, and we definitely stay with you even after your dating app is launched. We provide proper maintenance and updates so that the app stays aligned with your vision and users’ needs.",
   },
   {
     id: 4,
-    question: "What if I have a rough idea? Can you guide me?",
+    question: "What if I have a rough idea? Can your team guide me?",
     answer:
-      "Here’s a thing: There’s no app that starts with the perfect, flawless idea. With this understanding, we guide through a free consultation and explain the concepts in a much easier way. The healthcare app experts can help you out by adding practical aspects to your application and preparing it for the future.",
+      "There’s no matchmaking app that starts with a perfect idea. We provide guidance through a free consultation and explain concepts in a simple way. Our dating app experts help you add practical features and prepare your application for the future.",
   },
   {
     id: 5,
-    question: "How much does a healthcare application usually cost?",
+    question: "How much does a dating application usually cost?",
     answer:
-      "Basically, we don’t have fixed pricing rules for all the applications. The cost completely depends on the features and the integrations you want your healthcare application to have. It’s up to your healthcare app’s vision, but at Dignite Studios, we keep pricing transparent with no random hidden fees.",
+      "We don’t follow fixed pricing for all dating applications. The cost depends on the features and integrations you want in your dating application. At Dignite Studios, we maintain transparent pricing with no hidden fees.",
   },
   {
     id: 6,
-    question: "Are you currently working with startups, too, or just the enterprises?",
+    question: "Are you currently working with startups, too, or just enterprises?",
     answer:
-      "The healthcare app development team works with both startups and enterprises. So, it doesn’t really matter if you’re a startup or an enterprise; we would definitely work with you. Whether you’re building an MVP or scaling an existing healthcare application. We would look forward to building an amazing healthcare app together either way.",
+      "Our dating app team works with both startups and enterprises. Whether you want to build an MVP or scale an existing application, we are ready to help you build a strong dating platform together.",
   },
 ];
 
@@ -339,32 +336,32 @@ const PROCESS_STEPS = [
   {
     step: "01",
     title: "Discovery and Strategy",
-    desc: "When the goals are clear, the app for your healthcare sector would turn out amazing, so in this phase, we align your business goals with the app’s vision.",
+    desc: "When the goals are clear, the dating app turns out amazing, so in this phase, we align your business goals with the dating app’s vision and features.",
   },
   {
     step: "02",
     title: "User Interface Design",
-    desc: "It is a healthcare app development process in which a preliminary visual mock-up has been created that shows the mobile app’s initial design.",
+    desc: "It is a dating app development process in which a preliminary visual mock-up is created that shows the mobile app’s initial design.",
   },
   {
     step: "03",
     title: "Development Stage",
-    desc: "The healthcare app development begins, and our professional mobile app developers work according to your product roadmap and total execution time.",
+    desc: "The dating app development begins, and our professional mobile app developers work according to your product roadmap and total execution time.",
   },
   {
     step: "04",
     title: "Testing Stage",
-    desc: "Conducting tests at every phase of the healthcare app development process at our top healthcare app development company helps keep up with the latest status updates.",
+    desc: "Conducting tests at every phase of the matchmaking app development process helps maintain quality and keep up with the latest status updates.",
   },
   {
     step: "05",
     title: "Deployment",
-    desc: "Healthcare app deployment is where preparation connects performance, resulting in smooth operation across iOS and Android.",
+    desc: "Your app deployment is where preparation connects performance, resulting in smooth operation across iOS and Android platforms.",
   },
   {
     step: "06",
     title: "Post-Launch Support",
-    desc: "Once we have launched your healthcare app, the developers’ focus shifts to checking performance and optimizing features based on user feedback.",
+    desc: "Once we have launched your dating app, the developers’ focus shifts to monitoring performance and optimizing features based on user feedback.",
   },
 ];
 
@@ -464,33 +461,43 @@ The team is understanding and helps you overcome the unique challenges of each a
         para="Providing a complete suite of services in the category of dating app development, our dating mobile app development company design applications that help startups and businesses build meaningful connections. Our custom dating app development services cover every aspect of app creation and custom development. The focus is on building dating apps that keep the customer engaged by providing a smooth experience.   "
         services={services}
       />
-      <Industries para={"Having an experience of 10+ years in different industries and niches, we assure you that the healthcare app solutions we provide through Healthcare Mobile App Development Services work for a variety of business models. We can work for anyone, whether it’s a clinic or a hospital. The healthcare apps we create are built to meet the unique needs of each niche."} header={"Healthcare Mobile App Development Company For Different"} header2={"Niches"} VALUE_PROPOSITION={VALUE_PROPOSITION} />
-      <DeliveryFeatures />
-      <CTA />
-      <Niches/>
-      <DeliveryApps/>
-           <Process
-        header="Proven Process of a Healthcare App Development Company"
-        para="Every healthcare application we develop at our healthcare app development company solves a problem. So, the team works with a structured approach that brings your app to life. Different healthcare app development companies work with unique workflows, but when it comes to creating healthcare apps at our development company, we utilize a perfectly structured approach of the best development companies to make sure that we design applications that work the proper way.   "
+           <CTA />
+        <SuccessStories
+          header="The Success Stories of Top Dating App Development Company  "
+          para="You can check out our case studies section and see how we, as the dating app development company work with the industries and businesses, helping them build applications that just work amazingly for their industries and niche. The case studies we’re highlighting here shows the challenges we dealt with and the solutions we provided.  "
+        />
+              <DeliveryFeatures />
+                <DeliveryApps/>
+                <ThirdPartyIntegration/>
+                        <Process
+        header="Proven Process of a Dating App Development Company"
+        para="Every dating application we develop solves a problem. So, the team works with a structured approach that brings your dating app idea to life. Different matchmaking app development companies work with unique workflows, but when it comes to creating mobile apps at our development company, we utilize a perfectly structured approach of the best dating app development companies to ensure that we design applications that work the proper way. Here’s the structured workflow that turns visions into apps.   "
         steps={PROCESS_STEPS}
       />
-       <TabularTechs />
-            
-      <Bussiness
+      <CTA2/>
+      <Cost cards={defaultCards}  title="Dating App Development Cost Industry-Wide" description={<>The cost of developing matchmaking, dating apps isn’t the same for every type. It varies widely. It mostly depends on usual factors like features, complexity, platform choice, third-party integrations. Dignite Studios can definitely just provide an average based on market research and studies. This doesn’t represent Dignite Studios’ pricing models, so if you need a more specific quote, <Link href="/contact-us" className="text-orange-600">contact our team today</Link></>}/>
+
+         <Bussiness
         header="Why You Should Choose "
         header2={" Dignite Studios"}
         button=" Choose The Right Team  "
         para={
           <>
-      We are experts at building healthcare applications. Having a team of the <Link href={"/services/hire-mobile-app-developers"}>best developers</Link> and designers in the healthcare industry, we provide you with everything you need as a custom healthcare app development company. Dignite Studios consists of a team that takes the time to understand your audience and goals before the development of your app even begins. We deliver functional applications with clear communication and reliable solutions. 
+      We are experts at building healthcare applications. Having a team of the <Link href={"/services/hire-mobile-app-developers"}>best developers</Link> and designers, we provide you with everything you need as a custom dating mobile app development company. Dignite Studios consists of dating app developers that take the time to understand your audience and goals before the development even begins. We deliver the functional dating applications with clear communication and reliable solutions. 
           </>
         }
         bs={highlights}
       />
-      {/* <SuccessStories
-        header="Real Estate App Development Case Studies  "
-        para="We have delivered successful apps for property businesses. Our case studies show how our real estate app development solutions improved user experience, increased engagement and supported business growth. "
-      /> */}
+             <TabularTechs />
+      {/* <Industries para={"Having an experience of 10+ years in different industries and niches, we assure you that the healthcare app solutions we provide through Healthcare Mobile App Development Services work for a variety of business models. We can work for anyone, whether it’s a clinic or a hospital. The healthcare apps we create are built to meet the unique needs of each niche."} header={"Healthcare Mobile App Development Company For Different"} header2={"Niches"} VALUE_PROPOSITION={VALUE_PROPOSITION} /> */}
+
+ 
+      {/* <Niches/> */}
+    
+   
+
+            
+   
       {/* <MobileApp
         cards={BENEFITS}
         header2={"Real Estate Apps"}
@@ -534,19 +541,19 @@ The team is understanding and helps you overcome the unique challenges of each a
       /> */}
    
       <Testimonials
-        header="Feedback From the Clients "
+        header="What Our Clients Say "
         test={test}
-        button={"Talk to our Experts"}
-        para={"Our clients trust us to deliver healthcare apps that truly make a difference. Their feedback highlights how our solutions improve patient care and enhance operational efficiency. These testimonials demonstrate reliability and the ability to meet unique healthcare needs, while helping organizations deliver more connected patient experiences. "}
+        // button={"Talk to our Experts"}
+
         // button="Work With Our Expert Team"
       />
-      <Faq faqs={faqs} header=" Commonly Asked Questions " />
+      <Faq faqs={faqs} header="Frequently Asked Questions" />
       <ContactUs
-       pathname={"Healthcare App dev"}
+       pathname={"Dating App dev"}
         img={"/industries/healthcare/c-img.webp"}
-        header={"Ready to Avail our Healthcare Services?"}
-        para=" Partner with us to build innovative, reliable healthcare apps that improve patient care, streamline operations, and deliver seamless experiences. Let’s create solutions tailored to your organization’s unique needs. "
-        btn="Start Your Project Today "
+        header={"Start Building Your Dating App Today"}
+        para="Share your project requirements with our expert team and take the first step toward launching your feature-rich dating app. Submit your details below, and we’ll provide a personalized consultation to help you plan, design, and build your app successfully. "
+        btn="Get Free Consultation "
       />
     </div>
   );

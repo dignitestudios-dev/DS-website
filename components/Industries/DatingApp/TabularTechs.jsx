@@ -87,11 +87,11 @@ const TabularTechs = () => {
     <section className="w-full overflow-visible text-black">
       <div className="max-w-7xl mx-auto text-center px-4">
         <h2 className="text-4xl md:text-7xl leading-[42px] tracking-tighter lg:leading-[1.1] font-bold mb-6">
-          Advanced Tools Behind Healthcare Apps
+         Advanced Tools Behind Dating Apps
         </h2>
 
-        <p className="font-extralight mx-auto mb-16 text-lg max-w-3xl">
-          Dignite Studios uses modern technology and advanced tools to build smooth healthcare applications without complexity. Our expert developers ensure your healthcare apps are fast, reliable, and scalable using the right tech stack.
+        <p className="font-extralight mx-auto mb-16 text-lg ">
+      Dignite studios use modern technology and advanced tools to build smooth matchmaking applications without a mess. We have the best dating app developers who are experts at bringing your idea to reality in a way that it runs smoothly and stays functional. Our dating mobile app development company don’t build dating apps that take time to load or feel too loaded with features or messy, we are just simply using the best tech from our stack to build your matchmaking apps. 
         </p>
 
         {/* TAB BUTTONS */}

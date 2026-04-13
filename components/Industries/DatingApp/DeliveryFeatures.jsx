@@ -25,102 +25,87 @@ import {
 
 const tabConfig = [
   {
-    id: "patient",
-    title: "Patient App Features",
-    image: "/industries/healthcare/patient.webp",
+    id: "user",
+    title: "User Panel Features",
+    image: "/industries/dating-app/mob1.webp",
     features: [
       {
-        title: "Appointment",
-        desc: "Should be easy to book, reschedule, or cancel appointments at any time with a quick process through mobile app development for healthcare.",
-        icon: <FaCalendarCheck />,
+        title: "Profile Management",
+        desc: "Users can easily create and personalize their profiles by adding photos, interests, preferences, and personal details. This ensures an engaging and authentic presence on the dating platform.",
+        icon: <FaUserCheck />,
       },
       {
-        title: "Online Consultations",
-        desc: "Better accessibility to connect with doctors through a secure connection for virtual medical consultations.",
-        icon: <FaVideo />,
+        title: "Matching System",
+        desc: "Our dating app development company builds intelligent matching systems that connect users based on interests and compatibility, increasing meaningful connections.",
+        icon: <FaChartLine />,
       },
       {
-        title: "Reminders",
-        desc: "Should provide timely alerts to take medications and stay consistent with prescribed treatment plans.",
-        icon: <FaBell />,
-      },
-      {
-        title: "Health Record Access",
-        desc: "You should be able to access lab results and medical history securely anytime in one place.",
-        icon: <FaFileMedical />,
-      },
-      {
-        title: "Better Messaging",
-        desc: "Should be able to send and receive secure messages with doctors for quick support.",
+        title: "Messaging",
+        desc: "Users can chat with matches using texts, emojis, and media, creating engaging communication and keeping connections active.",
         icon: <FaComments />,
       },
       {
-        title: "Health Tracking",
-        desc: "Track health data and connect wearable devices to monitor vitals in real time.",
-        icon: <FaHeartbeat />,
-      },
-    ],
-  },
-  {
-    id: "doctor",
-    title: "Doctor App Features",
-    image: "/industries/healthcare/doctor.webp",
-    features: [
-      {
-        title: "Patient Medical History Access",
-        desc: "Quickly access complete patient records to support accurate diagnosis and treatment decisions.",
-        icon: <FaNotesMedical />,
+        title: "Notifications",
+        desc: "Users receive instant alerts for messages, matches, and updates, ensuring they never miss important interactions and stay engaged.",
+        icon: <FaBell />,
       },
       {
-        title: "Virtual Consultation Tools",
-        desc: "Conduct secure online consultations with patients through video or chat anytime remotely.",
-        icon: <FaVideo />,
-      },
-      {
-        title: "Prescription Management",
-        desc: "Manage and send digital prescriptions quickly and securely to patients.",
-        icon: <FaPrescriptionBottleAlt />,
-      },
-      {
-        title: "Appointment Management",
-        desc: "Smoothly schedule and manage patient appointments with better calendar and booking tools.",
-        icon: <FaCalendarAlt />,
-      },
-      {
-        title: "Clinical Notes and Documentation",
-        desc: "Organize patient notes and medical documentation in a structured and accessible format.",
-        icon: <FaFileAlt />,
-      },
-      {
-        title: "EHR System Integration",
-        desc: "Smoothly add systems with existing systems to access and update patient data in real time.",
-        icon: <FaDatabase />,
+        title: "Privacy Controls",
+        desc: "Through our custom dating application development services USA, users can control profile visibility and manage personal data to ensure safety and comfort.",
+        icon: <FaShieldAlt />,
       },
     ],
   },
   {
     id: "admin",
     title: "Admin Panel Features",
-    image: "/industries/healthcare/admin.webp",
+    image: "/industries/dating-app/mon1.webp",
     features: [
       {
-        title: "Staff Management",
-        desc: "Manage doctors and admin roles in a smooth way to keep healthcare operations.",
-        icon: <FaUsersCog />,
+        title: "User Management",
+        desc: "Admins can view, manage, approve, or block user accounts while monitoring activity and interactions across the platform.",
+        icon: <FaUsers />,
       },
       {
-        title: "Billing and Payment Tracking",
-        desc: "Track payments and transactions easily for accurate and simple financial management.",
-        icon: <FaMoneyBillWave />,
+        title: "Content Moderation",
+        desc: "Admins review, approve, or remove inappropriate content to maintain a safe and respectful platform environment.",
+        icon: <FaEye />,
       },
       {
-        title: "Analytics Dashboards",
-        desc: "View KPIs and operational metrics in one clear and simple dashboard.",
+        title: "Analytics Dashboard",
+        desc: "Admins can view key metrics, track engagement, and analyze user behavior to make informed platform decisions.",
         icon: <FaChartBar />,
       },
       {
-        title: "Compliance and Access Control",
-        desc: "Ensure secure access while maintaining full regulatory compliance without complications.",
+        title: "Reporting Tools",
+        desc: "Admins can generate detailed reports on users, activity, and subscriptions to support data-driven decision-making.",
+        icon: <FaFileAlt />,
+      },
+    ],
+  },
+  {
+    id: "moderator",
+    title: "Moderator Panel Features",
+    image: "/industries/dating-app/mon2.webp",
+    features: [
+      {
+        title: "Profile Verification",
+        desc: "Moderators review and verify user identities and documents to ensure authenticity and build trust across the platform.",
+        icon: <FaUserCheck />,
+      },
+      {
+        title: "Content Moderation",
+        desc: "Moderators review messages and media content to ensure a respectful and safe dating environment.",
+        icon: <FaShieldAlt />,
+      },
+      {
+        title: "Abuse Reporting Management",
+        desc: "Moderators handle user complaints, investigate issues, and ensure misuse is prevented effectively.",
+        icon: <FaBell />,
+      },
+      {
+        title: "Fraud Detection",
+        desc: "Moderators monitor suspicious behavior patterns and identify fraudulent activity to maintain platform trustworthiness.",
         icon: <FaShieldAlt />,
       },
     ],
@@ -241,7 +226,7 @@ const DeliveryFeatures = () => {
                     <img
                       src={image}
                       alt="Food Delivery App Mobile Interface"
-                      className="w-[55%] h-full object-cover"
+                      className="w-[80%] h-full object-cover"
                       loading="lazy"
                     />
                   </div>
