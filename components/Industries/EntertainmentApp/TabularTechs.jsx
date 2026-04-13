@@ -19,7 +19,7 @@ import {
   SiSwift,
 } from "react-icons/si";
 
-import { FaJava } from "react-icons/fa";
+import { FaAmazon, FaJava } from "react-icons/fa";
 import { FaMicrosoft } from "react-icons/fa6";
 
 const techData = {
@@ -37,7 +37,7 @@ const techData = {
   ],
 
   Cloud: [
-    { name: "AWS", icon: <SiAmazonaws /> },
+    { name: "AWS", icon: <FaAmazon /> },
     { name: "Google Cloud", icon: <SiGooglecloud /> },
     { name: "Azure", icon: <FaMicrosoft /> },
   ],
@@ -62,7 +62,9 @@ const TabularTechs = () => {
         </h2>
 
         <p className="font-extralight mx-auto mb-16 text-lg">
-          We use modern tools to build secure and scalable apps. High performance and an effortless user interface are guaranteed by our entertainment software development.
+          We use modern tools to build secure and scalable apps. High
+          performance and an effortless user interface are guaranteed by our
+          entertainment software development.
         </p>
 
         {/* TAB BUTTONS */}

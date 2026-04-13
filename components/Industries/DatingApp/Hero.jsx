@@ -58,7 +58,7 @@ const Hero = ({
   initial={{ opacity: 0, x: -100 }}
   animate={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8, delay: 0.5 }}
-  className="absolute top-[40%] -left-[20%] -bottom-10 z-20 m-auto hidden lg:block"
+  className="absolute top-[40%] -left-[35%] -bottom-10 z-20 m-auto hidden lg:block"
 >
   <Image
     src="/industries/dating-app/l1.webp"
@@ -92,9 +92,9 @@ const Hero = ({
       className="absolute  -translate-x-1/2"
     >
       <Image src={"/industries/dating-app/mob.webp"} className="hidden lg:block" alt="Mobile" width={800} height={800} />
-      <Image src={"/industries/dating-app/mob.webp"} className="lg:hidden block" alt="Mobile" width={150} height={150} />
+      <Image src={"/industries/dating-app/mob.webp"} className="lg:hidden block" alt="Mobile" width={600} height={600} />
     </motion.div>
-        <div className="absolute -bottom-10  left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" />
+        <div className="absolute -bottom-10  left-0 w-full border-none h-20 lg:h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>
         <Platforms />

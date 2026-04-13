@@ -26,13 +26,13 @@ const CTA = ({
           >
             <button
               type="submit"
-              className="bg-[#F8585A] border border-[#F8585A] group-hover:bg-white group-hover:border group-hover:border-[#F8585A] group-hover:text-[#F8585A] text-white text-sm px-7 py-3 rounded-full transition-colors"
+              className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
               {btn}
             </button>
             <button
               type="submit"
-              className="bg-[#F8585A] border-[#F8585A] group-hover:bg-white group-hover:border group-hover:border-[#F8585A] group-hover:text-[#F8585A] text-white w-11 h-11 rounded-full
+              className="bg-[#F15C20] border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full
                          flex items-center justify-center transition-colors text-lg"
             >
               <MdArrowOutward />

@@ -53,6 +53,7 @@ import { MdMonetizationOn } from "react-icons/md";
 import { RiLiveLine } from "react-icons/ri";
 import { BiBarChartAlt2 } from "react-icons/bi";
 import { GiTrophyCup } from "react-icons/gi";
+import Impact from "./Impact";
 const services = [
   {
     icon: "1",
@@ -137,57 +138,56 @@ const services = [
 ];
 const defaultCards = [
   {
-    label: "Simple Apps",
-    range: " $15,000 to $30,000",
+    label: "Simple Entertainment Apps",
+    range: "$8,000 - $40,000",
     detail:
-      "If you’re going to create basic apps with essential features like profile creation and simple swipe, with simple payment options. These types of basic apps are ideal for startups and the dating app development cost is around 15-30k.",
+      "Basic apps with the essential features for streaming, music or video. Perfect for startups or small companies venturing into the entertainment industry.",
   },
   {
-    label: "Mid-Level Apps",
-    range: " $30,000 to $70,000",
+    label: "Medium Complexity Apps",
+    range: "$45,000 - $90,000",
     detail:
-      "A mid-level app that includes advanced features like video/voice chat, push notifications, multiple user panels, integration with payment gateways and social logins.",
+      "Applications featuring third party API interfaces, social sharing, push notifications and subscription options. Perfect for growing platforms needing more functionality.",
   },
   {
-    label: "Advanced Apps",
-    range: " $70,000 to $150,000+",
+    label: "Complex Apps",
+    range: "$95,000 - $150,000+",
     detail:
-      "These advanced applications include AI matchmaking algorithms, complex analytics dashboards, multi-platform support, and video calling features for a full-scale dating experience.",
+      "Advanced apps including AI recommendations, live streaming, analytics and scalable architecture. Our media and entertainment app development solutions are suitable for enterprises and high traffic entertainment platforms.",
   },
 ];
 const highlights = [
   {
     icon: "/industries/food-industry/s1.webp",
-    title: "12+ Years of Development",
-    desc: "We’re the best dating app development company providing dating application development services USA with over 10+ years of experience, building high-performing apps.",
+    title: "Skilled Mobile App Developers:",
+    desc: "Our developers have extensive expertise in creating entertainment apps for a range of sectors, providing reliable performance, cutting-edge features, and engaging user experiences.",
   },
   {
     icon: "/industries/food-industry/s2.webp",
-    title: "High Level Expertise",
-    desc: "Being one of the best dating app developers, we provide top-tier design and development.",
+    title: "Scalable Architecture:",
+    desc: "We build apps with scalable architecture that can handle increasing users, high traffic loads, and growing content without affecting performance or stability.",
   },
   {
     icon: "/industries/food-industry/s3.webp",
-    title: "Expert Project Managers",
-    desc: "Our professional project managers make sure the entire build of your dating app stays on track, ensuring smooth execution throughout.",
+    title: "Agile Development Process:",
+    desc: "Our agile approach ensures faster development with regular improvements, helping deliver projects on time while maintaining flexibility and high quality standards.",
   },
   {
     icon: "/industries/food-industry/s4.webp",
-    title: "100% Transparent Procedure",
-    desc: "The dating app developers make sure you get timely updates. Through updates, we ensure transparency to your requirements and needs.",
+    title: "Transparent Communication:",
+    desc: "We maintain clear communication throughout the project by sharing regular updates, gathering feedback, and ensuring smooth collaboration between our team and clients.",
   },
   {
     icon: "/industries/food-industry/s5.webp",
-    title: "Post-Launch Support",
-    desc: "The support services we provide make your dating app competitive, so you can easily depend on our dating app development services.",
+    title: "Secure Integrations:",
+    desc: "We implement secure integrations to protect user data and content, ensuring safe transactions and compliance with industry standards for privacy and security.",
   },
   {
     icon: "/industries/food-industry/s6.webp",
-    title: "Custom Solutions",
-    desc: "Every dating app we build is designed to meet your requirements through custom dating app development services.",
+    title: "Proven Track Record:",
+    desc: "We have successfully delivered over 50 entertainment apps for global clients, showcasing our expertise in building reliable and high-performing digital solutions.",
   },
 ];
-
 const VALUE_PROPOSITION = [
   {
     title: "Telehealth Applications",
@@ -252,22 +252,64 @@ const PLATFORMS = [
 ];
 const test = [
   {
-    name: "Jessica Reynolds",
-    designation: "CEO, HeartConnect",
+    name: "Nova Media",
+    designation: "John Smith",
     review:
-      "Dignite Studios exceeded our expectations. Their team delivered a dating app that was exactly what we envisioned. Communication was excellent, and they kept us updated throughout the process.",
+      "The team delivered a fast and engaging streaming app. User activity and retention improved significantly.",
   },
   {
-    name: "Mark Simon",
-    designation: "Founder, MatchMakers Inc.",
+    name: "StreamHub",
+    designation: "Emily Johnson",
     review:
-      "The team at Dignite Studios was professional and responsive. They understood our vision perfectly and delivered an application that was highly functional, on time.",
+      "Our platform now handles high traffic smoothly. The development process was professional and timely.",
   },
   {
-    name: "Rachel Smith",
-    designation: "CTO, TruePair",
+    name: "MusicFloe",
+    designation: "David Lee",
     review:
-      "Working with Dignite Studios was smooth and simple. Highly recommended. We’d say it’s the top dating app development company considering how they delivered the application on time without creating any mess.",
+      "The music app runs flawlessly. Playback is smooth and user satisfaction has increased.",
+  },
+  {
+    name: "PlayZone",
+    designation: "Sophie Buyers",
+    review:
+      "Interactive gaming features now perform without lag. User engagement and session time improved greatly.",
+  },
+  {
+    name: "LiveCast",
+    designation: "Michael Brown",
+    review:
+      "Live streaming quality is stable. With our video streaming app development, users can watch events without interruptions which helps improve retention.",
+  },
+  {
+    name: "MediaCore",
+    designation: "Jessica Williams",
+    review:
+      "The team managed the app professionally. Our internal workflows and content delivery became more efficient.",
+  },
+  {
+    name: "Eventify",
+    designation: "Daniel Martinez",
+    review:
+      "Live event booking and streaming are smooth. Users praised the simple and intuitive interface.",
+  },
+  {
+    name: "News Track",
+    designation: "Laura Kim",
+    review:
+      "Content updates and delivery are faster. Our readers enjoy a smooth news experience.",
+  },
+  {
+    name: "AudioWave",
+    designation: "Robert Davis",
+    review:
+      "Push notifications and playlists improved engagement. Users interact more frequently with the app.",
+  },
+  {
+    name: "FunStream",
+    designation: "Sophia Taylor",
+    review:
+      "Support and communication were excellent. The project was delivered on time with high quality results.",
   },
 ];
 
@@ -302,72 +344,65 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "How much time do your developers take to build a dating app?",
+    question: "What is the price of creating an entertainment app?",
     answer:
-      "Dignite Studios doesn’t provide a fixed, similar timeline for each dating app during development. The time always depends on the complexity and features of every dating application. Usually, a mid-level app would take up to 8–12 weeks, but it depends on requirements. If you need a final cost and pricing estimate for your app, contact our team and share your app idea.",
+      "The cost of developing an entertainment app depends on features, design complexity and integrations like streaming or payment systems. Basic apps are more affordable while advanced platforms cost more. We analyze your requirements and provide a custom quote which fits your business goals and budget.",
   },
   {
     id: 2,
-    question: "Can you build iOS applications for dating and matchmaking apps, too?",
+    question: "How time-consuming is it to launch an app?",
     answer:
-      "We’re experts in building both iOS and Android dating apps. Hire dating app developers who create high-performance applications for businesses. The developers can easily work with native technologies and Swift to develop applications that feel simple while ensuring strong functionality.",
+      "The development timeline depends on the scope and features of the app. Simple entertainment apps can take a few weeks, while complex apps with streaming or real time features may take a few months. We follow a structured and agile process to ensure timely delivery without compromising quality.",
   },
   {
     id: 3,
-    question: "Would you provide support after we’re done with the app launch?",
+    question: "What platforms do you develop for?",
     answer:
-      "Yes. It’s called post-launch support, and we definitely stay with you even after your dating app is launched. We provide proper maintenance and updates so that the app stays aligned with your vision and users’ needs.",
+      "We develop entertainment apps for iOS, Android and web platforms. Our cross platform development approach ensures your app performs smoothly across devices. This helps you reach a wider audience and maintain a consistent user experience regardless of the platform your users prefer.",
   },
   {
     id: 4,
-    question: "What if I have a rough idea? Can your team guide me?",
+    question: "Can you integrate live streaming or AR/VR?",
     answer:
-      "There’s no matchmaking app that starts with a perfect idea. We provide guidance through a free consultation and explain concepts in a simple way. Our dating app experts help you add practical features and prepare your application for the future.",
+      "Yes, we can integrate live streaming, AR and VR features into your entertainment app. These technologies improve user engagement by offering immersive experiences. Whether it is live events, virtual concerts or interactive content, we build solutions which enhance user interaction and overall app performance.",
   },
   {
     id: 5,
-    question: "How much does a dating application usually cost?",
+    question: "Do you provide post-launch support?",
     answer:
-      "We don’t follow fixed pricing for all dating applications. The cost depends on the features and integrations you want in your dating application. At Dignite Studios, we maintain transparent pricing with no hidden fees.",
-  },
-  {
-    id: 6,
-    question: "Are you currently working with startups, too, or just enterprises?",
-    answer:
-      "Our dating app team works with both startups and enterprises. Whether you want to build an MVP or scale an existing application, we are ready to help you build a strong dating platform together.",
+      "Yes, we provide complete post launch support, including updates, bug fixes, performance improvements and security enhancements. As an entertainment app development company, we ensure your app stays up to date and runs smoothly. We also help you scale features as your business grows and user needs evolve.",
   },
 ];
-
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery and Strategy",
-    desc: "When the goals are clear, the dating app turns out amazing, so in this phase, we align your business goals with the dating app’s vision and features.",
+    title: "Discovery & Strategy",
+    desc: "We define your app goals, target audience and content needs. This helps to create a clear plan and strong foundation for development.",
   },
   {
     step: "02",
-    title: "User Interface Design",
-    desc: "It is a dating app development process in which a preliminary visual mock-up is created that shows the mobile app’s initial design.",
+    title: "UI/UX Design",
+    desc: "We design simple, engaging and user friendly interfaces. Our focus is to improve user experience retention through smooth navigation.",
   },
   {
     step: "03",
-    title: "Development Stage",
-    desc: "The dating app development begins, and our professional mobile app developers work according to your product roadmap and total execution time.",
+    title: "App Development",
+    desc: "We integrate APIs and develop front end and back end solutions. This guarantees that your app functions properly and provides all necessary features.",
   },
   {
     step: "04",
-    title: "Testing Stage",
-    desc: "Conducting tests at every phase of the matchmaking app development process helps maintain quality and keep up with the latest status updates.",
+    title: "Testing & Quality Control",
+    desc: "We perform functional, performance and security testing. This ensures your app works properly and provides a stable, error free user experience.",
   },
   {
     step: "05",
     title: "Deployment",
-    desc: "Your app deployment is where preparation connects performance, resulting in smooth operation across iOS and Android platforms.",
+    desc: "We launch your app on iOS, Android or web platforms. Our team ensures smooth deployment and better visibility with the app store optimization.",
   },
   {
     step: "06",
-    title: "Post-Launch Support",
-    desc: "Once we have launched your dating app, the developers’ focus shifts to monitoring performance and optimizing features based on user feedback.",
+    title: "Maintenance & Support",
+    desc: "We provide regular updates, fix issues and improve features. This helps your app stay secure, updated and aligned according to user needs.",
   },
 ];
 
@@ -463,7 +498,7 @@ Our entertainment app development services ensure high performance, smooth user 
       <Services
         header=" Entertainment App Development "
         header2={"Services"}
-        button={"Build My Healthcare App"}
+        button={"Build My Entertainment App"}
         para="We provide end to end entertainment mobile app development which help businesses build engaging and scalable apps. Our solutions focus on the strong performance, smooth user experience and reliable delivery across platforms, We design apps which support content growth, user retention and long term business success.   "
         services={services}
       />
@@ -494,14 +529,15 @@ We create top notch entertainment apps which align with business objectives and 
         }
         bs={highlights}
       />
-                <ThirdPartyIntegration/>
                         <Process
-        header="Proven Process of a Dating App Development Company"
-        para="Every dating application we develop solves a problem. So, the team works with a structured approach that brings your dating app idea to life. Different matchmaking app development companies work with unique workflows, but when it comes to creating mobile apps at our development company, we utilize a perfectly structured approach of the best dating app development companies to ensure that we design applications that work the proper way. Here’s the structured workflow that turns visions into apps.   "
+        header="Our Entertainment App Development Process"
+        para="We follow a structured and agile based development process to ensure your entertainment app is delivered on time, within budget and with high quality, performance and reliability across platforms.   "
         steps={PROCESS_STEPS}
       />
+      <Impact/>
+      <Cost cards={defaultCards}  title=" Industry Wide Cost of Entertainment App Development" description={<>The complexity, functionality and platform all affect how much it costs to design and entertainment app. Our entertainment app development services provide scalable, high performing solutions while assisting companies with the budget planning. </>}/>
+                {/* <ThirdPartyIntegration/> */}
     
-      <Cost cards={defaultCards}  title="Dating App Development Cost Industry-Wide" description={<>The cost of developing matchmaking, dating apps isn’t the same for every type. It varies widely. It mostly depends on usual factors like features, complexity, platform choice, third-party integrations. Dignite Studios can definitely just provide an average based on market research and studies. This doesn’t represent Dignite Studios’ pricing models, so if you need a more specific quote, <Link href="/contact-us" className="text-orange-600">contact our team today</Link></>}/>
 
       
             
@@ -551,18 +587,19 @@ We create top notch entertainment apps which align with business objectives and 
       /> */}
    
       <Testimonials
-        header="What Our Clients Say "
+        header=" What Our Clients Say About Our Entertainment App Development"
         test={test}
-        // button={"Talk to our Experts"}
+        button={"Work With Our Expert Team "}
+        para={"Clients trust our video streaming app development company for delivering reliable, high-performance solutions which improve engagement and business outcomes. Here are the points of view of a few of our clients:"}
 
         // button="Work With Our Expert Team"
       />
       <Faq faqs={faqs} header="Frequently Asked Questions" />
       <ContactUs
-       pathname={"Dating App dev"}
+       pathname={"Entertainment App dev"}
         img={"/industries/healthcare/c-img.webp"}
-        header={"Start Building Your Dating App Today"}
-        para="Share your project requirements with our expert team and take the first step toward launching your feature-rich dating app. Submit your details below, and we’ll provide a personalized consultation to help you plan, design, and build your app successfully. "
+        header={"Ready to Build Your Entertainment App?"}
+        para="Start your project with a trusted entertainment app development company. Share your idea with our team. We will guide you and build a strong app for your business. "
         btn="Get Free Consultation "
       />
     </div>

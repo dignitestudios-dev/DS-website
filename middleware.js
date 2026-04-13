@@ -25,6 +25,18 @@ export function middleware(request) {
       newPath: "/services/mobile-app-design-services",
     },
     {
+      oldPath: "/services/hire-android-app-developers",
+      newPath: "/services/hire-android-application-developers",
+    },
+    {
+      oldPath: "/services/hire-mobile-app-developers",
+      newPath: "/services/hire-mobile-application-developers",
+    },
+    {
+      oldPath: "/services/hire-ios-app-developers",
+      newPath: "/services/hire-ios-application-developers",
+    },
+    {
       oldPath: "/services/hire-android-developers",
       newPath: "/services/hire-android-app-developers",
     },

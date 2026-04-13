@@ -81,16 +81,7 @@ const tabConfig = [
         desc: "Admins can manage subscriptions, ads and purchases. This helps generate steady revenue from the app.",
         icon: <FaMoneyBillWave />,
       },
-      {
-        title: "Content Moderation",
-        desc: "Admins can review and manage content. This guarantees quality and maintains user safety on the platform.",
-        icon: <FaShieldAlt />,
-      },
-      {
-        title: "Automated Alerts & Notifications",
-        desc: "Users can get customised communications from administrators. This improves communication and user engagement.",
-        icon: <FaBell />,
-      },
+ 
       {
         title: "Security & Compliance Management",
         desc: "The platform protects user data and ensures secure streaming. This builds trust and keeps the system safe.",
