@@ -97,19 +97,22 @@ const Navbar = ({ setIsOpen }) => {
           ],
         ],
       },
-      // {
-      //   items: [
-      //     [
-      //       "Mobile App Design Services",
-      //       "/services/mobile-app-design-services",
-      //     ],
-      //     [
-      //       "Android App Design Services",
-      //       "/services/android-mobile-app-design-services",
-      //     ],
-      //     ["iOS App Design Services", "/services/ios-app-design-services"],
-      //   ],
-      // },
+      {
+        items: [
+          [
+            "Hire Mobile App Developers",
+            "/services/hire-mobile-application-developers",
+          ],
+          [
+            "Hire Android App Developers",
+            "/services/hire-android-application-developers",
+          ],
+          [
+            "Hire iOS App Developers",
+            "/services/hire-ios-application-developers",
+          ],
+        ],
+      },
     ],
     technology: [
       {
@@ -139,14 +142,12 @@ const Navbar = ({ setIsOpen }) => {
           // ["Fintech", "/industries/fintech"],
         ],
       },
-      // {
-      //   image: "/ind-r.webp",
-      //   items: [
-      //     ["Healthcare", "/industries/healthcare"],
-      //     ["Education", "/industries/education"],
-      //     ["E-commerce", "/industries/ecommerce"],
-      //   ],
-      // },
+      {
+        image: "/ind-r.webp",
+        items: [
+          ["Healthcare", "/industries/healthcare-app-development"],
+        ],
+      },
     ],
     locations: [
       {

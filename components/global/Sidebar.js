@@ -313,6 +313,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 >
                   Real Estate
                 </Link>
+                <Link
+                  href="/industries/healthcare-app-development"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Healthcare
+                </Link>
               </div>
             )}
           </button>

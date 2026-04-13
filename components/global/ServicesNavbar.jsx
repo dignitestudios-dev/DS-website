@@ -118,6 +118,24 @@ const ServicesNavbar = ({ setIsOpen }) => {
             >
               PWA Development Services
             </Link>
+            <Link
+              href="/services/hire-mobile-app-developers"
+              className={`hover:text-orange-600 `}
+            >
+              Hire Mobile App Developers
+            </Link>
+            <Link
+              href="/services/hire-android-app-developers"
+              className={`hover:text-orange-600 `}
+            >
+              Hire Android App Developers
+            </Link>
+            <Link
+              href="/services/hire-ios-app-developers"
+              className={`hover:text-orange-600 `}
+            >
+              Hire iOS App Developers
+            </Link>
           </div>
         </button>
         <button
