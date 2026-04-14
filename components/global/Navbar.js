@@ -186,7 +186,7 @@ const Navbar = ({ setIsOpen }) => {
         image: "/eco-r.webp",
         items: [
           ["Shopify App Development", "/ecommerce/shopify-app-development"],
-          ["Ecommerce Development", "/ecommerce/ecommerce-development"],
+          ["Ecommerce App Development", "/ecommerce/ecommerce-app-development"],
           ["Shopify Store Development", "/ecommerce/shopify-store-development"],
         ],
       },

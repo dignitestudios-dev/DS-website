@@ -110,8 +110,8 @@ const Footer = () => {
         href: "/ecommerce/shopify-app-development",
       },
       {
-        name: "Ecommerce Development",
-        href: "/ecommerce/ecommerce-development",
+        name: "Ecommerce App Development",
+        href: "/ecommerce/ecommerce-app-development",
       },
       {
         name: "Shopify Store Development",

@@ -437,11 +437,11 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Shopify App Development
                 </Link>
                 <Link
-                  href="/ecommerce/ecommerce-development"
+                  href="/ecommerce/ecommerce-app-development"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
-                  Ecommerce Development
+                  Ecommerce App Development
                 </Link>
                 <Link
                   href="/ecommerce/shopify-store-development"
