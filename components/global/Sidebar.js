@@ -121,83 +121,6 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Mobile App Development Services
                 </Link>
                 <Link
-                  href="/services/mobile-app-design-services"
-                  className={`hover:text-orange-600 `}
-                  onClick={() => setIsOpen(false)}
-                >
-                  Mobile App Design Services
-                </Link>
-                <Link
-                  href="/services/mobile-app-consulting-services"
-                  className={`hover:text-orange-600 `}
-                  onClick={() => setIsOpen(false)}
-                >
-                  Mobile App Consulting Services
-                </Link>
-                <Link
-                  href="/services/mobile-app-testing-services"
-                  className={`hover:text-orange-600 `}
-                  onClick={() => setIsOpen(false)}
-                >
-                  Mobile App Testing Services
-                </Link>
-                <Link
-                  href="/services/ios-app-development"
-                  className={`hover:text-orange-600 `}
-                  onClick={() => setIsOpen(false)}
-                >
-                  IOS App Development Services
-                </Link>
-                <Link
-                  href="/services/ios-app-design-services"
-                  className={`hover:text-orange-600 `}
-                  onClick={() => setIsOpen(false)}
-                >
-                  IOS App Design Services
-                </Link>
-                <Link
-                  href="/services/native-app-development-services"
-                  className={`hover:text-orange-600 `}
-                  onClick={() => setIsOpen(false)}
-                >
-                  Native App Development Services
-                </Link>
-                <Link
-                  href="/services/android-app-development"
-                  className={`hover:text-orange-600 `}
-                  onClick={() => setIsOpen(false)}
-                >
-                  Android App Development-services
-                </Link>
-                <Link
-                  href="/services/android-mobile-app-design-services"
-                  className={`hover:text-orange-600 text-start`}
-                  onClick={() => setIsOpen(false)}
-                >
-                  Android Mobile App Design-services
-                </Link>
-                <Link
-                  href="/services/hire-mobile-app-developers"
-                  className={`hover:text-orange-600 text-start`}
-                  onClick={() => setIsOpen(false)}
-                >
-                  Hire Mobile App Developers
-                </Link>
-                <Link
-                  href="/services/hire-android-app-developers"
-                  className={`hover:text-orange-600 text-start`}
-                  onClick={() => setIsOpen(false)}
-                >
-                  Hire Android App Developers
-                </Link>
-                <Link
-                  href="/services/hire-ios-app-developers"
-                  className={`hover:text-orange-600 text-start`}
-                  onClick={() => setIsOpen(false)}
-                >
-                  Hire iOS App Developers
-                </Link>
-                <Link
                   href="/services/web-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
@@ -212,11 +135,46 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   PWA Development Services
                 </Link>
                 <Link
+                  href="/services/android-app-development"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Android App Development Services
+                </Link>
+                <Link
+                  href="/services/ios-app-development"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  iOS App Development Services
+                </Link>
+                <Link
+                  href="/services/native-app-development"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Native App Development Services
+                </Link>
+                <Link
                   href="/services/mobile-application-support-and-maintenance-services"
                   className={`hover:text-orange-600 text-start`}
                   onClick={() => setIsOpen(false)}
                 >
-                  Mobile App Support And Maintenance Services
+                  Mobile App Support & Maintenance Services
+                </Link>
+                <Link
+                  href="/services/mobile-app-consultation"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Mobile App Consulting Services
+                </Link>
+                <Link
+                  href="/services/mobile-app-testing-services"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Mobile App Testing Services
                 </Link>
                 <Link
                   href="/services/hybrid-app-development"
@@ -224,6 +182,34 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   onClick={() => setIsOpen(false)}
                 >
                   Hybrid App Development Services
+                </Link>
+                <Link
+                  href="/services/ai-app-development"
+                  className={`hover:text-orange-600 text-start`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  AI App Development Services
+                </Link>
+                <Link
+                  href="/services/hire-mobile-application-developers"
+                  className={`hover:text-orange-600 text-start`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Hire Mobile App Developers
+                </Link>
+                <Link
+                  href="/services/hire-android-application-developers"
+                  className={`hover:text-orange-600 text-start`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Hire Android App Developers
+                </Link>
+                <Link
+                  href="/services/hire-ios-application-developers"
+                  className={`hover:text-orange-600 text-start`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Hire iOS App Developers
                 </Link>
               </div>
             )}
@@ -274,7 +260,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
-                  AI Automation Services
+                  AI Automation
                 </Link>
               </div>
             )}
@@ -319,6 +305,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   onClick={() => setIsOpen(false)}
                 >
                   Healthcare
+                </Link>
+                <Link
+                  href="/industries/dating-app"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Dating App
                 </Link>
               </div>
             )}
@@ -444,6 +437,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Shopify App Development
                 </Link>
                 <Link
+                  href="/ecommerce/ecommerce-development"
+                  className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
+                >
+                  Ecommerce Development
+                </Link>
+                <Link
                   href="/ecommerce/shopify-store-development"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
@@ -451,11 +451,32 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Shopify Store Development
                 </Link>
                 <Link
-                  href="/ecommerce/ecommerce-app-development"
+                  href="/ecommerce/woo-commerce-development"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
-                  Ecommerce App Development
+                  WooCommerce Development
+                </Link>
+                <Link
+                  href="/ecommerce/big-commerce-development"
+                  className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
+                >
+                  BigCommerce Development
+                </Link>
+                <Link
+                  href="/ecommerce/shopify-integration-development"
+                  className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
+                >
+                  Shopify Integration Development
+                </Link>
+                <Link
+                  href="/ecommerce/shopify-migration-services"
+                  className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
+                >
+                  Shopify Migration Services
                 </Link>
               </div>
             )}

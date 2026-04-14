@@ -33,15 +33,15 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-      <div className="relative flex justify-center h-[200px] md:h-[500px] items-center my-12 ">
+      <div className="relative flex justify-center h-[200px] md:h-[600px] items-center my-12 ">
         <Image
         
-          src="/services/mobile-app/grad.webp"
+          src="/services/ai-dev/grad.webp"
           alt=""
-          width={2000}
-          height={2000}
+          width={1000}
+          height={1000}
           priority
-          className="absolute md:block hidden left-[50%] translate-x-[-50%] -top-[50%] -z-0 object-contain" />
+          className="absolute md:block hidden left-[54%] translate-x-[-50%]  -z-0 object-contain" />
         <motion.div
           className="relative hidden md:block"
           initial={{ y: 80, opacity: 0 }}
@@ -54,9 +54,9 @@ const Hero = () => {
         >
           <Image
            
-            src="/services/android-app/mob.webp"
+            src="/services/ai-dev/mob.webp"
             alt="Mobile app development showcase Boston"
-            width={1321}
+            width={1100}
             height={727}
             fetchPriority="high"
             priority
@@ -67,9 +67,9 @@ const Hero = () => {
         <div className="relative md:hidden">
           <Image
            
-            src="/services/android-app/mob.webp"
+            src="/services/ai-dev/mob.webp"
             alt="Mobile app development showcase Boston"
-            width={1821}
+            width={321}
             height={927}
             fetchPriority="high"
             priority
@@ -88,6 +88,7 @@ className="scale-150 mt-4 -mb-8"
           height={150}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"
          /> */}
+          <div className="absolute -bottom-10  left-0 w-full border-none h-20 lg:h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>
         <Platforms />

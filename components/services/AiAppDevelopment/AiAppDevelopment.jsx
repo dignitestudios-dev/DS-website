@@ -50,6 +50,7 @@ import {
   SiDigitalocean,
   SiCloudinary,
   SiKotlin,
+  SiMongodb,
 } from "react-icons/si";
 import { FaAws, FaApple, FaGooglepay } from "react-icons/fa";
 import Features from "../ui/Features";
@@ -75,8 +76,16 @@ import {
   FaSync,
   FaCogs,
 } from "react-icons/fa";
-import { SiOpenai, SiTensorflow, SiPytorch, SiPython, SiDocker, SiKubernetes } from "react-icons/si";
+import {
+  SiOpenai,
+  SiTensorflow,
+  SiPytorch,
+  SiPython,
+  SiDocker,
+  SiKubernetes,
+} from "react-icons/si";
 import CTA from "./CTA";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 const FEATURES = [
   {
@@ -145,8 +154,8 @@ const techData = {
   Data: [
     { name: "Pinecone", icon: <FaDatabase /> },
     { name: "Weaviate", icon: <FaDatabase /> },
-    { name: "PostgreSQL", icon: <FaDatabase /> }, // Assume Postgres from metadata
-    { name: "MongoDB", icon: <FaDatabase /> }, // Assume Mongo from metadata
+    { name: "PostgreSQL", icon: <BiLogoPostgresql /> }, // Assume Postgres from metadata
+    { name: "MongoDB", icon: <SiMongodb /> }, // Assume Mongo from metadata
   ],
   Cloud: [
     { name: "AWS", icon: <FaAws /> },
@@ -211,9 +220,9 @@ const services = [
     title: "AI Product Design",
     description: (
       <>
-        We provide AI product design services that help you create amazing
-        UI/UX designs for your AI applications. Our designers focus on intuitive
-        and engaging interfaces.
+        We provide AI product design services that help you create amazing UI/UX
+        designs for your AI applications. Our designers focus on intuitive and
+        engaging interfaces.
       </>
     ),
   },
@@ -245,26 +254,32 @@ const services = [
 
 const highlights = [
   {
+    icon: "/services/ai-dev/1.webp",
     title: "AI First Development Strategy",
     desc: "We prioritize AI in our development strategy, ensuring your application leverages the latest advancements to stay ahead.",
   },
   {
+    icon: "/services/ai-dev/2.webp",
     title: "Proven AI Frameworks",
     desc: "We use established AI frameworks like TensorFlow and PyTorch to build reliable and high-performance AI solutions.",
   },
   {
+    icon: "/services/ai-dev/3.webp",
     title: "Expert AI Engineers",
     desc: "Our team of expert AI engineers has the experience and skills to bring your most complex AI ideas to life.",
   },
   {
+    icon: "/services/ai-dev/4.webp",
     title: "Focus on User Experience",
     desc: "We focus on creating intuitive and engaging AI experiences that resonate with your users and drive results.",
   },
   {
+    icon: "/services/ai-dev/5.webp",
     title: "Secure and Scalable Solutions",
     desc: "Our AI solutions are built to be secure and scalable, ensuring they grow with your business and protect your data.",
   },
   {
+    icon: "/services/ai-dev/6.webp",
     title: "Ongoing Support and Maintenance",
     desc: "We provide ongoing support and maintenance to ensure your AI application stays functional and competitive.",
   },
@@ -498,7 +513,9 @@ const AiAppDevelopment = () => {
                   Ready to Bring Your AI App to Life?
                 </h2>
                 <p>
-                  With our AI app development services, your ideas can end up being fully functional apps. Talk to our expert developers today.
+                  With our AI app development services, your ideas can end up
+                  being fully functional apps. Talk to our expert developers
+                  today.
                 </p>
                 <Link
                   href="/contact-us"
@@ -518,7 +535,12 @@ const AiAppDevelopment = () => {
         button={"Get AI App Recommendations"}
         para={
           <>
-            We are experts at building AI applications. Our generative AI development company consists of a team who takes the time to understand your goals before the development begins. We deliver functional applications with clear communication and reliable solutions. Our developers provide you with everything you need and build an application that just works.
+            We are experts at building AI applications. Our generative AI
+            development company consists of a team who takes the time to
+            understand your goals before the development begins. We deliver
+            functional applications with clear communication and reliable
+            solutions. Our developers provide you with everything you need and
+            build an application that just works.
           </>
         }
       />
@@ -537,7 +559,10 @@ const AiAppDevelopment = () => {
         button={"Build Smarter Apps with AI"}
         para={
           <>
-            There are several reasons why investing in custom generative AI development services is a smart move for your business. From improving operational efficiency to providing personalized customer experiences, custom AI solutions offer a competitive advantage.
+            There are several reasons why investing in custom generative AI
+            development services is a smart move for your business. From
+            improving operational efficiency to providing personalized customer
+            experiences, custom AI solutions offer a competitive advantage.
           </>
         }
         cards={BENEFITS}
@@ -547,7 +572,10 @@ const AiAppDevelopment = () => {
         header2={""}
         para={
           <>
-            Every AI app needs some mandatory features to ensure that it provides value to the users. Our generative AI development services focus on incorporating these essential features into your AI application to ensure that it delivers amazing performance.
+            Every AI app needs some mandatory features to ensure that it
+            provides value to the users. Our generative AI development services
+            focus on incorporating these essential features into your AI
+            application to ensure that it delivers amazing performance.
           </>
         }
         features={FEATURES}
@@ -568,7 +596,7 @@ const AiAppDevelopment = () => {
       />
       <Faq faqs={faqs} />
       <ContactUs
-        img={"/services/mobile-app/c-img.webp"}
+        img={"/services/ai-dev/c-img.webp"}
         pathname={"AI App dev"}
         header={"Start Building Your AI App Today"}
         header2={""}

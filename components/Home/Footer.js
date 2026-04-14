@@ -19,12 +19,8 @@ const Footer = () => {
   const footerLinks = {
     services: [
       {
-        name: "Android App Development Services",
-        href: "/services/android-app-development",
-      },
-      {
-        name: "IOS App Development Services",
-        href: "/services/ios-app-development",
+        name: "Mobile App Development Services",
+        href: "/services/mobile-app-development",
       },
       {
         name: "Web App Development Services",
@@ -35,16 +31,20 @@ const Footer = () => {
         href: "/services/progressive-web-app-development",
       },
       {
-        name: "Mobile App Support And Maintenance Services",
+        name: "Android App Development Services",
+        href: "/services/android-app-development",
+      },
+      {
+        name: "iOS App Development Services",
+        href: "/services/ios-app-development",
+      },
+      {
+        name: "Native App Development Services",
+        href: "/services/native-app-development",
+      },
+      {
+        name: "Mobile App Support & Maintenance Services",
         href: "/services/mobile-application-support-and-maintenance-services",
-      },
-      {
-        name: "Hybrid App Development Services",
-        href: "/services/hybrid-app-development",
-      },
-      {
-        name: "Mobile App Development Services",
-        href: "/services/mobile-app-development",
       },
       {
         name: "Mobile App Consulting Services",
@@ -55,20 +55,24 @@ const Footer = () => {
         href: "/services/mobile-app-testing-services",
       },
       {
-        name: "Native App Development Services",
-        href: "/services/native-app-development-services",
+        name: "Hybrid App Development Services",
+        href: "/services/hybrid-app-development",
+      },
+      {
+        name: "AI App Development Services",
+        href: "/services/ai-app-development",
       },
       {
         name: "Hire Mobile App Developers",
-        href: "/services/hire-mobile-app-developers",
+        href: "/services/hire-mobile-application-developers",
       },
       {
         name: "Hire Android App Developers",
-        href: "/services/hire-android-app-developers",
+        href: "/services/hire-android-application-developers",
       },
       {
-        name: "Hire IOS App Developers",
-        href: "/services/hire-ios-app-developers",
+        name: "Hire iOS App Developers",
+        href: "/services/hire-ios-application-developers",
       },
     ],
     technology: [
@@ -95,8 +99,10 @@ const Footer = () => {
       { name: "Blog", href: "/blogs" },
     ],
     industries: [
-      { name: "Real Estate", href: "/industries/real-state" },
       { name: "Food Industry", href: "/industries/food-industry" },
+      { name: "Real Estate", href: "/industries/real-estate" },
+      { name: "Healthcare", href: "/industries/healthcare-app-development" },
+      { name: "Dating App", href: "/industries/dating-app" },
     ],
     ecommerce: [
       {
@@ -104,20 +110,20 @@ const Footer = () => {
         href: "/ecommerce/shopify-app-development",
       },
       {
-        name: "Ecommerce App Development",
-        href: "/ecommerce/ecommerce-app-development",
+        name: "Ecommerce Development",
+        href: "/ecommerce/ecommerce-development",
       },
       {
         name: "Shopify Store Development",
         href: "/ecommerce/shopify-store-development",
       },
       {
-        name: "WooCommerce App Development",
-        href: "/ecommerce/woo-commerce-app-development",
+        name: "WooCommerce Development",
+        href: "/ecommerce/woo-commerce-development",
       },
       {
-        name: "BigCommerce App Development",
-        href: "/ecommerce/big-commerce-app-development",
+        name: "BigCommerce Development",
+        href: "/ecommerce/big-commerce-development",
       },
       {
         name: "Shopify Integration Development",
@@ -136,23 +142,23 @@ const Footer = () => {
       { name: "Contact Us", href: "/contact-us" },
     ],
     location: [
-      { name: "Chicago", href: "/locations/mobile-app-development-chicago" },
-      { name: "Seattle", href: "/locations/mobile-app-development-seattle" },
-      { name: "Boston", href: "/locations/mobile-app-development-boston" },
-      { name: "Miami", href: "/locations/mobile-app-development-miami" },
-      {
-        name: "Charlotte",
-        href: "/locations/mobile-app-development-charlotte",
-      },
       { name: "New York", href: "/locations/mobile-app-development-new-york" },
-      { name: "Tampa", href: "/locations/mobile-app-development-tampa" },
       {
         name: "California",
         href: "/locations/mobile-app-development-california",
       },
+      { name: "Seattle", href: "/locations/mobile-app-development-seattle" },
+      { name: "Miami", href: "/locations/mobile-app-development-miami" },
+      { name: "Tampa", href: "/locations/mobile-app-development-tampa" },
+      { name: "Chicago", href: "/locations/mobile-app-development-chicago" },
+      { name: "Boston", href: "/locations/mobile-app-development-boston" },
       {
         name: "Washington",
         href: "/locations/mobile-app-development-washington",
+      },
+      {
+        name: "Charlotte",
+        href: "/locations/mobile-app-development-charlotte",
       },
       { name: "Texas", href: "/locations/mobile-app-development-texas" },
     ],

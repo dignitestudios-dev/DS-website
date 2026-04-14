@@ -95,6 +95,10 @@ const Navbar = ({ setIsOpen }) => {
             "Hybrid App Development Services",
             "/services/hybrid-app-development",
           ],
+          [
+            "AI App Development Services",
+            "/services/ai-app-development",
+          ],
         ],
       },
       {
@@ -146,6 +150,7 @@ const Navbar = ({ setIsOpen }) => {
         image: "/ind-r.webp",
         items: [
           ["Healthcare", "/industries/healthcare-app-development"],
+          ["Dating App", "/industries/dating-app"],
         ],
       },
     ],
