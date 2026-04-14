@@ -150,7 +150,7 @@ const techData = {
   ],
   Cloud: [
     { name: "AWS", icon: <FaAws /> },
-    { name: "Azure", icon: <SiAzure /> },
+    { name: "Azure", icon: <FaMicrosoft /> },
     { name: "GCP", icon: <SiGooglecloud /> },
     { name: "Docker", icon: <SiDocker /> },
     { name: "Kubernetes", icon: <SiKubernetes /> },

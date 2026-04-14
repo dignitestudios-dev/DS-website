@@ -110,7 +110,10 @@ const Bussiness = ({
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
                   <img
-                    src={item.icon || `/location/mobile-california/${icons[index].icon}`}
+                    src={
+                      item.icon ||
+                      `/location/mobile-california/${icons[index].icon}`
+                    }
                     alt={item.title}
                     className=" "
                   />
@@ -189,7 +192,10 @@ const Bussiness = ({
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
                   <img
-                    src={item.icon || `/location/mobile-california/${icons[index + 3].icon}`}
+                    src={
+                      item.icon ||
+                      `/location/mobile-california/${icons[index + 3].icon}`
+                    }
                     alt={item.title}
                     className=" "
                   />
@@ -206,17 +212,19 @@ const Bussiness = ({
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <Link
-              href={"/contact-us"}
-              className="flex items-center group justify-center w-fit"
-            >
-              <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                {button ? button : " Talk to our California-based team"}
-              </button>
-              <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                <MdArrowOutward />
-              </button>
-            </Link>
+            {button && (
+              <Link
+                href={"/contact-us"}
+                className="flex items-center group justify-center w-fit"
+              >
+                <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                  {button}
+                </button>
+                <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                  <MdArrowOutward />
+                </button>
+              </Link>
+            )}
           </div>
         </div>
         <section className="w-full bg-transparent py-20 px-4 md:hidden relative z-50">
@@ -262,7 +270,10 @@ const Bussiness = ({
                 <SwiperSlide key={index}>
                   <div className="relative w-[350px] mx-auto">
                     <img
-                      src={item.icon || `/location/mobile-california/${icons[index].icon}`}
+                      src={
+                        item.icon ||
+                        `/location/mobile-california/${icons[index].icon}`
+                      }
                       alt={item.title}
                       className="w-[350px] h-full object-contain"
                     />
