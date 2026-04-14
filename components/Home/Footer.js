@@ -103,6 +103,7 @@ const Footer = () => {
       { name: "Real Estate", href: "/industries/real-estate" },
       { name: "Healthcare", href: "/industries/healthcare-app-development" },
       { name: "Dating App", href: "/industries/dating-app" },
+      { name: "Entertainment App", href: "/industries/entertainment-app" },
     ],
     ecommerce: [
       {

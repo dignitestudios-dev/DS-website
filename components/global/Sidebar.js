@@ -313,6 +313,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 >
                   Dating App
                 </Link>
+                <Link
+                  href="/industries/entertainment-app"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Entertainment App
+                </Link>
               </div>
             )}
           </button>

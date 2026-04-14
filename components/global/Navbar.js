@@ -153,6 +153,13 @@ const Navbar = ({ setIsOpen }) => {
           ["Dating App", "/industries/dating-app"],
         ],
       },
+      {
+        image: "/ind-r.webp",
+        items: [
+          ["Entertainment App", "/industries/entertainment-app"],
+          // ["Dating App", "/industries/dating-app"],
+        ],
+      },
     ],
     locations: [
       {
