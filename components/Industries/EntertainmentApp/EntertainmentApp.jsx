@@ -252,62 +252,62 @@ const PLATFORMS = [
 ];
 const test = [
   {
-    name: "Nova Media",
-    designation: "John Smith",
+    name: "John Smith",
+    designation: "Product Manager, Nova Media",
     review:
       "The team delivered a fast and engaging streaming app. User activity and retention improved significantly.",
   },
   {
-    name: "StreamHub",
-    designation: "Emily Johnson",
+    name: "Emily Johnson",
+    designation: "Operations Lead, StreamHub",
     review:
       "Our platform now handles high traffic smoothly. The development process was professional and timely.",
   },
   {
-    name: "MusicFloe",
-    designation: "David Lee",
+    name: "David Lee",
+    designation: "Founder, MusicFloe",
     review:
       "The music app runs flawlessly. Playback is smooth and user satisfaction has increased.",
   },
   {
-    name: "PlayZone",
-    designation: "Sophie Buyers",
+    name: "Sophie Buyers",
+    designation: "Game Director, PlayZone",
     review:
       "Interactive gaming features now perform without lag. User engagement and session time improved greatly.",
   },
   {
-    name: "LiveCast",
-    designation: "Michael Brown",
+    name: "Michael Brown",
+    designation: "CTO, LiveCast",
     review:
       "Live streaming quality is stable. With our video streaming app development, users can watch events without interruptions which helps improve retention.",
   },
   {
-    name: "MediaCore",
-    designation: "Jessica Williams",
+    name: "Jessica Williams",
+    designation: "Project Manager, MediaCore",
     review:
       "The team managed the app professionally. Our internal workflows and content delivery became more efficient.",
   },
   {
-    name: "Eventify",
-    designation: "Daniel Martinez",
+    name: "Daniel Martinez",
+    designation: "Product Owner, Eventify",
     review:
       "Live event booking and streaming are smooth. Users praised the simple and intuitive interface.",
   },
   {
-    name: "News Track",
-    designation: "Laura Kim",
+    name: "Laura Kim",
+    designation: "Editor-in-Chief, News Track",
     review:
       "Content updates and delivery are faster. Our readers enjoy a smooth news experience.",
   },
   {
-    name: "AudioWave",
-    designation: "Robert Davis",
+    name: "Robert Davis",
+    designation: "Marketing Head, AudioWave",
     review:
       "Push notifications and playlists improved engagement. Users interact more frequently with the app.",
   },
   {
-    name: "FunStream",
-    designation: "Sophia Taylor",
+    name: "Sophia Taylor",
+    designation: "CEO, FunStream",
     review:
       "Support and communication were excellent. The project was delivered on time with high quality results.",
   },
@@ -535,7 +535,7 @@ We create top notch entertainment apps which align with business objectives and 
         steps={PROCESS_STEPS}
       />
       <Impact/>
-      <Cost cards={defaultCards}  title=" Industry Wide Cost of Entertainment App Development" description={<>The complexity, functionality and platform all affect how much it costs to design and entertainment app. Our entertainment app development services provide scalable, high performing solutions while assisting companies with the budget planning. </>}/>
+      <Cost cards={defaultCards} btn="Get a Custom Cost Estimate "  title=" Industry Wide Cost of Entertainment App Development" description={<>The complexity, functionality and platform all affect how much it costs to design and entertainment app. Our entertainment app development services provide scalable, high performing solutions while assisting companies with the budget planning. </>}/>
                 {/* <ThirdPartyIntegration/> */}
     
 

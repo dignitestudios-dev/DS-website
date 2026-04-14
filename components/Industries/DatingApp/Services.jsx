@@ -72,7 +72,7 @@ const Services = ({ services, header, header2, para, button }) => {
         >
           {services.map((service, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-[#F15C20] rounded-[40px] p-10 py-16 flex flex-col items-center gap-6 text-white h-[400px] justify-center">
+              <div className="bg-[#F15C20] rounded-[40px] p-10 py-16 flex flex-col items-center gap-6 text-white h-[500px] justify-center">
                 <div className="bg-white/20 p-6 rounded-3xl w-24 h-24 flex items-center justify-center">
                   <img
                     src={`/industries/dating-app/${service.icon2}.webp`}
@@ -110,17 +110,19 @@ const Services = ({ services, header, header2, para, button }) => {
         `}</style>
       </div>
       <div className="w-full flex justify-center items-center">
-        <Link
-          href={"/contact-us"}
-          className="flex mt-10 w-fit items-center group justify-center "
-        >
-          <button className="bg-[#F15C20] border border-[#F15C20]  group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            {button ? button : " Talk to our California-based team"}
-          </button>
-          <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-            <MdArrowOutward />
-          </button>
-        </Link>
+        {button && (
+          <Link
+            href={"/contact-us"}
+            className="flex mt-10 w-fit items-center group justify-center "
+          >
+            <button className="bg-[#F15C20] border border-[#F15C20]  group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+              {button}
+            </button>
+            <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+              <MdArrowOutward />
+            </button>
+          </Link>
+        )}
       </div>
     </div>
   );

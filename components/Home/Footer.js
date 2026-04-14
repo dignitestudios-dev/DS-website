@@ -100,10 +100,10 @@ const Footer = () => {
     ],
     industries: [
       { name: "Food Industry", href: "/industries/food-industry" },
-      { name: "Real Estate", href: "/industries/real-estate" },
+      { name: "Real Estate", href: "/industries/real-estate-app-development" },
       { name: "Healthcare", href: "/industries/healthcare-app-development" },
-      { name: "Dating App", href: "/industries/dating-app" },
-      { name: "Entertainment App", href: "/industries/entertainment-app" },
+      { name: "Dating / Matchmaking", href: "/industries/dating-app-development" },
+      { name: "Entertainment App", href: "/industries/entertainment-app-development" },
     ],
     ecommerce: [
       {

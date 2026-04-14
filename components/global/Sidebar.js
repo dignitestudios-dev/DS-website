@@ -293,7 +293,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Food Industry
                 </Link>
                 <Link
-                  href="/industries/real-estate"
+                  href="/industries/real-estate-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
@@ -307,14 +307,14 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Healthcare
                 </Link>
                 <Link
-                  href="/industries/dating-app"
+                  href="/industries/dating-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
-                  Dating App
+                  Dating / Matchmaking
                 </Link>
                 <Link
-                  href="/industries/entertainment-app"
+                  href="/industries/entertainment-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >

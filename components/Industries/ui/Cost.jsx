@@ -26,6 +26,7 @@ const defaultCards = [
 const Cost = ({
   title = "Food Delivery App Development Cost Industry-Wide",
   description =
+  
     "The cost of developing a food delivery app isn’t the same for every type. It varies widely depending on features, complexity, platform choice, and third-party integrations. We can provide an average based on market research and studies. It doesn’t represent Dignite Studios’ pricing models, so for a specific quote, ",
   cards = defaultCards,
   ctaText = "Plan Your App Budget",

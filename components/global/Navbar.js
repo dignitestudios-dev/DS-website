@@ -150,13 +150,13 @@ const Navbar = ({ setIsOpen }) => {
         image: "/ind-r.webp",
         items: [
           ["Healthcare", "/industries/healthcare-app-development"],
-          ["Dating App", "/industries/dating-app"],
+          ["Dating / Matchmaking", "/industries/dating-app-development"],
         ],
       },
       {
         image: "/ind-r.webp",
         items: [
-          ["Entertainment App", "/industries/entertainment-app"],
+          ["Entertainment App", "/industries/entertainment-app-development"],
           // ["Dating App", "/industries/dating-app"],
         ],
       },

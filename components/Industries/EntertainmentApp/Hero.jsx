@@ -65,7 +65,7 @@ const Hero = ({
       <Image src={"/industries/ent-app/mob.webp"} className="hidden lg:block" alt="Mobile" width={900} height={900} />
       <Image src={"/industries/ent-app/mob.webp"} className="lg:hidden block" alt="Mobile" width={500} height={500} />
     </motion.div>
-        <div className="absolute -bottom-10  left-0 w-full border-none h-10 lg:h-52 bg-gradient-to-t from-white to-transparent via-white" />
+        <div className="absolute -bottom-10  left-0 w-full border-none h-20 lg:h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>
       <div>
         <Platforms />

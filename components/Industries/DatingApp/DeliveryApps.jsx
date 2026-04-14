@@ -19,8 +19,11 @@ import {
 } from "react-icons/md";
 
 import { RiUser3Line } from "react-icons/ri";
-
 import { MdArrowOutward } from "react-icons/md";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const CARDS = [
   {
@@ -137,8 +140,8 @@ const FlipCard = ({ card }) => {
 
 const DeliveryApps = () => {
   return (
-    <section className="relative mt-16 mx-auto px-4 max-w-[1100px] flex flex-col items-center gap-12">
-      <div className="text-center">
+    <section className="relative mt-16 mx-auto px-4 w-full max-w-[1100px] flex flex-col items-center gap-12">
+      <div className="text-center w-full">
         <h2 className="text-4xl md:text-7xl font-bold leading-[1.05] tracking-tighter">
           Key Features for a Successful Matchmaking App
         </h2>
@@ -147,10 +150,49 @@ const DeliveryApps = () => {
         </p>
       </div>
 
-      <div className="w-full flex flex-wrap justify-center gap-8">
+      {/* Desktop Grid - Hidden on mobile/tablet */}
+      <div className="w-full hidden lg:flex flex-wrap justify-center gap-8">
         {CARDS.map((card) => (
           <FlipCard key={card.title} card={card} />
         ))}
+      </div>
+
+      {/* Mobile/Tablet Carousel - Hidden on desktop */}
+      <div className="w-full overflow-hidden lg:hidden">
+        <Swiper
+          modules={[Autoplay, Pagination]}
+          slidesPerView={1}
+          spaceBetween={20}
+          centeredSlides={true}
+          loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+            renderBullet: (index, className) => {
+              return `<span class="${className} !bg-[#F15C20]"></span>`;
+            },
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              centeredSlides: false,
+            },
+            768: {
+              slidesPerView: 3,
+              centeredSlides: false,
+            },
+          }}
+          className="!pb-12"
+        >
+          {CARDS.map((card) => (
+            <SwiperSlide key={card.title} className="!flex !justify-center">
+              <FlipCard card={card} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
 
       <Link href="/contact-us" className="flex items-center group justify-center">
