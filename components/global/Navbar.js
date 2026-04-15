@@ -142,7 +142,7 @@ const Navbar = ({ setIsOpen }) => {
         image: "/ind-r.webp",
         items: [
           ["Food Industry", "/industries/food-industry"],
-          ["Real Estate", "/industries/real-estate"],
+          ["Real Estate", "/industries/real-estate-app-development"],
           // ["Fintech", "/industries/fintech"],
         ],
       },
