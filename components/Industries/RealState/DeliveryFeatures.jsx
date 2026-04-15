@@ -12,32 +12,32 @@ const tabConfig = [
     features: [
       {
         title: "AI Powered Property Recommendations",
-        desc: "The app tracks user activity, past searches, and preferences to suggest properties that match their needs, making discovery faster and more accurate.",
+        desc: "The app tracks user activity, past searches and preferences to suggest properties that match their needs, making the property discovery faster and quite more accurate. ",
         icon: <FaSearch />,
       },
       {
         title: "Advanced Property Search & Smart Filters",
-        desc: "Users can filter properties by price, location, type, size, and features to quickly find matches without wasting any time.",
+        desc: "Users can filter properties by price, location, type, size and features helping them quickly which match their needs without wasting any further time. ",
         icon: <FaMapMarkerAlt />,
       },
       {
         title: "Interactive Map-Based Property Discovery",
-        desc: "Users can explore properties on a map and view nearby amenities like schools, parks, and transport for better location context.",
+        desc: "Users can explore properties on a map and view nearby places like the schools, parks and transport making it easier to understand the location. ",
         icon: <FaMapMarkerAlt />,
       },
       {
         title: "AR / Virtual Property Tours",
-        desc: "Users can take virtual tours and inspect properties remotely, enabling immersive viewing and faster decision-making.",
+        desc: "With a reliable real estate app builder, users can now save their favourite properties and receive alerts when the prices change or similar listings become available which help them stay updated quite easily.  ",
         icon: <FaUsers />,
       },
       {
         title: "Saved Listings & Personalized Alerts",
-        desc: "Users can save favorite properties and get alerts when prices change or similar listings are available.",
+        desc: "Users can easily remain updated by saving their favourite house and receiving alerts when the prices are altered or comparable listings become available. ",
         icon: <FaBell />,
       },
       {
         title: "Visit Scheduling & In-App Chat with Agents",
-        desc: "Users can schedule property tours and chat directly with agents in-app for quicker communication.",
+        desc: "Users may also utilise the app to directly schedule property tours and communicate with the agents through the chat feature, which speeds the process. ",
         icon: <FaHeadset />,
       },
     ],
@@ -49,32 +49,32 @@ const tabConfig = [
     features: [
       {
         title: "Property Listing Management",
-        desc: "Agents can post and manage property details, photos, videos, pricing, and location info directly from the app.",
+        desc: "Listing changes are quite easy and quick agents can post and manage the property details, photos, videos, pricing and location information straight from the app. ",
         icon: <FaUsers />,
       },
       {
         title: "Smart Lead Management System",
-        desc: "The system captures, organizes, and tracks leads automatically, helping agents identify high-potential clients.",
+        desc: "The system captures, organizes and tracks leads automatically helping agents identify serious buyers and focus on the high potential clients to improve conversions. ",
         icon: <FaChartLine />,
       },
       {
         title: "In-App Communication Tools",
-        desc: "Agents can communicate with clients via built-in messaging and calling options, improving response speed and engagement.",
+        desc: "Through the built in messaging and calling options, agents may also contact clients more effectively, respond quickly and increase communication throughout the property purchasing process. ",
         icon: <FaHeadset />,
       },
       {
         title: "Lead Activity Tracking & Insights",
-        desc: "Agents can monitor property views, saves, and queries to understand buyer interest and improve follow-ups.",
+        desc: "In order to better understand consumer interest and enhance follow ups for better outcomes agents can also monitor user actions such as the property views, saves and queries.",
         icon: <FaEye />,
       },
       {
         title: "Automated Property Alerts for Clients",
-        desc: "Agents can notify clients automatically when new properties match their criteria, boosting faster decisions.",
+        desc: "When new properties fit their criteria, agents can automatically notify customers, keeping buyers informed and boosting likelihood of quicker decisions. ",
         icon: <FaBell />,
       },
       {
         title: "Performance Analytics Dashboard",
-        desc: "In-depth reports on leads, property views, and engagement help agents evaluate performance and refine sales tactics.",
+        desc: "In depth reports on leads, property views and user engagement are available to agents enabling them to evaluate performance and successfully enhance their sales tactics.",
         icon: <FaChartLine />,
       },
     ],
@@ -86,23 +86,23 @@ const tabConfig = [
     features: [
       {
         title: "User & Agent Management System",
-        desc: "Admins can manage roles, buyers, sellers, and agents, regulate access permissions, and monitor activity for platform security.",
+        desc: "To maintain the platform’s organization and security, admins can assign the roles, manage buyers, sellers and agents, regulate access permissions and keep an eye on the user activities.",
         icon: <FaUsers />,
       },
       {
         title: "Property Listing Approval & Moderation",
-        desc: "Admins can review and approve listings to ensure accuracy and maintain platform quality standards.",
+        desc: "Before release, admins check the property listings to make sure all the information given is right, eliminate any inaccurate content and uphold the platform’s high standards quality.",
         icon: <FaCheckCircle />,
       },
       {
         title: "Subscription & Revenue Management",
-        desc: "Admins can manage subscription plans, payments, billing, and premium features from a single dashboard.",
+        desc: "For improved revenue management, admins can oversee subscription plans, monitor the payments, manage billing and regulate the premium features from the single dashboard. ",
         icon: <FaMoneyBillWave />,
       },
       
       {
         title: "Analytics & Performance Reporting",
-        desc: "Admins access real-time reports on user activity, views, and engagement to make data-driven decisions.",
+        desc: "Admins can view real time reports on the user activity, property views and engagement to understand performance and make better business decisions.",
         icon: <FaChartLine />,
       },
     ],
@@ -251,7 +251,7 @@ const DeliveryFeatures = () => {
           className="flex items-center mt-8 group justify-center "
         >
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Let’s Work Together
+            See How Your App Can Work 
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />

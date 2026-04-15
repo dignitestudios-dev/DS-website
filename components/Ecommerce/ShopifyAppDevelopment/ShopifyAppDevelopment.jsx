@@ -460,9 +460,9 @@ const ShopifyAppDevelopment = () => {
   return (
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero
-        header="Flexible Shopify App Development "
-        header2="Specialists"
-        para="We deliver reliable shopify app development that helps businesses. Build scalable ecommerce solutions. Our team creates simple and effective apps. It improves the store performance support. Giving the growth and delivering the real business value for the modern online brands."
+        header="Find the Right Shopify App Development "
+        header2="Team Here"
+        para="We deliver reliable shopify app development  that helps businesses. Build scalable ecommerce solutions. Our team creates simple and effective apps. It improves the store performance support. Giving the growth and delivering the real business value for the modern online brands."
         btn="Get Free Shopify App Consultation"
       />
       <About
@@ -471,7 +471,7 @@ const ShopifyAppDevelopment = () => {
         para={<>
         With over 10 years of experience Dignite Studios provides the reliable shopify services. For growing ecommerce businesses. We build the public apps, private apps and the Custom Integrations. It improves the store performance and the user experience. <br/> Our team works with the startups and the large brands. Across the retail DTC and marketplaces. As the trusted agency we focus on scalable solutions. It supports long term growth and operations. <br/> We create apps that are easy to manage. Our goal is to help business smoothly and grow faster through the strong and dependable Shopify app solutions which deliver constant results and long term business success.
         </>}
-        button="Talk With Us"
+        button="Get Your Shopify App Started "
       />
       <Services
         services={services}
@@ -502,7 +502,9 @@ const ShopifyAppDevelopment = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Reliable Custom Shopify App Development Process"}
+        button={""}
+        header={"Reliable Custom Shopify App "}
+        header2={"Development Process"}
         para={
           "Our process focuses on the clear execution and measurable results. As the trusted shopify app development company. We build reliable solutions that improve performance and support long term growth."
         }
@@ -572,6 +574,7 @@ const ShopifyAppDevelopment = () => {
           "A shopify mobile app helps businesses improve engagement, automate operations and increase revenue. Our approach to mobile app development services for ecommerce ensures scalable growth and better performance across the platforms."
         }
         cards={BENEFITS}
+        button={" Build a Scalable Shopify App "}
       />
       <Features
         button={"Get Feature Recommendations. "}
@@ -588,15 +591,16 @@ const ShopifyAppDevelopment = () => {
         }
       />
       <CTA2
-        header={"Ready to Scale with Expert Shopify Solutions?"}
+        header={"Let’s Build Your Shopify App"}
         para={
-          "Take your eCommerce store to the next level with our tailored shopify app development services designed to boost performance, streamline operations, and enhance customer experience."
+          "Start your journey with reliable solutions that improve store performance and support growth. Our shopify services help you create scalable apps. Delivering long term value and real business results. "
         }
         btn={"Request Shopify App Development Quote"}
       />
       {/* <SEO  header={"Focused Mobile Application Development Boston"} para={"Choosing the right partner in Boston can completely change the way your app performs in a competitive market."}/> */}
       <Testimonials
         test={test}
+        button={"Work with Our Expert Team "}
         header={"What Shopify App Development"}
         header2={"Clients Say"}
         para={""}

@@ -298,13 +298,13 @@ const faqs = [
     id: 1,
     question: "Do you build scalable Shopify stores?",
     answer:
-      "Ye, we build scalable shopify stores that grow through the business. Our shopify development company focuses on creating the stores with the clean code, reliable architecture and the flexible features. Each store is designed to handle the increased traffic, product catalogs and customer activity efficiently, ensuring the smooth performance while supporting the long term business growth and the fluent user experience.",
+      "Yes, we build scalable shopify stores that grow through the business. Our shopify development company focuses on creating the stores with the clean code, reliable architecture and the flexible features. Each store is designed to handle the increased traffic, product catalogs and customer activity efficiently, ensuring the smooth performance while supporting the long term business growth and the fluent user experience.",
   },
   {
     id: 2,
     question: "How long does shopify development take?",
     answer:
-      "The development timeline varies depending on your store's complexity. Our shopify web development company delivers simple stores in a few weeks, including the planning, design and deployment. Advanced stores with the custom features, third party integrations and complex workflow require more time. Our team ensures every store meets the hig quality standards and is delivered efficiently.",
+      "The development timeline varies depending on your store's complexity. Our shopify web development company delivers simple stores in a few weeks, including the planning, design and deployment. Advanced stores with the custom features, third party integrations and complex workflow require more time. Our team ensures every store meets the high quality standards and is delivered efficiently.",
   },
   {
     id: 3,
@@ -468,7 +468,7 @@ const ShopifyStoreDevelopment = () => {
       />
       <TechTools
         header="Advanced Shopify App Development technology Stack"
-        para="Dignite Studios as the leading shopify development company, uses the modern tools to deliver the scalable shopify apps. Our expertise among top shopify development companies ensures the strong performance. We offer comprehensive mobile app development ecommerce focusing on being responsive, reliable and efficient."
+        para="Dignite Studios as the leading shopify development company, uses the modern tools to deliver the scalable shopify apps. Our expertise among top shopify development companies ensures the strong performance. We offer comprehensive mobile app development ecommerce focusing on being responsive, reliable and efficient. "
         tech={techStackData}
       />
       <CTA
@@ -478,10 +478,12 @@ const ShopifyStoreDevelopment = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Reliable Shopify Store Development Services Process"}
+        header={"Reliable Shopify Store Development "}
+        header2={"Services Process"}
         para={
           "Our shopify store development services follow the structured steps to ensure the quality and the performance. As the trusted shopify store development company, we focus on the efficiency, scalability and the long term success."
         }
+        button={"Start Your Shopify App Journey"}
       />
       <Bussiness
         bs={highlights}

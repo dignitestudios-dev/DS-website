@@ -468,7 +468,7 @@ const EcommerceAppDevelopment = () => {
         para={
           "We build ecommerce apps by using platforms which also support scalability and business growth. As an ecommerce mobile app development company we ensure each of the platforms fits your needs and delivers strong performance. "
         }
-        button={"Request Ecommerce App Development Quote"}
+        button={" Explore Our Ecommerce Platform Expertise"}
         VALUE_PROPOSITION={PLATFORMS}
       />
 
@@ -478,9 +478,11 @@ const EcommerceAppDevelopment = () => {
         btn="Request Ecommerce App Development Quote"
       />
       <Process
-        header="Reliable Ecommerce App Development Process"
+        header="Reliable Ecommerce App "
+        header2={"Development Process"}
         para="Our process focuses on the clear steps and practical execution. As an ecommerce app development company in usa we deliver structured solutions through using proven methods. Our ecommerce application development services. Ensuring better performance while our ecommerce supports long term growth and scalability."
         steps={PROCESS_STEPS}
+        button={"Start Your Ecommerce App Journey "}
       />
       <Bussiness
         header="Best Ecommerce App Development"
@@ -533,7 +535,7 @@ const EcommerceAppDevelopment = () => {
       <Faq faqs={faqs} header="FAQs" />
       <ContactUs
         img={"/ecommerce/shopify-app/c-img.webp"}
-          pathname={"ECommerce App dev"}
+        pathname={"ECommerce App dev"}
         header="Kickstart Your Ecommerce App Journey Today"
         para="Start your ecommerce app project with a team that understands your business needs. Our experts help you plan, build and launch scalable solutions which also deliver real results and long term growth."
         btn="Request Ecommerce App Development Quote"

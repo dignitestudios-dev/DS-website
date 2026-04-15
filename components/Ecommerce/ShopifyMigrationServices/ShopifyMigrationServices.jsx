@@ -502,7 +502,9 @@ const ShopifyMigrationServices = () => {
       />
            <Process
         steps={PROCESS_STEPS}
-        header={"Our Shopify Migration Process "}
+        button={"Start Your Shopify Migration Project "}
+        header={"Our Shopify Migration"}
+        header2={"Process"}
         para={
           "Our Shopify plus Migration experts follow the clear and simple process from the panning to launch. We ensure the safe data transfer, proper testing and the smooth store setup. We also provide the support after the launch to keep the store running without any of the issues. "
         }

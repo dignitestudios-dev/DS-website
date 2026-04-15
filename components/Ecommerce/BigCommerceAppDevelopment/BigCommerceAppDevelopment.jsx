@@ -471,9 +471,11 @@ We work with several industries such as the Ecommerce,retail, DTC brands and onl
  "
       />
       <Process
-        header="Reliable BigCommerce Store Development Process"
+        header="Reliable BigCommerce Store"
+        header2={" Development Process"}
         para="Our structured process ensures the smooth delivery of BigCommerce development Service for businesses of all sizes. As an experienced team, we also focus on planning, development, testing and optimizations. Our bigcommerce website developers work quite closely with the clients to build the scalable Ecommerce platforms. Brands that want stable Ecommerce operations often hire the bigcommerce developers for the long term platform management.  "
         steps={PROCESS_STEPS}
+        button={"Start Your BigCommerce Journey "}
       />
       <Bussiness
         header="Why Business Choose Our BigCommerce"
@@ -487,6 +489,7 @@ We work with several industries such as the Ecommerce,retail, DTC brands and onl
         bs={highlights}
       />
       <Industries
+      button={" Discuss Your Idea  "}
         header="Industries We Serve as a BigCommerce "
         header2={" Development Agency"}
         para="Our team builds Ecommerce platforms for businesses in many industries. As the trusted bigcommerce web developer, we design scalable online stores which help companies sell more products and manage operations easily. Many brands also hire the bigcommerce developers from our team to launch the reliable and high performing online stores. "

@@ -7,19 +7,17 @@ import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import Platforms from "../ui/Platforms";
 
-const Hero = () => {
+const Hero = ({ h1, spanTitle, description, ctaText }) => {
   return (
     <div className="w-full grid grid-cols-1  justify-start items-start  ">
       <div className="flex relative z-20  w-[98%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[40px] md:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          Mobile App Development Company in{" "}
-          <span className="text-[#F15C20]">California</span>
+          {h1 || "Mobile App Development Company in"}{" "}
+          <span className="text-[#F15C20]">{spanTitle || "California"}</span>
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          Looking for mobile app development services in California? Dignite
-          Studios is a trusted mobile app development company in California that
-          understands quality and market fit. We have a team of professional app
-          developers in California.
+          {description ||
+            "Looking for mobile app development services in California? Dignite Studios is a trusted mobile app development company in California that understands quality and market fit. We have a team of professional app developers in California."}
         </p>
 
         <Link
@@ -27,7 +25,7 @@ const Hero = () => {
           className="flex items-center group justify-center "
         >
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Book a Free Consultation
+            {ctaText || "Book a Free Consultation"}
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />

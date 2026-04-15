@@ -20,7 +20,8 @@ import {
   FaShopify,
 } from "react-icons/fa";
 import { IoStorefrontOutline } from "react-icons/io5";
-import { MdAccountBalanceWallet, MdOutlineEmail } from "react-icons/md";
+import { MdAccountBalanceWallet, MdArrowOutward, MdOutlineEmail } from "react-icons/md";
+import Link from "next/link";
 
 // NEW DATA STRUCTURE BASED ON USER CONTENT
 const techData = {
@@ -129,6 +130,14 @@ const TabularEcommerceTechs = () => {
           </div>
         </div>
       </div>
+        <Link href={"/contact-us"} className="flex items-center group justify-center ">
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border  group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+         Consult Our Shopify Experts 
+          </button>
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+            <MdArrowOutward />
+          </button>
+        </Link>
     </section>
   );
 };

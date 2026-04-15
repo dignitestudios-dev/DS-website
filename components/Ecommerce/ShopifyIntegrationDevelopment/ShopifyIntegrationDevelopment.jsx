@@ -126,52 +126,64 @@ const services = [
 const highlights = [
   {
     icon: "/ecommerce/woocommerce-app/bussiness/1.webp",
-    title: "WooCommerce Focused Expertise",
-    desc: "Our team focuses completely on WooCommerce. This experience helps us to build reliable stores, custom plugins and integrations which support business growth and smooth shopping experiences.",
+    title: "Shopify Focused Expertise",
+    desc: "Our team specializes in Shopify systems and integrations that improve automation, simplify Ecommerce workflows and help businesses manage store operations more efficiently every day.",
   },
   {
     icon: "/ecommerce/shopify-integrate/2.webp",
-    title: "Certified WooCommerce Developers",
-    desc: "Our certified WooCommerce developers follow industry standards and best practices. They build secure stores, develop custom features and ensure stable performance for long-term business success.",
+    title: "Certified Shopify Developers",
+    desc: "Our certified developers build reliable integrations which ensure stable connections between platforms while maintaining performance, security and smooth data synchronization across your Ecommerce systems.",
   },
   {
     icon: "/ecommerce/woocommerce-app/bussiness/3.webp",
     title: "Transparent Communication",
-    desc: "We keep communication clear throughout the project. Our team shares progress updates and listens to feedback so every decision supports business goals.",
+    desc: "To guarantee complete transparency throughout the integration process we keep clients updated at the smallest detail and updates. Straightforward explanations and the frequent progress reports.",
   },
   {
     icon: "/ecommerce/woocommerce-app/bussiness/4.webp",
     title: "On Time Delivery",
-    desc: "Our structured workflow helps us complete projects on time. We plan every stage carefully so the WooCommerce store launches smoothly without delays or quality issues.",
+    desc: "Our team follows a structured workflow and timeline to deliver the integrations on time while maintaining quality, accuracy and smooth performance across all the connected platforms.",
   },
   {
     icon: "/ecommerce/shopify-integrate/5.webp",
     title: "Scalable & Secure Store Architecture",
-    desc: "We design WooCommerce stores with strong architecture, ensuring your store remains secure, performs well under traffic, and easily scales as the business grows.",
+    desc: "We design scalable integration structures that support business growth while protecting store data, ensuring secure transactions and maintaining consistent performance even during high traffic periods.",
   },
   {
     icon: "/ecommerce/woocommerce-app/bussiness/6.webp",
-    title: "Long Term Store Support",
-    desc: "After launch, we continue supporting your WooCommerce store. Our team provides updates, maintenance, performance checks and improvements to keep the store running smoothly.",
+    title: "Long Term Support",
+    desc: "We provide ongoing support and maintenance services to keep integrations updated, secure and fully compatible with new tools, ensuring long term stability and business growth.",
   },
 ];
 
 const VALUE_PROPOSITION = [
   {
-    title: "Healthcare and Wellness Commerce",
-    desc: "We support the healthcare app development company needs by building apps. It improves the store operations and customer experience in healthcare commerce.",
+    title: "Healthcare & Wellness Commerce",
+    desc: "Secure integrations designed for healthcare product stores by a trusted healthcare app development company that understand compliance requirements and protects sensitive customer data.",
   },
   {
-    title: "Fintech and Subscription Platforms",
-    desc: "We build apps aligned with fintech app development services. To manage subscriptions payments and user workflows efficiently.",
+    title: "FinTech & Subscription Platforms",
+    desc: "Reliable payment and billing integrations built for financial platforms and subscription service through the technical support from the experienced e learning app development company team.",
   },
   {
     title: "Ecommerce & Retail Brands",
-    desc: "We support ecommerce app development company needs by building apps. It improves the store performance and customer engagement.",
+    desc: "Online stores grow faster with the integrations built by an experienced Ecommerce app development company. In modern Ecommerce platforms and scalable digital platforms and scalable digital solutions.",
   },
   {
     title: "Logistics & On Demand Marketplaces",
-    desc: "We develop solutions for logistics app development to manage deliveries and workflow effectively.",
+    desc: "Smart integrations help logistics businesses manage orders , deliveries and customer requests efficiently while improving workflow visibility and operational coordination.",
+  },
+  {
+    title: "Grocery",
+    desc: "We integrate grocery Ecommerce platforms with payment systems, delivery tools and inventory management solutions to simplify online grocery shopping operations.",
+  },
+  {
+    title: "Fashion Apparel",
+    desc: "Fashion brands use the integrations to synchronize products, manage inventory updates and improve online shopping experiences across multiple digital sales channels.",
+  },
+  {
+    title: "Home Decor",
+    desc: "Home decor brands connect shopify with the marketing tools and reporting systems to track the customer trends and improve the overall Ecommerce sales performance.",
   },
 ];
 
@@ -534,7 +546,9 @@ const ShopifyIntegrationDevelopment = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Our Shopify Integration Process "}
+        button={"Start Your Shopify Integration Project  "}
+        header={"Our Shopify Integration  "}
+        header2={"Process"}
         para={
           "Our integration process ensures stable and reliable Hubspot Shopify Integration for businesses. As one of the providers of Shopify Marketplace, we follow a structured workflow that connects platforms secretly and ensures smooth data flow between systems. "
         }
@@ -593,10 +607,8 @@ const ShopifyIntegrationDevelopment = () => {
         }
         para={
           <>
-            Dignite Studios delivers the best shopify services. It helps
-            businesses grow with reliable and scalable solutions. As the trusted
-            company we focus on the performance and long term value which is
-            unlike many generic providers.
+           Dignite Studios delivers the best Shopify Integration Services that help businesses connect their Ecommerce stores with the essential platforms. As the trusted Shopify Integration Services Company, we ensure stable integrations that improve the workflow efficiency and store performance. 
+
           </>
         }
       />

@@ -479,7 +479,7 @@ const RealState = () => {
       <Services
         header="Real Estate App Development "
         header2={"Services"}
-        button={"Explore Our Services"}
+        // button={"Explore Our Services"}
         para="We offer complete real estate app development services that help businesses manage properties, connect with buyers and improve the sales. Our team builds scalable apps with modern features to support the real estate businesses and marketplaces.   "
         services={services}
       />
@@ -489,7 +489,8 @@ const RealState = () => {
         btn="Start Your Real Estate App Project "
       />
       <SuccessStories
-        header="Real Estate App Development Case Studies  "
+        header="Real Estate App Development  "
+        header2={" Case Studies"}
         para="We have delivered successful apps for property businesses. Our case studies show how our real estate app development solutions improved user experience, increased engagement and supported business growth. "
       />
       <DeliveryFeatures />
@@ -503,7 +504,7 @@ const RealState = () => {
 
       <Features
         header="Cutting Edge Technologies for"
-        header2={"Real eState Apps"}
+        header2={"Real Estate Apps"}
         para="Utilising modern technologies, our real estate app development solutions also enhance productivity performance, and user experience. These tools support companies in data analysis, property management and client engagement.  "
         button={"Lets Grow Your Business "}
         // button="Get Feature Recommendations"
@@ -586,7 +587,9 @@ const RealState = () => {
         btn={"Get a Custom Cost Estimate. "}
       />
       <Testimonials
-        header=" Client Testimonials for Real Estate App Development Company "
+      button={"Work With Our Expert Team "}
+        header=" Client Testimonials for Real Estate App  "
+        header2={"Development Company"}
         test={test}
         para={
           "Clients trust our real estate app development company for delivering reliable and high quality solutions. We also worked with multiple real estate businesses, helping them to improve performance, user experience and digital growth. Below is the feedback that we got from our clients. "

@@ -138,17 +138,17 @@ const IntegrationFeatures = () => {
             ))}
         </Marquee>
     </div>
-        {/* <Link
+        <Link
           href="/contact-us"
           className="flex items-center group justify-center  mt-4"
         >
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-[14px] leading-[160%] px-6 py-[14px] rounded-full font-medium transition-colors">
-            Explore the Integration Flexibility
+            Explore Shopify Mobile App Integration
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-[52px] h-[52px] rounded-full flex items-center justify-center transition-colors text-xl">
             <MdArrowOutward />
           </button>
-        </Link> */}
+        </Link>
         
       </div>
     </div>

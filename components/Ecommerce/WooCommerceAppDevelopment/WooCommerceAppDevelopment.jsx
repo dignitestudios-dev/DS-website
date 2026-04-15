@@ -494,9 +494,11 @@ const WooCommerceAppDevelopment = () => {
         btn="Request WooCommerce Development Quote "
       />
       <Process
-        header="Reliable WooCommerce Store Development Services Process"
+        header="Reliable WooCommerce Store Development "
+        header2={"Services Process"}
         para="Our process keeps every project clear and quite organized. Our WooCommerce development services focus on quality and steady progress. As an experienced WooCommerce development company in usa, we follow the simple steps which ensure reliable delivery. These WooCommerce development services help the business build a secure and scalable online store.  "
         steps={PROCESS_STEPS}
+        button={"Start Your  WooCommerce Journey    "}
       />
       <Bussiness
         header="Best WooCommerce Development"
@@ -517,6 +519,7 @@ const WooCommerceAppDevelopment = () => {
       <Industries
         header="Industries We Serve as a WooCommerce "
         header2={"Development Service "}
+        button={"Discuss Your Idea "}
         para="Our WooCommerce development service supports businesses across multiple industries. We build scalable online stores which improve the customer experience and simplify the operations. Our team understands industry needs and delivers the reliable WooCommerce solutions which help brands grow faster and manage the online sales effectively. "
         VALUE_PROPOSITION={VALUE_PROPOSITION}
       />

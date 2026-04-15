@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 
-const CTA = () => {
+const CTA = ({ heading, spanText, description, buttonText }) => {
   return (
     <div className="w-[80%] hover:scale-105 transition-all ease-linear relative md:px-36 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <img
@@ -29,12 +29,16 @@ const CTA = () => {
       <div className="lg:w-[50%] w-full relative z-50 mx-auto space-y-4">
         <img src="/location/mobile-california/apps.webp" alt="grad1" />
         <h2 className="text-5xl font-bold text-center">
-          Be Our Next <span className="text-[#F15C20]">Success </span>Story!
+          {heading || "Be Our Next"}{" "}
+          <span className="text-[#F15C20]">{spanText || "Success"} </span>Story!
         </h2>
-        <p className="text-center">Every successful app starts with an idea and the right collaboration. Let’s discuss your vision, challenges, and build something as amazing as you imagined.  </p>
+        <p className="text-center">
+          {description ||
+            "Every successful app starts with an idea and the right collaboration. Let’s discuss your vision, challenges, and build something as amazing as you imagined."}
+        </p>
         <Link href="/contact-us" className="flex items-center group justify-center ">
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Start Your App Journey Now!
+            {buttonText || "Start Your App Journey Now!"}
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
