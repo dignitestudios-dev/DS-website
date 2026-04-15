@@ -464,7 +464,7 @@ The AI solutions we create at our company are designed in a way that it simplifi
         header2={"Development Services"}
         btn={"Start Your App Development"}
         para={
-          "Every AI application we develop solves a problem. We follow a structured process through generative AI development services that ensures your AI application is built with quality and provides amazing value to your business."
+          "Every AI application we develop solves a problem. So, the team works with a structured approach that brings your required business idea to life. Different companies work with unique workflows, but when it comes to creating AI applications at our AI app development company, we utilize a perfectly structured approach of the best AI app development companies to ensure that we design applications that work the proper way. Here’s the structured workflow that turns visions into your apps. "
         }
       />
       <Bussiness
@@ -525,8 +525,8 @@ The AI solutions we create at our company are designed in a way that it simplifi
         button={"Let’s Talk Today"}
       />
       <MobileApp
-        header={"Benefits of Custom AI Agent Development Services "}
-        header2={"for Your Business"}
+        header={"Benefits of Custom AI Agent "}
+        header2={"Development Services "}
         button={"Build Smarter Apps with AI"}
         para={
           <>

@@ -96,8 +96,8 @@ const Navbar = ({ setIsOpen }) => {
             "/services/hybrid-app-development",
           ],
           [
-            "AI App Development Services",
-            "/services/ai-app-development",
+            "Generative AI Development Services",
+            "/services/generative-ai-development",
           ],
         ],
       },

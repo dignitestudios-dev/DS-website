@@ -59,8 +59,8 @@ const Footer = () => {
         href: "/services/hybrid-app-development",
       },
       {
-        name: "AI App Development Services",
-        href: "/services/ai-app-development",
+        name: "Generative AI Development Services",
+        href: "/services/generative-ai-development",
       },
       {
         name: "Hire Mobile App Developers",

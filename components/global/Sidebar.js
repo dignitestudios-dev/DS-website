@@ -184,7 +184,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   Hybrid App Development Services
                 </Link>
                 <Link
-                  href="/services/ai-app-development"
+                  href="/services/generative-ai-development"
                   className={`hover:text-orange-600 text-start`}
                   onClick={() => setIsOpen(false)}
                 >
