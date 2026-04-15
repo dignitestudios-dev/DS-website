@@ -157,26 +157,26 @@ const VALUE_PROPOSITION = [
 
 const test = [
   {
-    name: "SaaS Founder",
-    designation: "Los Angeles",
+    name: "Los Angeles",
+    designation: "SaaS Founder",
     review:
       "Dignite Studios helped us launch 3 months faster than expected. Their communication easily makes them the top mobile app developers California has to offer.",
   },
   {
-    name: "E-Commerce CEO",
-    designation: "San Diego",
+    name: "San Diego",
+    designation: " E-Commerce CEO",
     review:
       "Our ROI jumped significantly within the first quarter. The team understood our goals instantly.",
   },
   {
-    name: "Healthcare Startup",
-    designation: "San Francisco",
+    name: "San Francisco",
+    designation: " Healthcare Startup",
     review:
       "Professional and incredibly efficient. Their ability to deliver a smooth user experience was impressive.",
   },
   {
-    name: "Fintech Product Lead",
-    designation: "Silicon Valley",
+    name: "Silicon Valley",
+    designation: " Fintech Product Lead",
     review:
       "If you need the best mobile app developers in California, this is where you go.",
   },
