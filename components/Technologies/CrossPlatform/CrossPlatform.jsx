@@ -219,6 +219,11 @@ const faqs = [
     question: "Do you work with startups and enterprises?",
     answer: "Yes. We partner with both early stage startups and established enterprises. Startups benefit from fast, flexible builds, while larger organizations receive scalable, secure systems. Our approach adapts to your goals, budget and growth plans to ensure long term success.",
   },
+  {
+    id: 6,
+    question: "How long does cross platform app development take?",
+    answer: "The time mostly depends on the project scope, features, integrations and the testing. Most of the cross platform projects that took the three and five months prior the launch. The advanced functionality and the multi platform support also require the additional time so the quality can be maintained as well as the performance. The process includes various steps. ",
+  },
 ];
 
 const PROCESS_STEPS = [
@@ -259,10 +264,10 @@ const CrossPlatform = () => {
     <div className="max-w-screen-2xl w-full gap-20 lg:gap-36 h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-        button={"Get the Free Platform App Consultation"}
+        button={"Get the Free Consultation"}
         heading="About Dignite"
         heading2={"Studios"}
-        para="At Dignite Studios, we specialize in building modern mobile solutions using cross platform technologies. With over 10+ years of experience, our 50+ expert developers have delivered 200+ apps for 150+ startups and growing brands across 5+ industries. Our engineers focus on clean architecture, smooth performance and easier design which ensure your app works fluently across platforms. We make sure to give fluent and easier workflow without any hurdles. By choosing our platform app development services, you will get a partner which meets the goals you wanted and the app just the way you wanted."
+        para="At Dignite Studios, we specialize in building modern mobile solutions using cross platform technologies. With over 10+ years of experience, our 200+ expert developers have delivered 300+ apps for 150+ startups and growing brands across 15+ industries. Our engineers focus on clean architecture, smooth performance and easier design which ensure your app works fluently across platforms. We make sure to give fluent and easier workflow without any hurdles. By choosing our platform app development services, you will get a partner which meets the goals you wanted and the app just the way you wanted."
       />
       <Services
         services={services}
@@ -318,7 +323,8 @@ const CrossPlatform = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Reliable Cross Platform App Development Services Process"}
+        button={"Start Your Android App Journey"}
+        header={"Reliable Cross Platform App "}
         header2={"Development Services Process"}
         para={"Our process is designed for speed, quality and transparency helping businesses work efficiently through cross platform mobile app development companies with agile planning and structured execution."}
       />
@@ -339,7 +345,7 @@ const CrossPlatform = () => {
       <SuccessStories
         header={"Cross Platform"}
         header2={"Case Studies"}
-        para={"Explore how Dignite Studios delivers real business results through smart cross platform solutions. Our case studies highlight how we help healthcare, fintech and ecommerce brands solve performance, usability and scalability challenges."}
+        para={"Explore how Dignite Studios delivers the real business results through the smart cross platform solutions. Our case studies highlight how we help healthcare, fintech and e-commerce brands solve performance, usability and scalability challenges. From improving patient engagement to speeding up the secure payments and long term product success across multiple platforms. "}
       />
       <CTA />
       <Testimonials

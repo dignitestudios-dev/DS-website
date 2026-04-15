@@ -239,33 +239,33 @@ const faqs = [
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Planning & Direction",
-    desc: "We describe the project goals, target users and the technical process before the development even starts.",
+    title: "Discovery & Planning",
+    desc: "We analyze your business requirements, define the clear objectives and the plan structured approach for the efficient app development.",
   },
   {
     step: "02",
-    title: "UI/UX Prototyping",
-    desc: "Our designers create the interactive prototypes through the valid experience quite early.",
+    title: "Design",
+    desc: "We create intuitive and user friendly designs which enhance user engagement and ensure fluent navigation throughout the Flutter app.",
   },
   {
     step: "03",
-    title: "Evolutionary Development Approach",
-    desc: "We plan work in short cycles and deliver features step by step for better quality and control.",
+    title: "Development",
+    desc: "Our team builds strong Flutter apps through the scalable architecture, clean code and smooth cross platform functionality for better performance.",
   },
   {
     step: "04",
-    title: "QA Testing",
-    desc: "We test the functionality, performance and security across the devices.",
+    title: "Testing",
+    desc: "We strictly test the app for the usability, performance and reliability to ensure a stable and bug free experience.",
   },
   {
     step: "05",
-    title: "App Release & Setup",
-    desc: "We launch your app, enable the tracking and support the future updates as required.",
+    title: "Deployment",
+    desc: "We deploy your Flutter app efficiently to app stores or enterprise environments while maintaining the smooth integration and performance.",
   },
   {
     step: "06",
-    title: "Post Launch Support & Optimization",
-    desc: "We monitor the app’s performance and use the analytics so the features and user experience can be improved.",
+    title: "Post- Launch Support",
+    desc: "Constant observation, upgrades and enhancements which guarantee that the Flutter app will always be dependable, safe and also effective.",
   },
 ];
 
@@ -276,8 +276,9 @@ const FlutterDev = () => {
       <About
         heading="About Dignite "
         heading2={"Studios"}
-        para="At Dignite Studios, we create high performance mobile products using Flutter that support business growth from day one. As a flutter app development company, our team works closely with startups and enterprises to design solutions which are secure, scalable and ready for use. We offer complete services for brands which require faster launches without compromising quality. Our engineers focus on performance, clean architecture and product reliability. Whether you are refining an idea or scaling an existing app, our professionals help you move with confidence using proven processes and strong technical expertise."
-        button="Talk to Our Flutter Experts"
+        para="At Dignite Studios, we create high performance mobile products using Flutter that support business growth from the day one. As the flutter app development company,our team also works quite closely through the startups and enterprises to design the solutions which are secure, scalable and also ready for use. 
+We also offer the complete services for the brands which require the faster launches without compromising the quality.Our engineers also focus on performance, clean architecture and the product reliability. 
+Either you are refining the idea or scaling the existing app, our app also helps the professionals to move with confidence by using the proved process by using the strong technical messages."
       />
       <Services
         services={services}
@@ -350,6 +351,7 @@ const FlutterDev = () => {
         steps={PROCESS_STEPS}
         header={"Proven Flutter App"}
         header2={"Development Process"}
+        button={"Start Your Flutter App Journey "}
         para={
           "Every app has a story. At our flutter app development company, we follow a structured approach that brings your idea to life with clarity and technical excellence."
         }

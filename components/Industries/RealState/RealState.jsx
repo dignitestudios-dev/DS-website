@@ -466,7 +466,7 @@ const RealState = () => {
             Buyers and sellers now prefer mobile apps to search and manage the
             properties. A strong app makes the property discovery simple and
             fast. Dignite Studios is a leading real estate app development
-            company with over 10 years of experience and 50+apps delivered. We
+            company with over 10 years of experience and 300+ apps delivered. We
             build custom apps for the agents, brokers and property businesses.
             Our team creates user friendly platforms that support easy search,
             listing management and communication. As a trustworthy real estate

@@ -441,8 +441,9 @@ const AiAutomation = () => {
         steps={PROCESS_STEPS}
         header={"Reliable AI Automation Process"}
         header2={"Services Process"}
+        button={"Start Your AI Automation Journey"}
         para={
-          "Our systematic strategy which focuses on producing the measurable and obvious outcomes. We build a reliable structure which also allows long term sustainability through combining planning the ongoing development."
+          "Our systematic strategy which focuses on producing the measurable and obvious outcomes. We build a reliable structure which also allows long term sustainability through combining planning the ongoing development. We also begin by learning about your business processes and also identifying places where automation might add significant value. Furthermore, each of the steps is planned to guarantee the performance, transparency and long lasting outcomes. "
         }
       />
       <Industries
