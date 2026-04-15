@@ -175,22 +175,22 @@ const test = [
 const BENEFITS = [
   {
     title: "Customer Retention",
-    desc: "Mobile app makes it easier for you to enhance customer retention by making your brand easily accessible.",
+    desc: "A high-performing mobile app helps you expand customer retention by making your brand more accessible.",
     icon: <FaUser color="#F15C20" size={25} />,
   },
   {
     title: "Brand Visibility",
-    desc: "Better visibility leads to stronger connections with your audience, so stay top of mind with a branded app.",
+    desc: "Better visibility means stronger connections with your audience, so stay top of mind with a branded app.",
     icon: <IoGrid color="#F15C20" size={25} />,
   },
   {
     title: "Drive Revenue",
-    desc: "Mobile apps bring new ways to grow your business through mobile sales or in-app purchases",
+    desc: "Mobile apps bring new ways to grow your business through sales or in-app purchases",
     icon: <IoWalletOutline color="#F15C20" size={25} />,
   },
   {
     title: "Actionable Insights",
-    desc: "You need to make smarter business decisions, and built-in analytics in mobile apps help you understand user behavior.",
+    desc: "You have to make smarter business decisions, and built-in analytics in mobile apps help you understand user behavior.",
     icon: <CiSearch color="#F15C20" size={25} />,
   },
   {
@@ -255,8 +255,8 @@ const PROCESS_STEPS = [
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The sprint planning for the app starts here, and our mobile app developers in NC determine the product roadmap and analyze the total execution time.",
+    title: "Development Stage ",
+    desc: "The sprint planning for the app starts here, and our mobile app developers in NC determine the product roadmap and analyze the total execution time with development. ",
   },
   {
     step: "04",
@@ -286,6 +286,7 @@ const MobileAppCharlotte = () => {
         button="Talk to Your Local Team"
       />
       <Services
+      button={"Get Our Services Now"}
         services={services}
         header={"Our Mobile App Development Services"}
         header2={"Charlotte"}
@@ -357,7 +358,8 @@ const MobileAppCharlotte = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Proven Mobile App Development Charlotte Process"}
+        header={"Proven Mobile App Development "}
+        header2={"Charlotte Process"}
         para={
           "Every app has a story. At our mobile app development company in Charlotte, we follow a structured approach that brings your idea to life. Multiple companies work with different processes of development, but when it comes to creating applications at Dignite Studios, we use a structured approach to ensure that we develop applications that work the way you envisioned. Here's the workflow that turns concepts into apps."
         }
@@ -387,8 +389,8 @@ const MobileAppCharlotte = () => {
       {/* <SEO /> */}
       <Testimonials
         test={test}
-        header={"What Clients Say"}
-        header2={"About Us"}
+        header={"People Who Have Worked"}
+        header2={" With Us"}
         para={""}
       />
       <Faq faqs={faqs} />

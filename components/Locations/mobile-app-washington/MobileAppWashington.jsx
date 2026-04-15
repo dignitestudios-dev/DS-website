@@ -100,8 +100,8 @@ const services = [
 
 const highlights = [
   {
-    title: "12+ Years of Apps Development",
-    desc: "We're one of the expert mobile app development companies Washington with over 10 years of experience.",
+    title: "10+ Years of Apps Development",
+    desc: "We’re one of the expert mobile app development companies Washington with over 10 years of experience.",
   },
   {
     title: "Silicon Valley-Level Expertise",
@@ -256,7 +256,7 @@ const PROCESS_STEPS = [
   },
   {
     step: "03",
-    title: "Sprint Planning",
+    title: "Development ",
     desc: "The sprint planning for app development starts here and our professional mobile app developers in DC determine the product roadmap and analyze the total execution time.",
   },
   {
@@ -352,13 +352,16 @@ const MobileAppWashington = () => {
         VALUE_PROPOSITION={VALUE_PROPOSITION}
         header={"Specialized Mobile App Development"}
         header2={"Washington DC Industries"}
+        button={"Share Your Niche "}
         para={
           "At Dignite Studios, we don't believe in building the same kind of products for everyone. We design mobile app solutions shaped around your business and growth plans. At our app development company, we simply don't offer one-size-fits-all products. We build tailored solutions for everyone. Also, building mobile app solutions around your compliance needs and growth plans, giving you an advantage in the Washington market from day one."
         }
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Proven Mobile App Development Washington DC Process"}
+        header={"Proven Mobile App Development Washington "}
+        header2={"DC Process"}
+        button={"Get Your App Built"}
         para={
           "Every app has a back story. At our mobile app development company in Washington DC, we follow a structured approach that brings your idea to life. Different companies work with different processes of development, but when it comes to developing applications at Dignite Studios, we use a perfectly structured approach to ensure that we develop applications that work the way you envisioned. Here's the process that turns concepts into apps."
         }

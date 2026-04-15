@@ -219,7 +219,7 @@ const services = [
       <>
         Making sure your app keeps data safe and meets industry regulations is
         as important so our experts would guide on encryption and
-        authentication. This builds trust with users
+        authentication. This builds trust with users.
       </>
     ),
   },

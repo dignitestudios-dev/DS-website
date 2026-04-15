@@ -36,12 +36,12 @@ const Hero = () => {
         </Link>
       </div>
       <div className="relative flex justify-center items-center my-12 ">
-        <Image src="/location/mobile-charlotte/b-grad.webp"
+        {/* <Image src="/location/mobile-charlotte/b-grad.webp"
           alt=""
           fill
           priority
           className="absolute left-[50%] translate-x-[-50%] -bottom-24 -z-0 object-contain"
-         />
+         /> */}
         <motion.div
           className="relative -bottom-10"
           initial={{ y: 80, opacity: 0 }}

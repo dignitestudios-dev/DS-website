@@ -301,8 +301,8 @@ const PROCESS_STEPS = [
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The next step is planning the sprint. It also includes the progress tracking for the app during development.",
+    title: "Development Phase",
+    desc: "The next step is planning the sprint. It also includes the progress tracking for the app during development. ",
   },
   {
     step: "04",
@@ -338,6 +338,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
       />
       <Services
         services={services}
+        button={"Avail The Services Now"}
         header={"Tampa Mobile App Development"}
         header2={"Services"}
         para={
@@ -347,6 +348,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
       <Bussiness
         bs={highlights}
         header={"Six Reasons to Choose"}
+        button={" Choose Wisely Today"}
         header2={"Dignite Studios"}
         ctaHeader={"Ready to Talk With Our Experts? "}
         ctaPara={
@@ -412,7 +414,8 @@ The Tampa-based team is ready to guide you through every step of the build, to i
       />
       <Process
       steps={PROCESS_STEPS}
-        header={"The Way Mobile App Development Tampa Works"}
+        header={"The Way Mobile App Development "}
+        header2={"Tampa Works"}
         para={
           "The team follows a proven mobile app development process that makes sure the productivity remains high and your app turns out functional. Here's how we work. "
         }
@@ -421,6 +424,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
       <MobileApp
         header={"How Exactly Does a Mobile App "}
         header2={"Helps"}
+        button={"Build Your App Now!"}
         para={
           "Investing in custom app development Tampa might help your business grow more than you can imagine. Here's what's gonna happen when you avail our app development services in Tampa. "
         }

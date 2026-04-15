@@ -99,7 +99,7 @@ const services = [
 
 const highlights = [
   {
-    title: "12+ Years of Development",
+    title: "10+ Years of Development",
     desc: "We're the expert mobile app development companies in Texas with over 10 years of experience.",
   },
   {
@@ -254,8 +254,8 @@ const PROCESS_STEPS = [
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The sprint planning for app development begins, and our professional mobile app developers define the product roadmap and total execution time.",
+    title: " Development Stage ",
+    desc: "Once the mockup is created, the sprint planning for app development begins. And professional developers define the product roadmap and total execution time. ",
   },
   {
     step: "04",
@@ -291,6 +291,7 @@ const MobileAppTexas = () => {
         para={
           "When you work with Dignite Studios, we make sure you know our work ethic. Being a trusted app company, we refined our mobile app development in Texas to meet your needs and help your vision come true. Working with us means you get strong commitments. Mobile app solutions prepared by Dignite Studios cover every phase with technical expertise and a clear focus on your goals."
         }
+        button={"Get Our Services Today!"}
       />
       <Bussiness
         bs={highlights}
@@ -349,13 +350,16 @@ const MobileAppTexas = () => {
         VALUE_PROPOSITION={VALUE_PROPOSITION}
         header={"Specialized Mobile App Development"}
         header2={"in Texas For Industries"}
+        button={"Let’s Talk About Your Industry"}
         para={
           "We don't believe in building the same kind of products for everyone at Dignite Studios. We design mobile app solutions around your growth goals. Being one of the expert mobile app development companies in Texas, we don't offer the exact same product for every industry. We build customized solutions for every industry. Also, building apps around your compliance needs gives you an advantage in the Texas market."
         }
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Proven Workflow of Mobile App Development in Texas"}
+        button={"Work With us"}
+        header={"Proven Workflow of Mobile App Development in "}
+        header2={"Texas"}
         para={
           "Every app is built with a story. So, the team follows a structured approach that brings your idea to life. Different companies work with different workflows, but when it comes to developing applications at our mobile app development company, we use a perfectly structured approach to ensure that we design applications that work the way you envisioned. Here's the workflow that turns visions into apps."
         }
@@ -366,6 +370,7 @@ const MobileAppTexas = () => {
         para={
           "Here are the reasons why you should get an app built from a trusted mobile app development company."
         }
+        button={"Get Your Mobile App Built"}
         cards={BENEFITS}
       />
       <SuccessStories

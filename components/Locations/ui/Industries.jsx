@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import Link from "next/link";
+import { MdArrowOutward } from "react-icons/md";
 export const sliderSettings = {
   slidesPerView: 1,
   spaceBetween: 10,
@@ -60,7 +62,7 @@ const icons = [
   },
 ];
 
-const Industries = ({ VALUE_PROPOSITION, header, header2, para }) => {
+const Industries = ({ VALUE_PROPOSITION,button, header, header2, para }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   // Duplicate data to ensure infinite loop works smoothly
@@ -186,7 +188,21 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para }) => {
           {/* <SwiperButtons /> */}
         </Swiper>
       </div>
-      <div></div>
+         {button && (
+        <div className="flex justify-center items-center">
+          <Link
+            href={"/contact-us"}
+            className="flex items-center group justify-center w-fit"
+          >
+            <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+              {button ? button : " Talk to our California-based team"}
+            </button>
+            <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+              <MdArrowOutward />
+            </button>
+          </Link>
+        </div>
+      )}
     </div>
   );
 };

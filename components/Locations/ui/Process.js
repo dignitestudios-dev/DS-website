@@ -35,22 +35,22 @@ const Process = ({header , header2 , para , steps , button}) => {
     <div
       id="process"
       className={` w-full py-10`}
-      style={{ background: palette?.dark_contrast_background }}
+      // style={{ background: palette?.dark_contrast_background }}
     >
       <div
         className={`px-4 md:px-12 lg:px-20   2xl:px-48  flex flex-col items-center justify-start`}
       >
         <div
-          className={`w-full px-0 flex flex-col justify-between items-center`}
+          className={`w-[80%] mx-auto px-0 flex flex-col justify-between items-center`}
         >
    
           <h2
             className={`text-4xl capitalize leading-10 text-center tracking-tighter md:text-7xl font-bold`}
           >
-            {header} 
+            {header}{" "}<span className="text-[#F15C20]">{header2}</span>
           </h2>
           <p
-            className={`text-sm lg:text-[16px] text-center my-3 lg:leading-[24.48px] font-[400] lg:w-[60%] ${ 
+            className={`text-sm lg:text-[16px] text-center my-3 lg:leading-[24.48px] font-[400]  ${ 
               theme === "light" && "text-[#2A2A2A]"
             }`}
           >
