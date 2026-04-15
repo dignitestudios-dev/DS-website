@@ -146,32 +146,32 @@ const services = [
 
 const highlights = [
   {
-        icon:"/industries/food-industry/s1.webp",
+    icon: "/industries/food-industry/s1.webp",
     title: "Experienced Mobile App Developers",
     desc: "Our talented real estate app developers create apps which adjust to corporate objectives guaranteeing dependable operation and a fluent user experience across all the platforms",
   },
   {
-        icon:"/industries/food-industry/s2.webp",
+    icon: "/industries/food-industry/s2.webp",
     title: "Scalable Architecture",
     desc: "Apps are designed to handle growth, high traffic and increasing property listings while maintaining fast performance and fluent user interactions.",
   },
   {
-        icon:"/industries/food-industry/s3.webp",
+    icon: "/industries/food-industry/s3.webp",
     title: "Agile Development Process",
     desc: "To guarantee quality and efficiency, we use an organised agile methodology with the precise milestones, iterative testing and the prompt delivery.",
   },
   {
-        icon:"/industries/food-industry/s4.webp",
+    icon: "/industries/food-industry/s4.webp",
     title: "Transparent Communication",
     desc: "Clients receive regular project updates, progress reports and clear communication keeping them involved at every step of app development.",
   },
   {
-        icon:"/industries/food-industry/s5.webp",
+    icon: "/industries/food-industry/s5.webp",
     title: "Secure Integrations",
     desc: "Our team ensures all integrations, payment systems and data storage are safe, compliant and protect sensitive property and user information.",
   },
   {
-        icon:"/industries/food-industry/s6.webp",
+    icon: "/industries/food-industry/s6.webp",
     title: "Proven Track Record Of Successful Apps",
     desc: "We have successfully delivered multiple real estate apps, helping clients improve property management, customer engagement and overall business growth.",
   },
@@ -458,7 +458,7 @@ const RealState = () => {
       <Hero />
       <About
         button="Discuss Your App Idea "
-        heading="ABuild Powerful Real Estate Apps for Modern"
+        heading="Build Powerful Real Estate Apps for Modern"
         heading2={"Property Business"}
         para={
           <>
@@ -563,37 +563,39 @@ const RealState = () => {
             businesses plan their budget.{" "}
           </>
         }
-        cards={ [
-  {
-    label: "Simple Apps",
-    range: " $8,000- $40,000",
-    detail:
-      "Simple apps are best for startups or small real estate businesses. These apps include the basic features such as the property listings, simple search filters, map view and contact forms. They provide an easy browsing experience for users who want quick access to property information.",
-  },
-  {
-    label: "Medium Complexity Apps",
-    range: " $45,000- $90,000",
-    detail:
-      "These apps are suitable for growing businesses and property platforms. They also include features like user login, advanced filters, property comparison tools, push notifications and third party integration. The real estate app development cost at this level is higher but it supports better user experience and improved business operations.",
-  },
-  {
-    label: "Complex Real Estate Apps",
-    range: " $95,000-$140,000",
-    detail:
-      "Complex apps built for large businesses are marketplaces. They also include advanced features such as the smart recommendations, virtual property tours, CRM integrations, analytics dashboards and scalable systems. These apps require higher real estate app development cost due to the advanced functionality and the strong infrastructure.",
-  },
-]}
+        cards={[
+          {
+            label: "Simple Apps",
+            range: " $8,000- $40,000",
+            detail:
+              "Simple apps are best for startups or small real estate businesses. These apps include the basic features such as the property listings, simple search filters, map view and contact forms. They provide an easy browsing experience for users who want quick access to property information.",
+          },
+          {
+            label: "Medium Complexity Apps",
+            range: " $45,000- $90,000",
+            detail:
+              "These apps are suitable for growing businesses and property platforms. They also include features like user login, advanced filters, property comparison tools, push notifications and third party integration. The real estate app development cost at this level is higher but it supports better user experience and improved business operations.",
+          },
+          {
+            label: "Complex Real Estate Apps",
+            range: " $95,000-$140,000",
+            detail:
+              "Complex apps built for large businesses are marketplaces. They also include advanced features such as the smart recommendations, virtual property tours, CRM integrations, analytics dashboards and scalable systems. These apps require higher real estate app development cost due to the advanced functionality and the strong infrastructure.",
+          },
+        ]}
         btn={"Get a Custom Cost Estimate. "}
       />
       <Testimonials
         header=" Client Testimonials for Real Estate App Development Company "
         test={test}
-        para={"Clients trust our real estate app development company for delivering reliable and high quality solutions. We also worked with multiple real estate businesses, helping them to improve performance, user experience and digital growth. Below is the feedback that we got from our clients. "}
+        para={
+          "Clients trust our real estate app development company for delivering reliable and high quality solutions. We also worked with multiple real estate businesses, helping them to improve performance, user experience and digital growth. Below is the feedback that we got from our clients. "
+        }
         // button="Work With Our Expert Team"
       />
       <Faq faqs={faqs} header="FAQs" />
       <ContactUs
-       pathname={"Real Estate App dev"}
+        pathname={"Real Estate App dev"}
         img={"/industries/real-state/c-img.webp"}
         header="Start Your Real Estate App Journey"
         para="Share your app idea with our real estate app development company. We will guide you with the right solution and strategy.  "

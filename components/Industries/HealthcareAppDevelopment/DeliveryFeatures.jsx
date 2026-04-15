@@ -140,9 +140,9 @@ const DeliveryFeatures = () => {
     <section className="w-full ">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-4">
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold tracking-tighter leading-tight">Powerful Features for Real Estate App Development</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold tracking-tighter leading-tight">Top Features in Modern Healthcare Mobile App <span className="text-[#F15C20]"> Development </span></h2>
           <p className="text-sm sm:text-base lg:text-lg opacity-80 mx-auto mt-4 ">
-            A modern app needs smart features to improve user experience and simplify business tasks. As a trusted real estate app builder, we build apps with practical tools for buyers, agents and admins, helping manage listings, improve communication, and support smooth property transactions.
+        The healthcare app solutions Dignite Studios builds help organizations succeed in the diverse healthcare industry by improving operations and patient experiences. The team at our healthcare app development company builds applications that satisfy patients and doctors by making operations easier and smoother. 
           </p>
         </div>
 

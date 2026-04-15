@@ -299,7 +299,8 @@ const BENEFITS = [
 const faqs = [
   {
     id: 1,
-    question: "How much time does it usually take to build a healthcare mobile app?",
+    question:
+      "How much time does it usually take to build a healthcare mobile app?",
     answer:
       "Dignite Studios doesn’t provide a fixed, similar timeline for each healthcare mobile app during development. The time always depends on the complexity and features of every healthcare application. Generally, a mid-level application would take up to 8-12 weeks, but it all depends, again. If you need a final cost and pricing estimate for your app, contact our team and share your app idea.",
   },
@@ -329,7 +330,8 @@ const faqs = [
   },
   {
     id: 6,
-    question: "Are you currently working with startups, too, or just the enterprises?",
+    question:
+      "Are you currently working with startups, too, or just the enterprises?",
     answer:
       "The healthcare app development team works with both startups and enterprises. So, it doesn’t really matter if you’re a startup or an enterprise; we would definitely work with you. Whether you’re building an MVP or scaling an existing healthcare application. We would look forward to building an amazing healthcare app together either way.",
   },
@@ -445,14 +447,24 @@ const HealthcareAppDevelopment = () => {
       <Hero />
       <About
         button="Talk to the Team "
-        heading="What’s"
-        heading2={"Dignite Studios"}
+        heading="Your Trusted Healthcare App"
+        heading2={"Development Partner"}
         para={
           <>
-         The healthcare mobile app developers specialize in creating healthcare apps that fulfill the evolving needs of hospitals and medical institutions, while being one of the best healthcare app development companies. This means helping them improve patient engagement and streamline workflows.
-The mobile app development for healthcare that we create while providing trusted healthcare app development simplifies patient care and improves daily operations.  
-Our healthcare app development company understands and helps you overcome the unique challenges of each and deliver solutions that grow with your business. We understand that every healthcare business operates differently. Having 10+ years of experience across different industries, we combine our knowledge with modern technology, so we help you come up with a healthcare solution that’s fully functional. 
-
+            The healthcare mobile app developers specialize in creating
+            healthcare apps that fulfill the evolving needs of hospitals and
+            medical institutions, while being one of the best healthcare app
+            development companies. This means helping them improve patient
+            engagement and streamline workflows. The mobile app development for
+            healthcare that we create while providing trusted healthcare app
+            development simplifies patient care and improves daily operations.
+            Our healthcare app development company understands and helps you
+            overcome the unique challenges of each and deliver solutions that
+            grow with your business. We understand that every healthcare
+            business operates differently. Having 10+ years of experience across
+            different industries, we combine our knowledge with modern
+            technology, so we help you come up with a healthcare solution that’s
+            fully functional.
           </>
         }
       />
@@ -463,25 +475,44 @@ Our healthcare app development company understands and helps you overcome the un
         para="Providing a complete suite of services in the category of healthcare mobile app development, we design applications that help clinics and hospitals. Our healthcare services cover every aspect of app creation and custom development. The focus is on building healthcare apps that keep the customer engaged by providing a smooth experience.   "
         services={services}
       />
-      <Industries para={"Having an experience of 10+ years in different industries and niches, we assure you that the healthcare app solutions we provide through Healthcare Mobile App Development Services work for a variety of business models. We can work for anyone, whether it’s a clinic or a hospital. The healthcare apps we create are built to meet the unique needs of each niche."} header={"Healthcare Mobile App Development Company For Different"} header2={"Niches"} VALUE_PROPOSITION={VALUE_PROPOSITION} />
+      <Industries
+        button={""}
+        para={
+          "Having an experience of 10+ years in different industries and niches, we assure you that the healthcare app solutions we provide through Healthcare Mobile App Development Services work for a variety of business models. We can work for anyone, whether it’s a clinic or a hospital. The healthcare apps we create are built to meet the unique needs of each niche."
+        }
+        header={"Healthcare Mobile App Development Company For Different"}
+        header2={"Niches"}
+        VALUE_PROPOSITION={VALUE_PROPOSITION}
+      />
       <DeliveryFeatures />
       <CTA />
-      <Niches/>
-      <DeliveryApps/>
-           <Process
-        header="Proven Process of a Healthcare App Development Company"
+      <Niches />
+      <DeliveryApps />
+      <Process
+        header="Proven Process of a Healthcare App "
+        header2={"Development Company"}
         para="Every healthcare application we develop at our healthcare app development company solves a problem. So, the team works with a structured approach that brings your app to life. Different healthcare app development companies work with unique workflows, but when it comes to creating healthcare apps at our development company, we utilize a perfectly structured approach of the best development companies to make sure that we design applications that work the proper way.   "
         steps={PROCESS_STEPS}
       />
-       <TabularTechs />
-            
+      <TabularTechs />
+
       <Bussiness
         header="Why You Should Choose "
         header2={" Dignite Studios"}
         button=" Choose The Right Team  "
         para={
           <>
-      We are experts at building healthcare applications. Having a team of the <Link href={"/services/hire-mobile-app-developers"}>best developers</Link> and designers in the healthcare industry, we provide you with everything you need as a custom healthcare app development company. Dignite Studios consists of a team that takes the time to understand your audience and goals before the development of your app even begins. We deliver functional applications with clear communication and reliable solutions. 
+            We are experts at building healthcare applications. Having a team of
+            the{" "}
+            <Link href={"/services/hire-mobile-app-developers"}>
+              best developers
+            </Link>{" "}
+            and designers in the healthcare industry, we provide you with
+            everything you need as a custom healthcare app development company.
+            Dignite Studios consists of a team that takes the time to understand
+            your audience and goals before the development of your app even
+            begins. We deliver functional applications with clear communication
+            and reliable solutions.
           </>
         }
         bs={highlights}
@@ -507,7 +538,6 @@ Our healthcare app development company understands and helps you overcome the un
         features={featureData}
       /> */}
 
- 
       {/* <Impact /> */}
       {/* <Industries
         header="Food Delivery App Development Services for Different "
@@ -531,17 +561,20 @@ Our healthcare app development company understands and helps you overcome the un
         para="If you want a reliable Ecommerce platform, our BigCommerce development Services can help. Our team builds secure, scalable and high performing online stores. We ensure every step supports business growth and better customer experience. "
         btn="Request BigCommerce Development Quote"
       /> */}
-   
+
       <Testimonials
-        header="Feedback From the Clients "
+        header="Feedback From the  "
         test={test}
+        header2={"Clients"}
         button={"Talk to our Experts"}
-        para={"Our clients trust us to deliver healthcare apps that truly make a difference. Their feedback highlights how our solutions improve patient care and enhance operational efficiency. These testimonials demonstrate reliability and the ability to meet unique healthcare needs, while helping organizations deliver more connected patient experiences. "}
+        para={
+          "Our clients trust us to deliver healthcare apps that truly make a difference. Their feedback highlights how our solutions improve patient care and enhance operational efficiency. These testimonials demonstrate reliability and the ability to meet unique healthcare needs, while helping organizations deliver more connected patient experiences. "
+        }
         // button="Work With Our Expert Team"
       />
-      <Faq faqs={faqs} header=" Commonly Asked Questions " />
+      <Faq faqs={faqs} header2={"Questions"} header=" Commonly Asked  " />
       <ContactUs
-       pathname={"Healthcare App dev"}
+        pathname={"Healthcare App dev"}
         img={"/industries/healthcare/c-img.webp"}
         header={"Ready to Avail our Healthcare Services?"}
         para=" Partner with us to build innovative, reliable healthcare apps that improve patient care, streamline operations, and deliver seamless experiences. Let’s create solutions tailored to your organization’s unique needs. "

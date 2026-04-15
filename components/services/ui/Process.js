@@ -35,7 +35,7 @@ const Process = ({header , header2 , para , steps}) => {
     <div
       id="process"
       className={` w-full py-10`}
-      style={{ background: palette?.dark_contrast_background }}
+      // style={{ background: palette?.dark_contrast_background }}
     >
       <div
         className={`px-4 md:px-12 lg:px-20   2xl:px-48  flex flex-col items-center justify-start`}

@@ -61,13 +61,11 @@ const Hero = () => {
            
             src="/services/mobile-app/mob.webp"
             alt="Mobile app development showcase Boston"
-            width={721}
-            height={527}
+            width={800}
+            height={800}
             fetchPriority="high"
             priority
-            quality={80}
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 721px, 721px"
-            className="object-cover w-[80%] mx-auto h-full"
+           
             />
         </motion.div>
         <div className="relative md:hidden">

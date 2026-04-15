@@ -87,7 +87,7 @@ const TabularTechs = () => {
     <section className="w-full overflow-visible text-black">
       <div className="max-w-7xl mx-auto text-center px-4">
         <h2 className="text-4xl md:text-7xl leading-[42px] tracking-tighter lg:leading-[1.1] font-bold mb-6">
-          Advanced Tools Behind Healthcare Apps
+          Advanced Tools Behind <span className="text-[#F15C20]"> Healthcare Apps</span> 
         </h2>
 
         <p className="font-extralight mx-auto mb-16 text-lg max-w-3xl">

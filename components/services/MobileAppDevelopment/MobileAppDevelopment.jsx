@@ -294,7 +294,7 @@ const test = [
       "“The recent shopping app has increased customer engagement. Their team understood our requirements perfectly and delivered a user-friendly app. Communication was clear throughout the entire process.”",
   },
   {
-    name: "Priya Kapoor",
+    name: "Ethan Morgan ",
     designation: "— Entrepreneur, FinTrack",
     review:
       "“I appreciate how the developers suggested practical features to improve user experience. They built a secure application that aligns with my business goals. Highly recommended for anyone who’s looking for professional app development.”",
@@ -306,7 +306,7 @@ const test = [
       "“The team was professional and responsive. They developed a cross-platform app with flawless performance on both iOS and Android. Post-launch support has been fantastic too.”",
   },
   {
-    name: "Ananya Singh",
+    name: "Jordan Noah",
     designation: "— CEO, RideNow",
     review:
       "“Their team handled everything smoothly. They built a visually appealing app that our users love. Their expertise in mobile app development is unmatched, literally.”",
@@ -358,7 +358,7 @@ const faqs = [
     id: 1,
     question: "How much time does it usually take to build a mobile app?",
     answer:
-      "Dignite Studios doesn’t provide a fixed, similar timeline for each mobile app during development. The time always depends on the complexity and features of every application. Usually, a mid-level application would take up to 8-12 weeks, but it all depends. If you need a final cost estimate, contact our team and share your app idea.",
+      <> Dignite Studios doesn’t provide a fixed, similar timeline for each mobile app during development. The time always depends on the complexity and features of every application. Usually, a mid-level application would take up to 8-12 weeks, but it all depends. If you need a final cost estimate, <Link href="/contact-us" className="underline">contact our team</Link> and share your app idea.</>,
   },
   {
     id: 2,
@@ -406,8 +406,8 @@ const PROCESS_STEPS = [
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The sprint planning for app development begins, and our professional mobile app developers define the product roadmap and total execution time.",
+    title: "Development Stage",
+    desc: "The app development begins, and our professional mobile app developers work according to the product roadmap and total execution time.",
   },
   {
     step: "04",
@@ -555,7 +555,7 @@ const MobileAppDevelopment = () => {
         header={"Successful Projects Executed by "}
         header2={"Dignite Studios"}
         para={
-          "Here’s the case studies section, showcasing the solutions and apps we built with our workflow, which actually make development easier."
+          "Check out the case studies to see how Dignite Studios created functional hybrid apps just from ideas. Every project we shared here shows the challenges our clients had to deal with, the custom solutions we created and implemented. Also, the results we achieved as a team. See our development process and the technologies that helped us build secure and engaging hybrid applications."
         }
       />
       <CTA />

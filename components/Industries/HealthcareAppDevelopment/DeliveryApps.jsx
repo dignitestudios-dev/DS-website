@@ -1,10 +1,6 @@
-
-
-"use client"
+"use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-
-
 
 import Link from "next/link";
 
@@ -118,7 +114,12 @@ const FlipCard = ({ card }) => {
           <div className="w-14 h-14  flex items-center justify-center text-7xl ">
             {card.icon}
           </div>
-          <h3 className="text-lg font-semibold text-center text-[#FFFFFF] dark:text-current" style={{ color: card.text === "text-white" ? "#FFFFFF" : "#0C0C0C" }}>
+          <h3
+            className="text-lg font-semibold text-center text-[#FFFFFF] dark:text-current"
+            style={{
+              color: card.text === "text-white" ? "#FFFFFF" : "#0C0C0C",
+            }}
+          >
             {card.title}
           </h3>
         </div>
@@ -136,10 +137,16 @@ const DeliveryApps = () => {
     <section className="relative mt-16 mx-auto px-4 max-w-[1100px] flex flex-col items-center gap-12">
       <div className="text-center ">
         <h2 className="text-4xl md:text-7xl font-bold leading-[1.05] tracking-tighter ">
-          Smart Healthcare Apps Powered by AI and Advanced Tech
+          Smart Healthcare Apps Powered by AI and{" "}
+          <span className="text-[#F15C20]">Advanced Tech</span>
         </h2>
         <p className="mt-4 text-base md:text-lg font-light leading-[1.36] text-[#0C0C0C]">
-   AI and emerging technologies are changing the entire healthcare app industry by making it better through faster and more efficient responses. These technologies improve patient care by integrating AI features that help healthcare providers make better decisions. It enhances accuracy and delivers better healthcare experiences across digital platforms. 
+          AI and emerging technologies are changing the entire healthcare app
+          industry by making it better through faster and more efficient
+          responses. These technologies improve patient care by integrating AI
+          features that help healthcare providers make better decisions. It
+          enhances accuracy and delivers better healthcare experiences across
+          digital platforms.
         </p>
       </div>
 
@@ -148,17 +155,17 @@ const DeliveryApps = () => {
           <FlipCard key={card.title} card={card} />
         ))}
       </div>
-        <Link
-          href="/contact-us"
-          className="flex items-center group justify-center "
-        >
-          <button className="bg-[#F15C20] border-[#F15C20] group-hover:bg-white border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-           Speak to Security Expert
-          </button>
-          <button className="bg-[#F15C20] border-[#F15C20] group-hover:bg-white border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-            <MdArrowOutward />
-          </button>
-        </Link>
+      <Link
+        href="/contact-us"
+        className="flex items-center group justify-center "
+      >
+        <button className="bg-[#F15C20] border-[#F15C20] group-hover:bg-white border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+          Speak to Security Expert
+        </button>
+        <button className="bg-[#F15C20] border-[#F15C20] group-hover:bg-white border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+          <MdArrowOutward />
+        </button>
+      </Link>
     </section>
   );
 };
