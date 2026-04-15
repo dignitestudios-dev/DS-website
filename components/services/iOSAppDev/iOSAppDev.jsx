@@ -408,31 +408,31 @@ const faqs = [
     id: 1,
     question: "Do you build iOS apps?",
     answer:
-      "Yes. Our iOS app development services create apps that grow with your business. We ensure smooth performance and easy management so your iOS app can handle more users and traffic while delivering a reliable and fluent experience across iOS devices.",
+      "Yes. Our iOS app development services create stores that grow with your business. We ensure smooth performance and easy management so your iOS app can handle more users and traffic while delivering a reliable and fluent experience across iOS devices.",
   },
   {
     id: 2,
     question: "How long does iOS development take?",
     answer:
-      "The timeline and iOS app development cost depend on your app’s complexity and integrations. Our iOS app development agency follows a structured process to complete projects efficiently while maintaining quality, clear communication, and timely delivery.",
+      "The timeline and iOS app development cost depends on your app’s complexity and integrations. Our iOS app development agency follows the structured process to complete the project efficiently. We focus on the quality, clear communication and timely delivery so your iOS app launches on the schedule and operates smoothly for your business. ",
   },
   {
     id: 3,
     question: "Do you support iOS app feature development?",
     answer:
-      "Absolutely. With our iOS mobile app development services, we create custom features and integrations that improve functionality, connect third-party tools, automate tasks, and deliver a seamless user experience across iOS devices.",
+      "Absolutely. With our iOS mobile app development services, we create custom features and integrations for your app. These enhancements improve functionality, connect third-party tools, automate tasks, and deliver a seamless user experience, making your app more flexible, efficient, and enjoyable for users across iOS devices.",
   },
   {
     id: 4,
     question: "Can you refine my hybrid app idea?",
     answer:
-      "Yes. Our iOS development agency helps refine your app idea, plan features, and implement the design. The team guides you step by step to ensure your app is easy to use, scalable, visually appealing, and aligned with business goals and customer expectations.",
+      "Yes. Our iOS development agency helps refine your app idea, plan features and implement the design. The team guides you step by step to ensure your store is easy to use, scalable, visually appealing and fully aligned through the business goals and customer expectations. ",
   },
   {
     id: 5,
     question: "Do you work with startups and enterprises?",
     answer:
-      "Yes. Our team works with businesses of all sizes. As a professional custom iOS app development services provider, we deliver tailored solutions for startups and large enterprises, ensuring your app is secure, scalable, and optimized to grow your business.",
+      "Yes. The team serves businesses of all sorts. As the professional custom ios app development services provider, we deliver the tailored solutions for the startups and large enterprises, ensuring that your app is secure, scalable and optimized to grow your business while providing the fluent experience of customers. ",
   },
 ];
 
@@ -476,7 +476,7 @@ const IOSAppDev = () => {
       <About
         heading="About "
         heading2={"Dignite Studios"}
-        para="Having about 10+ years of experience, Dignite Studios is the best iOS mobile app development company in the USA. We worked on 50+ projects for startups and businesses and turned their ideas into functional mobile apps with around 200+ trusted app developers. We go from strategy to launch in quick, short sprints and develop iOS apps that are designed to grow with your business. Scalability is not just a term for us; it’s a whole mindset when we develop apps. That’s how our experience of working with different industries and services makes us unique among other companies."
+        para="Having about 10+ years of experience, Dignite Studios is the best iOS mobile app development company in the USA. We worked on 300+ projects for startups and businesses and turned their ideas into functional mobile apps with around 200+ trusted app developers. We go from strategy to launch in quick, short sprints and develop iOS apps that are designed to grow with your business. Scalability is not just a term for us; it’s a whole mindset when we develop apps. That’s how our experience of working with different industries and services makes us unique among other companies."
         button="Find Your Team Today"
       />
       <Services
@@ -499,7 +499,9 @@ const IOSAppDev = () => {
 
       <Process
         steps={PROCESS_STEPS}
-        header={"Proven Process of an iOS Mobile App Development Company"}
+        btn={"Begin Your App Development"}
+        header={"Proven Process of an iOS Mobile App "}
+        header2={"Development Company"}
         para={
           "Every application begins with an idea and a goal. So, Dignite Studios works with a structured approach and hire iOS app developers who turn your idea into a highly functional iOS application. Different companies work with different and unique workflows, but when it comes to creating mobile apps at our top iOS app development company, we utilize a perfectly structured approach of the best companies to ensure that we design apps that work the proper way. Here’s the process that turns ideas into apps."
         }
@@ -571,6 +573,7 @@ const IOSAppDev = () => {
       <MobileApp
         header={"Advantages of Having Your"}
         header2={"iOS App"}
+        button={"Get Your iOS App "}
         para={
           <>
             There are many compelling reasons to have your own iOS app developed
@@ -607,7 +610,7 @@ const IOSAppDev = () => {
         header={"Testimonials for iOS App Development"}
         header2={" Services"}
       />
-      <Faq header={" People Usually Ask"} faqs={faqs} />
+      <Faq header={" People Usually "} header2={"Ask"} faqs={faqs} />
       <ContactUs
         img={"/services/web-app/c-img.webp"}
         pathname={"Web App Development"}

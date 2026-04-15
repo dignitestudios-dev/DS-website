@@ -391,8 +391,8 @@ const PROCESS_STEPS = [
   },
   {
     step: "03",
-    title: "Sprint Development",
-    desc: "The team of app developers builds your web application in structured sprints, focusing on specific features with feedback.",
+    title: "Development Stage",
+    desc: "The team of app developers builds your web application in structured sprints. Each sprint focuses on delivering specific features with feedback. ",
   },
   {
     step: "04",
@@ -416,9 +416,9 @@ const WebAppDevelopment = () => {
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-        heading="Behind Dignite Studios"
-        heading2={""}
-        para="We’re providing the best web application development services with a team of 200+ developers. Having 10+ years of experience, we’ve worked on over 50+ projects for startups, businesses, and enterprises. Building functional products from scratch, the team focuses on building secure web applications tailored to your specific business needs. With a strong emphasis on the high performance of the applications. The team is great at building reliable digital solutions that improve efficiency and user experience. Each solution is customized to your unique business needs and focuses on reliability and delivering an exceptional user experience. The goal is to provide web apps that support long-term business success and adapt to changing technological needs."
+        heading="Behind "
+        heading2={"Dignite Studios"}
+        para="We’re providing the best web application development services with a team of 200+ developers. Having 10+ years of experience, we’ve worked on over 300+ projects for startups, businesses, and enterprises. Building functional products from scratch, the team focuses on building secure web applications tailored to your specific business needs. With a strong emphasis on the high performance of the applications. The team is great at building reliable digital solutions that improve efficiency and user experience. Each solution is customized to your unique business needs and focuses on reliability and delivering an exceptional user experience. The goal is to provide web apps that support long-term business success and adapt to changing technological needs."
         button="Talk to the Team!"
       />
       <Services
@@ -501,8 +501,10 @@ const WebAppDevelopment = () => {
       />
       <Process
         steps={PROCESS_STEPS}
+        btn={"Start Your Web Journey"}
+        header2={"Services Process"}
         header={
-          "Our Proven Custom Web Application Development Services Process"
+          "Our Proven Custom Web Application Development "
         }
         para={
           "Being one of the best web application development agencies, we make sure that every project is delivered effectively and efficiently. We follow the proper structured approach that prioritizes quality and makes the applications smooth and prepared for users. This workflow keeps you informed at every stage while reducing risks. With us, you get reliable web applications that are tailored to your business goals."
@@ -510,9 +512,9 @@ const WebAppDevelopment = () => {
       />
       <MobileApp
         header={
-          "Benefits of Custom Web Application Development Services for Your"
+          "Benefits of Custom Web Application Development Services for "
         }
-        header2={" Business"}
+        header2={"Your Business"}
         para={
           <>
             Investing in custom web apps means numerous benefits. Benefits could
@@ -555,7 +557,7 @@ const WebAppDevelopment = () => {
         button={"Find More About Us"}
         header2={"Testimonials"}
       />
-      <Faq header={" People Usually Ask"} faqs={faqs} />
+      <Faq header={" People Usually "} header2={"Ask"} faqs={faqs} />
       <ContactUs
         img={"/services/web-app/c-img.webp"}
         pathname={"Web App Development"}

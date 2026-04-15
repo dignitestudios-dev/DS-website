@@ -494,7 +494,7 @@ const MobileAppConsultation = () => {
       <About
         heading="Experienced App Development  "
         heading2={"Consultant"}
-        para="Dignite Studios is more than just a name in the industry of mobile applications. Dignite Studios has delivered over 150 projects globally to different clients, having over 10 years of experience in different industries and multiple niches. The goal for us is to help businesses and startups in every way we can. And successfully, the team moves forward with our mission by offering mobile app consulting services. The team offers its expertise in strategic guidance and professional development so your app turns out as amazing as you imagined. Your amazing idea just needs some professional shaping from our experts to become a product everyone would want to use. "
+        para="Dignite Studios is more than just a name in the industry of mobile applications. Dignite Studios has delivered over 300+ projects globally to different clients, having over 10+ years of experience in different industries and multiple niches. The goal for us is to help businesses and startups in every way we can. And successfully, the team moves forward with our mission by offering mobile app consulting services. The team offers its expertise in strategic guidance and professional development so your app turns out as amazing as you imagined. Your amazing idea just needs some professional shaping from our experts to become a product everyone would want to use. "
         button="Get a Free Quote Today "
       />
       <Services

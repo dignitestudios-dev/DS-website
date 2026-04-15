@@ -319,7 +319,7 @@ const test = [
       "“Dignite Studios turned our idea into a fully functional Android app in record time. The team was responsive, professional, and highly skilled in Android development.”",
   },
   {
-    name: "Priya Sharma",
+    name: "Lawrence Steel",
     designation: "— E-Commerce Manager, ShopEase Online",
     review:
       "“From concept to launch, Dignite Studios guided us through the process seamlessly. Our Android app exceeded all expectations.”",
@@ -337,7 +337,7 @@ const test = [
       "“Dignite Studios delivered a clean, intuitive Android app with excellent performance. Their attention to detail is unmatched.”",
   },
   {
-    name: "Raj Kumar",
+    name: "Jack Buyers",
     designation: "— Owner, QuickLogistics Ltd.",
     review:
       "“Our Android app now runs smoothly across devices thanks to their expertise. The team handled everything professionally and efficiently.”",
@@ -430,8 +430,8 @@ const PROCESS_STEPS = [
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The sprint planning for app development begins, and our professional mobile app developers define the product roadmap and total execution time.",
+    title: "Development Stage ",
+    desc: "The Android app development begins, and our professional app developers begin the execution with the product roadmap.",
   },
   {
     step: "04",
@@ -455,9 +455,9 @@ const AndroidAppDev = () => {
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-        heading="What’s"
-        heading2={"Dignite Studios"}
-        para="Dignite Studios is an expert Android app development company with 10+ years of experience. We have successfully completed 50+ projects for startups and enterprises. Which means our Android app development services transform the ideas into highly functional Android apps with the help of 200+ trusted app developers. Our process is organized in fast, efficient sprints from strategy to launch. It means ensuring apps that are not just functional but built to grow with your business. Scalability is more than a word for us; it’s a mindset. Our extensive experience across industries and services makes us stand out among Android development companies."
+        heading="A Decade of Android"
+        heading2={"Innovation"}
+        para="Dignite Studios is an expert Android app development company with 10+ years of experience. We have successfully completed 300+ projects for startups and enterprises. Which means our Android app development services transform the ideas into highly functional Android apps with the help of 200+ trusted app developers. Our process is organized in fast, efficient sprints from strategy to launch. It means ensuring apps that are not just functional but built to grow with your business. Scalability is more than a word for us; it’s a mindset. Our extensive experience across industries and services makes us stand out among Android development companies."
         button="Get Your Team Today"
       />
       <Services
@@ -479,7 +479,9 @@ const AndroidAppDev = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Proven Process of an Android Mobile App Development Company"}
+        header={"Proven Process of an Android Mobile App "}
+        header2={"Development Company"}
+        btn={"Initiate Your App Development"}
         para={
           "Every application begins with an idea and a goal, and Dignite Studios works with a structured approach that turns your idea into a highly functional Android application. Different Android app development companies work with unique workflows, but when it comes to creating mobile apps at our top Android app development services company, we provide the best Android app development services in USA to ensure that we design apps that work properly. Here’s our app development process. "
         }

@@ -46,7 +46,7 @@ const ThirdPartyIntegration = () => {
         <div className="flex flex-col items-center gap-8 sm:gap-10 lg:gap-12 mb-12 sm:mb-16 lg:mb-20">
           {/* Title */}
           <h2 className="text-4xl sm:text-5xl lg:text-7xl tracking-tighter font-bold text-center text-[#1F222E] leading-[1.05]">
-            Third-Party Integrations
+            Third-Party <span className='text-[#F15C20]'>Integrations  </span> 
           </h2>
 
           {/* Description */}
@@ -83,7 +83,7 @@ const ThirdPartyIntegration = () => {
           className="flex items-center group justify-center "
         >
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-             Get Free Consultation
+             Get a Free Consultation
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />

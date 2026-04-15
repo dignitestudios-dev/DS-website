@@ -25,6 +25,7 @@ const defaultCards = [
 
 const Cost = ({
   title = "Food Delivery App Development Cost Industry-Wide",
+  header2,
   description =
   
     "The cost of developing a food delivery app isn’t the same for every type. It varies widely depending on features, complexity, platform choice, and third-party integrations. We can provide an average based on market research and studies. It doesn’t represent Dignite Studios’ pricing models, so for a specific quote, ",
@@ -36,7 +37,7 @@ btn
     <section className="relative  mx-auto  max-w-screen-2xl w-[80%] px-4  flex flex-col items-center gap-12">
       <div className="text-center">
         <h2 className="text-4xl md:text-7xl font-bold leading-[1.05] tracking-tighter">
-          {title}
+          {title}{" "} {header2 && <span className="text-[#F15C20]">{header2}</span>}
         </h2>
         <p className="mt-4 text-sm md:text-lg font-light leading-[1.36] text-[#2A2A2A]">
           {description}

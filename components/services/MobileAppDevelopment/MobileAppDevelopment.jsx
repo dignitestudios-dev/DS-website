@@ -431,9 +431,9 @@ const MobileAppDevelopment = () => {
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-        heading="The BackStory"
-        heading2={"of Dignite Studios"}
-        para="With 10+ years of experience, Dignite Studios is the best mobile app development company in USA. With over 200+ trusted mobile app developers, we’ve worked on 50+ projects for startups and businesses and turned their ideas into functional mobile apps. We go from strategy to deployment in quick sprints and develop mobile apps that are designed to grow with your business. Scalability is not just a word for us; it’s a whole mindset when we develop apps. That’s how our experience with different industries and services makes us unique among other companies."
+        heading="The BackStory of"
+        heading2={"Dignite Studios"}
+        para="With 10+ years of experience, Dignite Studios is the best mobile app development company in USA. With over 200+ trusted mobile app developers, we’ve worked on 300+ projects for startups and businesses and turned their ideas into functional mobile apps. We go from strategy to deployment in quick sprints and develop mobile apps that are designed to grow with your business. Scalability is not just a word for us; it’s a whole mindset when we develop apps. That’s how our experience with different industries and services makes us unique among other companies."
         button="Contact us Today"
       />
       <Services

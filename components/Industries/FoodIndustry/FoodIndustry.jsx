@@ -491,8 +491,9 @@ const FoodIndustry = () => {
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-        button="Let’s Get Started "
-        heading="About Dignite Studios"
+        button="Talk to the Team"
+        heading="About "
+        heading2={"Dignite Studios"}
         para={
           <>
      Being one of the best food delivery app development companies, the developers specialize in creating food applications that fulfill the evolving needs of food businesses. The demand is growing for online ordering and restaurants. And startups and cloud kitchens are instantly shifting toward digital platforms to meet customer expectations. This means helping them meet customer demands and give a competitive advantage in the market. Our goal is to build apps that support transformation.
@@ -522,12 +523,12 @@ The team is understanding and helps you overcome the unique challenges of each a
         para="It’s time to take your food business online with a fully customized delivery app. An application that’d help you streamline orders, improve deliveries, and provide a smooth experience for your customers. Let us turn your idea into a successful app. "
         btn="Talk to Our App Experts"
       />
-        <Industries
+        {/* <Industries
         header="Food Delivery App Development Services for Different "
         header2={" Niches"}
         para="Having an experience of 10+ years in different industries and niches, we assure you that the food delivery app solutions we provide work for a variety of business models. We can work for anyone, whether it’s a single restaurant or a multi-vendor platform. The apps we create are built to meet the unique needs of each niche. "
         VALUE_PROPOSITION={VALUE_PROPOSITION}
-      />
+      /> */}
       <Niches/> 
       <DeliveryFeatures/>
       
@@ -546,7 +547,8 @@ The team is understanding and helps you overcome the unique challenges of each a
         para="You can explore our case studies section and see how we serve the industries and businesses, helping them build applications that just work perfectly for their industries and niche. The case studies we’re mentioning here highlight the challenges we dealt with and the solutions we provided. "
       />
       <Process
-        header="Proven Process of a Food Delivery App Development Company"
+        header="Proven Process of a Food Delivery App "
+        header2={"Development Company"}
         para="Every application we develop solves a problem. So, the team works with a structured approach that brings your business idea to life. Different food app development companies work with unique workflows, but when it comes to creating mobile apps at our development company, we utilize a perfectly structured approach of the best food app development companies to ensure that we design applications that work the proper way. Here’s the structured workflow that turns visions into apps.   "
         steps={PROCESS_STEPS}
       />
@@ -574,12 +576,13 @@ The team is understanding and helps you overcome the unique challenges of each a
         btn="Request BigCommerce Development Quote"
       /> */}
       <Testimonials
-        header="What Our Clients Say "
+      header2={"Clients Say"}
+        header="What Our   "
         test={test}
         para={" "}
         // button="Work With Our Expert Team"
       />
-      <Cost title="Food Delivery App Development Cost Industry-Wide" description={<>
+      <Cost header2={"Industry-Wide"} title="Food Delivery App Development Cost " description={<>
         The cost of developing a food delivery app isn’t the same for every type. It varies widely. It depends on factors like features, complexity, platform choice, third-party integrations. We can definitely just provide an average based on market research and studies. It doesn’t represent Dignite Studios’ pricing models, so if you need a more specific quote, <Link className="text-orange-600" href="/contact-us">contact us today</Link>.
         </>} btn={"Plan Your App Budget"} />
       <Faq faqs={faqs} header="Commonly Asked Questions" />

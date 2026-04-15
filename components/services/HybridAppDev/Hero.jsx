@@ -18,7 +18,7 @@ const Hero = () => {
           </span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-       Providing hybrid mobile app development services that create scalable applications with your ideas. apps that work smoothly on both iOS and Android. We focus on creating experiences that simplify your audience’s journey and make your business stand out in the digital world. 
+       Providing hybrid mobile app development services that create scalable applications with your ideas. Apps that work smoothly on both iOS and Android. We focus on creating experiences that simplify your audience’s journey and make your business stand out in the digital world. 
         </p>
 
         <Link

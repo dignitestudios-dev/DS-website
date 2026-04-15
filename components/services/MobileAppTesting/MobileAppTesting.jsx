@@ -476,7 +476,7 @@ const IOSAppDev = () => {
       <About
         heading="About "
         heading2={"Dignite Studios"}
-        para="Having about 10+ years of experience, Dignite Studios is the best iOS mobile app development company in the USA. We worked on 50+ projects for startups and businesses and turned their ideas into functional mobile apps with around 200+ trusted app developers. We go from strategy to launch in quick, short sprints and develop iOS apps that are designed to grow with your business. Scalability is not just a term for us; it’s a whole mindset when we develop apps. That’s how our experience of working with different industries and services makes us unique among other companies."
+        para="Having about 10+ years of experience, Dignite Studios is the best iOS mobile app development company in the USA. We worked on 300+ projects for startups and businesses and turned their ideas into functional mobile apps with around 200+ trusted app developers. We go from strategy to launch in quick, short sprints and develop iOS apps that are designed to grow with your business. Scalability is not just a term for us; it’s a whole mindset when we develop apps. That’s how our experience of working with different industries and services makes us unique among other companies."
         button="Find Your Team Today"
       />
       <Services

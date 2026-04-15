@@ -376,8 +376,8 @@ const PROCESS_STEPS = [
   },
   {
     step: "03",
-    title: "Sprint Development",
-    desc: "The team hire progressive web app developer who builds your web application in structured sprints. Each sprint focuses on delivering unique features with feedback.",
+    title: "Development Stage",
+    desc: "The team hire progressive web app developer who builds your web application in structured sprints. Each sprint focuses on delivering unique features with feedback. ",
   },
   {
     step: "04",
@@ -403,7 +403,7 @@ const ProgressiveWebAppDevelopment = () => {
       <About
         heading="About"
         heading2={"Dignite Studios"}
-        para="We’re providing reliable PWA Development Services with a team of 200+ developers. Having 10+ years of experience means Dignite Studios has worked on over 50+ projects for startups, businesses, and enterprises. Building functional products from scratch, the development team focuses on building secure web applications customized to your unique business needs. With a strong emphasis on the high performance of progressive web applications. The team is great at building reliable PWA solutions. improving efficiency and user experience. The aim is to provide web apps that support long term business success and adapt to changing technological needs."
+        para="We’re providing reliable PWA Development Services with a team of 200+ developers. Having 10+ years of experience means Dignite Studios has worked on over 300+ projects for startups, businesses, and enterprises. Building functional products from scratch, the development team focuses on building secure web applications customized to your unique business needs. With a strong emphasis on the high performance of progressive web applications. The team is great at building reliable PWA solutions. improving efficiency and user experience. The aim is to provide web apps that support long term business success and adapt to changing technological needs."
         button="Get Started Today"
       />
       <Services
@@ -487,7 +487,8 @@ const ProgressiveWebAppDevelopment = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"The Proven Process of a Custom PWA development company"}
+        header={"The Proven Process of a Custom PWA "}
+        header2={"development company"}
         para={
           "Being the best PWA app development company, we make sure that every project is delivered effectively and efficiently. Following the proper structured approach that prioritizes quality and makes the PWAs smooth and prepared for users. This process keeps you informed at every stage while reducing risks. With us, you get reliable progressive web applications that are tailored to your business goals."
         }

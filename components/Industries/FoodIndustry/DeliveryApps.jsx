@@ -109,7 +109,7 @@ const DeliveryApps = () => {
     <section className="relative mt-16 mx-auto px-4 max-w-[1100px] flex flex-col items-center gap-12">
       <div className="text-center ">
         <h2 className="text-4xl md:text-7xl font-bold leading-[1.05] tracking-tighter ">
-          Secure & Compliant Food Delivery Apps
+          Secure & Compliant Food <span className="text-[#F15C20]"> Delivery Apps</span>
         </h2>
         <p className="mt-4 text-base md:text-lg font-light leading-[1.36] text-[#0C0C0C]">
           Dignite Studios make sure that your delivery app is secure and complies with the policies. The applications we develop are secure enough to protect user data and maintain trust. The app aligns with legal regulations and has advanced security measures with encrypted payments and user authentication.

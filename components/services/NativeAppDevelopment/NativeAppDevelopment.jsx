@@ -490,7 +490,7 @@ const NativeAppDevelopment = () => {
       <About
         heading="The BackStory of "
         heading2={"Dignite Studios"}
-        para="With years of experience and success stories, Dignite Studios is the best native app development company. Having over 200+ trusted mobile app developers, we’ve worked on 50+ projects for startups and businesses and turned their ideas into functional native mobile apps. We begin with a strategy and stay with you even after the deployment through quick sprints and develop mobile apps that are designed to grow with your business. Scalability is not just a word for us; it’s our whole mindset when we develop your business apps. That’s how our experience with different niches and industries makes us unique among other companies."
+        para="With years of experience and success stories, Dignite Studios is the best native app development company. Having over 200+ trusted mobile app developers, we’ve worked on 300+ projects for startups and businesses and turned their ideas into functional native mobile apps. We begin with a strategy and stay with you even after the deployment through quick sprints and develop mobile apps that are designed to grow with your business. Scalability is not just a word for us; it’s our whole mindset when we develop your business apps. That’s how our experience with different niches and industries makes us unique among other companies."
         button="Contact us Today"
       />
       <Services

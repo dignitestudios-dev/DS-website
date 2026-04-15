@@ -11,7 +11,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import ContactButton from "@/components/global/ContactButton";
 import ProcessContainer from "./ProcessContainer";
 
-const Process = ({header , header2 , para , steps}) => {
+const Process = ({header , header2 , para , steps , btn}) => {
   const [currentTab, setCurrentTab] = useState("Agile");
   const { palette, theme } = useContext(GlobalContext);
   const [openedTab, setOpenedTab] = useState(1);
@@ -41,13 +41,13 @@ const Process = ({header , header2 , para , steps}) => {
         className={`px-4 md:px-12 lg:px-20   2xl:px-48  flex flex-col items-center justify-start`}
       >
         <div
-          className={`w-full px-0 flex flex-col justify-between items-center`}
+          className={`w-[80%] px-0 flex flex-col justify-between items-center`}
         >
    
           <h2
             className={`text-4xl capitalize leading-10 text-center tracking-tighter md:text-7xl font-bold`}
           >
-            {header} 
+            {header}{" "}{header2 && <span className="text-[#F15C20]">{header2}</span>}
           </h2>
           <p
             className={`text-sm lg:text-lg text-center my-3 lg:leading-[24.48px] font-[400]  ${ 
@@ -73,7 +73,7 @@ const Process = ({header , header2 , para , steps}) => {
         >
           Start Your Project
         </Link> */}
-        <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />
+        <ContactButton text1={btn ? btn : "Start Your Project"} text2={"Let's talk"} />
       </div>
     </div>
   );

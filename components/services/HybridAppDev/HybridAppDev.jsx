@@ -374,8 +374,8 @@ const PROCESS_STEPS = [
   },
   {
     step: "03",
-    title: "Sprint Planning",
-    desc: "The sprint planning for hybrid development begins, and our professional app developers define the product roadmap and total execution time.",
+    title: "Development Phase ",
+    desc: "The hybrid development begins, and our expert app developers start working according to the product roadmap and total execution time. ",
   },
   {
     step: "04",
@@ -401,7 +401,7 @@ const HybridAppDev = () => {
       <About
         heading="What’s"
         heading2={"Dignite Studios"}
-        para="We’re providing reliable hybrid mobile app development services with a team of 200+ developers. 10+ years of experience for us means Dignite Studios has worked on over 50+ projects for startups, businesses, and enterprises. By creating functional products from scratch, the team focuses on building secure mobile applications customized to your unique business needs. With a strong emphasis on the high performance of hybrid mobile applications. The team is great at building reliable mobile solutions. improving efficiency and user experience. The aim is to provide mobile apps that support long term business success and adapt to changing technological needs."
+        para="We’re providing reliable hybrid mobile app development services with a team of 200+ developers. 10+ years of experience for us means Dignite Studios has worked on over 300+ projects for startups, businesses, and enterprises. By creating functional products from scratch, the team focuses on building secure mobile applications customized to your unique business needs. With a strong emphasis on the high performance of hybrid mobile applications. The team is great at building reliable mobile solutions. improving efficiency and user experience. The aim is to provide mobile apps that support long term business success and adapt to changing technological needs."
         button="Contact us Today"
       />
       <Services
@@ -423,7 +423,9 @@ const HybridAppDev = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Proven Process of a Hybrid Mobile App Development Company"}
+        header={"Proven Process of a Hybrid Mobile App "}
+        header2={"Development Company"}
+        btn={"Start Your Development"}
         para={
           "The development team works with a perfectly structured approach that brings your idea to life. Different hybrid development companies work with unique workflows, but when it comes to creating mobile apps at our company, we utilize an approach of the hybrid app development company USA approach to ensure that we design applications that work the proper way. Here’s the workflow. "
         }
@@ -487,7 +489,7 @@ const HybridAppDev = () => {
         header={"Expert Hybrid App Development For Different  "}
         header2={"Industries"}
         para={
-          "We design hybrid apps according to your growth goals. Being one of the top mobile app development companies, our professionalism stops us from offering the exact same product for every industry. Offering custom solutions for every industry is our speciality. Also, building apps for your industry needs gives you an advantage in the market. "
+          "We design hybrid apps according to your growth goals. Being one of the top mobile app development companies, our professionalism stops us from offering the exact same product for every industry. Offering custom solutions for every industry is our specialty. Also, building apps for your industry needs gives you an advantage in the market.  "
         }
         button={"Let’s Talk Today"}
       />
