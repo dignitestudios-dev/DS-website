@@ -18,7 +18,8 @@ const Hero = () => {
           </span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-         The team of professional developers would help you unlock the potential of your business through our expert generative AI development services. We can guide you through the entire process and help you build whenever you’re ready. 
+The team of professional developers would help you unlock the potential of your business through our expert generative AI development services. We can guide you through the entire process and help you build whenever you’re ready. 
+
         </p>
 
         <Link

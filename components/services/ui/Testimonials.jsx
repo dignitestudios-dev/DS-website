@@ -132,7 +132,7 @@ const Testimonials = ({ header, header2, para, test: customTest , button }) => {
                       </div>
 
                       <p className="text-xs text-center line-clamp-4 px-2">
-                        "{item.review}"
+                        {item.review}
                       </p>
                     </div>
                   </div>

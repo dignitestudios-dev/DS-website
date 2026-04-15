@@ -437,7 +437,7 @@ const MobileAppCalifornia = () => {
       <SEO
         header={"California-Specific Coverage"}
         para={
-          "Choosing the right partner in California can completely change the way your app performs in a competitive market"
+          "Choosing the right partner in California can completely change the way your app performs in a competitive market."
         }
         locations={locations}
       />
