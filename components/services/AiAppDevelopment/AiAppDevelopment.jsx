@@ -427,33 +427,33 @@ const faqs = [
 const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery and AI Strategy",
-    desc: "We align your business goals with the right AI opportunities, creating a detailed roadmap for your application's success.",
+    title: "Discovery and Strategy",
+    desc: "When goals are clearly defined, your AI chatbot development service delivers optimal results. In this phase, we align your business objectives with the AI application’s vision and feature set.",
   },
   {
     step: "02",
-    title: "Data Engineering and Preparation",
-    desc: "Our team prepares your data for AI training, ensuring it is clean, structured, and ready to provide accurate results.",
+    title: "User Interface Design",
+    desc: "This stage involves creating a preliminary visual mock-up that represents the initial design and user experience of the mobile application.",
   },
   {
     step: "03",
-    title: "AI Model Selection and Development",
-    desc: "We select and fine-tune the best AI models for your specific needs, building a functional engine for your application.",
+    title: "Development Stage",
+    desc: "The AI app development process begins here. Our professional developers execute the product roadmap efficiently, leveraging generative AI development services to meet timelines and functionality goals.",
   },
   {
     step: "04",
-    title: "Integration and UI/UX Design",
-    desc: "We integrate the AI models into your application and design an intuitive interface for an amazing user experience.",
+    title: "Testing Stage",
+    desc: "Testing is conducted at every phase of development to ensure quality, performance, and up-to-date functionality throughout the process.",
   },
   {
     step: "05",
-    title: "Testing and Optimization",
-    desc: "Thorough testing and optimization ensure your AI application is secure, reliable, and performs at its best.",
+    title: "Deployment",
+    desc: "Deployment is where preparation meets execution, ensuring your app runs smoothly across both iOS and Android platforms.",
   },
   {
     step: "06",
-    title: "Post-Launch and Scaling",
-    desc: "We provide support after the launch and help you scale your AI application as your business grows.",
+    title: "Post-Launch Support",
+    desc: "After launch, our focus shifts to monitoring performance and continuously optimizing features based on user feedback.",
   },
 ];
 
@@ -469,11 +469,11 @@ const AiAppDevelopment = () => {
       />
       <Services
         services={services}
-        header={"Generative AI Development"}
-        header2={"Solutions"}
-        button={"Build Smarter Apps with AI"}
+        header={"Custom Generative AI Development"}
+        header2={"Services"}
+        button={"Start Your AI App Project"}
         para={
-          "We provide custom generative AI development services that include high-quality solutions for various business models. Our team builds AI applications that specifically target your business goals and ensure that your app provides amazing value to your audience."
+          "Dignite Studios is a renowned AI development services provider in the USA, trusted worldwide for its automation solutions. The team is famous for developing artificial intelligence software and apps for businesses of all sizes to discard manual processes. The AI solutions we create are designed to streamline workflows and augment operations for measurable results without unnecessary delays."
         }
       />
       <TabularEcommerceTechs
@@ -486,7 +486,9 @@ const AiAppDevelopment = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"The Process Behind Reliable AI Development Services"}
+        header={"The Process Behind Reliable AI "}
+        header2={"Development Services"}
+        btn={"Start Your App Development"}
         para={
           "Every AI application we develop solves a problem. We follow a structured process through generative AI development services that ensures your AI application is built with quality and provides amazing value to your business."
         }

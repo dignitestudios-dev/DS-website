@@ -99,11 +99,11 @@ const Footer = () => {
       { name: "Blog", href: "/blogs" },
     ],
     industries: [
-      { name: "Food Industry", href: "/industries/food-industry" },
+      { name: "Food ", href: "/industries/food-industry" },
       { name: "Real Estate", href: "/industries/real-estate-app-development" },
       { name: "Healthcare", href: "/industries/healthcare-app-development" },
       { name: "Dating / Matchmaking", href: "/industries/dating-app-development" },
-      { name: "Entertainment App", href: "/industries/entertainment-app-development" },
+      { name: "Entertainment ", href: "/industries/entertainment-app-development" },
     ],
     ecommerce: [
       {

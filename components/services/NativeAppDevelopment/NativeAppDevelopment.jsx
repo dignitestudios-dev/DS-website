@@ -513,7 +513,9 @@ const NativeAppDevelopment = () => {
 
       <Process
         steps={PROCESS_STEPS}
-        header={" Proven Process of a Custom Native App Development Company"}
+        header={" Proven Process of a Custom Native App "}
+        header2={"Development Company"}
+        btn={"Start Your App Development"}
         para={
           "Every native application begins with a visualization. So, the team works with a structured approach that brings your idea to life. Different companies work with unique workflows, but when it comes to creating mobile apps at our native app development company, we utilize a perfectly structured approach of the best native app development companies to ensure that we design applications that work the proper way. Here’s the whole workflow that turns visions into apps. "
         }

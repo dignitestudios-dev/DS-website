@@ -55,7 +55,13 @@ const services = [
     title: "Matchmaking App Development",
     description: (
       <>
-        Our matchmaking app development service is designed to create platforms focused on meaningful and real relationships. We build advanced solutions using algorithm-based partner matching and AI-powered matchmaking to improve connection accuracy and relevance. Our team ensures strong user trust with detailed profiles and secure verification, delivering scalable and engaging platforms that encourage long-term connections.
+        Our matchmaking app development service is designed to create platforms
+        focused on meaningful and real relationships. We build advanced
+        solutions using algorithm-based partner matching and AI-powered
+        matchmaking to improve connection accuracy and relevance. Our team
+        ensures strong user trust with detailed profiles and secure
+        verification, delivering scalable and engaging platforms that encourage
+        long-term connections.
       </>
     ),
   },
@@ -65,7 +71,12 @@ const services = [
     title: "Casual Dating App Development",
     description: (
       <>
-        Our casual dating app development services focus on building engaging platforms for effortless social connections. We implement swipe-based matching systems, fast onboarding, and instant messaging features. Location-based matching helps users connect nearby, while interactive features ensure high engagement and user retention for modern, flexible dating experiences.
+        Our casual dating app development services focus on building engaging
+        platforms for effortless social connections. We implement swipe-based
+        matching systems, fast onboarding, and instant messaging features.
+        Location-based matching helps users connect nearby, while interactive
+        features ensure high engagement and user retention for modern, flexible
+        dating experiences.
       </>
     ),
   },
@@ -75,7 +86,12 @@ const services = [
     title: "Niche Dating App Development",
     description: (
       <>
-        We develop niche dating apps tailored for specific communities and lifestyles. These platforms include personalized matching algorithms, secure verification systems, and interest-based discovery features. Our goal is to create highly targeted apps that deliver smooth performance, strong engagement, and meaningful connections within specialized user groups.
+        We develop niche dating apps tailored for specific communities and
+        lifestyles. These platforms include personalized matching algorithms,
+        secure verification systems, and interest-based discovery features. Our
+        goal is to create highly targeted apps that deliver smooth performance,
+        strong engagement, and meaningful connections within specialized user
+        groups.
       </>
     ),
   },
@@ -85,7 +101,12 @@ const services = [
     title: "Matrimony App Development",
     description: (
       <>
-        Our matrimony app development service focuses on serious relationships and marriage-oriented platforms. We build apps with advanced compatibility algorithms, detailed user profiles, and strict verification systems. Features like personality matching and location-based recommendations ensure trust, safety, and meaningful matchmaking experiences for families and individuals.
+        Our matrimony app development service focuses on serious relationships
+        and marriage-oriented platforms. We build apps with advanced
+        compatibility algorithms, detailed user profiles, and strict
+        verification systems. Features like personality matching and
+        location-based recommendations ensure trust, safety, and meaningful
+        matchmaking experiences for families and individuals.
       </>
     ),
   },
@@ -95,7 +116,12 @@ const services = [
     title: "Dating Web App Development",
     description: (
       <>
-        We create responsive dating web applications that deliver seamless experiences across all browsers. These platforms include advanced matching systems, secure authentication, and interactive messaging features. With swipe-based and interest-driven matching, users enjoy fast, smooth, and engaging online dating experiences optimized for performance and scalability.
+        We create responsive dating web applications that deliver seamless
+        experiences across all browsers. These platforms include advanced
+        matching systems, secure authentication, and interactive messaging
+        features. With swipe-based and interest-driven matching, users enjoy
+        fast, smooth, and engaging online dating experiences optimized for
+        performance and scalability.
       </>
     ),
   },
@@ -105,7 +131,11 @@ const services = [
     title: "Speed Dating App Development",
     description: (
       <>
-        Our speed dating app solutions are built for fast and interactive user engagement. We design platforms with time-limited chats, swipe-based matching, and proximity-based discovery. These apps help users quickly connect, interact, and find compatible matches while maintaining secure profiles and smooth real-time performance.
+        Our speed dating app solutions are built for fast and interactive user
+        engagement. We design platforms with time-limited chats, swipe-based
+        matching, and proximity-based discovery. These apps help users quickly
+        connect, interact, and find compatible matches while maintaining secure
+        profiles and smooth real-time performance.
       </>
     ),
   },
@@ -115,7 +145,11 @@ const services = [
     title: "Elite Dating App Development",
     description: (
       <>
-        We develop premium elite dating platforms designed for high-value users seeking meaningful connections. These apps include AI-powered matchmaking, personality-based compatibility, and curated recommendations. With elegant design and scalable architecture, we ensure exclusivity, engagement, and high-quality user interactions.
+        We develop premium elite dating platforms designed for high-value users
+        seeking meaningful connections. These apps include AI-powered
+        matchmaking, personality-based compatibility, and curated
+        recommendations. With elegant design and scalable architecture, we
+        ensure exclusivity, engagement, and high-quality user interactions.
       </>
     ),
   },
@@ -125,7 +159,11 @@ const services = [
     title: "Divorcee Dating App Development",
     description: (
       <>
-        Our divorcee dating app development service creates supportive platforms for individuals seeking new beginnings. We focus on safe, respectful environments with verified profiles and intelligent matchmaking. These apps prioritize comfort, trust, and compatibility to help users build meaningful relationships after divorce.
+        Our divorcee dating app development service creates supportive platforms
+        for individuals seeking new beginnings. We focus on safe, respectful
+        environments with verified profiles and intelligent matchmaking. These
+        apps prioritize comfort, trust, and compatibility to help users build
+        meaningful relationships after divorce.
       </>
     ),
   },
@@ -302,7 +340,8 @@ const faqs = [
   },
   {
     id: 2,
-    question: "Can you build iOS applications for dating and matchmaking apps, too?",
+    question:
+      "Can you build iOS applications for dating and matchmaking apps, too?",
     answer:
       "We’re experts in building both iOS and Android dating apps. Hire dating app developers who create high-performance applications for businesses. The developers can easily work with native technologies and Swift to develop applications that feel simple while ensuring strong functionality.",
   },
@@ -326,7 +365,8 @@ const faqs = [
   },
   {
     id: 6,
-    question: "Are you currently working with startups, too, or just enterprises?",
+    question:
+      "Are you currently working with startups, too, or just enterprises?",
     answer:
       "Our dating app team works with both startups and enterprises. Whether you want to build an MVP or scale an existing application, we are ready to help you build a strong dating platform together.",
   },
@@ -442,15 +482,31 @@ const DatingApp = () => {
       <Hero />
       <About
         button="Talk to the Team "
-        heading="What’s"
-        heading2={"Dignite Studios"}
+        heading="About Our App"
+        heading2={"Development Team"}
         para={
           <>
-        Being the best dating app development company, the developers specialize in creating matchmaking applications that fulfill the evolving needs of this industry. The demand is growing for online connections. And startups and businesses are instantly shifting toward digital platforms to create meaningful user experiences. This means helping them meet customer demands and give a competitive advantage in the market. Our goal is to build apps that offer transformation.
-The solutions we create while providing the trusted dating app development simplify user matching and enhance the overall user experience through improved engagement. Our apps are designed to make every interaction smooth through secure chats and profile management.  We work with a wide range of business models, including niche dating platforms, mainstream matchmaking, and community based social networks. 
-The team is understanding and helps you overcome the unique challenges of each and deliver solutions that grow with your industry. We understand that every dating app needs to operate differently. Having 10+ years of experience in different industries, we combine our knowledge with modern technology, so we help you come up with a solution that’s fully functional and helps your business grow and get more users through providing smooth experiences. 
-
-
+            Being the best dating app development company, the developers
+            specialize in creating matchmaking applications that fulfill the
+            evolving needs of this industry. The demand is growing for online
+            connections. And startups and businesses are instantly shifting
+            toward digital platforms to create meaningful user experiences. This
+            means helping them meet customer demands and give a competitive
+            advantage in the market. Our goal is to build apps that offer
+            transformation. The solutions we create while providing the trusted
+            dating app development simplify user matching and enhance the
+            overall user experience through improved engagement. Our apps are
+            designed to make every interaction smooth through secure chats and
+            profile management. We work with a wide range of business models,
+            including niche dating platforms, mainstream matchmaking, and
+            community based social networks. The team is understanding and helps
+            you overcome the unique challenges of each and deliver solutions
+            that grow with your industry. We understand that every dating app
+            needs to operate differently. Having 10+ years of experience in
+            different industries, we combine our knowledge with modern
+            technology, so we help you come up with a solution that’s fully
+            functional and helps your business grow and get more users through
+            providing smooth experiences.
           </>
         }
       />
@@ -461,43 +517,57 @@ The team is understanding and helps you overcome the unique challenges of each a
         para="Providing a complete suite of services in the category of dating app development, our dating mobile app development company design applications that help startups and businesses build meaningful connections. Our custom dating app development services cover every aspect of app creation and custom development. The focus is on building dating apps that keep the customer engaged by providing a smooth experience.   "
         services={services}
       />
-           <CTA />
-        <SuccessStories
-          header="The Success Stories of Top Dating App Development Company  "
-          para="You can check out our case studies section and see how we, as the dating app development company work with the industries and businesses, helping them build applications that just work amazingly for their industries and niche. The case studies we’re highlighting here shows the challenges we dealt with and the solutions we provided.  "
-        />
-              <DeliveryFeatures />
-                <DeliveryApps/>
-                <ThirdPartyIntegration/>
-                        <Process
-        header="Proven Process of a Dating App Development Company"
+      <CTA />
+      <SuccessStories
+        header="The Success Stories of Top Dating App Development Company  "
+        para="You can check out our case studies section and see how we, as the dating app development company work with the industries and businesses, helping them build applications that just work amazingly for their industries and niche. The case studies we’re highlighting here shows the challenges we dealt with and the solutions we provided.  "
+      />
+      <DeliveryFeatures />
+      <DeliveryApps />
+      <ThirdPartyIntegration />
+      <Process
+        btn={"Start Your App Development"}
+        header="Proven Process of a Dating App"
+        header2={" Development Company"}
         para="Every dating application we develop solves a problem. So, the team works with a structured approach that brings your dating app idea to life. Different matchmaking app development companies work with unique workflows, but when it comes to creating mobile apps at our development company, we utilize a perfectly structured approach of the best dating app development companies to ensure that we design applications that work the proper way. Here’s the structured workflow that turns visions into apps.   "
         steps={PROCESS_STEPS}
       />
-      <CTA2/>
-      <Cost cards={defaultCards}  title="Dating App Development Cost Industry-Wide" description={<>The cost of developing matchmaking, dating apps isn’t the same for every type. It varies widely. It mostly depends on usual factors like features, complexity, platform choice, third-party integrations. Dignite Studios can definitely just provide an average based on market research and studies. This doesn’t represent Dignite Studios’ pricing models, so if you need a more specific quote, <Link href="/contact-us" className="text-orange-600">contact our team today</Link></>}/>
+      <CTA2 />
+      <Cost
+        cards={defaultCards}
+        title="Dating App Development Cost Industry-Wide"
+        description={
+          <>
+            The cost of developing matchmaking, dating apps isn’t the same for
+            every type. It varies widely. It mostly depends on usual factors
+            like features, complexity, platform choice, third-party
+            integrations. Dignite Studios can definitely just provide an average
+            based on market research and studies. This doesn’t represent Dignite
+            Studios’ pricing models, so if you need a more specific quote,{" "}
+            <Link href="/contact-us" className="text-orange-600">
+              contact our team today
+            </Link>
+          </>
+        }
+      />
 
-         <Bussiness
+      <Bussiness
         header="Why You Should Choose "
         header2={" Dignite Studios"}
         button=" Choose The Right Team  "
         para={
           <>
-      We are experts at building healthcare applications. Having a team of the <Link href={"/services/hire-mobile-app-developers"}>best developers</Link> and designers, we provide you with everything you need as a custom dating mobile app development company. Dignite Studios consists of dating app developers that take the time to understand your audience and goals before the development even begins. We deliver the functional dating applications with clear communication and reliable solutions. 
+            We are experts at building matchmaking applications. Having a team of the <Link href={"/services/hire-mobile-app-developers"}>best developers</Link> and designers, we provide you with everything you need as a custom dating mobile app development company. Dignite Studios consists of dating app developers that take the time to understand your audience and goals before the development even begins. We deliver the functional dating applications with clear communication and reliable solutions. 
+            
           </>
         }
         bs={highlights}
       />
-             <TabularTechs />
+      <TabularTechs />
       {/* <Industries para={"Having an experience of 10+ years in different industries and niches, we assure you that the healthcare app solutions we provide through Healthcare Mobile App Development Services work for a variety of business models. We can work for anyone, whether it’s a clinic or a hospital. The healthcare apps we create are built to meet the unique needs of each niche."} header={"Healthcare Mobile App Development Company For Different"} header2={"Niches"} VALUE_PROPOSITION={VALUE_PROPOSITION} /> */}
 
- 
       {/* <Niches/> */}
-    
-   
 
-            
-   
       {/* <MobileApp
         cards={BENEFITS}
         header2={"Real Estate Apps"}
@@ -515,7 +585,6 @@ The team is understanding and helps you overcome the unique challenges of each a
         features={featureData}
       /> */}
 
- 
       {/* <Impact /> */}
       {/* <Industries
         header="Food Delivery App Development Services for Different "
@@ -539,7 +608,7 @@ The team is understanding and helps you overcome the unique challenges of each a
         para="If you want a reliable Ecommerce platform, our BigCommerce development Services can help. Our team builds secure, scalable and high performing online stores. We ensure every step supports business growth and better customer experience. "
         btn="Request BigCommerce Development Quote"
       /> */}
-   
+
       <Testimonials
         header="What Our Clients Say "
         test={test}
@@ -549,7 +618,7 @@ The team is understanding and helps you overcome the unique challenges of each a
       />
       <Faq faqs={faqs} header="Frequently Asked Questions" />
       <ContactUs
-       pathname={"Dating App dev"}
+        pathname={"Dating App dev"}
         img={"/industries/healthcare/c-img.webp"}
         header={"Start Building Your Dating App Today"}
         para="Share your project requirements with our expert team and take the first step toward launching your feature-rich dating app. Submit your details below, and we’ll provide a personalized consultation to help you plan, design, and build your app successfully. "

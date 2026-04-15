@@ -124,10 +124,10 @@ const DeliveryFeatures = () => {
   return (
     <section className="w-full ">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-4">
-        <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold tracking-tighter leading-tight">Powerful Features for Real Estate App Development</h2>
+        <div className="text-center w-[80%] mx-auto mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold tracking-tighter leading-tight">Top Features of Modern <span className="text-[#F15C20]">Dating Apps</span></h2>
           <p className="text-sm sm:text-base lg:text-lg opacity-80 mx-auto mt-4 ">
-            A modern app needs smart features to improve user experience and simplify business tasks. As a trusted real estate app builder, we build apps with practical tools for buyers, agents and admins, helping manage listings, improve communication, and support smooth property transactions.
+    Our matchmaking app solutions help businesses succeed in the competitive dating industry. We build applications that satisfy the customers by making operations easier and providing a smoother experience for the users. Each app we work on is reliable and designed to meet the unique needs of your industry.
           </p>
         </div>
 

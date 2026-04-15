@@ -72,8 +72,8 @@ const ThirdPartyIntegration = () => {
         {/* Header Section */}
         <div className="flex flex-col items-center gap-8 sm:gap-10 lg:gap-12 mb-12 sm:mb-16 lg:mb-20">
           {/* Title */}
-          <h2 className="text-4xl sm:text-5xl lg:text-7xl tracking-tighter font-bold text-center text-[#1F222E] leading-[1.05]">
-            Third Party Integrations by Top Dating App Development Company
+          <h2 className="text-4xl sm:text-5xl lg:text-7xl tracking-tighter font-bold text-center  leading-[1.05]">
+            Third Party Integrations by Top Dating App <span className="text-[#F15C20]">Development Company</span>
           </h2>
 
           {/* Description */}
@@ -135,7 +135,7 @@ const ThirdPartyIntegration = () => {
 
 const IntegrationCard = ({ integration }) => {
   return (
-    <div className="bg-white relative border-2 border-[#F15C20] rounded-3xl p-6 sm:p-8 w-[250px] h-[260px] flex flex-col items-center text-center hover:shadow-lg transition-all">
+    <div className="bg-white relative border-2 border-[#F15C20] rounded-3xl p-6 sm:p-8 w-[250px] h-[280px] flex flex-col items-center text-center hover:shadow-lg transition-all">
       {/* Icon Circle */}
       <div className="w-20 absolute -top-16 h-20 sm:w-24 sm:h-24 bg-white border-4 border-white rounded-full flex items-center justify-center mb-6 text-[#F15C20]">
         <Image

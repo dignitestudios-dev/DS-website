@@ -478,7 +478,7 @@ const SupportAndMaintenanceServicesPage = () => {
       <About
         heading="Experienced Mobile Application   "
         heading2={"Maintenance"}
-        para="Dignite Studios is a reputable name in the industry of mobile applications. Dignite Studios has delivered over 150 projects globally to different types of clients, with a decade of experience in multiple industries and multiple niches. The goal for us is to help startups in every way we can through mobile app maintenance services. And successfully, the team moves forward with our mission by offering mobile application support & maintenance services. The team offers its expertise, ongoing maintenance, and dedicated support so your app turns out as amazing as you imagined. Your amazing application just needs some professional shaping from our experts to become a product everyone would want to use. "
+        para="Dignite Studios is a reputable name in the industry of mobile applications. Dignite Studios has delivered over 300+ projects globally to different types of clients, with a decade of experience in multiple industries and multiple niches. The goal for us is to help startups in every way we can through mobile app maintenance services. And successfully, the team moves forward with our mission by offering mobile application support & maintenance services. The team offers its expertise, ongoing maintenance, and dedicated support so your app turns out as amazing as you imagined. Your amazing application just needs some professional shaping from our experts to become a product everyone would want to use. "
         button="Get a Free Quote Today "
       />
       <Services
@@ -589,8 +589,8 @@ const SupportAndMaintenanceServicesPage = () => {
         test={test}
         para={""}
         button={"Work With Our Expert Team"}
-        header={"Client’s Testimonials"}
-        header2={" "}
+        header={"Client’s "}
+        header2={"Testimonials "}
       />
       <Faq header={"FAQ's"} faqs={faqs} />
       <ContactUs

@@ -290,13 +290,14 @@ const MobileAppBoston = () => {
     <div className="max-w-screen-2xl w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
       <About
-        heading="What’s Dignite"
-        heading2={"Studios?"}
+        heading="A Decade of Building High-Performance"
+        heading2={"Mobile Apps"}
+        
         para="Looking for mobile app development services Boston? We are reputed mobile app development company in Boston. We help startups and growing businesses by listening to their app ideas. We provide the practical guidance they need and create mobile applications that are exactly what they imagined. With over 10 years of hands-on experience in the local Boston market, we understand what it takes to build apps that scale, perform, and compete.
 We have a whole team of skilled developers, UI/UX designers, and project managers working with you and for you to deliver secure, user-focused mobile solutions using modern technologies.
 
 "
-        button=""
+        button="Talk to Our Boston-Based Team "
       />
       <Services
         services={services}

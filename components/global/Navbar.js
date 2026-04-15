@@ -87,10 +87,10 @@ const Navbar = ({ setIsOpen }) => {
             "Mobile App Consulting Services",
             "/services/mobile-app-consultation",
           ],
-          [
-            "Mobile App Testing Services",
-            "/services/mobile-app-testing-services",
-          ],
+          // [
+          //   "Mobile App Testing Services",
+          //   "/services/mobile-app-testing-services",
+          // ],
           [
             "Hybrid App Development Services",
             "/services/hybrid-app-development",
@@ -141,7 +141,7 @@ const Navbar = ({ setIsOpen }) => {
       {
         image: "/ind-r.webp",
         items: [
-          ["Food Industry", "/industries/food-industry"],
+          ["Food", "/industries/food-industry"],
           ["Real Estate", "/industries/real-estate-app-development"],
           // ["Fintech", "/industries/fintech"],
         ],
@@ -156,7 +156,7 @@ const Navbar = ({ setIsOpen }) => {
       {
         image: "/ind-r.webp",
         items: [
-          ["Entertainment App", "/industries/entertainment-app-development"],
+          ["Entertainment", "/industries/entertainment-app-development"],
           // ["Dating App", "/industries/dating-app"],
         ],
       },

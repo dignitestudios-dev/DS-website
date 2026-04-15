@@ -23,7 +23,7 @@ const Hero = () => {
           theme === "light" ? "text-[#5C5C5C]" : "text-[#8F8F8F]"
         }`}
       >
-     With our professional mobile app maintenance services, your business can unlock the full potential of your mobile app. To help you build your starting concepts and strategy, we offer a free consultation that you might have been looking for..
+     With our professional mobile app maintenance services, your business can unlock the full potential of your mobile app. To help you build your starting concepts and strategy, we offer a free consultation that you might have been looking for.
       </h2>
       <div>
         {/* <Link
