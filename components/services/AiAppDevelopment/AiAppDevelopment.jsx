@@ -90,7 +90,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 const FEATURES = [
   {
     title: "Intelligent Workflow",
-    desc: " AI driven workflows streamline processes. They also reduce manual effort and ensure tasks are completed efficiently. Which means it keeps your business operations smooth.",
+    // desc: " AI driven workflows streamline processes. They also reduce manual effort and ensure tasks are completed efficiently. Which means it keeps your business operations smooth.",
     icon: <FaCogs size={50} color="#F15C20" />,
   },
   {

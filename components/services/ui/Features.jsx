@@ -29,7 +29,7 @@ const Features = ({ header, header2, para, features, button }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-base md:text-lg   mx-auto leading-relaxed"
+            className="text-base md:text-lg mx-auto leading-relaxed"
           >
             {para}
           </motion.p>
@@ -49,14 +49,10 @@ const Features = ({ header, header2, para, features, button }) => {
           >
             {features?.map((feature, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-white mb-8  rounded-[32px] border border-gray-200 p-8 flex flex-col items-center justify-center text-center transition-all duration-300 group hover:border-[#F15C20]/20 w-[300px] h-[300px]">
+                <div className="bg-white mb-8 rounded-[32px] border border-gray-200 p-8 flex flex-col items-center justify-center text-center transition-all duration-300 group hover:border-[#F15C20]/20 w-[300px] h-[300px]">
                   <div className="mb-8 p-4 rounded-2xl bg-white transition-transform duration-300 group-hover:scale-110">
-                    <div className="text-[#F15C20] text-7xl">
-                      {feature.icon}
-                    </div>
+                    <div className="text-[#F15C20] text-7xl">{feature.icon}</div>
                   </div>
-
-                  {/* Title */}
                   <h3 className="text-lg font-bold text-[#111827] leading-snug group-hover:text-[#F15C20] transition-colors duration-300 px-4">
                     {feature.title}
                   </h3>
@@ -84,33 +80,83 @@ const Features = ({ header, header2, para, features, button }) => {
 
         {/* Features Grid (hidden on mobile) */}
         <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-          {features?.map((feature, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.1, delay: index * 0.1 }}
-              whileHover={{
-                y: -5,
-                boxShadow:
-                  "0 20px 35px -5px rgba(241, 92, 32, 0.1), 0 10px 10px -5px rgba(241, 92, 32, 0.04)",
-              }}
-              className="bg-white rounded-[32px] border border-gray-200 p-8 flex flex-col items-center text-center transition-all duration-300 group hover:border-[#F15C20]/20 font-bold"
-            >
-              {/* Icon Container */}
-              <div className="mb-8 p-4 rounded-2xl bg-white transition-transform duration-300 group-hover:scale-110">
-                <div className="text-[#F15C20] text-6xl md:text-7xl">
-                  {feature.icon}
-                </div>
-              </div>
+          {features?.map((feature, index) =>
+            feature.desc ? (
+              // ── Flippable card (has description) ──
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.1, delay: index * 0.1 }}
+                className="group"
+                style={{ perspective: "1000px" }}
+              >
+                <div
+                  style={{
+                    transformStyle: "preserve-3d",
+                    transition: "transform 0.6s cubic-bezier(0.4,0.2,0.2,1)",
+                  }}
+                  className="relative w-full h-full min-h-[280px] group-hover:[transform:rotateY(180deg)]"
+                >
+                  {/* Front Face */}
+                  <div
+                    style={{ backfaceVisibility: "hidden" }}
+                    className="absolute inset-0 bg-white rounded-[32px] border border-gray-200 p-8 flex flex-col items-center justify-center text-center"
+                  >
+                    <div className="mb-8 p-4 rounded-2xl bg-white">
+                      <div className="text-[#F15C20] text-6xl md:text-7xl">
+                        {feature.icon}
+                      </div>
+                    </div>
+                    <h3 className="text-lg font-bold text-[#111827] leading-snug px-4">
+                      {feature.title}
+                    </h3>
+                  </div>
 
-              {/* Title */}
-              <h3 className="text-lg font-bold text-[#111827] leading-snug group-hover:text-[#F15C20] transition-colors duration-300 px-4">
-                {feature.title}
-              </h3>
-            </motion.div>
-          ))}
+                  {/* Back Face */}
+                  <div
+                    style={{
+                      backfaceVisibility: "hidden",
+                      transform: "rotateY(180deg)",
+                    }}
+                    className="absolute inset-0 bg-[#F15C20] rounded-[32px] p-8 flex flex-col items-center justify-center text-center"
+                  >
+                    {/* <h3 className="text-lg font-bold text-white mb-4 leading-snug px-2">
+                      {feature.title}
+                    </h3> */}
+                    <p className="text-white/90 text-sm leading-relaxed px-2">
+                      {feature.desc}
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+            ) : (
+              // ── Static card (no description) ──
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.1, delay: index * 0.1 }}
+                whileHover={{
+                  y: -5,
+                  boxShadow:
+                    "0 20px 35px -5px rgba(241, 92, 32, 0.1), 0 10px 10px -5px rgba(241, 92, 32, 0.04)",
+                }}
+                className="bg-white rounded-[32px] border border-gray-200 p-8 flex flex-col items-center justify-center text-center transition-all duration-300 group hover:border-[#F15C20]/20 font-bold"
+              >
+                <div className="mb-8 p-4 rounded-2xl bg-white transition-transform duration-300 group-hover:scale-110">
+                  <div className="text-[#F15C20] text-6xl md:text-7xl">
+                    {feature.icon}
+                  </div>
+                </div>
+                <h3 className="text-lg font-bold text-[#111827] leading-snug group-hover:text-[#F15C20] transition-colors duration-300 px-4">
+                  {feature.title}
+                </h3>
+              </motion.div>
+            )
+          )}
         </div>
 
         <div className="flex justify-center mt-12 mb-4">
@@ -119,8 +165,8 @@ const Features = ({ header, header2, para, features, button }) => {
               href={"/contact-us"}
               className="flex items-center group justify-center w-fit"
             >
-              <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20]  text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-                {button ? button : " Talk to our California-based team"}
+              <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full font-normal transition-colors">
+                {button ? button : "Talk to our California-based team"}
               </button>
               <button className="bg-[#F15C20] border border-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
                 <MdArrowOutward />
