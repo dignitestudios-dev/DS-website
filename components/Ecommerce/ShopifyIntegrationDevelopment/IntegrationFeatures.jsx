@@ -105,7 +105,7 @@ const IntegrationFeatures = () => {
         {/* Header Section */}
         <div className="w-full  flex flex-col items-center gap-6 text-center">
           <h2 className="text-[#1F222E] font-bold text-[40px] md:text-[56px] lg:text-[72px] leading-[105%] tracking-[-0.04em] capitalize">
-            Shopify Mobile App Integration Features 
+            Shopify Mobile App Integration <span className="text-[#F15C20]" >Features</span> 
           </h2>
           <p className="text-[#0C0C0C] w-[80%] mx-auto font-light text-[16px] leading-[136%] tracking-[-0.014em]">
          Enhance your Ecommerce experience with our Shopify mobile app integrations. These features improve the shopping, simplify processes and boost the engagement. From checkout and marketing to the analytics and loyalty tools, we help businesses deliver smooth and consistent experiences across the mobile and web platforms.

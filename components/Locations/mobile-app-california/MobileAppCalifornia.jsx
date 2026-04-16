@@ -429,7 +429,8 @@ const MobileAppCalifornia = () => {
         buttonText="Start Your App Journey Now!"
       />
       <TechAndTools
-        header={"Tools, Technologies & Frameworks "}
+        header={"Tools, Technologies &  "}
+        header2={"Frameworks"}
         para={
           "Do you ever wonder what exactly makes some apps feel so smooth while some apps look like a mess? Our mobile app development services make sure yours runs smoothly, every time."
         }

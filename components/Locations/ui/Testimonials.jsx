@@ -3,6 +3,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+import Link from "next/link";
+import { MdArrowOutward } from "react-icons/md";
 
 // Import Swiper styles
 
@@ -33,7 +35,7 @@ const testData = [
   },
 ];
 
-const Testimonials = ({ header, header2, para, test: customTest }) => {
+const Testimonials = ({ header, header2, para, test: customTest , button }) => {
   const testimonials = customTest || testData;
 
   return (
@@ -146,6 +148,16 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
           background: #f15c20 !important;
         }
       `}</style>
+      {button && (
+        <Link href={"/contact-us"} className="flex items-center group justify-center  mt-4">
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-[14px] leading-[160%] px-6 py-[14px] rounded-full font-medium transition-colors">
+            {button} 
+          </button>
+          <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-[52px] h-[52px] rounded-full flex items-center justify-center transition-colors text-xl">
+            <MdArrowOutward />
+          </button>
+        </Link>
+      )}
     </div>
   );
 };

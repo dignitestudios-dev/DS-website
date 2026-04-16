@@ -52,7 +52,7 @@ const MigrationServices = () => {
         {/* Heading */}
         <div className="flex flex-col items-center text-center gap-4">
           <h2 className="font-bold text-4xl md:text-7xl  leading-tight tracking-tight">
-            Our Shopify Migration Services
+            Our Shopify Migration <span className="text-[#F15C20]" >Services</span>
           </h2>
           <p className="text-[#0C0C0C] font-light text-base md:text-lg leading-relaxed max-w-[846px]">
           Our Shopify Migration Services provide secure and accurate store transfers from any platform. As the trusted Shopify migration agency we handle the products. Orders, SEO and apps carefully. We ensure that every detail is also tested so the store works quite perfectly after migration. 

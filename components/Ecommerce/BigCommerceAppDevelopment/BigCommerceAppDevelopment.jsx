@@ -497,18 +497,21 @@ We work with several industries such as the Ecommerce,retail, DTC brands and onl
       />
       <MobileApp
         cards={BENEFITS}
-        header="Benefits Of Having a Bigcommerce Store"
+        header="Benefits Of Having a "
+        header2={"BigCommerce Store"}
         para="A BigCommerce store helps businesses manage online sales more easily. It supports automation, faster order processing and better customer experiences . When combined with mobile app development services for Ecommerce, businesses can reach more customers, Improve engagement, and build scalable digital stores which support long term online growth. "
         button="Build a Scalable BigCommerce Store "
       />
       <Features
-        header="Must Have Features in Your BigCommerce Store "
+        header="Must Have Features in Your "
+        header2={"BigCommerce Store"}
         para="Strong features improve the store performance and customer experience. Our BigCommerce development Service include advanced tools that support business growth.  "
         button="Get Feature Recommendations"
         features={featureData}
       />
       <SuccessStories
-        header=" BigCommerce Development Services Case Studies "
+        header=" BigCommerce Development Services  "
+        header2={"Case Studies"}
         para="We have helped businesses launch successful Ecommerce platforms through reliable development and integrations. Our portfolio highlights real projects where stores achieved better performance, improved user experience and strong sales growth.  
 Explore our successful Ecommerce projects and see how our solutions support the business growth "
       />
@@ -518,7 +521,8 @@ Explore our successful Ecommerce projects and see how our solutions support the 
         btn="Request BigCommerce Development Quote"
       />
       <Testimonials
-        header="Client Testimonials for Our BigCommerce Development Services "
+        header="Client Testimonials for Our BigCommerce  "
+        header2={"Development Services"}
         test={test}
         para={"Businesses trust our team when they need reliable Ecommerce solutions. As developers focus that  we also focus on quality development and long term partnerships. Many companies choose to hire the bigcommerce developers from the Dignite studios because we build secure platforms and deliver consistent results.  "}
         button="Work With Our Expert Team"

@@ -85,7 +85,7 @@ const ConnectShopify = () => {
             transition={{ duration: 0.6 }}
             className="text-[#1F222E] font-bold text-[40px] md:text-[56px] lg:text-[72px] leading-[105%] tracking-[-0.04em] capitalize"
           >
-            Platform Integration Flexibility 
+            Platform Integration <span className="text-[#F15C20]" >Flexibility</span>
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}

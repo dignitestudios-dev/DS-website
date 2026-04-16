@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { IoArrowUpOutline } from "react-icons/io5";
 
-const WhyChoose = ({header, para, features}) => {
+const WhyChoose = ({header, para, header2,features}) => {
   const [hoveredCard, setHoveredCard] = useState(null);
 
  
@@ -13,7 +13,7 @@ const WhyChoose = ({header, para, features}) => {
         {/* Header */}
         <div className="text-center leading-[4] mb-10">
           <h2 className="text-4xl md:text-5xl tracking-tighter  lg:text-7xl font-bold">
-            {header}
+            {header} {" "} <span className="text-[#F15C20]">{header2}</span>
           </h2>
          
         </div>

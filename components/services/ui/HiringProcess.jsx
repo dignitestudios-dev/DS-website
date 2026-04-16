@@ -19,7 +19,7 @@ const steps = [
   { title: "Meet Developer", description: "Regular sync & updates." },
 ];
 
-const HiringProcess = ({header,para,button , steps}) => {
+const HiringProcess = ({header,para,button , steps,header2}) => {
   const scrollRef = useRef(null);
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -100,7 +100,7 @@ const HiringProcess = ({header,para,button , steps}) => {
         {/* Heading */}
         <div className="text-center max-w-[860px]">
           <h2 className="font-bold tracking-tighter mb-10 text-4xl md:text-7xl">
-            {header}
+            {header} {" "} <span className="text-[#F15C20]">{header2}</span>
           </h2>
           <p className="text-lg text-[#1F222E]">
             {para}

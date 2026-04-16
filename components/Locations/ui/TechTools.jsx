@@ -13,7 +13,7 @@ import DevelopmentTools from "./DevelopmentTools";
 import Databases from "./Databases";
 import { useState } from "react";
 
-const TechAndTools = ({ header, para }) => {
+const TechAndTools = ({ header, header2, para }) => {
   const [activeTechStack, setActiveTechStack] = useState(
     "programming-languages",
   );
@@ -46,6 +46,7 @@ const TechAndTools = ({ header, para }) => {
         <h2 className="text-4xl tracking-tighter md:text-7xl font-bold lg:max-w-7xl mx-auto leading-[1.1] text-black">
           {header || "Tech and Tools We Use for Mobile App Development"}
           {"  "}
+          {header2 && <span className="text-[#F15C20]">{header2}</span>}
         </h2>
         <p className="w-full md:w-[70%] mx-auto text-black/60 text-base md:text-lg">
           {para}

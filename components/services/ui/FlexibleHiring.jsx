@@ -5,7 +5,7 @@ import { FiPlus, FiMinus, FiSearch, FiMic } from "react-icons/fi";
 import Image from "next/image";
 import { FaMinus, FaPlus } from "react-icons/fa";
 
-const FlexibleHiring = ({ header, para , cards }) => {
+const FlexibleHiring = ({ header, para , header2,cards }) => {
   const [activeCard, setActiveCard] = useState(0);
 
 //   const cards = [
@@ -34,7 +34,7 @@ const FlexibleHiring = ({ header, para , cards }) => {
         {/* Header Section */}
         <div className="max-w-4xl text-center flex flex-col gap-8">
           <h2 className="text-4xl md:text-7xl font-bold text-[#1F222E] tracking-tighter leading-none">
-            {header || "Flexible Hiring Models"}
+          {header || "Flexible Hiring Models"}{" "}{header2 && <span className="text-[#F15C20]">{header2}</span>}
           </h2>
           <p className="text-base md:text-lg font-light text-[#0C0C0C] leading-relaxed max-w-5xl mx-auto">
             {para || "Our team also delivers the modern mobile products which are built with the flutter for the speed, performance and the scalability. Dignite studios designs the top flutter app development services for the startups and enterprises that want the long term value and reliable cross platform experiences."}

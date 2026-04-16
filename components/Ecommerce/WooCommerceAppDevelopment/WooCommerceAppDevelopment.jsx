@@ -525,12 +525,14 @@ const WooCommerceAppDevelopment = () => {
       />
       <MobileApp
         cards={BENEFITS}
-        header="Benefits Of Having a WooCommerce Store "
+        header="Benefits Of Having a "
+        header2={"WooCommerce Store "}
         para="A WooCommerce store helps businesses grow faster by improving customer experience and simplifying the online sales. It supports automation, reduces the manual work and manages products easily. Businesses can grow product lines, enhance store performance and boost income through the improved digital commerce operations thanks to the scalable features and adaptable digital technologies. "
         button="Build a Scalable WooCommerce Store "
       />
       <Features
-        header="Must Have Features in Your WooCommerce Store"
+        header="Must Have Features in Your "
+        header2={"WooCommerce Store"}
         para="A high performing WooCommerce store should have secure login, real time order sync, inventory management, mobile optimized checkout, analytics, multi payment support, SEO-friendly architecture and performance optimization to provide smooth, efficient and fluent shopping experience for the customers. "
         button="Get Feature Recommendations"
         features={featureData}
@@ -545,7 +547,8 @@ const WooCommerceAppDevelopment = () => {
         btn="Request WooCommerce Development Quote"
       />
       <Testimonials
-        header="Trusted WooCommerce Website Development Services"
+        header="Trusted WooCommerce Website "
+        header2={"Development Services"}
         test={test}
         para={
           "Businesses Choose Dignite Studios because we focus on the quality, clear communication and the dependable store performance. As the trusted WooCommerce Website development services, we help brands to build secure and scalable online stores which support long term growth. Our clients value our simple process, skilled developers and the strong commitment to delivering reliable eCommerce solutions. "

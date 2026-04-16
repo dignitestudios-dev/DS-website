@@ -464,7 +464,8 @@ const EcommerceAppDevelopment = () => {
       />
       <TabularEcommerceTechs />
       <BuildingPlatforms
-        header={"Platforms We Use to Build Ecommerce Apps"}
+        header={"Platforms We Use to Build "}
+        header2={"Ecommerce Apps"}
         para={
           "We build ecommerce apps by using platforms which also support scalability and business growth. As an ecommerce mobile app development company we ensure each of the platforms fits your needs and delivers strong performance. "
         }
@@ -508,12 +509,14 @@ const EcommerceAppDevelopment = () => {
       />
       <MobileApp
         cards={BENEFITS}
-        header="Benefits Of Having an Ecommerce App"
+        header="Benefits Of Having an "
+        header2={"Ecommerce App"}
         para="Ecommerce apps help businesses to improve performance and increase revenue. Our solutions support the automation scalability and the better user experience. It is for the strong mobile app development for ecommerce strategies. It is built for the long term growth and business success."
         button="Build a Scalable Ecommerce App"
       />
       <Features
-        header="Must Have Features in Your ecommerce app development services"
+        header="Must Have Features in Your ecommerce app "
+        header2={"Development Services"}
         para="Modern ecommerce apps need essential features that improve performance and user experience. Our ecommerce app development company in usa ensures that your app includes the right features for business growth and scalability."
         button="Get Feature Recommendations"
         features={featureData}

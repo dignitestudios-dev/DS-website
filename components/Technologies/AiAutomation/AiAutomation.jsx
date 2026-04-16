@@ -432,7 +432,8 @@ const AiAutomation = () => {
       <TechTools
         button={"Explore AI Automation Capabilities "}
         tech={tech}
-        header={"AI Automation Technology Stack We Use"}
+        header={"AI Automation Technology Stack "}
+        header2={"We Use"}
         para={
           "Dignite Studios creates intelligent, scalable and secure solutions through enterprise grade tools stable workflow performance, quick deployment and fluent integrations. It was made possible through the cloud native design. We provide useful significant AI automation solutions for the small business for various industries.Through combining automation techniques with the modern platforms. "
         }

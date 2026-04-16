@@ -571,11 +571,12 @@ const MobAppDev = () => {
           "Our developers provide complete mobile app solutions for businesses of all sizes. You can hire Mobile app Developers to build, design, test and maintain the applications. We also support businesses of all sizes. You can also developers to build, design, test and maintain applications. We also support businesses that want to hire a mobile app developer for scalable high performance digital products.    "
         }
       />
-  <FlexibleHiring cards={cards} header={"Choose the Right Hiring Model For Your Project"} para={"Businesses can choose the right hiring model based on their project size, timeline and budget. We help you hire Mobile App Developers in a way which fits your needs and ensures the smooth development without the delays. " }/>
+  <FlexibleHiring cards={cards} header={"Choose the Right Hiring Model For "} header2={"Your Project"} para={"Businesses can choose the right hiring model based on their project size, timeline and budget. We help you hire Mobile App Developers in a way which fits your needs and ensures the smooth development without the delays. " }/>
   
       <Process
         steps={PROCESS_STEPS}
-        header={"Our Step by Step Mobile App Development Approach"}
+        header={"Our Step by Step Mobile App "}
+        header2={" Development Approach"}
         para={
           "We follow a clear and structured process to build mobile applications. This helps businesses hire Developers with confidence and ensures eerie projects are delivered on time through the high quality and smooth performance. "
         }
@@ -604,7 +605,7 @@ const MobAppDev = () => {
         header2={" App Developers"}
         button={"Get Free Consultation"}
       />
-          <HiringProcess steps={steps} header={"How Our Mobile App Developer Hiring Works "} para={"Hiring developers from Dignite Studios is simple and fast. Follow these steps to hire mern mobile app developer who can trust contributing to your project immediately."} button={"Hire Mobile App Developers "} />
+          <HiringProcess steps={steps} header2={"Hiring Works"} header={"How Our Mobile App Developer  "} para={"Hiring developers from Dignite Studios is simple and fast. Follow these steps to hire mern mobile app developer who can trust contributing to your project immediately."} button={"Hire Mobile App Developers "} />
       {/* <MobileApp
         header={"Benefits of Having Your Hybrid  "}
         header2={"App"}
@@ -616,7 +617,7 @@ const MobAppDev = () => {
         }
         cards={BENEFITS}
       /> */}
-      <WhyChoose header={"Why Companies Prefer Our Mobile App Developers "} para={"Businesses choose Dignite Studios for our proven expertise, transparent communication and reliable solutions. Our companies hire Mobile App developers from our team to build high quality apps efficiently while maintaining the long term support for the scalable projects. "}
+      <WhyChoose header={"Why Companies Prefer Our Mobile  "} header2={"App Developers"} para={"Businesses choose Dignite Studios for our proven expertise, transparent communication and reliable solutions. Our companies hire Mobile App developers from our team to build high quality apps efficiently while maintaining the long term support for the scalable projects. "}
       features={features}
       />
       {/* <Features

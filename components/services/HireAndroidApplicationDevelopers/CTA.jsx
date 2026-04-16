@@ -15,10 +15,8 @@ const CTA = () => {
             Hire Mobile App Developers Today
           </h2>
           <p>
-            Grow your business with expert Android developers from Dignite Studios. 
-            We offer fast onboarding, flexible hiring and reliable services to help 
-            you scale your team easily. Start your project today and build 
-            high-quality applications with confidence and long-term support.
+         Scale your development team with the skilled professionals who deliver the reliable result. Businesses can hire android developers from us for fast onboarding, expert support and the smooth collaboration.We ensure secure, high quality applications while helping you to start quickly and grow without delays or the technical challenges. 
+
           </p>
           <Link
             href="/contact-us"
@@ -28,7 +26,7 @@ const CTA = () => {
               type="submit"
               className="bg-[#F15C20] border border-[#F15C20]  group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-              Hire Mobile App Developers
+             Get Free Consultation 
             </button>
             <button
               type="submit"

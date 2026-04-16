@@ -32,7 +32,7 @@ const CTA = () => {
             Ready to Build Your Mobile App? 
           </h2>
           <p>
-          Are you planning to create a powerful mobile app with top mobile app developers in Seattle? Connect with our dedicated team? Collaborate with our tech experts to develop a detailed project plan. 
+          Are you planning to create a powerful mobile app with top mobile app developers in Seattle? Connect with our dedicated team. Collaborate with our tech experts to develop a detailed project plan. 
           </p>
           <Link href="/contact-us" className="flex items-center group justify-start  pt-4">
             <button

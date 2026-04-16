@@ -105,7 +105,7 @@ const DeliveryFeatures = () => {
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-4">
         <div className="text-center mb-8 sm:mb-12">
          <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold tracking-tighter leading-tight">
-  Entertainment App Features & Functionalities
+  Entertainment App  <span className="text-[#F15C20]">Features & Functionalities</span>
 </h2>
 
 <p className="text-sm sm:text-base lg:text-lg opacity-80 mx-auto mt-4">

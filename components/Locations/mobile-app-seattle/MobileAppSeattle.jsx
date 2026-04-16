@@ -331,10 +331,10 @@ const MobileAppSeattle = () => {
                   href={"/contact-us"}
                   className="flex items-center group justify-center "
                 >
-                  <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                  <button className="bg-orange-600 text-white group-hover:bg-white group-hover:text-orange-600  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
                     Hire Mobile App Developers in Seattle
                   </button>
-                  <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                  <button className="bg-orange-600 text-white group-hover:bg-white group-hover:text-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
                     <MdArrowOutward />
                   </button>
                 </Link>
@@ -356,8 +356,8 @@ const MobileAppSeattle = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Step by Step Mobile App Development Seattle Process "}
-        header2={"Step by Step Mobile App Development Seattle Process"}
+        header={"Step by Step Mobile App Development "}
+        header2={"Seattle Process"}
         para={
           "Our structured process ensures efficient, high-quality mobile app development in Seattle from the strategy to the post launch support."
         }
@@ -400,6 +400,7 @@ const MobileAppSeattle = () => {
       <Testimonials
         test={test}
         header={"Testimonials for"}
+        button={" See Results like Our Clients"}
         header2={"Mobile App Development in Seattle"}
         para={
           "Our Seattle clients Dignite Studios for delivering high quality mobile apps on time through the measurable results and the smooth project execution."

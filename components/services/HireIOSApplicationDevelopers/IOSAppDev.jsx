@@ -508,8 +508,8 @@ const IOSAppDev = () => {
       />
       <Services
         services={services}
-        header={"iOS App Developer We Offer"}
-        header2={""}
+        header={"iOS App Developer "}
+        header2={"We Offer"}
         button={"Start Your iOS App Project"}
         para={
           "We provide complete iOS development services for businesses that want reliable scalable and high performance applications. Our team manages design, development, testing and ongoing support to deliver apps which enhance user experience and drive business growth."
@@ -517,7 +517,8 @@ const IOSAppDev = () => {
       />
       <FlexibleHiring
         cards={cards}
-        header={"Our Flexible iOS Developer Hiring Models"}
+        header={"Our Flexible iOS Developer "}
+        header2={"Hiring Models"}
         para={
           "We offer multiple hiring options to match your project needs. Businesses can rely on our iOS application development service through the dedicated, hourly or project based models for cost effective and efficient development."
         }
@@ -525,7 +526,9 @@ const IOSAppDev = () => {
 
       <Process
         steps={PROCESS_STEPS}
-        header={"Our iOS App Development Process"}
+        header={"Our iOS App "}
+        header2={"Development Process"}
+        btn={""}
         para={
           "We follow a structured and agile process to deliver high quality iOS app development cost. Each step ensures smooth execution, faster delivery and scalable applications for businesses."
         }
@@ -533,8 +536,8 @@ const IOSAppDev = () => {
 
       <Industries
         VALUE_PROPOSITION={VALUE_PROPOSITION}
-        header={"Industries We Serve"}
-        header2={""}
+        header={"Industries We "}
+        header2={"Serve"}
         para={
           "We deliver reliable solutions while managing the iOS app development cost across multiple industries. Our team builds scalable and user friendly apps which meet business needs and enhance the performance in various markets."
         }
@@ -558,7 +561,8 @@ const IOSAppDev = () => {
       />
       <HiringProcess
         steps={steps}
-        header={"Our iOS App Developer Hiring Process:"}
+        header={"Our iOS App Developer "}
+        header2={"Hiring Process"}
         para={
           "We follow a simple and structured process to help businesses collaborate with a top iOS app development Company quickly. Our approach ensures clear communication, fast onboarding and smooth collaboration for the successful iOS app developer."
         }
@@ -651,12 +655,12 @@ const IOSAppDev = () => {
       <ContactUs
         img={"/services/hybrid-app/c-img.webp"}
         pathname={"iOS App Dev "}
-        header={"You Could Be Our Next Success Story"}
+        header={"Hire iOS Developers Today"}
         header2={""}
         para={
-          "Your app idea deserves to shine. Partner with us to build an iOS mobile app that delivers engages users and grows your business. Let’s change your vision into a powerful app that works flawless on Apple devices."
+          "Scale your development team with the skilled iOS experts who deliver reliable and high quality apps. Our developers are ready for the quick onboarding and can start working on your project without the delays. We ensure smooth collaboration, strong performance and dependable results help your business grow faster."
         }
-        btn={"Let’s Create Your App"}
+        btn={"Get Started Today  "}
       />
     </div>
   );

@@ -365,7 +365,8 @@ We have a whole team of skilled developers, UI/UX designers, and project manager
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Boston Mobile App Development Process"}
+        header={"Boston Mobile App Development "}
+        header2={"Process"}
         para={
           "We believe a strong process makes everything else easier. That’s why our mobile app development process steps are built to keep things clear, collaborative, and moving forward without unnecessary complexity."
         }

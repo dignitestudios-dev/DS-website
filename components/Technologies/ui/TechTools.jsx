@@ -195,7 +195,7 @@ const techData = {
 
 const categories = Object.keys(techData);
 
-const TechTools = ({ header, para, tech, button }) => {
+const TechTools = ({ header, header2, para, tech, button }) => {
   return (
     <section
       className="
@@ -209,6 +209,7 @@ const TechTools = ({ header, para, tech, button }) => {
       <div className="max-w-7xl mx-auto text-center px-4">
         <h2 className="text-4xl md:text-7xl capitalize leading-[42px] tracking-tighter lg:leading-[1.1] font-bold mb-6">
           {header}
+          {header2 && <span className="text-[#F15C20]">{header2}</span>}
         </h2>
         <p className=" mx-auto mb-16">{para}</p>
 

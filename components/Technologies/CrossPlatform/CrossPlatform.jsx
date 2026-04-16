@@ -318,7 +318,8 @@ const CrossPlatform = () => {
       />
       <TechTools 
         tech={tech}  
-        header={"Technology Stack for Cross Platform Development"} 
+        header={"Technology Stack for Cross "} 
+        header2={"Platform Development"}
         para={"As modern cross platform mobile app development company, Dignite Studios uses proven frameworks to build fast, scalable and secure applications, supporting startups and enterprises with reliable long term delivery."} 
       />
       <Process

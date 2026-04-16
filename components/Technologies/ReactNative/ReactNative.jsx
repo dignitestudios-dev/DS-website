@@ -337,7 +337,8 @@ We don’t just write the code. We also design the solutions which fit the produ
       />
       <TechTools
         tech={tech}
-        header={"React Native Mobile App Development Company "}
+        header={"React Native Mobile App "}
+        header2={"Development Company "}
         para={
           "As the modern react native mobile app development company, we work through the proven tools and the secure architecture to build the fast and reliable products. Our tech stack supports performance, flexibility and the long term growth across the platforms. "
         }
@@ -381,8 +382,8 @@ We don’t just write the code. We also design the solutions which fit the produ
       {/* <SEO /> */}
       <Testimonials
         test={test}
-        header={"Real words from real"}
-        header2={"clients"}
+        header={"Real Words From Real"}
+        header2={"Clients"}
         para={
           "Clients choose our react native custom app development company for the clear communication, reliable delivery and mobile products which perform well in the real business environments."
         }

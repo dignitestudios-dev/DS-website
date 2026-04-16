@@ -78,7 +78,7 @@ const techData = {
     { name: "Apple Ecosystem Apps", icon: <FaApple /> },
   ],
 
-  "Android Technologies": [
+  "Android App Development": [
     { name: "Kotlin", icon: <SiKotlin /> },
     { name: "Java", icon: <FaJava /> },
     { name: "Native Android Solutions", icon: <SiAndroid /> },
@@ -403,7 +403,7 @@ const HireAndroidDevs = () => {
       />
 
       <WhyChoose
-        header={"Why Hire Android Developers From Dignite Studios"}
+        header={"Why Hire Android Developers From "}
         header2={"Dignite Studios"}
         para="We help businesses hire android developers who build secure and scalable applications. Our team would also focus on quality,speed and clear communication. We make hiring quite simple so businesses can start projects quickly and achieve reliable results without any delays or the technical issues.  
 "
@@ -427,19 +427,23 @@ const HireAndroidDevs = () => {
       />
 
       <FlexibleHiring
-        header={"Flexible Hiring Models"}
+        header={"Flexible Hiring "}
+        header2={"Models"}
         para="We provide flexible hiring options for businesses which want to hire android developers. Choose from dedicated, hourly or project based models. Each option is designed to fit different project sizes, timelines and development requirements."
         cards={cards}
       />
 
       <Process 
-        header="Our Mobile App Development Process"
+        header="Our Mobile App "
+        header2="Development Process"
+        btn={"Start Your Android App Project "}
         para="We follow a structured process to build the high quality Android applications. Businesses which hire android developers from us get consistent results, clear communication and efficient delivery throughout every step of app development."
         steps={PROCESS_STEPS}
       />
 
       <Industries 
-        header="Industries We Serve for Android App Development"
+        header="Industries We Serve for Android "
+        header2="App Development"
         para="We deliver Android app solutions for businesses across multiple industries. Companies hire the android developers from us to build apps that improve operations, boost engagement and support scalable growth in every sector."
         button="Discuss Your Android App Idea"
         VALUE_PROPOSITION={VALUE_PROPOSITION}
@@ -460,7 +464,8 @@ const HireAndroidDevs = () => {
       />
 
       <HiringProcess 
-        header="Our Android Developer Hiring Process"
+        header="Our Android Developer "
+        header2="Hiring Process"
         button="Hire Android Developers Now"
         steps={steps}
         para="Hiring developers from Dignite Studios is simple and fast. Businesses can quickly hire developer through the structured process which ensures the right expertise, fluent onboarding and smooth collaboration for successful Android app development projects."
@@ -469,6 +474,8 @@ const HireAndroidDevs = () => {
       <Bussiness
         header={"Why Businesses Choose"}
         header2={"Dignite Studios"}
+        button={"Hire Android Developers Today "}
+        para={"Businesses prefer Dignite Studios because we offer proven expertise in Android development, transparent communication, agile project management, scalable teams, on time delivery and long term technical support. Clients can hire android developers with confidence for secure, high quality and reliable Android app solutions.  "}
         ctaHeader={"Hire Android Developer Today"}
         ctaPara={"Scale your team with skilled Android developers who are ready to start quickly. We offer fast onboarding, flexible hiring models and reliable support for your projects. Our developers bring strong experience and deliver high quality results. Start building your app faster with a team which you can trust."}
         ctaBtn={"Hire Android Developers"}
@@ -504,7 +511,7 @@ const HireAndroidDevs = () => {
 
       <CTA />
 
-      <Faq header={"Frequently Asked Questions"} faqs={faqs} />
+      <Faq header={"Frequently Asked "} header2={"Questions"} faqs={faqs} />
 
       <ContactUs
         img={"/services/hybrid-app/c-img.webp"}

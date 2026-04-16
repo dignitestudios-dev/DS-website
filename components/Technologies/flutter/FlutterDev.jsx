@@ -339,8 +339,9 @@ Either you are refining the idea or scaling the existing app, our app also helps
       <TechTools
         tech={tech}
         header={
-          "Tools and technologies used by Our Flutter Mobile App Development Company "
+          "Tools and technologies used by Our Flutter Mobile App  "
         }
+        header2={"Development Company"}
         para={
           "Dignite Studios works as the secure and performance focused on the flutter mobile app development company building the clean, scalable architectures for the modern mobile products. Our engineers combine the flutter through the reliable backend systems to deliver the apps which stay fast, compliant and ready for growth. We design the integrations which support the business expansion meanwhile maintaining the stability, security and the platform standards across the ecosystems. "
         }

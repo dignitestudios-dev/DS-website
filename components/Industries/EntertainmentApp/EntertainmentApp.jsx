@@ -488,7 +488,7 @@ const EntertainmentApp = () => {
         para={
           <>
       With consumers streaming films, playing games and listening to music while on the go, the mobile entertainment sector is expanding quickly. To offer information, engage people and make money businesses need powerful apps. 
-Dignite Studios is a trusted entertainment app development company with 10+ years of experience and over 50 apps delivered for global clients. We create solutions for streaming platforms, music apps, interactive games and live events.
+Dignite Studios is a trusted entertainment app development company with 10+ years of experience and over 300+ apps delivered for global clients. We create solutions for streaming platforms, music apps, interactive games and live events.
 Our entertainment app development services ensure high performance, smooth user experience and scalable growth. Explore our Mobile App Development Services, React Native App Development and Boston Page to see how we help businesses launch successful apps. 
 
 
@@ -502,11 +502,12 @@ Our entertainment app development services ensure high performance, smooth user 
         para="We provide end to end entertainment mobile app development which help businesses build engaging and scalable apps. Our solutions focus on the strong performance, smooth user experience and reliable delivery across platforms, We design apps which support content growth, user retention and long term business success.   "
         services={services}
       />
-           <CTA />
+           
         <SuccessStories
           header="Our Entertainment App Success Stories  "
           para="We have built high performing apps for streaming, music and gaming. Our projects improved engagement and user retention. As a video streaming app development company, we delivered scalable apps which increased the revenue and supported the long term growth for our clients  "
         />
+        <CTA />
               <DeliveryFeatures />
                 <CTA2/>
                    <MobileApp
@@ -530,12 +531,13 @@ We create top notch entertainment apps which align with business objectives and 
         bs={highlights}
       />
                         <Process
-        header="Our Entertainment App Development Process"
+        header="Our Entertainment App "
+        header2={"Development Process"}
         para="We follow a structured and agile based development process to ensure your entertainment app is delivered on time, within budget and with high quality, performance and reliability across platforms.   "
         steps={PROCESS_STEPS}
       />
       <Impact/>
-      <Cost cards={defaultCards} btn="Get a Custom Cost Estimate "  title=" Industry Wide Cost of Entertainment App Development" description={<>The complexity, functionality and platform all affect how much it costs to design and entertainment app. Our entertainment app development services provide scalable, high performing solutions while assisting companies with the budget planning. </>}/>
+      <Cost cards={defaultCards} btn="Get a Custom Cost Estimate "  header2={"App Development"} title=" Industry Wide Cost of Entertainment " description={<>The complexity, functionality and platform all affect how much it costs to design and entertainment app. Our entertainment app development services provide scalable, high performing solutions while assisting companies with the budget planning. </>}/>
                 {/* <ThirdPartyIntegration/> */}
     
 
@@ -587,14 +589,15 @@ We create top notch entertainment apps which align with business objectives and 
       /> */}
    
       <Testimonials
-        header=" What Our Clients Say About Our Entertainment App Development"
+        header=" What Our Clients Say About Our Entertainment "
+        header2={"App Development"}
         test={test}
         button={"Work With Our Expert Team "}
         para={"Clients trust our video streaming app development company for delivering reliable, high-performance solutions which improve engagement and business outcomes. Here are the points of view of a few of our clients:"}
 
         // button="Work With Our Expert Team"
       />
-      <Faq faqs={faqs} header="Frequently Asked Questions" />
+      <Faq faqs={faqs} header="Frequently Asked " header2={"Questions"} />
       <ContactUs
        pathname={"Entertainment App dev"}
         img={"/industries/healthcare/c-img.webp"}

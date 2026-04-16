@@ -115,10 +115,10 @@ const DeliveryApps = () => {
       {/* HEADING */}
       <div className="text-center">
         <h2 className="text-4xl md:text-7xl font-bold leading-[1.05] tracking-tighter">
-          Must Have Features in Your Entertainment App
+          Must Have Features in Your <span className="text-[#F15C20]">Entertainment App</span>
         </h2>
         <p className="mt-4 text-base md:text-lg font-light leading-[1.36] text-[#0C0C0C]">
-          With the essential elements for user retention, dynamic content and efficient platform management across streaming, music and gaming make sure your entertainment apps offers the captivating and fluid experiences
+         With the essential elements for user retention, dynamic content and efficient platform management across streaming, music and gaming make sure your entertainment apps offers the captivating and fluid experiences.
         </p>
       </div>
 

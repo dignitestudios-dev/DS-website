@@ -332,7 +332,9 @@ const MobileAppMiami = () => {
       />
       <Process
         steps={PROCESS_STEPS}
-        header={"Mobile App Development Process"}
+        button={"Work With us"}
+        header={"Mobile App Development "}
+        header2={"Process"}
         para={
           "Our Miami mobile app development process follows structured steps designed for speed clarity and measurable outcomes for every project."
         }
@@ -352,7 +354,8 @@ const MobileAppMiami = () => {
       />
       <CTA />
       <TechAndTools
-        header={"Tools and Technologies We Use"}
+        header={"Tools and Technologies "}
+        header2={"We Use"}
         para={
           "Our technology stack supports scalable mobile application development Miami projects through the proven frameworks."
         }
@@ -360,8 +363,8 @@ const MobileAppMiami = () => {
    
       <Testimonials
         test={test}
-        header={"Recognized and Trusted for Miami Mobile App Development"}
-        header2={""}
+        header={"Recognized and Trusted for Miami Mobile "}
+        header2={"App Development"}
         para={
           "Our expertise in mobile app development Company Miami and app development Miami is also trusted across many verified platforms for consistent quality delivery. DigniteStudios is recognized for reliable work professional delivery and long term client partnerships built on being consistent."
         }
