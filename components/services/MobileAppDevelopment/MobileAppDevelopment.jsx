@@ -159,7 +159,7 @@ const services = [
     title: "iOS App Development",
     description: (
       <>
-        The iPhone app development is the best choice if your audience is iOS
+        The <Link href="/services/ios-app-development">iPhone app development</Link> is the best choice if your audience is iOS
         users. Dignite Studios develops iOS applications that deliver a sleek
         user experience.
       </>
@@ -195,21 +195,17 @@ const services = [
     title: "Native & Web Apps",
     description: (
       <>
-        Building custom solutions? We are one of the best mobile app development
-        companies. The services include native app development services and web
-        app development services.
+        Building custom solutions? The team specializes in native and web apps. It means delivering scalable applications through <Link href="/services/native-app-development">native app development services</Link> and <Link href="/services/web-app-development">web app development services</Link>.
       </>
     ),
   },
   {
     icon: "pen",
     icon2: "pen5",
-    title: "Design Services",
+    title: "Generative AI Development",
     description: (
       <>
-        Every click matters. So, in our mobile app design services, we include
-        specialized iOS app design and Android app design services. Everything
-        is designed to make your app attractive.
+       Being the best <Link href="/services/generative-ai-development">generative AI development company</Link>, our team develops artificial intelligence software and apps for businesses of all sizes. It discards manual processes. 
       </>
     ),
   },
@@ -259,16 +255,20 @@ const VALUE_PROPOSITION = [
     desc: "As the best mobile app development company USA, we build apps that comply with HIPAA, completely prepared for the health sector.",
   },
   {
-    title: "Fintech Apps",
-    desc: "With our fintech mobile app development services, we provide support in launching secure fintech apps and payment mobile apps with multi-layer authentication.",
+    title: "Entertainment Industry ",
+    desc: <>
+    As a <Link href="/industries/entertainment-app-development">live streaming app development company</Link>, we build powerful platforms for streaming and interactive media solutions.
+    </>,
   },
   {
     title: "Ecommerce & Retail Apps",
     desc: "Dignite Studios keeps everything simple through ecommerce development services. Storefront, Inventory, and POS? Already included.",
   },
   {
-    title: "Education & E-learning apps",
-    desc: "We provide education app development services that lead students step by step through courses and quizzes. That includes providing teachers with dashboards too.",
+    title: "Food Industry",
+    desc: <>
+    As an on demand <Link href="/industries/food-industry">food delivery app development company</Link>, we help restaurants and food brands. The solutions are designed to simplify operations and improve service speed.
+    </>,
   },
   {
     title: "Real Estate Apps",
@@ -555,7 +555,7 @@ const MobileAppDevelopment = () => {
         header={"Successful Projects Executed by "}
         header2={"Dignite Studios"}
         para={
-          "Check out the case studies to see how Dignite Studios created functional hybrid apps just from ideas. Every project we shared here shows the challenges our clients had to deal with, the custom solutions we created and implemented. Also, the results we achieved as a team. See our development process and the technologies that helped us build secure and engaging hybrid applications."
+          "Check out the case studies to see how Dignite Studios created functional apps just from ideas. Every project we shared here shows the challenges our clients had to deal with, the custom solutions we created and implemented. Also, the results we achieved as a team. See our development process and the technologies that helped us build secure and engaging applications as one of the best mobile app development companies."
         }
       />
       <CTA />
