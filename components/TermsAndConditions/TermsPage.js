@@ -12,12 +12,12 @@ const TermsPage = () => {
         color: palette?.color,
       }}
     >
-      <head>
+      {/* <head>
         <link
           rel="canonical"
           href="https://www.dignitestudios.com/terms-and-conditions"
         />
-      </head>
+      </head> */}
       <h1 className="text-[45px] font-extrabold lg:text-[55px]  lg:font-bold uppercase">
         Terms & Conditions
       </h1>
