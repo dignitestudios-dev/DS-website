@@ -6,9 +6,9 @@ import React, { lazy, Suspense } from "react";
 const ShopifyMigrationServices = lazy(() => import("@/components/Ecommerce/ShopifyMigrationServices/ShopifyMigrationServices"));
 
 export const metadata = {
-  title: "Expert Shopify Store Development Services for Your Business",
+  title: "Shopify Migration Services for Secure Store Transfer",
   description:
-    "Boost your online store with our reliable Shopify store development services. We deliver scalable, secure, and high-performing solutions for growth.",
+    " Get reliable Shopify migration services to move your store safely. Transfer data, preserve SEO, and launch a high performing ecommerce store.",
   alternates: {
     canonical:
       "https://www.dignitestudios.com/ecommerce/shopify-migration-services",
