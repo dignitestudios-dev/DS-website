@@ -25,22 +25,22 @@ const AndroidAwardsRecognition = () => {
     </p>
     <div className="w-full grid grid-cols-6 md:grid-cols-6 mt-4 lg:grid-cols-6 gap-y-4">
       <div className="flex justify-center items-center ">
-        <img src="/award-1.webp" alt="" className="" />
+        <img src="/award-1.webp" alt="Our commitment to excellence is proudly displayed  - Award 1" className="" />
       </div>
       <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-        <img src="/award-2.webp" alt="" className="" />
+        <img src="/award-2.webp" alt="Our commitment to excellence is proudly displayed  - Award 2" className="" />
       </div >
       <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-        <img src="/award-3.webp" alt="" className="" />
+        <img src="/award-3.webp" alt="Our commitment to excellence is proudly displayed  - Award 3" className="" />
       </div>
       <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-        <img src="/award-4.webp" alt="" className="" />
+        <img src="/award-4.webp" alt="Our commitment to excellence is proudly displayed  - Award 4" className="" />
       </div>
       <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-        <img src="/award-5.webp" alt="" className="" />
+        <img src="/award-5.webp" alt="Our commitment to excellence is proudly displayed  - Award 5" className="" />
       </div>
       <div className="flex justify-center items-center xl:border-l border-[#8F8F8F]/[0.24]">
-        <img src="/award-6.webp" alt="" className="" />
+        <img src="/award-6.webp" alt="Our commitment to excellence is proudly displayed  - Award 6" className="" />
       </div>
     </div>
   </div>

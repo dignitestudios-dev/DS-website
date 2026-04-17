@@ -11,7 +11,7 @@ const Hero = () => {
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
       {/* <img src="/bioyap/hero.webp" alt="hero" className="absolute w-screen -z-10" /> */}
       <div className="w-full gap-5 mt-14 flex flex-col items-center ">
-        <img src="/crew/icon.webp" alt="icon" fill />
+        <img src="/crew/icon.webp" alt="Icon for hero" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px]  capitalize md:leading-[60px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="text-[#36C0EF]  ">CrewRoomz </span>

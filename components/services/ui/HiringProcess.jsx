@@ -126,7 +126,7 @@ const HiringProcess = ({header,para,button , steps,header2}) => {
                   className="snap-start w-full sm:w-[80%] md:w-[24%] flex-shrink-0 rounded-[27px] bg-white p-8 shadow-sm"
                 >
                   <div className="mb-20 ">
-                 <Image src={step.icon} alt="" width={40} height={40} />
+                 <Image src={step.icon} alt="{para} - Step" width={40} height={40} />
                   </div>
                   
                   <h3 className="font-semibold mb-2">   {idx + 1}. {step.title}</h3>

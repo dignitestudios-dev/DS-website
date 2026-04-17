@@ -13,7 +13,7 @@ const LeftAllignedScreen = ({ title, description, mockup }) => {
         <p className="text-[20px] font-light leading-[28.47px]">{description}</p>
       </div>
       <div className="w-full md:w-1/2 xl:w-[30%] flex   justify-center md:justify-end items-start ">
-        <img src={mockup} alt="" className="h-96 xl:h-[527px] xl:w-[238px]" />
+        <img src={mockup} alt="Mobile app mockup of {description}" className="h-96 xl:h-[527px] xl:w-[238px]" />
       </div>
     </div>
   );

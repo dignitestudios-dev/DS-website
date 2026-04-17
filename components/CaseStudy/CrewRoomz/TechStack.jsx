@@ -62,7 +62,7 @@ const TechStack = () => {
               <div className="relative">
                 {/* Icon Container */}
                 <div className="w-20 h-20 bg-white rounded-2xl shadow-xl  flex items-center justify-center transition-all duration-300  group-hover:shadow-xl">
-                  <span className="text-4xl"><img src={tech.icon} alt='icon'  /></span>
+                  <span className="text-4xl"><img src={tech.icon} alt="Using CrewRoomz feels effortless. smooth, fast, an - Tech"  /></span>
                 </div>
                 
                 {/* Tooltip */}

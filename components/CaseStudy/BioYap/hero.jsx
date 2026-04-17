@@ -7,7 +7,7 @@ const Hero = () => {
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 p-4">
       <img src="/bioyap/hero.webp" alt="hero" className="absolute w-screen -z-10" />
       <div className="w-full gap-5 mt-14 flex flex-col items-center ">
-        <img src="/bioyap/bioyap.webp" alt="icon" fill />
+        <img src="/bioyap/bioyap.webp" alt="Hero Bioyap" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px] md:text-[48px] text-wrap  font-bold  mb-6">
             <span className="text-[#C0F765]  ">A Social Marketplace App: </span> Built for Global <br/> Pharma Professionals

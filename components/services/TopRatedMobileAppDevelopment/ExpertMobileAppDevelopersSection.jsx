@@ -26,7 +26,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8  transition-all duration-150`}
         >
           <Image
-            src={"/android-mobile-app-mockup.webp"}width={42}
+            src={"/android-mobile-app-mockup.webp"} alt="Mobile app mockup of expert mobile app developers"width={42}
             height={42}
           />
           <h1 className="text-[20px] font-semibold">Android Mobile App</h1>
@@ -50,7 +50,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
         >
           <Image
-            src={"/ios-mockup.webp"}width={42}
+            src={"/ios-mockup.webp"} alt="Mobile app mockup of Struggling to find an innovative partner for your "width={42}
             height={42}
           />
           <h1 className="text-[20px] font-semibold">iOS Mobile App</h1>
@@ -75,7 +75,7 @@ const ExpertMobileAppDevelopersSection = () => {
           } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
         >
           <img
-            src={"/expert-cross-platform-developers-icon.webp"}width={42}
+            src={"/expert-cross-platform-developers-icon.webp"} alt="Expert Cross Platform Developers Icon for Have you ever heard that an IOS application is run"width={42}
             height={42}
           />
           <h1 className="text-[20px] font-semibold">Cross-Platform</h1>

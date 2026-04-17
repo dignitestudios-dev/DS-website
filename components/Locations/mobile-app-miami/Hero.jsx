@@ -39,7 +39,7 @@ const Hero = () => {
         <Image
           src="/location/grad.webp"
           className="absolute left-[50%] translate-x-[-50%] -top-[60%] -z-0"
-         width={1200} height={1200} priority alt=""/>
+         width={1200} height={1200} priority alt="Dignite Studios delivers the reliable Miami mobile - Grad"/>
         <Image
           src="/location/mobile-miami/bg.webp"
           alt="bg"

@@ -10,7 +10,7 @@ export const metadata = {
     "Boost your online store with Dignite Studios’ WooCommerce development services. Plugins and integrations for scalable, reliable, high-performing stores.  ",
   alternates: {
     canonical:
-      "https://www.dignitestudios.com/ecommerce/woo-commerce-app-development",
+      "https://www.dignitestudios.com/ecommerce/woo-commerce-development",
   },
 };
 

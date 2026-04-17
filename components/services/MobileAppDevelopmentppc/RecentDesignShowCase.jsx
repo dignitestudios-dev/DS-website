@@ -34,29 +34,29 @@ const RecentDesignShowCase = () => {
         <Link
           href={"/case-studies/mymedicaljournal"}>
           <div className="h-100 w-100 flex items-center justify-center" style={{}} >
-            <img src="/bg-shade.webp" alt="" srcset="" />
+            <img src="/bg-shade.webp" alt="RecentDesignShowCase Bg Shade" srcset="" />
           </div>
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  w-full  absolute z-2 top-0">
             <div className="flex flex-col justify-between custom-media-query">
               <div>
-                <img src="/app-walk-3.webp" className='h-100 max-w-[200px]' alt="" />
-                <img src="/app-walk-4.webp" className='h-100 max-w-[200px] relative left-5' alt="" />
-                <img src="/app-walk-5.webp" className='h-100 max-w-[200px] relative left-24' alt="" />
+                <img src="/app-walk-3.webp" className='h-100 max-w-[200px]' alt="RecentDesignShowCase App Walk 3" />
+                <img src="/app-walk-4.webp" className='h-100 max-w-[200px] relative left-5' alt="RecentDesignShowCase App Walk 4" />
+                <img src="/app-walk-5.webp" className='h-100 max-w-[200px] relative left-24' alt="RecentDesignShowCase App Walk 5" />
               </div>
             </div>
             <div className="flex flex-col justify-between custom-media-query">
               <div>
-                <img src="/app-walk-3.webp" className='h-100 max-w-[200px]' alt="" />
-                <img src="/app-walk-2.webp" className='h-100 max-w-[200px] relative left-5' alt="" />
-                <img src="/app-walk-7.webp" className='h-100 max-w-[200px] relative left-24' alt="" />
+                <img src="/app-walk-3.webp" className='h-100 max-w-[200px]' alt="RecentDesignShowCase App Walk 3" />
+                <img src="/app-walk-2.webp" className='h-100 max-w-[200px] relative left-5' alt="RecentDesignShowCase App Walk 2" />
+                <img src="/app-walk-7.webp" className='h-100 max-w-[200px] relative left-24' alt="RecentDesignShowCase App Walk 7" />
               </div>
             </div>
 
             <div className="flex flex-col justify-between custom-media-query">
               <div>
-                <img src="/app-walk-6.webp" className='h-100 max-w-[200px] relative -left-20' alt="" />
-                <img src="/app-walk-7.webp" className='h-100 max-w-[200px] relative ' alt="" />
-                <img src="/app-walk-1.webp" className='h-100 max-w-[200px] relative left-20' alt="" />
+                <img src="/app-walk-6.webp" className='h-100 max-w-[200px] relative -left-20' alt="RecentDesignShowCase App Walk 6" />
+                <img src="/app-walk-7.webp" className='h-100 max-w-[200px] relative ' alt="RecentDesignShowCase App Walk 7" />
+                <img src="/app-walk-1.webp" className='h-100 max-w-[200px] relative left-20' alt="RecentDesignShowCase App Walk 1" />
               </div>
             </div>
 
@@ -64,7 +64,7 @@ const RecentDesignShowCase = () => {
           <div className="w-[100%] absolute bottom-[0px] bg-[#82888C73] blur-shadow  h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
-                <img src="/medical-general.webp" width="30px" height="30px" alt="" />
+                <img src="/medical-general.webp" width="30px" height="30px" alt="RecentDesignShowCase Medical General" />
                 <h2 className='ml-2 text-white capitalize'>My medical journal</h2>
               </div>
               <p className='w-[100%] lg:w-[50%] text-start text-[12px] mt-3  text-[white] font-normal' >
@@ -104,19 +104,19 @@ const RecentDesignShowCase = () => {
         <Link
           href={"/case-studies/nykn"}>
           <div className="h-100 w-100 flex items-center justify-center" style={{}} >
-            <img src="/sky-blue-circle.webp" alt="" srcset="" />
+            <img src="/sky-blue-circle.webp" alt="Unlock a new era of health management with this in - Sky Blue Circle" srcset="" />
           </div>
           <div className="grid h-[65%] grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  w-full  absolute z-2 top-0">
             <div className="flex justify-evenly items-center h-100 custom-media-query">
-                <img src="/showcase_left.webp" className='h-100 max-w-[200px]' alt="" />
-                <img src="/showcase_center.webp" className='h-100 max-w-[200px] relative top-10' alt="" />
-                <img src="/showcase_right.webp" className='h-100 max-w-[200px] relative top-16' alt="" />
+                <img src="/showcase_left.webp" className='h-100 max-w-[200px]' alt="RecentDesignShowCase Showcase Left" />
+                <img src="/showcase_center.webp" className='h-100 max-w-[200px] relative top-10' alt="RecentDesignShowCase Showcase Center" />
+                <img src="/showcase_right.webp" className='h-100 max-w-[200px] relative top-16' alt="RecentDesignShowCase Showcase Right" />
             </div>          
           </div>
             <div className="w-[100%] absolute bottom-[0px] bg-[#C9D7E273] blur-shadow  h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
-                <img src="/nykn-logo-new.webp" width="30px" height="30px" alt="" />
+                <img src="/nykn-logo-new.webp" width="30px" height="30px" alt="Nykn Logo New logo" />
                 <h2 className='ml-2 text-[#181818] capitalize'>NYKN</h2>
               </div>
               <p className='w-[100%] lg:w-[50%] text-start text-[12px] mt-3 text-[#5C5C5C] font-normal' >
@@ -158,15 +158,16 @@ const RecentDesignShowCase = () => {
           href={"/case-studies/maidsimpl"}>
           <div className="grid h-[65%] grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  w-full  absolute z-2 top-0">
             <div className="flex justify-center items-end h-100 custom-media-query">
-                <img src="/mad-clean-1.webp" className='h-100 relative left-[80px] max-w-[300px] ' alt="" />
-                <img src="/mad-simple-2.webp" className='h-100 max-w-[200px] relative -left-[28px] z-[1]' alt="" />
-                <img src="/mad-clean-3.webp" className='h-100 max-w-[300px] relative -left-[130px] ' alt="" />
+                <img src="/mad-clean-1.webp" className='h-100 relative left-[80px] max-w-[300px] ' alt="Embark on a journey like never before with
+       - Mad Clean 1" />
+                <img src="/mad-simple-2.webp" className='h-100 max-w-[200px] relative -left-[28px] z-[1]' alt="RecentDesignShowCase Mad Simple 2" />
+                <img src="/mad-clean-3.webp" className='h-100 max-w-[300px] relative -left-[130px] ' alt="RecentDesignShowCase Mad Clean 3" />
             </div>          
           </div>
           <div className="w-[100%] absolute bottom-[0px] bg-[#82888C73] blur-shadow h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
-                <img src="/maidsimpl-logo.webp" width="30px" height="30px" alt="" />
+                <img src="/maidsimpl-logo.webp" width="30px" height="30px" alt="Maidsimpl Logo logo" />
                 <h2 className='ml-2 text-[#181818] capitalize'>maidsimpl</h2>
               </div>
               <p className='w-[100%] lg:w-[50%] text-start text-[12px] mt-3  text-[#5C5C5C] font-normal' >
@@ -206,25 +207,25 @@ const RecentDesignShowCase = () => {
         <Link
           href={"/case-studies/carter-boating"}>
         <div className="h-[100%] w-100 flex items-center justify-center" style={{}} >
-            <img src="/gray-ice-center.webp" alt="" srcset="" />
+            <img src="/gray-ice-center.webp" alt="Users experience unparalleled convenience with Mai - Gray Ice Center" srcset="" />
           </div>
           <div className="grid h-[75%] grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  w-full  absolute z-2 top-0">
             <div className="flex justify-center items-end h-100 custom-media-query">
               <div className='flex justify-right' >
-                <img src="/boat1.webp" className='h-[350px] relative left-[30px] lg:-right-[60px] w-[250px] object-none' alt="" />
+                <img src="/boat1.webp" className='h-[350px] relative left-[30px] lg:-right-[60px] w-[250px] object-none' alt="RecentDesignShowCase Boat1" />
               </div>
               <div>
-                <img src="/boat2.webp" className='h-[350px] w-[250px] relative  object-none' alt="" />
+                <img src="/boat2.webp" className='h-[350px] w-[250px] relative  object-none' alt="RecentDesignShowCase Boat2" />
               </div>
               <div className='hidden md:flex' >
-                <img src="/boat3.webp" className='h-[350px] w-[250px] relative lg:-left-[70px] object-none'  alt="" />
+                <img src="/boat3.webp" className='h-[350px] w-[250px] relative lg:-left-[70px] object-none'  alt="RecentDesignShowCase Boat3" />
               </div>
             </div>          
           </div>
           <div className="w-[100%] absolute bottom-[0px] bg-[#B6D7C873] blur-shadow  h-[45%] 2xl:h-[200px]" >
             <div className='p-4'>
               <div className='flex items-center'>
-                <img src="/carter-logo.webp" width="30px" height="30px" alt="" />
+                <img src="/carter-logo.webp" width="30px" height="30px" alt="Carter Logo logo" />
                 <h2 className='ml-2 text-[#181818] capitalize'>carter boating</h2>
               </div>
               <p className='w-[100%] lg:w-[50%] text-start text-[12px] mt-3  text-[#5C5C5C] font-normal' >

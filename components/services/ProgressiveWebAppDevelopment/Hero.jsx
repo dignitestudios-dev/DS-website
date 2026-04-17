@@ -55,14 +55,14 @@ const Hero = () => {
         </motion.div>
         <Image
           src="/services/pwa-app/r.webp"
-          alt=""
+          alt="Finding the right PWA development services you can - R"
           width={200}
           height={200}
           className="absolute top-[0%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
          priority/>
         <Image
           src="/services/pwa-app/r1.webp"
-          alt=""
+          alt="Laptop mockup showcasing project"
           width={200}
           height={200}
           className="absolute top-[-20%] lg:block hidden left-[0%] md:left-[80%] translate-x-[-50%]"
@@ -70,7 +70,7 @@ const Hero = () => {
         <Image
   
             src="/services/pwa-app/l.webp"
-          alt=""
+          alt="Hero L"
           width={200}
           height={200}
           className="absolute top-[25%] lg:block hidden left-[0%] md:left-[25%] translate-x-[-50%]"

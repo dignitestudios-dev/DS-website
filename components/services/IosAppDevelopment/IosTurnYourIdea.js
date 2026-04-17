@@ -50,7 +50,7 @@ const IosTurnYourIdea = () => {
       </div>
       <div className="col-span-5 lg:col-span-2 flex items-start justify-start">
         <img
-          src={"/ios-app-mockup.webp"}
+          src={"/ios-app-mockup.webp"} alt="Mobile app mockup of With 4 years of outrageous experience, Dignite Stu"
           className=" md:scale-75 lg:scale-100 "
         />
       </div>

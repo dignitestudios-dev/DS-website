@@ -158,7 +158,7 @@ const Industries = ({ header, header2, para }) => {
                   }}
                   className="relative z-50 bg-[linear-gradient(152.14deg,_#FFAA88_-78.52%,_#FFFFFF_63.9%)] rounded-b-[25px] h-[300px] rounded-t-xl  -mb-10   shadow-[#ffc2a9]"
                 >
-                  {/* <img src='/location/mobile-california/img.webp' alt="" className='absolute' /> */}
+                  {/* <img src='/location/mobile-california/img.webp' alt="Industries Img" className='absolute' /> */}
                   <img
                     src={`/location/mobile-california/${icons[originalIndex].icon}`}
                     alt={value.title || "image"}
@@ -169,7 +169,7 @@ const Industries = ({ header, header2, para }) => {
 
                   {isActive && (
                     <img
-                      src="/location/mask.webp" alt=""
+                      src="/location/mask.webp" alt="Decorative background mask"
                       className="absolute -top-10 -left-16 z-10 rounded-t-xl pointer-events-none"
                     />
                   )}

@@ -56,10 +56,10 @@ const TurnYourIdea = () => {
           className="bg-transparent w-full h-full flex justify-center"
         >
           <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full  flex justify-center'>
-            <img src={images[0]} className='w-full h-full md:scale-75 lg:scale-100 lg:w-full lg:h-full' />
+            <img src={images[0]} alt="Dignite Studios ensures that your innovative conce - Images[0]" className='w-full h-full md:scale-75 lg:scale-100 lg:w-full lg:h-full' />
           </SwiperSlide>
           <SwiperSlide style={{ background: palette?.background }} className=' w-full h-full  flex justify-center'>
-            <img src={images[1]} className='w-full h-full md:scale-75 lg:scale-100 lg:w-full lg:h-full' />
+            <img src={images[1]} alt="Dignite Studios ensures that your innovative conce - Images[1]" className='w-full h-full md:scale-75 lg:scale-100 lg:w-full lg:h-full' />
           </SwiperSlide>
         </Swiper>
       </div>

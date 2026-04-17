@@ -39,21 +39,21 @@ const Hero = () => {
               <Image
                 src={"/services/ios-hire/grad.webp"}
                 className="absolute lg:block hidden top-1/2 left-[55%] -translate-x-[50%] -translate-y-[50%]"
-                alt=""
+                alt="Hire Android developers from Dignite Studios to bu - Grad"
                 width={1000}
                 height={1000}
               />
               <Image
                 src={"/services/ios-hire/sofa.webp"}
                 className="absolute top-[90%] lg:block hidden left-1/2 z-30 -translate-x-[50%] -translate-y-[50%]"
-                alt=""
+                alt="Hire Android developers from Dignite Studios to bu - Sofa"
                 width={400}
                 height={400}
               />
               <Image
                 src={"/services/ios-hire/sofa.webp"}
                 className="absolute top-[90%] lg:hidden block left-1/2 z-30 -translate-x-[50%] -translate-y-[50%]"
-                alt=""
+                alt="Hire Android developers from Dignite Studios to bu - Sofa"
                 width={300}
                 height={300}
               />
@@ -91,13 +91,13 @@ const Hero = () => {
                 />
               </div>
               {/* <Imagesrc="/location/mobile-boston/r.webp"
-                alt=""
+                alt="Hero R"
                 width={150}
                 height={150}
                 className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
                />
               <Imagesrc="/location/mobile-boston/l.webp"
-                alt=""
+                alt="Hero L"
                 width={150}
                 height={150}
                 className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"

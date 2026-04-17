@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
       <div className="relative flex justify-center items-center my-12 ">
         {/* <Image src="/location/mobile-charlotte/b-grad.webp"
-          alt=""
+          alt="Building a mobile app in Charlotte? Work with our  - B Grad"
           fill
           priority
           className="absolute left-[50%] translate-x-[-50%] -bottom-24 -z-0 object-contain"
@@ -61,13 +61,13 @@ const Hero = () => {
            />
         </motion.div>
         <Image src="/location/mobile-charlotte/r.webp"
-          alt=""
+          alt="Hero R"
           width={300}
           height={300}
           className="absolute top-[20%] lg:block hidden left-[0%] md:left-[77%] translate-x-[-50%]"
          />
         <Image src="/location/mobile-charlotte/l.webp"
-          alt=""
+          alt="Hero L"
           width={300}
           height={300}
           className="absolute bottom-[20%] lg:block hidden left-[0%] md:left-[25%] translate-x-[-50%]"

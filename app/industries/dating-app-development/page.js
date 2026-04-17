@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Looking for the leading dating app development company? Dignite Studios builds scalable food apps to help restaurants grow and serve customers faster.",
   alternates: {
-    canonical: "https://www.dignitestudios.com/industries/healthcare-app-development",
+    canonical: "https://www.dignitestudios.com/industries/dating-app-development",
   },
 };
 

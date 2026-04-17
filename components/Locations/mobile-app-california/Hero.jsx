@@ -34,7 +34,7 @@ const Hero = ({ h1, spanTitle, description, ctaText }) => {
       </div>
       <div className="w-[80%] mx-auto z-10 flex justify-center mt-20 md:-mt-10 relative">
         <Image src="/location/mobile-california/bg-grad.webp"
-          alt=""
+          alt="Looking for mobile a - Bg Grad"
           width={1200}
           height={1200}
           priority

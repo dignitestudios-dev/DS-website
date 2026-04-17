@@ -17,7 +17,7 @@ export default function DevelopmentCard() {
                     data-aos-anchor-placement="center-bottom"
                 >
                     <div className="">
-                        <img src="/andriod_icon.webp" alt="" srcset="" />
+                        <img src="/andriod_icon.webp" alt="Andriod Icon for DevelopmentCard" srcset="" />
                     </div>
                     <h3 className="text-[35px] font-semibold leading-tight">
                     Android App Development
@@ -80,7 +80,7 @@ export default function DevelopmentCard() {
                     data-aos-anchor-placement="center-bottom"
                 >
                     <div>
-                        <img src="/apple-icon-bg.webp" alt="" />
+                        <img src="/apple-icon-bg.webp" alt="Apple Icon Bg for DevelopmentCard" />
                     </div>
                     <h3 className="text-[35px] font-semibold leading-tight">
                         iOS App Development
@@ -111,8 +111,8 @@ export default function DevelopmentCard() {
                 >
                     <div className="flex items-center justify-center md:justify-start">
                         <img src="/flutter-bg.webp" alt=" " srcset="" />
-                        <img src="/react-bg.webp" alt="" className='ml-3' srcset="" />
-                        <img src="/slide-bg.webp" alt="" className='ml-3' srcset="" />
+                        <img src="/react-bg.webp" alt="Want to tap into the vibrant iOS ecosystem? Our ex - React Bg" className='ml-3' srcset="" />
+                        <img src="/slide-bg.webp" alt="Want to tap into the vibrant iOS ecosystem? Our ex - Slide Bg" className='ml-3' srcset="" />
                     </div>
                     <h3 className="text-[35px] font-semibold leading-tight">
                         Cross-Platform

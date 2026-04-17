@@ -42,7 +42,7 @@ const rightIcons = [
             ease: "easeInOut",
           }}
         >
-          <img src={icon.src} alt="icon" className="w-16 h-16 object-contain" />
+          <img src={icon.src} alt="Icon for CTA" className="w-16 h-16 object-contain" />
         </motion.div>
       ))}
 
@@ -63,7 +63,7 @@ const rightIcons = [
             ease: "easeInOut",
           }}
         >
-          <img src={icon.src} alt="icon" className="w-16 h-16 object-contain" />
+          <img src={icon.src} alt="Icon for CTA" className="w-16 h-16 object-contain" />
         </motion.div>
       ))}
 

@@ -253,7 +253,7 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
             src={img}
             width={320}
             height={320}
-            alt="mobile"
+            alt="Contact us for custom mobile app development services"
             className="bottom-12 absolute right-28 z-10"
           />
         </div>

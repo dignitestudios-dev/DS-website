@@ -14,7 +14,7 @@ const ThankyouPage = () => {
       }}
     >
       <span className="w-[80px] h-[80px] rounded-full flex justify-center items-center bg-[#FEEFE9]">
-        <img src="/check.webp" alt="" className="w-9" />
+        <img src="/check.webp" alt="Checkmark icon" className="w-9" />
       </span>
       <h1 className="text-[45px] font-extrabold lg:text-[64px]  lg:font-bold text-center  uppercase">
         Thank You

@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Hire a top real estate app development company to create scalable mobile apps for property platforms, agents, and businesses with smooth user experiences",
   alternates: {
-    canonical: "https://www.dignitestudios.com/industries/real-estate",
+    canonical: "https://www.dignitestudios.com/industries/real-estate-app-development",
   },
 };
 

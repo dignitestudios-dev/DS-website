@@ -63,13 +63,13 @@ const Discorvery = () => {
               // style={{ backgroundColor: s.bg }}
               className={`rounded-[57px] text-start relative h-[350px]  p-8 py-10 w-full md:w-[520px] ${s.bg} ${idx == 1 && "dark:shadow-none shadow-xl shadow-blue-50"}`}
             >
-              <img src={s.shad} className="absolute top-0 right-0 rounded-tr-[57px]" />
+              <img src={s.shad} alt="Research - S" className="absolute top-0 right-0 rounded-tr-[57px]" />
               <h1 className="font-semibold mb-4 text-xl dark:text-white text-[#0095FF]">{s.title}</h1>
               <p className="text-sm mb-5">{s.p}</p>
               <ul className=" text-sm mb-2 space-y-3">
                 {s.steps.map((st, indx) => (
                   <li key={indx} className="flex items-start gap-2 capitalize ">
-                    <img src="/wing/dr.webp" alt="" />
+                    <img src="/wing/dr.webp" alt="{s.p} - Dr" />
                     {st}
                   </li>
                 ))}

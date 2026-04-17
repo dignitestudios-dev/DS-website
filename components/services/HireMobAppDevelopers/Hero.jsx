@@ -39,14 +39,14 @@ const Hero = () => {
         <Image
           src={"/services/mob-hire/grad.webp"}
           className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]"
-          alt=""
+          alt="Hire dedicated mobile app developers from Dignite  - Grad"
           width={500}
           height={500}
         />
         <Image
           src={"/services/mob-hire/cc.webp"}
           className="absolute lg:block hidden top-1/2 left-1/2 z-30 -translate-x-[50%] -translate-y-[50%]"
-          alt=""
+          alt="Hire dedicated mobile app developers from Dignite  - Cc"
           width={1000}
           height={1000}
         />
@@ -84,13 +84,13 @@ const Hero = () => {
           />
         </div>
         {/* <Imagesrc="/location/mobile-boston/r.webp"
-          alt=""
+          alt="Hero R"
           width={150}
           height={150}
           className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
          />
         <Imagesrc="/location/mobile-boston/l.webp"
-          alt=""
+          alt="Hero L"
           width={150}
           height={150}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"

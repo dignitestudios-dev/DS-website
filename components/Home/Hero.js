@@ -20,13 +20,13 @@ const Hero = () => {
   return (
     <div className="w-full relative z-10 bg-[url('/home-hero/grad.webp')] -mt-40 bg-cover -mb-40 bg-center bg-no-repeat  max-w-screen-2xl mx-auto flex flex-col  h-auto md:max-h-[170vh]  pt-44 pb-[50%] md:pb-[40vh]  gap-4 justify-start items-center ">
       {/* <Image src="/home-hero/grad.webp"
-        alt=""
+        alt="Hero Grad"
         fill
         priority
         className="absolute z-10 left-0 top-0 overflow-hidden bg-repeat-none bg-cover w-full h-screen md:max-h-[170vh] object-cover"
        /> */}
       <Image src="/home-hero/l1.webp"
-        alt="3d icons"
+        alt="3D icon representing custom mobile app development services"
         width={300}
         height={300}
         priority
@@ -38,14 +38,14 @@ const Hero = () => {
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
       >
         <Image src="/home-hero/l2.webp"
-          alt="3d icons"
+          alt="3D technology icon for startup application development"
           width={300}
           height={300}
           priority
          />
       </motion.div>
       <Image src="/home-hero/r1.webp"
-        alt="laptop"
+        alt="Laptop mockup showcasing expert startup app development project"
         width={420}
         height={420}
         priority
@@ -57,7 +57,7 @@ const Hero = () => {
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
       >
         <Image src="/home-hero/r2.webp"
-          alt="tablet"
+          alt="Tablet mockup showing professional mobile app development interface"
           width={350}
           height={350}
           priority

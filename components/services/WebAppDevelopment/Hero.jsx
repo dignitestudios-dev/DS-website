@@ -39,7 +39,7 @@ const Hero = () => {
         <div className="absolute  left-[50%] translate-x-[-50%]  lg:block hidden  -z-0 w-full h-full">
           <Image
             src="/services/web-app/grad.webp"
-            alt=""
+            alt="Looking for web application development services y - Grad"
             fill
             priority
             className=""/>
@@ -63,13 +63,13 @@ const Hero = () => {
             className="object-cover "/>
         </motion.div>
         {/* <Image src="/location/mobile-boston/r.webp"
-          alt=""
+          alt="Hero R"
           width={150}
           height={150}
           className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
          />
         <Image src="/location/mobile-boston/l.webp"
-          alt=""
+          alt="Hero L"
           width={150}
           height={150}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"

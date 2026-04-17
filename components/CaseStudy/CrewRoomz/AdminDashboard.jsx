@@ -136,7 +136,7 @@ const AdminDashboard = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="relative z-0 mx-auto max-w-4xl"
         >
-          <img src="/crew/laptop.webp" alt="laptop" className="w-full" />
+          <img src="/crew/laptop.webp" alt="Activate, edit, deactivate or delete properties in - Laptop" className="w-full" />
         </motion.div>
       </div>
     </div>

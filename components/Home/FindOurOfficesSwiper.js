@@ -46,7 +46,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
               height={240}
               loading="lazy"
               src="/dubai.webp"
-              alt=""
+              alt="FindOurOfficesSwiper Dubai"
               className="w-full  h-full md:h-80 rounded-xl"
             />
             <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
@@ -68,7 +68,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
               height={240}
               loading="lazy"
               src="/florida.webp"
-              alt=""
+              alt="{offices[2]?.description} - Florida"
               className="w-full   h-full md:h-80 rounded-xl"
             />
             <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
@@ -90,7 +90,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
               height={240}
               loading="lazy"
               src="/pakistan.webp"
-              alt=""
+              alt="{offices[0]?.description} - Pakistan"
               className="w-full  h-full md:h-80 rounded-xl"
             />
             <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
@@ -112,7 +112,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
               height={240}
               loading="lazy"
               src="/wyoming.webp"
-              alt=""
+              alt="{offices[3]?.description} - Wyoming"
               className="w-full  h-full md:h-80 rounded-xl"
             />
             <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">

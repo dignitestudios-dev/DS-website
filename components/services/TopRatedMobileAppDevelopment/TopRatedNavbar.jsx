@@ -176,7 +176,7 @@ const TopRatedNavbar = ({ setIsOpen }) => {
             theme === "light" ? "text-black" : "text-white"
           }`}
         >
-          {/* <img src={"/menu-dark.webp"} className="h-full" /> */}
+          {/* <img src={"/menu-dark.webp"} alt="TopRatedNavbar Menu Dark" className="h-full" /> */}
           <BiMenuAltRight className="text-3xl" />
         </button>
       </div>

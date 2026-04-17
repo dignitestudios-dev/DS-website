@@ -51,7 +51,7 @@ const TopRatedMobileAppCategories = () => {
           <div className="bg-[#319CFF] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
             src="/ecommerce-mockup-2.webp"
-            alt=""
+            alt="Mobile app mockup of E-Commerce App"
             className="w-full h-[490.98px] 2xl:h-[665px] absolute -bottom-48 2xl:-bottom-[270px] 2xl:-right-20 -right-14 group-hover:-bottom-40 2xl:group-hover:-bottom-[248px] transition-all duration-300"
           />
         </div>
@@ -62,7 +62,7 @@ const TopRatedMobileAppCategories = () => {
           <div className="bg-[#16ED9F] w-[130%] h-[100%] absolute -left-12 top-28 rounded-full top-rated-category1" />
           <img
             src="/insurance-mockup-1.webp"
-            alt=""
+            alt="Mobile app mockup of Insurance App"
             className="h-[431.37px] w-full 2xl:h-[575px] absolute -bottom-32 2xl:-bottom-44 -right-14 group-hover:-bottom-24 2xl:group-hover:-bottom-36 transition-all duration-300"
           />
         </div>

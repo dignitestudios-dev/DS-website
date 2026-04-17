@@ -30,19 +30,19 @@ const DesingShowCase = () => {
       <Swiper {...sliderSettings} className="my-4 z-10">
         <SliderButtons />
         <SwiperSlide > 
-          <img src="/showcase1.webp" alt="" srcset="" />
+          <img src="/showcase1.webp" alt="DesignShowCase Showcase1" srcset="" />
         </SwiperSlide>
         <SwiperSlide className="">
-        <img src="/designshowcase2.webp" alt="" srcset="" />
+        <img src="/designshowcase2.webp" alt="DesignShowCase Designshowcase2" srcset="" />
         </SwiperSlide>       
         <SwiperSlide className="">
-        <img src="/amaizing3.webp" alt="" srcset="" />
+        <img src="/amaizing3.webp" alt="DesignShowCase Amaizing3" srcset="" />
         </SwiperSlide>       
         <SwiperSlide className="">
-        <img src="/amaizing4.webp" alt="" srcset="" />
+        <img src="/amaizing4.webp" alt="DesignShowCase Amaizing4" srcset="" />
         </SwiperSlide>       
         <SwiperSlide className="">
-        <img src="/amaizing5.webp" alt="" srcset="" />
+        <img src="/amaizing5.webp" alt="DesignShowCase Amaizing5" srcset="" />
         </SwiperSlide>       
       </Swiper>
     </>

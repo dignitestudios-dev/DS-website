@@ -38,7 +38,7 @@ const Hero = ({
          <div className="relative flex items-center justify-center md:w-[600px] md:h-[600px] w-[250px] h-[250px] mx-auto">
 
           <Image
-            src="/industries/dating-app/grad.webp"
+            src="/industries/dating-app/grad.webp" alt="{para} - Grad"
            width={1200}
            height={1200}
             objectFit="contain"
@@ -91,8 +91,8 @@ const Hero = ({
       transition={{ duration: 0.8, delay: 0.3 }}
       className="absolute  -translate-x-1/2"
     >
-      <Image src={"/industries/dating-app/mob.webp"} className="hidden lg:block" alt="Mobile" width={800} height={800} />
-      <Image src={"/industries/dating-app/mob.webp"} className="lg:hidden block" alt="Mobile" width={600} height={600} />
+      <Image src={"/industries/dating-app/mob.webp"} className="hidden lg:block" alt="{para} - Mob" width={800} height={800} />
+      <Image src={"/industries/dating-app/mob.webp"} className="lg:hidden block" alt="{para} - Mob" width={600} height={600} />
     </motion.div>
         <div className="absolute -bottom-10  left-0 w-full border-none h-20 lg:h-52 bg-gradient-to-t from-white to-transparent via-white" />
       </div>

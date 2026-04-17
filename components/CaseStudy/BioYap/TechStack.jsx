@@ -61,7 +61,7 @@ const TechStack = () => {
               <div className="relative">
                 {/* Icon Container */}
                 <div className="w-20 h-20 dark:bg-transparent border-none dark:border-2 dark:border-[#c0f765] bg-white rounded-2xl shadow-xl shadow-[#C0F765]/70 flex items-center justify-center transition-all duration-300 group-hover:shadow-[#C0F765]/70 group-hover:shadow-xl">
-                  <span className="text-4xl"><img src={tech.icon} alt='icon'  /></span>
+                  <span className="text-4xl"><img src={tech.icon} alt="The mobile app was developed using React Native fo - Tech"  /></span>
                 </div>
                 
                 {/* Tooltip */}

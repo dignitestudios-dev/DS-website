@@ -21,7 +21,7 @@ const AmaizingShowCase = () => {
           >
             <span className="text-[#F15C20] leading-[28px] tracking-wide text-[20px] font-[700] upper">
               Amazing
-              <img src="/mainUnder.webp" className='w-100 h-100' alt="" srcset="" />
+              <img src="/mainUnder.webp" className='w-100 h-100' alt="AmaizingShowCase MainUnder" srcset="" />
             </span>
            
             <div className='mt-[15px]' >Mobile App Design Showcase</div>

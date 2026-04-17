@@ -36,7 +36,7 @@ const Hero = () => {
         <Image
           src="/location/grad.webp"
           className="absolute left-[50%] lg:block hidden translate-x-[-50%] -top-[80%] -z-0"
-         width={1200} height={1200} priority alt=""/>
+         width={1200} height={1200} priority alt="Dignite Studios is a trusted mobile app developmen - Grad"/>
         <motion.img
           src="/location/mobile-seattle/mob.webp"
           alt="bg"

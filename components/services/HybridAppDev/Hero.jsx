@@ -69,13 +69,13 @@ const Hero = () => {
             />
         </div>
         {/* <Imagesrc="/location/mobile-boston/r.webp"
-          alt=""
+          alt="Hero R"
           width={150}
           height={150}
           className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
          />
         <Imagesrc="/location/mobile-boston/l.webp"
-          alt=""
+          alt="Hero L"
           width={150}
           height={150}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"

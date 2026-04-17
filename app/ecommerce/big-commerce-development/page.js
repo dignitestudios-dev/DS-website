@@ -9,7 +9,7 @@ export const metadata = {
     " Dignite Studios offers expert BigCommerce developments Service to build scalable, secure, and high performing ecommerce stores for growing businesses.",
   alternates: {
     canonical:
-      "https://www.dignitestudios.com/ecommerce/big-commerce-app-development",
+      "https://www.dignitestudios.com/ecommerce/big-commerce-development",
   },
 };
 

@@ -41,7 +41,7 @@ const Hero = ({
         {/* Ring Image - Placed behind the mobile */}
         <div className="absolute z-0 w-[600px] h-[600px]">
           <Image
-            src="/industries/food-industry/ring.webp"
+            src="/industries/food-industry/ring.webp" alt="{para} - Ring"
             layout="fill"
             objectFit="contain"
             className="lg:block hidden"
@@ -57,7 +57,7 @@ const Hero = ({
             className="absolute z-10 lg:block hidden left-[22%] top-20 xl:left-[25%] 2xl:left-[29%]"
           >
             <Image
-              src="/industries/food-industry/l1.webp"
+              src="/industries/food-industry/l1.webp" alt="3D icon representing development"
               width={200}
               height={200}
             />
@@ -73,7 +73,7 @@ const Hero = ({
             className="absolute z-10 top-10 xl:right-[17%] 2xl:right-[24%] lg:block hidden right-[21%]"
           >
             <Image
-              src="/industries/food-industry/r1.webp"
+              src="/industries/food-industry/r1.webp" alt="Laptop mockup showcasing project"
               width={300}
               height={300}
             />
@@ -89,7 +89,7 @@ const Hero = ({
             className="absolute z-10 top-[60%] xl:right-[23%] 2xl:right-[28%] lg:block hidden right-[24%]"
           >
             <Image
-              src="/industries/food-industry/r2.webp"
+              src="/industries/food-industry/r2.webp" alt="Tablet mockup showing mobile app"
               width={250}
               height={250}
             />
@@ -106,14 +106,14 @@ const Hero = ({
         >
           <Image
             src="/industries/food-industry/mob.webp"
-            alt="Mobile"
+            alt="Mobile app mockup screen"
             width={450}
             height={450}
             className="hidden lg:block"
           />
           <Image
             src="/industries/food-industry/mob.webp"
-            alt="Mobile"
+            alt="Mobile app mockup screen"
             width={300}
             height={300}
             className=" lg:hidden block"

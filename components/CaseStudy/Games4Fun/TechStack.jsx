@@ -62,7 +62,7 @@ const TechStack = () => {
               <div className="relative">
                 {/* Icon Container */}
                 <div className="w-20 h-20 bg-white rounded-2xl   flex items-center justify-center transition-all duration-300  ">
-                  <span className="text-4xl"><img src={tech.icon} alt='icon'  /></span>
+                  <span className="text-4xl"><img src={tech.icon} alt="Games4Fun is built with scalable technologies opti - Tech"  /></span>
                 </div>
                 
                 {/* Tooltip */}

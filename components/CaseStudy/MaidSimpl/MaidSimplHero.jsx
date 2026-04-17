@@ -19,7 +19,7 @@ const MaidSimplHero = () => {
         <div className="flex flex-col gap-y-5">
           <img
             src="/maid-simple-logo.webp"
-            alt=""
+            alt="Maid Simple Logo logo"
             className="w-[133px] h-[42px]"
           />
           <h1 className="text-[45px] font-extrabold lg:text-[60px] lg:font-medium uppercase">
@@ -48,7 +48,7 @@ const MaidSimplHero = () => {
           </p>
         </div>
       </div>
-      <img src="/maid-simple-1.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/maid-simple-1.webp" alt="About The App - Maid Simple 1" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">The Challenges</h2>
@@ -74,7 +74,7 @@ const MaidSimplHero = () => {
           </p>
         </div>
       </div>
-      <img src="/maid-simple-2.webp" alt="" className="w-full h-lg:screen" />
+      <img src="/maid-simple-2.webp" alt="The Challenges - Maid Simple 2" className="w-full h-lg:screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10  flex w-full flex-col justify-start items-start gap-4">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">
@@ -96,7 +96,7 @@ const MaidSimplHero = () => {
         </div>
         <MaidSimplTechnologies />
       </div>
-      <img src="/maid-simple-3.webp" alt="" className="w-full h-lg:screen" />
+      <img src="/maid-simple-3.webp" alt="MaidSimplHero Maid Simple 3" className="w-full h-lg:screen" />
       <div className="w-full px-4 md:px-12 xl:px-64 md:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
@@ -128,7 +128,7 @@ const MaidSimplHero = () => {
           mockup={"/maidsimpl-mockup-3.webp"}
         />
       </div>
-      <img src="/maid-simple-4.webp" alt="" className="w-full h-lg:screen" />
+      <img src="/maid-simple-4.webp" alt="MaidSimplHero Maid Simple 4" className="w-full h-lg:screen" />
     </div>
   );
 };

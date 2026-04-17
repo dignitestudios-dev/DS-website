@@ -19,7 +19,7 @@ const PerfectBoatHero = () => {
         <div className="flex flex-col gap-y-5">
           <img
             src="/perfect-boat-logo.webp"
-            alt=""
+            alt="Perfect Boat Logo logo"
             className="w-[160px] h-[71px]"
           />
           <h1 className="text-[45px] font-extrabold lg:text-[60px] lg:font-medium uppercase">
@@ -47,7 +47,7 @@ const PerfectBoatHero = () => {
           </p>
         </div>
       </div>
-      <img src="/perfect-boat-1.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-1.webp" alt="About The App - Perfect Boat 1" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">The Challenges</h2>
@@ -69,7 +69,7 @@ const PerfectBoatHero = () => {
           </p>
         </div>
       </div>
-      <img src="/perfect-boat-2.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-2.webp" alt="The Challenges - Perfect Boat 2" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64  md:py-10  flex w-full flex-col justify-start items-start gap-4">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">
@@ -92,7 +92,7 @@ const PerfectBoatHero = () => {
         </div>
         <PerfectBoatTechnologies />
       </div>
-      <img src="/perfect-boat-3.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-3.webp" alt="PerfectBoatHero Perfect Boat 3" className="w-full lg:h-screen" />
       <div className="w-full px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
@@ -123,7 +123,7 @@ const PerfectBoatHero = () => {
           mockup={"/prefect-mockup-3.webp"}
         />
       </div>
-      <img src="/perfect-boat-4.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/perfect-boat-4.webp" alt="PerfectBoatHero Perfect Boat 4" className="w-full lg:h-screen" />
     </div>
   );
 };

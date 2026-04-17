@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
          <div className="w-[80%] h-[550px] lg:h-screen mx-auto z-10 flex justify-center mt-20 md:mt-32 relative">
               <Image src="/services/native-app/bg-grad.webp"
-                alt=""
+                alt="Finding the best native app development company ca - Bg Grad"
                 width={1100}
                 height={1100}
                 priority
@@ -59,8 +59,8 @@ const Hero = () => {
                  />
                  </div>
               </motion.div>
-              <Image src={"/services/native-app/l.webp"} width={300} height={300}  className="absolute lg:block hidden top-[65%] left-[2%] translate-x-[-50%] translate-y-[-50%] z-20" />
-              <Image src={"/services/native-app/r.webp"} width={300} height={300} className="absolute lg:block hidden top-[20%] -right-[22%] translate-x-[-50%] translate-y-[-50%] z-10" />
+              <Image src={"/services/native-app/l.webp"} alt="Hero L" width={300} height={300}  className="absolute lg:block hidden top-[65%] left-[2%] translate-x-[-50%] translate-y-[-50%] z-20" />
+              <Image src={"/services/native-app/r.webp"} alt="Hero R" width={300} height={300} className="absolute lg:block hidden top-[20%] -right-[22%] translate-x-[-50%] translate-y-[-50%] z-10" />
             </div>
       <div>
         <Platforms />

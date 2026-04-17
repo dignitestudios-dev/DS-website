@@ -18,11 +18,11 @@ const MyMedicalJournalHero = () => {
       <div className="px-4 md:px-12 xl:px-64 lg:pb-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           {theme == "dark" ? (
-            <img src="/mmj-logo-2.webp" alt="" className="w-[160px] h-[71px]" />
+            <img src="/mmj-logo-2.webp" alt="Mmj Logo 2 logo" className="w-[160px] h-[71px]" />
           ) : (
             <img
               src="/my-medical-logo.svg"
-              alt=""
+              alt="My Medical Logo logo"
               className="w-[160px] h-[71px]"
             />
           )}
@@ -51,7 +51,7 @@ const MyMedicalJournalHero = () => {
           </p>
         </div>
       </div>
-      <img src="/my-medical-1.webp" alt="" className={`w-full lg:h-screen`} />
+      <img src="/my-medical-1.webp" alt="About The App - My Medical 1" className={`w-full lg:h-screen`} />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">The Challenges</h2>
@@ -72,7 +72,7 @@ const MyMedicalJournalHero = () => {
           </p>
         </div>
       </div>
-      <img src="/my-medical-2.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/my-medical-2.webp" alt="The Challenges - My Medical 2" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10  flex w-full flex-col justify-start items-start gap-4">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">
@@ -96,7 +96,7 @@ const MyMedicalJournalHero = () => {
         </div>
         <MyMedicalJournalTechnologies />
       </div>
-      <img src="/my-medical-3.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/my-medical-3.webp" alt="MyMedicalJournalHero My Medical 3" className="w-full lg:h-screen" />
       <div className="w-full px-4 md:px-12 xl:px-64  md:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
@@ -127,7 +127,7 @@ const MyMedicalJournalHero = () => {
           mockup={"/mmj-mockup-4.webp"}
         />
       </div>
-      <img src="/my-medical-4.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/my-medical-4.webp" alt="MyMedicalJournalHero My Medical 4" className="w-full lg:h-screen" />
     </div>
   );
 };

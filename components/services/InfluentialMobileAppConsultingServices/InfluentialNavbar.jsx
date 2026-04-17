@@ -260,7 +260,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
           className="flex lg:hidden"
         >
           {/* <img
-            src={theme == "light" ? "/hamburger.webp" : "/menu-dark.webp"}
+            src={theme == "light" ? "/hamburger.webp" : "/menu-dark.webp"} alt="InfluentialNavbar Menu Dark"
             className="h-full"
           /> */}
           <BiMenuAltRight className="text-3xl text-white" />

@@ -40,7 +40,7 @@ const Hero = () => {
         <Image
           src="/location/mobile-washington/b-grad.webp"
           className="absolute left-[50%] translate-x-[-50%] -bottom-24 -z-0"
-         width={1200} height={1200} priority alt=""/>
+         width={1200} height={1200} priority alt="Building a mobile app in Washington? You need a de - B Grad"/>
         <motion.img
           src="/location/mobile-washington/mob.webp"
           alt="bg"

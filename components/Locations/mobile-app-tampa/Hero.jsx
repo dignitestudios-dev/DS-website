@@ -37,7 +37,7 @@ const Hero = () => {
         <Image
           src="/location/mobile-tampa/grad.webp"
           className="absolute left-[50%] lg:block hidden translate-x-[-50%] -top-[20%] -z-0"
-         width={1200} height={1200} priority alt=""/>
+         width={1200} height={1200} priority alt="Startups have a hard time finding a mobile app dev - Grad"/>
         <motion.img
           src="/location/mobile-tampa/mob.webp"
           alt="bg"

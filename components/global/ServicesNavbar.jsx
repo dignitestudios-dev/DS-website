@@ -190,7 +190,7 @@ const ServicesNavbar = ({ setIsOpen }) => {
           className="flex lg:hidden h-4 lg:h-auto"
         >
           <img
-            src={"/menu-dark.webp"}
+            src={"/menu-dark.webp"} alt="ServicesNavbar Menu Dark"
             className="h-full"
             width={16}
             height={26}

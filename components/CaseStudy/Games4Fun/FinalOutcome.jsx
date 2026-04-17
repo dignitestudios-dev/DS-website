@@ -31,7 +31,7 @@ const FinalOutcome = () => {
   {/* Laptop Frame */}
   {/* <img
     src="/laptop.webp"
-    alt="laptop"
+    alt="The Games4fun platform delivers a smart, AI-powere - Laptop"
     className="absolute md:block hidden w-[240px] md:w-[600px] 2xl:w-[700px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-20"
   /> */}
 

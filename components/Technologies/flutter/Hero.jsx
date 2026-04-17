@@ -61,7 +61,7 @@ const Hero = () => {
           width={1400}
           height={1400}
           className="absolute top-[50%] translate-y-[-50%] left-1/2 z-10 translate-x-[-50%]  object-contain"
-         priority alt=""/>
+         priority alt="Hero Bg Grad"/>
         <div className="absolute -bottom-24 left-0 w-full border-none h-52 bg-gradient-to-t z-30 from-white to-transparent via-white" />
       </div>
       <div>

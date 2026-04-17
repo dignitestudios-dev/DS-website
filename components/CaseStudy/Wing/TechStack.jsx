@@ -64,7 +64,7 @@ const TechStack = () => {
                  <div className="relative z-50">
                    {/* Icon Container */}
                    <div className="w-20 h-20 bg-white rounded-2xl shadow-xl shadow-[#5BAFEB40] flex items-center justify-center transition-all duration-300 group-hover:shadow-[#5BAFEB40] group-hover:shadow-xl">
-                     <span className="text-4xl"><img src={tech.icon} alt='icon'  /></span>
+                     <span className="text-4xl"><img src={tech.icon} alt="The backend of Wing is built on Node.js or Laravel - Tech"  /></span>
                    </div>
                    
                    

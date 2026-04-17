@@ -22,7 +22,7 @@ const Hero = () => {
               <Image
                 src="/ppc_border.webp"
                 className="relative md:left-[15%] -top-4"
-                alt=""
+                alt="Hero Ppc Border"
                 srcset=""
                width={500} height={500} priority/>
             </span>
@@ -70,7 +70,7 @@ const Hero = () => {
           <div>
             <Image
               src="/schedule.webp"
-              alt=""
+              alt="Let's Talk - Schedule"
               aos="translate-left"
               data-aos="translate-left"
               data-aos-duration="500"
@@ -82,7 +82,7 @@ const Hero = () => {
           <div>
             <Image
               src="/health-feed.webp"
-              alt=""
+              alt="Let's Talk - Health Feed"
               aos="translate-center"
               data-aos="translate-center"
               data-aos-duration="500"
@@ -93,7 +93,7 @@ const Hero = () => {
           <div>
             <Image
               src="/plan.webp"
-              alt=""
+              alt="Let's Talk - Plan"
               aos="translate-right"
               data-aos="translate-right"
               data-aos-duration="500"

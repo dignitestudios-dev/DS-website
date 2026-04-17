@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className=" max-w-screen-2xl mx-auto w-full relative z-20 ">
       <div className="w-full gap-6 mt-14 flex flex-col items-center ">
-         <img src="/wing/icon.webp" alt="icon" fill />
+         <img src="/wing/icon.webp" alt="Icon for hero" fill />
         <div className="flex flex-col items-center text-center w-[90%] md:w-[80%]">
           <h1 className="text-[24px] md:text-[48px] leading-tight text-wrap  font-bold  mb-6">
             <span className="text-[#5BAFEB]  ">Wing:</span> Redefining Dating Through <br/>Friend-Powered Matchmaking

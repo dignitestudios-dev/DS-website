@@ -48,7 +48,7 @@ const AndroidTurnYourIdea = () => {
       </div>
       <div className="col-span-5 lg:col-span-2 flex items-start justify-start">
         <img
-          src={"/android-turn-mockup.webp"}
+          src={"/android-turn-mockup.webp"} alt="Mobile app mockup of Mammoth out-of-sight experience, with the top-rank"
           className=" md:scale-75 lg:scale-100 "
         />
       </div>

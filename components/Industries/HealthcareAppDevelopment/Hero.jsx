@@ -38,7 +38,7 @@ const Hero = ({
          <div className="relative flex items-center justify-center md:w-[600px] md:h-[600px] w-[250px] h-[250px] mx-auto">
 
           <Image
-            src="/industries/healthcare/ring.webp"
+            src="/industries/healthcare/ring.webp" alt="{para} - Ring"
             layout="fill"
             objectFit="contain"
           />
@@ -62,10 +62,10 @@ const Hero = ({
       className="absolute  -translate-x-1/2"
     >
   
-      <Image src={"/industries/healthcare/mob.webp"} className="hidden lg:block" alt="Mobile" width={300} height={300} />
-      <Image src={"/industries/healthcare/mob.webp"} className="lg:hidden block" alt="Mobile" width={150} height={150} />
+      <Image src={"/industries/healthcare/mob.webp"} className="hidden lg:block" alt="{para} - Mob" width={300} height={300} />
+      <Image src={"/industries/healthcare/mob.webp"} className="lg:hidden block" alt="{para} - Mob" width={150} height={150} />
     </motion.div>
-        <Image src={"/industries/healthcare/cc.webp"} width={800} height={800} className="lg:block hidden absolute ml-12 left-1/2 translate-x-[-50%]" />
+        <Image src={"/industries/healthcare/cc.webp"} alt="{para} - Cc" width={800} height={800} className="lg:block hidden absolute ml-12 left-1/2 translate-x-[-50%]" />
         {/* <div className="absolute -bottom-32  left-0 w-full border-none h-52 bg-gradient-to-t from-white to-transparent via-white" /> */}
       </div>
       <div>

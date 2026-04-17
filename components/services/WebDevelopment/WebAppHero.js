@@ -135,7 +135,7 @@ const ServicesHero = () => {
             className=" w-full h-full  flex justify-center"
           >
             <img
-              src={images[0]}
+              src={images[0]} alt="Years in software development business - Images[0]"
               className="w-full h-full md:scale-75 lg:scale-100 lg:w-full lg:h-full"
             />
           </SwiperSlide>
@@ -144,7 +144,7 @@ const ServicesHero = () => {
             className=" w-full h-full  flex justify-center"
           >
             <img
-              src={images[1]}
+              src={images[1]} alt="Years in software development business - Images[1]"
               className="w-full h-full md:scale-75 lg:scale-100 lg:w-full lg:h-full"
             />
           </SwiperSlide>

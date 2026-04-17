@@ -28,7 +28,7 @@ const Hero = () => {
               <Image
                 src="/ppc_border.webp"
                 className="relative  md:left-10 -top-4"
-                alt=""
+                alt="Awards & Recognition - Ppc Border"
                 srcset=""
                width={500} height={500} priority/>
             </span>
@@ -54,7 +54,7 @@ const Hero = () => {
             <Image
               src="/contact_hero_bg.webp"
               className="h-full lg:h-[100%]"
-              alt=""
+              alt="Creating seamless app experiences. Transforming yo - Contact Hero Bg"
               srcset=""
              width={500} height={500} priority/>
           </div>

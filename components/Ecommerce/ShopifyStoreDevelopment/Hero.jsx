@@ -47,14 +47,14 @@ const Hero = ({
         >
           <Image
             src="/ecommerce/shopify-store/laptop.webp"
-            alt="Shpify laptop"
+            alt="Shopify store development services mockup showcase on laptop"
             width={900}
             height={900}
             priority
             className="object-cover md:block hidden"/>
           <Image
             src="/ecommerce/shopify-store/mob.webp"
-            alt="Shpify laptop"
+            alt="Shopify store development services mockup showcase on mobile"
             width={250}
             height={250}
             priority
@@ -62,7 +62,7 @@ const Hero = ({
         </motion.div>
         <motion.img
           src="/ecommerce/shopify-app/sh-icon.webp"
-          alt=""
+          alt="Shopify development services floating icon"
           width={150}
           height={150}
           className="absolute top-[10%] w-24 md:w-32  left-[75%] md:left-[75%] translate-x-[-50%]"
@@ -78,7 +78,7 @@ const Hero = ({
         />
         <motion.img
           src="/ecommerce/shopify-app/sh2.webp"
-          alt=""
+          alt="Shopify development services decorative icon"
           width={150}
           height={150}
           className="absolute top-[60%] w-24 md:w-32 left-[2%] md:left-[16%] translate-x-[-50%]"

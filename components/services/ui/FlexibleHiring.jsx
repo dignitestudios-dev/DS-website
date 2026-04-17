@@ -89,7 +89,7 @@ const FlexibleHiring = ({ header, para , header2,cards }) => {
                   } ${idx === 2 ? "bottom-0" : "bottom-10"} ${idx === 0 && "w-fit"}`}
                 >
                 
-                <Image src={card.icon} alt="icons" width={600} height={600} className="w-[300px] object-contain" />
+                <Image src={card.icon} alt="{card.desc} - Card" width={600} height={600} className="w-[300px] object-contain" />
              
                 </div>
               </div>
@@ -111,7 +111,7 @@ const HourlyIllustration = () => {
         <span className="text-gray-300 text-sm flex-grow font-normal">Find the best talent.....</span>
         <FiMic className="text-[#F15C20] text-xl" />
         <div className="w-8 h-8 rounded-full bg-blue-500 overflow-hidden shrink-0">
-          <Image src="/services/mob-hire/search-avatar.webp" alt="Avatar" width={32} height={32} />
+          <Image src="/services/mob-hire/search-avatar.webp" alt="Find the best talent..... - Search Avatar" width={32} height={32} />
         </div>
       </div>
     </div>

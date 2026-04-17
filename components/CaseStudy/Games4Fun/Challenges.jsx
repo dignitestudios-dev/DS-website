@@ -93,7 +93,7 @@ Problems
 <div className="flex gap-5 flex-wrap justify-center px-12" >
      {challenges.map((challenge, index) => (
       <div key={index} className="relative rounded-[75px] transition-all ease-linear hover:text-white hover:bg-[#FB3747] w-[350px] text-sm">
-        <img src="/gamesfun/chall.webp" alt="" />
+        <img src="/gamesfun/chall.webp" alt="Challenges Chall" />
         <p className="absolute top-[50%] translate-y-[-50%] text-center p-2 ">{challenge.content}</p>
       </div>
      ))}
@@ -110,7 +110,7 @@ Problems
 <div className="flex gap-5 flex-wrap justify-center px-12" >
      {solutions.map((solution, index) => (
       <div key={index} className="relative rounded-[75px] transition-all ease-linear hover:text-white hover:bg-[#1ABF9A] w-[350px] text-sm">
-        <img src="/gamesfun/sol.webp" alt="" />
+        <img src="/gamesfun/sol.webp" alt="Challenges Sol" />
         <p className="absolute top-[50%] translate-y-[-50%] text-center p-2 ">{solution}</p>
       </div>
      ))}

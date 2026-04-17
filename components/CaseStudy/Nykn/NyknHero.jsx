@@ -17,7 +17,7 @@ const NyknHero = () => {
     >
       <div className="px-4 md:px-12 xl:px-64 lg:pb-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
-          <img src="/nykn-logo.webp" alt="" className="w-[53.65px] h-[79.9px]" />
+          <img src="/nykn-logo.webp" alt="Nykn Logo logo" className="w-[53.65px] h-[79.9px]" />
           <h1 className="text-[45px] font-extrabold lg:text-[60px] lg:font-medium uppercase">
             Explore Nashville
           </h1>
@@ -42,7 +42,7 @@ const NyknHero = () => {
           </p>
         </div>
       </div>
-      <img src="/nykn-1.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/nykn-1.webp" alt="About The App - Nykn 1" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10 flex flex-col gap-y-8">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">The Challenges</h2>
@@ -64,7 +64,7 @@ const NyknHero = () => {
           </p>
         </div>
       </div>
-      <img src="/nykn-2.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/nykn-2.webp" alt="The Challenges - Nykn 2" className="w-full lg:h-screen" />
       <div className="px-4 md:px-12 xl:px-64 lg:py-10  flex w-full flex-col justify-start items-start gap-4">
         <div className="flex flex-col gap-y-5">
           <h2 className="text-[36px] font-medium">
@@ -89,7 +89,7 @@ const NyknHero = () => {
         </div>
         <NyknTechnologies />
       </div>
-      <img src="/nykn-3.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/nykn-3.webp" alt="NyknHero Nykn 3" className="w-full lg:h-screen" />
       <div className="w-full px-4 md:px-12 xl:px-64  md:py-10 flex flex-col gap-8 lg:gap-4 justify-start items-start">
         <LeftAllignedScreen
           title={"Splash Screen"}
@@ -120,7 +120,7 @@ const NyknHero = () => {
           mockup={"/nykn-mockup-3.webp"}
         />
       </div>
-      <img src="/nykn-4.webp" alt="" className="w-full lg:h-screen" />
+      <img src="/nykn-4.webp" alt="NyknHero Nykn 4" className="w-full lg:h-screen" />
     </div>
   );
 };

@@ -35,15 +35,15 @@ const Hero = () => {
         <div className="absolute  left-[50%] top-[60%] translate-y-[-50%]  translate-x-[-50%]    -z-0 w-full h-full">
           <Image
             src="/services/mobile-cons/grad.webp"
-            alt=""
+            alt="With our professional mobile app consulting servic - Grad"
             width={500}
             height={500}
             priority
             className="w-[50%] lg:w-[30%] mx-auto "/>
         </div>
-        <Image src="/services/mobile-cons/r1.png" alt="" width={350} height={350} priority className=" absolute lg:block hidden top-20 right-[20%]  mx-auto "/>
-        <Image src="/services/mobile-cons/r2.png" alt="" width={320} height={320} priority className=" absolute lg:block hidden top-36 right-[20%]  mx-auto "/>
-        <Image src="/services/mobile-cons/l.png" alt="" width={350} height={350} priority className=" absolute lg:block hidden top-[30%] left-[15%]  mx-auto "/>
+        <Image src="/services/mobile-cons/r1.png" alt="With our professional mobile app consulting servic - R1" width={350} height={350} priority className=" absolute lg:block hidden top-20 right-[20%]  mx-auto "/>
+        <Image src="/services/mobile-cons/r2.png" alt="With our professional mobile app consulting servic - R2" width={320} height={320} priority className=" absolute lg:block hidden top-36 right-[20%]  mx-auto "/>
+        <Image src="/services/mobile-cons/l.png" alt="With our professional mobile app consulting servic - L" width={350} height={350} priority className=" absolute lg:block hidden top-[30%] left-[15%]  mx-auto "/>
         <motion.div
           className="relative"
           initial={{ y: 80, opacity: 0 }}
@@ -70,13 +70,13 @@ const Hero = () => {
             className="object-cover block lg:hidden  mx-auto relative z-20 "/>
         </motion.div>
         {/* <Image src="/location/mobile-boston/r.webp"
-          alt=""
+          alt="Hero R"
           width={150}
           height={150}
           className="absolute top-[10%] lg:block hidden left-[0%] md:left-[70%] translate-x-[-50%]"
          />
         <Image src="/location/mobile-boston/l.webp"
-          alt=""
+          alt="Hero L"
           width={150}
           height={150}
           className="absolute top-[30%] lg:block hidden left-[0%] md:left-[32%] translate-x-[-50%]"

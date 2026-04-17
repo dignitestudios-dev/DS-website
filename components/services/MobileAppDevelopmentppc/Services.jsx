@@ -42,12 +42,12 @@ const Services = () => {
         >
           <div className="rounded-xl flex items-center">
             {hoverColor === 1 ? (
-              <img src="/mobile-app-dev-dark.webp" alt="" />
+              <img src="/mobile-app-dev-dark.webp" alt="Our app-building service typically includes initia - Mobile App Dev Dark" />
             ) : (
               theme === "light" ? (
-                <img src="/mobile-app-dev-light.webp" alt="" />
+                <img src="/mobile-app-dev-light.webp" alt="Our app-building service typically includes initia - Mobile App Dev Light" />
               ) : (
-                <img src="/mobile-app-dev-dark.webp" alt="" />
+                <img src="/mobile-app-dev-dark.webp" alt="Our app-building service typically includes initia - Mobile App Dev Dark" />
               )
             )}
           </div>
@@ -65,12 +65,12 @@ const Services = () => {
         >
           <div className="  rounded-xl  flex items-center ">
             {hoverColor === 2 ? (
-              <img src="/mobile-app-design-light.webp" alt="" />
+              <img src="/mobile-app-design-light.webp" alt="Dignite Studios bestows highly interactive end-to- - Mobile App Design Light" />
             ) : (
               theme == "light" ? (
-                <img src="/mobile-app-design.webp" alt="" />
+                <img src="/mobile-app-design.webp" alt="Dignite Studios bestows highly interactive end-to- - Mobile App Design" />
               ) : (
-                <img src="/mobile-app-design-light.webp" alt="" />
+                <img src="/mobile-app-design-light.webp" alt="Dignite Studios bestows highly interactive end-to- - Mobile App Design Light" />
               ))
             }
 
@@ -98,12 +98,12 @@ const Services = () => {
           <div className="  rounded-xl  flex items-center ">
 
             {hoverColor === 3 ? (
-              <img src="/mobile-app-consultation-dark1.webp" alt="" />
+              <img src="/mobile-app-consultation-dark1.webp" alt="We provide unique mobile app design services to cr - Mobile App Consultation Dark1" />
             ) : (
               theme == "light" ? (
-                <img src="/mobile-app-consultation-light.webp" alt="" />
+                <img src="/mobile-app-consultation-light.webp" alt="We provide unique mobile app design services to cr - Mobile App Consultation Light" />
               ) : (
-                <img src="/mobile-app-consultation-dark1.webp" alt="" />
+                <img src="/mobile-app-consultation-dark1.webp" alt="We provide unique mobile app design services to cr - Mobile App Consultation Dark1" />
               ))
             }
           </div>
@@ -131,12 +131,12 @@ const Services = () => {
         >
           <div className="  rounded-xl  flex items-center ">
             {hoverColor === 4 ? (
-              <img src="/mobile-app-prtotyping-white.webp" alt="" />
+              <img src="/mobile-app-prtotyping-white.webp" alt="Our professional development provides free mobile  - Mobile App Prtotyping White" />
             ) : (
               theme == "light" ? (
-                <img src="/mobile-app-prtotyping-light.webp" alt="" />
+                <img src="/mobile-app-prtotyping-light.webp" alt="Our professional development provides free mobile  - Mobile App Prtotyping Light" />
               ) : (
-                <img src="/mobile-app-prtotyping-white.webp" alt="" />
+                <img src="/mobile-app-prtotyping-white.webp" alt="Our professional development provides free mobile  - Mobile App Prtotyping White" />
               ))
             }
 
@@ -164,12 +164,12 @@ const Services = () => {
           <div className="  rounded-xl  flex items-center ">
 
             {hoverColor === 5 ? (
-              <img src="/mobile-app-maintenance-white.webp" alt="" />
+              <img src="/mobile-app-maintenance-white.webp" alt="In the arena of digital solutions, prototyping has - Mobile App Maintenance White" />
             ) : (
               theme == "light" ? (
-                <img src="/mobile-app-maintenance-light.webp" alt="" />
+                <img src="/mobile-app-maintenance-light.webp" alt="In the arena of digital solutions, prototyping has - Mobile App Maintenance Light" />
               ) : (
-                <img src="/mobile-app-maintenance-white.webp" alt="" />
+                <img src="/mobile-app-maintenance-white.webp" alt="In the arena of digital solutions, prototyping has - Mobile App Maintenance White" />
               ))
             }
 
@@ -194,12 +194,12 @@ const Services = () => {
         >
           <div className="  rounded-xl  flex items-center ">
             {hoverColor === 6 ? (
-              <img src="/mobile-app-integration-white.webp" alt="" />
+              <img src="/mobile-app-integration-white.webp" alt="Our team proposes complimentary two months of main - Mobile App Integration White" />
             ) : (
               theme == "light" ? (
-                <img src="/mobile-app-integration-light.webp" alt="" />
+                <img src="/mobile-app-integration-light.webp" alt="Our team proposes complimentary two months of main - Mobile App Integration Light" />
               ) : (
-                <img src="/mobile-app-integration-white.webp" alt="" />
+                <img src="/mobile-app-integration-white.webp" alt="Our team proposes complimentary two months of main - Mobile App Integration White" />
               ))
             }
           </div>
