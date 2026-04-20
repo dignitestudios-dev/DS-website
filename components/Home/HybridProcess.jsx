@@ -11,10 +11,10 @@ const HybridProcess = () => {
       {/* DESKTOP */}
       <div className="w-full my-6 px-2 lg:px-10 xl:px-14 h-auto hidden lg:flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         {/* LEFT */}
-        <div className="w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
+        <div className="w-full lg:w-[49%] h-auto grid grid-rows-4 grid-cols-1 gap-3">
           
           {/* 01 */}
-          <div className="group w-full h-auto border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start py-10">
+          <div className="group w-full h-auto border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start pb-10">
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               01.
             </p>
@@ -55,7 +55,7 @@ const HybridProcess = () => {
           </div>
 
           {/* 05 */}
-          <div className="group w-full h-auto flex flex-col justify-center items-start py-10">
+          <div className="group w-full h-auto border-b-[1px] flex flex-col justify-center items-start py-10">
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               05.
             </p>
@@ -71,6 +71,23 @@ const HybridProcess = () => {
             >
               Working versions are released gradually, delivering value to users
               while enabling continuous improvements.
+            </p>
+          </div>
+          <div className="group w-full h-auto  flex flex-col justify-center items-start py-10">
+            <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
+              07.
+            </p>
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
+             Future-Proof
+            </h4>
+            <h5 className="capitalize text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
+             Scale
+            </h5>
+            <p
+              className="text-[14px] 2xl:text-[18px]"
+              style={{ color: palette?.light_contrast_color }}
+            >
+              Apps are built to evolve. Which means allowing integration of new features and user needs without major issues.
             </p>
           </div>
         </div>

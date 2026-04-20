@@ -158,7 +158,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
 
                   {isActive && (
                     <img
-                      src="/location/mask.webp" alt="Decorative background mask"
+                      src="/location/mask.webp" alt="web design mask overlay"
                       className="absolute -top-10 -left-16 z-10 rounded-t-xl pointer-events-none"
                     />
                   )}

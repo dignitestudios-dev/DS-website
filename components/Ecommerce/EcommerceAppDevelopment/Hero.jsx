@@ -62,7 +62,7 @@ const Hero = ({
         </motion.div>
         <motion.img
           src="/ecommerce/ecommerce-app/r1.webp"
-          alt=""
+          alt="ecommerce app UI design screen"
           width={150}
           height={150}
           className="absolute top-[0%] w-24 md:w-36  left-[75%] md:left-[55%] translate-x-[-50%]"
@@ -77,7 +77,7 @@ const Hero = ({
         />
         <motion.img
           src="/ecommerce/ecommerce-app/r2.webp"
-          alt=""
+          alt="ecommerce app product display"
           width={150}
           height={150}
           className="absolute top-[70%] w-24 md:w-36  left-[75%] md:left-[60%] translate-x-[-50%]"
@@ -92,7 +92,7 @@ const Hero = ({
         />
         <motion.img
           src="/ecommerce/ecommerce-app/r3.webp"
-          alt=""
+          alt="shopping app UI product screen"
           width={150}
           height={150}
           className="absolute top-[50%] w-24 md:w-32  left-[75%] md:left-[60%] translate-x-[-50%]"
@@ -107,7 +107,7 @@ const Hero = ({
         />
         <motion.img
           src="/ecommerce/ecommerce-app/l1.webp"
-          alt=""
+          alt="mobile ecommerce app layout"
           width={150}
           height={150}
           className="absolute top-[30%] w-24 md:w-32 left-[2%] md:left-[32%] translate-x-[-50%]"
@@ -122,7 +122,7 @@ const Hero = ({
         />
         <motion.img
           src="/ecommerce/ecommerce-app/l2.webp"
-          alt=""
+          alt="ecommerce mobile app interface"
           width={250}
           height={250}
           className="absolute top-[60%] w-36 md:w-48 left-[2%] md:left-[32%] translate-x-[-50%]"

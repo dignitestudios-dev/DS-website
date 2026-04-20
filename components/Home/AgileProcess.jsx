@@ -12,7 +12,7 @@ const AgileProcess = () => {
     <>
       <div className="w-full my-6 px-2 lg:px-10 xl:px-14 h-auto hidden lg:flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
-          <div className="group w-full h-auto border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start py-10">
+          <div className="group w-full h-auto border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start pb-10">
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               01.
             </p>
@@ -52,7 +52,7 @@ const AgileProcess = () => {
             </p>
           </div>
 
-          <div className="group w-full h-auto flex flex-col justify-center items-start py-10">
+          <div className="group w-full h-auto flex border-b-[1px] flex-col justify-center items-start py-10">
             <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
               05.
             </p>
@@ -69,6 +69,23 @@ const AgileProcess = () => {
               Sprint demos showcase progress quickly. We gather client feedback,
               review outcomes, and adjust features to align with user needs and
               market demands.
+            </p>
+          </div>
+          <div className="group w-full h-auto flex flex-col justify-center items-start py-10">
+            <p className="text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold">
+              07.
+            </p>
+            <h4 className="text-[40px] lg:text-[48px] font-bold capitialize">
+              Post Launch
+            </h4>
+            <h5 className="text-[30px] lg:text-[36px] font-semibold text-[#F15C20]">
+              Support
+            </h5>
+            <p
+              className="text-[14px] 2xl:text-[18px]"
+              style={{ color: palette?.light_contrast_color }}
+            >
+   We track user feedback, release updates, optimize performance, and scale your app as your business grows over time.
             </p>
           </div>
         </div>

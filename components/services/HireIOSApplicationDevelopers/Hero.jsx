@@ -39,21 +39,21 @@ const Hero = () => {
         <Image
           src={"/services/ios-hire/grad.webp"}
           className="absolute lg:block hidden top-1/2 left-[55%] -translate-x-[50%] -translate-y-[50%]"
-          alt="Hire iOS app Developer dedicated experts with the  - Grad"
+          alt="iOS app development gradient"
           width={1000}
           height={1000}
         />
         <Image
           src={"/services/ios-hire/sofa.webp"}
           className="absolute top-[90%] lg:block hidden left-1/2 z-30 -translate-x-[50%] -translate-y-[50%]"
-          alt="Hire iOS app Developer dedicated experts with the  - Sofa"
+          alt="iOS app design workspace"
           width={400}
           height={400}
         />
         <Image
           src={"/services/ios-hire/sofa.webp"}
           className="absolute top-[90%] lg:hidden block left-1/2 z-30 -translate-x-[50%] -translate-y-[50%]"
-          alt="Hire iOS app Developer dedicated experts with the  - Sofa"
+          alt="iOS app design setup"
           width={300}
           height={300}
         />

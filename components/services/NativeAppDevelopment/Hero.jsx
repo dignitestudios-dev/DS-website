@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
          <div className="w-[80%] h-[550px] lg:h-screen mx-auto z-10 flex justify-center mt-20 md:mt-32 relative">
               <Image src="/services/native-app/bg-grad.webp"
-                alt="Finding the best native app development company ca - Bg Grad"
+                alt="native app development background"
                 width={1100}
                 height={1100}
                 priority

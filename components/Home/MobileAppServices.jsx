@@ -57,9 +57,7 @@ const MobileAppServices = () => {
           <span className="text-[#F15C20]">Startups</span>
         </h2>
         <p className=" text-lg  leading-relaxed ">
-          When you work with Dignite Studios, you're partnering with a partner
-          who cares for your success. We designed and created mobile app
-          development services according to your needs.
+         Dignite Studios is known for providing custom app development solutions that help startups. We also help businesses build and launch high-performing web and mobile digital products.
         </p>
       </div>
 

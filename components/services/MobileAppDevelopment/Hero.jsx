@@ -42,7 +42,7 @@ const Hero = () => {
         <Image
         
           src="/services/mobile-app/grad.webp"
-          alt="Finding the best mobile app development company ca - Grad"
+          alt="mobile app development gradient"
           width={1200}
           height={1200}
           priority

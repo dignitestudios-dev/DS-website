@@ -62,7 +62,7 @@ const Hero = ({
         </motion.div>
         <motion.img
           src="/ecommerce/woocommerce-app/2.webp"
-          alt=""
+          alt="woocommerce ecommerce app UI"
           width={150}
           height={150}
           className="absolute top-[10%] w-24 md:w-32  left-[75%] md:left-[76%] translate-x-[-50%]"
@@ -78,7 +78,7 @@ const Hero = ({
         />
         <motion.img
           src="/ecommerce/woocommerce-app/1.webp"
-          alt=""
+          alt="woocommerce mobile app design"
           width={150}
           height={150}
           className="absolute top-[60%] w-24 md:w-32 left-[2%] md:left-[16%] translate-x-[-50%]"

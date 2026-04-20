@@ -215,9 +215,7 @@ const TechTools = () => {
           <span className="text-[#F15C20]"> Development</span>
         </h2>
         <p className="font-extralight mx-auto mb-16 text-lg">
-          Do you ever wonder what exactly makes some apps feel so smooth while
-          some apps look like a mess? Our mobile app development services make
-          sure yours runs smoothly, every time.
+       The goal is to build secure apps. Whether it’s mobile application design and development, or we’re building enterprise mobile app solutions. 
         </p>
         <div className="flex flex-wrap justify-center gap-2 mb-16 bg-transparent lg:bg-black/50 p-1.5 rounded-full w-fit mx-auto lg:border lg:border-gray-800 backdrop-blur-sm">
           {categories.map((cat) => (

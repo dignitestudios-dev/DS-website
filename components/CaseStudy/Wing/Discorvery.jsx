@@ -69,7 +69,7 @@ const Discorvery = () => {
               <ul className=" text-sm mb-2 space-y-3">
                 {s.steps.map((st, indx) => (
                   <li key={indx} className="flex items-start gap-2 capitalize ">
-                    <img src="/wing/dr.webp" alt="{s.p} - Dr" />
+                    <img src="/wing/dr.webp" alt="creative web design illustration" />
                     {st}
                   </li>
                 ))}

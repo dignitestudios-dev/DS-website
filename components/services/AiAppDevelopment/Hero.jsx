@@ -38,7 +38,7 @@ The team of professional developers would help you unlock the potential of your 
         <Image
         
           src="/services/ai-dev/grad.webp"
-          alt="The team of professional developers would help you - Grad"
+          alt="AI development gradient background"
           width={1000}
           height={1000}
           priority

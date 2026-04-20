@@ -39,7 +39,7 @@ const Hero = () => {
         <div className="absolute  left-[50%] translate-x-[-50%]  lg:block hidden  -z-0 w-full h-full">
           <Image
             src="/services/web-app/grad.webp"
-            alt="Looking for web application development services y - Grad"
+            alt="web app development gradient"
             fill
             priority
             className=""/>

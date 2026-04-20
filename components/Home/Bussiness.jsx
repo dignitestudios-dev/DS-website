@@ -6,27 +6,27 @@ import Link from "next/link";
 const bs = [
   {
     title: "100% Custom App Development",
-    desc: "Every app is built from scratch, delivering tailored solutions for startups and enterprise mobile applications.",
+    desc: "Every app is built from scratch, for startups and enterprise mobile app solutions. ",
   },
   {
     title: "Experienced Mobile and Web Developers",
-    desc: "Skilled engineers at Dignite Studios deliver clean code and an exceptional user experience across all platforms.",
+    desc: "Skilled engineers at Dignite Studios ensure you get clean code and an amazing user experience across all platforms.",
   },
   {
     title: "Fast MVP Development",
-    desc: "Dignite is known for launching MVPs quickly to validate ideas and gather feedback without compromising quality.",
+    desc: "Dignite is known for launching MVPs quickly to validate ideas and gather feedback.  Without compromising quality.",
   },
   {
     title: "Dedicated Startup-Focused Teams",
-    desc: "Work with a startup app development company that understands startup challenges and acts as a true partner.",
+    desc: "You need to work with a startup app development company that understands startup challenges and thinks like a partner.",
   },
   {
     title: "Flexible Engagement Models",
-    desc: "Engagement models adapt to your needs and budget, giving you full control without fixed contracts.",
+    desc: "The models adapt to your needs and budget. Which means giving you full control without fixed contracts..",
   },
   {
     title: "Transparent, Agile Process",
-    desc: "We follow a transparent, agile workflow trusted by leading mobile app development agencies for predictable results.",
+    desc: "We follow a transparent, agile workflow, trusted by the best mobile app development agencies worldwide for predictable results.",
   },
 ];
 
