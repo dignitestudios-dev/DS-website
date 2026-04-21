@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useContext } from "react";
+import Link from "next/link";
+
 import { GlobalContext } from "@/context/GlobalContext";
 
 const WorkWithDegnite = () => {
@@ -23,9 +25,9 @@ const WorkWithDegnite = () => {
       </h2>
 
       <p className="text-base lg:leading-[21.76px] lg:w-[50%] mx-auto lg:text-center mb-6">
-      Our cost-effective services serve the finest hybrid mobile app design under the supervision
-      of expert hybrid app developers. We take pride in building top-notch hybrid application 
-      development projects for our valuable clients and partners.
+      Our <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">cost-effective services</Link> serve the finest hybrid mobile app design under the supervision
+      of expert <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid app developers</Link>. We take pride in building top-notch <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid application 
+      development projects</Link> for our valuable clients and partners.
       </p>
 
       <div className="mt-7 py-2 grid grid-cols-1 gap-2  md:grid-cols-2 lg:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 lg:gap-5 2xl:gap-6">
@@ -158,10 +160,10 @@ const WorkWithDegnite = () => {
               color: "#8F8F8F",
             }}
           >
-           We bestow premium hybrid app development services that create hybrid 
-           development with top programming languages (like React Native or Flutter).
+           We bestow premium <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app development services</Link> that create hybrid 
+           development with top programming languages (like <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">React Native</Link> or <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">Flutter</Link>).
             It also allows apps to access native device application features
-             and enhance the rich functionality of the hybrid app.
+             and enhance the rich functionality of the <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app</Link>.
           </p>
         </div>
 

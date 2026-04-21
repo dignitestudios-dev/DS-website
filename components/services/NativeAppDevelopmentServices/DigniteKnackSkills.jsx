@@ -48,12 +48,12 @@ const DigniteKnackSkills = () => {
             <p className="text-lg font-normal mt-4">
               Over the past several years there has been a significant increase
               in the usage of smartphones, where people typically have become
-              more dependent on technology. Here, Dignite’s dedicated software
-              development team provides the top benefits of native applications
-              to bestow absolute mobile app solutions for iOS and Android
+              more dependent on technology. Here, Dignite’s dedicated <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">software
+              development team</Link> provides the top benefits of <Link href="/services/native-app-development-services" className="text-[#F15C20]">native applications</Link>
+              to bestow absolute <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">mobile app solutions</Link> for <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS</Link> and <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android</Link>
               platforms. We offer services to expedite small and large
-              enterprises for native mobile applications and non-native apps.
-              Our user-centric native applications will skyrocket your business
+              enterprises for <Link href="/services/native-app-development-services" className="text-[#F15C20]">native mobile applications</Link> and non-native apps.
+              Our user-centric <Link href="/services/native-app-development-services" className="text-[#F15C20]">native applications</Link> will skyrocket your business
               to the next level with our thriving ideas and best practices.
             </p>
           </div>
@@ -97,9 +97,8 @@ const DigniteKnackSkills = () => {
                         ? "text-white "
                         : "text-[#424242] group-hover:text-white"
                     } text-[13px] font-medium`}
-                  >
-                    {card?.description}
-                  </p>
+                    dangerouslySetInnerHTML={{ __html: card?.description }}
+                  ></p>
                 </div>
               </SwiperSlide>
             );

@@ -52,7 +52,7 @@ const Services = ({ services, header, header2, para, button }) => {
               {service.title}
             </h3>
 
-            <p className="text-sm text-center">{service.description}</p>
+            <p className="text-sm text-center [&_a]:text-[#F15C20] group-hover:[&_a]:text-white group-hover:[&_a]:underline">{service.description}</p>
           </motion.div>
         ))}
       </div>
@@ -85,7 +85,7 @@ const Services = ({ services, header, header2, para, button }) => {
                 <h3 className="text-2xl font-bold text-center">
                   {service.title}
                 </h3>
-                <p className="text-sm text-center leading-relaxed opacity-90">
+                <p className="text-sm text-center leading-relaxed opacity-90 [&_a]:text-white [&_a]:underline">
                   {service.description}
                 </p>
               </div>

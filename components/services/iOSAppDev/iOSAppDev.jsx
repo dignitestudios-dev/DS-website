@@ -37,7 +37,7 @@ import {
   SiWebflow,
   SiBigcommerce,
   SiSquarespace,
-  SiAzure,
+  SiMicrosoft,
   SiGooglecloud,
   SiDigitalocean,
   SiCloudinary,
@@ -151,8 +151,7 @@ const services = [
     description: (
       <>
         The team creates iOS apps that meet your unique business needs.
-        Prioritizing performance and smooth user experience through iOS
-        application development.
+        Prioritizing performance and smooth user experience through <Link href="/services/ios-app-development" className="text-[#F15C20]">ios application development</Link>.
       </>
     ),
   },
@@ -162,7 +161,7 @@ const services = [
     title: "iOS App Consultation",
     description: (
       <>
-        Hire iOS app developers because we provide professional iOS app
+        <Link href="/services/hire-ios-app-developers" className="text-[#F15C20]">Hire iOS app developers</Link> because we provide professional iOS app
         consultation to guide strategy and optimize your app for maximum impact.
       </>
     ),
@@ -209,9 +208,9 @@ const services = [
     title: "iOS App Testing",
     description: (
       <>
-        The team would perform thorough iOS app testing to ensure your app is
+        The team would perform thorough <Link href="/services/mobile-app-testing-services" className="text-[#F15C20]">ios app testing</Link> to ensure your app is
         secure and delivers consistent performance across all devices through
-        iOS application development.
+        <Link href="/services/ios-app-development" className="text-[#F15C20]">ios application development</Link>.
       </>
     ),
   },
@@ -235,7 +234,11 @@ const highlights = [
   },
   {
     title: "High Level Expertise",
-    desc: "Being one of the top iOS app development services provider, we provide top-tier design and development.",
+    desc: (
+      <>
+        Being one of the top <Link href="/services/ios-app-development-services" className="text-[#F15C20]">ios app development services</Link> provider, we provide top-tier design and development.
+      </>
+    ),
   },
   {
     title: "Expert Project Managers",
@@ -247,22 +250,38 @@ const highlights = [
   },
   {
     title: "Post-Launch Support",
-    desc: "You can easily depend on our iOS app development services because the support services we offer make your app competitive in the long run. ",
+    desc: (
+      <>
+        You can easily depend on our <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS app development services</Link> because the support services we offer make your app competitive in the long run. 
+      </>
+    ),
   },
   {
     title: "Custom Solutions",
-    desc: "Every app we build is supposed to meet your requirements through iOS app development services. ",
+    desc: (
+      <>
+        Every app we build is supposed to meet your requirements through <Link href="/services/ios-app-development-services" className="text-[#F15C20]">ios app development services</Link>. 
+      </>
+    ),
   },
 ];
 
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Apps",
-    desc: "Providing the best iOS application development service, we build apps that comply with HIPAA and are fully prepared for the healthcare sector.",
+    desc: (
+      <>
+        Providing the best <Link href="/services/ios-app-development-services" className="text-[#F15C20]">ios application development service</Link>, we build apps that comply with HIPAA and are fully prepared for the healthcare sector.
+      </>
+    ),
   },
   {
     title: "Fintech Apps",
-    desc: "With our fintech iOS application development service, we support launching secure fintech and payment mobile apps with multi-layer authentication.",
+    desc: (
+      <>
+        With our fintech <Link href="/services/ios-app-development-services" className="text-[#F15C20]">ios application development service</Link>, we support launching secure fintech and payment mobile apps with multi-layer authentication.
+      </>
+    ),
   },
   {
     title: "E-commerce & Retail Apps",
@@ -270,7 +289,11 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "E-Learning and Educational Apps",
-    desc: "We provide education iOS app development services that guide students through courses and quizzes while giving teachers powerful dashboard tools.",
+    desc: (
+      <>
+        We provide <Link href="/industries/e-learning-app-development" className="text-[#F15C20]">education ios app development services</Link> that guide students through courses and quizzes while giving teachers powerful dashboard tools.
+      </>
+    ),
   },
   {
     title: "Real Estate Apps",
@@ -407,8 +430,11 @@ const faqs = [
   {
     id: 1,
     question: "Do you build iOS apps?",
-    answer:
-      "Yes. Our iOS app development services create stores that grow with your business. We ensure smooth performance and easy management so your iOS app can handle more users and traffic while delivering a reliable and fluent experience across iOS devices.",
+    answer: (
+      <>
+        Yes. Our <Link href="/services/ios-app-development-services" className="text-[#F15C20]">ios app development services</Link> create stores that grow with your business. We ensure smooth performance and easy management so your iOS app can handle more users and traffic while delivering a reliable and fluent experience across iOS devices.
+      </>
+    ),
   },
   {
     id: 2,
@@ -431,8 +457,11 @@ const faqs = [
   {
     id: 5,
     question: "Do you work with startups and enterprises?",
-    answer:
-      "Yes. The team serves businesses of all sorts. As the professional custom ios app development services provider, we deliver the tailored solutions for the startups and large enterprises, ensuring that your app is secure, scalable and optimized to grow your business while providing the fluent experience of customers. ",
+    answer: (
+      <>
+        Yes. The team serves businesses of all sorts. As the professional <Link href="/services/ios-app-development-services" className="text-[#F15C20]">custom ios app development services</Link> provider, we deliver the tailored solutions for the startups and large enterprises, ensuring that your app is secure, scalable and optimized to grow your business while providing the fluent experience of customers. 
+      </>
+    ),
   },
 ];
 
@@ -476,7 +505,11 @@ const IOSAppDev = () => {
       <About
         heading="About "
         heading2={"Dignite Studios"}
-        para="Having about 10+ years of experience, Dignite Studios is the best iOS mobile app development company in the USA. We worked on 300+ projects for startups and businesses and turned their ideas into functional mobile apps with around 200+ trusted app developers. We go from strategy to launch in quick, short sprints and develop iOS apps that are designed to grow with your business. Scalability is not just a term for us; it’s a whole mindset when we develop apps. That’s how our experience of working with different industries and services makes us unique among other companies."
+        para={
+          <>
+            Having about 10+ years of experience, Dignite Studios is the <Link href="/services/ios-app-development" className="text-[#F15C20]">best iOS mobile app development company</Link> in the USA. We worked on 300+ projects for startups and businesses and turned their ideas into functional mobile apps with around 200+ trusted <Link href="/services/hire-ios-app-developers" className="text-[#F15C20]">hire ios app developers</Link>. We go from strategy to launch in quick, short sprints and develop iOS apps that are designed to grow with your business. Scalability is not just a term for us; it’s a whole mindset when we develop apps. That’s how our experience of working with different industries and services makes us unique among other companies.
+          </>
+        }
         button="Find Your Team Today"
       />
       <Services
@@ -551,8 +584,8 @@ const IOSAppDev = () => {
         para={
           <>
             We are experts at building mobile applications that just feel right
-            for iOS devices. You can hire ios app developer and designers. We
-            provide you with the iOS app development services you need for your
+            for iOS devices. You can <Link href="/services/hire-ios-app-developers" className="text-[#F15C20]">hire ios app developer</Link> and designers. We
+            provide you with the <Link href="/services/ios-app-development-services" className="text-[#F15C20]">ios app development services</Link> you need for your
             target audience. Dignite Studios consists of a team that takes the
             time to understand your audience before the development of the app
             even begins. We deliver the functional iOS applications with clear
@@ -565,7 +598,7 @@ const IOSAppDev = () => {
         header={"Specialized iOS App Development Services for Different"}
         header2={"Industries"}
         para={
-          "We design iOS apps according to your goals. Being one of the top iOS app development companies, we hire ios app developer who prevent us from offering the exact same product for every industry and niche. Because offering customized solutions for every industry is our specialty. And building apps customized for your industry needs gives you an advantage in the market. "
+          <>We design iOS apps according to your goals. Being one of the top <Link href="/services/ios-app-development" className="text-[#F15C20]">ios app development companies</Link>, we <Link href="/services/hire-ios-app-developers" className="text-[#F15C20]">hire ios app developer</Link> who prevent us from offering the exact same product for every industry and niche. Because offering customized solutions for every industry is our specialty. And building apps customized for your industry needs gives you an advantage in the market. </>
         }
         button={" Let’s Discuss Today"}
       />

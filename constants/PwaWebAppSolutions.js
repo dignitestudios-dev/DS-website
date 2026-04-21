@@ -21,18 +21,18 @@ export const PWA_WEB_APP_SOLUTIONS = [
     count: "04",
     title: "App-Like Experience",
     description:
-      "Progressive web apps (PWAs) provide a responsive design and native app-like experience like push notifications and home screen installation. Our progressive web app development services bestow smooth architecture for the partners and clients to prevent errors.",
+      "Progressive web apps (PWAs) provide a responsive design and native app-like experience like push notifications and home screen installation. Our <a href='/services/progressive-web-app-development' class='text-[#F15C20]'>progressive web app development services</a> bestow smooth architecture for the partners and clients to prevent errors.",
   },
   {
     count: "05",
     title: "Seamless Integration",
     description:
-      "The team of progressive web app development company Dignite Studios conducts direct changes to the server to get the latest version of PWA instantly. We thrive PWA development with effective measures.",
+      "The team of <a href='/services/progressive-web-app-development' class='text-[#F15C20]'>progressive web app development company</a> Dignite Studios conducts direct changes to the server to get the latest version of PWA instantly. We thrive PWA development with effective measures.",
   },
   {
     count: "06",
     title: "Lower Development and Maintenance Costs",
     description:
-      "Our reliable progressive web app development services hold minimum costs for PWA development under strict guidance and limited resources",
+      "Our reliable <a href='/services/progressive-web-app-development' class='text-[#F15C20]'>progressive web app development services</a> hold minimum costs for PWA development under strict guidance and limited resources",
   },
 ];

@@ -17,16 +17,16 @@ export const PWA_DEVELOPMENT_PROCESS = [
   {
     count: "04",
     title: "QA Testing",
-    desc: "While developing high-performing PWAs, our pre-eminent PWA development services provide manual and automated testing to ensure bug-free PWA development with a flawless operating system. We strive to impart business-oriented PWA solutions for our users, and also to seascape an effective landscape of custom progressive web app development.",
+    desc: "While developing high-performing PWAs, our pre-eminent <a href='/services/progressive-web-app-development' class='text-[#F15C20]'>PWA development services</a> provide manual and automated testing to ensure bug-free PWA development with a flawless operating system. We strive to impart business-oriented PWA solutions for our users, and also to seascape an effective landscape of <a href='/services/progressive-web-app-development' class='text-[#F15C20]'>custom progressive web app development</a>.",
   },
   {
     count: "05",
     title: "PWA Deployment And Launch",
-    desc: "After the testing process, the team of progressive web app development services Initiates the launching phase, to deploy on the required platform. Here, we conduct effective measures throughout the process.",
+    desc: "After the testing process, the team of <a href='/services/progressive-web-app-development' class='text-[#F15C20]'>progressive web app development services</a> Initiates the launching phase, to deploy on the required platform. Here, we conduct effective measures throughout the process.",
   },
   {
     count: "06",
     title: "Support and Maintenance",
-    desc: "A progressive web app is easy to maintain under strong technical support 24/7. Our progressive web application development services resolve all your PWA issues and hurdles in the growth of your web app.",
+    desc: "A progressive web app is easy to maintain under strong technical support 24/7. Our <a href='/services/progressive-web-app-development' class='text-[#F15C20]'>progressive web application development services</a> resolve all your PWA issues and hurdles in the growth of your web app.",
   },
 ];

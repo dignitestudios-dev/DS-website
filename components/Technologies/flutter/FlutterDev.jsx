@@ -134,7 +134,11 @@ const highlights = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare",
-    desc: "Healthcare platforms built with experience in healthcare app development focus on secure patient data and usability.",
+    desc: (
+      <>
+        Healthcare platforms built with experience in <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">healthcare app development</Link> focus on secure patient data and usability.
+      </>
+    ),
   },
   {
     title: "Financial",
@@ -142,11 +146,19 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Ecommerce",
-    desc: "Online brands work with us as an ecommerce app development company that creates fast shopping experiences.",
+    desc: (
+      <>
+        Online brands work with us as an <Link href="/ecommerce/ecommerce-app-development" className="text-[#F15C20]">ecommerce app development company</Link> that creates fast shopping experiences.
+      </>
+    ),
   },
   {
     title: "Real Estate",
-    desc: "Property platforms grow with tools inspired by real estate app development approach.",
+    desc: (
+      <>
+        Property platforms grow with tools inspired by <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development</Link> approach.
+      </>
+    ),
   },
   {
     title: "E Learning",

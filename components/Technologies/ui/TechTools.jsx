@@ -22,7 +22,7 @@ import {
   SiWebflow,
   SiBigcommerce,
   SiSquarespace,
-  SiAzure,
+  SiMicrosoft,
   SiGooglecloud,
   SiDigitalocean,
 } from "react-icons/si";
@@ -165,7 +165,7 @@ const techData = {
     },
     {
       name: "Azure",
-      icon: <SiAzure />,
+      icon: <SiMicrosoft />,
       description:
         "Enterprise-ready cloud with strong security and integration.",
     },
@@ -311,7 +311,7 @@ const TechCard = ({ tech }) => {
 
         {/* Back */}
         <div className="absolute inset-0 backface-hidden bg-[#F15C20] rounded-xl p-8 flex items-center justify-center text-center rotate-y-180 shadow-2xl">
-          <p className="text-white leading-relaxed">{tech.description}</p>
+          <p className="text-white leading-relaxed" dangerouslySetInnerHTML={{ __html: tech.description }}></p>
         </div>
       </motion.div>
     </motion.div>

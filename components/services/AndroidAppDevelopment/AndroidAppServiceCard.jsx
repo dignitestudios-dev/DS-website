@@ -52,9 +52,8 @@ const AndroidAppServiceCard = ({ title, desc, light_icon, dark_icon, count }) =>
               ? "text-gray-400 group-hover:text-gray-200"
               : "text-black group-hover:text-gray-200"
           }`}
-        >
-          {desc}
-        </p>
+          dangerouslySetInnerHTML={{ __html: desc }}
+        ></p>
       </div>
     </div>
   );

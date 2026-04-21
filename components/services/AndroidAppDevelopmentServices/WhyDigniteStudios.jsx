@@ -58,7 +58,7 @@ const WhyDigniteStudios = () => {
           >
             Dignite Studios prioritizes business standards and values to meet
             the clientele's demands to their fullest. Our top-class team of
-            custom Android app development company maintains potent strategies
+            <Link href="/services/android-app-development-services" className="text-[#F15C20]">custom Android app development company</Link> maintains potent strategies
             to make your app powerful and globally worthwhile.
           </p>
         </div>
@@ -97,7 +97,7 @@ const WhyDigniteStudios = () => {
                 theme === "light" && "text-[#8F8F8F]"
               } text-xs font-normal lg:leading-[16.14px]`}
             >
-              Top-notch trusted Android application development company Dignite
+              Top-notch trusted <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android application development company</Link> Dignite
               Studios frames flexible layouts of your mobile projects of
               different Android app types to rank your app on the international
               platform.

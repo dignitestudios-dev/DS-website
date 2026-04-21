@@ -25,11 +25,11 @@ const WhyChooseUs = () => {
 
       <p className="text-base lg:leading-[21.76px] lg:w-[50%] mx-auto lg:text-center mb-6">
         Since Dignite Studios stepped into the world of digitalization, it has
-        been marking a prestigious reputation in the leading industry of mobile
-        apps. Prevailing a dominance with unmatchable expertise, our mobile app
-        development dispenses top-notch native apps that follow the latest
-        trends and development tools. Throughout the process of native app
-        development, we capture growth advantages and resolve rising business
+        been marking a prestigious reputation in the leading industry of <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">mobile
+        apps</Link>. Prevailing a dominance with unmatchable expertise, our <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">mobile app
+        development</Link> dispenses top-notch <Link href="/services/native-app-development-services" className="text-[#F15C20]">native apps</Link> that follow the latest
+        trends and development tools. Throughout the process of <Link href="/services/native-app-development-services" className="text-[#F15C20]">native app
+        development</Link>, we capture growth advantages and resolve rising business
         challenges.
       </p>
 

@@ -14,10 +14,10 @@ const WeCommitToDeliver = () => {
             <span className="text-[#F15C20]">we</span> Commit To Deliver
           </h2>
           <p className="text-lg font-normal mt-4">
-            Among premier mobile app development companies, we batten
-            exceptional assistance on a wider scale to flourish Android and iOS
-            devices internationally. From the start to the launch of mobile
-            development, we construct and refine the design and performance of
+            Among premier <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">mobile app development companies</Link>, we batten
+            exceptional assistance on a wider scale to flourish <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android</Link> and <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS</Link>
+            devices internationally. From the start to the launch of <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">mobile
+            development</Link>, we construct and refine the design and performance of
             the app productively. As a reputable provider of native{" "}
             <Link
               href={"/services/mobile-app-development-services"}
@@ -59,11 +59,11 @@ const WeCommitToDeliver = () => {
           >
             With years of dedicated experience, Dignite Studios has accompanied
             leading industries with powerful strategies to rank the title among
-            large enterprises. Our native mobile app development services create
+            large enterprises. Our <Link href="/services/native-app-development-services" className="text-[#F15C20]">native mobile app development services</Link> create
             platform-specific apps with modern features and smooth functionality
             to upgrade digital presence. We adapt sharp-witted procedures in the
-            production of mobile applications for both iOS and Android native
-            apps to rank businesses up to the highest level.
+            production of <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">mobile applications</Link> for both <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS</Link> and <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android</Link> <Link href="/services/native-app-development-services" className="text-[#F15C20]">native
+            apps</Link> to rank businesses up to the highest level.
           </p>
         </div>
         <div className="col-span-3 lg:col-span-2 h-full">
@@ -119,14 +119,14 @@ const WeCommitToDeliver = () => {
             } text-[#666666] text-xs leading-[15.6px] mt-3 tracking-[-0.41%]`}
           >
             Apple’s ecosystem has raised a 1.56 billion iPhone-user base with
-            gilt-edged iOS native applications. It enables the fastest software
-            development process for iOS apps with two Apple programming
+            gilt-edged <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS native applications</Link>. It enables the fastest <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">software
+            development process</Link> for <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS apps</Link> with two Apple programming
             languages by which you can build a smooth application architecture
-            for your mobile app. Our native app services bestow the highest
-            quality native app development frameworks to enhance iOS platforms
+            for your mobile app. Our <Link href="/services/native-app-development-services" className="text-[#F15C20]">native app services</Link> bestow the highest
+            quality <Link href="/services/native-app-development-services" className="text-[#F15C20]">native app development frameworks</Link> to enhance <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS platforms</Link>
             with multitasking capabilities. Here, we leverage app functionality,
-            under the diligent observation of React native engineers to develop
-            error-free iOS native apps.
+            under the diligent observation of <Link href="/services/hire-react-native-developers" className="text-[#F15C20]">React native engineers</Link> to develop
+            error-free <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS native apps</Link>.
           </p>
         </div>
         <div className="col-span-3 lg:col-span-1">
@@ -150,13 +150,13 @@ const WeCommitToDeliver = () => {
               theme === "light" ? "text-[#666666]" : "text-[#B4B4B4]"
             } text-[#666666] text-xs leading-[15.6px] mt-3 tracking-[-0.41%]`}
           >
-            Native apps for Android platforms are created using a streamlined,
+            <Link href="/services/native-app-development-services" className="text-[#F15C20]">Native apps for Android</Link> platforms are created using a streamlined,
             single-code development process. They form different approaches and
-            specific Android programming languages i.e. Kotlin or Java. You can
-            create native mobile apps for both mobile and desktop. When your app
+            specific <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android programming languages</Link> i.e. Kotlin or Java. You can
+            create <Link href="/services/native-app-development-services" className="text-[#F15C20]">native mobile apps</Link> for both mobile and desktop. When your app
             reaches the final development phase, you’ll simply submit it to the
             Google Play Store. <br />
-            Dignite’s highly skillful Native App developers foster unique
+            Dignite’s highly skillful <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">Native App developers</Link> foster unique
             mechanisms with Android software development kits, command tools,
             and Android Jetpack to attain tremendous recognition among other
             mobile apps. We also develop personalized native features for apps

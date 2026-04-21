@@ -116,7 +116,7 @@ const MobileApp = ({ cards, header, header2, para , button }) => {
                     >
                       {card.title}
                     </h3>
-                    <p className="text-sm text-start line-clamp-5 leading-relaxed opacity-90">
+                    <p className={`text-sm text-start line-clamp-5 leading-relaxed opacity-90 ${isActive ? "[&_a]:text-white [&_a]:underline" : "[&_a]:text-[#F15C20]"}`}>
                       {card.desc}
                     </p>
                   </div>

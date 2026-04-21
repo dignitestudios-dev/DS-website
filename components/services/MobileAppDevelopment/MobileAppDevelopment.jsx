@@ -37,7 +37,7 @@ import {
   SiWebflow,
   SiBigcommerce,
   SiSquarespace,
-  SiAzure,
+  SiMicrosoft,
   SiGooglecloud,
   SiDigitalocean,
   SiCloudinary,
@@ -171,9 +171,7 @@ const services = [
     title: "Android App Development",
     description: (
       <>
-        You can definitely rely on Dignite Studios with your Android app
-        development because the team develops applications that are optimized
-        for devices like Samsung and OnePlus.
+        You can definitely rely on Dignite Studios with your <Link href="/services/android-app-development" className="text-[#F15C20]">Android app development</Link> because the team develops applications that are optimized for devices like Samsung and OnePlus.
       </>
     ),
   },
@@ -183,9 +181,7 @@ const services = [
     title: "Hybrid App Development",
     description: (
       <>
-        Hybrid mobile app development keeps your project smooth. So, if you care
-        about fast results without breaking the budget, hybrid development is
-        your match.
+        <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">Hybrid mobile app development services</Link> keeps your project smooth. So, if you care about fast results without breaking the budget, hybrid development is your match.
       </>
     ),
   },
@@ -215,8 +211,7 @@ const services = [
     title: "Maintenance and Testing",
     description: (
       <>
-        Dignite Studios provides mobile app support & maintenance, consulting,
-        and testing & QA services to make sure your app stays updated.
+        Dignite Studios provides <Link href="/services/mobile-application-support-and-maintenance-services" className="text-[#F15C20]">mobile app support & maintenance</Link>, <Link href="/services/mobile-app-consulting-services" className="text-[#F15C20]">mobile app consulting services</Link>, and <Link href="/services/mobile-app-testing-services" className="text-[#F15C20]">mobile app testing services</Link> to make sure your app stays updated.
       </>
     ),
   },
@@ -229,7 +224,11 @@ const highlights = [
   },
   {
     title: "High Level Expertise",
-    desc: "Being one of the top mobile app development companies, we provide top-tier design and development.",
+    desc: (
+      <>
+        Being one of the <Link href="/services/top-mobile-app-development" className="text-[#F15C20]">top mobile app development companies</Link>, we provide top-tier design and development.
+      </>
+    ),
   },
   {
     title: "Expert Project Managers",
@@ -241,7 +240,11 @@ const highlights = [
   },
   {
     title: "Post-Launch Support",
-    desc: "The support services we provide make your app competitive, so you can easily depend on our mobile app development services.",
+    desc: (
+      <>
+        The support services we provide make your app competitive, so you can easily depend on our <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">mobile app development services</Link>.
+      </>
+    ),
   },
   {
     title: "Custom Solutions",
@@ -252,7 +255,11 @@ const highlights = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Apps",
-    desc: "As the best mobile app development company USA, we build apps that comply with HIPAA, completely prepared for the health sector.",
+    desc: (
+      <>
+        As the <Link href="/services/mobile-app-development" className="text-[#F15C20]">best mobile app development company in usa</Link>, we build apps that comply with HIPAA, completely prepared for the health sector.
+      </>
+    ),
   },
   {
     title: "Entertainment Industry ",
@@ -262,7 +269,11 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Ecommerce & Retail Apps",
-    desc: "Dignite Studios keeps everything simple through ecommerce development services. Storefront, Inventory, and POS? Already included.",
+    desc: (
+      <>
+        Dignite Studios keeps everything simple through <Link href="/ecommerce/ecommerce-app-development" className="text-[#F15C20]">ecommerce application development services</Link>. Storefront, Inventory, and POS? Already included.
+      </>
+    ),
   },
   {
     title: "Food Industry",
@@ -272,7 +283,11 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Real Estate Apps",
-    desc: "Dignite Studios offers property apps that include the following: Listings, virtual tours, mortgage calculators, and management tools.",
+    desc: (
+      <>
+        Dignite Studios offers <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development</Link> that include the following: Listings, virtual tours, mortgage calculators, and management tools.
+      </>
+    ),
   },
   {
     title: "Dating and Matchmaking Apps",
@@ -407,7 +422,11 @@ const PROCESS_STEPS = [
   {
     step: "03",
     title: "Development Stage",
-    desc: "The app development begins, and our professional mobile app developers work according to the product roadmap and total execution time.",
+    desc: (
+      <>
+        The app development begins, and our professional <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">mobile app developers</Link> work according to the product roadmap and total execution time.
+      </>
+    ),
   },
   {
     step: "04",
@@ -433,7 +452,11 @@ const MobileAppDevelopment = () => {
       <About
         heading="The BackStory of"
         heading2={"Dignite Studios"}
-        para="With 10+ years of experience, Dignite Studios is the best mobile app development company in USA. With over 200+ trusted mobile app developers, we’ve worked on 300+ projects for startups and businesses and turned their ideas into functional mobile apps. We go from strategy to deployment in quick sprints and develop mobile apps that are designed to grow with your business. Scalability is not just a word for us; it’s a whole mindset when we develop apps. That’s how our experience with different industries and services makes us unique among other companies."
+        para={
+          <>
+            With 10+ years of experience, Dignite Studios is the <Link href="/services/mobile-app-development" className="text-[#F15C20]">best mobile app development company in usa</Link>. With over 200+ trusted <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">mobile app developers</Link>, we’ve worked on 300+ projects for startups and businesses and turned their ideas into functional mobile apps. We go from strategy to deployment in quick sprints and develop mobile apps that are designed to grow with your business. Scalability is not just a word for us; it’s a whole mindset when we develop apps. That’s how our experience with different industries and services makes us unique among other companies.
+          </>
+        }
         button="Contact us Today"
       />
       <Services
@@ -528,8 +551,7 @@ const MobileAppDevelopment = () => {
         header2={"App"}
         para={
           <>
-            There are several reasons why you should get your own mobile app
-            built from the best mobile app development company in USA.
+            There are several reasons why you should get your own mobile app built from the <Link href="/services/mobile-app-development" className="text-[#F15C20]">best mobile app development company in usa</Link>.
           </>
         }
         cards={BENEFITS}
@@ -539,13 +561,7 @@ const MobileAppDevelopment = () => {
         header2={"App"}
         para={
           <>
-            Developing a mobile application is more than just creating colorful
-            designs. The success of your mobile app depends on the features,
-            too. It requires the right features to deliver performance and
-            long-term growth. Every feature is supposed to enhance the user
-            experience. By adding these essential features, your mobile app can
-            improve user retention, which can support your business objectives
-            effectively, being the best mobile app development company in USA.
+            Developing a mobile application is more than just creating colorful designs. The success of your mobile app depends on the features, too. It requires the right features to deliver performance and long-term growth. Every feature is supposed to enhance the user experience. By adding these essential features, your mobile app can improve user retention, which can support your business objectives effectively, being the <Link href="/services/mobile-app-development" className="text-[#F15C20]">best mobile app development company in usa</Link>.
           </>
         }
         features={FEATURES}

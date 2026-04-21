@@ -128,7 +128,11 @@ const highlights = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Apps",
-    desc: "As a Healthcare App Development Company Washington DC, we build HIPAA-ready apps. Prepared for the health sectors.",
+    desc: (
+      <>
+        As a <Link href='/industries/healthcare-app-development' className='text-[#F15C20]'>Healthcare App Development Company</Link> Washington DC, we build HIPAA-ready apps. Prepared for the health sectors.
+      </>
+    ),
   },
   {
     title: "Fintech Apps",
@@ -136,7 +140,11 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Ecommerce & Retail Apps",
-    desc: "We keep things quick and simple through ecommerce application development services. Storefront? Check. Inventory? Check. POS and loyalty? All included.",
+    desc: (
+      <>
+        We keep things quick and simple through <Link href='/ecommerce/ecommerce-app-development' className='text-[#F15C20]'>ecommerce application development services</Link>. Storefront? Check. Inventory? Check. POS and loyalty? All included.
+      </>
+    ),
   },
   {
     title: "Education & E-learning apps",
@@ -144,7 +152,11 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Real Estate Apps",
-    desc: "Our app development company Washington DC offer property tech apps that include property listings, advanced filters, virtual tours, mortgage calculators, and lead management tools.",
+    desc: (
+      <>
+        Our app development company Washington DC offer <Link href='/industries/real-estate-app-development' className='text-[#F15C20]'>property tech apps</Link> that include property listings, advanced filters, virtual tours, mortgage calculators, and lead management tools.
+      </>
+    ),
   },
   {
     title: "Dating & Matchmaking Apps",

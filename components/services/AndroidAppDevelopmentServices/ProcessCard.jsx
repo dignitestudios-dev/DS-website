@@ -49,9 +49,8 @@ const ProcessCard = ({ title, desc, count, num }) => {
               ? "text-gray-200 group-hover:text-gray-200"
               : "text-[#8f8f8f] group-hover:text-gray-200"
           }`}
-        >
-          {desc}
-        </p>
+          dangerouslySetInnerHTML={{ __html: desc }}
+        />
       </div>
     </div>
   );

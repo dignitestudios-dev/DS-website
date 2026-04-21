@@ -70,8 +70,8 @@ const services = [
     description: (
       <>
         Our apps help businesses manage listings, track property details and
-        update information easily using the reliable real estate app development
-        solutions.
+        update information easily using the reliable <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development
+        solutions</Link>.
       </>
     ),
   },
@@ -137,8 +137,8 @@ const services = [
     description: (
       <>
         We design apps for the agents to manage listings, track leads and
-        communicate with the clients easily while using the mobile app
-        development for real estate.
+        communicate with the clients easily while using the <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">mobile app
+        development for real estate</Link>.
       </>
     ),
   },
@@ -148,7 +148,11 @@ const highlights = [
   {
     icon: "/industries/food-industry/s1.webp",
     title: "Experienced Mobile App Developers",
-    desc: "Our talented real estate app developers create apps which adjust to corporate objectives guaranteeing dependable operation and a fluent user experience across all the platforms",
+    desc: (
+      <>
+        Our talented <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app developers</Link> create apps which adjust to corporate objectives guaranteeing dependable operation and a fluent user experience across all the platforms
+      </>
+    ),
   },
   {
     icon: "/industries/food-industry/s2.webp",
@@ -229,7 +233,11 @@ const test = [
     name: "Sebastian",
     designation: "— Urban Realty",
     review:
-      "Working with Dignite Studios, a reliable real estate mobile app development company was a smooth experience. Their team understood our requirements clearly and delivered exactly what we needed",
+      (
+        <>
+          Working with Dignite Studios, a reliable <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate mobile app development company</Link> was a smooth experience. Their team understood our requirements clearly and delivered exactly what we needed
+        </>
+      ),
   },
   {
     name: "Sophia",
@@ -253,7 +261,11 @@ const test = [
     name: "John Carter",
     designation: "— Estate Link",
     review:
-      "Communication was clear and consistent. The team from this trusted real estate mobile app development company made sure we understood every step and delivered a reliable application",
+      (
+        <>
+          Communication was clear and consistent. The team from this trusted <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate mobile app development company</Link> made sure we understood every step and delivered a reliable application
+        </>
+      ),
   },
   {
     name: "Oliver Parker",
@@ -310,7 +322,11 @@ const BENEFITS = [
   },
   {
     title: "Digital Transformation of Property Businesses",
-    desc: "Apps help businesses move from the manual processes to digital systems using mobile app development for the real estate, improving the efficiency and long term growth.",
+    desc: (
+      <>
+        Apps help businesses move from the manual processes to digital systems using <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">mobile app development for the real estate</Link>, improving the efficiency and long term growth.
+      </>
+    ),
     icon: <BsBuildingGear color="#F15C20" size={25} />,
   },
 ];
@@ -320,7 +336,9 @@ const faqs = [
     id: 1,
     question: "How much does it cost to build a real estate app?",
     answer:
-      "The real estate app development company cost depends mostly on features, design complexity, integrations and platform choice. A simple app can cost less, while advanced apps with AI dashboards and the custom features require a higher budget. The final cost varies based on project scope and also the business requirements.",
+      <>
+        The <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development company cost</Link> depends mostly on features, design complexity, integrations and platform choice. A simple app can cost less, while advanced apps with AI dashboards and the custom features require a higher budget. The final cost varies based on project scope and also the business requirements.
+      </>,
   },
   {
     id: 2,
@@ -338,13 +356,17 @@ const faqs = [
     id: 4,
     question: "Can you integrate MLS or third party property APIs?",
     answer:
-      "Yes, we integrate MLS systems and third party APIs such as maps, payment gateways and property databases. These integrations improve the app functionality and also provide the real time data. Our mobile app development for real estate approach ensures the smooth and secure API integration without affecting performance or user experience.",
+      <>
+        Yes, we integrate MLS systems and third party APIs such as maps, payment gateways and property databases. These integrations improve the app functionality and also provide the real time data. Our <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">mobile app development for real estate</Link> approach ensures the smooth and secure API integration without affecting performance or user experience.
+      </>,
   },
   {
     id: 5,
     question: "Do you provide post launch support?",
     answer:
-      "Yes, we offer complete post launch support as part of our real estate app development services. This also includes regular updates, bug fixes, performance optimization and feature improvements. Our team also ensures your app runs smoothly and stays updated as your business grows and users also need to evolve.",
+      <>
+        Yes, we offer complete post launch support as part of our <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development services</Link>. This also includes regular updates, bug fixes, performance optimization and feature improvements. Our team also ensures your app runs smoothly and stays updated as your business grows and users also need to evolve.
+      </>,
   },
 ];
 
@@ -465,12 +487,12 @@ const RealState = () => {
             The real estate market is growing fast with digital platforms.
             Buyers and sellers now prefer mobile apps to search and manage the
             properties. A strong app makes the property discovery simple and
-            fast. Dignite Studios is a leading real estate app development
-            company with over 10 years of experience and 300+ apps delivered. We
+            fast. Dignite Studios is a leading <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development
+            company</Link> with over 10 years of experience and 300+ apps delivered. We
             build custom apps for the agents, brokers and property businesses.
             Our team creates user friendly platforms that support easy search,
-            listing management and communication. As a trustworthy real estate
-            mobile app development firm, we also prioritize scalability and
+            listing management and communication. As a trustworthy <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate
+            mobile app development firm</Link>, we also prioritize scalability and
             performance. We help businesses grow and improve customer
             experience.
           </>
@@ -480,32 +502,52 @@ const RealState = () => {
         header="Real Estate App Development "
         header2={"Services"}
         // button={"Explore Our Services"}
-        para="We offer complete real estate app development services that help businesses manage properties, connect with buyers and improve the sales. Our team builds scalable apps with modern features to support the real estate businesses and marketplaces.   "
+        para={
+          <>
+            We offer complete <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development services</Link> that help businesses manage properties, connect with buyers and improve the sales. Our team builds scalable apps with modern features to support the real estate businesses and marketplaces.
+          </>
+        }
         services={services}
       />
       <CTA
         header="Start Your Real Estate App Project "
-        para=" Ready to build your app with our real estate mobile app developer. Our team creates scalable platforms through advanced search, property management and smooth user experience. "
+        para={
+          <>
+            Ready to build your app with our <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate mobile app developer</Link>. Our team creates scalable platforms through advanced search, property management and smooth user experience.
+          </>
+        }
         btn="Start Your Real Estate App Project "
       />
       <SuccessStories
         header="Real Estate App Development  "
         header2={" Case Studies"}
-        para="We have delivered successful apps for property businesses. Our case studies show how our real estate app development solutions improved user experience, increased engagement and supported business growth. "
+        para={
+          <>
+            We have delivered successful apps for property businesses. Our case studies show how our <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development solutions</Link> improved user experience, increased engagement and supported business growth.
+          </>
+        }
       />
       <DeliveryFeatures />
       <MobileApp
         cards={BENEFITS}
         header2={"Real Estate Apps"}
         header=" Benefits of Investing in "
-        para="Real Estate apps help businesses grow faster and manage daily operations easily. They boost productivity, facilitate automation and enhance the customer experience. Companies may also increase user reach, boost engagement and create scalable digital platforms which facilitate long term growth by investing in mobile app development for real estate.   "
+        para={
+          <>
+            Real Estate apps help businesses grow faster and manage daily operations easily. They boost productivity, facilitate automation and enhance the customer experience. Companies may also increase user reach, boost engagement and create scalable digital platforms which facilitate long term growth by investing in <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">mobile app development for real estate</Link>.
+          </>
+        }
         button=" Book a Free Consultation  "
       />
 
       <Features
         header="Cutting Edge Technologies for"
         header2={"Real Estate Apps"}
-        para="Utilising modern technologies, our real estate app development solutions also enhance productivity performance, and user experience. These tools support companies in data analysis, property management and client engagement.  "
+        para={
+          <>
+            Utilising modern technologies, our <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development solutions</Link> also enhance productivity performance, and user experience. These tools support companies in data analysis, property management and client engagement.
+          </>
+        }
         button={"Lets Grow Your Business "}
         // button="Get Feature Recommendations"
         features={featureData}
@@ -517,7 +559,7 @@ const RealState = () => {
         button="Let's get started "
         para={
           <>
-            We provide real estate app developer with reliable solutions for
+            We provide <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app developer</Link> with reliable solutions for
             property businesses. To guarantee constant expansion and
             performance, we focus on scalable apps, safe integrations and the
             long term maintenance.
@@ -527,7 +569,11 @@ const RealState = () => {
       />
       <Process
         header="Our Real Estate Application Development Process"
-        para="Our process ensures smooth and structured app delivery from start to finish. As a trusted real estate mobile app developer, we focus on planning, design, development, testing and support to build reliable apps which meet business goals and deliver a fluent user experience.   "
+        para={
+          <>
+            Our process ensures smooth and structured app delivery from start to finish. As a trusted <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate mobile app developer</Link>, we focus on planning, design, development, testing and support to build reliable apps which meet business goals and deliver a fluent user experience.
+          </>
+        }
         steps={PROCESS_STEPS}
       />
       <Impact />
@@ -559,7 +605,7 @@ const RealState = () => {
           <>
             The cost of building a property app depends on many factors. These
             include app features, level of complexity, integration development
-            approach. The real estate app development cost can change based on
+            approach. The <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development cost</Link> can change based on
             business needs. The estimates below give a general idea to help
             businesses plan their budget.{" "}
           </>
@@ -592,7 +638,9 @@ const RealState = () => {
         header2={"Development Company"}
         test={test}
         para={
-          "Clients trust our real estate app development company for delivering reliable and high quality solutions. We also worked with multiple real estate businesses, helping them to improve performance, user experience and digital growth. Below is the feedback that we got from our clients. "
+          <>
+            Clients trust our <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development company</Link> for delivering reliable and high quality solutions. We also worked with multiple real estate businesses, helping them to improve performance, user experience and digital growth. Below is the feedback that we got from our clients.
+          </>
         }
         // button="Work With Our Expert Team"
       />
@@ -601,7 +649,11 @@ const RealState = () => {
         pathname={"Real Estate App dev"}
         img={"/industries/real-state/c-img.webp"}
         header="Start Your Real Estate App Journey"
-        para="Share your app idea with our real estate app development company. We will guide you with the right solution and strategy.  "
+        para={
+          <>
+            Share your app idea with our <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development company</Link>. We will guide you with the right solution and strategy.
+          </>
+        }
         btn="Get Free Consultation "
       />
     </div>

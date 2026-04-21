@@ -56,7 +56,7 @@ export const androidservices = [
       {
         title: "Android App Updates & Optimization",
         description:
-          "Does your app pull in hindrances? Here, we bestow the best Android mobile app development services all for free for up to 2 months. Let’s build your app updates and optimization process efficient and smooth with our tremendous mobile app development company, Dignite Studios.",
+          "Does your app pull in hindrances? Here, we bestow the best <a href='/services/android-app-development-services' class='text-[#F15C20]'>Android mobile app development services</a> all for free for up to 2 months. Let’s build your app updates and optimization process efficient and smooth with our tremendous <a href='/services/android-app-development-services' class='text-[#F15C20]'>mobile app development company</a>, Dignite Studios.",
         icon_dark: "/uiuxblack.webp",
         icon_white: "/uiwhite.webp",
       },

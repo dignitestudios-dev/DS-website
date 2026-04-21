@@ -80,9 +80,8 @@ const PwaDevelopmentProcess = () => {
                       ? "text-gray-200 group-hover:text-gray-200"
                       : "text-[#8f8f8f] group-hover:text-gray-200"
                   }`}
-                >
-                  {service.desc}
-                </p>
+                  dangerouslySetInnerHTML={{ __html: service.desc }}
+                ></p>
               </div>
             </div>
           );

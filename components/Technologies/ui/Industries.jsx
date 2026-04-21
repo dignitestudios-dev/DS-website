@@ -154,9 +154,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
                     </h3>
                   </div>
 
-                  <p className="text-sm px-4 text-start lg:leading-[17px] font-medium line-clamp-5">
-                    {value?.desc}
-                  </p>
+                  <p className="text-sm px-4 text-start lg:leading-[17px] font-medium line-clamp-5" dangerouslySetInnerHTML={{ __html: value?.desc }}></p>
                 </div>
                 <div
                   className={`relative bottom-0 rounded-b-[14px] left-[50%] overflow-hidden translate-x-[-50%] pt-14 py-4 bg-[#FFC2A9] w-full mx-auto  text-center`}

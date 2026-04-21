@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useContext } from "react";
+import Link from "next/link";
 import { GlobalContext } from "@/context/GlobalContext";
 
 const WhyChooseUs = () => {
@@ -19,8 +20,8 @@ const WhyChooseUs = () => {
       </h2>
 
       <p className="text-base lg:leading-[21.76px] lg:w-[50%] mx-auto lg:text-center mb-6">
-      Our hybrid app development team assists in designing user-friendly applications with 
-      the latest hybrid app development solutions that contribute effectively to scale 
+      Our <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid app development team</Link> assists in designing user-friendly applications with 
+      the latest <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app development solutions</Link> that contribute effectively to scale 
       business growth on worldwide digital platforms.
       </p>
 
@@ -52,10 +53,10 @@ const WhyChooseUs = () => {
               color: "#8F8F8F",
             }}
           >
-      Dignite’s top hybrid mobile app developers craft hybrid processes 
+      Dignite’s top <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid mobile app developers</Link> craft hybrid processes 
       under a single codebase to be used across multiple platforms 
-      that value time and money on a broader scale. Hybrid mobile 
-      app development establishes a better user interface, high 
+      that value time and money on a broader scale. <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">Hybrid mobile 
+      app development</Link> establishes a better user interface, high 
       performance and robust functionality.
           </p>
         </div>
@@ -88,9 +89,9 @@ const WhyChooseUs = () => {
             }}
           >
         Experience native-like features of your apps with Dignite’s
-         industry-leading hybrid mobile app development services. 
-         To boost the performance of your web applications we 
-         value the time and effort of our hybrid developer.
+         industry-leading <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid mobile app development services</Link>. 
+         To boost the performance of your <Link href="/services/web-app-development" className="text-[#F15C20]">web applications</Link> we 
+         value the time and effort of our <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid developer</Link>.
           </p>
         </div>
 
@@ -121,9 +122,9 @@ const WhyChooseUs = () => {
               color: "#8F8F8F",
             }}
           >
-          Our hybrid application development services design versatile user experiences 
+          Our <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid application development services</Link> design versatile user experiences 
           with web-based resources to rank business positions among the top 
-          hybrid app development companies.
+          <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app development companies</Link>.
           </p>
         </div>
 
@@ -154,10 +155,10 @@ const WhyChooseUs = () => {
               color: "#8F8F8F",
             }}
           >
-         Experience functional user experience to scale your hybrid mobile
-          app and achieve the desired goal to make your business profitable.
-           We conduct superior methodologies to create a vigorous hybrid app 
-           development process to elevate the project’s dimensions.
+         Experience functional user experience to scale your <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid mobile
+          app</Link> and achieve the desired goal to make your business profitable.
+           We conduct superior methodologies to create a vigorous <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app 
+           development process</Link> to elevate the project’s dimensions.
           </p>
         </div>
 
@@ -189,9 +190,9 @@ const WhyChooseUs = () => {
               color: "#8F8F8F",
             }}
           >
-        The premier hybrid app development agency Dignite Studios holds cost-effective
+        The premier <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app development agency</Link> Dignite Studios holds cost-effective
          solutions to streamline the maintenance and update the latest versions 
-         of hybrid app development processes.
+         of <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app development processes</Link>.
           </p>
         </div>
 
@@ -223,7 +224,7 @@ const WhyChooseUs = () => {
               color: "#8F8F8F",
             }}
           >
-           Our hybrid mobile app development company performs the fastest deployment
+           Our <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid mobile app development company</Link> performs the fastest deployment
             process with quicker adaptation to market demands.
           </p>
         </div>

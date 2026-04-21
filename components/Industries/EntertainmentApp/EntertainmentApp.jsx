@@ -61,7 +61,7 @@ const services = [
     title: "Custom Entertainment App Development",
     description: (
       <>
-        We build custom apps based on the content type and audience needs. Our media and entertainment app development solutions help businesses deliver unique user experiences and support long term growth.
+        We build custom apps based on the content type and audience needs. Our <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">media and entertainment app development solutions</Link> help businesses deliver unique user experiences and support long term growth.
       </>
     ),
   },
@@ -71,7 +71,7 @@ const services = [
     title: "Streaming & OTT App Solutions",
     description: (
       <>
-        We create scalable streaming platforms with smooth playback and fast loading. As the trusted streaming app development company, we ensure the stable performance and reliable content delivery.
+        We create scalable streaming platforms with smooth playback and fast loading. As the trusted <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">streaming app development company</Link>, we ensure the stable performance and reliable content delivery.
       </>
     ),
   },
@@ -81,7 +81,7 @@ const services = [
     title: "Music & Audio App",
     description: (
       <>
-        We design music apps for streaming, playlists and audio sharing. Our entertainment mobile app development improves user engagement and delivers smooth listening experiences across the devices.
+        We design music apps for streaming, playlists and audio sharing. Our <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">entertainment mobile app development</Link> improves user engagement and delivers smooth listening experiences across the devices.
       </>
     ),
   },
@@ -91,7 +91,7 @@ const services = [
     title: "Interactive Gaming Apps",
     description: (
       <>
-        We develop engaging games with interactive features and social elements. Our entertainment app development ensures smooth gameplay, fast response time and strong user retention.
+        We develop engaging games with interactive features and social elements. Our <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">entertainment app development</Link> ensures smooth gameplay, fast response time and strong user retention.
       </>
     ),
   },
@@ -101,9 +101,8 @@ const services = [
     title: "Live Event & Ticketing Apps",
     description: (
       <>
-        We build apps for the live streaming, event booking and ticket management. Our media and entertainment app development supports real time access and fluent user experience.
-      </>
-    ),
+        We build apps for the live streaming, event booking and ticket management. Our <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">media and entertainment app development</Link> supports real time access and fluent user experience.
+      </>  ),
   },
   {
     icon: "6",
@@ -111,9 +110,8 @@ const services = [
     title: "Media & News Apps",
     description: (
       <>
-        We create content rich platforms for news and media delivery. Our media and entertainment software development ensures fast updates, smooth browning and better content accessibility.
-      </>
-    ),
+        We create content rich platforms for news and media delivery. Our <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">media and entertainment software development</Link> ensures fast updates, smooth browning and better content accessibility.
+      </>   ),
   },
   {
     icon: "7",
@@ -131,9 +129,8 @@ const services = [
     title: "Support & Maintenance Services",
     description: (
       <>
-        We provide ongoing updates, bug fixes and performance improvements. Our entertainment software development keeps apps secure, stable and ready for future growth.
-      </>
-    ),
+        We provide ongoing updates, bug fixes and performance improvements. Our <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">entertainment software development</Link> keeps apps secure, stable and ready for future growth.
+      </>   ),
   },
 ];
 const defaultCards = [
@@ -153,7 +150,11 @@ const defaultCards = [
     label: "Complex Apps",
     range: "$95,000 - $150,000+",
     detail:
-      "Advanced apps including AI recommendations, live streaming, analytics and scalable architecture. Our media and entertainment app development solutions are suitable for enterprises and high traffic entertainment platforms.",
+      (
+        <>
+          Advanced apps including AI recommendations, live streaming, analytics and scalable architecture. Our <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">media and entertainment app development solutions</Link> are suitable for enterprises and high traffic entertainment platforms.
+        </>
+      ),
   },
 ];
 const highlights = [
@@ -488,10 +489,8 @@ const EntertainmentApp = () => {
         para={
           <>
       With consumers streaming films, playing games and listening to music while on the go, the mobile entertainment sector is expanding quickly. To offer information, engage people and make money businesses need powerful apps. 
-Dignite Studios is a trusted entertainment app development company with 10+ years of experience and over 300+ apps delivered for global clients. We create solutions for streaming platforms, music apps, interactive games and live events.
-Our entertainment app development services ensure high performance, smooth user experience and scalable growth. Explore our Mobile App Development Services, React Native App Development and Boston Page to see how we help businesses launch successful apps. 
-
-
+Dignite Studios is a trusted <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">entertainment app development company</Link> with 10+ years of experience and over 300+ apps delivered for global clients. We create solutions for streaming platforms, music apps, interactive games and live events.
+Our <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">entertainment app development services</Link> ensure high performance, smooth user experience and scalable growth. Explore our Mobile App Development Services, React Native App Development and Boston Page to see how we help businesses launch successful apps. 
           </>
         }
       />
@@ -499,13 +498,21 @@ Our entertainment app development services ensure high performance, smooth user 
         header=" Entertainment App Development "
         header2={"Services"}
         button={"Build My Entertainment App"}
-        para="We provide end to end entertainment mobile app development which help businesses build engaging and scalable apps. Our solutions focus on the strong performance, smooth user experience and reliable delivery across platforms, We design apps which support content growth, user retention and long term business success.   "
+        para={
+          <>
+            We provide end to end <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">entertainment mobile app development</Link> which help businesses build engaging and scalable apps. Our solutions focus on the strong performance, smooth user experience and reliable delivery across platforms, We design apps which support content growth, user retention and long term business success.
+          </>
+        }
         services={services}
       />
            
         <SuccessStories
           header="Our Entertainment App Success Stories  "
-          para="We have built high performing apps for streaming, music and gaming. Our projects improved engagement and user retention. As a video streaming app development company, we delivered scalable apps which increased the revenue and supported the long term growth for our clients  "
+          para={
+            <>
+              We have built high performing apps for streaming, music and gaming. Our projects improved engagement and user retention. As a <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">video streaming app development company</Link>, we delivered scalable apps which increased the revenue and supported the long term growth for our clients
+            </>
+          }
         />
         <CTA />
               <DeliveryFeatures />
@@ -515,7 +522,11 @@ Our entertainment app development services ensure high performance, smooth user 
         header2={"Entertainment Apps"}
         button={"Book a free Consultation "}
         header=" Benefits of Investing in "
-        para="Businesses may improve engagement, income and brand visibility with the use of entertainment apps. In addition to automating content delivery. Simplifying platform management and enhancing user pleasure across devices, they also enable creators and businesses to provide entertaining experiences.  "
+        para={
+          <>
+            Businesses may improve engagement, income and brand visibility with the use of <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">entertainment apps</Link>. In addition to automating content delivery. Simplifying platform management and enhancing user pleasure across devices, they also enable creators and businesses to provide entertaining experiences.
+          </>
+        }
       />
                 <DeliveryApps/>
                  <TabularTechs />
@@ -525,9 +536,8 @@ Our entertainment app development services ensure high performance, smooth user 
         button="  Let’s Get Started   "
         para={
           <>
-We create top notch entertainment apps which align with business objectives and provide captivating user experiences across platforms by combining in-depth knowledge, flexible development methods and scalable architecture. 
-          </>
-        }
+            We create top notch <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">entertainment apps</Link> which align with business objectives and provide captivating user experiences across platforms by combining in-depth knowledge, flexible development methods and scalable architecture.
+          </>       }
         bs={highlights}
       />
                         <Process
@@ -602,7 +612,11 @@ We create top notch entertainment apps which align with business objectives and 
        pathname={"Entertainment App dev"}
         img={"/industries/healthcare/c-img.webp"}
         header={"Ready to Build Your Entertainment App?"}
-        para="Start your project with a trusted entertainment app development company. Share your idea with our team. We will guide you and build a strong app for your business. "
+        para={
+          <>
+            Start your project with a trusted <Link href="/industries/entertainment-app-development" className="text-[#F15C20]">entertainment app development company</Link>. Share your idea with our team. We will guide you and build a strong app for your business.
+          </>
+        }
         btn="Get Free Consultation "
       />
     </div>

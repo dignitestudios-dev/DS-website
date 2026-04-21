@@ -2,17 +2,17 @@ export const process = [
   {
     count: "01.",
     title: "App Vision",
-    desc: "Before stimulating the app development procedure, it is necessary to evaluate your Android app requirements and exigence. If you’re working on a huge project, you must ensure its dimensions, layouts, frameworks, and development process. Our top-notch custom Android app development company will make your idea with strong palpability. Where you can spontaneously start your mobile app development process with adequate guidelines and thorough assessment.",
+    desc: "Before stimulating the app development procedure, it is necessary to evaluate your Android app requirements and exigence. If you're working on a huge project, you must ensure its dimensions, layouts, frameworks, and development process. Our top-notch <a href='/services/android-app-development-services' class='text-[#F15C20]'>custom Android app development company</a> will make your idea with strong palpability. Where you can spontaneously start your <a href='/services/mobile-app-development-services' class='text-[#F15C20]'>mobile app development process</a> with adequate guidelines and thorough assessment.",
   },
   {
     count: "02.",
     title: "Technical Documentation",
-    desc: "Technical documentation lies under the flow of the development process to secure app success exclusively concerning each step. It generally indicates the most important phase of the mobile application development, where you have to craft an umbrella of particular documents afore on each step. The trusted Android application development company, Dignite Studios, provides a compelling composition of documents to easily explain functionality, app compliance, operations, tools, and project-related information to build your mobile app.",
+    desc: "Technical documentation lies under the flow of the development process to secure app success exclusively concerning each step. It generally indicates the most important phase of the mobile application development, where you have to craft an umbrella of particular documents afore on each step. The trusted <a href='/services/android-app-development-services' class='text-[#F15C20]'>Android application development company</a>, Dignite Studios, provides a compelling composition of documents to easily explain functionality, app compliance, operations, tools, and project-related information to build your mobile app.",
   },
   {
     count: "03.",
     title: "Cost Estimation",
-    desc: "Budgets for custom Android apps spell ample range in the development of apps. In chartering custom Android application development it is paramount to break down the Android app development cost to regale in harsh consequences. Dignite’s leading cost-effective approach will build the entire software development process constructively and strategically according to the budget indication. ",
+    desc: "Budgets for custom Android apps spell ample range in the development of apps. In chartering <a href='/services/android-app-development-services' class='text-[#F15C20]'>custom Android application development</a> it is paramount to break down the <a href='/services/android-app-development-services' class='text-[#F15C20]'>Android app development cost</a> to regale in harsh consequences. Dignite's leading cost-effective approach will build the entire software development process constructively and strategically according to the budget indication.",
   },
   {
     count: "04.",

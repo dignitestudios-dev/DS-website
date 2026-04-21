@@ -29,7 +29,7 @@ const LeadingSection = () => {
           theme === "light" && "text-[#2A2A2A]"
         }`}
       >
-        The industry-leading Android app development company Dignite Studios
+        The industry-leading <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android app development company</Link> Dignite Studios
         replenishes viable service apps to expedite businesses with
         complementary services,{" "}
         <Link
@@ -59,8 +59,7 @@ const LeadingSection = () => {
               theme === "light" && "text-[#424242]"
             } text-sm leading-[19.74px]`}
           >
-            Dignite Studios has an exceptional team of custom app development
-            services who can creatively build your Android app to break through
+            Dignite Studios has an exceptional team of <Link href="/services/android-app-development-services" className="text-[#F15C20]">custom app development services</Link> who can creatively build your Android app to break through
             your business amplitude to the next level.
           </p>
         </div>
@@ -81,9 +80,9 @@ const LeadingSection = () => {
             } text-sm leading-[19.74px]`}
           >
             Our professional Android team can create a highly optimized
-            fascinating custom Android app framework that will boost the entire
+            fascinating custom <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android app</Link> framework that will boost the entire
             layout of the TV application at once. Also, tend to produce bizarre
-            Android app development solutions to satisfy clients' requirements.
+            <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android app development solutions</Link> to satisfy clients' requirements.
           </p>
         </div>
         <div className="flex flex-col gap-2">

@@ -37,7 +37,7 @@ import {
   SiWebflow,
   SiBigcommerce,
   SiSquarespace,
-  SiAzure,
+  SiMicrosoft,
   SiGooglecloud,
   SiDigitalocean,
   SiCloudinary,
@@ -150,8 +150,11 @@ const services = [
     title: "Custom Web App Development Services",
     description: (
       <>
-        Custom web app development means you can get your web app built the way
-        you want. The team focuses on providing all the features you want.
+        <Link href="/services/web-app-development" className="text-[#F15C20]">
+          Custom web app development services
+        </Link>{" "}
+        means you can get your web app built the way you want. The team focuses
+        on providing all the features you want.
       </>
     ),
   },
@@ -172,8 +175,14 @@ const services = [
     title: "Web App Consultation",
     description: (
       <>
-        Web application consultation is one of our major services that guides
-        businesses. We provide expert advice on tech and strategy.
+        <Link
+          href="/services/web-application-development-services"
+          className="text-[#F15C20]"
+        >
+          Web application consultation
+        </Link>{" "}
+        is one of our major services that guides businesses. We provide expert
+        advice on tech and strategy.
       </>
     ),
   },
@@ -183,8 +192,14 @@ const services = [
     title: "Progressive Web Applications",
     description: (
       <>
-        We’re experts at building progressive web applications that have the
-        speed and functionality of a mobile application.
+        We’re experts at building{" "}
+        <Link
+          href="/services/pwa-development-services"
+          className="text-[#F15C20]"
+        >
+          progressive web applications
+        </Link>{" "}
+        that have the speed and functionality of a mobile application.
       </>
     ),
   },
@@ -215,11 +230,30 @@ const services = [
 const highlights = [
   {
     title: "Years of Experience",
-    desc: "The team has successfully delivered a wide range of projects through Web Application Development Services across industries.",
+    desc: (
+      <>
+        The team has successfully delivered a wide range of projects through{" "}
+        <Link
+          href="/services/web-application-development-services"
+          className="text-[#F15C20]"
+        >
+          Web Application Development Services
+        </Link>{" "}
+        across industries.
+      </>
+    ),
   },
   {
     title: "Advanced Expertise",
-    desc: "The team at our Custom Web App Development Company brings high expertise in the latest web technologies.",
+    desc: (
+      <>
+        The team at our{" "}
+        <Link href="/services/web-app-development" className="text-[#F15C20]">
+          Custom Web App Development Company
+        </Link>{" "}
+        brings high expertise in the latest web technologies.
+      </>
+    ),
   },
   {
     title: "Expert Project Management",
@@ -242,15 +276,42 @@ const highlights = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Industry",
-    desc: "The developers at Dignite Studios create HIPAA-compliant applications for the healthcare industry including patient portals.",
+    desc: (
+      <>
+        The developers at Dignite Studios create{" "}
+        <Link
+          href="/industries/healthcare-app-development"
+          className="text-[#F15C20]"
+        >
+          healthcare mobile app development services
+        </Link>{" "}
+        including patient portals.
+      </>
+    ),
   },
   {
     title: "Fintech Industry",
-    desc: "The team delivers secure solutions for the fintech industry including payment platforms and digital banking apps.",
+    desc: (
+      <>
+        The team delivers secure solutions for the fintech app development
+        company including payment platforms and digital banking apps.
+      </>
+    ),
   },
   {
     title: "Ecommerce Industry",
-    desc: "The team is great at building ecommerce web applications that increase revenue through online stores.",
+    desc: (
+      <>
+        The team is great at building{" "}
+        <Link
+          href="/ecommerce/ecommerce-app-development"
+          className="text-[#F15C20]"
+        >
+          ecommerce app development company
+        </Link>{" "}
+        that increase revenue through online stores.
+      </>
+    ),
   },
   {
     title: "E-learning Industry",
@@ -258,7 +319,18 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Real Estate",
-    desc: "We build advanced solutions for real estate including property platforms, virtual tours, and CRM systems.",
+    desc: (
+      <>
+        We build advanced solutions for{" "}
+        <Link
+          href="/industries/real-estate-app-development"
+          className="text-[#F15C20]"
+        >
+          real estate app development
+        </Link>{" "}
+        including property platforms, virtual tours, and CRM systems.
+      </>
+    ),
   },
   {
     title: "Dating and Matchmaking",
@@ -349,14 +421,39 @@ const faqs = [
   {
     id: 3,
     question: "So, what’s Web Application Development Cost usually?",
-    answer:
-      "The Web Application Development Cost depends on features. It’s up to you how many features and complexity you want in your app. However, custom apps usually cost more at first, but they save you time and money in the long run. So, knowing exactly what you need keeps things under control.",
+    answer: (
+      <>
+        {" "}
+        The{" "}
+        <Link href="/services/web-app-development" className="text-[#F15C20]">
+          Web Application Development Cost
+        </Link>{" "}
+        depends on features. It’s up to you how many features and complexity you
+        want in your app. However, custom apps usually cost more at first, but
+        they save you time and money in the long run. So, knowing exactly what
+        you need keeps things under control.{" "}
+      </>
+    ),
   },
   {
     id: 4,
     question: "What happens if I just get a pre-made app?",
-    answer:
-      "Pre-built applications are like trying your whole business to fit into one app that’s not even made for your business and doesn’t even align with any of your goals. Web Application Development Services are designed for your business. They work exactly how you need them.",
+    answer: (
+      <>
+        {" "}
+        Pre-built applications are like trying your whole business to fit into
+        one app that’s not even made for your business and doesn’t even align
+        with any of your goals.{" "}
+        <Link
+          href="/services/web-application-development-services"
+          className="text-[#F15C20]"
+        >
+          Web Application Development Services
+        </Link>{" "}
+        are designed for your business. They work exactly how you need
+        them.{" "}
+      </>
+    ),
   },
   {
     id: 5,
@@ -418,7 +515,28 @@ const WebAppDevelopment = () => {
       <About
         heading="Behind "
         heading2={"Dignite Studios"}
-        para="We’re providing the best web application development services with a team of 200+ developers. Having 10+ years of experience, we’ve worked on over 300+ projects for startups, businesses, and enterprises. Building functional products from scratch, the team focuses on building secure web applications tailored to your specific business needs. With a strong emphasis on the high performance of the applications. The team is great at building reliable digital solutions that improve efficiency and user experience. Each solution is customized to your unique business needs and focuses on reliability and delivering an exceptional user experience. The goal is to provide web apps that support long-term business success and adapt to changing technological needs."
+        para={
+          <>
+            We’re providing the best{" "}
+            <Link
+              href="/services/web-application-development-services"
+              className="text-[#F15C20]"
+            >
+              web application development services
+            </Link>{" "}
+            with a team of 200+ developers. Having 10+ years of experience,
+            we’ve worked on over 300+ projects for startups, businesses, and
+            enterprises. Building functional products from scratch, the team
+            focuses on building secure web applications tailored to your
+            specific business needs. With a strong emphasis on the high
+            performance of the applications. The team is great at building
+            reliable digital solutions that improve efficiency and user
+            experience. Each solution is customized to your unique business
+            needs and focuses on reliability and delivering an exceptional user
+            experience. The goal is to provide web apps that support long-term
+            business success and adapt to changing technological needs.
+          </>
+        }
         button="Talk to the Team!"
       />
       <Services
@@ -427,7 +545,26 @@ const WebAppDevelopment = () => {
         header2={"Services"}
         button={"Explore Our Services"}
         para={
-          "Working with Dignite Studios comes with a team that puts commitment first. As a trusted web application development company in USA, we are providing refined web app development services to meet your requirements. We don’t just provide development services; you get strong commitments and mobile app solutions prepared for the future."
+          <>
+            Working with Dignite Studios comes with a team that puts commitment
+            first. As a trusted{" "}
+            <Link
+              href="/services/web-application-development-services"
+              className="text-[#F15C20]"
+            >
+              web application development company in USA
+            </Link>
+            , we are providing refined{" "}
+            <Link
+              href="/services/web-app-development"
+              className="text-[#F15C20]"
+            >
+              custom web application development services
+            </Link>{" "}
+            to meet your requirements. We don’t just provide development
+            services; you get strong commitments and mobile app solutions
+            prepared for the future.
+          </>
         }
       />
       <TabularEcommerceTechs
@@ -495,7 +632,28 @@ const WebAppDevelopment = () => {
         header={"Serving Industries as an Expert Web and App "}
         header2={"Development Company"}
         para={
-          "Dignite Studios serves a wide range of industries as the best Web Application Development Company in USA. The team is an expert at providing customized solutions that understand the business requirements. Once we understand the requirements and vision, it’s easier to work in that industry. And since we have 10+ years of experience in multiple sectors, the development team now uses modern technologies and best practices to create scalable web and mobile applications."
+          <>
+            Dignite Studios serves a wide range of industries as the best{" "}
+            <Link
+              href="/services/web-application-development-services"
+              className="text-[#F15C20]"
+            >
+              Web Application Development Company in USA
+            </Link>
+            . The team is an expert at providing customized solutions that
+            understand the business requirements. Once we understand the
+            requirements and vision, it’s easier to work in that industry. And
+            since we have 10+ years of experience in multiple sectors, the
+            development team now uses modern technologies and best practices to
+            create scalable{" "}
+            <Link
+              href="/services/web-application-development-services"
+              className="text-[#F15C20]"
+            >
+              web application development company
+            </Link>{" "}
+            and mobile applications.
+          </>
         }
         button={"Share Your Niche"}
       />
@@ -503,27 +661,55 @@ const WebAppDevelopment = () => {
         steps={PROCESS_STEPS}
         btn={"Start Your Web Journey"}
         header2={"Services Process"}
-        header={
-          "Our Proven Custom Web Application Development "
-        }
+        header={"Our Proven Custom Web Application Development "}
         para={
-          "Being one of the best web application development agencies, we make sure that every project is delivered effectively and efficiently. We follow the proper structured approach that prioritizes quality and makes the applications smooth and prepared for users. This workflow keeps you informed at every stage while reducing risks. With us, you get reliable web applications that are tailored to your business goals."
+          <>
+            Being one of the best{" "}
+            <Link
+              href="/services/web-application-development-services"
+              className="text-[#F15C20]"
+            >
+              web application development agencies
+            </Link>
+            , we make sure that every project is delivered effectively and
+            efficiently. We follow the proper structured approach that
+            prioritizes quality and makes the applications smooth and prepared
+            for users. This workflow keeps you informed at every stage while
+            reducing risks. With us, you get reliable web applications that are
+            tailored to your business goals.
+          </>
         }
       />
       <MobileApp
-        header={
-          "Benefits of Custom Web Application Development Services for "
-        }
+        header={"Benefits of Custom Web Application Development Services for "}
         header2={"Your Business"}
         para={
           <>
-            Investing in custom web apps means numerous benefits. Benefits could
-            be enhanced efficiency, scalability, business growth and improved
-            user experience. Even though the web application development cost
+            Investing in{" "}
+            <Link
+              href="/services/web-app-development"
+              className="text-[#F15C20]"
+            >
+              custom web app development services
+            </Link>{" "}
+            means numerous benefits. Benefits could be enhanced efficiency,
+            scalability, business growth and improved user experience. Even
+            though the{" "}
+            <Link
+              href="/services/web-app-development"
+              className="text-[#F15C20]"
+            >
+              web application development cost
+            </Link>{" "}
             depends on features, the overall long term value is always worth the
-            investment. You can see how customized solutions from the best web
-            application development agencies can help you with operations and
-            provide competitive advantages.
+            investment. You can see how customized solutions from the best{" "}
+            <Link
+              href="/services/web-application-development-services"
+              className="text-[#F15C20]"
+            >
+              web application development agencies
+            </Link>{" "}
+            can help you with operations and provide competitive advantages.
           </>
         }
         cards={BENEFITS}

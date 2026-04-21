@@ -2,7 +2,9 @@
 import ContactButton from "@/components/global/ContactButton";
 import { Hybrid_App_Development } from "@/constants/HybridAppDevelopment";
 import { GlobalContext } from "@/context/GlobalContext";
+import Link from "next/link";
 import React, { useContext } from "react";
+
 
 const DevelopmentProcess = () => {
   const { theme } = useContext(GlobalContext);
@@ -16,11 +18,11 @@ const DevelopmentProcess = () => {
             <span className="font-bold lg:font-extrabold text-4xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold lg:leading-[77px]" > Development <br /> Process</span>
           </h2>
           <p className="text-lg font-normal mt-4">
-          Dignite’s experienced hybrid app developers conduct pre-eminent
-           development to create a new hybrid app. We give allegiance to 
-           effective hybrid frameworks with state-of-the-art hybrid app 
-           development technologies to nurture your business strategies
-            with perfect hybrid solutions. 
+          Dignite’s experienced <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid app developers</Link> conduct pre-eminent
+           development to create a new <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app</Link>. We give allegiance to 
+           effective <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid frameworks</Link> with state-of-the-art <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app 
+           development technologies</Link> to nurture your business strategies
+            with perfect <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid solutions</Link>. 
           </p>
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-start items-center lg:justify-end">

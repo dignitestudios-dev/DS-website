@@ -29,7 +29,7 @@ const ReownedSection = () => {
               Renowned
             </span>
           </div>
-          <span className="text-[#F15C20]">Android App</span> <br /> Development
+          <span className="text-[#F15C20]"><Link href="/services/android-app-development-services">Android App</Link></span> <br /> Development
           Company
         </h2>
         <p
@@ -37,12 +37,7 @@ const ReownedSection = () => {
             theme === "light" && "text-[#2A2A2A]"
           }`}
         >
-          For years ago, Dignite Studios meticulously led with bizarre Android
-          app development solutions internationally. Our team of professional
-          Android developers robust your business dynamics with unrivaled custom
-          Android apps, exceptional designs, and phenomenal app
-          conceptualization. We believe in providing spectacular and reliable
-          service set to achieve industry goals and agitation.
+          For years ago, Dignite Studios meticulously led with bizarre <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android app development solutions</Link> internationally. Our team of professional <Link href="/services/hire-android-app-developers" className="text-[#F15C20]">Android developers</Link> robust your business dynamics with unrivaled custom <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android apps</Link>, exceptional designs, and phenomenal app conceptualization. We believe in providing spectacular and reliable service set to achieve industry goals and agitation.
         </p>
         <div className="w-full lg:w-auto lg:block mt-7 2xl:mt-8">
           <ContactButton text1={"Start Your Project"} text2={"Let's talk"} />

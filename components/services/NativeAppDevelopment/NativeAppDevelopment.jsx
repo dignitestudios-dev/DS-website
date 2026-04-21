@@ -45,7 +45,7 @@ import {
   SiWebflow,
   SiBigcommerce,
   SiSquarespace,
-  SiAzure,
+  SiMicrosoft,
   SiGooglecloud,
   SiDigitalocean,
   SiCloudinary,
@@ -279,7 +279,11 @@ const highlights = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Apps",
-    desc: "As the best native app development company, we build apps that comply with HIPAA, completely prepared for the health sector.",
+    desc: (
+      <>
+        As the best <Link href="/services/native-app-development" className="text-[#F15C20]">native app development company</Link>, we build apps that comply with HIPAA, completely prepared for the health sector.
+      </>
+    ),
   },
   {
     title: "Fintech Apps",
@@ -287,7 +291,11 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "E-commerce & Retail Apps",
-    desc: "Dignite Studios keeps everything simple through ecommerce native development services. Storefront, Inventory, and POS? Already included.",
+    desc: (
+      <>
+        Dignite Studios keeps everything simple through <Link href="/ecommerce/ecommerce-app-development" className="text-[#F15C20]">ecommerce native development services</Link>. Storefront, Inventory, and POS? Already included.
+      </>
+    ),
   },
   {
     title: "Education & e-Learning Apps",
@@ -295,7 +303,11 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Real Estate Apps",
-    desc: "Dignite Studios offers native property apps that include the following: Listings, virtual tours, mortgage calculators, and management tools.",
+    desc: (
+      <>
+        Dignite Studios offers <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">native property apps</Link> that include the following: Listings, virtual tours, mortgage calculators, and management tools.
+      </>
+    ),
   },
   {
     title: "Dating and Matchmaking Apps",

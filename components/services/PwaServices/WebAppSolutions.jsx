@@ -81,9 +81,8 @@ export default function WebAppSolutions() {
                         ? "text-white "
                         : "text-[#424242] group-hover:text-white"
                     } text-[13px] font-medium`}
-                  >
-                    {card?.description}
-                  </p>
+                    dangerouslySetInnerHTML={{ __html: card?.description }}
+                  ></p>
                 </div>
               </SwiperSlide>
             );

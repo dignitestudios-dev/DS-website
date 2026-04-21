@@ -1,6 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useContext } from "react";
 
 const TopAndroidAppSection = () => {
@@ -32,10 +33,10 @@ const TopAndroidAppSection = () => {
           theme === "light" && "text-[#2A2A2A]"
         }`}
       >
-        The custom Android app development company Dignite Studios depicts an
+        The <Link href="/services/android-app-development-services" className="text-[#F15C20]">custom Android app development company</Link> Dignite Studios depicts an
         influential model to produce efficacious methodologies and
         infrastructure of viable application services for multiple-platform iOS
-        and Android apps.
+        and <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android apps</Link>.
       </p>
 
       <div className="w-full lg:max-w-[1000px] h-auto lg:h-[480px] grid md:grid-cols-2 grid-cols-1 gap-5 lg:gap-10 mt-5 lg:mt-10 relative">
@@ -184,9 +185,9 @@ const TopAndroidAppSection = () => {
               theme === "light" ? "text-[#666666]" : "text-gray-200"
             } text-[13px] mt-2`}
           >
-            Native Android development provide highly riched app features and
+            <Link href="/services/android-app-development-services" className="text-[#F15C20]">Native Android development</Link> provide highly riched app features and
             exceptional mobile functions to scale your consumer app on a wider
-            landscape. The best app development company Dignite Studios will
+            landscape. The <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">best app development company</Link> Dignite Studios will
             build your native app with peculiar programming languages and tools
             to make your mobile apps unique and competent to burgeon your
             business production.
@@ -203,15 +204,13 @@ const TopAndroidAppSection = () => {
           >
             Hybrid Apps can be installed for multiple platforms like iOS and
             Android devices. These apps also helps in providing web solutions
-            and native Android development. However, to make your app more
+            and <Link href="/services/android-app-development-services" className="text-[#F15C20]">native Android development</Link>. However, to make your app more
             faster you can use a native user interface to access layouts and
             multiple controls. Therefore, if you want to produce cross-platform
             apps for both iOS and Android apps, the budget will closely
             increase, as the size of your experts is too much for both iOS and
-            Android platforms. Highly optimized Android application development
-            services of Dignite Studios, impart first-rate development strategy
-            to rame striking hybrid Android apps to furnish world-class Android
-            app development solutions to generate mobile apps scalability.
+            Android platforms. Highly optimized <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android application development services</Link> of Dignite Studios, impart first-rate development strategy
+            to rame striking hybrid Android apps to furnish world-class <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android app development solutions</Link> to generate mobile apps scalability.
           </p>
         </div>
       </div>
@@ -292,9 +291,9 @@ const TopAndroidAppSection = () => {
               theme === "light" ? "text-[#666666]" : "text-gray-200"
             } text-[13px] mt-2`}
           >
-            Native Android development provide highly riched app features and
+            <Link href="/services/android-app-development-services" className="text-[#F15C20]">Native Android development</Link> provide highly riched app features and
             exceptional mobile functions to scale your consumer app on a wider
-            landscape. The best app development company Dignite Studios will
+            landscape. The <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">best app development company</Link> Dignite Studios will
             build your native app with peculiar programming languages and tools
             to make your mobile apps unique and competent to burgeon your
             business production.
@@ -377,15 +376,13 @@ const TopAndroidAppSection = () => {
           >
             Hybrid Apps can be installed for multiple platforms like iOS and
             Android devices. These apps also helps in providing web solutions
-            and native Android development. However, to make your app more
+            and <Link href="/services/android-app-development-services" className="text-[#F15C20]">native Android development</Link>. However, to make your app more
             faster you can use a native user interface to access layouts and
             multiple controls. Therefore, if you want to produce cross-platform
             apps for both iOS and Android apps, the budget will closely
             increase, as the size of your experts is too much for both iOS and
-            Android platforms. Highly optimized Android application development
-            services of Dignite Studios, impart first-rate development strategy
-            to rame striking hybrid Android apps to furnish world-class Android
-            app development solutions to generate mobile apps scalability.
+            Android platforms. Highly optimized <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android application development services</Link> of Dignite Studios, impart first-rate development strategy
+            to rame striking hybrid Android apps to furnish world-class <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android app development solutions</Link> to generate mobile apps scalability.
           </p>
         </div>
       </div>

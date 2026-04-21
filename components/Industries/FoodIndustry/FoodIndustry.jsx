@@ -57,8 +57,8 @@ const services = [
     description: (
       <>
         Dignite Studios develops fully functional food delivery apps. Helping
-        with smooth ordering and easy payment options. Our food delivery app
-        development company designed it to provide an engaging user experience.
+        with smooth ordering and easy payment options. Our <Link href="/industries/food-industry" className="text-[#F15C20]">food delivery app
+        development company</Link> designed it to provide an engaging user experience.
       </>
     ),
   },
@@ -151,12 +151,20 @@ const highlights = [
   {
     icon:"/industries/food-industry/s1.webp",
     title: "12+ Years of Development",
-    desc: "We’re the best food delivery app development company USA with over 10+ years of experience, building high-performing apps.",
+    desc: (
+      <>
+        We’re the <Link href="/industries/food-industry" className="text-[#F15C20]">best food delivery app development company USA</Link> with over 10+ years of experience, building high-performing apps.
+      </>
+    ),
   },
   {
         icon:"/industries/food-industry/s2.webp",
     title: "High Level Expertise",
-    desc: "Being one of the top food delivery app development providers, we provide top-tier design and development.",
+    desc: (
+      <>
+        Being one of the top <Link href="/industries/food-industry" className="text-[#F15C20]">food delivery app development</Link> providers, we provide top-tier design and development.
+      </>
+    ),
   },
   {
     icon:"/industries/food-industry/s3.webp",
@@ -172,12 +180,20 @@ const highlights = [
   {
         icon:"/industries/food-industry/s5.webp",
     title: "Post-Launch Support",
-    desc: "The support services we provide make your food delivery app competitive, so you can easily depend on our food app development services.",
+    desc: (
+      <>
+        The support services we provide make your food delivery app competitive, so you can easily depend on our <Link href="/industries/food-industry" className="text-[#F15C20]">food app development services</Link>.
+      </>
+    ),
   },
   {
     icon:"/industries/food-industry/s6.webp",
     title: "Custom Solutions",
-    desc: "Every food delivery app we build is supposed to meet your requirements through custom food delivery app development.",
+    desc: (
+      <>
+        Every food delivery app we build is supposed to meet your requirements through <Link href="/industries/food-industry" className="text-[#F15C20]">custom food delivery app development</Link>.
+      </>
+    ),
   },
 ];
 
@@ -245,7 +261,11 @@ const test = [
     name: "Emily Johnson",
     designation: "— QuickEats, Operations Manager",
     review:
-      "Their customized food delivery app development exceeded our expectations. We now manage orders and deliveries efficiently, improving overall business performance.",
+      (
+        <>
+          Their <Link href="/industries/food-industry" className="text-[#F15C20]">customized food delivery app development</Link> exceeded our expectations. We now manage orders and deliveries efficiently, improving overall business performance.
+        </>
+      ),
   },
   {
     name: "Michael Thompson",
@@ -263,7 +283,11 @@ const test = [
     name: "Daniel Lee",
     designation: "— FoodHive, COO",
     review:
-      "Excellent support and customized food delivery app development. The delivery tracking and notifications work flawlessly, keeping customers happy and informed.",
+      (
+        <>
+          Excellent support and <Link href="/industries/food-industry" className="text-[#F15C20]">customized food delivery app development</Link>. The delivery tracking and notifications work flawlessly, keeping customers happy and informed.
+        </>
+      ),
   },
   {
     name: "Olivia Martinez",
@@ -288,7 +312,11 @@ const BENEFITS = [
   },
   {
     title: "Efficient Delivery Management",
-    desc: "With our food delivery app development services, your food delivery app means you can track the orders and assign the deliveries accordingly. It helps reduce errors and improve customer satisfaction.",
+    desc: (
+      <>
+        With our <Link href="/industries/food-industry" className="text-[#F15C20]">food delivery app development services</Link>, your food delivery app means you can track the orders and assign the deliveries accordingly. It helps reduce errors and improve customer satisfaction.
+      </>
+    ),
     icon: <FaMotorcycle color="#F15C20" size={25} />,
   },
   {
@@ -303,7 +331,11 @@ const BENEFITS = [
   },
   {
     title: "Competitive Advantage",
-    desc: "Dignite Studios helps businesses stand out by offering convenience. The apps build modern digital experiences that give restaurants and startups an edge over competitors.",
+    desc: (
+      <>
+        Dignite Studios helps businesses stand out by offering convenience. The apps build modern digital experiences that give restaurants and startups an edge over <Link href="/industries/food-industry" className="text-[#F15C20]">competitors</Link>.
+      </>
+    ),
     icon: <FaRocket color="#F15C20" size={25} />,
   },
 ];
@@ -319,7 +351,9 @@ const faqs = [
     id: 2,
     question: "Can you build iOS applications for Food delivery apps, too?",
     answer:
-      "We’re experts, building both iOS and Android food delivery apps. Hire food delivery mobile app developer who creates high-performance applications for businesses. The developers can easily work with native and Swift to develop applications that feel simple while ensuring functionality.",
+      <>
+        We’re experts, building both iOS and Android food delivery apps. <Link href="/industries/food-industry" className="text-[#F15C20]">Hire food delivery mobile app developer</Link> who creates high-performance applications for businesses. The developers can easily work with native and Swift to develop applications that feel simple while ensuring functionality.
+      </>,
   },
   {
     id: 3,
@@ -407,12 +441,20 @@ const featureData = [
   },
   {
     title: "GPS & Route Optimization",
-    desc: "Our online food delivery app development company's food delivery app guides delivery agents along optimized routes to ensure faster and more efficient deliveries.",
+    desc: (
+      <>
+        Our <Link href="/industries/food-industry" className="text-[#F15C20]">online food delivery app development company</Link>'s food delivery app guides delivery agents along optimized routes to ensure faster and more efficient deliveries.
+      </>
+    ),
     icon: <FaGlobe className="text-5xl" />,
   },
   {
     title: "Restaurant Recommendations",
-    desc: "The app created by our online food delivery app development company suggests restaurants and dishes based on user preferences and past ordering behavior.",
+    desc: (
+      <>
+        The app created by our <Link href="/industries/food-industry" className="text-[#F15C20]">online food delivery app development company</Link> suggests restaurants and dishes based on user preferences and past ordering behavior.
+      </>
+    ),
     icon: <FaUtensils className="text-5xl" />,
   },
   {
@@ -496,10 +538,9 @@ const FoodIndustry = () => {
         heading2={"Dignite Studios"}
         para={
           <>
-     Being one of the best food delivery app development companies, the developers specialize in creating food applications that fulfill the evolving needs of food businesses. The demand is growing for online ordering and restaurants. And startups and cloud kitchens are instantly shifting toward digital platforms to meet customer expectations. This means helping them meet customer demands and give a competitive advantage in the market. Our goal is to build apps that support transformation.
-The solutions we create while providing the trusted food delivery app development simplify order management, improve delivery operations, and enhance the overall customer experience. Our apps are designed to make daily operations like live tracking and payment integration more efficient. We work with a wide range of business models, including single restaurants, multi-vendor food delivery platforms, and cloud kitchens. 
-The team is understanding and helps you overcome the unique challenges of each and deliver solutions that grow with your business. We understand that every food business operates differently. Having 10+ years of experience in different industries, we combine our knowledge with modern technology, so we help you come up with a solution that’s fully functional and helps your business grow and get more customers through providing smooth experiences. 
-
+            Being one of the best <Link href="/industries/food-industry" className="text-[#F15C20]">food delivery app development companies</Link>, the developers specialize in creating food applications that fulfill the evolving needs of food businesses. The demand is growing for online ordering and restaurants. And startups and cloud kitchens are instantly shifting toward digital platforms to meet customer expectations. This means helping them meet customer demands and give a competitive advantage in the market. Our goal is to build apps that support transformation.
+            The solutions we create while providing the trusted <Link href="/industries/food-industry" className="text-[#F15C20]">food delivery app development</Link> simplify order management, improve delivery operations, and enhance the overall customer experience. Our apps are designed to make daily operations like live tracking and payment integration more efficient. We work with a wide range of business models, including single restaurants, multi-vendor food delivery platforms, and cloud kitchens.
+            The team is understanding and helps you overcome the unique challenges of each and deliver solutions that grow with your business. We understand that every food business operates differently. Having 10+ years of experience in different industries, we combine our knowledge with modern technology, so we help you come up with a solution that’s fully functional and helps your business grow and get more customers through providing smooth experiences.
           </>
         }
       />
@@ -507,14 +548,22 @@ The team is understanding and helps you overcome the unique challenges of each a
         header="Expert Food Delivery App Development"
         header2={"Services"}
         button={"Explore Our Services"}
-        para="Providing a complete suite of services in the category of on demand food delivery app development, we design applications that help restaurants and startups. Our services cover every aspect of app creation and custom development. The focus is on building apps that keep the customer engaged by providing a smooth experience.  "
+        para={
+          <>
+            Providing a complete suite of services in the category of <Link href="/industries/food-industry" className="text-[#F15C20]">on demand food delivery app development</Link>, we design applications that help restaurants and startups. Our services cover every aspect of app creation and custom development. The focus is on building apps that keep the customer engaged by providing a smooth experience.
+          </>
+        }
         services={services}
       />
           <MobileApp
         cards={BENEFITS}
         header2={"Business"}
         header="Benefits of Having a Food Delivery App for Your "
-        para="A food delivery app development may seem optional, but it’s interesting how an app built by the best food delivery app development company can transform your entire business to the extent that the revenue shows a major difference. Having an app means you can reach more customers, and you can manage your operations better.  "
+        para={
+          <>
+            A food delivery app development may seem optional, but it’s interesting how an app built by the <Link href="/industries/food-industry" className="text-[#F15C20]">best food delivery app development company</Link> can transform your entire business to the extent that the revenue shows a major difference. Having an app means you can reach more customers, and you can manage your operations better.
+          </>
+        }
         button=" Get Your App Built "
       />
      
@@ -549,7 +598,11 @@ The team is understanding and helps you overcome the unique challenges of each a
       <Process
         header="Proven Process of a Food Delivery App "
         header2={"Development Company"}
-        para="Every application we develop solves a problem. So, the team works with a structured approach that brings your business idea to life. Different food app development companies work with unique workflows, but when it comes to creating mobile apps at our development company, we utilize a perfectly structured approach of the best food app development companies to ensure that we design applications that work the proper way. Here’s the structured workflow that turns visions into apps.   "
+        para={
+          <>
+            Every application we develop solves a problem. So, the team works with a structured approach that brings your business idea to life. Different food app development companies work with unique workflows, but when it comes to creating mobile apps at our <Link href="/industries/food-industry" className="text-[#F15C20]">development company</Link>, we utilize a perfectly structured approach of the best <Link href="/industries/food-industry" className="text-[#F15C20]">food app development companies</Link> to ensure that we design applications that work the proper way. Here’s the structured workflow that turns visions into apps.
+          </>
+        }
         steps={PROCESS_STEPS}
       />
       <TabularTechs/>

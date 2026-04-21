@@ -116,7 +116,11 @@ const highlights = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare & Fitness",
-    desc: "We work as a healthcare app development company delivering secure patient and tracking solutions.",
+    desc: (
+      <>
+        We work as a <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">healthcare app development company</Link> delivering secure patient and tracking solutions.
+      </>
+    ),
   },
   {
     title: "Fintech & Banking",
@@ -124,7 +128,11 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Ecommerce & Retail",
-    desc: "For ecommerce app development company we build faster, scalable shopping apps for businesses.",
+    desc: (
+      <>
+        For <Link href="/ecommerce/ecommerce-app-development" className="text-[#F15C20]">ecommerce app development company</Link> we build faster, scalable shopping apps for businesses.
+      </>
+    ),
   },
   {
     title: "Logistics & On-Demand",

@@ -1,5 +1,6 @@
 "use client";
 import ContactButton from "@/components/global/ContactButton";
+import Link from "next/link";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 
@@ -18,13 +19,13 @@ const WellKnownAppDevCompany = () => {
             Development Company
           </h2>
           <p className="text-sm md:text-[18px] font-normal leading-[24.46px]">
-            Experience well-organized hybrid mobile app development services of
+            Experience well-organized <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid mobile app development services</Link> of
             Dignite Studios under one umbrella. Our team of professional
-            developers builds intuitive designs and integrates powerful mobile
-            applications to manage hybrid web apps efficiently. Here, we impart
+            <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">developers</Link> builds intuitive designs and integrates powerful <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">mobile
+            applications</Link> to manage hybrid web apps efficiently. Here, we impart
             innovative solutions and design tailor-made projects to meet the
             needs of your business agenda. To satisfy our clients, we deliver
-            highly functional hybrid mobile apps with smooth mobile experiences.
+            highly functional <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid mobile apps</Link> with smooth mobile experiences.
             This results in more user engagements and ROIs.
           </p>
           <div className="mt-3">

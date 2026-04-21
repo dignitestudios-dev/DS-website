@@ -20,11 +20,11 @@ const DevelopmentProcess = () => {
             Development <span className="text-[#F15C20]">Process</span>
           </h2>
           <p className="text-lg font-normal mt-4">
-            We create accelerated methodologies to revolutionize native mobile
-            app development processes for more competent and adequate solutions
-            for apps. With sterling native mobile app frameworks we build a
+            We create accelerated methodologies to revolutionize <Link href="/services/native-app-development-services" className="text-[#F15C20]">native mobile
+            app development processes</Link> for more competent and adequate solutions
+            for apps. With sterling <Link href="/services/native-app-development-services" className="text-[#F15C20]">native mobile app frameworks</Link> we build a
             sleek and tranquil process to refine and make development quicker
-            for Android apps and iOS devices.
+            for <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android apps</Link> and <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS devices</Link>.
           </p>
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-center items-center lg:justify-end">
@@ -60,7 +60,7 @@ const DevelopmentProcess = () => {
                   : "text-[#8f8f8f] group-hover:text-gray-200"
               }`}
             >
-              To build highly intuitive native mobile applications we conduct
+              To build highly intuitive <Link href="/services/native-app-development-services" className="text-gray-200 group-hover:text-white">native mobile applications</Link> we conduct
               in-depth market research for better in-app experiences and
               steadfast project flow.
             </p>
@@ -92,7 +92,7 @@ const DevelopmentProcess = () => {
                   : "text-[#8f8f8f] group-hover:text-gray-200"
               }`}
             >
-              The top-notch Android and iOS developers of Dignite Studios have
+              The top-notch <Link href="/services/android-app-development-services" className="text-gray-200 group-hover:text-white">Android</Link> and <Link href="/services/ios-app-development-services" className="text-gray-200 group-hover:text-white">iOS developers</Link> of Dignite Studios have
               accompanied many clients to create interactive{" "}
               <Link
                 href={"/services/mobile-app-design-services"}

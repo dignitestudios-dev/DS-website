@@ -63,7 +63,7 @@ const tech = [
     name: "Firebase ",
     icon: <SiFirebase />,
     description:
-      "We incorporate cloud features, real time data, authentication and the performance monitoring using the Firebase development services.",
+      "We incorporate cloud features, real time data, authentication and the performance monitoring using Firebase development services.",
   },
 ];
 const services = [
@@ -134,15 +134,27 @@ const highlights = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Applications",
-    desc: "As a reliable healthcare app development company, we create the secure, user friendly, data privacy and the smooth communications between providers and users which supports the patient engagement.",
+    desc: (
+      <>
+        As a reliable <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">healthcare app development company</Link>, we create the secure, user friendly, data privacy and the smooth communications between providers and users which supports the patient engagement.
+      </>
+    ),
   },
   {
     title: "Ecommerce Platforms",
-    desc: "We help every ecommerce app development company launch shopping experiences through the fast, intuitive and build to convert users into loyal customers across the mobile devices.",
+    desc: (
+      <>
+        We help every <Link href="/ecommerce/ecommerce-app-development" className="text-[#F15C20]">ecommerce app development company</Link> launch shopping experiences through the fast, intuitive and build to convert users into loyal customers across the mobile devices.
+      </>
+    ),
   },
   {
     title: "Real Estate Solutions",
-    desc: "Working as the modern real estate app development company, we also design the property apps which simplify the listings, bookings and the client interactions while keeping the performance strong.",
+    desc: (
+      <>
+        Working as the modern <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development company</Link>, we also design the property apps which simplify the listings, bookings and the client interactions while keeping the performance strong.
+      </>
+    ),
   },
   {
     title: "Education & E-learning",

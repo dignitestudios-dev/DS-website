@@ -3,7 +3,7 @@ export const DIGNITE_KNACK_SKILLS = [
     count: "01",
     title: "Fast-performing structure",
     description:
-      "The stellar native mobile app development company Dignite Studios provides complete development operations that directly interact with native APIs, without depending on middle plugins. Whereas, native apps are faster and more responsive than other apps. Also, high-end structures of mobile applications play a vital role in the development of heavy-graphic applications.",
+      "The stellar <a href='/services/native-app-development' class='text-[#F15C20]'>native mobile app development company</a> Dignite Studios provides complete development operations that directly interact with native APIs, without depending on middle plugins. Whereas, native apps are faster and more responsive than other apps. Also, high-end structures of mobile applications play a vital role in the development of heavy-graphic applications.",
   },
   {
     count: "02",
@@ -27,6 +27,6 @@ export const DIGNITE_KNACK_SKILLS = [
     count: "05",
     title: "Massive security protocols",
     description:
-      "Native apps are built under strict terms of security assurance to protect your app data from rising viruses and bugs. Here, native mobile app development company Dignite Studios implements a fortified native mobile app framework to make your fresh app confidential and restricted.",
+      "Native apps are built under strict terms of security assurance to protect your app data from rising viruses and bugs. Here, <a href='/services/native-app-development' class='text-[#F15C20]'>native mobile app development company</a> Dignite Studios implements a fortified native mobile app framework to make your fresh app confidential and restricted.",
   },
 ];

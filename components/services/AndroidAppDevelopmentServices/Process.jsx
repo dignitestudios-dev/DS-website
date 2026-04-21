@@ -28,14 +28,13 @@ const Process = () => {
             }`}
           >
             Dignite Studios, a top-notch{" "}
-            <Link href={"/"} className="text-orange-600">
+            <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">
               mobile app development company
             </Link>
-            , crafts compelling custom Android app development services to
+            , crafts compelling <Link href="/services/android-app-development-services" className="text-[#F15C20]">custom Android app development services</Link> to
             encumber a vigorous approach in framing practical solutions for
-            custom Android apps. Our specialized team of developers elevates
-            rapid business growth with a high-end Android app development
-            process.
+            <Link href="/services/android-app-development-services" className="text-[#F15C20]">custom Android apps</Link>. Our specialized team of <Link href="/services/hire-android-app-developers" className="text-[#F15C20]">developers</Link> elevates
+            rapid business growth with a high-end <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android app development process</Link>.
           </p>
         </div>
         <div className="mb-8 lg:mb-0">
@@ -70,14 +69,14 @@ const Process = () => {
               }`}
             >
               Before stimulating the app development procedure, it is necessary
-              to evaluate your Android app requirements and exigence. If you’re
+              to evaluate your <Link href="/services/android-app-development-services" className="text-gray-200 hover:text-white">Android app</Link> requirements and exigence. If you’re
               working on a huge project, you must ensure its dimensions,
-              layouts, frameworks, and development process. Our top-notch custom
-              Android app development company will make your idea with strong
+              layouts, frameworks, and development process. Our top-notch <Link href="/services/android-app-development-services" className="text-gray-200 hover:text-white">custom
+              Android app development company</Link> will make your idea with strong
               palpability. Where you can spontaneously start your{" "}
               <Link
                 href={"/services/mobile-app-development-services"}
-                className="text-orange-600"
+                className="text-gray-200 hover:text-white"
               >
                 mobile app development
               </Link>{" "}
@@ -112,10 +111,10 @@ const Process = () => {
             >
               Technical documentation lies under the flow of the development
               process to secure app success exclusively concerning each step. It
-              generally indicates the most important phase of the mobile
-              application development, where you have to craft an umbrella of
-              particular documents afore on each step. The trusted Android
-              application development company, Dignite Studios, provides a
+              generally indicates the most important phase of the <Link href="/services/mobile-app-development-services" className="text-gray-200 hover:text-white">mobile
+              application development</Link>, where you have to craft an umbrella of
+              particular documents afore on each step. The trusted <Link href="/services/android-app-development-services" className="text-gray-200 hover:text-white">Android
+              application development company</Link>, Dignite Studios, provides a
               compelling composition of documents to easily explain
               functionality, app compliance, operations, tools, and
               project-related information to build your mobile app.
@@ -147,13 +146,13 @@ const Process = () => {
                   : "text-[#8f8f8f] group-hover:text-gray-200"
               }`}
             >
-              Budgets for custom Android apps spell ample range in the
-              development of apps. In chartering custom Android application
-              development it is paramount to break down the Android app
-              development cost to regale in harsh consequences. Dignite’s
+              Budgets for <Link href="/services/android-app-development-services" className="text-gray-200 hover:text-white">custom Android apps</Link> spell ample range in the
+              development of apps. In chartering <Link href="/services/android-app-development-services" className="text-gray-200 hover:text-white">custom Android application
+              development</Link> it is paramount to break down the <Link href="/services/android-app-development-services" className="text-gray-200 hover:text-white">Android app
+              development cost</Link> to regale in harsh consequences. Dignite’s
               leading cost-effective approach will build the entire software
               development process constructively and strategically according to
-              the budget indication. 
+              the budget indication. 
             </p>
           </div>
         </div>
@@ -259,11 +258,11 @@ const Process = () => {
                   : "text-[#8f8f8f] group-hover:text-gray-200"
               }`}
             >
-              After the development of an app, android software testing is
+              After the development of an app, <Link href="/services/mobile-app-testing-services" className="text-gray-200 hover:text-white">android software testing</Link> is
               initiated to run the app on the emulator. However, testing plays a
-              significant role in the development process, it tests your app’s
+              significant role in the <Link href="/services/android-app-development-services" className="text-gray-200 hover:text-white">development process</Link>, it tests your app’s
               functions, compatibility, performance, and usability before the
-              launching phase. Here, our custom Android app development company
+              launching phase. Here, our <Link href="/services/android-app-development-services" className="text-gray-200 hover:text-white">custom Android app development company</Link>
               can verify your app's correctness, functional behavior, and
               usability before you release it publicly.
             </p>
@@ -294,9 +293,9 @@ const Process = () => {
                   : "text-[#8f8f8f] group-hover:text-gray-200"
               }`}
             >
-              Once your custom Android app development and testing is completed,
-              your Android app is ready to market. Our top custom Android app
-              development includes the entire app development to launch process.
+              Once your <Link href="/services/android-app-development-services" className="text-gray-200 hover:text-white">custom Android app development</Link> and testing is completed,
+              your Android app is ready to market. Our top <Link href="/services/android-app-development-services" className="text-gray-200 hover:text-white">custom Android app
+              development</Link> includes the entire app development to launch process.
               We closely monitor the mobile applications we build to make any
               final adjustments if needed in the apps.
             </p>

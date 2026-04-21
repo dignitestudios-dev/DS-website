@@ -195,7 +195,11 @@ const highlights = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare Apps",
-    desc: "As a Healthcare app development company in New York, we build HIPAA-ready apps. Telemedicine, patient portals, remote monitoring, you name it.",
+    desc: (
+      <>
+        As a <Link href='/industries/healthcare-app-development' className='text-[#F15C20]'>Healthcare app development company</Link> in New York, we build HIPAA-ready apps. Telemedicine, patient portals, remote monitoring, you name it.
+      </>
+    ),
   },
   {
     title: "Fintech Apps",
@@ -203,7 +207,11 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Ecommerce & Retail Apps",
-    desc: "Our ecommerce application development services in New York keep things quick, simple, and tailored to your customers. Storefront? Check. Inventory? Check. POS and loyalty? All covered.",
+    desc: (
+      <>
+        Our <Link href='/ecommerce/ecommerce-app-development' className='text-[#F15C20]'>ecommerce application development services</Link> in New York keep things quick, simple, and tailored to your customers. Storefront? Check. Inventory? Check. POS and loyalty? All covered.
+      </>
+    ),
   },
   {
     title: "Education & E-learning apps",
@@ -211,7 +219,11 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Real Estate Apps",
-    desc: "Our real estate app development services offer property tech apps that include property listings, advanced filters, virtual tours, mortgage calculators, and lead management tools.",
+    desc: (
+      <>
+        Our <Link href='/industries/real-estate-app-development' className='text-[#F15C20]'>real estate app development services</Link> offer property tech apps that include property listings, advanced filters, virtual tours, mortgage calculators, and lead management tools.
+      </>
+    ),
   },
   {
     title: "Dating & Matchmaking Apps",
