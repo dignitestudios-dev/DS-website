@@ -58,7 +58,7 @@ const Discorvery = () => {
             >
               <img src={`/hl${idx+1} alt="Overview - Hl${idx+1}".webp`} width={300} height={300} className="absolute" />
               <div className="flex flex-col items-start   h-[400px] justify-between p-8">
-                <h1 className="text-xl flex items-center gap-3">
+                <h2 className="text-xl flex items-center gap-3">
                   <svg
                     width="24"
                     height="24"
@@ -91,7 +91,7 @@ const Discorvery = () => {
                     />
                   </svg>
                   {s.title}
-                </h1>
+                </h2>
                 <p className="text-start text-sm">{s.desc}</p>
               </div>
             </div>

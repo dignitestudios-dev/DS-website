@@ -22,9 +22,9 @@ const CTA = () => {
           />
         </div>
         <div className="flex flex-col md:w-[60%] text-white gap-4 items-start text-start relative z-50 justify-center  ">
-          <h1 className="text-3xl md:text-5xl  font-semibold capitalize">
+          <h2 className="text-3xl md:text-5xl  font-semibold capitalize">
          Looking to build an AI Powered Platform
-          </h1>
+          </h2>
           <p className=" text-lg md:text-xl">
             Let’s shape your next digital product through expert Web Application Development Services. 
           </p>

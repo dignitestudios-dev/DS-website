@@ -30,9 +30,9 @@ const BrandIdentity = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h1 className="text-3xl md:text-[40px] font-bold mb-6">
+          <h2 className="text-3xl md:text-[40px] font-bold mb-6">
             Brand <span className="text-[#C100FF]">Identity</span>
-          </h1>
+          </h2>
           <p className=" max-w-5xl px-2 relative z-50 mx-auto leading-relaxed ">
  The visual direction highlights the energy and the clarity needed for a strong gamer-focused web-based solution. The branding is energetic, modern, and gamer-focused, reflecting the speed, power, and tech genius of the custom web application. Bold RGB inspired the colors, futuristic typography, and high-contrast layouts, creating an advanced yet quite approachable identity for the web-based solution.   
           </p>

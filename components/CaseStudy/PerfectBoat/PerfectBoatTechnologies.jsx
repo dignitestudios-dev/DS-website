@@ -47,7 +47,7 @@ const PerfectBoatTechnologies = () => {
       }}
       className="w-full h-auto mt-5 mb-12 flex flex-col gap-y-4 gap-3 justify-start items-start"
     >
-      <h1 className="text-2xl font-semibold">Technologies we used</h1>
+      <h2 className="text-2xl font-semibold">Technologies we used</h2>
       <div className="w-full h-auto flex flex-wrap justify-start gap-2 items-center ">
         {technologies?.map((technology, key) => {
           return <MaidSimplTechnologyCard technology={technology} key={key} />;

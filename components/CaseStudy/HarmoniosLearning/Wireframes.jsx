@@ -25,9 +25,9 @@ const Wireframes = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h1 className="text-3xl md:text-4xl font-bold  mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold  mb-4">
             Wireframe
-          </h1>
+          </h2>
           <p className=" max-w-5xl mx-auto leading-relaxed">
             The wireframes were designed to keep interactions effortless for
             young users, using simple layouts, large icons, and minimal text.

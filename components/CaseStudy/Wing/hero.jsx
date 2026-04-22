@@ -52,17 +52,17 @@ const Hero = () => {
       <div className="bg-gradient-to-r md:w-[80%] relative z-30 gap-16 mx-auto md:px-16 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#8FCCF8] to-[#5BAFEB]">
         <div className="">
           <h3 className="mb-4">Built in</h3>
-          <h1 className="font-semibold">Six moon cycles</h1>
+          <h2 className="font-semibold">Six moon cycles</h2>
         </div>
         <div className="">
           <h3 className="mb-4">The Sector</h3>
-          <h1 className="font-semibold"> Dating & Socialization App</h1>
+          <h2 className="font-semibold"> Dating & Socialization App</h2>
         </div>
         <div className="">
           <h3 className="mb-4">What We Did</h3>
-          <h1 className="font-semibold">
+          <h2 className="font-semibold">
            Mobile App Development, Branding, UI/UX Design, Admin Panel
-          </h1>
+          </h2>
         </div>
       </div>
     </section>

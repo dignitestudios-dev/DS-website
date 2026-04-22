@@ -137,9 +137,9 @@ const Workflow = () => {
               key={idx}
             >
               <div className="flex items-center flex-col gap-2">
-                <h1 className="font-bold bg-[#C0F765] px-4 rounded-full">
+                <h2 className="font-bold bg-[#C0F765] px-4 rounded-full">
                   0{idx + 1}
-                </h1>
+                </h2>
                 <p className="text-sm text-[#0C0C0C]">{s}</p>
               </div>
             </div>

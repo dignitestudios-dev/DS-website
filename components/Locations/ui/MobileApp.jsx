@@ -59,7 +59,6 @@ const MobileApp = ({ cards, header, header2, para , button }) => {
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
-            // pauseOnMouseEnter: true, // we control it manually
           }}
           className="!overflow-visible"
           onSwiper={(swiper) => {

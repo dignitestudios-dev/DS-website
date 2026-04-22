@@ -144,7 +144,7 @@ const Workflow = () => {
       </motion.svg>
 
       {/* Content */}
-      <h1 className=" dark:text-[#C100FF] text-[#48035A] font-medium mb-4 h-[25px]">{step.title}</h1>
+      <h2 className=" dark:text-[#C100FF] text-[#48035A] font-medium mb-4 h-[25px]">{step.title}</h2>
       <p className="text-sm h-[150px]">{step.text}</p>
     </motion.div>
   ))}

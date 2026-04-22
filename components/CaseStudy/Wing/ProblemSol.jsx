@@ -65,11 +65,11 @@ const ProblemSol = () => {
                 width={120}
                 className="absolute top-0 right-0 rounded-tr-[50px]"
               />
-              <h1 className="text-lg font-semibold mb-2 text-black">Challenges</h1>
+              <h2 className="text-lg font-semibold mb-2 text-black">Challenges</h2>
               {challenges.map((c, idx) => (
                 <div className="flex gap-2 text-black capitalize text-sm items-start">
                   <img src="/wing/r-heart.webp" alt="heart" />
-                  <h2>{c}</h2>
+                  <h3>{c}</h3>
                 </div>
               ))}
             </div>
@@ -87,7 +87,7 @@ const ProblemSol = () => {
                 width={120}
                 className="absolute top-0 right-0 rounded-tr-[50px]"
               />
-              <h1 className="text-lg font-semibold mb-2 text-black">Solutions</h1>
+              <h2 className="text-lg font-semibold mb-2 text-black">Solutions</h2>
               {solutions.map((c, idx) => (
                 <div className="flex gap-2 text-black capitalize text-sm items-start">
                   <svg
@@ -103,7 +103,7 @@ const ProblemSol = () => {
                     />
                   </svg>
 
-                  <h2>{c}</h2>
+                  <h3>{c}</h3>
                 </div>
               ))}
             </div>

@@ -9,7 +9,7 @@ const CTA = () => {
       <img src="/hl-cta1.webp" alt="CTA Hl Cta1" className="absolute top-0" />
       <div className="flex items-center justify-between">
         <div className="p-12 space-y-4 w-full md:w-[60%]">
-          <h1 className="font-bold text-2xl">Got a kid-friendly app idea? Discuss Your Idea!</h1>
+          <h2 className="font-bold text-2xl">Got a kid-friendly app idea? Discuss Your Idea!</h2>
           <p>
            Talk to our experts and figure out what actually works for kids and parents without overcomplicating things.
           </p>

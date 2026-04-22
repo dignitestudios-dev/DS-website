@@ -14,9 +14,9 @@ const CTA = () => {
       />
       <div className="max-w-screen-2xl w-[80%]  pt-16 md:pb-0 pb-16 mx-auto flex justify-between">
         <div className="flex flex-col gap-4 md:pb-28 pb-0  items-start relative z-50 justify-center w-full  md:w-[50%]">
-          <h1 className="text-2xl font-bold md:text-4xl capitalize">
+          <h2 className="text-2xl font-bold md:text-4xl capitalize">
            Planning to launch a <span className="dark:text-white text-[#64486D]">digital marketplace </span> or  <span className="dark:text-white text-[#64486D]">service platform?</span>
-          </h1>
+          </h2>
           <p className=" text-lg">
              Our team builds scalable and user focused mobile app development services that help your product grow.
           </p>

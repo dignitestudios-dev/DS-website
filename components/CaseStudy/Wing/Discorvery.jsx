@@ -64,7 +64,7 @@ const Discorvery = () => {
               className={`rounded-[57px] text-start relative h-[350px]  p-8 py-10 w-full md:w-[520px] ${s.bg} ${idx == 1 && "dark:shadow-none shadow-xl shadow-blue-50"}`}
             >
               <img src={s.shad} alt="Research - S" className="absolute top-0 right-0 rounded-tr-[57px]" />
-              <h1 className="font-semibold mb-4 text-xl dark:text-white text-[#0095FF]">{s.title}</h1>
+              <h2 className="font-semibold mb-4 text-xl dark:text-white text-[#0095FF]">{s.title}</h2>
               <p className="text-sm mb-5">{s.p}</p>
               <ul className=" text-sm mb-2 space-y-3">
                 {s.steps.map((st, indx) => (

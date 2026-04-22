@@ -58,17 +58,17 @@ const Hero = () => {
       <div className="bg-gradient-to-r md:w-[80%] gap-16 mx-auto md:px-16 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#bff765b2] via-[#333333] to-[#333333]">
         <div className="">
           <h3 className="mb-4">The Milestones</h3>
-          <h1 className="font-semibold">6 months of end to end of product development </h1>
+          <h2 className="font-semibold">6 months of end to end of product development </h2>
         </div>
         <div className="">
           <h3 className="mb-4">The Sector</h3>
-          <h1 className="font-semibold">Pharmaceutical community networking and peer marketplace </h1>
+          <h2 className="font-semibold">Pharmaceutical community networking and peer marketplace </h2>
         </div>
         <div className="">
           <h3 className="mb-4">What We Did</h3>
-          <h1 className="font-semibold">
+          <h2 className="font-semibold">
            Mobile App Development coin marketplace system branding UI and UX design. 
-          </h1>
+          </h2>
         </div>
       </div>
     </section>

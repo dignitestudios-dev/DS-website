@@ -105,7 +105,7 @@ const Discorvery = () => {
                 </div>
 
                 <div className="pt-8 text-center h-36 ">
-                  <h1 className="text-sm h-8 flex mb-3 dark:text-black items-start justify-center">{s.title}</h1>
+                  <h2 className="text-sm h-8 flex mb-3 dark:text-black items-start justify-center">{s.title}</h2>
                   <p className="text-[13px] font-light">{s.desc}</p>
                 </div>
               </motion.div>

@@ -69,7 +69,7 @@ const Discorvery = () => {
               style={{ backgroundColor: s.bg }}
               className={`rounded-3xl text-start dark:text-black  h-[320px]  p-8 py-10 w-[370px]`}
             >
-              <h1 className="font-semibold mb-4">{s.title}</h1>
+              <h2 className="font-semibold mb-4">{s.title}</h2>
               <ul className=" text-xs mb-2 space-y-3">
                 {s.steps.map((st, indx) => (
                   <li key={indx} className="flex items-start gap-2 ">

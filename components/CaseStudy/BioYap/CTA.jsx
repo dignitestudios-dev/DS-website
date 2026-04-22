@@ -13,9 +13,9 @@ const CTA = () => {
       />
       <div className="max-w-screen-2xl w-[90%] md:w-[80%] pt-16 md:pb-0 pb-16 mx-auto flex justify-between">
         <div className="flex flex-col gap-4 items-start relative z-50 justify-center w-full  md:w-[60%]">
-          <h1 className="text-2xl md:text-4xl capitalize">
+          <h2 className="text-2xl md:text-4xl capitalize">
            Ready to build your <span className="font-bold">mobile app</span> with <br /> <span className="font-bold">a community</span> focused experience? 
-          </h1>
+          </h2>
           <p className=" text-lg md:text-2xl">
             Let our team give you a clean smooth market ready product according
             to your idea. 

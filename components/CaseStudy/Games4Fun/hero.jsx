@@ -157,10 +157,10 @@ const Hero = () => {
           </div>
           <div className="">
             <h3 className="">Milestone</h3>
-            <h1 className="font-semibold ">
+            <h2 className="font-semibold ">
               {" "}
               6 months of product Design and Development{" "}
-            </h1>
+            </h2>
           </div>
         </div>
         <div className="flex items-end gap-2 ">
@@ -169,9 +169,9 @@ const Hero = () => {
           </div>
           <div>
             <h3 className="">Sector</h3>
-            <h1 className="font-semibold ">
+            <h2 className="font-semibold ">
              Gaming Web Application & Custom PC Platform
-            </h1>
+            </h2>
           </div>
         </div>
         <div className="flex items-end gap-2 ">
@@ -180,9 +180,9 @@ const Hero = () => {
           </div>
           <div>
             <h3 className="">What we Did</h3>
-            <h1 className="font-semibold ">
+            <h2 className="font-semibold ">
              Web App Development, Branding, UI/UX Design
-            </h1>
+            </h2>
           </div>
         </div>
       </div>

@@ -72,17 +72,17 @@ const Hero = () => {
       <div className="bg-gradient-to-r md:w-[80%] mx-auto md:px-16 rounded-xl flex md:flex-row flex-col p-5 text-white justify-between from-[#000086] to-[#CEA3D8]">
         <div className="">
           <h3 className="mb-4">Built After</h3>
-          <h1 className="font-semibold">Six Turns Of The Calendar</h1>
+          <h2 className="font-semibold">Six Turns Of The Calendar</h2>
         </div>
         <div className="">
           <h3 className="mb-4">The Sector</h3>
-          <h1 className="font-semibold">Children’s Learning & Mindfulness</h1>
+          <h2 className="font-semibold">Children’s Learning & Mindfulness</h2>
         </div>
         <div className="">
           <h3 className="mb-4">What We Did</h3>
-          <h1 className="font-semibold">
+          <h2 className="font-semibold">
             Mobile App Development, UI/UX Design, Branding
-          </h1>
+          </h2>
         </div>
       </div>
     </section>

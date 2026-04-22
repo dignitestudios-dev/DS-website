@@ -82,10 +82,10 @@ const Hero = () => {
           </div>
           <div className="">
             <h3 className="">Time Taken</h3>
-            <h1 className="font-semibold ">
+            <h2 className="font-semibold ">
               {" "}
               30 weeks of app evolution{" "}
-            </h1>
+            </h2>
           </div>
         </div>
         <div className="flex items-end gap-2 ">
@@ -94,9 +94,9 @@ const Hero = () => {
           </div>
           <div>
             <h3 className="">Category</h3>
-            <h1 className="font-semibold ">
+            <h2 className="font-semibold ">
              Travel & Hospitality App
-            </h1>
+            </h2>
           </div>
         </div>
         <div className="flex items-end gap-2 ">
@@ -105,9 +105,9 @@ const Hero = () => {
           </div>
           <div>
             <h3 className="">Services we offered</h3>
-            <h1 className="font-semibold ">
+            <h2 className="font-semibold ">
              Web app development, ui ux & branding
-            </h1>
+            </h2>
           </div>
         </div>
       </div>

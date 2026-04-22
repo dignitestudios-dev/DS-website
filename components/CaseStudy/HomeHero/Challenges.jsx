@@ -512,7 +512,7 @@ const Challenges = () => {
         </motion.p>
         <div className="flex justify-start mb-16 ml-12 md:ml-0">
           {" "}
-          <h1 className="bg-[#FF3730] relative px-14 py-6 rounded-r-full text-xl text-white flex items-center">
+          <h2 className="bg-[#FF3730] relative px-14 py-6 rounded-r-full text-xl text-white flex items-center">
             Problems
             <svg
               className="absolute -left-10"
@@ -541,7 +541,7 @@ const Challenges = () => {
                 fill="white"
               />
             </svg>
-          </h1>
+          </h2>
         </div>
         <div className="relative hidden md:flex items-center justify-center mb-40">
           {/* Center Image */}
@@ -626,7 +626,7 @@ const Challenges = () => {
         </div>
         <div className="flex justify-end mb-16 md:mt-0 mt-16 mr-12 md:mr-0">
           {" "}
-          <h1 className="bg-[#1EBF72] relative px-14 py-6 rounded-l-full text-xl text-white flex items-center">
+          <h2 className="bg-[#1EBF72] relative px-14 py-6 rounded-l-full text-xl text-white flex items-center">
             Solutions
             <svg
               className="absolute -right-10"
@@ -653,7 +653,7 @@ const Challenges = () => {
                 fill="white"
               />
             </svg>
-          </h1>
+          </h2>
         </div>
 
         <div className="md:hidden flex flex-col gap-2 items-center" >

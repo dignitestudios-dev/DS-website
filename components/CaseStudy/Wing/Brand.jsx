@@ -34,9 +34,9 @@ const BrandIdentity = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h1 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Brand <span className="text-[#5BAFEB]">Identity</span>
-          </h1>
+          </h2>
           <p className=" max-w-5xl relative z-50 mx-auto leading-relaxed ">
        Our team of skilled designers built the whole brand identity around connection, trust, and the modern way people form relationships. Blue isn’t just calming; it symbolizes trust, reliability, and emotional security, qualities essential for a dating app where users seek genuine relationships. Also, the rounded typography and friendly icons create a sense of warmth and approachability. Custom illustrations highlight shared connections, friendships, and real compatibility. Overall, the branding communicates safety, intention, and the promise of meaningful matches.
           </p>
