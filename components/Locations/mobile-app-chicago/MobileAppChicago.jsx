@@ -127,20 +127,12 @@ const VALUE_PROPOSITION = [
     desc: "We design HIPAA-friendly systems through professional healthcare mobile app development services that protect patient data and support secure telemedicine platforms.",
   },
   {
-    title: "Fintech Industry",
-    desc: "We deliver secure, compliance-driven financial products through modern fintech app development services focused on performance, data protection, and user trust.",
-  },
-  {
     title: "Ecommerce Industry",
     desc: "As an experienced ecommerce app development company, we build conversion-focused shopping experiences that improve user engagement and customer retention.",
   },
   {
     title: "Real Estate Industry",
     desc: "Our property platform solutions are powered by expert real estate app development, supporting listings, CRM tools, and end-to-end client management.",
-  },
-  {
-    title: "Education & E-Learning",
-    desc: "Interactive learning systems are created by an experienced e-learning app development company, supporting digital classrooms, content delivery, and student engagement.",
   },
 ];
 

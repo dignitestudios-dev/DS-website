@@ -130,16 +130,8 @@ const VALUE_PROPOSITION = [
     desc: "As a Healthcare App Development Company in NC, we build HIPAA-ready apps. Prepared for the health sector.",
   },
   {
-    title: "Fintech Apps",
-    desc: "Through our fintech app development services in NC, we help you in launching secure fintech apps and payment mobile apps with multi-layer authentication.",
-  },
-  {
     title: "Ecommerce & Retail Apps",
     desc: "We keep things quick and simple through ecommerce application development in Charlotte. Storefront? Check. Inventory? Check. POS and loyalty? All included.",
-  },
-  {
-    title: "Education & E-learning apps",
-    desc: "We provide education app development services in NC that guide students step by step through courses and quizzes, while teachers have dashboards that actually help them do their job.",
   },
   {
     title: "Real Estate Apps",

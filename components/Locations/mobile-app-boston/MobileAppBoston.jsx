@@ -147,20 +147,12 @@ const VALUE_PROPOSITION = [
     desc: "Being an expert healthcare app development company, we provide HIPAA-compliant solutions through reliable healthcare mobile app development in Boston services designed for data security and operational efficiency for patients.",
   },
   {
-    title: "Fintech Industry",
-    desc: "For financial products, we operate as a results-driven fintech app development company, delivering reliable fintech app development services focused on security, regulatory standards, and high-performance user experiences.",
-  },
-  {
     title: "Ecommerce Industry",
     desc: "For online businesses, we support brands as an experienced ecommerce app development company, offering scalable ecommerce application development services that improve user journeys and conversions.",
   },
   {
     title: "Real Estate Industry",
     desc: "We also partner with property businesses as a dedicated real estate app development company, delivering tailored real estate app development solutions for listings, CRM, and user engagement.",
-  },
-  {
-    title: "Education & E-learning apps",
-    desc: "In education, we work as an e learning app development company, providing intuitive education app development services for schools, startups, and training platforms.",
   },
   {
     title: "Logistics Industry",

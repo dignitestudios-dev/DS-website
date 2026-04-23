@@ -125,20 +125,12 @@ const VALUE_PROPOSITION = [
     desc: "As a healthcare app development company, we build secure mobile solutions for the healthcare providers. Our apps support patient access, data protection and the compliance requirements.",
   },
   {
-    title: "Fintech Industry",
-    desc: "We deliver fintech app development services which are focused on the security and reliability driven platforms.",
-  },
-  {
     title: "Ecommerce",
     desc: "As an ecommerce app development company, we also create mobile shopping experiences that convert. Our apps support smooth browsing, secure payments and scalable growth.",
   },
   {
     title: "Real Estate Industry",
     desc: "As a real estate app development company, we develop apps for the property listings and the virtual tours. Our solutions also include tools for the agents and brokers.",
-  },
-  {
-    title: "Education and Logistics Apps",
-    desc: "We are an e-learning app development company building interactive education platforms. We also develop logistics solutions which support tracking, operations and the workflow efficiency.",
   },
 ];
 

@@ -6,6 +6,7 @@ import { Autoplay } from "swiper/modules";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
+import { getIndustryRoute } from "@/utils/industryRoutes";
 export const sliderSettings = {
   slidesPerView: 1,
   spaceBetween: 10,
@@ -186,16 +187,18 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
                     }`}
                   ></div>
 
-                  <button
-                    className={`${
-                      isActive && "text-white"
-                    } flex items-center relative z-50 justify-center w-full  text-[#F15C20] font-medium`}
-                  >
-                    View More{" "}
-                    <span>
-                      <IoIosArrowRoundForward size={25} strokeWidth={5} />
-                    </span>
-                  </button>
+                  <Link href={getIndustryRoute(value?.title)} className="w-full">
+                    <button
+                      className={`${
+                        isActive && "text-white"
+                      } flex items-center relative z-50 justify-center w-full  text-[#F15C20] font-medium`}
+                    >
+                      View More{" "}
+                      <span>
+                        <IoIosArrowRoundForward size={25} strokeWidth={5} />
+                      </span>
+                    </button>
+                  </Link>
                 </div>
               </SwiperSlide>
             );

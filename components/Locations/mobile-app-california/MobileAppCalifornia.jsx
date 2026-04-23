@@ -134,16 +134,8 @@ const VALUE_PROPOSITION = [
     desc: "As a Healthcare app development company, we build HIPAA-ready apps. Telemedicine, patient portals, remote monitoring, you name it.",
   },
   {
-    title: "Fintech Apps",
-    desc: "Through our fintech app development services, we help you launch secure fintech apps and payment mobile apps with multi-layer authentication, KYC/AML support, and transaction management.",
-  },
-  {
     title: "E-commerce & Retail Apps",
     desc: "Our ecommerce application development services keep things quick, simple, and tailored to your customers. Storefront? Check. Inventory? Check. POS and loyalty? All covered.",
-  },
-  {
-    title: "Education & e-Learning Apps",
-    desc: "We offer education app development services that guide students step by step through courses, videos, and quizzes, while teachers get dashboards that actually help them do their job.",
   },
   {
     title: "Real Estate Apps",

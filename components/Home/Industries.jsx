@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Link from "next/link";
+import { getIndustryRoute } from "@/utils/industryRoutes";
 export const sliderSettings = {
   slidesPerView: 1,
   spaceBetween: 10,
@@ -68,7 +69,18 @@ const VALUE_PROPOSITION = [
   },
   {
     title: "Ecommerce",
-    desc: <>Providing <Link className="text-orange-600" href="/services/ecommerce-app-development">ecommerce mobile app development services</Link> that help startups boost sales through seamless shopping experiences.</>,
+    desc: (
+      <>
+        Providing{" "}
+        <Link
+          className="text-orange-600"
+          href="/services/ecommerce-app-development"
+        >
+          ecommerce mobile app development services
+        </Link>{" "}
+        that help startups boost sales through seamless shopping experiences.
+      </>
+    ),
   },
   {
     title: "Health & Fitness",
@@ -169,7 +181,8 @@ const Industries = ({ header, header2, para }) => {
 
                   {isActive && (
                     <img
-                      src="/location/mask.webp" alt="web design mask overlay"
+                      src="/location/mask.webp"
+                      alt="web design mask overlay"
                       className="absolute -top-10 -left-16 z-10 rounded-t-xl pointer-events-none"
                     />
                   )}
@@ -196,17 +209,21 @@ const Industries = ({ header, header2, para }) => {
                         : "w-[0] rounded-l-full"
                     }`}
                   ></div>
-
-                  <button
-                    className={`${
-                      isActive && "text-white"
-                    } flex items-center relative z-50 justify-center w-full  text-[#F15C20] font-medium`}
+                  <Link
+                    href={getIndustryRoute(value?.title)}
+                    className="w-full"
                   >
-                    View More{" "}
-                    <span>
-                      <IoIosArrowRoundForward size={25} strokeWidth={5} />
-                    </span>
-                  </button>
+                    <button
+                      className={`${
+                        isActive && "text-white"
+                      } flex items-center relative z-50 justify-center w-full  text-[#F15C20] font-medium`}
+                    >
+                      View More{" "}
+                      <span>
+                        <IoIosArrowRoundForward size={25} strokeWidth={5} />
+                      </span>
+                    </button>
+                  </Link>
                 </div>
               </SwiperSlide>
             );

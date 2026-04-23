@@ -202,20 +202,12 @@ const VALUE_PROPOSITION = [
     ),
   },
   {
-    title: "Fintech Apps",
-    desc: "Through our fintech app development services, we help you launch secure fintech apps and payment mobile apps with multi-layer authentication, KYC/AML support, and transaction management.",
-  },
-  {
     title: "Ecommerce & Retail Apps",
     desc: (
       <>
         Our <Link href='/ecommerce/ecommerce-app-development' className='text-[#F15C20]'>ecommerce application development services</Link> in New York keep things quick, simple, and tailored to your customers. Storefront? Check. Inventory? Check. POS and loyalty? All covered.
       </>
     ),
-  },
-  {
-    title: "Education & E-learning apps",
-    desc: "We offer education app development services that guide students step by step through courses, videos, and quizzes, while teachers get dashboards that actually help them do their job.",
   },
   {
     title: "Real Estate Apps",

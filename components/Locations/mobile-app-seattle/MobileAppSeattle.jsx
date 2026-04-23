@@ -141,10 +141,6 @@ const VALUE_PROPOSITION = [
     desc: "We also provide the real estate companies through the advanced solutions by custom mobile app development services in Seattle. Our apps also include the property listings, virtual tours and the agent dashboard, which enable faster property research , efficient client communication through better decision making for the agencies and the brokers.",
   },
   {
-    title: "Education & E learning Apps",
-    desc: "As the part of the mobile app development company in Seattle offerings, we also create the interactive e-learning platforms and the education apps. Such solutions support the online courses, virtual classrooms and the student progress tracking, delivering engaging and also the scalable learning experiences for the schools, colleges and training centers.",
-  },
-  {
     title: "Matchmaking & Dating App Development",
     desc: "We develop secure matchmaking and dating apps through the smart matching logic, real time chat and the privacy focused features as our app development Seattle services to deliver engaging user experiences.",
   },

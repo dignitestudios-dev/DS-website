@@ -192,14 +192,6 @@ const VALUE_PROPOSITION = [
     title: "Real Estate Development",
     desc: "The real estate iOS app development company in Tampa you need should solve the problem. So we integrate features like simplifying property listing and virtual tours, enhancing the app engagement.",
   },
-  {
-    title: "Education and E-learning",
-    desc: "Searching a reliable mobile app developer Tampa isn't as simple. But we provide education app development services that make the learning experience more engaging and accessible for students.",
-  },
-  {
-    title: "Fintech and Logistics",
-    desc: "For us, Fintech services mean reliable solutions. The developers integrate secure features for banking, payments, and supply chain operations.",
-  },
 ];
 
 

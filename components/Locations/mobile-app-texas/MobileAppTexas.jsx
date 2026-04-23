@@ -134,20 +134,12 @@ const VALUE_PROPOSITION = [
     ),
   },
   {
-    title: "Fintech Apps",
-    desc: "Through our fintech mobile app development services in Texas, we provide proper support in launching secure fintech apps and payment mobile apps with multi-layer authentication.",
-  },
-  {
     title: "Ecommerce & Retail Apps",
     desc: (
       <>
         Dignite Studios keeps things simple through <Link href='/ecommerce/ecommerce-app-development' className='text-[#F15C20]'>ecommerce application development services</Link>. Storefront, Inventory POS, and loyalty? All included.
       </>
     ),
-  },
-  {
-    title: "Education & E-learning apps",
-    desc: "We provide education app development services in Texas that guide students step by step through courses and quizzes. Providing teachers with dashboards that help them do their job.",
   },
   {
     title: "Real Estate Apps",
