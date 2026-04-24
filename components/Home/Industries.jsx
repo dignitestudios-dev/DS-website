@@ -10,9 +10,6 @@ export const sliderSettings = {
   slidesPerView: 1,
   spaceBetween: 10,
   centeredSlides: true,
-  // autoplay: {
-  //   delay: 3000,
-  // },
   loop: true,
   breakpoints: {
     480: {
@@ -228,8 +225,6 @@ const Industries = ({ header, header2, para }) => {
               </SwiperSlide>
             );
           })}
-
-          {/* <SwiperButtons /> */}
         </Swiper>
       </div>
     </div>

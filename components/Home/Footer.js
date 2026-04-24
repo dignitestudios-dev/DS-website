@@ -137,7 +137,7 @@ const Footer = () => {
     ],
     support: [
       { name: "Testimonials", href: "/#testimonials" },
-      { name: "FAQS", href: "/#faqs" },
+      { name: "FAQS", href: "/faqs" },
       { name: "Terms & Conditions", href: "/terms-and-conditions" },
       { name: "Privacy Policy", href: "/privacy-policy" },
       { name: "Contact Us", href: "/contact-us" },
