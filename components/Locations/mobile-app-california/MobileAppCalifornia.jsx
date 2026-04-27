@@ -40,8 +40,8 @@ const services = [
     description: (
       <>
         If you’re seeking Android app development services in California, you
-        can trust us with your Android app development. We make sure to develop
-        Android applications that are fully optimized for devices like Samsung,
+        can trust us with your <Link href="/services/android-app-development" className="text-[#F15C20] underline">Android app development</Link>. We make sure to develop
+        <Link href="/services/android-app-development-services" className="text-[#F15C20] underline">Android applications</Link> that are fully optimized for devices like Samsung,
         Pixel, and OnePlus.
       </>
     ),

@@ -52,7 +52,7 @@ const Services = ({ services, header, header2, para, button }) => {
               {service.title}
             </h3>
 
-            <p className="text-sm text-center [&_a]:text-[#F15C20] group-hover:[&_a]:text-white group-hover:[&_a]:underline">{service.description}</p>
+            <p className="text-sm text-center [&_a]:text-[#F15C20] [&_a]:underline group-hover:[&_a]:text-white group-hover:[&_a]:underline">{service.description}</p>
           </motion.div>
         ))}
       </div>

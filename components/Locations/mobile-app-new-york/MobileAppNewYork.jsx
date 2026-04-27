@@ -52,8 +52,8 @@ const services = [
         >
           Android app development
         </Link>{" "}
-        using Kotlin and Java. When we offer our Android app development
-        service, we make sure your app runs smoothly across Pixel, Samsung, and
+        using Kotlin and Java. When we offer our <Link href="/services/android-app-development-services" className="text-[#F15C20] underline">Android app development
+        service</Link>, we make sure your app runs smoothly across Pixel, Samsung, and
         OnePlus. The app would be free of weird bugs.
       </>
     ),

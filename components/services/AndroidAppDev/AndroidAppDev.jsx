@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Hero from "./Hero";
 import About from "../ui/About";
 import Services from "../ui/Services";

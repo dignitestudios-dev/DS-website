@@ -65,8 +65,7 @@ const Faq = ({ faqs , header , header2 }) => {
                     className="overflow-hidden"
                   >
                     <p
-                      className={`mt-2 text-xs pl-8 lg:pl-16 pr-16 lg:text-[16px] leading-normal ${openAccordion === faq.id ? "[&_a]:text-white [&_a]:underline" : "[&_a]:text-[#F15C20]"}`}
-                      // style={{ color: palette?.dark_contrast_color }}
+                      className={`mt-2 text-xs pl-8 lg:pl-16 pr-16 lg:text-[16px] leading-normal ${openAccordion === faq.id ? "[&_a]:text-white [&_a]:underline" : "[&_a]:text-[#F15C20] [&_a]:underline"}`}
                     >
                       {faq.answer}
                     </p>
