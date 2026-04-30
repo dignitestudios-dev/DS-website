@@ -10,7 +10,7 @@ const About = ({heading,heading2 , para , button}) => {
           {heading}{" "}
           <span className="text-[#F15C20]"> {heading2}</span>{" "}
         </h2>
-        <p className="text-sm md:text-lg my-6 dark:text-white text-black/50 md:text-[#0C0C0C]">
+        <p className="text-sm md:text-lg my-6 dark:text-white text-black/50 md:text-[#0C0C0C] [&_a]:text-[#F15C20] [&_a]:underline">
          {para}
         </p>
 

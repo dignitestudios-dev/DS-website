@@ -86,7 +86,7 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
         <div className="lg:w-[50%] pb-20">
           <h2 className="text-4xl text-white font-bold">{header}</h2>
           <h2 className="text-4xl font-bold text-[#F15C20] mb-4">{header2}</h2>
-          <p className="text-white">{para}</p>
+          <p className="text-white [&_a]:text-[#F15C20] [&_a]:underline">{para}</p>
 
           <form onSubmit={handleSubmit} className="space-y-6 max-w-lg mt-12">
             {/* Full Name */}

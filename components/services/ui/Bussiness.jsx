@@ -99,7 +99,7 @@ const Bussiness = ({
             <h2 className="text-5xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
               {header} <span className="text-[#F15C20]">{header2}</span>{" "}
             </h2>
-            <p className="text-lg my-6 text-white ">{para}</p>
+            <p className="text-lg my-6 text-white [&_a]:text-[#F15C20] [&_a]:underline">{para}</p>
           </div>
 
           <div className="relative  p-8">
@@ -121,7 +121,7 @@ const Bussiness = ({
                     <h3 className="text-lg font-bold text-white ">
                       {item.title}
                     </h3>
-                    <p className="text-white text-sm line-clamp-3">
+                    <p className="text-white text-sm line-clamp-3 [&_a]:text-[#F15C20] [&_a]:underline">
                       {item.desc}
                     </p>
                   </div>
@@ -203,7 +203,7 @@ const Bussiness = ({
                     <h3 className="text-lg font-bold text-white ">
                       {item.title}
                     </h3>
-                    <p className="text-white text-sm line-clamp-3">
+                    <p className="text-white text-sm line-clamp-3 [&_a]:text-[#F15C20] [&_a]:underline">
                       {item.desc}
                     </p>
                   </div>
@@ -233,7 +233,7 @@ const Bussiness = ({
             <h2 className="text-3xl font-bold tracking-tight text-white">
               {header} <span className="text-[#F15C20]">{header2}</span>
             </h2>
-            <p className="text-base mt-5 text-gray-300">{para}</p>
+            <p className="text-base mt-5 text-gray-300 [&_a]:text-[#F15C20] [&_a]:underline">{para}</p>
           </div>
 
           {/* Carousel */}
@@ -281,7 +281,7 @@ const Bussiness = ({
                       <h3 className="text-base font-bold text-white mb-3">
                         {item.title}
                       </h3>
-                      <p className="text-white text-xs leading-relaxed line-clamp-4">
+                      <p className="text-white text-xs leading-relaxed line-clamp-4 [&_a]:text-[#F15C20] [&_a]:underline">
                         {item.desc}
                       </p>
                     </div>

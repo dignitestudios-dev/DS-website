@@ -43,7 +43,7 @@ const MobileApp = ({ cards, header, header2, para , button }) => {
           {header}
           <span className="text-[#F15C20]"> {header2}</span>
         </h2>
-        <p className="text-lg my-6 text-[#0C0C0C]">{para}</p>
+        <p className="text-lg my-6 text-[#0C0C0C] [&_a]:text-[#F15C20] [&_a]:underline">{para}</p>
       </div>
 
       <div className="mt-16 w-full">

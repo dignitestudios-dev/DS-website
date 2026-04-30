@@ -116,7 +116,7 @@ const Features = ({ header, header2, para, features, button }) => {
 
                       {/* BACK */}
                       <div
-                        className="absolute inset-0 rounded-[32px] border border-gray-200 bg-[#F15C20] text-white p-4 flex flex-col items-center justify-center text-center"
+                        className="absolute inset-0 rounded-[32px] border border-gray-200 bg-[#F15C20] text-white p-4 flex flex-col items-center justify-center text-center [&_a]:text-white [&_a]:underline"
                         style={{
                           transform: "rotateY(180deg)",
                           backfaceVisibility: "hidden",

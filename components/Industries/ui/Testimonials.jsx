@@ -12,26 +12,42 @@ const testData = [
   {
     name: "Los Angeles",
     desgination: "– SaaS Founder",
-    review:
-      "“Dignite Studios helped us launch 3 months faster than expected. Their communication easily makes them the top mobile app developers California has to offer.” ",
+    link: "/industries/dating-app-development",
+    review: (
+      <>
+        “Dignite Studios helped us launch 3 months faster than expected. Their communication easily makes them the top <Link href="/locations/mobile-app-development-california">mobile app developers California</Link> has to offer.”
+      </>
+    ),
   },
   {
     name: "San Diego",
     desgination: "– E-Commerce CEO",
-    review:
-      "“Our ROI jumped significantly within the first quarter. The team understood our goals instantly.” ",
+    link: "/ecommerce/ecommerce-app-development",
+    review: (
+      <>
+        “Our ROI jumped significantly within the first quarter. The team understood our goals instantly.”
+      </>
+    ),
   },
   {
     name: "San Francisco",
     desgination: "– Healthcare Startup",
-    review:
-      "“Professional and incredibly efficient. Their ability to deliver a smooth user experience was impressive.” ",
+    link: "/industries/healthcare-app-development",
+    review: (
+      <>
+        “Professional and incredibly efficient. Their ability to deliver a smooth user experience was impressive.”
+      </>
+    ),
   },
   {
     name: "Silicon Valley",
     desgination: "– Fintech Product Lead",
-    review:
-      "“ If you need the best mobile app developers in California, this is where you go.” ",
+    link: "/services/mobile-app-development",
+    review: (
+      <>
+        “If you need the best <Link className="text-[#F15C20]" href="/locations/mobile-app-development-california">mobile app developers in California</Link>, this is where you go.”
+      </>
+    ),
   },
 ];
 
@@ -125,14 +141,20 @@ const Testimonials = ({ header, header2, para, test: customTest , button }) => {
                           alt="review stars"
                           className="mx-auto mb-2"
                         />
-                        <h4 className="text-base font-bold">{item.name}</h4>
+                        {item.link ? (
+                          <Link href={item.link} className="text-[#F15C20] hover:underline">
+                            <h4 className="text-base font-bold">{item.name}</h4>
+                          </Link>
+                        ) : (
+                          <h4 className="text-base font-bold">{item.name}</h4>
+                        )}
                         <p className="text-xs text-gray-600">
                           {item.designation}
                         </p>
                       </div>
 
-                      <p className="text-xs text-center line-clamp-4 px-2">
-                        "{item.review}"
+                      <p className="text-xs text-center line-clamp-4 px-2 [&_a]:text-[#F15C20] [&_a]:underline">
+                        {item.review}
                       </p>
                     </div>
                   </div>

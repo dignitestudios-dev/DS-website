@@ -548,7 +548,9 @@ const AndroidAppDev = () => {
         header={"Specialized Android App Development for Different  "}
         header2={"Industries"}
         para={
-          "The team designs Android apps according to your goals. Being one of the expert Android app development companies, our expertise and experience prevent us from creating the exact same product for all the niches and industries. Offering customized Android solutions for every industry is our specialty. And developing apps customized for your industry needs gives you a competitive advantage in the market.  "
+          <>
+            The team designs Android apps according to your goals. Being one of the expert <Link href='/services/android-app-development-services' className='text-[#F15C20]'>Android app development companies</Link>, our expertise and experience prevent us from creating the exact same product for all the niches and industries. Offering customized Android solutions for every industry is our specialty. And developing apps customized for your industry needs gives you a competitive advantage in the market.
+          </>
         }
         button={"Let’s Discuss Today"}
       />

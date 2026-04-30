@@ -93,7 +93,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
           {header}
           <span className="text-[#F15C20]"> {header2}</span>{" "}
         </h2>
-        <p className="text-sm md:text-lg my-6 dark:text-white mx-auto text-[#0C0C0C]">
+        <p className="text-sm md:text-lg my-6 dark:text-white mx-auto text-[#0C0C0C] [&_a]:text-[#F15C20] [&_a]:underline">
           {para}
         </p>
       </div>
@@ -167,7 +167,7 @@ const Industries = ({ VALUE_PROPOSITION, header, header2, para, button }) => {
                     </h3>
                   </div>
 
-                  <p className="text-sm px-4 text-start lg:leading-[17px] font-medium line-clamp-5">
+                  <p className="text-sm px-4 text-start lg:leading-[17px] font-medium line-clamp-5 [&_a]:text-[#F15C20] [&_a]:underline">
                     {value?.desc}
                   </p>
                 </div>

@@ -520,7 +520,7 @@ const DatingApp = () => {
             means helping them meet customer demands and give a competitive
             advantage in the market. Our goal is to build apps that offer
             transformation. The solutions we create while providing the trusted
-            <Link href="/industries/dating-app-development" className="text-[#F15C20]">dating app development</Link> simplify user matching and enhance the
+            <Link href="/industries/dating-app-development" className="text-[#F15C20]"> dating app development</Link> simplify user matching and enhance the
             overall user experience through improved engagement. Our apps are
             designed to make every interaction smooth through secure chats and
             profile management. We work with a wide range of business models,

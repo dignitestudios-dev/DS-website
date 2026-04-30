@@ -50,7 +50,7 @@ const Process = ({header , header2 , para , steps , btn}) => {
             {header}{" "}{header2 && <span className="text-[#F15C20]">{header2}</span>}
           </h2>
           <p
-            className={`text-sm lg:text-lg text-center my-3 lg:leading-[24.48px] font-[400]  ${ 
+            className={`text-sm lg:text-lg text-center my-3 lg:leading-[24.48px] font-[400] [&_a]:text-[#F15C20] [&_a]:underline ${ 
               theme === "light" && "text-[#2A2A2A]"
             }`}
           >
