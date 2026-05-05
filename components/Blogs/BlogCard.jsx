@@ -12,7 +12,7 @@ export function BlogCard({ ID, image, readTime, title, excerpt, date, slug, URL,
           <img
             src={image}
             alt={title}
-            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            className="h-full w-full  transition-transform duration-500 group-hover:scale-105"
             onError={(e) => {
               e.target.src = 'https://placehold.co/384x218/f15c20/ffffff?text=Blog+Post';
             }}

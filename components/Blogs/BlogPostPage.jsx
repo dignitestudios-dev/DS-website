@@ -74,8 +74,8 @@ function Breadcrumb({ categories }) {
 function TableOfContents({ headings, activeId }) {
   if (!headings.length) return null;
   return (
-    <div className="sticky top-8 max-h-[calc(100vh-4rem)] overflow-y-auto">
-      <div className="fade-up">
+    <div className="sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto">
+      <div className="fade-up bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
         <p className="mb-6 text-[32px] font-semibold leading-none text-black">
           In this article
         </p>
@@ -371,6 +371,133 @@ export default function BlogPostPage({ slug }) {
         .blog-content blockquote { border-left: 4px solid #f97316; padding-left: 1rem; margin: 1.5rem 0; font-style: italic; color: #555; }
         .blog-content strong { color: #111; }
         .blog-content .wp-block-image { margin: 1.5rem 0; }
+        
+        /* WordPress Block Columns Styling */
+        .blog-content .wp-block-columns { margin: 2rem 0; }
+        .blog-content .wp-block-column { width: 100%; }
+        
+        /* WordPress Details/FAQ Styling - Matching Existing Design */
+        .blog-content .wp-block-details {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-bottom: 1rem;
+          padding: 1rem 0;
+          border-radius: 1rem 0 0 1rem;
+          cursor: pointer;
+          background-color: #F6F6F6;
+          color: black;
+          transition: all 0.3s ease;
+          position: relative;
+        }
+        
+        @media (min-width: 768px) {
+          .blog-content .wp-block-details {
+            padding: 3.5rem 0;
+            border-radius: 9999px 0 0 9999px;
+          }
+        }
+        
+        .blog-content .wp-block-details[open] {
+          background-color: #F15C20;
+          color: white;
+        }
+        
+        .blog-content .wp-block-details summary {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          font-weight: 500;
+          outline: none;
+          position: relative;
+          list-style: none;
+          padding-left: 2rem;
+          padding-right: 1rem;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          text-align: left;
+        }
+        
+        @media (min-width: 768px) {
+          .blog-content .wp-block-details summary {
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+          }
+        }
+        
+        @media (min-width: 1024px) {
+          .blog-content .wp-block-details summary {
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            padding-left: 4rem;
+          }
+        }
+        
+        .blog-content .wp-block-details summary::-webkit-details-marker {
+          display: none;
+        }
+        
+        .blog-content .wp-block-details summary::after {
+          content: '+';
+          position: absolute;
+          right: -1.25rem;
+          top: 50%;
+          transform: translateY(-50%);
+          height: 3rem;
+          width: 3rem;
+          padding: 0.5rem;
+          border-radius: 9999px;
+          background-color: white;
+          color: #929292;
+          font-size: 1.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 0 15px 0 rgba(12, 12, 12, 0.25);
+          transition: all 0.3s ease;
+        }
+        
+        @media (min-width: 768px) {
+          .blog-content .wp-block-details summary::after {
+            right: -1.5rem;
+          }
+        }
+        
+        .blog-content .wp-block-details[open] summary::after {
+          content: '−';
+          color: #F15C20;
+          box-shadow: 0 0 15px 0 rgba(241, 92, 32, 0.25);
+        }
+        
+        .blog-content .wp-block-details .wp-block-paragraph {
+          margin-top: 0.5rem;
+          padding-left: 2rem;
+          padding-right: 4rem;
+          font-size: 0.75rem;
+          line-height: 1.5;
+          margin-bottom: 0;
+        }
+        
+        @media (min-width: 1024px) {
+          .blog-content .wp-block-details .wp-block-paragraph {
+            padding-left: 4rem;
+            font-size: 1rem;
+          }
+        }
+        
+        .blog-content .wp-block-details .wp-block-paragraph a {
+          text-decoration: underline;
+        }
+        
+        .blog-content .wp-block-details[open] .wp-block-paragraph a {
+          color: white;
+        }
+        
+        .blog-content .wp-block-details:not([open]) .wp-block-paragraph a {
+          color: #F15C20;
+        }
+        
         .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
         .fade-up { animation: fadeUp 0.5s ease forwards; }
@@ -389,18 +516,18 @@ export default function BlogPostPage({ slug }) {
           </div>
         </div>
 
-        <div className="bg-white pb-0">
+        <div className="bg-white pb-0 relative">
           <div className="max-w-7xl mx-auto px-4 mt-4">
             <div className="grid grid-cols-1 lg:grid-cols-[761px_341px] gap-10 items-start justify-center">
               <div className="w-full lg:max-w-[761px]">
                 {loading ? (
                   <Skeleton className="w-full rounded-2xl" style={{ paddingTop: '42%' }} />
                 ) : heroImage ? (
-                  <div className="relative min-h-[320px] overflow-hidden rounded-[32px] fade-up md:min-h-[520px]">
+                  <div className="relative  overflow-hidden rounded-[32px] fade-up ">
                     <img
                       src={heroImage}
                       alt={post?.title}
-                      className="absolute inset-0  object-cover"
+                      className=" inset-0  w-full h-full object-contain"
                       style={{ objectPosition: 'center top' }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-black/10" />
@@ -412,10 +539,10 @@ export default function BlogPostPage({ slug }) {
                             {categories[0].name}
                           </span>
                         )}
-                        <h1 className="text-xl font-extrabold leading-tight text-white md:text-3xl">
+                        <h1 className="text-xl font-extrabold leading-tight text-white md:text-2xl">
                           {post?.title}
                         </h1>
-                        <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-white/90 md:text-base">
+                        <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-white/90 md:text-sm">
                           <span>{formatDate(post?.date)}</span>
                           <span className="text-white/60"><GoDotFill /></span>
                           <span>{readMin} min read</span>
