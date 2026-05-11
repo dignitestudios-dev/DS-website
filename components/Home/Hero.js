@@ -51,7 +51,7 @@ const Hero = () => {
             position: "absolute",
             width: "120%",
             height: "45%",
-            left: "-10%",
+            left: "10%",
             bottom: "-8%",
             background:
               "radial-gradient(ellipse 80% 60% at 55% 85%, #C82D0B 0%, #831F00 40%, #340C00 70%, transparent 100%)",
@@ -65,7 +65,7 @@ const Hero = () => {
             position: "absolute",
             width: "55%",
             height: "35%",
-            right: "5%",
+            right: "45%",
             bottom: "18%",
             background:
               "radial-gradient(ellipse 70% 70% at 60% 80%, #EA9924 0%, #E97318 25%, #E5320F 55%, transparent 90%)",
