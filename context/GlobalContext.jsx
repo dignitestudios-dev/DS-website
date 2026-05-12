@@ -28,7 +28,7 @@ export const GlobalContextProvider = ({ children }) => {
 
   const disableMouseCursor = () => {
     const cursor = document.querySelector("#cursor");
-    cursor.classList.remove("lg:flex");
+    cursor.classList.remove("xl:flex");
   };
 
   // Theme Toggle:
