@@ -75,7 +75,7 @@ const services = [
     description: (
       <>
         We design engaging interfaces through research-driven{" "}
-        <Link href="/services/mobile-app-design-services" className="underline">
+        <Link href="/services/mobile-app-development" className="underline">
           mobile app design services
         </Link>{" "}
         that improve usability, user retention, and visual consistency

@@ -12,7 +12,7 @@ const testData = [
     name: "Shawn Brown",
     desgination: "– CTO, DigiNest Solutions",
     review:
-      <>“We needed <Link className="text-orange-600" href="/services/mobile-app-maintenance">mobile app maintenance and support services</Link>, and Dignite Studios ensured our app runs perfectly. The team is highly professional.”</>,
+      <>“We needed <Link className="text-orange-600" href="/services/mobile-application-support-and-maintenance-services">mobile app maintenance and support services</Link>, and Dignite Studios ensured our app runs perfectly. The team is highly professional.”</>,
   },
   {
     name: "Steve Johns",

@@ -170,7 +170,7 @@ const MobileAppServiceCard = () => {
       innovative UI/UX design to create engaging visual elements in mobile
       applications. Therefore, we assure the best{" "}
       <Link
-        href="/services/mobile-app-design-services"
+        href="/services/mobile-app-development"
         className="text-orange-600"
       >
         mobile app design services

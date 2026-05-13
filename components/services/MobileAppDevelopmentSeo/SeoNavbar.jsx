@@ -80,7 +80,7 @@ const SeoNavbar = ({ setIsOpen }) => {
               Mobile App Development Services
             </Link>
             <Link
-              href="/services/mobile-app-design-services"
+              href="/services/mobile-app-development"
               className={`hover:text-orange-600 `}
             >
               Mobile App Design Services

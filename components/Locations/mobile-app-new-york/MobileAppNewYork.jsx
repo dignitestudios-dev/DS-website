@@ -122,7 +122,7 @@ const services = [
       <>
         Good design makes everything easier. Our{" "}
         <Link
-          href="/services/mobile-app-design-services"
+          href="/services/mobile-app-development"
           className="underline "
         >
           mobile app design services

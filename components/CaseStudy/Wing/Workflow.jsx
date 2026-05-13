@@ -10,7 +10,7 @@ const steps = [
     <>
       Mobile app{" "}
       <Link
-        href="/services/mobile-app-design-services"
+        href="/services/mobile-app-development"
         className="text-primary relative z-50 underline font-medium"
       >
         branding and design

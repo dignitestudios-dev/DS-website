@@ -325,14 +325,14 @@ const Page = () => {
           "position": 2,
           "name": "Mobile app development services | Dignite Studios",
           "description": "Recruit top mobile app design services that flawlessly create innovative UI/UX designs, and deliver smooth UX wireframes that fit your match. A highly experienced suite of designing application services will elevate your app’s design at a pace of breakneck.",
-          "url": "https://www.dignitestudios.com/services/mobile-app-design-services"
+          "url": "https://www.dignitestudios.com/services/mobile-app-development"
         },
         {
           "@type": "SiteNavigationElement",
           "position": 3,
           "name": "Mobile app design services | Dignite Studios",
           "description": "Let's delve into professional mobile app development services encompassing multiple app solutions for your tailored needs. Our high-ranking team crafts ingenious and state-of-the-art applications to stand out in your mobile services.",
-          "url": "https://www.dignitestudios.com/services/mobile-app-design-services"
+          "url": "https://www.dignitestudios.com/services/mobile-app-development"
         },
         {
           "@type": "SiteNavigationElement",

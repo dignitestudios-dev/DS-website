@@ -173,7 +173,7 @@ const WhyChooseUs = () => {
             The secret recipe of our services anticipates your potential
             problems and ensures highly innovative{" "}
             <Link
-              href={"/services/mobile-app-design-services"}
+              href={"/services/mobile-app-development"}
               className="text-[#F15C20]"
             >
               mobile app design

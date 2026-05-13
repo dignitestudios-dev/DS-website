@@ -22,7 +22,7 @@ export function middleware(request) {
     },
     {
       oldPath: "/web-designing",
-      newPath: "/services/mobile-app-design-services",
+      newPath: "/services/mobile-app-development",
     },
     {
       oldPath: "/services/hire-android-app-developers",

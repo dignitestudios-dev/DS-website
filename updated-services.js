@@ -73,7 +73,7 @@ const services = [
     description: (
       <>
         Choosing the UI/UX design? Dignite Studios'{" "}
-        <Link href="/services/mobile-app-design-services" className="underline">
+        <Link href="/services/mobile-app-development" className="underline">
           mobile app design services
         </Link>{" "}
         focus on simple experiences that users actually enjoy. Our designers

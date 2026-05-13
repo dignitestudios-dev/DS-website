@@ -20,7 +20,7 @@ export const Hybrid_App_Development_FAQS = [
     question: "What is the biggest advantage of hybrid apps?",
     answer: (
       <>
-        One of the biggest advantages is that it can be operated on multiple mobile devices under a <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">single codebase</Link>. It is cheaper and has a better <Link href="/services/mobile-app-design-services" className="text-[#F15C20]">UI/UX design</Link> structure to attract an audience on a large scale.
+        One of the biggest advantages is that it can be operated on multiple mobile devices under a <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">single codebase</Link>. It is cheaper and has a better <Link href="/services/mobile-app-development" className="text-[#F15C20]">UI/UX design</Link> structure to attract an audience on a large scale.
       </>
     ),
   },

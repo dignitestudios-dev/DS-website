@@ -71,7 +71,7 @@ const VALUE_PROPOSITION = [
         Providing{" "}
         <Link
           className="text-orange-600"
-          href="/services/ecommerce-app-development"
+          href="/ecommerce/ecommerce-app-development"
         >
           ecommerce mobile app development services
         </Link>{" "}

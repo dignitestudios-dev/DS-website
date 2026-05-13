@@ -204,7 +204,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
               Design
             </h5>
             <Link
-              href={"/services/mobile-app-design-services"}
+              href={"/services/mobile-app-development"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />

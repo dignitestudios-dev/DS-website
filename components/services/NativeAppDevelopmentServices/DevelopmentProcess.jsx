@@ -95,7 +95,7 @@ const DevelopmentProcess = () => {
               The top-notch <Link href="/services/android-app-development-services" className="text-gray-200 group-hover:text-white">Android</Link> and <Link href="/services/ios-app-development-services" className="text-gray-200 group-hover:text-white">iOS developers</Link> of Dignite Studios have
               accompanied many clients to create interactive{" "}
               <Link
-                href={"/services/mobile-app-design-services"}
+                href={"/services/mobile-app-development"}
                 className="text-[#F15C20] group-hover:text-white"
               >
                 UI designs
