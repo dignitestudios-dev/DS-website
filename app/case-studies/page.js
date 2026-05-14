@@ -7,6 +7,9 @@ export const metadata = {
   title: "Dignite Studios Archive – Explore Our Projects & Insights",
   description:
     "Discover Dignite Studios’ archive showcasing our projects case studies and insights on automation technology and business growth solutions.",
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/case-studies',
+  },
 };
 const page = () => {
   //   <head>

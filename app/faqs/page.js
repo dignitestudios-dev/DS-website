@@ -65,6 +65,13 @@ const topContent = [
       "So here’s the thing: App optimization process is actually meant to improve your application’s performance and responsiveness over all. The memory consumption decreases and applications load more quickly. Your application needs to be optimized for performance in order to perform better than the other applications and stay ahead of your competitors. Dignite Studios have developers who optimize your application for performance because better performance lead to higher user retention and better outcomes. Especially, if you want your application to scale with your business, your business needs to get your application optimized because this is essential for your scalability. In order to retain your customer, your application need to be highly reliable and optimized applications are more reliable than an average application.",
   },
 ];
+export const metadata = {
+  title: 'Most Frequently Asked Questions - Quick Help Center',
+  description: 'Find answers to common questions about our everything including our services and more. Get quick help and useful information all in one convenient place.',
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/faqs',
+  },
+};
 const page = () => {
   return <GlobalLayout page={<Faq faqs={topContent} />} />;
 };

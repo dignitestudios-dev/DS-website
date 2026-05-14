@@ -6,6 +6,9 @@ export const metadata = {
   title: "Expert App Development Company Washington DC | Top Apps",
   description:
     "Trustworthy app development company Washington DC. We create scalable apps with smooth UX that bring engagement and business success. Get a free quote now!",
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/locations/mobile-app-development-washington',
+  },
 };
 const professionalServiceSchema = {
   "@context": "https://schema.org",

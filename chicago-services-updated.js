@@ -46,7 +46,7 @@ const services = [
           cross-platform app development
         </Link>{" "}
         and{" "}
-        <Link href="/services/hybrid-app-development-services" className="underline">
+        <Link href="/services/hybrid-app-development" className="underline">
           hybrid app development services
         </Link>
         .

@@ -6,6 +6,9 @@ export const metadata = {
   title: "Wing Dating Mobile App | Mobile App Development Service",
   description:
     "Wing case study showcasing a mobile app development service that built a secure, friend-powered dating app with smooth UX, verification, and subscriptions.",
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/case-studies/wing',
+  },
 };
 const page = () => {
   //   <head>

@@ -1,6 +1,5 @@
 import TopNotchMobileAppTestingServices from "@/components/services/TopNotchMobileAppTestingServices/TopNotchMobileAppTestingServices";
 import ServicesLayout from "@/layout/ServiceLayout";
-import Head from "next/head";
 import Script from "next/script";
 import React from "react";
 
@@ -8,90 +7,50 @@ export const metadata = {
   title: "Mobile App Testing Services | Dignite Studios",
   description:
     "Mobile app testing services from the leading company. We provide application solutions to ensure optimal performance by industry testing experts.",
-     alternates: {
-    canonical: "https://www.dignitestudios.com/services/mobile-app-testing",
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/services/mobile-app-testing-services',
+    languages: {
+      'en-ca': 'https://www.dignitestudios.com/services/mobile-app-testing-services',
+      'en-us': 'https://www.dignitestudios.com/services/mobile-app-testing-services',
+      'en-gb': 'https://www.dignitestudios.com/services/mobile-app-testing-services',
+      'x-default': 'https://www.dignitestudios.com/services/mobile-app-testing-services',
+    },
+  },
+  robots: 'index, follow',
+  otherBots: 'googlebot: index, follow, max-snippet: 200; bingbot: index, follow, max-snippet: 200',
+  openGraph: {
+    type: 'website',
+    siteName: 'Dignite Studios',
+    title: 'Mobile app testing services | Dignite Studios',
+    description: 'Embarke top-tier mobile app testing services from the leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts.',
+    url: 'https://www.dignitestudios.com/services/mobile-app-testing-services',
+    images: [
+      {
+        url: 'https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Mobile App Testing Services',
+      },
+    ],
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mobile App Testing Services | Dignite Studios',
+    site: '@dignitestudios',
+    description: 'Embarke top-tier mobile app testing services from our leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts.',
+    images: [
+      {
+        url: 'https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp',
+        alt: 'Mobile App Testing Services',
+      },
+    ],
   },
 };
 
 const page = () => {
   return (
     <>
-      <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <link
-          rel="canonical"
-          href="https://www.dignitestudios.com/services/mobile-app-testing-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/mobile-app-testing-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="en-us"
-          href="https://www.dignitestudios.com/services/mobile-app-testing-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/mobile-app-testing-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="x-default"
-          href="https://www.dignitestudios.com/services/mobile-app-testing-services"
-        />
-        <meta http-equiv="content-language" content="en-us" />
-        <meta http-equiv="content-language" content="en-ca" />
-        <meta http-equiv="content-language" content="en-gb" />
-        <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index, follow, max-snippet: 200" />
-        <meta name="bingbot" content="index, follow, max-snippet: 200 " />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Dignite Studios" />
-        <meta
-          property="og:title"
-          content="Mobile app testing services | Dignite Studios"
-        />
-        <meta
-          property="og:description"
-          content="Embarke top-tier mobile app testing services from the leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dignitestudios.com/services/mobile-app-testing-services"
-        />
-        <meta
-          property="og:image"
-          content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp"
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Mobile App Testing Services" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Mobile App Testing Services | Dignite Studios"
-        />
-        <meta name="twitter:site" content="@dignitestudios" />
-        <meta
-          name="twitter:description"
-          content="Embarke top-tier mobile app testing services from our leading company. We provide comprehensive application solutions to ensure optimal performance by industry testing experts."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.dignitestudios.com/banner-cover-image-of-mobile-app-testing-services.webp"
-        />
-        <meta name="twitter:image:alt" content="Mobile App Testing Services" />
-
-        <link
-          rel="preload"
-          as="image"
-          href="/mobile-application-testing-services.webp"
-        ></link>
-      </head>
       <ServicesLayout page={<TopNotchMobileAppTestingServices />} />
 
       <Script type="application/ld+json" id="ld-json-mobile-app-testing">

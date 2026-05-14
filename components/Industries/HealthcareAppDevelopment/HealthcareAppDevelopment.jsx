@@ -178,7 +178,7 @@ const highlights = [
     title: "Post-Launch Support",
     desc: (
       <>
-        The support services we provide make your healthcare app competitive, so you can easily depend on our <Link href="/services/healthcare-app-development-services" className="text-[#F15C20]">healthcare mobile app development services</Link>.
+        The support services we provide make your healthcare app competitive, so you can easily depend on our <Link href="/services/healthcare-app-development" className="text-[#F15C20]">healthcare mobile app development services</Link>.
       </>
     ),
   },

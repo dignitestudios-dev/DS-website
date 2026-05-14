@@ -43,7 +43,7 @@ const services = [
         The team uses Flutter and React Native to build apps for iOS and Android
         from a single codebase. This helps startups reduce development costs.
         Also while delivering a consistent user experience across platforms with our{" "}
-        <Link href="/services/hybrid-app-development-services" className="underline">
+        <Link href="/services/hybrid-app-development" className="underline">
           hybrid app development services
         </Link>
         .

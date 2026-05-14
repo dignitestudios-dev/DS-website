@@ -25,8 +25,8 @@ const WorkWithDegnite = () => {
       </h2>
 
       <p className="text-base lg:leading-[21.76px] lg:w-[50%] mx-auto lg:text-center mb-6">
-      Our <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">cost-effective services</Link> serve the finest hybrid mobile app design under the supervision
-      of expert <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid app developers</Link>. We take pride in building top-notch <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid application 
+      Our <Link href="/services/hybrid-app-development" className="text-[#F15C20]">cost-effective services</Link> serve the finest hybrid mobile app design under the supervision
+      of expert <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid app developers</Link>. We take pride in building top-notch <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid application 
       development projects</Link> for our valuable clients and partners.
       </p>
 
@@ -160,10 +160,10 @@ const WorkWithDegnite = () => {
               color: "#8F8F8F",
             }}
           >
-           We bestow premium <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app development services</Link> that create hybrid 
-           development with top programming languages (like <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">React Native</Link> or <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">Flutter</Link>).
+           We bestow premium <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid app development services</Link> that create hybrid 
+           development with top programming languages (like <Link href="/services/hybrid-app-development" className="text-[#F15C20]">React Native</Link> or <Link href="/services/hybrid-app-development" className="text-[#F15C20]">Flutter</Link>).
             It also allows apps to access native device application features
-             and enhance the rich functionality of the <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app</Link>.
+             and enhance the rich functionality of the <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid app</Link>.
           </p>
         </div>
 

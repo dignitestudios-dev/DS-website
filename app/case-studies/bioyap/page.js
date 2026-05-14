@@ -5,6 +5,9 @@ export const metadata = {
   title: "BioYap Case Study Mobile App Development Services",
   description:
     "Explore how Dignite Studios delivered mobile app development services for BioYap, a social and marketplace platform built for pharmaceutical professionals.",
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/case-studies/bioyap',
+  },
 };
 const page = () => {
   //   <head>

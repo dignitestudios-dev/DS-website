@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
 
       <p className="text-base lg:leading-[21.76px] lg:w-[50%] mx-auto lg:text-center mb-6">
       Our <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid app development team</Link> assists in designing user-friendly applications with 
-      the latest <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app development solutions</Link> that contribute effectively to scale 
+      the latest <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid app development solutions</Link> that contribute effectively to scale 
       business growth on worldwide digital platforms.
       </p>
 

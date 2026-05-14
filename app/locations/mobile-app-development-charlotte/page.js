@@ -6,6 +6,9 @@ export const metadata = {
   title: "App Development Services in Charlotte designed for Startups",
   description:
     "Looking for app development services in Charlotte? We build custom high-performance mobile apps designed to grow with your business. Talk to the experts now",
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/locations/mobile-app-development-charlotte',
+  },
 };
 const professionalServiceSchema = {
   "@context": "https://schema.org",

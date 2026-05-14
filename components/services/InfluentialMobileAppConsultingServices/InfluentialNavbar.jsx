@@ -164,7 +164,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
               Hire iOS App Developers
             </Link>
             {/* <Link
-           href={"/services/hybrid-app-development-services"}
+           href={"/services/hybrid-app-development"}
            className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
          >
            <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
