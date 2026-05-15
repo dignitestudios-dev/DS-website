@@ -6,7 +6,7 @@ const AboutUsPage = lazy(() => import("@/components/AboutUs/AboutUsPage"));
 export const metadata = {
   title: "About Dignite Studios | Award-Winning Mobile App Development Company",
   description:
-    "Learn about Dignite Studios, a top-rated mobile app development company with 10+ years of experience delivering innovative solutions for startups and enterprises globally.",
+    "Learn more about Dignite Studios. Our mission and story. Discover who we are and how we deliver value to our customers and community. Contact us today.",
   alternates: {
     canonical: 'https://www.dignitestudios.com/about-us',
     languages: {
@@ -49,7 +49,15 @@ export const metadata = {
 };
 
 const page = () => {
-
+  return (
+    <GlobalLayout
+      page={
+        <Suspense fallback={<LazyLoader />}>
+          <AboutUsPage />
+        </Suspense>
+      }
+    />
+  );
 };
 
 export default page;
