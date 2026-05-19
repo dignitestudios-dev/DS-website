@@ -6,6 +6,9 @@ export const metadata = {
   title: "Home Hero Case Study Mobile App Development Services",
   description:
     "Explore how our mobile app development services built Home Hero with secure workflows, intuitive design verified providers and a balanced job system on.",
+  alternates: {
+    canonical: "https://www.dignitestudios.com/case-studies/home-hero",
+  },
 };
 const page = () => {
   //   <head>

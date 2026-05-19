@@ -11,11 +11,11 @@ export const headings = [
 export const paragraphs = {
   "Mobile App Design": {
     description:
-      "It’s no wonder that mobile applications have escalated in terms of designs, functions, and features. Here, at Dignite Studios our highly skillful and dedicated team can make your mobile applications flawless and innovative UI/UX design to create engaging visual elements in mobile applications. Therefore, we assure the best <a href='/services/mobile-app-design-services' class='text-[#F15C20]'>mobile app design services</a> in the USA.",
+      "It’s no wonder that mobile applications have escalated in terms of designs, functions, and features. Here, at Dignite Studios our highly skillful and dedicated team can make your mobile applications flawless and innovative UI/UX design to create engaging visual elements in mobile applications. Therefore, we assure the best <a href='/services/mobile-app-development' class='text-[#F15C20]'>mobile app design services</a> in the USA.",
     image: "/top-mobile-app-design-services.png",
     image_title:"top mobile app design services",
     image_alt:"image shows man is holding a mobile device that appears top mobile app design interface",
-    page_url:"/services/mobile-app-design-services"
+    page_url:"/services/mobile-app-development"
   },
   "Mobile App Development": {
     description:
@@ -70,11 +70,11 @@ export const paragraphs = {
 export const items = [
   {
     heading: "Mobile App Design",
-    text: "It’s no wonder that mobile applications have escalated in terms of designs, functions, and features. Here, at Dignite Studios our highly skillful and dedicated team can make your mobile applications flawless and innovative UI/UX design to create engaging visual elements in mobile applications. Therefore, we assure the best <a href='/services/mobile-app-design-services' class='text-[#F15C20]'>mobile app design services</a> in the USA.",
+    text: "It’s no wonder that mobile applications have escalated in terms of designs, functions, and features. Here, at Dignite Studios our highly skillful and dedicated team can make your mobile applications flawless and innovative UI/UX design to create engaging visual elements in mobile applications. Therefore, we assure the best <a href='/services/mobile-app-development' class='text-[#F15C20]'>mobile app design services</a> in the USA.",
     image: "/top-mobile-app-design-services.png",
     image_title:"top mobile app design services",
     image_alt:"image shows man is holding a mobile device that appears top mobile app design interface",
-    page_url:"/services/mobile-app-design-services"
+    page_url:"/services/mobile-app-development"
   },
   {
     heading: "Mobile App Development",

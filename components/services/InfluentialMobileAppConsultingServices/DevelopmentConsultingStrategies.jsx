@@ -46,7 +46,7 @@ const DevelopmentConsultingStrategies = () => {
           >
             In the era of digitalization,{" "}
             <Link
-              href={"/services/mobile-app-design-services"}
+              href={"/services/mobile-app-development"}
               className="text-[#F15C20]"
             >
               mobile app design

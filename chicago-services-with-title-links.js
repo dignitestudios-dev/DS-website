@@ -52,10 +52,10 @@ const services = [
   {
     icon: "pen",
     icon2: "pen5",
-    title: <Link href="/services/mobile-app-design-services" className="underline">UI/UX Design Services</Link>,
+    title: <Link href="/services/mobile-app-development" className="underline">UI/UX Design Services</Link>,
     description: (
       <>
-        We design engaging interfaces through research-driven <Link href="/services/mobile-app-design-services" className="underline">mobile app design
+        We design engaging interfaces through research-driven <Link href="/services/mobile-app-development" className="underline">mobile app design
         services</Link> that improve usability, user retention, and visual consistency
         across platforms.
       </>

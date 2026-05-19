@@ -9,7 +9,7 @@ export const metadata = {
   description:
     " Offering our expert generative AI development services to help you build scalable mobile applications aligned with your business goals through our guidance",
   alternates: {
-    canonical: "https://www.dignitestudios.com/services/ai-app-development",
+    canonical: "https://www.dignitestudios.com/services/generative-ai-development",
   },  
 };
 

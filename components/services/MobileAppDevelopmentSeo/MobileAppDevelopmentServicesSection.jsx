@@ -260,7 +260,7 @@ const MobileAppDevelopmentServicesSection = () => {
             >
               We provide unique{" "}
               <Link
-                href={"/services/mobile-app-design-services"}
+                href={"/services/mobile-app-development"}
                 className="text-[#F15C20]"
               >
                 mobile app design services

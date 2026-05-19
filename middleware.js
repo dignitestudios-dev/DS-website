@@ -28,7 +28,7 @@ export function middleware(request) {
     },
     {
       oldPath: "/web-designing",
-      newPath: "/services/mobile-app-design-services",
+      newPath: "/services/mobile-app-development",
     },
     {
       oldPath: "/services/hire-android-app-developers",
@@ -78,13 +78,11 @@ export function middleware(request) {
     },
     { oldPath: "/case-study-2", newPath: "/" },
     { oldPath: "/?s=%7Bsearch_term_string%7D", newPath: "/" },
-    { oldPath: "/add-video", newPath: "/" },
     { oldPath: "/blog/category/app-design", newPath: "/" },
     {
       oldPath: "/blog/the-ultimate-guide-to-hybrid-mobile-app-development",
       newPath: "/",
     },
-    { oldPath: "/case-study-5", newPath: "/" },
     { oldPath: "/case-study-1", newPath: "/" },
     { oldPath: "/graphic-videos", newPath: "/" },
     { oldPath: "/blog/category/uncategorized", newPath: "/" },
@@ -139,10 +137,6 @@ export function middleware(request) {
     },
     { oldPath: "/wp-json/elementskit/v1", newPath: "/" },
     {
-      oldPath: "/blog/is-getting-a-ccna-certification-worth-2023/feed",
-      newPath: "/",
-    },
-    {
       oldPath: "/services/mobile-app-development-services",
       newPath: "/services/mobile-app-development",
     },
@@ -177,14 +171,6 @@ export function middleware(request) {
     },
     {
       oldPath: "/mobile-development",
-      newPath: "/services/mobile-app-development-services",
-    },
-    {
-      oldPath: "/case-study-6",
-      newPath: "services/mobile-app-development-services",
-    },
-    {
-      oldPath: "/blog/is-getting-a-ccna-certification-worth-2023",
       newPath: "/services/mobile-app-development-services",
     },
   ];

@@ -6,6 +6,9 @@ export const metadata = {
   title: "Harmonious Learning | Mobile App Development Services",
   description:
     "Harmonious Learning case study showcasing mobile app development services that created a safe, kid-friendly app with parental controls and fun features.",
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/case-studies/harmonious-learning',
+  },
 };
 const page = () => {
   //   <head>

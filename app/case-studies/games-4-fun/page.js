@@ -5,6 +5,9 @@ export const metadata = {
   title: " Games4Fun Case Study | Web Application Development Services",
   description:
     " Explore how Games4Fun delivers a gamer-focused platform with smart PC building and FPS tools through expert Web Application Development Services.",
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/case-studies/games-4-fun',
+  },
 };
 const page = () => {
   //   <head>

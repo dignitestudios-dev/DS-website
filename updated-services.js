@@ -43,7 +43,7 @@ const services = [
         The team uses Flutter and React Native to build apps for iOS and Android
         from a single codebase. This helps startups reduce development costs.
         Also while delivering a consistent user experience across platforms with our{" "}
-        <Link href="/services/hybrid-app-development-services" className="underline">
+        <Link href="/services/hybrid-app-development" className="underline">
           hybrid app development services
         </Link>
         .
@@ -73,7 +73,7 @@ const services = [
     description: (
       <>
         Choosing the UI/UX design? Dignite Studios'{" "}
-        <Link href="/services/mobile-app-design-services" className="underline">
+        <Link href="/services/mobile-app-development" className="underline">
           mobile app design services
         </Link>{" "}
         focus on simple experiences that users actually enjoy. Our designers

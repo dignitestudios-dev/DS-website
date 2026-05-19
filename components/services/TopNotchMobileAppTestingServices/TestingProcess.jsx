@@ -72,7 +72,7 @@ const TestingProcess = () => {
             testing, surveys, and analytics through which we analyze user
             behavior covering all aspects. Here, our top-ranked{" "}
             <Link
-              href={"/services/mobile-app-design-services"}
+              href={"/services/mobile-app-development"}
               className="text-[#F15C20]"
             >
               mobile app design services

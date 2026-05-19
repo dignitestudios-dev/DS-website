@@ -1,7 +1,6 @@
 import SupportAndMaintenanceServicesPage from "@/components/services/SupportAndMaintenanceServices/SupportAndMaintenanceServicesPage";
 import GlobalLayout from "@/layout/GlobalLayout";
 import ServicesLayout from "@/layout/ServiceLayout";
-import Head from "next/head";
 import Script from "next/script";
 import React from "react";
 
@@ -9,91 +8,50 @@ export const metadata = {
   title: "Mobile App Maintenance and Support Services | Dignite Studios",
   description:
     "Our mobile application support and maintenance services foster effective solutions and potent planning to thrive mobile applications.",
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services',
+    languages: {
+      'en-ca': 'https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services',
+      'en-us': 'https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services',
+      'en-gb': 'https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services',
+      'x-default': 'https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services',
+    },
+  },
+  robots: 'index, follow',
+  otherBots: 'googlebot: index, follow, max-snippet: 200; bingbot: index, follow, max-snippet: 200',
+  openGraph: {
+    type: 'website',
+    siteName: 'Dignite Studios',
+    title: 'Mobile App Maintenance and Support Services | Dignite Studios',
+    description: 'Our mobile app support and maintenance services foster effective solutions and potent planning to thrive mobile applications.',
+    url: 'https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services',
+    images: [
+      {
+        url: 'https://www.dignitestudios.com/banner-cover-image-of-mobile-application-support-and-maintenance-services.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Mobile App Maintenance and Support Services',
+      },
+    ],
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mobile App Maintenance and Support Services | Dignite Studios',
+    site: '@dignitestudios',
+    description: 'Our mobile app support and maintenance services foster effective solutions and potent planning to thrive mobile applications.',
+    images: [
+      {
+        url: 'https://www.dignitestudios.com/banner-cover-image-of-mobile-application-support-and-maintenance-services.webp',
+        alt: 'Mobile App Maintenance and Support Services',
+      },
+    ],
+  },
 };
 
 const page = () => {
   return (
     <div>
-      <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <link
-          rel="canonical"
-          href="https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="en-us"
-          href="https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services"
-        />
-        <link
-          rel="alternate"
-          hreflang="x-default"
-          href="https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services"
-        />
-        <meta http-equiv="content-language" content="en-us" />
-        <meta http-equiv="content-language" content="en-ca" />
-        <meta http-equiv="content-language" content="en-gb" />
-        <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index, follow, max-snippet: 200" />
-        <meta name="bingbot" content="index, follow, max-snippet: 200 " />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Dignite Studios" />
-        <meta
-          property="og:title"
-          content="Mobile App Maintenance and Support Services | Dignite Studios"
-        />
-        <meta
-          property="og:description"
-          content="Our mobile app support and maintenance services foster effective solutions and potent planning to thrive mobile applications."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services"
-        />
-        <meta
-          property="og:url"
-          content="https://www.dignitestudios.com/services/mobile-application-support-and-maintenance-services"
-        />
-        <meta
-          property="og:image"
-          content="https://www.dignitestudios.com/banner-cover-image-of-mobile-application-support-and-maintenance-services.webp"
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta
-          property="og:image:alt"
-          content="Mobile App Maintenance and Support Services"
-        />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Mobile App Maintenance and Support Services | Dignite Studios"
-        />
-        <meta name="twitter:site" content="@dignitestudios" />
-        <meta
-          name="twitter:description"
-          content="Our mobile app support and maintenance services foster effective solutions and potent planning to thrive mobile applications."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.dignitestudios.com/banner-cover-image-of-mobile-application-support-and-maintenance-services.webp"
-        />
-        <meta
-          name="twitter:image:alt"
-          content="Mobile App Maintenance and Support Services"
-        ></meta>
-      </head>
       <GlobalLayout page={<SupportAndMaintenanceServicesPage />} />
 
       {/* Service Schema */}

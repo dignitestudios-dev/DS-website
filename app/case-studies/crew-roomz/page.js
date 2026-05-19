@@ -6,6 +6,9 @@ export const metadata = {
   title: "CrewRoomz Case Study | Custom Web Application Build",
   description:
     "CrewRoomz case study showcasing a custom web application built for cabin crews, featuring secure bookings, admin control, and scalable web app development.",
+  alternates: {
+    canonical: 'https://www.dignitestudios.com/case-studies/crew-roomz',
+  },
 };
 const page = () => {
   //   <head>

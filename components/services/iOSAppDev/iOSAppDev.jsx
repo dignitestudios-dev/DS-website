@@ -291,7 +291,7 @@ const VALUE_PROPOSITION = [
     title: "E-Learning and Educational Apps",
     desc: (
       <>
-        We provide <Link href="/industries/e-learning-app-development" className="text-[#F15C20]">education ios app development services</Link> that guide students through courses and quizzes while giving teachers powerful dashboard tools.
+        We provide education ios app development services that guide students through courses and quizzes while giving teachers powerful dashboard tools.
       </>
     ),
   },
