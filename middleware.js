@@ -4,7 +4,13 @@ export function middleware(request) {
   const forwarded = request.headers.get("x-forwarded-for");
   const ip = forwarded ? forwarded.split(",")[0] : request.ip || "IP not found";
 
-  const { pathname } = request.nextUrl;
+  const { pathname, searchParams } = request.nextUrl;
+
+  // Strip tracking/referral query parameters (e.g. ?from=AppAgg.com)
+  if (searchParams.has("from")) {
+    const cleanUrl = new URL(pathname, request.url);
+    return NextResponse.redirect(cleanUrl, { status: 301 });
+  }
 
   // Define an array of paths that should be redirected
   const redirects = [
