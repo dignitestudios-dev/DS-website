@@ -146,19 +146,19 @@ export default function FlickCardStack() {
                 className={`relative md:h-[450px] z-50 h-[250px] w-[300px] md:w-[720px] overflow-hidden rounded-[4px] bg-neutral-200 ${
                   offset !== 0 ? "border shadow-2xl" : ""
                 }`}
-                animate={{
-                  backgroundPositionY: offset === 0 ? "100%" : "0%",
-                }}
-                transition={
-                  offset === 0
-                    ? {
-                        duration: 40,
-                        ease: "linear",
-                        repeat: Infinity,
-                        repeatType: "loop",
-                      }
-                    : { duration: 0 }
-                }
+                // animate={{
+                //   backgroundPositionY: offset === 0 ? "100%" : "0%",
+                // }}
+                // transition={
+                //   offset === 0
+                //     ? {
+                //         duration: 40,
+                //         ease: "linear",
+                //         repeat: Infinity,
+                //         repeatType: "loop",
+                //       }
+                //     : { duration: 0 }
+                // }
                 style={{
                   backgroundImage: `url(${card.image})`,
                   backgroundRepeat: "no-repeat",
