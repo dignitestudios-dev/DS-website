@@ -14,24 +14,19 @@ const nextConfig = {
       },
     ];
   },
-  async rewrites() {
-    const editorUrl = process.env.NEXT_PUBLIC_EDITOR_URL || "http://localhost:3001";
-    return [
-      {
-        source: "/uploads/:path*",
-        destination: `${editorUrl}/uploads/:path*`,
-      },
-    ];
-  },
   images: {
-    // Enable Next.js built-in image optimization to improve LCP/FCP.
-    // Images served from /public will be optimized automatically.
     formats: ['image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 60,
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+    ],
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
