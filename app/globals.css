@@ -1954,3 +1954,143 @@ video {
 .rotate-y-180 {
   transform: rotateY(180deg);
 }
+
+/* ── Blog post body content (rendered from Tiptap HTML) ────────────────── */
+.blog-content {
+  color: #1a1a1a;
+  line-height: 1.75;
+  font-size: 1.0625rem;
+}
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4 {
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #111;
+}
+.blog-content h1 { font-size: 2rem; }
+.blog-content h2 { font-size: 1.5rem; }
+.blog-content h3 { font-size: 1.25rem; }
+.blog-content h4 { font-size: 1.125rem; }
+.blog-content p { margin-bottom: 1.25rem; }
+.blog-content a {
+  color: #F15C20;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.blog-content a:hover { color: #d44e18; }
+.blog-content ul,
+.blog-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.blog-content ul { list-style-type: disc; }
+.blog-content ol { list-style-type: decimal; }
+.blog-content li { margin-bottom: 0.4rem; }
+.blog-content blockquote {
+  border-left: 4px solid #F15C20;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0;
+  background: #fff7f4;
+  color: #444;
+  font-style: italic;
+}
+.blog-content pre {
+  background: #1a1a1a;
+  color: #f1f1f1;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+}
+.blog-content code {
+  font-family: "Courier New", monospace;
+  font-size: 0.875em;
+  background: #f4f4f4;
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+}
+.blog-content pre code {
+  background: transparent;
+  padding: 0;
+}
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+.blog-content th,
+.blog-content td {
+  border: 1px solid #e5e5e5;
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+}
+.blog-content th {
+  background: #f7f7f7;
+  font-weight: 600;
+}
+.blog-content hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 2rem 0;
+}
+
+/* ─── CTA Banner — reset blog-content styles so inline styles take effect ─── */
+.blog-content [data-type="cta-banner"],
+.blog-content .cta-banner {
+  color: inherit;
+}
+.blog-content [data-type="cta-banner"] h1,
+.blog-content [data-type="cta-banner"] h2,
+.blog-content [data-type="cta-banner"] h3,
+.blog-content [data-type="cta-banner"] h4,
+.blog-content .cta-banner h1,
+.blog-content .cta-banner h2,
+.blog-content .cta-banner h3,
+.blog-content .cta-banner h4 {
+  color: #ffffff !important;
+  margin-top: 0 !important;
+  margin-bottom: 12px !important;
+}
+.blog-content [data-type="cta-banner"] p,
+.blog-content .cta-banner p {
+  color: rgba(255, 255, 255, 0.92) !important;
+  margin-bottom: 28px !important;
+}
+.blog-content [data-type="cta-banner"] a,
+.blog-content .cta-banner a {
+  color: #F15C20 !important;
+  text-decoration: none !important;
+}
+
+/* ─── Blog images — honour inline alignment/width from editor ─────────────── */
+.blog-content img[data-align] {
+  display: block;
+}
+.blog-content img[data-align="center"] {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.blog-content img[data-align="right"] {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+.blog-content img[data-align="left"] {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+.blog-content img[data-width] {
+  max-width: 100% !important;
+  height: auto !important;
+}

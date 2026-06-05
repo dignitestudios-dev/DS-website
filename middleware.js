@@ -116,7 +116,6 @@ export function middleware(request) {
     },
     { oldPath: "/process", newPath: "/" },
     { oldPath: "/our-awards", newPath: "/" },
-    { oldPath: "/blog", newPath: "/" },
     { oldPath: "/sales-marketing", newPath: "/" },
     {
       oldPath:

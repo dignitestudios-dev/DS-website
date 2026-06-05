@@ -230,7 +230,7 @@ const Navbar = ({ setIsOpen }) => {
         image: "/com-r.webp",
         items: [
           ["About Us", "/about-us"],
-          // ["Blog", "/blog"],
+          ["Blog", "/blogs"],
         ],
       },
     ],

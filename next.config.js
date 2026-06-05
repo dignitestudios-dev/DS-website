@@ -1,5 +1,28 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/blog",
+        destination: "/blogs",
+        permanent: true,
+      },
+      {
+        source: "/blog/:slug",
+        destination: "/blogs/:slug",
+        permanent: true,
+      },
+    ];
+  },
+  async rewrites() {
+    const editorUrl = process.env.NEXT_PUBLIC_EDITOR_URL || "http://localhost:3001";
+    return [
+      {
+        source: "/uploads/:path*",
+        destination: `${editorUrl}/uploads/:path*`,
+      },
+    ];
+  },
   images: {
     // Enable Next.js built-in image optimization to improve LCP/FCP.
     // Images served from /public will be optimized automatically.

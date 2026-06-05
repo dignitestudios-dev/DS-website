@@ -95,8 +95,8 @@ const Footer = () => {
     ],
     quickLinks: [
       { name: "About us", href: "/about-us" },
+      { name: "Blog", href: "/blogs" },
       { name: "Case Studies", href: "/case-studies" },
-      // { name: "Blog", href: "/blogs" },
     ],
     industries: [
       { name: "Food ", href: "/industries/food-industry" },
