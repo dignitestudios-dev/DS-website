@@ -286,7 +286,7 @@ const GlobalLayout = ({ page }) => {
                 )}
               </div>
               <div className="input_field">
-                <label className="label_field">Phone Number 231</label>
+                <label className="label_field">Phone Number</label>
                 <button type="button" className="input_flex">
                   {/* <span className="input_span">
                     <BsTelephoneFill
@@ -378,7 +378,7 @@ const GlobalLayout = ({ page }) => {
                       className="mt-1 text-base accent-[#F15C20]"
                     />
                     <p className="text-xs text-gray-500 leading-tight">
-                      {isTermsExpanded ? (
+                      
                         <>
                           By checking this box, I consent to receive SMS
                           messages from Dignite Studios at the phone number I
@@ -400,28 +400,8 @@ const GlobalLayout = ({ page }) => {
                             Privacy Policy
                           </Link>{" "}
                           for more details.
-                          <button
-                            type="button"
-                            onClick={() => setIsTermsExpanded(false)}
-                            className="text-orange-500 font-bold ml-1"
-                          >
-                            Show Less
-                          </button>
-                        </>
-                      ) : (
-                        <>
-                          By checking this box, I consent to receive SMS
-                          messages from Dignite Studios at the phone number I
-                          provided{" "}
-                          <button
-                            type="button"
-                            onClick={() => setIsTermsExpanded(true)}
-                            className="text-orange-500 font-bold ml-1 outline-none"
-                          >
-                            ...
-                          </button>
-                        </>
-                      )}
+                       </>
+                     
                     </p>
                   </label>
                 </div>
