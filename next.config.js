@@ -3,6 +3,12 @@ const nextConfig = {
   images: {
     // Enable Next.js built-in image optimization to improve LCP/FCP.
     // Images served from /public will be optimized automatically.
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+    ],
     formats: ['image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],

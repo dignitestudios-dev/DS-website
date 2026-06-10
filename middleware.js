@@ -116,7 +116,7 @@ export function middleware(request) {
     },
     { oldPath: "/process", newPath: "/" },
     { oldPath: "/our-awards", newPath: "/" },
-    { oldPath: "/blog", newPath: "/" },
+    // { oldPath: "/blog", newPath: "/" }, // Temporarily disabled to allow access to the new blog page
     { oldPath: "/sales-marketing", newPath: "/" },
     {
       oldPath:
