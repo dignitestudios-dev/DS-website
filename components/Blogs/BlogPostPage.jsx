@@ -3,6 +3,12 @@
 import { useState, useEffect, useRef } from 'react';
 import { GoDotFill } from 'react-icons/go';
 import Link from 'next/link';
+import { Inter } from 'next/font/google';
+
+const interFont = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 function stripHtml(html = '') {
   return html.replace(/<[^>]*>/g, '').trim();
@@ -38,24 +44,15 @@ function injectHeadingIds(html = '') {
   });
 }
 
-function extractFirstImageSrc(html = '') {
-  const match = html.match(/<img[^>]+src=["']([^"']+)["'][^>]*>/i);
-  return match?.[1] || '';
-}
-
-function removeFirstImage(html = '') {
-  return html.replace(/<figure[^>]*>[\s\S]*?<img[^>]*>[\s\S]*?<\/figure>|<img[^>]*>/i, '');
-}
-
-function Breadcrumb({ categories }) {
-  const cat = categories?.[0] || 'Blog';
+function Breadcrumb({ title }) {
+  // const cat = categories?.[0] || 'Blog';
   return (
-    <nav className="inline-flex flex-wrap items-center gap-2 rounded-xl bg-white px-4 py-3 text-sm text-gray-700 shadow-sm">
+    <nav className="inline-flex flex-wrap items-center gap-2 rounded-xl bg-[#F7F7F7] px-4 py-3 text-sm text-[#0C0C0C] ">
       <Link href="/" className="hover:text-orange-500 transition-colors">Home</Link>
-      <span className="text-gray-400">&gt;</span>
+      <span className="text-[#0C0C0C]">&gt;</span>
       <Link href="/blog" className="hover:text-orange-500 transition-colors">Blog</Link>
-      <span className="text-gray-400">&gt;</span>
-      <span className="text-orange-500">{cat}</span>
+      <span className="text-[#0C0C0C]">&gt;</span>
+      <span className="text-orange-500 capitalize">{title}</span>
     </nav>
   );
 }
@@ -63,9 +60,9 @@ function Breadcrumb({ categories }) {
 function TableOfContents({ headings, activeId }) {
   if (!headings.length) return null;
   return (
-    <div className="sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto">
-      <div className="fade-up bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-        <p className="mb-6 text-[32px] font-semibold leading-none text-black">
+    <div className="max-h-[calc(100vh-7rem)] sticky top-24 overflow-y-auto">
+      <div className="fade-up bg-white rounded-2xl p-6  border-gray-100">
+        <p className="mb-6 text-[20px] font-medium leading-none text-black">
           In this article
         </p>
         <div className="space-y-2">
@@ -73,11 +70,14 @@ function TableOfContents({ headings, activeId }) {
             <a
               key={h.id}
               href={`#${h.id}`}
-              className={`group block border-l-4 py-2 pl-5 text-[15px] font-semibold leading-[1.25] transition-all duration-200 ${
-                activeId === h.id
-                  ? 'border-orange-500 text-orange-500'
-                  : 'border-transparent text-black/35 hover:border-orange-300 hover:text-black/70'
-              }`}
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById(h.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }}
+              className={`group block border-l-4 py-2 pl-5 text-[16px] font-medium leading-[1.25] transition-all duration-200 ${activeId === h.id
+                ? 'border-[#F15C20] text-[#F15C20]'
+                : 'border-transparent text-black/35 hover:border-orange-300 hover:text-black/70'
+                }`}
             >
               <span className="block">{h.text}</span>
             </a>
@@ -122,9 +122,8 @@ function FAQItem({ question, answer }) {
       >
         <span className="font-medium text-gray-800 text-sm pr-4">{question}</span>
         <span
-          className={`text-orange-500 text-xl font-light transition-transform duration-300 flex-shrink-0 ${
-            open ? 'rotate-45' : ''
-          }`}
+          className={`text-orange-500 text-xl font-light transition-transform duration-300 flex-shrink-0 ${open ? 'rotate-45' : ''
+            }`}
         >
           +
         </span>
@@ -171,27 +170,324 @@ function RelatedCard({ post }) {
 function CTABanner() {
   return (
     <div
-      className="rounded-2xl p-8 my-10 text-center relative overflow-hidden"
-      style={{ background: 'linear-gradient(135deg, #e54a1a 0%, #e54a1a 50%, #e54a1a 100%)' }}
+      className="
+        relative
+        w-full
+        max-w-[761px]
+        h-[240px]
+        rounded-[10px]
+        bg-[#F15C20]
+        overflow-hidden
+        flex
+        items-center
+        justify-center
+      "
     >
-      <div className="absolute -top-8 -right-8 w-40 h-40 rounded-full bg-orange-500 opacity-10" />
-      <div className="absolute -bottom-8 -left-8 w-32 h-32 rounded-full bg-orange-400 opacity-10" />
-      <h3 className="text-white font-bold text-xl mb-2 relative z-10">
-        Stay Ahead Of Productivity &amp; Tech Trends.
-      </h3>
-      <p className="text-gray-400 text-sm mb-5 relative z-10">
-        Get expert insights delivered to your inbox
-      </p>
-      <div className="flex max-w-sm mx-auto gap-2 relative z-10">
-        <input
-          type="email"
-          placeholder="Enter your email"
-          className="flex-1 px-4 py-2 rounded-lg text-sm bg-white/10 text-white placeholder-gray-400 border border-white/20 outline-none focus:border-orange-400"
-        />
-        <button className="bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-5 py-2 rounded-lg transition-colors whitespace-nowrap">
-          Subscribe
-        </button>
+
+      {/* INNER CIRCLE SVG BACKGROUND */}
+      <div
+        className="
+          absolute
+          -left-[15px]
+          -top-[20px]
+          w-[318px]
+          h-[214px]
+          pointer-events-none
+        "
+      >
+
+        <svg
+          width="318"
+          height="214"
+          viewBox="0 0 318 214"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+
+          <g opacity="0.2">
+
+
+            <g
+              opacity="0.2"
+              filter="url(#filter0_d_4532_573)"
+            >
+
+              <path
+                d="M82.0224 -152.965C126.116 -152.965 168.405 -136.968 199.584 -108.493C230.763 -80.0175 248.279 -41.397 248.279 -1.12708C248.279 39.1428 230.763 77.7633 199.584 106.238C168.405 134.714 126.116 150.711 82.0224 150.711H-63.4524C-68.954 150.711 -74.2311 148.718 -78.1269 145.171C-82.0226 141.623 -84.219 136.809 -84.2345 131.785V-1.12708C-84.2345 -41.397 -66.7182 -80.0175 -35.539 -108.493C-4.35977 -136.968 37.9283 -152.965 82.0224 -152.965Z"
+                fill="white"
+              />
+
+            </g>
+
+
+
+            <path
+              d="M151.36 -90.5303C195.454 -90.5303 237.743 -74.5331 268.922 -46.058C300.101 -17.5829 317.617 21.0376 317.617 61.3075V194.219C317.617 199.253 315.428 204.08 311.53 207.64C307.633 211.199 302.347 213.199 296.835 213.199H151.36C107.259 213.199 64.963 197.199 33.7783 168.719C2.5936 140.239 -14.9258 101.611 -14.9258 61.3343C-14.9258 21.0573 2.5936 -17.5701 33.7783 -46.0502C64.963 -74.5303 107.259 -90.5303 151.36 -90.5303Z"
+              fill="white"
+            />
+
+
+
+            <g
+              opacity="0.2"
+              style={{
+                mixBlendMode: "exclusion"
+              }}
+            >
+
+              <path
+                d="M16.1513 149.96C-1.62898 127.342 -12.234 100.683 -14.4971 72.9167C-16.7603 45.15 -10.5938 17.3512 3.32379 -7.42187C17.2414 -32.1949 38.371 -52.9823 64.3883 -67.4973C90.4055 -82.0123 120.302 -89.6925 150.79 -89.6932H151.885C178.772 -89.7293 205.261 -83.7657 229.048 -72.3212C242.428 -49.2532 249.049 -23.4179 248.271 2.67673C247.492 28.7714 239.339 54.2389 224.603 76.607C209.868 98.9751 189.05 117.484 164.172 130.337C139.293 143.189 111.198 149.949 82.6149 149.96H16.1513Z"
+                fill="#F15C20"
+              />
+
+            </g>
+
+
+
+          </g>
+
+
+
+          <defs>
+
+
+            <filter
+              id="filter0_d_4532_573"
+              x="-100.234"
+              y="-156.965"
+              width="364.514"
+              height="335.676"
+              filterUnits="userSpaceOnUse"
+            >
+
+              <feFlood
+                floodOpacity="0"
+              />
+
+              <feOffset dy="12" />
+
+              <feGaussianBlur stdDeviation="8" />
+
+
+            </filter>
+
+
+          </defs>
+
+
+
+        </svg>
+
       </div>
+
+
+
+
+
+      {/* CONTENT */}
+      <div
+        className="
+          relative
+          z-10
+          flex
+          flex-col
+          items-center
+          gap-[25px]
+          px-5
+          w-full
+        "
+      >
+
+
+        <div
+          className="
+            flex
+            flex-col
+            items-center
+            gap-[15px]
+            text-center
+          "
+        >
+
+          <h3
+            className="
+              max-w-[427px]
+              text-white
+              font-semibold
+              text-[28px]
+              leading-[110%]
+            "
+          >
+
+            Stay Ahead Of Productivity &
+            <br />
+            Tech Trends.
+
+          </h3>
+
+
+
+          <p
+            className="
+              text-white
+              opacity-95
+              font-medium
+              text-[14px]
+            "
+          >
+
+            Join newsletter, receive the expert Insights Weekly.
+
+          </p>
+
+
+        </div>
+
+
+
+
+
+        {/* INPUT */}
+
+        <div
+          className="
+    w-full
+    max-w-[502px]
+    h-[64px]
+    rounded-[22px]
+    bg-white
+    p-[4px]
+    shadow-[0_0_50px_rgba(241,92,32,0.45)]
+  "
+        >
+
+          <div
+            className="
+      h-full
+      rounded-[18px]
+      bg-[#F2F2F2]
+      border
+      border-[#FFD4C3]
+      flex
+      items-center
+      justify-between
+      px-[15px]
+      gap-3
+    "
+          >
+
+
+            {/* Input section */}
+            <div
+              className="
+        flex
+        items-center
+        gap-[15px]
+        flex-1
+      "
+            >
+
+              {/* Search icon */}
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                className="shrink-0"
+              >
+                <circle
+                  cx="6"
+                  cy="6"
+                  r="4.5"
+                  stroke="#5A5A5B"
+                />
+
+                <path
+                  d="M10 10L13 13"
+                  stroke="#5A5A5B"
+                  strokeWidth="1.2"
+                />
+
+              </svg>
+
+
+              <input
+                type="email"
+                placeholder="Enter your Email Address"
+                className="
+          w-full
+          bg-transparent
+          outline-none
+          border-none
+          text-[#5C5C5C]
+          placeholder:text-[#5C5C5C]
+          placeholder:font-semibold
+          placeholder:text-[12px]
+          font-semibold
+          text-[12px]
+        "
+              />
+
+
+            </div>
+
+
+
+
+            {/* Subscribe Button */}
+            <button
+              type="button"
+              className="
+        w-[114px]
+        h-[37px]
+        rounded-[12px]
+        bg-[#F15C20]
+        text-white
+        flex
+        items-center
+        justify-center
+        gap-[5px]
+        text-[10px]
+        font-extrabold
+        shrink-0
+        hover:bg-[#dc4f18]
+        transition
+      "
+            >
+
+              <svg
+                width="13"
+                height="10"
+                viewBox="0 0 13 10"
+                fill="none"
+              >
+                <rect
+                  x="1"
+                  y="1"
+                  width="11"
+                  height="8"
+                  rx="1"
+                  stroke="white"
+                  strokeWidth="1"
+                />
+                <path
+                  d="M1 2L6.5 6L12 2"
+                  stroke="white"
+                />
+              </svg>
+              Subscribe
+            </button>
+
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
     </div>
   );
 }
@@ -205,20 +501,46 @@ export default function BlogPostPage({ post, related = [] }) {
     const headingEls = contentRef.current?.querySelectorAll('h2[id]') || [];
     if (!headingEls.length) return;
 
-    const obs = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            setActiveId(entry.target.id);
+    const handleScroll = () => {
+      const offset = 140; // Account for the sticky header/navbar plus some buffer
+      let activeHeading = '';
+
+      // Get accurate scroll metrics across both viewport and container scroll systems
+      const scrollTop = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      const scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight || 0;
+      const clientHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0;
+
+      // Check if scroll reached the bottom of the page
+      const isAtBottom = scrollTop + clientHeight >= scrollHeight - 100;
+
+      if (isAtBottom && headingEls.length > 0) {
+        activeHeading = headingEls[headingEls.length - 1].id;
+      } else {
+        for (const el of headingEls) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= offset) {
+            activeHeading = el.id;
+          } else {
             break;
           }
         }
-      },
-      { rootMargin: '-20% 0px -70% 0px' }
-    );
+      }
 
-    headingEls.forEach((el) => obs.observe(el));
-    return () => obs.disconnect();
+      // Highlight the first heading if we are at the very top of the page
+      if (!activeHeading && headingEls[0]) {
+        activeHeading = headingEls[0].id;
+      }
+
+      setActiveId(activeHeading);
+    };
+
+    // Use capture: true so we listen to scroll events regardless of which container scrolls
+    document.addEventListener('scroll', handleScroll, { passive: true, capture: true });
+    handleScroll();
+
+    return () => {
+      document.removeEventListener('scroll', handleScroll, { capture: true });
+    };
   }, [post]);
 
   if (!post) return null;
@@ -234,10 +556,27 @@ export default function BlogPostPage({ post, related = [] }) {
   return (
     <>
       <style>{`
-        .blog-content { font-family: 'Inter', sans-serif; color: #1a1a1a; max-width: 761px; }
-        .blog-content h2 { font-size: 1.6875rem; font-weight: 700; margin: 2rem 0 1rem; line-height: 2.0625rem; color: #111; }
+        main, main * {
+          font-family: ${interFont.style.fontFamily} !important;
+        }
+        .blog-content { color: #1a1a1a; max-width: 761px; }
+        .blog-content h2 { font-size: 1.6875rem; font-weight: 700; margin: 2rem 0 1rem; line-height: 2.0625rem; color: #1F222E; scroll-margin-top: 130px; }
         .blog-content h3 { font-size: 1.125rem; font-weight: 700; margin: 1.5rem 0 0.75rem; line-height: 1.75rem; color: #222; }
-        .blog-content p { margin: 0 0 1.25rem; line-height: 1.8; font-size: 1.125rem; }
+        .blog-content p {
+          margin: 0 0 0rem;
+          width: 100%;
+          max-width: 761px;
+          height: auto;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 150%;
+          color: #1F222E;
+          flex: none;
+          order: 1;
+          align-self: stretch;
+          flex-grow: 0;
+        }
         .blog-content ul, .blog-content ol { margin: 0 0 1rem 1.5rem; line-height: 1.8; font-size: 0.97rem; }
         .blog-content li { margin-bottom: 0.4rem; }
         .blog-content a { color: #f97316; text-decoration: underline; }
@@ -251,41 +590,53 @@ export default function BlogPostPage({ post, related = [] }) {
         .fade-up { animation: fadeUp 0.5s ease forwards; }
       `}</style>
 
-      <main className="min-h-screen bg-[#fafafa]">
+      <main className="min-h-screen bg-[#fafafa] pb-24 w-[1200px] mx-auto">
+        {/* Breadcrumb */}
         <div className="bg-white">
-          <div className="max-w-7xl mx-auto px-4 pt-4 pb-4">
-            <Breadcrumb categories={categories.map((c) => c.name)} />
+          <div className="max-w-7xl mx-auto pr-4 pt-4 pb-2">
+            <Breadcrumb title={post.title} />
           </div>
         </div>
 
-        <div className="bg-white pb-0 relative">
-          <div className="max-w-7xl mx-auto px-4 mt-4">
-            <div className="grid grid-cols-1 lg:grid-cols-[761px_341px] gap-10 items-start justify-center">
+        <div className="bg-white pb-10 relative">
+          <div className="max-w-7xl mx-auto ">
+            {/*
+              KEY FIX:
+              1. items-start  — columns don't stretch to full height, required for sticky
+              2. aside gets self-start — same reason
+              3. aside uses sticky (not fixed) so it scrolls naturally with the page
+            */}
+            <div className="grid grid-cols-1 lg:grid-cols-[761px_1fr] gap-10 items-start justify-center">
+
+              {/* ── MAIN CONTENT ── */}
               <div className="w-full lg:max-w-[761px]">
                 {heroImage ? (
-                  <div className="relative overflow-hidden rounded-[32px] fade-up aspect-video">
+                  <div className="relative overflow-hidden rounded-[12px] fade-up aspect-video">
                     <img
                       src={heroImage}
                       alt={post.title}
                       className="inset-0 w-full h-full object-cover"
                       style={{ objectPosition: 'center' }}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                    <div className="absolute inset-x-0 bottom-0 p-5 md:p-8 lg:p-10">
+                    <div className="absolute  inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                    <div className="absolute backdrop-blur-sm inset-x-0 bottom-0 p-5 md:p-8 lg:p-10">
                       <div className="max-w-4xl">
                         {categories[0] && (
-                          <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/95 px-3 py-1 font-bold text-orange-500 shadow-lg text-xs uppercase tracking-wider">
+                          <span className="mb-4 inline-flex items-center gap-1 rounded-full bg-white/95 px-1 py-1 font-normal text-orange-500 shadow-lg text-xs capitalize tracking-wider">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="8" cy="8" r="8" fill="#F15C20" />
+                            </svg>
                             {categories[0].name}
                           </span>
                         )}
-                        <h1 className="text-2xl md:text-4xl font-extrabold leading-tight text-white mb-4">
+                        <h1 className="text-2xl md:text-[27px] font-bold leading-tight text-white mb-4">
                           {post.title}
                         </h1>
-                        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-medium text-white/90">
+                        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-normal text-white">
                           <span>{formatDate(post.date)}</span>
-                          <span className="text-white/60"><GoDotFill /></span>
+                          <span className=""><GoDotFill /></span>
                           <span>{readMin} min read</span>
-                          <span className="text-white/60"><GoDotFill /></span>
+                          <span className=""><GoDotFill /></span>
                           <span>By {post.author?.name || 'Dignite Studios'}</span>
                         </div>
                       </div>
@@ -304,36 +655,35 @@ export default function BlogPostPage({ post, related = [] }) {
                     <AuthorCard author={post.author} date={post.date} readMin={readMin} />
                   </div>
                 )}
+
+                <article className="w-full lg:max-w-[761px] mt-8">
+                  <div
+                    ref={contentRef}
+                    className="blog-content bg-white pb-6 rounded-3xl fade-up"
+                    dangerouslySetInnerHTML={{ __html: processedContent }}
+                  />
+
+                  <CTABanner />
+
+                  {related.length > 0 && (
+                    <div className="mt-12 fade-up">
+                      <h2 className="text-2xl font-extrabold text-gray-900 mb-6 px-2">Related Articles</h2>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+                        {related.map((p) => (
+                          <RelatedCard key={p.ID} post={p} />
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </article>
               </div>
 
-              <aside className="hidden lg:block">
+              {/* ── SIDEBAR (sticky TOC) ── */}
+              <aside className="hidden relative lg:block self-stretch w-full">
                 <TableOfContents headings={headings} activeId={activeId} />
               </aside>
             </div>
           </div>
-        </div>
-
-        <div className="max-w-7xl mx-auto px-4 py-10 bg-[#fafafa]">
-          <article className="w-full lg:max-w-[761px]">
-            <div
-              ref={contentRef}
-              className="blog-content bg-white p-6 md:p-10 rounded-3xl fade-up shadow-sm border border-gray-100"
-              dangerouslySetInnerHTML={{ __html: processedContent }}
-            />
-
-            <CTABanner />
-
-            {related.length > 0 && (
-              <div className="mt-12 fade-up">
-                <h2 className="text-2xl font-extrabold text-gray-900 mb-6 px-2">Related Articles</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-                  {related.map((p) => (
-                    <RelatedCard key={p.ID} post={p} />
-                  ))}
-                </div>
-              </div>
-            )}
-          </article>
         </div>
       </main>
     </>
