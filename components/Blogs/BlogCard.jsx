@@ -41,8 +41,8 @@ export function BlogCard({ ID, image, readTime, title, excerpt, date, slug, URL,
             <span className="text-xs font-medium text-[#0C0C0C]/60">
               By {typeof author === 'object' ? author?.name : author}
             </span>
-            <span className="text-xs font-medium capitalize text-[#F15C20]">
-              📅 {date}
+            <span className="text-xs font-medium text-[#F15C20]">
+              📅 {date ? new Date(date).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true }) : ''}
             </span>
           </div>
         </div>
