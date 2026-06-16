@@ -268,7 +268,7 @@ const Bussiness = ({
             >
               {bsToUse.map((item, index) => (
                 <SwiperSlide key={index}>
-                  <div className="relative w-[350px] mx-auto">
+                  <div className="relative w-full max-w-[350px] mx-auto">
                     <img
                       src={
                         item.icon ||
