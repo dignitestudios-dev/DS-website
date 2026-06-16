@@ -15,7 +15,7 @@ const ToolsAndTech = ({ header, header2, subtitle, tools }) => {
             viewport={{ once: true }}
             className="font-bold text-[40px] md:text-[72px] leading-[105%] tracking-[-0.04em] text-[#1F222E] text-center"
           >
-            {header} {header2 && <span className="text-[#1F222E]">{header2}</span>}
+            {header} {header2 && <span className="text-[#F15C20]">{header2}</span>}
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}

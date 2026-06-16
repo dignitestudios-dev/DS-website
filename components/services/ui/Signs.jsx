@@ -9,7 +9,7 @@ const Signs = ({ header, header2, subtitle, buttonText, items }) => {
   return (
     <div className="flex flex-col items-center w-full max-w-[1240px] mx-auto  px-4 xl:px-0 relative z-20">
       {/* Header Section */}
-      <div className="flex flex-col items-center text-center max-w-[850px] mb-[50px] gap-[30px]">
+      <div className="flex flex-col items-center text-center max-w-[1050px] mb-[50px] gap-[30px]">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -28,26 +28,7 @@ const Signs = ({ header, header2, subtitle, buttonText, items }) => {
           {subtitle}
         </motion.p>
 
-        {buttonText && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-          >
-            <Link
-              href="/contact-us"
-              className="flex items-center group justify-center "
-            >
-              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full font-normal transition-colors">
-                {buttonText}
-              </button>
-              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
-                <MdArrowOutward />
-              </button>
-            </Link>
-          </motion.div>
-        )}
+      
       </div>
 
       {/* Grid Section */}
@@ -80,6 +61,26 @@ const Signs = ({ header, header2, subtitle, buttonText, items }) => {
           ))}
         </div>
       </div>
+        {buttonText && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+          >
+            <Link
+              href="/contact-us"
+              className="flex mt-10 items-center group justify-center "
+            >
+              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full font-normal transition-colors">
+                {buttonText}
+              </button>
+              <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                <MdArrowOutward />
+              </button>
+            </Link>
+          </motion.div>
+        )}
     </div>
   );
 };
