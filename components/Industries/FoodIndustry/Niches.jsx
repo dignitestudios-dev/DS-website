@@ -115,7 +115,7 @@ const Niches = () => {
       </div>
 
       {/* Pagination Styling */}
-     <style jsx global>{`
+      <style jsx global>{`
   .niches-swiper .swiper-pagination-bullet {
     background-color: #F15C20 !important;
     opacity: 0.5;
