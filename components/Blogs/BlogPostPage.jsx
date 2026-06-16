@@ -502,39 +502,41 @@ export default function BlogPostPage({ post, related = [] }) {
     if (!headingEls.length) return;
 
     const handleScroll = () => {
-      const offset = 140; // Account for the sticky header/navbar plus some buffer
+      const offset = window.innerHeight * 0.4; // 40% of screen height
       let activeHeading = '';
 
-      // Get accurate scroll metrics across both viewport and container scroll systems
-      const scrollTop = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
-      const scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight || 0;
-      const clientHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0;
-
-      // Check if scroll reached the bottom of the page
-      const isAtBottom = scrollTop + clientHeight >= scrollHeight - 100;
-
-      if (isAtBottom && headingEls.length > 0) {
-        activeHeading = headingEls[headingEls.length - 1].id;
-      } else {
-        for (const el of headingEls) {
-          const rect = el.getBoundingClientRect();
-          if (rect.top <= offset) {
-            activeHeading = el.id;
-          } else {
-            break;
-          }
+      // Step-by-step math-based highlighting (Flawless for both scroll down and up)
+      for (const el of headingEls) {
+        const rect = el.getBoundingClientRect();
+        if (rect.top <= offset) {
+          activeHeading = el.id;
+        } else {
+          break;
         }
       }
 
-      // Highlight the first heading if we are at the very top of the page
+      // Default to first heading if none crossed the line
       if (!activeHeading && headingEls[0]) {
         activeHeading = headingEls[0].id;
+      }
+
+      // Safe absolute bottom detection to highlight the last heading
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      const documentHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+
+      // Ensure we are truly scrolling the main document (avoiding nested scroll bugs)
+      if (documentHeight > windowHeight * 1.2) {
+        const isAtBottom = Math.ceil(scrollPosition + windowHeight) >= documentHeight - 50;
+        if (isAtBottom && headingEls.length > 0) {
+          activeHeading = headingEls[headingEls.length - 1].id;
+        }
       }
 
       setActiveId(activeHeading);
     };
 
-    // Use capture: true so we listen to scroll events regardless of which container scrolls
+    // Use capture: true to ensure we catch scroll events globally
     document.addEventListener('scroll', handleScroll, { passive: true, capture: true });
     handleScroll();
 
