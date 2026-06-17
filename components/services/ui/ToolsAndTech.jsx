@@ -37,11 +37,14 @@ const ToolsAndTech = ({ header, header2, subtitle, tools }) => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.05 }}
-              className="w-full h-[146px] bg-[#F9F9F9] rounded-[4.11px] flex justify-center items-center group hover:shadow-sm transition-shadow duration-300 border border-transparent hover:border-gray-200"
+              className="w-full h-[146px] bg-[#F9F9F9] rounded-[4.11px] flex flex-col justify-center items-center gap-3 group hover:shadow-sm transition-shadow duration-300 border border-transparent hover:border-gray-200"
             >
               <div className="transform group-hover:scale-110 transition-transform duration-300">
                 {tool.icon}
               </div>
+              <span className="text-[14px] font-semibold text-[#0C0C0C] text-center px-2">
+                {tool.name}
+              </span>
             </motion.div>
           ))}
         </div>

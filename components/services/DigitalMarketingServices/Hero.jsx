@@ -9,11 +9,14 @@ import Platforms from "../ui/Platforms";
 
 const Hero = () => {
   return (
-    <div className=" w-full flex flex-col items-center">
+    <div className=" w-full relative flex flex-col items-center">
     
       {/* Cloud Background */}
-      <div className="absolute hidden lg:block inset-0 top-0 w-full h-[1050px] z-0">
-        <Image src="/services/web-design/cloud.webp" alt="Cloud Background" fill priority className="object-cover object-top" />
+      <div className="absolute hidden lg:block inset-0 top-[30%] left-10  z-0">
+        <Image src="/services/digital/l.webp" alt="Cloud Background" width={300} height={300} priority className="object-cover object-top" />
+      </div>
+      <div className="absolute hidden lg:block  top-[30%] right-[5%]  z-0">
+        <Image src="/services/digital/r.webp" alt="Cloud Background" width={300} height={300} priority className="object-cover object-top" />
       </div>
 
 
@@ -54,32 +57,10 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      <div className="relative flex justify-center w-full px-4 md:px-0 mt-8  z-20">
-        <motion.div
-          className="relative w-full max-w-[1200px]"
-          initial={{ y: 80, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{
-            duration: 0.8,
-            ease: "easeOut",
-          }}
-        >
-          {/* Using a placeholder or appropriate image for digital marketing */}
-          <Image
-            src="/services/social-media/hero-mockup.webp"
-            alt="Digital Marketing Showcase"
-            width={1200}
-            height={654}
-            priority
-            className="w-full h-auto object-cover"
-          />
-        </motion.div>
-
-      </div>
+    
 
       {/* Trusted Logos Footer */}
-      <div className="w-full relative z-20 -mt-52 mb-40 h-64 bg-gradient-to-t from-white to-transparent via-white   py-[30px]">
+      <div className="w-full relative z-20  h-64 bg-gradient-to-t from-white to-transparent via-white   py-[30px]">
         <Platforms />
       </div>
     </div>
