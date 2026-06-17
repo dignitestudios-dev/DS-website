@@ -200,33 +200,33 @@ const toolsData = [
 const webDesignProcess = [
   {
     step: "01",
-    title: "Discovery & Strategy",
-    desc: "We begin by understanding your business goals, target audience, and brand identity to lay a solid foundation for the project.",
+    title: "Gathering Discovery and Requirements",
+    desc: "Understanding your business goals is the first step in website development. This step define the functionality and strategy for your website.",
   },
   {
     step: "02",
-    title: "UI/UX Design",
-    desc: "Our designers create wireframes and high-fidelity mockups to visualize the user journey and craft a stunning interface.",
+    title: "UX Planning & Wireframing",
+    desc: "UX planning and wireframing combined with frontend web development services organizes the structure of your website before design and development begins.",
   },
   {
     step: "03",
-    title: "Development",
-    desc: "Our developers bring the designs to life using modern technologies, ensuring clean code and responsive layouts.",
+    title: "UI Design & Prototyping",
+    desc: "UI design and Prototyping stage focuses on creating a professional design through UI UX web design services that reflects your brand while improving usability.",
   },
   {
     step: "04",
-    title: "Testing & QA",
-    desc: "We rigorously test the website across all devices and browsers to ensure optimal performance, speed, and security.",
+    title: "Development & Integrations",
+    desc: "Development and integrations work by converting approved designs into a functional experience. This stage includes building features to support your user needs.",
   },
   {
     step: "05",
-    title: "Launch & Deployment",
-    desc: "Once everything is perfect, we handle the smooth deployment of your website to the live server and ensure zero downtime.",
+    title: "Quality Assurance",
+    desc: "Quality assurance is the process of testing if your website functions properly before you go for launch. Everything is reviewed in details to identify issues.",
   },
   {
     step: "06",
-    title: "Post-Launch Support",
-    desc: "We provide ongoing maintenance, updates, and optimization to ensure your website continues to drive results.",
+    title: "Launch, Optimization & Growth",
+    desc: "Launching a website the beginning. On going optimization after your launch improves conversion rates that are based on user behavior.",
   },
 ];
 
@@ -470,24 +470,27 @@ const WebDesignServices = () => {
         heading2={"USA?"}
         para={
           <>Website design and development services help businesses build websites that are easy to use and designed to bring actual results. These custom web development services focuses on creating websites that keep them engaged through clear design.
-            Dignite Studios provides website design and development services with over 10 years of experience. The bes custom web development company in USA builds websites that are tailored to every business needs. Our focus is on simple user experience that grows with your business.
+            Dignite Studios provides website design and development services with over 10 years of experience. The best custom web development company in USA builds websites that are tailored to every business needs. Our focus is on simple user experience that grows with your business.
             We merge design with development. It create websites that work effectively yet still look attractive. It creates a credible online presence. We support your long term growth whether you need a new website or want to improve an existing one.
+
           </>
         }
         button="Talk to the Team!"
       />
       <Signs
-        header="Signs Your Website Is Holding Back Business"
+        header="Is It Time to Update Your Website? Signs Your Website Is Holding Back Business"
         header2="Growth"
-        subtitle="Build fast, scalable, and conversion-focused websites with modern design, robust development, and future-ready technologies that support business growth and digital transformation."
-        buttonText="Get a Free Website Consultation"
+        subtitle="Your website works for your business, or against it. Many companies don’t realize it their website is silently costing them customers until the damage is already done. Being best web development company in USA Dignite Studios assists companies in finding out when a redesign has become a necessity and not just an option.
+The following signs will tell you If your website is underperforming:
+"
+        buttonText="Improve Your Website"
         items={signsItems}
       />
       <Services
-        header="What Types of Website Design & Development Services Do You "
+        header=" What Types of Website Design & Development Services Do You "
         header2="Need?"
         para="The web development services depend on your technical requirements and audience. Some business need a simple marketing website. But some business would require custom applications or advanced integrations from a custom web development company in USA."
-        button="Improve Your Website"
+        button="Explore Our Services"
         services={webDesignServices}
       />
       <DevelopmentApproach
@@ -528,6 +531,7 @@ const WebDesignServices = () => {
         header2="Services?"
         para="Dignite Studios make sure to provide web development services for different businesses from a wide range of industries. Although the right solution depends on your industry and business requirements. The industries below show the sectors Dignite Studios usually works with."
         VALUE_PROPOSITION={industriesValueProps}
+        button={" Explore our Web Services"}
       />
       <MobileApp
         cards={mobileAppBenefits}
@@ -547,7 +551,7 @@ const WebDesignServices = () => {
         test={testimonialsData}
         para=""
       />
-      <Faq faqs={faqsData} header="Everything You Need to Know About Website Development" />
+      <Faq faqs={faqsData} header="Everything You Need to Know About " header2={"Website Development"} />
       <ContactUs
         img="/services/web-design/ccta.webp"
         pathname="Web Design"
