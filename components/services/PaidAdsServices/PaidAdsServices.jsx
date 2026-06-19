@@ -22,6 +22,7 @@ import {
   SiPinterest
 } from "react-icons/si";
 import { FaChartLine, FaXTwitter, FaMicrosoft } from "react-icons/fa6";
+import CTA from "./CTA";
 
 const servicesData = [
   {
@@ -306,14 +307,13 @@ const PaidAdsServices = () => {
         steps={processSteps}
       />
 
-      {/* Why Choose Us Section */}
-      <div className="mt-20 lg:mt-0">
+
         <Bussiness
           header={<>Why Choose <span className="text-[#F15C20]">Dignite Studios</span></>}
           para="Partner with an agency that prioritizes your profitability. We combine strategic expertise with transparent execution to drive real business growth."
           bs={bussinessData}
         />
-      </div>
+   
 
       {/* Industries Section */}
       <Industries
@@ -335,12 +335,12 @@ const PaidAdsServices = () => {
       />
 
       {/* CTA Section */}
-      <CenteredCTA
+      <CTA
         title={<>Ready to Supercharge <span className="text-[#F15C20]">Your Ad Campaigns?</span></>}
         desc="Stop wasting money on ads that don't convert. Let our experts build a strategy that turns clicks into profitable customers."
         btnText="Schedule a Consultation"
         btnLink="/contact-us"
-        image="/services/digital/cta.webp"
+        image="/services/ads/cta.webp"
       />
 
       {/* Testimonials Section */}
