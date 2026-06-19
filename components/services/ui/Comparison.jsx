@@ -49,7 +49,7 @@ const Comparison = () => {
         </div>
 
         {/* Comparison Grid */}
-        <div className="relative w-full max-w-[1240px] flex flex-col lg:flex-row items-stretch gap-[30px] mt-[20px]">
+        <div className="relative w-full max-w-[1040px] flex flex-col lg:flex-row items-stretch gap-[30px] mt-[20px]">
           {/* VS Badge */}
           <div className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[47px] h-[47px] bg-[#FFFFFF] border border-[#0C0C0C]/5 rounded-full shadow-[0px_1px_2px_rgba(0,0,0,0.3),0px_1px_3px_1px_rgba(0,0,0,0.15)] z-10 items-center justify-center">
             <span className="font-medium text-[24px] leading-[136%] tracking-[-0.014em] text-[#0C0C0C]">

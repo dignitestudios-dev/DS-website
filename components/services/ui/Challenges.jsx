@@ -20,7 +20,7 @@ const Challenges = ({ header, para, items }) => {
       </div>
 
       {/* Cards container with horizontal scroll */}
-      <div className="w-full flex overflow-x-auto pb-8 pl-4  snap-x gap-[5px] hide-scrollbar">
+      <div className="w-full flex overflow-x-auto pb-8 pl-4 flex-wrap justify-center  snap-x gap-[5px] hide-scrollbar">
         {items.map((item, index) => {
           const Icon = item.icon;
           return (
@@ -34,7 +34,7 @@ const Challenges = ({ header, para, items }) => {
               </div>
 
               {/* Card Content */}
-              <div className="relative z-10 flex flex-col gap-6">
+              <div className="relative z-10 flex flex-col justify-start gap-6">
                 {/* Badge */}
                 <div className="flex items-center gap-[5px]">
                   <div className="w-[33px] h-[33px] rounded-full bg-[#E5320F]/15 group-hover:bg-white/15 flex items-center justify-center transition-colors duration-300">
