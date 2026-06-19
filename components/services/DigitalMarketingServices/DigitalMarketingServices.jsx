@@ -10,7 +10,7 @@ import Bussiness from "../ui/Bussiness";
 import Industries from "../ui/Industries";
 import MobileApp from "../ui/MobileApp";
 import SuccessStories from "../ui/SuccessStories";
-import WebDesignCTA from "../ui/WebDesignCTA";
+import CenteredCTA from "../ui/CenteredCTA";
 import Testimonials from "../ui/Testimonials";
 import Faq from "../ui/Faq";
 import ContactUs from "../ui/ContactUs";
@@ -26,32 +26,32 @@ const servicesData = [
   {
     title: "Search Engine Optimization (SEO)",
     description: "The top digital marketing experts can optimize your website’s structure resulting in improving your search visibility. Reach customers that are really searching for your services and products online.",
-    icon: "i1", icon2: "i1"
+    icon: "ddd1", icon2: "ddd11"
   },
   {
     title: "Social Media Marketing",
     description: "We’d build a strong presence on social platforms being the best digital marketing company for small business. We’d create targeted campaigns that increase brand awareness.",
-    icon: "i2", icon2: "i2"
+    icon: "ddd2", icon2: "ddd22"
   },
   {
     title: "Content Marketing",
     description: "The team would create strategic content marketing plans. These strategies only attract the right audience. While positioning your brand as an experienced authority in your industry.",
-    icon: "i3", icon2: "i3"
+    icon: "ddd3", icon2: "ddd33"
   },
   {
     title: "Email Marketing & Automations",
     description: "The experts create email marketing campaigns with the custom digital marketing strategy for local business. The right email marketing would connect you with your audience.",
-    icon: "i4", icon2: "i4"
+    icon: "ddd4", icon2: "ddd44"
   },
   {
     title: "Conversion Rate Optimization",
     description: "The analysis is done through the digital marketing audit services. How users interact with your website. We optimize the user experience to guide visitors toward action.",
-    icon: "i5", icon2: "i5"
+    icon: "ddd5", icon2: "ddd55"
   },
   {
     title: "Online Reputation Management",
     description: "We strengthen your brand reputation by building a positive online presence. It influences how potential customers perceive your business across search engines.",
-    icon: "i6", icon2: "i6"
+    icon: "ddd6", icon2: "ddd66"
   }
 ];
 
@@ -154,37 +154,37 @@ const processSteps = [
 
 const bussinessData = [
   {
-    icon: "/services/web-design/1.webp",
+    icon: "/services/digital/01.webp",
     number: "01",
     title: "Data Driven Marketing Strategies",
     desc: "Successful marketing starts with the right digital marketing strategy services. Professional digital marketing strategy consultant use customer insights to guide every strategy at Dignite Studios."
   },
   {
-    icon: "/services/web-design/2.webp",
+    icon: "/services/digital/02.webp",
     number: "02",
     title: "Proven Campaign Success Frameworks",
     desc: "Our campaigns are built on frameworks created through years of experience. We help businesses create a more predictable path by continuously refining our approach."
   },
   {
-    icon: "/services/web-design/3.webp",
+    icon: "/services/digital/03.webp",
     number: "03",
     title: "Multi Channel Marketing Expertise",
     desc: "Customers interact with brands across multiple platforms. That is why we take a connected marketing approach. We create cohesive strategies that improve performance."
   },
   {
-    icon: "/services/web-design/4.webp",
+    icon: "/services/digital/04.webp",
     number: "04",
     title: "Dedicated Marketing Specialists",
     desc: "We bring together experienced specialists who work closely with clients. To ensure every campaign is aligned with growth objectives."
   },
   {
-    icon: "/services/web-design/5.webp",
+    icon: "/services/digital/05.webp",
     number: "05",
     title: "Scalable Growth Solutions",
     desc: "Every business has different growth stages. So the team would develop flexible marketing strategies that can adapt as your business evolves."
   },
   {
-    icon: "/services/web-design/6.webp",
+    icon: "/services/digital/06.webp",
     number: "06",
     title: "Continuous Optimization & Reporting",
     desc: "We are the expert digital marketing company for small business. So, the team at Dignite Studios continuously analyze campaign performance while looking for opportunities to improve results."
@@ -370,11 +370,12 @@ const DigitalMarketingServices = () => {
         button="Discuss Your Requirements Now"
       />
       <SuccessStories header="How We Have Helped Different Brands Grow" />
-      <WebDesignCTA
+      <CenteredCTA
         title={<>It’s Time to Work on <span className="text-[#F15C20]">Your Business Growth!</span></>}
         desc="Need to increase your marketing ROI? The development team at Dignite Studios is ready for you. Schedule your free consultation. Receive a personalized brand audit with actionable insights."
         btnText="Don’t Postpone Your Growth"
         btnLink="/contact-us"
+        image="/services/digital/cta.webp"
       />
       <Testimonials
         header="What People Say About Our Digital Marketing Agency"
@@ -386,7 +387,7 @@ const DigitalMarketingServices = () => {
         faqs={faqsData}
       />
       <ContactUs
-        img="/services/web-design/ccta.webp"
+        img="/services/digital/ccta.webp"
         pathname="Digital Marketing Services"
         header="Ready to Generate More Leads and Revenue?"
         para="We're here to scale your marketing efforts. Share your goals with our team and receive a customized strategy today! Bonus: Get a Free Brand Audit in 24 Hours"

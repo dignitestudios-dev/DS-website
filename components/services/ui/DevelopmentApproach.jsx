@@ -89,7 +89,7 @@ const DevelopmentApproach = ({ header, header2, subtitle, para, buttonText, item
                   </div>
 
                   {/* Content */}
-                  <div className="flex flex-col gap-[10px]">
+                  <div className="flex flex-col justify-start text-start lg:h-[150px] items-start gap-[10px]">
                     <h3 className="font-semibold text-[32px] leading-[40px] text-[#00161D] group-hover:text-white transition-colors duration-300">
                       {item.title}
                     </h3>
@@ -108,7 +108,7 @@ const DevelopmentApproach = ({ header, header2, subtitle, para, buttonText, item
           {/* Prev Button */}
           <button
             onClick={() => swiperInstance?.slidePrev()}
-            className="w-[50px] h-[50px] flex justify-center items-center rounded-xl bg-white/5 border border-white/50 backdrop-blur-md text-[#F15C20] hover:text-white transition-all hover:bg-white/20 cursor-pointer z-10"
+            className="w-[60px] h-[50px] flex justify-center items-center rounded-xl bg-white/5 border border-white/50 backdrop-blur-md text-[#F15C20] hover:text-white transition-all hover:bg-white/20 cursor-pointer z-10"
           >
             <FaChevronLeft size={20} />
           </button>
@@ -119,7 +119,7 @@ const DevelopmentApproach = ({ header, header2, subtitle, para, buttonText, item
           {/* Next Button */}
           <button
             onClick={() => swiperInstance?.slideNext()}
-            className="w-[50px] h-[50px] flex justify-center items-center rounded-xl bg-white/5 border border-white/50 backdrop-blur-md text-[#F15C20] hover:text-white transition-all hover:bg-white/20 cursor-pointer z-10"
+            className="w-[60px] h-[50px] flex justify-center items-center rounded-xl bg-white/5 border border-white/50 backdrop-blur-md text-[#F15C20] hover:text-white transition-all hover:bg-white/20 cursor-pointer z-10"
           >
             <FaChevronRight size={20} />
           </button>
