@@ -541,7 +541,8 @@ The following signs will tell you If your website is underperforming:
         button="Discuss your website requirements."
       />
       <SuccessStories
-        header="Website Development Results and Success Stories"
+        header="Website Development Results and "
+        header2={"Success Stories"}
         para="The website development projects created by Dignite Studios focus on clear business outcomes. Each project is built to support the business goals for each industry.. The examples below highlight how our work has improved digital performance."
       />
       <WebDesignCTA />
