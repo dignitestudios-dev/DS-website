@@ -23,7 +23,7 @@ export default function HomePage() {
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
   }, [theme]);
-  
+
   return (
     <div className="w-full max-w-screen-2xl mx-auto h-auto flex flex-col items-center justify-center gap-20 md:gap-28 pb-32" style={{ overflowAnchor: 'none' }}>
       <Hero />

@@ -165,6 +165,24 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
             1024: {
               slidesPerView: 2,
             },
+            1280: {
+              slidesPerView: 4,
+            },
+            1536: {
+              slidesPerView: 5,
+            },
+            1920: {
+              slidesPerView: 6,
+            },
+            1280: {
+              slidesPerView: 4,
+            },
+            1536: {
+              slidesPerView: 5,
+            },
+            1920: {
+              slidesPerView: 6,
+            },
           }}
           className="testimonial-swiper !pb-14"
         >
@@ -177,7 +195,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
                 {({ isActive }) => (
                   <Link href={item.link || "#"} target="_blank" rel="noopener noreferrer" className="block w-auto h-auto cursor-pointer focus:outline-none">
                     <div
-                      className={`relative w-[300px] md:w-[450px] h-[350px] md:h-[380px] group rounded-[30px] shadow-2xl transition-all duration-500 ease-in-out ${isActive
+                      className={`relative w-[258px] h-[295px] group rounded-[30px] shadow-2xl transition-all duration-500 ease-in-out ${isActive
                         ? "scale-110 z-30 opacity-100 "
                         : "scale-90 opacity-40 z-10"
                         }`}
@@ -189,7 +207,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
                       />
 
                       {/* White background card */}
-                      <div className="absolute top-0 left-0 w-full h-full rounded-[30px] bg-white shadow-md z-10" />
+                      <div className="absolute top-0 left-0 w-[258px] h-[295px] rounded-[30px] bg-white shadow-md z-10" />
 
                       {/* Content wrapper */}
                       <div className="relative z-20 flex flex-col items-center justify-start h-full p-6 text-black">
@@ -215,7 +233,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
                           </div>
                         </div>
 
-                        <p className="text-xs text-center  px-2">
+                        <p className="text-xs text-center line-clamp-5 px-2">
                           {item.review}
                         </p>
                       </div>
