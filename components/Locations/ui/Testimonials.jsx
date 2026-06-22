@@ -17,46 +17,18 @@ const testData = [
     link: "https://www.trustpilot.com/review/dignitestudios.com"
   },
   {
-    name: "Eric Quintero",
-    desgination: "US",
-    review: "I am very glad to be working with dignite studios and with the team everyone there is amazing and very attentive to their jobs and would recommend to anyone",
-    platform: "Trustpilot",
-    link: "https://www.trustpilot.com/review/dignitestudios.com"
-  },
-  {
-    name: "Mario Ponce",
-    desgination: "US",
-    review: "Dignite Studios and its associates especially Stacy are amazing, so far. We have started working on my mobile application, and then the landing page for my Application. While still in the process Stacy has been good in updating me on the development of my app. If you are looking to make any mobile applications, landing pages and or websites, I recommend in getting their services.",
-    platform: "Trustpilot",
-    link: "https://www.trustpilot.com/review/dignitestudios.com"
-  },
-  {
-    name: "JAMIE MICELI",
-    desgination: "US",
-    review: "I had a meeting with Dignite studios to share my ideas. Hailey Wade immediately was able to understand my vision and explain to me the process and next steps. We put together a SOW and we are now in the process of moving on to the next steps. I'm really looking forward to working with Hailey and the Dignite team.",
-    platform: "Trustpilot",
-    link: "https://www.trustpilot.com/review/dignitestudios.com"
-  },
-  {
-    name: "Ashley Brisbon",
-    desgination: "US",
-    review: "started the process of wanting an app for my business this past December and now my app is completed thanks to Justin Cruz and his team! I’m so happy to now have my app functioning and working. I didn’t feel overwhelmed at all during the process and was given information along every step of the way. I’m truly thankful for the quick and seamless experience.",
-    platform: "Trustpilot",
-    link: "https://www.trustpilot.com/review/dignitestudios.com"
-  },
-  {
-    name: "Bob Corjulo",
-    desgination: "US",
-    review: "Dignite listened to our needs and provided a couple of solutions for us. Very receptive and accommodating. I appreciate their professionalism and track record for working with similar companies.",
-    platform: "Trustpilot",
-    link: "https://www.trustpilot.com/review/dignitestudios.com"
-  },
-  {
     name: "J.C. Perez",
     desgination: "US",
     review: "The experience I’ve had with Dignite Studios has been amazing! I have almost completed my first app and have already started a second! Stacy, my project manager has been wonderful throughout the process. The organization and attention to detail is second to none! She listens and implements everything we talk about. We talk about my ideas and what works and what may not work. Stacy and her team are very knowledgeable in the mobile app space and know how to bring ideas to life! I was fortunate to find them and look forward to more apps in the future!!",
     platform: "Google",
     link: "https://www.google.com/search?q=dignite+studios"
+  },
+  {
+    name: "Eric Quintero",
+    desgination: "US",
+    review: "I am very glad to be working with dignite studios and with the team everyone there is amazing and very attentive to their jobs and would recommend to anyone",
+    platform: "Trustpilot",
+    link: "https://www.trustpilot.com/review/dignitestudios.com"
   },
   {
     name: "operation madman",
@@ -66,11 +38,25 @@ const testData = [
     link: "https://www.google.com/search?q=dignite+studios"
   },
   {
+    name: "Mario Ponce",
+    desgination: "US",
+    review: "Dignite Studios and its associates especially Stacy are amazing, so far. We have started working on my mobile application, and then the landing page for my Application. While still in the process Stacy has been good in updating me on the development of my app. If you are looking to make any mobile applications, landing pages and or websites, I recommend in getting their services.",
+    platform: "Trustpilot",
+    link: "https://www.trustpilot.com/review/dignitestudios.com"
+  },
+  {
     name: "NeighborConnector",
     desgination: "US",
     review: "Stacy and the group with Dignite Studios are awesome to work with. They take the lead to put out the best for the App that they are developing for us. They are so open to new ideas to consider too. Looking forward to an App that everyone will love to have on their phones.",
     platform: "Google",
     link: "https://www.google.com/search?q=dignite+studios"
+  },
+  {
+    name: "JAMIE MICELI",
+    desgination: "US",
+    review: "I had a meeting with Dignite studios to share my ideas. Hailey Wade immediately was able to understand my vision and explain to me the process and next steps. We put together a SOW and we are now in the process of moving on to the next steps. I'm really looking forward to working with Hailey and the Dignite team.",
+    platform: "Trustpilot",
+    link: "https://www.trustpilot.com/review/dignitestudios.com"
   },
   {
     name: "David Bowen",
@@ -80,11 +66,25 @@ const testData = [
     link: "https://www.google.com/search?q=dignite+studios"
   },
   {
+    name: "Ashley Brisbon",
+    desgination: "US",
+    review: "started the process of wanting an app for my business this past December and now my app is completed thanks to Justin Cruz and his team! I’m so happy to now have my app functioning and working. I didn’t feel overwhelmed at all during the process and was given information along every step of the way. I’m truly thankful for the quick and seamless experience.",
+    platform: "Trustpilot",
+    link: "https://www.trustpilot.com/review/dignitestudios.com"
+  },
+  {
     name: "Sherah Bassard",
     desgination: "US",
     review: "Hailey and Zane were wonderful to engage with as we explored whether Dignite was a good fit for my company's vision and goals. They were professional, warm, detailed, technically sound, prompt and deeply engaged in the process. They also offered very reasonable pricing and multiple payment plan options, breaking up the overall cost into milestones or monthly payments. Ultimately, I had some requirements for my overall project which weren't available through this company, so decided on a different company to work with. However, had we been in perfect alignment, I know it would have truly been a pleasure to work with them.",
     platform: "Google",
     link: "https://www.google.com/search?q=dignite+studios"
+  },
+  {
+    name: "Bob Corjulo",
+    desgination: "US",
+    review: "Dignite listened to our needs and provided a couple of solutions for us. Very receptive and accommodating. I appreciate their professionalism and track record for working with similar companies.",
+    platform: "Trustpilot",
+    link: "https://www.trustpilot.com/review/dignitestudios.com"
   },
   {
     name: "Eric Quintero",
@@ -167,6 +167,24 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
             1024: {
               slidesPerView: 2,
             },
+            1280: {
+              slidesPerView: 4,
+            },
+            1536: {
+              slidesPerView: 5,
+            },
+            1920: {
+              slidesPerView: 6,
+            },
+            1280: {
+              slidesPerView: 4,
+            },
+            1536: {
+              slidesPerView: 5,
+            },
+            1920: {
+              slidesPerView: 6,
+            },
           }}
           className="testimonial-swiper !pb-14"
         >
@@ -179,7 +197,7 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                 {({ isActive }) => (
                   <Link href={item.link || "#"} target="_blank" rel="noopener noreferrer" className="block w-auto h-auto cursor-pointer focus:outline-none">
                     <div
-                      className={`relative w-[300px] md:w-[450px] h-[350px] md:h-[380px] group rounded-[30px] shadow-2xl transition-all duration-500 ease-in-out ${isActive
+                      className={`relative w-[258px] h-[295px] group rounded-[30px] shadow-2xl transition-all duration-500 ease-in-out ${isActive
                         ? "scale-110 z-30 opacity-100 "
                         : "scale-90 opacity-40 z-10"
                         }`}
@@ -191,7 +209,7 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                       />
 
                       {/* White background card */}
-                      <div className="absolute top-0 left-0 w-full h-full rounded-[30px] bg-white shadow-md z-10" />
+                      <div className="absolute top-0 left-0 w-[258px] h-[295px] rounded-[30px] bg-white shadow-md z-10" />
 
                       {/* Content wrapper */}
                       <div className="relative z-20 flex flex-col items-center justify-start h-full p-6 text-black">
@@ -217,9 +235,19 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                           </div>
                         </div>
 
-                        <p className="text-xs text-center  px-2">
-                          {item.review}
-                        </p>
+                        <div className="flex flex-col items-center justify-center w-full px-2">
+                          <p className="text-xs text-center">
+                            {item.review.length > 140 ? (
+                              <>
+                                {item.review.substring(0, 140).trim()}...<span className="font-semibold hover:text-orange-500 hover:underline">
+                                  More
+                                </span>
+                              </>
+                            ) : (
+                              item.review
+                            )}
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </Link>
