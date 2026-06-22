@@ -6,7 +6,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Script from "next/script";
 import { AnimatePresence, motion } from "framer-motion";
 
-const Faq = ({ faqs , header , header2 }) => {
+const Faq = ({ faqs, header, header2, para }) => {
   const { palette, theme } = useContext(GlobalContext);
   const [openAccordion, setOpenAccordion] = useState(null);
 
@@ -21,25 +21,28 @@ const Faq = ({ faqs , header , header2 }) => {
     >
       <div className="w-full flex flex-col gap-3 justify-start items-center">
         <h2 className="text-4xl mb-8 leading-10 lg:leading-[1.1] text-center capitalize tracking-tighter md:text-7xl font-bold">
-          {header ? header : <> Frequently asked <span className="text-[#F15C20]">questions</span></> }
+          {header ? header : <> Frequently asked <span className="text-[#F15C20]">questions</span></>}
           {header2 && <span className="text-[#F15C20]">{header2}</span>}
-         
+
         </h2>
+        {para && (
+          <p className="text-lg mb-4  text-center dark:text-white text-[#2A2A2A] [&_a]:text-[#F15C20] [&_a]:underline">{para}</p>
+
+        )}
+
 
         <div className="w-full lg:w-[100%]">
           {faqs.map((faq) => (
             <div
               key={faq.id}
               onClick={() => handleAccordionClick(faq.id)}
-              className={`flex flex-col w-full mb-4 py-4 md:py-14 rounded-l-2xl md:rounded-l-full   cursor-pointer ${
-                theme === "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
-              }  ${
-                openAccordion === faq.id
+              className={`flex flex-col w-full mb-4 py-4 md:py-14 rounded-l-2xl md:rounded-l-full   cursor-pointer ${theme === "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+                }  ${openAccordion === faq.id
                   ? "bg-[#F15C20] text-white"
                   : theme === "dark"
                     ? "text-[#e7e7e7]"
                     : "text-black bg-[#F6F6F6]"
-              }`}
+                }`}
             >
               <button
                 name="faq-question"
@@ -66,7 +69,7 @@ const Faq = ({ faqs , header , header2 }) => {
                   >
                     <p
                       className={`mt-2 text-xs pl-8 lg:pl-16 pr-16 lg:text-[16px] leading-normal ${openAccordion === faq.id ? "[&_a]:text-white [&_a]:underline" : "[&_a]:text-[#F15C20] [&_a]:underline"}`}
-                      // style={{ color: palette?.dark_contrast_color }}
+                    // style={{ color: palette?.dark_contrast_color }}
                     >
                       {faq.answer}
                     </p>

@@ -6,10 +6,10 @@ const ToolsAndTech = ({ header, header2, subtitle, tools }) => {
   return (
     <div className="w-full bg-white  flex flex-col items-center justify-center overflow-hidden">
       <div className="w-full max-w-[1440px] px-4 md:px-[80px] flex flex-col items-center gap-[50px]">
-        
+
         {/* Header Section */}
         <div className="flex flex-col items-center gap-[30px] max-w-[915px]">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -17,7 +17,7 @@ const ToolsAndTech = ({ header, header2, subtitle, tools }) => {
           >
             {header} {header2 && <span className="text-[#F15C20]">{header2}</span>}
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -40,7 +40,15 @@ const ToolsAndTech = ({ header, header2, subtitle, tools }) => {
               className="w-full h-[146px] bg-[#F9F9F9] rounded-[4.11px] flex flex-col justify-center items-center gap-3 group hover:shadow-sm transition-shadow duration-300 border border-transparent hover:border-gray-200"
             >
               <div className="transform group-hover:scale-110 transition-transform duration-300">
-                {tool.icon}
+                {typeof tool.icon === "string" ? (
+                  <img
+                    src={tool.icon}
+                    alt={tool.name}
+                    className="w-12 h-12 object-contain"
+                  />
+                ) : (
+                  tool.icon
+                )}
               </div>
               <span className="text-[14px] font-semibold text-[#0C0C0C] text-center px-2">
                 {tool.name}
