@@ -12,13 +12,14 @@ const Hero = () => {
     <div className="w-full grid grid-cols-1  justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-           Expert Android App{" "}
+          Android App Development{" "}
           <span className="text-[#F15C20] ">
-            Development Services
+             Services
           </span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-         Looking for Android app development services? It doesn’t have to be so complicated because Dignite Studios provides the best custom development services with transparency and commitment. We are a team of dedicated developers who understand quality and the market. 
+      Build quick, safe and scalable Android apps. Our skilled developers are here to assist you.  We make custom Android experiences. This covers MVPs, enterprise solutions, and AI apps. They drive engagement. They boost revenue. They help long-term business success. 
+
         </p>
 
         <Link
@@ -26,7 +27,7 @@ const Hero = () => {
           className="flex items-center group justify-center "
         >
           <button className="bg-[#F15C20] border-[#F15C20] border group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Schedule a Free Call!
+           Get Free Android App Consultation
           </button>
           <button className="bg-[#F15C20] border-[#F15C20] border group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />

@@ -512,15 +512,15 @@ The following signs will tell you If your website is underperforming:
         para="The entire website development process is divided in multiple steps that creates high performing digital experiences. Each stage of development is important and prioritized when you’re choosing the best web development company in USA."
       />
       <MetricsCarousel
-        header="Which Website Performance Metrics Business Should "
-        header2="Use?"
+        header="Key Website Performance Metrics We  "
+        header2="Improve"
         button="Get a Website Audit"
         para="Website performance can be measured by a lot of different metrics. Traffic isn’t the only way to identify your website’s performance. The understanding of these key performance indicators can identify opportunities to improve user experience through web development consulting."
         data={metricsHighlights}
       />
       <Comparison />
       <Bussiness
-        header="Which Company Should You Choose for Custom Web Development "
+        header="Why You Should Choose Dignite Studios for Custom Web Development "
         header2="Services?"
         button="Explore Our Web Experiences"
         para="Choosing the right website development company depends on experience. A good web development partner should build performance driven websites that support growth. The right company will also focus on long term support."
