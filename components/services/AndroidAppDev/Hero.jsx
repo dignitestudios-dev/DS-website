@@ -18,8 +18,7 @@ const Hero = () => {
           </span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-      Build quick, safe and scalable Android apps. Our skilled developers are here to assist you.  We make custom Android experiences. This covers MVPs, enterprise solutions, and AI apps. They drive engagement. They boost revenue. They help long-term business success. 
-
+  Build quick, safe and scalable apps with our android app development services. Our skilled developers create custom Android experiences according to your business needs.This covers MVPs, enterprise solutions, and AI apps. They drive engagement. They boost revenue. They help long-term business success. 
         </p>
 
         <Link

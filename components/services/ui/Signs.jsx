@@ -41,7 +41,7 @@ const Signs = ({ header, header2, subtitle, buttonText, items }) => {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
               key={index}
-              className="flex flex-col justify-between items-center text-center px-5 py-10 min-h-[400px] border-black/15 border-b-[0.5px] lg:[&:nth-last-child(-n+3)]:border-b-0 md:[&:nth-last-child(-n+2)]:border-b-0 lg:[&:not(:nth-child(3n))]:border-r-[0.5px] md:[&:not(:nth-child(2n))]:border-r-[0.5px]"
+              className="flex flex-col justify-start items-center text-center px-5 py-10 h-full min-h-[400px] border-black/15 border-b-[0.5px] lg:[&:nth-last-child(-n+3)]:border-b-0 md:[&:nth-last-child(-n+2)]:border-b-0 lg:[&:not(:nth-child(3n))]:border-r-[0.5px] md:[&:not(:nth-child(2n))]:border-r-[0.5px]"
             >
               {/* Icon */}
               <div className="w-[100px] h-[100px] rounded-full flex justify-center items-center mt-[30px]">
@@ -53,7 +53,7 @@ const Signs = ({ header, header2, subtitle, buttonText, items }) => {
               <div className="text-[#E5320F] uppercase font-bold tracking-wide -mt-4 text-sm">challenge</div>
 
               {/* Content */}
-              <div className="flex flex-col items-center justify-start gap-1 mt-auto mb-[20px] max-w-[373px] mx-auto">
+              <div className="flex flex-col items-center justify-start gap-1 mt-[30px] mb-[20px] max-w-[373px] mx-auto">
                 <h3 className="font-bold text-[16px] leading-[19px] text-[#0C0C0C] mb-[15px]">
                   {item.title}
                 </h3>
