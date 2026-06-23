@@ -12,10 +12,10 @@ const CTA = () => {
       
         <div className="w-full lg:w-[50%] ">
           <h2 className="text-4xl capitalize font-bold mb-4">
-           Build Your Next Android App with Experts
+           Ready to Build Your Android Application? 
           </h2>
           <p>
-    Bring your idea to Dignite Studios today and have our experts build your custom Android app. We build apps that engage users and grow your business so you stand out in the Play Store. Let our team turn your idea into a reality.
+  Have an app idea ready to bring to life? We provide Android app development services. These services help businesses make apps that are scalable, secure, and easy to use. Share your goals with our experts and get the right strategy, timeline and development plan for your project.
           </p>
           <Link
             href="/contact-us"
@@ -25,7 +25,7 @@ const CTA = () => {
               type="submit"
               className="bg-[#F15C20] border border-[#F15C20]  group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-             Launch Your Android App Today
+            Request Android App Development Quote
             </button>
             <button
               type="submit"

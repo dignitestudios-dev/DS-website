@@ -7,7 +7,7 @@ import React from "react";
 export const metadata = {
   title: "Custom Web Development Services - Top Web Solutions USA",
   description:
-    "Get web design and development services and custom web development services to build scalable and conversion-focused websites that drive business growth.",
+    "Get custom web development services to build and design scalable and conversion-focused websites that bring your business growth from Dignite Studios.",
   alternates: {
     canonical: "https://www.dignitestudios.com/services/web-design-services",
   },

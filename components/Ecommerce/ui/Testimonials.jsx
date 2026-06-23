@@ -242,7 +242,7 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                             {item.review.length > 140 ? (
                               <>
                                 {item.review.substring(0, 140).trim()}...<span className="font-semibold hover:text-orange-500 hover:underline">
-                                  More
+                                  Read More
                                 </span>
                               </>
                             ) : (
