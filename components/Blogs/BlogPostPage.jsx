@@ -613,27 +613,24 @@ export default function BlogPostPage({ post, related = [] }) {
               {/* ── MAIN CONTENT ── */}
               <div className="w-full lg:max-w-[761px]">
                 {heroImage ? (
-                  <div className="relative overflow-hidden rounded-[12px] fade-up aspect-video">
-                    <img
-                      src={heroImage}
-                      alt={post.title}
-                      className="inset-0 w-full h-full object-cover"
-                      style={{ objectPosition: 'center' }}
-                    />
-                    <div className="absolute  inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                    <div className="absolute backdrop-blur-sm inset-x-0 bottom-0 p-5 md:p-8 lg:p-10">
-                      <div className="max-w-4xl">
-                        {categories[0] && (
-                          <span className="mb-4 inline-flex items-center gap-1 rounded-full bg-white/95 px-1 py-1 font-normal text-orange-500 shadow-lg text-xs capitalize tracking-wider">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <circle cx="8" cy="8" r="8" fill="#F15C20" />
-                            </svg>
-                            {categories[0].name}
-                          </span>
-                        )}
-                        <h1 className="text-2xl md:text-[27px] font-bold leading-tight text-white mb-4">
-                          {post.title}
-                        </h1>
+                  <div className="fade-up pt-2">
+                    {/* {categories[0] && (
+                      <span className="inline-block bg-orange-50 text-orange-500 border border-orange-200 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">
+                        {categories[0].name}
+                      </span>
+                    )} */}
+                    <h1 className="text-xl md:text-3xl font-extrabold text-gray-900 leading-tight mb-6">
+                      {post.title}
+                    </h1>
+                    <div className="relative overflow-hidden rounded-[12px] aspect-video">
+                      <img
+                        src={heroImage}
+                        alt={post.title}
+                        className="inset-0 w-full h-full object-cover"
+                        style={{ objectPosition: 'center' }}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                      <div className="absolute inset-x-0 bottom-0 p-5 md:p-8 lg:p-10">
                         <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-normal text-white">
                           <span>{formatDate(post.date)}</span>
                           <span className=""><GoDotFill /></span>
