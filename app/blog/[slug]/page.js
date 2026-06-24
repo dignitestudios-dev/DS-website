@@ -5,6 +5,8 @@ import BlogPostPage from "@/components/Blogs/BlogPostPage";
 import { notFound } from "next/navigation";
 import Script from "next/script";
 
+export const revalidate = 900;
+
 // Function to extract first paragraph from HTML content
 function extractFirstParagraph(html = '') {
   const textContent = html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
@@ -24,9 +26,9 @@ function mapToComponentPost(blog) {
     readTime: blog.readTime || 3,
     image: blog.featuredImage?.url || '/default-blog-image.jpg',
     slug: blog.slug,
-    author: { 
-      name: blog.author?.name || 'Dignite Studios', 
-      avatar_URL: blog.author?.avatar 
+    author: {
+      name: blog.author?.name || 'Dignite Studios',
+      avatar_URL: blog.author?.avatar
     },
     categories: blog.categories?.map(c => ({ name: c })) || [],
     tags: [],
@@ -37,19 +39,19 @@ function mapToComponentPost(blog) {
 async function getBlogPostAndRelated(slug) {
   try {
     await connectToDatabase();
-    
+
     // Fetch current post
     const blog = await BlogPost.findOne({ slug, status: 'published' }).lean();
     if (!blog) return { post: null, related: [] };
-    
+
     // Fetch related posts (latest 3 excluding current)
-    const relatedBlogs = await BlogPost.find({ 
-      slug: { $ne: slug }, 
-      status: 'published' 
+    const relatedBlogs = await BlogPost.find({
+      slug: { $ne: slug },
+      status: 'published'
     })
-    .sort({ publishedAt: -1, createdAt: -1 })
-    .limit(3)
-    .lean();
+      .sort({ publishedAt: -1, createdAt: -1 })
+      .limit(3)
+      .lean();
 
     return {
       post: mapToComponentPost(blog),
@@ -65,13 +67,13 @@ async function getBlogPostAndRelated(slug) {
 
 export async function generateMetadata({ params }) {
   const { post, seoData, rawBlog } = await getBlogPostAndRelated(params.slug);
-  
+
   if (!post) {
     return { title: 'Blog Not Found | Dignite Studios' };
   }
 
   const url = `https://www.dignitestudios.com/blog/${post.slug}`;
-  
+
   return {
     title: seoData.seoTitle || post.title,
     description: seoData.metaDescription || post.excerpt,
