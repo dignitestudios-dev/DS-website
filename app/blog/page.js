@@ -3,6 +3,8 @@ import connectToDatabase from "@/lib/mongoose";
 import BlogPost from "@/models/BlogPost";
 import BlogsArchive from "@/components/Blogs/BlogsArchive";
 
+export const revalidate = 900;
+
 export const metadata = {
   title: "Blog | Dignite Studios",
   description: "Read the latest insights, tutorials, and news about mobile app development, web development, and digital design from Dignite Studios experts.",
@@ -26,7 +28,7 @@ async function getBlogs() {
     const blogs = await BlogPost.find({ status: 'published' })
       .sort({ publishedAt: -1, createdAt: -1 })
       .lean();
-    
+
     return blogs.map(blog => ({
       ID: blog._id.toString(),
       title: blog.title,
@@ -36,9 +38,9 @@ async function getBlogs() {
       readTime: blog.readTime ? `${blog.readTime} Min Read` : '3 Min Read',
       image: blog.featuredImage?.url || '/default-blog-image.jpg',
       slug: blog.slug,
-      author: { 
-        name: blog.author?.name || 'Dignite Studios', 
-        avatar_URL: blog.author?.avatar 
+      author: {
+        name: blog.author?.name || 'Dignite Studios',
+        avatar_URL: blog.author?.avatar
       },
       categories: blog.categories?.map(c => ({ name: c })) || [],
       tags: [],
@@ -54,8 +56,8 @@ export default async function BlogPage() {
   const initialPosts = await getBlogs();
 
   return (
-    <GlobalLayout 
-      page={<BlogsArchive initialPosts={initialPosts} />} 
+    <GlobalLayout
+      page={<BlogsArchive initialPosts={initialPosts} />}
     />
   );
 }
