@@ -1,6 +1,7 @@
 import GlobalLayout from "@/layout/GlobalLayout";
 import LazyLoader from "@/components/global/LazyLoader";
 import ServicesLayout from "@/layout/ServiceLayout";
+import Script from "next/script";
 import React, { lazy, Suspense } from "react";
 
 const MobileAppConsultation = lazy(() => import("@/components/services/MobileAppConsultation/MobileAppConsultation"));
@@ -17,7 +18,7 @@ export const metadata = {
 const page = () => {
   return (
     <div>
-      <script
+      <Script
         id="service-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -40,7 +41,7 @@ const page = () => {
           })
         }}
       />
-      <script
+      <Script
         id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -70,7 +71,7 @@ const page = () => {
           })
         }}
       />
-      <script
+      <Script
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
