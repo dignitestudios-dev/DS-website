@@ -124,7 +124,7 @@ export default async function SingleBlogRoute({ params }) {
         <Script
           id="blog-jsonld"
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: seoData.jsonLd }}
+          dangerouslySetInnerHTML={{ __html: typeof seoData.jsonLd === 'string' ? seoData.jsonLd : JSON.stringify(seoData.jsonLd) }}
         />
       )}
       <BlogPostPage post={post} related={related} />
