@@ -548,7 +548,8 @@ export default function BlogPostPage({ post, related = [] }) {
     if (!post) return;
 
     const handleScroll = () => {
-      const headingEls = Array.from(contentRef.current?.querySelectorAll('h2[id]') || []);
+      // Query the live document directly to avoid any detached DOM node issues
+      const headingEls = Array.from(document.querySelectorAll('.blog-content h2[id]'));
       if (!headingEls.length) return;
 
       const offset = window.innerHeight * 0.4;
@@ -556,7 +557,8 @@ export default function BlogPostPage({ post, related = [] }) {
 
       for (const el of headingEls) {
         const rect = el.getBoundingClientRect();
-        if (rect.top <= offset) {
+        // Only consider elements that are actually rendered and visible
+        if (rect.height > 0 && rect.top <= offset) {
           activeHeading = el.id;
         }
       }
@@ -567,7 +569,8 @@ export default function BlogPostPage({ post, related = [] }) {
     };
 
     document.addEventListener('scroll', handleScroll, { passive: true, capture: true });
-    handleScroll();
+    // Initialize
+    setTimeout(handleScroll, 100);
 
     return () => {
       document.removeEventListener('scroll', handleScroll, { capture: true });
@@ -583,7 +586,6 @@ export default function BlogPostPage({ post, related = [] }) {
   const headings = useMemo(() => extractHeadings(contentWithoutHeroImage), [contentWithoutHeroImage]);
   const processedContent = useMemo(() => injectHeadingIds(contentWithoutHeroImage), [contentWithoutHeroImage]);
   const readMin = post.readTime || readingTime(post.content);
-
   return (
     <>
       <style>{`
@@ -593,8 +595,11 @@ export default function BlogPostPage({ post, related = [] }) {
         .blog-content { color: #1a1a1a; max-width: 761px; }
         .blog-content h2 { font-size: 1.6875rem; font-weight: 700; margin: 2rem 0 1rem; line-height: 2.0625rem; color: #1F222E; scroll-margin-top: 130px; }
         .blog-content h3 { font-size: 1.125rem; font-weight: 700; margin: 1.5rem 0 0.75rem; line-height: 1.75rem; color: #222; }
+        .blog-content ul { list-style-type: disc; margin: 1rem 0 1rem 1.5rem; padding-left: 1rem; }
+        .blog-content ol { list-style-type: decimal; margin: 1rem 0 1rem 1.5rem; padding-left: 1rem; }
+        .blog-content li { margin-bottom: 0.5rem; font-size: 18px; color: #1F222E; line-height: 150%; }
         .blog-content p {
-          margin: 0 0 0rem;
+          margin: 0 0 1rem 0;
           width: 100%;
           max-width: 761px;
           height: auto;
