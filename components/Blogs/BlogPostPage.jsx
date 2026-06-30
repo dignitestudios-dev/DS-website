@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { GoDotFill } from 'react-icons/go';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 import { Inter } from 'next/font/google';
 
 const interFont = Inter({
@@ -40,7 +41,8 @@ function extractHeadings(html = '') {
 function injectHeadingIds(html = '') {
   let idx = 0;
   return html.replace(/<h2([^>]*)>/gi, (_m, attrs) => {
-    return `<h2${attrs} id="heading-${idx++}">`;
+    const cleanedAttrs = attrs.replace(/\s+id=['"][^'"]*['"]/gi, '');
+    return `<h2${cleanedAttrs} id="heading-${idx++}">`;
   });
 }
 
@@ -58,30 +60,76 @@ function Breadcrumb({ title }) {
 }
 
 function TableOfContents({ headings, activeId }) {
-  if (!headings.length) return null;
+  const tocRef = useRef(null);
+
+  useEffect(() => {
+    if (!activeId || !tocRef.current) return;
+    const activeEl = tocRef.current.querySelector(`a[href="#${activeId}"]`);
+    if (activeEl) {
+      activeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }, [activeId]);
+
   return (
-    <div className="max-h-[calc(100vh-7rem)] sticky top-24 overflow-y-auto">
-      <div className="fade-up bg-white rounded-2xl p-6  border-gray-100">
-        <p className="mb-6 text-[20px] font-medium leading-none text-black">
-          In this article
-        </p>
-        <div className="space-y-2">
-          {headings.map((h) => (
-            <a
-              key={h.id}
-              href={`#${h.id}`}
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById(h.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-              }}
-              className={`group block border-l-4 py-2 pl-5 text-[16px] font-medium leading-[1.25] transition-all duration-200 ${activeId === h.id
-                ? 'border-[#F15C20] text-[#F15C20]'
-                : 'border-transparent text-black/35 hover:border-orange-300 hover:text-black/70'
-                }`}
-            >
-              <span className="block">{h.text}</span>
-            </a>
-          ))}
+    <div className="max-h-[calc(100vh-0rem)] sticky top-0 flex flex-col">
+      {headings.length > 0 && (
+        <div className="fade-up bg-white rounded-2xl p-6 border-gray-100 flex flex-col min-h-0 ">
+          <p className="mb-6 text-[20px] font-medium leading-none text-black shrink-0">
+            In this article
+          </p>
+          <div ref={tocRef} className="space-y-2 overflow-y-auto hide-scrollbar min-h-0 relative">
+            {headings.map((h) => {
+              const isActive = activeId === h.id;
+              return (
+                <a
+                  key={h.id}
+                  href={`#${h.id}`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById(h.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  }}
+                  className={`group relative block py-2 pl-4 text-[16px] leading-[1.25] transition-all duration-200 z-10 ${isActive
+                    ? 'text-[#F15C20] font-medium'
+                    : 'text-black/50 hover:text-black/80 font-normal'
+                    }`}
+                >
+                  {isActive && (
+                    <motion.div
+                      layoutId="active-toc-pill"
+                      className="absolute inset-0  border-l-2 border-[#F15C20] -z-10"
+                      initial={false}
+                      transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                    />
+                  )}
+                  {!isActive && (
+                    <div className="absolute inset-0 border-l-2 border-transparent group-hover:border-orange-300 transition-colors -z-10" />
+                  )}
+                  <span className="block relative z-10">{h.text}</span>
+                </a>
+              )
+            })}
+          </div>
+        </div>
+      )}
+
+      <div className="flex flex-col m-6 border border-black/10 rounded-[10px] overflow-hidden fade-up shrink-0">
+        <div className="bg-[#F15C20] py-5 px-4 flex items-center">
+          <h3 className="text-white font-semibold text-[18px] leading-[22px]">
+            Subscribe to our newsletter
+          </h3>
+        </div>
+        <div className="bg-white py-5 px-4 flex flex-col gap-5">
+          <input
+            type="email"
+            placeholder="Email"
+            className="w-full bg-black/5 rounded-lg p-3 text-[16px] leading-[19px] text-[#0C0C0C] outline-none placeholder:text-[#0C0C0C] placeholder:opacity-80 font-light"
+          />
+          <p className="text-[15px] leading-[18px] text-[#0C0C0C]">
+            Get the latest update, blogs and news delivered to your inbox.
+          </p>
+          <button className="w-full bg-[#F15C20] hover:bg-[#d9521c] transition-colors text-white font-semibold text-[16px] leading-[19px] py-[15px] px-[10px] rounded-[12px]">
+            Subscribe Now
+          </button>
         </div>
       </div>
     </div>
@@ -498,45 +546,26 @@ export default function BlogPostPage({ post, related = [] }) {
 
   useEffect(() => {
     if (!post) return;
-    const headingEls = contentRef.current?.querySelectorAll('h2[id]') || [];
-    if (!headingEls.length) return;
 
     const handleScroll = () => {
-      const offset = window.innerHeight * 0.4; // 40% of screen height
-      let activeHeading = '';
+      const headingEls = Array.from(contentRef.current?.querySelectorAll('h2[id]') || []);
+      if (!headingEls.length) return;
 
-      // Step-by-step math-based highlighting (Flawless for both scroll down and up)
+      const offset = window.innerHeight * 0.4;
+      let activeHeading = headingEls[0]?.id;
+
       for (const el of headingEls) {
         const rect = el.getBoundingClientRect();
         if (rect.top <= offset) {
           activeHeading = el.id;
-        } else {
-          break;
         }
       }
 
-      // Default to first heading if none crossed the line
-      if (!activeHeading && headingEls[0]) {
-        activeHeading = headingEls[0].id;
+      if (activeHeading) {
+        setActiveId(activeHeading);
       }
-
-      // Safe absolute bottom detection to highlight the last heading
-      const scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
-      const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-      const documentHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
-
-      // Ensure we are truly scrolling the main document (avoiding nested scroll bugs)
-      if (documentHeight > windowHeight * 1.2) {
-        const isAtBottom = Math.ceil(scrollPosition + windowHeight) >= documentHeight - 50;
-        if (isAtBottom && headingEls.length > 0) {
-          activeHeading = headingEls[headingEls.length - 1].id;
-        }
-      }
-
-      setActiveId(activeHeading);
     };
 
-    // Use capture: true to ensure we catch scroll events globally
     document.addEventListener('scroll', handleScroll, { passive: true, capture: true });
     handleScroll();
 
@@ -551,8 +580,8 @@ export default function BlogPostPage({ post, related = [] }) {
   const tags = Object.values(post.tags || {});
   const heroImage = post.image;
   const contentWithoutHeroImage = post.content;
-  const headings = extractHeadings(contentWithoutHeroImage);
-  const processedContent = injectHeadingIds(contentWithoutHeroImage);
+  const headings = useMemo(() => extractHeadings(contentWithoutHeroImage), [contentWithoutHeroImage]);
+  const processedContent = useMemo(() => injectHeadingIds(contentWithoutHeroImage), [contentWithoutHeroImage]);
   const readMin = post.readTime || readingTime(post.content);
 
   return (
@@ -590,6 +619,8 @@ export default function BlogPostPage({ post, related = [] }) {
         .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
         .fade-up { animation: fadeUp 0.5s ease forwards; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
       `}</style>
 
       <main className="min-h-screen bg-[#fafafa] pb-24 w-[1200px] mx-auto">
