@@ -5,6 +5,14 @@ import Script from "next/script";
 import DisplayIp from "@/components/global/DisplayIp";
 import AOSInit from "@/components/global/AosInit";
 
+export const metadata = {
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+};
+
 const inter = Inter({ 
   subsets: ["latin"], 
   display: "swap",
@@ -20,6 +28,8 @@ export default function RootLayout({ children }) {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
