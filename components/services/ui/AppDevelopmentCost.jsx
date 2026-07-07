@@ -40,9 +40,22 @@ const CARD_TWO_DATA = [
   "React Native Development",
 ];
 
-const AppDevelopmentCost = () => {
+const AppDevelopmentCost = ({
+  header = "How Much Does Android App ",
+  header2 = "Development Cost?",
+  para = "The cost of building an android application depends on features, complexity, integrations, security needs, design requirements and long term support. Understanding such factors helps businesses plan better development investments.",
+  tableData = TABLE_DATA,
+  cardOneTitle = "Factors Affecting Development Costs",
+  cardOneDesc = "Android app development costs change based on project requirements, feature complexity, third party integrations, backend systems, security standards, automation needs and ongoing maintenance requirements.",
+  cardOneItems = CARD_ONE_DATA,
+  cardTwoTitle = "Native Vs Cross Platform Considerations",
+  cardTwoDesc = "The development approach affects budget, timeline, maintenance and scalability. Native solutions provide strong platform performance, while cross platform frameworks which help to reduce costs through shared code and faster delivery.",
+  cardTwoItems = CARD_TWO_DATA,
+  ctaText = "",
+  ctaLink = "/contact-us"
+}) => {
   return (
-    <section className="w-full bg-[#FFFFFF]  px-4 md:px-[80px] flex flex-col items-center justify-center">
+    <section className="w-full bg-[#FFFFFF] px-4 md:px-[80px] flex flex-col items-center justify-center">
       <div className="w-full max-w-[1280px] flex flex-col items-center gap-[50px]">
         
         {/* Header Section */}
@@ -53,7 +66,7 @@ const AppDevelopmentCost = () => {
             viewport={{ once: true }}
             className="font-bold text-[40px] md:text-[72px] leading-[105%] tracking-[-0.04em] text-[#1F222E]"
           >
-            How Much Does Android App <span className="text-[#F15C20]" >Development Cost?</span> 
+            {header} <span className="text-[#F15C20]" >{header2}</span> 
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -62,7 +75,7 @@ const AppDevelopmentCost = () => {
             transition={{ delay: 0.1 }}
             className="font-light text-[16px] leading-[136%] tracking-[-0.014em] text-[#0C0C0C] max-w-[898px]"
           >
-            The cost of building an android application depends on features, complexity, integrations, security needs, design requirements and long term support. Understanding such factors helps businesses plan better development investments.
+            {para}
           </motion.p>
         </div>
 
@@ -77,7 +90,7 @@ const AppDevelopmentCost = () => {
               </h3>
             </div>
             <div className="w-full flex flex-col mt-[10px]">
-              {TABLE_DATA.projectType.map((item, index) => (
+              {tableData.projectType.map((item, index) => (
                 <div key={index} className="w-full h-[66px] py-[15px] flex flex-row items-center gap-[15px] border-b border-[#0C0C0C]/5 last:border-none">
                   <div className="w-[36px] h-[36px] rounded-full bg-[#F9F9F9] flex items-center justify-center shrink-0">
                     <div className="w-[20px] h-[20px] rounded-full border-[1.5px] border-[#68D585] flex items-center justify-center">
@@ -100,7 +113,7 @@ const AppDevelopmentCost = () => {
               </h3>
             </div>
             <div className="w-full flex flex-col mt-[10px]">
-              {TABLE_DATA.timeline.map((item, index) => (
+              {tableData.timeline.map((item, index) => (
                 <div key={index} className="w-full h-[66px] py-[15px] flex flex-row items-center gap-[15px] border-b border-[#0C0C0C]/5 last:border-none">
                   <div className="w-[36px] h-[36px] rounded-full bg-[#F9F9F9] flex items-center justify-center shrink-0">
                     <div className="w-[20px] h-[20px] rounded-full border-[1.5px] border-[#68D585] flex items-center justify-center">
@@ -123,7 +136,7 @@ const AppDevelopmentCost = () => {
               </h3>
             </div>
             <div className="w-full flex flex-col mt-[10px]">
-              {TABLE_DATA.complexity.map((item, index) => (
+              {tableData.complexity.map((item, index) => (
                 <div key={index} className="w-full h-[66px] py-[15px] flex flex-row items-center gap-[15px] border-b border-[#0C0C0C]/5 last:border-none">
                   <div className="w-[36px] h-[36px] rounded-full bg-[#F9F9F9] flex items-center justify-center shrink-0">
                     <div className="w-[20px] h-[20px] rounded-full border-[1.5px] border-[#68D585] flex items-center justify-center">
@@ -150,8 +163,6 @@ const AppDevelopmentCost = () => {
             viewport={{ once: true }}
             className="flex-1 rounded-[16px] bg-[url('/services/android-app/bg.webp')] bg-cover bg-center bg-no-repeat p-[30px_20px] md:p-[50px_40px] flex flex-col gap-[40px] relative overflow-hidden isolate"
           >
-            {/* Orange Glow */}
-         
             {/* Background Rectangles */}
             <div className="absolute inset-0 flex flex-row items-center z-[1] pointer-events-none">
               {[...Array(8)].map((_, i) => (
@@ -161,15 +172,15 @@ const AppDevelopmentCost = () => {
 
             <div className="flex flex-col gap-[20px] z-10 relative">
               <h3 className="font-bold text-[24px] leading-[108%] text-white">
-                Factors Affecting Development Costs
+                {cardOneTitle}
               </h3>
               <p className="font-normal text-[16px] leading-[136%] tracking-[-0.014em] text-white/90">
-                Android app development costs change based on project requirements, feature complexity, third party integrations, backend systems, security standards, automation needs and ongoing maintenance requirements.
+                {cardOneDesc}
               </p>
             </div>
 
             <div className="flex flex-col gap-[20px]">
-              {CARD_ONE_DATA.map((item, index) => (
+              {cardOneItems.map((item, index) => (
                 <div key={index} className="flex flex-row items-center gap-[15px]">
                   <FaStar className="text-white text-[18px] shrink-0" />
                   <span className="font-bold text-[16px] leading-[144%] text-white">
@@ -188,8 +199,6 @@ const AppDevelopmentCost = () => {
             transition={{ delay: 0.2 }}
             className="flex-1 rounded-[16px] bg-[url('/services/android-app/bg.webp')] bg-cover bg-center bg-no-repeat p-[30px_20px] md:p-[50px_40px] flex flex-col gap-[40px] relative overflow-hidden isolate"
           >
-            {/* Orange Glow */}
-            {/* <div className="absolute right-[-26px] top-[225px] w-[317px] h-[317px] bg-[#F15C20] blur-[50px] rounded-[2px] z-0 opacity-80"></div> */}
             {/* Background Rectangles */}
             <div className="absolute inset-0 flex flex-row items-center z-[1] pointer-events-none">
               {[...Array(8)].map((_, i) => (
@@ -199,15 +208,15 @@ const AppDevelopmentCost = () => {
 
             <div className="flex flex-col gap-[20px] z-10 relative">
               <h3 className="font-bold text-[24px] leading-[108%] text-white">
-                Native Vs Cross Platform Considerations
+                {cardTwoTitle}
               </h3>
               <p className="font-normal text-[16px] leading-[136%] tracking-[-0.014em] text-white/90">
-                The development approach affects budget, timeline, maintenance and scalability. Native solutions provide strong platform performance, while cross platform frameworks which help to reduce costs through shared code and faster delivery.
+                {cardTwoDesc}
               </p>
             </div>
 
             <div className="flex flex-col gap-[20px]">
-              {CARD_TWO_DATA.map((item, index) => (
+              {cardTwoItems.map((item, index) => (
                 <div key={index} className="flex flex-row items-center gap-[15px]">
                   <FaStar className="text-white text-[18px] shrink-0" />
                   <span className="font-bold text-[16px] leading-[144%] text-white">
@@ -219,6 +228,22 @@ const AppDevelopmentCost = () => {
           </motion.div>
 
         </div>
+
+        {ctaText && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-4"
+          >
+            <a
+              href={ctaLink}
+              className="inline-flex items-center justify-center bg-[#F15C20] hover:bg-[#d84a16] text-white font-semibold text-[16px] px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
+            >
+              {ctaText}
+            </a>
+          </motion.div>
+        )}
 
       </div>
     </section>

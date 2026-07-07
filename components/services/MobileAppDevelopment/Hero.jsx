@@ -12,18 +12,13 @@ const Hero = () => {
     <div className="w-full grid grid-cols-1  justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          Leading Mobile App{" "}
+         Mobile App Development  {" "}
           <span className="text-[#F15C20] ">
-            Development Company
+            Services
           </span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-          Finding the best mobile app development company can be time-consuming,
-          but it doesn’t have to be. We provide different services in the
-          category of mobile app development with commitment. We are a team of
-          dedicated app developers that understands quality and the market. If
-          you plan to develop apps in the future, Dignite Studios is the right
-          choice.
+         Build scalable and secure mobile apps with our mobile app development services. Our experts create the most high performing solutions through the modern features, smooth performance and the reliable experiences for startups and enterprises. 
         </p>
 
         <Link
@@ -31,7 +26,7 @@ const Hero = () => {
           className="flex items-center group justify-center "
         >
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-            Talk to the Team
+      Get Free Mobile App Consultation.
           </button>
           <button className="bg-[#F15C20] group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />

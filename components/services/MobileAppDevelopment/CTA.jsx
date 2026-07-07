@@ -22,10 +22,10 @@ const CTA = () => {
         </div>
         <div className="w-full lg:w-[60%] ">
           <h2 className="text-4xl capitalize font-bold mb-4">
-            Make Your App the Next Highlight
+           Ready To Build Your Mobile Application?
           </h2>
           <p>
-          Loved what you saw in our case studies? Imagine what we could build for your idea! We take concepts just like yours and turn them into mobile apps that users enjoy, businesses trust, and that actually make an impact.
+      Turn your app idea into a powerful digital product with Dignite Studios. Our mobile app development company creates secure, scalable and user friendly solutions that support startups and enterprises. 
           </p>
           <Link
             href="/contact-us"
@@ -35,7 +35,7 @@ const CTA = () => {
               type="submit"
               className="bg-[#F15C20] border border-[#F15C20]  group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
             >
-            Start Your App Journey Today
+           Request Mobile App Development Quote  
             </button>
             <button
               type="submit"
