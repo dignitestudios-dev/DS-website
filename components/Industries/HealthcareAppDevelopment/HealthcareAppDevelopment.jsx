@@ -519,7 +519,7 @@ const HealthcareAppDevelopment = () => {
         button={""}
         para={
           <>
-            Having an experience of 10+ years in different industries and niches, we assure you that the healthcare app solutions we provide through <Link href="/services/healthcare-app-development-services" className="text-[#F15C20]">Healthcare Mobile App Development Services</Link> work for a variety of business models. We can work for anyone, whether it’s a clinic or a hospital. The healthcare apps we create are built to meet the unique needs of each niche.
+            Having an experience of 10+ years in different industries and niches, we assure you that the healthcare app solutions we provide through <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">Healthcare Mobile App Development Services</Link> work for a variety of business models. We can work for anyone, whether it’s a clinic or a hospital. The healthcare apps we create are built to meet the unique needs of each niche.
           </>
         }
         header={"Healthcare Mobile App Development Company For Different"}
