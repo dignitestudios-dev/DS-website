@@ -149,7 +149,7 @@ const MobileAppDevSectionAccordion = () => {
               ingenious iOS app developers leverage in crafting tailored
               high-quality{" "}
               <Link
-                href={"/services/ios-app-design-services"}
+                href={"/services/ios-app-development"}
                 className="text-orange-600"
               >
                 iOS mobile app design services

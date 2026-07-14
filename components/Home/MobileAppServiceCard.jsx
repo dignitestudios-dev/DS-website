@@ -294,7 +294,7 @@ const MobileAppServiceCard = () => {
     <>
       Our{" "}
       <Link
-        href={"/services/ios-app-design-services"}
+        href={"/services/ios-app-development"}
         className="text-orange-600"
       >
         iOS App design services
@@ -340,7 +340,7 @@ const MobileAppServiceCard = () => {
       design guidelines, shadow effects, bold colors, and unique layouts for
       your application. Also, our team of{" "}
       <Link
-        href={"/services/android-mobile-app-design-services"}
+        href={"/services/android-app-development"}
         className="text-orange-600"
       >
         Android app design services

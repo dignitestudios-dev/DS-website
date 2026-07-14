@@ -53,7 +53,7 @@ const services = [
           Android app development
         </Link>{" "}
         using Kotlin and Java. When we offer our <Link href="/services/android-app-development-services" className="text-[#F15C20] underline">Android app development
-        service</Link>, we make sure your app runs smoothly across Pixel, Samsung, and
+          service</Link>, we make sure your app runs smoothly across Pixel, Samsung, and
         OnePlus. The app would be free of weird bugs.
       </>
     ),
@@ -129,14 +129,14 @@ const services = [
         </Link>
         , including{" "}
         <Link
-          href="https://www.dignitestudios.com/services/ios-app-design-services"
+          href="https://www.dignitestudios.com/services/ios-app-development"
           className="underline "
         >
           iOS app design services
         </Link>{" "}
         and{" "}
         <Link
-          href="/services/android-mobile-app-design-services"
+          href="/services/android-app-development"
           className="underline "
         >
           Android app design services
@@ -465,7 +465,7 @@ Including strategy, UI/UX design with agile development and deployment, we make 
         }
         cards={BENEFITS}
       />
-      <SuccessStories header={"When Strategy Meets "} para={"Want to know how Dignite Studios works? Check out our case studies to see actual live projects, clever solutions, and apps we’ve built that actually make life easier for startups like yours."}  header2={"Execution"}/>
+      <SuccessStories header={"When Strategy Meets "} para={"Want to know how Dignite Studios works? Check out our case studies to see actual live projects, clever solutions, and apps we’ve built that actually make life easier for startups like yours."} header2={"Execution"} />
       <CTA />
       <TechAndTools header={"Tools, Technologies & Frameworks "} para={"Do you ever wonder what exactly makes some apps feel so smooth while others look like a mess? Our mobile app development services in New York make sure yours runs smoothly, every time."} />
 

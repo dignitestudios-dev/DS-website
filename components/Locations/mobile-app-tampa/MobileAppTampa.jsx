@@ -114,14 +114,14 @@ const services = [
         </Link>
         , including{" "}
         <Link
-          href="/services/ios-app-design-services"
+          href="/services/ios-app-development"
           className="underline "
         >
           iOS app design services
         </Link>{" "}
         and{" "}
         <Link
-          href="/services/android-mobile-app-design-services"
+          href="/services/android-app-development"
           className="underline "
         >
           Android app design services

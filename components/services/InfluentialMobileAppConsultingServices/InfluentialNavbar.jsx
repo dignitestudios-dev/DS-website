@@ -211,14 +211,14 @@ const InfluentialNavbar = ({ setIsOpen }) => {
               Mobile App Design Services
             </Link>
             <Link
-              href={"/services/android-mobile-app-design-services"}
+              href={"/services/android-app-development"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Android
               App Design Services
             </Link>
             <Link
-              href={"/services/ios-app-design-services"}
+              href={"/services/ios-app-development"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
