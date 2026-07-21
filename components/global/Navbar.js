@@ -218,10 +218,10 @@ const Navbar = ({ setIsOpen }) => {
         image: "/eco-r.webp",
         items: [
           [
-              "Shopify Migration Services",
-              "/ecommerce/shopify-migration-services",
+            "Shopify Migration Services",
+            "/ecommerce/shopify-migration-services",
           ],
-      
+
         ],
       },
     ],
@@ -252,7 +252,7 @@ const Navbar = ({ setIsOpen }) => {
 
         <div
           className="w-auto mx-auto hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8"
-          style={{ color: pathname === "/" ? "#ffffff" : palette?.color }}
+          style={{ color: pathname === "/" || pathname === "/case-studies/epic-rides" ? "#ffffff" : palette?.color }}
         >
           <Link
             href="/"
@@ -269,9 +269,8 @@ const Navbar = ({ setIsOpen }) => {
               className="relative h-full flex items-center"
             >
               <button
-                className={`group text-[14px] gap-2 font-medium flex items-center bg-transparent outline-none transition-colors duration-200 h-full ${
-                  activeDropdown === item.key ? "text-[#F15C20]" : ""
-                }`}
+                className={`group text-[14px] gap-2 font-medium flex items-center bg-transparent outline-none transition-colors duration-200 h-full ${activeDropdown === item.key ? "text-[#F15C20]" : ""
+                  }`}
               >
                 <span>{item.name}</span>
                 <IoIosArrowDown
@@ -315,14 +314,13 @@ const Navbar = ({ setIsOpen }) => {
           variants={dropdownVariants}
           onMouseEnter={() => handleMouseEnter(menuItem.key)}
           onMouseLeave={handleMouseLeave}
-          className={`w-full min-h-[200px] px-20 pb-20 pt-10 z-50 hidden lg:flex gap-8 xl:gap-20 items-center absolute top-20 left-0 backdrop-blur-md shadow-xl border-t border-white/10 ${
-            pathname === "/" ? "bg-black text-white" : "bg-white text-black"
-          }`}
+          className={`w-full min-h-[200px] px-20 pb-20 pt-10 z-50 hidden lg:flex gap-8 xl:gap-20 items-center absolute top-20 left-0 backdrop-blur-md shadow-xl border-t border-white/10 ${pathname === "/" ? "bg-black text-white" : "bg-white text-black"
+            }`}
         >
           <div className="flex-1">
             <div className="flex items-center gap-20">
               <span className="text-xl text-[#F15C20] gap-1 font-bold mb-6 flex items-center capitalize">
-                {menuItem.name} 
+                {menuItem.name}
                 <svg width="10" height="12" viewBox="0 0 10 12" fill="none">
                   <path d="M9.30451 0L0 11.4938H9.30451V0Z" fill="#F15C20" />
                 </svg>

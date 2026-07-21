@@ -613,7 +613,7 @@ const MobileAppDevelopment = () => {
         heading2={"Company"}
         para={
           <>
-            With more than ten years of experience. Dignite Studios creates reliable solutions for the different industries. As the trusted<Link href="/services/mobile-app-development" className="text-[#F15C20]">mobile app development company</Link>.We also help many companies that build apps which match their goals accordingly.
+            With more than ten years of experience. Dignite Studios creates reliable solutions for the different industries. As the trusted <Link href="/services/mobile-app-development" className="text-[#F15C20]">mobile app development company</Link>. We also help many companies that build apps which match their goals accordingly.
             Our experts handle the complete process, from planning and design to development, testing and launch. We also focus on secure coding, smooth user experience and scalable solutions. With the clear communication and the ongoing support, we also deliver successful MVPs and enterprise apps.
 
           </>
