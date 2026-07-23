@@ -1,0 +1,112 @@
+"use client";
+import React, { useRef } from "react";
+import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
+import { motion } from "framer-motion";
+
+const wireframes = [
+  { id: 1, image: "/neighbor/w1.webp", alt: "Wireframe 1" },
+  { id: 2, image: "/neighbor/w2.webp", alt: "Wireframe 2" },
+  { id: 3, image: "/neighbor/w3.webp", alt: "Wireframe 3" },
+  { id: 4, image: "/neighbor/w4.webp", alt: "Wireframe 4" },
+  { id: 5, image: "/neighbor/w5.webp", alt: "Wireframe 5" },
+  { id: 6, image: "/neighbor/w6.webp", alt: "Wireframe 6" },
+  { id: 7, image: "/neighbor/w7.webp", alt: "Wireframe 7" },
+];
+
+const Wireframe = () => {
+  const scrollRef = useRef(null);
+
+  const scrollLeft = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: -268, behavior: 'smooth' }); // 248 width + 20 gap roughly
+    }
+  };
+
+  const scrollRight = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: 268, behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <section className="w-full relative bg-[#FAFAFA] py-24 flex flex-col items-center">
+      <div className="w-full flex flex-col items-center gap-[60px]">
+        
+        {/* Heading */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="max-w-[1280px] w-full px-6 flex flex-col items-center gap-[20px]"
+        >
+          <h2 className="w-full text-center text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] capitalize tracking-tight">
+            Wireframes & Information Architecture
+          </h2>
+          <p className="max-w-[888px] text-center text-[#0C0C0C] font-normal text-[14px] leading-[130%]">
+            Low-fidelity wireframes mapped onboarding, community creation, chat, structured assistance requests, safety check-ins, shared calendars, notifications and profile management. The information architecture prioritized accessibility, intuitive navigation and effortless interaction across every feature.
+          </p>
+        </motion.div>
+
+        {/* Carousel Container */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="w-full relative"
+        >
+          <div 
+            ref={scrollRef}
+            className="w-full flex flex-row items-center gap-[10px] overflow-x-auto snap-x snap-mandatory hide-scrollbar px-6 md:px-10 py-8"
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+          >
+            {wireframes.map((item) => (
+              <div 
+                key={item.id}
+                className="flex-shrink-0 w-[248px] h-[414px] bg-[#65CB11]/5 rounded-[16px] flex items-center justify-center snap-center px-4"
+              >
+                <div 
+                  className="w-[160px] h-[346px] flex items-center justify-center overflow-hidden transition-transform duration-300" 
+                >
+                  <img src={item.image} alt={item.alt} className="w-full h-full object-contain" />
+                </div>
+              </div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Navigation Arrows */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="flex flex-row justify-center items-center gap-[3px]"
+        >
+          <button 
+            onClick={scrollLeft}
+            className="flex flex-row justify-center items-center w-[50px] h-[50px] bg-[#274B01] border border-white/5 backdrop-blur-[10px] rounded-[16px] text-white hover:bg-[#325200] transition-colors flex-none"
+          >
+            <HiOutlineArrowLeft size={20} />
+          </button>
+          <button 
+            onClick={scrollRight}
+            className="flex flex-row justify-center items-center w-[50px] h-[50px] bg-[#274B01] border border-white/5 backdrop-blur-[10px] rounded-[16px] text-white hover:bg-[#325200] transition-colors flex-none"
+          >
+            <HiOutlineArrowRight size={20} />
+          </button>
+        </motion.div>
+
+      </div>
+
+      <style jsx global>{`
+        .hide-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+      `}</style>
+    </section>
+  );
+};
+
+export default Wireframe;
