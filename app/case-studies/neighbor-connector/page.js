@@ -3,9 +3,9 @@ import GlobalLayout from '@/layout/GlobalLayout'
 import React from 'react'
 
 export const metadata = {
-  title: " Neighbor Connector Case Study | Dignite Studios Portfolio",
+  title: "Neighbor Connector Case Study | Dignite Studios",
   description:
-    "Explore how Dignite Studios built Neighbor Connector, a community focused mobile application designed to help neighbors build safer and more connected communities.",
+    "Discover how Dignite Studios built Neighbor Connector, a secure community platform with real-time chat, safety check-ins, event planning, and collaboration. ",
   alternates: {
     canonical: 'https://www.dignitestudios.com/case-studies/neighbor-connector',
   },
