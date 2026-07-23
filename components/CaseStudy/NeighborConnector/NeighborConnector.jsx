@@ -4,7 +4,6 @@ import Hero from './hero'
 import Workflow from './Workflow'
 import Discovery from './Discovery'
 import Challenges from './Challenges'
-import Solutions from './Solutions'
 import Wireframe from './Wireframe'
 import Brand from './Brand'
 import TechStack from './TechStack'
@@ -18,14 +17,13 @@ const poppins = Poppins({
   variable: '--font-poppins'
 })
 
-const EpicRides = () => {
+const NeighborConnector = () => {
   return (
-   <div className={`w-full flex flex-col bg-[#000B00] pb-20 ${poppins.variable} font-poppins`}>
+   <div className={`w-full flex flex-col bg-[#FFFFFF] ${poppins.variable} font-poppins`}>
     <Hero/>
     <Workflow/>
     <Discovery/>
     <Challenges/>
-    <Solutions/>
     <Wireframe/>
     <Brand/>
     <TechStack/>
@@ -36,4 +34,4 @@ const EpicRides = () => {
   )
 }
 
-export default EpicRides
+export default NeighborConnector
