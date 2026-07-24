@@ -77,7 +77,7 @@ const Challenges = () => {
   );
 
   return (
-    <section className="w-full relative bg-[#FAFAFA] py-24 flex justify-center z-10">
+    <section className="w-full relative bg-[#FAFAFA]  flex justify-center z-10">
       <div className="max-w-[1144px] w-full px-4 md:px-0 flex flex-col items-center gap-16">
         {/* Header */}
         <motion.div

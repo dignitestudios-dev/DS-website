@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const LandingPage = () => {
   return (
-    <section className="w-full relative bg-[#FAFAFA] pt-32 pb-0 flex flex-col items-center overflow-hidden">
+    <section className="w-full relative bg-[#FAFAFA]  flex flex-col items-center overflow-hidden">
       
       {/* Header */}
       <motion.div
@@ -33,11 +33,11 @@ const LandingPage = () => {
         <img 
           src="/neighbor/landing.webp" 
           alt="Landing Page Mockup" 
-          className="w-full h-auto object-cover rounded-t-[20px] "
+          className="w-full h-auto object-cover scale-[2] lg:scale-100 mt-10 lg:-mt-24  -mb-12 lg:-mb-96  rounded-t-[20px] "
         />
 
         {/* Bottom Blur Effect */}
-        <div className="absolute bottom-[-20px] md:bottom-[-60px] left-[-10%] w-[120%] h-[100px] md:h-[200px] bg-[#FAFAFA] blur-[40px] pointer-events-none z-20"></div>
+        <div className="absolute bottom-[-20px] md:bottom-[-60px] left-[-10%] w-[120%] h-[50px] md:h-[200px] bg-[#FAFAFA] blur-[40px] pointer-events-none z-20"></div>
       </motion.div>
 
     </section>

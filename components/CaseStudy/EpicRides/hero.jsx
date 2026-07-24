@@ -1,10 +1,15 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 const Hero = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const fullText = "Epic Rides is a Florida based ride hailing the platform which is created to deliver the fair, affordable and community focused transportation experience. Through specialised smartphone applications, the platform links drivers and passengers to make daily travel easier while increasing driver income. In comparison to standard ride hailing services, commuters can also save money through the integrated carpooling alternatives, drivers keep 100% of their fares and riders enjoy regulated peak pricing. The entire solution, including rider and driver apps, UI/UX design, branding and the centralized admin dashboard was created by the Dignite Studios.";
+  const previewText = "Epic Rides is a Florida based ride hailing the platform which is created to deliver the fair, affordable and community focused transportation experience. Through specialised smartphone applications, the platform links drivers and passengers to make daily travel easier while increasing driver income.";
+
   const carAnimations = [
     {
       id: 1,
@@ -75,7 +80,13 @@ const Hero = () => {
         </h1>
         
         <p className="text-white/90 text-[14px] md:text-[15px] font-medium text-center max-w-4xl mb-10 capitalize leading-relaxed px-4">
-         Epic Rides is a Florida based ride hailing the platform which is created to deliver the fair, affordable and community focused transportation experience. Through specialised smartphone applications, the platform links drivers and passengers to make daily travel easier while increasing driver income. In comparison to standard ride hailing services, commuters can also save money through the integrated carpooling alternatives, drivers keep 100% of their fares and riders enjoy regulated peak pricing. The entire solution, including rider and driver apps, UI/UX design, branding and the centralized admin dashboard was created by the Dignite Studios.  
+          {isExpanded ? fullText : previewText}
+          <button 
+            onClick={() => setIsExpanded(!isExpanded)} 
+            className="text-[#65CB11] font-bold ml-2 hover:underline focus:outline-none inline-block"
+          >
+            {isExpanded ? "See Less" : "See More..."}
+          </button>
         </p>
         
         <div className="flex flex-col sm:flex-row items-center gap-4 mb-16">
@@ -99,7 +110,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="relative flex justify-center w-[90%] md:w-[70%] max-w-[1000px]"
         >
-          <img src="/epic/mockup.webp" alt="Epic Rides Mockup" className="w-full h-auto object-contain object-bottom relative z-10" />
+          <img src="/epic/mockup.webp" alt="Epic Rides Mockup" className="w-full h-auto object-contain object-bottom relative z-10 scale-125 lg:scale-100" />
 
           {/* Render driving cars */}
           {carAnimations.map((car) => (

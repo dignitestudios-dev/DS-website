@@ -1,10 +1,14 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 const Hero = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const fullText = "Neighbor Connector is a community focused mobile application designed to help the neighbors build safer, stronger and more connected communities through the verified neighborhood circles. The platform enables trusted communication, structured help requests, community event planning and daily safety check-ins within the private groups. Features such as the real time community and daily safety check-ins through the private groups. Features such as real time community chat, shared calendars, recurring reminders, emergency notifications and organized assistance requests encourage meaningful collaboration among the residents. Dignite designed and developed the complete platform, including mobile application development UI/UX design, real-time communication features and the centralized administration dashboard. The solution creates a secure digital space where communities can stay connected, informed and supported every day.";
+  const previewText = "Neighbor Connector is a community focused mobile application designed to help the neighbors build safer, stronger and more connected communities through the verified neighborhood circles. The platform enables trusted communication, structured help requests, community event planning and daily safety check-ins within the private groups.";
   return (
     <section className="w-full relative -mt-40   z-20 bg-white overflow-hidden min-h-[120vh] flex flex-col items-center pt-32">
       {/* Background glow effects based on CSS
@@ -14,7 +18,7 @@ const Hero = () => {
       <div className="absolute w-[1440px] h-[663px] left-1/2 -translate-x-1/2 top-[-357px] bg-[#65CB11] blur-[150px] opacity-30 z-0 pointer-events-none" /> */}
 
       {/* Top Content */}
-      <div className="relative z-10 w-full flex flex-col -mb-20 lg:mb-0 items-center px-4 max-w-screen-2xl mx-auto">
+      <div className="relative z-30 w-full flex flex-col -mb-20 lg:mb-0 items-center px-4 max-w-screen-2xl mx-auto">
         {/* Logo */}
         <div className="mb-6 flex justify-center">
           <img src="/neighbor/logo.webp" alt="Neighbor Connector Logo" className="w-[184px] h-[105px] object-contain" />
@@ -25,11 +29,17 @@ const Hero = () => {
         </h1>
 
         <p className="text-[#0C0C0C] text-[12px] md:text-[18px] font-normal text-center max-w-5xl mb-10 leading-[130%] px-4 tracking-tight">
-          Neighbor Connector is a community focused mobile application designed to help the neighbors build safer, stronger and more connected communities through the verified neighborhood circles. The platform enables trusted communication, structured help requests, community event planning and daily safety check-ins within the private groups. Features such as the real time community and daily safety check-ins through the private groups. Features such as real time community chat, shared calendars, recurring reminders, emergency notifications and organized assistance requests encourage meaningful collaboration among the residents. Dignite designed and developed the complete platform, including mobile application development UI/UX design, real-time communication features and the centralized administration dashboard. The solution creates a secure digital space where communities can stay connected, informed and supported every day.
+          {isExpanded ? fullText : previewText}
+          <button 
+            onClick={() => setIsExpanded(!isExpanded)} 
+            className="text-[#65CB11] font-bold ml-2 hover:underline focus:outline-none inline-block"
+          >
+            {isExpanded ? "See Less" : "See More..."}
+          </button>
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center gap-6 mb-16">
-          <Link href="#" className="flex items-center justify-center gap-3 px-6 py-3 w-[180px] rounded-[10px] bg-[#151515] hover:scale-105 transition-transform">
+        <div className="flex  items-center   gap-2 mb-16 mx-4">
+          <Link href="https://play.google.com/store/apps/details?id=com.cts.neighbour_connector" target="_blank" className="flex items-center justify-center gap-3  py-3 w-[160px] lg:w-[180px] rounded-[10px] bg-[#151515] hover:scale-105 transition-transform">
             <FaGooglePlay className="text-white text-xl" />
             <div className="flex flex-col items-start">
               <span className="text-white/60 text-[8px] uppercase leading-none">Get it on</span>
@@ -37,7 +47,8 @@ const Hero = () => {
             </div>
           </Link>
 
-          <Link href="#" className="flex items-center justify-center gap-3 px-6 py-3 w-[180px] rounded-[10px] bg-[#151515] hover:scale-105 transition-transform">
+          <Link href="https://apps.apple.com/us/app/neighbor-connector/id6759636423"
+            target="_blank" className="flex items-center justify-center gap-3 py-3 w-[160px] lg:w-[180px] rounded-[10px] bg-[#151515] hover:scale-105 transition-transform">
             <FaApple className="text-white text-2xl" />
             <div className="flex flex-col items-start">
               <span className="text-white/60 text-[8px] uppercase leading-none">Download on the</span>
@@ -76,28 +87,28 @@ const Hero = () => {
           className="relative flex justify-center w-full   z-10"
         >
           {/* We will use a placeholder or image user provided for mockup */}
-          <img src="/neighbor/mockup.webp" alt="Neighbor Connector Mockup" className="w-full h-auto object-cover object-top relative z-10" />
+          <img src="/neighbor/mockup.webp" alt="Neighbor Connector Mockup" className="w-full h-auto object-cover object-top relative z-10 scale-150 lg:scale-100" />
         </motion.div>
       </div>
 
       {/* Bottom Info Bar */}
-      <div className="relative z-20 w-full mt-auto bg-[#274B01] border-y border-dashed border-white/50">
-        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between px-6 md:px-20 gap-8 md:gap-0">
+      <div className="relative z-20 w-full mt-auto py-4 lg:py-0 bg-[#274B01] border-y border-dashed border-white/50">
+        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between px-6 md:px-20  md:gap-0">
 
-          <div className="flex flex-col items-start justify-center flex-1 md:border-r border-dashed border-white/50 w-full md:w-auto py-8">
+          <div className="flex flex-col items-start justify-center flex-1 md:border-r border-dashed border-white/50 w-full md:w-auto py-4 lg:py-8">
             <span className="text-white text-[15px] mb-2 font-normal capitalize">The Milestones</span>
             <span className="text-white text-[16px] font-bold capitalize">6-8 Months</span>
           </div>
 
-          <div className="flex flex-col items-start justify-center flex-[1.5] md:border-r border-dashed border-white/50 w-full md:w-auto md:px-10 py-8">
+          <div className="flex flex-col items-start justify-center flex-[1.5] md:border-r border-dashed border-white/50 w-full md:w-auto md:px-10 py-4 lg:py-8">
             <span className="text-white text-[15px] mb-2 font-normal capitalize">Industry</span>
             <span className="text-white text-[16px] font-bold">Community Networking & Social Safety Platform</span>
           </div>
 
-          <div className="flex flex-col items-start justify-center flex-[2] w-full md:w-auto md:px-10 py-8">
+          <div className="flex flex-col items-start justify-center flex-[2] w-full md:w-auto md:px-10 py-4 lg:py-8">
             <span className="text-white text-[15px] mb-2 font-normal capitalize">What we did</span>
             <span className="text-white text-[16px] font-bold leading-relaxed">
-              Mobile App Development, UI/UX Design, Community Platform Development, Real Time Chat, Calendar Integration, Push Notifications, Admin Dashboard.
+              Mobile App Development, Admin Dashboard.
             </span>
           </div>
 

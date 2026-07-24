@@ -15,7 +15,7 @@ const techIcons = [
 
 const TechStack = () => {
   return (
-    <section className="w-full relative bg-[#FAFAFA] py-32 flex flex-col items-center">
+    <section className="w-full relative bg-[#FAFAFA]  flex flex-col items-center">
       <div className="max-w-[888px] w-full px-6 flex flex-col items-center gap-[50px]">
         
         {/* Header */}

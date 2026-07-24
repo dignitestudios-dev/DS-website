@@ -29,7 +29,7 @@ const FinalOutcome = () => {
   };
 
   return (
-    <section className="w-full relative bg-[#FAFAFA] py-24 flex flex-col items-center">
+    <section className="w-full relative bg-[#FAFAFA] flex flex-col items-center">
       <div className="w-full flex flex-col items-center gap-[60px]">
         
         {/* Heading */}
@@ -82,7 +82,7 @@ const FinalOutcome = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="flex flex-row justify-center items-center gap-[3px]"
+          className="flex flex-row justify-center -mt-10 items-center gap-[3px]"
         >
           <button 
             onClick={scrollLeft}

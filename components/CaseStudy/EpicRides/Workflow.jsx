@@ -77,7 +77,7 @@ const Workflow = () => {
   return (
     <section ref={containerRef} className="w-full relative bg-[#000B00] py-24 z-30">
       <img src={"/epic/w-bg.webp"} className="w-full absolute top-10" />
-      <div className="max-w-screen-xl mx-auto px-6 flex flex-col items-center">
+      <div className="max-w-screen-xl relative z-20 mx-auto px-6 flex flex-col items-center">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -86,7 +86,7 @@ const Workflow = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 max-w-[80%] mx-auto"
         >
-          <h2 className="text-white text-[32px] md:text-[44px] font-medium mb-6 capitalize leading-tight">
+          <h2 className="text-white text-[32px] md:text-[44px] font-[500] mb-6 capitalize leading-tight">
             Agile Workflow That Kept Development Moving
           </h2>
           <p className="text-white/80  text-[14px] leading-[23px]">

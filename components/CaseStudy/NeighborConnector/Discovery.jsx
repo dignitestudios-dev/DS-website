@@ -22,7 +22,7 @@ const Discovery = () => {
   ];
 
   return (
-    <section className="w-full relative bg-[#FAFAFA] pb-24 flex justify-center z-10 overflow-hidden">
+    <section className="w-full relative bg-[#FAFAFA]  flex justify-center z-10 overflow-hidden">
       {/* Background Blurs */}
       <div className="absolute right-[-10%] top-1/2 -translate-y-1/2 w-[370px] h-[466px] bg-[#A1D700] opacity-65 border border-black blur-[175px] -rotate-[117deg] pointer-events-none" />
       <div className="absolute left-[5%] bottom-[5%] w-[498px] h-[133px] bg-white blur-[22px] pointer-events-none" />
@@ -34,9 +34,9 @@ const Discovery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="w-full text-center mb-16"
+          className="w-full text-center  lg:mb-16"
         >
-          <h2 className="text-[#1F222E] text-[32px] md:text-[40px] font-bold capitalize tracking-tight">
+          <h2 className="text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight capitalize">
             Discovery & <span className="text-[#274B01]">Research</span>
           </h2>
         </motion.div>
@@ -50,7 +50,7 @@ const Discovery = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="w-full max-w-[462px] flex justify-center relative"
           >
-            <img src="/neighbor/discovery-mockup.webp" alt="Discovery Mockup" className="w-full h-auto object-contain relative z-10" />
+            <img src="/neighbor/discovery-mockup.webp" alt="Discovery Mockup" className="w-full h-auto object-contain relative z-10 lg:block hidden" />
           </motion.div>
 
           {/* Right Cards Stack */}
