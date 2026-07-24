@@ -81,12 +81,12 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row items-center gap-4 mb-16">
           <Link href="#" className="flex items-center justify-center gap-3 px-6 py-4 w-[246px] rounded-2xl border border-white/10 bg-gradient-to-b from-[#61cb081f] via-[#61cb080a] to-[#61cb0812] backdrop-blur-[42px] hover:scale-105 transition-transform">
             <FaApple className="text-white text-2xl" />
-            <span className="text-white font-medium text-[16px]">Download for Iphone</span>
+            <span className="text-white font-medium text-[14px]">Download for Iphone</span>
           </Link>
           
           <Link href="#" className="flex items-center justify-center gap-3 px-6 py-4 w-[254px] rounded-2xl border border-[#0A0A0A] bg-[#65CB11] hover:scale-105 transition-transform">
             <FaGooglePlay className="text-[#0A0A0A] text-2xl" />
-            <span className="text-[#0A0A0A] font-medium text-[16px]">Download for Android</span>
+            <span className="text-[#0A0A0A] font-medium text-[14px]">Download for Android</span>
           </Link>
         </div>
       </div>
