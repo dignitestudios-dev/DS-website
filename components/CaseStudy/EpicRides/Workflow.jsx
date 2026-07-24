@@ -11,9 +11,13 @@ const Card = ({ card, index, scrollYProgress, isDesktop }) => {
       style={{ y }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
+      whileHover={{ 
+        scale: 1.03,
+        transition: { type: "spring", stiffness: 400, damping: 10 }
+      }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.6, delay: index * 0.2 }}
-      className="w-full md:w-[310px] h-[350px] bg-[#535353]/10 backdrop-blur-[25px] rounded-2xl relative flex flex-col p-6 overflow-hidden border border-white/5"
+      className="w-full md:w-[310px] h-[350px] bg-[#535353]/10 backdrop-blur-[25px] rounded-2xl relative flex flex-col p-6 overflow-hidden border border-white/5 cursor-pointer"
     >
       <div className="absolute top-0 right-0 w-[56px] h-[56px] bg-[#65CB11] rounded-bl-2xl flex items-center justify-center">
         <span className="text-[#081208] text-[24px] font-normal">{card.id}</span>

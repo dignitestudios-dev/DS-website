@@ -7,11 +7,11 @@ import { FaApple, FaGooglePlay } from "react-icons/fa";
 const Hero = () => {
   return (
     <section className="w-full relative -mt-40   z-20 bg-white overflow-hidden min-h-[120vh] flex flex-col items-center pt-32">
-      {/* Background glow effects based on CSS */}
+      {/* Background glow effects based on CSS
       <div className="absolute w-[1440px] h-[577px] bottom-0 left-1/2 -translate-x-1/2 bg-black/5 opacity-10 blur-[15px] pointer-events-none z-0" />
       <div className="absolute w-[1440px] h-[663px] left-1/2 -translate-x-1/2 top-[-487px] bg-[#C0F765] blur-[150px] opacity-30 z-0 pointer-events-none" />
       <div className="absolute w-[1440px] h-[663px] left-1/2 -translate-x-1/2 top-[-427px] bg-[#97E954] blur-[150px] opacity-30 z-0 pointer-events-none" />
-      <div className="absolute w-[1440px] h-[663px] left-1/2 -translate-x-1/2 top-[-357px] bg-[#65CB11] blur-[150px] opacity-30 z-0 pointer-events-none" />
+      <div className="absolute w-[1440px] h-[663px] left-1/2 -translate-x-1/2 top-[-357px] bg-[#65CB11] blur-[150px] opacity-30 z-0 pointer-events-none" /> */}
 
       {/* Top Content */}
       <div className="relative z-10 w-full flex flex-col -mb-20 lg:mb-0 items-center px-4 max-w-screen-2xl mx-auto">
