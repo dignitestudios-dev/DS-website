@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Brand = () => {
   return (
-    <section className="w-full relative bg-[#FAFAFA] py-32 flex flex-col items-center overflow-hidden">
+    <section className="w-full relative bg-[#FAFAFA]  flex flex-col items-center overflow-hidden">
       <div className="max-w-[1200px] w-full px-6 flex flex-col items-center gap-[80px]">
         
         {/* Header */}
@@ -54,9 +54,9 @@ const Brand = () => {
           </motion.div>
 
           {/* Right: Color Stack */}
-          <div className="relative w-full max-w-[585px] h-[450px] flex items-end justify-start lg:justify-start scale-[0.6] sm:scale-[0.8] lg:scale-100 origin-left">
+          <div className="relative w-full max-w-[585px] h-[250px] lg:h-[450px] flex items-end justify-start lg:justify-start scale-[0.6] sm:scale-[0.8] lg:scale-100 origin-left">
              {/* The origin for the stack animation will be the bottom-left of this container */}
-             <div className="relative w-[285px] h-[204px] lg:ml-0 lg:mt-[200px]">
+             <div className="relative w-[150px] lg:w-[285px] h-[150px] lg:h-[204px] lg:ml-0 lg:mt-[200px]">
                
                {/* Card 5: #FFFFFF */}
                <motion.div 

@@ -19,7 +19,7 @@ const poppins = Poppins({
 
 const NeighborConnector = () => {
   return (
-   <div className={`w-full flex flex-col bg-[#FFFFFF] ${poppins.variable} font-poppins`}>
+   <div className={`w-full flex flex-col gap-24 lg:gap-24 bg-[#FAFAFA] ${poppins.variable} font-poppins`}>
     <Hero/>
     <Workflow/>
     <Discovery/>

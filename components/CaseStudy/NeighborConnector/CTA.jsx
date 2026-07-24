@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const CTA = () => {
   return (
-    <section className="w-full relative  mb-20 bg-[#FAFAFA] py-24 flex flex-col items-center overflow-hidden">
+    <section className="w-full relative  mb-20 h-screen bg-[#FAFAFA] flex flex-col items-center o p-2 ">
 
       {/* Container Card */}
       <motion.div
