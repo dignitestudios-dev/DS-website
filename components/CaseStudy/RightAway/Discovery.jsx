@@ -168,7 +168,7 @@ const Discovery = () => {
           <img
             src="/right/discovery.webp"
             alt="RightAway App Mockup"
-            className="w-[90%] md:w-[749px] h-auto object-contain"
+            className="w-[90%] md:w-[749px] h-auto object-contain [mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)] [-webkit-mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)]"
             onError={(e) => { e.target.src = '/right/mockup.webp' }} // Fallback if name is different
           />
         </div>
