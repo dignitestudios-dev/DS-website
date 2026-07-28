@@ -18,7 +18,7 @@ const poppins = Poppins({
 
 const FrameTheWorld = () => {
   return (
-    <div className={`w-full h-full flex md:gap-20  gap-10 flex-col ${poppins.variable} font-poppins`}>
+    <div className={`w-full h-full flex md:gap-20  gap-20 flex-col ${poppins.variable} font-poppins`}>
       <Hero />
       <ProductDevelopment />
       <Challenges />

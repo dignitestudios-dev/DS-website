@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-black text-[40px] md:text-[66px] font-bold text-center uppercase leading-tight mb-4 tracking-wide">
-         How We Built Frame The World
+        Frame The World
         </h1>
         
         <p className="text-gray-700 text-[14px] md:text-[16px] font-medium text-center max-w-4xl mb-10 capitalize leading-relaxed px-4">
@@ -77,7 +77,7 @@ const Hero = () => {
           <div className="flex flex-col items-start flex-[2] w-full md:w-auto md:px-10">
             <span className="text-gray-500 text-[14px] mb-2 font-normal">What We Did</span>
             <span className="text-black text-[16px] font-bold leading-relaxed">
-              Mobile App Development, Web Platform Development, UI/UX Design, AI Image Verification, Subscription Platform, Content Management System, Admin Dashboard
+              Mobile App Development, Web Platform Development, UI/UX Design, Admin Dashboard
             </span>
           </div>
 

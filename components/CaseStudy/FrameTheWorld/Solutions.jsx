@@ -52,13 +52,13 @@ const Solutions = () => {
 
       {/* Grid Container */}
       <div className="w-full border-t border-b border-black/10">
-        <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="max-w-[1440px] mx-auto flex md:grid overflow-x-auto md:overflow-visible snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] md:grid-cols-2 lg:grid-cols-3">
           {cards.map((card, index) => {
             // Determine border classes based on position for a 3x2 grid
             const isRightCol = (index + 1) % 3 === 0;
             const isBottomRow = index >= 3;
             
-            let borderClasses = "border-black/10 border-b last:border-b-0 ";
+            let borderClasses = "border-black/10 border-r last:border-r-0 md:border-r-0 md:border-b md:last:border-b-0 ";
             if (isRightCol && isBottomRow) {
                borderClasses += "lg:border-r-0 lg:border-b-0";
             } else if (isRightCol && !isBottomRow) {
@@ -72,7 +72,7 @@ const Solutions = () => {
             return (
               <div 
                 key={card.id}
-                className={`group flex flex-col items-center text-center p-10 gap-8 bg-white cursor-pointer transition-colors hover:bg-gray-50/50 ${borderClasses}`}
+                className={`group flex-none w-[85vw] sm:w-[350px] md:w-auto snap-center md:snap-none flex flex-col items-center text-center p-10 gap-8 bg-white cursor-pointer transition-colors hover:bg-gray-50/50 ${borderClasses}`}
               >
                 {/* Icon Wrapper */}
                 <div className="relative w-[111px] h-[111px] flex-none">

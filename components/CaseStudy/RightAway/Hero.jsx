@@ -23,7 +23,7 @@ const Hero = () => {
         <img src="/right/logo.webp" alt="rigjt away logo " className='w-[120px]' />
 
         <h1 className="text-white w-[80%] mx-auto text-[40px] md:text-[66px] font-bold text-center uppercase leading-[72px] mb-4 tracking-wide ">
-          Driving Smarter Transportation with a Connected Mobility Platform
+          Right Away
         </h1>
 
         <p className="text-white relative z-20 text-[14px] md:text-[16px] font-medium text-center max-w-4xl mb-10 capitalize leading-relaxed px-4">
@@ -83,7 +83,7 @@ const Hero = () => {
           <div className="flex flex-col items-start flex-[1.5] w-full md:w-auto">
             <span className="text-white/80 text-[15px] font-normal mb-1 font-poppins capitalize">Services Provided</span>
             <span className="text-white text-[16px] font-bold leading-[25px] font-poppins capitalize">
-            UI/UX Design, Rider & Driver Mobile Apps, Landing Page Design, Business Portal, Super Admin Dashboard, Real -Time Tracking, Payment Integration.
+            UI/UX Design, Rider & Driver Mobile Apps, Landing Page Design, Super Admin Dashboard, Payment Integration.
             </span>
           </div>
 
