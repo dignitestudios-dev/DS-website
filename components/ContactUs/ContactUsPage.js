@@ -368,12 +368,15 @@ const ContactUsPage = () => {
                 Dignite Studios at the phone number I provided. Message and data
                 rates may apply. Message frequency may vary. For assistance,
                 reply HELP or email us at{" "}
+              {/* email_off */}
                 <a
-                  href="mailto:hello@dignitestudios.com"
+                  href="mailto:support@dignitestudios.com"
                   className="text-[#F15C20] hover:underline"
                 >
                   support@dignitestudios.com
                 </a>
+                {/* /email_off */}
+
                 . You may opt out at any time by replying STOP. See our{" "}
                 <Link
                   href="/terms-and-conditions"
