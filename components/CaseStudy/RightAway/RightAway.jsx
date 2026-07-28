@@ -21,7 +21,7 @@ const poppins = Poppins({
 const RightAway = () => {
   return (
     <div className={`w-full bg-[#151515] gap-10 flex flex-col lg:gap-32 -mt-40 overflow-x-hidden ${poppins.variable} font-poppins`}>
-      <img src={"/right/corner.webp"} alt='corner ' className='absolute top-0 right-0 z-30' />
+  
 
       <Hero />
       <Discovery />
