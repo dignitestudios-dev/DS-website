@@ -14,6 +14,20 @@ const cards = [
     pathname: "/case-studies/epic-rides"
   },
   {
+    image: "/right/right-thumb.webp",
+    icon: "/right/logo.webp",
+    title: "Right Away",
+    description: "On-demand services at your fingertips",
+    pathname: "/case-studies/right-away"
+  },
+  {
+    image: "/frame/frame-thumbnail.webp",
+    icon: "/frame/logo.webp",
+    title: "Frame The World",
+    description: "Travel photo sharing for unforgettable journeys.",
+    pathname: "/case-studies/frame-the-world"
+  },
+  {
     image: "/case-studies/connector.webp",
     icon: "/neighbor/logo.webp",
     title: "Neighbor Connector",
