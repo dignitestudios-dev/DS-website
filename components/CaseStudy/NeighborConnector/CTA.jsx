@@ -2,6 +2,7 @@
 import React from "react";
 import { HiOutlineArrowRight } from "react-icons/hi";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const CTA = () => {
   return (
@@ -34,12 +35,14 @@ const CTA = () => {
           </p>
 
           {/* CTA Button */}
-          <button className="flex flex-row items-center  justify-center gap-[10px] px-8 py-4 bg-white rounded-full hover:bg-white/90 transition-colors mt-4 shadow-md">
-            <span className="text-[#274B01] text-[15px] font-semibold leading-[22px] capitalize">
-              Let's Build Your Platform
-            </span>
-            <HiOutlineArrowRight className="text-[#274B01] w-4 h-4" />
-          </button>
+          <Link href="/contact-us">
+            <button className="flex flex-row items-center  justify-center gap-[10px] px-8 py-4 bg-white rounded-full hover:bg-white/90 transition-colors mt-4 shadow-md">
+              <span className="text-[#274B01] text-[15px] font-semibold leading-[22px] capitalize">
+                Let's Build Your Platform
+              </span>
+              <HiOutlineArrowRight className="text-[#274B01] w-4 h-4" />
+            </button>
+          </Link>
 
         </div>
 
