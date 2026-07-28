@@ -89,13 +89,18 @@ const Hero = () => {
           </button>
         </p>
         
-        <div className="flex flex-col sm:flex-row items-center gap-4 mb-16">
-          <Link href="#" className="flex items-center justify-center gap-3 px-6 py-4 w-[246px] rounded-2xl border border-white/10 bg-gradient-to-b from-[#61cb081f] via-[#61cb080a] to-[#61cb0812] backdrop-blur-[42px] hover:scale-105 transition-transform">
+        <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 mb-16">
+          <Link href="https://apps.apple.com/us/app/epic-rides/id6759365655" target="_blank" className="flex items-center justify-center gap-3 px-6 py-4 w-[246px] rounded-2xl border border-white/10 bg-gradient-to-b from-[#61cb081f] via-[#61cb080a] to-[#61cb0812] backdrop-blur-[42px] hover:scale-105 transition-transform">
             <FaApple className="text-white text-2xl" />
-            <span className="text-white font-medium text-[14px]">Download for Iphone</span>
+            <span className="text-white font-medium text-[14px]">Rider App for iPhone</span>
+          </Link>
+
+          <Link href="https://apps.apple.com/us/app/epic-rides-driver/id6759365615" target="_blank" className="flex items-center justify-center gap-3 px-6 py-4 w-[246px] rounded-2xl border border-white/10 bg-gradient-to-b from-[#61cb081f] via-[#61cb080a] to-[#61cb0812] backdrop-blur-[42px] hover:scale-105 transition-transform">
+            <FaApple className="text-white text-2xl" />
+            <span className="text-white font-medium text-[14px]">Driver App for iPhone</span>
           </Link>
           
-          <Link href="#" className="flex items-center justify-center gap-3 px-6 py-4 w-[254px] rounded-2xl border border-[#0A0A0A] bg-[#65CB11] hover:scale-105 transition-transform">
+          <Link href="https://play.google.com/store/apps/details?id=com.dignitestudios.epicrides&pcampaignid=web_share" target="_blank" className="flex items-center justify-center gap-3 px-6 py-4 w-[254px] rounded-2xl border border-[#0A0A0A] bg-[#65CB11] hover:scale-105 transition-transform">
             <FaGooglePlay className="text-[#0A0A0A] text-2xl" />
             <span className="text-[#0A0A0A] font-medium text-[14px]">Download for Android</span>
           </Link>

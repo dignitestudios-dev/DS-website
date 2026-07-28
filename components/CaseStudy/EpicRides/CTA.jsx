@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
+import Link from "next/link";
 
 const CTA = () => {
   return (
@@ -28,14 +29,16 @@ const CTA = () => {
           </div>
 
           {/* CTA Button */}
-          <button className="flex flex-row items-center justify-between gap-[20px] pl-[15px] pr-[8px] py-[8px] bg-[#124733] border border-white/5 rounded-[8px] hover:bg-[#124733]/80 transition-colors">
-            <span className="text-white text-[15px] font-bold leading-[22px] capitalize">
-              Start Your Mobility Project
-            </span>
-            <div className="w-[32px] h-[32px] bg-[#61CB08] rounded-[8px] flex items-center justify-center">
-              <FiArrowUpRight className="text-[#101D2D] w-[18px] h-[18px]" />
-            </div>
-          </button>
+          <Link href="/contact-us">
+            <button className="flex flex-row items-center justify-between gap-[20px] pl-[15px] pr-[8px] py-[8px] bg-[#124733] border border-white/5 rounded-[8px] hover:bg-[#124733]/80 transition-colors">
+              <span className="text-white text-[15px] font-bold leading-[22px] capitalize">
+                Start Your Mobility Project
+              </span>
+              <div className="w-[32px] h-[32px] bg-[#61CB08] rounded-[8px] flex items-center justify-center">
+                <FiArrowUpRight className="text-[#101D2D] w-[18px] h-[18px]" />
+              </div>
+            </button>
+          </Link>
           
         </div>
 
