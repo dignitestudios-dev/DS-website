@@ -1,10 +1,15 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 const Hero = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const fullText = "Frame The World is a premium mobile and web platform exclusively for verified travel professionals to share authentic travel photography. The platform gives travel agents access to high quality visual content that they can actually use in promotional campaigns. Frame The World creates a trusted ecosystem where authenticity remains the core of all the interaction. The platform features an onboarding process that verifies travel professionals before granting access. Verified users can upload travel photography into personalized Frames and discover content shared by other professionals through flexible subscription plans. AI assisted image processing works on validating uploaded content before publication. A centralized admin platform further helps with user verification, content moderation, subscription management and reporting within platform operations.";
+  const previewText = "Frame The World is a premium mobile and web platform exclusively for verified travel professionals to share authentic travel photography. The platform gives travel agents access to high quality visual content that they can actually use in promotional campaigns. Frame The World creates a trusted ecosystem where authenticity remains the core of all the interaction.";
+
   return (
     <section className="w-full relative -mt-40 pt-40 z-20 bg-white overflow-hidden min-h-[120vh] flex flex-col justify-between  pb-20">
 
@@ -21,9 +26,13 @@ const Hero = () => {
         </h1>
         
         <p className="text-gray-700 text-[14px] md:text-[16px] font-medium text-center max-w-4xl mb-10 capitalize leading-relaxed px-4">
-       Frame The World is a premium mobile and web platform exclusively for verified travel professionals to share authentic travel photography. The platform gives travel agents access to high quality visual content that they can actually use in promotional campaigns. Frame The World creates a trusted ecosystem where authenticity remains the core of all the interaction.
-The platform features an onboarding process that verifies travel professionals before granting access. Verified users can upload travel photography into personalized Frames and discover content shared by other professionals through flexible subscription plans. AI assisted image processing works on validating uploaded content before publication. A centralized admin platform further helps with user verification, content moderation, subscription management and reporting within platform operations.
-
+          {isExpanded ? fullText : previewText}
+          <button 
+            onClick={() => setIsExpanded(!isExpanded)} 
+            className="text-blue-500 font-bold ml-2 hover:underline focus:outline-none inline-block"
+          >
+            {isExpanded ? "See Less" : "See More..."}
+          </button>
         </p>
         
         <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 mb-16">

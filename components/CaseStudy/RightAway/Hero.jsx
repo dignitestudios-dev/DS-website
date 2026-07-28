@@ -1,27 +1,39 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
 
 const Hero = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const fullText = "RightAway is a comprehensive ride hailing built to simplify modern transportation through an integrated ecosystem of mobile applications and the web based management tools. The solution enables passengers to book rides instantly, drivers to manage the trips and earnings quite efficiently, and businesses to oversee transportation operations from the centralized portal. Real time GPS tracking, intelligent driver matching, secure payment processing and live trip monitoring work together to deliver a fast and dependable travel experience. Dignite Studios designed and developed the complete solution, including rider and driver applications, business portal, landing page and the super admin dashboard for creating the scalable platform built for long term operational success.";
+  const previewText = "RightAway is a comprehensive ride hailing built to simplify modern transportation through an integrated ecosystem of mobile applications and the web based management tools. The solution enables passengers to book rides instantly, drivers to manage the trips and earnings quite efficiently, and businesses to oversee transportation operations from the centralized portal.";
+
   return (
-    <section className="relative w-full pt-20 min-h-[120vh] bg-[#151515] overflow-hidden flex flex-col items-center ">
-      <img src={"/right/top.webp"} alt='corner ' className='absolute top-0 left-1/2 -translate-x-[50%] w-full ' />
+    <section className="relative w-full  z-30 pt-20 min-h-[120vh] bg-[#151515] overflow-hidden flex flex-col items-center ">
+      <img src={"/right/corner.webp"} alt='corner ' className='absolute top-0 right-0 z-10' />
+      <img src={"/right/top.webp"} alt='corner ' className='absolute top-0 left-1/2 -translate-x-[50%] w-full z-10 ' />
       {/* Background Blurs
       <div className="absolute top-[-50px] left-1/2 -translate-x-1/2 w-[374px] h-[374px] bg-[#22B573] opacity-30 blur-[225px] rounded-full z-0" />
       <div className="absolute top-[800px] left-1/2 -translate-x-1/2 w-[721px] h-[706px] bg-[rgba(101,203,17,0.25)] blur-[2px] rounded-full z-0 pointer-events-none" /> */}
 
       {/* Main Content */}
-      <div className="relative z-10 w-full flex flex-col items-center px-4 max-w-screen-2xl mx-auto mt-20 text-center">
+      <div className="relative z-20 w-full flex flex-col items-center px-4 max-w-screen-2xl mx-auto mt-20 text-center">
         <img src="/right/logo.webp" alt="rigjt away logo " className='w-[120px]' />
 
-        <h1 className="text-white w-[900px]  text-[40px] md:text-[66px] font-bold text-center uppercase leading-tight mb-4 tracking-wide ">
+        <h1 className="text-white w-[80%] mx-auto text-[40px] md:text-[66px] font-bold text-center uppercase leading-[72px] mb-4 tracking-wide ">
           Driving Smarter Transportation with a Connected Mobility Platform
         </h1>
 
-        <p className="text-white text-[14px] md:text-[16px] font-medium text-center max-w-4xl mb-10 capitalize leading-relaxed px-4">
-          RightAway is a comprehensive ride hailing built to simplify modern transportation through an integrated ecosystem of mobile applications and the web based management tools. The solution enables passengers to book rides instantly, drivers to manage the trips and earnings quite efficiently, and businesses to oversee transportation operations from the centralized portal. Real time GPS tracking, intelligent driver matching, secure payment processing and live trip monitoring work together to deliver a fast and dependable travel experience. Dignite Studios designed and developed the complete solution, including rider and driver applications, business portal, landing page and the super admin dashboard for creating the scalable platform built for long term operational success.
+        <p className="text-white relative z-20 text-[14px] md:text-[16px] font-medium text-center max-w-4xl mb-10 capitalize leading-relaxed px-4">
+          {isExpanded ? fullText : previewText}
+          <button 
+            onClick={() => setIsExpanded(!isExpanded)} 
+            className="text-[#22B573] font-bold ml-2 hover:underline focus:outline-none inline-block"
+          >
+            {isExpanded ? "See Less" : "See More..."}
+          </button>
         </p>
 
         {/* Buttons */}
@@ -41,7 +53,7 @@ const Hero = () => {
 
       {/* Hero Image Mockup Container */}
       <div className="relative z-10 w-full flex justify-center mt-10 px-4">
-        <img src={"/right/grad.webp"} className='absolute scale-90 -top-[150px] z-0' alt="gradient image" />
+        <img src={"/right/grad.webp"} className='absolute scale-90 -top-[150px] z-0 pointer-events-none' alt="gradient image" />
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}

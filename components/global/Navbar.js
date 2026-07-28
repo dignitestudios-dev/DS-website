@@ -245,14 +245,14 @@ const Navbar = ({ setIsOpen }) => {
             alt="Dignite Studios Logo"
             width={120}
             height={70}
-            src={pathname === "/" ? "/logo-dark.webp" : "/logo.webp"}
+            src={pathname === "/" || pathname === "/case-studies/epic-rides" ||pathname === "/case-studies/right-away" ? "/logo-dark.webp" : "/logo.webp"}
             className="h-[70px] w-[120px] object-contain"
           />
         </Link>
 
         <div
           className="w-auto mx-auto hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8"
-          style={{ color: pathname === "/" || pathname === "/case-studies/epic-rides" ? "#ffffff" : palette?.color }}
+          style={{ color: pathname === "/" || pathname === "/case-studies/epic-rides" || pathname === "/case-studies/right-away" ? "#ffffff" : palette?.color }}
         >
           <Link
             href="/"
