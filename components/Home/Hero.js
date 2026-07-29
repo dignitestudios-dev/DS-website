@@ -171,7 +171,8 @@ const Hero = () => {
           </Link>
           <Link
             href="/contact-us"
-            className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg"
+            aria-label="Contact Us"
+            className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-14 h-14 rounded-full flex items-center justify-center transition-colors text-2xl border-l border-white/20"
           >
             <MdArrowOutward />
           </Link>
@@ -189,6 +190,7 @@ const Hero = () => {
                 alt="Client Partner Logo"
                 width={100}
                 height={64}
+                style={{ width: "100px", height: "64px" }}
                 className="object-contain"
               />
             </div>

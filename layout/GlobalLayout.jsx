@@ -420,8 +420,9 @@ const GlobalLayout = ({ page }) => {
           </form>
         </div>
 
-        {page}
-
+        <div className="w-full min-h-screen">
+          {page}
+        </div>
         <Footer />
         {/* <FixedSocials /> */}
       </div>
