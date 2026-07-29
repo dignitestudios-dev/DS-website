@@ -168,8 +168,8 @@ const TechCard = ({ tech }) => {
     >
       <div className="w-full h-full relative bg-white rounded-lg p-8 flex flex-col items-center justify-center border border-[#F15C20]/20">
         <div className="w-24 h-24 bg-[#F15C20] rounded-full flex items-center justify-center text-6xl text-white mb-6 shadow-lg">
-          {tech.icon}
-        </div>
+            {React.cloneElement(tech.icon, { "aria-label": tech.name || "technology icon", title: tech.name || "technology icon" })}
+          </div>
         <h3 className="text-lg font-medium text-[#212121] uppercase tracking-tight text-center">
           {tech.name}
         </h3>

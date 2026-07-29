@@ -1,7 +1,8 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import { useContext, useEffect, lazy, Suspense } from "react";
+import { useContext, useEffect, useState, lazy, Suspense } from "react";
 import dynamic from "next/dynamic";
+import GlobalLoader from "@/components/global/GlobalLoader";
 
 const Hero = dynamic(() => import("@/components/Home/Hero"), { ssr: false });
 const MobileAppServices = dynamic(() => import("@/components/Home/MobileAppServices"), { ssr: false });
@@ -22,47 +23,59 @@ const LoadingFallback = () => <div className="w-full min-h-[400px]" />;
 
 export default function HomePage() {
   const { palette, theme } = useContext(GlobalContext);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
   }, [theme]);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="w-full max-w-screen-2xl mx-auto h-auto flex flex-col items-center justify-center gap-20 md:gap-28 pb-32" style={{ overflowAnchor: 'none' }}>
-      <Hero />
-      <MobileAppServices />
-      <Suspense fallback={<LoadingFallback />}>
+    <>
+      {loading && <GlobalLoader />}
+      <div className="w-full max-w-screen-2xl mx-auto h-auto flex flex-col items-center justify-center gap-20 md:gap-28 pb-32" style={{ overflowAnchor: 'none' }}>
+        <Hero />
+        <MobileAppServices />
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <SuccessStories />
-      </Suspense>
-      <Suspense fallback={<LoadingFallback />}>
+        {/* </Suspense> */}
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <Bussiness />
-      </Suspense>
-      <Suspense fallback={<LoadingFallback />}>
+        {/* </Suspense> */}
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <Process />
-      </Suspense>
-      <Suspense fallback={<LoadingFallback />}>
+        {/* </Suspense> */}
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <Industries />
-      </Suspense>
-      <Suspense fallback={<LoadingFallback />}>
+        {/* </Suspense> */}
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <TechTools />
-      </Suspense>
-      <Suspense fallback={<LoadingFallback />}>
+        {/* </Suspense> */}
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <Impact />
-      </Suspense>
-      <Suspense fallback={<LoadingFallback />}>
+        {/* </Suspense> */}
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <Testimonials />
-      </Suspense>
-      <Suspense fallback={<LoadingFallback />}>
+        {/* </Suspense> */}
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <ProductDesign />
-      </Suspense>
-      <Suspense fallback={<LoadingFallback />}>
+        {/* </Suspense> */}
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <GlobalPresence />
-      </Suspense>
-      <Suspense fallback={<LoadingFallback />}>
+        {/* </Suspense> */}
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <Faq />
-      </Suspense>
-      <Suspense fallback={<LoadingFallback />}>
+        {/* </Suspense> */}
+        {/* <Suspense fallback={<LoadingFallback />}> */}
         <ContactUs header={"Your Next Big Project is Just a Call Away!"} para={"Big ideas deserve expert execution. Connect with our team and take the first step toward launching your amazing project."} img="/cc.webp" btn={"Schedule a Call"} />
-      </Suspense>
-    </div>
+        {/* </Suspense> */}
+      </div>
+    </>
   );
 }

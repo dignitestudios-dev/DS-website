@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import React from "react";
 import { motion } from "framer-motion";
@@ -86,11 +87,11 @@ const SEO = ({ header, para, locations: customLocations }) => {
       >
         <div className="relative w-full" style={{ minHeight: "500px" }}>
           <div className="flex justify-center">
-            <img
+            <Image
               src="/location/mobile-california/map.webp"
               alt="California coverage map"
               className="w-full max-w-5xl h-[1000px] object-contain"
-            />
+             width={379} height={388} />
           </div>
 
           {/* SVG Overlay for Lines and Pins */}

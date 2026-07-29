@@ -27,7 +27,7 @@ const ProjectCard = ({
       } rounded-[32px] `}
     >
       <div className="w-full h-[0px] flex lg:hidden justify-center items-start relative ">
-        <img
+        <Image
           src={normalImage}
           className="absolute -top-12 right-0 h-[200px]"
           alt={title}
@@ -38,7 +38,7 @@ const ProjectCard = ({
       </div>
       <div className="w-full lg:w-[65%] h-full flex flex-col justify-start relative gap-6 my-1 items-start md:px-2">
         <div className="w-full flex justify-start gap-2 items-center pr-1">
-          <img
+          <Image
             src={logo}
             alt="case-study-image"
             width={65}
@@ -61,10 +61,10 @@ const ProjectCard = ({
         <div className="w-full absolute bottom-0 left-2 mt-auto flex justify-start gap-2 items-center pr-1">
           {googleLink && (
             <Link href={googleLink}>
-              <img
+              <Image
                 //// width={134}
                 // height={40}
-                src="/google_play_btn.webp"
+                src="/google_play_btn.webp" width={404} height={122}
                 className="h-[32px] md:h-[40.62px]"
                 alt="google_play_button"
                 // title="google_play_button"
@@ -73,10 +73,10 @@ const ProjectCard = ({
           )}
           {appLink && (
             <Link href={appLink}>
-              <img
+              <Image
                 //// width={134}
                 // height={40}
-                src="/apple_store_btn.webp"
+                src="/apple_store_btn.webp" width={379} height={122}
                 className="h-[32px] md:h-[40.62px]"
                 alt="app_store_button"
                 // title="app_store_button"
@@ -85,10 +85,10 @@ const ProjectCard = ({
           )}
           {webLink && (
             <Link href={webLink}>
-              <img
+              <Image
                 //// width={134}
                 // height={40}
-                src="/website_btn.webp"
+                src="/website_btn.webp" width={173} height={56}
                 className="h-[32px] md:h-[40.62px]"
                 alt="Website btn play icon"
                 // title="Website btn play icon"
@@ -105,7 +105,7 @@ const ProjectCard = ({
             : "md:h-[355px] md:-top-8"
         }  right-0 group-hover:-translate-y-10 2xl:group-hover:-translate-y-2 group-hover:translate-x-4 group-hover:scale-[1.5] 2xl:group-hover:scale-[1.4] lg:justify-start items-start  `}
       >
-        {/* <img
+        {/* <Image
           layout="responsive"
           src={image}
           alt={title}

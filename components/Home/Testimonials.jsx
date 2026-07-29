@@ -4,6 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import Link from "next/link";
+import Image from "next/image";
 
 
 const testData = [
@@ -212,18 +213,22 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
                       {/* Content wrapper */}
                       <div className="relative z-20 flex flex-col items-center justify-start h-full p-6 text-black">
                         {/* Quote Image */}
-                        <img
+                        <Image
                           src="/location/mobile-california/quote.webp"
                           alt="quote"
-                          className="absolute -top-8 left-1/2 -translate-x-1/2 z-20 w-16"
+                          width={53}
+                          height={53}
+                          className="absolute -top-8 left-1/2 -translate-x-1/2 z-20 w-16 h-auto"
                         />
 
                         {/* Text content */}
                         <div className="my-10 text-center">
-                          <img
+                          <Image
                             src="/location/mobile-california/rev.webp"
                             alt="review stars"
-                            className="mx-auto mb-2"
+                            width={66}
+                            height={14}
+                            className="mx-auto mb-2 w-auto h-auto"
                           />
                           <h3 className="text-base font-bold">{item.name}</h3>
                           <div className="flex items-center justify-center gap-1 mt-1 text-xs text-gray-600">

@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import React, { useState } from 'react';
 
 const GlobalPresence = () => {
@@ -119,9 +120,11 @@ const GlobalPresence = () => {
                 <div className="absolute bottom-0 left-0 right-0 p-6 pointer-events-none z-10">
                   <div className="flex items-center gap-3 mb-2">
                     <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 overflow-hidden">
-                      <img 
+                      <Image 
                         src={`https://flagcdn.com/w80/${location.countryCode.toLowerCase()}.webp`}
                         alt={`${location.country} flag`}
+                        width={80}
+                        height={60}
                         className="w-full h-full object-cover"
                       />
                     </div>

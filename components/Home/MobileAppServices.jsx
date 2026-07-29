@@ -3,6 +3,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+
+const MotionImage = motion(Image);
 const services = [
   {
     title: "Mobile App Development",
@@ -63,14 +65,14 @@ const MobileAppServices = () => {
 
       <div className="grid grid-cols-1 text-white md:grid-cols-12 gap-6">
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
-          <img
-            src="/home-hero/grad-crner.webp"
+          <Image
+            src="/home-hero/grad-crner.webp" width={245} height={285}
             className="absolute md:block hidden bottom-0 right-0 rounded-br-[34px]"
             alt="Gradient corner decoration"
           />
-          <motion.img
-            src="/home-hero/P1.webp"
-            className="absolute bottom-0 left-[0%] -translate-x-1/2 md:left-[20%] md:translate-x-0 w-[100%] md:w-auto"
+          <MotionImage
+            src="/home-hero/P1.webp" width={852} height={570}
+            className="absolute bottom-0 left-[0%] -translate-x-1/2 md:left-[20%] md:translate-x-0 w-[100%] md:w-[60%]"
             alt="Mobile app development mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -85,9 +87,9 @@ const MobileAppServices = () => {
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
-          <motion.img
-            src="/home-hero/p2.webp"
-            className="absolute bottom-0 left-[15%] -translate-x-1/2 md:left-[25%] md:translate-x-0 w-[70%] md:w-auto"
+          <MotionImage
+            src="/home-hero/p2.webp" width={801} height={813}
+            className="absolute bottom-0 left-[15%] -translate-x-1/2 md:left-[25%] md:translate-x-0 w-[70%] md:w-[50%]"
             alt="iOS app development mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -102,14 +104,14 @@ const MobileAppServices = () => {
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
-          <img
-            src="/home-hero/el1.webp"
+          <Image
+            src="/home-hero/el1.webp" width={487} height={401}
             className="absolute md:block hidden bottom-0 right-0 w-full"
             alt="Android app development background element"
           />
-          <motion.img
-            src="/home-hero/p3.webp"
-            className="absolute -bottom-10 md:-bottom-20 left-[0%] -translate-x-1/2 md:left-[20%] md:translate-x-0 w-[100%] md:w-auto"
+          <MotionImage
+            src="/home-hero/p3.webp" width={712} height={670}
+            className="absolute -bottom-10 md:-bottom-20 left-[0%] -translate-x-1/2 md:left-[10%] md:translate-x-0 w-[100%] md:w-[75%]"
             alt="Android app development mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -124,14 +126,14 @@ const MobileAppServices = () => {
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
-          <img
-            src="/home-hero/db.webp"
+          <Image
+            src="/home-hero/db.webp" width={410} height={380}
             className="absolute md:block hidden bottom-0 right-0"
             alt="Web app development background element"
           />
-          <motion.img
-            src="/home-hero/monitor.webp"
-            className="absolute bottom-0 left-[4%] -translate-x-1/2 md:left-5 md:translate-x-0 lg:left-10 w-[100%] md:w-4/5 lg:w-auto"
+          <MotionImage
+            src="/home-hero/monitor.webp" width={776} height={506}
+            className="absolute bottom-0 left-[4%] -translate-x-1/2 md:left-5 md:translate-x-0 lg:left-10 w-[100%] md:w-[70%] "
             alt="Web app development services mockup on monitor"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -146,14 +148,14 @@ const MobileAppServices = () => {
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
-          <img
-            src="/home-hero/el2.webp"
+          <Image
+            src="/home-hero/el2.webp" width={647} height={280}
             className="absolute md:block hidden bottom-0 left-[20%] translate-x-[-50%] rounded-br-[34px]"
             alt="Native app development background element"
           />
-          <motion.img
-            src="/home-hero/p4.webp"
-            className="absolute -bottom-7 left-[0%] -translate-x-1/2 md:left-[25%] md:translate-x-0 w-[100%] md:w-auto"
+          <MotionImage
+            src="/home-hero/p4.webp" width={744} height={660}
+            className="absolute -bottom-7 left-[0%] -translate-x-1/2 md:left-[25%] md:translate-x-0 w-[100%] md:w-[60%]"
             alt="Native app development company mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -168,14 +170,14 @@ const MobileAppServices = () => {
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
-          <img
-            src="/home-hero/el3.webp"
+          <Image
+            src="/home-hero/el3.webp" width={487} height={376}
             className="absolute md:block hidden w-full -bottom-14 left-[20%] translate-x-[-50%]"
             alt="Mobile app testing background element"
           />
-          <motion.img
-            src="/home-hero/p5.webp"
-            className="absolute -bottom-20 md:-bottom-36 left-[0%] -translate-x-1/2 md:left-[15%] md:translate-x-0 w-[100%] md:w-auto"
+          <MotionImage
+            src="/home-hero/p5.webp" width={798} height={766}
+            className="absolute -bottom-20 md:-bottom-36 left-[0%] -translate-x-1/2 md:left-[15%] md:translate-x-0 w-[100%] md:w-[80%]"
             alt="Mobile app testing services mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: -40, opacity: 1 }}

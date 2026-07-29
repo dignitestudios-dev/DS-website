@@ -155,7 +155,7 @@ const TechCard = ({ tech }) => {
         {/* Front */}
         <div className="absolute inset-0 backface-hidden bg-white rounded-lg p-8 flex flex-col items-center justify-center border border-[#F15C20]/20 ">
           <div className="w-24 h-24 bg-[#F15C20] rounded-full flex items-center justify-center text-6xl text-white mb-6 shadow-lg">
-            {tech.icon}
+            {React.cloneElement(tech.icon, { "aria-label": tech.name || "technology icon", title: tech.name || "technology icon" })}
           </div>
           <h3 className="text-lg font-medium text-[#212121] uppercase tracking-tight">
             {tech.name}

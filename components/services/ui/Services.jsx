@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -35,16 +36,16 @@ const Services = ({ services, header, header2, para, button }) => {
             }}
           >
             <div className="flex justify-center items-center p-3 shadow-2xl group-hover:shadow-white shadow-[#F15C20] rounded-[22px] group-hover:border-t-white group-hover:border-b-white bg-white/20 border-b border-b-[#F15C20] border-t-[#F15C20] mx-auto w-[20%] border-t">
-              <img
+              <Image
                 src={`/location/mobile-california/icons/${service.icon}.webp`}
                 alt={service.title}
                 className="group-hover:hidden transition duration-300"
-              />
-              <img
+               width={379} height={388} />
+              <Image
                 src={`/location/mobile-california/icons/${service.icon2}.webp`}
                 alt={service.title}
                 className="group-hover:block hidden transition duration-300"
-              />
+               width={379} height={388} />
             </div>
             <h3 className="text-base font-semibold text-center">
               {service.title}
@@ -74,11 +75,11 @@ const Services = ({ services, header, header2, para, button }) => {
             <SwiperSlide key={index}>
               <div className="bg-[#F15C20] rounded-[40px] p-10 py-16 flex flex-col items-center gap-6 text-white h-[400px] justify-center">
                 <div className="bg-white/20 p-6 rounded-3xl w-24 h-24 flex items-center justify-center">
-                  <img
+                  <Image
                     src={`/location/mobile-california/icons/${service.icon2}.webp`}
                     alt={service.title}
                     className="w-12 h-12 object-contain"
-                  />
+                   width={379} height={388} />
                 </div>
                 <h3 className="text-2xl font-bold text-center">
                   {service.title}
