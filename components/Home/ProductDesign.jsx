@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { GoClock } from "react-icons/go";
@@ -46,7 +47,6 @@ const insights = [
 const ProductDesign = () => {
   return (
     <section
-
       className="py-36 w-full bg-[#0A0A0A] px-6 md:px-12 lg:px-24  [clip-path:ellipse(350%_100%_at_50%_100%)]
     sm:[clip-path:ellipse(350%_100%_at_50%_100%)]
     md:[clip-path:ellipse(200%_100%_at_50%_100%)]"
@@ -66,7 +66,6 @@ const ProductDesign = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
-  
           <div className="lg:col-span-5 h-full">
             <BlogCard post={insights[0]} isFeatured />
           </div>
@@ -90,9 +89,11 @@ const BlogCard = ({ post, isFeatured }) => {
       <div
         className={`relative overflow-hidden rounded-3xl ${isFeatured ? "h-[350px] lg:h-[450px]" : "aspect-[4/3]"}`}
       >
-        <img
+        <Image
           src={post.image}
           alt={post.title}
+          width={800}
+          height={600}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
         {isFeatured && (

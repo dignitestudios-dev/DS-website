@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -85,18 +86,18 @@ const MobileApp = ({ cards, header, header2, para , button }) => {
                     }`}
                 >
                   {!isActive && (
-                    <img
+                    <Image
                       src="/location/mobile-california/lines.webp"
                       alt="lines"
                       className="absolute right-0 -top-16"
-                    />
+                     width={379} height={388} />
                   )}
                   {isActive && (
-                    <img
+                    <Image
                       src="/location/mobile-california/design.webp"
                       alt="lines"
                       className="absolute right-0 w-full  -bottom-28 scale-125"
-                    />
+                     width={379} height={388} />
                   )}
                   <div className="p-6 items-start flex flex-col h-full">
                     {/* Icon */}

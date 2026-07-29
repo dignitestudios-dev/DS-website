@@ -20,12 +20,12 @@ const TechnologyCard = ({ technology }) => {
         theme == "dark" ? "bg-[#e7e7e7]/[0.2]" : "bg-[#e7e7e7]/[0.2]"
       } p-6`}
     >
-      <img
-        //width={98}
+      <Image
+        width={98}
         height={88}
-        src={image}
-        alt={technology?.alt}
-        className="md:h-auto"
+        src={image || "/placeholder.webp"}
+        alt={technology?.alt || "Technology"}
+        className="md:h-auto object-contain"
       />
     </div>
   );

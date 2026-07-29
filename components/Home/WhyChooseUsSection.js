@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useContext } from "react";
+import Image from "next/image";
 import { styles } from "../../styles/styles";
 import WhyChooseUsCard from "./WhyChooseUsCard";
 import { chooseus } from "../../constants/whychooseus";
@@ -22,7 +23,7 @@ const WhyChooseUsSection = () => {
           <p className="text-[#F15C20] text-[20px] uppercase font-bold tracking-normal mb-1">
             value proposition of
           </p>
-          <img src="/lines2.webp" alt="lines2" />
+          <Image src="/lines2.webp" alt="lines2" width={229} height={10} />
         </div>
         Dignite Studios
       </h2>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
@@ -101,11 +102,11 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
-                  <img
+                  <Image
                     src={`/location/mobile-california/${icons[index].icon}`}
                     alt={icons[index].icon}
                     className=" "
-                  />
+                   width={379} height={388} />
                   <div className="absolute top-0 px-12 py-10">
                     <h3 className="text-lg font-bold text-white ">
                       {item.title}
@@ -168,8 +169,8 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
               </div>
 
               <div className="absolute top-1/2 left-[50%] -translate-x-1/2 -translate-y-1/2">
-                <img
-                  src="/location/mobile-california/icons/logo.webp"
+                <Image
+                  src="/location/mobile-california/icons/logo.webp" width={354} height={354}
                   alt="logo"
                 />
               </div>
@@ -180,11 +181,11 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
-                  <img
+                  <Image
                     src={`/location/mobile-california/${icons[index + 3].icon}`}
                     alt={icons[index + 3].icon}
                     className=" "
-                  />
+                   width={379} height={388} />
                   <div className="absolute top-0 px-12 py-10">
                     <h3 className="text-lg font-bold text-white ">
                       {item.title}
@@ -246,11 +247,11 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
               {bs.map((item, index) => (
                 <SwiperSlide key={index}>
                   <div className="relative w-[350px] mx-auto">
-                    <img
+                    <Image
                       src={`/location/mobile-california/${icons[index].icon}`}
                       alt={icons[index].icon}
                       className="w-[350px] h-full object-contain"
-                    />
+                     width={379} height={388} />
                     <div className="absolute top-0 left-0 w-full h-full px-12 py-8 flex flex-col justify-start text-start">
                       <h3 className="text-base font-bold text-white mb-3">
                         {item.title}

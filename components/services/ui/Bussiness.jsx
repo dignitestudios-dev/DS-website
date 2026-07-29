@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
@@ -109,14 +110,14 @@ const Bussiness = ({
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
-                  <img
+                  <Image
                     src={
                       item.icon ||
                       `/location/mobile-california/${icons[index].icon}`
                     }
                     alt={item.title}
                     className=" "
-                  />
+                   width={379} height={388} />
                   <div className="absolute top-0 px-12 py-10">
                     <h3 className="text-lg font-bold text-white ">
                       {item.title}
@@ -179,10 +180,10 @@ const Bussiness = ({
               </div>
 
               <div className="absolute top-1/2 left-[50%] -translate-x-1/2 -translate-y-1/2">
-                <img
+                <Image
                   src="/location/mobile-california/icons/logo.webp"
                   alt="logo"
-                />
+                 width={379} height={388} />
               </div>
             </div>
             <div className="flex justify-center -mt-11">
@@ -191,14 +192,14 @@ const Bussiness = ({
                   key={index}
                   className="mb-8 relative z-50 w-[379px] h-[390px]"
                 >
-                  <img
+                  <Image
                     src={
                       item.icon ||
                       `/location/mobile-california/${icons[index + 3].icon}`
                     }
                     alt={item.title}
                     className=" "
-                  />
+                   width={379} height={388} />
                   <div className="absolute top-0 px-12 py-10">
                     <h3 className="text-lg font-bold text-white ">
                       {item.title}
@@ -269,14 +270,14 @@ const Bussiness = ({
               {bsToUse.map((item, index) => (
                 <SwiperSlide key={index}>
                   <div className="relative w-full max-w-[350px] mx-auto">
-                    <img
+                    <Image
                       src={
                         item.icon ||
                         `/location/mobile-california/${icons[index].icon}`
                       }
                       alt={item.title}
                       className="w-[350px] h-full object-contain"
-                    />
+                     width={379} height={388} />
                     <div className="absolute top-0 left-0 w-full h-full px-12 py-8 flex flex-col justify-start text-start">
                       <h3 className="text-base font-bold text-white mb-3">
                         {item.title}

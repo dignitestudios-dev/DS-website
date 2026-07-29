@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { expertise } from "@/constants/areaofexpertise";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext, useRef, useState } from "react";
@@ -40,7 +41,7 @@ const AreaOfExpertise = () => {
               <span className="text-[#F15C20] text-center text-xl font-semibold uppercase tracking-normal">
                 specialized
               </span>
-              <img src="/lines3.webp" className="w-[122px]" alt="lines3" />
+              <Image src="/lines3.webp" width={370} height={28} className="w-[122px]" alt="lines3" />
             </div>
             Area Of Expertise
           </h2>

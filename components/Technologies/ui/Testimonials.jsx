@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -214,19 +215,19 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                       {/* Content wrapper */}
                       <div className="relative z-20 flex flex-col items-center justify-start h-full p-6 text-black">
                         {/* Quote Image */}
-                        <img
+                        <Image
                           src="/location/mobile-california/quote.webp"
                           alt="quote"
                           className="absolute -top-8 left-1/2 -translate-x-1/2 z-20 w-16"
-                        />
+                         width={379} height={388} />
 
                         {/* Text content */}
                         <div className="my-10 text-center">
-                          <img
+                          <Image
                             src="/location/mobile-california/rev.webp"
                             alt="review stars"
                             className="mx-auto mb-2"
-                          />
+                           width={379} height={388} />
                           <h3 className="text-base font-bold">{item.name}</h3>
                           <div className="flex items-center justify-center gap-1 mt-1 text-xs text-gray-600">
                             {item.platform === "Google" && googleLogo}

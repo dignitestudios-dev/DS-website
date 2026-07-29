@@ -2,6 +2,7 @@
 import React, { useContext, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { GlobalContext } from "@/context/GlobalContext";
 import { IoIosArrowDown } from "react-icons/io";
 import { usePathname, useRouter } from "next/navigation";
@@ -241,12 +242,12 @@ const Navbar = ({ setIsOpen }) => {
       {/* Main Navigation */}
       <nav className="px-4 md:px-12 bg-transparent lg:px-28 xl:px-[120px] 2xl:px-48 h-20 flex items-center justify-between w-screen relative z-[60]">
         <Link aria-label="logo" href="/" className="h-auto">
-          <img
+          <Image
             alt="Dignite Studios Logo"
-            width={120}
-            height={70}
+            width={140}
+            height={80}
             src={pathname === "/" || pathname === "/case-studies/epic-rides" ||pathname === "/case-studies/right-away" ? "/logo-dark.webp" : "/logo.webp"}
-            className="h-[70px] w-[120px] object-contain"
+            className="w-[120px] md:w-[140px] h-auto object-contain"
           />
         </Link>
 
@@ -296,10 +297,12 @@ const Navbar = ({ setIsOpen }) => {
             Get a Free Quote
           </Link>
           <button onClick={() => setIsOpen(true)} className="flex lg:hidden" aria-label="Open menu">
-            <img
+            <Image
               src={pathname === "/" ? "/menu-dark.webp" : "/hamburger.webp"}
               alt="menu"
-              className="h-4"
+              width={24}
+              height={16}
+              className="h-4 w-auto"
             />
           </button>
         </div>
@@ -347,9 +350,11 @@ const Navbar = ({ setIsOpen }) => {
 
           {dropdownData[menuItem.key]?.[0]?.image && (
             <div className="w-[250px] flex-shrink-0">
-              <img
+              <Image
                 src={dropdownData[menuItem.key][0].image}
                 alt={menuItem.name}
+                width={250}
+                height={150}
                 className="w-full h-auto object-cover rounded-lg"
               />
             </div>

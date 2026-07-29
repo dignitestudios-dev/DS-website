@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
@@ -133,14 +134,14 @@ const Industries = ({ VALUE_PROPOSITION,button, header, header2, para }) => {
                   }}
                   className="relative z-50 bg-[linear-gradient(152.14deg,_#FFAA88_-78.52%,_#FFFFFF_63.9%)] rounded-b-[25px] h-[300px] rounded-t-xl  -mb-10   shadow-[#ffc2a9]"
                 >
-                  {/* <img src='/location/mobile-california/img.webp' alt="Industries Img" className='absolute' /> */}
-                  <img
+                  {/* <Image src='/location/mobile-california/img.webp' alt="Industries Img" className='absolute'  width={379} height={388} /> */}
+                  <Image
                     src={`/location/mobile-california/${icons[originalIndex].icon}`}
                     alt={value.title || "image"}
                     className={`object-contain select-none bg-[#fdddd0] m-4 pointer-events-none ${
                       isActive && "shadow-2xl"
                     }`}
-                  />
+                   width={379} height={388} />
 
                   {isActive && (
                     <img

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useContext } from "react";
 import MobileAppServiceCard from "./MobileAppServiceCard";
 import { GlobalContext } from "@/context/GlobalContext";
@@ -15,7 +16,7 @@ const ConvenientMobileAppDevelopment = () => {
           <span className="text-[#F15C20] text-xl  font-bold uppercase tracking-normal">
             Convenient{" "}
           </span>
-          <img src="/lines.webp" alt="lines" className="w-[124px] h-[8]" />
+          <Image src="/lines.webp" width={143} height={11} alt="lines" className="w-[124px] h-[8]" />
         </div>
         Mobile App <br /> Development Services
       </h2>
