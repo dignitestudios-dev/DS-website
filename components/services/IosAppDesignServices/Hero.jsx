@@ -18,7 +18,7 @@ const Hero = () => {
       <div
         className={`flex items-center justify-center gap-1 rounded-full px-4 py-2 mb-6 ${
           theme === "light" ? "bg-[#F6F6F6]" : "bg-[#2d2d2d]"
-        } hover:bg-gradient-to-r hover:from-[#ffb484] hover:via-[#ff88a4] hover:to-[#759bff] hover:text-white transition-all duration-500 `}
+        } hover:bg-gradient-to-r hover:from-[#ffb484] hover:via-[#ff88a4] hover:to-[#759bff] hover:text-white transition duration-500 `}
       >
         <FaApple className="w-[22px] h-[24px]" />{" "}
         <h1 className="text-sm font-medium">iOS App Design Company</h1>
@@ -93,11 +93,11 @@ const Hero = () => {
             onClick={() => setToggle(!toggle)}
             className={`${
               toggle ? `bg-[#E9E9EA]` : "bg-gray-500"
-            } rounded-full transition-all duration-300 outline-none overflow-hidden w-[340px] h-[152px] p-[8px] flex justify-start items-center mt-40 -rotate-90`}
+            } rounded-full transition duration-300 outline-none overflow-hidden w-[340px] h-[152px] p-[8px] flex justify-start items-center mt-40 -rotate-90`}
           >
             {/* lg:translate-x-[calc(100%-18%)] */}
             <span
-              className={`h-[122px] w-[122px] text-xl text-white transition-all duration-300 rounded-full flex items-center justify-center ${
+              className={`h-[122px] w-[122px] text-xl text-white transition duration-300 rounded-full flex items-center justify-center ${
                 toggle
                   ? `translate-x-2 bg-white shadow-2xl`
                   : " translate-x-[calc(160%)] bg-[#3A3A3C]"
@@ -127,7 +127,7 @@ const Hero = () => {
             }`}
            width={500} height={500} priority/>
           <h2
-            className={`text-[24px] font-semibold group-hover:text-white transition-all duration-500 z-10 ${
+            className={`text-[24px] font-semibold group-hover:text-white transition duration-500 z-10 ${
               toggle ? `text-black` : "text-white"
             }`}
           >

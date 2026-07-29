@@ -13,7 +13,7 @@ const CTA = ({
 
 
   return (
-    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/industries/ent-app/s-cta.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
+    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/industries/ent-app/s-cta.webp')] bg-contain bg-no-repeat bg-center transition ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
       <div className="flex items-center h-full gap-12 justify-between">
         <div className="w-full lg:w-[55%] flex flex-col items-start relative z-30 text-start">
           <h2 className="text-4xl  capitalize font-bold mb-4">

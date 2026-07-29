@@ -51,7 +51,7 @@ const Hero = () => {
                   theme === "light"
                     ? "bg-[#0C0C0C14] text-[#000]"
                     : "bg-[#2d2d2d] text-white"
-                }  hover:text-white text-sm md:text-[15px] font-semibold text-center py-7 px-16 md:py-8  md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden rounded-[14px]`}
+                }  hover:text-white text-sm md:text-[15px] font-semibold text-center py-7 px-16 md:py-8  md:px-24 hover:bg-black transition duration-300 relative group inline-block overflow-hidden rounded-[14px]`}
               >
                 {/* First text */}
                 <span className="absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">

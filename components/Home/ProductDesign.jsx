@@ -10,7 +10,7 @@ const insights = [
       "In today's digital landscape, a strong social media presence is crucial for brand growth. This blog explores strategies for creating impactful campaigns, increasing engagement, and turning followers into loyal customers.",
     date: "July 29, 2025",
     image:
-      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1000&auto=format&fit=crop",
+      "/unsplash/blog-img-1.webp",
     featured: true,
   },
   {
@@ -18,28 +18,28 @@ const insights = [
     title: "How AI Is Revolutionizing Web Design Strategies",
     date: "July 29, 2025",
     image:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000&auto=format&fit=crop",
+      "/unsplash/blog-img-2.webp",
   },
   {
     id: 3,
     title: "Essential SEO Techniques Every Agency Should Implement",
     date: "July 29, 2025",
     image:
-      "https://images.unsplash.com/photo-1571721795195-a2ca2d3370a9?q=80&w=1000&auto=format&fit=crop",
+      "/unsplash/blog-img-3.webp",
   },
   {
     id: 4,
     title: "Top Trends Shaping Digital Marketing in 2026 Latest",
     date: "July 29, 2025",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop",
+      "/unsplash/blog-img-4.webp",
   },
   {
     id: 5,
     title: "Creating Engaging Content That Converts Visitors Into Customers",
     date: "July 29, 2025",
     image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000&auto=format&fit=crop",
+      "/unsplash/blog-img-5.webp",
   },
 ];
 

@@ -16,7 +16,7 @@ const TestingProcess = () => {
               exclusive design services by
             </p>
             <h2 className={`headings-size group`}>
-              <span className="text-[#8F8F8F] group-hover:text-[#F15C20] transition-all duration-200">
+              <span className="text-[#8F8F8F] group-hover:text-[#F15C20] transition duration-200">
                 Inevitable
               </span>
               <br />

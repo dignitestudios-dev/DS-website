@@ -25,7 +25,7 @@ const Services = ({ services, header, header2, para , button }) => {
         {services.map((service, index) => (
           <motion.div
             key={index}
-            className="p-6 flex py-12 shadow-[#f8d8ca] bg-white shadow-2xl flex-col gap-6  w-[400px] items-center border-gray-200 group transition-all ease-linear hover:bg-[#F15C20] hover:text-white rounded-[45px] hover:shadow-md"
+            className="p-6 flex py-12 shadow-[#f8d8ca] bg-white shadow-2xl flex-col gap-6  w-[400px] items-center border-gray-200 group transition ease-linear hover:bg-[#F15C20] hover:text-white rounded-[45px] hover:shadow-md"
             initial={{ y: 80, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.3 }}

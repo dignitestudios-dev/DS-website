@@ -29,7 +29,7 @@ const IosAppPromotion = () => {
               background: palette?.brandOrange,
               color: "white",
             }}
-            className="orange w-[150px] lg:w-[171px] xl:w-[189px] xl:h-[64px] h-14 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90  shadow-sm text-sm lg:text-md font-semibold tracking-wide shadow-[#F15C20]/[0.3] flex items-center justify-center"
+            className="orange w-[150px] lg:w-[171px] xl:w-[189px] xl:h-[64px] h-14 lg:h-16 rounded-full transition duration-150 hover:opacity-90  shadow-sm text-sm lg:text-md font-semibold tracking-wide shadow-[#F15C20]/[0.3] flex items-center justify-center"
           >
            Start Your Project
           </Link>

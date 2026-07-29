@@ -25,7 +25,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
         </div>
         <Link
           href={"/lp/contact-us"}
-          className="py-3 px-5 lg:py-7 lg:px-14 bg-[#F15C20] rounded-full text-white top-rated-btn-shadow text-base lg:text-xl font-semibold hidden lg:flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
+          className="py-3 px-5 lg:py-7 lg:px-14 bg-[#F15C20] rounded-full text-white top-rated-btn-shadow text-base lg:text-xl font-semibold hidden lg:flex items-center justify-center gap-3 hover:opacity-[.75] transition duration-300"
         >
           Let's Talk <FiArrowUpRight className="text-xl" />
         </Link>
@@ -223,7 +223,7 @@ const TopRatedAppDevelopmentWorkflow = () => {
 
       <Link
         href={"/contact-us"}
-        className="py-5 mt-6 px-5 text-base lg:py-7 lg:px-14 mx-auto bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300 w-[206px] lg:hidden"
+        className="py-5 mt-6 px-5 text-base lg:py-7 lg:px-14 mx-auto bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition duration-300 w-[206px] lg:hidden"
       >
         Let's Talk <FiArrowUpRight className="text-xl" />
       </Link>

@@ -496,7 +496,7 @@ const ShopifyStoreDevelopment = () => {
         }
         ctaBtn={"Partner With Dignite Studios"}
         cta={
-          <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition-all ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
+          <div className="bg-transparent h-[500px] hover:scale-105 z-50 absolute text-white  opacity-100 transition ease-linear w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] ">
             <div className="relative">
               <img
                 src="/location/mobile-boston/cta-img.webp"

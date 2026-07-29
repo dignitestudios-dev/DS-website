@@ -238,7 +238,7 @@ const AppDevelopmentCost = ({
           >
             <a
               href={ctaLink}
-              className="inline-flex items-center justify-center bg-[#F15C20] hover:bg-[#d84a16] text-white font-semibold text-[16px] px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="inline-flex items-center justify-center bg-[#F15C20] hover:bg-[#d84a16] text-white font-semibold text-[16px] px-8 py-4 rounded-full transition duration-300 shadow-lg hover:shadow-xl"
             >
               {ctaText}
             </a>

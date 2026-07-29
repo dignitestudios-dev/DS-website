@@ -22,7 +22,7 @@ const ProjectCard = ({
   return (
     <Link
       href={projectLink}
-      className={`group w-full h-[250px] lg:h-[326px]  hover:bg-[#F15C20] transition-all duration-500 pt-[6px] pb-[8px] px-[14px] lg:py-[28px] lg:px-[20px] flex flex-col lg:flex-row justify-start  items-start gap-2 lg:mb-6 relative ${
+      className={`group w-full h-[250px] lg:h-[326px]  hover:bg-[#F15C20] transition duration-500 pt-[6px] pb-[8px] px-[14px] lg:py-[28px] lg:px-[20px] flex flex-col lg:flex-row justify-start  items-start gap-2 lg:mb-6 relative ${
         theme == "dark" ? "bg-[#1c1c1c]" : "bg-[#f9f9f9]"
       } rounded-[32px] `}
     >
@@ -99,17 +99,17 @@ const ProjectCard = ({
       </div>
 
       <div
-        className={`w-full hidden lg:block lg:w-[35%] transition-all duration-300 ${image} bg-contain bg-no-repeat flex  justify-center  md:w-[191px]  static md:absolute ${
+        className={`w-full hidden lg:block lg:w-[35%] transition duration-300 ${image} bg-contain bg-no-repeat flex  justify-center  md:w-[191px]  static md:absolute ${
           title == "MaidSimpl"
             ? "md:h-[364px] md:-top-[2.7rem]"
             : "md:h-[355px] md:-top-8"
-        }  right-0 group-hover:top-10 2xl:group-hover:top-2  group-hover:right-4 group-hover:scale-[1.5] 2xl:group-hover:scale-[1.4] lg:justify-start items-start  `}
+        }  right-0 group-hover:-translate-y-10 2xl:group-hover:-translate-y-2 group-hover:translate-x-4 group-hover:scale-[1.5] 2xl:group-hover:scale-[1.4] lg:justify-start items-start  `}
       >
         {/* <img
           layout="responsive"
           src={image}
           alt={title}
-          className={`group-hover:w-auto group-hover:h-auto  group-hover:md:absolute    hover:brightness-80 transition-all duration-500 `}
+          className={`group-hover:scale-110  group-hover:md:absolute    hover:brightness-80 transition duration-500 `}
         /> */}
       </div>
     </Link>

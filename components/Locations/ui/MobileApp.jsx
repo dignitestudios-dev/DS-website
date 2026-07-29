@@ -76,7 +76,7 @@ const MobileApp = ({ cards, header, header2, para , button }) => {
                 onMouseLeave={() => setHoveredIndex(null)}
               >
                 <div
-                  className={`h-[300px] relative rounded-2xl overflow-hidden border transition-all duration-300 cursor-pointer
+                  className={`h-[300px] relative rounded-2xl overflow-hidden border transition duration-300 cursor-pointer
                     ${
                       isActive
                         ? "bg-[#F15C20] text-white border-[#FDD0BF] shadow-xl"
@@ -111,7 +111,7 @@ const MobileApp = ({ cards, header, header2, para , button }) => {
                     </div>
 
                     <h3
-                      className={`"text-lg relative  text-start z-10 h-[85px] font-semibold mb-3 transition-all ease-linear" ${isActive && "h-fit transition-all ease-linear"} `}
+                      className={`"text-lg relative  text-start z-10 h-[85px] font-semibold mb-3 transition ease-linear" ${isActive && "h-fit transition ease-linear"} `}
                     >
                       {card.title}
                     </h3>

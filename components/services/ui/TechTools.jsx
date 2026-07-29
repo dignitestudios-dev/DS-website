@@ -55,7 +55,7 @@ const TechAndTools = ({ header, para }) => {
         <div className="relative block md:hidden w-full max-w-[300px] mt-4">
           <button
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            className="w-full border border-orange-100 rounded-full py-3 px-6 flex items-center justify-between text-[#F15C20] font-medium transition-all"
+            className="w-full border border-orange-100 rounded-full py-3 px-6 flex items-center justify-between text-[#F15C20] font-medium transition"
           >
             {activeData.label}
             <div
@@ -96,7 +96,7 @@ const TechAndTools = ({ header, para }) => {
               key={key}
               type="button"
               onClick={() => setActiveTechStack(key)}
-              className={`rounded-md transition-all ease-linear ${
+              className={`rounded-md transition ease-linear ${
                 activeTechStack === key
                   ? "shadow-sm text-[#F15C20] p-1 bg-white"
                   : ""
@@ -123,7 +123,7 @@ const TechAndTools = ({ header, para }) => {
             <SwiperSlide key={index}>
               {({ isActive }) => (
                 <div
-                  className={`flex flex-col items-center justify-center gap-6 p-10 rounded-[40px] transition-all duration-500  ${
+                  className={`flex flex-col items-center justify-center gap-6 p-10 rounded-[40px] transition duration-500  ${
                     isActive
                       ? "bg-[#F15C20] text-white shadow-2xl shadow-orange-200"
                       : "bg-gray-50 text-gray-800 opacity-60 scale-90"
@@ -137,7 +137,7 @@ const TechAndTools = ({ header, para }) => {
                     <img
                       src={tech?.icon}
                       alt={tech?.title}
-                      className={`p-2 object-contain transition-all duration-500 ${isActive ? "" : "brightness-0 invert"}`}
+                      className={`p-2 object-contain transition duration-500 ${isActive ? "" : "brightness-0 invert"}`}
                     />
                   </div>
                   <p className="text-xl font-bold tracking-tight">

@@ -66,7 +66,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
   return (
     <div
       onClick={(e) => toggleModal(e)}
-      className={`w-screen h-screen z-[99999999]  transition-all duration-200 fixed top-0 left-0  flex  items-start justify-end  ${
+      className={`w-screen h-screen z-[99999999]  transition duration-200 fixed top-0 left-0  flex  items-start justify-end  ${
         isOpen ? "translate-x-0 lg:translate-x-full" : "translate-x-full"
       }`}
     >
@@ -105,12 +105,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               <IoIosArrowDown
                 className={`text-md ${
                   state ? "rotate-180" : "rotate-0"
-                } transition-all duration-500`}
+                } transition duration-500`}
               />
             </div>
             {state && (
               <div
-                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition-all duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
+                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
                 style={{ color: palette?.color }}
               >
                 <Link
@@ -226,12 +226,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               <IoIosArrowDown
                 className={`text-md ${
                   technologiesState ? "rotate-180" : "rotate-0"
-                } transition-all duration-500`}
+                } transition duration-500`}
               />
             </div>
             {technologiesState && (
               <div
-                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition-all duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
+                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
                 style={{ color: palette?.color }}
               >
                 <Link
@@ -277,12 +277,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               <IoIosArrowDown
                 className={`text-md ${
                   industriesState ? "rotate-180" : "rotate-0"
-                } transition-all duration-500`}
+                } transition duration-500`}
               />
             </div>
             {industriesState && (
               <div
-                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition-all duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
+                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
                 style={{ color: palette?.color }}
               >
                 <Link
@@ -335,12 +335,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               <IoIosArrowDown
                 className={`text-md ${
                   locationsState ? "rotate-180" : "rotate-0"
-                } transition-all duration-500`}
+                } transition duration-500`}
               />
             </div>
             {locationsState && (
               <div
-                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition-all duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
+                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
                 style={{ color: palette?.color }}
               >
                 <Link
@@ -428,12 +428,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               <IoIosArrowDown
                 className={`text-md ${
                   ecommerceState ? "rotate-180" : "rotate-0"
-                } transition-all duration-500`}
+                } transition duration-500`}
               />
             </div>
             {ecommerceState && (
               <div
-                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition-all duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
+                className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
                 style={{ color: palette?.color }}
               >
                 <Link

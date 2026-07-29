@@ -27,7 +27,7 @@ const TechStack = () => {
             <div 
               key={index}
               title={tech.name}
-              className="w-[73px] h-[73px] bg-[rgba(34,181,115,0.15)] rounded-[25px] flex items-center justify-center hover:bg-[#22B573] hover:scale-110 transition-all duration-300 cursor-pointer shadow-sm hover:shadow-[0px_0px_20px_rgba(34,181,115,0.4)]"
+              className="w-[73px] h-[73px] bg-[rgba(34,181,115,0.15)] rounded-[25px] flex items-center justify-center hover:bg-[#22B573] hover:scale-110 transition duration-300 cursor-pointer shadow-sm hover:shadow-[0px_0px_20px_rgba(34,181,115,0.4)]"
             >
               {tech.icon}
             </div>

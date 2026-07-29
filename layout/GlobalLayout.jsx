@@ -11,6 +11,7 @@ import "react-phone-input-2/lib/style.css";
 import { usePathname } from "next/navigation";
 import useDeviceType from "@/components/global/DeviceTypeFunction";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = dynamic(() => import("@/components/global/Navbar"), { ssr: true });
 const Sidebar = dynamic(() => import("@/components/global/Sidebar"), { ssr: false });
@@ -177,7 +178,7 @@ const GlobalLayout = ({ page }) => {
   };
   return (
     <div
-      className="w-full transition-all relative  duration-700"
+      className="w-full transition relative  duration-700"
       style={{
         background: palette?.background,
         color: palette?.color,
@@ -200,13 +201,13 @@ const GlobalLayout = ({ page }) => {
             id="popup-form"
           >
             <div className="side-promo">
-              <img
-                width={400}
-                height={540}
+              <Image
+                width={540}
+                height={650}
                 src="/form-img.webp"
                 alt="popup form image"
                 title="popup form image"
-                className="object-fill"
+                className="object-cover w-full h-full"
               />
             </div>
             <div className="main-promo overflow-y-auto hide-scrollbar">
@@ -234,7 +235,7 @@ const GlobalLayout = ({ page }) => {
                 className="hidden"
               /> */}
               <div className="input_field">
-                <label className="label_field">Name</label>
+                <label htmlFor="name" className="label_field">Name</label>
                 <button type="button" className="input_flex">
                   <span className="input_span">
                     <FaUser
@@ -260,7 +261,7 @@ const GlobalLayout = ({ page }) => {
                 )}
               </div>
               <div className="input_field">
-                <label className="label_field">Email Address</label>
+                <label htmlFor="email" className="label_field">Email Address</label>
                 <button type="button" className="input_flex">
                   <span className="input_span">
                     <MdMail
@@ -286,7 +287,7 @@ const GlobalLayout = ({ page }) => {
                 )}
               </div>
               <div className="input_field">
-                <label className="label_field">Phone Number</label>
+                <label htmlFor="phone" className="label_field">Phone Number</label>
                 <button type="button" className="input_flex">
                   {/* <span className="input_span">
                     <BsTelephoneFill
@@ -346,7 +347,7 @@ const GlobalLayout = ({ page }) => {
                 )}
               </div>
               <div className="input_field">
-                <label className="label_field">Message</label>
+                <label htmlFor="message" className="label_field">Message</label>
                 <button type="button" className="input_flex2">
                   <textarea
                     type="text"

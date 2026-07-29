@@ -7,8 +7,8 @@ const IosAppWorkflowCard = ({ title, desc, count }) => {
 
   return (
     <div
-      className={`group transition-all duration-300  xl:h-[280px] border-[1px]  ${theme =="dark" ? "border-[#393939]": "border-[#e7e7e7]"} lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-    } justify-center items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20]  transition-all duration-150 ${count == 0
+      className={`group transition duration-300  xl:h-[280px] border-[1px]  ${theme =="dark" ? "border-[#393939]": "border-[#e7e7e7]"} lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
+    } justify-center items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20]  transition duration-150 ${count == 0
       ? "lg:border-b "
       : count == 1
         ? "lg:border-b lg:border-r lg:border-l "

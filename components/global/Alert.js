@@ -12,7 +12,7 @@ const Alert = () => {
     <div
       className={`animate-pulse lg:absolute bottom-3 right-3 ${
         error ? "flex" : "hidden"
-      } transition-all duration-500 w-full lg:w-auto h-16 rounded-3xl bg-orange-600  text-white text-sm font-medium z-[5000] uppercase  gap-3 justify-start items-center px-6`}
+      } transition duration-500 w-full lg:w-auto h-16 rounded-3xl bg-orange-600  text-white text-sm font-medium z-[5000] uppercase  gap-3 justify-start items-center px-6`}
     >
       <svg
         class="flex-shrink-0 w-4 h-4"

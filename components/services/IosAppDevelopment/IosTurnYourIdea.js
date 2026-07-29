@@ -22,7 +22,7 @@ const IosTurnYourIdea = () => {
         >
           Top Rated iOS
           <br /> App Development <br />{" "}
-          <span className="text-[#F15C20] transition-all duration-300">
+          <span className="text-[#F15C20] transition duration-300">
             Company
           </span>
         </h1>
@@ -43,7 +43,7 @@ const IosTurnYourIdea = () => {
             background: palette?.brandOrange,
             color: "white",
           }}
-          className="orange w-[150px] lg:w-[171px] h-14 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center lg:ml-1"
+          className="orange w-[150px] lg:w-[171px] h-14 lg:h-16 rounded-full transition duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center lg:ml-1"
         >
           Start Your Project
         </Link>

@@ -11,7 +11,7 @@ const GlobalPresence = () => {
       countryCode: 'US',
       address: '3505 Lake Lynda Dr #200, Orlando, FL 32817, United States',
       mapUrl: 'https://www.google.com/maps/dir//3505+Lake+Lynda+Drive+Orlando+University,+%23200,+Orlando,+FL+32817/@37.0625,-95.677068,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88e768ece5bcf7fd:0x9acdae73c77a1cfe!2m2!1d-81.2218777!2d28.600887?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D',
-      mapImage: 'https://images.unsplash.com/photo-1589216532372-1c2c3b7e8f87?w=800&q=80',
+      
       markers: [
         { top: '45%', left: '60%', label: 'Orlando' }
       ]
@@ -22,7 +22,7 @@ const GlobalPresence = () => {
       countryCode: 'AE',
       address: 'King Salman Bin Abdulaziz Al Saud St - Marsa Dubai - Dubai Marina - Dubai',
       mapUrl: 'https://www.google.com/maps/dir//King+Salman+Bin+Abdulaziz+Al+Saud+St+-+Marsa+Dubai+-+Dubai+Marina+-+Dubai+-+United+Arab+Emirates/@37.0625,-95.677068,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e5f6b53c6fe36a1:0xb6dc0a807ec56420!2m2!1d55.1416539!2d25.0853917?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D',
-      mapImage: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80',
+      
       markers: [
         { top: '40%', left: '50%', label: 'Dubai Marina' }
       ]
@@ -33,7 +33,7 @@ const GlobalPresence = () => {
       countryCode: 'US',
       address: '312 W 2nd St, Casper, WY 82601',
       mapUrl: 'https://www.google.com/maps/dir//312+W+2nd+St,+Casper,+WY+82601/@37.0625,-95.677068,4z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x8760bca480ca44a5:0xf5d42b5e551b1978!2m2!1d-106.3291481!2d42.8493232?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D',
-      mapImage: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&q=80',
+      
       markers: [
         { top: '45%', left: '50%', label: 'Casper' }
       ]
@@ -44,7 +44,7 @@ const GlobalPresence = () => {
       countryCode: 'PK',
       address: 'Plot 8 B, Sindhi Muslim Cooperative Housing Society Block A SMCHS, Karachi',
       mapUrl: 'https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDzSAQc0NjFqMGo0qAIAsAIB&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KRcKs7eiP7M-MVwnf5Cz0Y4V&daddr=Plot+8+B,+Sindhi+Muslim+Cooperative+Housing+Society+Block+A+Sindhi+Muslim+CHS+(SMCHS),+Karachi,+Pakistan',
-      mapImage: 'https://images.unsplash.com/photo-1581972145384-c500c45002f9?w=800&q=80',
+      
       markers: [
         { top: '50%', left: '50%', label: 'Karachi' }
       ]
@@ -73,7 +73,7 @@ const GlobalPresence = () => {
               key={location.id}
               className={`
                 relative rounded-2xl overflow-hidden cursor-pointer
-                transition-all duration-700 ease-in-out
+                transition duration-700 ease-in-out
                 w-full sm:w-[calc(50%-0.5rem)] lg:w-auto
                 ${hoveredLocation === location.id 
                   ? 'lg:flex-[2] shadow-2xl' 
@@ -89,7 +89,7 @@ const GlobalPresence = () => {
             >
               {/* Map Background */}
               <div className="relative h-80 lg:h-[450px]">
-                <iframe
+                <iframe title='Google Maps location'
                   src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(location.address)}&zoom=15`}
                   className="w-full h-full"
                   style={{ border: 0 }}
@@ -108,7 +108,7 @@ const GlobalPresence = () => {
                       href={location.mapUrl} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="bg-white text-orange-500 text-xs h-20 w-20 text-center flex items-center justify-center rounded-full font-semibold shadow-lg hover:bg-orange-500 hover:text-white transition-all duration-300 hover:scale-110"
+                      className="bg-white text-orange-500 text-xs h-20 w-20 text-center flex items-center justify-center rounded-full font-semibold shadow-lg hover:bg-orange-500 hover:text-white transition duration-300 hover:scale-110"
                     >
                       VIEW LOCATION
                     </a>
@@ -132,7 +132,7 @@ const GlobalPresence = () => {
                   
                   {/* Address - Shows on Hover */}
                   <div className={`
-                    text-white text-sm transition-all duration-700 overflow-hidden
+                    text-white text-sm transition duration-700 overflow-hidden
                     ${hoveredLocation === location.id 
                       ? 'max-h-20 opacity-100 mt-2' 
                       : 'max-h-0 opacity-0'

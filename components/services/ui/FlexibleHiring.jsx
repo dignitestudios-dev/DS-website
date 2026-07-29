@@ -48,7 +48,7 @@ const FlexibleHiring = ({ header, para , header2,cards }) => {
               key={idx}
               onMouseEnter={() => setActiveCard(idx)}
               onMouseLeave={() => setActiveCard(null)}
-              className={`relative overflow-hidden cursor-pointer transition-all duration-500 rounded-[46px] p-4 h-[270px] hover:h-[330px] flex flex-col gap-6 w-full lg:w-1/3 border
+              className={`relative overflow-hidden cursor-pointer transition duration-500 rounded-[46px] p-4 h-[270px] hover:h-[330px] flex flex-col gap-6 w-full lg:w-1/3 border
               ${
                 activeCard === idx
                   ? "bg-[#F15C20] border-[#F15C20] text-white shadow-xl"
@@ -73,7 +73,7 @@ const FlexibleHiring = ({ header, para , header2,cards }) => {
                 
                 {/* Description View (shown consistently for active) */}
                 <div
-                  className={`transition-all duration-500 overflow-hidden ${
+                  className={`transition duration-500 overflow-hidden ${
                     activeCard === idx ? "opacity-100 max-h-64 mt-2" : "opacity-0 max-h-0"
                   }`}
                 >
@@ -84,7 +84,7 @@ const FlexibleHiring = ({ header, para , header2,cards }) => {
 
                 {/* Illustrations for inactive state */}
                 <div
-                  className={`absolute flex justify-center items-end  left-1/2 translate-x-[-50%] transition-all duration-500 mt-auto ${
+                  className={`absolute flex justify-center items-end  left-1/2 translate-x-[-50%] transition duration-500 mt-auto ${
                     activeCard === idx ? "opacity-0 max-h-0" : "opacity-100 h-48 w-[90%] mx-auto mt-4"
                   } ${idx === 2 ? "bottom-0" : "bottom-10"} ${idx === 0 && "w-fit"}`}
                 >

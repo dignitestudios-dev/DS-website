@@ -36,7 +36,7 @@ const Services = () => {
       </div>
       <div className="w-full my-4 grid grid-cols-1 md:grid-cols-3 gap-6 ">
         <div
-          className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"} p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
+          className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"} p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition duration-500`}
           onMouseOver={() => setHoverColor(1)}
           onMouseOut={() => setHoverColor(0)}
         >
@@ -59,7 +59,7 @@ const Services = () => {
 
         <div
           className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"
-            } p-6 rounded-3xl flex flex-col items-start gap-4 group hover:bg-[#F15C20] transition-all duration-500 `}
+            } p-6 rounded-3xl flex flex-col items-start gap-4 group hover:bg-[#F15C20] transition duration-500 `}
           onMouseOver={() => setHoverColor(2)}
           onMouseOut={() => setHoverColor(0)}
         >
@@ -91,7 +91,7 @@ const Services = () => {
         </div>
         <div
           className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"
-            } p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
+            } p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition duration-500`}
           onMouseOver={() => setHoverColor(3)}
           onMouseOut={() => setHoverColor(0)}
         >
@@ -125,7 +125,7 @@ const Services = () => {
 
         <div
           className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"
-            } p-6 rounded-3xl group flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
+            } p-6 rounded-3xl group flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition duration-500`}
           onMouseOver={() => setHoverColor(4)}
           onMouseOut={() => setHoverColor(0)}
         >
@@ -157,7 +157,7 @@ const Services = () => {
         </div>
         <div
           className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"
-            } p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
+            } p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition duration-500`}
           onMouseOver={() => setHoverColor(5)}
           onMouseOut={() => setHoverColor(0)}
         >
@@ -188,7 +188,7 @@ const Services = () => {
         </div>
         <div
           className={`${theme === "light" ? "bg-[#F9F9F9]" : "bg-[#2d2d2d]"
-            } p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition-all duration-500`}
+            } p-6 rounded-3xl flex flex-col items-start gap-4 hover:bg-[#F15C20] group-hover:text-white group transition duration-500`}
           onMouseOver={() => setHoverColor(6)}
           onMouseOut={() => setHoverColor(0)}
         >

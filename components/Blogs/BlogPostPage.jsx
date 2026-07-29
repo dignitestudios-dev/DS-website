@@ -88,7 +88,7 @@ function TableOfContents({ headings, activeId }) {
                     e.preventDefault();
                     document.getElementById(h.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
                   }}
-                  className={`group relative block py-2 pl-4 text-[16px] leading-[1.25] transition-all duration-200 z-10 ${isActive
+                  className={`group relative block py-2 pl-4 text-[16px] leading-[1.25] transition duration-200 z-10 ${isActive
                     ? 'text-[#F15C20] font-medium'
                     : 'text-black/50 hover:text-black/80 font-normal'
                     }`}
@@ -191,7 +191,7 @@ function RelatedCard({ post }) {
   return (
     <Link
       href={`/blog/${post.slug}`}
-      className="group block bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1"
+      className="group block bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition duration-300 hover:-translate-y-1"
     >
       <div className="relative overflow-hidden aspect-video">
         <img

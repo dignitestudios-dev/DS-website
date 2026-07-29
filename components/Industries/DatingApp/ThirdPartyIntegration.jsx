@@ -135,7 +135,7 @@ const ThirdPartyIntegration = () => {
 
 const IntegrationCard = ({ integration }) => {
   return (
-    <div className="bg-white relative border-2 border-[#F15C20] rounded-3xl p-6 sm:p-8 w-[250px] h-[280px] flex flex-col items-center text-center hover:shadow-lg transition-all">
+    <div className="bg-white relative border-2 border-[#F15C20] rounded-3xl p-6 sm:p-8 w-[250px] h-[280px] flex flex-col items-center text-center hover:shadow-lg transition">
       {/* Icon Circle */}
       <div className="w-20 absolute -top-16 h-20 sm:w-24 sm:h-24 bg-white border-4 border-white rounded-full flex items-center justify-center mb-6 text-[#F15C20]">
         <Image

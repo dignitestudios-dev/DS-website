@@ -75,8 +75,8 @@ const DigniteKnackSkills = () => {
                   className={`h-[320px] lg:h-[380px] xl:h-[310px] 2xl:h-[340px] w-full lg:w-[380px] rounded-[18px]
                    p-6 flex flex-col items-start gap-0 text-start group  ${
                      theme === "dark"
-                       ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition-all duration-200"
-                       : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
+                       ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition duration-200"
+                       : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition duration-200"
                    }`}
                 >
                   {/* <h3 className="text-[#B8B8B8] text-[20px] md:text-[40px] font-bold">

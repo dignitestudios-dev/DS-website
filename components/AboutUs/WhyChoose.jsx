@@ -69,7 +69,7 @@ const WhyChoose = () => {
               {/* Card Container */}
               <div
                 className={`
-                relative overflow-hidden rounded-lg transition-all dark:bg-black/50 duration-300
+                relative overflow-hidden rounded-lg transition dark:bg-black/50 duration-300
                 bg-[#FAFAFA]
                 p-8 h-[300px] flex flex-col justify-between
               `}
@@ -92,7 +92,7 @@ const WhyChoose = () => {
                   <div
                     className={`
                     w-8 h-8 rounded border-2 flex items-center justify-center
-                    transition-all duration-300
+                    transition duration-300
                     ${
                       hoveredCard === index
                         ? " bg-orange-500 rotate-180 border-orange-500 "
@@ -108,7 +108,7 @@ const WhyChoose = () => {
                 {/* Description - Hidden on Desktop, Shown on Hover */}
                 <div
                   className={`
-                  mt-4 text-sm transition-all duration-300 overflow-hidden
+                  mt-4 text-sm transition duration-300 overflow-hidden
                   hidden md:block
                   ${
                     hoveredCard === index

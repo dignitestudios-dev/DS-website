@@ -52,7 +52,7 @@ const Hero = () => {
           } zero-three`}
         >
           <div
-            className={`w-full h-full transition-all duration-500 shadow-xl ${
+            className={`w-full h-full transition duration-500 shadow-xl ${
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[16px] group-hover:translate-y-[-30px]`}
           >
@@ -71,7 +71,7 @@ const Hero = () => {
           } zero-two`}
         >
           <div
-            className={`w-full h-full transition-all duration-500 shadow-xl ${
+            className={`w-full h-full transition duration-500 shadow-xl ${
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[16px] group-hover:translate-y-[-30px]`}
           >
@@ -90,7 +90,7 @@ const Hero = () => {
           } zero-one`}
         >
           <div
-            className={`w-full h-full transition-all duration-500 shadow-xl ${
+            className={`w-full h-full transition duration-500 shadow-xl ${
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[32px] group-hover:translate-y-[-30px]`}
           >
@@ -104,7 +104,7 @@ const Hero = () => {
         </div>
 
         <div
-          className={`w-[117px] h-[117px] lg:w-[217px] lg:h-[217px] bg-[#4EDA75] z-40 relative  shadow-xl rounded-[48px] flex items-center justify-center hover:translate-y-[-30px] transition-all duration-500`}
+          className={`w-[117px] h-[117px] lg:w-[217px] lg:h-[217px] bg-[#4EDA75] z-40 relative  shadow-xl rounded-[48px] flex items-center justify-center hover:translate-y-[-30px] transition duration-500`}
         >
           <Image
             src="/android-app-icon.webp"
@@ -120,7 +120,7 @@ const Hero = () => {
           } zero-minus-one`}
         >
           <div
-            className={`w-full h-full transition-all duration-500 shadow-xl ${
+            className={`w-full h-full transition duration-500 shadow-xl ${
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[32px] group-hover:translate-y-[-30px]`}
           >
@@ -139,7 +139,7 @@ const Hero = () => {
           } zero-minus-two`}
         >
           <div
-            className={`w-full h-full transition-all duration-500 shadow-xl ${
+            className={`w-full h-full transition duration-500 shadow-xl ${
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[22px] group-hover:translate-y-[-30px]`}
           >
@@ -158,7 +158,7 @@ const Hero = () => {
           } zero-minus-three`}
         >
           <div
-            className={`w-full h-full transition-all duration-500 shadow-xl ${
+            className={`w-full h-full transition duration-500 shadow-xl ${
               theme === "dark" ? "bg-[#2d2d2d]" : "bg-white"
             } flex items-center justify-center rounded-[16px] group-hover:translate-y-[-30px]`}
           >

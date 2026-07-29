@@ -311,7 +311,7 @@ We don’t just write the code. We also design the solutions which fit the produ
         }
         ctaBtn={"Get Started"}
         cta={
-          <div className=" overflow-hidden   text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition-all  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
+          <div className=" overflow-hidden   text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
             <div className="relative h-[500px]  ">
               <img
                 src="/location/mobile-washington/b-cta.webp"

@@ -17,7 +17,7 @@ const MyMedicalJournalTechnologyCard = ({ technology }) => {
         setImage(technology?.gray);
         disableMouseCursor();
       }}
-      className="w-[50px] h-[50px] flip-vertical-left  rounded-[7px] transition-all duration-300 flex items-center justify-center "
+      className="w-[50px] h-[50px] flip-vertical-left  rounded-[7px] transition duration-300 flex items-center justify-center "
     >
       <img src={image} alt="MyMedicalJournalTechnologyCard Image" className="w-[80%]" />
     </div>

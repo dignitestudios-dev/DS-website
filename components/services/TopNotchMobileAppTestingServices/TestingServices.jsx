@@ -43,7 +43,7 @@ const TestingServices = () => {
           data-aos-once="false" // Set to false to repeat animation on scroll up
           data-aos-anchor-placement="center-bottom"
         >
-          <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
+          <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition duration-200">
             01
           </p>
           <h3 className="text-[28px] font-semibold leading-tight">
@@ -77,7 +77,7 @@ const TestingServices = () => {
           data-aos-once="false"
           data-aos-anchor-placement="center-bottom"
         >
-          <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
+          <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition duration-200">
             02
           </p>
           <h3 className="text-[28px] font-semibold leading-tight">
@@ -142,7 +142,7 @@ const TestingServices = () => {
           data-aos-once="false"
           data-aos-anchor-placement="center-bottom"
         >
-          <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition-all duration-200">
+          <p className="text-3xl lg:text-[64px] font-bold text-[#DEDEDE] hover:text-[#F15C20] transition duration-200">
             03
           </p>
           <h3 className="text-[28px] font-semibold leading-tight">

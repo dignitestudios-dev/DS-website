@@ -61,11 +61,11 @@ const HeroAnimation = () => {
             onClick={() => setToggle((prevToggle) => !prevToggle)}
             className={`${
               toggle ? `bg-[#E9E9EA]` : "bg-[#34C759]"
-            } rounded-full transition-all duration-300 outline-none overflow-hidden w-[42px] h-[24px] flex justify-start items-center`}
+            } rounded-full transition duration-300 outline-none overflow-hidden w-[42px] h-[24px] flex justify-start items-center`}
           >
             {/* lg:translate-x-[calc(100%-18%)] */}
             <span
-              className={`h-[20px] w-[20px] text-xl text-white transition-all duration-300 rounded-full flex items-center mt-[0.7px] justify-center ${
+              className={`h-[20px] w-[20px] text-xl text-white transition duration-300 rounded-full flex items-center mt-[0.7px] justify-center ${
                 toggle
                   ? `translate-x-[2px] bg-white shadow-2xl`
                   : " translate-x-[calc(100%-0%)] lg:translate-x-[calc(100%-2%)] bg-white"

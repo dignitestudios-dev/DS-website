@@ -66,7 +66,7 @@ const SeoNavbar = ({ setIsOpen }) => {
           <span>Services</span>
           <IoIosArrowDown className="text-md" />
           <div
-            className={`w-72 h-auto p-6 z-20 rounded-2xl text-md scale-0 transition-all duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${
+            className={`w-72 h-auto p-6 z-20 rounded-2xl text-md scale-0 transition duration-150 group-hover:scale-100 flex  flex-col gap-2 justify-start items-start absolute top-full ${
               theme == "dark"
                 ? "shadow-[0_3px_10px_rgb(230,230,230,0.2)]"
                 : "shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
@@ -157,10 +157,10 @@ const SeoNavbar = ({ setIsOpen }) => {
           onClick={() => setTheme(theme == "dark" ? "light" : "dark")}
           className={`${
             theme == "light" ? "bg-[#00ACFF]/[0.18]" : "bg-[#A9A1D7]/[0.18]"
-          } rounded-full transition-all duration-300 w-[50px] lg:w-[70px] h-[30px] lg:h-[37.5px] p-[4px] flex justify-start items-center`}
+          } rounded-full transition duration-300 w-[50px] lg:w-[70px] h-[30px] lg:h-[37.5px] p-[4px] flex justify-start items-center`}
         >
           <span
-            className={`h-6 w-6 lg:h-8 lg:w-8 text-xl text-white transition-all duration-300 rounded-full flex items-center justify-center ${
+            className={`h-6 w-6 lg:h-8 lg:w-8 text-xl text-white transition duration-300 rounded-full flex items-center justify-center ${
               theme == "light"
                 ? "translate-x-0 bg-[#00ACFF]"
                 : "translate-x-[calc(100%-28%)] lg:translate-x-[calc(100%-3%)] bg-[#342A6D]"

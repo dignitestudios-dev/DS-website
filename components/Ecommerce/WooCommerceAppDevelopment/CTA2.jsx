@@ -13,7 +13,7 @@ const CTA2 = ({
   return (
     <div>
       {" "}
-      <div className="w-[95%]  md:h-[550px] lg:w-full text-white bg-black md:bg-transparent md:bg-[url('/ecommerce/shopify-app/s-cta2.webp')] md:bg-contain md:bg-no-repeat md:bg-center transition-all ease-linear rounded-2xl md:rounded-none relative px-6 md:px-36 py-20 md:py-14 mx-auto overflow-hidden">
+      <div className="w-[95%]  md:h-[550px] lg:w-full text-white bg-black md:bg-transparent md:bg-[url('/ecommerce/shopify-app/s-cta2.webp')] md:bg-contain md:bg-no-repeat md:bg-center transition ease-linear rounded-2xl md:rounded-none relative px-6 md:px-36 py-20 md:py-14 mx-auto overflow-hidden">
         <div className="flex items-start h-full justify-center">
           <div className="hidden lg:block z-0 absolute -bottom-[35%] left-[65%] 2xl:left-[70%] -translate-x-1/2 w-full">
             <motion.img
@@ -38,7 +38,7 @@ const CTA2 = ({
         <Link href="/contact-us" className="flex items-center justify-center">
           <button
             type="submit"
-            className="bg-[#F15C20]  hover:transition-all hover:ease-linear hover:border-[#F15C20] transition-transform duration-300 text-white rounded-full border-4 md:border-8 border-white p-4 md:p-5 text-xs md:text-[15px] font-bold pt-12 md:pt-16 flex-col gap-2 flex items-center justify-center h-40 w-40 md:h-52 md:w-52"
+            className="bg-[#F15C20]  hover:transition hover:ease-linear hover:border-[#F15C20] transition-transform duration-300 text-white rounded-full border-4 md:border-8 border-white p-4 md:p-5 text-xs md:text-[15px] font-bold pt-12 md:pt-16 flex-col gap-2 flex items-center justify-center h-40 w-40 md:h-52 md:w-52"
           >
             {btn}
             <motion.div

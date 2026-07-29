@@ -27,7 +27,7 @@ const CTA = () => {
           <p className=" text-lg md:text-xl">
             We’ve got you covered. Let’s bring your idea to life with a user-friendly, community-centered platform. We’ll handle the design and development so your digital product works seamlessly from day one.
           </p>
-          <Link href={"/contact-us"} className="px-8 py-5 flex gap-2 items-center text-base rounded-full border transition-all ease-linear hover:bg-black hover:text-white capitalize border-black">
+          <Link href={"/contact-us"} className="px-8 py-5 flex gap-2 items-center text-base rounded-full border transition ease-linear hover:bg-black hover:text-white capitalize border-black">
             Talk to our experts
            <FaArrowRightLong />
 

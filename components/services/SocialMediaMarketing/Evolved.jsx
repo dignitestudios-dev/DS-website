@@ -117,7 +117,7 @@ const Evolved = () => {
               >
                 {({ isActive }) => (
                   <div
-                    className={`transition-all duration-500 ease-in-out flex flex-col justify-between items-start rounded-[22px] bg-[#F9F9F9] ${
+                    className={`transition duration-500 ease-in-out flex flex-col justify-between items-start rounded-[22px] bg-[#F9F9F9] ${
                       isActive
                         ? "w-[350px] h-[500px] p-[50px_20px] border border-[#F15C20] shadow-[0px_4px_30px_rgba(241,92,32,0.15)] z-20"
                         : "w-[300px] h-[400px] p-[30px_20px_50px] z-10 scale-95 opacity-60"

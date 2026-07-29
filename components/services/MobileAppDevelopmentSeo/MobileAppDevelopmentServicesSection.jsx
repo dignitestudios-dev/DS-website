@@ -30,7 +30,7 @@ const MobileAppDevelopmentServicesSection = () => {
         type="button"
         onClick={() => handleAccordionClick(1)}
         className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#737373]"
         } outline-none hover:opacity-95 `}
         style={{
           borderBottom: `2px solid ${palette?.light_contrast_background}`,
@@ -64,7 +64,7 @@ const MobileAppDevelopmentServicesSection = () => {
 
         <div
           id="accordion-1"
-          className={`transition-all duration-200 ${
+          className={`transition duration-200 ${
             openAccordion === 1 ? "" : "hidden"
           }`}
         >
@@ -88,7 +88,7 @@ const MobileAppDevelopmentServicesSection = () => {
         type="button"
         onClick={() => handleAccordionClick(2)}
         className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#737373]"
         } outline-none hover:opacity-95 `}
         style={{
           borderBottom: `2px solid ${palette?.light_contrast_background}`,
@@ -122,7 +122,7 @@ const MobileAppDevelopmentServicesSection = () => {
 
         <div
           id="accordion-1"
-          className={`transition-all duration-200 ${
+          className={`transition duration-200 ${
             openAccordion === 2 ? "" : "hidden"
           }`}
         >
@@ -154,7 +154,7 @@ const MobileAppDevelopmentServicesSection = () => {
         type="button"
         onClick={() => handleAccordionClick(3)}
         className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#737373]"
         } outline-none hover:opacity-95 `}
         style={{
           borderBottom: `2px solid ${palette?.light_contrast_background}`,
@@ -188,7 +188,7 @@ const MobileAppDevelopmentServicesSection = () => {
 
         <div
           id="accordion-1"
-          className={`transition-all duration-200 ${
+          className={`transition duration-200 ${
             openAccordion === 3 ? "" : "hidden"
           }`}
         >
@@ -213,7 +213,7 @@ const MobileAppDevelopmentServicesSection = () => {
         type="button"
         onClick={() => handleAccordionClick(4)}
         className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#737373]"
         } outline-none hover:opacity-95 `}
         style={{
           borderBottom: `2px solid ${palette?.light_contrast_background}`,
@@ -247,7 +247,7 @@ const MobileAppDevelopmentServicesSection = () => {
 
         <div
           id="accordion-1"
-          className={`transition-all duration-200 ${
+          className={`transition duration-200 ${
             openAccordion === 4 ? "" : "hidden"
           }`}
         >
@@ -278,7 +278,7 @@ const MobileAppDevelopmentServicesSection = () => {
         type="button"
         onClick={() => handleAccordionClick(5)}
         className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#737373]"
         } outline-none hover:opacity-95 `}
         style={{
           borderBottom: `2px solid ${palette?.light_contrast_background}`,
@@ -312,7 +312,7 @@ const MobileAppDevelopmentServicesSection = () => {
 
         <div
           id="accordion-1"
-          className={`transition-all duration-200 ${
+          className={`transition duration-200 ${
             openAccordion === 5 ? "" : "hidden"
           }`}
         >
@@ -342,7 +342,7 @@ const MobileAppDevelopmentServicesSection = () => {
         type="button"
         onClick={() => handleAccordionClick(6)}
         className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#737373]"
         } outline-none hover:opacity-95 `}
         style={{
           borderBottom: `2px solid ${palette?.light_contrast_background}`,
@@ -376,7 +376,7 @@ const MobileAppDevelopmentServicesSection = () => {
 
         <div
           id="accordion-1"
-          className={`transition-all duration-200 ${
+          className={`transition duration-200 ${
             openAccordion === 6 ? "" : "hidden"
           }`}
         >
@@ -400,7 +400,7 @@ const MobileAppDevelopmentServicesSection = () => {
         type="button"
         onClick={() => handleAccordionClick(7)}
         className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#737373]"
         } outline-none hover:opacity-95 `}
         style={{
           borderBottom: `2px solid ${palette?.light_contrast_background}`,
@@ -434,7 +434,7 @@ const MobileAppDevelopmentServicesSection = () => {
 
         <div
           id="accordion-1"
-          className={`transition-all duration-200 ${
+          className={`transition duration-200 ${
             openAccordion === 7 ? "" : "hidden"
           }`}
         >
@@ -464,7 +464,7 @@ const MobileAppDevelopmentServicesSection = () => {
         type="button"
         onClick={() => handleAccordionClick(8)}
         className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#737373]"
         } outline-none hover:opacity-95 `}
         style={{
           borderBottom: `2px solid ${palette?.light_contrast_background}`,
@@ -498,7 +498,7 @@ const MobileAppDevelopmentServicesSection = () => {
 
         <div
           id="accordion-1"
-          className={`transition-all duration-200 ${
+          className={`transition duration-200 ${
             openAccordion === 8 ? "" : "hidden"
           }`}
         >
@@ -529,7 +529,7 @@ const MobileAppDevelopmentServicesSection = () => {
         type="button"
         onClick={() => handleAccordionClick(9)}
         className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-          theme == "dark" ? "text-[#e7e7e7]" : "text-[#7D7D7D]"
+          theme == "dark" ? "text-[#e7e7e7]" : "text-[#737373]"
         } outline-none hover:opacity-95 `}
         style={{
           borderBottom: `2px solid ${palette?.light_contrast_background}`,
@@ -563,7 +563,7 @@ const MobileAppDevelopmentServicesSection = () => {
 
         <div
           id="accordion-1"
-          className={`transition-all duration-200 ${
+          className={`transition duration-200 ${
             openAccordion === 9 ? "" : "hidden"
           }`}
         >

@@ -50,7 +50,7 @@ btn
         {cards.map((card) => (
           <article
             key={card.label}
-            className="relative hover:-mt-4 transition-all ease-linear rounded-[36px] p-[2px] bg-[linear-gradient(146.27deg,#F15C20_2.05%,#E5E5E5_97.86%)] w-[364px] h-[432px] border-opacity-40  shadow-lg"
+            className="relative hover:-mt-4 transition ease-linear rounded-[36px] p-[2px] bg-[linear-gradient(146.27deg,#F15C20_2.05%,#E5E5E5_97.86%)] w-[364px] h-[432px] border-opacity-40  shadow-lg"
           >
             <div className="flex bg-white rounded-[35px] p-6  flex-col items-center justify-center gap-3 h-full">
               <div className="bg-[#FFF8EF] text-[#F15C20] px-5 py-2 rounded-full font-semibold text-base">

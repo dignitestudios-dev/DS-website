@@ -20,7 +20,7 @@ function RelatedCard({ post }) {
   return (
     <Link
       href={`/blogs/${post.slug}`}
-      className="group flex flex-col bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+      className="group flex flex-col bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition duration-300 hover:-translate-y-1"
     >
       {/* Thumbnail */}
       <div className="relative overflow-hidden aspect-video bg-gray-100">
@@ -70,7 +70,7 @@ function RelatedCard({ post }) {
           </p>
         )}
 
-        <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#F15C20] mt-auto group-hover:gap-2 transition-all duration-200">
+        <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#F15C20] mt-auto group-hover:gap-2 transition duration-200">
           Read More
           <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 8h10M9 4l4 4-4 4" stroke="#F15C20" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>

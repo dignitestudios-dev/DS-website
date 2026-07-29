@@ -12,7 +12,7 @@ const DriveBusiness = () => {
           </h2>
           {/* <Link
             href={"/contact-us"}
-            className="bg-[#F15C20] font-semibold text-base lg:text-xl text-white rounded-full py-4 px-8 lg:py-[20px] lg:px-[30px] xl:py-[28px] xl:px-[60px] flex items-center justify-center gap-2 hover:opacity-[.75] transition-all duration-300 top-rated-btn-shadow"
+            className="bg-[#F15C20] font-semibold text-base lg:text-xl text-white rounded-full py-4 px-8 lg:py-[20px] lg:px-[30px] xl:py-[28px] xl:px-[60px] flex items-center justify-center gap-2 hover:opacity-[.75] transition duration-300 top-rated-btn-shadow"
           >
             Schedule a call <HiMiniArrowUpRight className="text-2xl" />
           </Link> */}

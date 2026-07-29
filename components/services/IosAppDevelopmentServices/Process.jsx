@@ -38,7 +38,7 @@ const Process = () => {
         <div className="mb-8 lg:mb-0">
           {/* <Link
             href="/contact-us"
-            className="py-5 px-6 text-base xl:py-7 xl:px-8 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
+            className="py-5 px-6 text-base xl:py-7 xl:px-8 float-start bg-[#F15C20] top-rated-btn-shadow rounded-full text-[#ffff] lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition duration-300"
           >
             Start Your Project <FiArrowUpRight className="text-xl" />
           </Link> */}

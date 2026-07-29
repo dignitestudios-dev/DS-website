@@ -52,7 +52,7 @@ const MobileAppDevSeoHero = () => {
               </Link> */}
               <Link
                 href="/contact-us"
-                className="bg-[#F15C20] text-white rounded-[12px] text-center py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden"
+                className="bg-[#F15C20] text-white rounded-[12px] text-center py-8 px-20 md:px-24 hover:bg-black transition duration-300 relative group inline-block overflow-hidden"
               >
                 {/* First text */}
                 <span className="absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
@@ -77,7 +77,7 @@ const MobileAppDevSeoHero = () => {
                 href="/contact-us"
                 className={`${
                   theme === "dark" ? "bg-[#FFFFFF66]" : "bg-[#0c0c0c66]"
-                } text-white rounded-[12px] text-center py-8 px-20 md:px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden`}
+                } text-white rounded-[12px] text-center py-8 px-20 md:px-24 hover:bg-black transition duration-300 relative group inline-block overflow-hidden`}
               >
                 {/* First text */}
                 <span className="absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">

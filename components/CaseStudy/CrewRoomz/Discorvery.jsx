@@ -381,7 +381,7 @@ const Discovery = () => {
           <div className="absolute md:block hidden left-[50%] translate-x-[-50%] top-[24%] z-20">
             <img src="/crew/circle.webp" alt="circle" fill className="scale-[2]" /></div> 
           {insights.map((insight, index) => (
-            <div key={index} className={`px-5  flex flex-col transition-all ease-linear  md:h-[291px] py-7 relative z-40  hover:backdrop-blur-lg bg-transparent ${index%2===0 ? ' items-start text-start':'items-end text-end'} `}>
+            <div key={index} className={`px-5  flex flex-col transition ease-linear  md:h-[291px] py-7 relative z-40  hover:backdrop-blur-lg bg-transparent ${index%2===0 ? ' items-start text-start':'items-end text-end'} `}>
               {insight.icon}
               <span className={`text-base font-medium ${index%2===0 ? 'text-start pl-10' : 'text-end pr-10'}`} >{insight.title}</span>
             </div>

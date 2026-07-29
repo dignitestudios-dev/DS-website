@@ -68,13 +68,13 @@ const Wireframe = () => {
         <div className="flex flex-row justify-center items-center p-[3px] gap-[3px] w-[109px] h-[56px] bg-[#22B573]/20 rounded-[16px] border border-[#22B573]/30 backdrop-blur-md">
           <button 
             onClick={scrollLeft}
-            className="flex flex-row justify-center items-center w-[50px] h-[50px] bg-[#151515] rounded-[14px] text-white hover:bg-[#22B573] hover:text-white transition-all duration-300 flex-none"
+            className="flex flex-row justify-center items-center w-[50px] h-[50px] bg-[#151515] rounded-[14px] text-white hover:bg-[#22B573] hover:text-white transition duration-300 flex-none"
           >
             <HiOutlineArrowLeft size={20} />
           </button>
           <button 
             onClick={scrollRight}
-            className="flex flex-row justify-center items-center w-[50px] h-[50px] bg-[#151515] rounded-[14px] text-white hover:bg-[#22B573] hover:text-white transition-all duration-300 flex-none"
+            className="flex flex-row justify-center items-center w-[50px] h-[50px] bg-[#151515] rounded-[14px] text-white hover:bg-[#22B573] hover:text-white transition duration-300 flex-none"
           >
             <HiOutlineArrowRight size={20} />
           </button>

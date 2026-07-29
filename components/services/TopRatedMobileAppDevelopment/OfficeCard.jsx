@@ -7,7 +7,7 @@ const OfficeCard = ({ image, title, address }) => {
         <img
           src={image}
           alt="Dignite Studios"
-          className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
+          className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition duration-500"
         />
       </div>
       <h1 className="font-semibold text-[20px]">{title}</h1>

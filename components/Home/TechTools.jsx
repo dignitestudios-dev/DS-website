@@ -222,7 +222,7 @@ const TechTools = () => {
             <button
               key={cat}
               onClick={() => setActiveTab(cat)}
-              className={`px-4 md:px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${
+              className={`px-4 md:px-8 py-2.5 rounded-full text-sm font-bold transition duration-300 ${
                 activeTab === cat
                   ? "bg-[#F15C20] text-white shadow-[0_0_20px_rgba(241,92,32,0.4)]"
                   : "text-gray-400 hover:text-white"
@@ -288,7 +288,7 @@ const TechCard = ({ tech }) => {
       onClick={() => tech.description && setIsFlipped(!isFlipped)}
     >
       <motion.div
-        className="w-full h-full relative preserve-3d transition-all duration-75"
+        className="w-full h-full relative preserve-3d transition duration-75"
         animate={{ rotateY: isFlipped ? 180 : 0 }}
       >
         {/* Front */}

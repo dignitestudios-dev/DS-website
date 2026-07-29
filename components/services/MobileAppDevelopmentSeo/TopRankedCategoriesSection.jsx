@@ -32,7 +32,7 @@ const TopRankedCategoriesSection = () => {
         <div
           className={`w-full rounded-[24px] p-6 flex flex-col items-start gap-3 ${
             theme === "light" ? "bg-[#F9F9F9] hover:text-white" : "bg-[#2d2d2d]"
-          } hover:bg-[#F15C20] hover:text-white transition-all duration-300 group`}
+          } hover:bg-[#F15C20] hover:text-white transition duration-300 group`}
         >
           <h3 className={` text-xl font-semibold`}>
             Native Mobile App Development
@@ -52,7 +52,7 @@ const TopRankedCategoriesSection = () => {
         <div
           className={`w-full rounded-[24px] p-6 flex flex-col items-start gap-3 ${
             theme === "light" ? "bg-[#F9F9F9] hover:text-white" : "bg-[#2d2d2d]"
-          } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
+          } hover:bg-[#F15C20] hover:text-white transition duration-300`}
         >
           <h3 className={`text-xl font-semibold`}>
             Hybrid Mobile App Development
@@ -67,7 +67,7 @@ const TopRankedCategoriesSection = () => {
         <div
           className={`w-full rounded-[24px] p-6 flex flex-col items-start gap-3 ${
             theme === "light" ? "bg-[#F9F9F9] hover:text-white" : "bg-[#2d2d2d]"
-          } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
+          } hover:bg-[#F15C20] hover:text-white transition duration-300`}
         >
           <h3 className={`text-xl font-semibold`}>
             Cross-Platform App Development
@@ -81,7 +81,7 @@ const TopRankedCategoriesSection = () => {
         <div
           className={`w-full rounded-[24px] p-6 flex flex-col items-start gap-3 group ${
             theme === "light" ? "bg-[#F9F9F9] hover:text-white" : "bg-[#2d2d2d]"
-          } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
+          } hover:bg-[#F15C20] hover:text-white transition duration-300`}
         >
           <h3 className={`text-xl font-semibold`}>
             Progressive Web App Development
@@ -105,7 +105,7 @@ const TopRankedCategoriesSection = () => {
           href={"/contact-us"}
           className={`py-8 px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
             theme === "light" ? "bg-white" : "bg-[#222222]"
-          } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
+          } hover:bg-[#F15C20] transition duration-300 rounded-full text-xl font-medium`}
         >
           Let's Start Your Project
         </Link>

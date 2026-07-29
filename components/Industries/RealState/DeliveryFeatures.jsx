@@ -153,7 +153,7 @@ const DeliveryFeatures = () => {
               {/* Features Grid for Mobile */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {features.map((item) => (
-                  <div key={item.title} className="group bg-white rounded-2xl border border-black p-4 sm:p-6 shadow-sm hover:shadow-lg hover:border-[#F15C20] transition-all">
+                  <div key={item.title} className="group bg-white rounded-2xl border border-black p-4 sm:p-6 shadow-sm hover:shadow-lg hover:border-[#F15C20] transition">
                     <div className="flex items-start gap-3">
                       <div className="text-xl sm:text-2xl mt-0.5 flex-shrink-0 text-black group-hover:text-[#F15C20] transition-colors">{item.icon}</div>
                       <div>
@@ -175,7 +175,7 @@ const DeliveryFeatures = () => {
             {/* Left Features */}
             <div className="flex flex-col gap-4 col-span-3">
               {leftFeatures.map((item) => (
-                <div key={item.title} className="group bg-white rounded-2xl border border-black p-7 w-full h-[160px] shadow-sm hover:shadow-lg hover:border-[#F15C20] transition-all">
+                <div key={item.title} className="group bg-white rounded-2xl border border-black p-7 w-full h-[160px] shadow-sm hover:shadow-lg hover:border-[#F15C20] transition">
                   <div className="flex items-start gap-3">
                     <div className="text-2xl mt-0.5 flex-shrink-0 text-black group-hover:text-[#F15C20] transition-colors">{item.icon}</div>
                     <div>
@@ -191,7 +191,7 @@ const DeliveryFeatures = () => {
             <div className={`flex flex-col gap-4 ${isFourFeatureLayout ? "col-span-3" : "col-span-2"}`}>
               {isFourFeatureLayout ? (
                 middleFeatures.map((item) => (
-                  <div key={item.title} className="group bg-white w-full h-[160px] rounded-2xl border border-black p-7 shadow-sm hover:shadow-lg hover:border-[#F15C20] transition-all">
+                  <div key={item.title} className="group bg-white w-full h-[160px] rounded-2xl border border-black p-7 shadow-sm hover:shadow-lg hover:border-[#F15C20] transition">
                     <div className="flex items-start gap-3">
                       <div className="text-2xl mt-0.5 flex-shrink-0 text-black group-hover:text-[#F15C20] transition-colors">{item.icon}</div>
                       <div>
@@ -230,7 +230,7 @@ const DeliveryFeatures = () => {
                 </div>
               ) : (
                 rightFeatures.map((item) => (
-                  <div key={item.title} className="group bg-white w-full h-[160px] rounded-2xl border border-black p-7 shadow-sm hover:shadow-lg hover:border-[#F15C20] transition-all">
+                  <div key={item.title} className="group bg-white w-full h-[160px] rounded-2xl border border-black p-7 shadow-sm hover:shadow-lg hover:border-[#F15C20] transition">
                     <div className="flex items-start gap-3">
                       <div className="text-2xl mt-0.5 flex-shrink-0 text-black group-hover:text-[#F15C20] transition-colors">{item.icon}</div>
                       <div>

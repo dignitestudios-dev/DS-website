@@ -69,13 +69,13 @@ const Hero = () => {
           src="/native-app-1.webp"
           alt="Native app development company page shows two mobile screens that appear as mockup screens of native applications with revolving tech logos"
           title="Native app development company"
-          className="w-[130px] md:w-[256.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:-rotate-12 transition-all duration-700 z-20 relative -top-4 2xl:-top-0"
+          className="w-[130px] md:w-[256.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:-rotate-12 transition duration-700 z-20 relative -top-4 2xl:-top-0"
          width={500} height={500} priority/>
         <Image
           src="/native-app-2.webp"
           alt="Native app development company page shows two mobile screens that appear as mockup screens of native applications with revolving tech logos"
           title="Native app development company"
-          className="w-[130px] md:w-[256.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:rotate-12 transition-all duration-700 z-20 relative top-6 2xl:top-8"
+          className="w-[130px] md:w-[256.17px] 2xl:w-[260.17px] h-[263px] md:h-[512.83px] hover:rotate-12 transition duration-700 z-20 relative top-6 2xl:top-8"
          width={500} height={500} priority/>
       </div>
     </div>

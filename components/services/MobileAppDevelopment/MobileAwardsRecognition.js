@@ -12,7 +12,7 @@ const MobileAwardsRecognition = () => {
         }}
         className="lg:font-bold uppercase font-extrabold text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[104px] tracking-tighter xl:font-bold group"
       >
-        <span className="group-hover:text-[#F15C20] transition-all duration-300">
+        <span className="group-hover:text-[#F15C20] transition duration-300">
           awards & recognition
         </span>
       </h1>

@@ -202,7 +202,7 @@ const ServicesLayout = ({ page }) => {
 
   return (
     <div
-      className="w-full transition-all duration-700"
+      className="w-full transition duration-700"
       style={{
         background: palette?.background,
         color: palette?.color,

@@ -146,7 +146,7 @@ const ContactUsPage = () => {
   const labelClasses = `
     pointer-events-none absolute left-4 
     bg-white px-1 text-sm text-gray-500 
-    transition-all duration-150
+    transition duration-150
     top-3.5 
     peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#F15C20]
     peer-[&:not(:placeholder-shown)]:-top-2
@@ -311,7 +311,7 @@ const ContactUsPage = () => {
               <label
                 className={`
                 pointer-events-none absolute left-4 
-                bg-white px-1 text-sm transition-all duration-150
+                bg-white px-1 text-sm transition duration-150
                 ${service || isServiceFocused ? "-top-2 text-xs text-[#F15C20]" : "top-3.5 text-gray-500"}`}
               >
                 Choose a Service

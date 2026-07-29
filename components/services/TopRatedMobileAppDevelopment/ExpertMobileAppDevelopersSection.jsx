@@ -19,11 +19,11 @@ const ExpertMobileAppDevelopersSection = () => {
 
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 mt-4 gap-10">
         <div
-          className={`group transition-all duration-300  border-[1px] ${
+          className={`group transition duration-300  border-[1px] ${
             theme == "dark" ? "bg-[#393939]" : "bg-white"
           } lg:border-0 rounded-2xl flex flex-col ${
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-          } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8  transition-all duration-150`}
+          } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8  transition duration-150`}
         >
           <Image
             src={"/android-mobile-app-mockup.webp"} alt="Mobile app mockup of expert mobile app developers"width={42}
@@ -43,11 +43,11 @@ const ExpertMobileAppDevelopersSection = () => {
           </p>
         </div>
         <div
-          className={`group transition-all duration-300  border-[1px] ${
+          className={`group transition duration-300  border-[1px] ${
             theme == "dark" ? "bg-[#393939]" : "bg-white"
           } lg:border-0 rounded-2xl flex flex-col ${
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-          } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
+          } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition duration-150`}
         >
           <Image
             src={"/ios-mockup.webp"} alt="Mobile app mockup of Struggling to find an innovative partner for your "width={42}
@@ -68,11 +68,11 @@ const ExpertMobileAppDevelopersSection = () => {
           </p>
         </div>
         <div
-          className={`group transition-all duration-300  border-[1px] ${
+          className={`group transition duration-300  border-[1px] ${
             theme == "dark" ? "bg-[#393939]" : "bg-white"
           } lg:border-0 rounded-2xl flex flex-col ${
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-          } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition-all duration-150`}
+          } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 transition duration-150`}
         >
           <img
             src={"/expert-cross-platform-developers-icon.webp"} alt="Expert Cross Platform Developers Icon for Have you ever heard that an IOS application is run"width={42}

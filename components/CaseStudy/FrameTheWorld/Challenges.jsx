@@ -88,7 +88,7 @@ const Challenges = () => {
             return (
               <div 
                 key={card.id}
-                className="group relative flex-none w-[340px] md:w-[420px] h-[400px] md:h-[450px] p-8 md:p-12 flex flex-col justify-between transition-all duration-500 rounded-[16px] bg-white border-r-2 border-[#F4F4F4] hover:bg-gradient-to-br hover:from-[#6CACDF] hover:to-[#0000FE] hover:scale-[1.02] hover:z-20 cursor-pointer"
+                className="group relative flex-none w-[340px] md:w-[420px] h-[400px] md:h-[450px] p-8 md:p-12 flex flex-col justify-between transition duration-500 rounded-[16px] bg-white border-r-2 border-[#F4F4F4] hover:bg-gradient-to-br hover:from-[#6CACDF] hover:to-[#0000FE] hover:scale-[1.02] hover:z-20 cursor-pointer"
               >
                 {/* Optional glow for active card */}
                 <div className="absolute -left-10 top-1/2 -translate-y-1/2 w-[190px] h-[350px] bg-[#01C2FE] blur-[75px] rounded-[30px] z-0 pointer-events-none opacity-0 group-hover:opacity-50 transition-opacity duration-500" />
@@ -98,7 +98,7 @@ const Challenges = () => {
                   <img 
                     src={card.icon} 
                     alt={card.title} 
-                    className="w-full h-full object-contain transition-all duration-500 group-hover:brightness-0 group-hover:invert" 
+                    className="w-full h-full object-contain transition duration-500 group-hover:brightness-0 group-hover:invert" 
                   />
                 </div>
 

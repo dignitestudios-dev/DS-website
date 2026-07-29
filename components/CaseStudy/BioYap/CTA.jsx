@@ -20,7 +20,7 @@ const CTA = () => {
             Let our team give you a clean smooth market ready product according
             to your idea. 
           </p>
-          <Link href={"/contact-us"} className="px-8 py-3 text-sm rounded-full border transition-all ease-linear hover:bg-black hover:text-white capitalize border-black">
+          <Link href={"/contact-us"} className="px-8 py-3 text-sm rounded-full border transition ease-linear hover:bg-black hover:text-white capitalize border-black">
             Reach out today
           </Link>
         </div>

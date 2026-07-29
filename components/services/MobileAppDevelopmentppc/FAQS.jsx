@@ -43,7 +43,7 @@ const FAQS = () => {
                 type="button"
                 key={index}
                 className={`flex flex-col items-start justify-between w-full py-4 font-medium rtl:text-right ${
-                  theme == "dark" ? "text-[#e7e7e7] bg-[#1C1C1C] " : "bg-[#FFFFFF]  text-[#7D7D7D]"
+                  theme == "dark" ? "text-[#e7e7e7] bg-[#1C1C1C] " : "bg-[#FFFFFF]  text-[#737373]"
                 } outline-none border-none hover:opacity-95 rounded-[20px] py-[20px] px-5 mt-2`}
                 data-accordion-target="#accordion-collapse-body-1"
               >
@@ -77,7 +77,7 @@ const FAQS = () => {
 
                 <div
                   id="accordion-1"
-                  className={`transition-all duration-200 ${
+                  className={`transition duration-200 ${
                     openIndex === index ? "" : "hidden"
                   }`}
                 >

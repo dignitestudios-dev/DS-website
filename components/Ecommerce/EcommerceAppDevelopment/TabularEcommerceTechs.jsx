@@ -80,7 +80,7 @@ const TabularEcommerceTechs = () => {
             <button
               key={cat}
               onClick={() => setActiveTab(cat)}
-              className={`px-4 md:px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${
+              className={`px-4 md:px-8 py-2.5 rounded-full text-sm font-bold transition duration-300 ${
                 activeTab === cat
                   ? "bg-[#F15C20] text-white shadow-[0_0_20px_rgba(241,92,32,0.4)]"
                   : "text-gray-400 hover:text-black"
@@ -149,7 +149,7 @@ const TechCard = ({ tech }) => {
       transition={{ duration: 0.3 }}
       className={`relative h-[280px] w-full perspective-1000`}
     >
-      <motion.div className="w-full h-full relative preserve-3d transition-all duration-75">
+      <motion.div className="w-full h-full relative preserve-3d transition duration-75">
         {/* Front */}
         <div className="absolute inset-0 backface-hidden bg-white rounded-lg p-8 flex flex-col items-center justify-center border border-[#F15C20]/20 ">
           <div className="w-24 h-24 bg-[#F15C20] rounded-full flex items-center justify-center text-6xl text-white mb-6 shadow-lg">

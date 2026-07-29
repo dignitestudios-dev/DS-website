@@ -307,7 +307,7 @@ const MobileAppTexas = () => {
         }
         ctaBtn={"Contact the Team Now!"}
         cta={
-          <div className="bg-transparent overflow-hidden text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition-all  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
+          <div className="bg-transparent overflow-hidden text-white hover:scale-105 z-50 absolute opacity-100 shadow-[#F15C2033] transition  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  ">
             <div className="relative">
               <img
                 src="/location/mobile-texas/b-cta.webp"

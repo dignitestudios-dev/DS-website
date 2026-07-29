@@ -199,14 +199,14 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                 {({ isActive }) => (
                   <Link href={item.link || "#"} target="_blank" rel="noopener noreferrer" className="block w-auto h-auto cursor-pointer focus:outline-none">
                     <div
-                      className={`relative w-[258px] h-[295px] group rounded-[30px] shadow-2xl transition-all duration-500 ease-in-out ${isActive
+                      className={`relative w-[258px] h-[295px] group rounded-[30px] shadow-2xl transition duration-500 ease-in-out ${isActive
                         ? "scale-110 z-30 opacity-100 "
                         : "scale-90 opacity-40 z-10"
                         }`}
                     >
                       {/* Orange rotating background - Tilted when active */}
                       <div
-                        className={`absolute top-0 left-0 w-full h-full bg-[#F15C20] rounded-[30px] transition-all ease-in-out duration-500 z-0 ${isActive ? "rotate-12" : "rotate-0"
+                        className={`absolute top-0 left-0 w-full h-full bg-[#F15C20] rounded-[30px] transition ease-in-out duration-500 z-0 ${isActive ? "rotate-12" : "rotate-0"
                           }`}
                       />
 

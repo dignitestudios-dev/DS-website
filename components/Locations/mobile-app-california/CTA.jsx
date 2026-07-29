@@ -5,7 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const CTA = ({ heading, spanText, description, buttonText }) => {
   return (
-    <div className="w-[80%] hover:scale-105 transition-all ease-linear relative md:px-36 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
+    <div className="w-[80%] hover:scale-105 transition ease-linear relative md:px-36 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <img
         src="/location/mobile-california/grad1.webp"
         alt="grad1"

@@ -1,20 +1,22 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import { useContext, useEffect, lazy, Suspense } from "react";
-import Hero from "@/components/Home/Hero";
-import MobileAppServices from "@/components/Home/MobileAppServices";
+import dynamic from "next/dynamic";
 
-const SuccessStories = lazy(() => import("./SuccessStories"));
-const Bussiness = lazy(() => import("./Bussiness"));
-const Process = lazy(() => import("./Process"));
-const Industries = lazy(() => import("./Industries"));
-const TechTools = lazy(() => import("./TechTools"));
-const Impact = lazy(() => import("./Impact"));
-const Testimonials = lazy(() => import("./Testimonials"));
-const ProductDesign = lazy(() => import("./ProductDesign"));
-const GlobalPresence = lazy(() => import("./GlobalPresence"));
-const Faq = lazy(() => import("@/components/Home/Faq"));
-const ContactUs = lazy(() => import("./ContactUs"));
+const Hero = dynamic(() => import("@/components/Home/Hero"), { ssr: false });
+const MobileAppServices = dynamic(() => import("@/components/Home/MobileAppServices"), { ssr: false });
+
+const SuccessStories = dynamic(() => import("./SuccessStories"), { ssr: false });
+const Bussiness = dynamic(() => import("./Bussiness"), { ssr: false });
+const Process = dynamic(() => import("./Process"), { ssr: false });
+const Industries = dynamic(() => import("./Industries"), { ssr: false });
+const TechTools = dynamic(() => import("./TechTools"), { ssr: false });
+const Impact = dynamic(() => import("./Impact"), { ssr: false });
+const Testimonials = dynamic(() => import("./Testimonials"), { ssr: false });
+const ProductDesign = dynamic(() => import("./ProductDesign"), { ssr: false });
+const GlobalPresence = dynamic(() => import("./GlobalPresence"), { ssr: false });
+const Faq = dynamic(() => import("@/components/Home/Faq"), { ssr: false });
+const ContactUs = dynamic(() => import("./ContactUs"), { ssr: false });
 
 const LoadingFallback = () => <div className="w-full min-h-[400px]" />;
 
