@@ -22,7 +22,7 @@ const inter = Inter({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="overflow-x-hidden" suppressHydrationWarning>
       <head>
         <meta
           name="viewport"
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
       </head>
-      <body className={inter.className} suppressHydrationWarning>
+      <body className={`${inter.className} overflow-x-hidden`} suppressHydrationWarning>
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-WTVKC35B"
@@ -100,7 +100,6 @@ export default function RootLayout({ children }) {
               s1.async=true;
               s1.src='https://embed.tawk.to/664045f907f59932ab3e9a21/1htlh2m2o';
               s1.charset='UTF-8';
-              s1.setAttribute('crossorigin','*');
               s0.parentNode.insertBefore(s1,s0);
             })();`,
           }}
