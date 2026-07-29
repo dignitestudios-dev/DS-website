@@ -8,7 +8,7 @@ const NotFoundPage = () => {
     const { palette } = useContext(GlobalContext)
 
     return (
-        <main className="flex transition-all duration-500 items-center justify-center w-full min-h-screen py-8  page md:py-16 " style={{
+        <main className="flex transition duration-500 items-center justify-center w-full min-h-screen py-8  page md:py-16 " style={{
             background: palette?.background,
             color: palette?.color
         }}>

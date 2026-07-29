@@ -266,14 +266,14 @@ const SliderButtons = () => {
         type="button"
         onClick={() => swiper.slidePrev()}
       >
-        <HiOutlineArrowLeft className="w-8 h-8 text-[#B6B6B6] hover:text-[#F15C20] transition-all duration-200" />
+        <HiOutlineArrowLeft className="w-8 h-8 text-[#B6B6B6] hover:text-[#F15C20] transition duration-200" />
       </button>
       <button
         name="swipe right button"
         type="button"
         onClick={() => swiper.slideNext()}
       >
-        <HiOutlineArrowRight className="w-8 h-8 text-[#B6B6B6] hover:text-[#F15C20] transition-all duration-200" />
+        <HiOutlineArrowRight className="w-8 h-8 text-[#B6B6B6] hover:text-[#F15C20] transition duration-200" />
       </button>
     </div>
   );

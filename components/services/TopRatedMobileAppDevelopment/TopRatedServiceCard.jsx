@@ -18,11 +18,11 @@ const TopRatedServiceCard = ({ title, desc, light_icon, dark_icon, count }) => {
 
   return (
     <div
-      className={`group transition-all duration-300  border-[1px] ${
+      className={`group transition duration-300  border-[1px] ${
         theme == "dark" ? "bg-[#393939]" : "bg-[#F9F9F9]"
       } lg:border-0 rounded-2xl flex flex-col ${
         theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-      } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20]  transition-all duration-150`}
+      } justify-start items-start gap-4 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20]  transition duration-150`}
       onMouseOver={(e) => {
         setHoverImage(light_icon);
       }}

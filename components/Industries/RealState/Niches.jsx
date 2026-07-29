@@ -48,7 +48,7 @@ const Niches = () => {
 
         <div className="mt-28 flex gap-x-4 gap-y-16  flex-wrap justify-center items-center">
           {niches.map((item) => (
-            <article key={item.title} className="relative w-[250px] bg-white rounded-2xl border border-[#D3D3D8] p-6 pt-14 shadow-sm hover:shadow-lg transition-all">
+            <article key={item.title} className="relative w-[250px] bg-white rounded-2xl border border-[#D3D3D8] p-6 pt-14 shadow-sm hover:shadow-lg transition">
               <div className="absolute -top-12 left-1/2 -translate-x-1/2 inline-flex items-center justify-center w-24 h-24 rounded-full bg-[#F15C20] shadow-[0_8px_20px_rgba(241,92,32,0.35)]">
                 {item.icon}
               </div>

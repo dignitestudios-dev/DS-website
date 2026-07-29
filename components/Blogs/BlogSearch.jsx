@@ -37,7 +37,7 @@ const BlogSearch = ({ onSearch, initialValue = '', placeholder = "Search blog po
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder={placeholder}
-          className="w-full pl-10 pr-10 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15C20] focus:border-transparent transition-all duration-200"
+          className="w-full pl-10 pr-10 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15C20] focus:border-transparent transition duration-200"
         />
         {searchTerm && (
           <button

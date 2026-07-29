@@ -35,8 +35,8 @@ const BenefitsOfWebAppDev = () => {
               className={`h-[280px] xl:h-[310px] 2xl:h-[340px] w-full rounded-[18px]
                    p-5 md:p-8 flex flex-col items-start gap-0 text-start group  ${
                      theme === "dark"
-                       ? "bg-[#393939] hover:bg-[#F15C20] text-white transition-all duration-200"
-                       : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
+                       ? "bg-[#393939] hover:bg-[#F15C20] text-white transition duration-200"
+                       : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition duration-200"
                    }`}
             >
               <h3

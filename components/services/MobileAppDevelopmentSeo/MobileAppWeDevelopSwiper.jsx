@@ -43,7 +43,7 @@ const MobileAppWeDevelopSwiper = () => {
               title="Leanding mobile app development"
               decoding="async"
               data-nimg="1"
-              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
+              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition duration-300"
             />
           </div>
         </SwiperSlide>
@@ -61,7 +61,7 @@ const MobileAppWeDevelopSwiper = () => {
               data-nimg="1"
               alt="two mockup screens show the booking mobile app development"
               title="Booking Mobile App Development"
-              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
+              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition duration-300"
             />
           </div>
         </SwiperSlide>
@@ -78,7 +78,7 @@ const MobileAppWeDevelopSwiper = () => {
               decoding="async"
               data-nimg="1"
               alt="Two mockup screens show social media mobile app development"
-              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
+              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition duration-300"
             />
           </div>
         </SwiperSlide>
@@ -95,7 +95,7 @@ const MobileAppWeDevelopSwiper = () => {
               decoding="async"
               data-nimg="1"
               alt="two mockup screens show the ticketing mobile app development"
-              class="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
+              class="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition duration-300"
             />
           </div>
         </SwiperSlide>
@@ -112,7 +112,7 @@ const MobileAppWeDevelopSwiper = () => {
               decoding="async"
               data-nimg="1"
               alt="two mockup screens show the dating mobile app development"
-              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
+              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition duration-300"
             />
           </div>
         </SwiperSlide>
@@ -129,7 +129,7 @@ const MobileAppWeDevelopSwiper = () => {
               decoding="async"
               data-nimg="1"
               alt="two mockup screens show the telehealth mobile app development"
-              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition-all duration-300"
+              className="absolute right-0 -bottom-10 group-hover:-bottom-4 md:-bottom-4 md:group-hover:-bottom-0 lg:-bottom-14 lg:group-hover:-bottom-8 transition duration-300"
             />
           </div>
         </SwiperSlide>
@@ -149,14 +149,14 @@ const SliderButtons = () => {
         type="button"
         onClick={() => swiper.slidePrev()}
       >
-        <HiOutlineArrowLeft className="w-8 h-8 text-[#B6B6B6] hover:text-[#F15C20] transition-all duration-200" />
+        <HiOutlineArrowLeft className="w-8 h-8 text-[#B6B6B6] hover:text-[#F15C20] transition duration-200" />
       </button>
       <button
         name="swipe right button"
         type="button"
         onClick={() => swiper.slideNext()}
       >
-        <HiOutlineArrowRight className="w-8 h-8 text-[#B6B6B6] hover:text-[#F15C20] transition-all duration-200" />
+        <HiOutlineArrowRight className="w-8 h-8 text-[#B6B6B6] hover:text-[#F15C20] transition duration-200" />
       </button>
     </div>
   );

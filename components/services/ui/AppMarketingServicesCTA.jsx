@@ -49,11 +49,11 @@ const AppMarketingServicesCTA = () => {
                                 href="/contact-us"
                                 className="inline-flex items-center mt-8 group"
                             >
-                                <span className="h-[54px] px-8 rounded-full bg-[#F15C20] text-white font-medium flex items-center justify-center transition-all group-hover:bg-white group-hover:text-[#F15C20]">
+                                <span className="h-[54px] px-8 rounded-full bg-[#F15C20] text-white font-medium flex items-center justify-center transition group-hover:bg-white group-hover:text-[#F15C20]">
                                     Request a free call
                                 </span>
 
-                                <span className="ml-2 w-[54px] h-[54px] rounded-full bg-[#F15C20] text-white flex items-center justify-center transition-all group-hover:bg-white group-hover:text-[#F15C20]">
+                                <span className="ml-2 w-[54px] h-[54px] rounded-full bg-[#F15C20] text-white flex items-center justify-center transition group-hover:bg-white group-hover:text-[#F15C20]">
                                     <MdArrowOutward size={20} />
                                 </span>
                             </Link>

@@ -24,7 +24,7 @@ const rightIcons = [
 ];
 
   return (
-    <div className="w-[95%] h-[400px] md:h-[550px] lg:w-[80%] text-black md:bg-[url('/ecommerce/shopify-app/s-cta.webp')] bg-contain bg-no-repeat bg-center transition-all ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
+    <div className="w-[95%] h-[400px] md:h-[550px] lg:w-[80%] text-black md:bg-[url('/ecommerce/shopify-app/s-cta.webp')] bg-contain bg-no-repeat bg-center transition ease-linear relative md:px-36 px-10 md:my-0 md:py-14 mx-auto overflow-hidden">
       {/* Floating Icons Left */}
       {leftIcons.map((icon, idx) => (
         <motion.div

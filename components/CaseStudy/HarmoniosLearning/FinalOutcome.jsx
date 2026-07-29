@@ -116,7 +116,7 @@ const FinalOutcome = () => {
               <SwiperSlide key={index} className="flex justify-center">
                 {({ isActive, isNext, isPrev }) => (
                   <motion.div
-                    className="cursor-pointer transition-all duration-300"
+                    className="cursor-pointer transition duration-300"
                     style={{
                       opacity: isActive ? 1 : isPrev ? 0 : 1,
                       transform: isNext ? "scale(1.10)" : "scale(1)",
@@ -127,7 +127,7 @@ const FinalOutcome = () => {
                       width={400}
                       height={400}
                       alt={`Wireframe ${index + 1}`}
-                      className="transition-all w-[50%] md:w-full ease-linear"
+                      className="transition w-[50%] md:w-full ease-linear"
                     />
                   </motion.div>
                 )}

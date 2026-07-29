@@ -289,7 +289,7 @@ const BenefitsOfWorking = () => {
           href={"/contact-us"}
           className={`px-6 py-5 xl:py-8 xl:px-[26px] border border-[#F15C20] text-[#F15C20] hover:text-white ${
             theme === "light" ? "bg-[#F9F9F9]" : "bg-[#222222]"
-          } hover:bg-[#F15C20] transition-all duration-300 rounded-full text-xl font-medium`}
+          } hover:bg-[#F15C20] transition duration-300 rounded-full text-xl font-medium`}
         >
           Let's Start Your Project
         </Link>

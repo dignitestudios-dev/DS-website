@@ -36,11 +36,11 @@ const DevelopmentProcess = () => {
 
       <div className="w-full mt-6 lg:py-2 grid grid-cols-1 gap-2 lg:gap-0 md:grid-cols-2 xl:grid-cols-3 md:grid-rows-3 lg:grid-rows-2 xl:mt-10">
         <div
-          className={`group transition-all duration-300 border-[1px] ${
+          className={`group transition duration-300 border-[1px] ${
             theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
           } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-b lg:border-r transition-all duration-150`}
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-b lg:border-r transition duration-150`}
         >
           <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
             <p className="text-[40px] font-extrabold text-[#B4B4B499]">01</p>
@@ -68,11 +68,11 @@ const DevelopmentProcess = () => {
         </div>
 
         <div
-          className={`group transition-all duration-300 border-[1px] ${
+          className={`group transition duration-300 border-[1px] ${
             theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
           } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-b lg:border-r transition-all duration-150`}
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-b lg:border-r transition duration-150`}
         >
           <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
             <p className="text-[40px] font-extrabold text-[#B4B4B499]">02</p>
@@ -106,11 +106,11 @@ const DevelopmentProcess = () => {
         </div>
 
         <div
-          className={`group transition-all duration-300 border-[1px] ${
+          className={`group transition duration-300 border-[1px] ${
             theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
           } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-b transition-all duration-150`}
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-b transition duration-150`}
         >
           <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
             <p className="text-[40px] font-extrabold text-[#B4B4B499]">03</p>
@@ -140,11 +140,11 @@ const DevelopmentProcess = () => {
         </div>
 
         <div
-          className={`group transition-all duration-300 border-[1px] ${
+          className={`group transition duration-300 border-[1px] ${
             theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
           } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-r  transition-all duration-150`}
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-r  transition duration-150`}
         >
           <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
             <p className="text-[40px] font-extrabold text-[#B4B4B499]">04</p>
@@ -172,11 +172,11 @@ const DevelopmentProcess = () => {
         </div>
 
         <div
-          className={`group transition-all duration-300 border-[1px] ${
+          className={`group transition duration-300 border-[1px] ${
             theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
           } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-r transition-all duration-150`}
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] lg:border-r transition duration-150`}
         >
           <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
             <p className="text-[40px] font-extrabold text-[#B4B4B499]">05</p>
@@ -213,11 +213,11 @@ const DevelopmentProcess = () => {
         </div>
 
         <div
-          className={`group transition-all duration-300 border-[1px] ${
+          className={`group transition duration-300 border-[1px] ${
             theme == "dark" ? "border-[#393939]" : "border-[#e7e7e7]"
           } lg:border-0 rounded-3xl lg:rounded-none border-collapse flex flex-col ${
             theme == "dark" ? "border-[#1c1c1c]" : "border-gray-200"
-          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] transition-all duration-150`}
+          } justify-start items-start gap-2 p-4 md:py-3 md:px-3 lg:p-8 hover:bg-[#F15C20] h-[320px] transition duration-150`}
         >
           <div className="w-full flex flex-col gap-2 md:gap-2 justify-start items-start">
             <p className="text-[40px] font-extrabold text-[#B4B4B499]">06</p>

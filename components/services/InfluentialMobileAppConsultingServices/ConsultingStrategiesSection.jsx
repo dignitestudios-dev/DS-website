@@ -241,7 +241,7 @@ const ConsultingStrategiesSection = () => {
             name="swipe left button"
             className={`w-[49px] h-[49px] rounded-full flex items-center justify-center ${
               theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
-            } hover:bg-[#F15C20] hover:text-white transition-all duration-200`}
+            } hover:bg-[#F15C20] hover:text-white transition duration-200`}
             onClick={() => handleDecrement()}
           >
             <GoArrowLeft className="text-xl" />
@@ -251,7 +251,7 @@ const ConsultingStrategiesSection = () => {
             name="swipe right button"
             className={`w-[49px] h-[49px] rounded-full flex items-center justify-center ${
               theme === "light" ? "bg-[#FAFAFA] text-black" : "bg-[#333333]"
-            } hover:bg-[#F15C20] hover:text-white transition-all duration-200`}
+            } hover:bg-[#F15C20] hover:text-white transition duration-200`}
             onClick={() => handleIncrement()}
           >
             <GoArrowRight className="text-xl" />

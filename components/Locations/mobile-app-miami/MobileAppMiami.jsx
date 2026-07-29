@@ -276,7 +276,7 @@ const MobileAppMiami = () => {
         }
         ctaBtn={"Get Your Project Started"}
         cta={
-          <div className="bg-black  overflow-hidden hover:scale-105 z-50 absolute text-white   opacity-100  transition-all ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
+          <div className="bg-black  overflow-hidden hover:scale-105 z-50 absolute text-white   opacity-100  transition ease-linear  w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
             <div className="relative  overflow-hidden">
               <img
                 src="/location/mobile-miami/b-cta.webp"

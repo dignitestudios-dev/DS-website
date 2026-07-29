@@ -42,7 +42,7 @@ const TopAndroidAppSection = () => {
       <div className="w-full lg:max-w-[1000px] h-auto lg:h-[480px] grid md:grid-cols-2 grid-cols-1 gap-5 lg:gap-10 mt-5 lg:mt-10 relative">
         <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] hidden md:flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[380px] lg:h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
-            <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">
+            <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition duration-[1900ms]">
               <img
                 width={137}
                 height={298}
@@ -58,7 +58,7 @@ const TopAndroidAppSection = () => {
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
-            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1700ms]">
+            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition duration-[1700ms]">
               <img
                 width={137}
                 height={298}
@@ -81,7 +81,7 @@ const TopAndroidAppSection = () => {
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
-            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition-all duration-[1700ms]">
+            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition duration-[1700ms]">
               <img
                 width={137}
                 height={298}
@@ -109,7 +109,7 @@ const TopAndroidAppSection = () => {
 
         <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] hidden md:flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
-            <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">
+            <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition duration-[1900ms]">
               <img
                 width={137}
                 height={298}
@@ -125,7 +125,7 @@ const TopAndroidAppSection = () => {
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
-            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1700ms]">
+            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition duration-[1700ms]">
               <img
                 width={137}
                 height={298}
@@ -148,7 +148,7 @@ const TopAndroidAppSection = () => {
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
-            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition-all duration-[1700ms]">
+            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition duration-[1700ms]">
               <img
                 width={137}
                 height={298}
@@ -218,7 +218,7 @@ const TopAndroidAppSection = () => {
       <div className="w-full block md:hidden">
         <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[380px] lg:h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
-            <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">
+            <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition duration-[1900ms]">
               <img
                 width={137}
                 height={298}
@@ -234,7 +234,7 @@ const TopAndroidAppSection = () => {
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
-            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1700ms]">
+            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition duration-[1700ms]">
               <img
                 width={137}
                 height={298}
@@ -257,7 +257,7 @@ const TopAndroidAppSection = () => {
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
-            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition-all duration-[1700ms]">
+            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition duration-[1700ms]">
               <img
                 width={137}
                 height={298}
@@ -301,7 +301,7 @@ const TopAndroidAppSection = () => {
         </div>
         <div className="col-span-1 rounded-xl h-[380px] lg:h-[480px] mt-6 flex flex-col justify-between overflow-hidden bg-[#FAFAFA]">
           <div className="w-full h-[480px] flex items-center justify-between gap-6 group relative -rotate-[35deg]">
-            <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1900ms]">
+            <div className="flex flex-col justify-end gap-y-4 h-full relative group-hover:translate-y-36 transition duration-[1900ms]">
               <img
                 width={137}
                 height={298}
@@ -317,7 +317,7 @@ const TopAndroidAppSection = () => {
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
-            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition-all duration-[1700ms]">
+            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:translate-y-36 transition duration-[1700ms]">
               <img
                 width={137}
                 height={298}
@@ -340,7 +340,7 @@ const TopAndroidAppSection = () => {
                 className="w-[137.71px] h-[298.65px] object-contain mockup-shadow rounded-[15px]"
               />
             </div>
-            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition-all duration-[1700ms]">
+            <div className="flex flex-col justify-center gap-y-4 h-full relative group-hover:-translate-y-36 transition duration-[1700ms]">
               <img
                 width={137}
                 height={298}

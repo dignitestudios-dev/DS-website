@@ -271,7 +271,7 @@ const TopRatedAppDevelopmentContactSection = () => {
             <button
               type="submit"
               name="form-submit-button"
-              className=" text-white text-[13px] font-semibold px-8 py-4 rounded-full float-end hover:opacity-[.75] transition-all duration-300"
+              className=" text-white text-[13px] font-semibold px-8 py-4 rounded-full float-end hover:opacity-[.75] transition duration-300"
               style={{ background: "#F15C20" }}
             >
               Submit

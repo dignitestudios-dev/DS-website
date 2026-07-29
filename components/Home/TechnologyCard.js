@@ -16,7 +16,7 @@ const TechnologyCard = ({ technology }) => {
         setImage(technology?.gray);
         disableMouseCursor();
       }}
-      className={`h-[88px] w-[98px] flip-vertical-left rounded-[20px] transition-all duration-300 flex items-center justify-center ${
+      className={`h-[88px] w-[98px] flip-vertical-left rounded-[20px] transition duration-300 flex items-center justify-center ${
         theme == "dark" ? "bg-[#e7e7e7]/[0.2]" : "bg-[#e7e7e7]/[0.2]"
       } p-6`}
     >

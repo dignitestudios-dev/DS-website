@@ -18,27 +18,27 @@ const FixedSocials = () => {
       <Link aria-label="button"
         target="_blank"
         href="https://www.facebook.com/dignitestudios"
-        className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition-all duration-150 hover:opacity-80"
+        className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition duration-150 hover:opacity-80"
       >
         <FaFacebookF className="text-md text-white" />
       </Link>
       <a aria-label="button"
         href="tel:+18777141770"
-        className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition-all duration-150 hover:opacity-80"
+        className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition duration-150 hover:opacity-80"
       >
         <BsFillTelephoneFill className="text-md text-white" />
       </a>
       <Link aria-label="button"
         target="_blank"
         href="https://www.linkedin.com/company/dignitestudios/"
-        className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition-all duration-150 hover:opacity-80"
+        className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition duration-150 hover:opacity-80"
       >
         <ImLinkedin2 className="text-md text-white" />
       </Link>
       <Link aria-label="button"
         target="_blank"
         href="https://www.instagram.com/dignitestudios?igsh=MWc3NDBkazFuaTlkbQ=="
-        className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition-all duration-150 hover:opacity-80"
+        className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition duration-150 hover:opacity-80"
       >
         <AiOutlineInstagram className="text-lg text-white" />
       </Link>

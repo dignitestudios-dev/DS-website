@@ -29,7 +29,7 @@ const Challenges = ({ header, para, items }) => {
               className="group relative flex-none w-[395px] h-[444px] rounded-[7px] bg-[#F9F9F9] hover:bg-[#F15C20] transition-colors duration-300 overflow-hidden flex flex-col justify-end p-7 snap-start cursor-pointer"
             >
               {/* Number Background */}
-              <div className={` ${inter.className}  absolute top-0 font-inter -left-[70px] text-[210px] leading-[105%] font-bold text-[#0C0C0C] transition-all duration-500 group-hover:translate-x-[400px] group-hover:text-white tracking-[-0.04em] select-none pointer-events-none`}>
+              <div className={` ${inter.className}  absolute top-0 font-inter -left-[70px] text-[210px] leading-[105%] font-bold text-[#0C0C0C] transition duration-500 group-hover:translate-x-[400px] group-hover:text-white tracking-[-0.04em] select-none pointer-events-none`}>
                 {item.num}
               </div>
 

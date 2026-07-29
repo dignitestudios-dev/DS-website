@@ -58,7 +58,7 @@ const solutionPoints = [
         >
           <button
             onClick={() => setActiveTab('problem')}
-            className={`px-12 py-4 rounded-full font-medium transition-all duration-300 ${
+            className={`px-12 py-4 rounded-full font-medium transition duration-300 ${
               activeTab === 'problem'
                 ? 'bg-[#C0F765] text-black'
                 : 'bg-[#E6EAE2] text-gray-600'
@@ -68,7 +68,7 @@ const solutionPoints = [
           </button>
           <button
             onClick={() => setActiveTab('solution')}
-            className={`px-12 py-3 rounded-full font-medium transition-all duration-300 ${
+            className={`px-12 py-3 rounded-full font-medium transition duration-300 ${
               activeTab === 'solution'
                 ? 'bg-[#C0F765] text-black'
                 : 'bg-[#E6EAE2] text-gray-600 '

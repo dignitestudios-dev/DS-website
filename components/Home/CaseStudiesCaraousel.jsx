@@ -90,7 +90,7 @@ export default function FlickCardStack() {
       {/* Navigation Buttons */}
       <button
         onClick={handlePrev}
-        className="absolute left-4  md:left-[20%] 2xl:left-[25%] z-[100] p-3 md:p-4 rounded-full bg-white/10 hover:bg-[#F15C20] border hover:text-white text-[#F15C20] border-[#F15C20] backdrop-blur-md transition-all duration-300 opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center shadow-2xl"
+        className="absolute left-4  md:left-[20%] 2xl:left-[25%] z-[100] p-3 md:p-4 rounded-full bg-white/10 hover:bg-[#F15C20] border hover:text-white text-[#F15C20] border-[#F15C20] backdrop-blur-md transition duration-300 opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center shadow-2xl"
         aria-label="Previous slide"
       >
         <FaChevronLeft className="text-xl  md:text-2xl" />
@@ -98,7 +98,7 @@ export default function FlickCardStack() {
 
       <button
         onClick={handleNext}
-        className="absolute right-4 md:right-[20%] 2xl:right-[25%] z-[100] p-3 md:p-4 rounded-full bg-white/10  hover:bg-[#F15C20] border hover:text-white text-[#F15C20] border-[#F15C20] backdrop-blur-md transition-all duration-300 opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center shadow-lg"
+        className="absolute right-4 md:right-[20%] 2xl:right-[25%] z-[100] p-3 md:p-4 rounded-full bg-white/10  hover:bg-[#F15C20] border hover:text-white text-[#F15C20] border-[#F15C20] backdrop-blur-md transition duration-300 opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center shadow-lg"
         aria-label="Next slide"
       >
         <FaChevronRight className="text-xl md:text-2xl" />
@@ -122,11 +122,11 @@ export default function FlickCardStack() {
           >
             <motion.div className="relative h-[250px] w-[300px] md:h-[450px] md:w-[720px]  rounded-lg bg-neutral-200 shadow-xl">
               <div
-                className={`absolute duration-100 delay-200 bg-[#F15C20] z-40 ${offset == 0 ? "md:h-[510px] h-[300px] w-[320px] -top-2 md:w-[735px]" : " h-[250px] w-[300px] md:h-[450px] md:w-[720px] top-0"}   left-1/2 translate-x-[-50%] rounded-lg transition-all ease-out`}
+                className={`absolute duration-100 delay-200 bg-[#F15C20] z-40 ${offset == 0 ? "md:h-[510px] h-[300px] w-[320px] -top-2 md:w-[735px]" : " h-[250px] w-[300px] md:h-[450px] md:w-[720px] top-0"}   left-1/2 translate-x-[-50%] rounded-lg transition ease-out`}
               >
                 <div className="flex relative z-[9999] justify-between items-end h-full px-3 md:px-8 pb-3">
                   <span
-                    className={`text-white uppercase ${offset == 0 ? "text-sm md:text-lg pt-6" : "text-2xl pt-4"}  text-center transition-all ease-linear`}
+                    className={`text-white uppercase ${offset == 0 ? "text-sm md:text-lg pt-6" : "text-2xl pt-4"}  text-center transition ease-linear`}
                   >
                     {card.title}
                   </span>

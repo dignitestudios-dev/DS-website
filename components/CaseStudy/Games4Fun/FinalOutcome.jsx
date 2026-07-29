@@ -62,7 +62,7 @@ const FinalOutcome = () => {
         <SwiperSlide key={idx} className="!flex !justify-center !w-full !items-center">
           {({ isActive }) => (
             <div
-              className={`transition-all duration-500 !w-fit ease-out cursor-pointer ${
+              className={`transition duration-500 !w-fit ease-out cursor-pointer ${
                 isActive ? "scale-[3] md:scale-110 2xl:scale-105 z-10" : "scale-100 opacity-90 rounded-xl"
               } w-full h-full`}
             >

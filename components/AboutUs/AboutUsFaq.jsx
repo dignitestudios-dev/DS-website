@@ -54,7 +54,7 @@ const AboutUsFaq = () => {
           </button>
           <div
             id="accordion-1"
-            className={`transition-all duration-200 ${
+            className={`transition duration-200 ${
               openAccordion === 1 ? "" : "hidden"
             }`}
             aria-labelledby="accordion-collapse-heading-1"
@@ -111,7 +111,7 @@ const AboutUsFaq = () => {
           </button>
           <div
             id="accordion-1"
-            className={`transition-all duration-200 ${
+            className={`transition duration-200 ${
               openAccordion === 2 ? "" : "hidden"
             }`}
             aria-labelledby="accordion-collapse-heading-1"
@@ -172,7 +172,7 @@ const AboutUsFaq = () => {
           </button>
           <div
             id="accordion-1"
-            className={`transition-all duration-200 ${
+            className={`transition duration-200 ${
               openAccordion === 3 ? "" : "hidden"
             }`}
             aria-labelledby="accordion-collapse-heading-1"
@@ -232,7 +232,7 @@ const AboutUsFaq = () => {
           </button>
           <div
             id="accordion-1"
-            className={`transition-all duration-200 ${
+            className={`transition duration-200 ${
               openAccordion === 4 ? "" : "hidden"
             }`}
             aria-labelledby="accordion-collapse-heading-1"

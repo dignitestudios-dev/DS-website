@@ -44,7 +44,7 @@ const DiscoverOurHistory = () => {
               id="mobile-app-development-services/discover-our-history-section"
               className={`px-6 py-5 xl:px-8 xl:py-7 rounded-full font-medium text-lg border border-[#F15C20] text-[#F15C20] ${
                 theme === "light" ? "bg-white" : "bg-[#222222]"
-              } hover:bg-[#F15C20] hover:text-white transition-all duration-300`}
+              } hover:bg-[#F15C20] hover:text-white transition duration-300`}
             >
               Start Your Project
             </Link> */}

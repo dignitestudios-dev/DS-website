@@ -53,7 +53,7 @@ const Discorvery = () => {
         <div className="flex flex-wrap gap-3 font-semibold  justify-center items-center">
           {steps.map((s, idx) => (
             <div
-              className="rounded-[60px] text-black relative transition-all ease-linear hover:scale-105 bg-gradient-to-b from-[#CEA3D8] to-white md:w-[23%] w-[90%]  "
+              className="rounded-[60px] text-black relative transition ease-linear hover:scale-105 bg-gradient-to-b from-[#CEA3D8] to-white md:w-[23%] w-[90%]  "
               key={idx}
             >
               <img src={`/hl${idx+1}.webp`} width={300} height={300} className="absolute" />

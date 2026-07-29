@@ -31,7 +31,7 @@ const InnovativeMobileAppSection = () => {
           <div className="w-full lg:w-auto flex justify-start">
             <Link
               href="/contact-us"
-              className="py-3 px-5 lg:py-[20px] lg:px-[30px] xl:py-[28px] xl:px-[60px] float-end bg-[#F15C20] top-rated-btn-shadow rounded-full text-white text-base xl:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
+              className="py-3 px-5 lg:py-[20px] lg:px-[30px] xl:py-[28px] xl:px-[60px] float-end bg-[#F15C20] top-rated-btn-shadow rounded-full text-white text-base xl:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition duration-300"
             >
               Schedule a call <FiArrowUpRight className="text-xl" />
             </Link>

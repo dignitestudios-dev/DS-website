@@ -43,7 +43,7 @@ const WhyDignite = () => {
               width={40}
               height={40}src="/performance-testing.webp"
               alt="performance-testing"
-              className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
+              className="w-10 h-10 scale-75 group-hover:scale-110 transition duration-1000"
             />
             <h3 className="text-xl font-semibold">
               Innovative Mobile Performance Testing
@@ -65,7 +65,7 @@ const WhyDignite = () => {
               width={40}
               height={40}src="/quality-assessement.webp"
               alt="quality-assessement"
-              className="w-10 h-10 scale-75 group-hover:scale-110 transition-all duration-1000"
+              className="w-10 h-10 scale-75 group-hover:scale-110 transition duration-1000"
             />
             <h3 className="text-xl font-semibold">Quality Assessment</h3>
             <p className="text-xs font-normal leading-[16.32px]">
@@ -93,7 +93,7 @@ const WhyDignite = () => {
               width={40}
               height={40}src="/track-record.webp"
               alt="track-record"
-              className="w-10 h-10 scale-75 group-hover:scale-110 group-hover:rotate-90 transition-all duration-1000"
+              className="w-10 h-10 scale-75 group-hover:scale-110 group-hover:rotate-90 transition duration-1000"
             />
             <h3 className="text-xl font-semibold">Proven Track Record</h3>
             <p className="text-xs font-normal leading-[16.32px]">

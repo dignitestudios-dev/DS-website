@@ -105,7 +105,7 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
               <label   className="
     pointer-events-none absolute left-4 
     bg-[#0A0A0A] px-1 text-sm text-white 
-    transition-all duration-150
+    transition duration-150
     
 
     top-3 
@@ -135,7 +135,7 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
                 className="
     pointer-events-none absolute left-4 
     bg-[#0A0A0A] px-1 text-sm text-white 
-    transition-all duration-150
+    transition duration-150
     
 
     top-3 
@@ -212,7 +212,7 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
                 className="
     pointer-events-none absolute left-4 
     bg-[#0A0A0A] px-1 text-sm text-white 
-    transition-all duration-150
+    transition duration-150
     
 
     top-3 

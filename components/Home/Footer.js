@@ -179,14 +179,14 @@ const Footer = () => {
   return (
     <>
       {/* MOBILE FOOTER */}
-      <div className="md:hidden w-full h-auto bg-[#101010] relative -mt-24 z-50 transition-all duration-300 flex flex-col pt-20 pb-10 px-6 rounded-t-[50px]">
+      <div className="md:hidden w-full h-auto bg-[#101010] relative -mt-24 z-50 transition duration-300 flex flex-col pt-20 pb-10 px-6 rounded-t-[50px]">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[1px]" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
         {/* Sticky Logo Section - Mobile */}
         <div className="pt-5 z-30 bg-[#101010] py-6 -mx-6 px-6 border-b border-white/10">
           <div className="flex flex-col gap-4 items-center text-center">
-            <Link href="/">
+            <Link href="/" aria-label="Home">
               <Image
                 src="/logo-dark.webp"
                 alt="Dignite Studios Logo"
@@ -523,14 +523,14 @@ const Footer = () => {
       </div>
 
       {/* DESKTOP FOOTER */}
-      <div className="hidden md:block w-full h-auto bg-[url('/footer.webp')] bg-no-repeat bg-cover relative -mt-24 z-50 transition-all duration-300 pt-20 pb-10 px-8 md:px-12 lg:px-16 xl:px-28 rounded-t-[50px] md:rounded-t-[100px]">
+      <div className="hidden md:block w-full h-auto bg-[url('/footer.webp')] bg-no-repeat bg-cover relative -mt-24 z-50 transition duration-300 pt-20 pb-10 px-8 md:px-12 lg:px-16 xl:px-28 rounded-t-[50px] md:rounded-t-[100px]">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full bg-gradient-to-r from-transparent via-[#FFFFFF9A] to-transparent h-[.8px]" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-[#F15C20]/10 blur-[120px] pointer-events-none" />
 
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-12 gap-x-8 gap-y-12 mb-16 relative z-10">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-3 flex flex-col z-30 py-6">
-            <Link href="/">
+            <Link href="/" aria-label="Home">
               <Image
                 src="/logo-dark.webp"
                 alt="Dignite Studios Logo"

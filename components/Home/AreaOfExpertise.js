@@ -61,8 +61,8 @@ const AreaOfExpertise = () => {
                   className={`h-[350px] lg:h-[340px] xl:h-[320px] rounded-[18px]
                    p-6 flex flex-col items-start gap-0 text-start group ${
                      theme === "dark"
-                       ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition-all duration-200"
-                       : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
+                       ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition duration-200"
+                       : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition duration-200"
                    }`}
                 >
                   <h3

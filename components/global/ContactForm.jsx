@@ -270,7 +270,7 @@ const ContactForm = () => {
             <button
               type="submit"
               name="form-submit-button"
-              className="bg-[#F15C20] text-white rounded-[12px] text-center py-8 px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden text-white text-[16px] font-semibold px-8 py-4 w-full rounded-full flex justify-center gap-1 transition-all duration-300 hover:opacity-[1] "
+              className="bg-[#F15C20] text-white rounded-[12px] text-center py-8 px-24 hover:bg-black transition duration-300 relative group inline-block overflow-hidden text-white text-[16px] font-semibold px-8 py-4 w-full rounded-full flex justify-center gap-1 transition duration-300 hover:opacity-[1] "
               style={{ background: "#F15C20" }}
             >
               <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">

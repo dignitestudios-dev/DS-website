@@ -21,7 +21,7 @@ const TopRatedPageOurOffices = () => {
             <img
               src={"/Dignite-Studios-Florida-Office.webp"}
               alt="Dignite Studios Mobile App Development Company Florida Office"
-              className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
+              className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition duration-500"
             />
           </div>
           <h3 className="font-semibold text-[20px]">Florida, US</h3>
@@ -35,7 +35,7 @@ const TopRatedPageOurOffices = () => {
             <img
               src={"/Dignite-Studios-Dubai-Office.webp"}
               alt="Dignite Studios Mobile App Development Company Dubai Office"
-              className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
+              className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition duration-500"
             />
           </div>
           <h3 className="font-semibold text-[20px]">Dubai, UAE</h3>
@@ -50,7 +50,7 @@ const TopRatedPageOurOffices = () => {
             <img
               src={"/Dignite-Studios-Wyoming-Office.webp"}
               alt="Dignite Studios Mobile App Development Company Wyoming Office"
-              className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
+              className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition duration-500"
             />
           </div>
           <h3 className="font-semibold text-[20px]">Wyoming, US</h3>
@@ -64,7 +64,7 @@ const TopRatedPageOurOffices = () => {
             <img
               src={"/Dignite-Studios-Pakistan-Office.webp"}
               alt="Dignite Studios Mobile App Development Company Pakistan Office"
-              className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition-all duration-500"
+              className="w-full 2xl:h-[400px] rounded-[6px] scale-100 hover:scale-110 transition duration-500"
             />
           </div>
           <h3 className="font-semibold text-[20px]">Karachi, PK</h3>

@@ -295,7 +295,7 @@ const TechCard = ({ tech }) => {
       onClick={() => tech.description && setIsFlipped(!isFlipped)}
     >
       <motion.div
-        className="w-full h-full relative preserve-3d transition-all duration-75"
+        className="w-full h-full relative preserve-3d transition duration-75"
         animate={{ rotateY: isFlipped ? 180 : 0 }}
       >
         {/* Front */}

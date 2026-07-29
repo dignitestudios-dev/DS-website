@@ -30,7 +30,7 @@ const WhyChoose = ({header, para, header2,features}) => {
               {/* Card Container */}
               <div
                 className={`
-                relative overflow-hidden rounded-lg transition-all dark:bg-black/50 duration-300
+                relative overflow-hidden rounded-lg transition dark:bg-black/50 duration-300
                 bg-[#FAFAFA]
                 p-8 h-[350px] lg:h-[300px] flex flex-col justify-between
               `}
@@ -53,7 +53,7 @@ const WhyChoose = ({header, para, header2,features}) => {
                   <div
                     className={`
                     w-8 h-8 rounded border-2 flex items-center justify-center
-                    transition-all duration-300
+                    transition duration-300
                     ${
                       hoveredCard === index
                         ? " bg-orange-500 rotate-180 border-orange-500 "
@@ -69,7 +69,7 @@ const WhyChoose = ({header, para, header2,features}) => {
                 {/* Description - Hidden on Desktop, Shown on Hover */}
                 <div
                   className={`
-                  text-[12px] transition-all duration-300 overflow-hidden
+                  text-[12px] transition duration-300 overflow-hidden
                   hidden md:block
                   ${
                     hoveredCard === index

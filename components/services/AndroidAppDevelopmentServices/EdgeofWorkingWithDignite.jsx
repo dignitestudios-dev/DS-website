@@ -61,8 +61,8 @@ export default function EdgeOfDigniteStudios() {
                   className={`rounded-[18px]
                    p-6 pt-3 flex flex-col items-start gap-0 text-start group md:h-[370px] lg:h-[320px] ${
                      theme === "dark"
-                       ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition-all duration-200"
-                       : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
+                       ? "bg-[#1c1c1c] hover:bg-[#F15C20] text-white transition duration-200"
+                       : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition duration-200"
                    }`}
                 >
                   <p className="text-[#B8B8B8] text-[40px] font-bold">
@@ -107,7 +107,7 @@ const SliderButtons = () => {
         type="button"
         className={`rounded-full ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
-        } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl`}
+        } hover:bg-[#F15C20] hover:text-white transition duration-200 text-xl`}
         style={{ width: "76px", height: "76px" }}
       >
         &lt;
@@ -118,7 +118,7 @@ const SliderButtons = () => {
         type="button"
         className={`rounded-full ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
-        } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl`}
+        } hover:bg-[#F15C20] hover:text-white transition duration-200 text-xl`}
         style={{ width: "76px", height: "76px" }}
       >
         &gt;

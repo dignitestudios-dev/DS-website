@@ -49,7 +49,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
               alt="FindOurOfficesSwiper Dubai"
               className="w-full  h-full md:h-80 rounded-xl"
             />
-            <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
+            <span className=" transition duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
               <h1 className="text-md font-medium text-black">
                 {offices[2]?.name}
               </h1>
@@ -71,7 +71,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
               alt="{offices[2]?.description} - Florida"
               className="w-full   h-full md:h-80 rounded-xl"
             />
-            <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
+            <span className=" transition duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
               <h1 className="text-md font-medium text-black">
                 {offices[0]?.name}
               </h1>
@@ -93,7 +93,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
               alt="{offices[0]?.description} - Pakistan"
               className="w-full  h-full md:h-80 rounded-xl"
             />
-            <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
+            <span className=" transition duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
               <h1 className="text-md font-medium text-black">
                 {offices[3]?.name}
               </h1>
@@ -115,7 +115,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
               alt="{offices[3]?.description} - Wyoming"
               className="w-full  h-full md:h-80 rounded-xl"
             />
-            <span className=" transition-all duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
+            <span className=" transition duration-300  flex flex-col items-start justify-center  px-4 absolute bottom-8 left-[17%] w-3/5 h-auto py-2 rounded-xl bg-white">
               <h1 className="text-md font-medium text-black">
                 {offices[1]?.name}
               </h1>

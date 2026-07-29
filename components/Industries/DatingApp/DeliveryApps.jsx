@@ -114,7 +114,7 @@ const FlipCard = ({ card }) => {
       transition={{ duration: 0.01 }}
     >
       <motion.div
-        className="w-full h-full relative preserve-3d transition-all duration-100"
+        className="w-full h-full relative preserve-3d transition duration-100"
         animate={{ rotateY: isFlipped ? 180 : 0 }}
       >
         {/* FRONT */}

@@ -26,7 +26,7 @@ const TopRatedServices = () => {
         <div className="w-full lg:w-auto hidden lg:block">
           <Link
             href="/lp/contact-us"
-            className="py-3 px-5 text-base lg:py-7 lg:px-14 float-end bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300"
+            className="py-3 px-5 text-base lg:py-7 lg:px-14 float-end bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition duration-300"
           >
             Get in Touch <FiArrowUpRight className="text-xl" />
           </Link>
@@ -56,7 +56,7 @@ const TopRatedServices = () => {
       <div className="w-full lg:w-auto block lg:hidden my-4">
         <Link
           href="/contact-us"
-          className="py-5 px-5 text-base lg:py-7 lg:px-14 mx-auto bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition-all duration-300 w-[206px]"
+          className="py-5 px-5 text-base lg:py-7 lg:px-14 mx-auto bg-[#F15C20] top-rated-btn-shadow rounded-full text-white lg:text-xl font-semibold flex items-center justify-center gap-3 hover:opacity-[.75] transition duration-300 w-[206px]"
         >
           Get in Touch <FiArrowUpRight className="text-xl" />
         </Link>

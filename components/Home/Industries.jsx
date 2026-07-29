@@ -200,7 +200,7 @@ const Industries = ({ header, header2, para }) => {
                   className={`relative bottom-0 rounded-b-[14px] left-[50%] overflow-hidden translate-x-[-50%] pt-14 py-4 bg-[#FFC2A9] w-full mx-auto  text-center`}
                 >
                   <div
-                    className={`absolute bottom-0 -right-4 rounded-r-[14px] overflow-hidden h-[90px] bg-gradient-to-l from-[#FD6214] via-[#CF3E2F] to-[#B1182B] transition-all duration-500 ease-linear ${
+                    className={`absolute bottom-0 -right-4 rounded-r-[14px] overflow-hidden h-[90px] bg-gradient-to-l from-[#FD6214] via-[#CF3E2F] to-[#B1182B] transition duration-500 ease-linear ${
                       isActive
                         ? "w-[120%] rounded-l-full "
                         : "w-[0] rounded-l-full"

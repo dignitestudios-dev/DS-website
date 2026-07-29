@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 const MetricCard = ({ item }) => (
     <article
-  className={`relative w-[250px] bg-white rounded-2xl border border-[#D3D3D8] p-6 pt-14 shadow-sm hover:shadow-lg transition-all flex flex-col items-center ${
+  className={`relative w-[250px] bg-white rounded-2xl border border-[#D3D3D8] p-6 pt-14 shadow-sm hover:shadow-lg transition flex flex-col items-center ${
     item.description ? "h-[280px]" : "h-[160px]"
   }`}
 >

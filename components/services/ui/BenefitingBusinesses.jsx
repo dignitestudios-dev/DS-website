@@ -40,7 +40,7 @@ const BenefitingBusinesses = ({ header,header2, para, items, buttonText, buttonL
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: index * 0.1 }}
-            className="group relative flex flex-col items-center justify-start p-[50px_15px] gap-[50px] w-full md:w-[305px] min-h-[400px] bg-[#F9F9F9] border border-[#0C0C0C]/10 rounded-[16px] overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-transparent"
+            className="group relative flex flex-col items-center justify-start p-[50px_15px] gap-[50px] w-full md:w-[305px] min-h-[400px] bg-[#F9F9F9] border border-[#0C0C0C]/10 rounded-[16px] overflow-hidden transition duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-transparent"
           >
             {/* Hover Background Effects */}
             <div className="absolute inset-0 z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none overflow-hidden">

@@ -60,7 +60,7 @@ const AdminDashboard = () => {
         <SwiperSlide key={idx} className="!flex !justify-center !items-center">
           {({ isActive }) => (
             <div
-              className={`transition-all duration-500 w-full ease-out cursor-pointer ${
+              className={`transition duration-500 w-full ease-out cursor-pointer ${
                 isActive ? "scale-150 md:scale-100 2xl:scale-105 z-10" : "scale-90 opacity-90 rounded-xl"
               } w-full h-full`}
             >

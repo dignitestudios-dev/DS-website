@@ -20,7 +20,7 @@ const TurnYourIdea = () => {
           }}
           className="uppercase font-extrabold  lg:text-start text-4xl lg:text-5xl xl:text-[72px] 2xl:text-[82px]  tracking-tighter lg:font-bold group"
         >
-          TURN YOUR CONCEPT  <br /> into functional <br /> <span className="text-[#F15C20] transition-all duration-300">web Application</span>
+          TURN YOUR CONCEPT  <br /> into functional <br /> <span className="text-[#F15C20] transition duration-300">web Application</span>
         </h1>
         <p
           style={{
@@ -37,7 +37,7 @@ const TurnYourIdea = () => {
             background: palette?.brandOrange,
             color: "white",
           }}
-          className="orange w-[150px] lg:w-[171px] h-14 lg:h-16 rounded-full transition-all duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center lg:ml-1"
+          className="orange w-[150px] lg:w-[171px] h-14 lg:h-16 rounded-full transition duration-150 hover:opacity-90  shadow-xl text-sm lg:text-md font-medium shadow-[#F15C20]/[0.3] flex items-center justify-center lg:ml-1"
         >
           Get Started
         </Link>

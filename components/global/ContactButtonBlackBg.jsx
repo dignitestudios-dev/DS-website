@@ -5,7 +5,7 @@ const ContactButtonBlackBg = ({ text1, text2 }) => {
   return (
     <Link
       href="/contact-us"
-      className="bg-[#0C0C0C14] text-black hover:text-white rounded-[12px] text-center py-8 px-24 hover:bg-black transition-all duration-300 relative group inline-block overflow-hidden"
+      className="bg-[#0C0C0C14] text-black hover:text-white rounded-[12px] text-center py-8 px-24 hover:bg-black transition duration-300 relative group inline-block overflow-hidden"
     >
       {/* First text */}
       <span className="block absolute inset-0 flex items-center justify-center transform transition-transform duration-300 ease-in-out group-hover:-translate-y-full">

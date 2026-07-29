@@ -27,7 +27,7 @@ const TopOfTheLine = () => {
         <img
           src="/Android-Mobile-App-Design-Company-Android-image.webp"
           alt="Android Mobile App Design Company shows two Android mobile app screens"
-          className="w-[100.35px] h-[100.35px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover:left-16 md:group-hover:left-48 lg:group-hover:left-60 xl:group-hover:left-14 2xl:group-hover:left-24 transition-all duration-500"
+          className="w-[100.35px] h-[100.35px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover:translate-x-16 md:group-hover:translate-x-48 lg:group-hover:translate-x-60 xl:group-hover:translate-x-14 2xl:group-hover:translate-x-24 origin-left transition duration-500"
         />
         <img
           src="/Android-Mobile-App-Design-Company-image-1.webp"
@@ -37,7 +37,7 @@ const TopOfTheLine = () => {
         <img
           src="/Android-Mobile-App-Design-Company-image-2.webp"
           alt="Android Mobile App Design Company shows two Android mobile app screens"
-          className="w-[138px] h-[280px] md:w-[193px] 2xl:w-[210px] md:h-[418px] rotate-12 border-[11px] border-gray-50 absolute top-1/2 lg:right-32 lg:group-hover:right-14 xl:-right-10 2xl:-right-2 transform -translate-x-[125%] md:-translate-x-[200%] lg:-translate-x-[50%] lg:group-hover:-translate-x-[30%] md:group-hover:-translate-x-[100%] -translate-y-1/2 rounded-[23px] -right-[30%] group-hover:-right-36 xl:group-hover:-right-36 2xl:group-hover:-right-28 transition-all duration-500"
+          className="w-[138px] h-[280px] md:w-[193px] 2xl:w-[210px] md:h-[418px] rotate-12 border-[11px] border-gray-50 absolute top-1/2 lg:right-32 lg:group-hover:right-14 xl:-right-10 2xl:-right-2 transform -translate-x-[125%] md:-translate-x-[200%] lg:-translate-x-[50%] lg:group-hover:-translate-x-[30%] md:group-hover:-translate-x-[100%] -translate-y-1/2 rounded-[23px] -right-[30%] group-hover:-right-36 xl:group-hover:-right-36 2xl:group-hover:-right-28 transition duration-500"
         />
       </div>
     </section>

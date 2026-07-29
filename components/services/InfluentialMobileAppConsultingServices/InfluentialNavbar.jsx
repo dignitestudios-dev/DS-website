@@ -90,7 +90,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
       {showDropdown && (
         <div
           onMouseLeave={() => setShowDropdown(false)}
-          className={`w-[100%] min-h-[369px] p-6 z-20 text-md transition-all duration-150 hidden lg:flex gap-2 justify-center lg:gap-x-8 xl:gap-x-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2  ${
+          className={`w-[100%] min-h-[369px] p-6 z-20 text-md transition duration-150 hidden lg:flex gap-2 justify-center lg:gap-x-8 xl:gap-x-20 pt-10 items-start absolute top-20 left-1/2 transform -translate-x-1/2  ${
             theme == "dark" ? "shadow-xl" : "shadow-xl"
           } -right-24`}
           style={{ background: palette?.background, color: palette?.color }}
@@ -235,10 +235,10 @@ const InfluentialNavbar = ({ setIsOpen }) => {
           onClick={() => setTheme(theme == "dark" ? "light" : "dark")}
           className={`${
             theme == "light" ? "bg-[#00ACFF]/[0.18]" : "bg-[#A9A1D7]/[0.18]"
-          } rounded-full transition-all duration-300 w-[50px] lg:w-[70px] h-[30px] lg:h-[37.5px] p-[4px] flex justify-start items-center`}
+          } rounded-full transition duration-300 w-[50px] lg:w-[70px] h-[30px] lg:h-[37.5px] p-[4px] flex justify-start items-center`}
         >
           <span
-            className={`h-6 w-6 lg:h-8 lg:w-8 text-xl text-white transition-all duration-300 rounded-full flex items-center justify-center ${
+            className={`h-6 w-6 lg:h-8 lg:w-8 text-xl text-white transition duration-300 rounded-full flex items-center justify-center ${
               theme == "light"
                 ? "translate-x-0 bg-[#00ACFF]"
                 : "translate-x-[calc(100%-28%)] lg:translate-x-[calc(100%-3%)] bg-[#342A6D]"

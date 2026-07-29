@@ -12,7 +12,7 @@ const ContactUsAlert = () => {
     <div
       className={`animate-pulse  ${
         error ? "flex" : "hidden"
-      } transition-all duration-500 w-full  h-16 rounded-3xl bg-orange-600  text-white text-sm font-medium z-[5000] uppercase  gap-3 justify-start items-center px-6`}
+      } transition duration-500 w-full  h-16 rounded-3xl bg-orange-600  text-white text-sm font-medium z-[5000] uppercase  gap-3 justify-start items-center px-6`}
     >
       <svg
         class="flex-shrink-0 w-4 h-4"

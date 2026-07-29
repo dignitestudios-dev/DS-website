@@ -30,8 +30,7 @@ export default function RootLayout({ children }) {
         ></meta>
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
       </head>
@@ -47,7 +46,7 @@ export default function RootLayout({ children }) {
         
         <Script
           id="gtm-script"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -59,7 +58,7 @@ export default function RootLayout({ children }) {
         />
         <Script
           id="microsoft-clarity"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         >
           {`
             (function(c,l,a,r,i,t,y){
@@ -72,12 +71,12 @@ export default function RootLayout({ children }) {
  
         <Script
           id="ga-script"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-0GWJVWYEKD"
         />
         <Script
           id="ga-init"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
             window.dataLayer = window.dataLayer || [];
@@ -88,7 +87,7 @@ export default function RootLayout({ children }) {
         />
         
         <AOSInit />
-        <GlobalContextProvider>{children}</GlobalContextProvider>
+        <GlobalContextProvider><main id="main-content">{children}</main></GlobalContextProvider>
         
         <Script
           id="tawk-chat"

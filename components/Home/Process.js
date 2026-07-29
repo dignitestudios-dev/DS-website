@@ -184,7 +184,7 @@ const Process = () => {
           <div className="w-full h-auto mt-6 lg:my-6 grid grid-cols-3 grid-rows-1">
             <button
               onClick={() => handleAgileClick()}
-              className={`w-full font-medium text-md lg:text-lg gap-1 lg:gap-3 transition-all duration-300 h-16 border-b-[1px] ${openedTab == 1 ? "border-[#F15C20] text-[#f15c20]" : "border-[#B4B4B4]/[0.5] text-[#b4b4b4]"} focus:border-[#F15C20] capitalize flex items-center justify-start lg:px-3`}
+              className={`w-full font-medium text-md lg:text-lg gap-1 lg:gap-3 transition duration-300 h-16 border-b-[1px] ${openedTab == 1 ? "border-[#F15C20] text-[#f15c20]" : "border-[#B4B4B4]/[0.5] text-[#b4b4b4]"} focus:border-[#F15C20] capitalize flex items-center justify-start lg:px-3`}
             >
               <span
                 className={`w-7 h-7 lg:w-9 lg:h-9 xl:w-[44px] xl:h-[44px] rounded-full flex justify-center items-center ${openedTab == 1 ? "bg-[#F15C20]/[0.08] -rotate-0" : theme == "light" ? "bg-[#E7E7E7] -rotate-90" : "bg-[#1c1c1c] -rotate-90"}`}
@@ -195,7 +195,7 @@ const Process = () => {
             </button>
             <button
               onClick={() => handleWaterfallClick()}
-              className={`w-full font-medium text-md lg:text-lg gap-1 lg:gap-3 transition-all duration-300 h-16 border-b-[1px] ${openedTab == 2 ? "border-[#F15C20] text-[#f15c20]" : "border-[#B4B4B4]/[0.5] text-[#b4b4b4]"} focus:border-[#F15C20] capitalize flex items-center justify-start lg:px-3`}
+              className={`w-full font-medium text-md lg:text-lg gap-1 lg:gap-3 transition duration-300 h-16 border-b-[1px] ${openedTab == 2 ? "border-[#F15C20] text-[#f15c20]" : "border-[#B4B4B4]/[0.5] text-[#b4b4b4]"} focus:border-[#F15C20] capitalize flex items-center justify-start lg:px-3`}
             >
               <span
                 className={`w-7 h-7 lg:w-9 lg:h-9 xl:w-[44px] xl:h-[44px] rounded-full flex justify-center items-center ${openedTab == 2 ? "bg-[#F15C20]/[0.08] -rotate-0" : theme == "light" ? "bg-[#E7E7E7] -rotate-90" : "bg-[#1c1c1c] -rotate-90"}`}
@@ -206,7 +206,7 @@ const Process = () => {
             </button>
             <button
               onClick={() => handleHybridClick()}
-              className={`w-full font-medium text-md lg:text-lg gap-1 lg:gap-3 transition-all duration-300 h-16 border-b-[1px] ${openedTab == 3 ? "border-[#F15C20] text-[#f15c20]" : "border-[#B4B4B4]/[0.5] text-[#b4b4b4]"} focus:border-[#F15C20] capitalize flex items-center justify-start lg:px-3`}
+              className={`w-full font-medium text-md lg:text-lg gap-1 lg:gap-3 transition duration-300 h-16 border-b-[1px] ${openedTab == 3 ? "border-[#F15C20] text-[#f15c20]" : "border-[#B4B4B4]/[0.5] text-[#b4b4b4]"} focus:border-[#F15C20] capitalize flex items-center justify-start lg:px-3`}
             >
               <span
                 className={`w-7 h-7 lg:w-9 lg:h-9 xl:w-[44px] xl:h-[44px] rounded-full flex justify-center items-center ${openedTab == 3 ? "bg-[#F15C20]/[0.08] -rotate-0" : theme == "light" ? "bg-[#E7E7E7] -rotate-90" : "bg-[#1c1c1c] -rotate-90"}`}
@@ -238,7 +238,7 @@ const Process = () => {
             <button
               key={tab}
               onClick={() => setOpenedTab(idx + 1)}
-              className={`px-6 py-2 rounded-full border text-sm transition-all duration-300 ${openedTab === idx + 1 ? "border-[#F15C20] text-[#F15C20] bg-[#F15C20]/5" : "border-gray-200 text-gray-400"}`}
+              className={`px-6 py-2 rounded-full border text-sm transition duration-300 ${openedTab === idx + 1 ? "border-[#F15C20] text-[#F15C20] bg-[#F15C20]/5" : "border-gray-200 text-gray-400"}`}
             >
               {tab}
             </button>

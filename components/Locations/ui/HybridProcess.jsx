@@ -13,7 +13,7 @@ const HybridProcess = () => {
       <div className="w-full my-6 px-2 lg:px-10 xl:px-14 h-auto hidden lg:flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
-            <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
+            <p className="transition duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               01.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -34,7 +34,7 @@ const HybridProcess = () => {
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
-            <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
+            <p className="transition duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               03.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -56,7 +56,7 @@ const HybridProcess = () => {
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10 gap-3">
-            <p className="transition-all duration-150  text-[70px] lg:text-[100px] text-[#F15C20] font-bold leading-[4.5rem]">
+            <p className="transition duration-150  text-[70px] lg:text-[100px] text-[#F15C20] font-bold leading-[4.5rem]">
               05.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -228,7 +228,7 @@ const HybridProcess = () => {
         <VerticalTimeline palette={palette} />
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
-            <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
+            <p className="transition duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               02.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -254,7 +254,7 @@ const HybridProcess = () => {
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  py-10">
-            <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
+            <p className="transition duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               04.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -277,7 +277,7 @@ const HybridProcess = () => {
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start  py-10">
-            <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
+            <p className="transition duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[137.97px]">
               06.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -305,7 +305,7 @@ const HybridProcess = () => {
       <div className="w-full my-6 px-2 lg:px-10 h-auto lg:hidden flex flex-col lg:flex-row gap-0 lg:gap-10 justify-start items-start">
         <div className=" w-full lg:w-[49%] h-auto grid grid-rows-3 grid-cols-1 gap-3">
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
-            <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
+            <p className="transition duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               01.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -326,7 +326,7 @@ const HybridProcess = () => {
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
-            <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
+            <p className="transition duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               02.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -352,7 +352,7 @@ const HybridProcess = () => {
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
-            <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
+            <p className="transition duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               03.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -439,7 +439,7 @@ const HybridProcess = () => {
         </div>
         <div className="w-full lg:w-[49%] h-auto lg:mt-44 grid grid-rows-3 grid-cols-1 gap-3">
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
-            <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
+            <p className="transition duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               04.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -462,7 +462,7 @@ const HybridProcess = () => {
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto  border-b-[1px] border-[#b4b4b4]/[0.5] flex flex-col justify-center items-start  pb-3 lg:py-10">
-            <p className="transition-all duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem] xl:leading-[137.97px]">
+            <p className="transition duration-150 text-[#b4b4b4]/[0.7] text-[70px] lg:text-[100px] group-hover:text-[#F15C20] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               05.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">
@@ -485,7 +485,7 @@ const HybridProcess = () => {
             </p>
           </div>
           <div className="group  w-full h-auto lg:h-auto flex flex-col justify-center items-start pb-3 lg:py-10 gap-3">
-            <p className="transition-all duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
+            <p className="transition duration-150 text-[#F15C20] text-[70px] lg:text-[100px] xl:text-[114px] font-bold leading-[4.5rem] xl:leading-[137.97px]">
               06.
             </p>
             <h4 className="text-[40px] lg:text-[48px] font-bold uppercase leading-[58.09px]">

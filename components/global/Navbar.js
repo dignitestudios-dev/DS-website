@@ -295,7 +295,7 @@ const Navbar = ({ setIsOpen }) => {
           >
             Get a Free Quote
           </Link>
-          <button onClick={() => setIsOpen(true)} className="flex lg:hidden">
+          <button onClick={() => setIsOpen(true)} className="flex lg:hidden" aria-label="Open menu">
             <img
               src={pathname === "/" ? "/menu-dark.webp" : "/hamburger.webp"}
               alt="menu"

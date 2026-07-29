@@ -60,8 +60,8 @@ export default function WorkingWithDignite() {
                   className={`h-[320px] lg:h-[360px] xl:h-[280px] w-full rounded-[18px]
                    p-6 flex flex-col items-start gap-0 text-start group  ${
                      theme === "dark"
-                       ? "bg-[#393939] hover:bg-[#F15C20] text-white transition-all duration-200"
-                       : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition-all duration-200"
+                       ? "bg-[#393939] hover:bg-[#F15C20] text-white transition duration-200"
+                       : "bg-[#FAFAFA] hover:bg-[#F15C20] text-white transition duration-200"
                    }`}
                 >
                   <h3
@@ -103,7 +103,7 @@ const SliderButtons = () => {
         type="button"
         className={`rounded-full ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
-        } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl w-[45px] h-[45px] xl:w-[76px] xl:h-[76px]`}
+        } hover:bg-[#F15C20] hover:text-white transition duration-200 text-xl w-[45px] h-[45px] xl:w-[76px] xl:h-[76px]`}
       >
         &lt;
       </button>
@@ -113,7 +113,7 @@ const SliderButtons = () => {
         type="button"
         className={`rounded-full ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
-        } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl w-[45px] h-[45px] xl:w-[76px] xl:h-[76px]`}
+        } hover:bg-[#F15C20] hover:text-white transition duration-200 text-xl w-[45px] h-[45px] xl:w-[76px] xl:h-[76px]`}
       >
         &gt;
       </button>

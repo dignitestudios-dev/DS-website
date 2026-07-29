@@ -72,8 +72,8 @@ export default function AndroidAppDevServices() {
                   className={`h-[320px] lg:h-[360px] xl:h-[280px] w-full rounded-[18px]
                    p-7 flex flex-col items-start justify-start gap-3 text-start group border ${
                      theme === "dark"
-                       ? " text-white transition-all duration-200 border-[#4f4f4f]"
-                       : " text-white transition-all duration-200"
+                       ? " text-white transition duration-200 border-[#4f4f4f]"
+                       : " text-white transition duration-200"
                    }`}
                 >
                   <img
@@ -116,7 +116,7 @@ const SliderButtons = () => {
         type="button"
         className={`rounded-full ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
-        } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl w-[45px] h-[45px] xl:w-[76px] xl:h-[76px]`}
+        } hover:bg-[#F15C20] hover:text-white transition duration-200 text-xl w-[45px] h-[45px] xl:w-[76px] xl:h-[76px]`}
       >
         &lt;
       </button>
@@ -126,7 +126,7 @@ const SliderButtons = () => {
         type="button"
         className={`rounded-full ${
           theme === "light" ? "bg-[#FAFAFA]" : "bg-[#333333]"
-        } hover:bg-[#F15C20] hover:text-white transition-all duration-200 text-xl w-[45px] h-[45px] xl:w-[76px] xl:h-[76px]`}
+        } hover:bg-[#F15C20] hover:text-white transition duration-200 text-xl w-[45px] h-[45px] xl:w-[76px] xl:h-[76px]`}
       >
         &gt;
       </button>

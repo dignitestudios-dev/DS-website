@@ -28,7 +28,7 @@ const CTA = () => {
           <p className=" text-lg md:text-xl">
             Let’s shape your next digital product through expert Web Application Development Services. 
           </p>
-          <Link href={"/contact-us"} className="px-8 py-5 flex gap-2 items-center text-base rounded-full border transition-all ease-linear hover:bg-black hover:text-white capitalize border-white">
+          <Link href={"/contact-us"} className="px-8 py-5 flex gap-2 items-center text-base rounded-full border transition ease-linear hover:bg-black hover:text-white capitalize border-white">
            Contact us today to get started
            <FaArrowRightLong />
 

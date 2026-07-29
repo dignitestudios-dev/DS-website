@@ -17,7 +17,7 @@ const row2 = [
 ];
 
 const TechCard = ({ name, Icon }) => (
-  <div className="group flex flex-col justify-between items-center pt-[40px] px-[20px] pb-[20px] gap-[10px] w-full md:w-[312.5px] h-[200px] bg-white/5 rounded-[16px] hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 cursor-pointer border border-transparent hover:border-[#65CB11]/30 hover:shadow-[0_10px_30px_rgba(101,203,17,0.15)]">
+  <div className="group flex flex-col justify-between items-center pt-[40px] px-[20px] pb-[20px] gap-[10px] w-full md:w-[312.5px] h-[200px] bg-white/5 rounded-[16px] hover:-translate-y-2 hover:bg-white/10 transition duration-300 cursor-pointer border border-transparent hover:border-[#65CB11]/30 hover:shadow-[0_10px_30px_rgba(101,203,17,0.15)]">
     <div className="w-[80px] h-[80px] bg-[#65CB11] rounded-full flex items-center justify-center p-[10px] transition-transform duration-300 group-hover:scale-110 group-hover:rotate-[5deg]">
       <Icon className="text-[#124733] w-[45px] h-[45px] transition-transform duration-300 group-hover:-rotate-[5deg]" />
     </div>

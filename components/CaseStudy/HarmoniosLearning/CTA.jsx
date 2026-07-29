@@ -13,7 +13,7 @@ const CTA = () => {
           <p>
            Talk to our experts and figure out what actually works for kids and parents without overcomplicating things.
           </p>
-          <Link href={"/contact-us"} className="flex items-center w-fit gap-3 relative z-50 bg-transparent p-4 border hover:border-black hover:bg-black hover:text-white transition-all ease-linear border-white text-white rounded-full capitalize">
+          <Link href={"/contact-us"} className="flex items-center w-fit gap-3 relative z-50 bg-transparent p-4 border hover:border-black hover:bg-black hover:text-white transition ease-linear border-white text-white rounded-full capitalize">
             Discuss Your Idea
             <svg
               width="18"
