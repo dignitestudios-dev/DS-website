@@ -22,7 +22,7 @@ const cards = [
   },
   {
     image: "/frame/frame-thumbnail.webp",
-    icon: "/frame/logo.webp",
+    icon: "/frame/logo2.webp",
     title: "Frame The World",
     description: "Travel photo sharing for unforgettable journeys.",
     pathname: "/case-studies/frame-the-world"
