@@ -97,13 +97,14 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
             {/* Full Name */}
             <div className="relative">
               <input
+                id="name"
                 type="text"
                 value={name}
                 onChange={handleChange(setName, "name")}
                 className={`peer w-full rounded-xl border ${errors.name ? "border-red-500" : "border-white"} bg-transparent px-4 py-3 text-white focus:outline-none`}
                 placeholder=" "
               />
-              <label   className="
+              <label htmlFor="name"   className="
     pointer-events-none absolute left-4 
     bg-[#0A0A0A] px-1 text-sm text-white 
     transition duration-150
@@ -126,13 +127,14 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
             {/* Email */}
             <div className="relative">
               <input
+                id="email"
                 type="email"
                 value={email}
                 onChange={handleChange(setEmail, "email")}
                 className={`peer w-full rounded-xl border ${errors.email ? "border-red-500" : "border-white"} bg-transparent px-4 py-3 text-white focus:outline-none`}
                 placeholder=" "
               />
-              <label
+              <label htmlFor="email"
                 className="
     pointer-events-none absolute left-4 
     bg-[#0A0A0A] px-1 text-sm text-white 
@@ -202,14 +204,14 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
 
             {/* Message */}
             <div className="relative">
-              <textarea
+              <textarea id="message"
                 rows="4"
                 value={message}
                 onChange={handleChange(setMessage, "message")}
                 className={`peer w-full rounded-xl border ${errors.message ? "border-red-500" : "border-white"} bg-transparent px-4 py-3 text-white focus:outline-none resize-none`}
                 placeholder=" "
               />
-              <label
+              <label htmlFor="message"
                 className="
     pointer-events-none absolute left-4 
     bg-[#0A0A0A] px-1 text-sm text-white 
@@ -239,7 +241,7 @@ const ContactUs = ({ pathname, header, img, header2, para, btn }) => {
               >
                 {btn}
               </button>
-              <button
+              <button aria-label="Submit"
                 type="submit"
                 className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg border-l border-white/20"
               >
