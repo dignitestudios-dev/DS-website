@@ -555,6 +555,7 @@ const Footer = () => {
               </button>
               <button
                 type="button"
+                aria-label="Discuss Your Idea"
                 className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-9 h-9 rounded-full flex items-center justify-center transition-colors text-base"
               >
                 <MdArrowOutward />

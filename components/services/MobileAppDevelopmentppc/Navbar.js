@@ -7,6 +7,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import { IoIosArrowDown } from "react-icons/io";
 import { usePathname, useRouter } from "next/navigation";
 import { GoDotFill } from "react-icons/go";
+import Image from "next/image";
 
 const Navbar = ({ setIsOpen }) => {
   const { palette, theme, setTheme } = useContext(GlobalContext);
@@ -28,11 +29,11 @@ const Navbar = ({ setIsOpen }) => {
       className={`relative px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48  h-20  flex items-center justify-between w-full z-[99999]`}
     >
       <Link aria-label="logo" href="/" className="h-auto">
-        <img
-          alt="Dignite Studios Logo"
+        <Image  
+          alt="Dignite Studios Logo"  
           title="Dignite Studios Logo"
-          //width={120}
-          height={70}
+          width={140}
+          height={80}
           src={theme == "light" ? "/logo.webp" : "/logo-dark.webp"}
           className="h-[70px] w-[120px]"
         />
