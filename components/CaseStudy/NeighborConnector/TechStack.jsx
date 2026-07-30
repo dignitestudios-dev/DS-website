@@ -26,7 +26,7 @@ const TechStack = () => {
           transition={{ duration: 0.6 }}
           className="flex flex-col items-center gap-[30px]"
         >
-          <h2 className="text-center text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight capitalize">
+          <h2 className="text-center text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight">
             Technology That Powers <span className="text-[#274B01]">Reliable Communities</span>
           </h2>
           <p className="text-center text-[#0C0C0C] font-normal text-[14px] leading-[130%]">

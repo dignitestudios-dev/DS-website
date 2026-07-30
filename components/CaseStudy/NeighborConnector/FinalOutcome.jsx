@@ -4,13 +4,13 @@ import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import { motion } from "framer-motion";
 
 const finalImages = [
-  { id: 1, image: "/neighbor/o1.webp", alt: "Final UI 1" },
-  { id: 2, image: "/neighbor/o2.webp", alt: "Final UI 2" },
-  { id: 3, image: "/neighbor/o3.webp", alt: "Final UI 3" },
-  { id: 4, image: "/neighbor/o4.webp", alt: "Final UI 4" },
-  { id: 5, image: "/neighbor/o5.webp", alt: "Final UI 5" },
-  { id: 6, image: "/neighbor/o6.webp", alt: "Final UI 6" },
-  { id: 7, image: "/neighbor/o7.webp", alt: "Final UI 7" },
+  { id: 1, image: "/neighbor/s1.webp", alt: "Final UI 1" },
+  { id: 2, image: "/neighbor/s2.webp", alt: "Final UI 2" },
+  { id: 3, image: "/neighbor/s3.webp", alt: "Final UI 3" },
+  { id: 4, image: "/neighbor/s4.webp", alt: "Final UI 4" },
+  { id: 5, image: "/neighbor/s5.webp", alt: "Final UI 5" },
+  { id: 6, image: "/neighbor/s6.webp", alt: "Final UI 6" },
+  { id: 7, image: "/neighbor/s7.webp", alt: "Final UI 7" },
 ];
 
 const FinalOutcome = () => {
@@ -40,7 +40,7 @@ const FinalOutcome = () => {
           transition={{ duration: 0.6 }}
           className="max-w-[1280px] w-full px-6 flex flex-col items-center gap-[20px]"
         >
-          <h2 className="w-full text-center text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] capitalize tracking-tight">
+          <h2 className="w-full text-center text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight">
             Stronger Communities, <span className="text-[#274B01]">Better Connections</span>
           </h2>
           <p className="max-w-[888px] text-center text-[#0C0C0C] font-normal text-[14px] leading-[130%]">

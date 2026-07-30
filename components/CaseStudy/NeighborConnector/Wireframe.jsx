@@ -40,7 +40,7 @@ const Wireframe = () => {
           transition={{ duration: 0.6 }}
           className="max-w-[1280px] w-full px-6 flex flex-col items-center gap-[20px]"
         >
-          <h2 className="w-full text-center text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] capitalize tracking-tight">
+          <h2 className="w-full text-center text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight">
             Wireframes & Information Architecture
           </h2>
           <p className="max-w-[888px] text-center text-[#0C0C0C] font-normal text-[14px] leading-[130%]">

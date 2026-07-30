@@ -36,7 +36,7 @@ const Discovery = () => {
           transition={{ duration: 0.6 }}
           className="w-full text-center  lg:mb-16"
         >
-          <h2 className="text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight capitalize">
+          <h2 className="text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight">
             Discovery & <span className="text-[#274B01]">Research</span>
           </h2>
         </motion.div>
@@ -65,7 +65,7 @@ const Discovery = () => {
                 className="w-full border-[1.5px] border-[#619908] rounded-[28px] p-8 md:px-10 md:py-8 bg-white/50 backdrop-blur-sm"
               >
                 <div className="flex flex-col gap-6">
-                  <h3 className="text-[#1F222E] text-[18px] md:text-[20px] font-bold capitalize leading-[120%] tracking-tight">
+                  <h3 className="text-[#1F222E] text-[18px] md:text-[20px] font-bold leading-[120%] tracking-tight">
                     {card.title}
                   </h3>
                   <p className="text-[#0C0C0C] text-[14px] leading-[130%] font-normal">

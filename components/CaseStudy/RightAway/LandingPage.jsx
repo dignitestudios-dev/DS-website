@@ -13,7 +13,7 @@ const LandingPage = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2] font-poppins capitalize"
+          className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2] font-poppins"
         >
           A Landing Page Built for Higher Conversions
         </motion.h2>

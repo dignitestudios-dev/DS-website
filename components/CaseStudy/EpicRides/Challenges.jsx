@@ -119,7 +119,7 @@ const CardItem = ({ card, index }) => {
       className="w-[85vw] max-w-[500px] h-auto md:h-[300px] bg-[#000B00]/5 backdrop-blur-[50px] border border-white/10 rounded-2xl p-5 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-5 flex-shrink-0 snap-center cursor-pointer"
     >
       <div className="flex flex-col h-auto md:h-full justify-start md:justify-between py-2 w-full md:w-[240px]">
-        <h3 className="text-white text-[18px] md:text-[20px] font-bold leading-[1.4] md:leading-[1.5] capitalize mb-2 md:mb-0">
+        <h3 className="text-white text-[18px] md:text-[20px] font-bold leading-[1.4] md:leading-[1.5] mb-2 md:mb-0">
           {card.title}
         </h3>
         <p className="text-white/80 text-[14px] md:text-[14px] font-normal leading-[1.5]">
@@ -204,7 +204,7 @@ const Challenges = () => {
           transition={{ duration: 0.6 }}
           className="w-full text-center mb-16"
         >
-          <h2 className="text-white text-[32px] md:text-[44px] font-medium capitalize tracking-wide">
+          <h2 className="text-white text-[32px] md:text-[44px] font-medium tracking-wide">
             The Challenges We Solved
           </h2>
         </motion.div>

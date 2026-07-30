@@ -17,17 +17,17 @@ const CTA = () => {
 
         {/* Left Content */}
         <div className="flex flex-col items-start gap-6 w-full max-w-[555px] z-10 py-10 md:py-0">
-          <h2 className="font-normal text-[32px] md:text-[36px] leading-[1.1] md:leading-[40px] text-[#0C0C0C] capitalize">
+          <h2 className="font-normal text-[32px] md:text-[36px] leading-[1.1] md:leading-[40px] text-[#0C0C0C]">
            Your <span className="font-bold">Vision</span> Can Be Our Next Successful Product!
           </h2>
-          <p className="font-normal text-[14px] md:text-[15px] leading-[25px] text-[#0C0C0C] capitalize opacity-90">
+          <p className="font-normal text-[14px] md:text-[15px] leading-[25px] text-[#0C0C0C] opacity-90">
         The Dignite Studios team can bring your idea to life in your way. We build user focused solutions that deliver actual business value regarding strategy and design. 
           </p>
           
           {/* Button */}
           <Link href="/contact-us">
             <button className="flex flex-row items-center p-2 pl-6 gap-4 bg-gradient-to-br from-[#6CACDF] to-[#0000FE] rounded-[10px] hover:scale-105 transition-transform duration-300 shadow-md">
-              <span className="font-bold text-[15px] leading-[22px] text-white capitalize">
+              <span className="font-bold text-[15px] leading-[22px] text-white">
               Let's Build Your Product
               </span>
               <div className="flex justify-center items-center w-[32px] h-[32px] bg-[#81DE76] rounded-[8px]">

@@ -14,7 +14,7 @@ const Workflow = () => {
           transition={{ duration: 0.6 }}
           className="flex flex-col items-center text-center max-w-[888px] gap-6"
         >
-          <h2 className="text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight capitalize">
+          <h2 className="text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight">
             Agile Methodology That Maintained <span className="text-[#325200]">Progress</span>
           </h2>
           <p className="text-[#0C0C0C] text-[14px] leading-[130%] font-normal">

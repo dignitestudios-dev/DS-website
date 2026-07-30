@@ -104,7 +104,7 @@ const Solutions = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2] capitalize font-poppins"
+            className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2] font-poppins"
           >
             Delivering Smarter Transportation at Scale
           </motion.h2>

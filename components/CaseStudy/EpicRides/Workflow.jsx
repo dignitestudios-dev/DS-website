@@ -2,20 +2,18 @@
 import React, { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-const Card = ({ card, index, scrollYProgress, isDesktop }) => {
+const Card = ({ card, index, isDesktop }) => {
   const startY = isDesktop ? card.offsetY : 50;
-  const y = useTransform(scrollYProgress, [0, 1], [startY, 0]);
 
   return (
     <motion.div
-      style={{ y }}
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0, y: startY }}
+      whileInView={{ opacity: 1, y: 0 }}
       whileHover={{ 
         scale: 1.03,
         transition: { type: "spring", stiffness: 400, damping: 10 }
       }}
-      viewport={{ once: true, margin: "-50px" }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.6, delay: index * 0.2 }}
       className="w-full md:w-[310px] h-[350px] bg-[#535353]/10 backdrop-blur-[25px] rounded-2xl relative flex flex-col p-6 overflow-hidden border border-white/5 cursor-pointer"
     >
@@ -24,7 +22,7 @@ const Card = ({ card, index, scrollYProgress, isDesktop }) => {
       </div>
 
       <div className="mt-16 flex-1 flex flex-col justify-start">
-        <h3 className="text-white text-[24px] font-bold mb-4 capitalize">{card.title}</h3>
+        <h3 className="text-white text-[24px] font-bold mb-4">{card.title}</h3>
         <p className="text-white/90 text-[14px] leading-[19px]">{card.desc}</p>
       </div>
     </motion.div>
@@ -41,11 +39,6 @@ const Workflow = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start 80%", "center center"]
-  });
 
   const cards = [
     {
@@ -86,7 +79,7 @@ const Workflow = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 max-w-[80%] mx-auto"
         >
-          <h2 className="text-white text-[32px] md:text-[44px] font-[500] mb-6 capitalize leading-tight">
+          <h2 className="text-white text-[32px] md:text-[44px] font-[500] mb-6 leading-tight">
             Agile Workflow That Kept Development Moving
           </h2>
           <p className="text-white/80  text-[14px] leading-[23px]">
@@ -101,7 +94,6 @@ const Workflow = () => {
               key={card.id} 
               card={card} 
               index={index} 
-              scrollYProgress={scrollYProgress} 
               isDesktop={isDesktop} 
             />
           ))}

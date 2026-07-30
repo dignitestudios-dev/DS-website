@@ -7,7 +7,7 @@ import { FaApple, FaGooglePlay } from "react-icons/fa";
 const Hero = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const fullText = "Epic Rides is a Florida based ride hailing the platform which is created to deliver the fair, affordable and community focused transportation experience. Through specialised smartphone applications, the platform links drivers and passengers to make daily travel easier while increasing driver income. In comparison to standard ride hailing services, commuters can also save money through the integrated carpooling alternatives, drivers keep 100% of their fares and riders enjoy regulated peak pricing. The entire solution, including rider and driver apps, UI/UX design, branding and the centralized admin dashboard was created by the Dignite Studios.";
+  const fullText = "Epic Rides is a Florida based ride hailing platform which is created to deliver the fair, affordable and community focused transportation experience. Through specialised smartphone applications, the platform links drivers and passengers to make daily travel easier while increasing driver income. In comparison to standard ride hailing services, commuters can also save money through the integrated carpooling alternatives, drivers keep 100% of their fares and riders enjoy regulated peak pricing. The entire solution, including rider and driver apps, UI/UX design, branding and the centralized admin dashboard was created by the Dignite Studios.";
   const previewText = "Epic Rides is a Florida based ride hailing the platform which is created to deliver the fair, affordable and community focused transportation experience. Through specialised smartphone applications, the platform links drivers and passengers to make daily travel easier while increasing driver income.";
 
   const carAnimations = [
@@ -79,7 +79,7 @@ const Hero = () => {
           EPIC RIDES
         </h1>
         
-        <p className="text-white/90 text-[14px] md:text-[15px] font-medium text-center max-w-4xl mb-10 capitalize leading-relaxed px-4">
+        <p className="text-white/90 text-[14px] md:text-[15px] font-medium text-center max-w-4xl mb-10 leading-relaxed px-4">
           {isExpanded ? fullText : previewText}
           <button 
             onClick={() => setIsExpanded(!isExpanded)} 
@@ -95,10 +95,10 @@ const Hero = () => {
             <span className="text-white font-medium text-[14px]">Rider App for iPhone</span>
           </Link>
 
-          <Link href="https://apps.apple.com/us/app/epic-rides-driver/id6759365615" target="_blank" className="flex items-center justify-center gap-3 px-6 py-4 w-[246px] rounded-2xl border border-white/10 bg-gradient-to-b from-[#61cb081f] via-[#61cb080a] to-[#61cb0812] backdrop-blur-[42px] hover:scale-105 transition-transform">
+          {/* <Link href="https://apps.apple.com/us/app/epic-rides-driver/id6759365615" target="_blank" className="flex items-center justify-center gap-3 px-6 py-4 w-[246px] rounded-2xl border border-white/10 bg-gradient-to-b from-[#61cb081f] via-[#61cb080a] to-[#61cb0812] backdrop-blur-[42px] hover:scale-105 transition-transform">
             <FaApple className="text-white text-2xl" />
             <span className="text-white font-medium text-[14px]">Driver App for iPhone</span>
-          </Link>
+          </Link> */}
           
           <Link href="https://play.google.com/store/apps/details?id=com.dignitestudios.epicrides&pcampaignid=web_share" target="_blank" className="flex items-center justify-center gap-3 px-6 py-4 w-[254px] rounded-2xl border border-[#0A0A0A] bg-[#65CB11] hover:scale-105 transition-transform">
             <FaGooglePlay className="text-[#0A0A0A] text-2xl" />

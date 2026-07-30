@@ -69,7 +69,7 @@ const Challenges = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-white text-[32px] md:text-[44px] font-medium font-poppins leading-[120%] capitalize"
+          className="text-white text-[32px] md:text-[44px] font-medium font-poppins leading-[120%]"
         >
         Providing a Dependable Transportation System
         </motion.h2>
@@ -78,7 +78,7 @@ const Challenges = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="text-white text-[15px] font-poppins leading-[160%] capitalize max-w-[900px]"
+          className="text-white text-[15px] font-poppins leading-[160%] max-w-[900px]"
         >
         
           A scalable architecture which could provide consistent performance across all the user experiences was quite necessary which provided the connected platform accommodate drivers, riders, businesses and administrators. 
@@ -101,7 +101,7 @@ const Challenges = () => {
             <div className="w-[50px] h-[50px] rounded-[30px] bg-[rgba(255,255,255,0.25)] shadow-[0px_0px_21.4286px_rgba(235,40,40,0.45)] flex items-center justify-center">
               <FaExclamationTriangle className="text-red-500 text-[20px]" />
             </div>
-            <h3 className="text-white text-[26px] font-medium font-poppins leading-[120%] capitalize">
+            <h3 className="text-white text-[26px] font-medium font-poppins leading-[120%]">
               Challenges We Overcame
             </h3>
           </div>
@@ -125,9 +125,12 @@ const Challenges = () => {
                     opacity: 0.5
                   }}
                 />
-                <div className="relative z-10 flex flex-col gap-[20px]">
-                  <h4 className="text-white text-[14px] font-medium font-poppins leading-[120%] tracking-[-0.04em] capitalize">
-                    {item.num}. {item.title}
+                <div className="absolute top-2 left-4 w-[48px] h-[48px]  rounded-bl-[15px] flex items-center justify-center z-20">
+                  <span className="text-white/30 text-[26px] font-medium font-poppins">{item.num}</span>
+                </div>
+                <div className="relative z-10 flex flex-col gap-[16px] mt-6">
+                  <h4 className="text-white text-[14px] font-medium font-poppins leading-[120%] tracking-[-0.04em]">
+                    {item.title}
                   </h4>
                   <p className="text-white/95 text-[12px] font-poppins font-normal leading-[130%] tracking-[-0.0041em]">
                     {item.desc}
@@ -148,7 +151,7 @@ const Challenges = () => {
             <div className="w-[50px] h-[50px] rounded-[30px] bg-[rgba(255,255,255,0.25)] shadow-[0px_0px_21.4286px_rgba(34,181,115,0.45)] flex items-center justify-center">
               <FaLightbulb className="text-[#22B573] text-[20px]" />
             </div>
-            <h3 className="text-white text-[26px] font-medium font-poppins leading-[120%] capitalize">
+            <h3 className="text-white text-[26px] font-medium font-poppins leading-[120%]">
               Smart Solutions That Powered RightAway
             </h3>
           </div>
@@ -172,9 +175,12 @@ const Challenges = () => {
                     opacity: 0.5
                   }}
                 />
-                <div className="relative z-10 flex flex-col gap-[20px]">
-                  <h4 className="text-white text-[14px] font-medium font-poppins leading-[120%] tracking-[-0.04em] capitalize">
-                    {item.num}. {item.title}
+                <div className="absolute top-2 left-4 w-[48px] h-[48px]  rounded-bl-[15px] flex items-center justify-center z-20">
+                  <span className="text-white/50 text-[26px] font-medium font-poppins">{item.num}</span>
+                </div>
+                <div className="relative z-10 flex flex-col gap-[16px] mt-6">
+                  <h4 className="text-white text-[14px] font-medium font-poppins leading-[120%] tracking-[-0.04em]">
+                    {item.title}
                   </h4>
                   <p className="text-white/95 text-[12px] font-poppins font-normal leading-[130%] tracking-[-0.0041em]">
                     {item.desc}

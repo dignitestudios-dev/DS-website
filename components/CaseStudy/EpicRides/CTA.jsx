@@ -20,10 +20,10 @@ const CTA = () => {
         <div className="relative z-10 flex flex-col items-start gap-[30px] w-full max-w-[555px] lg:mt-0 mt-[20px]">
           
           <div className="flex flex-col items-start gap-[15px]">
-            <h2 className="text-white text-[28px] md:text-[36px] font-normal leading-[1.11] capitalize">
+            <h2 className="text-white text-[28px] md:text-[36px] font-normal leading-[1.11]">
               Ready To Build The Future Of Transportation?
             </h2>
-            <p className="text-white text-[14px] md:text-[15px] font-normal leading-[1.67] capitalize max-w-[500px]">
+            <p className="text-white text-[14px] md:text-[15px] font-normal leading-[1.67] max-w-[500px]">
               Whether You're Launching A Ride Hailing Platform, Carpooling Solution Or On Demand Mobility Application, Our Team Can Also Turn Your Vision Into A Scalable, High Performance Digital Product.
             </p>
           </div>
@@ -31,7 +31,7 @@ const CTA = () => {
           {/* CTA Button */}
           <Link href="/contact-us">
             <button className="flex flex-row items-center justify-between gap-[20px] pl-[15px] pr-[8px] py-[8px] bg-[#124733] border border-white/5 rounded-[8px] hover:bg-[#124733]/80 transition-colors">
-              <span className="text-white text-[15px] font-bold leading-[22px] capitalize">
+              <span className="text-white text-[15px] font-bold leading-[22px]">
                 Start Your Mobility Project
               </span>
               <div className="w-[32px] h-[32px] bg-[#61CB08] rounded-[8px] flex items-center justify-center">

@@ -45,7 +45,7 @@ const Solutions = () => {
     <section className="w-full bg-white flex flex-col items-center">
       {/* Header */}
       <div className="w-full max-w-screen-xl mx-auto px-4 text-center mb-16">
-        <h2 className="text-[32px] md:text-[44px] font-medium text-[#00161D] capitalize leading-[1.2] font-satoshi max-w-3xl mx-auto">
+        <h2 className="text-[32px] md:text-[44px] font-medium text-[#00161D] leading-[1.2] font-satoshi max-w-3xl mx-auto">
           How We <span className="font-bold">Solved</span> The Platform's Biggest Challenges
         </h2>
       </div>

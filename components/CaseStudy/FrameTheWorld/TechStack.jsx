@@ -41,10 +41,10 @@ const TechStack = () => {
       
       {/* Heading Container */}
       <div className="flex flex-col items-center justify-end gap-[10px] w-full max-w-[800px] px-4">
-        <h2 className="font-inter-tight text-[32px] md:text-[44px] leading-[1.1] text-center text-[#00161D] capitalize">
+        <h2 className="font-inter-tight text-[32px] md:text-[44px] leading-[1.1] text-center text-[#00161D]">
           <span className="font-bold">Tech</span> <span className="font-normal">Stack</span>
         </h2>
-        <p className="font-inter-tight font-normal text-[14px] md:text-[15px] leading-[1.6] text-center capitalize text-[#00161D] max-w-[560px]">
+        <p className="font-inter-tight font-normal text-[14px] md:text-[15px] leading-[1.6] text-center text-[#00161D] max-w-[560px]">
           We Used Cross-Platform Mobile Development For IOS And Android, Supported By A Scalable Backend Architecture For Managing Users, Content, And Transactions
         </p>
       </div>

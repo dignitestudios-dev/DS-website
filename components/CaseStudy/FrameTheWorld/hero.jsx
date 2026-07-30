@@ -25,7 +25,7 @@ const Hero = () => {
         Frame The World
         </h1>
         
-        <p className="text-gray-700 text-[14px] md:text-[16px] font-medium text-center max-w-4xl mb-10 capitalize leading-relaxed px-4">
+        <p className="text-gray-700 text-[14px] md:text-[16px] font-medium text-center max-w-4xl mb-10 leading-relaxed px-4">
           {isExpanded ? fullText : previewText}
           <button 
             onClick={() => setIsExpanded(!isExpanded)} 

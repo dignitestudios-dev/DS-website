@@ -96,17 +96,17 @@ const Hero = () => {
         <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between px-6 md:px-20  md:gap-0">
 
           <div className="flex flex-col items-start justify-center flex-1 md:border-r border-dashed border-white/50 w-full md:w-auto py-4 lg:py-8">
-            <span className="text-white text-[15px] mb-2 font-normal capitalize">The Milestones</span>
-            <span className="text-white text-[16px] font-bold capitalize">6-8 Months</span>
+            <span className="text-white text-[15px] mb-2 font-normal">The Milestones</span>
+            <span className="text-white text-[16px] font-bold">6-8 Months</span>
           </div>
 
           <div className="flex flex-col items-start justify-center flex-[1.5] md:border-r border-dashed border-white/50 w-full md:w-auto md:px-10 py-4 lg:py-8">
-            <span className="text-white text-[15px] mb-2 font-normal capitalize">Industry</span>
+            <span className="text-white text-[15px] mb-2 font-normal">Industry</span>
             <span className="text-white text-[16px] font-bold">Community Networking & Social Safety Platform</span>
           </div>
 
           <div className="flex flex-col items-start justify-center flex-[2] w-full md:w-auto md:px-10 py-4 lg:py-8">
-            <span className="text-white text-[15px] mb-2 font-normal capitalize">What we did</span>
+            <span className="text-white text-[15px] mb-2 font-normal">What we did</span>
             <span className="text-white text-[16px] font-bold leading-relaxed">
               Mobile App Development, Admin Dashboard.
             </span>

@@ -15,7 +15,7 @@ const Brand = () => {
           transition={{ duration: 0.6 }}
           className="w-full text-center max-w-[888px] mx-auto"
         >
-          <h2 className="text-[#1F222E] text-[32px] md:text-[40px] font-bold capitalize leading-[120%] tracking-tight mb-[30px]">
+          <h2 className="text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight mb-[30px]">
             Building A <span className="text-[#274B01]">Trusting Brand</span>
           </h2>
           <p className="text-[#0C0C0C] text-[14px] font-normal leading-[130%]">
