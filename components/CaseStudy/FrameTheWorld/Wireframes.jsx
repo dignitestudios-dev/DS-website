@@ -27,7 +27,7 @@ const Wireframes = () => {
       
       {/* Heading Content */}
       <div className="flex flex-col justify-center items-center text-center gap-6 w-full max-w-5xl px-4">
-        <h2 className="font-inter-tight text-[32px] md:text-[44px] text-[#00161D] leading-[1.1] capitalize">
+        <h2 className="font-inter-tight text-[32px] md:text-[44px] text-[#00161D] leading-[1.1]">
           <span className='font-bold'> Wireframe </span> & Information Architecture
         </h2>
         

@@ -32,7 +32,7 @@ const ProductDevelopment = () => {
         
         {/* Product Development Process Header */}
         <div className="text-center flex flex-col gap-6 max-w-5xl relative z-10 mt-10">
-          <h2 className="text-[32px] md:text-[44px] font-medium text-[#0C0C0C] capitalize">
+          <h2 className="text-[32px] md:text-[44px] font-medium text-[#0C0C0C]">
             <span className="font-bold">Product</span> Development Process
           </h2>
           <p className="text-[14px] md:text-[16px] text-[#0C0C0C] leading-[1.6] text-center">
@@ -69,7 +69,7 @@ const ProductDevelopment = () => {
 
         {/* Discovery & Research Header */}
         <div className="text-center flex flex-col gap-6 max-w-5xl relative z-10 mt-10">
-          <h2 className="text-[32px] md:text-[44px] leading-[38px] font-medium text-[#0C0C0C] capitalize text-center">
+          <h2 className="text-[32px] md:text-[44px] leading-[38px] font-medium text-[#0C0C0C] text-center">
             How <span className="font-bold">Discovery</span> and Research Shaped the Project
           </h2>
         </div>

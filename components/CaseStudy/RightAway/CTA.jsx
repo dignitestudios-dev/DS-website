@@ -25,7 +25,7 @@ const CTA = () => {
         {/* Content Wrapper */}
         <div className="relative z-10 w-full max-w-[788px] flex flex-col justify-end items-center gap-[30px] px-6 text-center">
 
-          <h2 className="w-full text-white text-[32px] md:text-[44px] font-medium font-poppins leading-[120%] capitalize">
+          <h2 className="w-full text-white text-[32px] md:text-[44px] font-medium font-poppins leading-[120%]">
             Ready to Launch Your Transportation
           </h2>
 
@@ -35,7 +35,7 @@ const CTA = () => {
 
           {/* Custom Button */}
           <Link href="/contact-us" className="flex flex-row justify-between items-center px-2 py-2 gap-[10px] w-[260px] h-[49px] bg-[#22B573] rounded-[100px] hover:bg-[#1e9c63] transition hover:scale-105 duration-300">
-            <span className="flex-1 text-[#151C19] font-poppins font-medium text-[14px] leading-[120%] tracking-[-0.04em] capitalize text-center pl-4">
+            <span className="flex-1 text-[#151C19] font-poppins font-medium text-[14px] leading-[120%] tracking-[-0.04em] text-center pl-4">
               Let's Build Your Platform
             </span>
             <div className="flex flex-row justify-center items-center w-[36px] h-[36px] bg-[#161D1A] rounded-[12px] flex-none">

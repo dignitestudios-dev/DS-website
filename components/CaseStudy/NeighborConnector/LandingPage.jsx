@@ -14,7 +14,7 @@ const LandingPage = () => {
         transition={{ duration: 0.6 }}
         className="flex flex-col items-center gap-[30px] w-full max-w-[888px] px-6 relative z-10"
       >
-        <h2 className="w-full text-center text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight capitalize">
+        <h2 className="w-full text-center text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight">
           Showcasing Every Feature <span className="text-[#274B01]">With Clarity</span>
         </h2>
         <p className="w-full text-center text-[#0C0C0C] font-normal text-[14px] leading-[130%]">

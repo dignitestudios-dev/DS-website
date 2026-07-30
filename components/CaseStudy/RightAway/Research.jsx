@@ -27,7 +27,7 @@ const Research = () => {
       <img src={"/right/ellispe.webp"} alt="Background Ellipse" className="absolute top-0 -right-1/4 w-full md:w-1/2 opacity-30 pointer-events-none z-0 mix-blend-screen" />
 <img src={"/right/Pattern.webp"} alt='Pattern below research' className='absolute bottom-0' />
       {/* Sub Title */}
-      <h2 className="text-white text-[32px] md:text-[44px] font-medium font-poppins text-center mb-16 capitalize w-full max-w-screen-xl leading-[120%] tracking-tight">
+      <h2 className="text-white text-[32px] md:text-[44px] font-medium font-poppins text-center mb-16 w-full max-w-screen-xl leading-[120%] tracking-tight">
         Discovery & Research
       </h2>
 
@@ -59,13 +59,13 @@ const Research = () => {
               {/* Badge */}
               <div className="flex flex-row justify-center items-center px-[20px] py-[10px] gap-[10px] h-[49px] bg-[#22B573] rounded-[100px] mb-[49px]">
                 {card.icon}
-                <span className="text-white text-[14px] font-medium font-poppins capitalize tracking-tight leading-[120%]">
+                <span className="text-white text-[14px] font-medium font-poppins tracking-tight leading-[120%]">
                   {card.title}
                 </span>
               </div>
 
               {/* Description */}
-              <p className="text-white text-[14px] font-normal font-poppins leading-[130%] opacity-85">
+              <p className="text-white text-[14px] font-normal font-poppins leading-[150%] opacity-85">
                 {card.desc}
               </p>
             </div>

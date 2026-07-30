@@ -73,7 +73,7 @@ const Challenges = () => {
       
       {/* Title */}
       <div className="w-full max-w-screen-xl mx-auto px-4 text-center mb-16">
-        <h2 className="text-[32px] md:text-[44px] font-medium text-[#00161D] capitalize leading-[1.2] font-satoshi">
+        <h2 className="text-[32px] md:text-[44px] font-medium text-[#00161D] leading-[1.2] font-satoshi">
           The <span className="font-bold">Challenges</span> Behind Building Frame<br className="hidden md:block"/> The World
         </h2>
       </div>

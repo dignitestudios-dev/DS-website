@@ -41,12 +41,12 @@ const Discovery = () => {
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: -40 },
+    hidden: { opacity: 0, y: 40 },
     show: {
       opacity: 1,
       y: 0,
       transition: {
-        type: "",
+        type: "spring",
         stiffness: 120,
         damping: 14
       }
@@ -63,11 +63,11 @@ const Discovery = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.6 }}
           className="w-full text-center mb-12"
         >
-          <h2 className="text-white text-[32px] md:text-[44px] font-medium capitalize tracking-wide">
+          <h2 className="text-white text-[32px] md:text-[44px] font-medium tracking-wide">
             Discovery & Research
           </h2>
         </motion.div>
@@ -77,7 +77,7 @@ const Discovery = () => {
           variants={containerVariants}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, amount: 0.1 }}
           className="w-full flex flex-col items-center"
         >
           {stackItems.map((item) => (
@@ -86,7 +86,7 @@ const Discovery = () => {
               variants={itemVariants}
               className={`w-full flex flex-col md:flex-row items-start p-8 md:px-10 md:py-12 gap-6 md:gap-10 ${item.bg} ${item.rounded} shadow-2xl relative z-${10 - item.id}`}
             >
-              <h3 className={`w-full md:w-[440px] text-[28px] md:text-[36px] font-bold leading-tight capitalize ${item.textColor} shrink-0`}>
+              <h3 className={`w-full md:w-[440px] text-[28px] md:text-[36px] font-bold leading-tight ${item.textColor} shrink-0`}>
                 {item.title}
               </h3>
               <p className={`w-full md:flex-1 text-[14px] leading-[22px] ${item.textColor}`}>

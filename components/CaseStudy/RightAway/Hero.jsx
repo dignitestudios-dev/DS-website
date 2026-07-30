@@ -26,7 +26,7 @@ const Hero = () => {
           Right Away
         </h1>
 
-        <p className="text-white relative z-20 text-[14px] md:text-[16px] font-medium text-center max-w-4xl mb-10 capitalize leading-relaxed px-4">
+        <p className="text-white relative z-20 text-[14px] md:text-[16px] font-medium text-center max-w-4xl mb-10 leading-relaxed px-4">
           {isExpanded ? fullText : previewText}
           <button 
             onClick={() => setIsExpanded(!isExpanded)} 
@@ -36,7 +36,7 @@ const Hero = () => {
           </button>
         </p>
 
-        {/* Buttons */}
+        {/* Buttons
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
           <Link href="#" className="flex items-center justify-center gap-3 px-6 py-4 w-[300px] rounded-[12px] bg-gradient-to-b from-[rgba(34,181,115,0.12)] via-[rgba(34,181,115,0.04)] to-[rgba(34,181,115,0.07)] backdrop-blur-[42px] hover:scale-105 transition-transform border border-white/5">
             <FaApple className="text-white text-2xl" />
@@ -47,7 +47,7 @@ const Hero = () => {
             <FaGooglePlay className="text-white text-2xl" />
             <span className="text-white font-medium text-[16px] font-poppins">Download for Android</span>
           </Link>
-        </div>
+        </div> */}
 
       </div>
 
@@ -69,20 +69,20 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 md:gap-4 w-full">
 
           <div className="flex flex-col items-start flex-1 w-full md:w-auto pb-4 md:pb-0">
-            <span className="text-white/80 text-[15px] font-normal mb-1 font-poppins capitalize">
+            <span className="text-white/80 text-[15px] font-normal mb-1 font-poppins">
               Project Duration
             </span>
-            <span className="text-white text-[16px] font-bold font-poppins capitalize">6-8 Months</span>
+            <span className="text-white text-[16px] font-bold font-poppins">6-8 Months</span>
           </div>
 
           <div className="flex flex-col items-start flex-1 w-full md:w-auto pb-4 md:pb-0">
-            <span className="text-white/80 text-[15px] font-normal mb-1 font-poppins capitalize">Industry</span>
-            <span className="text-white text-[16px] font-bold font-poppins capitalize">Ride Hailing & Transportation</span>
+            <span className="text-white/80 text-[15px] font-normal mb-1 font-poppins">Industry</span>
+            <span className="text-white text-[16px] font-bold font-poppins">Ride Hailing & Transportation</span>
           </div>
 
           <div className="flex flex-col items-start flex-[1.5] w-full md:w-auto">
-            <span className="text-white/80 text-[15px] font-normal mb-1 font-poppins capitalize">Services Provided</span>
-            <span className="text-white text-[16px] font-bold leading-[25px] font-poppins capitalize">
+            <span className="text-white/80 text-[15px] font-normal mb-1 font-poppins">Services Provided</span>
+            <span className="text-white text-[16px] font-bold leading-[25px] font-poppins">
             UI/UX Design, Rider & Driver Mobile Apps, Landing Page Design, Super Admin Dashboard, Payment Integration.
             </span>
           </div>

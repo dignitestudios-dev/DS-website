@@ -22,13 +22,13 @@ const CTA = () => {
           />
         </div>
         <div className="flex flex-col md:w-[60%] text-white gap-4 items-start text-start relative z-50 justify-center  ">
-          <h2 className="text-3xl md:text-5xl  font-semibold capitalize">
+          <h2 className="text-3xl md:text-5xl  font-semibold">
          Looking to build an AI Powered Platform
           </h2>
           <p className=" text-lg md:text-xl">
             Let’s shape your next digital product through expert Web Application Development Services. 
           </p>
-          <Link href={"/contact-us"} className="px-8 py-5 flex gap-2 items-center text-base rounded-full border transition ease-linear hover:bg-black hover:text-white capitalize border-white">
+          <Link href={"/contact-us"} className="px-8 py-5 flex gap-2 items-center text-base rounded-full border transition ease-linear hover:bg-black hover:text-white border-white">
            Contact us today to get started
            <FaArrowRightLong />
 

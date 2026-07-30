@@ -11,7 +11,7 @@ const BrandIdentity = () => {
       <div className="w-full max-w-[1280px] mx-auto flex flex-col items-center z-10 px-4">
         {/* Header */}
         <div className="flex flex-col items-center gap-[30px] w-full max-w-[788px] mb-20 text-center">
-          <h2 className="w-full text-white text-[32px] md:text-[44px] font-medium font-poppins leading-[120%] capitalize">
+          <h2 className="w-full text-white text-[32px] md:text-[44px] font-medium font-poppins leading-[120%]">
             Building a Brand That Reflects Speed and Trust
           </h2>
           <p className="w-full max-w-[750px] text-white text-[14px] md:text-[15px] font-poppins font-normal leading-[160%]">
@@ -28,27 +28,27 @@ const BrandIdentity = () => {
           {/* Floating Badges */}
           {/* Light */}
           <div className="absolute top-[20%] md:top-[15%] left-0 md:left-[5%] rotate-[-5.65deg] px-4 py-2 md:py-[8.5px] bg-[rgba(255,255,255,0.45)] backdrop-blur-sm rounded-[36px] flex items-center justify-center">
-            <span className="text-[#0D0D0D] font-poppins font-light text-[12px] md:text-[17px] capitalize">Light</span>
+            <span className="text-[#0D0D0D] font-poppins font-light text-[12px] md:text-[17px]">Light</span>
           </div>
           
           {/* Regular */}
           <div className="absolute top-[60%] md:top-[50%] left-[20%] md:left-[22%] rotate-[6.83deg] px-4 py-2 md:py-[8.5px] bg-[rgba(34,181,115,0.45)] backdrop-blur-sm rounded-[36px] flex items-center justify-center">
-            <span className="text-white font-poppins font-normal text-[12px] md:text-[14px] capitalize">Regular</span>
+            <span className="text-white font-poppins font-normal text-[12px] md:text-[14px]">Regular</span>
           </div>
 
           {/* Medium */}
           <div className="absolute top-[80%] md:top-[60%] left-[45%] md:left-[45%] rotate-[6.4deg] px-4 py-2 md:py-[8.5px] bg-[rgba(255,255,255,0.45)] backdrop-blur-sm rounded-[36px] flex items-center justify-center z-10">
-            <span className="text-[#0D0D0D] font-poppins font-medium text-[12px] md:text-[17px] capitalize">Medium</span>
+            <span className="text-[#0D0D0D] font-poppins font-medium text-[12px] md:text-[17px]">Medium</span>
           </div>
 
           {/* Semi-Bold */}
           <div className="absolute top-[75%] md:top-[70%] right-[15%] md:right-[20%] rotate-[-16.28deg] px-4 py-2 md:py-[8.5px] bg-[rgba(34,181,115,0.45)] backdrop-blur-sm rounded-[36px] flex items-center justify-center z-10">
-            <span className="text-white font-poppins font-semibold text-[12px] md:text-[17px] capitalize">Semi-Bold</span>
+            <span className="text-white font-poppins font-semibold text-[12px] md:text-[17px]">Semi-Bold</span>
           </div>
 
           {/* Bold */}
           <div className="absolute top-[10%] md:top-[17%] right-[-5%] md:right-[0%] rotate-[17.06deg] px-4 py-2 md:py-[8.5px] bg-[rgba(255,255,255,0.45)] backdrop-blur-sm rounded-[36px] flex items-center justify-center">
-            <span className="text-[#0D0D0D] font-poppins font-bold text-[12px] md:text-[17px] capitalize">Bold</span>
+            <span className="text-[#0D0D0D] font-poppins font-bold text-[12px] md:text-[17px]">Bold</span>
           </div>
         </div>
 

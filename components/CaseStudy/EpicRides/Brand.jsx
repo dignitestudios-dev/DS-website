@@ -16,7 +16,7 @@ const Brand = () => {
       <div className="w-full max-w-[1440px] px-6 md:px-[80px] flex flex-col items-center gap-[30px]">
         
         {/* Heading */}
-        <h2 className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2] capitalize">
+        <h2 className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2]">
           Brand Identity
         </h2>
 

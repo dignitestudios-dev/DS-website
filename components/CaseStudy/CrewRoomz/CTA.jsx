@@ -21,13 +21,13 @@ const CTA = () => {
           />
         </div>
         <div className="flex flex-col md:w-[60%] gap-4 items-start text-start relative z-50 justify-center  ">
-          <h2 className="text-3xl md:text-6xl  font-semibold capitalize">
+          <h2 className="text-3xl md:text-6xl  font-semibold">
           Thinking of creating a travel app? 
           </h2>
           <p className=" text-lg md:text-xl">
             We’ve got you covered. Let’s bring your idea to life with a user-friendly, community-centered platform. We’ll handle the design and development so your digital product works seamlessly from day one.
           </p>
-          <Link href={"/contact-us"} className="px-8 py-5 flex gap-2 items-center text-base rounded-full border transition ease-linear hover:bg-black hover:text-white capitalize border-black">
+          <Link href={"/contact-us"} className="px-8 py-5 flex gap-2 items-center text-base rounded-full border transition ease-linear hover:bg-black hover:text-white border-black">
             Talk to our experts
            <FaArrowRightLong />
 

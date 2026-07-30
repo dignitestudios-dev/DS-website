@@ -87,7 +87,7 @@ const Challenges = () => {
           transition={{ duration: 0.6 }}
           className="w-full text-center max-w-[700px] mx-auto"
         >
-          <h2 className="text-[#1F222E] text-[32px] md:text-[40px] font-bold capitalize leading-[120%] tracking-tight">
+          <h2 className="text-[#1F222E] text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight">
             Challenges That Required Smart <span className="text-[#274B01]">Community Solutions</span>
           </h2>
         </motion.div>
@@ -108,7 +108,7 @@ const Challenges = () => {
                   <FrownIcon />
                 </div>
                 <div className="flex flex-col gap-3">
-                  <h3 className="text-[#1F222E] text-[16px] font-semibold leading-[120%] capitalize">
+                  <h3 className="text-[#1F222E] text-[16px] font-semibold leading-[120%]">
                     {item.title}
                   </h3>
                   <p className="text-[#0C0C0C] text-[13px] font-normal leading-[130%]">
@@ -133,7 +133,7 @@ const Challenges = () => {
                   <SmileIcon />
                 </div>
                 <div className="flex flex-col gap-3">
-                  <h3 className="text-[#1F222E] text-[16px] font-semibold leading-[120%] capitalize">
+                  <h3 className="text-[#1F222E] text-[16px] font-semibold leading-[120%]">
                     {item.title}
                   </h3>
                   <p className="text-[#0C0C0C] text-[13px] font-normal leading-[130%]">

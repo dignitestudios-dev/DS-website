@@ -48,7 +48,7 @@ const Solutions = () => {
     <section className="w-full relative bg-[#000B00] py-24 flex flex-col items-center">
       <div className="max-w-[1440px] w-full px-6 md:px-[80px] flex flex-col items-center gap-[50px]">
         {/* Title */}
-        <h2 className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2] capitalize">
+        <h2 className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2]">
           Smart Solutions That Powered Epic Rides
         </h2>
 
@@ -77,7 +77,7 @@ const Solutions = () => {
                       className="absolute inset-0 p-[24px] md:p-[30px] flex flex-col justify-between w-full md:min-w-[590px]"
                     >
                       <div className="flex flex-col gap-[12px] md:gap-[30px] w-full md:w-[530px] max-w-full">
-                        <h3 className="text-[#124733] text-[22px] md:text-[36px] font-bold leading-[1.2] md:leading-[1.1] capitalize">
+                        <h3 className="text-[#124733] text-[22px] md:text-[36px] font-bold leading-[1.2] md:leading-[1.1]">
                           {item.title}
                         </h3>
                         <p className="text-[#124733] text-[14px] md:text-[20px] font-normal leading-[1.5] md:leading-[1.4]">
@@ -111,7 +111,7 @@ const Solutions = () => {
                       
                       <div className="flex-grow relative w-full flex justify-start md:justify-center items-center h-full">
                          <span 
-                           className="md:absolute text-[#65CB11] text-[16px] md:text-[20px] font-bold capitalize md:origin-center md:-rotate-90 md:whitespace-nowrap w-full md:w-auto leading-[1.2]"
+                           className="md:absolute text-[#65CB11] text-[16px] md:text-[20px] font-bold md:origin-center md:-rotate-90 md:whitespace-nowrap w-full md:w-auto leading-[1.2]"
                          >
                            {item.shortTitle}
                          </span>

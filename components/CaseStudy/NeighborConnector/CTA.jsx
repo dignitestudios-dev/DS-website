@@ -26,7 +26,7 @@ const CTA = () => {
         {/* Left Content */}
         <div className="relative z-10 flex flex-col items-start gap-[30px] w-full max-w-[591px]">
 
-          <h2 className="text-white text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight capitalize">
+          <h2 className="text-white text-[32px] md:text-[40px] font-bold leading-[120%] tracking-tight">
           Ready to Build the Next Community Platform?
           </h2>
 
@@ -37,7 +37,7 @@ const CTA = () => {
           {/* CTA Button */}
           <Link href="/contact-us">
             <button className="flex flex-row items-center  justify-center gap-[10px] px-8 py-4 bg-white rounded-full hover:bg-white/90 transition-colors mt-4 shadow-md">
-              <span className="text-[#274B01] text-[15px] font-semibold leading-[22px] capitalize">
+              <span className="text-[#274B01] text-[15px] font-semibold leading-[22px]">
                 Let's Build Your Platform
               </span>
               <HiOutlineArrowRight className="text-[#274B01] w-4 h-4" />

@@ -40,10 +40,10 @@ const Discovery = () => {
 
       {/* Header Section */}
       <div className="relative z-10 w-full max-w-screen-xl mx-auto flex flex-col items-center mb-10 px-4">
-        <h2 className="text-white text-[32px] md:text-[44px] font-medium font-poppins text-center mb-6 max-w-[788px] leading-[120%] capitalize">
+        <h2 className="text-white text-[32px] md:text-[44px] font-medium font-poppins text-center mb-6 max-w-[788px] leading-[120%]">
          Agile Development That Delivered the Results
         </h2>
-        <p className="text-white text-[15px] font-poppins text-center max-w-[750px] leading-[160%] opacity-90 capitalize">
+        <p className="text-white text-[15px] font-poppins text-center max-w-[750px] leading-[160%] opacity-90">
         In order to create a scalable, dependable and user friendly transportation platform, we also worked closely with clients during planning, design, programming, testing and feedback sessions while keeping the agile development approach. 
         </p>
       </div>
@@ -96,7 +96,7 @@ const Discovery = () => {
 
                   {/* Content */}
                   <div className="relative z-10 flex flex-col items-start gap-3">
-                    <h3 className="text-white text-[18px] font-semibold font-poppins capitalize tracking-tight">
+                    <h3 className="text-white text-[18px] font-semibold font-poppins tracking-tight">
                       {card.title}
                     </h3>
                     <p className="text-white text-[14px] font-medium font-poppins leading-[130%] opacity-85">
@@ -150,10 +150,10 @@ const Discovery = () => {
 
                   {/* Content */}
                   <div className="relative z-10 flex flex-col items-start gap-3">
-                    <h3 className="text-white text-[18px] font-semibold font-poppins capitalize tracking-tight">
+                    <h3 className="text-white text-[18px] font-semibold font-poppins tracking-tight">
                       {card.title}
                     </h3>
-                    <p className="text-white text-[14px] font-medium font-poppins leading-[130%] opacity-85">
+                    <p className="text-white text-[14px] font-medium font-poppins leading-[140%] opacity-85">
                       {card.desc}
                     </p>
                   </div>

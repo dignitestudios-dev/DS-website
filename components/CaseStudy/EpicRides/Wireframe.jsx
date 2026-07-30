@@ -33,7 +33,7 @@ const Wireframe = () => {
         
         {/* Heading */}
         <div className="max-w-[1280px] w-full px-6 flex flex-col items-center gap-[20px]">
-          <h2 className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2] capitalize">
+          <h2 className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2]">
             Information Architecture & Wireframes
           </h2>
           <p className="max-w-[650px] text-center text-white font-normal text-[15px] leading-[23px]">
