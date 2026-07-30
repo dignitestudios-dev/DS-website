@@ -248,6 +248,7 @@ const Navbar = ({ setIsOpen }) => {
             height={80}
             src={pathname === "/" || pathname === "/case-studies/epic-rides" ||pathname === "/case-studies/right-away" ? "/logo-dark.webp" : "/logo.webp"}
             className="w-[120px] md:w-[140px] h-auto object-contain"
+            priority
           />
         </Link>
 
