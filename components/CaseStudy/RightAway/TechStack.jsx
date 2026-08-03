@@ -16,13 +16,13 @@ const TechStack = () => {
       <img src={"/right/ellispe.webp"} alt="Background Ellipse" className="absolute top-0 -right-1/4 w-full md:w-1/2 opacity-30 pointer-events-none z-0 mix-blend-screen" />
       <div className="w-full max-w-[788px] mx-auto flex flex-col items-center text-center gap-[50px]">
         <h2 className="text-white text-[32px] md:text-[44px] font-medium font-poppins leading-[120%]">
-          Technology that Powers Every Journey
+          Selecting Dependable Technologies for Extended Development 
         </h2>
         <p className="w-full max-w-[850px] text-center text-white/80 text-[15px] font-normal leading-[160%] font-poppins">
-          RightAway was developed using Flutter, Node.js , RESTful APIs, cloud infrastructure, Google Maps integration, secure payment gateways, real -time notifications and scalable database architecture to deliver the reliable, high-performance transportation services.
+    Reliable procurement, logistics, user administration and platform performance are powered by Flutter, Node.js, RESTful APIs, cloud services, Google Maps integration, secure payment gateways, push alerts and scalable databases.  
         </p>
         
-        <div className="flex flex-row flex-wrap justify-center items-center gap-[20px] max-w-[600px]">
+        <div className="flex flex-row flex-wrap justify-center pb-4 items-center gap-[20px] max-w-[600px]">
           {techs.map((tech, index) => (
             <div 
               key={index}

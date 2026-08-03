@@ -38,7 +38,7 @@ const Wireframe = () => {
             Wireframes & Information Architecture
           </h2>
           <p className="max-w-[850px] text-center text-white/80 font-normal text-[15px] leading-[26px]">
-            Low-fidelity wireframes mapped complete rider, driver, business and administrator journeys, simplifying navigation, reducing booking steps, improving transportation management and creating smooth experiences across both mobile and web platforms.
+     Low-fidelity wireframes organize customer, supplier, rider and administrator experiences, simplifying product browsing, order management, inventory control, delivery coordination and platform administration across mobile applications and web portals.
           </p>
         </div>
 

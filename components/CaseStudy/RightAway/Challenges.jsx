@@ -7,56 +7,56 @@ const Challenges = () => {
   const problems = [
     {
       num: "01",
-      title: "Creating Fast and Reliable Ride Matching",
-      desc: "We needed to connect riders with nearby drivers instantly while minimizing wait times and ensuring accurate driver availability during peak demand."
+      title: "Fragmented Construction Material Procurement",
+      desc: "Customers struggled to find and purchase construction materials efficiently. Buyers had to contact multiple suppliers, compare prices manually, and had limited visibility into product availability and order progress, making procurement slow and frustrating."
     },
     {
       num: "02",
-      title: "Providing Real Time Trip Visibility",
-      desc: "Delivering accurate GPS tracking, live trip updates and route monitoring required highly responsive technology that maintained reliability throughout every journey."
+      title: "Inefficient Supplier & Inventory Management",
+      desc: "Suppliers lacked a centralized system to manage products and orders. Inventory updates, pricing changes, and order processing were handled across multiple tools or manually, leading to stock inaccuracies, delayed fulfillment, and increased administrative workload."
     },
     {
       num: "03",
-      title: "Managing Multiple User Roles",
-      desc: "Supporting riders, drivers, businesses and administrators required dedicated interfaces that simplified each user’s responsibilities while maintaining a consistent platform experience."
+      title: "Uncoordinated Delivery Operations",
+      desc: "Delivery operations were difficult to coordinate and monitor. Delivery personnel had no optimized workflow for navigation, order tracking, or proof of delivery, resulting in delays, poor communication, and inconsistent customer experiences."
     },
     {
       num: "04",
-      title: "Building Secure Payment Workflows",
-      desc: "Integrating secure payment processing demanded reliable transaction management, strong data protection and frictionless checkout experience for every ride."
+      title: "Insecure Payment & Limited Order Visibility",
+      desc: "Customers had concerns about payment security and order transparency. The absence of secure payment processing and real-time order updates reduced customer confidence and made it difficult to track purchases from checkout to delivery."
     },
     {
       num: "05",
-      title: "Scaling Transportation Operations",
-      desc: "The platform needed to support growing numbers of users, trips, pricing configurations, operational analytics and administrative controls without compromising performance."
+      title: "Lack of Centralized Platform Administration",
+      desc: "Business operations were fragmented across multiple management systems. Administrators lacked a single platform to oversee users, suppliers, deliveries, disputes, payments, and reporting, making daily operations inefficient and limiting scalability."
     }
   ];
 
   const solutions = [
     {
       num: "01",
-      title: "Intelligent Ride Management",
-      desc: "We developed a real time booking system which combines the automated driver matching, GPS tracking and route optimization to improve ride efficiency and reduce the passenger wait times."
+      title: "Centralized Material Marketplace",
+      desc: "We built a centralized marketplace where customers can browse construction materials, compare products, place orders and choose between doorstep delivery or supplier pickup. The platform makes purchasing simple while giving users complete visibility throughout the ordering process."
     },
     {
       num: "02",
-      title: "Connected Mobile Expertise",
-      desc: "Dedicated rider and driver applications simplify ride booking, navigation, earnings management, trip history and communication through the intuitive mobile experiences."
+      title: "Supplier Management Portal",
+      desc: "To assist companies in managing items, inventory, pricing, incoming orders and fulfillment activities from the single , central dashboard, a specialised supplier site was created. As a result, providers can also respond to client demand more effectively and through the less human labour."
     },
     {
       num: "03",
-      title: "Secure Digital Payments",
-      desc: "Reliable payment gateway integration enables secure, fast and smooth transactions while protecting the sensitive financial information throughout the booking process."
+      title: "Smart Delivery Coordination",
+      desc: "We developed a rider application which improves delivery tasks through live order tracking, efficient route navigation, real-time notifications and proof of delivery. This also helps delivery personnel complete orders accurately while keeping customers informed throughout the journey."
     },
     {
       num: "04",
-      title: "Business Operations Portal",
-      desc: "A centralized web portal allows businesses to monitor the employee transportation, review trip and activity, manage the travel expenses and oversee the daily transportation operations from the one location."
+      title: "Secure Ordering & Payments",
+      desc: "To ensure dependable and secure transactions, secure payment features were incorporated. From the translation to the successful delivery, customers may also track their items in the real time, get timely status and take pleasure in the transparent shopping experience."
     },
     {
       num: "05",
-      title: "Advanced Administrative Control",
-      desc: "A comprehensive administration platform enables the operators to manage the riders, drivers, live trips, picnic rules, payment records, analytics and platform security through the centralized dashboard."
+      title: "Comprehensive Administration",
+      desc: "A centralized super admin dashboard gives administrators complete control over the users, suppliers, product categories, deliveries, disputes, payments, reports and platform performance, making daily operations easier to manage while supporting the future business expansion."
     }
   ];
 

@@ -7,8 +7,8 @@ import { FaApple, FaGooglePlay } from 'react-icons/fa';
 const Hero = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const fullText = "RightAway is a comprehensive ride hailing built to simplify modern transportation through an integrated ecosystem of mobile applications and the web based management tools. The solution enables passengers to book rides instantly, drivers to manage the trips and earnings quite efficiently, and businesses to oversee transportation operations from the centralized portal. Real time GPS tracking, intelligent driver matching, secure payment processing and live trip monitoring work together to deliver a fast and dependable travel experience. Dignite Studios designed and developed the complete solution, including rider and driver applications, business portal, landing page and the super admin dashboard for creating the scalable platform built for long term operational success.";
-  const previewText = "RightAway is a comprehensive ride hailing built to simplify modern transportation through an integrated ecosystem of mobile applications and the web based management tools. The solution enables passengers to book rides instantly, drivers to manage the trips and earnings quite efficiently, and businesses to oversee transportation operations from the centralized portal.";
+  const fullText = "RightAway is a complete construction materials marketplace built to simplify how customers purchase the building supplies while helping suppliers and delivery teams work more efficiently. The platform connects, suppliers and delivery teams work quite more efficiently. The platform connects customers, suppliers, riders and administrators through one simplified system. Customers can explore products, compare prices, place orders and choose the delivery or the supplier pickup. Suppliers manage products, stock and incoming orders and the live status updates. Secure online payments, real time order tracking and the centralized admin dashboard give every user complete visibility which makes the construction material procurement faster, quite more organized and much easier to manage.";
+  const previewText = "RightAway is a complete construction materials marketplace built to simplify how customers purchase the building supplies while helping suppliers and delivery teams work more efficiently. The platform connects, suppliers and delivery teams work quite more efficiently.";
 
   return (
     <section className="relative w-full  z-30 pt-20 min-h-[120vh] bg-[#151515] overflow-hidden flex flex-col items-center ">
@@ -77,13 +77,13 @@ const Hero = () => {
 
           <div className="flex flex-col items-start flex-1 w-full md:w-auto pb-4 md:pb-0">
             <span className="text-white/80 text-[15px] font-normal mb-1 font-poppins">Industry</span>
-            <span className="text-white text-[16px] font-bold font-poppins">Ride Hailing & Transportation</span>
+            <span className="text-white text-[16px] font-bold font-poppins">Construction Materials Marketplace & Logistics </span>
           </div>
 
           <div className="flex flex-col items-start flex-[1.5] w-full md:w-auto">
             <span className="text-white/80 text-[15px] font-normal mb-1 font-poppins">Services Provided</span>
             <span className="text-white text-[16px] font-bold leading-[25px] font-poppins">
-            UI/UX Design, Rider & Driver Mobile Apps, Landing Page Design, Super Admin Dashboard, Payment Integration.
+          UI/UX Design, Customer Mobile App, Rider App, Supplier Portal, Super Admin Dashboard, Payment Integration. 
             </span>
           </div>
 
