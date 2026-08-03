@@ -99,14 +99,14 @@ const Solutions = () => {
       <div className="w-full flex flex-col items-center z-10">
         
         {/* Heading */}
-        <div className="max-w-[1280px] w-full px-6 flex flex-col items-center gap-[20px]">
+        <div className="max-w-[780px] w-full px-6 flex flex-col items-center gap-[20px]">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2] font-poppins"
           >
-            Delivering Smarter Transportation at Scale
+             Delivering a Smarter Construction Supply Platform 
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -115,7 +115,7 @@ const Solutions = () => {
             transition={{ delay: 0.1 }}
             className="w-full max-w-[850px] text-center text-white/80 text-[15px] font-normal leading-[160%] font-poppins"
           >
-            RightAway successfully delivers a scalable transportation ecosystem that connects riders, drivers, businesses and administrators through one unified platform. Intelligent ride management, secure payments, centralized business tools and real time trip monitoring improve operational efficiency while creating the fluent travel experiences. The solution provides transportation providers with the technology needed to scale confidently and deliver consistent service quality.
+        RightAway provides a connected construction materials marketplace that simplifies purchasing, supplier operations and delivery management within one platform. Customers enjoy a smoother buying experience, suppliers efficiently manage inventory and orders, riders complete deliveries with greater accuracy and administrators oversee platform operations through centralized controls which support sustainable business growth.
           </motion.p>
         </div>
 

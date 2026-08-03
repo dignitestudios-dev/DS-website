@@ -12,10 +12,10 @@ const BrandIdentity = () => {
         {/* Header */}
         <div className="flex flex-col items-center gap-[30px] w-full max-w-[788px] mb-20 text-center">
           <h2 className="w-full text-white text-[32px] md:text-[44px] font-medium font-poppins leading-[120%]">
-            Building a Brand That Reflects Speed and Trust
+            Creating a Professional and Reliable Marketplace Identity
           </h2>
           <p className="w-full max-w-[750px] text-white text-[14px] md:text-[15px] font-poppins font-normal leading-[160%]">
-            RightAway’s visual identity combines modern typography, clean layouts, intuitive interfaces and consistent branding to communicate reliability, speed and accessibility while delivering cohesive experience across every platform.
+      RightAway’s visual identity reflects reliability and efficiency through modern typography, consistent colors, clean interfaces and straightforward navigation which builds confidence across customer, supplier, rider and administrator experiences. 
           </p>
         </div>
 

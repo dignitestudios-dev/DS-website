@@ -15,7 +15,7 @@ const LandingPage = () => {
           viewport={{ once: true }}
           className="w-full text-center text-white text-[32px] md:text-[44px] font-medium leading-[1.2] font-poppins"
         >
-          A Landing Page Built for Higher Conversions
+         Turning Visitors into Active Platform Users 
         </motion.h2>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
@@ -24,7 +24,7 @@ const LandingPage = () => {
           transition={{ delay: 0.1 }}
           className="w-full max-w-[850px] text-center text-white/80 text-[15px] font-normal leading-[160%] font-poppins"
         >
-          We designed a responsive landing page which introduces RightAway’s transportation ecosystem, highlights its core capabilities, builds credibility and encourages the app downloads through a clear, engaging and conversion focused user experience.
+       The landing page highlights RightAways’s marketplace capabilities, supplier network, delivery services and business value while encouraging customers and suppliers to register, explore products and start using the platform. 
         </motion.p>
       </div>
 

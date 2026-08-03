@@ -6,13 +6,13 @@ const Discovery = () => {
     {
       num: '01',
       title: 'Planning & Discovery',
-      desc: 'We gathered business requirements, defined project goals, prioritized features and clean roadmap for the product development',
+      desc: 'We identified business goals, user requirements, prioritized platform features and created the roadmap which guided every development milestone. ',
       top: 'top-[15%] md:top-[20%]'
     },
     {
       num: '03',
-      title: 'Application Development',
-      desc: 'Developers built the scalable rider, driver and admin solutions by using the secure architecture and agile sprint based implementation.',
+      title: ' Development',
+      desc: 'Features were developed in planned sprints, allowing continuous improvements while maintaining the platform stability, scalability and fluent collaboration across modules. ',
       top: 'top-[45%] md:top-[50%]'
     }
   ];
@@ -21,13 +21,13 @@ const Discovery = () => {
     {
       num: '02',
       title: 'UI/UX Design',
-      desc: 'Our designers also developed the intuitive wireframes, interactive prototypes and the user friendly interfaces which are quite focused on the fluent booking of ride experiences.',
+      desc: 'Our team designed clear user journeys, wireframes and interface layouts which simplified the purchasing, supplier management and delivery experiences. ',
       top: 'top-[15%] md:top-[20%]'
     },
     {
       num: '04',
       title: 'Testing & Launch',
-      desc: 'We performed the precise testing, resolved the issues, validated the performance and then successfully launched the application with confidence.',
+      desc: 'Every release was thoroughly tested, performance optimized, issues resolved and platform updates prepared before successful production deployment. ',
       top: 'top-[45%] md:top-[50%]'
     }
   ];
@@ -41,10 +41,10 @@ const Discovery = () => {
       {/* Header Section */}
       <div className="relative z-10 w-full max-w-screen-xl mx-auto flex flex-col items-center mb-10 px-4">
         <h2 className="text-white text-[32px] md:text-[44px] font-medium font-poppins text-center mb-6 max-w-[788px] leading-[120%]">
-         Agile Development That Delivered the Results
+        An Agile Process Built Around Continuous Progress
         </h2>
         <p className="text-white text-[15px] font-poppins text-center max-w-[750px] leading-[160%] opacity-90">
-        In order to create a scalable, dependable and user friendly transportation platform, we also worked closely with clients during planning, design, programming, testing and feedback sessions while keeping the agile development approach. 
+       We followed an Agile workflow that encourages regular feedback, iterative improvements and structured releases. This approach helped every platform component evolve smoothly while keeping business goals, user needs and technical quality aligned throughout development.  
         </p>
       </div>
 

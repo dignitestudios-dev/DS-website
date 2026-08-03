@@ -8,17 +8,17 @@ const Research = () => {
     {
       title: 'Understanding User Behavior',
       icon: <FaUser className="text-white text-[16px]" />,
-      desc: 'Our research focused on understanding the expectations of riders, drivers and transportation businesses. Riders wanted fast bookings, accurate driver arrival times, transparent pricing and secure payment options. Drivers needed an easy to use platform for accepting the rides, tracking earnings and managing the daily trips without unnecessary complexity. Businesses also required the centralized tools to monitor the transportation activities, manage employee travel and improve the operational visibility. These findings also helped us to identify the core features needed to deliver a smooth transportation experience for every type of user.',
+      desc: 'Before starting development, we studied how customers, suppliers, delivery personnel and administrators handled construction material procurement and daily operations. Customers wanted the convenient way to browse products, compare prices, place orders and receive accurate delivery updates. Suppliers needed the better tools for managing inventory, product pricing and order fulfillment while reducing manual tasks. Delivery personnel required an easy to use application for managing the assigned deliveries, accessing navigation and confirming the completed orders. Administrators also needed the centralized system to monitor suppliers, users, deliveries, disputes and overall platform activities efficiently. ',
     },
     {
       title: 'Market Analysis',
       icon: <FaStore className="text-white text-[16px]" />,
-      desc: 'We analyzed leading ride hailing platforms to evaluate their strength and identify the opportunities for improvement. While many other competitors offered reliable ride booking experiences, few provided a fully connected ecosystem which combines rider applications, driver management, business portals and centralized administrative controls with a single platform. This also revealed the strong opportunity to create the complete transportation solution.',
+      desc: 'Due to our analysis, a large number of construction material companies continued to rely on the separate delivery procedures, manual inventory tracking and disjointed ordering systems. These antiquated processes frequently  resulted in delays, inaccurate inventory and problems with supplier, customers and delivery team communication. We saw a chance to create a straightforward platform which links all stakeholders via a single, simplified ecosystem. ',
     },
     {
       title: 'Insights Gathered',
       icon: <FaLightbulb className="text-white text-[16px]" />,
-      desc: 'The research guided the development of Rightaway as a scalable transportation ecosystem focused on the efficiency, reliability and operational control. We also prioritized intelligent driver matching, real time GPS tracking, secure digital payments, simplified trip management, centralized business monitoring and advanced administrative tools. These insights helped create the platform which delivers fluent transportation experiences who support the long term business growth and operational efficiency.',
+      desc: 'The research helped shape RightAway into a connected construction materials marketplace which simplifies purchasing, improves supplier management, simplified delivery coordination and provides the administrators through the complete operational visibility to support the efficient day to day platform management and future business growth. ',
     }
   ];
 
