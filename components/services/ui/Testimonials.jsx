@@ -226,8 +226,8 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
                           <Image
                             src="/location/mobile-california/rev.webp"
                             alt="review stars"
-                            className="mx-auto mb-2"
-                           width={379} height={388} />
+                            className="w-[40px] mb-2"
+                           width={70} height={70} />
                           <h3 className="text-base font-bold">{item.name}</h3>
                           <div className="flex items-center justify-center gap-1 mt-1 text-xs text-gray-600">
                             {item.platform === "Google" && googleLogo}

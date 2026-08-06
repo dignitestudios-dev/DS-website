@@ -7,7 +7,7 @@ import { BlogGridSkeleton } from './BlogSkeleton';
 
 const BlogsArchive = ({ initialPosts = [], loading = false }) => {
   return (
-    <section className="flex flex-col items-center gap-[30px] mb-32 py-5">
+    <section className="flex flex-col items-center gap-[30px] px-4 mb-32 py-5">
       {/* Subscribe Section */}
       <Subscribe />
 

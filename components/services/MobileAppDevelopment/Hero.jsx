@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="w-full grid grid-cols-1  justify-start items-start ">
+    <div className="w-full grid grid-cols-1 -mb-32 lg:mb-0  justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
          Mobile App Development  {" "}
