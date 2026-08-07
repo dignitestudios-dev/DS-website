@@ -228,7 +228,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
                             alt="review stars"
                             width={66}
                             height={14}
-                            className="mx-auto mb-2 w-auto h-auto"
+                            className="w-[60px] mx-auto mb-2"
                           />
                           <h3 className="text-base font-bold">{item.name}</h3>
                           <div className="flex items-center justify-center gap-1 mt-1 text-xs text-gray-600">

@@ -376,7 +376,7 @@ function CTABanner() {
               max-w-[427px]
               text-white
               font-semibold
-              text-[28px]
+              text-[20px] lg:text-[28px]
               leading-[110%]
             "
           >
@@ -673,16 +673,16 @@ export default function BlogPostPage({ post, related = [] }) {
         .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
       `}</style>
 
-      <main className="min-h-screen bg-[#fafafa] pb-24 w-[1200px] mx-auto">
+      <main className="min-h-screen bg-[#fafafa] pb-24 w-full lg:w-[1200px] mx-auto overflow-x-hidden lg:overflow-visible">
         {/* Breadcrumb */}
         <div className="bg-white">
-          <div className="max-w-7xl mx-auto pr-4 pt-4 pb-2">
+          <div className="max-w-7xl mx-auto px-4 lg:px-0 lg:pr-4 pt-4 pb-2">
             <Breadcrumb title={post.title} />
           </div>
         </div>
 
         <div className="bg-white pb-10 relative">
-          <div className="max-w-7xl mx-auto ">
+          <div className="max-w-7xl mx-auto px-4 lg:px-0">
             {/*
               KEY FIX:
               1. items-start  — columns don't stretch to full height, required for sticky

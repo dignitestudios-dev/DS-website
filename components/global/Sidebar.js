@@ -503,6 +503,12 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             About us
           </button>
           <button
+            onClick={() => navigateTo("/blog")}
+            className={`text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
+          >
+            Blog
+          </button>
+          <button
             onClick={() => navigateTo("/contact-us")}
             className={`text-[14px] h-8 font-medium hover:text-orange-600 bg-transparent  outline-none`}
           >

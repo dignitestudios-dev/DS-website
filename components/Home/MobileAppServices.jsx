@@ -59,7 +59,7 @@ const MobileAppServices = () => {
           <span className="text-[#F15C20]">Startups</span>
         </h2>
         <p className=" text-lg  leading-relaxed ">
-         Dignite Studios is known for providing custom app development solutions that help startups. We also help businesses build and launch high-performing web and mobile digital products.
+          Dignite Studios is known for providing custom app development solutions that help startups. We also help businesses build and launch high-performing web and mobile digital products.
         </p>
       </div>
 
@@ -71,7 +71,7 @@ const MobileAppServices = () => {
             alt="Gradient corner decoration"
           />
           <MotionImage
-            src="/home-hero/P1.webp" width={852} height={570}
+            src="/home-hero/P1.webp" width={425.8695983886719} height={447.4477844238281}
             className="absolute bottom-0 left-[0%] -translate-x-1/2 md:left-[20%] md:translate-x-0 w-[100%] md:w-[60%]"
             alt="Mobile app development mockup"
             initial={{ y: 100, opacity: 0 }}
@@ -80,10 +80,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-          Android App Development
+            Android App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-          We develop Android apps, focused on smooth user experiences for startups and enterprises.
+            We develop Android apps, focused on smooth user experiences for startups and enterprises.
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -100,7 +100,7 @@ const MobileAppServices = () => {
             Best iOS App Development Services
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-             Your iOS apps need the <Link target='_blank' href="/services/ios-app-development" className="text-[#F15C20] ">best iOS app development services</Link> that combine elegant design with functionality to engage users.
+            Your iOS apps need the <Link target='_blank' href="/services/ios-app-development" className="text-[#F15C20] ">best iOS app development services</Link> that combine elegant design with functionality to engage users.
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -119,10 +119,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-         Mobile App Development
+            Mobile App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-           We provide mobile app development to create reliable, revenue-generating apps from your ideas. 
+            We provide mobile app development to create reliable, revenue-generating apps from your ideas.
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -132,7 +132,7 @@ const MobileAppServices = () => {
             alt="Web app development background element"
           />
           <MotionImage
-            src="/home-hero/monitor.webp" width={776} height={506}
+            src="/home-hero/monitor.webp" width={350.8794860839844} height={217.9705810546875}
             className="absolute bottom-0 left-[4%] -translate-x-1/2 md:left-5 md:translate-x-0 lg:left-10 w-[100%] md:w-[70%] "
             alt="Web app development services mockup on monitor"
             initial={{ y: 100, opacity: 0 }}
@@ -141,10 +141,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-               Web App Development Services
+            Web App Development Services
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-              As a startup app development company, we create responsive web apps that scale effortlessly.
+            As a startup app development company, we create responsive web apps that scale effortlessly.
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -166,7 +166,7 @@ const MobileAppServices = () => {
             Native App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-           Specializing in native apps, we craft fast, smooth, and secure solutions for every platform.
+            Specializing in native apps, we craft fast, smooth, and secure solutions for every platform.
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -177,7 +177,7 @@ const MobileAppServices = () => {
           />
           <MotionImage
             src="/home-hero/p5.webp" width={798} height={766}
-            className="absolute -bottom-20 md:-bottom-36 left-[0%] -translate-x-1/2 md:left-[15%] md:translate-x-0 w-[100%] md:w-[80%]"
+            className="absolute -bottom-20 md:-bottom-36 left-[0%] -translate-x-1/2 md:left-[12%] md:translate-x-0 w-[100%] md:w-[80%]"
             alt="Mobile app testing services mockup"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: -40, opacity: 1 }}
@@ -188,7 +188,7 @@ const MobileAppServices = () => {
             Mobile App Testing Services
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-             Our testing services ensure apps are bug-free, optimized, and fully ready for market launch.
+            Our testing services ensure apps are bug-free, optimized, and fully ready for market launch.
           </p>
         </div>
       </div>

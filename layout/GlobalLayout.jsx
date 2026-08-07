@@ -192,14 +192,17 @@ const GlobalLayout = ({ page }) => {
         <div className="pt-20" />
         <div
           onClick={handleCloseModal}
-          className={`screen-form ${showModal ? "show" : "hide"}`}
+          className={`screen-form ${showModal ? "show" : "hide"} max-md:!p-4`}
         >
           <form
             onSubmit={handleSubmit}
             ref={formRef}
-            className="container-form"
+            className="container-form max-md:!transform-none max-md:!h-auto max-md:!max-h-[90vh] max-md:!w-[95%] sm:max-md:!w-[450px] relative"
             id="popup-form"
           >
+            <span onClick={() => setShowModal(false)} className="close_icon z-[1000] cursor-pointer max-md:!top-[-12px] max-md:!right-[-5px]">
+              <RxCross2 />
+            </span>
             <div className="side-promo">
               <Image
                 width={540}
@@ -210,15 +213,11 @@ const GlobalLayout = ({ page }) => {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="main-promo overflow-y-auto hide-scrollbar">
-              <div className="promo2 text-center  ">
-                <h2 className="text-3xl   capitalize font-extrabold">Get a Free Expert App Consultation  <span className="text-[#F15C20]">Before You Leave</span></h2>
-              
+            <div className="main-promo overflow-y-auto hide-scrollbar max-md:!h-auto max-md:!max-h-[90vh] max-md:!p-6 max-md:!rounded-[24px]">
+              <div className="promo2 text-center mb-3">
+                <h2 className="text-[22px] leading-tight sm:text-3xl capitalize font-extrabold">Get a Free Expert App Consultation <span className="text-[#F15C20]">Before You Leave</span></h2>
               </div>
               {error && <ContactUsAlert />}
-              <span onClick={() => setShowModal(false)} className="close_icon">
-                <RxCross2 />
-              </span>
               {/* <span className="hidden">Name:</span>{" "}
               <input type="text" name="name" className="hidden" />
               <input
