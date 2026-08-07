@@ -46,6 +46,20 @@ function injectHeadingIds(html = '') {
   });
 }
 
+/**
+ * The editor emits a bare <table>, which would overflow the 761px content
+ * column on narrow screens. Wrapping it lets the table scroll sideways on its
+ * own instead of widening the page. Already-wrapped tables are left alone so
+ * this stays safe to re-run.
+ */
+function wrapTables(html = '') {
+  if (!html.includes('<table') || html.includes('blog-table-wrap')) return html;
+  return html.replace(
+    /<table[\s\S]*?<\/table>/gi,
+    (match) => `<div class="blog-table-wrap">${match}</div>`
+  );
+}
+
 function Breadcrumb({ title }) {
   // const cat = categories?.[0] || 'Blog';
   return (
@@ -584,7 +598,10 @@ export default function BlogPostPage({ post, related = [] }) {
   const heroImage = post.image;
   const contentWithoutHeroImage = post.content;
   const headings = useMemo(() => extractHeadings(contentWithoutHeroImage), [contentWithoutHeroImage]);
-  const processedContent = useMemo(() => injectHeadingIds(contentWithoutHeroImage), [contentWithoutHeroImage]);
+  const processedContent = useMemo(
+    () => wrapTables(injectHeadingIds(contentWithoutHeroImage)),
+    [contentWithoutHeroImage]
+  );
   const readMin = post.readTime || readingTime(post.content);
   return (
     <>
@@ -621,6 +638,34 @@ export default function BlogPostPage({ post, related = [] }) {
         .blog-content pre { background: #1f2937; color: #f9fafb; padding: 1rem; border-radius: 0.5rem; overflow-x: auto; margin-bottom: 1.5rem; }
         .blog-content code { background: #f3f4f6; color: #ef4444; padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-size: 0.875em; }
         .blog-content pre code { background: none; color: inherit; padding: 0; }
+
+        /* ── Editor block types the site had no styles for ──────────────────
+           Tailwind's preflight zeroes every border and sets border-collapse,
+           so a bare <table> from the editor rendered as cells jammed together
+           with no rules or padding. Everything below is additive: these tags
+           previously matched nothing in .blog-content. */
+        .blog-table-wrap { overflow-x: auto; margin: 1.5rem 0; -webkit-overflow-scrolling: touch; }
+        .blog-content table { width: 100%; border-collapse: collapse; font-size: 16px; line-height: 150%; }
+        .blog-content th, .blog-content td { border: 1px solid #e5e7eb; padding: 0.75rem 1rem; text-align: left; vertical-align: top; color: #1F222E; }
+        .blog-content th { background: #f7f7f7; font-weight: 700; }
+        .blog-content tbody tr:nth-child(even) { background: #fcfcfc; }
+        /* Cells carry their own padding; the paragraph margin would double it. */
+        .blog-content td > p:last-child, .blog-content th > p:last-child { margin-bottom: 0; }
+
+        /* Only h2/h3 were styled; the editor can emit h1 and h4-h6. */
+        .blog-content h1 { font-size: 2rem; font-weight: 700; margin: 2rem 0 1rem; line-height: 2.5rem; color: #1F222E; }
+        .blog-content h4 { font-size: 1rem; font-weight: 700; margin: 1.25rem 0 0.5rem; line-height: 1.5rem; color: #222; }
+        .blog-content h5, .blog-content h6 { font-size: 0.9375rem; font-weight: 700; margin: 1rem 0 0.5rem; line-height: 1.4rem; color: #222; }
+
+        /* Delimiter block. Preflight leaves hr with no margin of its own. */
+        .blog-content hr { border: 0; border-top: 1px solid #e5e7eb; margin: 2rem 0; }
+
+        /* Marker inline tool. */
+        .blog-content mark { background: #ffedd5; color: inherit; padding: 0.1em 0.2em; border-radius: 0.2rem; }
+
+        /* Image/embed captions come inline-styled from the editor; this only
+           keeps a bare <figure> from inheriting a stray margin. */
+        .blog-content figure { margin: 1.5rem 0; }
         .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
         .fade-up { animation: fadeUp 0.5s ease forwards; }
