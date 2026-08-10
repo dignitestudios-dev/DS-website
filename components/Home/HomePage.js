@@ -4,8 +4,15 @@ import { useContext, useEffect, useState, lazy, Suspense } from "react";
 import dynamic from "next/dynamic";
 import GlobalLoader from "@/components/global/GlobalLoader";
 
-const Hero = dynamic(() => import("@/components/Home/Hero"), { ssr: false });
-const MobileAppServices = dynamic(() => import("@/components/Home/MobileAppServices"), { ssr: false });
+// Above the fold: server-rendered on purpose. With `ssr: false` the <h1> only
+// existed once JS had run, which is what pushed LCP's render delay to 2.3s and
+// caused the layout shift as the placeholder was replaced. These two render
+// identically either way — neither touches window/document, and the heading is
+// not inside an animated wrapper, so the markup is the same, just earlier.
+const Hero = dynamic(() => import("@/components/Home/Hero"));
+const MobileAppServices = dynamic(() => import("@/components/Home/MobileAppServices"));
+
+// Below the fold stays client-only: it keeps their JS off the critical path.
 
 const SuccessStories = dynamic(() => import("./SuccessStories"), { ssr: false });
 const Bussiness = dynamic(() => import("./Bussiness"), { ssr: false });
