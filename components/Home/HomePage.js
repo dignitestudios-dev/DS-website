@@ -2,6 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import { useContext, useEffect } from "react";
 import dynamic from "next/dynamic";
+import DeferUntilNear from "@/components/global/DeferUntilNear";
 
 // Above the fold: server-rendered on purpose. With `ssr: false` the <h1> only
 // existed once JS had run, which is what pushed LCP's render delay to 2.3s and
@@ -43,41 +44,26 @@ export default function HomePage() {
   return (
     <>
       <div className="w-full max-w-screen-2xl mx-auto h-auto flex flex-col items-center justify-center gap-20 md:gap-28 pb-20" style={{ overflowAnchor: 'none' }}>
+        {/* Above the fold: rendered immediately and server-rendered. */}
         <Hero />
         <MobileAppServices />
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <SuccessStories />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Bussiness />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Process />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Industries />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <TechTools />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Impact />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Testimonials />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <ProductDesign />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <GlobalPresence />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Faq />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <ContactUs header={"Your Next Big Project is Just a Call Away!"} para={"Big ideas deserve expert execution. Connect with our team and take the first step toward launching your amazing project."} img="/cc.webp" btn={"Schedule a Call"} />
-        {/* </Suspense> */}
+
+        {/* Everything below mounts as it approaches the viewport. Each of these
+            mounts a large number of framer-motion components, and doing all of
+            it during load is what dominated the main thread. */}
+        <DeferUntilNear minHeight={600}><SuccessStories /></DeferUntilNear>
+        <DeferUntilNear minHeight={600}><Bussiness /></DeferUntilNear>
+        <DeferUntilNear minHeight={600}><Process /></DeferUntilNear>
+        <DeferUntilNear minHeight={600}><Industries /></DeferUntilNear>
+        <DeferUntilNear minHeight={600}><TechTools /></DeferUntilNear>
+        <DeferUntilNear minHeight={400}><Impact /></DeferUntilNear>
+        <DeferUntilNear minHeight={600}><Testimonials /></DeferUntilNear>
+        <DeferUntilNear minHeight={600}><ProductDesign /></DeferUntilNear>
+        <DeferUntilNear minHeight={600}><GlobalPresence /></DeferUntilNear>
+        <DeferUntilNear minHeight={600}><Faq /></DeferUntilNear>
+        <DeferUntilNear minHeight={400}>
+          <ContactUs header={"Your Next Big Project is Just a Call Away!"} para={"Big ideas deserve expert execution. Connect with our team and take the first step toward launching your amazing project."} img="/cc.webp" btn={"Schedule a Call"} />
+        </DeferUntilNear>
       </div>
     </>
   );
