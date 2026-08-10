@@ -1,8 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
-import { useContext, useEffect, useState, lazy, Suspense } from "react";
+import { useContext, useEffect } from "react";
 import dynamic from "next/dynamic";
-import GlobalLoader from "@/components/global/GlobalLoader";
 
 // Above the fold: server-rendered on purpose. With `ssr: false` the <h1> only
 // existed once JS had run, which is what pushed LCP's render delay to 2.3s and
@@ -30,22 +29,19 @@ const LoadingFallback = () => <div className="w-full min-h-[400px]" />;
 
 export default function HomePage() {
   const { palette, theme } = useContext(GlobalContext);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
   }, [theme]);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []);
+  // The full-screen loader that used to sit here was on a fixed 1000 ms timer,
+  // not on anything actually loading. It existed because every section was
+  // `ssr: false` and the page really was blank; now the hero is server-rendered
+  // it was covering content that had already painted, and no metric could be
+  // recorded until it went away.
 
   return (
     <>
-      {loading && <GlobalLoader />}
       <div className="w-full max-w-screen-2xl mx-auto h-auto flex flex-col items-center justify-center gap-20 md:gap-28 pb-20" style={{ overflowAnchor: 'none' }}>
         <Hero />
         <MobileAppServices />
