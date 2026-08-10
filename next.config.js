@@ -16,7 +16,10 @@ const nextConfig = {
     formats: ['image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    minimumCacheTTL: 60,
+    // One minute meant the optimizer re-encoded images for almost every
+    // visitor. The URLs are content-hashed by the build id, so a long TTL is
+    // safe — a changed image gets a new URL.
+    minimumCacheTTL: 31536000,
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
