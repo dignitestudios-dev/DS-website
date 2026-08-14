@@ -211,11 +211,10 @@ const TechTools = () => {
     >
       <div className="max-w-7xl mx-auto text-center px-4">
         <h2 className="text-4xl md:text-7xl leading-[42px] tracking-tighter lg:leading-[1.1] font-bold mb-6">
-          The Tech Behind Secure Mobile Application
-          <span className="text-[#F15C20]"> Development</span>
+          The Technology Behind Secure Mobile Application Development
         </h2>
         <p className="font-extralight mx-auto mb-16 text-lg">
-       The goal is to build secure apps. Whether it’s mobile application design and development, or we’re building enterprise mobile app solutions. 
+          Are you aware that the tech behind your app plays a key role in its performance and security? We carefully choose the right tools and frameworks for every project based on your goals as the expert mobile app development company. The technology stack we choose allows us to build reliable applications that support your business as it continues to evolve.
         </p>
         <div className="flex flex-wrap justify-center gap-2 mb-16 bg-transparent lg:bg-black/50 p-1.5 rounded-full w-fit mx-auto lg:border lg:border-gray-800 backdrop-blur-sm">
           {categories.map((cat) => (

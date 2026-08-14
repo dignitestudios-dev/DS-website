@@ -173,12 +173,12 @@ const Process = () => {
           <div className="w-full px-0 flex flex-col justify-between items-center">
           
             <h2 className="lg:font-bold text-center capitialize font-extrabold text-4xl lg:text-7xl leading-[42px] lg:leading-[1.1] tracking-tighter xl:font-bold">
-             The Way Dignite Studios Works
+             The Process Behind Every Successful Mobile Application
             </h2>
             <p
               className={`text-lg text-center mt-4 `}
             >
-           Our workflow is a combination of strategy, design, and fast development. The team ensures smooth execution. We don’t compromise on delivering scalable apps, ensuring transparency.
+           The workflow we follow at our app development agency is a combination of strategy, design and fast development. The team ensures smooth execution. We don’t compromise on delivering scalable apps that ensure transparency.
             </p>
           </div>
           <div className="w-full h-auto mt-6 lg:my-6 grid grid-cols-3 grid-rows-1">
@@ -225,10 +225,10 @@ const Process = () => {
       <div className="md:hidden w-full bg-white py-16 px-6 relative overflow-hidden">
         <div className="flex flex-col items-center text-center mb-12">
           <h2 className="text-4xl capitalize leading-10 mb-4 tracking-tighter md:text-7xl font-bold">
-            The Way Dignite Studios Works
+            The Process Behind Every Successful Mobile Application
           </h2>
           <p className="text-[14px] text-gray-500 max-w-sm">
-           Our workflow is a combination of strategy, design, and fast development. The team ensures smooth execution. We don’t compromise on delivering scalable apps, ensuring transparency.
+           The workflow we follow at our app development agency is a combination of strategy, design and fast development. The team ensures smooth execution. We don’t compromise on delivering scalable apps that ensure transparency.
           </p>
         </div>
 

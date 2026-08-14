@@ -55,11 +55,10 @@ const MobileAppServices = () => {
     <section className="w-full pt-20 px-4 -mt-20 md:-mt-28 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black rounded-t-[4rem] relative z-40 ">
       <div className="text-center max-w-7xl mx-auto mb-20 pt-8">
         <h2 className="text-4xl md:text-7xl font-bold  mb-6 text-black dark:text-white leading-[1.1] tracking-tighter">
-          Offering Custom App Development Solutions For{" "}
-          <span className="text-[#F15C20]">Startups</span>
+          Building Custom App Development Solutions
         </h2>
         <p className=" text-lg  leading-relaxed ">
-          Dignite Studios is known for providing custom app development solutions that help startups. We also help businesses build and launch high-performing web and mobile digital products.
+          Every great app starts with a just challenge that is worth solving. Maybe you need to reach more customers or create a better digital experience. The right team will move your business forward. The solutions are built according to your specific needs and goals at Dignite Studios.
         </p>
       </div>
 
@@ -83,7 +82,7 @@ const MobileAppServices = () => {
             Android App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            We develop Android apps, focused on smooth user experiences for startups and enterprises.
+            Make your business more accessible to the users through an Android application. The Mobile App Developers at Dignite Studios create applications that work on different platforms.
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -97,10 +96,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-            Best iOS App Development Services
+            iOS App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            Your iOS apps need the <Link target='_blank' href="/services/ios-app-development" className="text-[#F15C20] ">best iOS app development services</Link> that combine elegant design with functionality to engage users.
+            Creating premium experiences for Apple users encourages customer loyalty. The development team at Dignite Studios create applications that are secure and designed for long term success.
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -119,10 +118,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-            Mobile App Development
+            Cross-Platform App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            We provide mobile app development to create reliable, revenue-generating apps from your ideas.
+            Want your app to be able to work on both Android and iOS? Cross Platform development is the solution. It reduces development costs and maintains a consistent experience on different platforms.
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -141,10 +140,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-            Web App Development Services
+            Web App Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            As a startup app development company, we create responsive web apps that scale effortlessly.
+            Users can get easy access to your web application through any web browser. With us, build secure and responsive web applications that keep your users engaged.
           </p>
         </div>
         <div className="md:col-span-7 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -163,10 +162,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-            Native App Development
+            MVP Development
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            Specializing in native apps, we craft fast, smooth, and secure solutions for every platform.
+            Testing an idea shouldn’t be requiring a full scale investment. So we build an MVP to help you test your idea with the essential features without needing a high end investment first.
           </p>
         </div>
         <div className="md:col-span-5 bg-black p-8 md:p-12 relative h-[450px] md:h-[500px] rounded-[34px] overflow-hidden group">
@@ -185,10 +184,10 @@ const MobileAppServices = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           />
           <h3 className="text-lg mb-4 font-bold relative z-10">
-            Mobile App Testing Services
+            App Maintenance & Support
           </h3>
           <p className="font-extralight text-sm md:text-base relative z-10">
-            Our testing services ensure apps are bug-free, optimized, and fully ready for market launch.
+            Successful launch is only the beginning because maintenance and performance optimization is the ongoing process. So the team at Dignite Studios provide maintenance services.
           </p>
         </div>
       </div>

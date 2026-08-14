@@ -9,10 +9,10 @@ const SuccessStories = ({ header, para, header2 }) => {
     <div className="w-full grid grid-cols-1  justify-start items-start  ">
       <div className="flex relative  -mb-28  w-[90%] md:w-[70%] flex-col text-center mx-auto items-center">
         <h2 className="text-4xl   md:text-7xl leading-[42px] lg:leading-[1.1] tracking-tighter font-bold ">
-          Success Stories from Our Startup App Development Company
+          Here's What We've Been Working On
         </h2>
         <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">
-          Check out our case studies. See how we help founders launch apps by the <Link target='_blank' href="/services/mobile-app-development" className="text-[#F15C20] ">best mobile app development agency for startups</Link>. Each story shows strategy, execution, and results.
+          Every project has its own set of goals. So the team at our expert app development company would take the time to understand what the clients need before the development begins. That’s why the final product is driven by collaboration and attention to detail. Explore our case studies to see how we've turned ideas into products that solve real problems, create better user experiences, and help businesses grow with confidence. The following case studies showcase the challenges we have tackled and the strategies we've followed.
         </p>
       </div>
       <div className='pt-10' >

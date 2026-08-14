@@ -6,28 +6,28 @@ import { MdArrowOutward } from "react-icons/md";
 import Link from "next/link";
 const bs = [
   {
-    title: "100% Custom App Development",
-    desc: "Every app is built from scratch, for startups and enterprise mobile app solutions. ",
+    title: "Strategy Before Development",
+    desc: "Every successful app usually begins with a strategy that is well defined. We take the time to understand your business goals and project requirements before even a single line of code is written. This is the right approach in order to identify the right features and choose the best technology.",
   },
   {
-    title: "Experienced Mobile and Web Developers",
-    desc: "Skilled engineers at Dignite Studios ensure you get clean code and an amazing user experience across all platforms.",
+    title: "Experienced Mobile App Developers",
+    desc: "Technical expertise is not enough for building a successful app; it requires experience that solves business challenges. Our experienced mobile app development agency brings years of hands-on experience in creating secure applications across different industries.",
   },
   {
-    title: "Fast MVP Development",
-    desc: "Dignite is known for launching MVPs quickly to validate ideas and gather feedback.  Without compromising quality.",
+    title: "User Centered UI/UX Design",
+    desc: "A great app means it’s easy and enjoyable to use despite being functional. Every screen we build is designed with your users in mind. That’s how our designers create better navigation and clear layouts that make every experience feel natural.",
   },
   {
-    title: "Dedicated Startup-Focused Teams",
-    desc: "You need to work with a startup app development company that understands startup challenges and thinks like a partner.",
+    title: "Agile Development Process",
+    desc: "Every project has to evolve. So the development process we follow is mainly designed to adapt to evolving needs. Through agile development, the project is broken into manageable stages that allow regular feedback and faster improvements.",
   },
   {
-    title: "Flexible Engagement Models",
-    desc: "The models adapt to your needs and budget. Which means giving you full control without fixed contracts..",
+    title: "Transparent Communication",
+    desc: "Successful partnerships are mainly built on trusted communication. The team at Dignite Studios keeps you informed with regular progress updates and milestone reviews through out the entire project.",
   },
   {
-    title: "Transparent, Agile Process",
-    desc: "We follow a transparent, agile workflow, trusted by the best mobile app development agencies worldwide for predictable results.",
+    title: "Long Term Maintenance & Support",
+    desc: "Your app needs continuous care to deliver the best experience. Once the project has been launched, continuous maintenance, security updates, performance optimization, bug fixes and feature enhancements are provided by the team to keep your application running.",
   },
 ];
 
@@ -85,13 +85,10 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
         <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start pt-28 ">
           <div className="flex relative z-20  w-[90%] md:max-w-7xl flex-col text-center mx-auto items-center">
             <h2 className="text-4xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
-              Why We’re The Best Mobile App Development Agency for{" "}
-              <span className="text-[#F15C20]">Startups</span>{" "}
+              Why We're the Best App Development Agency for Your Next Project
             </h2>
             <p className="text-lg my-6 text-white ">
-              We help startups build secure and scalable apps. We’re known for
-              our <Link target='_blank' href="/services/mobile-app-development" className="text-[#F15C20] ">secure mobile application development</Link>, custom solutions, and
-              hands-on collaboration.
+              Choosing a development partner is about more than finding the right technical skills. It's about working with a team that actually understands your business goals and is invested in your success. The team merges thoughtful design and reliable development to build products that solve your product challenge.
             </p>
           </div>
 
@@ -204,13 +201,10 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
           {/* Header */}
           <div className="text-center max-w-xl mx-auto mb-14">
                <h2 className="text-4xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
-              Why We’re The Best Mobile App Development Agency for{" "}
-              <span className="text-[#F15C20]">Startups</span>{" "}
+              Why We're the Best App Development Agency for Your Next Project
             </h2>
                 <p className="text-lg my-6 text-white ">
-              We help startups build secure and scalable apps. We’re known for
-              our <Link target='_blank' href="/services/mobile-app-development" className="text-[#F15C20] ">secure mobile application development</Link>, custom solutions, and
-              hands-on collaboration.
+              Choosing a development partner is about more than finding the right technical skills. It's about working with a team that actually understands your business goals and is invested in your success. The team merges thoughtful design and reliable development to build products that solve your product challenge.
             </p>
           </div>
 

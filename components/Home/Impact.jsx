@@ -58,11 +58,10 @@ const Impact = () => {
     <section className="w-full  px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black">
       <div className="text-center max-w-4xl mx-auto mb-16">
         <h2 className="text-[40px] tracking-tighter md:text-7xl font-bold text-black dark:text-white leading-[1.1] mb-6">
-          Letting The Numbers <span className="text-[#F15C20]">Speak</span>
+          Why We're a Trusted Mobile App Development Firm
         </h2>
         <p className=" text-lg ">
-          We understand that you need a trusted startup app development company
-          that has actually delivered successful projects. So, here’s the stats:
+          Choosing the right development partner is an important decision for every founder and we believe our work speaks for itself, being one of the best mobile app development companies. We have had the opportunity to work with businesses across different industries. The milestones highlighted below represent more than just numbers. They reflect the trust our clients place in us.
         </p>
       </div>
 

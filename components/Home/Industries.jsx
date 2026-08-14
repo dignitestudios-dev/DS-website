@@ -44,16 +44,22 @@ const icons = [
     icon: "health.webp",
   },
   {
-    icon: "fin.webp",
+    icon: "ecom.webp",
   },
   {
-    icon: "ecom.webp",
+    icon: "state.webp",
+  },
+  {
+    icon: "date.webp",
   },
   {
     icon: "edu.webp",
   },
   {
-    icon: "state.webp",
+    icon: "edu.webp",
+  },
+  {
+    icon: "fin.webp",
   },
   {
     icon: "date.webp",
@@ -62,39 +68,36 @@ const icons = [
 
 const VALUE_PROPOSITION = [
   {
-    title: "Real Estate Industry",
-    desc: "We build apps that simplify property listings, enable virtual tours, and provide efficient lead management.",
+    title: "Healthcare",
+    desc: "Healthcare is becoming more digital. So patients now expect convenient access to healthcare. The team builds secure healthcare applications. To simplify appointment scheduling, telemedicine, patient communication and health record management.",
   },
   {
     title: "Ecommerce",
-    desc: (
-      <>
-        Providing{" "}
-        <Link
-          className="text-orange-600"
-          href="/ecommerce/ecommerce-app-development"
-        >
-          ecommerce mobile app development services
-        </Link>{" "}
-        that help startups boost sales through seamless shopping experiences.
-      </>
-    ),
+    desc: "The great shopping experience has more than just an attractive website. We develop ecommerce applications that make browsing and managing orders simple for your customers. The solutions help businesses increase customer engagement.",
   },
   {
-    title: "Health & Fitness",
-    desc: "We are a trusted startup app development company that builds apps to track wellness goals, workouts, and overall fitness.",
+    title: "Real Estate",
+    desc: "Finding the right property should be basic and simple so the team build real estate applications that make it easier for buyers and sellers to connect through property listings. Our solutions help real estate businesses simplify property management.",
+  },
+  {
+    title: "Food Delivery",
+    desc: "Customers expect food delivery to be simple. We develop applications that make ordering and tracking deliveries effortlessly simple for both customers and businesses.",
   },
   {
     title: "Travel",
-    desc: "Dignite Studios is known for building travel apps that simplify bookings and deliver smooth experiences across mobile and web platforms.",
+    desc: "Modern travelers expect quick access to information and smooth booking experiences. We build travel applications that make the entire trip planning, reservations and itinerary management simple.",
   },
   {
-    title: "Food and Delivery",
-    desc: "We build apps for restaurants and delivery services that enhance ordering, payments, and customer engagement.",
+    title: "Education",
+    desc: "We genuinely believe learning should be accessible and easy to manage. So we create educational applications that support online learning, virtual classrooms, progress tracking and assessments between students and educators.",
   },
   {
-    title: "Matchmaking and Dating",
-    desc: "We create secure, interactive dating apps designed to scale with growth, built by a trusted startup app development company.",
+    title: "FinTech",
+    desc: "Trust and security are at the heart of every financial application. We build fintech solutions that simplify digital payments, online banking, expense management, investing and financial planning.",
+  },
+  {
+    title: "Social Networking",
+    desc: "Building a successful social platform means encouraging meaningful interactions through unique experiences. We develop social networking applications with features that support messaging, content sharing, communities, notifications and user engagement.",
   },
 ];
 
@@ -113,13 +116,10 @@ const Industries = ({ header, header2, para }) => {
     <div className="w-full grid grid-cols-1  justify-start items-start  ">
       <div className="flex relative z-20  w-[90%] md:w-[78%] flex-col text-center mx-auto items-center">
         <h2 className="text-4xl leading-[40px] md:leading[1.1] tracking-tighter md:text-7xl font-bold ">
-          Powering Startups Across Top{" "}
-          <span className="text-[#F15C20]">Industries</span>{" "}
+          Custom Mobile App Solutions for Specialized Industries
         </h2>
         <p className="text-sm md:text-lg my-6 dark:text-white md:w-[60%] mx-auto text-[#0C0C0C]">
-          As the best mobile app development agency for startups, we create
-          industry-focused apps that help businesses engage users and deliver
-          measurable results across sectors.
+          Every industry has unique challenges and goals. The team can create custom solutions that fit the way your business works. The team develops applications that can solve business problems. We build user-friendly solutions that help businesses adapt and stay competitive.
         </p>
       </div>
       <div className="w-full overflow-hidden">
