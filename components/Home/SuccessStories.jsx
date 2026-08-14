@@ -12,7 +12,7 @@ const SuccessStories = ({ header, para, header2 }) => {
           Here's What We've Been Working On
         </h2>
         <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">
-          Every project has its own set of goals. So the team at our expert app development company would take the time to understand what the clients need before the development begins. That’s why the final product is driven by collaboration and attention to detail. Explore our case studies to see how we've turned ideas into products that solve real problems, create better user experiences, and help businesses grow with confidence. The following case studies showcase the challenges we have tackled and the strategies we've followed.
+         Every project starts with a unique goal. Our expert app development team works closely with clients to understand their needs and turn ideas into functional, user-focused digital products. Explore our case studies to see how we’ve tackled real-world challenges and helped businesses bring their ideas to life.
         </p>
       </div>
       <div className='pt-10' >
