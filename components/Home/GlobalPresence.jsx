@@ -58,12 +58,10 @@ const GlobalPresence = () => {
         {/* Header */}
         <div className="text-center mb-6">
           <h2 className="text-4xl md:text-5xl lg:text-7xl tracking-tighter font-bold mb-6">
-            Our Global <span className="text-[#F15C20]">Presence</span>
+            An Expert Mobile App Development Company with Global Reach
           </h2>
           <p className=" dark:text-white text-gray-600  text-sm md:text-lg leading-relaxed">
-            Dignite Studios maintains a strong presence across the United States, enabling us to work closely with businesses nationwide. 
-            With operations spanning New York, California, and Texas, our teams stay connected to diverse markets, emerging trends, and 
-            client needs, delivering reliable support and localized expertise wherever our partners operate.
+            Great ideas have no borders and neither do we. We have worked with businesses from different corners of the world and built digital products that solved problems. The team is focused on creating solutions that are custom to each client's needs. We are committed to delivering reliable applications with transparent communication.
           </p>
         </div>
 

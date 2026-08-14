@@ -1,50 +1,37 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { GoClock } from "react-icons/go";
-
-const insights = [
-  {
-    id: 1,
-    title: "Boost Your Brand With Effective Social Media Campaigns",
-    description:
-      "In today's digital landscape, a strong social media presence is crucial for brand growth. This blog explores strategies for creating impactful campaigns, increasing engagement, and turning followers into loyal customers.",
-    date: "July 29, 2025",
-    image:
-      "/unsplash/blog-img-1.webp",
-    featured: true,
-  },
-  {
-    id: 2,
-    title: "How AI Is Revolutionizing Web Design Strategies",
-    date: "July 29, 2025",
-    image:
-      "/unsplash/blog-img-2.webp",
-  },
-  {
-    id: 3,
-    title: "Essential SEO Techniques Every Agency Should Implement",
-    date: "July 29, 2025",
-    image:
-      "/unsplash/blog-img-3.webp",
-  },
-  {
-    id: 4,
-    title: "Top Trends Shaping Digital Marketing in 2026 Latest",
-    date: "July 29, 2025",
-    image:
-      "/unsplash/blog-img-4.webp",
-  },
-  {
-    id: 5,
-    title: "Creating Engaging Content That Converts Visitors Into Customers",
-    date: "July 29, 2025",
-    image:
-      "/unsplash/blog-img-5.webp",
-  },
-];
+import { getPaginatedBlogs } from "@/actions/blogActions";
 
 const ProductDesign = () => {
+  const [insights, setInsights] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      setLoading(true);
+      const data = await getPaginatedBlogs(currentPage, 5);
+      if (data && data.blogs) {
+        setInsights(data.blogs);
+        setTotalPages(data.totalPages);
+      }
+      setLoading(false);
+    };
+    fetchBlogs();
+  }, [currentPage]);
+
+  const handleNext = () => {
+    if (currentPage < totalPages) setCurrentPage(prev => prev + 1);
+  };
+
+  const handlePrev = () => {
+    if (currentPage > 1) setCurrentPage(prev => prev - 1);
+  };
+
   return (
     <section
       className="py-36 w-full bg-[#0A0A0A] px-6 md:px-12 lg:px-24  [clip-path:ellipse(350%_100%_at_50%_100%)]
@@ -54,28 +41,67 @@ const ProductDesign = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-7xl font-bold mb-6 text-white leading-tight">
-            Insights And Startup <br />
-            <span className="text-[#F15C20]">Stories</span>
+            Insights and Startup Stories on Mobile App Development
           </h2>
           <p className="font-extralight max-w-2xl mx-auto text-lg text-gray-300 leading-relaxed">
-            Our <Link target='_blank' href="/services/mobile-app-development" className="text-[#F15C20] ">mobile application design and development</Link> reaches startups
-            worldwide. So, we’re providing all the necessary information and
-            insights about apps to create measurable impact across every market
-            we serve.
+            Staying informed is just as important as choosing the right development partner. We share practical insights, startup stories and expert perspectives. It helps businesses navigate the world of mobile apps. The content is designed to answer common questions and inspire new ideas for your next digital product.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
-          <div className="lg:col-span-5 h-full">
-            <BlogCard post={insights[0]} isFeatured />
+        {loading ? (
+          <div className="flex justify-center items-center h-64 text-white">
+            <p>Loading insights...</p>
           </div>
+        ) : insights.length > 0 ? (
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
+            <div className="lg:col-span-5 h-full">
+              <Link href={insights[0].url}>
+                <BlogCard post={insights[0]} isFeatured />
+              </Link>
+            </div>
 
-          <div className="lg:col-span-7 md:grid hidden grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
-            {insights.slice(1).map((post) => (
-              <BlogCard key={post.id} post={post} />
-            ))}
+            <div className="lg:col-span-7 md:grid hidden grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
+              {insights.slice(1).map((post) => (
+                <Link key={post.id || post.slug} href={post.url}>
+                  <BlogCard post={post} />
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className="text-center text-white">No insights available.</div>
+        )}
+
+        {/* Pagination Controls */}
+        {!loading && totalPages > 1 && (
+          <div className="flex justify-center items-center gap-6 mt-16">
+            <button
+              onClick={handlePrev}
+              disabled={currentPage === 1}
+              className={`px-6 py-2 rounded-full font-medium transition-colors ${
+                currentPage === 1
+                  ? "bg-gray-800 text-gray-500 cursor-not-allowed"
+                  : "bg-[#F15C20] text-white hover:bg-[#d84e18]"
+              }`}
+            >
+              Previous
+            </button>
+            <span className="text-gray-400 font-medium">
+              Page {currentPage} of {totalPages}
+            </span>
+            <button
+              onClick={handleNext}
+              disabled={currentPage === totalPages}
+              className={`px-6 py-2 rounded-full font-medium transition-colors ${
+                currentPage === totalPages
+                  ? "bg-gray-800 text-gray-500 cursor-not-allowed"
+                  : "bg-[#F15C20] text-white hover:bg-[#d84e18]"
+              }`}
+            >
+              Next
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

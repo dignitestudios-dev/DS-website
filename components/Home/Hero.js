@@ -152,20 +152,19 @@ const Hero = () => {
       </motion.div>
       <div className="relative overflow-hidden z-40 text-white gap-5 flex flex-col items-center justify-center h-full lg:w-[50%] w-[80%] text-center mx-auto">
         <h1 className="text-[40px] leading-[40px] md:text-[60px] md:leading-[60px] capitalize font-semibold tracking-tighter">
-          Your Technical Co-Pilot: Expert Startup App Development Company
+          We Build Mobile Apps That Turn Ideas Into Business Growth
         </h1>
         <p className="text-[16px] md:text-[20px]">
-          We are a{" "}
-          <Link href="/" className="text-[#F15C20]">
-            startup app development company
-          </Link>{" "}
-          that helps startups create scalable apps that attract users and
-          generate measurable revenue.
+          Do you believe your idea can change the way people interact with your business? We can work on it with you as a trusted{" "}
+          <Link href="/services/mobile-app-development" className="text-[#F15C20]">
+            mobile app development company
+          </Link>
+          . Dignite Studios is here for you because your idea deserves to be converted into a product that’s built to grow with your business.
         </p>
         <div className="flex items-center group justify-start pt-4">
           <Link
             href="/contact-us"
-            className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 py-3 rounded-full transition-colors"
+            className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 h-14 flex justify-center items-center py-3 rounded-full transition-colors"
           >
             Let's Discuss Your Idea
           </Link>

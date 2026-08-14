@@ -5,9 +5,9 @@ import React from "react";
 import RootLayout from "./layout";
 
 export const metadata = {
-  title: "Dignite Studios: Top Mobile App Development Company in US",
+  title: "Mobile App Development Company | From Idea to Launch",
   description:
-    "Software application to stand out among top mobile app development companies. Our agency fabricates mobile application process with effecent solution.",
+    "Dignite Studios helps businesses turn concepts into market-ready mobile apps with strategy, UI/UX, iOS, Android, and cross-platform development.",
   alternates: {
     canonical: 'https://www.dignitestudios.com/',
     languages: {
@@ -22,8 +22,8 @@ export const metadata = {
   openGraph: {
     type: 'website',
     siteName: 'Dignite Studios',
-    title: 'Top Mobile App Development Company | Dignite Studios',
-    description: 'Explore interactive user experience to transform your software application to stand out among top mobile app development companies. Our agency fabricates your mobile application process effectively with significant solution.',
+    title: 'Mobile App Development Company | From Idea to Launch',
+    description: 'Dignite Studios helps businesses turn concepts into market-ready mobile apps with strategy, UI/UX, iOS, Android, and cross-platform development.',
     url: 'https://www.dignitestudios.com/',
     images: [
       {
@@ -37,9 +37,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Top Mobile App Development Company | Dignite Studios',
+    title: 'Mobile App Development Company | From Idea to Launch',
     site: '@dignitestudios',
-    description: 'Explore interactive user experience to transform your software application to stand out among top mobile app development companies.',
+    description: 'Dignite Studios helps businesses turn concepts into market-ready mobile apps with strategy, UI/UX, iOS, Android, and cross-platform development.',
     images: [
       {
         url: 'https://www.dignitestudios.com/banner-cover-image-of-top-mobile-app-development-company.webp',
