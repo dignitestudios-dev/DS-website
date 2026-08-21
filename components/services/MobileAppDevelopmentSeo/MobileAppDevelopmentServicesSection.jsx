@@ -135,7 +135,7 @@ const MobileAppDevelopmentServicesSection = () => {
             >
               Our professional development provides free{" "}
               <Link
-                href={"/services/mobile-app-consulting-services"}
+                href={"/services/mobile-app-consultation"}
                 className="text-[#F15C20]"
               >
                 mobile app consulting services
@@ -325,7 +325,7 @@ const MobileAppDevelopmentServicesSection = () => {
             >
               Here at Dignite Studios, we offer you complete{" "}
               <Link
-                href={"/services/web-application-development-services"}
+                href={"/services/web-app-development"}
                 className="text-[#F15C20]"
               >
                 development of web

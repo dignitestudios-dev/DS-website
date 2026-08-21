@@ -30,7 +30,7 @@ const services = [
         development companies in Tampa, we build apps that work smoothly on
         iPhones. Our{" "}
         <Link
-          href="/services/ios-app-development-services"
+          href="/services/ios-app-development"
           className="underline "
         >
           iOS app development
@@ -48,7 +48,7 @@ const services = [
       <>
         For Android, we handle full{" "}
         <Link
-          href="/services/android-app-development-services"
+          href="/services/android-app-development"
           className="underline "
         >
           Android app development
@@ -67,7 +67,7 @@ const services = [
       <>
         Looking for faster delivery and cost efficiency? You need{" "}
         <Link
-          href="/services/hybrid-app-development-services"
+          href="/services/hybrid-app-development"
           className="underline "
         >
           cross-platform app development
@@ -85,14 +85,14 @@ const services = [
       <>
         When you want full control, our{" "}
         <Link
-          href="/services/native-app-development-services"
+          href="/services/native-app-development"
           className="underline "
         >
           native app development services
         </Link>{" "}
         are the best choice. As a native mobile app development company, we
         build custom native apps and{" "}
-        <Link href="/services/pwa-development-services" className="underline ">
+        <Link href="/services/progressive-web-app-development" className="underline ">
           PWAs
         </Link>{" "}
         that scale with you.
@@ -139,7 +139,7 @@ const services = [
         We don't disappear after launch. From MVP development and post-launch
         support to QA testing and{" "}
         <Link
-          href="/services/mobile-app-consulting-services"
+          href="/services/mobile-app-consultation"
           className="underline "
         >
           mobile app consulting services
@@ -377,7 +377,7 @@ The Tampa-based team is ready to guide you through every step of the build, to i
            Finding expert app development services in Tampa is tiring and sometimes misleading but we're not here to make misleading promises; we are here to work as a partner with you. When it comes to working with founders, product teams, and
             growing businesses, our{" "}
             <Link
-              href={"/services/hire-mobile-app-developers"}
+              href={"/services/hire-mobile-application-developers"}
               className="underline"
             >
               {" "}

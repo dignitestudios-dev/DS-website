@@ -28,7 +28,7 @@ export const Hybrid_App_Development_FAQS = [
     question: "How long does it take to create a hybrid app?",
     answer: (
       <>
-        It depends on the complexity of an app. If it contains a smaller version of an app then a <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid developer</Link> can create it in less time frame.
+        It depends on the complexity of an app. If it contains a smaller version of an app then a <Link href="/services/hire-mobile-application-developers" className="text-[#F15C20]">hybrid developer</Link> can create it in less time frame.
       </>
     ),
   },

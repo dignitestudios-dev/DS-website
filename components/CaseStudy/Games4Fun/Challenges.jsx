@@ -11,7 +11,7 @@ const challenges = [
         Building a scalable system that translates game requirements into simple
         hardware recommendations, FPS predictions, compatibility checks, fluent
         UX, and admin AI logic for{" "}
-        <Link className="underline" href="/services/web-application-development-services">
+        <Link className="underline" href="/services/web-app-development">
           Web Development Services
         </Link>
         .
@@ -23,7 +23,7 @@ const challenges = [
       <>
         Developing a reliable system that reads game requirements and converts
         them into clear hardware recommendations for a smooth{" "}
-        <Link className="underline" href="/services/pwa-development-services">
+        <Link className="underline" href="/services/progressive-web-app-development">
           PWA Development Services
         </Link>{" "}
         experience.

@@ -20,27 +20,27 @@ const page = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
           rel="canonical"
-          href="https://www.dignitestudios.com/services/pwa-development-services"
+          href="https://www.dignitestudios.com/services/progressive-web-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/pwa-development-services"
+          href="https://www.dignitestudios.com/services/progressive-web-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-us"
-          href="https://www.dignitestudios.com/services/pwa-development-services"
+          href="https://www.dignitestudios.com/services/progressive-web-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/pwa-development-services"
+          href="https://www.dignitestudios.com/services/progressive-web-app-development"
         />
         <link
           rel="alternate"
           hreflang="x-default"
-          href="https://www.dignitestudios.com/services/pwa-development-services"
+          href="https://www.dignitestudios.com/services/progressive-web-app-development"
         />
         <meta http-equiv="content-language" content="en-us" />
         <meta http-equiv="content-language" content="en-ca" />
@@ -60,7 +60,7 @@ const page = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dignitestudios.com/services/pwa-development-services"
+          content="https://www.dignitestudios.com/services/progressive-web-app-development"
         />
         <meta
           property="og:image"
@@ -100,7 +100,7 @@ const page = () => {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Progressive Web App Development Company | Dignite Studios",
-      "url": "https://www.dignitestudios.com/services/pwa-development-services",
+      "url": "https://www.dignitestudios.com/services/progressive-web-app-development",
       "description": "Acquaintance Dignite’s top-tier progressive web app development services to lift your company to new heights. Scale your applications with unique PWA development services.",
       "thumbnailUrl": "https://www.dignitestudios.com/banner-cover-image-of-pwa-development-services.webp"
     }
@@ -123,7 +123,7 @@ const page = () => {
           "@type": "ListItem",
           "position": 2,
           "name": "Progressive Web App Development Company",
-          "item": "https://www.dignitestudios.com/services/pwa-development-services"
+          "item": "https://www.dignitestudios.com/services/progressive-web-app-development"
         }
       ]
     }

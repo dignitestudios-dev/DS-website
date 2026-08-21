@@ -29,7 +29,7 @@ const ValueAddedDigniteStudios = () => {
             <p className={`text-base md:text-[18px] md:leading-[26.46px]`}>
               Focus on your business priorities, and entrust your{" "}
               <Link
-                href={"/services/mobile-app-development-services"}
+                href={"/services/mobile-app-development"}
                 className="text-orange-600"
               >
                 mobile app development
@@ -161,7 +161,7 @@ const ValueAddedDigniteStudios = () => {
             best user experience, conversion rates, and wide engagements through
             award-winning services like UX/UI design,{" "}
             <Link
-              href={"/services/mobile-app-consulting-services"}
+              href={"/services/mobile-app-consultation"}
               className="text-orange-600"
             >
               consulting

@@ -79,7 +79,7 @@ const InfluentialChooseUs = () => {
                 objectives, and solutions to avoid any future obstacles in the
                 processes. Our expertise also lies in{" "}
                 <Link
-                  href={"/services/mobile-app-development-services"}
+                  href={"/services/mobile-app-development"}
                   className="text-[#F15C20]"
                 >
                   mobile app development

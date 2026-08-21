@@ -63,7 +63,7 @@ const services = [
     description: (
       <>
         Our engineers focus on performance and device-level optimization by
-        following professional <Link href="/services/native-app-development-services" className="underline">native mobile app development</Link> standards for
+        following professional <Link href="/services/native-app-development" className="underline">native mobile app development</Link> standards for
         complex business applications.
       </>
     ),
@@ -86,7 +86,7 @@ const services = [
     title: "Maintenance & Consulting",
     description: (
       <>
-        From strategy to long-term scaling, our team provides expert <Link href="/services/mobile-app-consulting-services" className="underline">mobile app
+        From strategy to long-term scaling, our team provides expert <Link href="/services/mobile-app-consultation" className="underline">mobile app
         development consulting</Link> through testing, updates, and post-launch
         performance improvements.
       </>

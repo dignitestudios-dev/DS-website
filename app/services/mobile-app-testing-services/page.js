@@ -95,7 +95,7 @@ const page = () => {
                 "@type": "ListItem",
                 position: 4,
                 name: "Mobile App Consulting Services",
-                item: "https://www.dignitestudios.com/services/mobile-app-consulting-services",
+                item: "https://www.dignitestudios.com/services/mobile-app-consultation",
               },
               {
                 "@type": "ListItem",

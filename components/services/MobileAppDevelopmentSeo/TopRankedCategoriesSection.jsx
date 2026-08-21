@@ -40,7 +40,7 @@ const TopRankedCategoriesSection = () => {
           <p className={``}>
             We ensure to build highly effective and productive{" "}
             <Link
-              href={"/services/native-app-development-services"}
+              href={"/services/native-app-development"}
               className="text-orange-600 group-hover:text-white"
             >
               native mobile apps
@@ -89,7 +89,7 @@ const TopRankedCategoriesSection = () => {
           <p className={``}>
             You can easily communicate with anyone with our exclusive{" "}
             <Link
-              href={"/services/pwa-development-services"}
+              href={"/services/progressive-web-app-development"}
               className="text-orange-600 group-hover:text-white"
             >
               progressive web app

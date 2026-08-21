@@ -207,7 +207,7 @@ const highlights = [
     title: "High Level Expertise",
     desc: (
       <>
-        Being one of the best <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">dating app developers</Link>, we provide top-tier design and development.
+        Being one of the best <Link href="/services/hire-mobile-application-developers" className="text-[#F15C20]">dating app developers</Link>, we provide top-tier design and development.
       </>
     ),
   },
@@ -368,7 +368,7 @@ const faqs = [
       "Can you build iOS applications for dating and matchmaking apps, too?",
     answer:
       <>
-        We’re experts in building both iOS and Android dating apps. <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">Hire dating app developers</Link> who create high-performance applications for businesses. The developers can easily work with native technologies and Swift to develop applications that feel simple while ensuring strong functionality.
+        We’re experts in building both iOS and Android dating apps. <Link href="/services/hire-mobile-application-developers" className="text-[#F15C20]">Hire dating app developers</Link> who create high-performance applications for businesses. The developers can easily work with native technologies and Swift to develop applications that feel simple while ensuring strong functionality.
       </>,
   },
   {
@@ -595,7 +595,7 @@ const DatingApp = () => {
         button=" Choose The Right Team  "
         para={
           <>
-            We are experts at building matchmaking applications. Having a team of the <Link href={"/services/hire-mobile-app-developers"} className="text-[#F15C20]">best developers</Link> and designers, we provide you with everything you need as a custom <Link href="/industries/dating-app-development" className="text-[#F15C20]">dating mobile app development company</Link>. Dignite Studios consists of <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">dating app developers</Link> that take the time to understand your audience and goals before the development even begins. We deliver the functional dating applications with clear communication and reliable solutions.
+            We are experts at building matchmaking applications. Having a team of the <Link href={"/services/hire-mobile-application-developers"} className="text-[#F15C20]">best developers</Link> and designers, we provide you with everything you need as a custom <Link href="/industries/dating-app-development" className="text-[#F15C20]">dating mobile app development company</Link>. Dignite Studios consists of <Link href="/services/hire-mobile-application-developers" className="text-[#F15C20]">dating app developers</Link> that take the time to understand your audience and goals before the development even begins. We deliver the functional dating applications with clear communication and reliable solutions.
           </>
         }
         bs={highlights}

@@ -141,7 +141,7 @@ const Industries = ({ VALUE_PROPOSITION,button, header, header2, para }) => {
                     className={`object-contain select-none bg-[#fdddd0] m-4 pointer-events-none ${
                       isActive && "shadow-2xl"
                     }`}
-                   width={379} height={388} />
+                   width={50} height={50} />
 
                   {isActive && (
                     <img

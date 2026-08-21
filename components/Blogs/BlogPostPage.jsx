@@ -673,7 +673,7 @@ export default function BlogPostPage({ post, related = [] }) {
         .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
       `}</style>
 
-      <main className="min-h-screen bg-[#fafafa] pb-24 w-full lg:w-[1200px] mx-auto overflow-x-hidden lg:overflow-visible">
+      <main className="blog-post-page-marker min-h-screen bg-[#fafafa] pb-24 w-full lg:w-[1200px] mx-auto overflow-x-hidden lg:overflow-visible">
         {/* Breadcrumb */}
         <div className="bg-white">
           <div className="max-w-7xl mx-auto px-4 lg:px-0 lg:pr-4 pt-4 pb-2">
@@ -712,7 +712,7 @@ export default function BlogPostPage({ post, related = [] }) {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                       <div className="absolute inset-x-0 bottom-0 p-5 md:p-8 lg:p-10">
-                        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-normal text-white">
+                        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[10px] lg:text-sm font-normal text-white">
                           <span>{formatDate(post.date)}</span>
                           <span className=""><GoDotFill /></span>
                           <span>{readMin} min read</span>

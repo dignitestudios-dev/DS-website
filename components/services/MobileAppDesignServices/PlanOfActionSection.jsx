@@ -28,7 +28,7 @@ const PlanOfActionSection = () => {
             with exceptional sleek design, outstanding features, highly
             optimized{" "}
             <Link
-              href={"/services/mobile-app-development-services"}
+              href={"/services/mobile-app-development"}
               className="text-[#F15C20]"
             >
               mobile app development{" "}

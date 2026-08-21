@@ -72,7 +72,7 @@ const WhyDignite = () => {
               The rigorous mobile app functional testing ensures a modern
               strategic approach in the{" "}
               <Link
-                href={"/services/mobile-app-development-services"}
+                href={"/services/mobile-app-development"}
                 className="text-[#F15C20]"
               >
                 mobile app development

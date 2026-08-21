@@ -176,7 +176,7 @@ const services = [
     description: (
       <>
         <Link
-          href="/services/web-application-development-services"
+          href="/services/web-app-development"
           className="text-[#F15C20]"
         >
           Web application consultation
@@ -194,7 +194,7 @@ const services = [
       <>
         We’re experts at building{" "}
         <Link
-          href="/services/pwa-development-services"
+          href="/services/progressive-web-app-development"
           className="text-[#F15C20]"
         >
           progressive web applications
@@ -234,7 +234,7 @@ const highlights = [
       <>
         The team has successfully delivered a wide range of projects through{" "}
         <Link
-          href="/services/web-application-development-services"
+          href="/services/web-app-development"
           className="text-[#F15C20]"
         >
           Web Application Development Services
@@ -445,7 +445,7 @@ const faqs = [
         one app that’s not even made for your business and doesn’t even align
         with any of your goals.{" "}
         <Link
-          href="/services/web-application-development-services"
+          href="/services/web-app-development"
           className="text-[#F15C20]"
         >
           Web Application Development Services
@@ -519,7 +519,7 @@ const WebAppDevelopment = () => {
           <>
             We’re providing the best{" "}
             <Link
-              href="/services/web-application-development-services"
+              href="/services/web-app-development"
               className="text-[#F15C20]"
             >
               web application development services
@@ -549,7 +549,7 @@ const WebAppDevelopment = () => {
             Working with Dignite Studios comes with a team that puts commitment
             first. As a trusted{" "}
             <Link
-              href="/services/web-application-development-services"
+              href="/services/web-app-development"
               className="text-[#F15C20]"
             >
               web application development company in USA
@@ -635,7 +635,7 @@ const WebAppDevelopment = () => {
           <>
             Dignite Studios serves a wide range of industries as the best{" "}
             <Link
-              href="/services/web-application-development-services"
+              href="/services/web-app-development"
               className="text-[#F15C20]"
             >
               Web Application Development Company in USA
@@ -647,7 +647,7 @@ const WebAppDevelopment = () => {
             development team now uses modern technologies and best practices to
             create scalable{" "}
             <Link
-              href="/services/web-application-development-services"
+              href="/services/web-app-development"
               className="text-[#F15C20]"
             >
               web application development company
@@ -666,7 +666,7 @@ const WebAppDevelopment = () => {
           <>
             Being one of the best{" "}
             <Link
-              href="/services/web-application-development-services"
+              href="/services/web-app-development"
               className="text-[#F15C20]"
             >
               web application development agencies
@@ -704,7 +704,7 @@ const WebAppDevelopment = () => {
             depends on features, the overall long term value is always worth the
             investment. You can see how customized solutions from the best{" "}
             <Link
-              href="/services/web-application-development-services"
+              href="/services/web-app-development"
               className="text-[#F15C20]"
             >
               web application development agencies

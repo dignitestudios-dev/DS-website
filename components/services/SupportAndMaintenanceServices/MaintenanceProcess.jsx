@@ -94,7 +94,7 @@ const MaintenanceProcess = () => {
             >
               The glamour of ideation depends on the rigorous effort of{" "}
               <Link
-                href={"/services/mobile-app-development-services"}
+                href={"/services/mobile-app-development"}
                 className="text-[#F15C20] group-hover:text-white"
               >
                 mobile app development

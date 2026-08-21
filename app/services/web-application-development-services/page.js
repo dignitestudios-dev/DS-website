@@ -20,27 +20,27 @@ const page = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
           rel="canonical"
-          href="https://www.dignitestudios.com/services/web-application-development-services"
+          href="https://www.dignitestudios.com/services/web-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/web-application-development-services"
+          href="https://www.dignitestudios.com/services/web-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-us"
-          href="https://www.dignitestudios.com/services/web-application-development-services"
+          href="https://www.dignitestudios.com/services/web-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/web-application-development-services"
+          href="https://www.dignitestudios.com/services/web-app-development"
         />
         <link
           rel="alternate"
           hreflang="x-default"
-          href="https://www.dignitestudios.com/services/web-application-development-services"
+          href="https://www.dignitestudios.com/services/web-app-development"
         />
         <meta http-equiv="content-language" content="en-us" />
         <meta http-equiv="content-language" content="en-ca" />
@@ -60,7 +60,7 @@ const page = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dignitestudios.com/services/web-application-development-services"
+          content="https://www.dignitestudios.com/services/web-app-development"
         />
         <meta
           property="og:image"
@@ -103,7 +103,7 @@ const page = () => {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "Web application development Services | Dignite Studios",
-            url: "https://www.dignitestudios.com/services/web-application-development-services",
+            url: "https://www.dignitestudios.com/services/web-app-development",
             description:
               "Dignite’s top experts fabricate stellar web app development services from custom applications to high-end optimization, our value-driven approach will make your company stand out among the utmost industries.",
             thumbnailUrl:
@@ -130,7 +130,7 @@ const page = () => {
                 "@type": "ListItem",
                 position: 2,
                 name: "Mobile App Development Services",
-                item: "https://www.dignitestudios.com/services/mobile-app-development-services",
+                item: "https://www.dignitestudios.com/services/mobile-app-development",
               },
               {
                 "@type": "ListItem",
@@ -142,7 +142,7 @@ const page = () => {
                 "@type": "ListItem",
                 position: 4,
                 name: "Mobile App Consulting Services",
-                item: "https://www.dignitestudios.com/services/mobile-app-consulting-services",
+                item: "https://www.dignitestudios.com/services/mobile-app-consultation",
               },
               {
                 "@type": "ListItem",
@@ -160,7 +160,7 @@ const page = () => {
                 "@type": "ListItem",
                 position: 7,
                 name: "Web application development Services",
-                item: "https://www.dignitestudios.com/services/web-application-development-services",
+                item: "https://www.dignitestudios.com/services/web-app-development",
               },
             ],
           }),

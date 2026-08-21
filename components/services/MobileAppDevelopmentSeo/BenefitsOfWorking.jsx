@@ -114,7 +114,7 @@ const BenefitsOfWorking = () => {
             Explore a wide range of factors that include creating mobile
             development effectively and under time constraints with our{" "}
             <Link
-              href={"/services/hire-mobile-app-developers"}
+              href={"/services/hire-mobile-application-developers"}
               className="text-orange-600"
             >
               mobile app developers.

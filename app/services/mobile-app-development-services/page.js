@@ -20,27 +20,27 @@ const page = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
           rel="canonical"
-          href="https://www.dignitestudios.com/services/mobile-app-development-services"
+          href="https://www.dignitestudios.com/services/mobile-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/mobile-app-development-services"
+          href="https://www.dignitestudios.com/services/mobile-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-us"
-          href="https://www.dignitestudios.com/services/mobile-app-development-services"
+          href="https://www.dignitestudios.com/services/mobile-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/mobile-app-development-services"
+          href="https://www.dignitestudios.com/services/mobile-app-development"
         />
         <link
           rel="alternate"
           hreflang="x-default"
-          href="https://www.dignitestudios.com/services/mobile-app-development-services"
+          href="https://www.dignitestudios.com/services/mobile-app-development"
         />
         <meta http-equiv="content-language" content="en-us" />
         <meta http-equiv="content-language" content="en-ca" />
@@ -60,7 +60,7 @@ const page = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dignitestudios.com/services/mobile-app-development-services"
+          content="https://www.dignitestudios.com/services/mobile-app-development"
         />
         <meta
           property="og:image"
@@ -105,7 +105,7 @@ const page = () => {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Mobile App Development Services",
-      "url": "https://www.dignitestudios.com/services/mobile-app-development-services",
+      "url": "https://www.dignitestudios.com/services/mobile-app-development",
       "description": "Let's delve into professional mobile app development services encompassing multiple app solutions for your tailored needs. Our high-ranking team crafts ingenious and state-of-the-art applications to stand out in your mobile services.",
       "thumbnailUrl": "https://www.dignitestudios.com/banner-cover-image-of-mobile-app-development-services.webp"
     }
@@ -128,7 +128,7 @@ const page = () => {
           "@type": "ListItem",
           "position": 2,
           "name": "Mobile App Development Services",
-          "item": "https://www.dignitestudios.com/services/mobile-app-development-services"
+          "item": "https://www.dignitestudios.com/services/mobile-app-development"
         }
       ]
     }

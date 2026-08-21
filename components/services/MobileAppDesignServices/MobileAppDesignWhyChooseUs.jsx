@@ -60,7 +60,7 @@ const MobileAppDesignWhyChooseUs = () => {
               <p className="text-xl font-medium">
                 Specialized{" "}
                 <Link
-                  href={"/services/mobile-app-consulting-services"}
+                  href={"/services/mobile-app-consultation"}
                   className="text-[#F15C20]"
                 >
                   Mobile App Consulting

@@ -52,7 +52,7 @@ const PlatformServices = () => {
             >
               Struggling to find an innovative partner for your{" "}
               <Link
-                href={"/services/android-app-development-services"}
+                href={"/services/android-app-development"}
                 className="text-orange-600"
               >
                 android mobile app development?
@@ -81,7 +81,7 @@ const PlatformServices = () => {
             >
               Turn your illustrations into an unprecedented model that robust{" "}
               <Link
-                href={"/services/ios-app-development-services"}
+                href={"/services/ios-app-development"}
                 className="text-orange-600"
               >
                 iOS mobile applications

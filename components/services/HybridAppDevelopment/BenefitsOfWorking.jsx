@@ -20,11 +20,11 @@ const BenefitsOfWorking = () => {
             <span className="font-bold lg:font-extrabold text-4xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold lg:leading-[77px]" >  Development Services</span>
           </h2>
           <p className="text-lg font-normal mt-4">
-            Our revolutionary <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app development services</Link> bestow
+            Our revolutionary <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid app development services</Link> bestow
             a well-organized structure to build entirely customized
-            <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid mobile apps</Link> that are highly compatible with various
-            devices. Dignite’s <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid mobile app developers</Link> construct
-            high-powered <Link href="/services/mobile-app-development-services" className="text-[#F15C20]">hybrid software</Link> that suits business needs.
+            <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid mobile apps</Link> that are highly compatible with various
+            devices. Dignite’s <Link href="/services/hire-mobile-application-developers" className="text-[#F15C20]">hybrid mobile app developers</Link> construct
+            high-powered <Link href="/services/mobile-app-development" className="text-[#F15C20]">hybrid software</Link> that suits business needs.
           </p>
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-start items-center lg:justify-end">
@@ -60,10 +60,10 @@ const BenefitsOfWorking = () => {
               }`}
           >
             A hybrid platform designs a unique mechanism under a
-            single codebase to make <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid mobile applications</Link>
-            accessible on multiple devices like <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android</Link> or <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS</Link>.
-            Our <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app development company</Link> plans initial consultation
-            while developing applications. The professional <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid developers</Link>
+            single codebase to make <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid mobile applications</Link>
+            accessible on multiple devices like <Link href="/services/android-app-development" className="text-[#F15C20]">Android</Link> or <Link href="/services/ios-app-development" className="text-[#F15C20]">iOS</Link>.
+            Our <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid app development company</Link> plans initial consultation
+            while developing applications. The professional <Link href="/services/hire-mobile-application-developers" className="text-[#F15C20]">hybrid developers</Link>
             of Dignite Studios ensure a visually pleasing user interface, modern
             application features, and high-end app performance to stand
             among profitable companies.
@@ -89,11 +89,11 @@ const BenefitsOfWorking = () => {
               }`}
           >
             Refactoring the codebase with new compatible versions of frameworks
-            to integrate with updated tech stack and features of <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app
+            to integrate with updated tech stack and features of <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid app
             development</Link> to make the operating system up-to-date. At Dignite Studios,
             our skillful team holds best practices to refurbish the app with
             updated functions or features to strengthen and elevate the usability
-            of the <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid mobile app</Link>. Therefore, it helps to accomplish desired
+            of the <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid mobile app</Link>. Therefore, it helps to accomplish desired
             goals and profitable results.
           </p>
         </div>
@@ -143,7 +143,7 @@ const BenefitsOfWorking = () => {
                 : "text-white leading-[19.74px]"
               }`}
           >
-            The finest <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid mobile app development company</Link> Dignite
+            The finest <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid mobile app development company</Link> Dignite
             Studios not only caters to development procedures but also
             maintains them as per the client's requirement. Here we’re
             available 24\7 to assist you and accomplish business objectives

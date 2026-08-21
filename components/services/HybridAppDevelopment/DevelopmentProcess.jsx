@@ -18,11 +18,11 @@ const DevelopmentProcess = () => {
             <span className="font-bold lg:font-extrabold text-4xl lg:text-5xl xl:text-[64px] 2xl:text-[80px] tracking-tighter xl:font-bold lg:leading-[77px]" > Development <br /> Process</span>
           </h2>
           <p className="text-lg font-normal mt-4">
-          Dignite’s experienced <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid app developers</Link> conduct pre-eminent
-           development to create a new <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app</Link>. We give allegiance to 
-           effective <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid frameworks</Link> with state-of-the-art <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid app 
+          Dignite’s experienced <Link href="/services/hire-mobile-application-developers" className="text-[#F15C20]">hybrid app developers</Link> conduct pre-eminent
+           development to create a new <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid app</Link>. We give allegiance to 
+           effective <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid frameworks</Link> with state-of-the-art <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid app 
            development technologies</Link> to nurture your business strategies
-            with perfect <Link href="/services/hybrid-app-development-services" className="text-[#F15C20]">hybrid solutions</Link>. 
+            with perfect <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid solutions</Link>. 
           </p>
         </div>
         <div className="col-span-3 lg:col-span-1 flex justify-start items-center lg:justify-end">

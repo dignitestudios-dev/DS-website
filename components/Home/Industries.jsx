@@ -69,35 +69,35 @@ const icons = [
 const VALUE_PROPOSITION = [
   {
     title: "Healthcare",
-    desc: "Healthcare is becoming more digital. So patients now expect convenient access to healthcare. The team builds secure healthcare applications. To simplify appointment scheduling, telemedicine, patient communication and health record management.",
+    desc: "Healthcare apps help patients and providers through features such as appointment scheduling, virtual consultations, patient communication and access to medical information.",
   },
   {
     title: "Ecommerce",
-    desc: "The great shopping experience has more than just an attractive website. We develop ecommerce applications that make browsing and managing orders simple for your customers. The solutions help businesses increase customer engagement.",
+    desc: "Ecommerce apps make shopping more convenient by allowing customers to discover products, manage their carts, place orders, and track purchases from their mobile devices.",
   },
   {
     title: "Real Estate",
-    desc: "Finding the right property should be basic and simple so the team build real estate applications that make it easier for buyers and sellers to connect through property listings. Our solutions help real estate businesses simplify property management.",
+    desc: "Real estate applications simplify property discovery by helping buyers and renters search listings, explore property details, contact agents, and manage enquiries from one platform.",
   },
   {
     title: "Food Delivery",
-    desc: "Customers expect food delivery to be simple. We develop applications that make ordering and tracking deliveries effortlessly simple for both customers and businesses.",
+    desc: "Food delivery apps connect customers, restaurants, and delivery teams in one streamlined system, making ordering, payment, order tracking, and fulfillment easier to manage.",
   },
   {
     title: "Travel",
-    desc: "Modern travelers expect quick access to information and smooth booking experiences. We build travel applications that make the entire trip planning, reservations and itinerary management simple.",
+    desc: "Travel apps bring planning and trip management into one place, allowing users to handle bookings, access itineraries, and organize important travel information throughout their journey.",
   },
   {
     title: "Education",
-    desc: "We genuinely believe learning should be accessible and easy to manage. So we create educational applications that support online learning, virtual classrooms, progress tracking and assessments between students and educators.",
+    desc: "Education apps support flexible learning through online classes, course materials, communication tools, assignments, and collaboration between students and educators.",
   },
   {
     title: "FinTech",
-    desc: "Trust and security are at the heart of every financial application. We build fintech solutions that simplify digital payments, online banking, expense management, investing and financial planning.",
+    desc: "FinTech applications bring financial activities into a single digital experience, supporting services such as payments, banking, budgeting, account management, and financial tracking.",
   },
   {
     title: "Social Networking",
-    desc: "Building a successful social platform means encouraging meaningful interactions through unique experiences. We develop social networking applications with features that support messaging, content sharing, communities, notifications and user engagement.",
+    desc: "Social networking apps create digital spaces where users can communicate, share content, discover communities, and interact with others through engaging experiences.",
   },
 ];
 
@@ -116,10 +116,10 @@ const Industries = ({ header, header2, para }) => {
     <div className="w-full grid grid-cols-1  justify-start items-start  ">
       <div className="flex relative z-20  w-[90%] md:w-[78%] flex-col text-center mx-auto items-center">
         <h2 className="text-4xl leading-[40px] md:leading[1.1] tracking-tighter md:text-7xl font-bold ">
-          Custom Mobile App Solutions for Specialized Industries
+          Industry Specific Mobile App Development Solutions
         </h2>
         <p className="text-sm md:text-lg my-6 dark:text-white md:w-[60%] mx-auto text-[#0C0C0C]">
-          Every industry has unique challenges and goals. The team can create custom solutions that fit the way your business works. The team develops applications that can solve business problems. We build user-friendly solutions that help businesses adapt and stay competitive.
+          Different industries come with different users, workflows, regulations, business models, and challenges. So, being a app development company we adapts each application's features and user experience according to the specific demands of your industry instead of forcing your business into a one size fits all solution.
         </p>
       </div>
       <div className="w-full overflow-hidden">

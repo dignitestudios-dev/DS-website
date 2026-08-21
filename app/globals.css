@@ -37,7 +37,8 @@ html {
   box-sizing: border-box;
 }
 
-.font-poppins, .font-poppins * {
+.font-poppins,
+.font-poppins * {
   font-family: var(--font-poppins), sans-serif !important;
 }
 
@@ -347,6 +348,10 @@ input:hover {
   background-color: #000000a5;
 }
 
+h2:not(.blog-post-page-marker *) {
+  font-size: 48px !important;
+}
+
 .show {
   opacity: 100;
   scale: 1;
@@ -440,6 +445,12 @@ input:hover {
     display: none;
   }
 
+  @media (max-width: 768px) {
+    h2:not(.blog-post-page-marker *) {
+      font-size: 28px !important;
+    }
+  }
+
   .container-form {
     width: 450px;
     transform: translateY(-6%);
@@ -494,7 +505,7 @@ input:hover {
 
   .container-form {
     width: 92%;
-    
+
     transform: translateY(-6%);
     position: relative;
   }

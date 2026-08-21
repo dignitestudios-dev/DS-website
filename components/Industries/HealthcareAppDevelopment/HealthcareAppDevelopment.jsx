@@ -550,7 +550,7 @@ const HealthcareAppDevelopment = () => {
           <>
             We are experts at building healthcare applications. Having a team of
             the{" "}
-            <Link href={"/services/hire-mobile-app-developers"}>
+            <Link href={"/services/hire-mobile-application-developers"}>
               best developers
             </Link>{" "}
             and designers in the healthcare industry, we provide you with

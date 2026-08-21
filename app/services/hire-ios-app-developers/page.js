@@ -16,27 +16,27 @@ const page = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
           rel="canonical"
-          href="https://www.dignitestudios.com/services/hire-ios-app-developers"
+          href="https://www.dignitestudios.com/services/hire-ios-application-developers"
         />
         <link
           rel="alternate"
           hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/hire-ios-app-developers"
+          href="https://www.dignitestudios.com/services/hire-ios-application-developers"
         />
         <link
           rel="alternate"
           hreflang="en-us"
-          href="https://www.dignitestudios.com/services/hire-ios-app-developers"
+          href="https://www.dignitestudios.com/services/hire-ios-application-developers"
         />
         <link
           rel="alternate"
           hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/hire-ios-app-developers"
+          href="https://www.dignitestudios.com/services/hire-ios-application-developers"
         />
         <link
           rel="alternate"
           hreflang="x-default"
-          href="https://www.dignitestudios.com/services/hire-ios-app-developers"
+          href="https://www.dignitestudios.com/services/hire-ios-application-developers"
         />
         <meta http-equiv="content-language" content="en-us" />
         <meta http-equiv="content-language" content="en-ca" />
@@ -56,7 +56,7 @@ const page = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dignitestudios.com/services/hire-ios-app-developers"
+          content="https://www.dignitestudios.com/services/hire-ios-application-developers"
         />
         <meta
           property="og:image"
@@ -94,7 +94,7 @@ const page = () => {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "Hire iOS App Developers | Dignite Studios",
-            url: "https://www.dignitestudios.com/services/hire-ios-app-developers",
+            url: "https://www.dignitestudios.com/services/hire-ios-application-developers",
             description:
               "iPhone app developers can develop applications in a mere time so hire an iOS app developer to reduce the risk patterns.",
             thumbnailUrl:
@@ -122,7 +122,7 @@ const page = () => {
                 "@type": "ListItem",
                 position: 2,
                 name: "iOS App Development Services",
-                item: "https://www.dignitestudios.com/services/ios-app-development-services",
+                item: "https://www.dignitestudios.com/services/ios-app-development",
               },
               {
                 "@type": "ListItem",
@@ -134,7 +134,7 @@ const page = () => {
                 "@type": "ListItem",
                 position: 4,
                 name: "Hire iOS App Developers",
-                item: "https://www.dignitestudios.com/services/hire-ios-app-developers",
+                item: "https://www.dignitestudios.com/services/hire-ios-application-developers",
               },
             ],
           }),

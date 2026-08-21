@@ -72,7 +72,7 @@ const services = [
     description: (
       <>
         For products that need deeper performance and control, we offer{" "}
-        <Link href="/services/native-app-development-services" className="underline">
+        <Link href="/services/native-app-development" className="underline">
           native app development services
         </Link>
         , including fully custom mobile apps and PWAs.

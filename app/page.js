@@ -283,7 +283,7 @@ const Page = () => {
           "position": 4,
           "name": "Mobile app consulting services | Dignite Studios",
           "description": "Explore professional mobile application consulting services with our expert agency to thrive your innovative application solutions. Here, you’ll experience modern mobile application development strategies to make your company bulge out.",
-          "url": "https://www.dignitestudios.com/services/mobile-app-consulting-services"
+          "url": "https://www.dignitestudios.com/services/mobile-app-consultation"
         },
         {
           "@type": "SiteNavigationElement",
@@ -297,7 +297,7 @@ const Page = () => {
           "position": 6,
           "name": "Mobile app development services | Dignite Studios",
           "description": "The first-class Android app development company Dignite Studios bestows the best international development mobile app standards so that the agency can fulfill custom application solutions and other mobile projects.",
-          "url": "https://www.dignitestudios.com/services/android-app-development-services"
+          "url": "https://www.dignitestudios.com/services/android-app-development"
         }
       ]
     }

@@ -26,7 +26,7 @@ const WorkWithDegnite = () => {
 
       <p className="text-base lg:leading-[21.76px] lg:w-[50%] mx-auto lg:text-center mb-6">
       Our <Link href="/services/hybrid-app-development" className="text-[#F15C20]">cost-effective services</Link> serve the finest hybrid mobile app design under the supervision
-      of expert <Link href="/services/hire-mobile-app-developers" className="text-[#F15C20]">hybrid app developers</Link>. We take pride in building top-notch <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid application 
+      of expert <Link href="/services/hire-mobile-application-developers" className="text-[#F15C20]">hybrid app developers</Link>. We take pride in building top-notch <Link href="/services/hybrid-app-development" className="text-[#F15C20]">hybrid application 
       development projects</Link> for our valuable clients and partners.
       </p>
 

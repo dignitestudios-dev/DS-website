@@ -6,28 +6,28 @@ import { MdArrowOutward } from "react-icons/md";
 import Link from "next/link";
 const bs = [
   {
-    title: "Strategy Before Development",
-    desc: "Every successful app usually begins with a strategy that is well defined. We take the time to understand your business goals and project requirements before even a single line of code is written. This is the right approach in order to identify the right features and choose the best technology.",
+    title: "Prioritizing Strategy",
+    desc: "We analyze your objectives and technical considerations before the development stage begins. This analysis helps us understand the right product scope and establish a development direction.",
   },
   {
     title: "Experienced Mobile App Developers",
-    desc: "Technical expertise is not enough for building a successful app; it requires experience that solves business challenges. Our experienced mobile app development agency brings years of hands-on experience in creating secure applications across different industries.",
+    desc: "Our mobile app developers have worked with startups and established brands across different industries. That experience allows us to approach technical challenges with practical understanding.",
   },
   {
-    title: "User Centered UI/UX Design",
-    desc: "A great app means it’s easy and enjoyable to use despite being functional. Every screen we build is designed with your users in mind. That’s how our designers create better navigation and clear layouts that make every experience feel natural.",
-  },
-  {
-    title: "Agile Development Process",
-    desc: "Every project has to evolve. So the development process we follow is mainly designed to adapt to evolving needs. Through agile development, the project is broken into manageable stages that allow regular feedback and faster improvements.",
+    title: "User Centered UI UX Design",
+    desc: "We design interfaces for how people actually use an application. Clear navigation and purposeful interactions make it much easier for users to find what they need.",
   },
   {
     title: "Transparent Communication",
-    desc: "Successful partnerships are mainly built on trusted communication. The team at Dignite Studios keeps you informed with regular progress updates and milestone reviews through out the entire project.",
+    desc: "When you’re building a product, you should always know where your project stands. So we operate through regular updates, milestone reviews and discussions around important project decisions.",
   },
   {
-    title: "Long Term Maintenance & Support",
-    desc: "Your app needs continuous care to deliver the best experience. Once the project has been launched, continuous maintenance, security updates, performance optimization, bug fixes and feature enhancements are provided by the team to keep your application running.",
+    title: "Long Term Maintenance",
+    desc: "We stay available after release to address technical issues, introduce improvements and make updates as your users, market and business requirements evolve.",
+  },
+  {
+    title: "The App Development Process",
+    desc: "The mobile app development workflow we follow integrates strategy, design, development, testing and launch into a properly structured process. Every stage we follow has a clear purpose, giving you opportunities to review progress, provide feedback and make adjustments before the next stage begins.",
   },
 ];
 
@@ -85,10 +85,10 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
         <div className="w-full  grid-cols-1 md:grid hidden justify-start items-start pt-28 ">
           <div className="flex relative z-20  w-[90%] md:max-w-7xl flex-col text-center mx-auto items-center">
             <h2 className="text-4xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
-              Why We're the Best App Development Agency for Your Next Project
+              Here's What Makes Dignite Studios Different
             </h2>
             <p className="text-lg my-6 text-white ">
-              Choosing a development partner is about more than finding the right technical skills. It's about working with a team that actually understands your business goals and is invested in your success. The team merges thoughtful design and reliable development to build products that solve your product challenge.
+              To build a strong mobile app, you require more than just good code. You need a mobile app development company that can understand the problem behind the product and make practical decisions accordingly. We merge product thinking, thoughtful design and dependable development that help us develop applications with a clear purpose.
             </p>
           </div>
 
@@ -201,10 +201,10 @@ const Bussiness = ({ cta, ctaHeader, ctaPara, ctaBtn }) => {
           {/* Header */}
           <div className="text-center max-w-xl mx-auto mb-14">
                <h2 className="text-4xl capitalize leading-10 text-white tracking-tighter md:text-7xl font-bold ">
-              Why We're the Best App Development Agency for Your Next Project
+              Here's What Makes Dignite Studios Different
             </h2>
                 <p className="text-lg my-6 text-white ">
-              Choosing a development partner is about more than finding the right technical skills. It's about working with a team that actually understands your business goals and is invested in your success. The team merges thoughtful design and reliable development to build products that solve your product challenge.
+              To build a strong mobile app, you require more than just good code. You need a mobile app development company that can understand the problem behind the product and make practical decisions accordingly. We merge product thinking, thoughtful design and dependable development that help us develop applications with a clear purpose.
             </p>
           </div>
 
