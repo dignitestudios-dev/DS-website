@@ -58,10 +58,10 @@ const GlobalPresence = () => {
         {/* Header */}
         <div className="text-center mb-6">
           <h2 className="text-4xl md:text-5xl lg:text-7xl tracking-tighter font-bold mb-6">
-            An Expert Mobile App Development Company with Global Reach
+            Extending Our Reach Across Borders
           </h2>
           <p className=" dark:text-white text-gray-600  text-sm md:text-lg leading-relaxed">
-            Great ideas have no borders and neither do we. We have worked with businesses from different corners of the world and built digital products that solved problems. The team is focused on creating solutions that are custom to each client's needs. We are committed to delivering reliable applications with transparent communication.
+            We have worked with businesses offering their products in different markets. Our approach adapts to each client's market, audience and objectives while keeping collaboration clear throughout the project.
           </p>
         </div>
 

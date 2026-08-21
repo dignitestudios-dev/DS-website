@@ -100,49 +100,49 @@ const InfluentialNavbar = ({ setIsOpen }) => {
               Development
             </h5>
             <Link
-              href={"/services/mobile-app-development-services"}
+              href={"/services/mobile-app-development"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile
               App Development Services
             </Link>
             <Link
-              href={"/services/android-app-development-services"}
+              href={"/services/android-app-development"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Android
               App Development Services
             </Link>
             <Link
-              href={"/services/ios-app-development-services"}
+              href={"/services/ios-app-development"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> iOS App
               Development Services
             </Link>
             <Link
-              href={"/services/native-app-development-services"}
+              href={"/services/native-app-development"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Native
               App Development Services
             </Link>
             <Link
-              href={"/services/web-application-development-services"}
+              href={"/services/web-app-development"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Web App
               Development Services
             </Link>
             <Link
-              href={"/services/pwa-development-services"}
+              href={"/services/progressive-web-app-development"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
               PWA Development Services
             </Link>
             <Link
-              href={"/services/hire-mobile-app-developers"}
+              href={"/services/hire-mobile-application-developers"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
@@ -150,14 +150,14 @@ const InfluentialNavbar = ({ setIsOpen }) => {
             </Link>
 
             <Link
-              href={"/services/hire-android-app-developers"}
+              href={"/services/hire-android-application-developers"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
               Hire Android App Developers
             </Link>
             <Link
-              href={"/services/hire-ios-app-developers"}
+              href={"/services/hire-ios-application-developers"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" />
@@ -185,7 +185,7 @@ const InfluentialNavbar = ({ setIsOpen }) => {
               Mobile App Support & Maintenance Services
             </Link>
             <Link
-              href={"/services/mobile-app-consulting-services"}
+              href={"/services/mobile-app-consultation"}
               className={`hover:text-[#F15C20] cursor-pointer text-start flex items-center gap-2`}
             >
               <GoDotFill className="w-[11px] h-[11px] text-[#F15C20]" /> Mobile

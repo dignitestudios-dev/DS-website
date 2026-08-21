@@ -105,7 +105,7 @@ const Workflow = () => {
           Our{" "}
           <Link
             className="underline"
-            href="/services/mobile-app-development-services"
+            href="/services/mobile-app-development"
           >
             mobile app development
           </Link>{" "}

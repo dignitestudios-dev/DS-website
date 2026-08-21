@@ -18,11 +18,11 @@ const page = () => {
     <div>
  <head>
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <link rel="canonical" href="https://www.dignitestudios.com/services/hybrid-app-development-services" />
-      <link rel="alternate" hreflang="en-ca" href="https://www.dignitestudios.com/services/hybrid-app-development-services" />
-      <link rel="alternate" hreflang="en-us" href="https://www.dignitestudios.com/services/hybrid-app-development-services" />
-      <link rel="alternate" hreflang="en-gb" href="https://www.dignitestudios.com/services/hybrid-app-development-services" />
-      <link rel="alternate" hreflang="x-default" href="https://www.dignitestudios.com/services/hybrid-app-development-services" />
+      <link rel="canonical" href="https://www.dignitestudios.com/services/hybrid-app-development" />
+      <link rel="alternate" hreflang="en-ca" href="https://www.dignitestudios.com/services/hybrid-app-development" />
+      <link rel="alternate" hreflang="en-us" href="https://www.dignitestudios.com/services/hybrid-app-development" />
+      <link rel="alternate" hreflang="en-gb" href="https://www.dignitestudios.com/services/hybrid-app-development" />
+      <link rel="alternate" hreflang="x-default" href="https://www.dignitestudios.com/services/hybrid-app-development" />
       <meta httpEquiv="content-language" content="en-us" />
       <meta httpEquiv="content-language" content="en-ca" />
       <meta httpEquiv="content-language" content="en-gb" />
@@ -33,7 +33,7 @@ const page = () => {
       <meta property="og:site_name" content="Dignite Studios" />
       <meta property="og:title" content="hybrid app development services | Dignite Studios" />
       <meta property="og:description" content="Dignite Studios provides the finest custom hybrid mobile application development services for startup businesses or large company holders." />
-      <meta property="og:url" content="https://www.dignitestudios.com/services/hybrid-app-development-services" />
+      <meta property="og:url" content="https://www.dignitestudios.com/services/hybrid-app-development" />
       <meta property="og:image" content="https://www.dignitestudios.com/banner-cover-image-of-hybrid-app-development-services.webp" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
@@ -55,7 +55,7 @@ const page = () => {
           "@context": "https://schema.org",
           "@type": "WebPage",
           "name": "hybrid App Development Services | Dignite Studios",
-          "url": "https://www.dignitestudios.com/services/hybrid-app-development-services",
+          "url": "https://www.dignitestudios.com/services/hybrid-app-development",
           "description": "Dignite Studios provides the finest custom hybrid mobile application development services for startup businesses or large company holders.",
           "thumbnailUrl": "https://www.dignitestudios.com/banner-cover-image-of-hybrid-app-development-services.webp"
         })
@@ -74,7 +74,7 @@ const page = () => {
             "@type": "ListItem",
             "position": 2,
             "name": "hybrid app development services",
-            "item": "https://www.dignitestudios.com/services/hybrid-app-development-services"
+            "item": "https://www.dignitestudios.com/services/hybrid-app-development"
           }]
         })
       }} />

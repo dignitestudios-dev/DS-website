@@ -125,7 +125,7 @@ const ReliableMobileAppSection = () => {
             providing necessary services around the clock. Dignite’s mobile app
             maintenance service will blow the next-level app training and{" "}
             <Link
-              href={"/services/mobile-app-consulting-services"}
+              href={"/services/mobile-app-consultation"}
               className="text-[#F15C20]"
             >
               app consulting{" "}

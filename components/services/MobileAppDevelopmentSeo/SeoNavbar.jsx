@@ -74,7 +74,7 @@ const SeoNavbar = ({ setIsOpen }) => {
             style={{ background: palette?.background, color: palette?.color }}
           >
             <Link
-              href="/services/mobile-app-development-services"
+              href="/services/mobile-app-development"
               className={`hover:text-orange-600 `}
             >
               Mobile App Development Services
@@ -86,7 +86,7 @@ const SeoNavbar = ({ setIsOpen }) => {
               Mobile App Design Services
             </Link>
             <Link
-              href="/services/mobile-app-consulting-services"
+              href="/services/mobile-app-consultation"
               className={`hover:text-orange-600 `}
             >
               Mobile App Consulting Services
@@ -99,7 +99,7 @@ const SeoNavbar = ({ setIsOpen }) => {
             </Link>
             
             <Link
-              href="/services/android-app-development-services"
+              href="/services/android-app-development"
               className={`hover:text-orange-600 `}
             >
               Android App Development Services

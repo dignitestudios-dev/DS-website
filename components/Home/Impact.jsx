@@ -58,10 +58,10 @@ const Impact = () => {
     <section className="w-full  px-4 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black">
       <div className="text-center max-w-4xl mx-auto mb-16">
         <h2 className="text-[40px] tracking-tighter md:text-7xl font-bold text-black dark:text-white leading-[1.1] mb-6">
-          Why We're a Trusted Mobile App Development Firm
+          Dignite Studios Track Record
         </h2>
         <p className=" text-lg ">
-          Choosing the right development partner is an important decision for every founder and we believe our work speaks for itself, being one of the best mobile app development companies. We have had the opportunity to work with businesses across different industries. The milestones highlighted below represent more than just numbers. They reflect the trust our clients place in us.
+          The project numbers reflect the applications we've delivered, the industries we've supported and the experience we've gained across different types of digital products. Here’s a snapshot of the projects we have worked on as an experienced Mobile App Development Company.
         </p>
       </div>
 

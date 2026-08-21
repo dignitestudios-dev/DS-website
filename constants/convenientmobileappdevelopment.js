@@ -19,19 +19,19 @@ export const paragraphs = {
   },
   "Mobile App Development": {
     description:
-      "Mobile application development is a fast-paced emerging field of new trends and the latest deployment strategies to boost business in the digital world. Whereas, our <a href='/services/mobile-app-development-services' class='text-[#F15C20]'>mobile app development services</a> produce different types of mobile applications such as basic apps, complex apps, unique apps, and separate apps. Thus, if you’re frustrated and making common mistakes in the deployment of your app, here is our dedicated team of mobile app design services to produce a thriving master plan to design native, hybrid, and cross-platform mobile development apps. Whereas, it can robust your entire business structure and transit your concept to code efficiently like Facebook, Gmail, and YouTube.",
+      "Mobile application development is a fast-paced emerging field of new trends and the latest deployment strategies to boost business in the digital world. Whereas, our <a href='/services/mobile-app-development' class='text-[#F15C20]'>mobile app development services</a> produce different types of mobile applications such as basic apps, complex apps, unique apps, and separate apps. Thus, if you’re frustrated and making common mistakes in the deployment of your app, here is our dedicated team of mobile app design services to produce a thriving master plan to design native, hybrid, and cross-platform mobile development apps. Whereas, it can robust your entire business structure and transit your concept to code efficiently like Facebook, Gmail, and YouTube.",
     image: "/top-mobile-app-development-services.png",
     image_title:"top mobile app development services",
     image_alt:" image shows man is holding a mobile device that appears top mobile app development layout",
-    page_url:"/services/mobile-app-development-services"
+    page_url:"/services/mobile-app-development"
   },
   "Mobile App Consulting": {
     description:
-      "Forming a mobile application is a great way for business owners to improve their marketing strategy, service optimization, and cost-effectiveness. It can systematically increase your revenue and click-through rate by consulting it with reliable mobile app developers. Therefore, each mobile app has its aspects and functionality in terms of target audience, design, monetization, security, and privacy. However, it needs to be evaluated foremost from a better platform. So, at the door of Dignite Studios, you can avail the best <a href='/services/mobile-app-consulting-services' class='text-[#F15C20]'>mobile consulting services</a> to provide you with free consultation on your mobile app development. Also, our experts are available 24/7 to assist you on call. So, don’t wait and upgrade your mobile devices.",
+      "Forming a mobile application is a great way for business owners to improve their marketing strategy, service optimization, and cost-effectiveness. It can systematically increase your revenue and click-through rate by consulting it with reliable mobile app developers. Therefore, each mobile app has its aspects and functionality in terms of target audience, design, monetization, security, and privacy. However, it needs to be evaluated foremost from a better platform. So, at the door of Dignite Studios, you can avail the best <a href='/services/mobile-app-consultation' class='text-[#F15C20]'>mobile consulting services</a> to provide you with free consultation on your mobile app development. Also, our experts are available 24/7 to assist you on call. So, don’t wait and upgrade your mobile devices.",
     image: "/top-mobile-app-development-consulting-services.png",
     image_title:"top mobile app development consulting services",
     image_alt:"image shows a mobile app consulting discussion between consultant and client.",
-    page_url:"/services/mobile-app-consulting-services"
+    page_url:"/services/mobile-app-consultation"
   },
   "Mobile Application Testing": {
     description:
@@ -51,11 +51,11 @@ export const paragraphs = {
   },
   "Android App Development": {
     description:
-      "Are you looking for an <a href='/services/android-app-development-services' class='text-[#F15C20]'>Android app development service</a>? At the door of skilled mobile app development experts, you can establish your app with modern tools like Android Studio and Software Development Kit to craft personalized Android apps for your business. However, android offers various customization options for its users to connect worldwide on different Android devices.",
+      "Are you looking for an <a href='/services/android-app-development' class='text-[#F15C20]'>Android app development service</a>? At the door of skilled mobile app development experts, you can establish your app with modern tools like Android Studio and Software Development Kit to craft personalized Android apps for your business. However, android offers various customization options for its users to connect worldwide on different Android devices.",
     image: "/home-android-app-development.png",
     image_title:"",
     image_alt:"",
-    page_url:"/services/android-app-development-services"
+    page_url:"/services/android-app-development"
   },
   "Web Application Development": {
     description:
@@ -78,15 +78,15 @@ export const items = [
   },
   {
     heading: "Mobile App Development",
-    text: "Mobile application development is a fast-paced emerging field of new trends and the latest deployment strategies to boost business in the digital world. Whereas, our <a href='/services/mobile-app-development-services' class='text-[#F15C20]'>mobile app development services</a> produce different types of mobile applications such as basic apps, complex apps, unique apps, and separate apps. Thus, if you’re frustrated and making common mistakes in the deployment of your app, here is our dedicated team of mobile app design services to produce a thriving master plan to design native, hybrid, and cross-platform mobile development apps. Whereas, it can robust your entire business structure and transit your concept to code efficiently like Facebook, Gmail, and YouTube.",
+    text: "Mobile application development is a fast-paced emerging field of new trends and the latest deployment strategies to boost business in the digital world. Whereas, our <a href='/services/mobile-app-development' class='text-[#F15C20]'>mobile app development services</a> produce different types of mobile applications such as basic apps, complex apps, unique apps, and separate apps. Thus, if you’re frustrated and making common mistakes in the deployment of your app, here is our dedicated team of mobile app design services to produce a thriving master plan to design native, hybrid, and cross-platform mobile development apps. Whereas, it can robust your entire business structure and transit your concept to code efficiently like Facebook, Gmail, and YouTube.",
     image: "/top-mobile-app-development-services.png",
     image_title:"top mobile app development services",
     image_alt:" image shows man is holding a mobile device that appears top mobile app development layout",
-    page_url:"/services/mobile-app-development-services"
+    page_url:"/services/mobile-app-development"
   },
   {
     heading: "Mobile Consulting",
-    text: "Forming a mobile application is a great way for business owners to improve their marketing strategy, service optimization, and cost-effectiveness. It can systematically increase your revenue and click-through rate by consulting it with reliable mobile app developers. Therefore, each mobile app has its aspects and functionality in terms of target audience, design, monetization, security, and privacy. However, it needs to be evaluated foremost from a better platform. So, at the door of Dignite Studios, you can avail the best <a href='/services/mobile-app-consulting-services' class='text-[#F15C20]'>mobile consulting services</a> to provide you with free consultation on your mobile app development. Also, our experts are available 24/7 to assist you on call. So, don’t wait and upgrade your mobile devices.",
+    text: "Forming a mobile application is a great way for business owners to improve their marketing strategy, service optimization, and cost-effectiveness. It can systematically increase your revenue and click-through rate by consulting it with reliable mobile app developers. Therefore, each mobile app has its aspects and functionality in terms of target audience, design, monetization, security, and privacy. However, it needs to be evaluated foremost from a better platform. So, at the door of Dignite Studios, you can avail the best <a href='/services/mobile-app-consultation' class='text-[#F15C20]'>mobile consulting services</a> to provide you with free consultation on your mobile app development. Also, our experts are available 24/7 to assist you on call. So, don’t wait and upgrade your mobile devices.",
   },
   {
     heading: "Mobile Application Testing",
@@ -98,7 +98,7 @@ export const items = [
   },
   {
     heading: "Android App Development",
-    text: "Are you looking for an <a href='/services/android-app-development-services' class='text-[#F15C20]'>Android app development service</a>? At the door of skilled mobile app development experts, you can establish your app with modern tools like Android Studio and Software Development Kit to craft personalized Android apps for your business. However, android offers various customization options for its users to connect worldwide on different Android devices.",
+    text: "Are you looking for an <a href='/services/android-app-development' class='text-[#F15C20]'>Android app development service</a>? At the door of skilled mobile app development experts, you can establish your app with modern tools like Android Studio and Software Development Kit to craft personalized Android apps for your business. However, android offers various customization options for its users to connect worldwide on different Android devices.",
   },
   {
     heading: "Web Application Development",

@@ -42,7 +42,7 @@ const services = [
       <>
         If you’re seeking Android app development services in California, you
         can trust us with your <Link href="/services/android-app-development" className="text-[#F15C20] underline">Android app development</Link>. We make sure to develop
-        <Link href="/services/android-app-development-services" className="text-[#F15C20] underline">Android applications</Link> that are fully optimized for devices like Samsung,
+        <Link href="/services/android-app-development" className="text-[#F15C20] underline">Android applications</Link> that are fully optimized for devices like Samsung,
         Pixel, and OnePlus.
       </>
     ),
@@ -355,10 +355,10 @@ const MobileAppCalifornia = () => {
         }
         ctaBtn={"Talk to Our Team"}
         cta={
-          <div className="bg-gradient-to-b hover:scale-105 z-50 absolute text-white  shadow-xl hover:shadow-orange-300 opacity-100 shadow-orange-200 transition ease-linear hover:shadow-2xl w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%]  from-[#f15b20] to-[#FF8F62]">
-            <Image src="/location/mobile-california/icons/lg2.webp" alt="lggg"  width={379} height={388} />
-            <div className="md:w-[50%] mx-auto pb-8 -mt-40 space-y-4 flex flex-col items-center text-center">
-              <h2 className="text-[45px] font-bold text-white leading-[45px]">
+          <div className="bg-gradient-to-b hover:scale-105 z-50 absolute text-white shadow-xl hover:shadow-orange-300 opacity-100 shadow-orange-200 transition ease-linear hover:shadow-2xl w-[80%] -bottom-[420px] rounded-2xl left-[50%] translate-x-[-50%] from-[#f15b20] to-[#FF8F62] overflow-hidden min-h-[350px]">
+            <Image src="/location/mobile-california/icons/lg2.webp" alt="lggg" width={379} height={388} className="absolute top-0 left-1/2 -translate-x-1/2 pointer-events-none" />
+            <div className="md:w-[60%] mx-auto pb-12 pt-32 space-y-4 flex flex-col items-center text-center relative z-10">
+              <h2 className="text-[40px] md:text-[45px] font-bold text-white leading-tight">
                 Still wondering if we're the right fit?
               </h2>
               <p>
@@ -368,12 +368,12 @@ const MobileAppCalifornia = () => {
               </p>
               <Link
                 href={"/contact-us"}
-                className="flex items-center group justify-center "
+                className="flex items-center group justify-center mt-4"
               >
-                <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white  text-sm  px-7 py-3 rounded-full font-normal transition-colors">
+                <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white text-sm px-7 py-3 rounded-full font-normal transition-colors">
                   Talk to Our Team
                 </button>
-                <button className="bg-white text-orange-600 group-hover:bg-orange-600  group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
+                <button className="bg-white text-orange-600 group-hover:bg-orange-600 group-hover:text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
                   <MdArrowOutward />
                 </button>
               </Link>

@@ -10,7 +10,7 @@ const services = [
         Our iOS team delivers smooth and secure applications for iPhone and iPad
         users through advanced practices as a mobile app development company in
         Chicago, focused on speed, stability, and a premium user experience with our{" "}
-        <Link href="/services/ios-app-development-services" className="underline">
+        <Link href="/services/ios-app-development" className="underline">
           iOS app development services
         </Link>
         .
@@ -26,7 +26,7 @@ const services = [
         We build scalable and reliable mobile products as a trusted mobile app
         development company in Chicago, ensuring consistent performance across
         different screen sizes, user behaviors, and real-world conditions through our{" "}
-        <Link href="/services/android-app-development-services" className="underline">
+        <Link href="/services/android-app-development" className="underline">
           Android app development services
         </Link>
         .
@@ -61,7 +61,7 @@ const services = [
       <>
         Our engineers focus on performance and device-level optimization by
         following professional{" "}
-        <Link href="/services/native-app-development-services" className="underline">
+        <Link href="/services/native-app-development" className="underline">
           native mobile app development
         </Link>{" "}
         standards for complex business applications.
@@ -90,7 +90,7 @@ const services = [
     description: (
       <>
         From strategy to long-term scaling, our team provides expert{" "}
-        <Link href="/services/mobile-app-consulting-services" className="underline">
+        <Link href="/services/mobile-app-consultation" className="underline">
           mobile app development consulting
         </Link>{" "}
         through testing, updates, and{" "}

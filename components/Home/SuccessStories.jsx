@@ -9,10 +9,10 @@ const SuccessStories = ({ header, para, header2 }) => {
     <div className="w-full grid grid-cols-1  justify-start items-start  ">
       <div className="flex relative  -mb-28  w-[90%] md:w-[70%] flex-col text-center mx-auto items-center">
         <h2 className="text-4xl   md:text-7xl leading-[42px] lg:leading-[1.1] tracking-tighter font-bold ">
-          Here's What We've Been Working On
+          Latest Projects of Our App Development Agency
         </h2>
         <p className="text-lg my-6 dark:text-white text-[#0C0C0C]">
-         Every project starts with a unique goal. Our expert app development team works closely with clients to understand their needs and turn ideas into functional, user-focused digital products. Explore our case studies to see how we’ve tackled real-world challenges and helped businesses bring their ideas to life.
+          We believe no two projects have the same challenges. Our case studies highlight how we analyze each requirement and solve product-specific problems through a structured and customized development approach.
         </p>
       </div>
       <div className='pt-10' >

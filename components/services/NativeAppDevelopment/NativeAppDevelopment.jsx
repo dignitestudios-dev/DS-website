@@ -580,7 +580,7 @@ const NativeAppDevelopment = () => {
             building mobile applications. Having a team of the{" "}
             <Link
               className="text-orange-600"
-              href={"/services/hire-mobile-app-developers"}
+              href={"/services/hire-mobile-application-developers"}
             >
               best designers and developers
             </Link>

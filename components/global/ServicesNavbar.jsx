@@ -82,7 +82,7 @@ const ServicesNavbar = ({ setIsOpen }) => {
               Mobile App Design Services
             </Link>
             <Link
-              href="/services/mobile-app-consulting-services"
+              href="/services/mobile-app-consultation"
               className={`hover:text-orange-600 `}
             >
               Mobile App Consulting Services
@@ -94,13 +94,13 @@ const ServicesNavbar = ({ setIsOpen }) => {
               Mobile App Testing Services
             </Link>
             <Link
-              href="/services/android-app-development-services"
+              href="/services/android-app-development"
               className={`hover:text-orange-600 `}
             >
               Android App Development Services
             </Link>
             <Link
-              href="/services/ios-app-development-services"
+              href="/services/ios-app-development"
               className={`hover:text-orange-600 `}
             >
               IOS App Development Services
@@ -119,19 +119,19 @@ const ServicesNavbar = ({ setIsOpen }) => {
               PWA Development Services
             </Link>
             <Link
-              href="/services/hire-mobile-app-developers"
+              href="/services/hire-mobile-application-developers"
               className={`hover:text-orange-600 `}
             >
               Hire Mobile App Developers
             </Link>
             <Link
-              href="/services/hire-android-app-developers"
+              href="/services/hire-android-application-developers"
               className={`hover:text-orange-600 `}
             >
               Hire Android App Developers
             </Link>
             <Link
-              href="/services/hire-ios-app-developers"
+              href="/services/hire-ios-application-developers"
               className={`hover:text-orange-600 `}
             >
               Hire iOS App Developers

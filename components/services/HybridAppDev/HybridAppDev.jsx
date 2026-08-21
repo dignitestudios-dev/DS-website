@@ -398,12 +398,14 @@ const HybridAppDev = () => {
   return (
     <div className="max-w-screen-2xl gap-20 lg:gap-36 w-full h-auto flex flex-col items-center justify-start overflow-x-hidden overflow-y-auto">
       <Hero />
+      <div className="-my-10 md:my-0" >
       <About
         heading="About "
         heading2={"Dignite Studios"}
         para="We’re providing reliable hybrid mobile app development services with a team of 200+ developers. 10+ years of experience for us means Dignite Studios has worked on over 300+ projects for startups, businesses, and enterprises. By creating functional products from scratch, the team focuses on building secure mobile applications customized to your unique business needs. With a strong emphasis on the high performance of hybrid mobile applications. The team is great at building reliable mobile solutions. improving efficiency and user experience. The aim is to provide mobile apps that support long term business success and adapt to changing technological needs."
         button="Contact us Today"
       />
+      </div>
       <Services
         services={services}
         header={"Best Hybrid Mobile App Development"}
@@ -530,7 +532,9 @@ const HybridAppDev = () => {
           "Check out our case studies to see how we created functional hybrid apps from ideas. every project we mentioned here shows the challenges our clients faced, the custom solutions we implemented, and the results we achieved as a team. See our development process and technologies that helped us build secure and engaging hybrid applications. "
         }
       />
+      <div className="-my-20 md:my-0" >
       <CTA />
+      </div>
       <Testimonials
         test={test}
         header={"What Our Clients Say About"}

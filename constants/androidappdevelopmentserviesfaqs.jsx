@@ -5,7 +5,7 @@ export const ANDROID_APP_DEV_SERVICES_FAQS = [
     answer:
       (
         <>
-          To know the cost of your <Link href="/services/android-app-development-services" className="text-[#F15C20]">custom Android application development</Link>. You have to fill out the form below.
+          To know the cost of your <Link href="/services/android-app-development" className="text-[#F15C20]">custom Android application development</Link>. You have to fill out the form below.
         </>
       ),
   },
@@ -14,7 +14,7 @@ export const ANDROID_APP_DEV_SERVICES_FAQS = [
     answer:
       (
         <>
-          Yes, due to its open source, our <Link href="/services/android-app-development-services" className="text-[#F15C20]">custom Android application development</Link> has become so much more profitable.
+          Yes, due to its open source, our <Link href="/services/android-app-development" className="text-[#F15C20]">custom Android application development</Link> has become so much more profitable.
         </>
       ),
   },
@@ -23,7 +23,7 @@ export const ANDROID_APP_DEV_SERVICES_FAQS = [
     answer:
       (
         <>
-          Java, Kotlin, and Flutter make the <Link href="/services/android-app-development-services" className="text-[#F15C20]">custom Android application development process</Link> smooth and effective.
+          Java, Kotlin, and Flutter make the <Link href="/services/android-app-development" className="text-[#F15C20]">custom Android application development process</Link> smooth and effective.
         </>
       ),
   },

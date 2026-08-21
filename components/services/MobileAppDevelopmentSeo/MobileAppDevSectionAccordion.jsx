@@ -81,7 +81,7 @@ const MobileAppDevSectionAccordion = () => {
               at competitive rates. Dignite’s professional iOS experts provide
               premium iOS solutions for their custom{" "}
               <Link
-                href="/services/ios-app-development-services"
+                href="/services/ios-app-development"
                 className="text-orange-600"
               >
                 iOS app development services

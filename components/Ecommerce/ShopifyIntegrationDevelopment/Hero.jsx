@@ -55,8 +55,8 @@ const Hero = ({
           <Image
             src="/ecommerce/shopify-integrate/mob.webp"
             alt="Shpify laptop"
-            width={250}
-            height={250}
+            width={400}
+            height={400}
             priority
             className="object-cover md:hidden block"/>
         </motion.div>

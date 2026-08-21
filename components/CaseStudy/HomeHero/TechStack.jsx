@@ -39,7 +39,7 @@ const TechStack = () => {
           <p className=" max-w-5xl relative z-50 mx-auto leading-relaxed text-base">
            <>
      The app was built using React Native for fast mobile performance or Flutter for unified development. The backend used Node.js or Laravel with PostgreSQL or MongoDB for data handling. Real-time messaging and bidding were implemented using socket.io or Firebase. Subscriptions were managed through Stripe and were built into the mobile payment options.
-This setup supported <Link href={"/services/android-app-development-services"} className="underline" > Android app development </Link> and <Link href={"/services/ios-app-development-services"} className="underline" > iOS app development </Link> services, with secure authentication via JWT or OAuth. 
+This setup supported <Link href={"/services/android-app-development"} className="underline" > Android app development </Link> and <Link href={"/services/ios-app-development"} className="underline" > iOS app development </Link> services, with secure authentication via JWT or OAuth. 
      </>
           </p>
         </motion.div>

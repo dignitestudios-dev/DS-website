@@ -123,7 +123,7 @@ const ConsultingStrategiesSection = () => {
         enhance user engagement and the credibility of your new app idea. Here,
         the top-class{" "}
         <Link
-          href={"/services/mobile-app-consulting-services"}
+          href={"/services/mobile-app-consultation"}
           className="text-[#F15C20]"
         >
           mobile app consulting services

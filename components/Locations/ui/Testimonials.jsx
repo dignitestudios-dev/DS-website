@@ -223,18 +223,20 @@ const Testimonials = ({ header, header2, para, test: customTest, button }) => {
 
                         {/* Text content */}
                         <div className="my-10 text-center">
-                          <Image
-                            src="/location/mobile-california/rev.webp"
-                            alt="review stars"
-                            className="mx-auto mb-2"
-                           width={379} height={388} />
-                          <h3 className="text-base font-bold">{item.name}</h3>
-                          <div className="flex items-center justify-center gap-1 mt-1 text-xs text-gray-600">
-                            {item.platform === "Google" && googleLogo}
-                            {item.platform === "Trustpilot" && trustpilotLogo}
-
-                          </div>
-                        </div>
+                                                 <Image
+                                                   src="/location/mobile-california/rev.webp"
+                                                   alt="review stars"
+                                                   width={66}
+                                                   height={14}
+                                                   className="w-[60px] mx-auto mb-2"
+                                                 />
+                                                 <h3 className="text-base font-bold">{item.name}</h3>
+                                                 <div className="flex items-center justify-center gap-1 mt-1 text-xs text-gray-600">
+                                                   {item.platform === "Google" && googleLogo}
+                                                   {item.platform === "Trustpilot" && trustpilotLogo}
+                       
+                                                 </div>
+                                               </div>
 
                         <div className="flex flex-col items-center justify-center w-full px-2">
                           <p className="text-xs text-center">

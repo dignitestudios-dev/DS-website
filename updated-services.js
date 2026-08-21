@@ -8,7 +8,7 @@ const services = [
     description: (
       <>
         Our team makes sure that we provide the best{" "}
-        <Link href="/services/ios-app-development-services" className="underline">
+        <Link href="/services/ios-app-development" className="underline">
           iOS app development services
         </Link>
         , so we use Swift and SwiftUI to create reliable iPhone apps.
@@ -27,7 +27,7 @@ const services = [
         and Java. The QA team tests the application on different Android devices
         to ensure that your app works just as well in the practical world as it
         does in development. That's how we make sure to provide you with the{" "}
-        <Link href="/services/android-app-development-services" className="underline">
+        <Link href="/services/android-app-development" className="underline">
           Android app development services
         </Link>
         .
@@ -57,7 +57,7 @@ const services = [
     description: (
       <>
         For products that need deeper performance and control, we offer{" "}
-        <Link href="/services/native-app-development-services" className="underline">
+        <Link href="/services/native-app-development" className="underline">
           native app development services
         </Link>
         , including fully custom mobile apps and PWAs.
@@ -94,7 +94,7 @@ const services = [
         smoothly. From performance improvements to feature updates, our
         experienced mobile app developers Boston founders trust work alongside
         you as your product evolves and scales with our{" "}
-        <Link href="/services/mobile-app-consulting-services" className="underline">
+        <Link href="/services/mobile-app-consultation" className="underline">
           mobile app consulting services
         </Link>{" "}
         and{" "}

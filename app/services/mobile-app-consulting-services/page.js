@@ -27,7 +27,7 @@ const breadcrumbData = {
       "@type": "ListItem",
       position: 2,
       name: "Mobile App Development Services",
-      item: "https://www.dignitestudios.com/services/mobile-app-development-services",
+      item: "https://www.dignitestudios.com/services/mobile-app-development",
     },
   ],
 };
@@ -39,27 +39,27 @@ const page = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
           rel="canonical"
-          href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+          href="https://www.dignitestudios.com/services/mobile-app-consultation"
         />
         <link
           rel="alternate"
           hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+          href="https://www.dignitestudios.com/services/mobile-app-consultation"
         />
         <link
           rel="alternate"
           hreflang="en-us"
-          href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+          href="https://www.dignitestudios.com/services/mobile-app-consultation"
         />
         <link
           rel="alternate"
           hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+          href="https://www.dignitestudios.com/services/mobile-app-consultation"
         />
         <link
           rel="alternate"
           hreflang="x-default"
-          href="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+          href="https://www.dignitestudios.com/services/mobile-app-consultation"
         />
         <meta http-equiv="content-language" content="en-us" />
         <meta http-equiv="content-language" content="en-ca" />
@@ -79,7 +79,7 @@ const page = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dignitestudios.com/services/mobile-app-consulting-services"
+          content="https://www.dignitestudios.com/services/mobile-app-consultation"
         />
         <meta
           property="og:image"
@@ -118,7 +118,7 @@ const page = () => {
           "@context": "https://schema.org",
           "@type": "WebPage",
           name: "Mobile app consulting services | Dignite Studios",
-          url: "https://www.dignitestudios.com/services/mobile-app-consulting-services",
+          url: "https://www.dignitestudios.com/services/mobile-app-consultation",
           description:
             "Explore professional mobile application consulting services with our expert agency to thrive your innovative application solutions. Here, you’ll experience modern mobile application development strategies to make your company bulge out.",
           thumbnailUrl:
@@ -159,7 +159,7 @@ const page = () => {
           "@type": "ListItem",
           "position": 4,
           "name": "Mobile app consulting services",
-          "item": "https://www.dignitestudios.com/services/mobile-app-consulting-services"
+          "item": "https://www.dignitestudios.com/services/mobile-app-consultation"
         }
       ]
     }

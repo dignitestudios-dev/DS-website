@@ -20,27 +20,27 @@ const page = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
           rel="canonical"
-          href="https://www.dignitestudios.com/services/ios-app-development-services"
+          href="https://www.dignitestudios.com/services/ios-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/ios-app-development-services"
+          href="https://www.dignitestudios.com/services/ios-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-us"
-          href="https://www.dignitestudios.com/services/ios-app-development-services"
+          href="https://www.dignitestudios.com/services/ios-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/ios-app-development-services"
+          href="https://www.dignitestudios.com/services/ios-app-development"
         />
         <link
           rel="alternate"
           hreflang="x-default"
-          href="https://www.dignitestudios.com/services/ios-app-development-services"
+          href="https://www.dignitestudios.com/services/ios-app-development"
         />
         <meta http-equiv="content-language" content="en-us" />
         <meta http-equiv="content-language" content="en-ca" />
@@ -60,7 +60,7 @@ const page = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dignitestudios.com/services/ios-app-development-services"
+          content="https://www.dignitestudios.com/services/ios-app-development"
         />
         <meta
           property="og:image"
@@ -98,7 +98,7 @@ const page = () => {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "ios app development services | Dignite Studios",
-      "url": "https://www.dignitestudios.com/services/ios-app-development-services",
+      "url": "https://www.dignitestudios.com/services/ios-app-development",
       "description": "Elevate your mobile landscape with our iOS application development services of custom iPhone apps with the company’s top experts.",
       "thumbnailUrl": "https://www.dignitestudios.com/banner-cover-image-of-ios-app-development-services.webp"
     }
@@ -115,7 +115,7 @@ const page = () => {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "ios app development services | Dignite Studios",
-            url: "https://www.dignitestudios.com/services/ios-app-development-services",
+            url: "https://www.dignitestudios.com/services/ios-app-development",
             description:
               "Elevate your mobile landscape with our iOS application development services of custom iPhone apps with the company’s top experts.",
             thumbnailUrl:
@@ -138,7 +138,7 @@ const page = () => {
             "@type": "ListItem", 
             "position": 2, 
             "name": "iOS App Development Services",
-            "item": "https://www.dignitestudios.com/services/ios-app-development-services"  
+            "item": "https://www.dignitestudios.com/services/ios-app-development"  
           }]
         }
       `}

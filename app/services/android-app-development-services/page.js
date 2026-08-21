@@ -21,27 +21,27 @@ const page = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
           rel="canonical"
-          href="https://www.dignitestudios.com/services/android-app-development-services"
+          href="https://www.dignitestudios.com/services/android-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/android-app-development-services"
+          href="https://www.dignitestudios.com/services/android-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-us"
-          href="https://www.dignitestudios.com/services/android-app-development-services"
+          href="https://www.dignitestudios.com/services/android-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/android-app-development-services"
+          href="https://www.dignitestudios.com/services/android-app-development"
         />
         <link
           rel="alternate"
           hreflang="x-default"
-          href="https://www.dignitestudios.com/services/android-app-development-services"
+          href="https://www.dignitestudios.com/services/android-app-development"
         />
         <meta http-equiv="content-language" content="en-us" />
         <meta http-equiv="content-language" content="en-ca" />
@@ -61,7 +61,7 @@ const page = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dignitestudios.com/services/android-app-development-services"
+          content="https://www.dignitestudios.com/services/android-app-development"
         />
         <meta
           property="og:image"
@@ -106,7 +106,7 @@ const page = () => {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Android app development services | Dignite Studios",
-      "url": "https://www.dignitestudios.com/services/android-app-development-services",
+      "url": "https://www.dignitestudios.com/services/android-app-development",
       "description": "The first-class Android app development company Dignite Studios bestows the best international development mobile app standards so that the agency can fulfill custom application solutions and other mobile projects.",
       "thumbnailUrl": "https://www.dignitestudios.com/banner-cover-image-of-android-app-development-services.webp"
     }
@@ -129,7 +129,7 @@ const page = () => {
           "@type": "ListItem",
           "position": 2,
           "name": "Android App Development Services",
-          "item": "https://www.dignitestudios.com/services/android-app-development-services"
+          "item": "https://www.dignitestudios.com/services/android-app-development"
         }
       ]
     }

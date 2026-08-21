@@ -41,10 +41,10 @@ const ProductDesign = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-7xl font-bold mb-6 text-white leading-tight">
-            Insights and Startup Stories on Mobile App Development
+            Insights, Ideas and Industry Trends
           </h2>
           <p className="font-extralight max-w-2xl mx-auto text-lg text-gray-300 leading-relaxed">
-            Staying informed is just as important as choosing the right development partner. We share practical insights, startup stories and expert perspectives. It helps businesses navigate the world of mobile apps. The content is designed to answer common questions and inspire new ideas for your next digital product.
+            Get practical insights into app development, product strategy, UI and UX, emerging technologies and startup growth. Our articles simply break down complex topics to help you analyze options, make smarter decisions and avoid common development mistakes.
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const ProductDesign = () => {
               </Link>
             </div>
 
-            <div className="lg:col-span-7 md:grid hidden grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
+            <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12 mt-12 lg:mt-0">
               {insights.slice(1).map((post) => (
                 <Link key={post.id || post.slug} href={post.url}>
                   <BlogCard post={post} />
@@ -73,7 +73,7 @@ const ProductDesign = () => {
         )}
 
         {/* Pagination Controls */}
-        {!loading && totalPages > 1 && (
+        {/* {!loading && totalPages > 1 && (
           <div className="flex justify-center items-center gap-6 mt-16">
             <button
               onClick={handlePrev}
@@ -101,7 +101,7 @@ const ProductDesign = () => {
               Next
             </button>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );
@@ -113,13 +113,13 @@ const BlogCard = ({ post, isFeatured }) => {
       className={`flex flex-col group cursor-pointer ${isFeatured ? "h-full" : ""}`}
     >
       <div
-        className={`relative overflow-hidden rounded-3xl ${isFeatured ? "h-[350px] lg:h-[450px]" : "aspect-[4/3]"}`}
+        className={`relative overflow-hidden rounded-3xl aspect-video w-full`}
       >
         <Image
           src={post.image}
           alt={post.title}
-          width={800}
-          height={600}
+          width={1200}
+          height={630}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
         {isFeatured && (

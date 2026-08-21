@@ -4,7 +4,7 @@ export const NATIVE_APP_DEV_SERVICES_FAQS = [
     question: "What is native app development?",
     answer: (
       <>
-        <Link href="/services/native-app-development-services" className="text-[#F15C20]">Native mobile app development</Link> means building platform-specific, custom, and dedicated mobile applications for <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS</Link> and <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android</Link> devices.
+        <Link href="/services/native-app-development" className="text-[#F15C20]">Native mobile app development</Link> means building platform-specific, custom, and dedicated mobile applications for <Link href="/services/ios-app-development" className="text-[#F15C20]">iOS</Link> and <Link href="/services/android-app-development" className="text-[#F15C20]">Android</Link> devices.
       </>
     ),
   },
@@ -12,7 +12,7 @@ export const NATIVE_APP_DEV_SERVICES_FAQS = [
     question: "Are native apps better?",
     answer: (
       <>
-        <Link href="/services/native-app-development-services" className="text-[#F15C20]">Native apps</Link> are more responsive and highly performing apps as compared to hybrid apps. <Link href="/services/native-app-development-services" className="text-[#F15C20]">Native mobile app development</Link> is also budget-friendly and can be accessed offline.
+        <Link href="/services/native-app-development" className="text-[#F15C20]">Native apps</Link> are more responsive and highly performing apps as compared to hybrid apps. <Link href="/services/native-app-development" className="text-[#F15C20]">Native mobile app development</Link> is also budget-friendly and can be accessed offline.
       </>
     ),
   },
@@ -20,7 +20,7 @@ export const NATIVE_APP_DEV_SERVICES_FAQS = [
     question: "What is the difference between native app and hybrid app?",
     answer: (
       <>
-        <Link href="/services/native-app-development-services" className="text-[#F15C20]">Native applications</Link> are designed for a specific platform or device. It imparts fastest and reliable experience to the users. On the other hand, Hybrid apps contain single codebase to run on both platforms i.e <Link href="/services/ios-app-development-services" className="text-[#F15C20]">iOS</Link> and <Link href="/services/android-app-development-services" className="text-[#F15C20]">Android</Link>. The maintenance and development procedure of hybrid apps are simple and easy.
+        <Link href="/services/native-app-development" className="text-[#F15C20]">Native applications</Link> are designed for a specific platform or device. It imparts fastest and reliable experience to the users. On the other hand, Hybrid apps contain single codebase to run on both platforms i.e <Link href="/services/ios-app-development" className="text-[#F15C20]">iOS</Link> and <Link href="/services/android-app-development" className="text-[#F15C20]">Android</Link>. The maintenance and development procedure of hybrid apps are simple and easy.
       </>
     ),
   },

@@ -39,7 +39,7 @@ const OurValueExpeditionSection = () => {
           growth. We aim to bestow next-level expert guidance and innovative
           solutions to deploy unique infrastructure to your mobile and{" "}
           <Link
-            href={"/services/web-application-development-services"}
+            href={"/services/web-app-development"}
             className="text-[#F15C20]"
           >
             web apps

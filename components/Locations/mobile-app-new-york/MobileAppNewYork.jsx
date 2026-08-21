@@ -29,7 +29,7 @@ const services = [
         development companies in New York, we build apps that work smoothly on
         iPhones. Our{" "}
         <Link
-          href="/services/ios-app-development-services"
+          href="/services/ios-app-development"
           className="underline "
         >
           iOS app development
@@ -47,12 +47,12 @@ const services = [
       <>
         For Android, we handle full{" "}
         <Link
-          href="/services/android-app-development-services"
+          href="/services/android-app-development"
           className="underline "
         >
           Android app development
         </Link>{" "}
-        using Kotlin and Java. When we offer our <Link href="/services/android-app-development-services" className="text-[#F15C20] underline">Android app development
+        using Kotlin and Java. When we offer our <Link href="/services/android-app-development" className="text-[#F15C20] underline">Android app development
           service</Link>, we make sure your app runs smoothly across Pixel, Samsung, and
         OnePlus. The app would be free of weird bugs.
       </>
@@ -66,7 +66,7 @@ const services = [
       <>
         Looking for faster delivery and cost efficiency? You need{" "}
         <Link
-          href="/services/hybrid-app-development-services"
+          href="/services/hybrid-app-development"
           className="underline "
         >
           cross-platform app development
@@ -84,14 +84,14 @@ const services = [
       <>
         When you want full control, our{" "}
         <Link
-          href="/services/native-app-development-services"
+          href="/services/native-app-development"
           className="underline "
         >
           native app development services
         </Link>{" "}
         are the best choice. As a native mobile app development company, we
         build custom native apps and{" "}
-        <Link href="/services/pwa-development-services" className="underline ">
+        <Link href="/services/progressive-web-app-development" className="underline ">
           PWAs
         </Link>{" "}
         that scale with you.
@@ -154,7 +154,7 @@ const services = [
         We don’t disappear after launch. From MVP development and post-launch
         support to QA testing and{" "}
         <Link
-          href="/services/mobile-app-consulting-services"
+          href="/services/mobile-app-consultation"
           className="underline "
         >
           mobile app consulting services
@@ -423,7 +423,7 @@ Including strategy, UI/UX design with agile development and deployment, we make 
             York. When it comes to working with founders, product teams, and
             growing businesses, our{" "}
             <Link
-              href={"/services/hire-mobile-app-developers"}
+              href={"/services/hire-mobile-application-developers"}
               className="underline"
             >
               {" "}

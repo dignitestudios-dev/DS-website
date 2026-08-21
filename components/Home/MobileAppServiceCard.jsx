@@ -106,7 +106,7 @@ const MobileAppServiceCard = () => {
       concerns, our highly skillful mobile app development body uses integrated
       Apple Xcode to test, build, and package apps. Whereas,{" "}
       <Link
-        href="/services/ios-app-development-services"
+        href="/services/ios-app-development"
         className="text-orange-600"
       >
         iOS app development services
@@ -125,7 +125,7 @@ const MobileAppServiceCard = () => {
     <>
       Are you looking for an{" "}
       <Link
-        href="/services/android-app-development-services"
+        href="/services/android-app-development"
         className="text-orange-600"
       >
         android app development service
@@ -223,7 +223,7 @@ const MobileAppServiceCard = () => {
       foremost from a better platform. So, at the door of Dignite Studios, you
       can avail the best{" "}
       <Link
-        href="/services/mobile-app-consulting-services"
+        href="/services/mobile-app-consultation"
         className="text-orange-600"
       >
         mobile app consulting services
@@ -275,7 +275,7 @@ const MobileAppServiceCard = () => {
       accomplish your project instantly. The mobile application development
       process plays a notable role in acquiring business needs.{" "}
       <Link
-        href={"/services/hire-mobile-app-developers"}
+        href={"/services/hire-mobile-application-developers"}
         className="text-orange-600"
       >
         Hire mobile app developer
@@ -316,7 +316,7 @@ const MobileAppServiceCard = () => {
     <>
       Here at Dignite Studios,{" "}
       <Link
-        href={"/services/hire-ios-app-developers"}
+        href={"/services/hire-ios-application-developers"}
         className="text-orange-600"
       >
         hire iOS developers
@@ -361,7 +361,7 @@ const MobileAppServiceCard = () => {
       Do you want to expand your reach and generate more revenue through Android
       mobile apps? Here you are at the right place,{" "}
       <Link
-        href={"/services/hire-android-app-developers"}
+        href={"/services/hire-android-application-developers"}
         className="text-orange-600"
       >
         hire android mobile app developers
@@ -384,7 +384,7 @@ const MobileAppServiceCard = () => {
       We cater to specific mobile operating systems e.g. Apple, IO, S, and
       Android to produce native device features. Our skillful{" "}
       <Link
-        href={"/services/native-app-development-services"}
+        href={"/services/native-app-development"}
         className="text-orange-600"
       >
         native app development services
@@ -406,7 +406,7 @@ const MobileAppServiceCard = () => {
       App Shell Model, our developers serve the best app service model to create
       the effectiveness of your application through{" "}
       <Link
-        href={"/services/pwa-development-services"}
+        href={"/services/progressive-web-app-development"}
         className="text-orange-600"
       >
         progressive web app development services.
@@ -425,7 +425,7 @@ const MobileAppServiceCard = () => {
       We cater to specific mobile operating systems e.g. Apple, IO, S, and
       Android to produce native device features. Our skillful{" "}
       <Link
-        href={"/services/native-app-development-services"}
+        href={"/services/native-app-development"}
         className="text-orange-600"
       >
         native app development services

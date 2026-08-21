@@ -16,27 +16,27 @@ const page = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
           rel="canonical"
-          href="https://www.dignitestudios.com/services/native-app-development-services"
+          href="https://www.dignitestudios.com/services/native-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-ca"
-          href="https://www.dignitestudios.com/services/native-app-development-services"
+          href="https://www.dignitestudios.com/services/native-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-us"
-          href="https://www.dignitestudios.com/services/native-app-development-services"
+          href="https://www.dignitestudios.com/services/native-app-development"
         />
         <link
           rel="alternate"
           hreflang="en-gb"
-          href="https://www.dignitestudios.com/services/native-app-development-services"
+          href="https://www.dignitestudios.com/services/native-app-development"
         />
         <link
           rel="alternate"
           hreflang="x-default"
-          href="https://www.dignitestudios.com/services/native-app-development-services"
+          href="https://www.dignitestudios.com/services/native-app-development"
         />
         <meta http-equiv="content-language" content="en-us" />
         <meta http-equiv="content-language" content="en-ca" />
@@ -56,7 +56,7 @@ const page = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dignitestudios.com/services/native-app-development-services"
+          content="https://www.dignitestudios.com/services/native-app-development"
         />
         <meta
           property="og:image"
@@ -99,7 +99,7 @@ const page = () => {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "Native App Development Services | Dignite Studios",
-            url: "https://www.dignitestudios.com/services/native-app-development-services",
+            url: "https://www.dignitestudios.com/services/native-app-development",
             description:
               "Expeditious native app development company Dignite Studios is set to deliver compelling custom mobile application services from highly qualified experts.",
             thumbnailUrl:
@@ -125,13 +125,13 @@ const page = () => {
                 "@type": "ListItem",
                 position: 2,
                 name: "Mobile app development services",
-                item: "https://www.dignitestudios.com/services/mobile-app-development-services",
+                item: "https://www.dignitestudios.com/services/mobile-app-development",
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: "Native app development services",
-                item: "https://www.dignitestudios.com/services/native-app-development-services",
+                item: "https://www.dignitestudios.com/services/native-app-development",
               },
             ],
           }),

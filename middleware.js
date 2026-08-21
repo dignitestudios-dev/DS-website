@@ -17,42 +17,43 @@ export function middleware(request) {
     { oldPath: "/flutter-gray.webp", newPath: "/" },
     { oldPath: "/flutter-color.webp", newPath: "/" },
     {
-      oldPath: "/services/web-application-development-services",
+      oldPath: "/services/web-app-development",
       newPath: "/services/web-app-development",
     },
     { oldPath: "/our-vision-value", newPath: "/about-us" },
     { oldPath: "/get-quote", newPath: "/contact-us" },
     {
       oldPath: "/app-development",
-      newPath: "/services/mobile-app-development-services",
+      newPath: "/services/mobile-app-development",
     },
     {
       oldPath: "/web-designing",
       newPath: "/services/mobile-app-development",
     },
     {
-      oldPath: "/services/hire-android-app-developers",
+      oldPath: "/services/hire-android-application-developers",
       newPath: "/services/hire-android-application-developers",
     },
     {
-      oldPath: "/services/hire-mobile-app-developers",
+      oldPath: "/services/hire-mobile-application-developers",
       newPath: "/services/hire-mobile-application-developers",
     },
     {
-      oldPath: "/services/hire-ios-app-developers",
+      oldPath: "/services/hire-ios-application-developers",
       newPath: "/services/hire-ios-application-developers",
     },
     {
       oldPath: "/services/hire-android-developers",
-      newPath: "/services/hire-android-app-developers",
+      newPath: "/services/hire-android-application-developers",
     },
     {
-      oldPath: "/services/android-app-development-services",
+      oldPath: "/services/android-app-development",
+      
       newPath: "/services/android-app-development",
     },
     {
       oldPath: "/services/andriod",
-      newPath: "/services/hire-android-app-developers",
+      newPath: "/services/hire-android-application-developers",
     },
     // New redirects
     { oldPath: "/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2", newPath: "/" },
@@ -137,28 +138,28 @@ export function middleware(request) {
     },
     { oldPath: "/wp-json/elementskit/v1", newPath: "/" },
     {
-      oldPath: "/services/mobile-app-development-services",
+      oldPath: "/services/mobile-app-development",
       newPath: "/services/mobile-app-development",
     },
     { oldPath: "/blog/2022/11/19", newPath: "/" },
     {
-      oldPath: "/services/pwa-development-services",
+      oldPath: "/services/progressive-web-app-development",
       newPath: "/services/progressive-web-app-development",
     },
     {
-      oldPath: "/services/mobile-app-consulting-services",
+      oldPath: "/services/mobile-app-consultation",
       newPath: "/services/mobile-app-consultation",
     },
     {
-      oldPath: "/services/hybrid-app-development-services",
+      oldPath: "/services/hybrid-app-development",
       newPath: "/services/hybrid-app-development",
     },
     {
-      oldPath: "/services/native-app-development-services",
+      oldPath: "/services/native-app-development",
       newPath: "/services/native-app-development",
     },
     {
-      oldPath: "/services/ios-app-development-services",
+      oldPath: "/services/ios-app-development",
       newPath: "/services/ios-app-development",
     },
     // {
@@ -167,11 +168,11 @@ export function middleware(request) {
     // },
     {
       oldPath: "/web-development",
-      newPath: "/services/web-application-development-services",
+      newPath: "/services/web-app-development",
     },
     {
       oldPath: "/mobile-development",
-      newPath: "/services/mobile-app-development-services",
+      newPath: "/services/mobile-app-development",
     },
   ];
 
