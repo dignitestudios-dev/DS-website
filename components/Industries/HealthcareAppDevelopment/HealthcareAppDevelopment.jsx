@@ -178,7 +178,7 @@ const highlights = [
     title: "Post-Launch Support",
     desc: (
       <>
-        The support services we provide make your healthcare app competitive, so you can easily depend on our <Link href="/services/healthcare-app-development" className="text-[#F15C20]">healthcare mobile app development services</Link>.
+        The support services we provide make your healthcare app competitive, so you can easily depend on our <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">healthcare mobile app development services</Link>.
       </>
     ),
   },
@@ -494,10 +494,10 @@ const HealthcareAppDevelopment = () => {
             The <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">healthcare mobile app developers</Link> specialize in creating
             healthcare apps that fulfill the evolving needs of hospitals and
             medical institutions, while being one of the best <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">healthcare app
-            development companies</Link>. This means helping them improve patient
+              development companies</Link>. This means helping them improve patient
             engagement and streamline workflows. The <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">mobile app development for
-            healthcare</Link> that we create while providing trusted <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">healthcare app
-            development</Link> simplifies patient care and improves daily operations.
+              healthcare</Link> that we create while providing trusted <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">healthcare app
+                development</Link> simplifies patient care and improves daily operations.
             Our <Link href="/industries/healthcare-app-development" className="text-[#F15C20]">healthcare app development company</Link> understands and helps you
             overcome the unique challenges of each and deliver solutions that
             grow with your business. We understand that every healthcare
@@ -616,7 +616,7 @@ const HealthcareAppDevelopment = () => {
         para={
           "Our clients trust us to deliver healthcare apps that truly make a difference. Their feedback highlights how our solutions improve patient care and enhance operational efficiency. These testimonials demonstrate reliability and the ability to meet unique healthcare needs, while helping organizations deliver more connected patient experiences. "
         }
-        // button="Work With Our Expert Team"
+      // button="Work With Our Expert Team"
       />
       <Faq faqs={faqs} header2={"Questions"} header=" Commonly Asked  " />
       <ContactUs
