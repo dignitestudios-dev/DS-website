@@ -17,7 +17,7 @@ export function middleware(request) {
     { oldPath: "/flutter-gray.webp", newPath: "/" },
     { oldPath: "/flutter-color.webp", newPath: "/" },
     {
-      oldPath: "/services/web-app-development",
+      oldPath: "/services/web-application-development-services",
       newPath: "/services/web-app-development",
     },
     { oldPath: "/our-vision-value", newPath: "/about-us" },
@@ -31,15 +31,15 @@ export function middleware(request) {
       newPath: "/services/mobile-app-development",
     },
     {
-      oldPath: "/services/hire-android-application-developers",
+      oldPath: "/services/hire-android-app-developers",
       newPath: "/services/hire-android-application-developers",
     },
     {
-      oldPath: "/services/hire-mobile-application-developers",
+      oldPath: "/services/hire-mobile-app-developers",
       newPath: "/services/hire-mobile-application-developers",
     },
     {
-      oldPath: "/services/hire-ios-application-developers",
+      oldPath: "/services/hire-ios-app-developers",
       newPath: "/services/hire-ios-application-developers",
     },
     {
@@ -47,8 +47,7 @@ export function middleware(request) {
       newPath: "/services/hire-android-application-developers",
     },
     {
-      oldPath: "/services/android-app-development",
-      
+      oldPath: "/services/android-app-development-services",
       newPath: "/services/android-app-development",
     },
     {
@@ -138,28 +137,28 @@ export function middleware(request) {
     },
     { oldPath: "/wp-json/elementskit/v1", newPath: "/" },
     {
-      oldPath: "/services/mobile-app-development",
+      oldPath: "/services/mobile-app-development-services",
       newPath: "/services/mobile-app-development",
     },
     { oldPath: "/blog/2022/11/19", newPath: "/" },
     {
-      oldPath: "/services/progressive-web-app-development",
+      oldPath: "/services/pwa-development-services",
       newPath: "/services/progressive-web-app-development",
     },
     {
-      oldPath: "/services/mobile-app-consultation",
+      oldPath: "/services/mobile-app-consulting-services",
       newPath: "/services/mobile-app-consultation",
     },
     {
-      oldPath: "/services/hybrid-app-development",
+      oldPath: "/services/hybrid-app-development-services",
       newPath: "/services/hybrid-app-development",
     },
     {
-      oldPath: "/services/native-app-development",
+      oldPath: "/services/native-app-development-services",
       newPath: "/services/native-app-development",
     },
     {
-      oldPath: "/services/ios-app-development",
+      oldPath: "/services/ios-app-development-services",
       newPath: "/services/ios-app-development",
     },
     // {
