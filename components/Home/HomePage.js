@@ -2,6 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import { useContext, useEffect } from "react";
 import dynamic from "next/dynamic";
+import LazySection from "@/components/global/LazySection";
 
 // Above the fold: server-rendered on purpose. With `ssr: false` the <h1> only
 // existed once JS had run, which is what pushed LCP's render delay to 2.3s and
@@ -45,39 +46,39 @@ export default function HomePage() {
       <div className="w-full max-w-screen-2xl mx-auto h-auto flex flex-col items-center justify-center gap-20 md:gap-28 pb-20" style={{ overflowAnchor: 'none' }}>
         <Hero />
         <MobileAppServices />
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <SuccessStories />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Bussiness />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Process />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Industries />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <TechTools />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Impact />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Testimonials />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <ProductDesign />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <GlobalPresence />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <Faq />
-        {/* </Suspense> */}
-        {/* <Suspense fallback={<LoadingFallback />}> */}
-        <ContactUs header={"Your Next Big Project is Just a Call Away!"} para={"Big ideas deserve expert execution. Connect with our team and take the first step toward launching your amazing project."} img="/cc.webp" btn={"Schedule a Call"} />
-        {/* </Suspense> */}
+        <LazySection minHeight={600}>
+          <SuccessStories />
+        </LazySection>
+        <LazySection minHeight={600}>
+          <Bussiness />
+        </LazySection>
+        <LazySection minHeight={600}>
+          <Process />
+        </LazySection>
+        <LazySection minHeight={600}>
+          <Industries />
+        </LazySection>
+        <LazySection minHeight={600}>
+          <TechTools />
+        </LazySection>
+        <LazySection minHeight={600}>
+          <Impact />
+        </LazySection>
+        <LazySection minHeight={600}>
+          <Testimonials />
+        </LazySection>
+        <LazySection minHeight={600}>
+          <ProductDesign />
+        </LazySection>
+        <LazySection minHeight={600}>
+          <GlobalPresence />
+        </LazySection>
+        <LazySection minHeight={600}>
+          <Faq />
+        </LazySection>
+        <LazySection minHeight={600}>
+          <ContactUs header={"Your Next Big Project is Just a Call Away!"} para={"Big ideas deserve expert execution. Connect with our team and take the first step toward launching your amazing project."} img="/cc.webp" btn={"Schedule a Call"} />
+        </LazySection>
       </div>
     </>
   );
