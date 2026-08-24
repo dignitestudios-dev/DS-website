@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <div className="w-[95%] lg:w-[80%] relative  text-white bg-[url('/services/mobile-testing/s-cta.webp')] bg-auto bg-center  transition ease-linear relative md:px-36 px-4 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
+    <div className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 w-[95%] lg:w-[80%] relative  text-white bg-[url('/services/mobile-testing/s-cta.webp')] bg-auto bg-center  transition ease-linear relative md:px-36 px-4 my-10 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <div className="flex items-center">
         <motion.img
           src="/services/mobile-testing/mob1.webp"
@@ -31,7 +31,7 @@ const CTA = () => {
           transition={{ duration: 0.8 }}
         />
 
-        <div className="w-full lg:w-[60%] mx-auto justify-center lg:h-[350px] flex flex-col items-center text-center">
+        <div className="w-full lg:w-[60%] mx-auto justify-center lg:h-[600px] flex flex-col items-center text-center">
           <h2 className="text-5xl capitalize font-bold mb-4">
            Don’t Leave Your App’s Success to Chance 
           </h2>

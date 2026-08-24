@@ -5,7 +5,7 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <div className="dark:bg-transparent -mb-4 bg-[#E6FFBC73] relative overflow-hidden">
+    <div className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 dark:bg-transparent -mb-4 bg-[#E6FFBC73] relative overflow-hidden">
            <img
         src="/bioyap/hero.webp"
         alt="hero"

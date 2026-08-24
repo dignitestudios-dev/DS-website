@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const CTA = () => {
   return (
-    <section className="relative w-full bg-[#151515] mb-20 px-4 flex flex-col items-center overflow-hidden">
+    <section className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 relative w-full bg-[#151515] mb-20 px-4 flex flex-col items-center overflow-hidden">
 
       {/* CTA Container */}
       <motion.div

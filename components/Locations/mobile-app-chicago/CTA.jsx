@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <div className="w-[95%] lg:w-[80%] text-white bg-[url('/location/mobile-chicago/s-cta.webp')] bg-cover bg-center hover:scale-105 transition ease-linear relative md:px-16 px-10 my-24 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
+    <div className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 w-[95%] lg:w-[80%] text-white bg-[url('/location/mobile-chicago/s-cta.webp')] bg-cover bg-center hover:scale-105 transition ease-linear relative md:px-16 px-10 my-10 md:my-0 py-14 mx-auto rounded-[43px] overflow-hidden border border-[#DDDDDD]">
       <div className="flex flex-row-reverse gap-20 items-center">
         <div className="w-[40%] lg:block hidden">
           <motion.img

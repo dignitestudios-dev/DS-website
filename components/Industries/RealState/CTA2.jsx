@@ -13,7 +13,7 @@ const CTA2 = ({
   return (
     <div>
       {" "}
-      <div className="w-[95%]  md:h-[550px] lg:w-[80%] text-white bg-black md:bg-transparent md:bg-[url('/industries/food-industry/s-cta2.webp')] md:bg-contain md:bg-no-repeat md:bg-center transition ease-linear rounded-2xl md:rounded-none relative px-6 md:pl-24 md:pr-20 py-20 md:py-12 mx-auto overflow-hidden">
+      <div className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 w-[95%]  md:h-[550px] lg:w-[80%] text-white bg-black md:bg-transparent md:bg-[url('/industries/food-industry/s-cta2.webp')] md:bg-contain md:bg-no-repeat md:bg-center transition ease-linear rounded-2xl md:rounded-none relative px-6 md:pl-24 md:pr-20 py-10 md:py-12 mx-auto overflow-hidden">
         <div className="flex items-start gap-20 overflow-hidden flex-row-reverse h-full justify-center">
           <div className="hidden lg:block  w-[79%] -mt-16 overflow-hidden">
             <motion.img

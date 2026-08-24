@@ -6,7 +6,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const SEOServicesCTA = () => {
     return (
-        <section className="w-full bg-white py-20 overflow-hidden">
+        <section className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 w-full bg-white py-10 overflow-hidden">
             <div className="max-w-[1340px] mx-auto px-4">
                 <div
                     className="relative overflow-hidden rounded-[32px]  px-8 md:px-14 lg:px-20 py-12"
@@ -16,7 +16,7 @@ const SEOServicesCTA = () => {
                     }}
                 >
                     {/* Orange Glow */}
-                    <div className="absolute -bottom-32 -right-24 w-[500px] h-[350px] rounded-full bg-[#F15C20]/80 blur-[130px]" />
+                    <div className="absolute -bottom-32 -right-24 w-[500px] h-[450px] rounded-full bg-[#F15C20]/80 blur-[130px]" />
 
                     {/* Dots */}
                     <div

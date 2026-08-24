@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <div className="w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/services/mob-hire/s-cta.webp')] bg-contain bg-no-repeat bg-center transition ease-linear relative 2xl:px-40 md:px-28 px-10 md:my-0 md:py-14 mx-auto overflow-hidden flex justify-center items-center">
+    <div className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 w-[95%] h-[550px] lg:w-[80%] text-black md:text-white md:bg-[url('/services/mob-hire/s-cta.webp')] bg-contain bg-no-repeat bg-center transition ease-linear relative 2xl:px-40 md:px-28 px-10 md:my-0 md:py-14 mx-auto overflow-hidden flex justify-center items-center">
       {/* <img src={"/services/hybrid-app/s-cta.webp"} alt="img" width={800} height={800} className="absolute top-0 scale-105 md:block hidden left-0 w-full h-full object-contain z-10" /> */}
       <div className="flex flex-row-reverse justify-between items-center relative z-20">
    

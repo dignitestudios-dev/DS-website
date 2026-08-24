@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const CTA = () => {
   return (
-    <section className="w-full bg-white flex justify-center mb-40 px-4 md:px-10 font-poppins">
+    <section className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 w-full bg-white flex justify-center mb-40 px-4 md:px-10 font-poppins">
       
       {/* CTA Card Container */}
-      <div className="relative w-full max-w-[1280px] h-auto md:h-[350px] bg-white border border-[#3E63EC]/40 rounded-[32px] flex flex-col md:flex-row items-center justify-between p-8 md:p-0 md:pl-12 md:pr-4 overflow-hidden shadow-sm">
+      <div className="relative w-full max-w-[1280px] h-auto md:h-[450px] bg-white border border-[#3E63EC]/40 rounded-[32px] flex flex-col md:flex-row items-center justify-between p-8 md:p-0 md:pl-12 md:pr-4 overflow-hidden shadow-sm">
         
         {/* Background Blur Effects (Simulating the green gradient flares) */}
         <div className="absolute right-[10%] md:right-[30%] top-0 bottom-0 w-[400px] opacity-30 pointer-events-none z-0">
