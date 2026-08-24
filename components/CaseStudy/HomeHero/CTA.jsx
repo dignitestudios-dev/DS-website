@@ -5,7 +5,7 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <div className="bg-gradient-to-b  dark:from-transparent dark:to-transparent from-[#CEA3D8] to-[#F1F8FD] relative overflow-hidden">
+    <div className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 bg-gradient-to-b  dark:from-transparent dark:to-transparent from-[#CEA3D8] to-[#F1F8FD] relative overflow-hidden">
       
            <img
         src="/home-hero/cta-shad.webp"

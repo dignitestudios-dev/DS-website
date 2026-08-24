@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const WebDesignCTA = ({ title, desc, btnText, btnLink }) => {
   return (
-    <section className="w-full bg-[#FFFFFF] py-20 flex justify-center items-center overflow-hidden">
+    <section className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 w-full bg-[#FFFFFF] py-10 flex justify-center items-center overflow-hidden">
       <div className="relative w-full max-w-[1240px] px-4 md:px-0">
         <div className="w-full min-h-[444px] bg-gradient-to-r from-[#3D3D3D] via-[#0C0C0C] to-[#3D3D3D] rounded-[32px] flex flex-col lg:flex-row items-center justify-between p-8 lg:p-[60px] relative overflow-hidden shadow-xl">
 
@@ -14,7 +14,7 @@ const WebDesignCTA = ({ title, desc, btnText, btnLink }) => {
           <div className="absolute right-0 top-0 w-[600px] h-full pointer-events-none hidden lg:block overflow-hidden">
             <div className="absolute right-[10%] top-[20%] w-[300px] h-[300px] bg-[#F15C20]/40 blur-[80px] rounded-full mix-blend-screen"></div>
             <div className="absolute right-[20%] bottom-[10%] w-[250px] h-[250px] bg-[#5AE9FD]/30 blur-[60px] rounded-full mix-blend-screen"></div>
-            <div className="absolute right-[-10%] top-[-10%] w-[400px] h-[400px] bg-[#C3202D]/30 blur-[100px] rounded-full mix-blend-color"></div>
+            <div className="absolute right-[-10%] top-[-10%] w-[400px] h-[550px] bg-[#C3202D]/30 blur-[100px] rounded-full mix-blend-color"></div>
           </div>
 
           {/* Left Text Content */}
@@ -38,7 +38,7 @@ const WebDesignCTA = ({ title, desc, btnText, btnLink }) => {
           </div>
 
           {/* Right Mockup */}
-          <div className="relative w-full lg:w-[450px] h-[300px] lg:h-[350px] mt-10 -mb-28 lg:mt-0 z-10 flex justify-center items-center">
+          <div className="relative w-full lg:w-[450px] h-[300px] lg:h-[600px] mt-10 -mb-28 lg:mt-0 z-10 flex justify-center items-center">
             {/* We'll use the cta.webp image for this section */}
             <div className="relative w-full h-full">
               <Image

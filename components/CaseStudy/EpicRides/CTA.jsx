@@ -5,10 +5,10 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <section className="w-full bg-[#000B00] py-[50px] px-6 md:px-[80px] flex flex-col items-center justify-center overflow-hidden">
+    <section className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 w-full bg-[#000B00] py-[50px] px-6 md:px-[80px] flex flex-col items-center justify-center overflow-hidden">
       
       {/* Container Card */}
-      <div className="relative w-full max-w-[1280px] min-h-[350px] bg-white/5 rounded-[32px] flex flex-col lg:flex-row items-center justify-between p-[30px] md:pl-[50px] md:pr-[20px] md:py-[40px] lg:py-0 overflow-hidden">
+      <div className="relative w-full max-w-[1280px] min-h-[450px] bg-white/5 rounded-[32px] flex flex-col lg:flex-row items-center justify-between p-[30px] md:pl-[50px] md:pr-[20px] md:py-[40px] lg:py-0 overflow-hidden">
         
         {/* Background Glowing Effects (Simulated) */}
         <div className="absolute top-0 right-[20%] w-[400px] h-[500px] opacity-30 pointer-events-none rotate-[25deg] z-0">

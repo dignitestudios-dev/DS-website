@@ -11,7 +11,7 @@ const CTA = () => {
             <div className='md:w-[70%] w-[90%] mx-auto text-center' >
 <h1 className='text-5xl font-bold tracking-tighter'>Let’s Build Something That <br/>
 
-<span className="text-orange-500">Truly Performs</span></h1>   
+<span className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 text-orange-500">Truly Performs</span></h1>   
     <p className='text-sm py-6 font-thin'>Have an idea that is ready to shape? Dignite Studios helps turn it into a high-impact digital solution. We work closely with you at every stage, offering 100% custom development, expert teams, and dependable support. Start a meaningful conversation about your vision and how it can come to your life. Together, we build apps designed for real, measurable business impact.</p>
        </div>
        

@@ -5,7 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const CTA = ({ title, desc, btnText, btnLink, image }) => {
     return (
-        <section className="w-full bg-[#FFFFFF] py-20 flex justify-center items-center overflow-hidden">
+        <section className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 w-full bg-[#FFFFFF] py-10 flex justify-center items-center overflow-hidden">
             <div className="relative w-full max-w-[1240px] px-4 md:px-0">
 
                 {/* Main CTA Container */}
