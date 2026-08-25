@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";

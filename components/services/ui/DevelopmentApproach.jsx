@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";

@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { GoDotFill } from 'react-icons/go';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { m as motion } from 'framer-motion';
 import { Inter } from 'next/font/google';
 
 const interFont = Inter({

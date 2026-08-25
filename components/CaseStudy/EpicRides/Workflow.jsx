@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { m as motion, useScroll, useTransform } from "framer-motion";
 
 const Card = ({ card, index, isDesktop }) => {
   const startY = isDesktop ? card.offsetY : 50;

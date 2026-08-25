@@ -2,7 +2,7 @@
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 

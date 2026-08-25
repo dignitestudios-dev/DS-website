@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Milestone from "./icons/Milestone";
 import Sector from "./icons/Sector";
 import Did from "./icons/Did";

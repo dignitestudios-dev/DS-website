@@ -1,7 +1,7 @@
 // Advanced Tools Behind Food Delivery Apps
 "use client";
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import {

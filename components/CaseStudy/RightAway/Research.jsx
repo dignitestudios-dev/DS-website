@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import { FaUser, FaStore, FaLightbulb } from 'react-icons/fa';
-import { motion } from 'framer-motion';
+import { m as motion } from 'framer-motion';
 
 const Research = () => {
   const cards = [

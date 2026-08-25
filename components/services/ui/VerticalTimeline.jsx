@@ -1,4 +1,4 @@
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { m as motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 const milestones = [1, 2, 3, 4, 5, 6]; // just 6 dots

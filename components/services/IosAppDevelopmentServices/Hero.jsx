@@ -3,7 +3,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import React, { useContext, useEffect, useState } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Image from "next/image";
 import HeroAnimation from "./HeroAnimation";
 import ContactButton from "@/components/global/ContactButton";

@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 
 const wireframes = [
   { id: 1, image: "/neighbor/w1.webp", alt: "Wireframe 1" },

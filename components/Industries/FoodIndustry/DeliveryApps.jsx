@@ -2,7 +2,7 @@
 
 "use client"
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { FaLock, FaCreditCard, FaUserShield, FaShieldAlt, FaRegCheckCircle, FaMapMarkerAlt } from "react-icons/fa";
 import { RiSecurePaymentLine } from "react-icons/ri";
 import { SiLetsencrypt, SiTryhackme, SiWebauthn } from "react-icons/si";

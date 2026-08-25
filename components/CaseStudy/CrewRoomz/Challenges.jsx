@@ -1,6 +1,6 @@
 "use client"
 import React from "react"
-import { motion } from "framer-motion"
+import { m as motion } from "framer-motion"
 
 const float = (delay = 0) => ({
   animate: { y: [0, -10, 0] },

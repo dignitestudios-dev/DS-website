@@ -8,17 +8,17 @@ export const DynamicSwiper = dynamic(
 
 export const DynamicSwiperSlide = dynamic(
   () => import("swiper/react").then((mod) => mod.SwiperSlide),
-  { ssr: false }
+  { ssr: false, loading: () => null }
 );
 
 export const DynamicMotion = dynamic(
   () => import("framer-motion").then((mod) => ({ default: mod.motion })),
-  { ssr: false }
+  { ssr: false, loading: () => null }
 );
 
 export const DynamicAnimatePresence = dynamic(
   () => import("framer-motion").then((mod) => ({ default: mod.AnimatePresence })),
-  { ssr: false }
+  { ssr: false, loading: () => null }
 );
 
 export const DynamicMarquee = dynamic(

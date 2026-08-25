@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { MdArrowOutward } from "react-icons/md";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 
 const integrations = [
   {

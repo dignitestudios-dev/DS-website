@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { m as motion, AnimatePresence } from "framer-motion";
 import { FiPlus, FiMinus, FiSearch, FiMic } from "react-icons/fi";
 import Image from "next/image";
 import { FaMinus, FaPlus } from "react-icons/fa";

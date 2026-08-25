@@ -12,13 +12,14 @@ import { usePathname } from "next/navigation";
 import useDeviceType from "@/components/global/DeviceTypeFunction";
 import Link from "next/link";
 import Image from "next/image";
+import { LazyMotion, domAnimation } from "framer-motion";
 
 const Navbar = dynamic(() => import("@/components/global/Navbar"), { ssr: true });
-const Sidebar = dynamic(() => import("@/components/global/Sidebar"), { ssr: false });
+const Sidebar = dynamic(() => import("@/components/global/Sidebar"), { ssr: false, loading: () => null });
 const Footer = dynamic(() => import("@/components/Home/Footer"), { ssr: true });
-const Cursor = dynamic(() => import("@/components/global/Cursor"), { ssr: false });
-const ScrollToTopButton = dynamic(() => import("@/components/global/ScrollToTopButton"), { ssr: false });
-const ContactUsAlert = dynamic(() => import("@/components/global/ContactUsAlert"), { ssr: false });
+const Cursor = dynamic(() => import("@/components/global/Cursor"), { ssr: false, loading: () => null });
+const ScrollToTopButton = dynamic(() => import("@/components/global/ScrollToTopButton"), { ssr: false, loading: () => null });
+const ContactUsAlert = dynamic(() => import("@/components/global/ContactUsAlert"), { ssr: false, loading: () => null });
 
 const GlobalLayout = ({ page }) => {
   // Sidebar states and ref:
@@ -177,8 +178,9 @@ const GlobalLayout = ({ page }) => {
     }
   };
   return (
-    <div
-      className="w-full transition relative  duration-700"
+    <LazyMotion features={domAnimation}>
+      <div
+        className="w-full transition relative  duration-700"
       style={{
         background: palette?.background,
         color: palette?.color,
@@ -427,7 +429,8 @@ const GlobalLayout = ({ page }) => {
         <Footer />
         {/* <FixedSocials /> */}
       </div>
-    </div>
+      </div>
+    </LazyMotion>
   );
 };
 

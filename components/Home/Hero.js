@@ -3,7 +3,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 import { MdArrowOutward } from "react-icons/md";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Image from "next/image";
 
 const img = [

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { TbWorldWww } from "react-icons/tb";
 import { MdOutlineMobileFriendly } from "react-icons/md";
 import { FaCheck } from "react-icons/fa";

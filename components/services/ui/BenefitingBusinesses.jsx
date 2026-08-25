@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";

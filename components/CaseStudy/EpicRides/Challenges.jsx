@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef, useEffect } from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 
 const CardItem = ({ card, index }) => {

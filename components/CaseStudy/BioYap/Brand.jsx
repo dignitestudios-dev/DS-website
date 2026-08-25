@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import {motion} from "framer-motion"
+import {m as motion} from "framer-motion"
 const Brand = () => {
   return (
    <section className="w-full py-12 relative z-50">

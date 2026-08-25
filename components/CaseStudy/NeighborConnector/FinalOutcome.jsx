@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 
 const finalImages = [
   { id: 1, image: "/neighbor/s1.webp", alt: "Final UI 1" },

@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 import React from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 

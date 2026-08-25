@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { FaCheck, FaStar } from "react-icons/fa";
 
 const TABLE_DATA = {

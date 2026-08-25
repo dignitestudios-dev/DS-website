@@ -4,7 +4,7 @@ import React, { useContext, useState } from "react";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import { GlobalContext } from "@/context/GlobalContext";
 import Script from "next/script";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m as motion } from "framer-motion";
 
 
 const faqs = [

@@ -6,7 +6,7 @@ import { GlobalContext } from "@/context/GlobalContext";
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
-import { motion, AnimatePresence } from "framer-motion";
+import { m as motion, AnimatePresence } from "framer-motion";
 
 const Footer = () => {
   const { palette } = useContext(GlobalContext);

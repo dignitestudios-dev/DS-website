@@ -1,6 +1,6 @@
 "use client";
 import React, { useContext, useState, useRef } from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { GlobalContext } from "@/context/GlobalContext";

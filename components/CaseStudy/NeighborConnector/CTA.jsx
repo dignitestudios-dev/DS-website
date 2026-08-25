@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { HiOutlineArrowRight } from "react-icons/hi";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import Link from "next/link";
 
 const CTA = () => {

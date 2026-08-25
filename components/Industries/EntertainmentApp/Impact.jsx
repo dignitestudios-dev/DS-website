@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect } from "react";
-import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
+import { m as motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 const stats = [
   {

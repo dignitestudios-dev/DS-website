@@ -1,7 +1,7 @@
 "use client";
 import { GlobalContext } from "@/context/GlobalContext";
 import React, { useContext } from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { staggerContainer, bgVariant } from "@/lib/motion";
 import VerticalTimeline from "./VerticalTimeline";
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, PanInfo, useScroll, useTransform } from "framer-motion";
+import { m as motion, PanInfo, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { useRef, useState } from "react";
 import {

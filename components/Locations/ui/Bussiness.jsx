@@ -2,7 +2,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { MdArrowOutward } from "react-icons/md";
 import Image from "next/image";
 const bs = [
