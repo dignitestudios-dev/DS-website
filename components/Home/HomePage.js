@@ -14,19 +14,20 @@ const MobileAppServices = dynamic(() => import("@/components/Home/MobileAppServi
 
 // Below the fold stays client-only: it keeps their JS off the critical path.
 
-const SuccessStories = dynamic(() => import("./SuccessStories"), { ssr: false });
-const Bussiness = dynamic(() => import("./Bussiness"), { ssr: false });
-const Process = dynamic(() => import("./Process"), { ssr: false });
-const Industries = dynamic(() => import("./Industries"), { ssr: false });
-const TechTools = dynamic(() => import("./TechTools"), { ssr: false });
-const Impact = dynamic(() => import("./Impact"), { ssr: false });
-const Testimonials = dynamic(() => import("./Testimonials"), { ssr: false });
-const ProductDesign = dynamic(() => import("./ProductDesign"), { ssr: false });
-const GlobalPresence = dynamic(() => import("./GlobalPresence"), { ssr: false });
-const Faq = dynamic(() => import("@/components/Home/Faq"), { ssr: false });
-const ContactUs = dynamic(() => import("./ContactUs"), { ssr: false });
-
 const LoadingFallback = () => <div className="w-full min-h-[400px]" />;
+
+const SuccessStories = dynamic(() => import("./SuccessStories"), { ssr: false, loading: LoadingFallback });
+const Bussiness = dynamic(() => import("./Bussiness"), { ssr: false, loading: LoadingFallback });
+const Process = dynamic(() => import("./Process"), { ssr: false, loading: LoadingFallback });
+const Industries = dynamic(() => import("./Industries"), { ssr: false, loading: LoadingFallback });
+const TechTools = dynamic(() => import("./TechTools"), { ssr: false, loading: LoadingFallback });
+const Impact = dynamic(() => import("./Impact"), { ssr: false, loading: LoadingFallback });
+const Testimonials = dynamic(() => import("./Testimonials"), { ssr: false, loading: LoadingFallback });
+const ProductDesign = dynamic(() => import("./ProductDesign"), { ssr: false, loading: LoadingFallback });
+const GlobalPresence = dynamic(() => import("./GlobalPresence"), { ssr: false, loading: LoadingFallback });
+const Faq = dynamic(() => import("@/components/Home/Faq"), { ssr: false, loading: LoadingFallback });
+const ContactUs = dynamic(() => import("./ContactUs"), { ssr: false, loading: LoadingFallback });
+
 
 export default function HomePage() {
   const { palette, theme } = useContext(GlobalContext);

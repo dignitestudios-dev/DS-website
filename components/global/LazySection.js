@@ -9,7 +9,7 @@ export default function LazySection({ children, minHeight = 400 }) {
   });
 
   return (
-    <div ref={ref} style={{ minHeight: inView ? "auto" : minHeight, width: "100%" }}>
+    <div ref={ref} style={{ minHeight: minHeight, width: "100%" }}>
       {inView ? children : null}
     </div>
   );

@@ -22,11 +22,10 @@ import {
   SiWebflow,
   SiBigcommerce,
   SiSquarespace,
-  SiMicrosoft,
   SiGooglecloud,
   SiDigitalocean,
 } from "react-icons/si";
-import { FaJava, FaAws } from "react-icons/fa";
+import { FaJava, FaAws, FaMicrosoft } from "react-icons/fa";
 import { RiCloudLine } from "react-icons/ri";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
@@ -165,7 +164,7 @@ const techData = {
     },
     {
       name: "Azure",
-      icon: <SiMicrosoft />,
+      icon: <FaMicrosoft />,
       description:
         "Enterprise-ready cloud with strong security and integration.",
     },

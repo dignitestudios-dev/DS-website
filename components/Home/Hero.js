@@ -22,7 +22,7 @@ const img = [
 const Hero = () => {
   return (
     <div
-      className="w-full relative z-10 -mt-40 -mb-40 max-w-screen-2xl mx-auto flex flex-col h-auto md:max-h-[170vh] pt-44 pb-[50%] md:pb-[40vh] gap-4 justify-start items-center overflow-hidden"
+      className="w-full relative z-10 -mt-40 -mb-40 max-w-screen-2xl mx-auto flex flex-col h-auto md:max-h-[170vh] pt-44 pb-[50vh] md:pb-[40vh] gap-4 justify-start items-center overflow-hidden"
       style={{ background: "#0A0A0A" }}
     >
       {/* ── Gradient glow layers ── */}
@@ -177,7 +177,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full lg:w-[70%] overflow-hidden mx-auto relative lg:top-10 z-50">
+      <div className="w-full lg:w-[70%] overflow-hidden mx-auto relative lg:top-10 z-50 min-h-[128px]">
         <Marquee loop={0} className="py-8 overflow-hidden">
           {img.map((item, index) => (
             <div

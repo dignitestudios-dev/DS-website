@@ -188,7 +188,9 @@ const GlobalLayout = ({ page }) => {
       <ScrollToTopButton />
       <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
       <div className="w-full h-auto  flex flex-col justify-start items-center">
-        <Navbar setIsOpen={setIsSidebarOpen} />
+        <div className="w-full min-h-[80px]">
+          <Navbar setIsOpen={setIsSidebarOpen} />
+        </div>
         <div className="pt-20" />
         <div
           onClick={handleCloseModal}
