@@ -12,7 +12,7 @@ import { usePathname } from "next/navigation";
 import useDeviceType from "@/components/global/DeviceTypeFunction";
 import Link from "next/link";
 import Image from "next/image";
-import { LazyMotion, domAnimation } from "framer-motion";
+import { LazyMotion, domMax } from "framer-motion";
 
 const Navbar = dynamic(() => import("@/components/global/Navbar"), { ssr: true });
 const Sidebar = dynamic(() => import("@/components/global/Sidebar"), { ssr: false, loading: () => null });
@@ -178,7 +178,7 @@ const GlobalLayout = ({ page }) => {
     }
   };
   return (
-    <LazyMotion features={domAnimation}>
+    <LazyMotion features={domMax}>
       <div
         className="w-full transition relative  duration-700"
       style={{

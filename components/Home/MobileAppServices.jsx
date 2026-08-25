@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { m as motion, LazyMotion, domAnimation } from "framer-motion";
+import { m as motion, LazyMotion, domMax } from "framer-motion";
 
 const MotionImage = motion(Image);
 const services = [
@@ -50,7 +50,7 @@ const services = [
 
 const MobileAppServices = () => {
   return (
-    <LazyMotion features={domAnimation}>
+    <LazyMotion features={domMax}>
       <section className="w-full pt-20 px-4 -mt-20 md:-mt-28 md:px-12 lg:px-28 xl:px-[120px] 2xl:px-48 bg-white dark:bg-black rounded-t-[4rem] relative z-40 ">
         <div className="text-center max-w-7xl mx-auto mb-20 pt-8">
           <h2 className="text-4xl md:text-[48px] font-bold  mb-6 text-black dark:text-white leading-[1.1] tracking-tighter">

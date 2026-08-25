@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { GlobalContextProvider } from "@/context/GlobalContext";
 import Script from "next/script";
+import MotionProvider from "@/components/global/MotionProvider";
 import DisplayIp from "@/components/global/DisplayIp";
 import AOSInit from "@/components/global/AosInit";
 
@@ -87,7 +88,7 @@ export default function RootLayout({ children }) {
         />
         
         <AOSInit />
-        <GlobalContextProvider><main id="main-content">{children}</main></GlobalContextProvider>
+        <GlobalContextProvider><MotionProvider><main id="main-content">{children}</main></MotionProvider></GlobalContextProvider>
         
         <Script
           id="tawk-chat"
