@@ -13,10 +13,13 @@ import useDeviceType from "@/components/global/DeviceTypeFunction";
 import Link from "next/link";
 import Image from "next/image";
 import { LazyMotion, domMax } from "framer-motion";
+// Static, NOT dynamic(): both are always rendered and server-rendered, so
+// dynamic() only added a chunk round-trip during which React rendered nothing —
+// the navbar visibly disappeared and reappeared once its chunk landed.
+import Navbar from "@/components/global/Navbar";
+import Footer from "@/components/Home/Footer";
 
-const Navbar = dynamic(() => import("@/components/global/Navbar"), { ssr: true });
 const Sidebar = dynamic(() => import("@/components/global/Sidebar"), { ssr: false, loading: () => null });
-const Footer = dynamic(() => import("@/components/Home/Footer"), { ssr: true });
 const Cursor = dynamic(() => import("@/components/global/Cursor"), { ssr: false, loading: () => null });
 const ScrollToTopButton = dynamic(() => import("@/components/global/ScrollToTopButton"), { ssr: false, loading: () => null });
 const ContactUsAlert = dynamic(() => import("@/components/global/ContactUsAlert"), { ssr: false, loading: () => null });
