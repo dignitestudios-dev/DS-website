@@ -4,13 +4,17 @@ import { useContext, useEffect } from "react";
 import dynamic from "next/dynamic";
 import LazySection from "@/components/global/LazySection";
 
-// Above the fold: server-rendered on purpose. With `ssr: false` the <h1> only
+// Above the fold: statically imported, NOT dynamic(). They are server-rendered,
+// but dynamic() left React with nothing to render during hydration until their
+// chunk arrived, so the hero collapsed and reappeared — one 0.703 layout shift.
+// The old 1 MB shared chunk hid this by having everything loaded already.
+// Original note: With `ssr: false` the <h1> only
 // existed once JS had run, which is what pushed LCP's render delay to 2.3s and
 // caused the layout shift as the placeholder was replaced. These two render
 // identically either way — neither touches window/document, and the heading is
 // not inside an animated wrapper, so the markup is the same, just earlier.
-const Hero = dynamic(() => import("@/components/Home/Hero"));
-const MobileAppServices = dynamic(() => import("@/components/Home/MobileAppServices"));
+import Hero from "@/components/Home/Hero";
+import MobileAppServices from "@/components/Home/MobileAppServices";
 
 // Below the fold stays client-only: it keeps their JS off the critical path.
 

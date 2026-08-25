@@ -35,57 +35,12 @@ const nextConfig = {
   generateBuildId: async () => {
     return 'build-' + Date.now();
   },
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.optimization.splitChunks = {
-        chunks: 'all',
-        cacheGroups: {
-          default: false,
-          vendors: false,
-          framework: {
-            name: 'framework',
-            chunks: 'all',
-            test: /[\\/]node_modules[\\/](react|react-dom|scheduler|prop-types|use-subscription)[\\/]/,
-            priority: 40,
-            enforce: true,
-          },
-          lib: {
-            test: /[\\/]node_modules[\\/]/,
-            name(module) {
-              const packageName = module.context.match(
-                /[\\/]node_modules[\\/](.*?)(?:[\\/]|$)/
-              )?.[1];
-              return `npm.${packageName?.replace('@', '')}`;
-            },
-            priority: 30,
-            minChunks: 1,
-            reuseExistingChunk: true,
-          },
-          commons: {
-            name: 'commons',
-            minChunks: 2,
-            priority: 20,
-          },
-          shared: {
-            name: 'shared',
-            minChunks: 2,
-            priority: 10,
-            reuseExistingChunk: true,
-            enforce: true,
-          },
-          // Lazy-loaded components
-          lazy: {
-            name: 'lazy',
-            test: /[\\/](components|pages)[\\/]/,
-            chunks: 'async',
-            priority: 15,
-            reuseExistingChunk: true,
-          },
-        },
-      };
-    }
-    return config;
-  },
+  // NOTE: the custom splitChunks override was removed here. Its `commons`
+  // group used minChunks:2 with no `chunks: "async"`, so every module shared by
+  // two others — including the lazily-loaded homepage sections — was hoisted
+  // into a single eagerly-loaded chunk. That chunk reached 1 MB uncompressed
+  // and was 91% unused on the homepage, which defeated the dynamic imports.
+  // Next's default chunking keeps async boundaries intact.
 };
 
 module.exports = nextConfig;
