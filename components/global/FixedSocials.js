@@ -17,6 +17,7 @@ const FixedSocials = () => {
     >
       <Link aria-label="button"
         target="_blank"
+        rel="noopener noreferrer"
         href="https://www.facebook.com/dignitestudios"
         className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition duration-150 hover:opacity-80"
       >
@@ -30,6 +31,7 @@ const FixedSocials = () => {
       </a>
       <Link aria-label="button"
         target="_blank"
+        rel="noopener noreferrer"
         href="https://www.linkedin.com/company/dignitestudios/"
         className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition duration-150 hover:opacity-80"
       >
@@ -37,6 +39,7 @@ const FixedSocials = () => {
       </Link>
       <Link aria-label="button"
         target="_blank"
+        rel="noopener noreferrer"
         href="https://www.instagram.com/dignitestudios?igsh=MWc3NDBkazFuaTlkbQ=="
         className="w-9 h-9 rounded-full flex items-center justify-center bg-[#5C5C5C] transition duration-150 hover:opacity-80"
       >
