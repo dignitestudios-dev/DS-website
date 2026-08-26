@@ -35,7 +35,7 @@ const Hero = () => {
               alt="App Store"
               className="h-12 cursor-pointer"
             /> */}
-              <Link href={"https://crew-roomz-lister-web.vercel.app/"} target="_blank" >
+              <Link href={"https://crew-roomz-lister-web.vercel.app/"} target="_blank" rel="noopener noreferrer" >
                          <button className="text-white flex items-center bg-black px-6 text-xl py-2 rounded-lg gap-2" > <IoGlobeOutline /> Website </button>
                       </Link>
 

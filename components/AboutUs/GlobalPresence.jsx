@@ -107,8 +107,7 @@ const GlobalPresence = () => {
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-20 animate-fadeIn">
                     <a 
                       href={location.mapUrl} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
+                      target="_blank" rel="noopener noreferrer"
                       className="bg-white text-orange-500 text-xs h-20 w-20 text-center flex items-center justify-center rounded-full font-semibold shadow-lg hover:bg-orange-500 hover:text-white transition duration-300 hover:scale-110"
                     >
                       VIEW LOCATION

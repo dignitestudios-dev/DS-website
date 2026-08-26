@@ -36,12 +36,12 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 mb-16">
-          <Link href="https://apps.apple.com/us/app/frame-the-world/id6762137371" target="_blank" className="flex items-center justify-center gap-3 px-6 py-4 w-[254px] rounded-2xl border border-blue-500 bg-[#4285F4] hover:bg-[#3367d6] transition-colors shadow-lg shadow-blue-500/20">
+          <Link href="https://apps.apple.com/us/app/frame-the-world/id6762137371" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 px-6 py-4 w-[254px] rounded-2xl border border-blue-500 bg-[#4285F4] hover:bg-[#3367d6] transition-colors shadow-lg shadow-blue-500/20">
             <FaApple className="text-white text-2xl" />
             <span className="text-white font-medium text-[14px]">Download for iPhone</span>
           </Link>
           
-          <Link href="https://play.google.com/store/apps/details?id=com.dignitestudios.frametheworld" target="_blank" className="flex items-center justify-center gap-3 px-6 py-4 w-[254px] rounded-2xl border border-[#0A0A0A] bg-[#65CB11] hover:bg-[#5bb410] transition-colors shadow-lg shadow-[#65CB11]/20">
+          <Link href="https://play.google.com/store/apps/details?id=com.dignitestudios.frametheworld" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 px-6 py-4 w-[254px] rounded-2xl border border-[#0A0A0A] bg-[#65CB11] hover:bg-[#5bb410] transition-colors shadow-lg shadow-[#65CB11]/20">
             <FaGooglePlay className="text-[#0A0A0A] text-2xl" />
             <span className="text-[#0A0A0A] font-medium text-[14px]">Download for Android</span>
           </Link>

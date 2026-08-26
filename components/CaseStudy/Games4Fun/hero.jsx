@@ -35,7 +35,7 @@ const Hero = () => {
               alt="App Store"
               className="h-12 cursor-pointer"
             /> */}
-            <Link href={"https://game4funpcs.com"} target="_blank" >
+            <Link href={"https://game4funpcs.com"} target="_blank" rel="noopener noreferrer" >
             {/* <img src="/website_btn.webp" alt="web link"   className="h-12 cursor-pointer"  /> */}
             <button className="text-white flex items-center bg-black px-6 text-xl py-2 rounded-lg gap-2" > <IoGlobeOutline /> Website </button>
           </Link></div>

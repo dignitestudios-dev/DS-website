@@ -586,19 +586,19 @@ const PrivacyPolicyPage = () => {
         <ul className="ml-4 list-disc flex flex-col gap-y-2">
           <li>
             Via Email:{" "}
-            <Link href={"mailto:info@dignitestudios.com"} target="_blank">
+            <Link href={"mailto:info@dignitestudios.com"} target="_blank" rel="noopener noreferrer">
               info@dignitestudios.com
             </Link>
           </li>
           <li>
             Via Phone Number:{" "}
-            <Link href={"tel:877-714-1770"} target="_blank">
+            <Link href={"tel:877-714-1770"} target="_blank" rel="noopener noreferrer">
               877-714-1770
             </Link>
           </li>
           <li>
             Via this Link:{" "}
-            <Link href={"https://dignitestudios.com/"} target="_blank">
+            <Link href={"https://dignitestudios.com/"} target="_blank" rel="noopener noreferrer">
               https://dignitestudios.com/
             </Link>
           </li>

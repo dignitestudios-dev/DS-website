@@ -39,7 +39,7 @@ const Hero = () => {
         </p>
 
         <div className="flex  items-center   gap-2 mb-16 mx-4">
-          <Link href="https://play.google.com/store/apps/details?id=com.cts.neighbour_connector" target="_blank" className="flex items-center justify-center gap-3  py-3 w-[160px] lg:w-[180px] rounded-[10px] bg-[#151515] hover:scale-105 transition-transform">
+          <Link href="https://play.google.com/store/apps/details?id=com.cts.neighbour_connector" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3  py-3 w-[160px] lg:w-[180px] rounded-[10px] bg-[#151515] hover:scale-105 transition-transform">
             <FaGooglePlay className="text-white text-xl" />
             <div className="flex flex-col items-start">
               <span className="text-white/60 text-[8px] uppercase leading-none">Get it on</span>
@@ -48,7 +48,7 @@ const Hero = () => {
           </Link>
 
           <Link href="https://apps.apple.com/us/app/neighbor-connector/id6759636423"
-            target="_blank" className="flex items-center justify-center gap-3 py-3 w-[160px] lg:w-[180px] rounded-[10px] bg-[#151515] hover:scale-105 transition-transform">
+            target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 py-3 w-[160px] lg:w-[180px] rounded-[10px] bg-[#151515] hover:scale-105 transition-transform">
             <FaApple className="text-white text-2xl" />
             <div className="flex flex-col items-start">
               <span className="text-white/60 text-[8px] uppercase leading-none">Download on the</span>

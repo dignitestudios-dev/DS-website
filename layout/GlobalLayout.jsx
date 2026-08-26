@@ -36,7 +36,6 @@ const GlobalLayout = ({ page }) => {
   const [showModal, setShowModal] = useState(false);
   const [counter, setCounter] = useState(0);
   const pathname = usePathname();
-  console.log("pathname >> ", pathname);
   const deviceType = useDeviceType();
 
   useEffect(() => {

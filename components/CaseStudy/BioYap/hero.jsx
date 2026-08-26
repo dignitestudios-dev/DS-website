@@ -18,14 +18,14 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center relative z-50 gap-4">
-            <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.bioyapp"} target="_blank" >
+            <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.bioyapp"} target="_blank" rel="noopener noreferrer" >
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
               alt="Google Play"
               className="h-12 cursor-pointer"
             />
             </Link>
-            <Link href={"https://apps.apple.com/us/app/bioyap/id6739360373"} target="_blank" >
+            <Link href={"https://apps.apple.com/us/app/bioyap/id6739360373"} target="_blank" rel="noopener noreferrer" >
             <img
               src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
               alt="App Store"

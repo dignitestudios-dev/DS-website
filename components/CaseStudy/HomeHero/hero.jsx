@@ -37,14 +37,14 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center gap-4">
-            <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.homeheroservice&pli=1"}  target="_blank" >
+            <Link href={"https://play.google.com/store/apps/details?id=com.dignitestudios.homeheroservice&pli=1"}  target="_blank" rel="noopener noreferrer" >
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
               alt="Google Play"
               className="h-12 cursor-pointer"
             />
             </Link>
-            <Link target="_blank"  href={"https://apps.apple.com/us/app/home-hero-provider/id6746242679"}>
+            <Link target="_blank" rel="noopener noreferrer"  href={"https://apps.apple.com/us/app/home-hero-provider/id6746242679"}>
             <img
               src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
               alt="App Store"
