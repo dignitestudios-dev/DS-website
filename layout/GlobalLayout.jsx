@@ -184,8 +184,8 @@ const GlobalLayout = ({ page }) => {
       <div
         className="w-full transition relative  duration-700"
       style={{
-        background: pathname === "/" ? "#0A0A0A" : palette?.background,
-        color: pathname === "/" ? "#fff" : palette?.color,
+        background: palette?.background,
+        color: palette?.color,
       }}
     >
       <Cursor />
