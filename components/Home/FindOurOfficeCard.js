@@ -7,7 +7,7 @@ import React, { useState } from "react";
 const FindOurOfficeCard = ({ office }) => {
   const [image, setImage] = useState(office?.image);
   return (
-    <Link prefetch={false}
+    <Link
       href={office?.link}
       onMouseOver={() => setImage(office?.full_image)}
       onMouseOut={() => setImage(office?.image)}

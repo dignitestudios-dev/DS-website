@@ -156,19 +156,19 @@ const Hero = () => {
         </h1>
         <p className="text-[16px] md:text-[20px]">
           We design custom mobile apps at our{" "}
-          <Link prefetch={false} href="/services/mobile-app-development" className="text-[#F15C20]">
+          <Link href="/services/mobile-app-development" className="text-[#F15C20]">
             mobile app development company
           </Link>{" "}
           for businesses that want to launch new products or simply just want to improve their customer’s experience. We create smooth user experiences by handling every phase seamlessly.
         </p>
         <div className="flex items-center group justify-start pt-4">
-          <Link prefetch={false}
+          <Link
             href="/contact-us"
             className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white text-sm px-7 h-14 flex justify-center items-center py-3 rounded-full transition-colors"
           >
             Let's Discuss Your Idea
           </Link>
-          <Link prefetch={false}
+          <Link
             href="/contact-us"
             aria-label="Contact Us"
             className="bg-[#F15C20] group-hover:bg-white group-hover:text-[#F15C20] text-white w-14 h-14 rounded-full flex items-center justify-center transition-colors text-2xl border-l border-white/20"

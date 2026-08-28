@@ -194,7 +194,7 @@ const Testimonials = ({ header, header2, para, test: customTest }) => {
                 className="!flex !justify-center !items-center py-10"
               >
                 {({ isActive }) => (
-                  <Link prefetch={false} href={item.link || "#"} target="_blank" rel="noopener noreferrer" className="block w-auto h-auto cursor-pointer focus:outline-none">
+                  <Link href={item.link || "#"} target="_blank" rel="noopener noreferrer" className="block w-auto h-auto cursor-pointer focus:outline-none">
                     <div
                       className={`relative w-[258px] h-[295px] group rounded-[30px] shadow-2xl transition duration-500 ease-in-out ${isActive
                         ? "scale-110 z-30 opacity-100 "

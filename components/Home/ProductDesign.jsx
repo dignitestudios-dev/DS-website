@@ -49,32 +49,20 @@ const ProductDesign = () => {
         </div>
 
         {loading ? (
-          <div
-            role="status"
-            aria-live="polite"
-            className="grid grid-cols-1 lg:grid-cols-12 gap-10 animate-pulse"
-          >
-            <span className="sr-only">Loading insights</span>
-            <div className="lg:col-span-5 h-full">
-              <BlogCardSkeleton isFeatured />
-            </div>
-            <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12 mt-12 lg:mt-0">
-              {Array.from({ length: 4 }).map((_, i) => (
-                <BlogCardSkeleton key={i} />
-              ))}
-            </div>
+          <div className="flex justify-center items-center h-64 text-white">
+            <p>Loading insights...</p>
           </div>
         ) : insights.length > 0 ? (
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
             <div className="lg:col-span-5 h-full">
-              <Link prefetch={false} href={insights[0].url}>
+              <Link href={insights[0].url}>
                 <BlogCard post={insights[0]} isFeatured />
               </Link>
             </div>
 
             <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12 mt-12 lg:mt-0">
               {insights.slice(1).map((post) => (
-                <Link prefetch={false} key={post.id || post.slug} href={post.url}>
+                <Link key={post.id || post.slug} href={post.url}>
                   <BlogCard post={post} />
                 </Link>
               ))}
@@ -116,41 +104,6 @@ const ProductDesign = () => {
         )} */}
       </div>
     </section>
-  );
-};
-
-// Mirrors BlogCard's structure and spacing exactly (same aspect-video image
-// box, same mt-8/mt-5 offsets, same pt-8/pt-4 footer) so swapping the real
-// cards in causes no layout shift.
-const BlogCardSkeleton = ({ isFeatured }) => {
-  return (
-    <div className={`flex flex-col ${isFeatured ? "h-full" : ""}`} aria-hidden="true">
-      <div className="relative overflow-hidden rounded-3xl aspect-video w-full bg-white/10" />
-
-      <div className={`flex flex-col flex-grow ${isFeatured ? "mt-8" : "mt-5"}`}>
-        <div
-          className={`${isFeatured ? "h-7 md:h-9" : "h-5 md:h-6"} w-11/12 rounded-lg bg-white/10`}
-        />
-        <div
-          className={`${isFeatured ? "h-7 md:h-9 mt-3" : "h-5 md:h-6 mt-2"} w-3/5 rounded-lg bg-white/10`}
-        />
-
-        {isFeatured && (
-          <div className="mt-4 flex flex-col gap-3">
-            <div className="h-4 w-full rounded bg-white/10" />
-            <div className="h-4 w-full rounded bg-white/10" />
-            <div className="h-4 w-4/5 rounded bg-white/10" />
-          </div>
-        )}
-
-        <div
-          className={`flex items-center gap-2 mt-auto ${isFeatured ? "pt-8" : "pt-4"}`}
-        >
-          <div className="h-4 w-4 rounded-full bg-white/10" />
-          <div className="h-4 w-24 rounded bg-white/10" />
-        </div>
-      </div>
-    </div>
   );
 };
 

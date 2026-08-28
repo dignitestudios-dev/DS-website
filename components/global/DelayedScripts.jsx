@@ -2,20 +2,13 @@
 
 import { useEffect, useState } from "react";
 import Script from "next/script";
-import { usePathname } from "next/navigation";
 
 export default function DelayedScripts() {
   const [loadScripts, setLoadScripts] = useState(false);
-  const pathname = usePathname();
 
   useEffect(() => {
     let timeoutId;
     
-    // Do not load for bots/Lighthouse to prevent tracking API errors in audits
-    if (typeof window !== "undefined" && /bot|googlebot|crawler|spider|robot|crawling|lighthouse/i.test(navigator.userAgent)) {
-      return;
-    }
-
     const handleInteraction = () => {
       setLoadScripts(true);
       cleanup();
@@ -87,21 +80,23 @@ export default function DelayedScripts() {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-0GWJVWYEKD');
-          ${pathname === "/" ? "gtag('config', 'G-YM0SJM65C3');" : ""}`,
+          gtag('config', 'G-0GWJVWYEKD');`,
         }}
       />
       <Script
-        id="tawk-chat-init"
+        id="tawk-chat"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
-          __html: `var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();`,
+          __html: `
+          var Tawk_API=Tawk_API||{ }, Tawk_LoadStart=new Date();
+          (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/664045f907f59932ab3e9a21/1htlh2m2o';
+            s1.charset='UTF-8';
+            s0.parentNode.insertBefore(s1,s0);
+          })();`,
         }}
-      />
-      <Script
-        id="tawk-chat-src"
-        strategy="afterInteractive"
-        src="https://embed.tawk.to/664045f907f59932ab3e9a21/1htlh2m2o"
       />
     </>
   );

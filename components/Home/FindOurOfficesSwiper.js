@@ -38,7 +38,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
     <div className="w-full flex lg:hidden">
       <Swiper {...sliderSettings} modules={[Autoplay]} className="w-full">
         <SwiperSlide className="w-full h-60 md:h-80 ">
-          <Link prefetch={false}
+          <Link
             href="https://www.google.com/maps/place//@25.099730,55.156910,15z/data=!3m1!4b1?entry=ttu"
             className="w-full h-full relative z-10"
           >
@@ -60,7 +60,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
           </Link>
         </SwiperSlide>
         <SwiperSlide className="w-full h-60  md:h-80 ">
-          <Link prefetch={false}
+          <Link
             href="https://www.google.com/maps/place//@28.599880,-81.221460,15z/data=!3m1!4b1?entry=ttu"
             className="w-full h-full relative z-10"
           >
@@ -82,7 +82,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
           </Link>
         </SwiperSlide>
         <SwiperSlide className="w-full  h-60  md:h-80 ">
-          <Link prefetch={false}
+          <Link
             href="https://www.google.com/maps/place//@24.859775,67.052421,15z/data=!3m1!4b1?entry=ttu"
             className="w-full h-full relative z-10"
           >
@@ -104,7 +104,7 @@ const FindOurOfficesSwiper = ({ offices }) => {
           </Link>
         </SwiperSlide>
         <SwiperSlide className="w-full  h-60  md:h-80 ">
-          <Link prefetch={false}
+          <Link
             href="https://www.google.com/maps/place//@42.849390,-106.329070,15z/data=!3m1!4b1?entry=ttu"
             className="w-full h-full relative z-10"
           >

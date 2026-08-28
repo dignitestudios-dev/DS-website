@@ -207,7 +207,7 @@ const Industries = ({ header, header2, para }) => {
                         : "w-[0] rounded-l-full"
                     }`}
                   ></div>
-                  <Link prefetch={false}
+                  <Link
                     href={getIndustryRoute(value?.title)}
                     className="w-full"
                   >

@@ -48,7 +48,7 @@ export default function HomePage() {
 
   return (
     <>
-      <div className="w-full max-w-screen-2xl mx-auto h-auto flex flex-col items-center justify-center gap-28 md:gap-40 pb-20" style={{ overflowAnchor: 'none' }}>
+      <div className="w-full max-w-screen-2xl mx-auto h-auto flex flex-col items-center justify-center gap-20 md:gap-28 pb-20" style={{ overflowAnchor: 'none' }}>
         <Hero />
         <MobileAppServices />
         <LazySection minHeight={600}>

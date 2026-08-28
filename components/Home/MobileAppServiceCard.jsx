@@ -80,7 +80,7 @@ const MobileAppServiceCard = () => {
       Mobile application development is a fast-paced emerging field of new
       trends and the latest deployment strategies to boost business in the
       digital world. Whereas, our{" "}
-      <Link prefetch={false} href="/services/mobile-app-development" className="text-orange-600">
+      <Link href="/services/mobile-app-development" className="text-orange-600">
         mobile app development services
       </Link>{" "}
       produce different types of mobile applications such as basic apps, complex
@@ -105,7 +105,7 @@ const MobileAppServiceCard = () => {
       are willing to pay more for the apps via the Apple App Store. With those
       concerns, our highly skillful mobile app development body uses integrated
       Apple Xcode to test, build, and package apps. Whereas,{" "}
-      <Link prefetch={false}
+      <Link
         href="/services/ios-app-development"
         className="text-orange-600"
       >
@@ -124,7 +124,7 @@ const MobileAppServiceCard = () => {
   const paragraphFull3 = (
     <>
       Are you looking for an{" "}
-      <Link prefetch={false}
+      <Link
         href="/services/android-app-development"
         className="text-orange-600"
       >
@@ -147,7 +147,7 @@ const MobileAppServiceCard = () => {
   const paragraphFull4 = (
     <>
       Are you worried about your{" "}
-      <Link prefetch={false} href="/services/web-app-development" className="text-orange-600">
+      <Link href="/services/web-app-development" className="text-orange-600">
         web app development services
       </Link>{" "}
       ? No need to, our valuable and reliable web application team can help you
@@ -169,7 +169,7 @@ const MobileAppServiceCard = () => {
       skillful and dedicated team can make your mobile applications flawless and
       innovative UI/UX design to create engaging visual elements in mobile
       applications. Therefore, we assure the best{" "}
-      <Link prefetch={false}
+      <Link
         href="/services/mobile-app-development"
         className="text-orange-600"
       >
@@ -191,7 +191,7 @@ const MobileAppServiceCard = () => {
       your performance anytime. And if you ignore rigorous testing it can damage
       your credibility and worthiness. So, to ensure its quality, functionality,
       performance, usability, compatibility, and security, your app developer of{" "}
-      <Link prefetch={false}
+      <Link
         href="/services/mobile-app-testing-services"
         className="text-orange-600"
       >
@@ -222,7 +222,7 @@ const MobileAppServiceCard = () => {
       monetization, security, and privacy. However, it needs to be evaluated
       foremost from a better platform. So, at the door of Dignite Studios, you
       can avail the best{" "}
-      <Link prefetch={false}
+      <Link
         href="/services/mobile-app-consultation"
         className="text-orange-600"
       >
@@ -249,7 +249,7 @@ const MobileAppServiceCard = () => {
       bug fixing, troubleshooting, performance monitoring, security updates,
       feature enhancement, upgrade versions, and compatibility testing.
       Therefore,{" "}
-      <Link prefetch={false}
+      <Link
         className="text-orange-600"
         href={"/services/mobile-application-support-and-maintenance-services"}
       >
@@ -274,7 +274,7 @@ const MobileAppServiceCard = () => {
       constructively. Our mobile app company can save you time and money to
       accomplish your project instantly. The mobile application development
       process plays a notable role in acquiring business needs.{" "}
-      <Link prefetch={false}
+      <Link
         href={"/services/hire-mobile-application-developers"}
         className="text-orange-600"
       >
@@ -293,7 +293,7 @@ const MobileAppServiceCard = () => {
   const paragraphFull10 = (
     <>
       Our{" "}
-      <Link prefetch={false}
+      <Link
         href={"/services/ios-app-development"}
         className="text-orange-600"
       >
@@ -315,7 +315,7 @@ const MobileAppServiceCard = () => {
   const paragraphFull11 = (
     <>
       Here at Dignite Studios,{" "}
-      <Link prefetch={false}
+      <Link
         href={"/services/hire-ios-application-developers"}
         className="text-orange-600"
       >
@@ -339,7 +339,7 @@ const MobileAppServiceCard = () => {
       To maintain the efficacy of your mobile application, we furnish material
       design guidelines, shadow effects, bold colors, and unique layouts for
       your application. Also, our team of{" "}
-      <Link prefetch={false}
+      <Link
         href={"/services/android-app-development"}
         className="text-orange-600"
       >
@@ -360,7 +360,7 @@ const MobileAppServiceCard = () => {
     <>
       Do you want to expand your reach and generate more revenue through Android
       mobile apps? Here you are at the right place,{" "}
-      <Link prefetch={false}
+      <Link
         href={"/services/hire-android-application-developers"}
         className="text-orange-600"
       >
@@ -383,7 +383,7 @@ const MobileAppServiceCard = () => {
     <>
       We cater to specific mobile operating systems e.g. Apple, IO, S, and
       Android to produce native device features. Our skillful{" "}
-      <Link prefetch={false}
+      <Link
         href={"/services/native-app-development"}
         className="text-orange-600"
       >
@@ -405,7 +405,7 @@ const MobileAppServiceCard = () => {
       To expand your business and run a smooth architectural approach like the
       App Shell Model, our developers serve the best app service model to create
       the effectiveness of your application through{" "}
-      <Link prefetch={false}
+      <Link
         href={"/services/progressive-web-app-development"}
         className="text-orange-600"
       >
@@ -424,7 +424,7 @@ const MobileAppServiceCard = () => {
     <>
       We cater to specific mobile operating systems e.g. Apple, IO, S, and
       Android to produce native device features. Our skillful{" "}
-      <Link prefetch={false}
+      <Link
         href={"/services/native-app-development"}
         className="text-orange-600"
       >

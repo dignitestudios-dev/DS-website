@@ -186,7 +186,7 @@ const Footer = () => {
         {/* Sticky Logo Section - Mobile */}
         <div className="pt-5 z-30 bg-[#101010] py-6 -mx-6 px-6 border-b border-white/10">
           <div className="flex flex-col gap-4 items-center text-center">
-            <Link prefetch={false} href="/" aria-label="Home">
+            <Link href="/" aria-label="Home">
               <Image
                 src="/logo-dark.webp"
                 alt="Dignite Studios Logo"
@@ -199,7 +199,7 @@ const Footer = () => {
               Don't compromise on your app's success.{" "}
               <span className="text-[#F15C20]">Gain a competitive edge.</span>
             </p>
-            <Link prefetch={false} href={"/contact-us"} className="flex items-center pt-2">
+            <Link href={"/contact-us"} className="flex items-center pt-2">
               <button
                 type="button"
                 className="bg-[#F15C20] hover:bg-white hover:text-[#F15C20] text-white text-sm px-6 py-2.5 rounded-full transition-colors"
@@ -214,13 +214,13 @@ const Footer = () => {
               </button>
             </Link>
             <div className="flex flex-col items-center gap-1">
-              <Link prefetch={false}
+              <Link
                 href="mailto:info@dignitestudios.com"
                 className="text-white hover:text-[#F15C20] font-light text-xs transition"
               >
                 E : info@dignitestudios.com
               </Link>
-              <Link prefetch={false}
+              <Link
                 href="tel:+18777141770"
                 className="text-white hover:text-[#F15C20] text-xs transition"
               >
@@ -254,7 +254,7 @@ const Footer = () => {
                 >
                   {footerLinks.services.map((link, idx) => (
                     <li key={idx}>
-                      <Link prefetch={false}
+                      <Link
                         href={link.href}
                         className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
                       >
@@ -289,7 +289,7 @@ const Footer = () => {
                 >
                   {footerLinks.technology.map((link, idx) => (
                     <li key={idx}>
-                      <Link prefetch={false}
+                      <Link
                         href={link.href}
                         className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
                       >
@@ -324,7 +324,7 @@ const Footer = () => {
                 >
                   {footerLinks.ecommerce.map((link, idx) => (
                     <li key={idx}>
-                      <Link prefetch={false}
+                      <Link
                         href={link.href}
                         className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
                       >
@@ -359,7 +359,7 @@ const Footer = () => {
                 >
                   {footerLinks.quickLinks.map((link, idx) => (
                     <li key={idx}>
-                      <Link prefetch={false}
+                      <Link
                         href={link.href}
                         className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
                       >
@@ -394,7 +394,7 @@ const Footer = () => {
                 >
                   {footerLinks.support.map((link, idx) => (
                     <li key={idx}>
-                      <Link prefetch={false}
+                      <Link
                         href={link.href}
                         className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
                       >
@@ -429,7 +429,7 @@ const Footer = () => {
                 >
                   {footerLinks.location.map((link, idx) => (
                     <li key={idx}>
-                      <Link prefetch={false}
+                      <Link
                         href={link.href}
                         className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
                       >
@@ -464,7 +464,7 @@ const Footer = () => {
                 >
                   {footerLinks.industries.map((link, idx) => (
                     <li key={idx}>
-                      <Link prefetch={false}
+                      <Link
                         href={link.href}
                         className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
                       >
@@ -499,7 +499,7 @@ const Footer = () => {
                 >
                   {footerLinks.connect.map((link, idx) => (
                     <li key={idx}>
-                      <Link prefetch={false}
+                      <Link
                         href={link.href}
                         className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
                       >
@@ -530,7 +530,7 @@ const Footer = () => {
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-12 gap-x-8 gap-y-12 mb-16 relative z-10">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-3 flex flex-col z-30 py-6">
-            <Link prefetch={false} href="/" aria-label="Home">
+            <Link href="/" aria-label="Home">
               <Image
                 src="/logo-dark.webp"
                 alt="Dignite Studios Logo"
@@ -543,7 +543,7 @@ const Footer = () => {
               Don't compromise on your app's success.{" "}
               <span className="text-[#F15C20]">Gain a competitive edge.</span>
             </p>
-            <Link prefetch={false}
+            <Link
               href={"/contact-us"}
               className="flex items-center group w-fit py-4"
             >
@@ -585,7 +585,7 @@ const Footer = () => {
             <ul className="flex flex-col">
               {footerLinks.services.map((link, idx) => (
                 <li key={idx}>
-                  <Link prefetch={false}
+                  <Link
                     href={link.href}
                     className="text-white font-extralight hover:text-[#F15C20] text-[12px] transition-colors duration-200"
                   >
@@ -605,7 +605,7 @@ const Footer = () => {
               <ul className="flex flex-col">
                 {footerLinks.ecommerce.map((link, idx) => (
                   <li key={idx}>
-                    <Link prefetch={false}
+                    <Link
                       href={link.href}
                       className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
@@ -622,7 +622,7 @@ const Footer = () => {
               <ul className="flex flex-col">
                 {footerLinks.technology.map((link, idx) => (
                   <li key={idx}>
-                    <Link prefetch={false}
+                    <Link
                       href={link.href}
                       className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
@@ -643,7 +643,7 @@ const Footer = () => {
               <ul className="flex flex-col">
                 {footerLinks.location.map((link, idx) => (
                   <li key={idx}>
-                    <Link prefetch={false}
+                    <Link
                       href={link.href}
                       className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
@@ -662,7 +662,7 @@ const Footer = () => {
               <ul className="flex flex-col">
                 {footerLinks.industries.map((link, idx) => (
                   <li key={idx}>
-                    <Link prefetch={false}
+                    <Link
                       href={link.href}
                       className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
@@ -683,7 +683,7 @@ const Footer = () => {
               <ul className="flex flex-col">
                 {footerLinks.quickLinks.map((link, idx) => (
                   <li key={idx}>
-                    <Link prefetch={false}
+                    <Link
                       href={link.href}
                       className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
@@ -700,7 +700,7 @@ const Footer = () => {
               <ul className="flex flex-col">
                 {footerLinks.support.map((link, idx) => (
                   <li key={idx}>
-                    <Link prefetch={false}
+                    <Link
                       href={link.href}
                       className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
@@ -717,7 +717,7 @@ const Footer = () => {
               <ul className="flex flex-col">
                 {footerLinks.connect.map((link, idx) => (
                   <li key={idx}>
-                    <Link prefetch={false}
+                    <Link
                       href={link.href}
                       className="text-white font-extralight hover:text-[#F15C20] text-[11px] transition-colors duration-200"
                     >
