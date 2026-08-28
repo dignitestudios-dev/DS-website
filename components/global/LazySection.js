@@ -9,7 +9,12 @@ export default function LazySection({ children, minHeight = 400 }) {
   });
 
   return (
-    <div ref={ref} style={{ minHeight: minHeight, width: "100%" }}>
+    // minHeight only reserves space for the *placeholder*. Once the real
+    // content mounts it has to be released, or any section shorter than
+    // minHeight leaves dead space below it. The swap happens 300px before
+    // the section enters the viewport, so releasing it cannot shift
+    // anything already on screen.
+    <div ref={ref} style={{ minHeight: inView ? undefined : minHeight, width: "100%" }}>
       {inView ? children : null}
     </div>
   );

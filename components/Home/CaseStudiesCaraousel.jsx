@@ -130,7 +130,7 @@ export default function FlickCardStack() {
                   >
                     {card.title}
                   </span>
-                  <Link href={card.link} className="flex items-center gap-2">
+                  <Link prefetch={false} href={card.link} className="flex items-center gap-2">
                     <button className="relative md:text-base text-xs after:absolute text-white after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300 uppercase ">
                       {" "}
                       View Now{" "}

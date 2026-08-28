@@ -58,15 +58,6 @@ export const metadata = {
 const Page = () => {
   return (
     <>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YM0SJM65C3" />
-      <Script id="google-analytics">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-YM0SJM65C3');
-        `}
-      </Script>
 
       <GlobalLayout page={<HomePage />} />
 

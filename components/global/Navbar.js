@@ -241,7 +241,7 @@ const Navbar = ({ setIsOpen }) => {
     <div className="relative z-50">
       {/* Main Navigation */}
       <nav className="px-4 md:px-12 bg-transparent lg:px-28 xl:px-[120px] 2xl:px-48 h-20 flex items-center justify-between w-screen relative z-[60]">
-        <Link aria-label="logo" href="/" className="h-auto">
+        <Link prefetch={false} aria-label="logo" href="/" className="h-auto">
           <Image
             alt="Dignite Studios Logo"
             width={140}
@@ -256,7 +256,7 @@ const Navbar = ({ setIsOpen }) => {
           className="w-auto mx-auto hidden lg:flex justify-start items-center h-full lg:gap-6 xl:gap-8"
           style={{ color: pathname === "/" || pathname === "/case-studies/epic-rides" || pathname === "/case-studies/right-away" ? "#ffffff" : palette?.color }}
         >
-          <Link
+          <Link prefetch={false}
             href="/"
             className="text-[14px] font-medium hover:text-[#F15C20] transition-colors"
           >
@@ -282,7 +282,7 @@ const Navbar = ({ setIsOpen }) => {
             </div>
           ))}
 
-          <Link
+          <Link prefetch={false}
             href="/case-studies"
             className="text-[14px] font-medium hover:text-[#F15C20] transition-colors"
           >
@@ -291,7 +291,7 @@ const Navbar = ({ setIsOpen }) => {
         </div>
 
         <div className="flex gap-3 items-center">
-          <Link
+          <Link prefetch={false}
             href="/contact-us"
             className="text-[14px] font-medium bg-[#F15C20] text-white px-5 py-3 rounded-full hover:bg-[#e54a1a] transition-colors"
           >
@@ -333,7 +333,7 @@ const Navbar = ({ setIsOpen }) => {
                 {dropdownData[menuItem.key]?.map((section, sIdx) => (
                   <div key={sIdx} className="flex flex-col gap-6">
                     {section.items.map(([label, link], idx) => (
-                      <Link
+                      <Link prefetch={false}
                         key={idx}
                         href={link}
                         className="hover:text-[#F15C20] flex items-center gap-2 transition-colors duration-200 group"

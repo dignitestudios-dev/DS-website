@@ -76,7 +76,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         style={{ background: palette?.background }}
       >
         <div className="w-full flex gap-3 justify-start items-center px-10">
-          <Link href="/" onClick={() => setIsOpen(false)}>
+          <Link prefetch={false} href="/" onClick={() => setIsOpen(false)}>
             <Image
               alt="Dignite Studios Logo"width={100}
               height={64}
@@ -113,98 +113,98 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
                 style={{ color: palette?.color }}
               >
-                <Link
+                <Link prefetch={false}
                   href="/services/mobile-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Mobile App Development Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/web-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Web App Development Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/progressive-web-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   PWA Development Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/android-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Android App Development Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/ios-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   iOS App Development Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/native-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Native App Development Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/mobile-application-support-and-maintenance-services"
                   className={`hover:text-orange-600 text-start`}
                   onClick={() => setIsOpen(false)}
                 >
                   Mobile App Support & Maintenance Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/mobile-app-consultation"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Mobile App Consulting Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/mobile-app-testing-services"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Mobile App Testing Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/hybrid-app-development"
                   className={`hover:text-orange-600 text-start`}
                   onClick={() => setIsOpen(false)}
                 >
                   Hybrid App Development Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/generative-ai-development"
                   className={`hover:text-orange-600 text-start`}
                   onClick={() => setIsOpen(false)}
                 >
                   AI App Development Services
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/hire-mobile-application-developers"
                   className={`hover:text-orange-600 text-start`}
                   onClick={() => setIsOpen(false)}
                 >
                   Hire Mobile App Developers
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/hire-android-application-developers"
                   className={`hover:text-orange-600 text-start`}
                   onClick={() => setIsOpen(false)}
                 >
                   Hire Android App Developers
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/services/hire-ios-application-developers"
                   className={`hover:text-orange-600 text-start`}
                   onClick={() => setIsOpen(false)}
@@ -234,28 +234,28 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
                 style={{ color: palette?.color }}
               >
-                <Link
+                <Link prefetch={false}
                   href="/technologies/react-native-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   React Native App Development
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/technologies/flutter-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Flutter App Development
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/technologies/cross-platform-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Cross Platform App Development
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/technologies/ai-automation-services"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
@@ -285,35 +285,35 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
                 style={{ color: palette?.color }}
               >
-                <Link
+                <Link prefetch={false}
                   href="/industries/food-industry"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Food Industry
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/industries/real-estate-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Real Estate
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/industries/healthcare-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Healthcare
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/industries/dating-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
                 >
                   Dating / Matchmaking
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/industries/entertainment-app-development"
                   className={`hover:text-orange-600 `}
                   onClick={() => setIsOpen(false)}
@@ -343,70 +343,70 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
                 style={{ color: palette?.color }}
               >
-                <Link
+                <Link prefetch={false}
                   href="/locations/mobile-app-development-new-york"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   New York
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/locations/mobile-app-development-california"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   California
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/locations/mobile-app-development-seattle"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Seattle
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/locations/mobile-app-development-miami"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Miami
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/locations/mobile-app-development-tampa"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Tampa
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/locations/mobile-app-development-chicago"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Chicago
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/locations/mobile-app-development-boston"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Boston
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/locations/mobile-app-development-washington"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Washington
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/locations/mobile-app-development-charlotte"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Charlotte
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/locations/mobile-app-development-texas"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
@@ -436,49 +436,49 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 className={`w-full h-auto pl-2 rounded-2xl text-md hidden transition duration-150 group-hover:flex flex-col gap-4 justify-start items-start text-start`}
                 style={{ color: palette?.color }}
               >
-                <Link
+                <Link prefetch={false}
                   href="/ecommerce/shopify-app-development"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Shopify App Development
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/ecommerce/ecommerce-app-development"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Ecommerce App Development
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/ecommerce/shopify-store-development"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Shopify Store Development
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/ecommerce/woo-commerce-development"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   WooCommerce Development
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/ecommerce/big-commerce-development"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   BigCommerce Development
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/ecommerce/shopify-integration-development"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}
                 >
                   Shopify Integration Development
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/ecommerce/shopify-migration-services"
                   className={`hover:text-orange-600 `}
                    onClick={() => setIsOpen(false)}

@@ -20,7 +20,7 @@ const ProjectCard = ({
     useContext(GlobalContext);
 
   return (
-    <Link
+    <Link prefetch={false}
       href={projectLink}
       className={`group w-full h-[250px] lg:h-[326px]  hover:bg-[#F15C20] transition duration-500 pt-[6px] pb-[8px] px-[14px] lg:py-[28px] lg:px-[20px] flex flex-col lg:flex-row justify-start  items-start gap-2 lg:mb-6 relative ${
         theme == "dark" ? "bg-[#1c1c1c]" : "bg-[#f9f9f9]"
@@ -60,7 +60,7 @@ const ProjectCard = ({
         </p>
         <div className="w-full absolute bottom-0 left-2 mt-auto flex justify-start gap-2 items-center pr-1">
           {googleLink && (
-            <Link href={googleLink}>
+            <Link prefetch={false} href={googleLink}>
               <Image
                 //// width={134}
                 // height={40}
@@ -72,7 +72,7 @@ const ProjectCard = ({
             </Link>
           )}
           {appLink && (
-            <Link href={appLink}>
+            <Link prefetch={false} href={appLink}>
               <Image
                 //// width={134}
                 // height={40}
@@ -84,7 +84,7 @@ const ProjectCard = ({
             </Link>
           )}
           {webLink && (
-            <Link href={webLink}>
+            <Link prefetch={false} href={webLink}>
               <Image
                 //// width={134}
                 // height={40}

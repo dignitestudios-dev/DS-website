@@ -392,14 +392,14 @@ const GlobalLayout = ({ page }) => {
                           frequency may vary. For assistance, reply HELP or
                           email us at hello@dignitestudios.com. You may opt out
                           at any time by replying STOP. See our{" "}
-                          <Link
+                          <Link prefetch={false}
                             href="/terms-and-conditions"
                             className="text-blue-600"
                           >
                             Terms & Conditions
                           </Link>{" "}
                           and{" "}
-                          <Link
+                          <Link prefetch={false}
                             href="/privacy-policy"
                             className="text-blue-600"
                           >
