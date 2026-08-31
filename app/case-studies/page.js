@@ -15,13 +15,13 @@ const page = () => {
   //   <head>
   //   <meta name="robots" content="noindex, nofollow" />
   // </head>;
-    return (
-        <GlobalLayout page={
-          <Suspense fallback={<LazyLoader />}>
-            <CaseStudies />
-          </Suspense>
-        } />
-    )
+  return (
+    <GlobalLayout page={
+      <Suspense fallback={<LazyLoader />}>
+        <CaseStudies />
+      </Suspense>
+    } />
+  )
 }
 
 export default page
