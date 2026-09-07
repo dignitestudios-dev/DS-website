@@ -129,7 +129,7 @@ const Workflow = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className=" max-w-5xl mx-auto mb-20"
+          className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto mb-20"
         >
           This application wasn’t built by following the usual step-by-step
           linear process we use for custom mobile apps. The whole application

@@ -54,7 +54,7 @@ const Discorvery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className=" max-w-5xl mx-auto mb-20"
+          className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto mb-20"
         >
           During the discovery phase we personalized the mobile app development
           services to align with real needs of users. This also helped us design

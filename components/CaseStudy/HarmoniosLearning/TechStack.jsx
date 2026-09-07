@@ -32,7 +32,7 @@ const TechStack = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Tech <span className="dark:text-[#CEA3D8] text-purple-600">Stack</span>
           </h2>
-          <p className=" max-w-5xl mx-auto leading-relaxed text-base">
+          <p className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto">
             During the development of Harmonious Learning, we used Flutter and React Native, supported by a Node.js backend with Firebase or MongoDB for secure data handling. A React.js admin dashboard manages content, while structured roles and permissions keep Parent, Kid, and Creator experiences safe and distinct.
           </p>
         </motion.div>

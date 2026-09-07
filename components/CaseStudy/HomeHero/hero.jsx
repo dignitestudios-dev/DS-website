@@ -17,7 +17,7 @@ const Hero = () => {
             for Hiring  Trusted  Home Services
           </h1>
 
-          <p className="text-sm md:text-base  mb-8 ">
+          <p className="text-sm md:text-base leading-relaxed mb-8">
             The mobile device application called Home Hero was developed to make
             the hiring quite easy and also stress free. Furthermore it also acts
             as the digital marketplace which links households through the

@@ -20,7 +20,7 @@ const poppins = Poppins({
 
 const EpicRides = () => {
   return (
-   <div className={`w-full flex flex-col bg-[#000B00] pb-20 ${poppins.variable} font-poppins`}>
+   <div className={`w-full flex flex-col bg-[#000B00] pb-32 ${poppins.variable} font-poppins`}>
     <Hero/>
     <Workflow/>
     <Discovery/>

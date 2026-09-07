@@ -13,7 +13,7 @@ const Hero = () => {
             Calm, Creative Audio <br/> World For Kids
           </h1>
 
-          <p className="text-sm md:text-lg mb-8 ">
+          <p className="text-sm md:text-base leading-relaxed mb-8">
             When the world is full of chaotic, overstimulated applications that
             lack parental control and are actually impacting children’s mental
             health, we built an application that considered all these factors

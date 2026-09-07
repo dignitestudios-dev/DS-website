@@ -33,7 +33,7 @@ const BrandIdentity = () => {
           <h2 className="text-3xl md:text-[40px] font-bold mb-6">
             Brand <span className="text-[#36C0EF]">Identity</span>
           </h2>
-          <p className=" max-w-5xl px-2 relative z-50 mx-auto leading-relaxed ">
+          <p className="text-sm md:text-base leading-relaxed max-w-5xl px-2 relative z-50 mx-auto">
    When you think of CrewRoomz, imagine a brand that speaks your language. Professional, modern, and clean, just like the aviation world itself. The name blends “Crew” and “Roomz” to highlight community and a place to stay. Travel, airports, and comfort inspire colors, while typography is super clear and easy to read. And the tone is Friendly, supportive, and trustworthy, so you know CrewRoomz is your go-to partner whenever you’re on the move.  
           </p>
         </motion.div>

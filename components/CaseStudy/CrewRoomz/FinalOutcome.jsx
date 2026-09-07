@@ -66,7 +66,7 @@ const FinalOutcome = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="max-w-5xl mx-auto text-sm md:text-base"
+          className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto"
         >
           With CrewRoomz, you get a polished, professional web experience built
           just for aviation professionals. Built with expert{" "}

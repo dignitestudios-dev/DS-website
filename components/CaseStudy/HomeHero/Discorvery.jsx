@@ -78,7 +78,7 @@ const Discorvery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className=" max-w-5xl mx-auto mb-20"
+          className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto mb-20"
         >
           Our team conducted a deep study to identify gaps in home service
           marketplaces. Insights guided the design of Home Hero and shaped our
@@ -106,7 +106,7 @@ const Discorvery = () => {
 
                 <div className="pt-8 text-center h-36 ">
                   <h2 className="text-sm h-8 flex mb-3 dark:text-black items-start justify-center">{s.title}</h2>
-                  <p className="text-[13px] font-light">{s.desc}</p>
+                  <p className="text-sm font-light leading-snug">{s.desc}</p>
                 </div>
               </motion.div>
             ))}

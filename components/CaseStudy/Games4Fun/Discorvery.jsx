@@ -57,7 +57,7 @@ export default function Discovery() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-sm md:text-base max-w-4xl mx-auto mb-20"
+          className="text-sm md:text-base leading-relaxed max-w-4xl mx-auto mb-20"
         >
           A focused research process that helped shape a clear and simple direction
           for the custom web application.
@@ -90,7 +90,7 @@ export default function Discovery() {
                   />
 
                   {/* Text */}
-                  <p className="text-sm px-6 pt-4 text-[#0C0C0C] text-center">
+                  <p className="text-sm leading-relaxed px-6 pt-4 text-[#0C0C0C] text-center">
                     {item.desc}
                   </p>
                 </div>

@@ -28,7 +28,7 @@ const Wireframes = () => {
           <h2 className="text-3xl md:text-4xl font-bold  mb-4">
             Wireframe
           </h2>
-          <p className=" max-w-5xl mx-auto leading-relaxed">
+          <p className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto">
             The wireframes were designed to keep interactions effortless for
             young users, using simple layouts, large icons, and minimal text.
             Each screen highlights clear paths to Music, Stories, Lip-Sync, and

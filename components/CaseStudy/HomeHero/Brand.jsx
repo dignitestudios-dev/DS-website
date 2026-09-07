@@ -37,7 +37,7 @@ const BrandIdentity = () => {
           <h2 className="text-3xl md:text-[40px] font-bold mb-6">
             Brand <span className="dark:text-[#D9BBF9] text-[#64486D]">Identity</span>
           </h2>
-          <p className=" max-w-5xl px-2 relative z-50 mx-auto leading-relaxed ">
+          <p className="text-sm md:text-base leading-relaxed max-w-5xl px-2 relative z-50 mx-auto">
       The brand strategy focused on comfort. Consistency and trust. Calm neutrals, greens and soft blues have been used in the color palette to create a welcoming environment. For simple reading by all the groups, the typography was selected. Icon designs represented household tasks, care support, and quick actions. Every visual element worked well together to convey convenience and empowerment, supporting both sides of the marketplace.  
           </p>
         </motion.div>

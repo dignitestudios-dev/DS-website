@@ -85,7 +85,7 @@ const FinalOutcome = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className=" max-w-5xl mx-auto mb-12 px-4 md:px-0"
+          className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto mb-12 px-4 md:px-0"
         >
          Bioyap became the complete platform that combined social interaction, the niche marketplace, and a community coin system. The mobile app development services also contributed to the creation of clear, engaging products for the pharmaceutical industry. The smooth flow of coins increased activity, as users purchased items and supported peers. The simple interface received strong feedback for its clarity and also trust in the focused layout. The marketplace became a safe space for buying and selling within the community. BioYap is now a substantial addition to our community-driven app portfolio, demonstrating that niche platforms can create value as well.
         </motion.p>

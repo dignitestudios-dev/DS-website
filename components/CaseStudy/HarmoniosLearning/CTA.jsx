@@ -10,7 +10,7 @@ const CTA = () => {
       <div className="flex items-center justify-between">
         <div className="p-12 space-y-4 w-full md:w-[60%]">
           <h2 className="font-bold text-2xl">Got a kid-friendly app idea? Discuss Your Idea!</h2>
-          <p>
+          <p className="text-sm md:text-base leading-relaxed">
            Talk to our experts and figure out what actually works for kids and parents without overcomplicating things.
           </p>
           <Link href={"/contact-us"} className="flex items-center w-fit gap-3 relative z-50 bg-transparent p-4 border hover:border-black hover:bg-black hover:text-white transition ease-linear border-white text-white rounded-full">

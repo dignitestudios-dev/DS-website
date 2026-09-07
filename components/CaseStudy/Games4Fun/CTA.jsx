@@ -25,7 +25,7 @@ const CTA = () => {
           <h2 className="text-3xl md:text-5xl  font-semibold">
          Looking to build an AI Powered Platform
           </h2>
-          <p className=" text-lg md:text-xl">
+          <p className="text-sm md:text-base leading-relaxed">
             Let’s shape your next digital product through expert Web Application Development Services. 
           </p>
           <Link href={"/contact-us"} className="px-8 py-5 flex gap-2 items-center text-base rounded-full border transition ease-linear hover:bg-black hover:text-white border-white">
