@@ -504,7 +504,7 @@ const Challenges = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className=" max-w-5xl mx-auto mb-24 text-center"
+          className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto mb-24 text-center"
         >
           Creating the Home Hero as a two-sided marketplace involved practical
           challenges. Each problem was carefully solved with secure, scalable,
@@ -569,14 +569,14 @@ const Challenges = () => {
                   {...floatingAnimation}
                   initial={{ rotate: leftTilts[index % leftTilts.length] }}
                   whileHover={{ scale: 1.05, rotate: 0, y: -14 }}
-                  className="flex bg-white/70 ml-10 relative z-50 rounded-2xl p-4 items-center gap-3 h-[110px] w-[400px]"
+                  className="flex bg-white/70 ml-10 relative z-50 rounded-2xl p-4 items-center gap-3 min-h-[110px] h-auto w-[400px]"
                 >
                   <div className="w-10 h-10 rounded-full bg-red-500 text-white font-bold flex items-center justify-center ">
                     {point.icon}
                   </div>
                   <div className="">
                     <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
-                    <p className="text-xs text-[#000000]">{point.desc}</p>
+                    <p className="text-sm text-[#000000] leading-snug">{point.desc}</p>
                   </div>
                 </motion.div>
               ))}
@@ -590,11 +590,11 @@ const Challenges = () => {
                   {...floatingAnimation}
                   initial={{ rotate: rightTilts[index % rightTilts.length] }}
                   whileHover={{ scale: 1.05, rotate: 0, y: -14 }}
-                  className="flex items-center bg-white/70 relative h-[110px] mr-10 z-50 rounded-2xl p-4  gap-3 w-[400px] flex-row-reverse text-right"
+                  className="flex items-center bg-white/70 relative min-h-[110px] h-auto mr-10 z-50 rounded-2xl p-4  gap-3 w-[400px] flex-row-reverse text-right"
                 >
                   <div className="text-start">
                     <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
-                    <p className="text-xs text-[#000000]">{point.desc}</p>
+                    <p className="text-sm text-[#000000] leading-snug">{point.desc}</p>
                   </div>
                   <div className="w-10 h-10 rounded-full bg-red-500 text-white font-bold flex items-center justify-center ">
                     {point.icon}
@@ -612,14 +612,14 @@ const Challenges = () => {
                   // {...floatingAnimation}
                   // initial={{ rotate: leftTilts[index % leftTilts.length] }}
                   // whileHover={{ scale: 1.05, rotate: 0, y: -14 }}
-                  className="flex bg-white/70  relative z-50 rounded-2xl p-4 items-center gap-3 h-[110px] "
+                  className="flex bg-white/70  relative z-50 rounded-2xl p-4 items-center gap-3 min-h-[110px] h-auto "
                 >
                   <div className="w-10 h-10 rounded-full bg-red-500 text-white font-bold flex items-center justify-center ">
                     {point.icon}
                   </div>
                   <div className="">
                     <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
-                    <p className="text-xs text-[#000000]">{point.desc}</p>
+                    <p className="text-sm text-[#000000] leading-snug">{point.desc}</p>
                   </div>
                 </motion.div>
               ))}
@@ -670,7 +670,7 @@ const Challenges = () => {
                   </div>
                   <div className="">
                     <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
-                    <p className="text-xs text-[#000000]">{point.desc}</p>
+                    <p className="text-sm text-[#000000] leading-snug">{point.desc}</p>
                   </div>
                 </motion.div>
               ))}
@@ -701,14 +701,14 @@ const Challenges = () => {
                   // {...floatingAnimation}
                   // initial={{ rotate: leftTilts[index % leftTilts.length] }}
                   whileHover={{ scale: 1.05, rotate: 0, y: -14 }}
-                  className="flex bg-white/70  rounded-2xl relative h-[110px] ml-10 z-50 p-4 items-center gap-3 w-[400px]"
+                  className="flex bg-white/70  rounded-2xl relative min-h-[110px] h-auto ml-10 z-50 p-4 items-center gap-3 w-[400px]"
                 >
                   <div className="w-10 h-10 rounded-full bg-green-500 text-white font-bold flex items-center justify-center ">
                     {point.icon}
                   </div>
                   <div className="">
                     <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
-                    <p className="text-xs text-[#000000]">{point.desc}</p>
+                    <p className="text-sm text-[#000000] leading-snug">{point.desc}</p>
                   </div>
                 </motion.div>
               ))}
@@ -722,11 +722,11 @@ const Challenges = () => {
                   // {...floatingAnimation}
                   // initial={{ rotate: rightTilts[index % rightTilts.length] }}
                   whileHover={{ scale: 1.05, rotate: 0, y: -14 }}
-                  className="flex items-center rounded-2xl p-4 h-[110px] relative z-50 mr-10  bg-white/70  gap-3 w-[400px] flex-row-reverse text-right"
+                  className="flex items-center rounded-2xl p-4 min-h-[110px] h-auto relative z-50 mr-10  bg-white/70  gap-3 w-[400px] flex-row-reverse text-right"
                 >
                   <div className=" text-start">
                     <h4 className="font-bold text-black text-sm mb-1">{point.title}</h4>
-                    <p className="text-xs text-[#000000]">{point.desc}</p>
+                    <p className="text-sm text-[#000000] leading-snug">{point.desc}</p>
                   </div>
                   <div className="w-10 h-10 rounded-full bg-green-500 text-white font-bold flex items-center justify-center ">
                     {point.icon}

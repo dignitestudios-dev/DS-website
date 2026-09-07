@@ -125,7 +125,7 @@ const Workflow = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-gray-600 max-w-5xl mx-auto mb-20"
+          className="text-gray-600 text-sm md:text-base leading-relaxed max-w-5xl mx-auto mb-20"
         >
          The BioYap workflow was designed to deliver smooth mobile app development services supported by clean mobile app UI UX design and mobile app branding and design. 
         </motion.p>

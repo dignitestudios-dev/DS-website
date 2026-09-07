@@ -17,7 +17,7 @@ const CTA = () => {
           <h2 className="text-2xl font-bold md:text-4xl">
            Planning to launch a <span className="dark:text-white text-[#64486D]">digital marketplace </span> or  <span className="dark:text-white text-[#64486D]">service platform?</span>
           </h2>
-          <p className=" text-lg">
+          <p className="text-sm md:text-base leading-relaxed">
              Our team builds scalable and user focused mobile app development services that help your product grow.
           </p>
           <Link href={"/contact-us"} className="px-8 py-5   flex items-center gap-3 rounded-full border transition ease-linear text-white bg-gradient-to-r from-[#C28BD3] to-[#64486D]">

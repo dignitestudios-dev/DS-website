@@ -16,7 +16,7 @@ const CTA = () => {
           <h2 className="text-2xl md:text-4xl">
            Ready to build your <span className="font-bold">mobile app</span> with <br /> <span className="font-bold">a community</span> focused experience? 
           </h2>
-          <p className=" text-lg md:text-2xl">
+          <p className="text-sm md:text-base leading-relaxed">
             Let our team give you a clean smooth market ready product according
             to your idea. 
           </p>

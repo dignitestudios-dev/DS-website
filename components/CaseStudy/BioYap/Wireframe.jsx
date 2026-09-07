@@ -44,7 +44,7 @@ const Wireframe = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="  max-w-5xl mx-auto mb-16 px-4 md:px-0"
+          className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto mb-16 px-4 md:px-0"
         >
           We started with low-fidelity wireframes that covered the whole journey
           from the home feed to the marketplace wallet notifications and the

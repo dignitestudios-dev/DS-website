@@ -83,7 +83,7 @@ const Workflow = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className=" text-center max-w-5xl mx-auto mb-24"
+          className="text-sm md:text-base leading-relaxed text-center max-w-5xl mx-auto mb-24"
         >
           Our approach to PWA Development Services for Games4Fun followed the structured agile workflow. 
        
@@ -145,7 +145,7 @@ const Workflow = () => {
 
       {/* Content */}
       <h2 className=" dark:text-[#C100FF] text-[#48035A] font-medium mb-4 h-[25px]">{step.title}</h2>
-      <p className="text-sm h-[150px]">{step.text}</p>
+      <p className="text-sm min-h-[150px] leading-relaxed">{step.text}</p>
     </motion.div>
   ))}
 </div>

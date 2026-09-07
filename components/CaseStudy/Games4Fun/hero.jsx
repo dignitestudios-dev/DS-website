@@ -20,7 +20,7 @@ const Hero = () => {
           for Gaming PCs
           </h1>
 
-          <p className=" text-sm md:text-base  mb-8 ">
+          <p className="text-sm md:text-base leading-relaxed mb-8">
         Games4fun is a web app for gaming fans. It helps them build and buy a custom gaming PC easily. Users of the platform are quite able to select their own parts or can use the guided AI PC builder. It also suggests the best PC build based on the games or the needs of the performance. Moreover, gamers can use the FPS Calculator to estimate how many frames per second their system can produce, it increases the reliability of their purchase decision. Additionally, the platform has an admin interface through managing users, items and PC build suggestions. This web-based solution provides a simple interface that reduces technical barriers while offering gamers complete control over their custom builds. Games4fun is a powerful example of Web Application Development Services that combine clarity, usability, and performance.  
           </p>
 

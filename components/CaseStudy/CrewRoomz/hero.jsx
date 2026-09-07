@@ -18,7 +18,7 @@ const Hero = () => {
             Building a Trusted Global Stay  for Cabin Crews
           </h1>
 
-          <p className=" text-sm md:text-base  mb-8 ">
+          <p className="text-sm md:text-base leading-relaxed mb-8">
           CrewRoomz is built for cabin crew members who are always on the move and need a reliable place to rest. When the client came to Dignite Studios with the idea, we were really excited to offer our web application development services to create a custom web application that makes a difference in the world.  
             <br />
          With CrewRoomz, crew members can book anything from private rooms to multi-sharing spaces, and property owners can list their spaces after admin approval. We made sure to provide the web-based solutions that worked well for the client. So, at the end of the day, our Web App Development approach made CrewRoomz a trusted, safe, and community-driven platform for frequent travelers. 

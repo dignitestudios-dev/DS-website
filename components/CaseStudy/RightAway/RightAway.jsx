@@ -20,7 +20,7 @@ const poppins = Poppins({
 
 const RightAway = () => {
   return (
-    <div className={`w-full bg-[#151515] gap-24 flex flex-col lg:gap-32 -mt-40 overflow-x-hidden ${poppins.variable} font-poppins`}>
+    <div className={`w-full bg-[#151515] gap-24 flex flex-col lg:gap-32 pb-24 -mt-40 overflow-hidden ${poppins.variable} font-poppins`}>
   
 
       <Hero />

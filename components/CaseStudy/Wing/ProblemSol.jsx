@@ -46,7 +46,7 @@ const ProblemSol = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className=" max-w-5xl relative z-50 mx-auto mb-20"
+          className="text-sm md:text-base leading-relaxed max-w-5xl relative z-50 mx-auto mb-20"
         >
         Wing isn’t a regular dating app; it mixes personal matchmaking with friend involvement, so the problems were layered. We had to solve trust issues, keep the UX stupid-simple, prevent misuse, and still make the whole thing feel natural. Every challenge pushed us to create solutions that were clean, scalable, and aligned with how people actually date today.
         </motion.p>

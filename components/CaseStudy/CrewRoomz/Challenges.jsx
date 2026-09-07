@@ -33,7 +33,7 @@ const Challenges = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="mt-6  max-w-5xl mx-auto"
+          className="mt-6 text-sm md:text-base leading-relaxed max-w-5xl mx-auto"
         >
           There were multiple challenges when the developers started building
           CrewRoomz. These included trust, verification, usability, and content
@@ -227,7 +227,7 @@ const Solution = ({ title, text }) => (
 </svg>
 </div>
     <h4 className="text-[18px] font-semibold relative z-50 text-white">{title}</h4>
-    <p className="text-[14px] text-white mt-1 px-2  relative z-50 leading-tight">{text}</p>
+    <p className="text-sm text-white mt-1 px-2 relative z-50 leading-tight">{text}</p>
   </div>
 )
 

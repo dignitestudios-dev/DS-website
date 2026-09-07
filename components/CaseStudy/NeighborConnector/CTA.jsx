@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <section className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 w-full relative  mb-20 h-screen bg-[#FAFAFA] flex flex-col items-center o p-2 ">
+    <section className="-mt-12  -mb-8 lg:-mb-16 w-full relative  mb-20 h-screen bg-[#FAFAFA] flex flex-col items-center o p-2 ">
 
       {/* Container Card */}
       <motion.div

@@ -37,7 +37,7 @@ const TechStack = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Tech <span className="text-[#5BAFEB]">Stack</span>
           </h2>
-          <p className="text-gray-700 max-w-5xl relative z-50 mx-auto leading-relaxed text-base">
+          <p className="text-gray-700 text-sm md:text-base leading-relaxed max-w-5xl relative z-50 mx-auto">
          The backend of Wing is built on Node.js or Laravel with clean REST APIs. Data lives safely in PostgreSQL or MongoDB, chat happens in real time via Socket.io or Firebase, and subscriptions flow smoothly through Stripe or in-app purchases. Everything’s wrapped in secure encryption to keep user data private and profiles safe. We made sure that the client is satisfied with our mobile app development services. 
           </p>
         </motion.div>

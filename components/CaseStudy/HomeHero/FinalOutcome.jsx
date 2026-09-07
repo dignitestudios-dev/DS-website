@@ -89,7 +89,7 @@ const FinalOutcome = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className=" max-w-5xl mx-auto mb-12 px-4 md:px-0"
+          className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto mb-12 px-4 md:px-0"
         >
    HomeHero was delivered as a smooth, two-sided mobile marketplace that helped homeowners hire trusted support for everyday and care jobs. Job posting became simple, which boosted engagement and repeated usage. Providers gained much greater visibility and more opportunities through transparent bidding and subscription features. 
 

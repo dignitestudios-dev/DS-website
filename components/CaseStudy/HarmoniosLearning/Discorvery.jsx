@@ -41,7 +41,7 @@ const Discorvery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className=" max-w-5xl mx-auto mb-20"
+          className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto mb-20"
         >
           We didn’t just build everything on assumptions; we interviewed the
           parents who were concerned for their children’s safety and the kids

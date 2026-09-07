@@ -53,7 +53,7 @@ const FinalOutcome = () => {
           >
             Final <span className=" dark:text-[#CEA3D8] text-[#000086]">Outcome</span>
           </motion.h2>
-          <p className=" max-w-5xl mx-auto leading-relaxed px-4">
+          <p className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto px-4">
             Harmonious Learning successfully delivered a smooth, kid-friendly
             audio environment supported by clear and reliable parent controls.
             The redesigned experience made navigation effortless for children,

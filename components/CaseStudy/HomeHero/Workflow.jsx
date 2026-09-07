@@ -100,7 +100,7 @@ const Workflow = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className=" max-w-5xl mx-auto mb-24"
+          className="text-sm md:text-base leading-relaxed max-w-5xl mx-auto mb-24"
         >
           Our{" "}
           <Link
@@ -141,13 +141,13 @@ const Workflow = () => {
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true }}
-                        className="bg-white/90 w-[357px] flex flex-col justify-center relative h-[177px] backdrop-blur-lg rounded-[30px] p-5 shadow-lg text-center  mb-4"
+                        className="bg-white/90 w-[357px] flex flex-col justify-center relative min-h-[177px] backdrop-blur-lg rounded-[30px] p-5 shadow-lg text-center  mb-4"
                       >
                          <div className="absolute right-2" >{item.icon}</div>
                         <h4 className="font-semibold text-lg mb-1 text-[#64486D]">
                           {item.title}
                         </h4>
-                        <p className="text-xs text-gray-600 leading-relaxed">
+                        <p className="text-sm text-gray-600 leading-relaxed">
                           {item.desc}
                         </p>
                       </motion.div>
@@ -222,13 +222,13 @@ const Workflow = () => {
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true }}
-                        className="bg-white/90 flex flex-col justify-center relative w-[357px] h-[177px] backdrop-blur-lg rounded-[30px] p-5 shadow-lg text-center  mt-3"
+                        className="bg-white/90 flex flex-col justify-center relative w-[357px] min-h-[177px] backdrop-blur-lg rounded-[30px] p-5 shadow-lg text-center  mt-3"
                       >
                         <div className="absolute right-2" >{item.icon}</div>
                         <h4 className="font-semibold text-lg mb-1 text-[#64486D]">
                           {item.title}
                         </h4>
-                        <p className="text-xs text-gray-600 leading-relaxed">
+                        <p className="text-sm text-gray-600 leading-relaxed">
                           {item.desc}
                         </p>
                       </motion.div>
@@ -266,7 +266,7 @@ const Workflow = () => {
                   <h4 className="font-semibold text-[#64486D] mb-2">
                     {item.title}
                   </h4>
-                  <p className="text-sm text-gray-600">{item.desc}</p>
+                  <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
                 </motion.div>
               </div>
             ))}

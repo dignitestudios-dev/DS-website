@@ -79,7 +79,7 @@ const Challenges = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="mt-6 text-gray-600 max-w-5xl mx-auto"
+          className="mt-6 text-sm md:text-base leading-relaxed text-gray-600 max-w-5xl mx-auto"
         >
          This phase is focused on identifying the key obstacles that shaped the directions of PWA Development Services approach, followed by implementing the targeted solutions to address each of the challenges directly. Through strategic planning and strong UI/UX design, we transformed these cohesive, user-friendly platform experiences which ensures the clarity, performance and scalability
         </motion.p>
@@ -94,7 +94,7 @@ Problems
      {challenges.map((challenge, index) => (
       <div key={index} className="relative rounded-[75px] transition ease-linear hover:text-white hover:bg-[#FB3747] w-[350px] text-sm">
         <img src="/gamesfun/chall.webp" alt="Challenges Chall" />
-        <p className="absolute top-[50%] translate-y-[-50%] text-center p-2 ">{challenge.content}</p>
+        <p className="absolute top-[50%] translate-y-[-50%] text-center p-2 text-sm leading-snug">{challenge.content}</p>
       </div>
      ))}
 </div>
@@ -111,7 +111,7 @@ Problems
      {solutions.map((solution, index) => (
       <div key={index} className="relative rounded-[75px] transition ease-linear hover:text-white hover:bg-[#1ABF9A] w-[350px] text-sm">
         <img src="/gamesfun/sol.webp" alt="Challenges Sol" />
-        <p className="absolute top-[50%] translate-y-[-50%] text-center p-2 ">{solution}</p>
+        <p className="absolute top-[50%] translate-y-[-50%] text-center p-2 text-sm leading-snug">{solution}</p>
       </div>
      ))}
 </div>
