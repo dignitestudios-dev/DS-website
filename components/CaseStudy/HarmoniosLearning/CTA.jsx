@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <div className="-mt-12 lg:-mt-28 -mb-8 lg:-mb-16 max-w-7xl  mx-auto relative overflow-hidden rounded-3xl z-10 my-10 pt-10 text-white bg-gradient-to-r from-[#000086] to-[#CEA3D8]">
+    <div className="-mt-12 lg:-mt-24 -mb-8 lg:-mb-16 max-w-7xl  mx-auto relative overflow-hidden rounded-3xl z-10 my-10 pt-10 text-white bg-gradient-to-r from-[#000086] to-[#CEA3D8]">
       <img src="/hl-cta1.webp" alt="CTA Hl Cta1" className="absolute top-0" />
       <div className="flex items-center justify-between">
         <div className="p-12 space-y-4 w-full md:w-[60%]">

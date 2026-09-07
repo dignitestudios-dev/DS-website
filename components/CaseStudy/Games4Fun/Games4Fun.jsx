@@ -11,7 +11,7 @@ import Wireframe from './Wireframe'
 
 const Games4Fun = () => {
   return (
-      <div className="w-full flex flex-col gap-8 -mb-4 pb-20">
+      <div className="w-full flex flex-col gap-8 -mb-4 pb-52">
         <Hero/>
           <div className='relative z-50' >
     <img src='/gamesfun/bg.webp' alt='bg' className='absolute -top-[6%] w-screen z-0' />
