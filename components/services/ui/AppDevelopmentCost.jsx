@@ -41,15 +41,15 @@ const CARD_TWO_DATA = [
 ];
 
 const AppDevelopmentCost = ({
-  header = "How Much Does Android App ",
-  header2 = "Development Cost?",
-  para = "The cost of building an android application depends on features, complexity, integrations, security needs, design requirements and long term support. Understanding such factors helps businesses plan better development investments.",
+  header = "How Long Does Android App ",
+  header2 = "Development Take?",
+  para = "The timeline of building an android application depends on features, complexity, integrations, security needs, design requirements and long term support. Understanding such factors helps businesses plan better development investments.",
   tableData = TABLE_DATA,
   cardOneTitle = "Factors Affecting Development Costs",
   cardOneDesc = "Android app development costs change based on project requirements, feature complexity, third party integrations, backend systems, security standards, automation needs and ongoing maintenance requirements.",
   cardOneItems = CARD_ONE_DATA,
   cardTwoTitle = "Native Vs Cross Platform Considerations",
-  cardTwoDesc = "The development approach affects budget, timeline, maintenance and scalability. Native solutions provide strong platform performance, while cross platform frameworks which help to reduce costs through shared code and faster delivery.",
+  cardTwoDesc = "The development approach affects budget, timeline, maintenance and scalability. Native solutions provide strong platform performance, while cross platform frameworks help to reduce costs through shared code and faster delivery.",
   cardTwoItems = CARD_TWO_DATA,
   ctaText = "",
   ctaLink = "/contact-us"

@@ -12,13 +12,13 @@ const Hero = () => {
     <div className="w-full grid grid-cols-1  justify-start items-start ">
       <div className="flex relative z-20  w-[90%] md:w-[65%] flex-col text-center mx-auto items-center">
         <h1 className="text-4xl leading-[42px] lg:leading-[1.1] tracking-tighter md:text-7xl font-bold ">
-          Android App Development{" "}
+          Expert Android App Development Services for {" "}
           <span className="text-[#F15C20] ">
-             Services
+            Business Growth
           </span>{" "}
         </h1>
         <p className="text-lg my-6 dark:text-white text-[#5C5C5C]">
-  Build quick, safe and scalable apps with our android app development services. Our skilled developers create custom Android experiences according to your business needs.This covers MVPs, enterprise solutions, and AI apps. They drive engagement. They boost revenue. They help long-term business success. 
+          We cover the entire development process through our Android app development services. It includes UI/UX design, development, testing and launch. We build custom Android applications which offer smooth performance with the flexibility to scale as your business grows.
         </p>
 
         <Link
@@ -26,7 +26,7 @@ const Hero = () => {
           className="flex items-center group justify-center "
         >
           <button className="bg-[#F15C20] border-[#F15C20] border group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white text-sm  px-7 py-3 rounded-full font-normal transition-colors">
-           Get Free Android App Consultation
+             Schedule a Free Consultation
           </button>
           <button className="bg-[#F15C20] border-[#F15C20] border group-hover:bg-white group-hover:border group-hover:border-[#F15C20] group-hover:text-[#F15C20] text-white w-11 h-11 rounded-full flex items-center justify-center transition-colors text-lg">
             <MdArrowOutward />
@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
       <div className="relative flex justify-center h-[200px] md:h-[500px] items-center my-12 ">
         <Image
-        
+
           src="/services/mobile-app/grad.webp"
           alt="Looking for Android app development services? It d - Grad"
           width={2000}
@@ -53,28 +53,28 @@ const Hero = () => {
           }}
         >
           <Image
-           
+
             src="/services/android-app/mob.webp"
             alt="Mobile app development showcase Boston"
             width={1321}
             height={727}
             fetchPriority="high"
             priority
-          
+
             className="object-cover mt-8"
-            />
+          />
         </motion.div>
         <div className="relative md:hidden">
           <Image
-           
+
             src="/services/android-app/mob.webp"
             alt="Mobile app development showcase Boston"
             width={1821}
             height={927}
             fetchPriority="high"
             priority
-className="scale-150 mt-4 -mb-8"
-            />
+            className="scale-150 mt-4 -mb-8"
+          />
         </div>
         {/* <Imagesrc="/location/mobile-boston/r.webp"
           alt="Hero R"
