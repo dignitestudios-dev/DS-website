@@ -627,15 +627,15 @@ const StartupAppDevelopment = () => {
       />
       <Faq faqs={faqs} header="Commonly Asked Questions" />
       <ContactUs
-        pathname={"Real Estate App dev"}
+        pathname={"Startup App dev"}
         img={"/industries/real-state/c-img.webp"}
-        header="Start Your Real Estate App Journey"
+        header="Start Your Startup’s Success Journey With Us"
         para={
           <>
-            Share your app idea with our <Link href="/industries/real-estate-app-development" className="text-[#F15C20]">real estate app development company</Link>. We will guide you with the right solution and strategy.
+        Share your app idea with our Startup app development Company. We will guide you with the right solution and strategy.
           </>
         }
-        btn="Get Free Consultation "
+        btn="Contact Us Today"
       />
     </div>
   );
