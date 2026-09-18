@@ -104,6 +104,7 @@ const Footer = () => {
       { name: "Healthcare", href: "/industries/healthcare-app-development" },
       { name: "Dating / Matchmaking", href: "/industries/dating-app-development" },
       { name: "Entertainment ", href: "/industries/entertainment-app-development" },
+      { name: "Startup App Development", href: "/industries/startup-app-development" },
     ],
     ecommerce: [
       {
@@ -162,6 +163,7 @@ const Footer = () => {
         href: "/locations/mobile-app-development-charlotte",
       },
       { name: "Texas", href: "/locations/mobile-app-development-texas" },
+      { name: "Florida", href: "/locations/mobile-app-development-florida" },
     ],
     connect: [
       { name: "Facebook", href: "https://www.facebook.com/dignitestudios/" },
