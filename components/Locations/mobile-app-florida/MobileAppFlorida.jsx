@@ -326,22 +326,22 @@ Every project begins with understanding your business, your users and your goals
         }
       />
       <CTA />
-      <TechAndTools header={"Tools, Technologies & Frameworks "} para={"Do you ever wonder what exactly makes some apps feel so smooth while others look like a mess? Our mobile app development services in New York make sure yours runs smoothly, every time."} />
+      <TechAndTools header={"The Technology Stack for Florida Mobile App Development "} para={"We choose the technology stack based on your app’s features and users requirements. The developers work with a wide range of programming languages and frameworks for different types of projects. "} />
 
       <Testimonials
         test={test}
-        header={"Hear From Our New York"}
+        header={"Hear From Our Florida"}
         header2={"Clients"}
         para={""}
       />
       <Faq header={<>Frequently Asked Questions About App Development <span className="text-[#F15C20]">Florida</span></>} faqs={faqs} />
       <ContactUs
-        pathname={"Mobile Dev in New York "}
-        header={"Start Your App Journey with Our NYC Team "}
+        pathname={"Mobile Dev in Florida "}
+        header={"Start Your App Journey with Our Florida Team "}
         img={"/location/mobile-newyork/c-img.webp"}
         header2={""}
         para={
-          "Work with a team that understands your goals. Our New York-based experts take care of development, design, and deployment so your product has a strong market presence. "
+          "Work with a team that understands your goals. Our Florida-based experts take care of development, design, and deployment so your product has a strong market presence. "
         }
         btn={"Schedule a Free Call"}
       />
