@@ -158,6 +158,7 @@ const Navbar = ({ setIsOpen }) => {
         image: "/ind-r.webp",
         items: [
           ["Entertainment", "/industries/entertainment-app-development"],
+          ["Startup App Development", "/industries/startup-app-development"],
           // ["Dating App", "/industries/dating-app"],
         ],
       },
@@ -186,7 +187,10 @@ const Navbar = ({ setIsOpen }) => {
         ],
       },
       {
-        items: [["Texas", "/locations/mobile-app-development-texas"]],
+        items: [
+          ["Texas", "/locations/mobile-app-development-texas"],
+          ["Florida", "/locations/mobile-app-development-florida"],
+        ],
       },
     ],
     ecommerce: [

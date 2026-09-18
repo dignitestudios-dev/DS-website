@@ -27,6 +27,11 @@ export const getIndustryRoute = (title) => {
     return '/industries/entertainment-app-development';
   }
   
+  // Startup variations
+  if (titleLower.includes('startup') || titleLower.includes('startups')) {
+    return '/industries/startup-app-development';
+  }
+  
   // E-commerce variations
   if (titleLower.includes('ecommerce') || titleLower.includes('e-commerce') || titleLower.includes('retail') || titleLower.includes('shopping')) {
     return '/ecommerce/ecommerce-app-development';

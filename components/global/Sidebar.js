@@ -320,6 +320,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 >
                   Entertainment App
                 </Link>
+                <Link
+                  href="/industries/startup-app-development"
+                  className={`hover:text-orange-600 `}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Startup App Development
+                </Link>
               </div>
             )}
           </button>
@@ -412,6 +419,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                    onClick={() => setIsOpen(false)}
                 >
                   Texas
+                </Link>
+                <Link
+                  href="/locations/mobile-app-development-florida"
+                  className={`hover:text-orange-600 `}
+                   onClick={() => setIsOpen(false)}
+                >
+                  Florida
                 </Link>
               </div>
             )}
